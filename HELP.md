@@ -46,7 +46,7 @@
   - Bash: *It depends.* On MacOS, use `open <folder_name>`. On Linux, use `gnome-open <folder_name>`, `nautilus <folder_name>` or something relevant to your distribution.
 - VS Code commands (works with all 3 languages):
     - Open the current folder in VS Code as a new project: `code .`
-    - Open a file in VS Code and create it if it doesn't exists: `code <file_name>`
+    - Open a file in VS Code and create it if it doesn't exist: `code <file_name>`
 
 ## What's the difference between Git and GitHub?
 
