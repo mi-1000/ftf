@@ -129,7 +129,7 @@
 - Environment variables are not specific to Python, but we will use them in our project. They are a set of key-value pairs (i.e. `PASSWORD=1234`) that we will use frequently across the whole project.
 - For this, we create a file called `.env`, where we store all sensitive data like passwords, API keys, database accesses etc., as well as stuff like e.g. the name of the model we are running.
 - This file is personal and shall not be shared on GitHub. If we need to share data relative to environment variables, we should use Discord instead, or even face-to-face if possible. Yes, it's annoying, but it's a matter of security, and also a good habit to take for later.
-- We can access environment variables from anywhere in our project using `dotenv.load_dotenv()` followed by `os.environ.get("<variable>")` (you have to install the relevant packages first).
+- We can access environment variables from anywhere in our project using `dotenv.load_dotenv()` followed by `os.getenv("<variable>")` (you have to install the relevant packages first).
 - We can also add comments in the `.env` file the same way as in Python.
 - We can store encrypted values for the most sensitive ones, and then decrypt them when reading them from the `.env` file.
 
