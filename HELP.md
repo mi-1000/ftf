@@ -153,7 +153,6 @@
 - We can store encrypted values for the most sensitive ones, and then decrypt them when reading them from the `.env` file.
 - That's it for Python 😀
 
-<<<<<<< HEAD
 ## How to set up WSL
 
 - During the project, we will need to use a Bash terminal at some point. If you use Linux or MacOS, that's not a problem for you, but if you are a Windows user like me, and you still want to be able to run a Unix-like system on your computer, there is a great solution that doesn't even require risking corrupting your system 🙂
@@ -208,6 +207,3 @@ Host nancy.g5k
   - Nano: Press <kbd>Ctrl</kbd>+<kbd>S</kbd>, then <kbd>Ctrl</kbd>+<kbd>X</kbd>.
   - Vim: Type `:wq` in normal mode.
 - You should now be able to connect directly to the servers in Nancy using just `ssh nancy.g5k` 🥳
-=======
-- That's it 😀
->>>>>>> 8a1497934f9ce9e1a290e2871d776397d2807b48
