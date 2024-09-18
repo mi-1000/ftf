@@ -1,10 +1,22 @@
 # Help guide
 
+
+```
+ /$$$$$$$$ /$$$$$$$$ /$$$$$$$$                     /$$   /$$ /$$$$$$$$ /$$       /$$$$$$$ 
+|__  $$__/| $$_____/|__  $$__/                    | $$  | $$| $$_____/| $$      | $$__  $$
+   | $$   | $$         | $$                       | $$  | $$| $$      | $$      | $$  \ $$
+   | $$   | $$$$$      | $$          /$$$$$$      | $$$$$$$$| $$$$$   | $$      | $$$$$$$/
+   | $$   | $$__/      | $$         |______/      | $$__  $$| $$__/   | $$      | $$____/ 
+   | $$   | $$         | $$                       | $$  | $$| $$      | $$      | $$      
+   | $$   | $$         | $$                       | $$  | $$| $$$$$$$$| $$$$$$$$| $$      
+   |__/   |__/         |__/                       |__/  |__/|________/|________/|__/      
+```
+
 ## How to know which terminal language I am using?
 - In this guide, I will show commands for 3 languages, CMD, PowerShell and Bash:
   - CMD is used on Windows. It's less powerful than PowerShell, I personally don't like it, but it's totally okay for what we do. You should know you are using CMD if typing the command `ls` gives you an error.
   - PowerShell is the newer terminal language used by Windows. It is the default language in the terminal integrated to VS Code. It supports autocompletion using <kbd>TAB</kbd>.
-  - Bash is used on MacOS and Linux. You can also technically run it natively on Windows through WSL, but if you know how to do that, you probably don't need this guide.
+  - Bash is used on MacOS and Linux. You can also run it natively on Windows through WSL, which I will cover later in this guide.
 
 ## Useful terminal commands
 
@@ -14,17 +26,17 @@
   - CMD: `dir`
   - PowerShell/Bash: `ls` - Tip: You can apply filters, for example, running `ls *.py` lists Python files only, `ls -dir d*` in PowerShell lists all subfolders whose name start with a `d`.
 - Copy a file:
-  - CMD: `copy <source> <destination>` - Example: `copy test.py ../file.py` copies `test.py` from your current folder into the parent folder and renames the copied file as `file.py`
+  - CMD: `copy <source> <destination>` - Example: `copy test.py ../file.py` copies `test.py` from your current folder into the parent folder, and renames the copied file as `file.py`.
   - PowerShell/Bash: `cp <source> <destination>`
 - Move a file:
   - CMD: `move <source> <destination>`
-  - PowerShell/Bash: `mv <source> <destination>` - Tip: You can also rename a file by moving it into the same folder, but with a different name: `mv test.py file.py` renames `test.py` to `file.py`
+  - PowerShell/Bash: `mv <source> <destination>` - Tip: You can also rename a file by moving it into the same folder, but with a different name: `mv test.py file.py` renames `test.py` to `file.py`.
 - Create a file:
-  - CMD: `type NUL > <file_name>` (that's why I don't like CMD)
+  - CMD: `type NUL > <file_name>` (that's why I don't like CMD).
   - PowerShell: `ni <file_name>`
   - Bash: `touch <file_name>`
 - Delete a file:
-  - CMD: `del <file_name>` - Note: This deletes the file permanently without moving it to the recycle bin (that's also true for both other languages)
+  - CMD: `del <file_name>` - Note: This deletes the file permanently without moving it to the recycle bin (that's also true for both other languages).
   - PowerShell/Bash: `rm <file_name>`
 - Display the content of a file:
   - CMD: `type <file_name>`
@@ -39,14 +51,21 @@
   - Bash: `rm -r <folder_name>` - Note: You can use the flag `-f` (`rm -rf`) to bypass warnings or errors, but use it at your own risk. Typing `rm -rf /` by accident can destroy all files in your computer forever.
 - Clear the console:
   - CMD/PowerShell: `cls`
-  - PowerShell/Bash: `clear` (yes, both work with PowerShell)
+  - PowerShell/Bash: `clear` (yes, both work with PowerShell).
 - Open the file explorer:
   - CMD/PowerShell: `start <folder_name>` - Tip: To open it in the current folder, use `start .`
   - PowerShell: `ii <folder_name>` - Tip: `ii .` works as well.
   - Bash: *It depends.* On MacOS, use `open <folder_name>`. On Linux, use `gnome-open <folder_name>`, `nautilus <folder_name>` or something relevant to your distribution.
+- Open a file in the default app associated with this file type:
+  - CMD/PowerShell: `start <file_name>`
+  - PowerShell: `ii <file_name>`
+  - Bash: *See above.*
 - VS Code commands (works with all 3 languages):
     - Open the current folder in VS Code as a new project: `code .`
     - Open a file in VS Code and create it if it doesn't exists: `code <file_name>`
+- Stop a process:
+  - If a program you are running in your terminal is stuck, you can force stop it using <kbd>Ctrl</kbd>+<kbd>C</kbd>.
+  - As this shortcut is taken, you need to use <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>C</kbd> for copying. Likewise, you might have to use <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>V</kbd> for pasting.
 
 ## What's the difference between Git and GitHub?
 
@@ -87,13 +106,13 @@
 - You can add exceptions with the bang character `!`:
   - `!example.py` tells Git to track `example.py`, even if you added the line `*.py`.
 - You can use hashtags `#` to add comments like in Python.
-- (Do not touch this file if you are unsure what you are doing, and always make sure you do not upload sensitive data by mistake, because it will be tracked by Git and anybody will be able to find it even if it does not appear in the final version of the project, this is why it is best to ask everybody first)
+- (Do not touch this file if you are unsure what you are doing, and always make sure you do not upload sensitive data by mistake, because it will be tracked by Git and anybody will be able to find it even if it does not appear in the final version of the project, this is why it is best to ask everybody first).
 
 ### Let's come back to Git functionalities
 
 - Git allows you to store your changes locally even if you don't have an Internet access:
   - On GitHub Desktop: `Commit to <branch>`
-  - CMD/PowerShell/Bash: `git commit -a -m "<a_short_summary_of_your_changes>"` - The flag `-a` stands for "all", but you can commit some specific files only if you prefer, by specifying their name instead
+  - CMD/PowerShell/Bash: `git commit -a -m "<a_short_summary_of_your_changes>"` - The flag `-a` stands for "all", but you can commit some specific files only if you prefer, by specifying their name instead.
 - You then might want to share your changes with others and upload them to the remote repository on Github, so that others can pull your changes:
   - On GitHub Desktop: `Push changes`
   - CMD/PowerShell/Bash: `git push`
@@ -113,7 +132,7 @@
 - You now need to activate your virtual environment:
   - CMD: `call .venv/Scripts/activate`
   - PowerShell: `.venv/Scripts/Activate.ps1` - Note: if you get an error message, try to run `Set-ExecutionPolicy RemoteSigned -Scope CurrentUser` first.
-  - Bash: `source .venv/bin/activate` (if it doesn't work, use `. .venv/bin/activate` instead)
+  - Bash: `source .venv/bin/activate` (if it doesn't work, use `. .venv/bin/activate` instead).
 - You should now see lines in the terminal starting with `(.venv)` if you have correctly activated it.
 - To deactivate it:
   - CMD/PowerShell/Bash: `deactivate`
@@ -132,5 +151,59 @@
 - We can access environment variables from anywhere in our project using `dotenv.load_dotenv()` followed by `os.environ.get("<variable>")` (you have to install the relevant packages first).
 - We can also add comments in the `.env` file the same way as in Python.
 - We can store encrypted values for the most sensitive ones, and then decrypt them when reading them from the `.env` file.
+- That's it for Python 😀
 
-- That's it 😀
+## How to set up WSL
+
+- During the project, we will need to use a Bash terminal at some point. If you use Linux or MacOS, that's not a problem for you, but if you are a Windows user like me, and you still want to be able to run a Unix-like system on your computer, there is a great solution that doesn't even require risking corrupting your system 🙂
+- The simplest way is to install the Windows Subsystem for Linux (aka WSL). Your computer integrates a Linux kernel, which Windows can use to make calls directly to Linux, just as if you had a second operating system. It is very lightweit, so you will not need more than 1-2 GB of free disk space.
+- The installation process is very straightforward:
+  - You can use either CMD or PowerShell for this, I would recommend PowerShell, but it doesn't really matter.
+  - Install WSL with an Ubuntu distribution by default: `wsl --install` - Note: if `wsl` doesn't work, try to use `wsl.exe` instead.
+  - Install WSL with another distribution: `wsl --install -d <distribution_name>`
+  - List available distributions: `wsl -l -o` - Note: You can have several distributions installed, and then switch between them upon starting WSL, using `wsl -d <distribution_name`.
+- I recommend you to install the default Ubuntu distribution for now. This is the one I will use in my next examples.
+- Once WSL is installed, restart your computer.
+- You can now open your terminal and run `wsl` to start WSL. Even better, you can call the program directly, using <kbd>Win</kbd>+<kbd>R</kbd>, then typing `wsl`.
+- For the first launch, you will have to set up a password for your super user (`sudo`). You will use it quite a lot, so don't take something overcomplicated; 6 letters is enough.
+- In case you forget your password, run `wsl -u root`. This will connect you to WSL directly as a super user. You can then type `passwd <username>` to reset your password.
+- You have your Linux home directory located at `~/` (shortcut for `/home/<username>`), but you can also access your Windows user directory from within WSL at `/mnt/c/Users/<username>`.
+- If you have Ubuntu, you can install `nautilus` by running `sudo apt install nautilus` (see why it's better to have a short password). You can then launch it by typing `nautilus`. This package integrates a GUI for your file explorer, so you can see your files in a more pleasant way.
+- If you are interested in seeing what packages are available by default on your distribution, type `apt list` (you can add a filter to your search using the wildcard `*` character, like with the `ls` command for instance). To install any package (that is any application or software, say `python3` for example), just run `sudo apt install <package_name>`, no need to download it manually from the internet nor to unzip or extract anything 😃
+
+## How to set up Grid5k
+
+- Now you have access to a Linux distribution, it will be easier to set up your access to Grid5k.
+- First, from the email you have received, write down your username somewhere (should be the first letter of your last name + your full first name, all in lowercase, without any diacritics), and click on the link to create your password.
+- You will see you are also being asked to give a public key. So how does that work?
+
+### What are SSH keys and how to generate them?
+
+- SSH is a communication protocol (like HTTP, I'm sure know about) used to communicate securely between your computer and a distant server. It uses asymmetric cryptography, so you generate 2 hashed keys, one, private, that you will keep only on your own computer, and the other one, public, that you will give to servers you want to access. A response from the server, crypted with the public key, can only be deciphered on your side using the private key, and vice-versa.
+- First of all, make sure the directory `~/.ssh` exists. You can verify it quickly by typing `ls ~/.ssh`; you should see an error if the directory doesn't exist. If this is the case, type `mkdir ~/.ssh`. Now, set the access permissions with `chmod 700 ~/.ssh`, and you're all set.
+- To generate a set of public and private keys, you can use the command `ssh-keygen`. You should be prompted to save in `~/.ssh/id_rsa` by default, or at a location of your choice. Press enter to save at the default location. Choose a robust passphrase that you will use to access your private key, but definitely something you are going to remember, as you will need it each time you want to connect to the server. Now type `ls ~/.ssh` again, and you should see 2 files, named `id_rsa` and `id_rsa.pub`. You can use `cat` (see [here](#useful-terminal-commands)) to show the content of those files. The file `id_rsa.pub` is your public key, this is the one you should give to Grid5k's servers. It should look like this: `ssh-<ciphering_algorithm> <key> <user>@<server>`, with `<ciphering_algorithm>` being `rsa` by default and `<server>` the name of your computer.
+
+### First connection to Grid5k
+
+- You should now be able to connect to Grid5k by typing `ssh -i ~/.ssh/id_rsa <username>@access.grid5000.fr`, with `<username>` being the one you should have received in the first email as said previously, and entering the passphrase you chose upon key generation.
+- Once in, type `ssh nancy` to access the servers located in Nancy.
+- To log out, type `logout` or `exit`. You should have to do it twice for now if you followed the steps carefully.
+
+### Connect faster
+
+- It is annoying to have to type such a long command to be able to access the server, so we are going to write a config file that will skip most of these steps for us.
+- In `~/.ssh`, create a file named `config` (remember, we use `touch`). Set access rules with `chmod 600 config`.
+- Open the file. You can either download a GUI notepad for Linux (honestly, you don't need that), or use an already preinstalled CLI text editor like `nano` or `vim`. I recommend `nano` for the moment, because `vim` is the final boss of text editors, it's very powerful but also unusable without at least a couple hours of practice. Depending on what you choose, type `nano config` or `vim config` (remember you have to be in `~/.ssh`).
+- Paste the following lines into `config` using right-click, and replace `<username>` by your real username:
+```
+Host nancy.g5k
+  HostName nancy
+  User <username>
+  IdentityFile ~/.ssh/id_rsa
+  ProxyJump <username>@access.grid5000.fr
+```
+- If the formatting is broken, replace the spaces by one indentation (using <kbd>TAB</kbd>).
+- To save and quit:
+  - Nano: Press <kbd>Ctrl</kbd>+<kbd>S</kbd>, then <kbd>Ctrl</kbd>+<kbd>X</kbd>.
+  - Vim: Type `:wq` in normal mode.
+- You should now be able to connect directly to the servers in Nancy using just `ssh nancy.g5k` 🥳
