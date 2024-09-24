@@ -1,21 +1,21 @@
 # Help guide
 
-
 ```
  /$$$$$$$$ /$$$$$$$$ /$$$$$$$$                     /$$   /$$ /$$$$$$$$ /$$       /$$$$$$$ 
 |__  $$__/| $$_____/|__  $$__/                    | $$  | $$| $$_____/| $$      | $$__  $$
    | $$   | $$         | $$                       | $$  | $$| $$      | $$      | $$  \ $$
    | $$   | $$$$$      | $$          /$$$$$$      | $$$$$$$$| $$$$$   | $$      | $$$$$$$/
    | $$   | $$__/      | $$         |______/      | $$__  $$| $$__/   | $$      | $$____/ 
-   | $$   | $$         | $$                       | $$  | $$| $$      | $$      | $$      
-   | $$   | $$         | $$                       | $$  | $$| $$$$$$$$| $$$$$$$$| $$      
-   |__/   |__/         |__/                       |__/  |__/|________/|________/|__/      
+   | $$   | $$         | $$                       | $$  | $$| $$      | $$      | $$    
+   | $$   | $$         | $$                       | $$  | $$| $$$$$$$$| $$$$$$$$| $$    
+   |__/   |__/         |__/                       |__/  |__/|________/|________/|__/    
 ```
 
 ## How to know which terminal language I am using?
+
 - In this guide, I will show commands for 3 languages, CMD, PowerShell and Bash:
   - CMD is used on Windows. It's less powerful than PowerShell, I personally don't like it, but it's totally okay for what we do. You should know you are using CMD if typing the command `ls` gives you an error.
-  - PowerShell is the newer terminal language used by Windows. It is the default language in the terminal integrated to VS Code. It supports autocompletion using <kbd>TAB</kbd>.
+  - PowerShell is the newer terminal language used by Windows. It is the default language in the terminal integrated to VS Code. It supports autocompletion using `<kbd>`TAB`</kbd>`.
   - Bash is used on MacOS and Linux. You can also run it natively on Windows through WSL, which I will cover later in this guide.
 
 ## Useful terminal commands
@@ -47,7 +47,7 @@
   - CMD/PowerShell/Bash: `rmdir <folder_name>` - Note: This removes the folder permanently, same as above with `del`/`rm`
 - Remove a folder and all files inside:
   - CMD: `rd/s/q <folder_name>` - Note: I've already said it, but this removes all the files permanently without any possible backup. Same applies for both other languages.
-  - PowerShell: `rm -Recurse -Force <folder_name>` - Note: That's long to type, so don't forget to use autocompletion with <kbd>TAB</kbd>.
+  - PowerShell: `rm -Recurse -Force <folder_name>` - Note: That's long to type, so don't forget to use autocompletion with `<kbd>`TAB`</kbd>`.
   - Bash: `rm -r <folder_name>` - Note: You can use the flag `-f` (`rm -rf`) to bypass warnings or errors, but use it at your own risk. Typing `rm -rf /` by accident can destroy all files in your computer forever.
 - Clear the console:
   - CMD/PowerShell: `cls`
@@ -61,11 +61,11 @@
   - PowerShell: `ii <file_name>`
   - Bash: *See above.*
 - VS Code commands (works with all 3 languages):
-    - Open the current folder in VS Code as a new project: `code .`
-    - Open a file in VS Code and create it if it doesn't exists: `code <file_name>`
+  - Open the current folder in VS Code as a new project: `code .`
+  - Open a file in VS Code and create it if it doesn't exists: `code <file_name>`
 - Stop a process:
-  - If a program you are running in your terminal is stuck, you can force stop it using <kbd>Ctrl</kbd>+<kbd>C</kbd>.
-  - As this shortcut is taken, you need to use <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>C</kbd> for copying. Likewise, you might have to use <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>V</kbd> for pasting.
+  - If a program you are running in your terminal is stuck, you can force stop it using `<kbd>`Ctrl`</kbd>`+`<kbd>`C`</kbd>`.
+  - As this shortcut is taken, you need to use `<kbd>`Ctrl`</kbd>`+`<kbd>`Shift`</kbd>`+`<kbd>`C`</kbd>` for copying. Likewise, you might have to use `<kbd>`Ctrl`</kbd>`+`<kbd>`Shift`</kbd>`+`<kbd>`V`</kbd>` for pasting.
 
 ## What's the difference between Git and GitHub?
 
@@ -83,7 +83,7 @@
   - CMD/PowerShell/Bash (make sure you're in the right folder before cloning) : `git clone https://github.com/mi-1000/ftf`
 - One nice feature of Git is branches: imagine the project as a tree, every change you make being a leaf, and branches allowing you to split the work between different people and/or functionalities. Thus, if you make a change on one branch, it doesn't affect the other ones. You can then merge branches to one another to update functionalities step by step.
 - The main branch in our project is called `main`, it is the one where we put all the code that is working and that we are sure we will not change anymore. For all the work in progress, we use other branches.
--  We do that by creating a "pull request", and asking for a code review to others. After corrections have been made if needed and once everybody agrees your code is working, we can merge your code into the `main` branch.
+- We do that by creating a "pull request", and asking for a code review to others. After corrections have been made if needed and once everybody agrees your code is working, we can merge your code into the `main` branch.
 - **Never push changes to the `main` branch directly! Always create a pull request or work on a separate branch!**
 - Always make sure you're working on the right branch:
   - On GitHub Desktop: `Current branch`
@@ -164,7 +164,7 @@
   - List available distributions: `wsl -l -o` - Note: You can have several distributions installed, and then switch between them upon starting WSL, using `wsl -d <distribution_name`.
 - I recommend you to install the default Ubuntu distribution for now. This is the one I will use in my next examples.
 - Once WSL is installed, restart your computer.
-- You can now open your terminal and run `wsl` to start WSL. Even better, you can call the program directly, using <kbd>Win</kbd>+<kbd>R</kbd>, then typing `wsl`.
+- You can now open your terminal and run `wsl` to start WSL. Even better, you can call the program directly, using `<kbd>`Win`</kbd>`+`<kbd>`R`</kbd>`, then typing `wsl`.
 - For the first launch, you will have to set up a password for your super user (`sudo`). You will use it quite a lot, so don't take something overcomplicated; 6 letters is enough.
 - In case you forget your password, run `wsl -u root`. This will connect you to WSL directly as a super user. You can then type `passwd <username>` to reset your password.
 - You have your Linux home directory located at `~/` (shortcut for `/home/<username>`), but you can also access your Windows user directory from within WSL at `/mnt/c/Users/<username>`.
@@ -195,6 +195,7 @@
 - In `~/.ssh`, create a file named `config` (remember, we use `touch`). Set access rules with `chmod 600 config`.
 - Open the file. You can either download a GUI notepad for Linux (honestly, you don't need that), or use an already preinstalled CLI text editor like `nano` or `vim`. I recommend `nano` for the moment, because `vim` is the final boss of text editors, it's very powerful but also unusable without at least a couple hours of practice. Depending on what you choose, type `nano config` or `vim config` (remember you have to be in `~/.ssh`).
 - Paste the following lines into `config` using right-click, and replace `<username>` by your real username:
+
 ```
 Host nancy.g5k
   HostName nancy
@@ -202,8 +203,12 @@ Host nancy.g5k
   IdentityFile ~/.ssh/id_rsa
   ProxyJump <username>@access.grid5000.fr
 ```
-- If the formatting is broken, replace the spaces by one indentation (using <kbd>TAB</kbd>).
+
+- If the formatting is broken, replace the spaces by one indentation (using `<kbd>`TAB `</kbd>`).
 - To save and quit:
-  - Nano: Press <kbd>Ctrl</kbd>+<kbd>S</kbd>, then <kbd>Ctrl</kbd>+<kbd>X</kbd>.
+  - Nano: Press `<kbd>`Ctrl `</kbd>`+`<kbd>`S `</kbd>`, then `<kbd>`Ctrl `</kbd>`+`<kbd>`X `</kbd>`.
   - Vim: Type `:wq` in normal mode.
 - You should now be able to connect directly to the servers in Nancy using just `ssh nancy.g5k` 🥳
+- Even better, you can add an alias to shorten this command even more:
+  - `alias XXX='ssh nancy.g5k'`
+  - You can now connect by just typing `XXX` in your terminal!
