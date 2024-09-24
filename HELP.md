@@ -212,3 +212,4 @@ Host nancy.g5k
 - Even better, you can add an alias to shorten this command even more:
   - `alias XXX='ssh nancy.g5k'`
   - You can now connect by just typing `XXX` in your terminal!
+  - If you want a permanent alias, you can modify your `~/.bashrc` file and add the given line.
