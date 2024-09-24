@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:me="http://www.menota.org/ns/1.0" xmlns:bfm="http://bfm.ens-lsh.fr/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:lang="fr">
+  <fileDesc>
+    <titleStmt>
+      <title type="main">Prologue de la Vie de saint Alexis</title>
+      <title type="formal">AlexisProl</title>
+      <title type="reference">AlexisProlRaM</title>
+      <title type="DEAF">AlexisRaM*</title>
+      <title type="gmd">transcription électronique</title>
+      <author xml:id="anonyme">anonyme</author>
+      <editor>Équipe de la Base de français médiéval - ENS de Lyon / UMR 5317 IHRIM</editor>
+      <funder>Laboratoire IHRIM</funder>
+    </titleStmt>
+    <editionStmt>
+      <edition>transcripion électronique</edition>
+      <respStmt xml:id="encoder1">
+        <resp>adaptation du format pour la BFM et validation finale</resp>
+        <name xml:id="AL">Alexei Lavrentiev</name>
+      </respStmt>
+      <respStmt xml:id="transcriber">
+        <resp>Trancription primaire multi-facettes</resp>
+        <name xml:id="TMR">Thomas Rainsford</name>
+      </respStmt>
+    </editionStmt>
+    <extent>- Numéros de pages saisies : de 29r à 29r ;
+            - Nombre de mots d'après la base des descripteurs : <num xml:id="nb_mots_given">122</num> ;
+            - Nombre de tokens (mots et ponctuations) d'après la base des descripteurs : <num xml:id="nb_tokens_given">131</num>.
+    </extent>
+    <publicationStmt>
+      <publisher><name>Projet BFM, ENS de Lyon / UMR 5317 IHRIM</name></publisher>
+      <address>
+        <addrLine>15, parvis René Descartes</addrLine>
+        <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+        <addrLine>Tél : 04 37 37 63 10</addrLine>
+        <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+        <addrLine>http://bfm.ens-lyon.fr</addrLine>
+      </address>
+      <idno type="bfm">http://catalog.bfm-corpus.org/AlexisProlRaM</idno>
+      <idno type="doi">&#xD;</idno>
+      <availability status="free">
+        <licence target="https://www.etalab.gouv.fr/licence-ouverte-open-licence">
+          <ab type="availability_bfm" subtype="libre_1b">Les Conditions générales d'utilisation de la Base de Français Médiéval (http://txm.bfm-corpus.org/bfm/files/CGU.pdf), 
+            et notamment son Article 5 « PROPRIETE INTELLECTUELLE », s'appliquent à tous les textes de la BFM.</ab>
+          <ab type="how_to_cite">
+            <label>Comment citer ce texte :</label>
+            <bibl>Prologue de la Vie de saint Alexis, édité par Thomas Rainsford et Christiane Marchello-Nizia, Lyon, 2022. 
+              Publié en ligne par la Base de français médiéval, http://catalog.bfm-corpus.org/AlexisProlRaM.
+              Dernière révision le 2022-10-08.</bibl>
+            D'autres formules de citation de la BFM sont proposées sur la page web suivante :
+            http://bfm.ens-lyon.fr/article.php3?id_article=281.</ab>
+          <ab type="availability_file">
+            <label>Conditions d'utilisation de ce fichier :</label>
+              Ce fichier numérique est composé du corps de texte médiéval et des suppléments numériques : balisage XML-TEI, métadonnées (teiHeader), étiquetage morpho-syntaxique, lemmatisation. Le texte et les suppléments numériques sont libres de droit et peuvent à ce titre être téléchargés et réutilisés librement.
+            </ab>
+            <ab type="availability_txmweb" subtype="illimité">
+              <label>Conditions d'utilisation par le portail BFM :</label>
+              Pas de limitation dans l'usage des fonctionnalités. Téléchargement autorisé.</ab>
+        </licence>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>Prologue de la Vie de saint Alexis</title>
+          <respStmt>
+            <resp xml:id="editor">Éditeur scientifique</resp>
+            <name type="person">Thomas Rainsford</name>
+            <name type="person">Christiane Marchello-Nizia</name>
+          </respStmt>
+        </titleStmt>
+          <extent>1 page(s)
+        </extent>
+        <publicationStmt>
+          <publisher>ENS de Lyon</publisher>
+          <pubPlace>Lyon</pubPlace>
+          <date>2022</date>
+          <idno type="sigle_DEAF">AlexisRaM*</idno>
+        </publicationStmt>
+      </biblFull>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p>Projet :<name type="project">BFM - Base de français médiéval</name>
+        Resp. : <name type="person">Céline Guillot-Barbance</name>
+        Équipe : Base de français médiéval
+        Laboratoire : UMR 5317 IHRIM
+        Institution : ENS de Lyon
+        <address>
+          <addrLine>15, parvis René Descartes</addrLine>
+          <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+          <addrLine>Tél : 04 37 37 63 10</addrLine>
+          <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+          <addrLine>http://bfm.ens-lyon.fr</addrLine>
+        </address>
+      </p>
+    </projectDesc>
+    <editorialDecl>
+      <p>Voir le <ref target="http://bfm.ens-lyon.fr/IMG/pdf/Manuel_Encodage_TEI.pdf">Manuel d'encodage XML-TEI de la BFM</ref>
+        et les <ref target="http://bfm.ens-lyon.fr/IMG/pdf/Consignes_BFM.pdf">Consignes aux relecteurs de la BFM</ref>.</p>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="ab" occurs="5"/>
+        <tagUsage gi="body" occurs="1"/>
+        <tagUsage gi="div" occurs="1"/>
+        <tagUsage gi="lb" occurs="12"/>
+        <tagUsage gi="milestone" occurs="9"/>
+        <tagUsage gi="pb" occurs="1"/>
+        <tagUsage gi="text" occurs="1"/>
+        <tagUsage gi="w" occurs="131"/>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <creation>
+      <name type="author">anonyme</name>
+      <title>Prologue de la Vie de saint Alexis</title>
+      <date type="compo" when="1050-01-01" notBefore="1025-01-01" notAfter="1075-01-01" n="11">ca. 1050</date>
+      <date type="compo_periode">ancien</date>
+      <date type="compo_sous_siecle" n="11_2">milieu</date>
+      <date type="ms" when="1120-01-01" notBefore="0110-01-01" notAfter="1129-12-31">ca. 1120</date>
+      <idno type="msIdentifier">Hildesheim St. Godehardi</idno>
+      <region type="dialecte_auteur">normand</region>
+    </creation>
+    <langUsage>
+      <language ident="fro" usage="100">Le texte est entièrement écrit en prose en ancien français.</language>
+    </langUsage>
+    <textDesc>
+      <channel mode="w">print</channel>
+      <constitution type="single"/>
+      <derivation type="original"/>
+      <domain type="religieux"/>
+    <factuality type="fiction"/>
+      <interaction type="none"/>
+      <preparedness type="prepared"/>
+      <purpose type="narrative"/></textDesc>
+    <textClass>
+      <keywords scheme="http://authorities.bfm-corpus.org">
+        <term type="domaine">religieux</term>
+        <term type="genre">hagographie</term>
+        <term type="forme">prose</term>
+        <term type="relation">original</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change who="#TMR" when="2021-10-08">étiquetage morphosyntaxique</change>
+    <change who="#TMR" when="2021-10-08">lemmatisation</change>
+    <change who="#AL" when="2022-08-19">adaptation du format pour la BFM et validation finale</change>
+    <change who="#AL" when="2022-08-19">création du descripteur</change>
+    <change who="#TMR" when="2022-10-08">Trancription primaire multi-facettes</change>
+    <change when="2022-10-08">Dernière modification du texte</change>
+    <change when="2022-11-04">Création de cet entête</change>
+  </revisionDesc>
+</teiHeader>
+<text>
+<body><div type="étiquetage-vérifié">
+<pb ed="facs" n="29r"/>
+<milestone unit="lb-facs" n="1"/>
+<lb ed="norm"/>
+<ab>
+<w pos="ADVgen" lemma="ici" ana="#pos_syn_ADVgen #pos_syn_max_ADVgenp #lemma_src_DMF" xml:id="w_AlexisProlRaM_1">Ici</w>
+<w pos="VERcjg" lemma="commencer" ana="#pos_syn_VERcjg #pos_syn_max_VERcjgindpst3s #lemma_src_DMF" xml:id="w_AlexisProlRaM_2">cumencet</w>
+<w pos="ADJqua" lemma="amiable" ana="#pos_syn_ADJqua #pos_syn_max_ADJquasfn #lemma_src_DMF" xml:id="w_AlexisProlRaM_3">amiable</w>
+<w pos="NOMcom" lemma="chanson" ana="#pos_syn_NOMcom #pos_syn_max_NOMcomsfn #lemma_src_DMF" xml:id="w_AlexisProlRaM_4">cançun</w>
+<w pos="CONcoo" lemma="et" rend="simple" ana="#pos_syn_CONcoo #pos_syn_max_CONcoo #lemma_src_DMF" xml:id="w_AlexisProlRaM_5">e</w>
+<w pos="ADJqua" lemma="spirituel" ana="#pos_syn_ADJqua #pos_syn_max_ADJquasfnp #lemma_src_DMF" xml:id="w_AlexisProlRaM_6">spiritel</w>
+<w pos="NOMcom" lemma="raison" ana="#pos_syn_NOMcom #pos_syn_max_NOMcomsfn #lemma_src_DMF" xml:id="w_AlexisProlRaM_7">raisun</w>
+<w pos="PRE" lemma="de" rend="elision" ana="#pos_syn_PRE #pos_syn_max_PRE #lemma_src_DMF" xml:id="w_AlexisProlRaM_8">d'</w>
+<w pos="DETdem" lemma="cil" ana="#pos_syn_DETdem #pos_syn_max_DETdemsmr #lemma_src_DMF" xml:id="w_AlexisProlRaM_9">iceol</w>
+<w pos="ADJqua" lemma="noble" ana="#pos_syn_ADJqua #pos_syn_max_ADJquasmrp #lemma_src_DMF" xml:id="w_AlexisProlRaM_10">noble</w>
+<lb ed="norm"/>
+<w pos="NOMcom" lemma="baron" ana="#pos_syn_NOMcom #pos_syn_max_NOMcomsmr #lemma_src_DMF" xml:id="w_AlexisProlRaM_11">barun</w>
+<w pos="NOMpro" lemma="Eufemien" ana="#pos_syn_NOMpro #pos_syn_max_NOMprosmr #lemma_src_DMF" xml:id="w_AlexisProlRaM_12">Eufemïen</w>
+<w pos="PRE" lemma="par" ana="#pos_syn_PRE #pos_syn_max_PRE #lemma_src_DMF" xml:id="w_AlexisProlRaM_13">par</w>
+<w pos="NOMcom" lemma="nom" ana="#pos_syn_NOMcom #pos_syn_max_NOMcomsmr #lemma_src_DMF" xml:id="w_AlexisProlRaM_14">num</w>
+<w pos="CONcoo" lemma="et" ana="#pos_syn_CONcoo #pos_syn_max_CONcoo #lemma_src_DMF" xml:id="w_AlexisProlRaM_15">e</w>
+<w pos="PRE" lemma="de" ana="#pos_syn_PRE #pos_syn_max_PRE #lemma_src_DMF" xml:id="w_AlexisProlRaM_16">de</w>
+<w pos="DETdef" lemma="le" rend="simple" ana="#pos_syn_DETdef #pos_syn_max_DETdefsfr #lemma_src_DMF" xml:id="w_AlexisProlRaM_17">la</w>
+<w pos="NOMcom" lemma="vie" ana="#pos_syn_NOMcom #pos_syn_max_NOMcomsfr #lemma_src_DMF" xml:id="w_AlexisProlRaM_18">vie</w>
+<w pos="PRE" lemma="de" ana="#pos_syn_PRE #pos_syn_max_PRE #lemma_src_DMF" xml:id="w_AlexisProlRaM_19">de</w>
+<w pos="DETpos" lemma="son4" ana="#pos_syn_DETpos #pos_syn_max_DETpos3smr #lemma_src_DMF" xml:id="w_AlexisProlRaM_20">sum</w>
+<w pos="NOMcom" lemma="fils" ana="#pos_syn_NOMcom #pos_syn_max_NOMcomsmr #lemma_src_DMF" xml:id="w_AlexisProlRaM_21">filz</w>
+<w pos="ADJqua" lemma="bonheuré" ana="#pos_syn_ADJqua #pos_syn_max_ADJquasmrp #lemma_src_DMF" xml:id="w_AlexisProlRaM_22">boneürét</w>
+<lb ed="norm"/>
+<w pos="PRE.DETdef" lemma="de.le" ana="#pos_syn_PRE.DETdef #pos_syn_max_PRE.DETdefsmr #lemma_src_DMF" xml:id="w_AlexisProlRaM_23">del</w>
+<w pos="PROrel" lemma="quel" ana="#pos_syn_PROrel #pos_syn_max_PROrelsmr #lemma_src_DMF" xml:id="w_AlexisProlRaM_24">quel</w>
+<w pos="PROper" lemma="nous" ana="#pos_syn_PROper #pos_syn_max_PROper1pmn #lemma_src_DMF" xml:id="w_AlexisProlRaM_25">nus</w>
+<w pos="VERcjg" lemma="avoir" ana="#pos_syn_VERcjg #pos_syn_max_VERcjgindpst1p #lemma_src_DMF" xml:id="w_AlexisProlRaM_26">avum</w>
+<w pos="VERppe" lemma="ouïr" ana="#pos_syn_VERppe #pos_syn_max_VERppesmr #lemma_src_DMF" xml:id="w_AlexisProlRaM_27">oït</w>
+<w pos="VERinf" lemma="lire" ana="#pos_syn_VERinf #pos_syn_max_VERinf #lemma_src_DMF" xml:id="w_AlexisProlRaM_28">lire</w>
+<w pos="CONcoo" lemma="et" rend="simple" ana="#pos_syn_CONcoo #pos_syn_max_CONcoo #lemma_src_DMF" xml:id="w_AlexisProlRaM_29">e</w>
+<w pos="VERinf" lemma="chanter" ana="#pos_syn_VERinf #pos_syn_max_VERinf #lemma_src_DMF" xml:id="w_AlexisProlRaM_30">canter</w>
+<w pos="PONfrt" lemma="." ana="#pos_syn_PONfrt #pos_syn_max_PONfrt #lemma_src_DMF" xml:id="w_AlexisProlRaM_31">.</w>
+<w pos="PRE" lemma="par" ana="#pos_syn_PRE #pos_syn_max_PRE #lemma_src_DMF" xml:id="w_AlexisProlRaM_32">Par</w>
+<w pos="DETdef" lemma="le" ana="#pos_syn_DETdef #pos_syn_max_DETdefsfr #lemma_src_DMF" xml:id="w_AlexisProlRaM_33">le</w>
+<milestone unit="lb-facs" n="4"/>
+<lb ed="norm"/>
+<w pos="ADJqua" lemma="divine" ana="#pos_syn_ADJqua #pos_syn_max_ADJquasfrp #lemma_src_DMF" xml:id="w_AlexisProlRaM_34">divine</w>
+<w pos="NOMcom" lemma="volenté" ana="#pos_syn_NOMcom #pos_syn_max_NOMcomsfr #lemma_src_DMF" xml:id="w_AlexisProlRaM_35">volentét</w>
+<w pos="PONfbl" lemma="," ana="#pos_syn_PONfbl #pos_syn_max_PONfbl #lemma_src_DMF" xml:id="w_AlexisProlRaM_36">,</w>
+<w pos="PROper" lemma="il" ana="#pos_syn_PROper #pos_syn_max_PROper3smn #lemma_src_DMF" xml:id="w_AlexisProlRaM_37">il</w>
+<w pos="ADJqua" lemma="désirable" ana="#pos_syn_ADJqua #pos_syn_max_ADJquasmnp #lemma_src_DMF" xml:id="w_AlexisProlRaM_38">desirrables</w>
+<w pos="DETdem" lemma="cil" ana="#pos_syn_DETdem #pos_syn_max_DETdemsmr #lemma_src_DMF" xml:id="w_AlexisProlRaM_39">icel</w>
+<w pos="ADJind" lemma="seul" ana="#pos_syn_ADJind #pos_syn_max_ADJindsmr #lemma_src_DMF" xml:id="w_AlexisProlRaM_40">sul</w>
+<w pos="NOMcom" lemma="fils" ana="#pos_syn_NOMcom #pos_syn_max_NOMcomsmr #lemma_src_DMF" xml:id="w_AlexisProlRaM_41">filz</w>
+<w pos="VERcjg" lemma="engendrer" ana="#pos_syn_VERcjg #pos_syn_max_VERcjgindpsp3s #lemma_src_DMF" xml:id="w_AlexisProlRaM_42">angendrat</w>
+<w pos="PONfrt" lemma="." ana="#pos_syn_PONfrt #pos_syn_max_PONfrt #lemma_src_DMF" xml:id="w_AlexisProlRaM_43">.</w>
+<w pos="PRE" lemma="après" ana="#pos_syn_PRE #pos_syn_max_PRE #lemma_src_DMF" xml:id="w_AlexisProlRaM_44">Aprés</w>
+<w pos="DETdef" lemma="le" ana="#pos_syn_DETdef #pos_syn_max_DETdefsfr #lemma_src_DMF" xml:id="w_AlexisProlRaM_45">le</w>
+<w pos="NOMcom" lemma="naissance" ana="#pos_syn_NOMcom #pos_syn_max_NOMcomsfr #lemma_src_DMF" xml:id="w_AlexisProlRaM_46">naisance</w>
+<milestone unit="lb-facs" n="5"/>
+<lb ed="norm"/>
+<w pos="PROdem" lemma="ce1" ana="#pos_syn_PROdem #pos_syn_max_PROdemsnn #lemma_src_DMF" xml:id="w_AlexisProlRaM_47">ço</w>
+<w pos="VERcjg" lemma="être" ana="#pos_syn_VERcjg #pos_syn_max_VERcjgindpsp3s #lemma_src_DMF" xml:id="w_AlexisProlRaM_48">fut</w>
+<w pos="NOMcom" lemma="enfant" ana="#pos_syn_NOMcom #pos_syn_max_NOMcomsmn #lemma_src_DMF" xml:id="w_AlexisProlRaM_49">emfes</w>
+<w pos="PRE" lemma="de" ana="#pos_syn_PRE #pos_syn_max_PRE #lemma_src_DMF" xml:id="w_AlexisProlRaM_50">de</w>
+<w pos="NOMpro" lemma="Dieu" rend="simple" ana="#pos_syn_NOMpro #pos_syn_max_NOMprosmr #lemma_src_DMF" xml:id="w_AlexisProlRaM_51">Deu</w>
+<w pos="ADJind" lemma="même" ana="#pos_syn_ADJind #pos_syn_max_ADJindsmr #lemma_src_DMF" xml:id="w_AlexisProlRaM_52">methime</w>
+<w pos="VERppe" lemma="aimer" ana="#pos_syn_VERppe #pos_syn_max_VERppesmr #lemma_src_DMF" xml:id="w_AlexisProlRaM_53">amét</w>
+<w pos="PONfbl" lemma="," ana="#pos_syn_PONfbl #pos_syn_max_PONfbl #lemma_src_DMF" xml:id="w_AlexisProlRaM_54">,</w>
+<w pos="CONcoo" lemma="et" ana="#pos_syn_CONcoo #pos_syn_max_CONcoo #lemma_src_DMF" xml:id="w_AlexisProlRaM_55">e</w>
+<w pos="PRE" lemma="de" ana="#pos_syn_PRE #pos_syn_max_PRE #lemma_src_DMF" xml:id="w_AlexisProlRaM_56">de</w>
+<w pos="NOMcom" lemma="père" ana="#pos_syn_NOMcom #pos_syn_max_NOMcomsmr #lemma_src_DMF" xml:id="w_AlexisProlRaM_57">pere</w>
+<w pos="CONcoo" lemma="et" ana="#pos_syn_CONcoo #pos_syn_max_CONcoo #lemma_src_DMF" xml:id="w_AlexisProlRaM_58">e</w>
+<w pos="PRE" lemma="de" ana="#pos_syn_PRE #pos_syn_max_PRE #lemma_src_DMF" xml:id="w_AlexisProlRaM_59">de</w>
+<w pos="NOMcom" lemma="mère" ana="#pos_syn_NOMcom #pos_syn_max_NOMcomsmr #lemma_src_DMF" xml:id="w_AlexisProlRaM_60">mere</w>
+<milestone unit="lb-facs" n="6"/>
+<lb ed="norm"/>
+<w pos="PRE" lemma="par" ana="#pos_syn_PRE #pos_syn_max_PRE #lemma_src_DMF" xml:id="w_AlexisProlRaM_61">par</w>
+<w pos="ADJqua" lemma="grand" ana="#pos_syn_ADJqua #pos_syn_max_ADJquasfrp #lemma_src_DMF" xml:id="w_AlexisProlRaM_62">grant</w>
+<w pos="NOMcom" lemma="certeté" ana="#pos_syn_NOMcom #pos_syn_max_NOMcomsfr #lemma_src_DMF" xml:id="w_AlexisProlRaM_63">certét</w>
+<w pos="VERcjg" lemma="nourrir" ana="#pos_syn_VERcjg #pos_syn_max_VERcjgsmr #lemma_src_DMF" xml:id="w_AlexisProlRaM_64">nurrit</w>
+<w pos="PONfbl" lemma=";" ana="#pos_syn_PONfbl #pos_syn_max_PONfbl #lemma_src_DMF" xml:id="w_AlexisProlRaM_65">;</w>
+<w pos="DETdef" lemma="le" rend="simple" ana="#pos_syn_DETdef #pos_syn_max_DETdefsfn #lemma_src_DMF" xml:id="w_AlexisProlRaM_66">la</w>
+<w pos="ADJpos" lemma="sien" ana="#pos_syn_ADJpos #pos_syn_max_ADJpos3sfn #lemma_src_DMF" xml:id="w_AlexisProlRaM_67">sue</w>
+<w pos="NOMcom" lemma="jouvente" ana="#pos_syn_NOMcom #pos_syn_max_NOMcomsfn #lemma_src_DMF" xml:id="w_AlexisProlRaM_68">juvente</w>
+<w pos="VERcjg" lemma="être" ana="#pos_syn_VERcjg #pos_syn_max_VERcjgindpsp3s #lemma_src_DMF" xml:id="w_AlexisProlRaM_69">fut</w>
+<w pos="ADJqua" lemma="honnête" ana="#pos_syn_ADJqua #pos_syn_max_ADJquasfnp #lemma_src_DMF" xml:id="w_AlexisProlRaM_70">honeste</w>
+<w pos="CONcoo" lemma="et" ana="#pos_syn_CONcoo #pos_syn_max_CONcoo #lemma_src_DMF" xml:id="w_AlexisProlRaM_71">e</w>
+<w pos="ADJqua" lemma="spirituel" ana="#pos_syn_ADJqua #pos_syn_max_ADJquasfnp #lemma_src_DMF" xml:id="w_AlexisProlRaM_72">spiritel</w>
+<w pos="PONfrt" lemma="." ana="#pos_syn_PONfrt #pos_syn_max_PONfrt #lemma_src_DMF" xml:id="w_AlexisProlRaM_73">.</w>
+<milestone unit="lb-facs" n="7"/>
+<lb ed="norm"/>
+<w pos="PRE" lemma="par" ana="#pos_syn_PRE #pos_syn_max_PRE #lemma_src_DMF" xml:id="w_AlexisProlRaM_74">Par</w>
+<w pos="DETdef" lemma="le" rend="elision" ana="#pos_syn_DETdef #pos_syn_max_DETdefsfr #lemma_src_DMF" xml:id="w_AlexisProlRaM_75">l'</w>
+<w pos="NOMcom" lemma="amitié" ana="#pos_syn_NOMcom #pos_syn_max_NOMcomsfr #lemma_src_DMF" xml:id="w_AlexisProlRaM_76">amistét</w>
+<w pos="PRE.DETdef" lemma="de.le" ana="#pos_syn_PRE.DETdef #pos_syn_max_PRE.DETdefsfr #lemma_src_DMF" xml:id="w_AlexisProlRaM_77">del</w>
+<w pos="ADJqua" lemma="souverain" ana="#pos_syn_ADJqua #pos_syn_max_ADJquasfrp #lemma_src_DMF" xml:id="w_AlexisProlRaM_78">surerain</w>
+<w pos="NOMcom" lemma="piété" ana="#pos_syn_NOMcom #pos_syn_max_NOMcomsfr #lemma_src_DMF" xml:id="w_AlexisProlRaM_79">pietét</w>
+<w pos="DETdef" lemma="le" rend="simple" ana="#pos_syn_DETdef #pos_syn_max_DETdefsfr #lemma_src_DMF" xml:id="w_AlexisProlRaM_80">la</w>
+<w pos="ADJpos" lemma="sien" ana="#pos_syn_ADJpos #pos_syn_max_ADJpos3sfr #lemma_src_DMF" xml:id="w_AlexisProlRaM_81">sue</w>
+<w pos="NOMcom" lemma="épouse" ana="#pos_syn_NOMcom #pos_syn_max_NOMcomsfr #lemma_src_DMF" xml:id="w_AlexisProlRaM_82">spuse</w>
+<w pos="ADJqua" lemma="jeune" ana="#pos_syn_ADJqua #pos_syn_max_ADJquasfrp #lemma_src_DMF" xml:id="w_AlexisProlRaM_83">juvene</w>
+<w pos="VERcjg" lemma="commander" ana="#pos_syn_VERcjg #pos_syn_max_VERcjgindpsp3s #lemma_src_DMF" xml:id="w_AlexisProlRaM_84">cumandat</w>
+<lb ed="norm"/>
+<w pos="PRE.DETdef" lemma="à.le" rend="simple" ana="#pos_syn_PRE.DETdef #pos_syn_max_PRE.DETdefsmr #lemma_src_DMF" xml:id="w_AlexisProlRaM_85">al</w>
+<w pos="NOMcom" lemma="époux" ana="#pos_syn_NOMcom #pos_syn_max_NOMcomsmr #lemma_src_DMF" xml:id="w_AlexisProlRaM_86">spus</w>
+<w pos="ADJqua" lemma="vif" ana="#pos_syn_ADJqua #pos_syn_max_ADJquasmrp #lemma_src_DMF" xml:id="w_AlexisProlRaM_87">vif</w>
+<w pos="PRE" lemma="de" ana="#pos_syn_PRE #pos_syn_max_PRE #lemma_src_DMF" xml:id="w_AlexisProlRaM_88">de</w>
+<w pos="NOMcom" lemma="vérité" ana="#pos_syn_NOMcom #pos_syn_max_NOMcomsfr #lemma_src_DMF" xml:id="w_AlexisProlRaM_89">veritét</w>
+<w pos="PROrel" lemma="qui" ana="#pos_syn_PROrel #pos_syn_max_PROrelsmn #lemma_src_DMF" xml:id="w_AlexisProlRaM_90">ki</w>
+<w pos="VERcjg" lemma="être" ana="#pos_syn_VERcjg #pos_syn_max_VERcjgindpst3s #lemma_src_DMF" xml:id="w_AlexisProlRaM_91">est</w>
+<w pos="DETcar" lemma="un" rend="simple" ana="#pos_syn_DETcar #pos_syn_max_DETcarsmr #lemma_src_DMF" xml:id="w_AlexisProlRaM_92">un</w>
+<w pos="ADJind" lemma="seul" ana="#pos_syn_ADJind #pos_syn_max_ADJindsmr #lemma_src_DMF" xml:id="w_AlexisProlRaM_93">sul</w>
+<w pos="NOMcom" lemma="faiteur" ana="#pos_syn_NOMcom #pos_syn_max_NOMcomsmr #lemma_src_DMF" xml:id="w_AlexisProlRaM_94">faitur</w>
+<w pos="CONcoo" lemma="et" ana="#pos_syn_CONcoo #pos_syn_max_CONcoo #lemma_src_DMF" xml:id="w_AlexisProlRaM_95">e</w>
+<w pos="VERcjg" lemma="régner" ana="#pos_syn_VERcjg #pos_syn_max_VERcjgindpst3s #lemma_src_DMF" xml:id="w_AlexisProlRaM_96">regnet</w>
+<milestone unit="lb-facs" n="9"/>
+<lb ed="norm"/>
+<w pos="PRE" lemma="en" ana="#pos_syn_PRE #pos_syn_max_PRE #lemma_src_DMF" xml:id="w_AlexisProlRaM_97">an</w>
+<w pos="NOMcom" lemma="trinité" ana="#pos_syn_NOMcom #pos_syn_max_NOMcomsfr #lemma_src_DMF" xml:id="w_AlexisProlRaM_98">trinitiét</w>
+<w pos="PONfrt" lemma="." ana="#pos_syn_PONfrt #pos_syn_max_PONfrt #lemma_src_DMF" xml:id="w_AlexisProlRaM_99">.</w>
+<w pos="DETdef" lemma="cist" ana="#pos_syn_DETdef #pos_syn_max_DETdefsfn #lemma_src_DMF" xml:id="w_AlexisProlRaM_100">Icesta</w>
+<w pos="NOMcom" lemma="histoire" ana="#pos_syn_NOMcom #pos_syn_max_NOMcomsfn #lemma_src_DMF" xml:id="w_AlexisProlRaM_101">istorie</w>
+<w pos="VERcjg" lemma="être" ana="#pos_syn_VERcjg #pos_syn_max_VERcjgindpst3s #lemma_src_DMF" xml:id="w_AlexisProlRaM_102">est</w>
+<w pos="ADJqua" lemma="amiable" ana="#pos_syn_ADJqua #pos_syn_max_ADJquasfnp #lemma_src_DMF" xml:id="w_AlexisProlRaM_103">amiable</w>
+<w pos="NOMcom" lemma="grâce" ana="#pos_syn_NOMcom #pos_syn_max_NOMcomsfn #lemma_src_DMF" xml:id="w_AlexisProlRaM_104">grace</w>
+<w pos="CONcoo" lemma="et" rend="simple" ana="#pos_syn_CONcoo #pos_syn_max_CONcoo #lemma_src_DMF" xml:id="w_AlexisProlRaM_105">e</w>
+<w pos="ADJqua" lemma="souverain" ana="#pos_syn_ADJqua #pos_syn_max_ADJquasfnp #lemma_src_DMF" xml:id="w_AlexisProlRaM_106">suverain</w>
+<milestone unit="lb-facs" n="10"/>
+<lb ed="norm"/>
+<w pos="NOMcom" lemma="consolation" ana="#pos_syn_NOMcom #pos_syn_max_NOMcomsfn #lemma_src_DMF" xml:id="w_AlexisProlRaM_107">consulaciun</w>
+<w pos="PRE" lemma="à" rend="simple" ana="#pos_syn_PRE #pos_syn_max_PRE #lemma_src_DMF" xml:id="w_AlexisProlRaM_108">a</w>
+<w pos="DETind" lemma="chacun" ana="#pos_syn_DETind #pos_syn_max_DETindsfr #lemma_src_DMF" xml:id="w_AlexisProlRaM_109">cascun</w>
+<w pos="NOMcom" lemma="mémoire" ana="#pos_syn_NOMcom #pos_syn_max_NOMcomsfr #lemma_src_DMF" xml:id="w_AlexisProlRaM_110">memorie</w>
+<w pos="ADJqua" lemma="spirituel" ana="#pos_syn_ADJqua #pos_syn_max_ADJquasfrp #lemma_src_DMF" xml:id="w_AlexisProlRaM_111">spiritel</w>
+<w pos="PONfbl" lemma="," ana="#pos_syn_PONfbl #pos_syn_max_PONfbl #lemma_src_DMF" xml:id="w_AlexisProlRaM_112">,</w>
+<w pos="DETdef" lemma="le" ana="#pos_syn_DETdef #pos_syn_max_DETdefpmr #lemma_src_DMF" xml:id="w_AlexisProlRaM_113">les</w>
+<w pos="PROrel" lemma="quel" ana="#pos_syn_PROrel #pos_syn_max_PROrelpmr #lemma_src_DMF" xml:id="w_AlexisProlRaM_114">quels</w>
+<w pos="VERcjg" lemma="vivre" ana="#pos_syn_VERcjg #pos_syn_max_VERcjgindpst3p #lemma_src_DMF" xml:id="w_AlexisProlRaM_115">vivent</w>
+<milestone unit="lb-facs" n="11"/>
+<lb ed="norm"/>
+<w pos="ADVgen" lemma="purement" ana="#pos_syn_ADVgen #pos_syn_max_ADVgenp #lemma_src_DMF" xml:id="w_AlexisProlRaM_116">purement</w>
+<w pos="PRE" lemma="selon" ana="#pos_syn_PRE #pos_syn_max_PRE #lemma_src_DMF" xml:id="w_AlexisProlRaM_117">sulunc</w>
+<w pos="NOMcom" lemma="chasté" ana="#pos_syn_NOMcom #pos_syn_max_NOMcomsfr #lemma_src_DMF" xml:id="w_AlexisProlRaM_118">castethét</w>
+<w pos="PONfbl" lemma="," ana="#pos_syn_PONfbl #pos_syn_max_PONfbl #lemma_src_DMF" xml:id="w_AlexisProlRaM_119">,</w>
+<w pos="CONcoo" lemma="et" ana="#pos_syn_CONcoo #pos_syn_max_CONcoo #lemma_src_DMF" xml:id="w_AlexisProlRaM_120">e</w>
+<w pos="ADVgen" lemma="dignement" ana="#pos_syn_ADVgen #pos_syn_max_ADVgenp #lemma_src_DMF" xml:id="w_AlexisProlRaM_121">dignement</w>
+<w pos="PROper" lemma="soi" ana="#pos_syn_PROper #pos_syn_max_PROper3pfr #lemma_src_DMF" xml:id="w_AlexisProlRaM_122">sei</w>
+<w pos="VERcjg" lemma="déliter" ana="#pos_syn_VERcjg #pos_syn_max_VERcjgindpst3p #lemma_src_DMF" xml:id="w_AlexisProlRaM_123">delitent</w>
+<milestone unit="lb-facs" n="12"/>
+<lb ed="norm"/>
+<w pos="PRE.DETdef" lemma="en.le" rend="simple" ana="#pos_syn_PRE.DETdef #pos_syn_max_PRE.DETdefpfr #lemma_src_DMF" xml:id="w_AlexisProlRaM_124">es</w>
+<w pos="NOMcom" lemma="joie" ana="#pos_syn_NOMcom #pos_syn_max_NOMcompfr #lemma_src_DMF" xml:id="w_AlexisProlRaM_125">goies</w>
+<w pos="PRE.DETdef" lemma="de.le" ana="#pos_syn_PRE.DETdef #pos_syn_max_PRE.DETdefsmr #lemma_src_DMF" xml:id="w_AlexisProlRaM_126">del</w>
+<w pos="NOMcom" lemma="ciel" ana="#pos_syn_NOMcom #pos_syn_max_NOMcomsmr #lemma_src_DMF" xml:id="w_AlexisProlRaM_127">ciel</w>
+<w pos="CONcoo" lemma="et" ana="#pos_syn_CONcoo #pos_syn_max_CONcoo #lemma_src_DMF" xml:id="w_AlexisProlRaM_128">et</w>
+<w pos="PRE.DETdef" lemma="en.le" ana="#pos_syn_PRE.DETdef #pos_syn_max_PRE.DETdefpfr #lemma_src_DMF" xml:id="w_AlexisProlRaM_129">es</w>
+<w pos="NOMcom" lemma="noce" ana="#pos_syn_NOMcom #pos_syn_max_NOMcompfr #lemma_src_DMF" xml:id="w_AlexisProlRaM_130">noces</w>
+<w pos="ADJqua" lemma="virginal" ana="#pos_syn_ADJqua #pos_syn_max_ADJquapfrp #lemma_src_DMF" xml:id="w_AlexisProlRaM_131">virginels</w>
+</ab></div>
+</body>
+</text>
+</TEI>
