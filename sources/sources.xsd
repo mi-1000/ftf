@@ -1,28 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.1">
 
     <xs:element name="items">
         <xs:complexType>
             <xs:sequence>
                 <xs:element name="item" maxOccurs="unbounded">
+                    <xs:annotation>
+                        <xs:documentation> Metadata about text data included in the `data/` folder
+                            and its subfolders. </xs:documentation>
+                    </xs:annotation>
                     <xs:complexType>
-                        <xs:attribute name="link" type="xs:anyURI" use="required"/>
+                        <xs:attribute name="link" type="xs:anyURI" use="required">
+                            <xs:annotation>
+                                <xs:documentation> The link where you downloaded the text from. If
+                                    from `https://www.frantext.fr`, you must add the tag
+                                    `frantext-id`.
+                                </xs:documentation>
+                            </xs:annotation>
+                        </xs:attribute>
                         <xs:attribute name="language" use="required">
+                            <xs:annotation>
+                                <xs:documentation> Language of the document (`latin`, `old-french`
+                                    or `ancient-greek`).
+                                </xs:documentation>
+                            </xs:annotation>
                             <xs:simpleType>
                                 <xs:restriction base="xs:string">
-                                    <xs:enumeration value="old-french"/>
-                                    <xs:enumeration value="ancient-greek"/>
-                                    <xs:enumeration value="latin"/>
-                                    <xs:enumeration value="egyptian"/>
-                                    <xs:enumeration value="sanskrit"/>
-                                    <xs:enumeration value="other"/>
+                                    <xs:enumeration value="old-french" />
+                                    <xs:enumeration value="ancient-greek" />
+                                    <xs:enumeration value="latin" />
+                                    <xs:enumeration value="egyptian" />
+                                    <xs:enumeration value="sanskrit" />
+                                    <xs:enumeration value="other" />
                                 </xs:restriction>
                             </xs:simpleType>
                         </xs:attribute>
-                        <xs:attribute name="frantext-id" type="xs:string" use="optional"/>
-                        <xs:attribute name="filename" type="xs:string" use="required"/>
-                        <xs:attribute name="date" type="xs:string" use="required"/>
-                        <xs:attribute name="place" type="xs:string" use="required"/>
+                        <xs:attribute name="frantext-id" type="xs:string" use="optional">
+                            <xs:annotation>
+                                <xs:documentation>
+                                    If the text was downloaded from `https://www.frantext.fr`,
+                                    write its file ID ("cote") here.
+                                </xs:documentation>
+                            </xs:annotation>
+                        </xs:attribute>
+                        <xs:attribute name="filename" use="required">
+                            <xs:annotation>
+                                <xs:documentation> Name and path of the file. If you have an error,
+                                    that means you uploaded the file to the wrong path. Only XML,
+                                    TXT and JSON files; and only Old/Middle French, Latin and
+                                    Ancient Greek are allowed for now (if the error comes from that,
+                                    tell me).
+                                </xs:documentation>
+                            </xs:annotation>
+                            <xs:simpleType>
+                                <xs:restriction base="xs:anyURI">
+                                    <xs:pattern
+                                        value="data\/data_(old_french|latin|ancient_greek)\/.*\.(xml|json|txt)" />
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:attribute>
+                        <xs:attribute name="date" use="required">
+                            <xs:annotation>
+                                <xs:documentation> The date (precise or approximate) when the text
+                                    was *****written***** (and not copied, edited or published!). If the
+                                    exact date is imprecise, write a date in the middle of the date
+                                    range. If unknown, leave blank.
+                                </xs:documentation>
+                            </xs:annotation>
+                            <xs:simpleType>
+                                <xs:union>
+                                    <xs:simpleType>
+                                        <xs:restriction base="xs:int" />
+                                    </xs:simpleType>
+                                    <xs:simpleType>
+                                        <xs:restriction base="xs:string">
+                                            <xs:pattern value="" />
+                                        </xs:restriction>
+                                    </xs:simpleType>
+                                </xs:union>
+                            </xs:simpleType>
+                        </xs:attribute>
+                        <xs:attribute name="place" type="xs:string" use="required">
+                            <xs:annotation>
+                                <xs:documentation>
+                                    The approximate place (the region) where the text was *****written*****.
+                                    If unknown, leave blank.
+                                </xs:documentation>
+                            </xs:annotation>
+                        </xs:attribute>
                     </xs:complexType>
                 </xs:element>
             </xs:sequence>

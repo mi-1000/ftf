@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/css" href="bfmmss-d.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="fr">
+  <fileDesc>
+    <titleStmt>
+      <title type="main">Serments de Strasbourg</title>
+      <title type="formal">strasb</title>
+      <title type="reference">strasbBfm</title>
+      <title type="DEAF">SermentsLa*</title>
+      <title type="gmd">transcription électronique</title>
+      <author xml:id="anonyme">anonyme</author>
+      <editor>Équipe de la Base de français médiéval - ENS de Lyon / UMR 5317 IHRIM</editor>
+      <funder>Laboratoire IHRIM</funder>
+    </titleStmt>
+    <editionStmt>
+      <edition>transcripion électronique</edition>
+      <respStmt xml:id="encoder2">
+        <resp>préparation à l'intégration BFM</resp>
+        <name xml:id="AL">Alexei Lavrentiev</name>
+      </respStmt>
+    </editionStmt>
+    <extent>- Numéros de pages saisies : de 13r à 13r ;
+            - Nombre de mots d'après la base des descripteurs : <num xml:id="nb_mots_given">115</num> ;
+            - Nombre de tokens (mots et ponctuations) d'après la base des descripteurs : <num xml:id="nb_tokens_given">130</num>.
+    </extent>
+    <publicationStmt>
+      <publisher><name>Projet BFM, ENS de Lyon / UMR 5317 IHRIM</name></publisher>
+      <address>
+        <addrLine>15, parvis René Descartes</addrLine>
+        <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+        <addrLine>Tél : 04 37 37 63 10</addrLine>
+        <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+        <addrLine>http://bfm.ens-lyon.fr</addrLine>
+      </address>
+      <idno type="bfm">http://catalog.bfm-corpus.org/strasbBfm</idno>
+      <idno type="doi">10.34847/nkl.f57b23q4</idno>
+      <availability status="free">
+        <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/fr">
+          <ab type="availability_bfm" subtype="libre_1b">Les Conditions générales d'utilisation de la Base de Français Médiéval (http://txm.bfm-corpus.org/bfm/files/CGU.pdf), 
+            et notamment son Article 5 « PROPRIETE INTELLECTUELLE », s'appliquent à tous les textes de la BFM.</ab>
+          <ab type="how_to_cite">
+            <label>Comment citer ce texte :</label>
+            <bibl>Serments de Strasbourg, édité par Alexei Lavrentiev, Thomas Rainsford et Céline Guillot-Barbance, Lyon, 2014. 
+              Publié en ligne par la Base de français médiéval, http://catalog.bfm-corpus.org/strasbBfm.
+              Dernière révision le 2014-07-31.</bibl>
+            D'autres formules de citation de la BFM sont proposées sur la page web suivante :
+            http://bfm.ens-lyon.fr/article.php3?id_article=281.</ab>
+          <ab type="availability_file">
+            <label>Conditions d'utilisation de ce fichier :</label>
+              Ce fichier numérique est composé du corps de texte médiéval (restauré par son ou ses éditeur(s) scientifique(s)), des apparats critiques (introductions, notes, glossaires, explications, du texte d'origine (ou des enrichissements) qui ont été réalisés dans le cadre de la restauration des textes par les Editeurs Scientifiques) et des suppléments numériques : balisage XML-TEI, métadonnées (teiHeader), balisage du discours direct. Le texte et les suppléments numériques sont libres de droit et peuvent à ce titre être téléchargés et réutilisés librement. Les apparats critiques sont soumis à une licence de type CC BY-NC-SA 3.0 FR  http://creativecommons.org/licenses/by-nc-sa/3.0/fr. Les Utilisateurs s’engagent à respecter les termes de cette licence. 
+            </ab>
+            <ab type="availability_txmweb" subtype="illimité">
+              <label>Conditions d'utilisation par le portail BFM :</label>
+              Pas de limitation dans l'usage des fonctionnalités. Téléchargement autorisé.</ab>
+        </licence>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>Serments de Strasbourg</title>
+          <respStmt>
+            <resp xml:id="editor">Éditeur scientifique</resp>
+            <name type="person">Alexei Lavrentiev</name>
+            <name type="person">Thomas Rainsford</name>
+            <name type="person">Céline Guillot-Barbance</name>
+          </respStmt>
+        </titleStmt>
+          <extent>1 page(s)
+        </extent>
+        <publicationStmt>
+          <publisher>Equipe BFM</publisher>
+          <pubPlace>Lyon</pubPlace>
+          <date>2014</date>
+          <idno type="sigle_DEAF">SermentsLa*</idno>
+        </publicationStmt>
+      </biblFull>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p>Projet :<name type="project">BFM - Base de français médiéval</name>
+        Resp. : <name type="person">Céline Guillot-Barbance</name>
+        Équipe : Base de français médiéval
+        Laboratoire : UMR 5317 IHRIM
+        Institution : ENS de Lyon
+        <address>
+          <addrLine>15, parvis René Descartes</addrLine>
+          <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+          <addrLine>Tél : 04 37 37 63 10</addrLine>
+          <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+          <addrLine>http://bfm.ens-lyon.fr</addrLine>
+        </address>
+      </p>
+    </projectDesc>
+    <editorialDecl>
+      <p>Voir le <ref target="http://bfm.ens-lyon.fr/IMG/pdf/Manuel_Encodage_TEI.pdf">Manuel d'encodage XML-TEI de la BFM</ref>
+        et les <ref target="http://bfm.ens-lyon.fr/IMG/pdf/Consignes_BFM.pdf">Consignes aux relecteurs de la BFM</ref>.</p>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="body" occurs="1"/>
+        <tagUsage gi="div" occurs="2"/>
+        <tagUsage gi="front" occurs="1"/>
+        <tagUsage gi="gap" occurs="1"/>
+        <tagUsage gi="lb" occurs="16"/>
+        <tagUsage gi="p" occurs="4"/>
+        <tagUsage gi="pb" occurs="1"/>
+        <tagUsage gi="q" occurs="2"/>
+        <tagUsage gi="space" occurs="1"/>
+        <tagUsage gi="text" occurs="1"/>
+        <tagUsage gi="w" occurs="131"/>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <creation>
+      <name type="author">anonyme</name>
+      <title>Serments de Strasbourg</title>
+      <date type="compo" when="0842-01-01" notBefore="0842-01-01" notAfter="0842-01-01" n="9">842</date>
+      <date type="compo_periode">ancien</date>
+      <date type="compo_sous_siecle" n="09_2">milieu</date>
+      <date type="ms" when="1000-01-01" notBefore="0990-01-01" notAfter="1010-12-31">ca. 1000</date>
+      <idno type="msIdentifier">Paris, BnF, lat. 9768</idno>
+      <region type="dialecte_auteur">non défini</region>
+    </creation>
+    <langUsage>
+      <language ident="fro" usage="100">Le texte est entièrement écrit en prose en ancien français.</language>
+    </langUsage>
+    <textDesc>
+      <channel mode="w">print</channel>
+      <constitution type="single"/>
+      <derivation type="original"/>
+      <domain type="juridique"/>
+    <factuality type="fact"/>
+      <interaction type="none"/>
+      <preparedness type="prepared"/>
+      <purpose type="narrative"/></textDesc>
+    <textClass>
+      <keywords scheme="http://authorities.bfm-corpus.org">
+        <term type="domaine">juridique</term>
+        <term type="genre">serment</term>
+        <term type="forme">prose</term>
+        <term type="relation">original</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change who="#AL" when="2007-10-31">Transcription primaire</change>
+    <change who="#AL" when="2008-03-31">mise à jour de l'entête de l'encodage</change>
+    <change who="#AL" when="2014-07-31">préparation à l'intégration BFM</change>
+    <change who="#AL" when="2014-10-10">création du descripteur</change>
+    <change when="2014-07-31">Dernière modification du texte</change>
+    <change when="2022-11-04">Création de cet entête</change>
+  </revisionDesc>
+</teiHeader>
+	<text>
+		<front>
+		</front>
+		<body>
+		  
+		  <pb n="13r"/>
+ <div type="serment" org="uniform" sample="complete"> 
+ <p> 
+<lb n="5"/><q>
+<w xml:id="w_strasbBfm_001">Pro</w>
+<w xml:id="w_strasbBfm_002">Deo</w>
+<w xml:id="w_strasbBfm_003">amur</w>
+<w xml:id="w_strasbBfm_004">et</w>
+<w xml:id="w_strasbBfm_005">pro</w>
+<w xml:id="w_strasbBfm_006">Christian</w>
+<w xml:id="w_strasbBfm_007">poblo</w>
+<w xml:id="w_strasbBfm_008">et</w>
+<w xml:id="w_strasbBfm_009">nostro</w>
+<w xml:id="w_strasbBfm_010">commun</w>
+<lb n="6"/>
+<w xml:id="w_strasbBfm_011">salvament</w>
+<w xml:id="w_strasbBfm_012">,</w>
+<w xml:id="w_strasbBfm_013">d'</w>
+<w xml:id="w_strasbBfm_014">ist</w>
+<w xml:id="w_strasbBfm_015">di</w>
+<w xml:id="w_strasbBfm_016">in</w>
+<w xml:id="w_strasbBfm_017">avant</w>
+<w xml:id="w_strasbBfm_018">,</w>
+<w xml:id="w_strasbBfm_019">in</w>
+<w xml:id="w_strasbBfm_020">quant</w>
+<w xml:id="w_strasbBfm_021">Deus</w>
+<lb n="7"/>
+<w xml:id="w_strasbBfm_022">savir</w>
+<w xml:id="w_strasbBfm_023">et</w>
+<w xml:id="w_strasbBfm_024">podir</w>
+<w xml:id="w_strasbBfm_025">me</w>
+<w xml:id="w_strasbBfm_026">dunat</w>
+<w xml:id="w_strasbBfm_027">,</w>
+<w xml:id="w_strasbBfm_028">si</w>
+<w xml:id="w_strasbBfm_029">salvarai</w>
+<w xml:id="w_strasbBfm_030">eo</w>
+
+<lb n="8"/>
+<w xml:id="w_strasbBfm_032">cist</w>
+<w xml:id="w_strasbBfm_033">meon</w>
+<w xml:id="w_strasbBfm_034">fradre</w>
+<w xml:id="w_strasbBfm_035">Karlo</w>
+
+<w xml:id="w_strasbBfm_037">et</w>
+<w xml:id="w_strasbBfm_038">in</w>
+<w xml:id="w_strasbBfm_039">aiudha</w>
+
+<lb n="9"/>
+<w xml:id="w_strasbBfm_041">et</w>
+<w xml:id="w_strasbBfm_042">in</w>
+<w xml:id="w_strasbBfm_043">cadhuna</w>
+<w xml:id="w_strasbBfm_044">cosa</w>
+<w xml:id="w_strasbBfm_045">,</w>
+<w xml:id="w_strasbBfm_046">si</w>
+<w xml:id="w_strasbBfm_047">cum</w>
+<w xml:id="w_strasbBfm_048">om</w>
+<w xml:id="w_strasbBfm_049">per</w>
+<w xml:id="w_strasbBfm_050">dreit</w>
+<w xml:id="w_strasbBfm_051">son</w>
+<lb n="10"/>
+<w xml:id="w_strasbBfm_052">fradra</w>
+<w xml:id="w_strasbBfm_053">salvar</w>
+<w xml:id="w_strasbBfm_054">dift</w>
+<w xml:id="w_strasbBfm_055">,</w>
+<space dim="horizontal" quantity="5" unit="minims"/>
+<w xml:id="w_strasbBfm_056">in</w>
+<w xml:id="w_strasbBfm_057">o</w>
+<w xml:id="w_strasbBfm_058">quid</w>
+<w xml:id="w_strasbBfm_059">il</w>
+<w xml:id="w_strasbBfm_060">mi</w>
+<w xml:id="w_strasbBfm_061">altresi</w>
+<lb n="11"/>
+<w xml:id="w_strasbBfm_062">fazet</w>
+<w xml:id="w_strasbBfm_063">.</w>
+<w xml:id="w_strasbBfm_064">Et</w>
+<w xml:id="w_strasbBfm_065">ab</w>
+<w xml:id="w_strasbBfm_066">Ludher</w>
+<w xml:id="w_strasbBfm_067">nul</w>
+<w xml:id="w_strasbBfm_068">plaid</w>
+<w xml:id="w_strasbBfm_069">nunquam</w>
+<lb n="12"/>
+<w xml:id="w_strasbBfm_070">prindrai</w>
+<w xml:id="w_strasbBfm_071">qui</w>
+
+<w xml:id="w_strasbBfm_073">meon</w>
+<w xml:id="w_strasbBfm_074">vol</w>
+
+<w xml:id="w_strasbBfm_076">cist</w>
+<w xml:id="w_strasbBfm_077">meon</w>
+<w xml:id="w_strasbBfm_078">fradre</w>
+<lb n="13"/>
+<w xml:id="w_strasbBfm_079">Karle</w>
+<w xml:id="w_strasbBfm_080">in</w>
+<w xml:id="w_strasbBfm_081">damno</w>
+<w xml:id="w_strasbBfm_082">sit</w>
+<w xml:id="w_strasbBfm_083">.</w></q>
+ </p> 
+ </div> 
+		  <gap reason="sampling"/>
+ <div type="serment" org="uniform" sample="complete"> 
+	 <p> 
+<lb n="27"/>
+<q><w xml:id="w_strasbBfm_084">Si</w>
+<w xml:id="w_strasbBfm_085">Lodhuvigs</w>
+<lb n="28"/>
+<w xml:id="w_strasbBfm_086">sagrament</w>
+<w xml:id="w_strasbBfm_087">,</w>
+<w xml:id="w_strasbBfm_088">que</w>
+<w xml:id="w_strasbBfm_089">son</w>
+<w xml:id="w_strasbBfm_090">fradre</w>
+<w xml:id="w_strasbBfm_091">Karlo</w>
+<lb n="29"/>
+<w xml:id="w_strasbBfm_092">jurat</w>
+<w xml:id="w_strasbBfm_093">,</w>
+<w xml:id="w_strasbBfm_094">conservat</w>
+<w xml:id="w_strasbBfm_095">,</w>
+<w xml:id="w_strasbBfm_096">et</w>
+<w xml:id="w_strasbBfm_097">Karlus</w>
+<w xml:id="w_strasbBfm_098">,</w>
+<w xml:id="w_strasbBfm_099">meos</w>
+<w xml:id="w_strasbBfm_100">sendra</w>
+<w xml:id="w_strasbBfm_101">,</w>
+<lb n="30"/>
+<w xml:id="w_strasbBfm_102">de</w>
+<w xml:id="w_strasbBfm_103">suo</w>
+<w xml:id="w_strasbBfm_104">part</w>
+<w xml:id="w_strasbBfm_105">non</w>
+<w xml:id="w_strasbBfm_106">los</w>
+<w xml:id="w_strasbBfm_107">tanit</w>
+<w xml:id="w_strasbBfm_108">,</w>
+<w xml:id="w_strasbBfm_109">si</w>
+<w xml:id="w_strasbBfm_110">jo</w>
+<w xml:id="w_strasbBfm_111">returnar</w>
+<w xml:id="w_strasbBfm_112">non</w>
+<lb n="31"/>
+<w xml:id="w_strasbBfm_113">l'</w>
+<w xml:id="w_strasbBfm_114">int</w>
+<w xml:id="w_strasbBfm_115">pois</w>
+<w xml:id="w_strasbBfm_116">,</w>
+<w xml:id="w_strasbBfm_117">ne</w>
+<w xml:id="w_strasbBfm_118">jo</w>
+<w xml:id="w_strasbBfm_119">ne</w>
+<w xml:id="w_strasbBfm_120">neuls</w>
+<w xml:id="w_strasbBfm_121">cui</w>
+<w xml:id="w_strasbBfm_122">eo</w>
+<w xml:id="w_strasbBfm_123">returnar</w>
+<lb n="32"/>
+<w xml:id="w_strasbBfm_124">int</w>
+<w xml:id="w_strasbBfm_125">pois</w>
+<w xml:id="w_strasbBfm_126">,</w>
+<w xml:id="w_strasbBfm_127">in</w>
+<w xml:id="w_strasbBfm_128">nulla</w>
+<w xml:id="w_strasbBfm_129">aiudha</w>
+<w xml:id="w_strasbBfm_130">contra</w>
+<w xml:id="w_strasbBfm_131">Lodhuwig</w>
+<lb n="33"/>
+<w xml:id="w_strasbBfm_132">nun</w>
+<w xml:id="w_strasbBfm_133">li</w>
+<w xml:id="w_strasbBfm_134">ju</w>
+<w xml:id="w_strasbBfm_135">er</w>
+<w xml:id="w_strasbBfm_136">.</w>
+	     </q></p> 
+ </div> 
+		</body>
+	</text>
+</TEI>

@@ -2,7 +2,8 @@
 <?xml-model href="sources.xsd"?>
 <items>
     <item link="https://huggingface.co/datasets/grosenthal/latin_english_translation/viewer/default/train" language="latin" filename="data/data_latin/latin_english_translation.json" date="" place="" />
-    <item link="https://syntacticus.org/source/proiel:20180408:greek-nt" language="ancient-greek" filename="data/data_ancient_greek/greek-nt.xml" date="" place="" />
+    <item link="https://syntacticus.org/source/proiel:20180408:greek-nt" language="ancient-greek" filename="data/data_ancient_greek/greek-nt.xml" date="100" place="" />
     <item link="https://nakala.fr/10.34847/nkl.2b0837xc" language="old-french" filename="data/data_old_french/AlexisPROIRaM.xml" date="1130" place="Normandy" />
     <item link="https://www.frantext.fr" frantext-id="E174" language="old-french" filename="data/data_old_french/La_Chanson_de_Roland.xml" date="1100" place="Normandy" />
+    <item link="https://nakala.fr/10.34847/nkl.f57b23q4" language="old-french" filename="data/data_old_french/strasbBfm.xml" date="842" place="" />
 </items>
