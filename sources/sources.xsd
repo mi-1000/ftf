@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="items">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="item" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:attribute name="link" type="xs:anyURI" use="required"/>
+                        <xs:attribute name="language" use="required">
+                            <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                    <xs:enumeration value="old-french"/>
+                                    <xs:enumeration value="ancient-greek"/>
+                                    <xs:enumeration value="latin"/>
+                                    <xs:enumeration value="egyptian"/>
+                                    <xs:enumeration value="sanskrit"/>
+                                    <xs:enumeration value="other"/>
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:attribute>
+                        <xs:attribute name="frantext-id" type="xs:string" use="optional"/>
+                        <xs:attribute name="filename" type="xs:string" use="required"/>
+                        <xs:attribute name="date" type="xs:string" use="required"/>
+                        <xs:attribute name="place" type="xs:string" use="required"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>
