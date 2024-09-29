@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="main">Lecheor</title>
+      <title type="formal">lecheor</title>
+      <title type="reference">lecheor</title>
+      <title type="DEAF">LecheorT</title>
+      <title type="gmd">transcription électronique</title>
+      <author xml:id="anonyme">anonyme</author>
+      <editor>Équipe de la Base de français médiéval - ENS de Lyon / UMR 5317 IHRIM</editor>
+      <funder>Laboratoire IHRIM</funder>
+    </titleStmt>
+    <editionStmt>
+      <edition>transcripion électronique</edition>
+      <respStmt xml:id="encoder1">
+        <resp>balisage, numérotation et vérifications finales</resp>
+        <name xml:id="AL">Alexei Lavrentiev</name>
+      </respStmt>
+      <respStmt xml:id="digitizer">
+        <resp>scannage et océrisation</resp>
+        <name xml:id="ES">Ekaterina Shcherbina</name>
+      </respStmt>
+      <respStmt xml:id="proofreader1">
+        <resp>révision de tout le texte</resp>
+        <name xml:id="PL">Pierre Levron</name>
+      </respStmt>
+      <respStmt xml:id="proofreader2">
+        <resp>révision de tout le texte</resp>
+        <name xml:id="VO">Vanessa Obry</name>
+      </respStmt>
+      <respStmt xml:id="encoderDD">
+        <resp>balisage du discours direct</resp>
+        <name xml:id="YM">Yunna Menshova</name>
+      </respStmt>
+    </editionStmt>
+    <extent>- Numéros de pages saisies : de 354 à 357 ;
+            - Nombre de mots d'après la base des descripteurs : <num xml:id="nb_mots_given">689</num> ;
+            - Nombre de tokens (mots et ponctuations) d'après la base des descripteurs : <num xml:id="nb_tokens_given">781</num>.
+    </extent>
+    <publicationStmt>
+      <publisher><name>Projet BFM, ENS de Lyon / UMR 5317 IHRIM</name></publisher>
+      <address>
+        <addrLine>15, parvis René Descartes</addrLine>
+        <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+        <addrLine>Tél : 04 37 37 63 10</addrLine>
+        <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+        <addrLine>http://bfm.ens-lyon.fr</addrLine>
+      </address>
+      <idno type="bfm">http://catalog.bfm-corpus.org/lecheor</idno>
+      <idno type="doi">10.34847/nkl.add73700</idno>
+      <availability status="free">
+        <licence target="https://www.etalab.gouv.fr/licence-ouverte-open-licence">
+          <ab type="availability_bfm" subtype="libre_1b">Les Conditions générales d'utilisation de la Base de Français Médiéval (http://txm.bfm-corpus.org/bfm/files/CGU.pdf), 
+            et notamment son Article 5 « PROPRIETE INTELLECTUELLE », s'appliquent à tous les textes de la BFM.</ab>
+          <ab type="how_to_cite">
+            <label>Comment citer ce texte :</label>
+            <bibl>Lecheor, édité par Prudence Mary O'Hara Tobin, Genève, 1976. 
+              Publié en ligne par la Base de français médiéval, http://catalog.bfm-corpus.org/lecheor.
+              Dernière révision le 2016-06-20.</bibl>
+            D'autres formules de citation de la BFM sont proposées sur la page web suivante :
+            http://bfm.ens-lyon.fr/article.php3?id_article=281.</ab>
+          <ab type="availability_file">
+            <label>Conditions d'utilisation de ce fichier :</label>
+              Ce fichier numérique est composé du corps de texte médiéval et des suppléments numériques : balisage XML-TEI, métadonnées (teiHeader), balisage du discours direct. Le texte et les suppléments numériques sont libres de droit et peuvent à ce titre être téléchargés et réutilisés librement.
+            </ab>
+            <ab type="availability_txmweb" subtype="illimité">
+              <label>Conditions d'utilisation par le portail BFM :</label>
+              Pas de limitation dans l'usage des fonctionnalités. Téléchargement autorisé.</ab>
+        </licence>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>Les lais anonymes : le lai de Lecheor</title>
+          <respStmt>
+            <resp xml:id="editor">Éditeur scientifique</resp>
+            <name type="person">Prudence Mary O'Hara Tobin</name>
+          </respStmt>
+        </titleStmt>
+          <extent>4 page(s), soit 354-357
+        </extent>
+        <publicationStmt>
+          <publisher>Droz</publisher>
+          <pubPlace>Genève</pubPlace>
+          <date>1976</date>
+          <idno type="sigle_DEAF">LecheorT</idno>
+          <idno type="cote_biblio">ENS-LSH : 84/2 A lai</idno>
+        </publicationStmt><seriesStmt><title>Publications romanes et françaises</title><idno type="collection">143</idno></seriesStmt>
+      </biblFull>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p>Projet :<name type="project">BFM - Base de français médiéval</name>
+        Resp. : <name type="person">Céline Guillot-Barbance</name>
+        Équipe : Base de français médiéval
+        Laboratoire : UMR 5317 IHRIM
+        Institution : ENS de Lyon
+        <address>
+          <addrLine>15, parvis René Descartes</addrLine>
+          <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+          <addrLine>Tél : 04 37 37 63 10</addrLine>
+          <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+          <addrLine>http://bfm.ens-lyon.fr</addrLine>
+        </address>
+      </p>
+    </projectDesc>
+    <editorialDecl>
+      <p>Voir le <ref target="http://bfm.ens-lyon.fr/IMG/pdf/Manuel_Encodage_TEI.pdf">Manuel d'encodage XML-TEI de la BFM</ref>
+        et les <ref target="http://bfm.ens-lyon.fr/IMG/pdf/Consignes_BFM.pdf">Consignes aux relecteurs de la BFM</ref>.</p>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="ab" occurs="5"/>
+        <tagUsage gi="body" occurs="1"/>
+        <tagUsage gi="div" occurs="2"/>
+        <tagUsage gi="front" occurs="1"/>
+        <tagUsage gi="lb" occurs="122"/>
+        <tagUsage gi="num" occurs="5"/>
+        <tagUsage gi="p" occurs="3"/>
+        <tagUsage gi="pb" occurs="4"/>
+        <tagUsage gi="q" occurs="1"/>
+        <tagUsage gi="text" occurs="1"/>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <creation>
+      <name type="author">anonyme</name>
+      <title>Lecheor</title>
+      <date type="compo" when="1209-01-01" notBefore="1178-01-01" notAfter="1230-01-01" n="13">entre 1178 et 1230</date>
+      <date type="compo_periode">ancien</date>
+      <date type="compo_sous_siecle" n="13_1">début</date>
+      <date type="ms" when="1300-01-01" notBefore="1295-01-01" notAfter="1304-12-31">ca. 1300</date>
+      <idno type="msIdentifier">Paris, BnF, n.a.fr. 1104 (S)</idno>
+      <region type="dialecte_auteur">parisien</region>
+    </creation>
+    <langUsage>
+      <language ident="fro" usage="100">Le texte est entièrement écrit en vers en ancien français.</language>
+    </langUsage>
+    <textDesc>
+      <channel mode="w">print</channel>
+      <constitution type="single"/>
+      <derivation type="original"/>
+      <domain type="littéraire"/>
+    <factuality type="inapplicable"/>
+      <interaction type="none"/>
+      <preparedness type="prepared"/>
+      <purpose type="narrative"/></textDesc>
+    <textClass>
+      <keywords scheme="http://authorities.bfm-corpus.org">
+        <term type="domaine">littéraire</term>
+        <term type="genre">récit bref</term>
+        <term type="forme">vers</term>
+        <term type="relation">original</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change who="#ES" when="2006-10-31">scannage et océrisation</change>
+    <change who="#PL" when="2006-12-31">révision de tout le texte</change>
+    <change who="#VO" when="2007-03-31">révision de tout le texte</change>
+    <change who="#YM" when="2016-06-20">balisage du discours direct</change>
+    <change who="#AL" when="2016-06-20">balisage, numérotation et vérifications finales</change>
+    <change when="2016-06-20">Dernière modification du texte</change>
+    <change when="2022-11-04">Création de cet entête</change>
+  </revisionDesc>
+</teiHeader>
+<text>
+<pb n="354"/>
+<front>
+<div type="titre">
+<p>C'EST LE LAY DEL LECHEOR</p>
+</div>
+</front>
+<body>
+<div>
+<ab type="gv">
+<lb n="1"/>Jadis a Saint Pantelion,
+<lb n="2"/>ce nos racontent li Breton,
+<lb n="3"/>soloient granz genz asembler
+<lb n="4"/>por la feste au saint honorer,
+<lb n="5"/>les plus nobles e les plus beles
+<lb n="6"/>du païs, dames e puceles,
+<lb n="7"/>qui dont estoient el païs ;
+<lb n="8"/>n'i avoit dame de nul pris
+<lb n="9"/>qui n'i venist a icel jor ;
+<lb n="10"/>molt estoient de riche ator.
+<lb n="11"/>Chascuns i metoit son poër
+<lb n="12"/>en lui vestir e atorner.
+<lb n="13"/>La estoient tenu li plet
+<pb n="355"/>
+<lb n="14"/>e la erent conté li fet
+<lb n="15"/>des amors e des drueries
+<lb n="16"/>e des nobles chevaleries ;
+<lb n="17"/>ce qu'en l'an estoit avenu
+<lb n="18"/>tot ert oï e retenu.
+<lb n="19"/>Lor aventure racontoient
+<lb n="20"/>e li autre les escoutoient.
+<lb n="21"/>Tote la meillor retenoient
+<lb n="22"/>e recordoient e disoient,
+<lb n="23"/>souvent ert dite e racontee
+<lb n="24"/>tant que de touz estoit loee.
+<lb n="25"/><num>.I.</num> lai en fesoient entr'eus,
+<lb n="26"/>ce fu la costume d'iceus ;
+<lb n="27"/>cil a qui l'aventure estoit
+<lb n="28"/>son non meïsmes i metoit :
+<lb n="29"/>aprés lui ert li lais nomez ;
+<lb n="30"/>sachoiz ce est la veritez.
+<lb n="31"/>Puis estoit li lais maintenuz
+<lb n="32"/>tant que partout estoit seüz;
+<lb n="33"/>car cil qui savoient de note
+<lb n="34"/>en viele, en herpë e en rote,
+<lb n="35"/>fors de la terre le portoient
+<lb n="36"/>es roiaumes ou il aloient.
+<lb n="37"/>A la feste dont je vos di,
+<lb n="38"/>ou li Breton venoient si,
+<lb n="39"/>en <num>.I.</num> grant mont fu l'asemblee 
+<lb n="40"/>por ce que miex fust escoutee.
+<lb n="41"/>Molt í ot clers e chevaliers
+<lb n="42"/>e plusors gens d'autres mestiers,
+<lb n="43"/>dames i ot nobles e beles
+<lb n="44"/>e meschines e damoiseles.
+<lb n="45"/>Qant du mostier furent parti
+<lb n="46"/>au leu qu'il orent establi
+<lb n="47"/>conmunement sont assemblé,
+<lb n="48"/>chascuns a son fet reconté ;
+<lb n="49"/>s'aventure disoit chascuns,
+<lb n="50"/>avant venoient uns e uns ;
+<lb n="51"/>dont aloient apareillant
+<lb n="52"/>lequel il metroient avant.
+<lb n="53"/>Huit dames sistrent d'une part,
+<lb n="54"/>si disoient de lor esgart ;
+<lb n="55"/>sages erent e ensaingnies,
+<lb n="56"/>franches, cortoises e proisies :
+<lb n="57"/>c'estoit de Bretaingne la flors
+<pb n="356"/>
+<lb n="58"/>e la proesce e la valors.
+<lb n="59"/>L'une parla premierement,
+<lb n="60"/>e dit molt afichiement :
+<lb n="61"/><q>« Dames, car me donnez conseil
+<lb n="62"/>d'une rien dont molt me merveil.
+<lb n="63"/>Molt oi ces chevaliers parler
+<lb n="64"/>de tornoier e de joster,
+<lb n="65"/>d'aventures, de drueries,
+<lb n="66"/>e de requerre lor amies ;
+<lb n="67"/>d'icelui ne tienent nul plet
+<lb n="68"/>por qui li grant bien sont tuit fet.
+<lb n="69"/>Par cui sont li bon chevalier ?
+<lb n="70"/>Por qoi aimment a tornoier ?
+<lb n="71"/>Por qui s'atornent li danzel ?
+<lb n="72"/>Por qui se vestent de novel ?
+<lb n="73"/>Por qui envoient lor joieaus
+<lb n="74"/>lor trecëors e lor aneaus ?
+<lb n="75"/>Por qui sont franc e debonere ?
+<lb n="76"/>Por qoi se gardent de mal fere ?
+<lb n="77"/>Por qoi aimment le donoier
+<lb n="78"/>e l'acoler e l'embracier ?
+<lb n="79"/>savez i nulë achoison
+<lb n="80"/>fors sol por une chose non ?
+<lb n="81"/>Ja n'avra nus tant donoié
+<lb n="82"/>ne biau parlé, ne biau proié,
+<lb n="83"/>ainz qu'il s'em puisse departir,
+<lb n="84"/>a ce ne veille revertir ;
+<lb n="85"/>d'ice vienent les granz douçors
+<lb n="86"/>por coi sont fetes les honors ;
+<lb n="87"/>maint homme i sont si amendé
+<lb n="88"/>e mis en pris, e em bonté,
+<lb n="89"/>qui ne vausissent <num>.I.</num> bouton
+<lb n="90"/>si par l'entente du con non.
+<lb n="91"/>La moie foi vos em plevis,
+<lb n="92"/>nule fame n'a si bel vis
+<lb n="93"/>par qu'ele eüst le con perdu,
+<lb n="94"/>ja mes eüst ami ne dru.
+<lb n="95"/>Qant tuit li bien sont fet por lui,
+<lb n="96"/>nu metons mie sor autrui ;
+<lb n="97"/>faisons du con le lai nouvel,
+<lb n="98"/>si l'orront tel cui ert molt bel.
+<lb n="99"/>Conmant qui miex savra noter
+<pb n="357"/>
+<lb n="100"/>ja verrez toz vers nos torner. »</q>
+<lb n="101"/>Les set li ont acreanté,
+<lb n="102"/>dïent que molt a bien parlé.
+<lb n="103"/>Le lai conmencent aïtant
+<lb n="104"/>chascun i mist e son e chant
+<lb n="105"/>e douces notes a haut ton ;
+<lb n="106"/>le lai firent cortois e bon.
+<lb n="107"/>Tuit cil qui a la feste estoient
+<lb n="108"/>le lai lessierent qu'il faisoient,
+<lb n="109"/>vers les dames se sont torné ;
+<lb n="110"/>si ont lor fet forment loé,
+<lb n="111"/>ensemble o eles le lai firent,
+<lb n="112"/>qant la bone matire oïrent ;
+<lb n="113"/>e as clers e as chevaliers
+<lb n="114"/>fu li lais maintenuz e chiers ;
+<lb n="115"/>molt fu amez, molt fu joïz,
+<lb n="116"/>encore n'est il mie haïz.
+<lb n="117"/>D'icest lai dïent li plusor
+<lb n="118"/>que c'est le lai du Lechëor ;
+<lb n="119"/>ne voil pas dire le droit non
+<lb n="120"/>c'on nu me tort a mesprison.
+<lb n="121"/>Selonc le conte que j'oï,
+<lb n="122"/>vos ai le lai einsint feni.
+				</ab>
+</div>
+</body>
+</text>
+</TEI>

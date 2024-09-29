@@ -1,0 +1,4624 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="fr">
+  <fileDesc>
+    <titleStmt>
+      <title type="main">Ballades</title>
+      <title type="formal">cdo_ballades</title>
+      <title type="reference">cdo_ballades</title>
+      <title type="DEAF">CharlD'OrlC</title>
+      <title type="FRANTEXT">5417</title>
+      <title type="gmd">transcription électronique</title>
+      <author xml:id="COrleans" key="Orléans, Charles d' (1394-1465)" ref="http://www.idref.fr/028466861">Charles d'Orléans</author>
+      <editor>Équipe de la Base de français médiéval - ENS de Lyon / UMR 5317 IHRIM</editor>
+      <funder>Laboratoire IHRIM</funder>
+    </titleStmt>
+    <editionStmt>
+      <edition>transcripion électronique</edition>
+      <respStmt xml:id="encoderDD">
+        <resp>balisage du discours direct</resp>
+        <name xml:id="AL">Alexei Lavrentiev</name>
+      </respStmt>
+      <respStmt xml:id="encoder1">
+        <resp>numérisation</resp>
+        <name xml:id="ATILF">ATILF</name>
+      </respStmt>
+      <respStmt xml:id="encoder2">
+        <resp>rétroconversion automatique d'un texte du corpus FRANTEXT, base DMF, au format TEI P4</resp>
+        <name xml:id="GSouvay">Gilles Souvay (ATILF)</name>
+      </respStmt>
+    </editionStmt>
+    <extent>- Numéros de pages saisies : de 17 à 187 ;
+            - Nombre de mots d'après la base des descripteurs : <num xml:id="nb_mots_given">22203</num> ;
+            - Nombre de tokens (mots et ponctuations) d'après la base des descripteurs : <num xml:id="nb_tokens_given">26133</num>.
+    </extent>
+    <publicationStmt>
+      <publisher><name>Projet BFM, ENS de Lyon / UMR 5317 IHRIM</name></publisher>
+      <address>
+        <addrLine>15, parvis René Descartes</addrLine>
+        <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+        <addrLine>Tél : 04 37 37 63 10</addrLine>
+        <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+        <addrLine>http://bfm.ens-lyon.fr</addrLine>
+      </address>
+      <idno type="bfm">http://catalog.bfm-corpus.org/cdo_ballades</idno>
+      <idno type="doi">10.34847/nkl.dcb60bl8</idno>
+      <availability status="free">
+        <licence target="https://www.etalab.gouv.fr/licence-ouverte-open-licence">
+          <ab type="availability_bfm" subtype="libre_1c">Les Conditions générales d'utilisation de la Base de Français Médiéval (http://txm.bfm-corpus.org/bfm/files/CGU.pdf), 
+            et notamment son Article 5 « PROPRIETE INTELLECTUELLE », s'appliquent à tous les textes de la BFM.</ab>
+          <ab type="how_to_cite">
+            <label>Comment citer ce texte :</label>
+            <bibl>Charles d'Orléans, Ballades, édité par Pierre Champion, Paris, 1923. 
+              Publié en ligne par la Base de français médiéval, http://catalog.bfm-corpus.org/cdo_ballades.
+              Dernière révision le 2012-11-02.</bibl>
+            D'autres formules de citation de la BFM sont proposées sur la page web suivante :
+            http://bfm.ens-lyon.fr/article.php3?id_article=281.</ab>
+          <ab type="availability_file">
+            <label>Conditions d'utilisation de ce fichier :</label>
+              Ce fichier numérique est composé du corps de texte médiéval et des suppléments numériques : balisage XML-TEI, métadonnées (teiHeader), balisage du discours direct. Le texte et les suppléments numériques sont libres de droit et peuvent à ce titre être téléchargés et réutilisés librement.
+            </ab>
+            <ab type="availability_txmweb" subtype="illimité">
+              <label>Conditions d'utilisation par le portail BFM :</label>
+              Pas de limitation dans l'usage des fonctionnalités. Téléchargement autorisé.</ab>
+        </licence>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>Poésies. I, La retenue d'amours. Ballades, chansons, complaintes et caroles / Ballades</title>
+          <author>Charles d'Orléans</author>
+          <respStmt>
+            <resp xml:id="editor">Éditeur scientifique</resp>
+            <name type="person">Pierre Champion</name>
+          </respStmt>
+        </titleStmt>
+          <extent>150 page(s)
+        </extent>
+        <publicationStmt>
+          <publisher>Champion</publisher>
+          <pubPlace>Paris</pubPlace>
+          <date>1923</date>
+          <idno type="sigle_DEAF">CharlD'OrlC</idno>
+          <idno type="cote_FRANTEXT">5417</idno>
+          <idno type="cote_biblio">ENS-LSH / INRP : 64085-I</idno>
+        </publicationStmt>
+      </biblFull>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p>Projet :<name type="project">BFM - Base de français médiéval</name>
+        Resp. : <name type="person">Céline Guillot-Barbance</name>
+        Équipe : Base de français médiéval
+        Laboratoire : UMR 5317 IHRIM
+        Institution : ENS de Lyon
+        <address>
+          <addrLine>15, parvis René Descartes</addrLine>
+          <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+          <addrLine>Tél : 04 37 37 63 10</addrLine>
+          <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+          <addrLine>http://bfm.ens-lyon.fr</addrLine>
+        </address>
+      </p>
+      <p>Ce texte provient de la Base textuelle du <name type="project">Dictionnaire du Moyen Français</name>
+        et fait partie de la base <name type="project">FRANTEXT</name>.
+        <address>
+          <addrLine>ATILF UMR 7118 CNRS - Université de Lorraine</addrLine>
+          <addrLine>44, avenue de la Libération</addrLine>
+          <addrLine>BP 30687</addrLine>
+          <addrLine>54063 NANCY CEDEX</addrLine>
+          <addrLine>Tél : 03 54 50 53 00</addrLine>
+          <addrLine>Fax : 03 83 97 24 56</addrLine>
+          <addrLine>Courriel : contact@atilf.fr</addrLine>
+          <addrLine>http://www.atilf.fr</addrLine>
+          <addrLine>http://www.frantext.fr</addrLine>
+          <addrLine>http://www.atilf.fr/dmf</addrLine>
+        </address>
+      </p>
+    </projectDesc>
+    <editorialDecl>
+      <p>Voir le <ref target="http://bfm.ens-lyon.fr/IMG/pdf/Manuel_Encodage_TEI.pdf">Manuel d'encodage XML-TEI de la BFM</ref>
+        et les <ref target="http://bfm.ens-lyon.fr/IMG/pdf/Consignes_BFM.pdf">Consignes aux relecteurs de la BFM</ref>.</p>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="ab" occurs="141"/>
+        <tagUsage gi="body" occurs="1"/>
+        <tagUsage gi="div" occurs="123"/>
+        <tagUsage gi="foreign" occurs="19"/>
+        <tagUsage gi="head" occurs="8"/>
+        <tagUsage gi="hi" occurs="27"/>
+        <tagUsage gi="lb" occurs="3710"/>
+        <tagUsage gi="pb" occurs="150"/>
+        <tagUsage gi="q" occurs="24"/>
+        <tagUsage gi="sp" occurs="15"/>
+        <tagUsage gi="speaker" occurs="15"/>
+        <tagUsage gi="supplied" occurs="22"/>
+        <tagUsage gi="text" occurs="1"/>
+        <tagUsage gi="w" occurs="1"/>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <creation>
+      <name type="author">Charles d'Orléans</name>
+      <title>Ballades</title>
+      <date type="compo" when="1415-01-01" notBefore="1415-01-01" notAfter="1415-12-31" n="15">1415</date>
+      <date type="compo_periode">moyen</date>
+      <date type="compo_sous_siecle" n="15_1">début</date>
+      <date type="ms" when="1440-01-01" notBefore="1435-01-01" notAfter="1444-12-31">ca. 1440</date>
+      <idno type="msIdentifier">Paris, BnF, fr. 25458</idno>
+      <region type="dialecte_auteur">orléanais</region>
+    </creation>
+    <langUsage>
+      <language ident="fro" usage="100">Le texte est entièrement écrit en vers en moyen français.</language>
+    </langUsage>
+    <textDesc>
+      <channel mode="w">print</channel>
+      <constitution type="single"/>
+      <derivation type="original"/>
+      <domain type="littéraire"/>
+    <factuality type="inapplicable"/>
+      <interaction type="none"/>
+      <preparedness type="prepared"/>
+      <purpose type="narrative"/></textDesc>
+    <textClass>
+      <keywords scheme="http://authorities.bfm-corpus.org">
+        <term type="domaine">littéraire</term>
+        <term type="genre">lyrique</term>
+        <term type="forme">vers</term>
+        <term type="relation">original</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change who="#GSouvay" when="2005-03-30">rétroconversion automatique d'un texte du corpus FRANTEXT, base DMF, au format TEI P4</change>
+    <change who="#ATILF" when="2005-03-30">numérisation</change>
+    <change who="#AL" when="2011-09-12">adaptation au format TEI BFM</change>
+    <change who="#AL" when="2012-05-02">adaptation du balisage aux normes BFM TEI P5</change>
+    <change who="#AL" when="2012-11-02">balisage du discours direct</change>
+    <change when="2012-11-02">Dernière modification du texte</change>
+    <change when="2022-11-04">Création de cet entête</change>
+  </revisionDesc>
+</teiHeader>
+<text>
+<body>
+<pb n="17"/>
+<div type="ballade" n="I">
+<ab type="gv">
+<lb n="1"/> Belle, bonne, nompareille, plaisant, 
+<lb n="2"/> Je vous suppli, vueilliez me pardonner, 
+<lb n="3"/> Se moy, qui sui vostre grace actendant, 
+<lb n="4"/> Viens devers vous pour mon fait raconter. 
+<lb n="5"/> Plus longuement je ne le puis celer 
+<lb n="6"/> Qu'il ne faille que sachiés ma destresse, 
+<lb n="7"/> Comme celle qui me peut conforter ; 
+<lb n="8"/> Car je vous tiens pour ma seule maistresse. 
+<lb n="9"/> Se si a plain vous vois mes maulx disant, 
+<lb n="10"/> Force d'Amours me fait ainsi parler ; 
+<lb n="11"/> Car je devins vostre loyal servant, 
+<lb n="12"/> Le premier jour que je peuz regarder 
+<lb n="13"/> La grant beauté que vous avez sans per, 
+<lb n="14"/> Qui me feroit avoir toute liesse, 
+<lb n="15"/> Se serviteur vous plaisoit me nommer ; 
+<lb n="16"/> Car je vous tiens pour ma seule maistresse. 
+<lb n="17"/> Que me donnez en octroy don si grant, 
+<lb n="18"/> Je ne l'ose dire ne demander ; 
+<lb n="19"/> Mais s'il vous plaist que, de cy en avant, 
+<pb n="18"/>
+<lb n="20"/> En vous servant, puisse ma vie user, 
+<lb n="21"/> Je vous supply que, sans me refuser, 
+<lb n="22"/> Vueilliez souffrir qu'y mette ma jeunesse ; 
+<lb n="23"/> Nul autre bien je ne vueil souhaidier, 
+<lb n="24"/> Car je vous tiens pour ma seule maistresse. 
+</ab>
+</div>
+<div type="ballade" n="II">
+<ab type="gv"> 
+<lb n="1"/> Vueilliez voz yeulx emprisonner, 
+<lb n="2"/> Et sur moy plus ne les giettés ; 
+<lb n="3"/> Car quant vous plaist me regarder, 
+<lb n="4"/> Par Dieu, Belle, vous me tués, 
+<lb n="5"/> Et en tel point mon cueur mettés 
+<lb n="6"/> Que je ne sçay que faire doye, 
+<lb n="7"/> Je suis mort, se vous ne m'aidiés, 
+<lb n="8"/> Ma seule souveraine joye. 
+<lb n="9"/> Je ne vous ose demander 
+<lb n="10"/> Que vostre cueur vous me donnés ; 
+<lb n="11"/> Mais, se droit me voulés garder, 
+<lb n="12"/> Puis que le cueur de moy avés, 
+<lb n="13"/> Le vostre fault que me laissiés, 
+<lb n="14"/> Car sans cueur vivre ne pourroye ; 
+<lb n="15"/> Faictes en comme vous vouldrés, 
+<lb n="16"/> Ma seule souveraine joye. 
+<lb n="17"/> Trop hardy suy d'ainsi parler, 
+<lb n="18"/> Mais pardonner le me devés 
+<lb n="19"/> Et n'en devés autruy blasmer 
+<lb n="20"/> Que le gent corps que vous portés, 
+<lb n="21"/> Qui m'a mis, comme vous veés, 
+<lb n="22"/> Si fort en l'amoureuse voye 
+<pb n="19"/>
+<lb n="23"/> Qu'en vostre prison me tenés, 
+<lb n="24"/> Ma seule souveraine joye. 
+<lb n="25"/> Ma Dame, plus que ne savés, 
+<lb n="26"/> Amour si tresfort me guerroye, 
+<lb n="27"/> Qu'a vous me rens ; or me prenés, 
+<lb n="28"/> Ma seule souveraine joye. 
+</ab>
+</div>
+<div type="ballade" n="III">
+<ab type="gv"> 
+<lb n="1"/> C'est grant peril de regarder 
+<lb n="2"/> Chose dont peut venir la mort, 
+<lb n="3"/> Combien qu'on ne s'en scet garder 
+<lb n="4"/> Aucunes fois, soit droit ou tort. 
+<lb n="5"/> Quant Plaisance si est d'accort 
+<lb n="6"/> Avecques un jeune desir, 
+<lb n="7"/> Nul ne pourroit son cueur tenir 
+<lb n="8"/> D'envoyer les yeulx en messaige ; 
+<lb n="9"/> On le voit souvent avenir 
+<lb n="10"/> Aussi bien au foul com au sage. 
+<lb n="11"/> Lesquelz yeulx viennent raporter 
+<lb n="12"/> Ung si tresgracieux raport 
+<lb n="13"/> Au cueur, quant le veult escouter, 
+<lb n="14"/> Que, s'il a eu d'amer l'effort, 
+<lb n="15"/> Encores l'aura il plus fort ; 
+<lb n="16"/> Et le font du tout retenir 
+<lb n="17"/> Ou service, sans departir, 
+<lb n="18"/> D'Amours, a son tresgrant dommage ; 
+<lb n="19"/> On le voit souvent avenir 
+<lb n="20"/> Aussi bien au foul comme au sage. 
+<pb n="20"/>
+<lb n="21"/> Car mains maulx lui fault endurer, 
+<lb n="22"/> Et de Soussy passer le port, 
+<lb n="23"/> Avant qu'il puisse recouvrer 
+<lb n="24"/> L'acointance de Reconfort, 
+<lb n="25"/> Qui plusieurs fois au besoing dort, 
+<lb n="26"/> Quant on se veult de lui servir ; 
+<lb n="27"/> Et lors il est plus que martir, 
+<lb n="28"/> Car son mal vault trop pis que rage. 
+<lb n="29"/> On le voit souvent avenir 
+<lb n="30"/> Aussi bien au foul comme au sage. 
+<lb n="31"/> Amour, ne prenés desplaisir 
+<lb n="32"/> S'ay dit le mal que fault souffrir, 
+<lb n="33"/> Demourant en vostre servage ; 
+<lb n="34"/> On le voit souvent avenir 
+<lb n="35"/> Aussi bien au foul comme au sage. 
+</ab>
+</div>
+<div type="ballade" n="IV">
+<ab type="gv"> 
+<lb n="1"/> Comment se peut un povre cueur deffendre, 
+<lb n="2"/> Quant deux beaulx yeulx le viennent assaillir ? 
+<lb n="3"/> Le cueur est seul, desarmé, nu et tendre, 
+<lb n="4"/> Et les yeulx sont bien armez de plaisir ; 
+<lb n="5"/> Contre tous deux ne pourroit pié tenir : 
+<lb n="6"/> Amour aussi est de leur aliance ; 
+<lb n="7"/> Nul ne tendroit contre telle puissance. 
+<lb n="8"/> Il lui couvient ou mourir ou se rendre, 
+<lb n="9"/> Trop grant honte lui seroit de fuir. 
+<lb n="10"/> Plus baudement les oseroit attendre, 
+<lb n="11"/> S'il eust pavais dont il se peust couvrir ; 
+<lb n="12"/> Mais point n'en a, si lui vault mieulx souffrir 
+<pb n="21"/>
+<lb n="13"/> Et se mettre tout en leur gouvernance : 
+<lb n="14"/> Nul ne tendroit contre telle puissance. 
+<lb n="15"/> Qu'il soit ainsi bien le me fist aprandre 
+<lb n="16"/> Ma maistresse, mon souverain desir. 
+<lb n="17"/> Quant il lui pleut ja pieça entreprandre 
+<lb n="18"/> De me vouloir de ses doulx yeulx ferir ; 
+<lb n="19"/> Oncques depuis mon cueur ne peut guerir, 
+<lb n="20"/> Car lors fut il desconfit a oultrance ; 
+<lb n="21"/> Nul ne tendroit contre telle puissance. 
+</ab>
+</div>
+<div type="ballade" n="V">
+<ab type="gv"> 
+<lb n="1"/> Espargniez vostre doulx attrait 
+<lb n="2"/> Et vostre gracieux parler, 
+<lb n="3"/> Car Dieu scet les maulx qu'ilz ont fait 
+<lb n="4"/> A mon povre cueur endurer. 
+<lb n="5"/> Puis que ne voulés m'acorder 
+<lb n="6"/> Ce qui pourroit mes maulx guerir, 
+<lb n="7"/> Laissiez moy passer ma meschance, 
+<lb n="8"/> Sans plus me vouloir assaillir 
+<lb n="9"/> Par vostre plaisant accointance ! 
+<lb n="10"/> Vers Amours faictes grant forfait, 
+<lb n="11"/> Je l'ose pour vray advouer, 
+<lb n="12"/> Quant me ferez d'amoureux trait 
+<lb n="13"/> Et ne me voulez conforter. 
+<lb n="14"/> Je croy que me voulez tuer. 
+<lb n="15"/> Pleust a Dieu que peussiez sentir 
+<lb n="16"/> Une fois la dure grevance 
+<lb n="17"/> Que m'avez fait long temps souffrir 
+<lb n="18"/> Par vostre plaisant accointance ! 
+<pb n="22"/>
+<lb n="19"/> Helas ! que vous ay je meffait 
+<lb n="20"/> Par quoy me doyez tourmenter ? 
+<lb n="21"/> Quant mon cueur d'amer se retrait, 
+<lb n="22"/> Tantost le venez rappeller ; 
+<lb n="23"/> Plaise vous en paix le laissier, 
+<lb n="24"/> Ou lui accordez son desir ; 
+<lb n="25"/> Honte vous est, non pas vaillance, 
+<lb n="26"/> D'un loyal cueur ainsi meurdrir 
+<lb n="27"/> Par vostre plaisant accointance ! 
+</ab>
+</div>
+<div type="ballade" n="VI">
+<ab type="gv"> 
+<lb n="1"/> N'a pas long temps qu'alay parler 
+<lb n="2"/> A mon cueur, tout secrettement, 
+<lb n="3"/> Et lui conseillay de s'oster 
+<lb n="4"/> Hors de l'amoureux pensement ; 
+<lb n="5"/> Mais <supplied resp="#editor">il</supplied> me dist bien fellement : 
+<lb n="6"/> <q> « Ne m'en parlez plus, je vous prie ; 
+<lb n="7"/> J'ameray tousjours, se m'aist Dieux, 
+<lb n="8"/> Car j'ay la plus belle choisie. 
+<lb n="9"/> Ainsi m'ont raporté mes yeulx. » </q>  
+<lb n="10"/> Lors dis : <q> « Vueilliez me pardonner, 
+<lb n="11"/> Car je vous jure mon serement 
+<lb n="12"/> Que conseil vous cuide donner, 
+<lb n="13"/> A mon povair, tresloyaument ; 
+<lb n="14"/> Voulez vous sans allegement 
+<lb n="15"/> En doleur finer vostre vie ? 
+<lb n="16"/> - Nennil dya, dist il, j'auray mieulx : 
+<lb n="17"/> Ma Dame m'a fait chiere lie ; 
+<lb n="18"/> Ainsi m'ont raporté mes yeulx. 
+<pb n="23"/>
+<lb n="19"/> - Cuidez vous savoir, sans doubter, 
+<lb n="20"/> Par un regart tant seulement, » </q>  
+<lb n="21"/> Se dis je, <q> « du tout son penser, 
+<lb n="22"/> Ou par un doulx acointement ? 
+<lb n="23"/> - Taisiez vous, dist il ; vraiement, 
+<lb n="24"/> Je ne croiray chose qu'on die, 
+<lb n="25"/> Mais la serviray en tous lieux, 
+<lb n="26"/> Car de tous biens est enrichie : 
+<lb n="27"/> Ainsi m'ont raporté mes yeulx. » </q>  
+</ab>
+</div>
+<div type="ballade" n="VII">
+<ab type="gv"> 
+<lb n="1"/> De jamais n'amer par amours 
+<lb n="2"/> J'ay aucune fois le vouloir, 
+<lb n="3"/> Pour les ennuieuses dolours 
+<lb n="4"/> Qu'il me fault souvent recevoir ; 
+<lb n="5"/> Mais en la fin, pour dire voir, 
+<lb n="6"/> Quelque mal que doye porter, 
+<lb n="7"/> Je vous asseure, par ma foy, 
+<lb n="8"/> Que je n'en sauroye garder 
+<lb n="9"/> Mon cueur qui est maistre de moy. 
+<lb n="10"/> Combien qu'ay eu d'estranges tours, 
+<lb n="11"/> Mais j'ai tout mis a nonchaloir, 
+<lb n="12"/> Pensant de recouvrer secours 
+<lb n="13"/> De Confort ou d'un doulx Espoir. 
+<lb n="14"/> Helas ! se j'eusse le povoir 
+<lb n="15"/> D'aucunement hors m'en bouter, 
+<lb n="16"/> Par le serement qu'a Amours doy, 
+<lb n="17"/> Jamais n'y lairoye rentrer 
+<lb n="18"/> Mon cueur qui est maistre de moy. 
+<pb n="24"/>
+<lb n="19"/> Car je sçay bien que par doulçours 
+<lb n="20"/> Amour le scet si bien avoir, 
+<lb n="21"/> Qu'il vouldroit ainsi tous les jours 
+<lb n="22"/> Demourer sans ja s'en mouvoir. 
+<lb n="23"/> N'il ne veult oïr ne savoir 
+<lb n="24"/> Le mal qu'il me fait endurer ; 
+<lb n="25"/> Plaisance l'a mis en ce ploy, 
+<lb n="26"/> Elle fait mal de le m'oster, 
+<lb n="27"/> Mon cueur qui est maistre de moy. 
+<lb n="28"/> Il me desplaist d'en tant parler : 
+<lb n="29"/> Mais, par le Dieu en qui je croy, 
+<lb n="30"/> Ce fait desir de recouvrer 
+<lb n="31"/> Mon cueur <supplied resp="#editor"> qui est maistre de moy</supplied>. 
+</ab>
+</div>
+<div type="ballade" n="VIII">
+<ab type="gv"> 
+<lb n="1"/> Quant je suis couschié en mon lit, 
+<lb n="2"/> Je ne puis en paix reposer ; 
+<lb n="3"/> Car toute la nuit mon cueur lit 
+<lb n="4"/> Ou rommant de Plaisant Penser, 
+<lb n="5"/> Et me prie de l'escouter ; 
+<lb n="6"/> Si ne l'ose desobeir 
+<lb n="7"/> Pour doubte de le courroucer : 
+<lb n="8"/> Ainsi je laisse le dormir. 
+<lb n="9"/> Ce livre si est tout escript 
+<lb n="10"/> Des fais de ma Dame sans per ; 
+<lb n="11"/> Souvent mon cueur de joye rit, 
+<lb n="12"/> Quand il les list ou oyt compter ; 
+<lb n="13"/> Car certes tant sont a louer 
+<lb n="14"/> Qu'il y prent souverain plaisir ; 
+<pb n="25"/>
+<lb n="15"/> Moy mesmes ne m'en puis lasser : 
+<lb n="16"/> Ainsi je laisse le dormir. 
+<lb n="17"/> Se mes yeulx demandent respit 
+<lb n="18"/> Par Sommeil qui les vient grever, 
+<lb n="19"/> Il les tense par grant despit, 
+<lb n="20"/> Et si ne les peut surmonter : 
+<lb n="21"/> Il ne cesse de soupirer 
+<lb n="22"/> A part soy ; j'ay lors, sans mentir, 
+<lb n="23"/> Grant paine de le rapaiser : 
+<lb n="24"/> Ainsi je laisse le dormir. 
+<lb n="25"/> Amour, je ne puis gouverner 
+<lb n="26"/> Mon cueur ; car tant vous veult servir 
+<lb n="27"/> Qu'il ne scet jour ne nuit cesser : 
+<lb n="28"/> Ainsi je laisse le dormir. 
+</ab>
+</div>
+<div type="ballade" n="IX">
+<ab type="gv"> 
+<lb n="1"/> Fresche beauté, tresriche de jeunesse, 
+<lb n="2"/> Riant regard, trait amoureusement, 
+<lb n="3"/> Plaisant parler, gouverné par sagesse, 
+<lb n="4"/> Port femenin en corps bien fait et gent, 
+<lb n="5"/> Haultain maintien, demené doulcement, 
+<lb n="6"/> Acueil humble, plain de maniere lye, 
+<lb n="7"/> Sans nul dangier, bonne chiere faisant, 
+<lb n="8"/> Et de chascun pris et los emportant ; 
+<lb n="9"/> De ces grans biens est ma Dame garnie. 
+<lb n="10"/> Tant bien lui siet a la noble Princesse 
+<lb n="11"/> Chanter, dancer et tout esbatement, 
+<lb n="12"/> Qu'on la nomme de ce faire maistresse. 
+<pb n="26"/>
+<lb n="13"/> Elle fait tout si gracieusement, 
+<lb n="14"/> Que nul n'y scet trouver amendement ; 
+<lb n="15"/> L'escolle peut tenir de courtoisie : 
+<lb n="16"/> En la voyant aprent qui est sachant, 
+<lb n="17"/> Et en ses fais qui va garde prenant : 
+<lb n="18"/> De ces grans biens est ma Dame garnie. 
+<lb n="19"/> Bonté, Honneur, avecques Gentillesse 
+<lb n="20"/> Tiennent son cueur en leur gouvernement, 
+<lb n="21"/> Et Loyaulté nuit et jour ne la laisse. 
+<lb n="22"/> Nature mist tout son entendement 
+<lb n="23"/> A la fourmer et faire proprement. 
+<lb n="24"/> De point en point, c'est la mieulx acomplie 
+<lb n="25"/> Qui au jourduy soit ou monde vivant, 
+<lb n="26"/> Je ne dy riens que tous ne vont disant : 
+<lb n="27"/> De ces grans biens est ma Dame garnie. 
+<lb n="28"/> Elle semble, mieulx que femme, deesse ; 
+<lb n="29"/> Si croy que Dieu l'envoya seulement 
+<lb n="30"/> En ce monde pour moustrer la largesse 
+<lb n="31"/> De ces haultz dons, qu'il a entierement 
+<lb n="32"/> En elle mis abandonneement. 
+<lb n="33"/> Elle n'a per : plus ne sçay que je dye ; 
+<lb n="34"/> Pour foul me tiens de l'aler devisant, 
+<lb n="35"/> Car moy ne nul n'est a ce souffisant ; 
+<lb n="36"/> De ces grans biens est ma Dame garnie. 
+<lb n="37"/> S'il est aucun qui soit prins de tristesse 
+<lb n="38"/> Voise veoir son doulx maintenement, 
+<lb n="39"/> Je me fais fort que le mal qui le blesse 
+<lb n="40"/> Le laissera pour lors soudainnement, 
+<lb n="41"/> Et en oubly sera mis plainement : 
+<lb n="42"/> C'est Paradis que de sa compaignie, 
+<pb n="27"/>
+<lb n="43"/> A tous complaist, a nul n'est ennuiant, 
+<lb n="44"/> Qui plus la voit plus en est desirant ; 
+<lb n="45"/> De ces grans biens est ma Dame garnie. 
+<lb n="46"/> Toutes dames, qui oyez cy comment 
+<lb n="47"/> Prise celle que j'ayme loyaument, 
+<lb n="48"/> Ne m'en sachiez maugré, je vous en prie ; 
+<lb n="49"/> Je ne parle pas en vous desprisant. 
+<lb n="50"/> Mais, comme sien, je dy en m'acquittant : 
+<lb n="51"/> De ces grans biens est ma Dame garnie. 
+</ab>
+</div>
+<div type="ballade" n="X">
+<ab type="gv"> 
+<lb n="1"/> A ma Dame je ne sçay que je dye, 
+<lb n="2"/> Ne par quel bout je doye commencer, 
+<lb n="3"/> Pour vous mander la doloreuse vie 
+<lb n="4"/> Qu'Amour me fait chascun jour endurer. 
+<lb n="5"/> Trop mieulx vaulsist me taire que parler, 
+<lb n="6"/> Car proufiter ne me peuent mes plains, 
+<lb n="7"/> Ne je ne puis guerison recouvrer, 
+<lb n="8"/> Puis qu'ainsi est que de vous suis loingtains. 
+<lb n="9"/> Quanque je voy me desplaist et ennuye, 
+<lb n="10"/> Et n'en ose contenance moustrer, 
+<lb n="11"/> Mais ma bouche fait semblant qu'elle rie, 
+<lb n="12"/> Quant maintefoiz je sens mon cueur plourer. 
+<lb n="13"/> Au fort, martir on me devra nommer, 
+<lb n="14"/> Se Dieu d'Amours fait nulz amoureux saints : 
+<lb n="15"/> Car j'ay des maulx plus que ne sçay compter, 
+<lb n="16"/> Puis qu'ainsi est que de vous suy loingtains. 
+<pb n="28"/>
+<lb n="17"/> Et non pourtant, humblement vous mercie, 
+<lb n="18"/> Car par escript vous a pleu me donner 
+<lb n="19"/> Ung doulx confort que j'ay a chiere lie 
+<lb n="20"/> Receu de cueur et de joyeux penser, 
+<lb n="21"/> Vous suppliant que ne vueilliez changier, 
+<lb n="22"/> Car en vous sont tous mes plaisirs mondains, 
+<lb n="23"/> Desquelz me fault a present deporter, 
+<lb n="24"/> Puis qu'ainsi est que de vous suy loingtains. 
+</ab>
+</div>
+<div type="ballade" n="XI">
+<ab type="gv"> 
+<lb n="1"/> Loingtain de vous, ma tresbelle maistresse, 
+<lb n="2"/> Fors que de cueur que laissié je vous ay, 
+<lb n="3"/> Acompaignié de Dueil et de Tristesse, 
+<lb n="4"/> Jusques a tant que reconfort auray 
+<lb n="5"/> D'un doulx plaisir, quant reveoir pourray 
+<lb n="6"/> Vostre gent corps, plaisant et gracieux, 
+<lb n="7"/> Car lors lairay tous mes maulx ennuieux 
+<lb n="8"/> Et trouveray, se m'a dit Esperance, 
+<lb n="9"/> Par le pourchas du regard de mes yeulx 
+<lb n="10"/> Autant de bien que j'ay de desplaisance. 
+<lb n="11"/> Car s'oncques nul sceut que c'est de destresse, 
+<lb n="12"/> Je pense bien que j'en ay fait l'essay 
+<lb n="13"/> Si tresavant et a telle largesse 
+<lb n="14"/> Qu'en dueil pareil nulluy de moy ne sçay. 
+<lb n="15"/> Mais ne m'en chault ; certes j'endureray, 
+<lb n="16"/> Au desplaisir des jaloux envieux, 
+<lb n="17"/> Et me tendray, par semblance, joyeux ; 
+<lb n="18"/> Car quant je suy en greveuse penance, 
+<lb n="19"/> Ilz reçoyvent, que mal jour leur doint Dieux ! 
+<lb n="20"/> Autant de bien que j'ay de desplaisance. 
+<pb n="29"/>
+<lb n="21"/> Tout prens en gré, jenne, gente Princesse, 
+<lb n="22"/> Mais qu'en sachiés tant seulement le vray. 
+<lb n="23"/> En attendant le guerdon de Liesse 
+<lb n="24"/> Qu'a mon povair vers vous desserviray ; 
+<lb n="25"/> Car le conseil de Loyauté feray, 
+<lb n="26"/> Que garderay pres de moy en tous lieux : 
+<lb n="27"/> Vostre toujours soye, jennes ou vieulx, 
+<lb n="28"/> Priant a Dieu, ma seule desirance, 
+<lb n="29"/> Qu'il vous envoit, s'avoir ne povez mieulx, 
+<lb n="30"/> Autant de bien que j'ay de desplaisance. 
+</ab>
+</div>
+<div type="ballade" n="XII">
+<ab type="gv"> 
+<lb n="1"/> Puis qu'ainsi est que loingtain de vous suis, 
+<lb n="2"/> Ma maistresse, dont Dieu scet s'il m'ennuie, 
+<lb n="3"/> Si chierement vous requier que je puis 
+<lb n="4"/> Qu'il vous plaise de vostre courtoisie, 
+<lb n="5"/> Quant vous estes seule, sans compaignie, 
+<lb n="6"/> Me souhaidier un baisier amoureux 
+<lb n="7"/> Venant du cueur et de pensee lie, 
+<lb n="8"/> Pour alegier mes griefs maulx doloreux. 
+<lb n="9"/> Quant en mon lit doy reposer de nuis, 
+<lb n="10"/> Penser m'assault et Desir me guerrie ; 
+<lb n="11"/> Et en pensant maintesfois m'est advis 
+<lb n="12"/> Que je vous tiens entre mes bras, m'amye ; 
+<lb n="13"/> Lors acolle mon oreillier et crie : 
+<lb n="14"/> <q> « Mercy, Amours, faictes moy si eureux 
+<lb n="15"/> Qu'avenir puist mon penser en ma vie, 
+<lb n="16"/> Pour alegier mes griefs maulx doloreux ! » </q>  
+<pb n="30"/>
+<lb n="17"/> Espoir m'a dit et, par sa foy, promis 
+<lb n="18"/> Qu'il m'aydera et que ne m'en soussie ; 
+<lb n="19"/> Mais tant y met qu'un an me semble dix, 
+<lb n="20"/> Et non pourtant, soit ou sens ou folie, 
+<lb n="21"/> Je m'y attens et en lui je m'afie 
+<lb n="22"/> Qu'il fera tant que Dangier, le crueux, 
+<lb n="23"/> N'aura briefment plus sur moy seigneurie, 
+<lb n="24"/> Pour alegier mes griefs maulx doloreux. 
+<lb n="25"/> A Loyauté de plus en plus m'alye, 
+<lb n="26"/> Et a Amours humblement je supplie 
+<lb n="27"/> Que de mon fait vueillent estre piteux, 
+<lb n="28"/> En me donnant de mes vouloirs partie, 
+<lb n="29"/> Pour alegier mes griefs maulx doloreux. 
+</ab>
+</div>
+<div type="ballade" n="XIII">
+<ab type="gv"> 
+<lb n="1"/> Pour tant se souvent ne vous voy, 
+<lb n="2"/> Pensez vous plus que vostre soye ? 
+<lb n="3"/> Par le serement que je vous doy, 
+<lb n="4"/> Si suis autant que je souloye ; 
+<lb n="5"/> N'il n'est ne plaisance, ne joye, 
+<lb n="6"/> N'autre bien qu'on me puist donner, 
+<lb n="7"/> Je le vous prometz loyaument, 
+<lb n="8"/> Qui me puist ce vouloir oster 
+<lb n="9"/> Fors que la mort tant seulement. 
+<lb n="10"/> Vous savés que je vous feis foy 
+<lb n="11"/> Pieça de tout ce que j'avoye, 
+<lb n="12"/> Et vous laissay, en lieu de moy, 
+<lb n="13"/> Le gage que plus chier j'amoye ; 
+<lb n="14"/> C'estoit mon cueur que j'ordonnoye 
+<pb n="31"/>
+<lb n="15"/> Pour avecques vous demourer, 
+<lb n="16"/> A qui je suis entierement. 
+<lb n="17"/> Nul ne m'en pourroit destourber 
+<lb n="18"/> Fors que la mort tant seulement. 
+<lb n="19"/> Combien certes que je reçoy 
+<lb n="20"/> Tel mal que, se le vous disoye, 
+<lb n="21"/> Vous auriés, comme je croy, 
+<lb n="22"/> Pitié du mal que me guerroye. 
+<lb n="23"/> Car de tout dueil suis en la voye, 
+<lb n="24"/> Vous le povez assez penser, 
+<lb n="25"/> Et ay esté si longuement, 
+<lb n="26"/> Que je ne doy riens desirer 
+<lb n="27"/> Fors que la mort tant seulement. 
+<lb n="28"/> Belle, que tant veoir vouldroye, 
+<lb n="29"/> Je prie a Dieu que brief vous voye ; 
+<lb n="30"/> Ou s'il ne le veult accorder, 
+<lb n="31"/> Je lui suply treshumblement 
+<lb n="32"/> Que riens ne me vueille donner 
+<lb n="33"/> Fors que la mort tant seulement. 
+</ab>
+</div>
+<div type="ballade" n="XIV">
+<ab type="gv"> 
+<lb n="1"/> Quelles nouvelles, ma maistresse ? 
+<lb n="2"/> Comment se portent noz amours ? 
+<lb n="3"/> De ma part je vous fais promesse 
+<lb n="4"/> Qu'en un propos me tiens tousjours, 
+<lb n="5"/> Sans jamais penser le rebours : 
+<lb n="6"/> C'est que seray toute ma vie 
+<lb n="7"/> Vostre du tout entierement ; 
+<pb n="32"/>
+<lb n="8"/> Et pour ce, de vostre partie, 
+<lb n="9"/> Acquittez vous pareillement. 
+<lb n="10"/> Combien que Dangier et Destresse 
+<lb n="11"/> Ont fait longuement leurs sejours 
+<lb n="12"/> Avec mon cueur, et par rudesse 
+<lb n="13"/> Luy ont moustré d'estranges tours, 
+<lb n="14"/> (Helas ! en amoureuses cours, 
+<lb n="15"/> C'est pitié qu'ilz ont seigneurie) 
+<lb n="16"/> Si mettray paine que briefment 
+<lb n="17"/> Loyaulté sur eulx ait maistrie : 
+<lb n="18"/> Acquittés vous pareillement. 
+<lb n="19"/> Quoyque la nue de Tristesse 
+<lb n="20"/> Par un long temps ait fait son cours, 
+<lb n="21"/> Aprés le beau temps de Lyesse 
+<lb n="22"/> Vendra qui donnera secours 
+<lb n="23"/> A noz deux cueurs, car mon recours 
+<lb n="24"/> J'ay en Espoir, en qui me fie, 
+<lb n="25"/> Et en vous, Belle, seulement : 
+<lb n="26"/> Car jamais je ne vous oublie ; 
+<lb n="27"/> Acquittés vous pareillement. 
+<lb n="28"/> Soiés seure, ma doulce amie, 
+<lb n="29"/> Que je vous ayme loyaument. 
+<lb n="30"/> Or, vous requier et vous supplie, 
+<lb n="31"/> Acquittiez vous pareillement. 
+</ab>
+</div>
+<div type="ballade" n="XV">
+<ab type="gv"> 
+<lb n="1"/> Belle que je tiens pour amye, 
+<lb n="2"/> Pensés, quelque part que je soye, 
+<lb n="3"/> Que jamais je ne vous oublie ; 
+<pb n="33"/>
+<lb n="4"/> Et pour ce prier vous vouldroye, 
+<lb n="5"/> Jusques atant que vous revoye, 
+<lb n="6"/> Qu'il vous souviengne de cellui 
+<lb n="7"/> Qui a trouvé peu de mercy 
+<lb n="8"/> En vous, se dire je l'osoye. 
+<lb n="9"/> Combien que je ne dye mie 
+<lb n="10"/> Que n'aye receu bien et joye, 
+<lb n="11"/> En vostre doulce compaignie, 
+<lb n="12"/> Plus que desservir ne sauroye, 
+<lb n="13"/> Non pour tant, voulentiers j'auroye 
+<lb n="14"/> Le guerdon de loyal amy, 
+<lb n="15"/> Qu'oncques ne trouvay jusqu'a cy 
+<lb n="16"/> En vous, se dire je l'osoye. 
+<lb n="17"/> Je vous ay longuement servie, 
+<lb n="18"/> Si m'est advis qu'avoir devroye 
+<lb n="19"/> Le don que de sa courtoisie 
+<lb n="20"/> Amour a ses servans envoye ; 
+<lb n="21"/> Or faittes qu'estre content doye, 
+<lb n="22"/> Et m'accordez ce que je dy, 
+<lb n="23"/> Car trop avez refus nourry 
+<lb n="24"/> En vous, se dire je l'osoye. 
+</ab>
+</div>
+<div type="ballade" n="XVI">
+<ab type="gv"> 
+<lb n="1"/> Ma Dame, vous povez savoir 
+<lb n="2"/> Les biens qu'ay euz a vous servir ! 
+<lb n="3"/> Car, par ma foy, pour dire voir, 
+<lb n="4"/> Oncques je n'y peuz acquerir 
+<lb n="5"/> Tant seulement un doulx plaissir, 
+<lb n="6"/> Que, sitost que je le tenoye, 
+<pb n="34"/>
+<lb n="7"/> Dangier le me venoit tolir 
+<lb n="8"/> Ce peu de plaisir que j'avoye. 
+<lb n="9"/> Je n'en savoye nul avoir 
+<lb n="10"/> Qui peust contenter mon desir, 
+<lb n="11"/> Se non quant vous povoye voir, 
+<lb n="12"/> Ma joye, mon seul souvenir. 
+<lb n="13"/> Or m'en a fait Dangier banir, 
+<lb n="14"/> Tant qu'il fault que loing de vous soye, 
+<lb n="15"/> Par quoy a fait de moy partir 
+<lb n="16"/> Ce peu de plaisir que j'avoye. 
+<lb n="17"/> Non pas peu, car de bon vouloir 
+<lb n="18"/> Content m'en devoye tenir, 
+<lb n="19"/> En esperant de recevoir 
+<lb n="20"/> Un trop plus grant bien avenir ; 
+<lb n="21"/> Je n'y cuidoye point faillir, 
+<lb n="22"/> A la paine que g'y mettoye ; 
+<lb n="23"/> Cela me faisoit enrichir 
+<lb n="24"/> Ce peu de plaisir que j'avoye. 
+<lb n="25"/> Belle, je vous vueil requerir : 
+<lb n="26"/> Pensés, quant serés de loisir, 
+<lb n="27"/> Qu'en grant mal, qui trop me guerroye, 
+<lb n="28"/> Est tourné, sans vous en mentir, 
+<lb n="29"/> Ce peu de plaisir que j'avoye ! 
+</ab>
+</div>
+<div type="ballade" n="XVII">
+<ab type="gv"> 
+<lb n="1"/> En ce joyeux temps du jour d'uy 
+<lb n="2"/> Que le mois de may ce commence, 
+<lb n="3"/> Et que l'en doit laissier Ennuy, 
+<pb n="35"/>
+<lb n="4"/> Pour prandre joyeuse Plaisance, 
+<lb n="5"/> Je me treuve, sans recouvrance, 
+<lb n="6"/> Loingtain de Joye conquester, 
+<lb n="7"/> De Tristesse si bien renté 
+<lb n="8"/> Que j'ay, je m'en puis bien vanter, 
+<lb n="9"/> Le rebours de ma voulenté. 
+<lb n="10"/> Las ! Amours, je ne voy nulluy 
+<lb n="11"/> Qui n'ait aucune souffisance, 
+<lb n="12"/> Fors que moy seul qui suis celluy 
+<lb n="13"/> Qui est le plus dolent de France. 
+<lb n="14"/> J'ay failli a mon esperance ; 
+<lb n="15"/> Car quant a vous me voulz donner 
+<lb n="16"/> Pour estre vostre serementé, 
+<lb n="17"/> Jamais ne cuidoye trouver 
+<lb n="18"/> Le rebours de ma voulenté. 
+<lb n="19"/> Au fort, puis qu'en ce point je suy, 
+<lb n="20"/> Je porteray ma grant penance, 
+<lb n="21"/> Ayant vers Loyauté refuy 
+<lb n="22"/> Ou j'ay mis toute ma fiance. 
+<lb n="23"/> Ne Dangier, qui ainsi m'avance, 
+<lb n="24"/> Quelque mal que doye porter, 
+<lb n="25"/> Combien que trop m'a tourmenté, 
+<lb n="26"/> Ne pourra ja en moy bouter 
+<lb n="27"/> Le rebours de ma voulenté. 
+<lb n="28"/> D'aucun reconfort accointer 
+<lb n="29"/> Plusieurs foys m'en suy dementé ; 
+<lb n="30"/> Mais j'ay tousjours, au par aler, 
+<lb n="31"/> Le rebours de ma voulenté. 
+</ab>
+<pb n="36"/>
+</div>
+<div type="ballade" n="XVIII">
+<ab type="gv"> 
+<lb n="1"/> Douleur, Courroux, Desplaisir et Tristesse, 
+<lb n="2"/> Quelque tourment que j'aye main et soir, 
+<lb n="3"/> Ne pour doubte de mourir de destresse, 
+<lb n="4"/> Ja ne sera en tout vostre povoir 
+<lb n="5"/> De me changier le tresloyal vouloir 
+<lb n="6"/> Qu'ay eu tousjours de la belle servir, 
+<lb n="7"/> Par qui je puis et pense recevoir 
+<lb n="8"/> Le plus grant bien qui me puist avenir. 
+<lb n="9"/> Quant j'ay par vous aucun mal qui me blesse, 
+<lb n="10"/> Je l'endure par le conseil d'Espoir 
+<lb n="11"/> Qui m'a promis qu'a ma seule maistresse 
+<lb n="12"/> Lui fera brief mon angoisse savoir, 
+<lb n="13"/> En lui mandant qu'en faisant mon devoir, 
+<lb n="14"/> J'ay tout les maulx que nul pourroit souffrir. 
+<lb n="15"/> Lors trouveray, je ne sçay s'il dit voir, 
+<lb n="16"/> Le plus grant bien qui me puist avenir. 
+<lb n="17"/> Ne m'espargniez donc en rien de rudesse, 
+<lb n="18"/> Je vous feray bien brief appercevoir 
+<lb n="19"/> Qu'auray secours d'un confort de Lyesse. 
+<lb n="20"/> Long temps ne puis en ce point remanoir : 
+<lb n="21"/> Pour ce je metz du tout a nonchaloir 
+<lb n="22"/> Les tresgrans maulx que me faittes sentir ; 
+<lb n="23"/> Bien aurez dueil, se me voyez avoir 
+<lb n="24"/> Le plus grant bien qui me puist avenir. 
+<lb n="25"/> Je suy cellui au cueur vestu de noir 
+<lb n="26"/> Qui dy ainsi, qui que le vueille ouyr : 
+<pb n="37"/>
+<lb n="27"/> J'auray briefment, Loyauté m'en fait hoir, 
+<lb n="28"/> Le plus grant bien qui me puist avenir. 
+</ab>
+</div>
+<div type="ballade" n="XIX">
+<ab type="gv"> 
+<lb n="1"/> Jeune, gente, plaisant et debonnaire, 
+<lb n="2"/> Par un prier, qui vault commandement, 
+<lb n="3"/> Chargié m'avez d'une balade faire. 
+<lb n="4"/> Si l'ay faicte de cueur joyeusement ; 
+<lb n="5"/> Or la vueilliez recevoir doulcement. 
+<lb n="6"/> Vous y verrés, s'il vous plaist a la lire, 
+<lb n="7"/> Le mal que j'ay, combien que vrayement 
+<lb n="8"/> J'aymasse mieulx de bouche le vous dire. 
+<lb n="9"/> Vostre doulceur m'a sceu si bien atraire 
+<lb n="10"/> Que tout vostre je suis entierement, 
+<lb n="11"/> Tresdesirant de vous servir et plaire. 
+<lb n="12"/> Mais je seuffre maint doloreux tourment, 
+<lb n="13"/> Quant a mon gré je ne vous voy souvent, 
+<lb n="14"/> Et me desplaist quant me fault vous escrire : 
+<lb n="15"/> Car se faire ce povoit autrement, 
+<lb n="16"/> J'aymasse mieulx de bouche le vous dire. 
+<lb n="17"/> C'est par Dangier, mon cruel adversaire, 
+<lb n="18"/> Qui m'a tenu en ses mains longuement ; 
+<lb n="19"/> En tous mes fais je le treuve contraire, 
+<lb n="20"/> Et plus se rit quant plus me voit dolent. 
+<lb n="21"/> Se vouloye raconter plainnement 
+<lb n="22"/> En cest escript mon ennuieux martire, 
+<lb n="23"/> Trop long seroit ; pour ce certainnement 
+<lb n="24"/> J'aymasse mieulx de bouche le vous dire. 
+</ab>
+<pb n="38"/>
+</div>
+<div type="ballade" n="XX">
+<ab type="gv"> 
+<lb n="1"/> Quant je party derrainnement 
+<lb n="2"/> De ma souveraine sans per, 
+<lb n="3"/> (Que Dieu gard et lui doint briefment 
+<lb n="4"/> Joye de son loyal penser) 
+<lb n="5"/> Mon cueur luy laissay emporter ; 
+<lb n="6"/> Oncques puis ne le peuz ravoir. 
+<lb n="7"/> Si m'esmerveille, main et soir, 
+<lb n="8"/> Comment j'ai vesqu tant de jours 
+<lb n="9"/> Depuis sans cueur ; mais pour tout voir, 
+<lb n="10"/> Ce n'est que miracle d'Amours. 
+<lb n="11"/> Qui est cellui qui longuement 
+<lb n="12"/> Peut vivre sans cueur, ou durer 
+<lb n="13"/> Comme j'ay fait en grief tourment ? 
+<lb n="14"/> Certes nul, je m'en puis vanter. 
+<lb n="15"/> Mais Amours ont voulu moustrer 
+<lb n="16"/> En ce leur gracieux povair, 
+<lb n="17"/> Pour donner aux amans vouloir 
+<lb n="18"/> D'eulx fier en leur doulx secours ; 
+<lb n="19"/> Car bien peuent appercevoir 
+<lb n="20"/> Ce n'est que miracle d'Amours. 
+<lb n="21"/> Quant Pitié vit que franchement 
+<lb n="22"/> Voulu mon cueur abandonner 
+<lb n="23"/> Envers ma Dame, tellement 
+<lb n="24"/> Traitta que lui fist me laisser 
+<lb n="25"/> Son cueur, me chargeant le garder, 
+<lb n="26"/> Dont j'ay fait mon loyal devoir, 
+<lb n="27"/> Maugré Dangier, qui recevoir 
+<lb n="28"/> M'a fait chascun jour de telz tours 
+<pb n="39"/>
+<lb n="29"/> Que sans mort en ce point manoir 
+<lb n="30"/> Ce n'est que miracle d'Amours. 
+</ab>
+</div>
+<div type="ballade" n="XXI">
+<ab type="gv"> 
+<lb n="1"/> Loué soit cellui qui trouva 
+<lb n="2"/> Premier la maniere d'escrire ; 
+<lb n="3"/> En ce, grant confort ordonna 
+<lb n="4"/> Pour amans qui sont en martire ; 
+<lb n="5"/> Car quant ne peuent aler dire 
+<lb n="6"/> A leurs dames leur grief tourment, 
+<lb n="7"/> Ce leur est moult d'alegement 
+<lb n="8"/> Quant par escript peuent mander 
+<lb n="9"/> Les maulx qu'ilz portent humblement 
+<lb n="10"/> Pour bien et loyaument amer. 
+<lb n="11"/> Quant un amoureux escrira 
+<lb n="12"/> Son dueil, qui trop le tient de rire, 
+<lb n="13"/> Au plus tost qu'envoyé l'aura 
+<lb n="14"/> A celle qui est son seul mire, 
+<lb n="15"/> S'il lui plaist a la lectre lire, 
+<lb n="16"/> Elle peut veoir clerement 
+<lb n="17"/> Son doloreux gouvernement ; 
+<lb n="18"/> Et lors Pitié lui scet moustrer 
+<lb n="19"/> Qu'il dessert bon guerdonnement, 
+<lb n="20"/> Pour bien et loyaument amer. 
+<lb n="21"/> Par mon cueur je congnois pieça 
+<lb n="22"/> Ce mestier, car quant il souspire, 
+<lb n="23"/> Jamais rapaisié ne sera 
+<lb n="24"/> Tant qu'il ait envoyé de tire 
+<lb n="25"/> Vers la belle que tant desire. 
+<pb n="40"/>
+<lb n="26"/> Et puis, s'il peut aucunement 
+<lb n="27"/> Oïr nouvelles seulement 
+<lb n="28"/> De sa doulce beauté sans per, 
+<lb n="29"/> Il oublie l'ennuy qu'il sent 
+<lb n="30"/> Pour bien et loyaument amer. 
+<lb n="31"/> Ma dame, Dieu doint que briefment 
+<lb n="32"/> Vous puisse de bouche compter 
+<lb n="33"/> Ce que j'ay souffert longuement 
+<lb n="34"/> Pour bien et loyaument amer ! 
+</ab>
+</div>
+<div type="ballade" n="XXII">
+<ab type="gv"> 
+<lb n="1"/> Belle, combien que de mon fait, 
+<lb n="2"/> Je croy qu'avez peu souvenance, 
+<lb n="3"/> Toutesfois se savoir vous plait 
+<lb n="4"/> Mon estat et mon ordonnance, 
+<lb n="5"/> Sachiés que, loingtain de Plaisance, 
+<lb n="6"/> Je suis de tous maulx bien garny, 
+<lb n="7"/> Autant que nul qui soit en France, 
+<lb n="8"/> Dieu scet en quel mauvais party. 
+<lb n="9"/> Helas ! or n'ay je riens forfait 
+<lb n="10"/> Dont porter je doye penance, 
+<lb n="11"/> Car tousjours je me suis retrait 
+<lb n="12"/> Vers Leauté et Esperance, 
+<lb n="13"/> Pour acquerir leur bien vueillance ; 
+<lb n="14"/> Mais au besoing ilz m'ont failly 
+<lb n="15"/> Et m'ont laissié, sans recouvrance, 
+<lb n="16"/> Dieu scet en quel mauvais party. 
+<pb n="41"/>
+<lb n="17"/> Dangier m'a joué de ce trait, 
+<lb n="18"/> Mais se je puis avoir puissance, 
+<lb n="19"/> Je feray, maugré qu'il en ait, 
+<lb n="20"/> Encontre lui une aliance ; 
+<lb n="21"/> Et si lui rendray la grevance, 
+<lb n="22"/> Le mal, le dueil et le soussy, 
+<lb n="23"/> Ou il m'a mis, jusqu'a oultrance, 
+<lb n="24"/> Dieu scet <supplied resp="#editor"> en quel mauvais party</supplied>. 
+<lb n="25"/> Aydiez moy a l'outrecuidance 
+<lb n="26"/> Vengier, com en vous ay fiance, 
+<lb n="27"/> Ma Maistresse, je vous supply, 
+<lb n="28"/> De ce faulx Dangier qui m'avance 
+<lb n="29"/> Dieu scet en quel mauvais party. 
+</ab>
+</div>
+<div type="ballade" n="XXIII">
+<ab type="gv"> 
+<lb n="1"/> Loyal Espoir, trop je vous voy dormir, 
+<lb n="2"/> Resveilliez vous, et Joyeuse Pensee, 
+<lb n="3"/> Et envoyez un plaisant souvenir 
+<lb n="4"/> Devers mon cueur, de la plus belle nee 
+<lb n="5"/> Dont au jour d'ui coure la renommee ; 
+<lb n="6"/> Vous ferez bien d'un peu le resjoïr, 
+<lb n="7"/> Tristesse s'est avecques lui logiee ; 
+<lb n="8"/> Ne lui vueilliez a son besoing faillir. 
+<lb n="9"/> Car Dangier l'a desrobé de Plaisir, 
+<lb n="10"/> Et que pis est, a de lui eslongnee 
+<lb n="11"/> Celle qui plus le povoit enrichir : 
+<lb n="12"/> C'est sa dame tresloyaument amee. 
+<lb n="13"/> Oncques cueur n'eut si dure destinee. 
+<pb n="42"/>
+<lb n="14"/> Pour Dieu, Espoir, venez le secourir ; 
+<lb n="15"/> Il a en vous sa fiance fermee, 
+<lb n="16"/> Ne lui vueilliez a son besoing faillir. 
+<lb n="17"/> Par Povreté lui fault son pain querir 
+<lb n="18"/> A l'uis d'Amours par chascune journee, 
+<lb n="19"/> Or lui vueilliez l'aumosne departir 
+<lb n="20"/> De Lyesse, que tant a desiree. 
+<lb n="21"/> Avancés vous, sans faire demouree, 
+<lb n="22"/> Pensez de lui, vous savez son desir, 
+<lb n="23"/> Par vous lui soit quelque grace donnee, 
+<lb n="24"/> Ne lui vueilliez a son besoing faillir. 
+<lb n="25"/> Seulle sans per, de toutes gens louee 
+<lb n="26"/> Et de tous biens entierement douee, 
+<lb n="27"/> Mon cueur ces maulx seuffre pour vous servir ; 
+<lb n="28"/> Sa loyauté vous soit recommandee, 
+<lb n="29"/> Ne lui vueilliez a son besoing faillir. 
+</ab>
+</div>
+<div type="ballade" n="XXIV">
+<ab type="gv"> 
+<lb n="1"/> Mon cueur au derrain entrera 
+<lb n="2"/> Ou paradis des amoureux ; 
+<lb n="3"/> Autrement tort fait lui sera, 
+<lb n="4"/> Car il a de maulx doloreux 
+<lb n="5"/> Plus d'un cent, non pas un ou deux, 
+<lb n="6"/> Pour servir sa belle maistresse, 
+<lb n="7"/> Et le tient Dangier, le crueulx, 
+<lb n="8"/> Ou purgatoire de Tristesse. 
+<lb n="9"/> Ainsi l'a tenu, long temps a, 
+<lb n="10"/> Ce faulx traistre, vilain, hideux ; 
+<pb n="43"/>
+<lb n="11"/> Espoir dit que hors le mettra 
+<lb n="12"/> Et que n'en soye ja doubteux. 
+<lb n="13"/> Mais trop y met, dont je me deulx ; 
+<lb n="14"/> Dieu doint qu'il tiengne sa promesse 
+<lb n="15"/> Vers lui, tant est angoisseux 
+<lb n="16"/> Ou purgatoire de Tristesse ! 
+<lb n="17"/> Amour grant aumosne fera, 
+<lb n="18"/> En ce fait cy, d'estre piteux, 
+<lb n="19"/> Et bon exemple moustrera 
+<lb n="20"/> A toutes celles et a ceulx 
+<lb n="21"/> Qui le servent, quant desireux 
+<lb n="22"/> Le verront, par sa grant humblesse, 
+<lb n="23"/> D'aidier ce povre soufreteux 
+<lb n="24"/> Ou purgatoire de Tristesse. 
+<lb n="25"/> Amour ! faittes moy si eureux 
+<lb n="26"/> Que mettez mon cueur en liesse ; 
+<lb n="27"/> Laissiez Dangier et Dueil tous seulx 
+<lb n="28"/> Ou purgatoire de Tristesse. 
+</ab>
+</div>
+<div type="ballade" n="XXV">
+<ab type="gv"> 
+<lb n="1"/> Desploiez vostre banniere, 
+<lb n="2"/> Loyauté, je vous en prie, 
+<lb n="3"/> Et assailliez la frontiere 
+<lb n="4"/> Ou Dueil et Merencolie, 
+<lb n="5"/> A tort et par felonnie, 
+<lb n="6"/> Tiennent Joye prisonniere. 
+<lb n="7"/> De moy la font estrangiere ; 
+<lb n="8"/> Je pri Dieu qu'il les maudie ! 
+<pb n="44"/>
+<lb n="9"/> Quant je deusse bonne chiere 
+<lb n="10"/> Demener en compaignie, 
+<lb n="11"/> Je n'en fais que la maniere : 
+<lb n="12"/> Car quoy que ma bouche rie, 
+<lb n="13"/> Ou parle parolle lye, 
+<lb n="14"/> Dangier et Destresse fiere 
+<lb n="15"/> Boutent mon plaisir arriere ; 
+<lb n="16"/> Je pry Dieu qu'il les maudie ! 
+<lb n="17"/> Helas ! tant avoye chiere, 
+<lb n="18"/> Ja pieça, joyeuse vie ; 
+<lb n="19"/> Se Raison fust droicturiere, 
+<lb n="20"/> J'en eusse quelque partie. 
+<lb n="21"/> Or est de mon cueur bannie 
+<lb n="22"/> Par Fortune, losengiere, 
+<lb n="23"/> Et Durté, sa conseilliere ; 
+<lb n="24"/> Je pry Dieu qu'il les maudie ! 
+<lb n="25"/> Se j'avoye la maistrie 
+<lb n="26"/> Sur ceste faulse mesgnie, 
+<lb n="27"/> Je les meisse tous en biere ; 
+<lb n="28"/> Si est telle ma priere : 
+<lb n="29"/> Je pry Dieu qu'il les maudie ! 
+</ab>
+</div>
+<div type="ballade" n="XXVI">
+<ab type="gv"> 
+<lb n="1"/> Ardant desir de veoir ma maistresse 
+<lb n="2"/> A assailly de nouvel le logis 
+<lb n="3"/> De mon las cueur, qui languist en tristesse, 
+<lb n="4"/> Et puis dedens par tout a le feu mis. 
+<lb n="5"/> En grant doubte certainement je suis 
+<pb n="45"/>
+<lb n="6"/> Qu'il ne soit pas legierement estaint, 
+<lb n="7"/> Sans grant grace : si vous pry, Dieu d'Amours, 
+<lb n="8"/> Sauvez mon cueur, ainsi qu'avez fait maint : 
+<lb n="9"/> Je l'oy crier piteusement secours. 
+<lb n="10"/> J'ay essayé par lermes a largesse 
+<lb n="11"/> De l'estaindre, mais il n'en vault que pis ; 
+<lb n="12"/> C'est feu gregeois, ce croy je, qui ne cesse 
+<lb n="13"/> D'ardre, s'il n'est estaint par bon avis. 
+<lb n="14"/> Au feu, au feu, courez, tous mes amis ! 
+<lb n="15"/> S'aucun de vous, comme lasche, remaint 
+<lb n="16"/> Sans y aler, je le hé pour tousjours ; 
+<lb n="17"/> Avanciez vous, nul de vous ne soit faint, 
+<lb n="18"/> Je l'oy crier piteusement secours. 
+<lb n="19"/> S'il est ainsi mort par vostre peresse, 
+<lb n="20"/> Je vous requier, au moins, tant que je puis, 
+<lb n="21"/> Chascun de vous donnez lui une messe, 
+<lb n="22"/> Et j'ay espoir que brief ou paradis 
+<lb n="23"/> Des amoureux sera moult hault assis, 
+<lb n="24"/> Comme martir et treshonnoré saint, 
+<lb n="25"/> Qui a tenu de Loyauté le cours : 
+<lb n="26"/> Grant tourment a, puis que si fort se plaint ; 
+<lb n="27"/> Je l'oy crier piteusement secours. 
+</ab>
+</div>
+<div type="ballade" n="XXVII">
+<ab type="gv"> 
+<lb n="1"/> Mon cueur a envoyé querir 
+<lb n="2"/> Tous ses bien vueillans et amis, 
+<lb n="3"/> Il veult son grant conseil tenir 
+<lb n="4"/> Avec eulx, pour avoir advis 
+<pb n="46"/>
+<lb n="5"/> Comment pourra ses ennemis, 
+<lb n="6"/> Soussy, Dueil et leur aliance, 
+<lb n="7"/> Surmonter et tost deconfire, 
+<lb n="8"/> Qui desirent de le destruire 
+<lb n="9"/> En la prison de Desplaisance. 
+<lb n="10"/> En desert ont mis son plaisir, 
+<lb n="11"/> Et joye tenue en pastis ; 
+<lb n="12"/> Mais Confort lui a, sans faillir, 
+<lb n="13"/> De nouvel loyaument promis 
+<lb n="14"/> Qu'ilz seront deffais et bannis ; 
+<lb n="15"/> De ce se fait fort Esperance, 
+<lb n="16"/> Et plus avant que n'ose dire ; 
+<lb n="17"/> C'est ce qui estaint son martire 
+<lb n="18"/> En la prison de Desplaisance. 
+<lb n="19"/> Briefment voye le temps venir, 
+<lb n="20"/> J'en prie a Dieu de paradis, 
+<lb n="21"/> Que chascun puist vers son desir 
+<lb n="22"/> Aler sans avoir saufconduis. 
+<lb n="23"/> Adonc Amour et ses nourris 
+<lb n="24"/> Auront de Dangier moins doubtance. 
+<lb n="25"/> Et lors sentiray mon cueur rire, 
+<lb n="26"/> Qui a present souvent souspire 
+<lb n="27"/> En la prison de Desplaisance. 
+<lb n="28"/> Pour ce que veoir ne vous puis, 
+<lb n="29"/> Mon cueur se complaint jours et nuis, 
+<lb n="30"/> Belle, nompareille de France, 
+<lb n="31"/> Et m'a chargié de vous escrire 
+<lb n="32"/> Qu'il n'a pas tout ce qu'il desire 
+<lb n="33"/> En la prison de Desplaisance. 
+</ab>
+<pb n="47"/>
+</div>
+<div type="ballade" n="XXVIII">
+<ab type="gv"> 
+<lb n="1"/> En la nef de Bonne Nouvelle 
+<lb n="2"/> Espoir a chargié Reconfort, 
+<lb n="3"/> Pour l'amener, de par la belle, 
+<lb n="4"/> Vers mon cueur qui l'ayme si fort. 
+<lb n="5"/> A joye puist venir au port 
+<lb n="6"/> De Desir, et pour tost passer 
+<lb n="7"/> La mer de Fortune, trouver 
+<lb n="8"/> Un plaisant vent venant de France, 
+<lb n="9"/> Ou est a present ma maistresse, 
+<lb n="10"/> Qui est ma doulce souvenance 
+<lb n="11"/> Et le tresor de ma lyesse. 
+<lb n="12"/> Certes moult suy tenu a elle, 
+<lb n="13"/> Car j'ay sceu, par loyal raport, 
+<lb n="14"/> Que contre Dangier, le rebelle, 
+<lb n="15"/> Qui maintesfois me nuist a tort, 
+<lb n="16"/> Elle veult faire son effort 
+<lb n="17"/> De tout son povair de m'aidier ; 
+<lb n="18"/> Et, pource, lui plaist m'envoyer 
+<lb n="19"/> Ceste nef, plaine de Plaisance, 
+<lb n="20"/> Pour estoffer la forteresse 
+<lb n="21"/> Ou mon cueur garde l'Esperance 
+<lb n="22"/> Et le tresor de ma liesse. 
+<lb n="23"/> Pour ce, ma voulenté est telle, 
+<lb n="24"/> Et sera jusques a la mort, 
+<lb n="25"/> De tousjours tenir la querelle 
+<lb n="26"/> De Loyauté, ou mon ressort 
+<lb n="27"/> J'ay mis ; mon cueur en est d'accort. 
+<lb n="28"/> Si vueil en ce point demourer, 
+<pb n="48"/>
+<lb n="29"/> Et souvent Amour mercier, 
+<lb n="30"/> Qui me fist avoir l'acointance 
+<lb n="31"/> D'une si loyalle Princesse, 
+<lb n="32"/> En qui puis mettre ma fiance 
+<lb n="33"/> Et le tresor de ma liesse. 
+<lb n="34"/> Dieu vueille celle nef garder 
+<lb n="35"/> Des robeurs escumeurs de mer, 
+<lb n="36"/> Qui ont a Dangier aliance ; 
+<lb n="37"/> Car, s'ilz povoient, par rudesse 
+<lb n="38"/> M'osteroient ma desirance, 
+<lb n="39"/> Et le tresor de ma liesse. 
+</ab>
+</div>
+<div type="ballade" n="XXIX">
+<ab type="gv"> 
+<lb n="1"/> Je ne crains Dangier ne les siens, 
+<lb n="2"/> Car j'ay garny la forteresse 
+<lb n="3"/> Ou mon cueur a retrait ses biens, 
+<lb n="4"/> De Reconfort et de Lyesse ; 
+<lb n="5"/> Et ay fait Loyaulté maistresse, 
+<lb n="6"/> Qui la place bien gardera. 
+<lb n="7"/> Dangier deffy et sa rudesse, 
+<lb n="8"/> Car le Dieu d'Amours m'aydera. 
+<lb n="9"/> Raison est et sera des miens, 
+<lb n="10"/> Car ainsi m'en a fait promesse, 
+<lb n="11"/> Et Espoir mon chier amy tiens, 
+<lb n="12"/> Qui a maintesfois, par proesse, 
+<lb n="13"/> Bouté hors d'avec moy Destresse, 
+<lb n="14"/> Dont Dangier, dueil et despit a. 
+<lb n="15"/> Mais ne me chault de sa tristesse, 
+<lb n="16"/> Car le Dieu d'Amours m'aidera. 
+<pb n="49"/>
+<lb n="17"/> Pour ce requerir je vous viens, 
+<lb n="18"/> Mon cueur, que prenez hardiesse ; 
+<lb n="19"/> Courez lui sus, sans craindre riens, 
+<lb n="20"/> A Dangier qui souvent vous blesse. 
+<lb n="21"/> Si tost que vous prandrez l'adresse 
+<lb n="22"/> De l'assaillir, il se rendra ; 
+<lb n="23"/> Je vous secourray sans peresse, 
+<lb n="24"/> Car le Dieu d'Amours m'aidera 
+<lb n="25"/> Se vous m'aidiez, gente Princesse, 
+<lb n="26"/> Je croy que brief le temps vendra 
+<lb n="27"/> Que j'auray des biens a largesse, 
+<lb n="28"/> Car le Dieu d'Amours m'aydera. 
+</ab>
+</div>
+<div type="ballade" n="XXX">
+<ab type="gv"> 
+<lb n="1"/> Belle, bien avez souvenance, 
+<lb n="2"/> Comme certainement je croy, 
+<lb n="3"/> De la tresplaisant aliance 
+<lb n="4"/> Qu'Amour fist entre vous et moy ; 
+<lb n="5"/> Son secretaire, Bonne Foy, 
+<lb n="6"/> Escrist la lectre du traictié, 
+<lb n="7"/> Et puis la seella Loyauté, 
+<lb n="8"/> Qui la chose tesmoingnera, 
+<lb n="9"/> Quant temps et besoing en sera. 
+<lb n="10"/> Joyeux Desir fut en presence, 
+<lb n="11"/> Qui alors ne se tint pas coy, 
+<lb n="12"/> Mais mist le fait en ordonnance 
+<lb n="13"/> De par Amour, le puissant roy ; 
+<lb n="14"/> Et, selon l'amoureuse loy, 
+<pb n="50"/>
+<lb n="15"/> De noz deux vouloirs, pour seurté, 
+<lb n="16"/> Fist une seule voulenté ; 
+<lb n="17"/> Bien m'en souvient et souvendra, 
+<lb n="18"/> Quant temps et besoing en sera. 
+<lb n="19"/> Mon cueur n'a en nullui fiance 
+<lb n="20"/> De garder la lectre qu'en soy ; 
+<lb n="21"/> Et certes ce m'est grant plaisance, 
+<lb n="22"/> Quant si tresloyal je le voy, 
+<lb n="23"/> Et lui conseille, comme doy, 
+<lb n="24"/> De tousjours haïr Faulseté ; 
+<lb n="25"/> Car quiconque l'a en chierté, 
+<lb n="26"/> Amour chastier l'en fera, 
+<lb n="27"/> Quant temps et besoing en sera. 
+<lb n="28"/> Pensez en ce que j'ay compté, 
+<lb n="29"/> Ma Dame, car en verité 
+<lb n="30"/> Mon cueur de foy vous requerra, 
+<lb n="31"/> Quant temps et besoing en sera. 
+</ab>
+</div>
+<div type="ballade" n="XXXI">
+<ab type="gv"> 
+<lb n="1"/> Venés vers moy, Bonne Nouvelle, 
+<lb n="2"/> Pour mon las cueur reconforter, 
+<lb n="3"/> Contez moy comment fait la belle : 
+<lb n="4"/> L'avez vous point oy parler 
+<lb n="5"/> De moy, et amy me nommer ? 
+<lb n="6"/> A elle point mis en oubly 
+<lb n="7"/> Ce qu'il lui pleut de m'acorder, 
+<lb n="8"/> Quant me donna le nom d'amy ? 
+<pb n="51"/>
+<lb n="9"/> Combien que Dangier, le rebelle, 
+<lb n="10"/> Me fait loing d'elle demourer, 
+<lb n="11"/> Je congnois tant de bien en elle, 
+<lb n="12"/> Que je ne pourroye penser 
+<lb n="13"/> Que tousjours ne vueille garder 
+<lb n="14"/> Ce que me promist sans nul sy, 
+<lb n="15"/> Faisant noz deux mains assembler, 
+<lb n="16"/> Quant me donna le <supplied resp="#editor">nom</supplied> d'amy. 
+<lb n="17"/> Pitié seroit, se Dame telle, 
+<lb n="18"/> Qui doit tout honneur desirer, 
+<lb n="19"/> Failloit de tenir la querelle 
+<lb n="20"/> De bien et loyaument amer. 
+<lb n="21"/> Son sens lui scet bien remoustrer 
+<lb n="22"/> Toutes les choses que je dy 
+<lb n="23"/> Et ce qu'Amour nous fist jurer, 
+<lb n="24"/> Quant me donna le <supplied resp="#editor">nom</supplied> d'amy. 
+<lb n="25"/> Loyauté, vueilliez asseurer 
+<lb n="26"/> Ma Dame que sien suy, ainsy 
+<lb n="27"/> Qu'elle me voulu commander, 
+<lb n="28"/> Quant me donna le <supplied resp="#editor">nom</supplied> d'amy. 
+</ab>
+</div>
+<div type="ballade" n="XXXII">
+<ab type="gv"> 
+<lb n="1"/> Belle, s'il vous plaist escouter 
+<lb n="2"/> Comment j'ay gardé en chierté 
+<lb n="3"/> Vostre cueur qu'il vous pleut laissier 
+<lb n="4"/> Avec moy, par vostre bonté, 
+<lb n="5"/> Sachiés qu'il est enveloppé 
+<lb n="6"/> En ung cueuvrechief de Plaisance, 
+<pb n="52"/>
+<lb n="7"/> Et enclos, pour plus grant seurté, 
+<lb n="8"/> Ou coffre de ma souvenance. 
+<lb n="9"/> Et pour nettement le garder, 
+<lb n="10"/> Je l'ay souventesfois lavé 
+<lb n="11"/> En larmes de Piteux Penser ; 
+<lb n="12"/> Et, regrettant vostre beauté, 
+<lb n="13"/> Aprés ce sans delay porté, 
+<lb n="14"/> Pour sechier, au feu d'Esperance, 
+<lb n="15"/> Et puis doulcement rebouté 
+<lb n="16"/> Ou coffre de ma souvenance. 
+<lb n="17"/> Pour ce, vueilliez vous acquittier 
+<lb n="18"/> De mon cueur que vous ay donné, 
+<lb n="19"/> Humblement vous en vueil prier, 
+<lb n="20"/> En le gardant en loyauté, 
+<lb n="21"/> Soubz clef de Bonne Voulenté, 
+<lb n="22"/> Comme j'ay fait, de ma puissance, 
+<lb n="23"/> Le vostre que tiens enfermé 
+<lb n="24"/> Ou coffre de ma souvenance. 
+<lb n="25"/> Ma Dame, je vous ay compté 
+<lb n="26"/> De vostre cueur la gouvernance, 
+<lb n="27"/> Comment il est et a esté 
+<lb n="28"/> Ou coffre de ma souvenance. 
+</ab>
+</div>
+<div type="ballade" n="XXXIII">
+  
+<sp>
+<speaker><hi rend="I">L'amant</hi>.</speaker>
+<ab type="gv"> Se je vous dy bonne nouvelle, 
+<lb n="2"/> Mon cueur, que voulez vous donner ? 
+</ab>
+</sp>
+<sp>
+<speaker><hi rend="I">Le cueur</hi>.</speaker>
+<ab type="gv"> - Elle pourroit bien estre telle 
+<lb n="3"/> Que moult chier la vueil acheter. 
+</ab>
+</sp>
+<pb n="53"/>
+<sp>
+<speaker><hi rend="I">L'amant</hi>.</speaker>
+<ab type="gv"> - Nul guerdon n'en quier demander. 
+</ab>
+</sp>
+<sp>
+<speaker><hi rend="I">Le cueur</hi>.</speaker>
+<ab type="gv"> - Dittes tost doncques, je vous prie, 
+<lb n="4"/> J'ay grant desir de la savoir. 
+</ab>
+</sp>
+<sp>
+<speaker><hi rend="I">L'amant</hi>.</speaker>
+<ab type="gv"> - C'est de vostre Dame et amye 
+<lb n="5"/> Qui loyaument fait son devoir. 
+</ab>
+</sp>
+<sp>
+<speaker><hi rend="I">Le cueur</hi>.</speaker>
+<ab type="gv"> - Que me savez vous dire d'elle 
+<lb n="6"/> Dont me puisse reconforter ? 
+</ab>
+</sp>
+<sp>
+<speaker><hi rend="I">L'amant</hi>.</speaker>
+<ab type="gv"> - Je vous dy, sans que plus le celle, 
+<lb n="7"/> Qu'elle vient par deça la mer. 
+</ab>
+</sp>
+<sp>
+<speaker><hi rend="I">Le cueur</hi>.</speaker>
+<ab type="gv"> - Dittes vous vray, sans me moquer ? 
+</ab>
+</sp>
+<sp>
+<speaker><hi rend="I">L'amant</hi>.</speaker>
+<ab type="gv"> - Ouil, je le vous certiffie, 
+<lb n="8"/> Et dit que c'est pour vous veoir. 
+</ab>
+</sp>
+<sp>
+<speaker><hi rend="I">Le cueur</hi>.</speaker>
+<ab type="gv"> - Amour, humblement j'en mercie, 
+<lb n="9"/> Qui loyaument fait son devoir. 
+</ab>
+</sp>
+<sp>
+<speaker><hi rend="I">L'amant</hi>.</speaker>
+<ab type="gv"> - Que pourroit plus faire la belle 
+<lb n="10"/> Que de tant pour vous se pener ? 
+</ab>
+</sp>
+<sp>
+<speaker><hi rend="I">Le cueur</hi>.</speaker>
+<ab type="gv"> - Loyauté soustient ma querelle, 
+<lb n="11"/> Qui lui fait faire sans doubter. 
+</ab>
+</sp>
+<sp>
+<speaker><hi rend="I">L'amant</hi>.</speaker>
+<ab type="gv"> - Pensez doncques de bien l'amer. 
+</ab>
+</sp>
+<sp>
+<speaker><hi rend="I">Le cueur</hi>.</speaker>
+<ab type="gv"> - Si feray je, toute ma vie, 
+<lb n="12"/> Sans changier, de tout mon povair. 
+</ab>
+</sp>
+<sp>
+<speaker><hi rend="I">L'amant</hi>.</speaker>
+<ab type="gv"> - Bien doit estre dame chierie, 
+<lb n="13"/> Qui loyaument fait son devoir. 
+</ab>
+</sp>
+</div>
+<div type="ballade" n="XXXIV">
+<ab type="gv"> 
+<lb n="1"/> Mon cueur, ouvrez l'uis de Pensee, 
+<lb n="2"/> Et recevez un doulx present 
+<lb n="3"/> Que la tresloyaument amee 
+<lb n="4"/> Vous envoye nouvellement, 
+<pb n="54"/>
+<lb n="5"/> Et vous tenez joyeusement ; 
+<lb n="6"/> Car, bien devez avoir liesse, 
+<lb n="7"/> Quant la trouvez sans changement 
+<lb n="8"/> Tousjours tresloyalle maistresse. 
+<lb n="9"/> Bien devez prisier la journee 
+<lb n="10"/> Que fustes sien premierement ; 
+<lb n="11"/> Car sa grace vous a donnee, 
+<lb n="12"/> Sans faintise, tresloyaument ; 
+<lb n="13"/> Vous le povez veoir clerement, 
+<lb n="14"/> Car elle vous tient sa promesse, 
+<lb n="15"/> Soy moustrant vers vous fermement 
+<lb n="16"/> Tousjours tresloyalle maistresse. 
+<lb n="17"/> Par vous soit doncques honnouree 
+<lb n="18"/> Et servie soingneusement, 
+<lb n="19"/> Tant comme vous aurez duree, 
+<lb n="20"/> Sans point faire departement ; 
+<lb n="21"/> Car vous aurez certainement, 
+<lb n="22"/> Par elle des biens a largesse, 
+<lb n="23"/> Puis qu'elle est si entierement 
+<lb n="24"/> Tousjours tresloyalle maistresse. 
+<lb n="25"/> Grans mercis, des fois plus de cent, 
+<lb n="26"/> Ma Dame, ma seule Princesse, 
+<lb n="27"/> Car je vous treuve vrayement 
+<lb n="28"/> Tousjours tresloyalle maistresse ! 
+</ab>
+</div>
+<div type="ballade" n="XXXV">
+<ab type="gv"> 
+<lb n="1"/> J'ay ou tresor de ma pensee 
+<lb n="2"/> Un mirouer qu'ay acheté. 
+<lb n="3"/> Amour, en l'annee passee, 
+<pb n="55"/>
+<lb n="4"/> Le me vendy, de sa bonté. 
+<lb n="5"/> Ou quel voy tousjours la beauté 
+<lb n="6"/> De celle que l'en doit nommer, 
+<lb n="7"/> Par droit, la plus belle de France. 
+<lb n="8"/> Grant bien me fait a m'y mirer, 
+<lb n="9"/> En attendant Bonne Esperance. 
+<lb n="10"/> Je n'ay chose qui tant m'agree, 
+<lb n="11"/> Ne dont tiengne si grant chierté, 
+<lb n="12"/> Car, en ma dure destinee, 
+<lb n="13"/> Maintesfoiz m'a reconforté ; 
+<lb n="14"/> Ne mon cueur n'a jamais santé, 
+<lb n="15"/> Fors quant il y peut regarder 
+<lb n="16"/> Des yeulx de Joyeuse Plaisance ; 
+<lb n="17"/> Il s'y esbat pour temps passer, 
+<lb n="18"/> En attendant Bonne Esperance. 
+<lb n="19"/> Advis m'est, chascune journee 
+<lb n="20"/> Que m'y mire, qu'en verité 
+<lb n="21"/> Toute doleur si m'est ostee ; 
+<lb n="22"/> Pour ce, de bonne voulenté, 
+<lb n="23"/> Par le conseil de Leauté, 
+<lb n="24"/> Mettre le vueil et enfermer 
+<lb n="25"/> Ou coffre de ma souvenance, 
+<lb n="26"/> Pour plus seurement le garder, 
+<lb n="27"/> En attendant Bonne Esperance. 
+</ab>
+</div>
+<div type="ballade" n="XXXVI">
+<ab type="gv"> 
+<lb n="1"/> Je ne vous puis ne sçay amer, 
+<lb n="2"/> Ma Dame, tant que je vouldroye ; 
+<lb n="3"/> Car escript m'avez pour m'oster 
+<pb n="56"/>
+<lb n="4"/> Ennuy qui trop fort me guerroye : 
+<lb n="5"/> <q> « Mon seul amy, mon bien, ma joye, 
+<lb n="6"/> Cellui que sur tous amer veulx, 
+<lb n="7"/> Je vous pry que soyez joyeux 
+<lb n="8"/> En esperant que brief vous voye. » </q>  
+<lb n="9"/> Je sens ces motz mon cueur percer 
+<lb n="10"/> Si doulcement que ne sauroye 
+<lb n="11"/> Le confort, au vray, vous mander 
+<lb n="12"/> Que vostre message m'envoye. 
+<lb n="13"/> Car vous dictes que querez voye 
+<lb n="14"/> De venir vers moy ; se m'aid Dieux, 
+<lb n="15"/> Demander ne vouldroye mieulx, 
+<lb n="16"/> En esperant que brief vous voye ! 
+<lb n="17"/> Et quant il vous plaist souhaidier 
+<lb n="18"/> D'estre emprés moy, ou que je soye, 
+<lb n="19"/> Par Dieu, nompareille sans per, 
+<lb n="20"/> C'est trop fait, se dire l'osoye. 
+<lb n="21"/> Se suy ge, qui plus le devroye 
+<lb n="22"/> Souhaidier de cueur tressoingneux ; 
+<lb n="23"/> C'est ce dont tant suis desireux, 
+<lb n="24"/> En esperant que brief vous voye. 
+</ab>
+</div>
+<div type="ballade" n="XXXVII">
+<ab type="gv"> 
+<lb n="1"/> L'autr'ier alay mon cueur veoir, 
+<lb n="2"/> Pour savoir comment se portoit ; 
+<lb n="3"/> Si trouvay avec lui Espoir 
+<lb n="4"/> Qui doulcement le confortoit 
+<lb n="5"/> Et ces parolles lui disoit : 
+<pb n="57"/>
+<lb n="6"/> <q> « Cueur, tenez vous joieusement, 
+<lb n="7"/> Je vous fais loyalle promesse 
+<lb n="8"/> Que je vous garde seurement 
+<lb n="9"/> Tresor d'amoureuse richesse. 
+<lb n="10"/> Car je vous fais, pour vray, savoir 
+<lb n="11"/> Que la plus tresbelle qui soit 
+<lb n="12"/> Vous ayme de loyal vouloir ; 
+<lb n="13"/> Et voulentiers pour vous feroit 
+<lb n="14"/> Tout ce qu'elle faire pourroit ; 
+<lb n="15"/> Et vous mande que vrayement, 
+<lb n="16"/> Maugré Dangier et sa rudesse, 
+<lb n="17"/> Departir vous veult largement 
+<lb n="18"/> Tresor d'amoureuse richesse. » </q>  
+<lb n="19"/> Alors mon cueur, pour dire voir, 
+<lb n="20"/> De joye souvent soupiroit, 
+<lb n="21"/> Et, combien qu'il portast le noir, 
+<lb n="22"/> Toutesfoiz pour lors oublioit 
+<lb n="23"/> Toute la doleur qu'il avoit, 
+<lb n="24"/> Pensant de recouvrer briefment 
+<lb n="25"/> Plaisance, Confort et Liesse. 
+<lb n="26"/> Et d'avoir en gouvernement 
+<lb n="27"/> Tresor <supplied resp="#editor"> d'amoureuse richesse</supplied>. 
+<lb n="28"/> A Bon Espoir mon cueur s'atent 
+<lb n="29"/> Et a vous, ma belle maistresse, 
+<lb n="30"/> Que lui espargniez loyaument 
+<lb n="31"/> Tresor d'amoureuse richesse. 
+</ab>
+<pb n="58"/>
+</div>
+<div type="ballade" n="XXXVIII">
+<ab type="gv"> 
+<lb n="1"/> Haa, Doulx Penser, jamais je ne pourroye 
+<lb n="2"/> Vous desservir les biens que me donnez, 
+<lb n="3"/> Car, quant Ennuy mon povre cueur guerroye 
+<lb n="4"/> Par Fortune, comme bien le savés, 
+<lb n="5"/> Toutes les fois qu'amener me voulés 
+<lb n="6"/> Un souvenir de ma belle maistresse, 
+<lb n="7"/> Tantost Doleur, Desplaisir et Tristesse 
+<lb n="8"/> S'en vont fuiant ; ilz n'osent demourer 
+<lb n="9"/> Ne se trouver en vostre compaignie ; 
+<lb n="10"/> Mais se meurent de courrous et d'envie, 
+<lb n="11"/> Quant il vous plaist d'ainsi me conforter. 
+<lb n="12"/> L'aise que j'ay dire je ne sauroye, 
+<lb n="13"/> Quant Souvenir et vous me racontés 
+<lb n="14"/> Les tresdoulx fais, plaisans et plains de joye 
+<lb n="15"/> De ma Dame, qui sont congneuz assés 
+<lb n="16"/> En plusieurs lieux, et si bien renommés 
+<lb n="17"/> Que d'en parler chascun en a liesse. 
+<lb n="18"/> Pource, tous deulx, pour me tollir Destresse, 
+<lb n="19"/> D'elle, vueilliez nouvelles m'aporter 
+<lb n="20"/> Le plus souvent que pourrés, je vous prie ; 
+<lb n="21"/> Vous me sauvez et maintenez la vie, 
+<lb n="22"/> Quant il vous plaist d'ainsi me conforter. 
+<lb n="23"/> Car lors Amour par vous deux si m'envoye 
+<lb n="24"/> Un doulx espoir que vous me presentés, 
+<lb n="25"/> Qui me donne conseil que joyeux soye ; 
+<lb n="26"/> Et puis aprés tous trois me promectés 
+<lb n="27"/> Qu'a mon besoing jamais ne me fauldrés. 
+<lb n="28"/> Ainsi m'atens tout en vostre promesse, 
+<pb n="59"/>
+<lb n="29"/> Car par vous puis avoir, a grant largesse, 
+<lb n="30"/> Des biens d'Amours, plus que ne sçay nombrer, 
+<lb n="31"/> Maugré Dangier, Dueil et Merencolie 
+<lb n="32"/> Que je ne crains en riens, mais les deffie, 
+<lb n="33"/> Quant il vous plaist d'ainsi me conforter. 
+<lb n="34"/> Jeune, gente, nompareille Princesse, 
+<lb n="35"/> Puis que ne puis veoir vostre jeunesse, 
+<lb n="36"/> De m'escrire ne vous vueilliez lasser ; 
+<lb n="37"/> Car vous faictes, je le vous certiffie, 
+<lb n="38"/> Grant aumosne, dont je vous remercie, 
+<lb n="39"/> Quant il vous plaist d'ainsi me conforter ! 
+</ab>
+</div>
+<div type="ballade" n="XXXIX">
+<ab type="gv"> 
+<lb n="1"/> Se je povoye mes souhais 
+<lb n="2"/> Et mes soupirs faire voler, 
+<lb n="3"/> Si tost que mon cueur les a fais, 
+<lb n="4"/> Passer leur feroye la mer 
+<lb n="5"/> Et vers celle, tout droit aler, 
+<lb n="6"/> Que j'ayme du cueur si tresfort, 
+<lb n="7"/> Comme ma liesse mondaine, 
+<lb n="8"/> Que je tendray, jusqu'a la mort, 
+<lb n="9"/> Pour ma maistresse souveraine. 
+<lb n="10"/> Helas ! la verray je jamais ? 
+<lb n="11"/> Qu'en dictes vous, tresdoulx Penser ? 
+<lb n="12"/> Espoir m'a promis ouil, mais 
+<lb n="13"/> Trop long temps me fait endurer ; 
+<lb n="14"/> Et, quant je luy viens demander 
+<lb n="15"/> Secours a mon besoing, il dort. 
+<pb n="60"/>
+<lb n="16"/> Ainsi suis chascune sepmaine 
+<lb n="17"/> En maint ennuy, sans reconfort, 
+<lb n="18"/> Pour ma maistresse souveraine. 
+<lb n="19"/> Je ne puis demourer en paix, 
+<lb n="20"/> Fortune ne m'y veult laissier ; 
+<lb n="21"/> Au fort, a present je me tais 
+<lb n="22"/> Et vueil laissier le temps passer, 
+<lb n="23"/> Pensant d'avoir, au par aler, 
+<lb n="24"/> Par Leauté, ou mon ressort 
+<lb n="25"/> J'ay mis, de Plaisance l'estraine, 
+<lb n="26"/> En guerdon des maulx qu'ay a tort 
+<lb n="27"/> Pour ma maistresse souveraine. 
+</ab>
+</div>
+<div type="ballade" n="XL">
+<ab type="gv"> 
+<lb n="1"/> Fortune, vueilliez moy laissier 
+<lb n="2"/> En paix, une fois, je vous prie ; 
+<lb n="3"/> Trop longuement, a vray compter, 
+<lb n="4"/> Avés eu sur moy seigneurie. 
+<lb n="5"/> Tousjours faittes la rencherie 
+<lb n="6"/> Vers moy et ne voulez ouir 
+<lb n="7"/> Les maulx que m'avez fait souffrir, 
+<lb n="8"/> Il a ja plusieurs ans passez ; 
+<lb n="9"/> Doy je tousjours ainsi languir ? 
+<lb n="10"/> Helas ! et n'est ce pas assés ? 
+<lb n="11"/> Plus ne puis en ce point durer, 
+<lb n="12"/> Et a Mercy mercy je crie ; 
+<lb n="13"/> Soupirs m'empeschent le parler : 
+<lb n="14"/> Veoir le povez, sans mocquerie, 
+<pb n="61"/>
+<lb n="15"/> Il ne fault ja que je le dye ; 
+<lb n="16"/> Pour ce vous vueil je requerir 
+<lb n="17"/> Qu'il vous plaise de me tollir 
+<lb n="18"/> Les maulx que m'avez amassez, 
+<lb n="19"/> Qui m'ont mis jusques au mourir. 
+<lb n="20"/> Helas ! et n'est ce pas assez ? 
+<lb n="21"/> Tous maulx suy contant de porter, 
+<lb n="22"/> Fors un seul, qui trop fort m'ennuye, 
+<lb n="23"/> C'est qu'il me fault loing demourer 
+<lb n="24"/> De celle que tiens pour amye ; 
+<lb n="25"/> Car pieça, en sa compaignie 
+<lb n="26"/> Laissay mon cueur et mon desir ; 
+<lb n="27"/> Vers moy ne veulent revenir, 
+<lb n="28"/> D'elle ne sont jamais lassez. 
+<lb n="29"/> Ainsi suy seul, sans nul plaisir. 
+<lb n="30"/> Helas ! et n'est ce pas assez ? 
+<lb n="31"/> De balader j'ay beau loisir, 
+<lb n="32"/> Autres deduis me sont cassez ; 
+<lb n="33"/> Prisonnier suis, d'Amour martir. 
+<lb n="34"/> Helas ! et n'est ce pas assez ? 
+</ab>
+</div>
+<div type="ballade" n="XLI">
+<ab type="gv"> 
+<lb n="1"/> Espoir m'a apporté nouvelle 
+<lb n="2"/> Qui trop me doit reconforter ; 
+<lb n="3"/> Il dit que Fortune, la felle, 
+<lb n="4"/> A vouloir de soy raviser 
+<lb n="5"/> Et toutes faultes amender 
+<lb n="6"/> Qu'a faittes contre mon plaisir, 
+<pb n="62"/>
+<lb n="7"/> En faisant sa roe tourner. 
+<lb n="8"/> Dieu doint qu'ainsi puist avenir ! 
+<lb n="9"/> Quoy que m'ait fait guerre mortelle, 
+<lb n="10"/> Je suy content de l'esprouver, 
+<lb n="11"/> Et le debat qu'ay et querelle 
+<lb n="12"/> Vers elle, je vueil delaissier 
+<lb n="13"/> Et tout courrous lui pardonner ; 
+<lb n="14"/> Car d'elle me puis bien servir, 
+<lb n="15"/> Se loyaument veult s'acquitter. 
+<lb n="16"/> Dieu doint qu'ainsi puist avenir ! 
+<lb n="17"/> Se la povoye trouver telle 
+<lb n="18"/> Qu'elle me voulsist tant aidier 
+<lb n="19"/> Qu'en mes bras je peusse la belle, 
+<lb n="20"/> Une fois, a mon gré trouver, 
+<lb n="21"/> Plus ne vouldroye demander. 
+<lb n="22"/> Car lors j'auroye mon desir 
+<lb n="23"/> Et tout quanque doy souhaidier. 
+<lb n="24"/> Dieu doint qu'ainsi puist avenir ! 
+<lb n="25"/> Amour, s'il vous plaist commander 
+<lb n="26"/> A Fortune de me chierir, 
+<lb n="27"/> Je pense joye recouvrer ; 
+<lb n="28"/> Dieu doint qu'ainsi puist avenir ! 
+</ab>
+</div>
+<div type="ballade" n="XLII">
+<ab type="gv"> 
+<lb n="1"/> Je ne me sçay en quel point maintenir, 
+<lb n="2"/> Ce premier jour de May, plain de liesse, 
+<lb n="3"/> Car d'une part puis dire sans faillir 
+<pb n="63"/>
+<lb n="4"/> Que, Dieu mercy, j'ay loyalle maistresse, 
+<lb n="5"/> Qui de tous biens a trop plus qu'a largesse. 
+<lb n="6"/> Et si pense que, la sienne mercy, 
+<lb n="7"/> Elle me tient son servant et amy : 
+<lb n="8"/> Ne doy je bien donques joye mener 
+<lb n="9"/> Et me tenir en joyeuse plaisance ? 
+<lb n="10"/> Certes ouil, et Amour mercier 
+<lb n="11"/> Treshumblement, de toute ma puissance. 
+<lb n="12"/> Mais d'autre part, il me couvient souffrir 
+<lb n="13"/> Tant de douleur et de dure destresse 
+<lb n="14"/> Par Fortune, qui me vient assaillir 
+<lb n="15"/> De tous costez, qui de maulx est princesse ! 
+<lb n="16"/> Passer m'a fait le plus de ma jennesse, 
+<lb n="17"/> Dieu scet comment, en doloreux party ; 
+<lb n="18"/> Et si me fait demourer en soussy, 
+<lb n="19"/> Loings de celle par qui puis recouvrer 
+<lb n="20"/> Le vray tresor de ma droitte esperance, 
+<lb n="21"/> Et que je vueil obeir et amer 
+<lb n="22"/> Treshumblement, de toute ma puissance. 
+<lb n="23"/> Et pour ce, May, je vous viens requerir, 
+<lb n="24"/> Pardonnez moy de vostre gentillesse, 
+<lb n="25"/> Se je ne puis a present vous servir 
+<lb n="26"/> Comme je doy, car je vous fais promesse ; 
+<lb n="27"/> J'ay bon vouloir envers vous, mais Tristesse 
+<lb n="28"/> M'a si long temps en son dangier nourry 
+<lb n="29"/> Que j'ay du tout Joye mis en oubly ; 
+<lb n="30"/> Si me vault mieulx seul de gens eslongier : 
+<lb n="31"/> Qui dolent est ne sert que d'encombrance. 
+<lb n="32"/> Pour ce, reclus me tendray en penser 
+<lb n="33"/> Treshumblement, de toute ma puissance. 
+<pb n="64"/>
+<lb n="34"/> Doulx Souvenir, chierement je vous pry, 
+<lb n="35"/> Escrivez tost ceste balade cy ; 
+<lb n="36"/> De par mon cueur la feray presenter 
+<lb n="37"/> A ma Dame, ma seule desirance, 
+<lb n="38"/> A qui pieça je le voulu donner 
+<lb n="39"/> Treshumblement, de toute ma puissance. 
+</ab>
+</div>
+<div type="ballade" n="XLIII">
+<ab type="gv"> 
+<lb n="1"/> Mon cueur est devenu hermite 
+<lb n="2"/> En l'ermitage de Pensee ; 
+<lb n="3"/> Car Fortune, la tresdespite, 
+<lb n="4"/> Qui l'a haÿ mainte journee, 
+<lb n="5"/> S'est nouvellement aliee, 
+<lb n="6"/> Contre lui, aveques Tristesse, 
+<lb n="7"/> Et l'ont banny hors de Lyesse ; 
+<lb n="8"/> Place n'a ou puist demourer, 
+<lb n="9"/> Fors ou boys de Merencolie : 
+<lb n="10"/> Il est content de s'i logier ; 
+<lb n="11"/> Si lui dis je que c'est folie. 
+<lb n="12"/> Mainte parolle lui ay ditte, 
+<lb n="13"/> Mais il ne l'a point escoutee ; 
+<lb n="14"/> Mon parler riens ne lui proufite, 
+<lb n="15"/> Sa voulenté y est fermee, 
+<lb n="16"/> De legier ne seroit changee. 
+<lb n="17"/> Il se gouverne par Destresse 
+<lb n="18"/> Qui, contre son prouffit, ne cesse, 
+<lb n="19"/> Nuit et jour, de le conseillier ; 
+<lb n="20"/> De si pres lui tient compaignie 
+<lb n="21"/> Qu'il ne peut ennuy delaissier : 
+<lb n="22"/> Si lui dis je que c'est folie. 
+<pb n="65"/>
+<lb n="23"/> Pour ce sachiez, je m'en acquitte, 
+<lb n="24"/> Belle tresloyaument amee, 
+<lb n="25"/> Se lectre ne lui est escripte 
+<lb n="26"/> Par vous ou nouvelle mandee, 
+<lb n="27"/> Dont sa doleur soit allegee, 
+<lb n="28"/> Il a fait son veu et promesse 
+<lb n="29"/> De renoncer a la richesse 
+<lb n="30"/> De Plaisir et de Doulx Penser, 
+<lb n="31"/> Et aprés ce, toute sa vie, 
+<lb n="32"/> L'abit de Desconfort porter : 
+<lb n="33"/> Si lui dis je que c'est folie. 
+<lb n="34"/> Se par vous n'est, Belle sans per, 
+<lb n="35"/> Pour quelque chose que lui die, 
+<lb n="36"/> Mon cueur ne se veult conforter ; 
+<lb n="37"/> Si lui dis je que c'est folie. 
+</ab>
+</div>
+<div type="ballade" n="XLIV">
+<ab type="gv"> 
+<lb n="1"/> Dangier, je vous giette mon gant, 
+<lb n="2"/> Vous apellant de traïson, 
+<lb n="3"/> Devant le Dieu d'Amours puissant 
+<lb n="4"/> Qui me fera de vous raison : 
+<lb n="5"/> Car vous m'avez mainte saison 
+<lb n="6"/> Fait douleur a tort endurer, 
+<lb n="7"/> Et me faittes loings demourer 
+<lb n="8"/> De la nompareille de France. 
+<lb n="9"/> Mais vous l'avez tousjours d'usance 
+<lb n="10"/> De grever loyaulx amoureux, 
+<lb n="11"/> Et pour ce que je sui l'un d'eulx, 
+<lb n="12"/> Pour eulx et moy prens la querelle ; 
+<pb n="66"/>
+<lb n="13"/> Par Dieu, vilain, vous y mourrés 
+<lb n="14"/> Par mes mains, point ne le vous celle, 
+<lb n="15"/> S'a Leauté ne vous rendés ! 
+<lb n="16"/> Comment avez vous d'orgueil tant 
+<lb n="17"/> Que vous osez, sans achoison, 
+<lb n="18"/> Tourmenter aucun vray amant 
+<lb n="19"/> Qui, de cueur et d'entencion, 
+<lb n="20"/> Sert Amours sans condicion ? 
+<lb n="21"/> Certes moult estes a blasmer, 
+<lb n="22"/> Pensez doncques de l'amender, 
+<lb n="23"/> En laissant vostre mal vueillance, 
+<lb n="24"/> Et, par treshumble repentance, 
+<lb n="25"/> Alez crier mercy a ceulx 
+<lb n="26"/> Que vous avez fais douloreux, 
+<lb n="27"/> Et qui vous ont trouvé rebelle. 
+<lb n="28"/> Autrement pour seur vous tenez 
+<lb n="29"/> Que de gage je vous appelle, 
+<lb n="30"/> S'a Leauté ne vous rendés. 
+<lb n="31"/> Vous estes tous temps mal pensant 
+<lb n="32"/> Et plain de faulse soupeçon ; 
+<lb n="33"/> Ce vous vient de mauvais talant, 
+<lb n="34"/> Nourry en courage felon. 
+<lb n="35"/> Quel mal ou ennuy vous fait on, 
+<lb n="36"/> Se par amours on veult amer, 
+<lb n="37"/> Pour plus aise le temps passer 
+<lb n="38"/> En lyee, joyeuse Plaisance ? 
+<lb n="39"/> C'est gracieuse desirance. 
+<lb n="40"/> Pour ce, faulx, vilain, orgueillieux, 
+<lb n="41"/> Changiez voz vouloirs oultragieux, 
+<lb n="42"/> Ou je vous feray guerre telle 
+<pb n="67"/>
+<lb n="43"/> Que, sans faillir, vous trouverés 
+<lb n="44"/> Qu'elle vauldra pis que mortelle, 
+<lb n="45"/> S'a Leauté ne vous rendés ! 
+</ab>
+</div>
+<div type="ballade" n="XLV">
+<ab type="gv"> 
+<lb n="1"/> Se Dieu plaist, briefment la nuee 
+<lb n="2"/> De ma tristesse passera, 
+<lb n="3"/> Belle tresloyaument amee, 
+<lb n="4"/> Et le beau temps se moustrera : 
+<lb n="5"/> Mais savez vous quant ce sera ? 
+<lb n="6"/> Quant le doulx souleil gracieux 
+<lb n="7"/> De vostre beauté entrera 
+<lb n="8"/> Par les fenestres de mes yeulx. 
+<lb n="9"/> Lors la chambre de ma pensee 
+<lb n="10"/> De grant plaisance reluira 
+<lb n="11"/> Et sera de joye paree, 
+<lb n="12"/> Adonc mon cueur s'esveillera, 
+<lb n="13"/> Qui en dueil dormy long temps a. 
+<lb n="14"/> Plus ne dormira, se m'aid Dieux, 
+<lb n="15"/> Quant ceste clarté le ferra 
+<lb n="16"/> Par les fenestres de mes yeulx. 
+<lb n="17"/> Helas ! quant vendra la journee 
+<lb n="18"/> Qu'ainsi avenir me pourra ? 
+<lb n="19"/> Ma maistresse tresdesiree, 
+<lb n="20"/> Pensez vous que brief avendra ? 
+<lb n="21"/> Car mon cueur tousjours languira 
+<lb n="22"/> En ennuy, sans point avoir mieulx, 
+<lb n="23"/> Jusqu'a tant que cecy verra 
+<lb n="24"/> Par les fenestres de mes yeulx. 
+<pb n="68"/>
+<lb n="25"/> De reconfort mon cueur aura 
+<lb n="26"/> Autant que nul dessoubz les cieulx, 
+<lb n="27"/> Belle, quant vous regardera 
+<lb n="28"/> Par les fenestres de mes yeulx. 
+</ab>
+</div>
+<div type="ballade" n="XLVI">
+<ab type="gv"> 
+<lb n="1"/> Au court jeu de tables jouer 
+<lb n="2"/> Amour me fait moult longuement ; 
+<lb n="3"/> Car tousjours me charge garder 
+<lb n="4"/> Le point d'atentte seulement, 
+<lb n="5"/> En me disant que vrayement 
+<lb n="6"/> Se ce point lye sçay tenir, 
+<lb n="7"/> Qu'au derrain je doy, sans mentir 
+<lb n="8"/> Gaangnier le jeu entierement. 
+<lb n="9"/> Je suy pris et ne puis entrer 
+<lb n="10"/> Ou point que desire souvent ; 
+<lb n="11"/> Dieu me doint une fois gietter 
+<lb n="12"/> Chance qui soit aucunement 
+<lb n="13"/> A mon propos, car autrement 
+<lb n="14"/> Mon cueur sera pis que martir, 
+<lb n="15"/> Se ne puis, ainsi qu'ay desir, 
+<lb n="16"/> Gaangnier le jeu entierement. 
+<lb n="17"/> Fortune fait souvent tourner 
+<lb n="18"/> Les dez contre moy mallement ; 
+<lb n="19"/> Mais Espoir, mon bon conseillier, 
+<lb n="20"/> M'a dit et promis seurement 
+<lb n="21"/> Que Loyauté prochainement 
+<lb n="22"/> Fera Bon Eur vers moy veni 
+<pb n="69"/>
+<lb n="23"/> Qui me fera, a mon plaisir, 
+<lb n="24"/> Gaangnier le jeu entierement. 
+<lb n="25"/> Je vous supply treshumblement, 
+<lb n="26"/> Amour, aprenez moy comment 
+<lb n="27"/> J'asserray les dez sans faillir ; 
+<lb n="28"/> Par quoy puisse, sans plus languir, 
+<lb n="29"/> Gaangnier le jeu entierement. 
+</ab>
+</div>
+<div type="ballade" n="XLVII">
+<ab type="gv"> 
+<lb n="1"/> Vous, soiés la tresbien venue 
+<lb n="2"/> Vers mon cueur, Joyeuse Nouvelle, 
+<lb n="3"/> Avez vous point ma Dame veue ? 
+<lb n="4"/> Contez moy quelque chose d'elle. 
+<lb n="5"/> Dittes moy, n'est elle pas telle 
+<lb n="6"/> Qu'estoit, quant derrenierement, 
+<lb n="7"/> Pour m'oster de merencolie, 
+<lb n="8"/> M'escrivy amoureusement : 
+<lb n="9"/> <q> « C'estes vous de qui suis amye. » </q>  
+<lb n="10"/> Son vouloir, jamais ne se mue, 
+<lb n="11"/> Ce croy je, mais tient la querelle 
+<lb n="12"/> De Leauté, qu'a retenue 
+<lb n="13"/> Sa plus prochainne damoiselle ; 
+<lb n="14"/> Bien le moustre, sans que le celle 
+<lb n="15"/> Qu'elle se maintient leaument, 
+<lb n="16"/> Quant lui plaist, dont je la mercie, 
+<lb n="17"/> Me mander si tresdoulcement : 
+<lb n="18"/> <q> « C'estes vous de qui suis amye. » </q>  
+<lb n="19"/> Pour le plus eureux soubz la nue 
+<pb n="70"/>
+<lb n="20"/> Me tiens, quant m'amye s'appelle ; 
+<lb n="21"/> Car en tous lieux ou est congneue 
+<lb n="22"/> Chascun la nomme la plus belle. 
+<lb n="23"/> Dieu doint que, maugré le rebelle 
+<lb n="24"/> Dangier, je la voye briefment, 
+<lb n="25"/> Et que de sa bouche me die : 
+<lb n="26"/> <q> « Amy, pensez que seulement 
+<lb n="27"/> C'estes vous de qui suis amye. » </q>  
+<lb n="28"/> J'ay en mon cueur joyeusement 
+<lb n="29"/> Escript, afin que ne l'oublie, 
+<lb n="30"/> Ce refrain qu'ayme chierement : 
+<lb n="31"/> C'estes vous de qui suis amye. 
+</ab>
+</div>
+<div type="ballade" n="XLVIII">
+<ab type="gv"> 
+<lb n="1"/> Trop long temps vous voy sommeillier, 
+<lb n="2"/> Mon cueur, en dueil et desplaisir ; 
+<lb n="3"/> Vueilliez vous, ce jour, esveillier : 
+<lb n="4"/> Alons au bois le may cueillir, 
+<lb n="5"/> Pour la coustume maintenir. 
+<lb n="6"/> Nous orrons des oyseaulx le glay 
+<lb n="7"/> Dont ilz font les bois retentir, 
+<lb n="8"/> Ce premier jour du mois de May. 
+<lb n="9"/> Le Dieu d'Amours est coustumier, 
+<lb n="10"/> A ce jour, de feste tenir, 
+<lb n="11"/> Pour amoureux cueurs festier 
+<lb n="12"/> Qui desirent de le servir ; 
+<lb n="13"/> Pour ce fait les arbres couvrir 
+<lb n="14"/> De fleurs et les champs de vert gay, 
+<pb n="71"/>
+<lb n="15"/> Pour la feste plus embellir, 
+<lb n="16"/> Ce premier jour du mois de May. 
+<lb n="17"/> Bien sçay, mon cueur, que faulx Dangier 
+<lb n="18"/> Vous fait mainte paine souffrir ; 
+<lb n="19"/> Car il vous fait trop eslongnier 
+<lb n="20"/> Celle qui est vostre desir. 
+<lb n="21"/> Pour tant vous fault esbat querir ; 
+<lb n="22"/> Mieux conseillier je ne vous sçay 
+<lb n="23"/> Pour vostre douleur amendrir, 
+<lb n="24"/> Ce premier jour du mois de May. 
+<lb n="25"/> Ma Dame, mon seul souvenir, 
+<lb n="26"/> En cent jours n'auroye loisir 
+<lb n="27"/> De vous raconter, tout au vray, 
+<lb n="28"/> Le mal qui tient mon cueur martir, 
+<lb n="29"/> Ce premier jour du mois de May ! 
+</ab>
+</div>
+<div type="ballade" n="XLIX">
+<ab type="gv"> 
+<lb n="1"/> J'ay mis en escript mes souhais 
+<lb n="2"/> Ou plus parfont de mon penser ; 
+<lb n="3"/> Et combien, quant je les ay fais, 
+<lb n="4"/> Que peu me peuent proufiter, 
+<lb n="5"/> Je ne les vouldroie donner 
+<lb n="6"/> Pour nul or qu'on me sceust offrir, 
+<lb n="7"/> En esperant, qu'au par aler, 
+<lb n="8"/> De mille l'un puist avenir. 
+<lb n="9"/> Par la foy de mon corps ! jamais 
+<lb n="10"/> Mon cueur ne se peut d'eulx lasser ; 
+<lb n="11"/> Car si richement sont pourtrais 
+<pb n="72"/>
+<lb n="12"/> Que souvent les vient regarder 
+<lb n="13"/> Et s'i esbat pour temps passer, 
+<lb n="14"/> En disant par ardant desir : 
+<lb n="15"/> Dieu doint que, pour me conforter, 
+<lb n="16"/> De mille l'un puist avenir ! 
+<lb n="17"/> C'est merveille, quant je me tais, 
+<lb n="18"/> Que j'oy mon cueur ainsi parler ; 
+<lb n="19"/> Et tient avec Amour ses plais, 
+<lb n="20"/> Que tousjours veult acompaignier ; 
+<lb n="21"/> Car il dit que des biens d'amer 
+<lb n="22"/> Cent mille lui veult departir ; 
+<lb n="23"/> Plus ne quier, mais que, sans tarder, 
+<lb n="24"/> De mille l'un puist avenir. 
+<lb n="25"/> Vueilliez a mon cueur accorder, 
+<lb n="26"/> Sans par parolles le mener, 
+<lb n="27"/> Amour, que, par vostre plaisir, 
+<lb n="28"/> Des biens que lui voulez donner 
+<lb n="29"/> De mille l'un puist avenir. 
+</ab>
+</div>
+<div type="ballade" n="L">
+<ab type="gv"> 
+<lb n="1"/> Par le commandement d'Amours 
+<lb n="2"/> Et de la plus belle de France, 
+<lb n="3"/> J'enforcis mon chastel tousjours 
+<lb n="4"/> Appellé Joyeuse Plaisance, 
+<lb n="5"/> Assis sur roche d'Esperance ; 
+<lb n="6"/> Avitaillié l'ay de Confort : 
+<lb n="7"/> Contre Dangier et sa puissance 
+<lb n="8"/> Je le tendray jusqu'a la mort. 
+<pb n="73"/>
+<lb n="9"/> En ce chastel y a trois tours, 
+<lb n="10"/> Dont l'une se nomme Fiance 
+<lb n="11"/> D'avoir briefment loyal secours, 
+<lb n="12"/> Et la seconde Souvenance, 
+<lb n="13"/> La tierce Ferme Desirance. 
+<lb n="14"/> Ainsi le chastel est si fort 
+<lb n="15"/> Que nul n'y peut faire grevance ; 
+<lb n="16"/> Je le tendray jusqu'a la mort. 
+<lb n="17"/> Combien que Dangier, par faulx tours, 
+<lb n="18"/> De le m'oster souvent s'avance, 
+<lb n="19"/> Mais il trouvera le rebours, 
+<lb n="20"/> Se Dieu plaist, de sa mal vueillance. 
+<lb n="21"/> Bon Droit est de mon aliance, 
+<lb n="22"/> Loyauté et lui sont d'accort 
+<lb n="23"/> De m'aidier ; pour ce, sans doubtance 
+<lb n="24"/> Je le tendray jusqu'a la mort. 
+<lb n="25"/> Faisons bon guet sans decevance 
+<lb n="26"/> Et assaillons par ordonnance, 
+<lb n="27"/> Mon cueur, Dangier qui nous fait tort ; 
+<lb n="28"/> Se prandre le puis par vaillance, 
+<lb n="29"/> Je le tendray jusqu'a la mort ! 
+</ab>
+</div>
+<div type="ballade" n="LI">
+<ab type="gv"> 
+<lb n="1"/> La premiere fois, ma Maistresse, 
+<lb n="2"/> Qu'en vostre presence vendray, 
+<lb n="3"/> Si ravy seray de liesse 
+<lb n="4"/> Qu'a vous parler je ne pouray ; 
+<lb n="5"/> Toute contenance perdray, 
+<pb n="74"/>
+<lb n="6"/> Car, quant vostre beauté luira 
+<lb n="7"/> Sur moy, si fort esbloïra 
+<lb n="8"/> Mes yeulx que je ne verray goutte ; 
+<lb n="9"/> Mon cueur aussi se pasmera, 
+<lb n="10"/> C'est une chose que fort doubte. 
+<lb n="11"/> Pour ce, nompareille Princesse, 
+<lb n="12"/> Quant ainsi devant vous seray, 
+<lb n="13"/> Vueilliez, par vostre grant humblesse, 
+<lb n="14"/> Me pardonner, se je ne sçay 
+<lb n="15"/> Parler a vous comme devray ; 
+<lb n="16"/> Mais tost aprés s'asseurera 
+<lb n="17"/> Mon cueur et puis vous contera 
+<lb n="18"/> Son fait, mais que nul ne l'escoute ; 
+<lb n="19"/> Dangier grant guet sur lui fera, 
+<lb n="20"/> C'est une chose que fort doubte. 
+<lb n="21"/> Et se mettra souvent en presse 
+<lb n="22"/> D'ouir tout ce que je diray 
+<lb n="23"/> Mais je pense que par sagesse 
+<lb n="24"/> Si tresbien me gouverneray 
+<lb n="25"/> Et telle maniere tendray 
+<lb n="26"/> Que faulx Dangier trompé sera, 
+<lb n="27"/> Ne nulle riens n'appercevra ; 
+<lb n="28"/> Si mettra il sa painne toute 
+<lb n="29"/> D'espier tout ce qu'il pourra ; 
+<lb n="30"/> C'est une chose que fort doubte. 
+</ab>
+</div>
+<div type="ballade" n="LII">
+<ab type="gv"> 
+<lb n="1"/> Me mocqués vous, Joyeux Espoir ? 
+<lb n="2"/> Par parolles trop me menés, 
+<pb n="75"/>
+<lb n="3"/> Pensez vous de me decevoir ? 
+<lb n="4"/> Chascun jour vous me promettés 
+<lb n="5"/> Que briefment veoir me ferés 
+<lb n="6"/> Ma Dame, la gente Princesse, 
+<lb n="7"/> Qui a mon cueur entierement ; 
+<lb n="8"/> Pour Dieu, tenés vostre promesse, 
+<lb n="9"/> Car trop ennuie qui attent ! 
+<lb n="10"/> Il a long temps, pour dire voir, 
+<lb n="11"/> Que tout mon estat congnoissés. 
+<lb n="12"/> N'ay je fait mon loyal devoir 
+<lb n="13"/> D'endurer, comme bien savés ? 
+<lb n="14"/> Ouil, ce croy je, plus qu'assés. 
+<lb n="15"/> Temps est que me donnez liesse ; 
+<lb n="16"/> Desservie l'ay loyaument. 
+<lb n="17"/> Pardonnez moy se je vous presse, 
+<lb n="18"/> Car trop ennuie qui attent. 
+<lb n="19"/> Ne me mettez a nonchaloir, 
+<lb n="20"/> Honte sera se me failliés, 
+<lb n="21"/> Veu que me fie, main et soir, 
+<lb n="22"/> En tout ce que faire vouldrés. 
+<lb n="23"/> Se mieulx faire ne me povés, 
+<lb n="24"/> Au moins moustrez moy ma maistresse 
+<lb n="25"/> Une fois, pour aucunement 
+<lb n="26"/> Allegier le mal qui me blesse : 
+<lb n="27"/> Car trop ennuie qui attent ! 
+<lb n="28"/> Espoir, tousjours vous m'asseurés 
+<lb n="29"/> Que bien mon fait ordonnerés : 
+<lb n="30"/> Bel me parlés, je le confesse. 
+<lb n="31"/> Mais tant y mettés longuement 
+<pb n="76"/>
+<lb n="32"/> Que je languis en grant destresse, 
+<lb n="33"/> Car trop ennuie qui attent. 
+</ab>
+</div>
+<div type="ballade" n="LIII">
+<ab type="gv"> 
+<lb n="1"/> Le premier jour du mois de May 
+<lb n="2"/> S'acquitte vers moy grandement ; 
+<lb n="3"/> Car, ainsi qu'a present je n'ay 
+<lb n="4"/> En mon cueur que dueil et tourment, 
+<lb n="5"/> Il est aussi pareillement 
+<lb n="6"/> Troublé, plain de vent et de pluie ; 
+<lb n="7"/> Estre souloit tout autrement, 
+<lb n="8"/> Ou temps qu'ay congneu en ma vie. 
+<lb n="9"/> Je croy qu'il se mect en essay 
+<lb n="10"/> De m'acompaignier loyaument ; 
+<lb n="11"/> Content m'en tiens, pour dire vray, 
+<lb n="12"/> Car meschans, en leur pensement, 
+<lb n="13"/> Reçoivent grand allegement, 
+<lb n="14"/> Quant en leurs maulx ont compaignie ; 
+<lb n="15"/> Essayé l'ay certainement 
+<lb n="16"/> Ou temps qu'ay congneu en ma vie. 
+<lb n="17"/> Las ! j'ay veu May joyeux et gay 
+<lb n="18"/> Et si plaisant a toute gent 
+<lb n="19"/> Que raconter au long ne sçay 
+<lb n="20"/> Le plaisir et esbatement 
+<lb n="21"/> Qu'avoit en son commandement ; 
+<lb n="22"/> Car Amour, en son abbaye, 
+<lb n="23"/> Le tenoit chief de son couvent, 
+<lb n="24"/> Ou temps <supplied resp="#editor"> qu'ay congneu en ma vie</supplied>. 
+<pb n="77"/>
+<lb n="25"/> Le temps va je ne sçay comment, 
+<lb n="26"/> Dieu l'amende prouchainnement ! 
+<lb n="27"/> Car Plaisance est endormie, 
+<lb n="28"/> Qui souloit vivre lyement, 
+<lb n="29"/> Ou temps qu'ay congneu en ma vie. 
+</ab>
+</div>
+<div type="ballade" n="LIV">
+<ab type="gv"> 
+<lb n="1"/> Pour Dieu, gardez bien Souvenir 
+<lb n="2"/> Enclos dedens vostre pensee, 
+<lb n="3"/> Ne le laissiez dehors yssir, 
+<lb n="4"/> Belle tresloyaument amee. 
+<lb n="5"/> Faictes que chascune journee 
+<lb n="6"/> Vous ramentoive bien souvent 
+<lb n="7"/> La maniere quoy et comment, 
+<lb n="8"/> Ja pieça, me feistes promesse, 
+<lb n="9"/> Quant vous retins premierement 
+<lb n="10"/> Ma Dame, ma seule maistresse. 
+<lb n="11"/> Vous savez que, par Franc Desir 
+<lb n="12"/> Et Loyal Amour conseillee, 
+<lb n="13"/> Me deistes que, sans departir, 
+<lb n="14"/> De m'amer estiés fermee, 
+<lb n="15"/> Tant comme j'auroye duree. 
+<lb n="16"/> Je metz en votre jugement 
+<lb n="17"/> Se ma bouche dit vray ou ment. 
+<lb n="18"/> Si tiens que parler de princesse 
+<lb n="19"/> Vient du cueur, sans decevement, 
+<lb n="20"/> Ma Dame, ma seule maistresse. 
+<lb n="21"/> Non pour tant, me fault vous ouvrir 
+<lb n="22"/> La doubte qu'en moy est entree, 
+<pb n="78"/>
+<lb n="23"/> C'est que j'ay paeur, sans vous mentir, 
+<lb n="24"/> Que ne m'ayez, tresbelle nee, 
+<lb n="25"/> Mis en oubly ; car mainte annee 
+<lb n="26"/> Suis loingtain de vous longuement, 
+<lb n="27"/> Et n'oy de vous aucunement 
+<lb n="28"/> Nouvelle pour avoir liesse ; 
+<lb n="29"/> Pour quoy vis doloreusement, 
+<lb n="30"/> Ma Dame, ma seule maistresse. 
+<lb n="31"/> Nul remede ne sçay querir 
+<lb n="32"/> Dont ma doleur soit alegee, 
+<lb n="33"/> Fors que souvent vous requerir 
+<lb n="34"/> Que la foy que m'avez donnee 
+<lb n="35"/> Soit par vous loyaument gardee. 
+<lb n="36"/> Car vous congnoissiez clerement 
+<lb n="37"/> Que, par votre commandement, 
+<lb n="38"/> Ay despendu de ma jeunesse 
+<lb n="39"/> Pour vous attendre seulement, 
+<lb n="40"/> Ma Dame, ma seule maistresse. 
+<lb n="41"/> Plus ne vous couvient esclarsir 
+<lb n="42"/> La chose que vous ay comptee ; 
+<lb n="43"/> Vous la congnoissiez, sans faillir : 
+<lb n="44"/> Pour ce soyez bien advisee 
+<lb n="45"/> Que je ne vous treuve muee. 
+<lb n="46"/> Car, s'en vous treuve changement, 
+<lb n="47"/> Je requerray tout haultement 
+<lb n="48"/> Devant l'amoureuse Deesse 
+<lb n="49"/> Que j'aye de vous vengement, 
+<lb n="50"/> Ma Dame, ma seule maistresse. 
+<lb n="51"/> Se je puis veoir seurement 
+<lb n="52"/> Que m'amés tousjours loyaument, 
+<pb n="79"/>
+<lb n="53"/> Content suis de passer destresse 
+<lb n="54"/> En vous servant joyeusement, 
+<lb n="55"/> Ma Dame, ma seule maistresse. 
+</ab>
+</div>
+<div type="ballade" n="LV">
+<ab type="gv"> 
+<lb n="1"/> Helas ! helas ! qui a laissié entrer 
+<lb n="2"/> Devers mon cueur Doloreuse Nouvelle ? 
+<lb n="3"/> Conté lui a plainement, sans celer, 
+<lb n="4"/> Que sa Dame, la tresplaisant et belle, 
+<lb n="5"/> Qu'il a long temps tresloyaument servie, 
+<lb n="6"/> Est a present en griefve maladie ; 
+<lb n="7"/> Dont il est cheu en desespoir si fort 
+<lb n="8"/> Qu'il souhaide piteusement la mort 
+<lb n="9"/> Et dit qu'il est ennuyé de sa vie. 
+<lb n="10"/> Je suis alé pour le reconforter, 
+<lb n="11"/> En lui priant qu'il n'ait nul soussy d'elle, 
+<lb n="12"/> Car, se Dieu plaist, il orra brief conter 
+<lb n="13"/> Que ce n'est pas maladie mortelle, 
+<lb n="14"/> Et que sera prochainement guerye. 
+<lb n="15"/> Mais ne lui chault de chose que lui dye, 
+<lb n="16"/> Ainçois en pleurs a tousjours son ressort 
+<lb n="17"/> Par Tristesse, qui asprement le mort, 
+<lb n="18"/> Et dit qu'il est ennuyé de sa vie. 
+<lb n="19"/> Quant je lui dy qu'il ne se doit doubter, 
+<lb n="20"/> Car Fortune n'est pas si trescruelle, 
+<lb n="21"/> Qu'elle voulsist hors de ce monde oster 
+<lb n="22"/> Celle qui est des princesses l'estoille, 
+<lb n="23"/> Qui partout luist des biens dont est garnie ; 
+<pb n="80"/>
+<lb n="24"/> Il me respond qu'il est foul qui se fie 
+<lb n="25"/> En Fortune, qui a fait a maint tort. 
+<lb n="26"/> Ainsi ne voult recevoir reconfort 
+<lb n="27"/> Et dit qu'il est ennuyé de sa vie. 
+<lb n="28"/> Dieu tout puissant, par vostre courtoisie, 
+<lb n="29"/> Guerissez la, ou mon cueur vous supplie 
+<lb n="30"/> Que vous souffrez que la mort son effort 
+<lb n="31"/> Face sur lui, car il en est d'accort 
+<lb n="32"/> Et dit qu'il est ennuyé de sa vie ! 
+</ab>
+</div>
+<div type="ballade" n="LVI">
+<ab type="gv"> 
+<lb n="1"/> Sitost que l'autre jour j'ouy 
+<lb n="2"/> Que ma souveraine sans per 
+<lb n="3"/> Estoit guerie, Dieu mercy, 
+<lb n="4"/> Je m'en alay sans point tarder 
+<lb n="5"/> Vers mon cueur pour le lui conter ; 
+<lb n="6"/> Mais certes tant le desiroit, 
+<lb n="7"/> Qu'a paine croire le povoit, 
+<lb n="8"/> Pour la grant amour qu'a en elle, 
+<lb n="9"/> Et souvent a par soy disoit : 
+<lb n="10"/> Saint Gabriel, bonne nouvelle ! 
+<lb n="11"/> Je lui dis : <q> « Mon cueur, je vous pry, 
+<lb n="12"/> Ne vueilliez croire ne penser 
+<lb n="13"/> Que moy, qui vous suy vray amy, 
+<lb n="14"/> Vous vueille mensonges trouver, 
+<lb n="15"/> Pour en vain vous reconforter. 
+<lb n="16"/> Car trop mieulx taire me vaudroit 
+<lb n="17"/> Que le dire, se vray n'estoit ; 
+<lb n="18"/> Mais la verité si est telle : 
+<pb n="81"/>
+<lb n="19"/> Soyez joyeulx, comment qu'il soit. 
+<lb n="20"/> Saint Gabriel, bonne nouvelle ! » </q>  
+<lb n="21"/> Alors mon cueur me respondy : 
+<lb n="22"/> <q> « Croire vous vueil, sans plus doubter, 
+<lb n="23"/> Et tout le courrous et soussy 
+<lb n="24"/> Qu'il m'a convenu endurer, 
+<lb n="25"/> En joye le vueil retourner. » </q>  
+<lb n="26"/> Puis aprés, ses yeulx essuyoit, 
+<lb n="27"/> Que de plourer moilliez avoit, 
+<lb n="28"/> Disant : <q> « Il est temps que rappelle 
+<lb n="29"/> Espoir, qui delaissié m'avoit : 
+<lb n="30"/> Saint Gabriel, bonne nouvelle ! » </q>  
+<lb n="31"/> Il me dist aussi qu'il feroit, 
+<lb n="32"/> Dedens l'<w>amoure<supplied resp="#editor">use</supplied></w> chappelle, 
+<lb n="33"/> Chanter la messe qu'il nommoit 
+<lb n="34"/> <q> « Saint Gabriel bonne nouvelle. » </q>  
+</ab>
+</div>
+<div type="ballade" n="LVII">
+<ab type="gv"> 
+<lb n="1"/> Las ! Mort qui t'a fait si hardie, 
+<lb n="2"/> De prendre la noble Princesse 
+<lb n="3"/> Qui estoit mon confort, ma vie, 
+<lb n="4"/> Mon bien, mon plaisir, ma richesse ! 
+<lb n="5"/> Puis que tu as prins ma maistresse, 
+<lb n="6"/> Prens moy aussi son serviteur, 
+<lb n="7"/> Car j'ayme mieulx prouchainnement 
+<lb n="8"/> Mourir que languir en tourment, 
+<lb n="9"/> En paine, soussi et doleur ! 
+<pb n="82"/>
+<lb n="10"/> Las ! de tous biens estoit garnie 
+<lb n="11"/> Et en droitte fleur de jeunesse ! 
+<lb n="12"/> Je pry a Dieu qu'il te maudie, 
+<lb n="13"/> Faulse Mort, plaine de rudesse ! 
+<lb n="14"/> Se prise l'eusses en vieillesse, 
+<lb n="15"/> Ce ne fust pas si grant rigueur ; 
+<lb n="16"/> Mais prise l'as hastivement, 
+<lb n="17"/> Et m'as laissié piteusement 
+<lb n="18"/> En paine, soussi et doleur. 
+<lb n="19"/> Las ! je suy seul, sans compaignie ! 
+<lb n="20"/> Adieu ma Dame, ma lyesse ! 
+<lb n="21"/> Or est nostre amour departie, 
+<lb n="22"/> Non pour tant, je vous fais promesse 
+<lb n="23"/> Que de prieres, a largesse, 
+<lb n="24"/> Morte vous serviray de cueur, 
+<lb n="25"/> Sans oublier aucunement ; 
+<lb n="26"/> Et vous regretteray souvent 
+<lb n="27"/> En paine, soussi et doleur. 
+<lb n="28"/> Dieu, sur tout souverain Seigneur, 
+<lb n="29"/> Ordonnez, par grace et doulceur, 
+<lb n="30"/> De l'ame d'elle, tellement 
+<lb n="31"/> Qu'elle ne soit pas longuement 
+<lb n="32"/> En paine, soussy et doleur ! 
+</ab>
+</div>
+<div type="ballade" n="LVIII">
+<ab type="gv"> 
+<lb n="1"/> J'ay aux eschés joué devant Amours, 
+<lb n="2"/> Pour passer temps, avecques faulx Dangier, 
+<lb n="3"/> Et seurement me suy gardé tousjours, 
+<lb n="4"/> Sans riens perdre jusques au derrenier 
+<pb n="83"/>
+<lb n="5"/> Que Fortune lui est venu aidier. 
+<lb n="6"/> Et par meschief, que maudite soit elle ! 
+<lb n="7"/> A ma Dame prise soudainnement ; 
+<lb n="8"/> Par quoy suy mat, je le voy clerement, 
+<lb n="9"/> Se je ne fais une Dame nouvelle. 
+<lb n="10"/> En ma Dame j'avoye mon secours, 
+<lb n="11"/> Plus qu'en autre, car souvent d'encombrier 
+<lb n="12"/> Me delivroit, quant venoit a son cours, 
+<lb n="13"/> Et en gardes faisoit mon jeu lier ; 
+<lb n="14"/> Je n'avoye pion, ne chevalier, 
+<lb n="15"/> Auffin, ne rocq qui peussent ma querelle 
+<lb n="16"/> Si bien aidier. Je y pert vrayement ; 
+<lb n="17"/> Car j'ay perdu mon jeu entierement, 
+<lb n="18"/> Se je ne fais une Dame nouvelle. 
+<lb n="19"/> Je ne me sçay jamais garder des tours 
+<lb n="20"/> De Fortune, qui maintesfoiz changier 
+<lb n="21"/> A fait mon jeu et tourner a rebours ; 
+<lb n="22"/> Mon dommage scet bien tost espier, 
+<lb n="23"/> Elle m'assault sans point me deffier : 
+<lb n="24"/> Par mon serement, oncques ne congneu telle ! 
+<lb n="25"/> En jeu party suy si estrangement 
+<lb n="26"/> Que je me rens et n'y voy sauvement, 
+<lb n="27"/> Se je ne fais une Dame nouvelle. 
+</ab>
+</div>
+<div type="ballade" n="LIX">
+<ab type="gv"> 
+<lb n="1"/> Je me souloye pourpenser 
+<lb n="2"/> Au commencement de l'annee, 
+<lb n="3"/> Quel don je pourroye donner 
+<lb n="4"/> A ma Dame la bien amee : 
+<pb n="84"/>
+<lb n="5"/> Or suis hors de ceste pensee, 
+<lb n="6"/> Car Mort l'a mise soubz la lame, 
+<lb n="7"/> Et l'a hors de ce monde ostee : 
+<lb n="8"/> Je pry a Dieu qu'il en ait l'ame. 
+<lb n="9"/> Non pour tant, pour tousjours garder 
+<lb n="10"/> La coustume que j'ay usee, 
+<lb n="11"/> Et pour a toutes gens moustrer 
+<lb n="12"/> Que pas n'ay ma Dame oubliee, 
+<lb n="13"/> De messes je l'ay estrenée ; 
+<lb n="14"/> Car ce me seroit trop de blasme 
+<lb n="15"/> De l'oublier ceste journee, 
+<lb n="16"/> Je pry a Dieu <supplied resp="#editor"> qu'il en ait l'ame</supplied>. 
+<lb n="17"/> Tellement lui puist prouffiter 
+<lb n="18"/> Ma priere que confortee 
+<lb n="19"/> Soit son ame, sans point tarder, 
+<lb n="20"/> Et de ses bienfais guerdonnee, 
+<lb n="21"/> En Paradis et couronnee 
+<lb n="22"/> Comme la plus loyalle Dame 
+<lb n="23"/> Qu'en son vivant j'aye trouvee : 
+<lb n="24"/> Je pry a Dieu qu'il en ait l'ame. 
+<lb n="25"/> Quant je pense a la renommee 
+<lb n="26"/> Des grans biens dont estoit paree, 
+<lb n="27"/> Mon povre cueur de dueil se pasme ; 
+<lb n="28"/> De lui souvent est regrettee : 
+<lb n="29"/> Je pry a Dieu qu'il en ait l'ame. 
+</ab>
+</div>
+<div type="ballade" n="LX">
+<ab type="gv"> 
+<lb n="1"/> Quant Souvenir me ramentoit 
+<lb n="2"/> La grant beauté dont estoit plaine, 
+<pb n="85"/>
+<lb n="3"/> Celle que mon cueur appelloit 
+<lb n="4"/> Sa seule Dame souveraine, 
+<lb n="5"/> De tous biens la vraye fontaine, 
+<lb n="6"/> Qui est morte nouvellement, 
+<lb n="7"/> Je dy, en pleurant tendrement : 
+<lb n="8"/> Ce monde n'est que chose vaine ! 
+<lb n="9"/> Ou vieil temps grant renom couroit 
+<lb n="10"/> De Creseide, Yseud, Elaine 
+<lb n="11"/> Et maintes autres qu'on nommoit 
+<lb n="12"/> Parfaittes en beauté haultaine. 
+<lb n="13"/> Mais, au derrain, en son demaine 
+<lb n="14"/> La Mort les prist piteusement ; 
+<lb n="15"/> Par quoy puis veoir clerement 
+<lb n="16"/> Ce monde n'est que chose vaine. 
+<lb n="17"/> La Mort a voulu et vouldroit, 
+<lb n="18"/> Bien le congnois, mettre sa paine 
+<lb n="19"/> De destruire, s'elle povoit, 
+<lb n="20"/> Liesse et Plaisance Mondaine, 
+<lb n="21"/> Quant tant de belles dames maine 
+<lb n="22"/> Hors du monde ; car vrayement 
+<lb n="23"/> Sans elles, a mon jugement, 
+<lb n="24"/> Ce monde n'est que chose vaine. 
+<lb n="25"/> Amours, pour verité certaine, 
+<lb n="26"/> Mort vous guerrie fellement ; 
+<lb n="27"/> Se n'y trouvez amendement, 
+<lb n="28"/> Ce monde n'est que chose vaine. 
+</ab>
+</div>
+<div type="ballade" n="LXI">
+<ab type="gv"> 
+<lb n="1"/> Le premier jour du mois de May, 
+<lb n="2"/> Trouvé me suis en compaignie 
+<pb n="86"/>
+<lb n="3"/> Qui estoit, pour dire le vray, 
+<lb n="4"/> De gracieuseté garnie ; 
+<lb n="5"/> Et, pour oster merencolie, 
+<lb n="6"/> Fut ordonné qu'on choisiroit, 
+<lb n="7"/> Comme Fortune donneroit, 
+<lb n="8"/> La fueille plaine de verdure 
+<lb n="9"/> Ou la fleur pour toute l'annee ; 
+<lb n="10"/> Si prins la fueille pour livree, 
+<lb n="11"/> Comme lors fut mon aventure. 
+<lb n="12"/> Tantost aprés je m'avisay 
+<lb n="13"/> Qu'a bon droit je l'avoye choisie 
+<lb n="14"/> Car, puis que par Mort perdu ay 
+<lb n="15"/> La fleur, de tous biens enrichie, 
+<lb n="16"/> Qui estoit ma Dame, m'amie, 
+<lb n="17"/> Et qui de sa grace m'amoit 
+<lb n="18"/> Et pour son amy me tenoit, 
+<lb n="19"/> Mon cueur d'autre flour n'a plus cure ; 
+<lb n="20"/> Adonc congneu que ma pensee 
+<lb n="21"/> Acordoit a ma destinee, 
+<lb n="22"/> Comme lors fut mon aventure. 
+<lb n="23"/> Pour ce la fueille porteray 
+<lb n="24"/> Cest an, sans que point je l'oublie ; 
+<lb n="25"/> Et a mon povair me tendray 
+<lb n="26"/> Entierement de sa partie ; 
+<lb n="27"/> Je n'ay de nulle flour envie 
+<lb n="28"/> (Porte la qui porter la doit) : 
+<lb n="29"/> Car la fleur, que mon cueur amoit 
+<lb n="30"/> Plus que nulle autre creature, 
+<lb n="31"/> Est hors de ce monde passee, 
+<lb n="32"/> Qui son amour m'avoit donnee, 
+<lb n="33"/> Comme lors fut mon aventure. 
+<pb n="87"/>
+<lb n="34"/> Il n'est fueille ne fleur qui dure 
+<lb n="35"/> Que pour un temps, car esprouvee 
+<lb n="36"/> J'ay la chose que j'ay contee, 
+<lb n="37"/> Comme lors fut mon aventure. 
+</ab>
+</div>
+<div type="ballade" n="LXII">
+<ab type="gv"> 
+<lb n="1"/> Le lendemain du premier jour de May, 
+<lb n="2"/> Dedens mon lit ainsi que je dormoye, 
+<lb n="3"/> Au point du jour m'avint que je songay 
+<lb n="4"/> Que devant moy une fleur je veoye 
+<lb n="5"/> Qui me disoit : <q> « Amy, je me souloye 
+<lb n="6"/> En toy fier, car pieça mon party 
+<lb n="7"/> Tu tenoies, mais mis l'as en oubly, 
+<lb n="8"/> En soustenant la fueille contre moy ; 
+<lb n="9"/> J'ay merveille que tu veulx faire ainsi : 
+<lb n="10"/> Riens n'ay meffait, se pense je, vers toy. » </q>  
+<lb n="11"/> Tout esbahy alors je me trouvay. 
+<lb n="12"/> Si respondy, au mieulx que je savoye : 
+<lb n="13"/> <q> « Tresbelle fleur, oncques je ne pensay 
+<lb n="14"/> Faire chose qui desplaire te doye : 
+<lb n="15"/> Se, pour esbat, Aventure m'envoye 
+<lb n="16"/> Que je serve la fueille cest an cy, 
+<lb n="17"/> Doy je pour tant estre de toy banny ? 
+<lb n="18"/> Nennil certes, je fais comme je doy : 
+<lb n="19"/> Et se je tiens le party qu'ay choisy, 
+<lb n="20"/> Riens n'ay meffait, ce pense je, vers toy. 
+<lb n="21"/> Car non pour tant, honneur te porteray 
+<lb n="22"/> De bon vouloir, quelque part que je soye, 
+<lb n="23"/> Tout pour l'amour d'une fleur que j'amay 
+<pb n="88"/>
+<lb n="24"/> Ou temps passé. Dieu doint que je la voye 
+<lb n="25"/> En Paradis, aprés ma mort, en joye ! 
+<lb n="26"/> Et pour ce, fleur, chierement je te pry, 
+<lb n="27"/> Ne te plains plus, car cause n'as pourquoy, 
+<lb n="28"/> Puis que je fais ainsi que tenu suy : 
+<lb n="29"/> Rien n'ay meffait, ce pense je, vers toy. 
+<lb n="30"/> La verité est telle que je dy, 
+<lb n="31"/> J'en fais juge Amour, le puissant roy ; 
+<lb n="32"/> Tresdoulce fleur, point ne te cry mercy, 
+<lb n="33"/> Riens n'ay meffait, se pense je, vers toy ! » </q>  
+</ab>
+</div>
+<div type="ballade" n="LXIII">
+<ab type="gv"> 
+<lb n="1"/> En la forest d'Ennuyeuse Tristesse, 
+<lb n="2"/> Un jour m'avint qu'a par moy cheminoye, 
+<lb n="3"/> Si rencontray l'Amoureuse Deesse 
+<lb n="4"/> Qui m'appella, demandant ou j'aloye. 
+<lb n="5"/> Je respondy que, par Fortune, estoye 
+<lb n="6"/> Mis en exil en ce bois, long temps a, 
+<lb n="7"/> Et qu'a bon droit appeller me povoye 
+<lb n="8"/> L'omme esgaré qui ne scet ou il va. 
+<lb n="9"/> En sousriant, par sa tresgrant, humblesse, 
+<lb n="10"/> Me respondy : <q> « Amy, se je savoye 
+<lb n="11"/> Pourquoy tu es mis en ceste destresse, 
+<lb n="12"/> A mon povair voulentiers t'ayderoye ; 
+<lb n="13"/> Car, ja pieça, je mis ton cueur en voye 
+<lb n="14"/> De tout plaisir, ne sçay qui l'en osta ; 
+<lb n="15"/> Or me desplaist qu'a present je te voye 
+<lb n="16"/> L'omme esgaré qui ne scet ou il va. 
+<pb n="89"/>
+<lb n="17"/> - Helas ! dis je, souverainne Princesse, 
+<lb n="18"/> Mon fait savés, pourquoy le vous diroye ? 
+<lb n="19"/> C'est par la Mort qui fait a tous rudesse, 
+<lb n="20"/> Qui m'a tollu celle que tant amoye, 
+<lb n="21"/> En qui estoit tout l'espoir que j'avoye, 
+<lb n="22"/> Qui me guidoit, si bien m'acompaigna 
+<lb n="23"/> En son vivant, que point ne me trouvoye 
+<lb n="24"/> L'omme esgaré qui ne scet ou il va. 
+<lb n="25"/> Aveugle suy, ne sçay ou aler doye ; 
+<lb n="26"/> De mon baston, affin que ne forvoye, 
+<lb n="27"/> Je vois tastant mon chemin ça et la ; 
+<lb n="28"/> C'est grant pitié qu'il couvient que je soye 
+<lb n="29"/> L'omme esgaré qui ne scet ou il va ! » </q>  
+</ab>
+</div>
+<div type="ballade" n="LXIV">
+<ab type="gv"> 
+<lb n="1"/> J'ay esté de la compaignie 
+<lb n="2"/> Des amoureux moult longuement, 
+<lb n="3"/> Et m'a Amour, dont le mercie, 
+<lb n="4"/> Donné de ses biens largement ; 
+<lb n="5"/> Mais au derrain, ne sçay comment, 
+<lb n="6"/> Mon fait est venu au contraire ; 
+<lb n="7"/> Et, a parler ouvertement, 
+<lb n="8"/> Tout est rompu, c'est a refaire. 
+<lb n="9"/> Certes, je ne cuidoye mie 
+<lb n="10"/> Qu'en amer eust tel changement ; 
+<lb n="11"/> Car chascun dit que c'est la vie 
+<lb n="12"/> Ou il a plus d'esbatement ; 
+<lb n="13"/> Helas ! j'ay trouvé autrement ; 
+<pb n="90"/>
+<lb n="14"/> Car, quant en l'amoureux repaire 
+<lb n="15"/> Cuidoye vivre seurement, 
+<lb n="16"/> Tout est rompu, c'est a reffaire. 
+<lb n="17"/> Au fort, en Amour je m'affye 
+<lb n="18"/> Qui m'aidera aucunement, 
+<lb n="19"/> Pour l'amour de sa seigneurie 
+<lb n="20"/> Que j'ay servie loyaument ; 
+<lb n="21"/> N'oncques ne fis, par mon serement, 
+<lb n="22"/> Chose qui lui doye desplaire, 
+<lb n="23"/> Et, non pourtant, estrangement 
+<lb n="24"/> Tout est rompu, c'est a refaire. 
+<lb n="25"/> Amour, ordonnez tellement 
+<lb n="26"/> Que j'aye cause de me taire, 
+<lb n="27"/> Sans plus dire de cueur dolent : 
+<lb n="28"/> Tout est rompu, c'est a reffaire. 
+</ab>
+</div>
+<div type="ballade" n="LXV">
+<ab type="gv"> 
+<lb n="1"/> Plaisant Beauté mon cueur nasvra, 
+<lb n="2"/> Ja pieça, si tresdurement 
+<lb n="3"/> Qu'en la fievre d'Amours entra, 
+<lb n="4"/> Qui l'a tenu moult asprement ; 
+<lb n="5"/> Mais, de nouvel, presentement, 
+<lb n="6"/> Un bon medecin qu'on appelle 
+<lb n="7"/> Nonchaloir, que tiens pour amy, 
+<lb n="8"/> M'a guery, la sienne mercy, 
+<lb n="9"/> Se la playe ne renouvelle. 
+<lb n="10"/> Quant mon cueur tout sain se trouva, 
+<lb n="11"/> Il l'en mercia grandement 
+<pb n="91"/>
+<lb n="12"/> Et humblement lui demanda 
+<lb n="13"/> S'en santé seroit longuement ? 
+<lb n="14"/> Il respondy tressagement : 
+<lb n="15"/> <q> « Mais que gardes bien ta fourcelle 
+<lb n="16"/> Du vent d'Amours qui te fery, 
+<lb n="17"/> Tu es en bon point jusqu'a cy, 
+<lb n="18"/> Se la playe ne renouvelle. 
+<lb n="19"/> L'embusche de Plaisir entra 
+<lb n="20"/> Parmy tes yeulx soutivement ; 
+<lb n="21"/> Jennesse ce mal pourchassa, 
+<lb n="22"/> Qui t'avoit en gouvernement 
+<lb n="23"/> Et puis bouta priveement 
+<lb n="24"/> Dedens ton logis l'estincelle 
+<lb n="25"/> D'Ardant Desir, qui tout ardy ; 
+<lb n="26"/> Lors fus nasvré, or t'ay guery, 
+<lb n="27"/> Se la playe ne renouvelle. » </q>  
+</ab>
+</div>
+<div type="ballade" n="LXVI">
+<ab type="gv"> 
+<lb n="1"/> Le beau souleil, le jour saint Valentin 
+<lb n="2"/> Qui apportoit sa chandelle alumee, 
+<lb n="3"/> N'a pas long temps, entra un bien matin 
+<lb n="4"/> Priveement en ma chambre fermee. 
+<lb n="5"/> Celle clarté, qu'il avoit apportee, 
+<lb n="6"/> Si m'esveilla du somme de Soussy 
+<lb n="7"/> Ou j'avoye toute la nuit dormy 
+<lb n="8"/> Sur le dur lit d'Ennuieuse Pensee. 
+<lb n="9"/> Ce jour aussi, pour partir leur butin 
+<lb n="10"/> Des biens d'Amours, faisoient assemblee 
+<pb n="92"/>
+<lb n="11"/> Tous les oyseaulx, qui parlans leur latin, 
+<lb n="12"/> Crioyent fort, demandans la livree 
+<lb n="13"/> Que Nature leur avoit ordonnee : 
+<lb n="14"/> C'estoit d'un per, comme chascun choisy. 
+<lb n="15"/> Si ne me peu rendormir, pour leur cry, 
+<lb n="16"/> Sur le dur lit d'Ennuieuse Pensee. 
+<lb n="17"/> Lors en moillant de larmes mon coessin, 
+<lb n="18"/> Je regrettay ma dure destinee, 
+<lb n="19"/> Disant : <q> « Oyseaulx, je vous voy en chemin 
+<lb n="20"/> De tout plaisir et joye desiree ; 
+<lb n="21"/> Chascun de vous a per qui lui agree, 
+<lb n="22"/> Et point n'en ay, car Mort, qui m'a trahy, 
+<lb n="23"/> A prins mon per, dont en dueil je languy 
+<lb n="24"/> Sur le dur lit d'Ennuieuse Pensee. » </q>  
+<lb n="25"/> Saint Valentin choisissent ceste annee 
+<lb n="26"/> Ceulx et celles de l'amoureux party ;  
+<lb n="27"/> Seul me tendray, de Confort desgarny,  
+<lb n="28"/> Sur le dur lit d'Ennuieuse Pensee ! 
+</ab>
+</div>
+<div type="ballade" n="LXVII">
+<ab type="gv"> 
+<lb n="1"/> Mon cueur dormant en Nonchaloir, 
+<lb n="2"/> Reveilliez vous joyeusement, 
+<lb n="3"/> Je vous fais nouvelles savoir, 
+<lb n="4"/> Qui vous doit plaire grandement ; 
+<lb n="5"/> Il est vray que presentement 
+<lb n="6"/> Une Dame treshonnoree 
+<lb n="7"/> En toute bonne renommee, 
+<lb n="8"/> Desire de vous acheter, 
+<pb n="93"/>
+<lb n="9"/> Dont je suy joyeux et d'accort ; 
+<lb n="10"/> Pour vous, son cueur me veult donner 
+<lb n="11"/> Sans departir, jusqu'a la mort. 
+<lb n="12"/> Ce change doy je recevoir 
+<lb n="13"/> En grant gré tresjoyeusement ; 
+<lb n="14"/> Or vous charge d'entier povair, 
+<lb n="15"/> Si chier et tant estroittement 
+<lb n="16"/> Que je puis, plus que loyaument 
+<lb n="17"/> Soit par vous cherie et amee ; 
+<lb n="18"/> Et en tous lieux, nuit et journee, 
+<lb n="19"/> L'acompaignez, sans la laissier, 
+<lb n="20"/> Tant que j'en aye bon rapport ; 
+<lb n="21"/> Il vous couvient sien demourer, 
+<lb n="22"/> Sans departir, jusqu'a la mort. 
+<lb n="23"/> Alez vous logier ou manoir 
+<lb n="24"/> De son tresgracieux corps gent, 
+<lb n="25"/> Pour y demourer main et soir, 
+<lb n="26"/> Et l'onnourer entierement. 
+<lb n="27"/> Car, par son bon commandement, 
+<lb n="28"/> Lieutenant vous veult ordonner 
+<lb n="29"/> De son cueur, en joyeux deport ; 
+<lb n="30"/> Pensés de bien vous gouverner, 
+<lb n="31"/> Sans departir, jusqu'a la mort. 
+</ab>
+</div>
+<div type="ballade" n="LXVIII">
+<ab type="gv"> 
+<lb n="1"/> Belle, se ne m'osez donner 
+<lb n="2"/> De voz doulx baisiers amoureux, 
+<lb n="3"/> Pour paour de Dangier courroucer, 
+<pb n="94"/>
+<lb n="4"/> Qui tousjours est fel et crueux, 
+<lb n="5"/> J'en embleray bien un ou deux ; 
+<lb n="6"/> Mais que n'y prenez desplaisir 
+<lb n="7"/> Et que le vueilliez consentir, 
+<lb n="8"/> Maugré Dangier et ses conseulx. 
+<lb n="9"/> De ce faulx vilain aveugler, 
+<lb n="10"/> Dieu scet se j'en suy desireux ; 
+<lb n="11"/> Nul ne le peut aprivoiser, 
+<lb n="12"/> Tous temps est si soupeçonneux 
+<lb n="13"/> Qu'en penser languist doloreux 
+<lb n="14"/> Quant il voit Plaisance venir ; 
+<lb n="15"/> Mais elle se scet bien chevir, 
+<lb n="16"/> Maugré Dangier et ses conseulx. 
+<lb n="17"/> Quant estroit la cuide garder, 
+<lb n="18"/> Hardy Cueur, secret et eureux, 
+<lb n="19"/> S'avecques lui scet amener 
+<lb n="20"/> Avis Bon et Aventureux, 
+<lb n="21"/> Desguisé soubz Maintien Honteux, 
+<lb n="22"/> Bien peuent Dangier endormir ; 
+<lb n="23"/> Lors Plaisance fait son desir, 
+<lb n="24"/> Maugré Dangier et ses conseulx. 
+<lb n="25"/> Bien dessert guerdon plantureux 
+<lb n="26"/> Advis, qui scet si bien servir 
+<lb n="27"/> Au besoing et trouver loisir, 
+<lb n="28"/> Maugré Dangier et ses conseulx. 
+</ab>
+<pb n="95"/>
+</div>
+<div type="ballade" n="LXIX">
+<ab type="gv"> 
+<lb n="1"/> J'ay fait l'obseque de ma Dame 
+<lb n="2"/> Dedens le moustier amoureux, 
+<lb n="3"/> Et le service pour son ame 
+<lb n="4"/> A chanté Penser Doloreux ; 
+<lb n="5"/> Mains sierges de Soupirs Piteux 
+<lb n="6"/> Ont esté en son luminaire ; 
+<lb n="7"/> Aussi j'ay fait la tombe faire 
+<lb n="8"/> De Regrez, tous de lermes pains : 
+<lb n="9"/> Et tout entour, moult richement, 
+<lb n="10"/> Est escript : Cy gist vrayement 
+<lb n="11"/> Le tresor de tous biens mondains. 
+<lb n="12"/> Dessus elle gist une lame 
+<lb n="13"/> Faicte d'or et de saffirs bleux, 
+<lb n="14"/> Car saffir est nommé la jame 
+<lb n="15"/> De Loyauté, et l'or eureux. 
+<lb n="16"/> Bien lui appartiennent ces deux ; 
+<lb n="17"/> Car Eur et Loyauté pourtraire 
+<lb n="18"/> Voulu, en la tresdebonnaire, 
+<lb n="19"/> Dieu qui la fist de ses deux mains 
+<lb n="20"/> Et fourma merveilleusement : 
+<lb n="21"/> C'estoit, a parler plainnement, 
+<lb n="22"/> Le tresor de tous biens mondains ! 
+<lb n="23"/> N'en parlons plus : mon cueur se pasme 
+<lb n="24"/> Quant il oyt les fais vertueux 
+<lb n="25"/> D'elle, qui estoit sans nul blasme, 
+<lb n="26"/> Comme jurent celles et ceulx 
+<lb n="27"/> Qui congnoissoyent ses conseulx ; 
+<lb n="28"/> Si croy que Dieu la voulu traire 
+<pb n="96"/>
+<lb n="29"/> Vers lui, pour parer son repaire 
+<lb n="30"/> De Paradis ou sont les saints ; 
+<lb n="31"/> Car c'est d'elle bel parement, 
+<lb n="32"/> Que l'en nommoit communement 
+<lb n="33"/> Le tresor de tous biens mondains. 
+<lb n="34"/> De riens ne servent plours ne plains : 
+<lb n="35"/> Tous mourrons, ou tart ou briefment ; 
+<lb n="36"/> Nul ne peut garder longuement 
+<lb n="37"/> Le tresor de tous biens mondains. 
+</ab>
+</div>
+<div type="ballade" n="LXX">
+<ab type="gv"> 
+<lb n="1"/> Puis que Mort a prins ma maistresse, 
+<lb n="2"/> Que sur toutes amer souloye, 
+<lb n="3"/> Mourir me convient en tristesse ; 
+<lb n="4"/> Certes plus vivre ne pourroye. 
+<lb n="5"/> Pour ce, par deffautte de joye, 
+<lb n="6"/> Tresmalade, mon testament 
+<lb n="7"/> J'ay mis en escript doloreux, 
+<lb n="8"/> Lequel je presente humblement 
+<lb n="9"/> Devant tous loyaulx amoureux. 
+<lb n="10"/> Premierement, a la haultesse 
+<lb n="11"/> Du Dieu d'Amours donne et envoye 
+<lb n="12"/> Mon esperit, et en humblesse 
+<lb n="13"/> Lui supplie qu'il le convoye 
+<lb n="14"/> En son Paradis et pourvoye ; 
+<lb n="15"/> Car je jure que loyaument 
+<lb n="16"/> L'a servi de vueil desireux ; 
+<lb n="17"/> Advouer le puis vrayement 
+<lb n="18"/> Devant <supplied resp="#editor"> tous loyaulx amoureux</supplied>. 
+<pb n="97"/>
+<lb n="19"/> Oultre plus, vueil que la richesse 
+<lb n="20"/> Des biens d'Amours qu'avoir souloye 
+<lb n="21"/> Departie soit a largesse 
+<lb n="22"/> A vrais amans, et ne vouldroye 
+<lb n="23"/> Que faulx amans, par nulle voye, 
+<lb n="24"/> En eussent part aucunement ; 
+<lb n="25"/> Oncques n'euz amistié a eulx ; 
+<lb n="26"/> Je le prans sur mon sauvement 
+<lb n="27"/> Devant tous loyaux amoureux. 
+<lb n="28"/> Sans espargnier or ne monnoye, 
+<lb n="29"/> Loyauté veult qu'enterré soye 
+<lb n="30"/> En sa chappelle grandement ; 
+<lb n="31"/> Dont je me tiens pour bien eureux, 
+<lb n="32"/> Et l'en mercie chierement 
+<lb n="33"/> Devant tous loyaux amoureux. 
+</ab>
+</div>
+<div type="ballade" n="LXXI">
+<ab type="gv"> 
+<lb n="1"/> J'oy estrangement 
+<lb n="2"/> Plusieurs gens parler, 
+<lb n="3"/> Qui trop mallement 
+<lb n="4"/> Se plaingnent d'amer ; 
+<lb n="5"/> Car legierement, 
+<lb n="6"/> Sans paine porter, 
+<lb n="7"/> Vouldroyent briefment 
+<lb n="8"/> A fin amener 
+<lb n="9"/> Tout leur pensement. 
+<lb n="10"/> C'est fait follement 
+<lb n="11"/> D'ainsy desirer ; 
+<pb n="98"/>
+<lb n="12"/> Car qui loyaument 
+<lb n="13"/> Veulent acquester 
+<lb n="14"/> Bon guerdonnement, 
+<lb n="15"/> Maint mal endurer 
+<lb n="16"/> Leur fault, et souvent 
+<lb n="17"/> A rebours trouver 
+<lb n="18"/> Tout leur pensement. 
+<lb n="19"/> S'Amour humblement 
+<lb n="20"/> Veulent honnourer, 
+<lb n="21"/> Et soingneusement 
+<lb n="22"/> Servir, sans fausser, 
+<lb n="23"/> Des biens largement 
+<lb n="24"/> Leur fera donner ; 
+<lb n="25"/> Mais, premierement, 
+<lb n="26"/> Il veult esprouver 
+<lb n="27"/> Tout leur pensement. 
+</ab>
+<pb n="119"/>
+</div>
+<div type="ballade" n="LXXII">
+<ab type="gv"> 
+<lb n="1"/> Balades, chançons et complaintes 
+<lb n="2"/> Sont pour moy mises en oubly, 
+<lb n="3"/> Car ennuy et pensees maintes 
+<lb n="4"/> M'ont tenu long temps endormy. 
+<lb n="5"/> Non pour tant, pour passer soussy, 
+<lb n="6"/> Essaier vueil se je sauroye 
+<lb n="7"/> Rimer, ainsi que je souloye. 
+<lb n="8"/> Au meins j'en feray mon povoir, 
+<lb n="9"/> Combien que je congnois et sçay 
+<lb n="10"/> Que mon langage trouveray 
+<lb n="11"/> Tout enroillié de Nonchaloir. 
+<lb n="12"/> Plaisans parolles sont estaintes 
+<lb n="13"/> En moy qui deviens rassoty ; 
+<lb n="14"/> Au fort, je vendray aux attaintes 
+<lb n="15"/> Quant beau parler m'aura failly. 
+<lb n="16"/> Pour quoy pry ceulx qui m'ont oy 
+<lb n="17"/> Langagier, quant pieça j'estoye 
+<lb n="18"/> Jeune, nouvel et plain de joye, 
+<lb n="19"/> Que vueillent excusé m'avoir. 
+<lb n="20"/> Oncques mais je ne me trouvay 
+<lb n="21"/> Si rude, car je suis, pour vray, 
+<lb n="22"/> Tout enroillié de Nonchaloir. 
+<lb n="23"/> Amoureux ont parolles paintes 
+<lb n="24"/> Et langage frois et joly ; 
+<lb n="25"/> Plaisance dont ilz sont accointes 
+<lb n="26"/> Parle pour eulx ; en ce party 
+<lb n="27"/> J'ay esté, or n'est plus ainsi ; 
+<lb n="28"/> Alors de beau parler trouvoye 
+<pb n="120"/>
+<lb n="29"/> A bon marchié tant que vouloye ; 
+<lb n="30"/> Si ay despendu mon savoir, 
+<lb n="31"/> Et s'un peu espargnié en ay, 
+<lb n="32"/> Il est, quant vendra a l'essay, 
+<lb n="33"/> Tout enroillié de Nonchaloir. 
+<lb n="34"/> Mon jubilé faire devroye, 
+<lb n="35"/> Mais on diroit que me rendroye 
+<lb n="36"/> Sans coup ferir, car Bon Espoir 
+<lb n="37"/> M'a dit que renouvelleray ; 
+<lb n="38"/> Pour ce, mon cueur fourbir feray 
+<lb n="39"/> Tout enroillié de Nonchaloir ! 
+</ab>
+</div>
+<div type="ballade" n="LXXIII">
+<ab type="gv"> 
+<lb n="1"/> L'Emplastre de Nonchaloir, 
+<lb n="2"/> Que sus mon cueur pieça mis, 
+<lb n="3"/> M'a guery, pour dire voir, 
+<lb n="4"/> Si nettement que je suis 
+<lb n="5"/> En bon point ; ne je ne puis 
+<lb n="6"/> Plus avoir, jour de ma vie, 
+<lb n="7"/> L'amoureuse maladie. 
+<lb n="8"/> Si font mes yeulx leur povoir 
+<lb n="9"/> D'espier par le pays, 
+<lb n="10"/> S'ilz pourroient plus veoir 
+<lb n="11"/> Plaisant Beauté, qui jadis 
+<lb n="12"/> Fut l'un de mes ennemis, 
+<lb n="13"/> Et mist en ma compaignie 
+<lb n="14"/> L'amoureuse maladie. 
+<lb n="15"/> Mes yeulx tense, main et soir, 
+<lb n="16"/> Mais ilz sont si treshastis, 
+<pb n="121"/>
+<lb n="17"/> Et trop plains de leur vouloir : 
+<lb n="18"/> Au fort, je les metz au pis, 
+<lb n="19"/> Facent selon leur advis ; 
+<lb n="20"/> Plus ne crains, dont Dieu mercie, 
+<lb n="21"/> L'amoureuse maladie ! 
+<lb n="22"/> Quant je voy en doleur pris 
+<lb n="23"/> Les amoureux, je m'en ris ; 
+<lb n="24"/> Car je tiens pour grant folie, 
+<lb n="25"/> L'amoureuse maladie ! 
+</ab>
+</div>
+<div type="ballade" n="LXXIV">
+<ab type="gv"> 
+<lb n="1"/> Mon cueur m'a fait commandement 
+<lb n="2"/> De venir vers vostre jeunesse, 
+<lb n="3"/> Belle que j'ayme loyaument, 
+<lb n="4"/> Comme doy faire ma Princesse. 
+<lb n="5"/> Se vous demandés pour quoy esse ? 
+<lb n="6"/> C'est pour savoir quant vous plaira 
+<lb n="7"/> Alegier sa dure destresse. 
+<lb n="8"/> Ma Dame, le sauray je ja ? 
+<lb n="9"/> Ditez le par vostre serment ; 
+<lb n="10"/> Je vous fais leale promesse : 
+<lb n="11"/> Nul ne le saura, seulement 
+<lb n="12"/> Fors que lui pour avoir leesse ; 
+<lb n="13"/> Or lui moustrés qu'estes maistresse, 
+<lb n="14"/> Et lui mandez qu'il guerira ; 
+<lb n="15"/> Ou, s'il doit morir de destresse, 
+<lb n="16"/> Ma Dame, le sauray je ja ? 
+<pb n="122"/>
+<lb n="17"/> Penser ne pourroit nullement 
+<lb n="18"/> Que la douleur qui tant le blesse 
+<lb n="19"/> Ne vous desplaise aucunement ; 
+<lb n="20"/> Or faitez dont tant qu'elle cesse, 
+<lb n="21"/> Et le remettés en l'adresse 
+<lb n="22"/> D'Espoir, dont il party pieça ; 
+<lb n="23"/> Respondez sans que plus vous presse : 
+<lb n="24"/> Ma Dame, le sauray je ja ? 
+</ab>
+</div>
+<div type="ballade" n="LXXV">
+<ab type="gv"> 
+<lb n="1"/> En regardant vers le païs de France, 
+<lb n="2"/> Un jour m'avint, a Dovre sur la mer, 
+<lb n="3"/> Qu'il me souvint de la doulce plaisance 
+<lb n="4"/> Que souloye oudit pays trouver ; 
+<lb n="5"/> Si commençay de cueur a souspirer, 
+<lb n="6"/> Combien certes que grant bien me faisoit 
+<lb n="7"/> De voir France que mon cueur amer doit. 
+<lb n="8"/> Je m'avisay que c'estoit non savance 
+<lb n="9"/> De telz souspirs dedens mon cueur garder, 
+<lb n="10"/> Veu que je voy que la voye commence 
+<lb n="11"/> De bonne paix, qui tous biens peut donner ; 
+<lb n="12"/> Pour ce, tournay en confort mon penser. 
+<lb n="13"/> Mais non pourtant mon cueur ne se lassoit 
+<lb n="14"/> De voir France que mon cueur amer doit. 
+<lb n="15"/> Alors chargay en la nef d'Esperance 
+<lb n="16"/> Tous mes souhaitz, en leur priant d'aler 
+<lb n="17"/> Oultre la mer, sans faire demourance, 
+<lb n="18"/> Et a France de me recommander. 
+<pb n="123"/>
+<lb n="19"/> Or nous doint Dieu bonne paix sans tarder ! 
+<lb n="20"/> Adonc auray loisir, mais qu'ainsi soit, 
+<lb n="21"/> De voir France que mon cueur amer doit. 
+<lb n="22"/> Paix est tresor qu'on ne peut trop loer. 
+<lb n="23"/> Je hé guerre, point ne la doy prisier ; 
+<lb n="24"/> Destourbé m'a long temps, soit tort ou droit, 
+<lb n="25"/> De voir France que mon cueur amer doit ! 
+</ab>
+</div>
+<div type="ballade" n="LXXVI">
+<ab type="gv"> 
+<lb n="1"/> Priés pour paix, doulce Vierge Marie, 
+<lb n="2"/> Royne des cieulx, et du monde maistresse, 
+<lb n="3"/> Faictes prier, par vostre courtoisie, 
+<lb n="4"/> Saints et saintes, et prenés vostre adresse 
+<lb n="5"/> Vers vostre filz, requerant sa haultesse 
+<lb n="6"/> Qu'il lui plaise son peuple regarder, 
+<lb n="7"/> Que de son sang a voulu racheter, 
+<lb n="8"/> En deboutant guerre qui tout desvoye ; 
+<lb n="9"/> De prieres ne vous vueilliez lasser : 
+<lb n="10"/> Priez pour paix, le vray tresor de joye ! 
+<lb n="11"/> Priez, prelas et gens de sainte vie, 
+<lb n="12"/> Religieux ne dormez en peresse, 
+<lb n="13"/> Priez, maistres et tous suivans clergie, 
+<lb n="14"/> Car par guerre fault que l'estude cesse ; 
+<lb n="15"/> Moustiers destruis sont sans qu'on les redresse, 
+<lb n="16"/> Le service de Dieu vous fault laissier. 
+<lb n="17"/> Quant ne povez en repos demourer, 
+<lb n="18"/> Priez si fort que briefment Dieu vous oye ; 
+<lb n="19"/> L'Eglise voult a ce vous ordonner : 
+<lb n="20"/> Priez pour paix, le vray tresor de joye ! 
+<pb n="124"/>
+<lb n="21"/> Priez, princes qui avez seigneurie, 
+<lb n="22"/> Roys, ducs, contes, barons plains de noblesse, 
+<lb n="23"/> Gentilz hommes avec chevalerie, 
+<lb n="24"/> Car meschans gens surmontent gentillesse ; 
+<lb n="25"/> En leurs mains ont toute vostre richesse, 
+<lb n="26"/> Debatz les font en hault estat monter, 
+<lb n="27"/> Vous le povez chascun jour veoir au cler, 
+<lb n="28"/> Et sont riches de voz biens et monnoye 
+<lb n="29"/> Dont vous deussiez le peuple suporter : 
+<lb n="30"/> Priez pour paix, le vray tresor de joye ! 
+<lb n="31"/> Priez, peuple qui souffrez tirannie, 
+<lb n="32"/> Car voz seigneurs sont en telle foiblesse 
+<lb n="33"/> Qu'ilz ne peuent vous garder, par maistrie, 
+<lb n="34"/> Ne vous aidier en vostre grant destresse ; 
+<lb n="35"/> Loyaulx marchans, la selle si vous blesse 
+<lb n="36"/> Fort sur le dox ; chascun vous vient presser 
+<lb n="37"/> Et ne povez marchandise mener, 
+<lb n="38"/> Car vous n'avez seur passage ne voye, 
+<lb n="39"/> Et maint peril vous couvient il passer : 
+<lb n="40"/> Priez pour paix, le vray tresor de joye ! 
+<lb n="41"/> Priez, galans joyeux en compaignie, 
+<lb n="42"/> Qui despendre desirez a largesse, 
+<lb n="43"/> Guerre vous tient la bourse desgarnie ; 
+<lb n="44"/> Priez, amans, qui voulez en liesse 
+<lb n="45"/> Servir amours, car guerre, par rudesse, 
+<lb n="46"/> Vous destourbe de voz dames hanter, 
+<lb n="47"/> Qui maintesfoiz fait leurs vouloirs tourner ; 
+<lb n="48"/> Et quant tenez le bout de la couroye, 
+<lb n="49"/> Un estrangier si le vous vient oster : 
+<lb n="50"/> Priez pour paix, le vray tresor de joye ! 
+<pb n="125"/>
+<lb n="51"/> Dieu tout puissant nous vueille conforter 
+<lb n="52"/> Toutes choses en terre, ciel et mer ; 
+<lb n="53"/> Priez vers lui que brief en tout pourvoye, 
+<lb n="54"/> En lui seul est de tous maulx amender : 
+<lb n="55"/> Priez pour paix, le vray tresor de joye ! 
+</ab>
+<pb n="126"/>
+</div>
+  <div type="ballade" n="LXXVII">
+ <head>BALADES DE PLUSIEURS PROPOS.
+   <lb/><hi rend="I">Orlians contre Garencieres</hi>.</head>
+<ab type="gv"> 
+<lb n="3"/> Je, qui suis Dieu des amoureux, 
+<lb n="4"/> Prince de joyeuse plaisance, 
+<lb n="5"/> A toutes celles et a ceulx 
+<lb n="6"/> Qui sont de mon obeissance, 
+<lb n="7"/> Requier qu'a toute leur puissance 
+<lb n="8"/> Me viengnent aidier et servir, 
+<lb n="9"/> Pour l'outrecuidance punir 
+<lb n="10"/> D'aucuns qui, par leur janglerie, 
+<lb n="11"/> Veulent, par force, conquerir 
+<lb n="12"/> Des grans biens de ma seigneurie. 
+<lb n="13"/> Car Garencieres, l'un d'entr'eulx, 
+<lb n="14"/> Si dit en sa folle vantance, 
+<lb n="15"/> Pour faire le chevalereux, 
+<lb n="16"/> Qu'avant yer, par sa grant vaillance, 
+<lb n="17"/> Luy et son cueur, d'une aliance, 
+<lb n="18"/> Furent devant Beauté courir. 
+<lb n="19"/> Je ne luy vy pas, sans faillir, 
+<lb n="20"/> Mais croy qu'il soit en resverie, 
+<lb n="21"/> Car si pres n'oseroit venir 
+<lb n="22"/> Des grans biens de ma seigneurie ! 
+<lb n="23"/> Il dit qu'il est tant douloureux, 
+<lb n="24"/> Et qu'il est mort sans recouvrance ; 
+<lb n="25"/> Mais bien seroit il maleureux 
+<lb n="26"/> Qui donneroit en ce creance. 
+<pb n="127"/>
+<lb n="27"/> On peut veoir que celle penance 
+<lb n="28"/> Qu'il lui a couvenu souffrir 
+<lb n="29"/> N'a fait son visage pallir 
+<lb n="30"/> Ne amaigrir de maladie : 
+<lb n="31"/> Ainsi se moque, pour chevir, 
+<lb n="32"/> Des grans biens de ma seigneurie. 
+<lb n="33"/> Sur tous, me plaist le retenir 
+<lb n="34"/> Roy des heraulx pour bien mentir ; 
+<lb n="35"/> Cest office je luy ottrie. 
+<lb n="36"/> C'est ce que lui vueil departir 
+<lb n="37"/> Des grans biens de ma seigneurie ! 
+</ab>
+<pb n="128"/>
+</div>
+<div type="ballade" n="LXXVIII">
+<ab type="gv"> 
+<lb n="1"/> En acquittant nostre temps vers Jeunesse, 
+<lb n="2"/> Le nouvel an et la saison jolie, 
+<lb n="3"/> Plains de plaisir et de toute liesse, 
+<lb n="4"/> Qui chascun d'eulx chierement nous en prie, 
+<lb n="5"/> Venuz sommes en ceste mommerie, 
+<lb n="6"/> Belles, bonnes, plaisans et gracieuses, 
+<lb n="7"/> Prestz de dancer et faire chiere lie, 
+<lb n="8"/> Pour resveillier voz pensees joieuses. 
+<pb n="129"/>
+<lb n="9"/> Or, bannissiez de vous toute peresse, 
+<lb n="10"/> Ennuy, soussy avec merencolie, 
+<lb n="11"/> Car froit yver, qui ne veult que rudesse, 
+<lb n="12"/> Est desconfit et couvient qu'il s'en fuye ; 
+<lb n="13"/> Avril et May amainent doulce vie 
+<lb n="14"/> Avecques eulx ; pour ce, soyez soingneuses 
+<lb n="15"/> De recevoir leur plaisant compaignie 
+<lb n="16"/> Pour resveillier voz pensees joieuses. 
+<lb n="17"/> Venus aussi, la tresnoble Deesse, 
+<lb n="18"/> Qui sur femmes doit avoir la maistrie, 
+<lb n="19"/> Vous envoye de confort a largesse, 
+<lb n="20"/> Et Plaisance de grans biens enrichie, 
+<lb n="21"/> En vous chargeant que de vostre partie 
+<lb n="22"/> Vous acquittiés sans estre dangereuses : 
+<lb n="23"/> Aidier vous veult, sans que point vous oublie, 
+<lb n="24"/> Pour resveillier voz pensees joyeuses ! 
+</ab>
+</div>
+<div type="ballade" n="LXXIX">
+<ab type="gv"> 
+<lb n="1"/> Bien moustrez, printemps gracieux, 
+<lb n="2"/> De quel mestier savez servir, 
+<lb n="3"/> Car yver fait cueurs ennuieux 
+<lb n="4"/> Et vous les faictes resjouir ; 
+<lb n="5"/> Si tost, comme il vous voit venir, 
+<lb n="6"/> Lui et sa meschant retenue 
+<lb n="7"/> Sont contrains et prestz de fuir, 
+<lb n="8"/> A vostre joyeuse venue. 
+<lb n="9"/> Yver fait champs et arbres vieulx, 
+<lb n="10"/> Leurs barbes de neige blanchir, 
+<lb n="11"/> Et est si froit, ort et pluieux, 
+<pb n="130"/>
+<lb n="12"/> Qu'emprés le feu couvient croupir. 
+<lb n="13"/> On ne peut hors des huis yssir, 
+<lb n="14"/> Comme un oisel qui est en mue ; 
+<lb n="15"/> Mais vous faittes tout rajeunir, 
+<lb n="16"/> A vostre joyeuse venue. 
+<lb n="17"/> Yver fait le souleil, es cieulx, 
+<lb n="18"/> Du mantel des nues couvrir ; 
+<lb n="19"/> Or maintenant, loué soit Dieux, 
+<lb n="20"/> Vous estes venu esclersir 
+<lb n="21"/> Toutes choses et embellir ; 
+<lb n="22"/> Yver a sa peine perdue, 
+<lb n="23"/> Car l'an nouvel l'a fait bannir, 
+<lb n="24"/> A vostre joyeuse venue ! 
+</ab>
+</div>
+<div type="ballade" n="LXXX">
+<ab type="gv"> 
+<lb n="1"/> Je fu en fleur ou temps passé d'enfance, 
+<lb n="2"/> Et puis aprés devins fruit en jeunesse ; 
+<lb n="3"/> Lors m'abaty de l'arbre de Plaisance, 
+<lb n="4"/> Vert et non meur, Folie, ma maistresse. 
+<lb n="5"/> Et pour cela, Raison qui tout redresse 
+<lb n="6"/> A son plaisir, sans tort ou mesprison, 
+<lb n="7"/> M'a a bon droit, par sa tresgrant sagesse, 
+<lb n="8"/> Mis pour meurir ou feurre de prison. 
+<lb n="9"/> En ce j'ay fait longue continuance, 
+<lb n="10"/> Sans estre mis a l'essor de Largesse ; 
+<lb n="11"/> J'en suy contant et tiens que, sans doubtance, 
+<lb n="12"/> C'est pour le mieulx, combien que par peresse 
+<lb n="13"/> Deviens fletry et tire vers vieillesse. 
+<pb n="131"/>
+<lb n="14"/> Assez estaint est en moy le tison 
+<lb n="15"/> De sot desir, puis qu'ay esté en presse 
+<lb n="16"/> Mis pour meurir ou feurre de prison. 
+<lb n="17"/> Dieu nous doint paix, car c'est ma desirance ! 
+<lb n="18"/> Adonc seray en l'eaue de Liesse 
+<lb n="19"/> Tost refreschi, et au souleil de France 
+<lb n="20"/> Bien nettié du moisy de Tristesse ; 
+<lb n="21"/> J'attens Bon Temps, endurant en humblesse. 
+<lb n="22"/> Car j'ay espoir que Dieu ma guerison 
+<lb n="23"/> Ordonnera ; pour ce, m'a sa haultesse 
+<lb n="24"/> Mis pour meurir ou feurre de prison. 
+<lb n="25"/> Fruit suis d'yver qui a meins de tendresse 
+<lb n="26"/> Que fruit d'esté ; si suis en garnison, 
+<lb n="27"/> Pour amolir ma trop verde duresse, 
+<lb n="28"/> Mis pour meurir ou feurre de prison ! 
+</ab>
+</div>
+<div type="ballade" n="LXXXI">
+<ab type="gv"> 
+<lb n="1"/> Cueur, trop es plain de folie. 
+<lb n="2"/> Cuides tu de t'eslongnier 
+<lb n="3"/> Hors de nostre compaignie, 
+<lb n="4"/> Et en repos te logier ? 
+<lb n="5"/> Ton propos ferons changier : 
+<lb n="6"/> Soing et Ennuy nous nommons. 
+<lb n="7"/> Avecques toy demourrons, 
+<lb n="8"/> Car c'est le commandement 
+<lb n="9"/> De Fortune, qui en serre 
+<lb n="10"/> T'a tenu moult longuement 
+<lb n="11"/> Ou royaume d'Angleterre. 
+<pb n="132"/>
+<lb n="12"/> Dy nous, ne congnois tu mie 
+<lb n="13"/> Que l'estat de prisonnier 
+<lb n="14"/> Est que souvent lui ennuye, 
+<lb n="15"/> Et endure maint dangier 
+<lb n="16"/> Dont il ne se peut vengier ? 
+<lb n="17"/> Pour ce, nous ne te faisons 
+<lb n="18"/> Nul tort, se te gouvernons 
+<lb n="19"/> Ainsi que communement 
+<lb n="20"/> Sont prisonniers pris en guerre, 
+<lb n="21"/> Dont es l'un presentement 
+<lb n="22"/> Ou royaume d'Angleterre. 
+<lb n="23"/> En lieu de Plaisance lye, 
+<lb n="24"/> Au lever et au couschier, 
+<lb n="25"/> Trouveras Merencolie ; 
+<lb n="26"/> Souvent te fera veillier, 
+<lb n="27"/> La nuit et le jour songier. 
+<lb n="28"/> Ainsi te guerdonnerons, 
+<lb n="29"/> Et es fers te garderons 
+<lb n="30"/> De Soussy et Pensement ; 
+<lb n="31"/> Se tu peuz, si te defferre ! 
+<lb n="32"/> Par nous n'auras autrement 
+<lb n="33"/> Ou royaume d'Angleterre. 
+</ab>
+</div>
+<div type="ballade" n="LXXXII">
+<ab type="gv"> 
+<lb n="1"/> Nouvelles ont couru en France 
+<lb n="2"/> Par mains lieux que j'estoye mort ; 
+<lb n="3"/> Dont avoient peu deplaisance 
+<lb n="4"/> Aucuns qui me hayent a tort ; 
+<lb n="5"/> Autres en ont eu desconfort, 
+<pb n="133"/>
+<lb n="6"/> Qui m'ayment de loyal vouloir, 
+<lb n="7"/> Comme mes bons et vrais amis. 
+<lb n="8"/> Si fais a toutes gens savoir 
+<lb n="9"/> Qu'encore est vive la souris ! 
+<lb n="10"/> Je n'ay eu ne mal ne grevance, 
+<lb n="11"/> Dieu mercy, mais suis sain et fort, 
+<lb n="12"/> Et passe temps en esperance 
+<lb n="13"/> Que paix, qui trop longuement dort, 
+<lb n="14"/> S'esveillera, et par accort 
+<lb n="15"/> A tous fera liesse avoir. 
+<lb n="16"/> Pour ce, de Dieu soient maudis 
+<lb n="17"/> Ceulx qui sont dolens de veoir 
+<lb n="18"/> Qu'encore est vive la souris ! 
+<lb n="19"/> Jeunesse sur moy a puissance, 
+<lb n="20"/> Mais Vieillesse fait son effort 
+<lb n="21"/> De m'avoir en sa gouvernance ; 
+<lb n="22"/> A present faillira son sort. 
+<lb n="23"/> Je suis assez loing de son port, 
+<lb n="24"/> De pleurer vueil garder mon hoir ; 
+<lb n="25"/> Loué soit Dieu de Paradis, 
+<lb n="26"/> Qui m'a donné force et povoir 
+<lb n="27"/> Qu'encore est vive la souris ! 
+<lb n="28"/> Nul ne porte pour moy le noir, 
+<lb n="29"/> On vent meillieur marchié drap gris ; 
+<lb n="30"/> Or tiengne chascun, pour tout voir, 
+<lb n="31"/> Qu'encore est vive la souris ! 
+</ab>
+<pb n="134"/>
+</div>
+<div type="ballade" n="LXXXIII">
+<ab type="gv"> 
+<lb n="1"/> Puis qu'ainsi est que vous alez en France, 
+<lb n="2"/> Duc de Bourbon, mon compaignon treschier, 
+<lb n="3"/> Ou Dieu vous doint, selon la desirance 
+<lb n="4"/> Que tous avons, bien povoir besongnier, 
+<lb n="5"/> Mon fait vous vueil descouvrir et chargier 
+<lb n="6"/> Du tout en tout, en sens et en folie ; 
+<lb n="7"/> Trouver ne puis nul meillieur messagier : 
+<lb n="8"/> Il ne fault ja que plus je vous en die. 
+<lb n="9"/> Premierement, se c'est vostre plaisance, 
+<lb n="10"/> Recommandez moy, sans point l'oublier, 
+<lb n="11"/> A ma Dame ; ayez en souvenance, 
+<lb n="12"/> Et lui dictes, je vous pry et requier, 
+<lb n="13"/> Les maulx que j'ay, quant me fault eslongnier, 
+<lb n="14"/> Maugré mon vueil, sa doulce compaignie. 
+<lb n="15"/> Vous savez bien que c'est de tel mestier, 
+<lb n="16"/> Il ne fault ja que plus je vous en dye. 
+<lb n="17"/> Or y faictes comme j'ay la fiance, 
+<lb n="18"/> Car un amy doit pour l'autre veillier. 
+<lb n="19"/> Se vous dictes : Je ne sçay, sans doubtance, 
+<lb n="20"/> Qui est celle, vueilliez la ensaignier ? 
+<lb n="21"/> Je vous respons qu'il ne vous fault serchier, 
+<lb n="22"/> Fors que celle qui est la mieulx garnie 
+<lb n="23"/> De tous les biens qu'on sauroit souhaidier : 
+<lb n="24"/> Il ne fault ja que plus je vous en dye. 
+<lb n="25"/> Sy ay chargié a Guilleaume Cadier 
+<lb n="26"/> Que par dela bien souvent vous supplie ; 
+<lb n="27"/> Souviengne vous du fait du prisonnier, 
+<lb n="28"/> Il ne fault ja que plus je vous en dye. 
+</ab>
+<pb n="135"/>
+</div>
+<div type="ballade" n="LXXXIV">
+<ab type="gv"> 
+<lb n="1"/> Mon gracieux cousin, duc de Bourbon, 
+<lb n="2"/> Je vous requier, quant vous aurez loisir, 
+<lb n="3"/> Que me faittes, par balade ou chançon, 
+<lb n="4"/> De vostre estat aucunement sentir ; 
+<lb n="5"/> Car quant a moy, sachiez que, sans mentir, 
+<lb n="6"/> Je sens mon cueur renouveller de joye, 
+<lb n="7"/> En esperant le bon temps avenir 
+<lb n="8"/> Par bonne paix que brief Dieu nous envoye. 
+<lb n="9"/> Tout crestian, qui est loyal et bon, 
+<lb n="10"/> Du bien de paix se doit fort resjoir, 
+<lb n="11"/> Veu les grans maulx et la destruccion 
+<lb n="12"/> Que guerre fait par tous pays courir. 
+<lb n="13"/> Dieu a voulu Crestianté punir 
+<lb n="14"/> Qui a laissié de bien vivre la voye ; 
+<lb n="15"/> Mais puis aprés, il la veult secourir 
+<lb n="16"/> Par bonne paix que brief Dieu nous envoye. 
+<lb n="17"/> Et pour cela, mon treschier compaignon, 
+<lb n="18"/> Vueilliez de vous desplaisance bannir, 
+<lb n="19"/> En oubliant vostre longue prison 
+<lb n="20"/> Qui vous a fait mainte doleur souffrir ; 
+<lb n="21"/> Merciez Dieu, pensez de le servir, 
+<lb n="22"/> Il vous garde de tous biens grant montjoye 
+<lb n="23"/> Et vous fera avoir vostre desir 
+<lb n="24"/> Par bonne paix que brief Dieu nous envoye. 
+<lb n="25"/> Resveilliez vous en joyeux souvenir, 
+<lb n="26"/> Car j'ay espoir qu'encore je vous voye, 
+<lb n="27"/> Et moy aussi, en confort et plaisir 
+<lb n="28"/> Par bonne paix que brief Dieu nous envoye ! 
+</ab>
+<pb n="136"/>
+</div>
+<div type="ballade" n="LXXXV">
+<ab type="gv"> 
+<lb n="1"/> Mon chier cousin, de bon cueur vous mercie 
+<lb n="2"/> Des blans connins que vous m'avez donnez ; 
+<lb n="3"/> Et oultre plus, pour vray vous certiffie, 
+<lb n="4"/> Quant aux connins que dittes qu'ay amez, 
+<lb n="5"/> Ilz sont pour moy, plusieurs ans a passez, 
+<lb n="6"/> Mis en oubly ; aussi mon instrument 
+<lb n="7"/> Qui les servoit a fait son testament 
+<lb n="8"/> Et est retrait et devenu hermite ; 
+<lb n="9"/> Il dort tousjours, a parler vrayement, 
+<lb n="10"/> Comme celui qui en riens ne prouffite. 
+<lb n="11"/> Ne parlez plus de ce, je vous en prie, 
+<lb n="12"/> Dieux ait l'ame de tous les trespassez ! 
+<lb n="13"/> Parler vault mieulx, pour faire chiere lie, 
+<lb n="14"/> De bons morceaulx et de frians pastez, 
+<lb n="15"/> Mais qu'ilz soient tout chaudement tastez ! 
+<lb n="16"/> Pour le present, c'est bon esbatement, 
+<lb n="17"/> Et qu'on ait vin pour nettier la dent : 
+<lb n="18"/> En char crue mon cueur ne se delitte. 
+<lb n="19"/> Oublions tout le vieil gouvernement, 
+<lb n="20"/> Comme celui qui en riens ne prouffite ! 
+<lb n="21"/> Quant Jeunesse tient gens en seigneurie, 
+<lb n="22"/> Les jeux d'amours sont grandement prisez ; 
+<lb n="23"/> Mais Fortune, qui m'a en sa baillie, 
+<lb n="24"/> Les a du tout de mon cueur deboutez ; 
+<lb n="25"/> Et desormais, vous et moi, excusez 
+<lb n="26"/> De tels esbas serons legierement, 
+<lb n="27"/> Car faiz avons noz devoirs grandement 
+<lb n="28"/> Ou temps passé : vers Amours me tiens quicte. 
+<pb n="137"/>
+<lb n="29"/> Je n'en vueil plus, mon cueur si s'en repent, 
+<lb n="30"/> Comme celui qui en riens ne prouffite. 
+<lb n="31"/> Vieulx soudoiers avecques jeune gent 
+<lb n="32"/> Ne sont prisiez la valeur d'une mitte ; 
+<lb n="33"/> Mon office resine plainement, 
+<lb n="34"/> Comme celui qui en riens ne prouffite. 
+</ab>
+</div>
+<div type="ballade" n="LXXXVI">
+<ab type="gv"> 
+<lb n="1"/> Dame qui cuidiez trop savoir, 
+<lb n="2"/> Mais vostre sens tourne en folie, 
+<lb n="3"/> Et cuidiez les gens decevoir 
+<lb n="4"/> Par vostre cautelle jolie. 
+<lb n="5"/> Qui croiroit vostre chiere lie 
+<lb n="6"/> Tantost seroit pris en voz las : 
+<lb n="7"/> Encore ne m'avez vous mie, 
+<lb n="8"/> Encore ne m'avez vous pas ! 
+<lb n="9"/> Vous cuidiez bien qu'apercevoir 
+<lb n="10"/> Ne sache vostre moquerie ; 
+<lb n="11"/> Si fais, pour vous dire le voir. 
+<lb n="12"/> Et pour ce, chierement vous prie, 
+<lb n="13"/> Alez jouer de l'escremie 
+<lb n="14"/> Autre part, car, quant en ce cas, 
+<lb n="15"/> Encore ne m'avez vous mie, 
+<lb n="16"/> Encore ne m'avez vous pas ! 
+<lb n="17"/> Vous ferez bien vostre devoir, 
+<lb n="18"/> Se m'atrapés par tromperie ; 
+<lb n="19"/> Car trop ay congneu, main et soir, 
+<pb n="138"/>
+<lb n="20"/> Les faulx tours dont estes garnie. 
+<lb n="21"/> On vous appelle : foul s'i fie. 
+<lb n="22"/> Deportez vous de telz esbas : 
+<lb n="23"/> Encores ne m'avez vous mie, 
+<lb n="24"/> Encore ne m'avez vous pas ! 
+</ab>
+</div>
+  <div type="ballade" n="LXXXVII">
+ <head><hi rend="I">Orlians a Bourgogne</hi>.</head>
+<ab type="gv"> 
+<lb n="2"/> Puisque, je suis vostre voisin 
+<lb n="3"/> En ce païs presentement, 
+<lb n="4"/> Mon compaignon, frere et cousin, 
+<lb n="5"/> Je vous requier treschierement 
+<lb n="6"/> Que de vostre gouvernement 
+<lb n="7"/> Et estat me faictes savoir ; 
+<lb n="8"/> Car j'en orroye bien souvent, 
+<lb n="9"/> S'il en estoit a mon vouloir. 
+<lb n="10"/> Il n'est jour, ne soir, ne matin, 
+<lb n="11"/> Que ne prie Dieu humblement 
+<lb n="12"/> Que la paix prengne telle fin 
+<lb n="13"/> Que je puisse joyeusement, 
+<lb n="14"/> A mon desir, prouchainement 
+<lb n="15"/> Parler a vous et vous veoir ; 
+<lb n="16"/> Ce seroit treshastivement, 
+<lb n="17"/> S'il en estoit a mon vouloir. 
+<lb n="18"/> Chascun doit estre bien enclin 
+<lb n="19"/> Vers la paix, car certainement 
+<lb n="20"/> Elle departira butin 
+<lb n="21"/> De grans biens a tous largement. 
+<pb n="139"/>
+<lb n="22"/> Guerre ne sert que de tourment : 
+<lb n="23"/> Je la hé, pour dire le voir ! 
+<lb n="24"/> Bannie seroit plainement, 
+<lb n="25"/> S'il en estoit a mon vouloir. 
+<lb n="26"/> Va, ma balade, prestement 
+<lb n="27"/> A Saint Omer, moustrant comment 
+<lb n="28"/> Tu vas pour moy ramentevoir 
+<lb n="29"/> Au duc a qui suis loyaument, 
+<lb n="30"/> Et tout a son commandement, 
+<lb n="31"/> S'il en estoit a mon vouloir ! 
+</ab>
+<pb n="140"/>
+</div>
+  <div type="ballade" n="LXXXVIII">
+ <head><hi rend="I">Orlians a Bourgogne</hi>.</head>
+<ab type="gv"> 
+<lb n="2"/> Pour le haste de mon passage 
+<lb n="3"/> Qu'il me couvient faire oultre mer, 
+<lb n="4"/> Tout ce que j'ay en mon courage 
+<lb n="5"/> A present ne vous puis mander. 
+<lb n="6"/> Mais non pour tant, a brief parler, 
+<lb n="7"/> De la balade que m'avés 
+<lb n="8"/> Envoyee, comme savés, 
+<lb n="9"/> Touchant paix et ma delivrance, 
+<lb n="10"/> Je vous mercie chierement, 
+<lb n="11"/> Comme tout vostre entierement 
+<lb n="12"/> De cueur, de corps et de puissance. 
+<lb n="13"/> Je vous envoyeray message, 
+<lb n="14"/> Se Dieu plaist, briefment sans tarder, 
+<pb n="141"/>
+<lb n="15"/> Loyal, secret et assez sage, 
+<lb n="16"/> Pour bien a plain vous infourmer 
+<lb n="17"/> De tout ce que pourray trouver 
+<lb n="18"/> Sur ce que savoir desirés ; 
+<lb n="19"/> Pareillement, fault que mettés 
+<lb n="20"/> Et faictes, vers la part de France, 
+<lb n="21"/> Diligence soingneusement ; 
+<lb n="22"/> Je vous en requier humblement, 
+<lb n="23"/> De cueur, de corps et de puissance. 
+<lb n="24"/> Et sans plus despendre langage, 
+<lb n="25"/> A cours mots, plaise vous penser 
+<lb n="26"/> Que vous laisse mon cueur en gage 
+<lb n="27"/> Pour tousjours, sans jamais faulser. 
+<lb n="28"/> Si me vueilliez recommander 
+<lb n="29"/> A ma cousine ; car croyés 
+<lb n="30"/> Que en vous deux, tant que vivrés, 
+<lb n="31"/> J'ay mise toute ma fiance ; 
+<lb n="32"/> Et vostre party loyaument 
+<lb n="33"/> Tendray, sans faire changement, 
+<lb n="34"/> De cueur, de corps et de puissance ! 
+<lb n="35"/> Or y parra que vous ferés, 
+<lb n="36"/> Et se point ne m'oublierés, 
+<lb n="37"/> Ainsi que g'y ay esperance. 
+<lb n="38"/> Adieu vous dy presentement. 
+<lb n="39"/> Tout Bourgongnon sui vrayement 
+<lb n="40"/> De cueur, de corps et de puissance ! 
+</ab>
+<pb n="143"/>
+</div>
+  <div type="ballade" n="LXXXIX">
+ <head><hi rend="I">Orlians a Bourgogne</hi>.</head>
+<ab type="gv"> 
+<lb n="2"/> Des nouvelles d'Albion, 
+<lb n="3"/> S'il vous en plaist escouter, 
+<lb n="4"/> Mon frere et mon compaignon, 
+<lb n="5"/> Sachez qu'a mon retourner 
+<lb n="6"/> J'ay esté deça la mer 
+<lb n="7"/> Receu a joyeuse chiere, 
+<lb n="8"/> Et a fait le roy passer 
+<lb n="9"/> En bons termes ma matiere. 
+<lb n="10"/> Je doy estre une saison 
+<lb n="11"/> Eslargi pour pourchasser 
+<lb n="12"/> La paix aussi ma raençon ; 
+<lb n="13"/> Se je puis seurté trouver 
+<lb n="14"/> Pour aler et retourner, 
+<lb n="15"/> Il fault qu'en haste la quiere, 
+<lb n="16"/> Se je vueil brief achever 
+<lb n="17"/> En bons termes ma matiere. 
+<lb n="18"/> Or, gentil duc Bourgongnon, 
+<lb n="19"/> A ce cop vueilliez m'aydier, 
+<lb n="20"/> Comme mon entencion 
+<lb n="21"/> Est vous servir et amer, 
+<lb n="22"/> Tant que vif pourray durer. 
+<pb n="144"/>
+<lb n="23"/> En vous ay fiance entiere, 
+<lb n="24"/> Que m'ayderez a finer 
+<lb n="25"/> En bons termes ma matiere. 
+<lb n="26"/> Mes amis fault esprouver 
+<lb n="27"/> S'ilz vouldront, a ma priere, 
+<lb n="28"/> Me secourir pour mener 
+<lb n="29"/> En bons termes ma matiere. 
+</ab>
+</div>
+<div type="ballade" n="XC">
+<ab type="gv"> 
+<lb n="1"/> J'ay tant joué avecques Aage 
+<lb n="2"/> A la paulme que maintenant 
+<lb n="3"/> J'ay quarante cinq ; sur bon gage 
+<lb n="4"/> Nous jouons, non pas pour neant. 
+<lb n="5"/> Assez me sens fort et puissant 
+<lb n="6"/> De garder mon jeu jusqu'a cy, 
+<lb n="7"/> Ne je ne crains riens que Soussy. 
+<lb n="8"/> Car Soussy tant me descourage 
+<lb n="9"/> De jouer, et va estouppant 
+<lb n="10"/> Les cops que fiers a l'avantage. 
+<lb n="11"/> Trop seurement est rachassant ; 
+<lb n="12"/> Fortune si lui est aidant : 
+<lb n="13"/> Mais Espoir est mon bon amy, 
+<lb n="14"/> Ne je ne crains rien que Soussy. 
+<lb n="15"/> Vieillesse de douleur enrage 
+<lb n="16"/> De ce que le jeu dure tant, 
+<lb n="17"/> Et dit, en son felon langage, 
+<lb n="18"/> Que les chasses dorenavant 
+<pb n="145"/>
+<lb n="19"/> Merchera, pour m'estre nuisant ; 
+<lb n="20"/> Mais ne m'en chault, je la deffy, 
+<lb n="21"/> Ne je ne crains riens que Soussy. 
+<lb n="22"/> Se Bon Eur me tient convenant, 
+<lb n="23"/> Je ne doubte, ne tant ne quant, 
+<lb n="24"/> Tout mon adversaire party, 
+<lb n="25"/> Ne je ne crains riens que Soussy. 
+</ab>
+</div>
+<div type="ballade" n="XCI">
+<ab type="gv"> 
+<lb n="1"/> Visage de baffe venu, 
+<lb n="2"/> Confit en composte de vin, 
+<lb n="3"/> Menton rongneux et peu barbu, 
+<lb n="4"/> Et dessiré comme un coquin, 
+<lb n="5"/> Malade du mal saint Martin 
+<lb n="6"/> Et aussi ront q'un tonnellet ; 
+<lb n="7"/> Dieu le me sauve ce varlet ! 
+<lb n="8"/> Il est enroué devenu, 
+<lb n="9"/> Car une pouldre de raisin 
+<lb n="10"/> L'a tellement en l'ueil feru 
+<lb n="11"/> Qu'endormy l'a comme un touppin ; 
+<lb n="12"/> Il y pert, un chascun matin, 
+<lb n="13"/> Car il en a chault le touppet ; 
+<lb n="14"/> Dieu le me sauve ce varlet ! 
+<lb n="15"/> Rompre ne sauroit un festu, 
+<lb n="16"/> Quant il a pincé un loppin 
+<lb n="17"/> Saint Poursain, qui l'a retenu 
+<lb n="18"/> Son chier compaignon et cousin, 
+<pb n="146"/>
+<lb n="19"/> Combien qu'ayent souvent hutin, 
+<lb n="20"/> Quant ou cellier sont en secret ; 
+<lb n="21"/> Dieu le me sauve ce varlet ! 
+<lb n="22"/> Prince, pour aler jusqu'au Rin, 
+<lb n="23"/> D'un baril a fait son ronssin, 
+<lb n="24"/> Et ses esperons d'un foret ; 
+<lb n="25"/> Dieu le me sauve ce varlet ! 
+</ab>
+</div>
+<div type="ballade" n="XCII">
+<ab type="gv"> 
+<lb n="1"/> Amour, qui tant a de puissance 
+<lb n="2"/> Qu'il fait vieilles gens rassoter 
+<lb n="3"/> Et jeunes plains d'oultrecuidance, 
+<lb n="4"/> De tout estas se scet meller. 
+<lb n="5"/> Je l'ay congneu pieça au cler, 
+<lb n="6"/> Il ne fault ja que je le nye ; 
+<lb n="7"/> Par quoy dis et puis advouer, 
+<lb n="8"/> Ce n'est fors que plaisant folie. 
+<lb n="9"/> A droit compter, sans decevance, 
+<lb n="10"/> Quant un amant vient demander 
+<lb n="11"/> Confort de sa dure grevance, 
+<lb n="12"/> Que vouldroit il faire ou trouver ? 
+<lb n="13"/> Cela, je ne l'ose nommer. 
+<lb n="14"/> Au fort, il fault que je le dye : 
+<lb n="15"/> Ce qui fait le ventre lever, 
+<lb n="16"/> Ce n'est fors que plaisant folie. 
+<lb n="17"/> Bien sçay que je fais desplaisance 
+<lb n="18"/> Aux amoureux d'ainsi parler 
+<pb n="147"/>
+<lb n="19"/> Et que j'acquier leur malvueillance ; 
+<lb n="20"/> Mais, s'il leur plaist me pardonner, 
+<lb n="21"/> Je leur prometz qu'au par aler, 
+<lb n="22"/> Quant leur chaleur est refroidie, 
+<lb n="23"/> Ils trouveront que, sans doubter, 
+<lb n="24"/> Ce n'est <supplied resp="#editor"> fors que plaisant folie</supplied>. 
+<lb n="25"/> Prince, quant un prie d'amer, 
+<lb n="26"/> Se l'autre s'i veult accorder, 
+<lb n="27"/> Il n'y a plus, sans moquerie ; 
+<lb n="28"/> Laissiez les ensemble jouer, 
+<lb n="29"/> Ce n'est fors que plaisant folie ! 
+</ab>
+</div>
+  <div type="ballade" n="XCIII">
+ <head><hi rend="I">Orlians a Bourgogne</hi>.</head>
+<ab type="gv"> 
+<lb n="2"/> Beau frere, je vous remercie, 
+<lb n="3"/> Car aidié m'avez grandement ; 
+<lb n="4"/> Et oultre plus, vous certiffie 
+<lb n="5"/> Que j'ay mon fait entierement ; 
+<lb n="6"/> Il ne me fault plus riens qu'argent 
+<lb n="7"/> Pour avancer tost mon passage : 
+<lb n="8"/> Et pour en avoir prestement 
+<lb n="9"/> Mettroye corps et ame en gage ! 
+<lb n="10"/> Il n'a marchant en Lombardie, 
+<lb n="11"/> S'il m'en prestoit presentement, 
+<lb n="12"/> Que ne fusse, toute ma vie, 
+<lb n="13"/> Du cueur a son commandement. 
+<lb n="14"/> Et tant que l'eusse fait content 
+<pb n="148"/>
+<lb n="15"/> Demourer vouldroie en servage, 
+<lb n="16"/> Sans espargnier aucunement, 
+<lb n="17"/> <supplied resp="#editor">Mettroye</supplied> corps et ame en gage. 
+<lb n="18"/> Car se je suis en ma partie 
+<lb n="19"/> Et oultre la mer franchement, 
+<lb n="20"/> Dieu mercy, point ne me soussie 
+<lb n="21"/> Que n'aye des biens largement. 
+<lb n="22"/> Et desserviray loyaument 
+<lb n="23"/> A ceulx qui m'ont, de bon courage, 
+<lb n="24"/> Aidié ; sans faillir nullement, 
+<lb n="25"/> <supplied resp="#editor">Mettroye</supplied> corps et ame en gage. 
+<lb n="26"/> Qui m'ostera de ce tourment, 
+<lb n="27"/> Il m'achetera plainement, 
+<lb n="28"/> A tousjours més, a heritage : 
+<lb n="29"/> Tout sien seray, sans changement, 
+<lb n="30"/> <supplied resp="#editor">Mettroye</supplied> corps et ame en gage ! 
+</ab>
+</div>
+  <div type="ballade" n="XCIV">
+ <head><hi rend="I">Orlians a Bourgogne</hi>.</head>
+<ab type="gv"> 
+<lb n="2"/> Pour ce que je suis a present 
+<lb n="3"/> Avec la gent vostre ennemie, 
+<lb n="4"/> Il fault que je face semblant, 
+<lb n="5"/> Faignant que ne vous ayme mye : 
+<lb n="6"/> Non pour tant, je vous certiffie 
+<lb n="7"/> Et vous pri que vueillez penser 
+<lb n="8"/> Que je seray, toute ma vie, 
+<lb n="9"/> Vostre loyaument, sans faulser. 
+<pb n="149"/>
+<lb n="10"/> Tous maulx de vous je voiz disant, 
+<lb n="11"/> Pour aveugler leur faulse envye ; 
+<lb n="12"/> Non pour tant, je vous ayme tant, 
+<lb n="13"/> Ainsi m'aid la Vierge Marie, 
+<lb n="14"/> Que je pry Dieu qu'il me maudye, 
+<lb n="15"/> Se ne trouvez, au par aler, 
+<lb n="16"/> Que vueil estre, quoy que nul dye, 
+<lb n="17"/> Vostre loyaument, sans faulser. 
+<lb n="18"/> Faignez envers moy mal talant, 
+<lb n="19"/> A celle fin que nul n'espye 
+<lb n="20"/> Nostre amour ; car par ce faisant, 
+<lb n="21"/> Sauldray hors du mal qui me anuye. 
+<lb n="22"/> Mais faictes que Bonne Foy lye 
+<lb n="23"/> Noz cuers, qu'ilz ne puissent muer, 
+<lb n="24"/> Car mon vouloir vers vous se plye, 
+<lb n="25"/> Vostre loyaument, sans faulser. 
+<lb n="26"/> Vous et moy avons maint servant 
+<lb n="27"/> Que Convoitise fort mestrie ; 
+<lb n="28"/> Il ne fault pas, ne tant ne quant, 
+<lb n="29"/> Qu'ilz saichent nostre compaignie ; 
+<lb n="30"/> Peu de nombre fault que manye 
+<lb n="31"/> Noz fais secrez par bien celer, 
+<lb n="32"/> Tant qu'il soit temps qu'on me publie 
+<lb n="33"/> Vostre loyaument, sans faulser. 
+<lb n="34"/> Tout mon fait saurez plus avant 
+<lb n="35"/> Par le porteur en qui me fye ; 
+<lb n="36"/> Il est leal et bien saichant, 
+<lb n="37"/> Et se garde de janglerye. 
+<lb n="38"/> Creez le, de vostre partie, 
+<pb n="150"/>
+<lb n="39"/> En ce qu'il vous doit raconter ; 
+<lb n="40"/> Et me tenez, je vous en prie, 
+<lb n="41"/> Vostre loyaument, sans faulser. 
+<lb n="42"/> Dieu me fiere d'espidimie, 
+<lb n="43"/> Et ma part es cieulx je renye, 
+<lb n="44"/> Se jamais vous povez trouver 
+<lb n="45"/> Que me faigne, par tromperie ! 
+<lb n="46"/> Vostre loyaument, sans faulser. 
+</ab>
+</div>
+<div type="ballade" n="XCV">
+<ab type="gv"> 
+<lb n="1"/> Par les fenestres de mes yeulx, 
+<lb n="2"/> Ou temps passé, quant regardoie, 
+<lb n="3"/> Avis m'estoit, ainsi m'ait Dieux, 
+<lb n="4"/> Que de trop plus belles veoye 
+<lb n="5"/> Qu'a present ne fais : mais j'estoie 
+<lb n="6"/> Ravy en plaisir et lyesse, 
+<lb n="7"/> Es mains de ma Dame Jennesse. 
+<lb n="8"/> Or, maintenant que deviens vieulx, 
+<lb n="9"/> Quant je lys ou livre de Joie, 
+<lb n="10"/> Les lunectes prens pour le mieulx, 
+<lb n="11"/> Par quoy la lettre me grossoye, 
+<lb n="12"/> Et n'y voy ce que je souloie : 
+<lb n="13"/> Pas n'avoye ceste foiblesse, 
+<lb n="14"/> Es mains de ma Dame Jennesse. 
+<lb n="15"/> Jeunes gens, vous deviendrez tieulx, 
+<lb n="16"/> Se vivez et suivez ma voie ; 
+<lb n="17"/> Car au jourduy n'a soubz les cieulx 
+<pb n="151"/>
+<lb n="18"/> Qui en aucun temps ne fouloye : 
+<lb n="19"/> Puis faut que Raison son compte oye 
+<lb n="20"/> Du trop despendu en simplesse, 
+<lb n="21"/> Es mains de ma Dame Jennesse. 
+<lb n="22"/> Dieu en tout, par grace, pourvoye, 
+<lb n="23"/> Et ce qui nicement forvoye, 
+<lb n="24"/> A son plaisir, en bien radresse 
+<lb n="25"/> Es mains de ma Dame Jennesse ! 
+</ab>
+</div>
+<div type="ballade" n="XCVI">
+<ab type="gv"> 
+<lb n="1"/> Par les fenestres de mes yeulx 
+<lb n="2"/> Le chault d'Amours souloit passer ; 
+<lb n="3"/> Mais maintenant que deviens vieulx, 
+<lb n="4"/> Pour la chambre de mon penser 
+<lb n="5"/> En esté freschement garder, 
+<lb n="6"/> Fermees les feray tenir, 
+<lb n="7"/> Lessant le chault du jour aler 
+<lb n="8"/> Avant que je les face ouvrir. 
+<lb n="9"/> Aussi en yver le pluieux, 
+<lb n="10"/> Qui vens et broillars fait lever, 
+<lb n="11"/> L'air d'Amour epidimieux 
+<lb n="12"/> Souvent par my se vient bouter ; 
+<lb n="13"/> Si fault les pertuiz estouper, 
+<lb n="14"/> Par ou pourroit mon cuer ferir ; 
+<lb n="15"/> Le temps verray plus net et cler, 
+<lb n="16"/> Avant que je les face ouvrir. 
+<lb n="17"/> Desormais en sains et seur lieux, 
+<lb n="18"/> Ordonne mon cuer demourer, 
+<pb n="152"/>
+<lb n="19"/> Et par Nonchaloir, pour le mieulx, 
+<lb n="20"/> Mon medicin, soy gouverner ; 
+<lb n="21"/> S'Amour a mes huyz vient hurter, 
+<lb n="22"/> Pour vouloir vers mon cuer venir, 
+<lb n="23"/> Seurté lui fauldra me donner, 
+<lb n="24"/> Avant que je les face ouvrir. 
+<lb n="25"/> Amours, vous venistes frapper 
+<lb n="26"/> Pieça mon cuer, sans menacer ; 
+<lb n="27"/> Or, ay fait mes logiz batir 
+<lb n="28"/> Si fors que n'y pourrez entrer, 
+<lb n="29"/> Avant que je les face ouvrir ! 
+</ab>
+</div>
+<div type="ballade" n="XCVII">
+<ab type="gv"> 
+<lb n="1"/> Ung jour a mon cuer devisoye, 
+<lb n="2"/> Qui en secret a moy parloit, 
+<lb n="3"/> Et en parlant lui demendoye 
+<lb n="4"/> Se point d'espargne fait avoit 
+<lb n="5"/> D'aucuns biens, quant Amours servoit ? 
+<lb n="6"/> Il me dit que tresvoulentiers 
+<lb n="7"/> La verité m'en compteroit, 
+<lb n="8"/> Mais qu'eust visité ses papiers. 
+<lb n="9"/> Quant ce m'eust dit, il print sa voye 
+<lb n="10"/> Et d'avecques moy se partoit ; 
+<lb n="11"/> Aprés entrer je le veoye 
+<lb n="12"/> En ung comptouer qu'il avoit ; 
+<lb n="13"/> La deça et dela queroit, 
+<lb n="14"/> En cherchant plusieurs vieulx cayers, 
+<lb n="15"/> Car le vray monstrer me vouloit, 
+<lb n="16"/> Mais qu'eust visité ses papiers. 
+<pb n="153"/>
+<lb n="17"/> Ainsi, par un temps l'atendoye. 
+<lb n="18"/> Tantost devers moy retournoit 
+<lb n="19"/> Et me monstra, dont j'eux grant joye, 
+<lb n="20"/> Ung livre qu'en sa main tenoit, 
+<lb n="21"/> Ouquel dedens escript portoit 
+<lb n="22"/> Ses faiz, au long et bien entiers, 
+<lb n="23"/> Desquelz informer me feroit, 
+<lb n="24"/> Mais qu'eust visité ses papiers. 
+<lb n="25"/> Lors demenday se g'y liroye, 
+<lb n="26"/> Ou se mieulx lire lui plaisoit ? 
+<lb n="27"/> Il dit que trop peine prendroye. 
+<lb n="28"/> Pourtant a lire commançoit ; 
+<lb n="29"/> Et puis getoit et assommoit 
+<lb n="30"/> Le conte des biens et dangiers 
+<lb n="31"/> Tout a ung ; vy que revendroye, 
+<lb n="32"/> Mais qu'eust visité ses papiers. 
+<lb n="33"/> Lors dy : <q> « Jamais je ne cuidoye, 
+<lb n="34"/> Ne nul autre ne le croiroit, 
+<lb n="35"/> Qu'en amer, ou chascun s'employe, 
+<lb n="36"/> De prouffit n'eust plus grant exploit ; 
+<lb n="37"/> Amours ainsi les gens deçoit, 
+<lb n="38"/> Plus ne m'aura en telz santiers. 
+<lb n="39"/> Mon cuer bien efacier pourroit, 
+<lb n="40"/> Mais qu'eust visité ses papiers. » </q>  
+<lb n="41"/> Amours savoir ne me devroit 
+<lb n="42"/> Mal gré, se blasme ses mestiers ; 
+<lb n="43"/> Il verroit mon gaing bien estroit, 
+<lb n="44"/> Mais qu'eust visité ses papiers. 
+</ab>
+<pb n="154"/>
+</div>
+<div type="ballade" n="XCVIII">
+<ab type="gv"> 
+<lb n="1"/> En tirant d'Orleans a Blois, 
+<lb n="2"/> L'autre jour par eaue venoye. 
+<lb n="3"/> Si rencontré, par plusieurs foiz, 
+<lb n="4"/> Vaisseaux, ainsi que je passoye, 
+<lb n="5"/> Qui singloient leur droicte voye 
+<lb n="6"/> Et aloient legierement, 
+<lb n="7"/> Pour ce qu'eurent, comme veoye, 
+<lb n="8"/> A plaisir et a gré le vent. 
+<lb n="9"/> Mon cueur, Penser et moy, nous troys, 
+<lb n="10"/> Les regardasmes a grant joye, 
+<lb n="11"/> Et dit mon cueur a basse vois : 
+<lb n="12"/> <q> « Voulentiers en ce point feroye, 
+<lb n="13"/> De Confort la voille tendroye, 
+<lb n="14"/> Se je cuidoye seurement 
+<lb n="15"/> Avoir, ainsi que je vouldroye, 
+<lb n="16"/> A plaisir et a gré le vent. 
+<lb n="17"/> Mais je treuve le plus des mois, 
+<lb n="18"/> L'eaue de Fortune si quoye, 
+<lb n="19"/> Quant ou bateau du Monde vois, 
+<lb n="20"/> Que, s'avirons d'Espoir n'avoye, 
+<lb n="21"/> Souvent en chemin demouroye, 
+<lb n="22"/> En trop grant ennuy longuement ; 
+<lb n="23"/> Pour neant en vain actendroye 
+<lb n="24"/> A plaisir et a gré le vent ! » </q>  
+<lb n="25"/> Les nefz dont cy devant parloye 
+<lb n="26"/> Montoient, et je descendoye 
+<pb n="155"/>
+<lb n="27"/> Contre les vagues de Tourment ; 
+<lb n="28"/> Quant il lui plaira, Dieu m'envoye 
+<lb n="29"/> A plaisir et a gré le vent. 
+</ab>
+</div>
+<div type="ballade" n="XCIX">
+<ab type="gv"> 
+<lb n="1"/> L'autre jour je fis assembler 
+<lb n="2"/> Le plus de conseil que povoye, 
+<lb n="3"/> Et vins, bien au long, raconter 
+<lb n="4"/> Comment deffié me tenoye, 
+<lb n="5"/> Comme par lectres monstreroye 
+<lb n="6"/> De Merencolie et Douleur ; 
+<lb n="7"/> Pourquoy conseiller me vouloye 
+<lb n="8"/> Par les Trois Estas de mon cueur. 
+<lb n="9"/> Mon advocat prist a parler, 
+<lb n="10"/> Ainsi qu'anformé je l'avoye ; 
+<lb n="11"/> Lors vissiez mes amis pleurer, 
+<lb n="12"/> Quant sceurent le point ou j'estoye ; 
+<lb n="13"/> Non pourtant, je les confortoye, 
+<lb n="14"/> Qu'a l'aide de Nostre Seigneur, 
+<lb n="15"/> Bon remede je trouveroye 
+<lb n="16"/> Par les Trois Estas de mon cueur. 
+<lb n="17"/> Espoir, Confort, Loyal Penser, 
+<lb n="18"/> Que mes chiefz conseillers nommoye, 
+<lb n="19"/> Se firent fors, sens point doubter, 
+<lb n="20"/> Se par eulx je me gouvernoye, 
+<lb n="21"/> De me trouver chemin et voye 
+<lb n="22"/> D'avoir brief secours de Doulceur, 
+<lb n="23"/> Avecques l'aide que j'aroye 
+<lb n="24"/> Par les Trois Estas de mon cueur. 
+<pb n="156"/>
+<lb n="25"/> Prince, Fortune me guerroye 
+<lb n="26"/> Souvent a tort et par rigueur : 
+<lb n="27"/> Raison veult que je me pourvoye 
+<lb n="28"/> Par les Trois Estas de mon cueur. 
+</ab>
+</div>
+<div type="ballade" n="C">
+<ab type="gv"> 
+<lb n="1"/> Je meurs de soif en couste la fontaine ; 
+<lb n="2"/> Tremblant de froit ou feu des amoureux ; 
+<lb n="3"/> Aveugle suis, et si les autres maine ; 
+<lb n="4"/> Povre de sens, entre saichans l'un d'eulx ; 
+<lb n="5"/> Trop negligent, en vain souvent songneux ; 
+<lb n="6"/> C'est de mon fait une chose faiee, 
+<lb n="7"/> En bien et mal par Fortune menee. 
+<lb n="8"/> Je gaingne temps, et pers mainte sepmaine ; 
+<lb n="9"/> Je joue et ris, quant me sens douloreux ; 
+<lb n="10"/> Desplaisance j'ay d'esperance plaine ; 
+<lb n="11"/> J'atens bon eur en regret engoisseux ; 
+<lb n="12"/> Rien ne me plaist, et si suis desireux ; 
+<lb n="13"/> Je m'esjoïs, et cource a ma pensee, 
+<lb n="14"/> En bien et mal par Fortune menee. 
+<lb n="15"/> Je parle trop, et me tais a grant paine ; 
+<lb n="16"/> Je m'esbays, et si suis couraigeux ; 
+<lb n="17"/> Tristesse tient mon confort en demaine ; 
+<lb n="18"/> Faillir ne puis, au mains a l'un des deulx ; 
+<lb n="19"/> Bonne chiere je faiz quant je me deulx ; 
+<lb n="20"/> Maladie m'est en santé donnee, 
+<lb n="21"/> En bien et mal par Fortune menee. 
+<pb n="157"/>
+<lb n="22"/> Prince, je dy que mon fait maleureux 
+<lb n="23"/> Et mon prouffit aussi avantageux, 
+<lb n="24"/> Sur ung hasart j'asserray quelque annee, 
+<lb n="25"/> En bien et mal par Fortune menee. 
+</ab>
+</div>
+<div type="ballade" n="CI">
+<ab type="gv"> 
+<lb n="1"/> Comment voy je ses Anglois esbays ! 
+<lb n="2"/> Resjoys toy, franc royaume de France. 
+<lb n="3"/> On apparçoit que de Dieu sont hays, 
+<lb n="4"/> Puis qu'ilz n'ont plus couraige ne puissance. 
+<lb n="5"/> Bien pensoient, par leur oultrecuidance, 
+<lb n="6"/> Toy surmonter et tenir en servaige, 
+<lb n="7"/> Et ont tenu a tort ton heritaige. 
+<lb n="8"/> Mais a present Dieu pour toy se combat 
+<lb n="9"/> Et se monstre du tout de ta partie ; 
+<lb n="10"/> Leur grant orgueil entierement abat, 
+<lb n="11"/> Et t'a rendu Guyenne et Normandie. 
+<lb n="12"/> Quant les Anglois as pieça envays, 
+<lb n="13"/> Rien n'y valoit ton sens ne ta vaillance. 
+<lb n="14"/> Lors estoies ainsi que fut Tays 
+<lb n="15"/> Pecheresse qui, pour faire penance, 
+<lb n="16"/> Enclouse fut par divine ordonnance. 
+<lb n="17"/> Ainsi as tu esté en reclusaige 
+<lb n="18"/> De Desconfort et Douleur de couraige. 
+<lb n="19"/> Et les Anglois menoient leur sabat 
+<lb n="20"/> En grans pompes, baubans et tiranie. 
+<lb n="21"/> Or a tourné Dieu ton dueil en esbat, 
+<lb n="22"/> Et t'a rendu Guyenne et Normandie. 
+<pb n="158"/>
+<lb n="23"/> N'ont pas Anglois souvent leurs rois trays ? 
+<lb n="24"/> Certes ouyl, tous en ont congnoissance. 
+<lb n="25"/> Et encore le roy de leur pays 
+<lb n="26"/> Est maintenant en doubteuse balance ; 
+<lb n="27"/> D'en parler mal chascun Anglois s'avance ; 
+<lb n="28"/> Assez monstrent, par leur mauvais langaige, 
+<lb n="29"/> Que voulentiers lui feroient oultraige. 
+<lb n="30"/> Qui sera Roy entr'eux est grant desbat ; 
+<lb n="31"/> Pour ce, France, que veulx tu que te dye ? 
+<lb n="32"/> De sa verge Dieu les pugnist et bat 
+<lb n="33"/> Et t'a rendu Guyenne et Normandie. 
+<lb n="34"/> Roy des Françoys, gangné as l'avantaige ! 
+<lb n="35"/> Parfaiz ton jeu, comme vaillant et saige, 
+<lb n="36"/> Maintenant l'as plus belle qu'au rabat. 
+<lb n="37"/> De ton bon eur, France, Dieu remercie ; 
+<lb n="38"/> Fortune en bien avecques toy s'embat 
+<lb n="39"/> Et t'a rendu Guyenne et Normandie. 
+</ab>
+</div>
+<div type="ballade" n="CII">
+<ab type="gv"> 
+<lb n="1"/> On parle de religion 
+<lb n="2"/> Qui est d'estroicte gouvernance, 
+<lb n="3"/> Et par ardant devocion, 
+<lb n="4"/> Portent mainte dure penance ; 
+<lb n="5"/> Mais, ainsi que j'ay congnoissance, 
+<lb n="6"/> Et selon mon entencion, 
+<lb n="7"/> Entre tous j'ay compassion 
+<lb n="8"/> Des amoureux de l'observance. 
+<lb n="9"/> Tousjours par contemplacion 
+<lb n="10"/> Tiennent leurs cueurs raviz en transe, 
+<pb n="159"/>
+<lb n="11"/> Pour venir par perfection 
+<lb n="12"/> Au hault Paradis de Plaisance ; 
+<lb n="13"/> Chault, froit, soif et fain d'esperance 
+<lb n="14"/> Seuffrent en mainte nacion ; 
+<lb n="15"/> Telle est la conversacion 
+<lb n="16"/> Des amoureux de l'observance. 
+<lb n="17"/> Piez nuz, de Consolacion 
+<lb n="18"/> Quierent l'aumosne ; d'alegeance 
+<lb n="19"/> Or ne veulent ne pension, 
+<lb n="20"/> Fors de Pitié : povre pitance, 
+<lb n="21"/> En bissacs plains de Souvenance, 
+<lb n="22"/> Pour leur simple provision ! 
+<lb n="23"/> N'est ce saincte condicion 
+<lb n="24"/> Des amoureux de l'observance ? 
+<lb n="25"/> Des bigotz ne quiers l'acointance, 
+<lb n="26"/> Ne loue leur oppinion, 
+<lb n="27"/> Mais me tiens, par affection, 
+<lb n="28"/> Des amoureux de l'observance ! 
+</ab>
+<pb n="160"/>
+</div>
+  <div type="ballade" n="CIII">
+ <head><hi rend="I">Vidimus de la dite obligation par le duc d'Orlians</hi>.</head>
+<ab type="gv"> 
+<lb n="2"/> A ceulx qui verront ces presentes, 
+<lb n="3"/> Le bailli d'Amoureux Espoir, 
+<lb n="4"/> Salut plain de bonnes ententes. 
+<lb n="5"/> Mandons et faisons assavoir 
+<lb n="6"/> Que le tabellion Devoir, 
+<lb n="7"/> Juré des contraux en amours, 
+<pb n="161"/>
+<lb n="8"/> A veu nouvellement, a Tours, 
+<lb n="9"/> De Vaillant l'obligacion 
+<lb n="10"/> Entiere de bien vraye sorte, 
+<lb n="11"/> Dont en fait la relacion, 
+<lb n="12"/> Ainsi que ce <hi rend="I">vidimus</hi> porte. 
+<lb n="13"/> A double queue, par patentes, 
+<lb n="14"/> En cire vert, pour dire voir, 
+<lb n="15"/> S'oblige, soubzmectant ses rentes, 
+<lb n="16"/> Cuer, corps et biens, sans decevoir, 
+<lb n="17"/> Dessoubz le seeau d'autruy vouloir, 
+<lb n="18"/> Pour recouvrer Joyeux Secours, 
+<lb n="19"/> Qu'il a desservy par mains jours ; 
+<lb n="20"/> Faisant ratiffication, 
+<lb n="21"/> Ledit notaire le rapporte 
+<lb n="22"/> Par sa certiffication, 
+<lb n="23"/> Ainsi que ce <hi rend="I">vidimus</hi> porte. 
+<lb n="24"/> Et deust il mettre tout en ventes, 
+<lb n="25"/> Des biens qu'il pourra recevoir 
+<lb n="26"/> Veult paier ses debtes contentes, 
+<lb n="27"/> Tant qu'on pourra apparcevoir 
+<lb n="28"/> Qu'il fera trop plus que povoir, 
+<lb n="29"/> Combien qu'ait eu d'estranges tours 
+<lb n="30"/> Qui lui sont venuz a rebours ; 
+<lb n="31"/> En soit faicte informacion, 
+<lb n="32"/> Car a Leaulté se conforte 
+<lb n="33"/> Qu'en fera la probacion, 
+<lb n="34"/> Ainsi que ce <hi rend="I">vidimus</hi> porte. 
+<lb n="35"/> Pour plus abreviacion, 
+<lb n="36"/> De l'an et jour je me deporte, 
+<pb n="162"/>
+<lb n="37"/> On en voit declairacion, 
+<lb n="38"/> Ainsi que ce <hi rend="I">vidimus</hi> porte. 
+</ab>
+<pb n="163"/>
+</div>
+  <div type="ballade" n="CIV">
+ <head><hi rend="I">Par le duc d'Orliens</hi>.</head>
+<ab type="gv"> 
+<lb n="2"/> Bon regime <foreign xml:lang="la">sanitatis 
+<lb n="3"/> Pro vobis</foreign>, neuf en mariage ; 
+<lb n="4"/> Ne de vouloirs <foreign xml:lang="la">effrenatis</foreign> 
+<lb n="5"/> Abusez <foreign xml:lang="la">nimis</foreign> en mesnage ; 
+<lb n="6"/> <foreign xml:lang="la">Sagaciter</foreign> menez l'ouvrage, 
+<lb n="7"/> Ainsi fait <foreign xml:lang="la">homo sapiens, 
+<lb n="8"/> Testibus</foreign> les phisiciens. 
+<lb n="9"/> Premierement, <foreign xml:lang="la">caveatis 
+<lb n="10"/> De coitu</foreign> trop a oultrage ; 
+<lb n="11"/> Car, se souvent <foreign xml:lang="la">hoc agatis, 
+<lb n="12"/> Conjunx</foreign> le vouldra par usage 
+<lb n="13"/> Chalenger, <foreign xml:lang="la">velud</foreign> heritaige, 
+<lb n="14"/> <foreign xml:lang="la">Aut erit quasi</foreign> hors du sens, 
+<lb n="15"/> <foreign xml:lang="la">Testibus</foreign> les phisiciens. 
+<lb n="16"/> Oultre plus, <foreign xml:lang="la">non faciatis 
+<lb n="17"/> Ut Philomena</foreign> ou boucaige, 
+<lb n="18"/> Se voz amours <foreign xml:lang="la">habeatis</foreign>, 
+<lb n="19"/> Qui siffle <foreign xml:lang="la">carens</foreign> de courage 
+<lb n="20"/> <foreign xml:lang="la">Cantendi</foreign>, mais monstrés visage 
+<lb n="21"/> Joyeux et <foreign xml:lang="la">sitis paciens, 
+<lb n="22"/> Testibus</foreign> les phisiciens. 
+<pb n="164"/>
+<lb n="23"/> Prince, <foreign xml:lang="la">miscui</foreign> en potage 
+<lb n="24"/> <foreign xml:lang="la">Latinum</foreign> et françois langage, 
+<lb n="25"/> <foreign xml:lang="la">Docens</foreign> loiaulx advisemens, 
+<lb n="26"/> <foreign xml:lang="la">Testibus</foreign> les phisiciens. 
+</ab>
+<pb n="165"/>
+</div>
+<div type="ballade" n="CV">
+<ab type="gv"> 
+<lb n="1"/> En la forest de Longue Actente, 
+<lb n="2"/> Chevauchant par divers sentiers 
+<lb n="3"/> M'en voys, ceste annee presente, 
+<lb n="4"/> Ou voyage de Desiriers. 
+<lb n="5"/> Devant sont allez mes fourriers 
+<lb n="6"/> Pour appareiller mon logeis 
+<lb n="7"/> En la cité de Destinee ; 
+<lb n="8"/> Et pour mon cueur et moy ont pris 
+<lb n="9"/> L'ostellerie de Pensee. 
+<lb n="10"/> Je mayne des chevaulx quarente 
+<lb n="11"/> Et autant pour mes officiers, 
+<lb n="12"/> Voire, par Dieu, plus de soixante, 
+<lb n="13"/> Sans les bagaiges et sommiers. 
+<lb n="14"/> Loger nous fauldra par quartiers, 
+<lb n="15"/> Se les hostelz sont trop petis ; 
+<lb n="16"/> Toutesfoiz, pour une vespree, 
+<lb n="17"/> En gré prendray, soit mieulx ou pis, 
+<lb n="18"/> L'ostellerie de Pensee. 
+<lb n="19"/> Je despens chascun jour ma rente 
+<lb n="20"/> En maintz travaulx avanturiers, 
+<lb n="21"/> Dont est Fortune mal contente 
+<lb n="22"/> Qui soutient contre moy Dangiers ; 
+<lb n="23"/> Mais Espoirs, s'ilz sont droicturiers 
+<lb n="24"/> Et tiennent ce qu'ilz m'ont promis, 
+<lb n="25"/> Je pense faire telle armée 
+<lb n="26"/> Qu'auray, malgré mes ennemis, 
+<lb n="27"/> L'ostellerie de Pensee. 
+<pb n="166"/>
+<lb n="28"/> Prince, vray Dieu de paradis, 
+<lb n="29"/> Vostre grace me soit donnee, 
+<lb n="30"/> Telle que treuve, a mon devis, 
+<lb n="31"/> L'ostellerie de Pensée. 
+</ab>
+</div>
+<div type="ballade" n="CVI">
+<ab type="gv"> 
+<lb n="1"/> Je cuide que ce sont nouvelles, 
+<lb n="2"/> J'oy nouveau bruit, et qu'est ce la ? 
+<lb n="3"/> Helas ? pourray je savoir d'elles 
+<lb n="4"/> Quelque chose qui me plaira. 
+<lb n="5"/> Car j'ay desiré, long temps a, 
+<lb n="6"/> Qu'Espoir m'estraynast de liesse ; 
+<lb n="7"/> Je ne sçay pas qu'il en fera, 
+<lb n="8"/> Le beau menteur plain de promesse. 
+<lb n="9"/> S'il ne sont ou bonnes ou belles, 
+<lb n="10"/> Auffort, mon cueur endurera, 
+<lb n="11"/> En actendant d'avoir de celles 
+<lb n="12"/> Que Bon Eur lui apportera, 
+<lb n="13"/> Et de l'endormye beuvra 
+<lb n="14"/> De Nonchaloir ; en sa destresse, 
+<lb n="15"/> Espoir plus ne l'esveillera, 
+<lb n="16"/> Le beau menteur plain de promesse. 
+<lb n="17"/> Pour ce mon cuer, se tu me celles 
+<lb n="18"/> Reconfort, quant vers toy vendra, 
+<lb n="19"/> Tu feras mal, car tes querelles 
+<lb n="20"/> J'ay gardees, or y perra ; 
+<lb n="21"/> Adviengne qu'avenir pourra ! 
+<lb n="22"/> Je suis gouverné par Vieillesse, 
+<pb n="167"/>
+<lb n="23"/> Qui de legier n'escoutera 
+<lb n="24"/> Le beau menteur plain de promesse. 
+<lb n="25"/> Ma bouche plus n'en parlera, 
+<lb n="26"/> Raison sera d'elle maistresse ; 
+<lb n="27"/> Mais, au derrain, blasmé sera 
+<lb n="28"/> Le beau menteur plain de promesse. 
+</ab>
+</div>
+<div type="ballade" n="CVII">
+<ab type="gv"> 
+<lb n="1"/> N'a pas longtemps qu'escoutoye parler 
+<lb n="2"/> Ung amoureux qui disoit a s'amye : 
+<lb n="3"/> <q> « De mon estat plaise vous ordonner, 
+<lb n="4"/> Sans me laissier ainsi finer ma vie ; 
+<lb n="5"/> Je meurs pour vous, je le vous certiffie ! » </q>  
+<lb n="6"/> Lors respondit la plaisante aux doulx yeulx : 
+<lb n="7"/> <q> « Assez le croy, dont je vous remercie, 
+<lb n="8"/> Que m'aymez bien, et vous encores mieulx. 
+<lb n="9"/> Il ne fault ja vostre pousse taster ; 
+<lb n="10"/> Fievre n'avez que de merencolie, 
+<lb n="11"/> Vostre orine ne aussi regarder : 
+<lb n="12"/> Tost se garist legiere maladie. 
+<lb n="13"/> Medecine devez prendre d'oublye ; 
+<lb n="14"/> D'autres ay veu trop pis, en plusieurs lieux, 
+<lb n="15"/> Que vous n'estes ; et, pour ce, je vous prie 
+<lb n="16"/> Que m'aymez bien, et vous encores mieulx. 
+<lb n="17"/> Je ne vueil pas de ce vous destourber 
+<lb n="18"/> Que ne m'amiez de vostre courtoysie ; 
+<lb n="19"/> Mais que pour moy doyez mort endurer, 
+<lb n="20"/> De le croire ce me seroit folye ; 
+<pb n="168"/>
+<lb n="21"/> Pensez de vous, et faictes chiere lye ; 
+<lb n="22"/> J'en ay ouy parler assez de tieulx 
+<lb n="23"/> Qui sont tous sains, quoyque point ne desnye 
+<lb n="24"/> Que m'aimez bien, et vous encores mieulx. 
+<lb n="25"/> Telz beaulx parlers ne sont en compaignie 
+<lb n="26"/> Qu'esbatemens, entre jeunes et vieulx ; 
+<lb n="27"/> Contente suis, combien que je m'en rye, 
+<lb n="28"/> Que m'aymez bien, et vous encores mieulx ! » </q>  
+</ab>
+</div>
+<div type="ballade" n="CVIII">
+<ab type="gv"> 
+<lb n="1"/> Portant harnoys rouillé de Nonchaloir, 
+<lb n="2"/> Sus monture foulee de Foiblesse, 
+<lb n="3"/> Mal abillé de Desireus Vouloir, 
+<lb n="4"/> On m'a croizé, aux montres de Liesse, 
+<lb n="5"/> Comme cassé des gaiges de Jeunesse. 
+<lb n="6"/> Je ne congnois ou je puisse servir ; 
+<lb n="7"/> L'arriereban a fait crier Vieillesse. 
+<lb n="8"/> Las ! fauldra il son soudart devenir ? 
+<lb n="9"/> Le bien que puis avecques elle avoir 
+<lb n="10"/> N'est que d'un peu d'atrempee sagesse ; 
+<lb n="11"/> En lieu de ce, me fauldra recevoir 
+<lb n="12"/> Ennuy, Soussy, Desplaisir et Destresse ; 
+<lb n="13"/> Par Dieu ! Bon Temps, mal me tenez promesse ! 
+<lb n="14"/> Vous me deviez contre elle soustenir, 
+<lb n="15"/> Et je voy bien qu'elle sera maistresse. 
+<lb n="16"/> Las ! fauldra il son soudart devenir ? 
+<lb n="17"/> Foibles jambes porteront Bon Vouloir, 
+<lb n="18"/> Puis qu'ainsi est endurant en humblesse, 
+<pb n="169"/>
+<lb n="19"/> Prenant confort d'un bien joyeux espoir, 
+<lb n="20"/> Quant, Dieu mercy, Maladie ne presse, 
+<lb n="21"/> Mais loing se tient, et mon corps point ne blesse ; 
+<lb n="22"/> C'est ung tresor que doy bien chier tenir, 
+<lb n="23"/> Veu que la fin de menasser ne cesse. 
+<lb n="24"/> Las ! fauldra il son soudart devenir ? 
+<lb n="25"/> Prince, je dy que c'est peu de richesse 
+<lb n="26"/> De ce monde ne de tout son plaisir ; 
+<lb n="27"/> La mort depart ce qu'on tient a largesse. 
+<lb n="28"/> Las ! fauldra il son soudart devenir ? 
+</ab>
+</div>
+<div type="ballade" n="CIX">
+<ab type="gv"> 
+<lb n="1"/> Dieu vueille sauver ma galee 
+<lb n="2"/> Qu'ay chargee de marchandise 
+<lb n="3"/> De mainte diverse pensee 
+<lb n="4"/> En pris de Loyaulté assise ; 
+<lb n="5"/> Destourbee ne soit, ne prise 
+<lb n="6"/> Des robeurs, escumeurs de mer ! 
+<lb n="7"/> Vent, ne maree ne lui nuyse, 
+<lb n="8"/> A bien aler et retourner ! 
+<lb n="9"/> A Confort l'ay recommandee, 
+<lb n="10"/> Qu'il en face tout a sa guise, 
+<lb n="11"/> Et pencarte lui ay baillee 
+<lb n="12"/> Qui d'estranges pays devise, 
+<lb n="13"/> Affin que dedens il advise 
+<lb n="14"/> A quel port pourra arriver, 
+<lb n="15"/> Et le chemin a chois eslise, 
+<lb n="16"/> A bien aler et retourner. 
+<pb n="170"/>
+<lb n="17"/> Pour acquitter joye empruntee 
+<lb n="18"/> L'envoye, sans espargner mise ; 
+<lb n="19"/> Riche deviendray, quelque annee, 
+<lb n="20"/> Se mon entente n'est surprise ; 
+<lb n="21"/> Conscience n'auray reprise 
+<lb n="22"/> De gaing a tort ; au paraler, 
+<lb n="23"/> En eur viengne mon entreprise, 
+<lb n="24"/> A bien aler et retourner. 
+<lb n="25"/> Prince, se maulx Fortune atise, 
+<lb n="26"/> Sagement s'il fault gouverner : 
+<lb n="27"/> Le droit chemin jamais ne brise, 
+<lb n="28"/> A bien aler et retourner. 
+</ab>
+<pb n="171"/>
+</div>
+<div type="ballade" n="CX">
+<ab type="gv"> 
+<lb n="1"/> Ha ! Dieu d'Amours, ou m'avez vous logié ! 
+<lb n="2"/> Tout droit ou trait de Desir et Plaisance, 
+<lb n="3"/> Ou, de legier, je puis estre blecié 
+<lb n="4"/> Par Doulz Regart et Plaisant Atraiance, 
+<lb n="5"/> Jusqu'a la mort, dont trop suis en doubtance ; 
+<lb n="6"/> Pour moy couvrir prestez moy ung pavaiz : 
+<lb n="7"/> Desarmé suis, car pieça mon harnaiz 
+<lb n="8"/> Je le vendy, par le conseil d'Oiseuse, 
+<lb n="9"/> Comme lassé de la guerre amoureuse. 
+<lb n="10"/> Vous savez bien que me suis esloingné, 
+<lb n="11"/> Des long temps a, d'amoureuse vaillance, 
+<lb n="12"/> Ou j'estoye moult fort embesoingné 
+<lb n="13"/> Quant m'aviez en vostre gouvernance. 
+<pb n="172"/>
+<lb n="14"/> Or en suis hors : Dieu me doint la puissance 
+<lb n="15"/> De me garder que n'y rentre jamais ! 
+<lb n="16"/> Car, quant congneu j'ay les amoureux faiz, 
+<lb n="17"/> Retrait me suis de vie si peneuse, 
+<lb n="18"/> Comme lassé de la guerre amoureuse. 
+<lb n="19"/> Et non pourtant, j'ay esté advisé 
+<lb n="20"/> Que Bel Acueil a fait grant aliance 
+<lb n="21"/> Encontre moy, et qu'il est embuschié 
+<lb n="22"/> Pour me prendre, s'il peut, par decevance. 
+<lb n="23"/> Ung de ses gens, appelé Acointance, 
+<lb n="24"/> M'assault tousjours ; mais souvent je me taiz, 
+<lb n="25"/> Monstrant semblant que je ne quier que paiz, 
+<lb n="26"/> Sans me bouter en paine dangereuse, 
+<lb n="27"/> Comme lassé de la guerre amoureuse. 
+<lb n="28"/> Voisent faire jeunes gens leurs essaiz, 
+<lb n="29"/> Car reposer je me vueil desormaiz ; 
+<lb n="30"/> Plus cure n'ay de pensee soingneuse, 
+<lb n="31"/> Comme lassé de la guerre amoureuse. 
+</ab>
+</div>
+<div type="ballade" n="CXI">
+<ab type="gv"> 
+<lb n="1"/> Yeulx rougis, plains de piteux pleurs, 
+<lb n="2"/> Fourcelle d'espoir reffroidie, 
+<lb n="3"/> Teste enrumée de douleurs 
+<lb n="4"/> Et troublee de frenesie, 
+<lb n="5"/> Corps perclus sans plaisance lie, 
+<lb n="6"/> Cueur du tout pausmé en rigueurs, 
+<lb n="7"/> Voy souvent avoir a plusieurs 
+<lb n="8"/> Par le vent de Merencolie. 
+<pb n="173"/>
+<lb n="9"/> Migraine de plaingnans ardeurs, 
+<lb n="10"/> Transe de sommeil mipartie, 
+<lb n="11"/> Fievres frissonnans de maleurs, 
+<lb n="12"/> Chault ardant fort en reverie, 
+<lb n="13"/> Soif que Confort ne rassasie, 
+<lb n="14"/> Dueil baigné en froides sueurs, 
+<lb n="15"/> Begayant et changeant couleurs, 
+<lb n="16"/> Par le vent <supplied resp="#editor"> de Merencolie</supplied>. 
+<lb n="17"/> Goute tourmentant en langueurs, 
+<lb n="18"/> Colique de forcenerie, 
+<lb n="19"/> Gravelle de soings assailleurs, 
+<lb n="20"/> Rage de desirant folie, 
+<lb n="21"/> Anuys enflans d'ydropisie, 
+<lb n="22"/> Maulx ethiques, aussi ailleurs, 
+<lb n="23"/> Assourdissent les escouteurs, 
+<lb n="24"/> Par le vent <supplied resp="#editor"> de Merencolie</supplied>. 
+<lb n="25"/> Guerir ne se puet maladie 
+<lb n="26"/> Par phisique, ne cireurgie, 
+<lb n="27"/> Astronomians n'enchanteurs, 
+<lb n="28"/> Des maulx que seuffrent povres cueurs 
+<lb n="29"/> Par le vent <supplied resp="#editor"> de Merencolie</supplied>. 
+</ab>
+</div>
+<div type="ballade" n="CXII">
+<ab type="gv"> 
+<lb n="1"/> Ce que l'ueil despend en plaisir, 
+<lb n="2"/> Le cuer l'achete chierement, 
+<lb n="3"/> Et, quant vient a compte tenir, 
+<lb n="4"/> Raison, president sagement, 
+<lb n="5"/> Demande pourquoy et comment 
+<lb n="6"/> Est despendue la richesse 
+<pb n="174"/>
+<lb n="7"/> Dont Amours deppart largement, 
+<lb n="8"/> Sans grant espargne de liesse. 
+<lb n="9"/> Lors respond Amoureux Desir : 
+<lb n="10"/> Amours me fist commandement 
+<lb n="11"/> De Joyeuse Vie servir 
+<lb n="12"/> Et obeir entierement ; 
+<lb n="13"/> Et, s'ay failly aucunement, 
+<lb n="14"/> Ou n'en doit blasmer que Jeunesse 
+<lb n="15"/> Qui m'a fait ouvrer sotement, 
+<lb n="16"/> Sans grant espargne <supplied resp="#editor"> de liesse</supplied>. 
+<lb n="17"/> Pas ne mouray sans repentir, 
+<lb n="18"/> Car je m'en repens grandement ; 
+<lb n="19"/> Trouvé m'y suis pis que martir, 
+<lb n="20"/> Souffrant maint doloureux tourment ; 
+<lb n="21"/> Desormais en gouvernement 
+<lb n="22"/> Me metz et es mains de Vieillesse, 
+<lb n="23"/> Bien sçay qu'y vivray soubrement, 
+<lb n="24"/> Sans grant <supplied resp="#editor"> espargne de liesse</supplied>. 
+<lb n="25"/> Le temps passe comme le vent, 
+<lb n="26"/> Il n'est si beau jeu qui ne cesse, 
+<lb n="27"/> En tout fault avoir finement 
+<lb n="28"/> Sans grant espargne <supplied resp="#editor"> de liesse </supplied>! 
+</ab>
+</div>
+<div type="ballade" n="CXIII">
+<ab type="gv"> 
+<lb n="1"/> <q> « Je, qui suis Fortune nommee, 
+<lb n="2"/> Demande la raison pourquoy 
+<lb n="3"/> On me donne la renommee 
+<pb n="175"/>
+<lb n="4"/> Qu'on ne se puet fier en moy 
+<lb n="5"/> Et n'ay ne fermeté ne foy ? 
+<lb n="6"/> Car, quant aucuns en mes mains prens, 
+<lb n="7"/> D'en bas je les monte en haultesse 
+<lb n="8"/> Et d'en hault en bas les descens, 
+<lb n="9"/> Monstrant que suis Dame et maistresse. 
+<lb n="10"/> En ce, je suis a tort blasmee, 
+<lb n="11"/> Tenant l'usage de ma loy 
+<lb n="12"/> Que de long temps m'a ordonnee 
+<lb n="13"/> Dieu, sur tous le souverain Roy, 
+<lb n="14"/> Pour donner au monde chastoy. 
+<lb n="15"/> Et se de mes biens je despens 
+<lb n="16"/> Souventesfoiz, a grant largesse, 
+<lb n="17"/> Quant bon me semble les suspens, 
+<lb n="18"/> Monstrant que suis Dame et maistresse. 
+<lb n="19"/> C'est ma maniere acoustumee, 
+<lb n="20"/> Chascun le scet, comme je croy, 
+<lb n="21"/> Et n'est pas nouvelle trouvee, 
+<lb n="22"/> Mais fays ainsi comme je doy. 
+<lb n="23"/> Me mocquant, je les monstre au doy 
+<lb n="24"/> Tous ceulx qui en sont malcontens ; 
+<lb n="25"/> En gré prengnent joye ou destresse, 
+<lb n="26"/> Qu'ayent l'un des deux me conscens, 
+<lb n="27"/> Monstrant que suis Dame et maistresse. 
+<lb n="28"/> Sur ce, s'advise qui a sens, 
+<lb n="29"/> Soit en jeunesse ou en vieillesse ; 
+<lb n="30"/> Et qui ne m'entent, je m'entens, 
+<lb n="31"/> Monstrant que suis Dame et maistresse. » </q>  
+</ab>
+<pb n="176"/>
+</div>
+<div type="ballade" n="CXIV">
+<ab type="gv"> 
+<lb n="1"/> Fortune, je vous oy complaindre 
+<lb n="2"/> Qu'on vous donne renom, a tort, 
+<lb n="3"/> De savoir et aider et faindre, 
+<lb n="4"/> Donnant plaisir et desconfort ; 
+<lb n="5"/> C'est vray : et, encore plus fort, 
+<lb n="6"/> Souventesfoiz, contre raison, 
+<lb n="7"/> Boutez de hault plusieurs en bas, 
+<lb n="8"/> Et de bas en hault ; telz debas 
+<lb n="9"/> Vous usez en vostre maison. 
+<lb n="10"/> Bien savez de Plaisance paindre 
+<lb n="11"/> Et d'Espoir, quand prenez depport, 
+<lb n="12"/> Aprés effacer et destaindre 
+<lb n="13"/> Toute joye, sans nul support, 
+<lb n="14"/> Et mener a douloureux port, 
+<lb n="15"/> Ne vous chault en quelle saison. 
+<lb n="16"/> Jamais vous n'ouvrez par compas ; 
+<lb n="17"/> Beaucoup pis que je ne dy pas 
+<lb n="18"/> Vous usez en vostre maison. 
+<lb n="19"/> Pour Dieu, vueillez vous en reffraindre, 
+<lb n="20"/> Affin qu'on ne face rapport, 
+<lb n="21"/> Qui vouldra vostre fait actaindre, 
+<lb n="22"/> Que vous soyez digne de mort. 
+<lb n="23"/> Vostre maniere chascun mort, 
+<lb n="24"/> Plus qu'autre, sans comparaison, 
+<lb n="25"/> Qui regarde par tous estas. 
+<lb n="26"/> Anuy et meschief, a grant tas, 
+<lb n="27"/> Vous usez en vostre maison. 
+<pb n="177"/>
+<lb n="28"/> Ne jouez plus de vostre sort, 
+<lb n="29"/> Car trop le passez oultre bort, 
+<lb n="30"/> Se gens ne laissez en pais, on 
+<lb n="31"/> Appellera les advocas 
+<lb n="32"/> Qui plaideront que tresfaulx cas 
+<lb n="33"/> Vous usez <supplied resp="#editor"> en vostre maison </supplied>! 
+</ab>
+</div>
+<div type="ballade" n="CXV">
+<ab type="gv"> 
+<lb n="1"/> <q> « Or ça, puisque il fault que responde 
+<lb n="2"/> Moy, Fortune, je parleray : 
+<lb n="3"/> Sy grant n'est, ne puissant ou monde, 
+<lb n="4"/> A qui bien parler n'oseray. 
+<lb n="5"/> J'ay fait, faiz encore, et feray 
+<lb n="6"/> Ainsi que bon me semblera 
+<lb n="7"/> De ceulx qui sont soubz ma puissance ; 
+<lb n="8"/> Parle qui parler en vouldra, 
+<lb n="9"/> Je n'en feray qu'a ma plaisance. 
+<lb n="10"/> Quant les biens, qui sont en la ronde, 
+<lb n="11"/> Sont miens, et je les donneray 
+<lb n="12"/> Par grant largesse, dont j'abonde, 
+<lb n="13"/> Et aprés je les reprandray, 
+<lb n="14"/> Certes, a nul tort ne feray. 
+<lb n="15"/> Qui esse qui m'en blamera ? 
+<lb n="16"/> Je l'ay ainsi d'acoustumance. 
+<lb n="17"/> En gré le preigne qui poura, 
+<lb n="18"/> Je n'en feray qu'a ma plaisance. 
+<lb n="19"/> En raison jamais ne me fonde, 
+<lb n="20"/> Mais mon vouloir acompliray ; 
+<lb n="21"/> Les aucuns convient que confonde, 
+<pb n="178"/>
+<lb n="22"/> Et les autres avanceray ; 
+<lb n="23"/> Mon propos souvent changeray, 
+<lb n="24"/> En plusieurs lieux, puis ça, puis la, 
+<lb n="25"/> Sans regle ne sans ordonnance. 
+<lb n="26"/> Ou est il qui m'en gardera ? 
+<lb n="27"/> Je n'en feray qu'a ma plaisance. 
+<lb n="28"/> On escript : Tant qu'il nous plaira, 
+<lb n="29"/> Es lettres des seigneurs de France ; 
+<lb n="30"/> Pareillement de moy sera : 
+<lb n="31"/> Je n'en feray qu'a ma plaisance. » </q>  
+</ab>
+</div>
+<div type="ballade" n="CXVI">
+<ab type="gv"> 
+<lb n="1"/> Fortune, vray est vostre comte 
+<lb n="2"/> Que, quant voz biens donné avez, 
+<lb n="3"/> Vous les reprenés ; mais c'est honte 
+<lb n="4"/> Et don d'enfant, bien le savez. 
+<lb n="5"/> Ainsi faire ne le devez. 
+<lb n="6"/> Voz faiz vous mectez a l'enchiere, 
+<lb n="7"/> Chascun ce qu'il en peut en a 
+<lb n="8"/> Et ne vous chault comment tout va ; 
+<lb n="9"/> Pour Dieu, changez vostre maniere ! 
+<lb n="10"/> ... 
+</ab>
+</div>
+<div type="ballade" n="CXVII">
+<ab type="gv"> 
+<lb n="1"/> Escollier de Merencolie, 
+<lb n="2"/> A l'estude je suis venu, 
+<lb n="3"/> Lettres de mondaine clergie 
+<lb n="4"/> Espelant a tout ung festu, 
+<pb n="179"/>
+<lb n="5"/> Et moult fort m'y treuve esperdu. 
+<lb n="6"/> Lire n'escripre ne sçay mye, 
+<lb n="7"/> Dez verges de Soussy batu, 
+<lb n="8"/> Es derreniers jours de ma vie. 
+<lb n="9"/> Pieça, en jennesse fleurie, 
+<lb n="10"/> Quant de vif entendement fu, 
+<lb n="11"/> J'eusse apris en heure et demye 
+<lb n="12"/> Plus qu'a present ; tant ay vesqu 
+<lb n="13"/> Que d'engin je me sens vaincu ; 
+<lb n="14"/> On me deust bien, sans flaterie, 
+<lb n="15"/> Chastier, despoillié tout nu, 
+<lb n="16"/> Es derreniers jours de ma vie. 
+<lb n="17"/> Que voulez vous que je vous die ? 
+<lb n="18"/> Je suis pour ung asnyer tenu, 
+<lb n="19"/> Banny de Bonne Compaignie, 
+<lb n="20"/> Et de Nonchaloir retenu 
+<lb n="21"/> Pour le servir. Il est conclu ! 
+<lb n="22"/> Qui vouldra, pour moy estudie : 
+<lb n="23"/> Trop tart je m'y suis entendu, 
+<lb n="24"/> Es derreniers jours de ma vie. 
+<lb n="25"/> Se j'ay mon temps mal despendu, 
+<lb n="26"/> Fait l'ay, par conseil de Follye ; 
+<lb n="27"/> Je m'en sens et m'ens suis sentu, 
+<lb n="28"/> Es derreniers jours de ma vie ! 
+</ab>
+</div>
+<div type="ballade" n="CXVIII">
+<ab type="gv"> 
+<lb n="1"/> L'autre jour tenoit son conseil, 
+<lb n="2"/> En la chambre de ma pensee, 
+<pb n="180"/>
+<lb n="3"/> Mon cueur qui faisoit appareil 
+<lb n="4"/> De deffence contre l'armee 
+<lb n="5"/> De Fortune, mal advisée, 
+<lb n="6"/> Qui guerryer vouloit Espoir, 
+<lb n="7"/> Se sagement n'est reboutee, 
+<lb n="8"/> Par Bon Eur et Loyal Vouloir. 
+<lb n="9"/> Il n'est chose soubz le souleil 
+<lb n="10"/> Qui tant doit estre desiree 
+<lb n="11"/> Que Paix ; c'est le don non pareil 
+<lb n="12"/> Dont Grace fait tousjours livree 
+<lb n="13"/> A sa gent qu'a recommandee ; 
+<lb n="14"/> Fol est qui ne la veult avoir, 
+<lb n="15"/> Quant elle est offerte et donnee 
+<lb n="16"/> Par Bon Eur et Loyal Vouloir. 
+<lb n="17"/> Pour Dieu, laissons dormir Traveil ; 
+<lb n="18"/> Ce monde n'a gueres duree, 
+<lb n="19"/> Et Paine, tant qu'elle a sommeil, 
+<lb n="20"/> Souffrons que prengne reposee. 
+<lb n="21"/> Qui une foiz l'a esprouvee 
+<lb n="22"/> La doit fuyr, de son povoir : 
+<lb n="23"/> Par tout doit estre deboutee, 
+<lb n="24"/> Par Bon Eur et loyal Vouloir. 
+<lb n="25"/> Dieu nous doint bonne destinee, 
+<lb n="26"/> Et chascun face son devoir, 
+<lb n="27"/> Ainsi ne sera redoubtee 
+<lb n="28"/> Par Bon Eur et Loyal Vouloir. 
+</ab>
+<pb n="181"/>
+</div>
+<div type="ballade" n="CXIX">
+<ab type="gv"> 
+<lb n="1"/> En la chambre de ma pensee, 
+<lb n="2"/> Quant j'ay visité mes tresors, 
+<lb n="3"/> Maintesfoiz la treuve estoffee 
+<lb n="4"/> Richement de plaisans confors. 
+<lb n="5"/> A mon cueur je conseille lors 
+<lb n="6"/> Qu'i prenons nostre demouree, 
+<lb n="7"/> Et que par nous soit bien gardee 
+<lb n="8"/> Contre tous ennuyeux rappors. 
+<lb n="9"/> Car Desplaisance maleuree 
+<lb n="10"/> Essaye souvent ses effors, 
+<lb n="11"/> Pour la conquester par emblee 
+<lb n="12"/> Et nous bouter tous deux dehors ; 
+<lb n="13"/> Se Dieu plaist, assez sommes fors 
+<lb n="14"/> Pour bien tost rompre son armee, 
+<lb n="15"/> Se d'Espoir banyere est portee 
+<lb n="16"/> Contre tous ennuyeux rappors. 
+<lb n="17"/> L'inventoire j'ay regardee 
+<lb n="18"/> De noz meubles, en biens et corps ; 
+<lb n="19"/> De legier ne sera gastee, 
+<lb n="20"/> Et si ne ferons a nulz tors. 
+<lb n="21"/> Mieulx aymerions estre mors, 
+<lb n="22"/> Mon cueur et moy, que courrocee 
+<lb n="23"/> Fust Raison, sage et redoubtee, 
+<lb n="24"/> Contre tous ennuyeux rappors. 
+<lb n="25"/> Demourons tous en bons accors, 
+<lb n="26"/> Pour parvenir a joyeux pors : 
+<pb n="182"/>
+<lb n="27"/> Ou monde, qui a peu duree, 
+<lb n="28"/> Soustenons Paix, la bien amee, 
+<lb n="29"/> Contre tous ennuyeux rappors. 
+</ab>
+</div>
+<div type="ballade" n="CXX">
+<ab type="gv"> 
+<lb n="1"/> Je n'ay plus soif, tairie est la fontaine ; 
+<lb n="2"/> Bien eschauffé, sans le feu amoureux ; 
+<lb n="3"/> Je voy bien cler, ja ne fault c'on me maine ; 
+<lb n="4"/> Folie et Sens me gouvernent tous deux ; 
+<lb n="5"/> En Nonchaloir resveille sommeilleux ; 
+<lb n="6"/> C'est de mon fait une chose meslee, 
+<lb n="7"/> Ne bien, ne mal, d'aventure menee. 
+<lb n="8"/> Je gaingne et pers, m'escontant par sepmaine ; 
+<lb n="9"/> Ris, Jeux, Deduiz, je ne tiens conte d'eulx ; 
+<lb n="10"/> Espoir et Dueil me mettent hors d'alaine ; 
+<lb n="11"/> Eur, me flatent, si m'est trop rigoreux ; 
+<lb n="12"/> Dont vient cela que je riz et me deulz ? 
+<lb n="13"/> Esse par sens ou folie esprouvee ? 
+<lb n="14"/> Ne bien, ne mal, d'aventure menee. 
+<lb n="15"/> Guerdonné suis de malleureuse estraine ; 
+<lb n="16"/> En combatant, je me rens couraigeux ; 
+<lb n="17"/> Joye et Soussy m'ont mis en leur demaine ; 
+<lb n="18"/> Tout desconfit, me tiens au ranc des preux ; 
+<lb n="19"/> Qui me saroit desnoer tous ses neux ? 
+<lb n="20"/> Teste d'assier y fauldroit, fort armee, 
+<lb n="21"/> Ne bien, ne mal, d'aventure menee. 
+<lb n="22"/> Veillesse fait me jouer a telz jeux, 
+<lb n="23"/> Perdre et gaingner, et tout par ses conseulx ; 
+<pb n="183"/>
+<lb n="24"/> A la faille j'ay joué ceste annee, 
+<lb n="25"/> Ne bien, ne mal, d'aventure menee. 
+</ab>
+</div>
+<div type="ballade" n="CXXI">
+<ab type="gv"> 
+<lb n="1"/> Pourquoy m'as tu vendu, Jennesse, 
+<lb n="2"/> A grant marchié, comme pour rien, 
+<lb n="3"/> Es mains de ma Dame Viellesse 
+<lb n="4"/> Qui ne me fait gueres de bien ? 
+<lb n="5"/> A elle peu tenu me tien, 
+<lb n="6"/> Mais il convient que je l'endure, 
+<lb n="7"/> Puis que c'est le cours de nature. 
+<lb n="8"/> Son hostel de noir de Tristesse 
+<lb n="9"/> Est tandu ; quant dedans je vien, 
+<lb n="10"/> G'y voy l'istoire de Destresse 
+<lb n="11"/> Qui me fait changer mon maintien 
+<lb n="12"/> Quant la ly, et maint mal soustien ; 
+<lb n="13"/> Espargnee n'est creature, 
+<lb n="14"/> Puis que c'est le cours de nature. 
+<lb n="15"/> Prenant en gré ceste rudesse, 
+<lb n="16"/> Le mal d'aultruy conpare au myen ; 
+<lb n="17"/> Lors me tance Dame Sagesse, 
+<lb n="18"/> Adoncques en moy je revien, 
+<lb n="19"/> Et croy de tout le conseil sien 
+<lb n="20"/> Qui est en ce plain de droiture, 
+<lb n="21"/> Puis que c'est le cours de nature. 
+<lb n="22"/> Dire ne saroye conbien 
+<lb n="23"/> Dedans mon cueur mal je retien, 
+<pb n="184"/>
+<lb n="24"/> Serré d'une vielle sainture, 
+<lb n="25"/> Puis que c'est le cours de nature. 
+</ab>
+</div>
+<div type="ballade" n="CXXII">
+<ab type="gv"> 
+<lb n="1"/> Mon cueur vous adjourne, Viellesse, 
+<lb n="2"/> Par Droit, huissier de parlement, 
+<lb n="3"/> Devant Raison qui est maistresse 
+<lb n="4"/> Et juge de vray jugement. 
+<lb n="5"/> Depuis que le gouvernement 
+<lb n="6"/> Avez eu de luy et de moy, 
+<lb n="7"/> Vous nous avez, par tirennye, 
+<lb n="8"/> Mis es mains de Merencolie 
+<lb n="9"/> Sans savoir la cause pourquoy. 
+<lb n="10"/> Par avant nous tenoit Jennesse 
+<lb n="11"/> Et nourrissoit si tendrement, 
+<lb n="12"/> En plaisir, confort et liesse, 
+<lb n="13"/> Et tout joyeulx esbatement ; 
+<lb n="14"/> Or faictez vous tout autrement. 
+<lb n="15"/> Se vous est honte, sur ma foy, 
+<lb n="16"/> Car en douleur et maladie 
+<lb n="17"/> Nous faictez user nostre vie, 
+<lb n="18"/> Sans savoir la cause pourquoy ! 
+<lb n="19"/> De quoy vous sert ceste destresse 
+<lb n="20"/> A donner sans aleigement ? 
+<lb n="21"/> Cuidés vous pour telle rudesse 
+<lb n="22"/> Avoir honneur aucunement ? 
+<lb n="23"/> Nennil, certez, car vrayement 
+<lb n="24"/> Chascun vous moustrera au doy, 
+<lb n="25"/> Disant : La vielle rassoutie 
+<pb n="185"/>
+<lb n="26"/> Tient tous maulx en sa compaignie, 
+<lb n="27"/> Sans savoir la cause pourquoy. 
+<lb n="28"/> Ce saint Martin, presentement 
+<lb n="29"/> Qu'avocas font commencement 
+<lb n="30"/> De plaidier les faiz de la loy, 
+<lb n="31"/> Prenez bon conseil, je vous prie : 
+<lb n="32"/> Ne faictez desbat ne partie 
+<lb n="33"/> Sans savoir la cause pourquoy. 
+</ab>
+<pb n="186"/>
+</div>
+<div type="ballade" n="CXXIII">
+<ab type="gv"> 
+<lb n="1"/> Chascun s'ébat au myeulx mentir, 
+<lb n="2"/> Et voulentiers je l'aprendoye ; 
+<lb n="3"/> Mais maint mal j'en voy advenir, 
+<lb n="4"/> Par quoy savoir ne le vouldroye. 
+<lb n="5"/> De mantir par deduit ou joye 
+<lb n="6"/> Ou par passe temps ou plaisir, 
+<lb n="7"/> Ce n'est point mal fait, sans faillir, 
+<lb n="8"/> Se faulceté ne s'y employe. 
+<lb n="9"/> Faulx menteurs puisse l'en couvrir, 
+<lb n="10"/> Sur les montaignes de Savoye, 
+<lb n="11"/> De naige, tant que revenir 
+<lb n="12"/> Ne puissent par chemin ne voye, 
+<pb n="187"/>
+<lb n="13"/> Jucques querir je les renvoye ! 
+<lb n="14"/> Pour Dieu, laissez les la dormir ; 
+<lb n="15"/> Ilz ne scevent de riens servir, 
+<lb n="16"/> Se faulceté ne s'i employe. 
+<lb n="17"/> Pourquoy se font il tant haïr ? 
+<lb n="18"/> Vueulent il que l'en les guerroye ? 
+<lb n="19"/> Cuident il du monde tenir 
+<lb n="20"/> Tous les deulx boux de la courroye ? 
+<lb n="21"/> C'est folie, que vous diroye ! 
+<lb n="22"/> Leur prouffit puissent parfournir, 
+<lb n="23"/> Et laissent les autres chevir, 
+<lb n="24"/> Se faulceté ne s'y enploye. 
+<lb n="25"/> Paix crie, Dieu la nous octroye ! 
+<lb n="26"/> C'est ung tresor qu'on doit cherir, 
+<lb n="27"/> Tous biens s'en pevent ensuïr : 
+<lb n="28"/> Se faulceté ne s'y enploye. 
+</ab>
+</div>
+</body>
+</text>
+</TEI>

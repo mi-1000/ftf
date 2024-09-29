@@ -1,12 +1,13 @@
 import json
 
+import os
 import requests
+import urllib.request as req
 
 from bs4 import BeautifulSoup
-from urllib.request import urlretrieve
+from urllib.parse import urlparse
 
 from typing import List
-
 
 def get_metadata_from_id(id: str) -> str:
     """Retrieves XML-formatted metadata from a file through its id
@@ -15,7 +16,7 @@ def get_metadata_from_id(id: str) -> str:
         id (str): The id of the file
 
     Returns:
-        str: The XML metadata
+        str: The XML metadata, leaving file name as `*`
     """
     url = f"https://api.nakala.fr/datas/{id}/metadatas"
     response = requests.get(url)
@@ -28,8 +29,7 @@ def get_metadata_from_id(id: str) -> str:
     else:
         date = ""
     
-    print(f'<item link="https://nakala.fr/{id}" language="old-french" filename="data/data_old_french/*" date="{date}" place="" />')
-    return ''
+    return f'<item link="https://nakala.fr/{id}" language="old-french" filename="data/data_old_french/*" date="{date}" place="" />'
 
 def get_download_link_from_id(id: str) -> str | None:
     """Retrieves the download link of a file from its identifier on `https://nakala.fr`
@@ -69,14 +69,33 @@ def get_file_identifiers_from_collection(collection: str) -> List[str]:
             identifiers.append(data['data'][i]['identifier'])
     return identifiers
 
+def download_all_files(collection_id: str = "10.34847/nkl.1279lie9", output_folder: str = "data/data_old_french"):
+    """Downloads all files from a given collection to the folder of your choice and saves metadata to a temporary XML file (`sources_tmp.xml`) that you can then copy and paste
+
+    Args:
+        collection_id (str, optional): The id of the collection. Defaults to "10.34847/nkl.1279lie9".
+        output_folder (str, optional): The output folder for files. Defaults to "data/data_old_french".
+    """
+    with open('sources_tmp.xml', 'w') as f:
+        sources = ""
+        ids = get_file_identifiers_from_collection(collection_id)
+        for id in ids:
+            url = get_download_link_from_id(id)
+            with req.urlopen(url) as response:
+                content_disposition = response.headers.get('Content-Disposition')
+                if content_disposition and 'filename=' in content_disposition:
+                    filename = content_disposition.split('filename=')[1].strip('"')
+                else:
+                    parsed_url = urlparse(url)
+                    filename = os.path.basename(parsed_url.path)
+            output_location = f"{output_folder}/{filename}"
+            metadata = get_metadata_from_id(id).replace('*', output_location)
+            sources += metadata + '\n'
+            req.urlretrieve(url, output_location)
+        f.write(sources)
+
 def main():
-    bfm_doi = "10.34847/nkl.1279lie9"
-    ids = get_file_identifiers_from_collection(bfm_doi)
-    links = []
-    for id in ids:
-        # links.append(get_download_link_from_id(id))
-        # print(links)
-        print(get_metadata_from_id(id))
+    download_all_files()
 
 if __name__ == '__main__':
     main()

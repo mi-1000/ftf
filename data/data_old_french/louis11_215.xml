@@ -1,0 +1,1028 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="fr">
+  <fileDesc>
+    <titleStmt>
+      <title type="main">Lettres de Louis XI, roi de France</title>
+      <title type="formal">louis11_215</title>
+      <title type="reference">louis11_215</title>
+      <title type="DEAF">LetLouis11V1*</title>
+      <title type="gmd">transcription électronique</title>
+      <author xml:id="LouisXI" key="Louis XI (roi de France ; 1423-1483)" ref="http://www.idref.fr/029459435">Louis XI</author>
+      <editor>Équipe de la Base de français médiéval - ENS de Lyon / UMR 5317 IHRIM</editor>
+      <funder>Laboratoire IHRIM</funder>
+    </titleStmt>
+    <editionStmt>
+      <edition>transcripion électronique</edition>
+      <respStmt xml:id="encoder2">
+        <resp>balisage de structure en XML-TEI</resp>
+        <name xml:id="Acollignon">Alain Collignon</name>
+      </respStmt>
+      <respStmt xml:id="encoder0">
+        <resp>ajout de métadonnées</resp>
+        <name xml:id="AL">Alexei Lavrentiev</name>
+      </respStmt>
+    </editionStmt>
+    <extent>- Numéros de pages saisies : de 1 à 160 ;
+            - Nombre de mots d'après la base des descripteurs : <num xml:id="nb_mots_given">582</num> ;
+            - Nombre de tokens (mots et ponctuations) d'après la base des descripteurs : <num xml:id="nb_tokens_given">639</num>.
+    </extent>
+    <publicationStmt>
+      <publisher><name>Projet BFM, ENS de Lyon / UMR 5317 IHRIM</name></publisher>
+      <address>
+        <addrLine>15, parvis René Descartes</addrLine>
+        <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+        <addrLine>Tél : 04 37 37 63 10</addrLine>
+        <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+        <addrLine>http://bfm.ens-lyon.fr</addrLine>
+      </address>
+      <idno type="bfm">http://catalog.bfm-corpus.org/louis11_215</idno>
+      <idno type="doi">10.34847/nkl.7c680kt9</idno>
+      <availability status="free">
+        <licence target="https://www.etalab.gouv.fr/licence-ouverte-open-licence">
+          <ab type="availability_bfm" subtype="">Les Conditions générales d'utilisation de la Base de Français Médiéval (http://txm.bfm-corpus.org/bfm/files/CGU.pdf), 
+            et notamment son Article 5 « PROPRIETE INTELLECTUELLE », s'appliquent à tous les textes de la BFM.</ab>
+          <ab type="how_to_cite">
+            <label>Comment citer ce texte :</label>
+            <bibl>Louis XI, Lettres de Louis XI, roi de France, édité par Joseph Vaesen et Etienne Charavay, Paris, 1883. 
+              Publié en ligne par la Base de français médiéval, http://catalog.bfm-corpus.org/louis11_215.
+              Dernière révision le 2021-02-04.</bibl>
+            D'autres formules de citation de la BFM sont proposées sur la page web suivante :
+            http://bfm.ens-lyon.fr/article.php3?id_article=281.</ab>
+          <ab type="availability_file">
+            <label>Conditions d'utilisation de ce fichier :</label>
+              Ce fichier numérique est composé du corps de texte médiéval et des suppléments numériques : balisage XML-TEI, métadonnées (teiHeader). Le texte et les suppléments numériques sont libres de droit et peuvent à ce titre être téléchargés et réutilisés librement.
+            </ab>
+            <ab type="availability_txmweb" subtype="illimité">
+              <label>Conditions d'utilisation par le portail BFM :</label>
+              Accès réservé aux membres de l'équipe BFM et des projets associés.</ab>
+        </licence>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>Lettres de Louis XI, roi de France : Lettres de Louis dauphin, 1438-1461 (Tome 1)</title>
+          <author>Louis XI</author>
+          <respStmt>
+            <resp xml:id="editor">Éditeur scientifique</resp>
+            <name type="person">Joseph Vaesen</name>
+            <name type="person">Etienne Charavay</name>
+          </respStmt>
+        </titleStmt>
+          <extent>8 page(s), soit 1-160 (extraits)
+        </extent>
+        <publicationStmt>
+          <publisher>Librairie Renouard</publisher>
+          <pubPlace>Paris</pubPlace>
+          <date>1883</date>
+          <idno type="sigle_DEAF">LetLouis11V1*</idno>
+          <idno type="cote_biblio">BIU : Mag 2. 012343(1)</idno>
+          <availability>
+            <p>Lien éditeur : <ref target="http://penelope.upmf-grenoble.fr/numerisation/384212101_54527_46_001.pdf">Copie en ligne</ref></p></availability>
+        </publicationStmt><seriesStmt><title>Société de l'histoire de France</title><idno type="collection">215</idno></seriesStmt>
+      </biblFull>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p>Projet :<name type="project">BFM - Base de français médiéval</name>
+        Resp. : <name type="person">Céline Guillot-Barbance</name>
+        Équipe : Base de français médiéval
+        Laboratoire : UMR 5317 IHRIM
+        Institution : ENS de Lyon
+        <address>
+          <addrLine>15, parvis René Descartes</addrLine>
+          <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+          <addrLine>Tél : 04 37 37 63 10</addrLine>
+          <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+          <addrLine>http://bfm.ens-lyon.fr</addrLine>
+        </address>
+      </p>
+    </projectDesc>
+    <editorialDecl>
+      <p>Voir le <ref target="http://bfm.ens-lyon.fr/IMG/pdf/Manuel_Encodage_TEI.pdf">Manuel d'encodage XML-TEI de la BFM</ref>
+        et les <ref target="http://bfm.ens-lyon.fr/IMG/pdf/Consignes_BFM.pdf">Consignes aux relecteurs de la BFM</ref>.</p>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="body" occurs="1"/>
+        <tagUsage gi="date" occurs="10"/>
+        <tagUsage gi="div" occurs="5"/>
+        <tagUsage gi="head" occurs="5"/>
+        <tagUsage gi="hi" occurs="19"/>
+        <tagUsage gi="idno" occurs="11"/>
+        <tagUsage gi="note" occurs="5"/>
+        <tagUsage gi="p" occurs="21"/>
+        <tagUsage gi="pb" occurs="8"/>
+        <tagUsage gi="placeName" occurs="3"/>
+        <tagUsage gi="s" occurs="38"/>
+        <tagUsage gi="text" occurs="1"/>
+        <tagUsage gi="w" occurs="638"/>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <creation>
+      <name type="author">Louis XI</name>
+      <title>Lettres de Louis XI, roi de France</title>
+      <date type="compo" when="1450-01-01" notBefore="1438-01-01" notAfter="1461-01-01" n="15">1438-1461</date>
+      <date type="compo_periode">moyen</date>
+      <date type="compo_sous_siecle" n="15_2">milieu</date>
+      <date type="ms" when="1450-01-01" notBefore="1438-01-01" notAfter="1461-12-31">1438-1461</date>
+      <idno type="msIdentifier">[Manuscrits multiples]</idno>
+      <region type="dialecte_auteur">parisien</region>
+    </creation>
+    <langUsage>
+      <language ident="fro" usage="100">Le texte est entièrement écrit en prose en moyen français.</language>
+    </langUsage>
+    <textDesc>
+      <channel mode="w">print</channel>
+      <constitution type="single"/>
+      <derivation type="original"/>
+      <domain type="politique"/>
+    <factuality type="inapplicable"/>
+      <interaction type="none"/>
+      <preparedness type="prepared"/>
+      <purpose type="narrative"/></textDesc>
+    <textClass>
+      <keywords scheme="http://authorities.bfm-corpus.org">
+        <term type="domaine">politique</term>
+        <term type="genre">lettre</term>
+        <term type="forme">prose</term>
+        <term type="relation">original</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change who="#AL" when="2011-09-12">adaptation au format TEI BFM</change>
+    <change who="#Acollignon" when="2021-02-04">balisage de structure en XML-TEI</change>
+    <change who="#AL" when="2021-05-11">ajout de métadonnées</change>
+    <change when="2021-02-04">Dernière modification du texte</change>
+    <change when="2022-11-04">Création de cet entête</change>
+  </revisionDesc>
+</teiHeader>
+<text> 
+<pb n="1"/> 
+<!--<front> 
+<div type="titre"> 
+<p> 
+<s n="1">
+<hi rend="gras">
+<w n="1">LETTRES</w>
+<w n="2">DE</w>
+<w n="3">LOUIS</w>
+<w n="4">XI</w>
+</hi>
+</s>
+</p> 
+</div> 
+<div type="sous-titre"> 
+<p> 
+<s n="2">
+<w n="5">LOUIS</w>
+<w n="6">DAUPHIN</w>
+<lb/> 
+<w n="7">1438-1461</w>
+</s>
+</p> 
+</div> 
+</front> -->
+<body> 
+<div type="letter" n="1"> 
+<head xml:lang="fr"> 
+
+<s n="3">
+<hi rend="gras">
+<w n="8">A</w>
+<w n="9">ELIE</w>
+<w n="10">DE</w>
+<w n="11">LINAYE</w>
+<w type="pon" n="12">.</w>
+</hi>
+</s>
+
+</head> 
+  <note type="inline">  <placeName>Bourges</placeName>, <date when="1438-06-21">21 juin 1438</date>.<idno type="sourceDesc">Orig. Bibl. nat., Fr. 20620, fol. 2.</idno></note>
+<p> 
+<s n="4">
+<w n="13">De</w>
+<w n="14">par</w>
+<w n="15">le</w>
+<w n="16">dauphin</w>
+<w n="17">de</w>
+<w n="18">Viennois</w>
+<w type="pon" n="19">.</w>
+</s>
+</p> 
+<p> 
+<s n="5">
+<w n="20">Chier</w>
+<w n="21">et</w>
+<w n="22">bien</w>
+<w n="23">amé</w>
+<w type="pon" n="24">,</w>
+<w n="25">nous</w>
+<w n="26">avons</w>
+<w n="27">chargé</w>
+<w n="28">Gabriel</w>
+<w n="29">de</w>
+<w n="30">Bernes</w>
+<w type="pon" n="31">,</w>
+<w n="32">nostre</w>
+<w n="33">maistre</w>
+<w n="34">d'</w>
+<w n="35">ostel</w>
+<w type="pon" n="36">,</w>
+<w n="37">de</w>
+<w n="38">recevoir</w>
+<w n="39">de</w>
+<w n="40">vous</w>
+<w n="41">les</w>
+<w n="42">mil</w>
+<w n="43">florins</w>
+<w n="44">que</w>
+<w n="45">les</w>
+<w n="46">gens</w>
+<w n="47">des</w>
+<w n="48">trois</w>
+<w n="49">estaz</w>
+<w n="50">du</w>
+<w n="51">pais</w>
+<w n="52">du</w>
+<w n="53">Dauphiné</w>
+<w n="54">nous</w>
+<w n="55">ont</w>
+<w n="56">donné</w>
+<w type="pon" n="57">.</w>
+</s>
+<s n="6">
+<w n="58">Si</w>
+<w n="59">vueillez</w>
+<w n="60">appoincter</w>
+<w n="61">ledit</w>
+<w n="62">Gabriel</w>
+<w n="63">en</w>
+<w n="64">telle</w>
+<w n="65">maniere</w>
+<w n="66">que</w>
+<w n="67">le</w>
+<w n="68">plus</w>
+<w n="69">brief</w>
+<w n="70">que</w>
+<w n="71">faire</w>
+<w n="72">ce</w>
+<w n="73">pourra</w>
+<w n="74">il</w>
+<w n="75">soit</w>
+<w n="76">paié</w>
+<w n="77">de</w>
+<w n="78">ladicte</w>
+<w n="79">somme</w>
+<w type="pon" n="80">.</w>
+</s>
+<s n="7">
+<w n="81">En</w>
+<w n="82">prenant</w>
+<w n="83">quictance</w>
+<w n="84">de</w>
+<w n="85">lui</w>
+<w n="86">vous</w>
+<w n="87">en</w>
+<w n="88">tendrons</w>
+<w n="89">quicte</w>
+<w type="pon" n="90">,</w>
+<w n="91">et</w>
+<w n="92">lequel</w>
+<w n="93">vous</w>
+<pb n="2"/> 
+<w n="94">envoye</w>
+<w n="95">mandement</w>
+<w n="96">de</w>
+<w n="97">Monseigneur</w>
+<w n="98">pour</w>
+<w n="99">vostre</w>
+<w n="100">argent</w>
+<w type="pon" n="101">.</w>
+</s>
+<s n="8">
+<w n="102">Chier</w>
+<w n="103">et</w>
+<w n="104">bien</w>
+<w n="105">amé</w>
+<w type="pon" n="106">,</w>
+<w n="107">Nostre</w>
+<w n="108">Seigneur</w>
+<w n="109">soit</w>
+<w n="110">garde</w>
+<w n="111">de</w>
+<w n="112">vous</w>
+<w type="pon" n="113">.</w>
+</s>
+<s n="9">
+<w n="114">Donné</w>
+<w n="115">à</w>
+<w n="116">Bourges</w>
+<w n="117">le</w>
+<w n="118">XXI</w>
+<hi rend="exp">
+<w n="119">e</w>
+</hi>
+<w n="120">jour</w>
+<w n="121">de</w>
+<w n="122">juing</w>
+<w type="pon" n="123">.</w>
+</s>
+</p> 
+<p> 
+<s n="10">
+<hi rend="pmaj">
+<w n="124">Loys</w>
+<w type="pon" n="125">.</w>
+</hi>
+</s>
+</p> 
+<p> 
+<s n="11">
+<hi rend="pmaj">
+<w n="126">S</w>
+<w type="pon" n="127">.</w>
+<w n="128">Verjus</w>
+</hi>
+</s>
+</p> 
+<p> 
+<s n="12">
+<w n="129">A</w>
+<w n="130">nostre</w>
+<w n="131">chier</w>
+<w n="132">et</w>
+<w n="133">bien</w>
+<w n="134">amé</w>
+<w n="135">maistre</w>
+<w n="136">Helye</w>
+<w n="137">de</w>
+<w n="138">Linaye</w>
+<w type="pon" n="139">,</w>
+<w n="140">receveur</w>
+<w n="141">de</w>
+<w n="142">l'</w>
+<w n="143">aide</w>
+<w n="144">au</w>
+<w n="145">pais</w>
+<w n="146">du</w>
+<w n="147">Dauphiné</w>
+<w type="pon" n="148">.</w>
+</s>
+</p> 
+</div>
+  <pb n="28"/>
+<div type="letter" n="18"> 
+ 
+<head xml:lang="fr"> 
+
+<s n="13">
+<hi rend="gras">
+<w n="149">A</w>
+<w n="150">UN</w>
+<w n="151">DE</w>
+<w n="152">SES</w>
+<w n="153">FAMILIERS</w>
+<w type="pon" n="154">.</w>
+</hi>
+</s>
+
+</head> 
+  <note type="inline">   <placeName>Chinon</placeName>, <date when="1446-07-04">4 juillet 1446</date>.<idno type="sourceDesc">Orig. Bibl. nat., Fr. 20436, fol. 29.</idno></note>
+<p> 
+<s n="14">
+<w n="155">Compere</w>
+<w type="pon" n="156">,</w>
+<w n="157">je</w>
+<w n="158">vous</w>
+<w n="159">prie</w>
+<w n="160">que</w>
+<w n="161">vous</w>
+<w n="162">baillez</w>
+<w n="163">à</w>
+<w n="164">Guillaume</w>
+<w n="165">Semogni</w>
+<w n="166">vint</w>
+<w n="167">escuz</w>
+<w n="168">et</w>
+<w n="169">je</w>
+<w n="170">vous</w>
+<w n="171">prometz</w>
+<w n="172">que</w>
+<w n="173">je</w>
+<w n="174">vous</w>
+<w n="175">bailleray</w>
+<w n="176">les</w>
+<w n="177">cent</w>
+<w n="178">frans</w>
+<w n="179">que</w>
+<w n="180">nous</w>
+<w n="181">avons</w>
+<w n="182">appoinctez</w>
+<w n="183">pour</w>
+<w n="184">lui</w>
+<w type="pon" n="185">,</w>
+<w n="186">car</w>
+<w n="187">pour</w>
+<w n="188">ceste</w>
+<w n="189">heure</w>
+<w n="190">je</w>
+<w n="191">ne</w>
+<w n="192">lui</w>
+<w n="193">puis</w>
+<w n="194">riens</w>
+<w n="195">bailler</w>
+<w type="pon" n="196">.</w>
+</s>
+<s n="15">
+<w n="197">Je</w>
+<w n="198">vous</w>
+<w n="199">prie</w>
+<w n="200">que</w>
+<w n="201">en</w>
+<w n="202">ce</w>
+<w n="203">n'</w>
+<w n="204">ait</w>
+<w n="205">faulte</w>
+<w type="pon" n="206">.</w>
+</s>
+<s n="16">
+<w n="207">Et</w>
+<w n="208">à</w>
+<w n="209">Dieu</w>
+<w n="210">soiez</w>
+<w type="pon" n="211">.</w>
+</s>
+<s n="17">
+<w n="212">Escript</w>
+<w n="213">à</w>
+<w n="214">Chinon</w>
+<w n="215">le</w>
+<w n="216">IV</w>
+<hi rend="exp">
+<w n="217">e</w>
+</hi>
+<w n="218">jour</w>
+<w n="219">de</w>
+<w n="220">juillet</w>
+<w type="pon" n="221">.</w>
+</s>
+</p> 
+<p> 
+<s n="18">
+<hi rend="pmaj">
+<w n="222">Loys</w>
+<w type="pon" n="223">.</w>
+</hi>
+</s>
+</p> 
+<p> 
+<s n="19">
+<hi rend="pmaj">
+<w n="224">M</w>
+<w type="pon" n="225">.</w>
+<w n="226">Heron</w>
+<w type="pon" n="227">.</w>
+</hi>
+</s>
+</p> 
+</div> 
+  <pb n="31"/> 
+<div type="letter" n="20"> 
+
+<head xml:lang="fr"> 
+
+<s n="20">
+<hi rend="gras">
+<w n="228">AU</w>
+<w n="229">DUC</w>
+<w n="230">D'</w>
+<w n="231">ORLÉANS</w>
+<w type="pon" n="232">.</w>
+</hi>
+</s>
+
+</head> 
+  <note type="inline">  <date notAfter="1446-01-01"> Antérieure à 1446</date>.<idno type="sourceDesc">Orig. Coll. de M. A. Morrison, de Londres.</idno></note>
+<p> 
+<s n="21">
+<w n="233">Beaux</w>
+<w n="234">oncles</w>
+<w type="pon" n="235">,</w>
+<w n="236">jé</w>
+<w n="237">entendu</w>
+<w n="238">que</w>
+<w n="239">vous</w>
+<w n="240">avés</w>
+<w n="241">envye</w>
+<w n="242">d'</w>
+<w n="243">avoyr</w>
+<w n="244">ung</w>
+<w n="245">mulet</w>
+<w type="pon" n="246">,</w>
+<w n="247">mès</w>
+<w n="248">qu'</w>
+<w n="249">yl</w>
+<w n="250">allast</w>
+<w n="251">byen</w>
+<w n="252">ayze</w>
+<w type="pon" n="253">,</w>
+<w n="254">et</w>
+<w type="pon" n="255">,</w>
+<w n="256">à</w>
+<w n="257">ceste</w>
+<w n="258">cauze</w>
+<w type="pon" n="259">,</w>
+<w n="260">je</w>
+<w n="261">vous</w>
+<w n="262">envoye</w>
+<w n="263">le</w>
+<w n="264">myen</w>
+<w type="pon" n="265">;</w>
+<w n="266">mès</w>
+<w n="267">c'</w>
+<w n="268">est</w>
+<w n="269">en</w>
+<w n="270">esperance</w>
+<w n="271">que</w>
+<w n="272">vous</w>
+<w n="273">me</w>
+<w n="274">donerés</w>
+<w n="275">ung</w>
+<w n="276">levryer</w>
+<w type="pon" n="277">;</w>
+<w n="278">car</w>
+<w n="279">on</w>
+<w n="280">n'</w>
+<w n="281">en</w>
+<w n="282">peut</w>
+<w n="283">pas</w>
+<w n="284">byen</w>
+<w n="285">fynés</w>
+<w n="286">de</w>
+<w n="287">bons</w>
+<w n="288">de</w>
+<w n="289">par</w>
+<w n="290">de</w>
+<w n="291">sa</w>
+<w type="pon" n="292">,</w>
+<w n="293">et</w>
+<w n="294">sy</w>
+<w n="295">vous</w>
+<w n="296">le</w>
+<w n="297">faytes</w>
+<w type="pon" n="298">,</w>
+<w n="299">et</w>
+<w n="300">vous</w>
+<w n="301">prenés</w>
+<w n="302">playsyr</w>
+<w n="303">en</w>
+<w n="304">autre</w>
+<w n="305">chouze</w>
+<w type="pon" n="306">,</w>
+<w n="307">soyt</w>
+<w n="308">ne</w>
+<w n="309">mulle</w>
+<w type="pon" n="310">,</w>
+<w n="311">mullet</w>
+<w n="312">ou</w>
+<w n="313">troton</w>
+<w type="pon" n="314">,</w>
+<w n="315">je</w>
+<w n="316">vous</w>
+<w n="317">en</w>
+<w n="318">recompanseré</w>
+<pb n="32"/> 
+<w n="320">byen</w>
+<w type="pon" n="321">.</w>
+</s>
+<s n="22">
+<w n="322">Et</w>
+<w n="323">adyeu</w>
+<w type="pon" n="324">,</w>
+<w n="325">beaux</w>
+<w n="326">oncles</w>
+<w type="pon" n="327">.</w>
+</s>
+<s n="23">
+<w n="328">Escryt</w>
+<w n="329">de</w>
+<w n="330">ma</w>
+<w n="331">main</w>
+<w type="pon" n="332">.</w>
+</s>
+</p> 
+<p> 
+<s n="24">
+<hi rend="pmaj">
+<w n="333">Loys</w>
+<w type="pon" n="334">.</w>
+</hi>
+</s>
+</p> 
+<p> 
+<s n="25">
+<w n="335">A</w>
+<w n="336">beaux</w>
+<w n="337">oncles</w>
+<w n="338">d'</w>
+<w n="339">Orlyens</w>
+<w type="pon" n="340">.</w>
+</s>
+</p> 
+</div> 
+  <pb n="128"/> 
+<div type="letter" n="97"> 
+
+<head xml:lang="fr"> 
+
+<s n="26">
+<hi rend="gras">
+<w n="341">A</w>
+<w n="342">JEAN</w>
+<w n="343">ARNOULFIN</w>
+<w type="pon" n="344">.</w>
+</hi>
+</s>
+
+</head> 
+  <note type="inline">  <date when="1460-08"> Août 1460</date>.<idno type="sourceDesc">Orig. Bibl. nat., Fr. 20855, n° 25.</idno></note>
+<p> 
+<s n="27">
+<w n="345">Jehan</w>
+<w n="346">mon</w>
+<w n="347">amy</w>
+<w type="pon" n="348">,</w>
+<w n="349">jé</w>
+<w n="350">receu</w>
+<w n="351">vos</w>
+<w n="352">lectres</w>
+<w n="353">par</w>
+<w n="354">les</w>
+<w n="355">quelles</w>
+<w n="356">m'</w>
+<w n="357">escryvés</w>
+<w n="358">que</w>
+<w n="359">n'</w>
+<w n="360">avés</w>
+<w n="361">poynt</w>
+<w n="362">de</w>
+<w n="363">velos</w>
+<w n="364">playn</w>
+<w n="365">sy</w>
+<w n="366">non</w>
+<pb n="129"/> 
+<w n="367">velous</w>
+<w n="368">sus</w>
+<w n="369">velous</w>
+<w n="370">quy</w>
+<w n="371">est</w>
+<w n="372">plus</w>
+<w n="373">cher</w>
+<w type="pon" n="374">.</w>
+</s>
+<s n="28">
+<w n="375">Je</w>
+<w n="376">l'</w>
+<w n="377">an</w>
+<w n="378">aime</w>
+<w n="379">myeux</w>
+<w n="380">et</w>
+<w n="381">vous</w>
+<w n="382">mersye</w>
+<w n="383">de</w>
+<w n="384">se</w>
+<w n="385">que</w>
+<w n="386">toujours</w>
+<w n="387">de</w>
+<w n="388">ryens</w>
+<w n="389">ne</w>
+<w n="390">me</w>
+<w n="391">fayllés</w>
+<w type="pon" n="392">,</w>
+<w n="393">et</w>
+<w n="394">par</w>
+<w n="395">ma</w>
+<w n="396">foy</w>
+<w type="pon" n="397">,</w>
+<w n="398">sy</w>
+<w n="399">Dyeu</w>
+<w n="400">plest</w>
+<w type="pon" n="401">,</w>
+<w n="402">je</w>
+<w n="403">vous</w>
+<w n="404">payré</w>
+<w n="405">byen</w>
+<w n="406">de</w>
+<w n="407">tout</w>
+<w type="pon" n="408">,</w>
+<w n="409">vous</w>
+<w n="410">pryant</w>
+<w n="411">que</w>
+<w n="412">le</w>
+<w n="413">bayllés</w>
+<w n="414">au</w>
+<w n="415">sieur</w>
+<w n="416">de</w>
+<w n="417">la</w>
+<w n="418">Barde</w>
+<w type="pon" n="419">.</w>
+</s>
+<s n="29">
+<w n="420">Et</w>
+<w n="421">a</w>
+<w n="422">Dyeu</w>
+<w type="pon" n="423">,</w>
+<w n="424">Jehan</w>
+<w n="425">mon</w>
+<w n="426">amy</w>
+<w type="pon" n="427">,</w>
+<w n="428">quy</w>
+<w n="429">vous</w>
+<w n="430">doynt</w>
+<w n="431">joye</w>
+<w type="pon" n="432">.</w>
+</s>
+<s n="30">
+<w n="433">Escryt</w>
+<w n="434">de</w>
+<w n="435">ma</w>
+<w n="436">mayn</w>
+<w type="pon" n="437">.</w>
+</s>
+</p> 
+<p> 
+<s n="31">
+<hi rend="pmaj">
+<w n="438">Loys</w>
+<w type="pon" n="439">.</w>
+</hi>
+</s>
+</p> 
+<p> 
+<s n="32">
+<w n="440">A</w>
+<w n="441">Jehan</w>
+<w n="442">Arnolfyn</w>
+<w type="pon" n="443">.</w>
+</s>
+</p> 
+<p> 
+<s n="33">
+<hi rend="ital">
+<w n="444">Au</w>
+<w n="445">dos</w>
+<w type="pon" n="446">:</w>
+</hi>
+<w n="447">Je</w>
+<w n="448">Giscart</w>
+<w n="449">Garnié</w>
+<w type="pon" n="450">,</w>
+<w n="451">serviteur</w>
+<w n="452">de</w>
+<w n="453">monseigneur</w>
+<w n="454">le</w>
+<w n="455">daulfin</w>
+<w type="pon" n="456">,</w>
+<w n="457">ay</w>
+<w n="458">receu</w>
+<w n="459">de</w>
+<w n="460">Jehan</w>
+<w n="461">Arnoulfin</w>
+<w n="462">pour</w>
+<w n="463">delivrer</w>
+<w n="464">de</w>
+<w n="465">l'</w>
+<w n="466">ordonnance</w>
+<w n="467">de</w>
+<w n="468">mondit</w>
+<w n="469">seigneur</w>
+<w n="470">à</w>
+<w n="471">monsieur</w>
+<w n="472">de</w>
+<w n="473">la</w>
+<w n="474">Barde</w>
+<w n="475">une</w>
+<w n="476">piece</w>
+<w n="477">de</w>
+<w n="478">velu</w>
+<w n="479">sur</w>
+<w n="480">velu</w>
+<w n="481">cramoisy</w>
+<w n="482">contenant</w>
+<w n="483">XLIII</w>
+<w n="484">aulnes</w>
+<w n="485">de</w>
+<w n="486">Bruge</w>
+<w type="pon" n="487">,</w>
+<w n="488">assavoir</w>
+<w n="489">quarante</w>
+<w n="490">trois</w>
+<w n="491">aulnes</w>
+<w type="pon" n="492">,</w>
+<w n="493">et</w>
+<w n="494">tout</w>
+<w n="495">par</w>
+<w n="496">vertu</w>
+<w n="497">de</w>
+<w n="498">ceste</w>
+<w n="499">presente</w>
+<w n="500">lectre</w>
+<w type="pon" n="501">,</w>
+<w n="502">tesmoing</w>
+<w n="503">mon</w>
+<w n="504">seing</w>
+<w n="505">manuel</w>
+<w n="506">cy</w>
+<w n="507">mis</w>
+<w n="508">le</w>
+<w n="509">XII</w>
+<hi rend="exp">
+<w n="510">e</w>
+</hi>
+<w n="511">jour</w>
+<w n="512">d'</w>
+<w n="513">aoust</w>
+<w n="514">l'</w>
+<w n="515">an</w>
+<w n="516">mil</w>
+<w n="517">IIII</w>
+<hi rend="exp">
+<w n="518">c</w>
+</hi>
+<w n="519">LX</w>
+<w type="pon" n="520">.</w>
+</s>
+</p> 
+<p> 
+<s n="34">
+<hi rend="pmaj">
+<w n="521">Giscart</w>
+<w n="522">Garnié</w>
+<w type="pon" n="523">.</w>
+</hi>
+</s>
+</p> 
+</div> 
+  <pb n="160"/> 
+<div type="letter" n="125"> 
+
+<head xml:lang="fr"> 
+
+<s n="35">
+<hi rend="gras">
+<w n="524">A</w>
+<w n="525">JEAN</w>
+<w n="526">ARNOULFIN</w>
+<w type="pon" n="527">.</w>
+</hi>
+</s>
+
+</head> 
+  <note type="inline">   <placeName>Genappe</placeName>, <date>8 août</date>.<idno type="sourceDesc">Orig. Bibl. nat., Fr. 20427, fol. 14.</idno></note>
+<p> 
+<s n="36">
+<w n="528">Jehan</w>
+<w n="529">Arnoulfin</w>
+<w type="pon" n="530">,</w>
+<w n="531">mon</w>
+<w n="532">amy</w>
+<w type="pon" n="533">,</w>
+<w n="534">j'</w>
+<w n="535">ay</w>
+<w n="536">receu</w>
+<w n="537">les</w>
+<w n="538">lectres</w>
+<w n="539">que</w>
+<w n="540">m'</w>
+<w n="541">avez</w>
+<w n="542">escriptes</w>
+<w n="543">par</w>
+<w n="544">Marc</w>
+<w n="545">Cename</w>
+<w type="pon" n="546">.</w>
+</s>
+<s n="37">
+<w n="547">Aussi</w>
+<w n="548">ay</w>
+<w n="549">eu</w>
+<w n="550">mil</w>
+<w n="551">sept</w>
+<w n="552">cens</w>
+<w n="553">quarante</w>
+<w n="554">huit</w>
+<w n="555">lions</w>
+<w n="556">et</w>
+<w n="557">dix</w>
+<w n="558">huit</w>
+<w n="559">pataz</w>
+<w n="560">qu'</w>
+<w n="561">il</w>
+<w n="562">m'</w>
+<w n="563">a</w>
+<w n="564">aportez</w>
+<w type="pon" n="565">,</w>
+<w n="566">qui</w>
+<w n="567">est</w>
+<w type="pon" n="568">,</w>
+<w n="569">rabatu</w>
+<w n="570">ce</w>
+<w n="571">que</w>
+<w n="572">maistre</w>
+<w n="573">Charles</w>
+<w n="574">print</w>
+<w n="575">darrenierement</w>
+<w n="576">de</w>
+<w n="577">vous</w>
+<w n="578">et</w>
+<w n="579">ce</w>
+<w n="580">que</w>
+<w n="581">avez</w>
+<w n="582">baillé</w>
+<w n="583">à</w>
+<w n="584">daulphin</w>
+<w type="pon" n="585">,</w>
+<w n="586">la</w>
+<w n="587">somme</w>
+<w n="588">que</w>
+<w n="589">deviez</w>
+<w n="590">recevoir</w>
+<w n="591">pour</w>
+<w n="592">moy</w>
+<w type="pon" n="593">,</w>
+<w n="594">dont</w>
+<w n="595">et</w>
+<w n="596">de</w>
+<w n="597">la</w>
+<w n="598">paine</w>
+<w n="599">que</w>
+<w n="600">en</w>
+<w n="601">avez</w>
+<w n="602">prinse</w>
+<w n="603">je</w>
+<w n="604">vous</w>
+<w n="605">mercie</w>
+<w n="606">tant</w>
+<w n="607">que</w>
+<w n="608">je</w>
+<w n="609">puis</w>
+<w type="pon" n="610">,</w>
+<w n="611">et</w>
+<w type="pon" n="612">,</w>
+<w n="613">si</w>
+<w n="614">Dieu</w>
+<w n="615">plaist</w>
+<w type="pon" n="616">,</w>
+<w n="617">quelque</w>
+<w n="618">foiz</w>
+<w n="619">je</w>
+<w n="620">le</w>
+<w n="621">deserviré</w>
+<w n="622">envers</w>
+<w n="623">vous</w>
+<w type="pon" n="624">.</w>
+</s>
+<s n="38">
+<w n="625">Marc</w>
+<w n="626">vous</w>
+<w n="627">dira</w>
+<w n="628">de</w>
+<w n="629">mes</w>
+<w n="630">nouvelles</w>
+<w type="pon" n="631">,</w>
+<w n="632">et</w>
+<w n="633">adieu</w>
+<w type="pon" n="634">.</w>
+</s>
+<s n="39">
+<w n="635">Escript</w>
+<w n="636">à</w>
+<w n="637">Geneppe</w>
+<w n="638">le</w>
+<w n="639">VIII</w>
+<hi rend="exp">
+<w n="640">e</w>
+</hi>
+<w n="641">jour</w>
+<w n="642">d'</w>
+<w n="643">aoust</w>
+<w type="pon" n="644">.</w>
+</s>
+</p> 
+<p> 
+<s n="40">
+<hi rend="pmaj">
+<w n="645">Loys</w>
+<w type="pon" n="646">.</w>
+</hi>
+</s>
+</p> 
+</div> 
+</body> 
+</text> 
+</TEI>

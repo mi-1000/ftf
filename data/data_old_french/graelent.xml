@@ -1,0 +1,944 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="main">Graelent</title>
+      <title type="formal">graelent</title>
+      <title type="reference">graelent</title>
+      <title type="DEAF">GraelentT</title>
+      <title type="gmd">transcription électronique</title>
+      <author xml:id="anonyme">anonyme</author>
+      <editor>Équipe de la Base de français médiéval - ENS de Lyon / UMR 5317 IHRIM</editor>
+      <funder>Laboratoire IHRIM</funder>
+    </titleStmt>
+    <editionStmt>
+      <edition>transcripion électronique</edition>
+      <respStmt xml:id="encoder0">
+        <resp>Vérification de la description</resp>
+        <name xml:id="AL">Alexei Lavrentiev</name>
+      </respStmt>
+      <respStmt xml:id="digitizer">
+        <resp>scannage et océrisation</resp>
+        <name xml:id="ES">Ekaterina Shcherbina</name>
+      </respStmt>
+      <respStmt xml:id="proofreader1">
+        <resp>révision de tout le texte</resp>
+        <name xml:id="PL">Pierre Levron</name>
+      </respStmt>
+      <respStmt xml:id="proofreader2">
+        <resp>révision de tout le texte</resp>
+        <name xml:id="VO">Vanessa Obry</name>
+      </respStmt>
+      <respStmt xml:id="encoderDD">
+        <resp>balisage du discours direct</resp>
+        <name xml:id="YM">Yunna Menshova</name>
+      </respStmt>
+    </editionStmt>
+    <extent>- Numéros de pages saisies : de 96 à 121 ;
+            - Nombre de mots d'après la base des descripteurs : <num xml:id="nb_mots_given">4263</num> ;
+            - Nombre de tokens (mots et ponctuations) d'après la base des descripteurs : <num xml:id="nb_tokens_given">5037</num>.
+    </extent>
+    <publicationStmt>
+      <publisher><name>Projet BFM, ENS de Lyon / UMR 5317 IHRIM</name></publisher>
+      <address>
+        <addrLine>15, parvis René Descartes</addrLine>
+        <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+        <addrLine>Tél : 04 37 37 63 10</addrLine>
+        <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+        <addrLine>http://bfm.ens-lyon.fr</addrLine>
+      </address>
+      <idno type="bfm">http://catalog.bfm-corpus.org/graelent</idno>
+      <idno type="doi">10.34847/nkl.1503sv9a</idno>
+      <availability status="free">
+        <licence target="https://www.etalab.gouv.fr/licence-ouverte-open-licence">
+          <ab type="availability_bfm" subtype="libre_1b">Les Conditions générales d'utilisation de la Base de Français Médiéval (http://txm.bfm-corpus.org/bfm/files/CGU.pdf), 
+            et notamment son Article 5 « PROPRIETE INTELLECTUELLE », s'appliquent à tous les textes de la BFM.</ab>
+          <ab type="how_to_cite">
+            <label>Comment citer ce texte :</label>
+            <bibl>Graelent, édité par Prudence Mary O'Hara Tobin, Genève, 1976. 
+              Publié en ligne par la Base de français médiéval, http://catalog.bfm-corpus.org/graelent.
+              Dernière révision le 2016-06-20.</bibl>
+            D'autres formules de citation de la BFM sont proposées sur la page web suivante :
+            http://bfm.ens-lyon.fr/article.php3?id_article=281.</ab>
+          <ab type="availability_file">
+            <label>Conditions d'utilisation de ce fichier :</label>
+              Ce fichier numérique est composé du corps de texte médiéval et des suppléments numériques : balisage XML-TEI, métadonnées (teiHeader), balisage du discours direct. Le texte et les suppléments numériques sont libres de droit et peuvent à ce titre être téléchargés et réutilisés librement.
+            </ab>
+            <ab type="availability_txmweb" subtype="illimité">
+              <label>Conditions d'utilisation par le portail BFM :</label>
+              Pas de limitation dans l'usage des fonctionnalités. Téléchargement autorisé.</ab>
+        </licence>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>Les lais anonymes : le lai de Graelent</title>
+          <respStmt>
+            <resp xml:id="editor">Éditeur scientifique</resp>
+            <name type="person">Prudence Mary O'Hara Tobin</name>
+          </respStmt>
+        </titleStmt>
+          <extent>26 page(s), soit 96-121
+        </extent>
+        <publicationStmt>
+          <publisher>Droz</publisher>
+          <pubPlace>Genève</pubPlace>
+          <date>1976</date>
+          <idno type="sigle_DEAF">GraelentT</idno>
+          <idno type="cote_biblio">ENS-LSH : 84/2 A lai</idno>
+        </publicationStmt><seriesStmt><title>Publications romanes et françaises</title><idno type="collection">143</idno></seriesStmt>
+      </biblFull>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p>Projet :<name type="project">BFM - Base de français médiéval</name>
+        Resp. : <name type="person">Céline Guillot-Barbance</name>
+        Équipe : Base de français médiéval
+        Laboratoire : UMR 5317 IHRIM
+        Institution : ENS de Lyon
+        <address>
+          <addrLine>15, parvis René Descartes</addrLine>
+          <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+          <addrLine>Tél : 04 37 37 63 10</addrLine>
+          <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+          <addrLine>http://bfm.ens-lyon.fr</addrLine>
+        </address>
+      </p>
+    </projectDesc>
+    <editorialDecl>
+      <p>Voir le <ref target="http://bfm.ens-lyon.fr/IMG/pdf/Manuel_Encodage_TEI.pdf">Manuel d'encodage XML-TEI de la BFM</ref>
+        et les <ref target="http://bfm.ens-lyon.fr/IMG/pdf/Consignes_BFM.pdf">Consignes aux relecteurs de la BFM</ref>.</p>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="ab" occurs="5"/>
+        <tagUsage gi="body" occurs="1"/>
+        <tagUsage gi="div" occurs="2"/>
+        <tagUsage gi="front" occurs="1"/>
+        <tagUsage gi="lb" occurs="732"/>
+        <tagUsage gi="num" occurs="5"/>
+        <tagUsage gi="p" occurs="3"/>
+        <tagUsage gi="pb" occurs="26"/>
+        <tagUsage gi="q" occurs="30"/>
+        <tagUsage gi="text" occurs="1"/>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <creation>
+      <name type="author">anonyme</name>
+      <title>Graelent</title>
+      <date type="compo" when="1189-01-01" notBefore="1178-01-01" notAfter="1230-01-01" n="12">entre 1178 et 1230, peut-être vers 1189</date>
+      <date type="compo_periode">ancien</date>
+      <date type="compo_sous_siecle" n="12_3">fin</date>
+      <date type="ms" when="1283-01-01" notBefore="1275-01-01" notAfter="1299-01-01">fin 13e s.</date>
+      <idno type="msIdentifier">Paris, BnF, fr. 2168 (A)</idno>
+      <region type="dialecte_auteur">picard</region>
+    </creation>
+    <langUsage>
+      <language ident="fro" usage="100">Le texte est entièrement écrit en vers en ancien français.</language>
+    </langUsage>
+    <textDesc>
+      <channel mode="w">print</channel>
+      <constitution type="single"/>
+      <derivation type="original"/>
+      <domain type="littéraire"/>
+    <factuality type="inapplicable"/>
+      <interaction type="none"/>
+      <preparedness type="prepared"/>
+      <purpose type="narrative"/></textDesc>
+    <textClass>
+      <keywords scheme="http://authorities.bfm-corpus.org">
+        <term type="domaine">littéraire</term>
+        <term type="genre">récit bref</term>
+        <term type="forme">vers</term>
+        <term type="relation">original</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change who="#ES" when="2006-10-31">scannage et océrisation</change>
+    <change who="#PL" when="2006-12-31">révision de tout le texte</change>
+    <change who="#VO" when="2007-03-31">révision de tout le texte</change>
+    <change who="#AL" when="2009-02-06">Vérification de la description</change>
+    <change who="#YM" when="2016-06-20">balisage du discours direct</change>
+    <change who="#AL" when="2016-06-20">balisage, numérotation et vérifications finales</change>
+    <change when="2016-06-20">Dernière modification du texte</change>
+    <change when="2022-11-04">Création de cet entête</change>
+  </revisionDesc>
+</teiHeader>
+<text>
+<pb n="96"/>
+<front>
+<div type="titre">
+<p>C'EST LE LAY DE GRAALENT</p>
+</div>
+</front>
+<body>
+<div>
+<ab type="gv">
+<lb n="1"/>L'aventure de Graalent
+<lb n="2"/>vos dirai si que je l'entent ;
+<lb n="3"/>bon en sont li lai a oïr,
+<lb n="4"/>e les notes a retenir.
+<lb n="5"/>Graelens fu de Bretons nés,
+<lb n="6"/>gentix e bien enparentés.
+<lb n="7"/>Gent ot le cors e franc le cuer,
+<lb n="8"/>por çou ot non Graalent Muer.
+<lb n="9"/>Li rois qui Bretaigne tenoit,
+<lb n="10"/>vers ses voisins grant guerre avoit ;
+<lb n="11"/>cevaliers manda e retint,
+<lb n="12"/>bien sai que Graelens i vint.
+<lb n="13"/>Li rois le retint volentiers
+<lb n="14"/>por çou qu'il ert biax cevaliers.
+<lb n="15"/>Mout le ceri e honera,
+<lb n="16"/>e Graelens molt se pena
+<lb n="17"/>de tornoier e de joster
+<lb n="18"/>e de ses anemis grever.
+<lb n="19"/>La roïne l'oï loer, 
+<pb n="97"/>
+<lb n="20"/>e les biens de lui raconter ; 
+<lb n="21"/>dedens son cur l'en aama. 
+<lb n="22"/>Son canbrelenc en apela.
+<lb n="23"/><q>« Diva, dist el, ne me celer, 
+<lb n="24"/>n'as tu sovent oï parler
+<lb n="25"/>del bel cevalier Graelent ? 
+<lb n="26"/>Mout est amis a tote gent. </q>
+<lb n="27"/><q>- Dame, dist il, molt par est prox, 
+<lb n="28"/>e molt se fait amer a tox. »</q>
+<lb n="29"/>La dame lués li respondi : 
+<lb n="30"/><q>« De lui veul faire mon ami, 
+<lb n="31"/>je sui por lui en grant esfroi. 
+<lb n="32"/>Va, si li di qu'il vigne a moi, 
+<lb n="33"/>m'amor li metrai a bandon.</q>
+<lb n="34"/><q>- Mout li donrés, dist cil, grant don, 
+<lb n="35"/>merveille est se il n'en a joie.
+<lb n="36"/>N'a si boin abé dusqu'a Troie
+<lb n="37"/>s'il esgardoit vostre visage,
+<lb n="38"/>ne cangast molt tost son corage. »</q>
+<lb n="39"/>Cil s'en torna, la dame lait,
+<lb n="40"/>a l'ostel Graelent s'en vait ;
+<lb n="41"/>avenanment l'a salué,
+<lb n="42"/>son mesage li a conté
+<lb n="43"/>k'a la roïne voist parler,
+<lb n="44"/>e n'ait cure de demorer.
+<lb n="45"/>Ce li respont li cevaliers :
+<lb n="46"/><q>« Alés avant, biaus amis ciers. »</q>
+<pb n="98"/>
+<lb n="47"/>Li canbrelens s'en est alés, 
+<lb n="48"/>e Graelens s'est atornés. 
+<lb n="49"/>Sor un ceval ferrant monta, 
+<lb n="50"/>un cevalier o lui mena. 
+<lb n="51"/>Al castel sont andoi venu 
+<lb n="52"/>e en la sale descendu, 
+<lb n="53"/>par devant le roi trespasserent, 
+<lb n="54"/>es canbres le roïne entrerent. 
+<lb n="55"/>Quant el les voit, sis apela, 
+<lb n="56"/>mout les ceri e honera ; 
+<lb n="57"/>entre ses bras prist Graelent, 
+<lb n="58"/>si l'acola estroitement ; 
+<lb n="59"/>dejoste li seïr le fist 
+<lb n="60"/>sor un tapi, puis si li dist. 
+<lb n="61"/>Mout boinement a esgardé 
+<lb n="62"/>son cors, son vis e sa biaté. 
+<lb n="63"/>A lui parla cortoisement, 
+<lb n="64"/>e il li respont sinplement, 
+<lb n="65"/>ne li dist rien qui bien ne siece. 
+<lb n="66"/>La roïne pensa grant piece ; 
+<lb n="67"/>merveille est s'ele ne li prie 
+<lb n="68"/>que il l'amast par druerie. 
+<lb n="69"/>L'amors de lui la fait hardie, 
+<lb n="70"/>demande lui s'il a amie 
+<lb n="71"/>ne se d'amors est arestés, 
+<lb n="72"/>car il devoit bien estre amés. 
+<lb n="73"/><q>« Dame, dist il, je n'aimme pas, 
+<lb n="74"/>d'amors tenir n'est mie gas.
+<pb n="99"/>
+<lb n="75"/>Cil doit estre de mout grant pris 
+<lb n="76"/>qui s'entremet qu'il soit amis. 
+<lb n="77"/>Tel <num>.VC.</num> parolent d'amor, 
+<lb n="78"/>n'en sevent pas le pior tor, 
+<lb n="79"/>ne que est loiax druerie. 
+<lb n="80"/>Ains lor ragë e lor folie, 
+<lb n="81"/>perece, wisseuse e faintise 
+<lb n="82"/>enpire amor en mainte guise. 
+<lb n="83"/>Amors demande caasté 
+<lb n="84"/>en fais, en dis e en pensé. 
+<lb n="85"/>Se l'uns des amans est loiax 
+<lb n="86"/>e li autre est jalox e faus, 
+<lb n="87"/>si est amors entr'ex fausee, 
+<lb n="88"/>ne puet avoir longe duree. 
+<lb n="89"/>Amors n'a song de conpagnon ; 
+<lb n="90"/>boin amors n'est si de dex non, 
+<lb n="91"/>de cors en cors, de cuer en cuer, 
+<lb n="92"/>autrement n'est prex a nul fuer. 
+<lb n="93"/>Tulles, qui parla d'amistié, 
+<lb n="94"/>dist assés bien en son ditié 
+<lb n="95"/>que veut amis, ce veut l'amie, 
+<lb n="96"/>dont est boine la conpaignie ; 
+<lb n="97"/>s'ele le veut e il l'otroit, 
+<lb n="98"/>dont est la druerie a droit ; 
+<lb n="99"/>puisque li uns l'autre desdit, 
+<lb n="100"/>ni a d'amors fors c'un despit. 
+<lb n="101"/>Assés puet on amors trover, 
+<lb n="102"/>mais sens estuet al bien garder
+<pb n="100"/>
+<lb n="103"/>douçor e francise e mesure,
+<lb n="104"/>- amors n'a de grand forfait cure - 
+<lb n="105"/>loialté tenir e prometre ;
+<lb n="106"/>por cou ne m'en os entremetre. »</q>
+<lb n="107"/>La roïne oï Graelent 
+<lb n="108"/>qui tant parla cortoisement ; 
+<lb n="109"/>s'ele n'eüst talent d'amer, 
+<lb n="110"/>si l'en esteüst il parler. 
+<lb n="111"/>Bien set e voit, n'en doute mie, 
+<lb n="112"/>qu'en lui a sens e cortoisie. 
+<lb n="113"/>A lui parla tot en apert, 
+<lb n="114"/>son cuer li a tot descouvert.
+<lb n="115"/><q>« Amis, dist ele, Graelent, 
+<lb n="116"/>je vos aim mout parfitement. 
+<lb n="117"/>Onques n'amai fors mon segnor, 
+<lb n="118"/>mais je vous aim de bone amor. 
+<lb n="119"/>Je vos otroi ma druerie,
+<lb n="120"/>soiés amis e jou amie.</q>
+<lb n="121"/><q>- Dame, dist il, vostre merci, 
+<lb n="122"/>mais il ne peut pas estre ensi, 
+<lb n="123"/>car je sui saudoiers le roi ; 
+<lb n="124"/>loiauté li promis e foi,
+<lb n="125"/>e de sa vie e de s'anor, 
+<lb n="126"/>quant a lui remes l'autre jor ; 
+<lb n="127"/>ja par moi honte n'i ara. »</q> 
+<lb n="128"/>Dont prist congié, si s'en ala.
+<lb n="129"/>La roïne l'en vit aler, 
+<lb n="130"/>si commença a sospirer, 
+<lb n="131"/>dolante est molt, ne set que faire,
+<pb n="101"/>
+<lb n="132"/>ne s'en voloit par tant retraire.
+<lb n="133"/>Soventes fois le requeroit,
+<lb n="134"/>ses mesages li trametoit,
+<lb n="135"/>rices presens li envoioit,
+<lb n="136"/>e il trestous les refusoit.
+<lb n="137"/>La roïne molt l'enhaï
+<lb n="138"/>quant ele a lui del tot failli ;
+<lb n="139"/>a son segnor mal le metoit
+<lb n="140"/>e volentiers en mesdisoit.
+<lb n="141"/>Tant com li rois maintint la guerre,
+<lb n="142"/>remest Graelens en la terre,
+<lb n="143"/>tant despendi qu'il n'ot que prendre,
+<lb n="144"/>car li rois le faisoit atendre,
+<lb n="145"/>ki li detenoit ses saudees ;
+<lb n="146"/>ne l'en avoit nules donees,
+<lb n="147"/>la roïne li destornoit.
+<lb n="148"/>Au roi disoit e conseilloit
+<lb n="149"/>ke nule rien ne li donast
+<lb n="150"/>fors le conroi, qu'il n'en alast ;
+<lb n="151"/>povre le tenist entor lui,
+<lb n="152"/>qu'il ne peüst servir autrui.
+<lb n="153"/>Que fera ore Graelens ?
+<lb n="154"/>N'est merveille s'il est dolens ;
+<lb n="155"/>ne li remest que engagier
+<lb n="156"/>fors un ronci, nest gaires cier.
+<lb n="157"/>Il ne puet de la vile aler,
+<lb n="158"/>car il n'avait sor quoi monter.
+<lb n="159"/>Graelens n'atent nul secors. 
+<lb n="160"/>Ce fu en mai, en ces lons jors, 
+<lb n="161"/>ses hostes fu matin levés,
+<pb n="102"/>
+<lb n="162"/>o sa femme est el borc alés
+<lb n="163"/>ciés un de ses voisins mengier.
+<lb n="164"/>Tout seul laisça le cevalier ;
+<lb n="165"/>o lui n'en eut en la maison
+<lb n="166"/>escuier, sergant ne garçon
+<lb n="167"/>fors seul le file a la borgoise,
+<lb n="168"/>une mescine mout cortoise.
+<lb n="169"/>Quant vint a l'eure de disner,
+<lb n="170"/>au cevalier ala parler,
+<lb n="171"/>mout li pria qu'il se hastast
+<lb n="172"/>e qu'il ensanble o li mengast.
+<lb n="173"/>Il ne se puet pas rehaitier,
+<lb n="174"/>si apela son escuiier,
+<lb n="175"/>dist li c'amaint son cacëor,
+<lb n="176"/>sa sele mete e tot l'ator.
+<lb n="177"/><q>« La hors irai esbanoier,
+<lb n="178"/>car je n'ai cure de mangier. »</q>
+<lb n="179"/>II li respont : <q>« N'ai point de sele. </q>
+<lb n="180"/><q>- Amis, ce dist la damoisele,
+<lb n="181"/>une sele vous presterai
+<lb n="182"/>e un bon frain vos baillerai. »</q>
+<lb n="183"/>Cil a le ceval amené,
+<lb n="184"/>en le maison l'a enselé,
+<lb n="185"/>Graelens est desus montés,
+<lb n="186"/>par mi le borc est trespassés.
+<lb n="187"/>Unes viés piax ot afulees,
+<lb n="188"/>que trop longement ot portees.
+<lb n="189"/>Cil e celes qui l'esgarderent,
+<lb n="190"/>l'escarnirent molt e gaberent.
+<lb n="191"/>Tex est costume de borgois,
+<lb n="192"/>n'en verrés gaires de cortois.
+<lb n="193"/>Il ne se prent de ce regart ;
+<pb n="103"/>
+<lb n="194"/>fors de la vile avoit un gart, 
+<lb n="195"/>une forest grant e pleniere, 
+<lb n="196"/>par mi couroit une riviere. 
+<lb n="197"/>Cele part ala Graelens, 
+<lb n="198"/>trespensix, mornes et dolens. 
+<lb n="199"/>N'eut gaires par le bos erré, 
+<lb n="200"/>en <num>.I.</num> boisson espés ramé 
+<lb n="201"/>voit une bisse toute blance, 
+<lb n="202"/>plus que n'est nois nule sor brance. 
+<lb n="203"/>Devant lui la bisse sailli, 
+<lb n="204"/>il le hua, si poinst a li ; 
+<lb n="205"/>il ne le consivra jamés. 
+<lb n="206"/>Porquant si le siut il de prés, 
+<lb n="207"/>tant qu'en une lande l'enmainne, 
+<lb n="208"/>devers le sors d'une fontainne, 
+<lb n="209"/>dont l'iaue estoit e clere e bele. 
+<lb n="210"/>Dedens baignoit une pucele ; 
+<lb n="211"/>dex damoiseles le servoient, 
+<lb n="212"/>sor l'eur de le fontainne estoient. 
+<lb n="213"/>Li drap dont ele ert despoulie 
+<lb n="214"/>erent dedens une foillie. 
+<lb n="215"/>Graelens a celi veüe 
+<lb n="216"/>qui en le fontaine estoit nue. 
+<lb n="217"/>Cele part va grant aleüre, 
+<lb n="218"/>de le bisse n'eut il puis cure 
+<lb n="219"/>tant le vit graisle e escavie, 
+<lb n="220"/>blancë e gente e colorie, 
+<lb n="221"/>les ex rians e bel le front ;
+<pb n="104"/>
+<lb n="222"/>il n'a si bele en tot le mont.
+<lb n="223"/>Ne le veut en l'iaue toucier,
+<lb n="224"/>par loissir le laisse baignier.
+<lb n="225"/>Se despoulle est alés saisir,
+<lb n="226"/>par tant le cuide retenir.
+<lb n="227"/>Ses damoiseles s'aperçurent,
+<lb n="228"/>del cevalier en esfroi furent.
+<lb n="229"/>Lor dame l'a araisoné,
+<lb n="230"/>par mautalent l'a apelé :
+<lb n="231"/><q>« Graelent, lai mes dras ester !
+<lb n="232"/>Ne t'en pues gaires amender
+<lb n="233"/>se tu o toi les enportoies.
+<lb n="234"/>e ensi nue me laisoies,
+<lb n="235"/>trop sanleroit grant couvoitise.
+<lb n="236"/>Rent moi seviax non, ma cemise,
+<lb n="237"/>li mantiax puet bien estre tuens,
+<lb n="238"/>deniers en prenc, car il est buens. »</q>
+<lb n="239"/>Graelens respont en riant :
+<lb n="240"/> <q>« Ne sui pas fix a marceant 
+<lb n="241"/>n'a borgois, por vendre mantiax ; 
+<lb n="242"/>s'il valoit ore trois castiax, 
+<lb n="243"/>si n'enporteroie je mie. 
+<lb n="244"/>Isciés fors de cele iaue, amie, 
+<lb n="245"/>prenés vos dras, si vos vestés, 
+<lb n="246"/>ançois que vous a moi parlés.</q> 
+<lb n="247"/><q>- Ge n'en voil pas, dist ele, iscir, 
+<lb n="248"/>que de moi vous puisiés saisir ; 
+<lb n="249"/>n'ai cure de vostre parole, 
+<lb n="250"/>ne sui nïent de vostre escole. » </q>
+<lb n="251"/>Il li respont : <q>« Je sofferai, 
+<lb n="252"/>vostre despoulle garderai 
+<lb n="253"/>desque vos isterés ça fors.
+<pb n="105"/>
+<lb n="254"/>Bele, mout avés gent le cors. »</q> 
+<lb n="255"/>Quant ele voit qu'il veut atendre, 
+<lb n="256"/>e que ses dras ne li veut rendre, 
+<lb n="257"/>seürté demande de lui, 
+<lb n="258"/>k'il ne li face nul anui. 
+<lb n="259"/>Graelens l'a aseüree, 
+<lb n="260"/>sa cemise li a donee. 
+<lb n="261"/>Cele s'en ist de maintenant, 
+<lb n="262"/>il li tint le mantel devant, 
+<lb n="263"/>puis l'afula e si li rent. 
+<lb n="264"/>Par la main senestre le prent, 
+<lb n="265"/>des autres dex l'a eslongie, 
+<lb n="266"/>d'amors l'a requise e proiie 
+<lb n="267"/>e que de lui face son dru. 
+<lb n="268"/>E ele li a respondu : 
+<lb n="269"/><q>« Graelent, tu quiers grant otrage, 
+<lb n="270"/>ge ne te tieng noient por sage. 
+<lb n="271"/>Durement me doi merveillier 
+<lb n="272"/>que m'osés de cou araisnier. 
+<lb n="273"/>Tu ne dois estre si hardis, 
+<lb n="274"/>t'en seroies tost malbailis ; 
+<lb n="275"/>ja n'afiert pas a ton parage 
+<lb n="276"/>nule fenme de mon lingnage. »</q>
+<lb n="277"/>Graelens le trove si fiere, 
+<lb n="278"/>e bien entent que par proiiere 
+<lb n="279"/>ne fera point de son plaisir, 
+<lb n="280"/>n'il ne s'en veut ensi partir. 
+<lb n="281"/>En l'espece de la forest 
+<lb n="282"/>a fait de li ce que li plest.
+<pb n="106"/>
+<lb n="283"/>Quant il en ot fet son talent, 
+<lb n="284"/>merci li prie dolcement, 
+<lb n="285"/>que vers lui ne soit trop iree, 
+<lb n="286"/>mais or soit e france e senee ; 
+<lb n="287"/>si li otroit sa druerie, 
+<lb n="288"/>e il fera de li s'amie, 
+<lb n="289"/>loialment e bien l'amera, 
+<lb n="290"/>jamais de li ne partira.
+<lb n="291"/>La damoisele ot e entent 
+<lb n="292"/>la parole de Graelent, 
+<lb n="293"/>e voit qu'il est cortois e sages, 
+<lb n="294"/>bons cevaliers e prox e larges, 
+<lb n="295"/>e set se il depart de li, 
+<lb n="296"/>jamais n'avra si boin ami. 
+<lb n="297"/>S'amor li a bien otroiie 
+<lb n="298"/>e il l'a docement baisie. 
+<lb n="299"/>A lui parole en itel guise : 
+<lb n="300"/><q>« Graelent, vos m'avés souprise, 
+<lb n="301"/>ge vous amerai vraiement, 
+<lb n="302"/>mais une cose vous deffent, 
+<lb n="303"/>que ne dites parole aperte 
+<lb n="304"/>dont nostre amors soit descoverte. 
+<lb n="305"/>Ge vos donrai molt ricement 
+<lb n="306"/>deniers e dras, or e argent. 
+<lb n="307"/>Molt ert l'amors bone entre nous, 
+<lb n="308"/>nuit et jor gerrai aveuc vous, 
+<lb n="309"/>dalés vous me verés aler,
+<pb n="107"/>
+<lb n="310"/>a moi porrés rire e parler, 
+<lb n="311"/>n'avrés conpaignon qui me voie, 
+<lb n="312"/>ne qui ja sace qui je soie. 
+<lb n="313"/>Graelent, vox estes loiaus, 
+<lb n="314"/>prox e cortois, e assés biax ; 
+<lb n="315"/>por vous ving jou a la fontainne, 
+<lb n="316"/>por vos souferai jou grant painne, 
+<lb n="317"/>bien savoie ceste aventure. 
+<lb n="318"/>Mais or soiiés de grant mesure, 
+<lb n="319"/>gardés que pas ne vous vantés 
+<lb n="320"/>de cose par quoi me perdés. 
+<lb n="321"/>Un an vous covenra, amis, 
+<lb n="322"/>sejorner pres de cest païs, 
+<lb n="323"/>errer poés dex mois entiers, 
+<lb n="324"/>mais ça soit vostre repairiers, 
+<lb n="325"/>por cou que j'aim ceste contree. 
+<lb n="326"/>Alés vous ent, none est sonee, 
+<lb n="327"/>mon mesage vos trametrai, 
+<lb n="328"/>ma volenté vos manderai. »</q>
+<lb n="329"/>Graelens prent a li congié, 
+<lb n="330"/>elle l'acole e a baisié. 
+<lb n="331"/>Il est a son ostel venus, 
+<lb n="332"/>de son ceval est descendus, 
+<lb n="333"/>en une canbre seus entra, 
+<lb n="334"/>a la fenestra s'apoia, 
+<lb n="335"/>de s'aventure mout pensis. 
+<lb n="336"/>Vers le bos a torné son vis, 
+<lb n="337"/>un vallet vit venir errant
+<pb n="108"/>
+<lb n="338"/>desor un palefroi anblant. 
+<lb n="339"/>Desi a l'ostel Graelent 
+<lb n="340"/>en est venus qu'ainc ne descent ; 
+<lb n="341"/>au cevalier en est venus 
+<lb n="342"/>e il est contre lui salus. 
+<lb n="343"/>Demande li dont il venoit, 
+<lb n="344"/>com avoit non e qui estoit. 
+<lb n="345"/><q>« Sire, dist il, ne dotés mie, 
+<lb n="346"/>je sui mesages vostre amie. 
+<lb n="347"/>Cest destrier par moi vos envoie, 
+<lb n="348"/>ensanble o vous veul que je soie, 
+<lb n="349"/>vos gages vos aquiterai, 
+<lb n="350"/>de vostre hostel garde prendrai. »</q> 
+<lb n="351"/>Quant Graelens ot la novele 
+<lb n="352"/>qui molt li sanble boine e bele, 
+<lb n="353"/>le vallet baise boinement ; 
+<lb n="354"/>e puis a reçut le present, 
+<lb n="355"/>le destrier, sos ciel n'a si bel, 
+<lb n="356"/>ne mix corant, ne plus isnel ; 
+<lb n="357"/>en l'estable par soi le met 
+<lb n="358"/>e le cacëor au vallet. 
+<lb n="359"/>Cil a sa male destorsee, 
+<lb n="360"/>en la canbre l'en a portee, 
+<lb n="361"/>puis l'a overte e desfremee. 
+<lb n="362"/>Une grant coute en a getee, 
+<lb n="363"/>d'un rice paile ovree fu, 
+<lb n="364"/>d'autre part d'un rice boufu. 
+<lb n="365"/>Met le sor le lit Graelent, 
+<lb n="366"/>aprés met sus or e argent,
+<pb n="109"/>
+<lb n="367"/>boins dras a son segnor vestir. 
+<lb n="368"/>Aprés fait son oste venir, 
+<lb n="369"/>deniers li baille a grant plenté, 
+<lb n="370"/>si li a dit e comandé 
+<lb n="371"/>que ses sires ert aquités 
+<lb n="372"/>e ses hostex bien acontés. 
+<lb n="373"/>Gart qu'asés i ait a mangier, 
+<lb n="374"/>e s'en la vile a cevalier 
+<lb n="375"/>que sejorner voille tot coi 
+<lb n="376"/>qu'il en amaint ensanle o soi. 
+<lb n="377"/>Li hostes fu prox e cortois 
+<lb n="378"/>e molt vaillans comme borgois. 
+<lb n="379"/>Rice conroi fist atorner, 
+<lb n="380"/>par le vile fait demander 
+<lb n="381"/>les cevaliers mesaaisiés 
+<lb n="382"/>e les prisons e les croisiés. 
+<lb n="383"/>A l'ostel Graelent les mainne, 
+<lb n="384"/>de l'honerer forment se paine. 
+<lb n="385"/>Assés i eut joué la nuit 
+<lb n="386"/>d'estrumens e d'autre deduit. 
+<lb n="387"/>La nuit fu Graelens haitiés, 
+<lb n="388"/>e ricement apareilliés ; 
+<lb n="389"/>grans dons dona as harpëors, 
+<lb n="390"/>as prisons e as guoors. 
+<lb n="391"/>N'avoit borgois en la cité 
+<lb n="392"/>qui li eüst avoir presté, 
+<lb n="393"/>qu'il ne li doinst e face honor,
+<pb n="110"/>
+<lb n="394"/>tant qu'il le tienent a segnor.
+<lb n="395"/>Des or est Graelens a aise, 
+<lb n="396"/>ne voit mais rien qui li deplaise ; 
+<lb n="397"/>s'amie voit les lui aler, 
+<lb n="398"/>a li se puet rire e juer. 
+<lb n="399"/>La nuit le sent dejoste lui ; 
+<lb n="400"/>coment puet il avoir anui ? 
+<lb n="401"/>Graelens orre molt souvent ; 
+<lb n="402"/>el païs n'a tornoiement 
+<lb n="403"/>dont il ne soit tos li premiers ; 
+<lb n="404"/>mout est amés des cevaliers. 
+<lb n="405"/>Or a Graelens boine vie 
+<lb n="406"/>e molt grant joie de s'amie. 
+<lb n="407"/>Se ce li puet longes durer, 
+<lb n="408"/>ja ne devroit el demander. 
+<lb n="409"/>Ensi fu bien un an entier, 
+<lb n="410"/>tant que li rois dut ostoiier. 
+<lb n="411"/>A pentecoste cascun an, 
+<lb n="412"/>semounoit ses barons par ban. 
+<lb n="413"/>Tot cex qui de lui rien tenoient 
+<lb n="414"/>e a sa cort o lui mangeoient, 
+<lb n="415"/>servoient le par grant amor. 
+<lb n="416"/>Quant mengié avoient le jor, 
+<lb n="417"/>la roïne faisoit monter 
+<lb n="418"/>sor un haut banc e deffubler. 
+<lb n="419"/>Puis demandoit a tos ensanble : 
+<lb n="420"/><q>« Segnor baron, que vos en sanble ? 
+<lb n="421"/>A sousiel plus bele roïne, 
+<lb n="422"/>pucele, dame ne mescine ? »</q> 
+<lb n="423"/>A tox le convenoit loer, 
+<lb n="424"/>e au roi dire e afremer 
+<lb n="425"/>k'il ne sevent nule si bele,
+<pb n="111"/>
+<lb n="426"/>mescine, dame ne pucele. 
+<lb n="427"/>N'i ot un seul ne le prisast 
+<lb n="428"/>e sa biaté ne li loast, 
+<lb n="429"/>fors Graelent qui s'en taisoit ; 
+<lb n="430"/>a soi meïsme s'en rioit, 
+<lb n="431"/>en son cuer pensoit a s'amie. 
+<lb n="432"/>Des autres tenoit a folie 
+<lb n="433"/>ki de totes pars s'escrioient 
+<lb n="434"/>e la roïne si looient. 
+<lb n="435"/>Son cief covri, son vis baisa, 
+<lb n="436"/>e la roïne l'esgarda, 
+<lb n="437"/>le roi le mustra, son segnor. 
+<lb n="438"/><q>« Voiiés, sire, ques deshonor ! 
+<lb n="439"/>N'avés baron ne m'ait loee 
+<lb n="440"/>fors Graelent qui m'a gabee. 
+<lb n="441"/>Bien sai qu'il m'a pieça haïe, 
+<lb n="442"/>je cuit qu'il a de moi envie. » </q>
+<lb n="443"/>Li rois apela Graelent, 
+<lb n="444"/>demande li oiant la gent, 
+<lb n="445"/>par la foi que il li devoit, 
+<lb n="446"/>qui ses naturex hom estoit, 
+<lb n="447"/>ne li celast, ains li desist 
+<lb n="448"/>por quoi baisa son cief e rist. 
+<lb n="449"/>Graelens respondi au roi :
+<pb n="112"/>
+<lb n="450"/><q>« Sire, dist il, entent a moi. 
+<lb n="451"/>Onques mais hom de ton parage 
+<lb n="452"/>ne fist tel fait, ne tel folage ; 
+<lb n="453"/>de ta femme fais mostroson, 
+<lb n="454"/>qu'il n'a çaiens un seul baron 
+<lb n="455"/>qui tu ne le faces loer ; 
+<lb n="456"/>dient qu'il n'a sous siel sa per. 
+<lb n="457"/>Por voir vos di une novele : 
+<lb n="458"/>on puet assés trover plus bele. » </q>
+<lb n="459"/>Li rois l'oï, molt l'en pesa, 
+<lb n="460"/>par sairement le conjura 
+<lb n="461"/>s'il en savoit nule plus gente.
+<lb n="462"/><q>« O je, dist il, qui vaut tes trente. »</q>
+<lb n="463"/>La roïne mout s'en mari, 
+<lb n="464"/>a son segnor cria merci, 
+<lb n="465"/>c'au cevalier face amener 
+<lb n="466"/>celi qu'il i oï loer 
+<lb n="467"/>e dont i fait si grant vantance.
+<lb n="468"/><q>« Entre nos dex soit la mostrance ; 
+<lb n="469"/>s'ele est si bele, quite en soit,
+<lb n="470"/>u se ce non, faites m'en droit 
+<lb n="471"/>del mesdit e de le blastenge. »</q>
+<lb n="472"/>Li rois comande c'on le prenge, 
+<lb n="473"/>n'avra de lui amor ne pais, 
+<lb n="474"/>de prison n'istera jamais, 
+<lb n="475"/>se cele n'est avant mostree 
+<lb n="476"/>que de biauté a tant loee.
+<lb n="477"/>Graelens est pris a tenus, 
+<lb n="478"/>mix li venist estre teüs.
+<pb n="113"/>
+<lb n="479"/>Au roi a demandé respit, 
+<lb n="480"/>bien s'aperçoit qu'il a mesdit. 
+<lb n="481"/>S'amie en cuide avoir perdue, 
+<lb n="482"/>d'ire e de mautalent tresue. 
+<lb n="483"/>Ja est bien drois que mal li tort, 
+<lb n="484"/>plusor l'en plaignent en la cort, 
+<lb n="485"/>le jor eut entor lui grant prese. 
+<lb n="486"/>Dusqu'a l'autre an li rois le lesse, 
+<lb n="487"/>ke sa feste rasanblera ; 
+<lb n="488"/>tos ses amis i mandera 
+<lb n="489"/>e ses barons e ses fievés. 
+<lb n="490"/>La soit Graelens amenés, 
+<lb n="491"/>celi amaint ensanble o soi 
+<lb n="492"/>que tant loa devant le roi. 
+<lb n="493"/>S'ele est si bele e si vaillans 
+<lb n="494"/>bien li pora estre varans, 
+<lb n="495"/>cuites en ert, rien n'i perdra ; 
+<lb n="496"/>e s'el ne vient, jugiés sera, 
+<lb n="497"/>en la merci le roi en iert, 
+<lb n="498"/>assés set ceu qu'il i afiert.
+<lb n="499"/>Graelens est de cort partis, 
+<lb n="500"/>tristes, coreçous e maris ; 
+<lb n="501"/>montés est sor un boin destrier, 
+<lb n="502"/>a son hostel va herbegier. 
+<lb n="503"/>Son canbrelenc a demandé, 
+<lb n="504"/>mes il n'en a mie trové
+<pb n="114"/>
+<lb n="505"/>que s'amie li eut tramis. 
+<lb n="506"/>Or est Graelens entrepris, 
+<lb n="507"/>mix vauroit estre mors que vis. 
+<lb n="508"/>En une canbre s'est sex mis, 
+<lb n="509"/>a s'amie crie merci, 
+<lb n="510"/>por Diu, qu'il puist parler a li. 
+<lb n="511"/>Ne li vaut rien, n'i parlera, 
+<lb n="512"/>devant un an ne le verra, 
+<lb n="513"/>ne ja n'avra de li confort, 
+<lb n="514"/>ains ert jugiés pres de le mort.
+<lb n="515"/>Graelens maine grant dolor, 
+<lb n="516"/>il n'a repos ne nuit ne jor. 
+<lb n="517"/>Quant s'amie ne puet avoir, 
+<lb n="518"/>sa vie met en noncaloir, 
+<lb n="519"/>qu'ançois que li ans fust passés 
+<lb n="520"/>fu Graelens si adolés 
+<lb n="521"/>que il n'a force ne vertu. 
+<lb n="522"/>Ce dïent cil qui l'ont veü, 
+<lb n="523"/>mervelle est qu'il a tant duré. 
+<lb n="524"/>Al jor que li rois ot nomé 
+<lb n="525"/>ke sa feste devoit tenir, 
+<lb n="526"/>li rois a fait grant gent venir. 
+<lb n="527"/>Li plege amainent Graelent 
+<lb n="528"/>devant le roi en son present. 
+<lb n="529"/>Il li demande u est s'amie. 
+<lb n="530"/><q>« Sire, dist il, n'en amain mie, 
+<lb n="531"/>ge ne le puis noient avoir. 
+<lb n="532"/>Faites de moi vostre voloir. »</q>
+<lb n="533"/>Li rois respont : <q>« Dant Graelent, 
+<lb n="534"/>trop parlastes vilainement, 
+<lb n="535"/>vers la roïne mespreïstes, 
+<lb n="536"/>e tos mes barons desdeïstes. 
+<lb n="537"/>Jamais d'autre ne mesdirés,
+<pb n="115"/>
+<lb n="538"/>quant de mes mains departirés. »</q> 
+<lb n="539"/>Li rois parole hautement : 
+<lb n="540"/><q>« Segnor, dist il, del jugement 
+<lb n="541"/>vos pri que ne le deportés, 
+<lb n="542"/>selonc le dit qu'oï avés 
+<lb n="543"/>ke Graelens oiant vous dist 
+<lb n="544"/>e en ma cort honte me fist. 
+<lb n="545"/>Ne m'aimme pas de boine amor 
+<lb n="546"/>qui ma femme dist deshonor. 
+<lb n="547"/>Ki volentiers fiert vostre cien, 
+<lb n="548"/>ja mar querés qu'il vos aint bien. »</q>
+<lb n="549"/> Cil de le cort sont fors alé, 
+<lb n="550"/>al jugement sont asanblé. 
+<lb n="551"/>Une grant piece sont tot coi, 
+<lb n="552"/>qu'i n'i ot noise ne effroi ; 
+<lb n="553"/>molt lor poise del cevalier, 
+<lb n="554"/>s'il le voulent par mal jugier.
+<lb n="555"/>Ains que nus d'ex mot i parlast, 
+<lb n="556"/>ne le parole racontast, 
+<lb n="557"/>vint uns vallés, qui lor a dit 
+<lb n="558"/>qu'il atendissent un petit ; 
+<lb n="559"/>en la cort vienent dex puceles, 
+<lb n="560"/>el roiame n'avoit plus beles ; 
+<lb n="561"/>al cevalier molt aideront, 
+<lb n="562"/>se Diu plaist, sel delivreront. 
+<lb n="563"/>Cil ont volentiers atendu ; 
+<lb n="564"/>ains que d'iloeuc soient meü, 
+<lb n="565"/>sont les damoiseles venues, 
+<lb n="566"/>de grant biauté e bien vestues.
+<pb n="116"/>
+<lb n="567"/>Bien sont en deux blïaus lacies,
+<lb n="568"/>graisles forment e bien delgies.
+<lb n="569"/>De lor palefrois descendirent,
+<lb n="570"/>a dex vallés tenir les firent,
+<lb n="571"/>en la sale vindrent au roi.
+<lb n="572"/><q>« Sire, dist l'une, entent a moi.
+<lb n="573"/>Ma damoisele nos comande,
+<lb n="574"/>e par nos dex vos prie e mande
+<lb n="575"/>c'un poi faites soufrir cest plait
+<lb n="576"/>e qu'il n'i ait jugement fait.
+<lb n="577"/>Ele vient ci a toi parler,
+<lb n="578"/>por le cevalier delivrer. »</q>
+<lb n="579"/>Ains que cele eüst dit son conte,
+<lb n="580"/>eut la roïne mout grant honte.
+<lb n="581"/>Ne demoura gaires aprés,
+<lb n="582"/>devant le roi en son palés
+<lb n="583"/>vinrent dex autres molt plus gentes,
+<lb n="584"/>de color blances e roventes.
+<lb n="585"/>Au roi dïent qu'il atendist
+<lb n="586"/>que lor damoisele venist.
+<lb n="587"/>Mout furent celes esgardees
+<lb n="588"/>e lor biauté de toz loees ;
+<lb n="589"/>de plus beles en i avoit
+<lb n="590"/>que la roïne n'en estoit.
+<lb n="591"/>Et quant lor damoisele vint, 
+<lb n="592"/>tote la cort a li se tint. 
+<lb n="593"/>Mout ert bele de grant maniere, 
+<lb n="594"/>a dox sanblant, o simple ciere, 
+<lb n="595"/>biax ex, biax vis, bele façon, 
+<lb n="596"/>en li n'a nient de mesproison ; 
+<lb n="597"/>tot l'esgarderent a merveille.
+<pb n="117"/>
+<lb n="598"/>D'une porpre toute vermeille 
+<lb n="599"/>a or brosdee estroitement, 
+<lb n="600"/>estoit vestue ricement ; 
+<lb n="601"/>ses mantiax valoit <num>.I.</num> castel. 
+<lb n="602"/>Un palefroi ot boin e bel ; 
+<lb n="603"/>ses frains, sa sele e ses lorains 
+<lb n="604"/>valoit mil livres de cartains. 
+<lb n="605"/>Por li vëoit iscent tot hors, 
+<lb n="606"/>son vis loerent e son cors 
+<lb n="607"/>e son sanlant e sa faiture. 
+<lb n="608"/>Ele venoit grant aleüre, 
+<lb n="609"/>devant le roi vint a ceval, 
+<lb n="610"/>nus ne li puet torner a mal. 
+<lb n="611"/>A pie descent emmi la place, 
+<lb n="612"/>son palefroi pas n'i atace. 
+<lb n="613"/>Au roi parla cortoisement : 
+<lb n="614"/><q>« Sire, fait ele, a moi entent, 
+<lb n="615"/>e vous trestout segnor baron, 
+<lb n="616"/>entendés ça a ma raison. 
+<lb n="617"/>Asés savés de Graelent, 
+<lb n="618"/>qu'il dist au roi devant sa gent 
+<lb n="619"/>au tan a se grant asanblee 
+<lb n="620"/>quant la roïne fu mostree, 
+<lb n="621"/>ke plus bele femme ot veüe ; 
+<lb n="622"/>ceste parole est bien seüe. 
+<lb n="623"/>Verités est il mesparla, 
+<lb n="624"/>puisque li rois s'en coreça. 
+<lb n="625"/>Mais de ce dist il verité : 
+<lb n="626"/>n'est nule de si grant biauté, 
+<lb n="627"/>que autre si bele ne soit. 
+<lb n="628"/>Or esgardés, sin dites droit.
+<pb n="118"/>
+<lb n="629"/>Se par moi s'en puet aquiter, 
+<lb n="630"/>li rois li doit quite clamer. »</q> 
+<lb n="631"/>N'i ot un seul petit ne grant, 
+<lb n="632"/>ki ne desist bien en oiant, 
+<lb n="633"/>qu'ensanble li a tel mescine 
+<lb n="634"/>qui de biauté vaut la roïne. 
+<lb n="635"/>Li rois meïsmes a jugié 
+<lb n="636"/>devant sa cort e otroié 
+<lb n="637"/>que Graelens est aquités, 
+<lb n="638"/>bien doit estre quites clamés.
+<lb n="639"/>Dementres que li plais dura, 
+<lb n="640"/>Graelens pas ne s'oublia. 
+<lb n="641"/>Son blanc ceval fist amener, 
+<lb n="642"/>o s'amie s'en veut aler. 
+<lb n="643"/>Quant ele ot fait çou qu'ele quist 
+<lb n="644"/>e ot oï que li cors dist, 
+<lb n="645"/>congié demande e prent del roi 
+<lb n="646"/>e monte sor son palefroi. 
+<lb n="647"/>De la sale se departi, 
+<lb n="648"/>ses puceles ensanble o li. 
+<lb n="649"/>Graelens monte e vait aprés 
+<lb n="650"/>par mi le vile a grant eslés ; 
+<lb n="651"/>tozjors li va merci criant, 
+<lb n="652"/>el ne respont ne tant ne quant. 
+<lb n="653"/>Tant ont lor droit cemin tenu, 
+<lb n="654"/>qu'il sont a le forest venu ; 
+<lb n="655"/>par mi le bos lor voie tinrent, 
+<lb n="656"/>desi qu'a le riviere vinrent
+<pb n="119"/>
+<lb n="657"/>ki en une lande sordoit 
+<lb n="658"/>e par mi le forest couroit. 
+<lb n="659"/>Mout en ert l'iaue blance e bele ; 
+<lb n="660"/>dedens se met la damoisele. 
+<lb n="661"/>Graelens veut aprés aler, 
+<lb n="662"/>mais el li comence a crier : 
+<lb n="663"/><q>« Fui, Graelent, n'i entre pas. 
+<lb n="664"/>Se tu t'i mes, tu noieras. »</q> 
+<lb n="665"/>Il ne se prent de ce regart, 
+<lb n="666"/>aprés se met, trop li est tart. 
+<lb n="667"/>L'eve li clot deseur le front, 
+<lb n="668"/>a grant painne resort amont. 
+<lb n="669"/>Mais el l'a par la renne pris, 
+<lb n="670"/>a terre l'a ariere mis. 
+<lb n="671"/>Puis li dist qu'il n'i peut passer, 
+<lb n="672"/>ja tant ne s'en sara pener ; 
+<lb n="673"/>commande li que voist ariere. 
+<lb n="674"/>Ele se met en la riviere, 
+<lb n="675"/>mais il ne puet mie soufrir 
+<lb n="676"/>que de lui le voie partir. 
+<lb n="677"/>En l'eve entre tout a ceval, 
+<lb n="678"/>l'onde l'enporte contreval, 
+<lb n="679"/>departi l'a de son destrier. 
+<lb n="680"/>Graelens fu pres de noiier, 
+<lb n="681"/>quant les puceles s'escrierent 
+<lb n="682"/>ki aveuc la damoisele erent : 
+<lb n="683"/><q>« Damoisele, por Dieu merci, 
+<lb n="684"/>aiés pitié de vostre ami. 
+<lb n="685"/>Veés, il noie a grant dolor ;
+<pb n="120"/>
+<lb n="686"/>alas, mar vit onque le jor 
+<lb n="687"/>ke vos primes a lui parlastes 
+<lb n="688"/>e vostre amor li otroiastes. 
+<lb n="689"/>Dame, voiiés, l'onde l'en mainne, 
+<lb n="690"/>por Diu, car le getés de painne. 
+<lb n="691"/>Mout est grans dex s'il doit morir, 
+<lb n="692"/>coment le poeut vos coeurs soufrir ? 
+<lb n="693"/>Trop par li estes ore dure, 
+<lb n="694"/>aidiés li, car en prenés cure. 
+<lb n="695"/>Damoisele, vostre amis nie, 
+<lb n="696"/>soffrés qu'il ait un peu d'aïe ; 
+<lb n="697"/>vous avés de lui grant pecié. »</q> 
+<lb n="698"/>La damoisele en ot pitié 
+<lb n="699"/>de çou qu'ele les ot si plaindre, 
+<lb n="700"/>ne se puet mais celer ne faindre. 
+<lb n="701"/>Hastivement est retornee, 
+<lb n="702"/>a le riviere en est alee, 
+<lb n="703"/>par les flans saisist son ami, 
+<lb n="704"/>si l'en amaine ensanble o li. 
+<lb n="705"/>Quant d'autre part sont arivé, 
+<lb n="706"/>ses dras moulliés li a osté, 
+<lb n="707"/>de son mantel l'a afublé, 
+<lb n="708"/>en sa terre l'en a mené. 
+<lb n="709"/>Encor dïent cil du païs 
+<lb n="710"/>que Graelens i est tous vis. 
+<lb n="711"/>Ses destriers qu'i donc escapa,
+<pb n="121"/>
+<lb n="712"/>por son segnor grant dol mena ; 
+<lb n="713"/>en le forest fist son retor, 
+<lb n="714"/>ne fu en pais ne nuit ne jor, 
+<lb n="715"/>des piés grata, forment heni, 
+<lb n="716"/>par le contree fu oï. 
+<lb n="717"/>Prendre cuident e retenir, 
+<lb n="718"/>onques nus d'aus nel pot saisir. 
+<lb n="719"/>Il ne voloit nului atendre, 
+<lb n="720"/>nus ne le puet lacier ne prendre. 
+<lb n="721"/>Mout lonc tans aprés l'oï on 
+<lb n="722"/>cascun an en cele saison 
+<lb n="723"/>que se sire parti de li, 
+<lb n="724"/>le noise e le friente e le cri 
+<lb n="725"/>ke li bons cevaus demenot 
+<lb n="726"/>por son segnor que perdu ot. 
+<lb n="727"/>L'aventure du bon destrier, 
+<lb n="728"/>l'aventure du cevalier, 
+<lb n="729"/>com il s'en ala o s'amie, 
+<lb n="730"/>fu par tote Bretaigne oïe. 
+<lb n="731"/>Un lai en firent li Breton, 
+<lb n="732"/>Graalent Mor l'apela on.
+				</ab>
+</div>
+</body>
+</text>
+</TEI>

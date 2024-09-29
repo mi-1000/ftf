@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="fr">
+  <fileDesc>
+    <titleStmt>
+      <title type="main">Psautier de l'Orne</title>
+      <title type="formal">PsOrne</title>
+      <title type="reference">PsOrne</title>
+      <title type="DEAF">PsOrneS</title>
+      <title type="gmd">transcription électronique</title>
+      <author xml:id="anonyme">anonyme</author>
+      <editor>Équipe de la Base de français médiéval - ENS de Lyon / UMR 5317 IHRIM</editor>
+      <funder>Laboratoire IHRIM</funder>
+      <funder>ANR (projet CoRPTeF)</funder>
+    </titleStmt>
+    <editionStmt>
+      <edition>transcripion électronique</edition>
+      <respStmt xml:id="encoder2">
+        <resp>validation finale</resp>
+        <name xml:id="AL">Alexei Lavrentiev</name>
+      </respStmt>
+      <respStmt xml:id="digitizer2">
+        <resp>océrisation</resp>
+        <name xml:id="CICL">CICL</name>
+      </respStmt>
+      <respStmt xml:id="proofreader2">
+        <resp>deuxième relecture et vérification du balisage</resp>
+        <name xml:id="CP">Cinzia Pignatelli</name>
+      </respStmt>
+      <respStmt xml:id="proofreader1">
+        <resp>première relecture</resp>
+        <name xml:id="CS">Claire Sonnefraud</name>
+      </respStmt>
+    </editionStmt>
+    <extent>- Numéros de pages saisies : de 166 à 171 ;
+            - Nombre de mots d'après la base des descripteurs : <num xml:id="nb_mots_given">708</num> ;
+            - Nombre de tokens (mots et ponctuations) d'après la base des descripteurs : <num xml:id="nb_tokens_given">800</num>.
+    </extent>
+    <publicationStmt>
+      <publisher><name>Projet BFM, ENS de Lyon / UMR 5317 IHRIM</name></publisher>
+      <address>
+        <addrLine>15, parvis René Descartes</addrLine>
+        <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+        <addrLine>Tél : 04 37 37 63 10</addrLine>
+        <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+        <addrLine>http://bfm.ens-lyon.fr</addrLine>
+      </address>
+      <idno type="bfm">http://catalog.bfm-corpus.org/PsOrne</idno>
+      <idno type="doi">10.34847/nkl.0abavpd9</idno>
+      <availability status="free">
+        <licence target="https://www.etalab.gouv.fr/licence-ouverte-open-licence">
+          <ab type="availability_bfm" subtype="libre_1d">Les Conditions générales d'utilisation de la Base de Français Médiéval (http://txm.bfm-corpus.org/bfm/files/CGU.pdf), 
+            et notamment son Article 5 « PROPRIETE INTELLECTUELLE », s'appliquent à tous les textes de la BFM.</ab>
+          <ab type="how_to_cite">
+            <label>Comment citer ce texte :</label>
+            <bibl>Psautier de l'Orne, édité par Charles Samaran, Paris, 1929. 
+              Publié en ligne par la Base de français médiéval, http://catalog.bfm-corpus.org/PsOrne.
+              Dernière révision le 2013-08-05.</bibl>
+            D'autres formules de citation de la BFM sont proposées sur la page web suivante :
+            http://bfm.ens-lyon.fr/article.php3?id_article=281.</ab>
+          <ab type="availability_file">
+            <label>Conditions d'utilisation de ce fichier :</label>
+              Ce fichier numérique est composé du corps de texte médiéval et des suppléments numériques : balisage XML-TEI, métadonnées (teiHeader). Le texte et les suppléments numériques sont libres de droit et peuvent à ce titre être téléchargés et réutilisés librement.
+            </ab>
+            <ab type="availability_txmweb" subtype="illimité">
+              <label>Conditions d'utilisation par le portail BFM :</label>
+              Pas de limitation dans l'usage des fonctionnalités. Téléchargement autorisé.</ab>
+        </licence>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>Fragment d'une traduction en prose française du Psautier composée en Angleterre au XIIe siècle</title>
+          <respStmt>
+            <resp xml:id="editor">Éditeur scientifique</resp>
+            <name type="person">Charles Samaran</name>
+          </respStmt>
+        </titleStmt>
+          <extent>6 page(s), soit 166-171
+        </extent>
+        <publicationStmt>
+          <publisher>Société des amis de la Romania</publisher>
+          <pubPlace>Paris</pubPlace>
+          <date>1929</date>
+          <idno type="sigle_DEAF">PsOrneS</idno>
+          <idno type="cote_biblio">Gallica : NUMP-542</idno>
+          <availability>
+            <p>Lien éditeur : <ref target="http://gallica.bnf.fr/ark:/12148/bpt6k16063h/f172.image">Édition en ligne</ref></p></availability>
+        </publicationStmt>
+      </biblFull>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p>Projet :<name type="project">BFM - Base de français médiéval</name>
+        Resp. : <name type="person">Céline Guillot-Barbance</name>
+        Équipe : Base de français médiéval
+        Laboratoire : UMR 5317 IHRIM
+        Institution : ENS de Lyon
+        <address>
+          <addrLine>15, parvis René Descartes</addrLine>
+          <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+          <addrLine>Tél : 04 37 37 63 10</addrLine>
+          <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+          <addrLine>http://bfm.ens-lyon.fr</addrLine>
+        </address>
+      </p>
+    </projectDesc>
+    <editorialDecl>
+      <p>Voir le <ref target="http://bfm.ens-lyon.fr/IMG/pdf/Manuel_Encodage_TEI.pdf">Manuel d'encodage XML-TEI de la BFM</ref>
+        et les <ref target="http://bfm.ens-lyon.fr/IMG/pdf/Consignes_BFM.pdf">Consignes aux relecteurs de la BFM</ref>.</p>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="body" occurs="1"/>
+        <tagUsage gi="div" occurs="3"/>
+        <tagUsage gi="p" occurs="52"/>
+        <tagUsage gi="pb" occurs="6"/>
+        <tagUsage gi="supplied" occurs="4"/>
+        <tagUsage gi="text" occurs="1"/>
+        <tagUsage gi="w" occurs="3"/>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <creation>
+      <name type="author">anonyme</name>
+      <title>Psautier de l'Orne</title>
+      <date type="compo" when="1150-01-01" notBefore="1100-01-01" notAfter="1199-01-01" n="12">12e s.</date>
+      <date type="compo_periode">ancien</date>
+      <date type="compo_sous_siecle" n="12_2">milieu</date>
+      <date type="ms" when="1150-01-01" notBefore="1100-01-01" notAfter="1199-01-01">12e s.</date>
+      <idno type="msIdentifier">Paris, AN, AB/XIX/1734 (anc. Alençon Arch. Dép. de l'Orne)</idno>
+      <region type="dialecte_auteur">anglo-normand</region>
+    </creation>
+    <langUsage>
+      <language ident="fro" usage="100">Le texte est entièrement écrit en prose en ancien français.</language>
+    </langUsage>
+    <textDesc>
+      <channel mode="w">print</channel>
+      <constitution type="single"/>
+      <derivation type="traduction">Bible</derivation>
+      <domain type="religieux"/>
+    <factuality type="inapplicable"/>
+      <interaction type="none"/>
+      <preparedness type="prepared"/>
+      <purpose type="narrative"/></textDesc>
+    <textClass>
+      <keywords scheme="http://authorities.bfm-corpus.org">
+        <term type="domaine">religieux</term>
+        <term type="genre">psautier</term>
+        <term type="forme">prose</term>
+        <term type="relation">traduction</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change who="#CICL" when="2008-07-21">scannage</change>
+    <change who="#CICL" when="2008-07-21">océrisation</change>
+    <change who="#AL" when="2008-08-13">préparation à la relecture 1</change>
+    <change who="#CS" when="2008-11-04">première relecture</change>
+    <change who="#AL" when="2009-01-14">création du descripteur</change>
+    <change who="#AL" when="2009-02-20">conversion en XML et balisage automatique</change>
+    <change who="#CP" when="2009-07-22">deuxième relecture et vérification du balisage</change>
+    <change who="#AL" when="2013-08-05">validation finale</change>
+    <change when="2013-08-05">Dernière modification du texte</change>
+    <change when="2022-11-04">Création de cet entête</change>
+  </revisionDesc>
+</teiHeader>
+<text>
+	    <pb n="166"/>
+		
+		<body>
+			<div type="psaume" n="LXXVII">
+<p n="45"> ... lui el desert, en ire comourent lui en nun egos.</p>
+<p n="46">  E sunt converti, e essaierent Deu e le seint d'Israel envaïrent.</p>
+<p n="47">  Ne sunt recordé de la main de lui el jur k'il reienst icels de la main del atriblant.</p>
+<p n="48">  Sicume il posa en Egipte ses signa e ses merveilles en ces lius.</p>
+<p n="49">  E converti en sanc les flueves d'icels, e les pluies d'els ke ne boüssent.</p>
+<p n="50">  Il mist en els icele beste e ele les manja, e reine e ele departit icels.</p>
+<p n="51">  E dunna a ruille lur fruiz, e lur laburs a languste.</p>
+<p n="52">  E il ocist en gresle les vignies d'icels e lur moriers en gelée.</p>
+<p n="53">  E il livra a gresle lur jumenz e lur possessiunz <supplied rend="crochets" resp="#editor">a</supplied> fou.</p>
+<p n="54">  Il mist en els ire de sun desdeignement,
+<pb n="167"/>
+desdeignement e ire e tribulatiun, entermetement par mals angeles.</p>
+<p n="55">  Veie fist a la sente de s'ire, ne esparna de la mort <w><supplied resp="#editor" rend="crochets">d</supplied>e</w> lur anmes e les jumenz d'icels en la mort enclost.</p>
+<p n="56">  E ferit tuit le premierein né en la terre de Egipti, les primices de tut lur travail es tabernacles de Cham.</p>
+<p n="57">  E tolit sicume oeilles sun pueple e demena icels ensement cume greu en desert.</p>
+<p n="58">  E demena icels en esperance e ne crenstrent, e lur enemis cuvrit la mer.</p>
+<p n="59">  E les demena el munt de sa santificatiun, munt lequel aquist la destre de lui.</p>
+<p n="60">  E geta de la faice d'icels les genz, e par sort departit a els la terre en funel de departement.</p>
+<p n="61">  E fist abiter es tabernacles d'icels les lignies d'Israel.</p>
+<p n="62">  E esseerent e espruverent Deu le halt, e les testimoines de lui ne garderent.</p>
+<pb n="168"/>
+<p n="63">  E desturnerent sei e ne garderent le cuvenant ensement cume lur peres sunt converti en felun arc.</p>
+<p n="64">  En ire cumoürent lui en li cost... e en lur creuz al segrefiement d'els le provocherent.</p>
+<p n="65">  Dex les oïd e despist e a neient ramena forment Israel.</p>
+<p n="66">  E debuta le tabernacle de Silo, sun tabernacle u il abita es umes.</p>
+<p n="67">  E dunna en chaitiveté la vertu d'icels e la bealté d'icels es mains del enemi.</p>
+<p n="68">  E enclost en glaive sun pueple e se heredité....</p>
+			</div>
+		    <div type="psaume" n="LXXXVII">
+<p n="9">  Mi oill languirent pur suffraite.</p>
+<p n="10">  Jo criei a tei, Sire, tute jur; jo estendi a tei mes meins.</p>
+<p n="11">  Dunkes feras tu merveilles as morz, u li mirie susciterunt e regehirunt a tei.</p>
+<p n="12">  Dunkes recuntera alcuns el sepulcre 
+<pb n="169"/>
+  ta misericorde e ta verté en perdicion.</p>
+<p n="13">  Dunkes cunuistrunt es teniebres tes merveilles e ta justice en la terre d'ubliance.</p>
+<p n="14">  E jeo a tei. Sire, criei e par matin desavancira tei m'ureisun.</p>
+<p n="15">  Pur quei, Sire, debutes tu m'ureisun, desturnes ta faice de mei?</p>
+<p n="16">  Jo sui povres e en travalz des ma juventé; jo eshalciez acertes sui, humiliez e trublez.</p>
+<p n="17">  En <w><supplied rend="crochets" resp="#editor">m</supplied>ei</w> trespasserent tes ires, e tes pours trublerent mei.</p>
+<p n="18">  Avirunerent mei sicume ewe tute jor, avirunerent mei ensemble.</p>
+<p n="19">  Tu esloignas de mei mun ami e mun priesme e mes connuz de misere.</p>
+		    </div>
+		    <div type="psaume" n="LXXXVIII">
+<p n="1">  Les merciz del Seignor durablement chanterei.</p>
+<p n="2">  En la generatiun e en la generatiun anuncerei ta verté en ma buche.</p>
+<pb n="170"/>
+<p n="3">  Ker tu desis : Durablement misericorde sera edefiée es ciels, sera aprestée ta verté en eals.</p>
+<p n="4">  Jo ordenei mun afermement a mes esliz, jo jurei a David mun serf gesque en la durableté apresterei jo ta semence.</p>
+<p n="5">  E jo edifierei en generatiun e en la generatiun tun siege.</p>
+<p n="6">  Li ciel regehirunt tes merveilles, Sire, e acertes ta verté en l'iglise des seinz.</p>
+<p n="7">  Ker qui es nues sera egaillié al Seignur, semblanz sera al Seignur es filz de Deu.</p>
+<p n="8">  Dex ki est glorifié el cunseil des sainz, granz e espoentables sur tuz icels ki sunt en l'avirunement de lui.</p>
+<p n="9">  Sire Dex de vertuz ki est semblables a tei ? Tu ies poanz, Sire, e ta verté en tun avirunement.</p>
+<p n="10">  Tu as seignorie de la poesté de la mer ; le movement acertes des flueves de li asuages tu.</p>
+<p n="11">  Tu umilias l'orgheillus sicume nafré, 
+<pb n="171"/> 
+  el braz de te vertu tu departis tes enemis.</p>
+<p n="12">  Tuens sunt li ciel e tue est la terre, le cercle de la terre e la plenté de li fundas tu...</p>
+<p n="13">  Aquilun e la mer crias tu. Icil monz e cel altre en tun num eshalcerunt tun braz o poance.</p>
+<p n="14">  Seit <w>afer<supplied>mée</supplied></w>...</p>
+			</div>
+		</body>
+	</text>
+</TEI>

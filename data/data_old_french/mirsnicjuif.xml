@@ -1,0 +1,2811 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="main">Miracle de saint Nicolas et d'un juif</title>
+      <title type="formal">mirsnicjuif</title>
+      <title type="reference">mirsnicjuif</title>
+      <title type="DEAF">MirSNicJuifJ</title>
+      <title type="FRANTEXT">5201</title>
+      <title type="gmd">transcription électronique</title>
+      <author xml:id="anonyme">anonyme</author>
+      <editor>Équipe de la Base de français médiéval - ENS de Lyon / UMR 5317 IHRIM</editor>
+      <funder>Laboratoire IHRIM</funder>
+    </titleStmt>
+    <editionStmt>
+      <edition>transcripion électronique</edition>
+      <respStmt xml:id="encoder2">
+        <resp>balisage de structure XML-TEI</resp>
+        <name xml:id="Acollignon">Alain Collignon</name>
+      </respStmt>
+      <respStmt xml:id="encoder0">
+        <resp>ajout de métadonnées</resp>
+        <name xml:id="AL">Alexei Lavrentiev</name>
+      </respStmt>
+      <respStmt xml:id="encoder1">
+        <resp>rétroconversion automatique d'un texte du corpus FRANTEXT, base DMF, au format TEI P4</resp>
+        <name xml:id="GSouvay">Gilles Souvay (ATILF)</name>
+      </respStmt>
+    </editionStmt>
+    <extent>- Numéros de pages saisies : de 71 à 159 ;
+            - Nombre de mots d'après la base des descripteurs : <num xml:id="nb_mots_given">10566</num> ;
+            - Nombre de tokens (mots et ponctuations) d'après la base des descripteurs : <num xml:id="nb_tokens_given">12238</num>.
+    </extent>
+    <publicationStmt>
+      <publisher><name>Projet BFM, ENS de Lyon / UMR 5317 IHRIM</name></publisher>
+      <address>
+        <addrLine>15, parvis René Descartes</addrLine>
+        <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+        <addrLine>Tél : 04 37 37 63 10</addrLine>
+        <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+        <addrLine>http://bfm.ens-lyon.fr</addrLine>
+      </address>
+      <idno type="bfm">http://catalog.bfm-corpus.org/mirsnicjuif</idno>
+    	<idno type="doi">10.34847/nkl.422d4qq6</idno>
+      <availability status="free">
+        <licence target="https://www.etalab.gouv.fr/licence-ouverte-open-licence">
+          <ab type="availability_bfm" subtype="libre_1c">Les Conditions générales d'utilisation de la Base de Français Médiéval (http://txm.bfm-corpus.org/bfm/files/CGU.pdf), 
+            et notamment son Article 5 « PROPRIETE INTELLECTUELLE », s'appliquent à tous les textes de la BFM.</ab>
+          <ab type="how_to_cite">
+            <label>Comment citer ce texte :</label>
+            <bibl>Miracle de saint Nicolas et d'un juif, édité par Omer Jodogne, GENEVE, 1982. 
+              Publié en ligne par la Base de français médiéval, http://catalog.bfm-corpus.org/mirsnicjuif.
+              Dernière révision le 2021-05-11.</bibl>
+            D'autres formules de citation de la BFM sont proposées sur la page web suivante :
+            http://bfm.ens-lyon.fr/article.php3?id_article=281.</ab>
+          <ab type="availability_file">
+            <label>Conditions d'utilisation de ce fichier :</label>
+              Ce fichier numérique est composé du corps de texte médiéval et des suppléments numériques : balisage XML-TEI, métadonnées (teiHeader). Le texte et les suppléments numériques sont libres de droit et peuvent à ce titre être téléchargés et réutilisés librement.
+            </ab>
+            <ab type="availability_txmweb" subtype="illimité">
+              <label>Conditions d'utilisation par le portail BFM :</label>
+              Pas de limitation dans l'usage des fonctionnalités. Téléchargement autorisé.</ab>
+        </licence>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>Miracle de Saint Nicolas et d'un Juif</title>
+          <respStmt>
+            <resp xml:id="editor">Éditeur scientifique</resp>
+            <name type="person">Omer Jodogne</name>
+          </respStmt>
+        </titleStmt>
+          <extent>88 page(s), soit 71-159
+        </extent>
+        <publicationStmt>
+          <publisher>Droz</publisher>
+          <pubPlace>GENEVE</pubPlace>
+          <date>1982</date>
+          <idno type="sigle_DEAF">MirSNicJuifJ</idno>
+          <idno type="cote_FRANTEXT">5201</idno>
+          <idno type="cote_biblio">D4.019 :  COR3 - JOD</idno>
+        </publicationStmt><seriesStmt><title>Textes littéraires français</title><idno type="collection">302</idno></seriesStmt>
+      </biblFull>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p>Projet :<name type="project">BFM - Base de français médiéval</name>
+        Resp. : <name type="person">Céline Guillot-Barbance</name>
+        Équipe : Base de français médiéval
+        Laboratoire : UMR 5317 IHRIM
+        Institution : ENS de Lyon
+        <address>
+          <addrLine>15, parvis René Descartes</addrLine>
+          <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+          <addrLine>Tél : 04 37 37 63 10</addrLine>
+          <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+          <addrLine>http://bfm.ens-lyon.fr</addrLine>
+        </address>
+      </p>
+      <p>Ce texte provient de la Base textuelle du <name type="project">Dictionnaire du Moyen Français</name>
+        et fait partie de la base <name type="project">FRANTEXT</name>.
+        <address>
+          <addrLine>ATILF UMR 7118 CNRS - Université de Lorraine</addrLine>
+          <addrLine>44, avenue de la Libération</addrLine>
+          <addrLine>BP 30687</addrLine>
+          <addrLine>54063 NANCY CEDEX</addrLine>
+          <addrLine>Tél : 03 54 50 53 00</addrLine>
+          <addrLine>Fax : 03 83 97 24 56</addrLine>
+          <addrLine>Courriel : contact@atilf.fr</addrLine>
+          <addrLine>http://www.atilf.fr</addrLine>
+          <addrLine>http://www.frantext.fr</addrLine>
+          <addrLine>http://www.atilf.fr/dmf</addrLine>
+        </address>
+      </p>
+    </projectDesc>
+    <editorialDecl>
+      <p>Voir le <ref target="http://bfm.ens-lyon.fr/IMG/pdf/Manuel_Encodage_TEI.pdf">Manuel d'encodage XML-TEI de la BFM</ref>
+        et les <ref target="http://bfm.ens-lyon.fr/IMG/pdf/Consignes_BFM.pdf">Consignes aux relecteurs de la BFM</ref>.</p>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="ab" occurs="584"/>
+        <tagUsage gi="abbr" occurs="12"/>
+        <tagUsage gi="back" occurs="1"/>
+        <tagUsage gi="body" occurs="1"/>
+        <tagUsage gi="castItem" occurs="18"/>
+        <tagUsage gi="castList" occurs="1"/>
+        <tagUsage gi="div" occurs="1"/>
+        <tagUsage gi="foreign" occurs="13"/>
+        <tagUsage gi="front" occurs="1"/>
+        <tagUsage gi="head" occurs="2"/>
+        <tagUsage gi="hi" occurs="21"/>
+        <tagUsage gi="lb" occurs="1671"/>
+        <tagUsage gi="num" occurs="63"/>
+        <tagUsage gi="p" occurs="4"/>
+        <tagUsage gi="pb" occurs="88"/>
+        <tagUsage gi="sp" occurs="584"/>
+        <tagUsage gi="speaker" occurs="584"/>
+        <tagUsage gi="stage" occurs="20"/>
+        <tagUsage gi="supplied" occurs="34"/>
+        <tagUsage gi="surplus" occurs="24"/>
+        <tagUsage gi="text" occurs="1"/>
+        <tagUsage gi="w" occurs="24"/>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <creation>
+      <name type="author">anonyme</name>
+      <title>Miracle de saint Nicolas et d'un juif</title>
+      <date type="compo" when="1483-01-01" notBefore="1467-01-01" notAfter="1499-01-01" n="15">fin 15e s.</date>
+      <date type="compo_periode">moyen</date>
+      <date type="compo_sous_siecle" n="15_3">fin</date>
+      <date type="ms" when="1520-01-01" notBefore="1518-01-01" notAfter="1522-12-31">ca. 1520</date>
+      <idno type="msIdentifier">BnF, Rés. Y f 1586 (imprimé)</idno>
+      <region type="dialecte_auteur">non défini</region>
+    </creation>
+    <langUsage>
+      <language ident="fro" usage="100">Le texte est entièrement écrit en vers en moyen français.</language>
+    </langUsage>
+    <textDesc>
+      <channel mode="w">print</channel>
+      <constitution type="single"/>
+      <derivation type="original"/>
+      <domain type="religieux"/>
+    <factuality type="inapplicable"/>
+      <interaction type="none"/>
+      <preparedness type="prepared"/>
+      <purpose type="narrative"/></textDesc>
+    <textClass>
+      <keywords scheme="http://authorities.bfm-corpus.org">
+        <term type="domaine">religieux</term>
+        <term type="genre">miracle</term>
+        <term type="forme">vers</term>
+        <term type="relation">original</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change who="#GSouvay" when="2005-03-30">rétroconversion automatique d'un texte du corpus FRANTEXT, base DMF, au format TEI P4</change>
+    <change who="#AL" when="2021-05-11">ajout de métadonnées</change>
+    <change who="#Acollignon" when="2021-10-26">balisage de structure XML-TEI</change>
+    <change when="2021-05-11">Dernière modification du texte</change>
+    <change when="2022-12-15">Création de cet entête</change>
+  </revisionDesc>
+</teiHeader>
+	<text>
+		<front>
+			<pb n="71"/>
+			
+			<head>
+Miracle
+De Monseigneur Sainct Nicolas.
+D'ung juif qui presta cent escus
+A ung crestien,
+A <num>XVIII</num> personnaiges.</head>
+			<p>C'est assavoir:</p>
+			<castList>
+<castItem>Le crestien</castItem>
+<castItem>La femme du crestien</castItem>
+<castItem>Le juif</castItem>
+<castItem>Mathatiel, varlet</castItem>
+<castItem>Le prestre</castItem>
+<castItem>Le premier sergent</castItem>
+<castItem>Le second sergent</castItem>
+<castItem>Sainct Nicolas</castItem>
+<castItem>Dieu</castItem>
+<castItem>Nostre Dame</castItem>
+<castItem>Gabriel</castItem>
+<castItem>Raphael</castItem>
+<castItem>Sathan</castItem>
+<castItem>Le prevost</castItem>
+<castItem>Le greffier</castItem>
+<castItem>L'advocat</castItem>
+<castItem>Le juge</castItem>
+<castItem>Le chartier</castItem>
+			</castList>
+			</front>
+		<body>
+			<pb n="73"/>
+			<sp>
+				<speaker>LE CHRESTIEN</speaker> <stage><hi rend="I">commence</hi></stage>
+<ab type="gv"><lb n="1"/><hi rend="I">Consideré le cours du temps passé</hi>
+<lb n="2"/>Que j'ay passé, de bon cueur trespassé,
+<lb n="3"/>Mal compassé, d'honneur pou amassé,
+<lb n="4"/>Tout bien pensé, ne sçay que doye faire.
+<lb n="5"/>De Povreté me voy tout embrassé,
+<lb n="6"/>Si enlassé que suis tout lassé,
+<lb n="7"/>Si entassé, de honte et dueil cassé,
+<lb n="8"/>Mocqué, farcé que plus ne me peux taire.
+<lb n="9"/>Quant je pense en ce tres dur affaire,
+<lb n="10"/>Sans plus braire, me vousisse deffaire,
+<lb n="11"/>Car contraire voy Malheur sur moy traire
+<lb n="12"/>Et atraire sans estre soulassé.
+<lb n="13"/>Las, sans soulas voy l'orrible viaire
+<lb n="14"/>Se pourtraire, que point ne me peut plaire!
+<lb n="15"/>Dont ma vie me commence a deplaire,
+<lb n="16"/>Considéré le cours du temps passé.
+<lb n="17"/>Je peulx bien dire helas
+<lb n="18"/>Quant je me voy es las
+<lb n="19"/>D'infortuné soulas,
+<lb n="20"/>Sans aucune esperance.
+<lb n="21"/>Helas, las, helas, las,
+<lb n="22"/>Consideré mon cas
+<lb n="23"/>Qui sonne si trescas,
+<lb n="24"/>N'est que desesperance.
+<lb n="25"/>Fortune par oultrance
+<lb n="26"/>Me tient icy en trance
+<lb n="27"/>Sans nulle recouvrance,
+<lb n="28"/>Mais malheur a grant tas.
+<lb n="29"/>Quant je voy ceste dance
+<lb n="30"/>Qu'i convient que je dance
+<lb n="31"/>En angoisse et meschance,
+<lb n="32"/>Je peulx bien dire helas.
+			<pb n="74"/>
+
+<lb n="33"/>Helas, je me suis veu puissant,
+<lb n="34"/>Jouissant
+<lb n="35"/>D'or, d'argent et de monnoye!
+<lb n="36"/>Par Povreté suis impuissant,
+<lb n="37"/>Gemissant,
+<lb n="38"/>Privé de tout honneur et joye.
+<lb n="39"/>J'ay veu qu'en marchandise alloye,
+<lb n="40"/>Marchandoye
+<lb n="41"/>Et estoye en bruit terrien.
+<lb n="42"/>Des biens de Fortune avoye,
+<lb n="43"/>Gaudissoye,
+<lb n="44"/>Et maintenant je n'ay plus rien.
+<lb n="45"/>Mon mauldit maintien
+<lb n="46"/>De gouvernement
+<lb n="47"/>Si me fait de bien:
+<lb n="48"/>Le voy clerement.
+<lb n="49"/>De maulx largement
+<lb n="50"/>Auray tous ensemble.
+<lb n="51"/>Brief, il faudra finablement,
+<lb n="52"/>Se j'en vueil avoir, que j'en emble.
+<lb n="53"/>Embler, c'est mal dit.
+<lb n="54"/>On pent les larrons,
+<lb n="55"/>Ha, sans contredit.
+<lb n="56"/>Brief, nous en aurons.
+<lb n="57"/>A l'oeil nous voyons
+<lb n="58"/>Que bref n'on n'a rien
+<lb n="59"/>Que ne pourchasse les façons
+<lb n="60"/>D'avoir d'autruy avec le sien.
+<lb n="61"/>Qu'en dictes vous, ma chere amye?
+<lb n="62"/>Declarez vostre oppinion.
+<lb n="63"/>Plus n'avons ne crute ne mye:
+<lb n="64"/>Tout est mis en destruction.
+<lb n="65"/>Vous voyez la conclusion
+<lb n="66"/>Il n'y a <hi rend="I"> <foreign xml:lang="la">fructus</foreign> </hi> ne <hi rend="I"> <foreign xml:lang="la">ventris</foreign> </hi>
+<lb n="67"/>Et, sans plus d'inquisition,
+<lb n="68"/>De tous pointz nous summes destruis.</ab></sp>
+			<pb n="75"/>
+			<sp><speaker>LA FEMME DU CRESTIEN</speaker>
+<ab type="gv"><lb n="69"/>Cher espoux, dolente j'en suis,
+<lb n="70"/>Mais tout ce vient par voz conduis,
+<lb n="71"/>De conduicte mal promenee.
+<lb n="72"/>J'en ay eu cent mauvaises nuitz,
+<lb n="73"/>De dueil, grief courroux et ennuis
+<lb n="74"/>Et en est ma joye finee.
+<lb n="75"/>Mauldicte journee,
+<lb n="76"/>L'heure que fus nee
+<lb n="77"/>Pour estre en ce point!
+<lb n="78"/>Faulse Destinee,
+<lb n="79"/>Fortune obstinee
+<lb n="80"/>Qui trop fort nous point!</ab></sp>
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv"><lb n="81"/>Chanter nous fault ce contrepoint:
+<lb n="82"/>Force n'est droit.</ab></sp>
+			
+<sp><speaker>LA FEMME</speaker>
+<ab type="gv">Je l'entens bien,
+<lb n="83"/>Mais tout vient par vostre moyen.</ab></sp>
+			
+<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv"><lb n="84"/>Nous sommes tous desprins et mis,
+<lb n="85"/>Mocqué de grans et de petis.
+<lb n="86"/>On nous monstre au doit.</ab></sp>
+			
+			<sp><speaker>LA FEMME</speaker>
+<ab type="gv">Que la mort
+<lb n="87"/>Ne vueil pour tout mon reconfort.</ab></sp>
+			
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab><lb n="88"/>Nous n'avons parens ne amys
+<lb n="89"/>Pour refuge; tous ennemys
+<lb n="90"/>Nous queurent sus.</ab></sp>
+			<pb n="76"/>
+
+<sp><speaker>LA FEMME</speaker>
+<ab type="gv">Je l'entens bien,
+<lb n="91"/>Mais tout vient par vostre moyen.</ab></sp>
+			
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv"><lb n="92"/>Tant avons esté honnoréz,
+<lb n="93"/>Et maintenant deshonnouréz!
+<lb n="94"/>Quel remede?</ab></sp>
+			
+<sp><speaker>LA FEMME</speaker>
+<ab>Rien que la mort
+<lb n="95"/>Ne vueil pour tout mon reconfort.</ab></sp>
+			
+			<sp><speaker>LE CRESTIEN</speaker>
+				<ab type="gv"><lb n="96"/>Les juifz ont des biens a planté.</ab></sp>
+			
+			<sp><speaker>LA FEMME</speaker>
+<ab type="gv"><lb n="97"/>Malheur si nous a supplanté.</ab></sp>
+			
+			<sp><speaker>LE CRESTIEN</speaker>
+				<ab type="gv"><lb n="98"/>Les juifz sont riches comme mer.</ab></sp>
+			
+			<sp><speaker>LA FEMME</speaker>
+<ab type="gv"><lb n="99"/>Aprés le doulx, avons l'amer.</ab></sp>
+			
+			<sp><speaker>LE CRESTIEN</speaker>
+				<ab type="gv"><lb n="100"/>Les juifz n'ont point de povreté.</ab></sp>
+			
+			<sp><speaker>LA FEMME</speaker>
+				<ab type="gv"><lb n="101"/>Et nous en grant mondicité.</ab></sp>
+			
+			<sp><speaker>LE CRESTIEN</speaker>
+				<ab type="gv"><lb n="102"/>Si sont ilz subjetz aux crestiens.</ab></sp>
+			<pb n="77"/>
+
+			<sp><speaker>LA FEMME</speaker>
+				<ab type="gv"><lb n="103"/>Nonpourtant ont planté de biens.</ab></sp>
+			
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv"><lb n="104"/>Ilz en sont heureux en ce monde.</ab></sp>
+			
+			<sp><speaker>LA FEMME</speaker>
+				<ab type="gv"><lb n="105"/>Et nous malheureté parfonde.</ab></sp>
+			
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="ab"><lb n="106"/>En servitude est nostre vie.</ab></sp>
+			
+			<sp><speaker>LA FEMME</speaker>
+				<ab type="gv"><lb n="107"/>En grant povreté asservie.</ab></sp>
+			
+			<sp><speaker>LE CRESTIEN</speaker>
+				<ab type="gv"><lb n="108"/>Par faulte de gouvernement...</ab></sp>
+			
+			<sp><speaker>LA FEMME</speaker>
+				<ab type="gv"><lb n="109"/>De vous seul et non <w>aultre<supplied>ment</supplied></w>.</ab></sp>
+			
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv"><lb n="110"/>Si nous fault trouver quelque aïde.</ab></sp>
+			
+			<sp><speaker>LA FEMME</speaker>
+				<ab type="gv"><lb n="111"/>Je n'y congnois point de remide
+<lb n="112"/>Pour y trouver quelique soulas.</ab></sp>
+			
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv"><lb n="113"/>Nous l'aurons, ainsi que je cuide,
+<lb n="114"/>Au moyen de sainct Nicolas.</ab></sp>
+			
+			<sp><speaker>LA FEMME</speaker>
+<ab type="gv"><lb n="115"/>Sainct Nicolas, amy de Dieu,
+<lb n="116"/>Requerons ton ayde et confort.</ab></sp>
+			
+			<pb n="78"/>
+			
+<sp><speaker>LE <surplus>premier</surplus> CRESTIEN</speaker>
+<ab type="gv"><lb n="117"/>Secours nous icy en ce lieu,
+	<lb n="118"/>Sainct Nicolas, amy de Dieu.</ab></sp>
+			
+			<sp><speaker>LA FEMME</speaker>
+<ab type="gv"><lb n="119"/>Nous ne voulons que son apieu.
+<lb n="120"/>Parquoy, en ce tresdur effort,
+<lb n="121"/>Sainct Nicolas, amy de Dieu,
+	<lb n="122"/>Requerons ton ayde et confort.</ab></sp>
+			
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="123"/>La conscience me remort
+<lb n="124"/>Et de long temps ay ung remort
+<lb n="125"/>Touchant nostre loy de juifrie.
+<lb n="126"/>De nulz seigneurs n'avons support.
+<lb n="127"/>Crestiens partout ont grant port,
+<lb n="128"/>Dont j'ay une griefve resverie.
+<lb n="129"/>Leur Vierge Marie,
+<lb n="130"/>Mere de Jhesus,
+<lb n="131"/>Quant on la deprie,
+<lb n="132"/>Monstre grans vertus.
+<lb n="133"/>Nostre loy est jus
+<lb n="134"/>Du tout <w>jusque<surplus>s</surplus> </w> au bas.	
+<lb n="135"/>Et de quoy m'esbahis le plus,
+<lb n="136"/>C'est des faictz <supplied>de</supplied> sainct Nicolas.	
+<lb n="137"/>Pour le vray, je ne sçay que dire:
+<lb n="138"/>Mon cueur si est tout emply d'ire.
+<lb n="139"/>Je n'y voy rime ne raison
+<lb n="140"/>De vouloir nostre loi desdire.
+<lb n="141"/>Jamais n'y vouldroye contredire:
+<lb n="142"/>A moy seroit grant trahison.
+<lb n="143"/>Toute ma maison
+<lb n="144"/>En est soubtenue;			
+			<pb n="79"/>
+			
+<lb n="145"/>Parquoy mesprison
+<lb n="146"/>Auroye encourue.
+<lb n="147"/>Ma foy est ferue
+<lb n="148"/>En ung tres fort las;
+<lb n="149"/>Mais, quant ma voulenté se mue,
+<lb n="150"/>C'est des faictz de sainct Nicolas.
+<lb n="151"/>Ce Nicolas si fait merveilles.
+<lb n="152"/>De ces miracles m'esmerveilles.
+<lb n="153"/>Le grant Dieu me garde d'errer,
+<lb n="154"/>Oncques ne vy choses pareilles.
+<lb n="155"/>Aux sours il refait les oreilles,
+<lb n="156"/>Contrefaictz il fait droit aller,
+<lb n="157"/>Aveugles veoir cler,
+<lb n="158"/>Parler les muetz,
+<lb n="159"/>Tous maulx met au cler.
+<lb n="160"/>Qui luy fait regretz,
+<lb n="161"/>Autant loings que pres,
+<lb n="162"/>Donne ces soulas.
+<lb n="163"/>Le plus qui m'esmeut en ces trés,
+<lb n="164"/>C'est des faictz de sainct Nicolas.
+<lb n="165"/>C'est tout le meilleur
+<lb n="166"/>De moins en parler.
+<lb n="167"/>Juif auront couleur
+<lb n="168"/>De bien me galler;
+<lb n="169"/>Mon mal tresaler
+<lb n="170"/>Ne ce peult du cas
+<lb n="171"/>Qui des juifz m'en feroit aler,
+<lb n="172"/>C'est des faictz de sainct Nicolas.
+<lb n="173"/>Nonpourtant, je ne lairray pas
+<lb n="174"/>Ma marchandise entretenir
+<lb n="175"/>Et ma bouticle cy tenir.
+<lb n="176"/>Quelque fantasie qui surviengne,
+<lb n="177"/>Je tiens la loy des juifz pour mienne			
+			<pb n="80"/>
+			
+<lb n="178"/>Et maintiendray jusqu'a la fin.
+<lb n="179"/>Mathatiel, venez affin
+<lb n="180"/>De pencer a ceste bouticle!
+<lb n="181"/>Mathatiel!</ab></sp>
+				
+			<sp><speaker>MATHATIEL, <hi rend="I">varlet du juif</hi> </speaker>
+<ab type="gv">Une Espanicle
+<lb n="182"/>Qui seroit ung peu mal du corps,
+<lb n="183"/>Quant il y auroit bons accors,
+<lb n="184"/>De une fois de rosette,
+<lb n="185"/>Pour passer temps a la chosette,
+<lb n="186"/>Feront ilz mal?</ab></sp>
+			
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv">Viendras tu point,
+<lb n="187"/>Mathatiel?</ab></sp>
+			
+			<sp><speaker>MATHATIEL</speaker>
+<ab type="gv">Tout est a point.</ab></sp>
+			
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="188"/>Venez! Que la fievre quartaine...</ab></sp>
+			
+			<sp><speaker>MATHATIEL</speaker>
+<ab type="gv"><lb n="189"/>Bien joyeusement vous promaine!</ab></sp>
+			
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="190"/>Viendras tu?</ab> </sp>
+			
+			<sp><speaker>MATHATIEL</speaker>
+<ab type="gv">Que vous plaist il, maistre?</ab></sp>
+			
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="191"/>Viens cy en cest ouvrouer mettre
+<lb n="192"/>Tout en point.</ab></sp>
+			<pb n="81"/>
+
+			<sp><speaker>MATHATIEL</speaker>
+<ab type="gv">Ouy, tout a ceste heure.</ab></sp>
+			
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="193"/>Tu y fais bien longue demeure.
+<lb n="194"/>Le grant Dieu en qui j'ay fiance,
+<lb n="195"/>Se ne faiz autre diligence,
+<lb n="196"/>Je te maniray.</ab></sp>
+			
+			<sp><speaker>MATHATIEL</speaker>
+<ab type="gv">C'est tout ung.</ab></sp>
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="197"/>S'il arrivoit aucun
+<lb n="198"/>Crestien qui vousist quelque chose,
+<lb n="199"/>Il n'y a rien prest.</ab></sp>
+			<sp><speaker>MATHATIEL</speaker>
+<ab type="gv">Sans plus de pose,
+<lb n="200"/>J'en feray du tout le possible.
+<lb n="201"/>Mais en mon cas est impossible
+<lb n="202"/>Que je puisse aymer ces crestiens.</ab></sp>
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="203"/>D'iceulx avons beaucoup de biens,
+<lb n="204"/>Supposé qu'ilz soyent noz contraires
+<lb n="205"/>Et que nous soyons tributaires.
+<lb n="206"/>A payer nostre marchandise,
+<lb n="207"/>Or, argent, en mainte autre guise
+<lb n="208"/>Grandement nous gaignons a eulx.</ab></sp>
+			<sp><speaker>MATHATIEL</speaker>
+<ab type="gv"><lb n="209"/>Pour la pratique, suis joyeulx
+<lb n="210"/>De faire vostre bon plaisir.</ab></sp>
+			<pb n="82"/>
+
+		<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="211"/>Metz bien tout a point.</ab></sp>
+			<sp><speaker>MATHATIEL</speaker>
+<ab type="gv">A loysir.
+<lb n="212"/>Ne vous souciez point, mon maistre:
+<lb n="213"/>Je me sçauray bien entremettre
+<lb n="214"/>De ce faire, n'en doubtez point.</ab></sp>
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="215"/>Mathatiel?</ab></sp>
+			<sp><speaker>MATHATIEL</speaker>
+<ab type="gv">Tout est en point.
+<lb n="216"/>Estes vous sourt, bon gre ma vie?
+<lb n="217"/>Ne congnois en nostre juifrie
+<lb n="218"/>Si terrible homme que vous estes.</ab></sp>
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="219"/>Tiens toy cy en ces entrefaictes
+<lb n="220"/>Que ung cent d'escus ay <supplied>a</supplied> conter.</ab></sp>
+			<sp><speaker>MATHATIEL</speaker>
+<ab type="gv"><lb n="221"/>Gardez vous de vous mesconter
+	<lb n="222"/>Et les contez avant deux fois.</ab></sp>
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv"><lb n="223"/>En mon fait je ne me congnois,
+<lb n="224"/>Je vois tousjours en languissant.</ab></sp>
+			<sp><speaker>LA FEMME</speaker>
+<ab type="gv"><lb n="225"/>Jesus, redempteur tout puissant,
+	<lb n="226"/>Et sainct Nicolas glorieux
+			<pb n="83"/>
+			
+<lb n="227"/>Nous feront en la fin eureux
+<lb n="228"/>Se <supplied>nous</supplied> mettons peine a gaigner.</ab></sp>
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv"><lb n="229"/>J'entends bien qu'il fault besongner
+<lb n="230"/>Qui veult vivre, mais le moyen
+<lb n="231"/>Pour parvenir d'avoir du bien?
+<lb n="232"/>N'est que l'estat de marchandise
+	<lb n="233"/>Et nous n'avons rien.</ab></sp>
+			<sp><speaker>LA FEMME</speaker>
+<ab type="gv">Fort je prise
+<lb n="234"/>Vostre oppinion, cher amy.
+<lb n="235"/>Trouvons quelque homme bien fourny
+<lb n="236"/>Qui nous avance ung peu d'argent,
+<lb n="237"/>Et nous obligons.</ab></sp>
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv">Diligent
+<lb n="238"/>A cela voulentiers seroye.
+<lb n="239"/>Mais c'est force <surplus>de</surplus>)trouver la voye,
+<lb n="240"/>Car nous n'avons gaige qui vaille.</ab></sp>
+			<sp><speaker>LA FEMME</speaker>
+<ab type="gv"><lb n="241"/>Soyez hardy: vaille que vaille,
+<lb n="242"/>On ne vous pourra que escondire.</ab></sp>
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv"><lb n="243"/>A cela je ne sçay que dire.
+<lb n="244"/>Du moyen trouver, c'est le fort,
+<lb n="245"/>Mais nous seroit grant reconfort
+<lb n="246"/>Se nous trouvons personne aulcune
+<lb n="247"/>Qui nous prestast quelque pecune
+<lb n="248"/>Pour marchandise relever.</ab></sp>
+			<pb n="84"/>
+
+			<sp><speaker>LA FEMME</speaker>
+<ab type="gv"><lb n="249"/>Moyen est, sans plus estriver,
+<lb n="250"/>Qu'aler vers ces juifz usuriers,
+<lb n="251"/>Car ilz prestent tres voulentiers.</ab></sp>
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv"><lb n="252"/>C'est tres bien dit quant on a gaige.
+<lb n="253"/>Mais ou prins?</ab></sp>
+			<sp><speaker>LA FEMME</speaker>
+<ab type="gv">Cest homme dit raige!
+<lb n="254"/>Il fault jouer de <hi rend="I"> <foreign xml:lang="la">placebo</foreign> </hi>
+<lb n="255"/>Et les payer du grant <hi rend="I"> <foreign xml:lang="la">credo</foreign> </hi>,
+<lb n="256"/>Assez promettre et rien tenir.</ab></sp>
+			<sp><speaker>LE CRESTIEN</speaker>
+				<ab type="gv"><lb n="257"/>Et puis, au dernier?</ab></sp>
+			<sp><speaker>LA FEMME</speaker>
+<ab type="gv">S'enfouyr
+<lb n="258"/>Et faire ung vidimus sans queue.</ab></sp>
+			<sp><speaker>LE CRESTIEN</speaker>
+				<ab type="gv"><lb n="259"/>Esse la le point?</ab></sp>
+			<sp><speaker>LA FEMME</speaker>
+<ab type="gv">Quant on jeue,
+<lb n="260"/>Au malheureux le vire t on?</ab></sp>
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv"><lb n="261"/>Craintifz n'auront jamais bien.</ab></sp>
+			<sp><speaker>LA FEMME</speaker>
+<ab type="gv">Non.</ab></sp>
+			<pb n="85"/>
+
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv"><lb n="262"/>Le tour est fort habille.</ab></sp>
+			<sp><speaker>LA FEMME</speaker>
+<ab type="gv">Tres.</ab></sp>
+<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv"><lb n="263"/>Il fault estre rusé.</ab></sp>
+			<sp><speaker>LA FEMME</speaker>
+<ab type="gv">Pres.</ab></sp>
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv"><lb n="264"/>Et rendre en conscience...</ab></sp>
+			<sp><speaker>LA FEMME</speaker>
+<ab type="gv">Mot.</ab></sp>
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv"><lb n="265"/>Je seroye trop saige...</ab></sp>
+			<sp><speaker>LA FEMME</speaker>
+<ab type="gv">Sot.</ab></sp>
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv"><lb n="266"/>Cela fait ung riche homme.</ab></sp>
+			<sp><speaker>LA FEMME</speaker>
+<ab type="gv">Trop.</ab></sp>
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv"><lb n="267"/>Et n'y fault rien quë ung hasart.</ab></sp>
+			<sp><speaker>LA FEMME</speaker>
+<ab type="gv">A cop
+<lb n="268"/>Allons vers ces juifz, je vous prie,
+<lb n="269"/>Et comptons nostre cas a coup.</ab></sp>
+			<pb n="86"/>
+
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv">A coup
+<lb n="270"/>Il fault penser d'avoir la vie.</ab></sp>
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="271"/>Mathatiel!</ab></sp>
+			<sp><speaker>MATHATIEL</speaker>
+<ab type="gv">Je vous supplie,
+<lb n="272"/>Parlez ung peu plus bas sans braire.
+<lb n="273"/>Que vous plaist il?</ab></sp>
+				<sp><speaker>LE JUIF</speaker>
+<ab type="gv">Il nous fault traire
+<lb n="274"/>Toutes <surplus>ses</surplus> adversaires monnoyes,
+<lb n="275"/>Entens tu?</ab></sp>
+			<sp><speaker>MATHATIEL</speaker>
+<ab type="gv">Se me sont grans joyes,
+<lb n="276"/>Je n'ay aultre felicité.</ab></sp>
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv"><lb n="277"/>Dieu vous tienne en prosperité!</ab></sp>
+			<sp><speaker>LA FEMME</speaker>
+<ab type="gv"><lb n="278"/>Et preserve d'encombrement!</ab></sp>
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv"><lb n="279"/>En puissance et auctorité
+<lb n="280"/>Dieu vous tienne en prosperité!</ab></sp>
+			<sp><speaker>LA FEMME</speaker>
+<ab type="gv"><lb n="281"/>En joye de cueur et santé.</ab></sp>
+			<pb n="87"/>
+
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="282"/>Et vous aussi semblablement.</ab></sp>
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv"><lb n="283"/>Dieu vous tienne en prosperité!</ab></sp>
+			<sp><speaker>LA FEMME</speaker>
+<ab type="gv"><lb n="284"/>Et preserve d'encombrement!</ab></sp>
+					
+			<sp><speaker>MATHATIEL</speaker>
+<ab type="gv"><lb n="285"/>Despeschez vous hastivement
+<lb n="286"/>De dire ce que demandez.</ab></sp>
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="287"/>Le cas a quoy vous pretendez
+<lb n="288"/>Et qui vous meut venir vers moy
+<lb n="289"/>Declairez tost.</ab></sp>
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv">Sire, en ma foy,
+<lb n="290"/>Vous le diray tout a cest heure.</ab></sp>
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="291"/>Sans plus faire longue demeure;
+<lb n="292"/>Je suis empesché autre part
+<lb n="293"/>Et aussi y vient sus le tard.
+<lb n="294"/>Despeschés vous.</ab></sp>
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv">Vers vous venoye
+<lb n="295"/> <supplied>pour</supplied> emprunter or ou monnoye,
+<lb n="296"/>Car je vous jure en verité
+<lb n="297"/>Que j'en ay grant necessité
+<lb n="298"/>Et telle que je n'en puis plus.</ab></sp>
+			<pb n="88"/>
+
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="299"/>Ceans soyés les bien venus.
+<lb n="300"/>Mais, pour vous dire a brief langage,
+<lb n="301"/>Jamais ne preste riens sans gaige.
+<lb n="302"/>Selon le gaige que j'auray,
+<lb n="303"/>Tres voulentiers vous presteray:
+<lb n="304"/>C'est la fin et conclusion.</ab></sp>
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv"><lb n="305"/>Dessoubz une obligation
+<lb n="306"/>D'ypoteque de biens et corps,
+<lb n="307"/>Nous serés vous misericors?
+<lb n="308"/>Car, certes, de gaige n'ay point.</ab></sp>
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="309"/>Sans gaige ne le feray point.</ab></sp>
+			<sp><speaker>LA FEMME</speaker>
+<ab type="gv"><lb n="310"/>Se Dieu nous doint bonne santé,
+<lb n="311"/>Nous avons bonne volonté
+<lb n="312"/>De vous contenter de tous poins.</ab></sp>
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="313"/>Sans gaige ne le feray point.</ab></sp>			
+				<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv"><lb n="314"/>Sire, certes, ne doubtez rien;
+<lb n="315"/> <supplied>Se</supplied> Dieu plaist, nous vous pairons bien
+<lb n="316"/>A vostre gré.</ab></sp>
+				<sp><speaker>LE JUIF</speaker>
+<ab type="gv">Quel contrepoint!
+<lb n="317"/>Sans gaige ne le feray point.</ab></sp>
+				<sp><speaker>LA FEMME</speaker>
+<ab type="gv"><lb n="318"/>A tel monte qu'il vous plaira,
+			<pb n="89"/>			
+<lb n="319"/>De moys en moys on vous payera
+<lb n="320"/>Sans <supplied>y</supplied>  faillir.</ab></sp>
+				<sp><speaker>LE JUIF</speaker>
+<ab type="gv">Je suis en point,
+<lb n="321"/>Sans gaige ne le feray point.</ab></sp>		<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv"><lb n="322"/>Gaige n'ay que sainct Nicolas,
+<lb n="323"/>Que vous bailleray, en ce cas,
+<lb n="324"/>Par serment fait sur son hostel.</ab></sp>
+				<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="325"/>Je prendrai bien ung gaige tel.
+<lb n="326"/>Sainct Nicolas est mon amy
+<lb n="327"/>Et me firay tres bien en luy.
+<lb n="328"/>Mais je voy les crestiens parjures
+<lb n="329"/>A vostre Jesus faire injures
+<lb n="330"/>En le maulgreant, despitant.
+<lb n="331"/>Parquoy, je ne m'y fie pas tant.
+<lb n="332"/>Je vous dy la cause pour quoy:
+<lb n="333"/>Car n'y a loyaulté ne foy.
+<lb n="334"/>Plusieurs crestiens voy jurer
+<lb n="335"/>Leur Dieu, mais aussi parjurer
+<lb n="336"/>Et n'en ont vergongne ne honte,
+<lb n="337"/>Par faulceté qui les surmonte.
+<lb n="338"/>Se ung juif parjure estoit trouvé,
+<lb n="339"/>De nous il seroit reprouvé
+<lb n="340"/>Et pugny sans misericorde.</ab></sp>
+					<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv"><lb n="341"/>Nous <w>secour<supplied>r</supplied>ez</w> vous?</ab></sp>
+					<sp><speaker>LE JUIF</speaker>
+<ab type="gv">Je l'acorde
+<lb n="342"/>Et par le moyen qu'en ce cas,
+			<pb n="90"/>			
+<lb n="343"/>Dessus l'hostel sainct Nycolas
+<lb n="344"/>Jurerés loyaulment me rendre
+<lb n="345"/>Mon argent.</ab></sp>
+				<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv">Sans nul mal entendre,
+<lb n="346"/>En ma foy je le jureré.</ab></sp>
+				<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="347"/>Par ce point je vous presteray
+<lb n="348"/>Jusqu'a cent escus voulentiers.</ab></sp>
+				<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv"><lb n="349"/>Loyaulment comme voz rentiers
+<lb n="350"/>Vous contenterons.</ab></sp>
+					<sp><speaker>LE JUIF</speaker>
+<ab type="gv">C'est bien dit.
+<lb n="351"/>Mais, premier, sans nul contredit
+<lb n="352"/>Et sans faire aucune demeure,
+<lb n="353"/>Venez jurer tout a cest heure
+<lb n="354"/>Dessus l'hostel sainct Nycolas
+<lb n="355"/>De me le rendre.</ab></sp>
+				<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv">Sur ce pas;
+<lb n="356"/>Du faire ne fois nul reffus.
+<lb n="357"/>Mais, la foy que doy a Jhesus,
+<lb n="358"/>A sa mere, a sainct Nicolas,
+<lb n="359"/>Au terme je ne fauldray pas;
+<lb n="360"/>Soyés aseur, je vous prometz.</ab></sp>
+				<sp><speaker>LE JUIF</speaker>
+<ab type="gv">Allons a l'eglise.</ab></sp>
+			<pb n="91"/>
+					<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv">Jamais
+<lb n="361"/>Je ne vouldroye estre parjure.
+<lb n="362"/>Mais allons affin que j'en jure
+<lb n="363"/>Et qu'en soyé plus asseuré.</ab></sp>
+					<sp><speaker>LE JUIF <hi rend="I">en allant</hi> </speaker>
+<ab type="gv"><lb n="364"/>Tout aussi tost qu'avez juré,
+<lb n="365"/>Je vous bailleray cent escus.</ab></sp>
+					<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv"><lb n="366"/>Allons tost et n'arrestons plus;
+<lb n="367"/>J'aperçoy la l'eglise ouverte.</ab></sp>
+					<sp><speaker>MATHATIEL</speaker>
+<ab type="gv"><lb n="368"/>Jamais ne se rendra sans perte.
+<lb n="369"/>Le grant Dieu, mon maistre est bien fol,
+<lb n="370"/>Il en est sanglé jusqu'au col.
+<lb n="371"/>Parjurer les voy tous les jours.
+<lb n="372"/>Il a mys ses yeulx a rebours,
+	<lb n="373"/>Il n'y voit goutte, le bon homme.</ab></sp>
+<stage rend="ital">En entrant a l'eglise.</stage>
+					<sp><speaker> LE PRESTRE </speaker>
+<ab type="gv"><lb n="374"/>Que demandez, <supplied>beau sire</supplied> ?</ab></sp>
+					<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="375"/>En somme,
+<lb n="376"/>Je vous diray en brief le cas.
+<lb n="377"/>Dessus l'hostel sainct Nicolas,
+<lb n="378"/>Ce crestien amaine jurer
+<lb n="379"/>De bien loyaulment me payer
+<lb n="380"/>Cent escus que luy presteray;
+<lb n="381"/>Sur sa foy les luy bailleray
+<lb n="382"/>En ce lieu, en vostre presence.</ab></sp>
+			<pb n="92"/>
+
+			<sp><speaker> LE PRESTRE </speaker>
+<ab type="gv"><lb n="383"/>Luy prestez vous en conscience?
+<lb n="384"/>Vous vous fiez donc bien a luy.</ab></sp>
+				<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="385"/>Sainct Nicolas est mon amy
+<lb n="386"/>Et ay en luy tres grant fiance
+<lb n="387"/>Et luy preste en son asseurance.
+<lb n="388"/>Mais je vueil avoir son serment
+<lb n="389"/>En celluy lieu.</ab></sp>
+				<sp><speaker>LE CRESTIEN</speaker><lb/>
+<ab type="gv">Par mon serment,
+<lb n="390"/>Je vous prometz cy en ce lieu,
+<lb n="391"/>Par autant que je tiens de Dieu
+<lb n="392"/>Et du benoist sainct Nicolas,
+<lb n="393"/>De vous les rendre.</ab></sp>
+					<sp><speaker> LE PRESTRE </speaker>
+<ab type="gv">Ne fault pas
+<lb n="394"/>Soy parjurer, mon bel amy.</ab></sp>
+					<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="395"/>De cela m'en raporte a luy.
+<lb n="396"/>Vela cent escus que <surplus>je</surplus>) vous livre.
+<lb n="397"/>Dont vous promectez d'entresuivre
+<lb n="398"/>Le serment que vous avez fait
+<lb n="399"/>De me les rendre en pur effect
+<lb n="400"/>Au terme que m'avez promis?</ab></sp>
+					<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv"><lb n="401"/>Ainsi le jure.</ab></sp>
+					<sp><speaker>LE JUIF</speaker>
+<ab type="gv">Tost soient mis
+			<pb n="93"/>
+			
+<lb n="402"/>Dedans vostre bource par compte
+<lb n="403"/>Et, se vous y trouvez mesconte,
+<lb n="404"/>Revenez vers moy.</ab></sp>
+					<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv">Grant mercis.
+<lb n="405"/>Jusques au rendre!</ab></sp>
+					<sp><speaker>LE JUIF</speaker>
+<ab type="gv">Me suis mis
+<lb n="406"/>En la main de sainct Nicolas.</ab></sp>
+					<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv"><lb n="407"/>Seurement ne vous fauldray pas
+<lb n="408"/>Et n'en doubtés aucunement,
+<lb n="409"/>Ou je puisse eternellement
+<lb n="410"/>Estre dampné a tous les dyables.</ab></sp>
+					<sp><speaker> LE PRESTRE </speaker>
+<ab type="gv"><lb n="411"/>Telz sermens si ne sont pas fables.
+<lb n="412"/>Gardez bien de vous parjurer.</ab></sp>
+					<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="413"/>Ce souffit l'avoir veu jurer;
+<lb n="414"/>Sainct Nicolas m'en respondra.
+<lb n="415"/>Adieu.</ab></sp>
+					<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv">De bref si nous fauldra
+<lb n="416"/>Veoir l'ung l'autre plus a loysir.
+<lb n="417"/>Adieu.</ab></sp>
+<stage rend="ital">Icy s'en va.</stage>			
+					<sp><speaker>LE JUIF</speaker>
+<ab type="gv">Adieu.</ab></sp>
+						<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv">Tres grant plaisir
+<lb n="418"/>M'avez fait. Dieu si vous le rende!</ab></sp>
+			<pb n="94"/>			
+				<sp><speaker>MATHATIEL</speaker>
+<ab type="gv"><lb n="419"/>Mon maistre a payé son offrande:
+<lb n="420"/>Je l'apperçoy ou il revient.
+<lb n="421"/>Quant de ses escus me souvient,
+<lb n="422"/>Je ne me puis tenir de rire.</ab></sp>
+			<sp><speaker>LE JUIF <hi rend="I">en s'en revenant</hi> </speaker>
+<ab type="gv"><lb n="423"/>Il ne sçauroit que contredire
+<lb n="424"/>Qu'au terme il ne face payement.
+<lb n="425"/>Et quant il se vouldroit desdire,
+<lb n="426"/>Il faulceroit ung grant serment.</ab></sp>
+						<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv"><lb n="427"/>Je suis maintenant seurement:
+<lb n="428"/>Se juif si s'en va belle tire.
+<lb n="429"/>Pour ung <foreign xml:lang="la">nego</foreign> fait seullement,
+<lb n="430"/>Il ne sçauroit que contredire.</ab></sp>
+						<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="431"/>Sainct Nicolas est mon amy,
+<lb n="432"/>Il ne me lairroit point tromper.
+<lb n="433"/>Se ce crestien m'est ennemy,
+<lb n="434"/>Il le pourroit bien escloper.</ab></sp>
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv"><lb n="435"/>L'ai ge <surplus>pas</surplus> bien sceu envelopper?
+<lb n="436"/>Oncques mieulx faire je ne vy.
+<lb n="437"/>Veu que je l'ay sceu atraper,
+<lb n="438"/>Sainct Nicolas est mon amy.</ab></sp>
+			<sp><speaker>LE JUIF</speaker>
+				<ab type="gv"><lb n="439"/>Ou es tu, dy?</ab></sp>
+			<sp><speaker>MATHATIEL</speaker>
+<ab type="gv">Je suis icy
+<lb n="440"/>Ou je vous attens de pied quoy.</ab></sp>
+			<pb n="95"/>
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="441"/>Qui m'a demandé?</ab></sp>
+			<sp><speaker>MATHATIEL</speaker>
+<ab type="gv">Quant a moy,
+<lb n="442"/>Certes, je n'en sçay rien, mon maistre.</ab></sp>
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv"><lb n="443"/>Qui est ceans?</ab></sp>
+			<sp><speaker>LA FEMME</speaker>
+<ab type="gv">N'y sçay que mettre,
+<lb n="444"/>Car il n'y a ne pain ne paste.</ab></sp>
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv"><lb n="445"/>Viens tost a moy.</ab></sp>
+			<sp><speaker>LA FEMME</speaker>
+<ab type="gv">Y a il haste?
+<lb n="446"/>Comment av'ous bien besongné?</ab></sp>
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv"><lb n="447"/>Le juif ay si bien blasonné
+<lb n="448"/>Et attiray tant en mes las,
+<lb n="449"/>Au moyen de sainct Nicolas,
+<lb n="450"/>Qu'il m'a presté cent escus d'or.</ab></sp>
+			<sp><speaker>LA FEMME</speaker>
+<ab type="gv"><lb n="451"/>Cent escus!</ab></sp>
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv">Voyez.</ab></sp>
+			<pb n="96"/>
+			<sp><speaker>LA FEMME</speaker>
+<ab type="gv">Quel tresor!
+<lb n="452"/>C'est bien besongné, par mon ame!</ab></sp>
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv"><lb n="453"/>G'i ai bien joué de ma dame,
+<lb n="454"/>Engagé tripes et boyaulx
+<lb n="455"/>Par simple serment.</ab></sp>
+			<sp><speaker>LA FEMME</speaker>
+<ab type="gv">Quelz joyaulx!
+<lb n="456"/>Helas, mais qui pourroit mieux faire?</ab></sp>
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv"><lb n="457"/>Il nous fault nostre estat refaire
+<lb n="458"/>Et marchander comme devant.</ab></sp>
+			<sp><speaker>LA FEMME</speaker>
+<ab type="gv"><lb n="459"/>Et se ce juif vient nous grevant?</ab></sp>
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv"><lb n="460"/>Ung <foreign xml:lang="la">nego</foreign> ne coustera gueres.</ab></sp>
+			<sp><speaker>LA FEMME</speaker>
+<ab type="gv"><lb n="461"/>Aussi bien feray les manieres
+<lb n="462"/>Que la femme de Pathelin.
+<lb n="463"/>Mais vous n'estes point assez fin
+<lb n="464"/>Pour proprement patheliner.</ab></sp>
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv"><lb n="465"/>Oncques Pathelin affiner
+<lb n="466"/>Ne peult son drappier si a point
+<lb n="467"/>Que l'affineray, car a point
+<lb n="468"/>Ay son or par pathelinaige.</ab></sp>
+			<pb n="97"/>
+			<sp><speaker>LA FEMME</speaker>
+<ab type="gv"><lb n="469"/>Sa, sa, sa, pensons du mesnage
+<lb n="470"/>Et faisons voller ce tresor!</ab></sp>
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv"><lb n="471"/>Il ne m'a baillé que fin or
+<lb n="472"/>En <w>vieil<supplied>z</supplied></w> escus du temps passé.</ab></sp>
+			<sp><speaker>LA FEMME</speaker>
+<ab type="gv"><lb n="473"/>Bien luy sera recompensé.
+<lb n="474"/>S'i vient a point, vaille que vaille.
+<lb n="475"/>Il est temps que n'en le detaille
+<lb n="476"/>Pour ung peu nous remettre sus.</ab></sp>
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv"><lb n="477"/>A cest argent ne pensons plus
+<lb n="478"/>Senon proprement l'employer.</ab></sp>
+			<sp><speaker>LA FEMME</speaker>
+<ab type="gv"><lb n="479"/>Se ne luy voulez renvoyer,
+<lb n="480"/>Despeschons de le mettre en euvre
+<lb n="481"/>Affin que le usure on recueuvre
+<lb n="482"/>Pour le payer comme sçavez.</ab></sp>
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv"><lb n="483"/>Quel conscience vous avez!</ab></sp>
+			<sp><speaker>LA FEMME</speaker>
+<ab type="gv"><lb n="484"/>C'est raison s'i prouffite bien.</ab></sp>
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv"><lb n="485"/>Et se non?</ab></sp>
+			<sp><speaker>LA FEMME</speaker>
+<ab type="gv">Certes, ung beau rien,
+<lb n="486"/>C'est le payement qu'il en aura.</ab></sp>
+			<pb n="98"/>
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv"><lb n="487"/>Se Dieu plaist, il nous aydera.
+<lb n="488"/>Fortune n'est pas toujours une.</ab></sp>
+			<sp><speaker>LE PREMIER <supplied>SERGENT</supplied> </speaker>
+<ab type="gv"><lb n="489"/>Puisqu'il vient ung peu sur la brusne,
+<lb n="490"/>Il est temps d'aller a l'escart.</ab></sp>
+			<sp><speaker>LE <num>.II.</num> SERGENT</speaker>
+<ab type="gv"><lb n="491"/>Allons men happer quelque prune
+<lb n="492"/>Puisqu'il vient ung peu sur la brune.</ab></sp>
+			<sp><speaker>LE <num>.I.</num> SERGENT</speaker>
+<ab type="gv"><lb n="493"/>Se Fortune m'est opportune,
+<lb n="494"/>Pas n'y fauldray.</ab></sp>
+			<sp><speaker>LE <num>.II.</num> SERGENT</speaker>
+<ab type="gv">Trop <w>es<surplus>t</surplus></w> fetard.	
+<lb n="495"/>Puisqu'il vient ung peu sur la brune,
+<lb n="496"/>Il est temps d'aller a l'escart.</ab></sp>
+			<sp><speaker>LE <num>.I.</num> SERGENT</speaker>
+<ab type="gv"><lb n="497"/>Tu en as eu hier bien ta part.</ab></sp>
+			<sp><speaker>LE SECOND SERGENT</speaker>
+<ab type="gv"><lb n="498"/>Et ce fut, Dieu mercy, et toy;
+<lb n="499"/>Je tins bon pied.</ab></sp>
+			<sp><speaker>LE <num>.I.</num> SERGENT</speaker>
+<ab type="gv">Quant est a moy,
+<lb n="500"/>Je suis franc.</ab></sp>
+			<pb n="99"/>			
+			<sp><speaker>LE <num>.II.</num> SERGENT</speaker>
+<ab type="gv">Droit poisson d'avril,
+<lb n="501"/>Tu evitez bien le peril
+<lb n="502"/>Pour jouer de l'eschapatoire.</ab></sp>
+			<sp><speaker>LE <num>.I.</num> SERGENT</speaker>
+<ab type="gv"><lb n="503"/>En plusieurs lieux il est memoire
+<lb n="504"/>De moy.</ab></sp>
+			<sp><speaker>LE <num>.II.</num> SERGENT</speaker>
+<ab type="gv">Tu parles tres bien,
+<lb n="505"/>Aussi es tu homme de bien;
+<lb n="506"/>Pas ne vueil dire le contraire.</ab></sp>
+			<sp><speaker>LE <num>.I.</num> SERGENT</speaker>
+<ab type="gv"><lb n="507"/>Se n'est pas mal faict de complaire
+<lb n="508"/>Qui peult.</ab></sp>
+			<sp><speaker>LE SECOND SERGENT</speaker>
+<ab type="gv">Franc comme lorïer,
+<lb n="509"/>Qui vous vouldroit injurïer,
+<lb n="510"/>Sainct Jacques, il auroit <supplied>bien</supplied> tort.</ab></sp>
+			<sp><speaker>LE <num>.I.</num> SERGENT</speaker>
+<ab type="gv"><lb n="511"/>Pour bien adjourner d'ung accord
+<lb n="512"/>Et faire accorder les parties,
+<lb n="513"/>N'est que moy.</ab></sp>
+			<sp><speaker>LE <num>.II.</num> SERGENT</speaker>
+<ab type="gv">Mais aux departies,
+<lb n="514"/>Tes adjournemens faiz sans verge.</ab></sp>
+			<sp><speaker>LE <num>.I.</num> SERGENT</speaker>
+<ab type="gv"><lb n="515"/>Esse mal fait?</ab></sp>
+			<pb n="100"/>			
+			<sp><speaker>LE <num>.II.</num> SERGENT</speaker>
+<ab type="gv">Comme conscierge,
+<lb n="516"/>Ha, nenny, par la belle dame!</ab></sp>
+			<sp><speaker>LE <num>.I.</num> SERGENT</speaker>
+<ab type="gv"><lb n="517"/>Emprés moy n'est pas...</ab></sp>
+			<sp><speaker>LE <num>.II.</num> SERGENT</speaker>
+<ab type="gv">Une femme,
+<lb n="518"/>Mais tu sers bien de chamberiere.</ab></sp>
+			<sp><speaker>LE <num>.I.</num> SERGENT</speaker>
+<ab type="gv"><lb n="519"/>Je faictz tres bien.</ab></sp>
+			<sp><speaker>LE <num>.II.</num> SERGENT</speaker>
+<ab type="gv">Bonne maniere,
+<lb n="520"/>Tellement que chascun le voit.</ab></sp>
+		<sp><speaker>LE PREMIER</speaker>
+<ab type="gv"><lb n="521"/>Je suis bien content que ainsi soit;
+<lb n="522"/>Tu n'en parles que par envie.</ab></sp>
+			<sp><speaker>LE <num>.II.</num> SERGENT</speaker>
+<ab type="gv"><lb n="523"/>Si tous vivans estoyent en vie,
+<lb n="524"/>Il y auroit grant presse au monde.
+<lb n="525"/>Il n'y a sergens en la ronde
+<lb n="526"/>Plus malheureux, brief, que nous sommes.
+<lb n="527"/>Allons gaigner.</ab></sp>
+			<sp><speaker>LE <num>.I.</num> SERGENT</speaker>
+<ab type="gv">Entre les hommes
+<lb n="528"/>Nous sommes malheureux tous deux;
+<lb n="529"/>Mais, quant a moy, je suis piteux
+<lb n="530"/>En mon office.</ab></sp>
+			<pb n="101"/>
+			<sp><speaker>LE <num>.II.</num> SERGENT</speaker>
+<ab type="gv">Dieu le scet.</ab></sp>
+			<sp><speaker>LE <num>.I.</num> SERGENT</speaker>
+<ab type="gv"><lb n="531"/>Mortbieu, si suis.</ab></sp>
+			<sp><speaker>LE <num>.II.</num> SERGENT</speaker>
+<ab type="gv">Tres fort secret;
+	<lb n="532"/>Aussi, n'y sçauroye contredire.</ab></sp>
+			<sp><speaker>LE <num>.I.</num> SERGENT</speaker>
+<ab type="gv"><lb n="533"/>Sangbieu, il seroit bien discret
+	<lb n="534"/>Qui de nous deux prendroit le pire.</ab></sp>
+			<sp><speaker><abbr>S.</abbr> NICOLAS</speaker>
+<ab type="gv"><lb n="535"/>En ce trosnë et souverain empire,
+<lb n="536"/>Par trinité essence tres unie,
+<lb n="537"/>Dieu eternel ou tout mon voloir tire
+<lb n="538"/>Pour atirer ta grant grace infinie,
+<lb n="539"/>Je te magnifie
+<lb n="540"/>Et te glorifie,
+<lb n="541"/>Glorifiant ta bonté et clemence,
+<lb n="542"/>Je te remercie
+<lb n="543"/>Et te regraci
+<lb n="544"/>Du merite, d'autant comme ay puissance.</ab></sp>
+			<sp><speaker>DIEU</speaker>
+<ab type="gv"><lb n="545"/>Ta puissance
+<lb n="546"/>Est en grace
+<lb n="547"/>Excellence
+<lb n="548"/>D'efficace.
+<lb n="549"/>Toute place
+<lb n="550"/>Ou n'on fera de toy regnom,
+<lb n="551"/>Des miracles exaulceray le nom.</ab></sp>
+			<pb n="102"/>
+		<sp><speaker>NOSTRE DAME</speaker>
+<ab type="gv"><lb n="552"/>Le nom est plaisant,
+<lb n="553"/>Digne de memoire.
+<lb n="554"/>Dont, mon cher enfant,
+<lb n="555"/>Sois luy meritoire.
+<lb n="556"/>Ton hault nom de gloire
+<lb n="557"/>De une grace consolative
+<lb n="558"/>Entretiens par prerogative.</ab></sp>
+			<sp><speaker>DIEU</speaker>
+<ab type="gv"><lb n="559"/>Prerogatif est et sera
+	<lb n="560"/>Envers ceulx qui le requerront.</ab></sp>
+			<sp><speaker>NOSTRE DAME</speaker>
+<ab type="gv"><lb n="561"/>Le hault trosne glorifira;
+<lb n="562"/>Pecheurs par luy pardon auront.</ab></sp>
+			<sp><speaker><abbr>S.</abbr> NICOLAS</speaker>
+<ab type="gv"><lb n="563"/>Vostre sainct nom glorifiront.</ab></sp>
+			<sp><speaker>NOSTRE DAME</speaker>
+<ab type="gv"><lb n="564"/>Mon cher filz tous exaulcera
+<lb n="565"/>Qui de toy memoire feront.</ab></sp>
+			<sp><speaker>DIEU</speaker>
+<ab><lb n="566"/>Prerogatif est et sera
+<lb n="567"/>Envers ceulx qui le requerront.</ab></sp>
+			<sp><speaker>NOSTRE DAME</speaker>
+<ab type="gv"><lb n="568"/>Voz anges ung dicté diront
+<lb n="569"/>En vous donnant gloire et louenge.</ab></sp>
+			<sp><speaker>DIEU</speaker>
+<ab type="gv"><lb n="570"/>En ce trosne il n'y a ange
+			<pb n="103"/>
+<lb n="571"/>Qui ne chante joyeusement.
+<lb n="572"/>Sus, Gabriel, diligemment!
+<lb n="573"/>Raphael, faictes tous devoir!</ab></sp>
+			<sp><speaker>GABRIEL</speaker>
+<ab type="gv"><lb n="574"/>Nous le ferons de bon vouloir,
+<lb n="575"/>Souverain Dieu, a ton bon gré.</ab></sp>
+		<sp><speaker>RAPHAEL</speaker>
+<ab type="gv"><lb n="576"/>Nous chanterons ung <foreign xml:lang="la">silete</foreign>.</ab></sp>
+			<sp><speaker>GABRIEL</speaker>
+				<ab type="gv"><lb n="577"/>Esprouvons cy nostre sçavoir.</ab></sp>
+<stage rend="ital">Icy chantent.</stage>
+			<sp><speaker>SATHAN</speaker>
+<ab type="gv"><lb n="578"/>Dyables de l'infernal manoir, 
+<lb n="579"/>Noirs, hideux et abhominables,
+<lb n="580"/>Ne soyez point en nonchaloir.
+<lb n="581"/>Venez moy estre <w>secourable<supplied>s</supplied></w>.
+<lb n="582"/>Saillez, diables
+<lb n="583"/>En ce lieu,
+<lb n="584"/>Devorables
+<lb n="585"/>Comme feu.
+<lb n="586"/>Vostre apieu
+<lb n="587"/>M'est a ceste heure necessaire.
+<lb n="588"/>Saillez, ne me laissés plus braire.
+<lb n="589"/>J'ay ouÿ voix armonieuse
+<lb n="590"/>Qui est descendue des cieulx,
+<lb n="591"/>Une feste si tresjoyeuse
+<lb n="592"/>Que j'en suis mati et paoureux.
+<lb n="593"/>Affin que <w>soie<surplus>nt</surplus></w> mieulx
+<lb n="594"/>Garny de bon heure,
+			<pb n="104"/>			
+<lb n="595"/>Faictes cris hideux.
+<lb n="596"/>Que nul ne demeure
+<lb n="597"/>Que ne me sequeure.
+<lb n="598"/>Saillés a <surplus>tous</surplus> grans griffes de fer
+<lb n="599"/>De ce puis infernal d'Enfer.
+<lb n="600"/>Je ne sçay que dire,
+<lb n="601"/>Je ne sçay que faire.
+<lb n="602"/>Brief, je creve d'ire.
+<lb n="603"/>Je ne me puis taire,
+<lb n="604"/>Rien ne me peult plaire,
+<lb n="605"/>Je suis sans soulas.
+<lb n="606"/>Tout mon entreprinse retraire
+<lb n="607"/>Fait ce faulx mastin Nicolas.</ab></sp>
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="608"/>Mathatiel!</ab></sp>
+			<sp><speaker>MATHATIEL</speaker>
+<ab type="gv">Je suis tout las
+<lb n="609"/>De regarder cy les passans.</ab></sp>
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="610"/>Vient il riens?</ab></sp>
+			<sp><speaker>MATHATIEL</speaker>
+<ab type="gv">J'employe mes cinq sens
+<lb n="611"/>De faire du tout le possible,
+<lb n="612"/>Mais il est a vous impossible
+<lb n="613"/>D'estre payé de voz debteurs.</ab></sp>
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="614"/>Comment cela?</ab></sp>
+			<pb n="105"/>
+			<sp><speaker>MATHATIEL</speaker>
+<ab type="gv">De ces trompeurs
+<lb n="615"/>Crestiens a qui les cent escus
+<lb n="616"/>Prestates.</ab></sp>
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv">Ne m'en souvenoit plus.
+<lb n="617"/>Mais, pour bien penser sur ce cas,
+<lb n="618"/>Me semble que sainct Nicolas
+<lb n="619"/>Je prins pour gaige.</ab></sp>
+			<sp><speaker>MATHATIEL</speaker>
+<ab type="gv">Quel folie!
+<lb n="620"/>Seurement, je vous certifie
+<lb n="621"/>Et de vray qu'i <supplied>l'</supplied> ont oublié.</ab></sp>
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="622"/>Comment dea, n'ont il rien payé
+<lb n="623"/>Au terme?</ab></sp>
+			<sp><speaker>MATHATIEL</speaker>
+<ab type="gv">Une seulle maille.</ab></sp>
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="624"/>S'i fault qu'en ce cas les assaille,
+<lb n="625"/>Ilz ne l'auront pas d'avantaige.</ab></sp>
+			<sp><speaker>MATHATIEL</speaker>
+<ab type="gv"><lb n="626"/>Vous leur avez presté sans gaige;
+<lb n="627"/>Glosez ung petit sur ce cas.</ab></sp>
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="628"/>En la foy de sainct Nicolas
+<lb n="629"/>Je l'ay fait, et non aultrement,
+			<pb n="106"/>			
+<lb n="630"/>Et si croy tout asseurement
+<lb n="631"/>Que sainct Nicolas m'aidera.</ab></sp>
+			<sp><speaker>MATHATIEL</speaker>
+<ab type="gv"><lb n="632"/>Je ne sçay, moy, quant ce sera,
+<lb n="633"/>Mais il n'est pas prest.</ab></sp>
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv">A ceste heure,
+<lb n="634"/>Sans plus faire longue demeure,
+<lb n="635"/>G'iray vers luy le demander.</ab></sp>
+			<sp><speaker>MATHATIEL</speaker>
+<ab type="gv"><lb n="636"/>Vous le pourrés bien demander
+<lb n="637"/>S'i veult user de pathelin.</ab></sp>
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="638"/>Sainct Nicolas est mon affin
+<lb n="639"/>Et auquel ay tres grant fiance,
+<lb n="640"/>Et l'ay fait en son asseurance.
+<lb n="641"/>S'i me fault, ne luy fauldray pas.</ab></sp>
+			<sp><speaker>MATHATIEL</speaker>
+<ab type="gv"><lb n="642"/>Soyés seur que sainct Nicolas
+<lb n="643"/>Vous aydera de ses miracles
+<lb n="644"/>Et en verrés si beaux sinacles
+<lb n="645"/>Que jamais n'en verrés denier.</ab></sp>
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="646"/>Il m'y convient remedier;
+<lb n="647"/>Je vois vers luy sans plus atendre.</ab></sp>
+			<sp><speaker>MATHATIEL</speaker>
+<ab type="gv"><lb n="648"/>Je vous pourray icy attendre,
+<lb n="649"/>Vous en reviendrez <surplus>tout</surplus> de belle heure.</ab></sp>
+			<pb n="107"/>
+<sp><speaker>SATHAN</speaker>
+<ab type="gv"><lb n="650"/>Longuement en vain je labeure
+<lb n="651"/>Sans trouver sentier ne moyen
+<lb n="652"/>D'atirer quelque faulx crestien
+<lb n="653"/>Pour tresbucher dedans mes las.
+<lb n="654"/>Mais, en despit de Nicolas,
+<lb n="655"/>Ung crestien si bien tempteray
+<lb n="656"/>Et par moyens tant je feray
+<lb n="657"/>Qu'i fera ung tour de ma main.
+<lb n="658"/>Sainct Nicolas est trop humain
+<lb n="659"/>A tous payens, juifz et crestiens.
+<lb n="660"/>En ses faitz je n'y entens riens.
+<lb n="661"/>Mais, soit ou d'estoc ou de taille,
+<lb n="662"/>Je feray a tel paillardaille
+<lb n="663"/>Des griefz tant qu'ilz tresbucheront
+<lb n="664"/>Et qu'en la fin dampnéz seront.
+<lb n="665"/>Venez, dyables, m'aÿder
+<lb n="666"/>A mon entreprinse
+<lb n="667"/>Pour remedier.
+<lb n="668"/>En telle maniere mise,
+<lb n="669"/>Nostre marchandise
+<lb n="670"/>Se pourra bien perdre.
+<lb n="671"/>Saillez, venez en ceste place,
+<lb n="672"/>Que le feu d'Enfer vous puist ardre!</ab></sp>
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="673"/>Sa, ce crestien ne peult ardre,
+<lb n="674"/>Soit par justice ou aultrement,
+<lb n="675"/>Je luy monstreray plainement
+<lb n="676"/>Se se debvra mocquer de moy.
+<lb n="677"/>Je l'apperçoy la.</ab></sp>
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv">Sur ma foy,
+			<pb n="108"/>
+<lb n="678"/>Vela le juif qui vient vers ça.
+<lb n="679"/>Le terme est passé.</ab></sp>
+			<sp><speaker>LA FEMME</speaker>
+<ab type="gv">A cela,
+<lb n="680"/>Se vous usez de mon conseil,
+<lb n="681"/>Contenté sera a mon vueil.
+<lb n="682"/>Laissez moy faire, je vous prie.</ab></sp>
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="683"/>Hola!</ab></sp>
+			<sp><speaker>LA FEMME</speaker>
+<ab type="gv">Quella?</ab></sp>
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv">Je vous supplye
+<lb n="684"/>Que je parle a vostre mary.</ab></sp>
+			<sp><speaker>LA FEMME</speaker>
+<ab type="gv"><lb n="685"/>Jamais ne le voy si marry
+<lb n="686"/>Sinon quant je parle a vous, <w>juif<supplied>z</supplied></w>.
+<lb n="687"/>Ne dictes mot.</ab></sp>
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv">Comment?</ab></sp>
+			<sp><speaker>LA FEMME</speaker>
+<ab type="gv">A l'huis
+	<lb n="688"/>Ne me tenez point de langaige.</ab></sp>
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="689"/>Je luy presté argent sans gaige;
+<lb n="690"/>Il fault que je soye payé.</ab></sp>
+<pb n="109"/>
+			<sp><speaker>LA FEMME</speaker>
+<ab type="gv"><lb n="691"/>Vous mocquez vous?</ab></sp>
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv">Je luy baillié
+	<lb n="692"/>Cent escus en or tout content.</ab></sp>
+			<sp><speaker>LA FEMME</speaker>
+<ab type="gv"><lb n="693"/>En vostre parler rien n'entent.
+<lb n="694"/>Bien sçay qu'il n'a denier ne maille
+<lb n="695"/>Ne marchandise qui le vaille.
+<lb n="696"/>Tel nous voyez, tel nous prenez.</ab></sp>
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="697"/>Que je parle a luy!</ab></sp>
+			<sp><speaker>LA FEMME</speaker>
+<ab type="gv">Ouy, assez,
+<lb n="698"/>Tout au long a vostre plaisir,
+<lb n="699"/>Mais que le trouvons a loysir.
+<lb n="700"/>Le povre homme gaigne sa vie
+<lb n="701"/>A grant peine.</ab></sp>
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv">Quel resverie!
+<lb n="702"/>De moy il a eu cent escus
+<lb n="703"/>Tout en or.</ab></sp>
+			<sp><speaker>LA FEMME</speaker>
+<ab type="gv">Ay, n'en parlez plus.
+<lb n="704"/>Cent escus? Effacez ces motz
+<lb n="705"/>Et pensez parler a propos.
+<lb n="706"/>Oncques n'eusmes vaillant cent mailles.</ab></sp>
+			<pb n="110"/>
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv"><lb n="707"/>Fault il parler a ces chiennailles?</ab></sp>
+			<sp><speaker>LA FEMME</speaker>
+<ab type="gv"><lb n="708"/>Dea, pardonnez moy, s'il vous plaist.</ab></sp>
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv"><lb n="709"/>Leur compaignie si me desplaist.
+<lb n="710"/>Faictes les vuider!</ab></sp>
+			<sp><speaker>LA FEMME</speaker>
+<ab type="gv">Sus, sus, sus!</ab></sp>
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="711"/>Que deviendront mes cent escus
+<lb n="712"/>Que vous ay prestéz en fin or?</ab></sp>
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv"><lb n="713"/>Cent escus?</ab></sp>
+			<sp><speaker>LA FEMME</speaker>
+<ab type="gv">C'est ung grant tresor
+<lb n="714"/>Pour <supplied>prester</supplied> qui n'auroit bon gaige.</ab></sp>
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="715"/>Me pairés vous?</ab></sp>
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv">Vostre langaige
+<lb n="716"/>Ne peult de moy estre entendu.
+<lb n="717"/>Se je devoye estre pendu,
+<lb n="718"/>A bien grant peine fineroye
+<lb n="719"/>Autant en or comme en monnoye,
+<lb n="720"/>Ung grant blanc.</ab></sp>
+			<pb n="111"/>
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv">Ha, mauldit crestien,
+<lb n="721"/>Mon vallet me le disoit bien
+<lb n="722"/>Que crestiens estoyent parjures.</ab></sp>
+			<sp><speaker>LA FEMME</speaker>
+<ab type="gv"><lb n="723"/>Ne me usez point ceans d'injures
+<lb n="724"/>Et venez en vostre bon sens.
+<lb n="725"/>Cent escus? Oncques si puissans
+<lb n="726"/>Ne furent trestous noz amys,
+<lb n="727"/>Quant tout le leur ilz auroyent mis
+<lb n="728"/>En vente.</ab></sp>
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv">Tant vous estes <w>ferme<surplus>s</surplus></w> !</ab></sp>
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv"><lb n="729"/>Se vous ne me usez d'autre terme,
+<lb n="730"/>Je vous feray bien adviser
+<lb n="731"/>Le pelle.</ab></sp>
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv">Vueillez raviser
+<lb n="732"/>Ung petit vostre conscience.</ab></sp>
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv"><lb n="733"/>Je perdray icy pacience
+<lb n="734"/>Saillez dehors, villain infame,
+<lb n="735"/>Ou, par la glorieuse Dame,
+<lb n="736"/>Du corps brief je vous courceray.</ab></sp>
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="737"/>Tout droit a la justice iray
+<lb n="738"/>Et en auray vostre serment.
+	<stage rend="ital">En s'en allant</stage>
+			<pb n="112"/>		
+<lb n="739"/>Je congnois bien evidemment
+<lb n="740"/>Que crestiens si sont parjures.
+<lb n="741"/>Sainct Nicolas de ces injures
+<lb n="742"/>Me vengera, quoy qu'il attende,
+<lb n="743"/>Et si en payera grosse amende
+<lb n="744"/>En justice, ou je fauldray.</ab></sp>
+			<sp><speaker>SATHAN</speaker>
+<ab type="gv"><lb n="745"/>Sur ce cas te conseilleray.
+<lb n="746"/>De les rendre seroit folie,
+<lb n="747"/>Grandement en auras ta vie.
+<lb n="748"/>Et se tu mens aucunement,
+<lb n="749"/>Tu feras en ton testament
+<lb n="750"/>Le rendre par tes heritiers.
+<lb n="751"/>Retiens bien, entens ces sentiers,
+<lb n="752"/>Car personne si ne le scet.</ab></sp>
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv"><lb n="753"/>A jeudy il en aura sept!
+<lb n="754"/>Reputé seroye bien fol,
+<lb n="755"/>On me devroit a ung licol
+<lb n="756"/>Pendre et estrangler au gibet.</ab></sp>
+			<sp><speaker>LA FEMME</speaker>
+<ab type="gv"><lb n="757"/>Il est servy d'ung quolibet.
+<lb n="758"/>Entretenons tousjours ce train
+<lb n="759"/>Et luy faisons renger son frain
+<lb n="760"/>Par ung serment ne plus ne moins.</ab></sp>
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv"><lb n="761"/>Il nous fault maintenir ces <w>poin<surplus>g</surplus>s</w>
+<lb n="762"/>Et bien garder de varier.
+<lb n="763"/>Il n'y pourra contrarier.
+<lb n="764"/>Nul ne le scet que luy et moy
+			<pb n="113"/>		
+<lb n="765"/>J'ay prins cent escus sur ma foy:
+<lb n="766"/>Je n'en lairray ja a courir.</ab></sp>
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="767"/>Le chrestien si me fait mourir
+<lb n="768"/>De me regnier mon argent.
+<lb n="769"/>Se rencontrer peulx ung sergent,
+<lb n="770"/>Son serment auray en justice.</ab></sp>
+			<sp><speaker>LE <num>.I.</num> SERGENT</speaker>
+<ab type="gv"><lb n="771"/>Ce n'est rien que de nostre office.</ab></sp>
+			<sp><speaker>LE SECOND SERGENT</speaker>
+<ab type="gv"><lb n="772"/>On n'a plus que faire de nous.</ab></sp>
+		<sp><speaker>LE <num>.I.</num> SERGENT</speaker>
+<ab type="gv"><lb n="773"/>Veu que plus n'y a d'excercice,
+<lb n="774"/>Ce n'est rien que de nostre office.</ab></sp>
+		<sp><speaker>LE <num>.II.</num> SERGENT</speaker>
+<ab type="gv"><lb n="775"/>Si avons nous assez malice
+<lb n="776"/>Pour l'exercer.</ab></sp>
+		<sp><speaker>LE <num>.I.</num> SERGENT</speaker>
+<ab type="gv">Chassons aux loups!
+<lb n="777"/>Ce n'est rien que de nostre office.</ab></sp>
+		<sp><speaker>LE <num>.II.</num> SERGENT</speaker>
+<ab type="gv"><lb n="778"/>On n'a plus que faire de nous.</ab></sp>
+		<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="779"/>Le grant Dieu vous gard de courroux
+<lb n="780"/>Et vous tienne en prosperité!</ab></sp>
+			<pb n="114"/>			
+		<sp><speaker>LE <num>.I.</num> SERGENT</speaker>
+<ab type="gv"><lb n="781"/>Que dit le cueur?</ab></sp>
+		<sp><speaker>LE JUIF</speaker>
+<ab type="gv">Necessité
+<lb n="782"/>Eusse de trouver ung sergent
+<lb n="783"/>Qui fust a mon cas diligent
+<lb n="784"/>Pour adjourner a ma requeste
+<lb n="785"/>Ung crestien.</ab></sp>
+		<sp><speaker>LE SECOND SERGENT</speaker>
+<ab type="gv">Oncques en <w>tel<surplus>le</surplus></w> feste
+<lb n="786"/>Ne fut que venir en noz mains;
+<lb n="787"/>Nous vous ferons le cas pour moins
+<lb n="788"/>Que ung autre et le vous ferons bien.</ab></sp>
+		<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="789"/>Je vous supply, n'espargnez rien:
+<lb n="790"/>Payés serez a vostre dit.</ab></sp>
+		<sp><speaker>LE <num>.I.</num> SERGENT</speaker>
+<ab type="gv"><lb n="791"/>Nous le ferons sans contredit,
+<lb n="792"/>Ne vous souciez nullement.
+<lb n="793"/>A ceste heure presentement,
+<lb n="794"/>Monstrez nous le lieu ou demeure.</ab></sp>
+		<sp><speaker>LE JUIF <hi rend="I">Icy s'en va avec eulx.</hi> </speaker>
+<ab type="gv"><lb n="795"/>Avec vous iray a ceste heure.
+<lb n="796"/>Ha, brief, je le rendray confus
+<lb n="797"/>Et me rendra mes cent escus
+<lb n="798"/>Que luy ay foncéz.</ab></sp>
+		<sp><speaker>LE <num>.II.</num> SERGENT</speaker>
+<ab type="gv">Il n'est tel.
+<lb n="799"/>Monstrez nous ou est son hostel
+<lb n="800"/>Et nous le ferons bien camus.</ab></sp>
+			<pb n="115"/>
+				<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="801"/>A sa requeste, cent escus
+<lb n="802"/>Luy presté, et me les renye.
+<lb n="803"/>Parquoy, messeigneurs, je vous prye
+<lb n="804"/>Que faciez tant que me les rende.</ab></sp>
+				<sp><speaker>LE <num>.I.</num> SERGENT</speaker>
+<ab type="gv"><lb n="805"/>Contre luy ferez la demande
+<lb n="806"/>En justice.</ab></sp>
+				<sp><speaker>LE JUIF</speaker>
+<ab type="gv">Quel faulx crestien!
+<lb n="807"/>Le vela, le voyez vous bien,
+<lb n="808"/>Emprés sa femme. Vistement
+<lb n="809"/>Adjournez lay presentement
+<lb n="810"/>Et qu'i se compare en personne.</ab></sp>
+				<sp><speaker>LE <num>.II.</num> SERGENT</speaker>
+<ab type="gv"><lb n="811"/>S'i se parjure?</ab></sp>
+				<sp><speaker>LE JUIF</speaker>					
+<ab>Les y donne;
+<lb n="812"/>Aussi bien seroyent ilz perdus.
+<lb n="813"/>Nonpourtant me seront rendus
+<lb n="814"/>Ou sainct Nicolas me fauldra.</ab></sp>
+			<sp><speaker>LE <num>.II.</num> SERGENT</speaker>
+<ab type="gv"><lb n="815"/>Seurement il les vous rendra,
+<lb n="816"/>Si peu ne sçaura sejourner.</ab></sp>				
+			<sp><speaker>LE SECOND SERGENT</speaker>
+<ab type="gv"><lb n="817"/>Voysin, je vous viens adjourner
+<lb n="818"/>A la requeste de ce juif,
+			<pb n="116"/>
+<lb n="819"/>Pour ouyr de luy son motif,
+<lb n="820"/>Devant le prevost a cest heure.</ab></sp>
+				<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv"><lb n="821"/>Le povre homme en vain si labeure;
+<lb n="822"/>Je sçay bien toute sa demande.</ab></sp>
+	<sp><speaker>LE <num>.I.</num> SERGENT</speaker>
+<ab type="gv"><lb n="823"/>Venez y sur peine d'amende,
+<lb n="824"/>A ceste heure hastivement.</ab></sp>
+			<sp><speaker>LA FEMME</speaker>
+<ab type="gv"><lb n="825"/>Il est bien loing de son payement.
+<lb n="826"/>C'est ung povre sot radoté,
+<lb n="827"/>Qui de tous pointz <supplied>est</supplied> rassotté
+<lb n="828"/><w>E<surplus>s</surplus>t</w> proprement ne scet qu'i quiert.</ab></sp>
+			<sp><speaker>LE <num>.II.</num> SERGENT</speaker>
+<lb/><stage rend="ital">Icy s'en vont et le crestien demeure ung peu en arriere.</stage>
+<ab><lb n="829"/>Puisque la justice requiert,
+<lb n="830"/>C'est raison que n'en la sequeure.
+<lb n="831"/>Venez y tost.</ab></sp>
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv">Tout a ceste heure;
+<lb n="832"/>Par moy n'y aura point deffault.</ab></sp>
+			<sp><speaker>LA FEMME</speaker>
+<ab type="gv"><lb n="833"/>Avoir bonne bouche vous fault
+<lb n="834"/>Et estre seur.</ab></sp>
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv">Comme ung pilier.</ab></sp>
+			<pb n="117"/>
+			<sp><speaker>LA FEMME</speaker>
+<ab type="gv"><lb n="835"/>Gardez bien de vous ortier;
+<lb n="836"/>Nous serions perdus.</ab></sp>
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv">N'ayez garde;
+<lb n="837"/>Prenez que nous ayons en garde
+<lb n="838"/>Les cent escus.</ab></sp>
+			<sp><speaker>LE <num>.I.</num> SERGENT</speaker>
+<ab type="gv">Sça, venez tost.</ab></sp>
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv"><lb n="839"/>Mais que me fera le prevost?</ab></sp>
+			<sp><speaker>LE <num>.I.</num> SERGENT</speaker>
+<ab><lb n="840"/><supplied>Il ne vous fera que justice</supplied>.</ab></sp>
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv"><lb n="841"/>Se bien exerce son office,
+<lb n="842"/>Il ne me fera que raison.</ab></sp>
+			<sp><speaker>LE <num>.I.</num> SERGENT</speaker>
+<ab type="gv"><lb n="843"/>Arrivéz sommes de saison
+<lb n="844"/>Au pletz; voy le prevost assis.</ab></sp>
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="845"/>Je suis en mon cueur tout transis
+<lb n="846"/>De ce chrestien mauldit parjure.
+<lb n="847"/>Que feray je s'i se parjure?
+<lb n="848"/>Mes cent escus seront perdus.</ab></sp>
+			<pb n="118"/>			
+<sp><speaker>L'ADVOCAT</speaker>
+<ab type="gv"><lb n="849"/>Vecy gens venir esperdus;
+<lb n="850"/>De nouveau y a quelque chose.</ab></sp>
+<sp><speaker>LE GREFFIER</speaker>
+<ab type="gv"><lb n="851"/>La journee si est toute close.
+<lb n="852"/>Qui veult rien dire si s'avance!</ab></sp>
+			<sp><speaker>LE <num>.I.</num> SERGENT</speaker>
+<ab type="gv"><lb n="853"/>Adjourné avons en presence,
+<lb n="854"/>Sire prevost, ce chrestien cy.</ab></sp>
+<sp><speaker>LE PREVOST</speaker>
+<ab type="gv"><lb n="855"/>A quel requeste?</ab></sp>
+			<sp><speaker>LE <num>.I.</num> SERGENT</speaker>
+<ab type="gv">De cestuy
+<lb n="856"/>Juif qui <w><supplied>i</supplied>cy</w> est en personne.</ab></sp>
+<sp><speaker>LE PREVOST</speaker>
+<ab type="gv"><lb n="857"/>Faictes paix, que nul mot ne sonne.
+<lb n="858"/>Proposez icy vostre cas.</ab></sp>
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="859"/>Je ne vueil cy nulz advocatz
+<lb n="860"/>Que moy seul pour tout mon conseil,
+<lb n="861"/>Car oncques ne vy cas pareil.
+<lb n="862"/>S'i vous plaist, je le compteray.
+<lb n="863"/>Sire prevost, il est bien vray,
+<lb n="864"/>Cest homme estant en povreté
+<lb n="865"/>Et en grande necessité,
+<lb n="866"/>Vint vers moy et, par ces abus,
+<lb n="867"/>Luy prestay jusqu'a cent escus
+<lb n="868"/>Et, pour bien entendre le cas,
+<lb n="869"/>Dessus l'autel sainct Nicolas,
+			<pb n="119"/>			
+<lb n="870"/>Jura loyaulment me les rendre.
+<lb n="871"/>Maintenant il se veult deffendre
+<lb n="872"/>Et me dit qu'il ne sçait que c'est.
+<lb n="873"/>Par sainct Nicolas, je feuz prest
+<lb n="874"/>De luy prester sus son serment!
+<lb n="875"/>Vers vous je viens en jugement
+<lb n="876"/>Pour en avoir droit et justice.</ab></sp>
+			<sp><speaker>LE PREVOST</speaker>
+<ab><lb n="877"/>Croyez que, selon mon office,
+<lb n="878"/>En raison feray le possible.</ab></sp>
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv"><lb n="879"/>Monseigneur, il est impossible
+<lb n="880"/>Qu'i ce feust si fié en moy
+<lb n="881"/>Que m'avoir baillé sur ma foy
+<lb n="882"/>Cent escus.</ab></sp>
+			<sp><speaker>LE PREVOST</speaker>
+<ab>Vous voyés qu'il dit?</ab></sp>
+			<sp><speaker>LE JUIF</speaker>
+<ab><lb n="883"/>Sans plus faire de contredit,
+<lb n="884"/>Viengne a l'autel sainct Nicolas
+<lb n="885"/>Et qu'il en jure sur ce cas.
+<lb n="886"/>Je le croiré par son serment.</ab></sp>
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv"><lb n="887"/>Jurer si tres hastivement?
+<lb n="888"/>Je demandë ains le conseil.</ab></sp>
+			<sp><speaker>L'ADVOCAT</speaker>
+<ab type="gv"><lb n="889"/>On ne peut pas juger a l'oeil.
+<lb n="890"/>Apointés a deliberer.</ab></sp>
+			<pb n="120"/>
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="891"/>Je propose qu'il doit jurer
+<lb n="892"/>De ceste heure.</ab></sp>
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv">Pas ne suis prest.</ab></sp>
+			<sp><speaker>L'ADVOCAT</speaker>
+<ab type="gv"><lb n="893"/>Monseigneur, vous voyez que c'est.
+<lb n="894"/>Il fault les delais de la court.</ab></sp>
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="895"/>Je ne demande que le court
+<lb n="896"/>Affin que j'en soye a delivre.</ab></sp>
+			<sp><speaker>L'ADVOCAT</speaker>
+<ab type="gv"><lb n="897"/>Monseigneur, il s'en pourroit suyvre
+<lb n="898"/>Ung trop grant inconvenient.</ab></sp>
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="899"/>Cent escus n'est pas ung nÿant.
+<lb n="900"/>On va bien pour moins a l'offrande.</ab></sp>
+			<sp><speaker>L'ADVOCAT</speaker>
+<ab type="gv"><lb n="901"/>Pour luy respondre a sa demande,
+<lb n="902"/>A huytaine?</ab></sp>
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv">Je m'y oppose,
+<lb n="903"/>Car je ne demande autre chose
+	<lb n="904"/>Que son serment.</ab></sp>
+			<sp><speaker>LE JUGE</speaker>
+<ab type="gv">Ne dit pas mal.
+			<pb n="121"/>			
+<lb n="905"/>Ou il est larron ou loyal,
+<lb n="906"/>Au serment on voit le preudhomme.</ab></sp>
+				<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="907"/>Cent escus luy baillé en somme,
+<lb n="908"/>En fin or, ne, par le grant Dieu,
+<lb n="909"/>Je vous monstreray bien le lieu:
+<lb n="910"/>Mon varlet si estoit present.</ab></sp>
+			<sp><speaker>LE JUGE</speaker>
+<ab type="gv"><lb n="911"/>Vous en jurerés en present
+<lb n="912"/>Sans en faire cy <supplied>plus de</supplied>plait?</ab></sp>
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv"><lb n="913"/>Qu'i voise querir son varlet!
+<lb n="914"/>Je tiens qu'il dira le contraire.</ab></sp>
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="915"/>J'en suis content.</ab></sp>
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv">Tendis, a faire
+<lb n="916"/>Ay en mon hostel ung petit.
+<lb n="917"/>Je reviendray sans contredit
+<lb n="918"/>Tout aussi tost comme il fera.</ab></sp>
+			<sp><speaker>LE JUGE</speaker>
+<ab type="gv"><lb n="919"/>L'apointement tel cy sera:
+<lb n="920"/>Pour demain vous <supplied>vous</supplied> en yrés
+<lb n="921"/>En vostre hostel, mais reviendrés
+<lb n="922"/>Aprés disner cy en ce lieu</ab></sp>
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="923"/>J'en suis content, par le grant Dieu.
+<lb n="924"/>Enregistrés l'apointement.</ab></sp>
+			<pb n="122"/>
+			<sp><speaker>LE GREFFIER</speaker>
+<ab type="gv"><lb n="925"/>Sa, argent tout premierement!</ab></sp>
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv"><lb n="926"/>Vous serés tousjours bien payé.</ab></sp>
+			<sp><speaker>LE GREFFIER</speaker>
+<ab type="gv"><lb n="927"/>Baillés arres, puis parpayé
+<lb n="928"/>Sera a vostre bon loisir.</ab></sp>
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="929"/>Tenez, mais ce m'est desplaisir
+<lb n="930"/>D'avoir presté et <supplied>puis</supplied> despendre
+<lb n="931"/>Pour le pourchasser.</ab></sp>
+			<sp><speaker>LE GREFFIER</speaker>
+<ab type="gv">Il fault prendre
+<lb n="932"/>De toutes mains, ou aultrement
+<lb n="933"/>La pratique totallement
+<lb n="934"/>Viendroit en ces declinaisons.</ab></sp>
+			<sp><speaker>LE JUGE</speaker>
+<ab type="gv"><lb n="935"/>Allés vous en en voz maisons
+<lb n="936"/>Et revenés comme il est dit.</ab></sp>
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv"><lb n="937"/>Point n'y aura de contredit.</ab></sp>
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="938"/>Non pas a moy, soyez en seur.</ab></sp>
+			<pb n="123"/>
+
+			<sp><speaker>SATHAN</speaker>
+<ab type="gv"><lb n="939"/>Du cas suis maintenant asseur,
+<lb n="940"/>Si bien je l'ay entretenu.
+<lb n="941"/>Oncques ne fus si bien venu
+<lb n="942"/>A Lucifer que je seray.
+<lb n="943"/>Car tous deux les emporteray
+<lb n="944"/>En Enfer sans point de respit,
+<lb n="945"/>Et pourchasseray, en despit
+<lb n="946"/>De Nicolas, mon ennemy,
+<lb n="947"/>D'en faire quelque bon amy
+<lb n="948"/>Dedans la grant salle infernalle.
+<lb n="949"/>Ma raison totalle
+<lb n="950"/><w>E<surplus>s</surplus>t</w> plus principalle,
+<lb n="951"/>C'est de les grever,
+<lb n="952"/>Car leur face palle
+<lb n="953"/>Pourchasseray malle.
+<lb n="954"/>Pour les agraver,
+<lb n="955"/>Fainctes eslever
+<lb n="956"/>Et me preserver,
+<lb n="957"/>Monstres, espouentables faces,
+<lb n="958"/>Pour vous abruver,
+<lb n="959"/>Venez approuver
+<lb n="960"/>Icy voz tirannicques traces!</ab></sp>
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="961"/>Mathatiel!</ab></sp>
+			<sp><speaker>MATHATIEL</speaker>
+<ab type="gv">Vieilles grimaces!</ab></sp>
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="962"/>Il y a bien cause pourquoy:
+<lb n="963"/>Le crestien jure sur sa foy
+<lb n="964"/>Qu'oncques je ne luy prestay rien!</ab></sp>
+			<pb n="124"/>
+			<sp><speaker>MATHATIEL</speaker>
+<ab type="gv"><lb n="965"/>Maistre, je le vous disoye bien.</ab></sp>
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="966"/>N'as tu pas bonne souvenance
+<lb n="967"/>Que je luy prestay a fïance
+<lb n="968"/>Cent escus?</ab></sp>
+			<sp><speaker>MATHATIEL</speaker>
+<ab type="gv">Pour vous ilz sont fris.</ab></sp>
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="969"/>Je l'ay fait convenir.</ab></sp>
+			<sp><speaker>MATHATIEL</speaker>
+<ab type="gv">Et puis?</ab></sp>
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="970"/>Comme beau meurtre le renie.
+<lb n="971"/>Bien enragé est qui se fie
+<lb n="972"/>En ces crestiens ne qu'a ung chien.</ab></sp>
+			<sp><speaker>MATHATIEL</speaker>
+<ab type="gv"><lb n="973"/>Maistre, je vous le <w>disoye<surplus>s</surplus></w> bien.</ab></sp>
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="974"/>Appointé il est que viendras
+<lb n="975"/>En justicë et qu'en diras
+<lb n="976"/>La verité ainsi qu'il est.</ab></sp>
+			<sp><speaker>MATHATIEL</speaker>
+<ab type="gv"><lb n="977"/>De ce faire je suis tout prest,
+<lb n="978"/>Mais fol il seroit de le rendre.</ab></sp>
+			<pb n="125"/>
+			<sp><speaker>LA FEMME</speaker>
+<ab type="gv"><lb n="979"/>Estes vous venu?</ab></sp>
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv">Me deffendre
+<lb n="980"/>Il me convient d'aultre malice.
+<lb n="981"/>Apointé il est en justice
+<lb n="982"/>Que sur ce cas je jureray.</ab></sp>
+			<sp><speaker>LA FEMME</speaker>
+<ab type="gv"><lb n="983"/>Qu'est il de faire?</ab></sp>
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv">Je mettray
+<lb n="984"/>En ung creux baston tout son or.</ab></sp>
+			<sp><speaker>LA FEMME</speaker>
+<ab type="gv"><lb n="985"/>Voulez vous perdre ce tresor?
+<lb n="986"/>Croyez moi, vous n'en ferés rien.</ab></sp>
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv"><lb n="987"/>Ne te chaille, je jourray bien:
+<lb n="988"/>En ce creux baston le mettray
+<lb n="989"/>Et tres proprement l'enclorray.</ab></sp>
+			<sp><speaker>LA FEMME</speaker>
+<ab type="gv"><lb n="990"/>Puis aprés?</ab></sp>
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv">Le feray tenir
+<lb n="991"/>Au juif. Lors pourray maintenir
+<lb n="992"/>Et jurer tout certainement
+<lb n="993"/>Que <supplied>je</supplied> luy ay entierement
+<lb n="994"/>Son or rendu.</ab></sp>
+			<pb n="126"/>
+			<sp><speaker>LA FEMME</speaker>
+<ab type="gv"><lb n="995"/>Que c'est bien dit!</ab></sp>
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv"><lb n="996"/>Par ce point aurons ung <w><supplied>r</supplied>espit</w>
+<lb n="997"/>Et tout son or nous demourra.</ab></sp>
+			<sp><speaker>LA FEMME</speaker>
+<ab type="gv"><lb n="998"/>Caultement aller y fauldra;
+<lb n="999"/>Aultrement nous sommes destruis.</ab></sp>
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv"><lb n="1000"/>Il sera payé, se je puis,
+<lb n="1001"/>Tout sec et son or sera nostre.
+<lb n="1002"/>Vecy ung baston qui est propre
+<lb n="1003"/>Pour le cas, et y servira.</ab></sp>
+			<sp><speaker>LA FEMME</speaker>
+<ab type="gv">Au dernier, mal nous en yra
+<lb n="1004"/>S'il n'est faict bien secrettement.</ab></sp>
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv"><lb n="1005"/>Secret? Crois le sëurement.
+<lb n="1006"/>Les cent escus mettray icy
+<lb n="1007"/>Et n'en aura aultre mercy.
+<lb n="1008"/>Aussi, le juif est riche assés.</ab></sp>
+			<sp><speaker>LA FEMME</speaker>
+<ab type="gv"><lb n="1009"/>Faictes luy proprement.</ab></sp>
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv">Pensés,
+<lb n="1010"/>Car en cela gist nostre fait!
+<lb n="1011"/>Le baston y est aussi fait
+<lb n="1012"/>Qu'i seroit possible de faire.</ab></sp>
+			<pb n="127"/>
+			<sp><speaker>LA FEMME</speaker>
+<ab type="gv"><lb n="1013"/>Se vous pouez le cas parfaire,
+<lb n="1014"/>Vous jourrez mieulx que maistre Mouche.</ab></sp>
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv"><lb n="1015"/>Vela ces cent escus en couche.
+<lb n="1016"/>Je m'en revois en m'ajournee.</ab></sp>
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="1017"/>L'heure avons par trop sejournee;
+	<lb n="1018"/>Le juge nous ferons atendre.</ab></sp>
+			<sp><speaker>MATHATIEL</speaker>
+<ab type="gv"><lb n="1019"/>On dit qu'il fault ou pendre ou rendre.
+<lb n="1020"/>Je ne sçay lequel ce sera,
+<lb n="1021"/>Mais le juge en appointera,
+<lb n="1022"/>Moyen <hi rend="I"> <foreign xml:lang="la">beati garniti</foreign> </hi>.</ab></sp>
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="1023"/>Qu'est ce que tu dis?</ab></sp>
+			<sp><speaker>MATHATIEL</speaker>
+<ab type="gv">Je vous dy
+<lb n="1024"/>Que vous avés tres bonne cause.
+<lb n="1025"/>Il n'y a de cas que une clause:
+<lb n="1026"/>Que vous l'avez presté sans gaige.</ab></sp>
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="1027"/>Ne m'en parlez plus.</ab></sp>
+			<sp><speaker>MATHATIEL</speaker>
+<ab type="gv">Non feray je.
+<lb n="1028"/>Allons, maistre, ou il vous plaira.</ab></sp>
+			<pb n="128"/>
+			<sp><speaker>SATHAN</speaker>
+<ab type="gv"><lb n="1029"/>Se je puis, se parjurera
+<lb n="1030"/>Et le tempteray si tres bien
+<lb n="1031"/>Qu'en la fin <supplied>il</supplied> se rendra mien.
+<lb n="1032"/>Je ne crains que sainct Nicolas,
+<lb n="1033"/>Car la matiere est en ces las.
+<lb n="1034"/>Mais si fort le tempesteray
+<lb n="1035"/>Et vivement le presseray
+<lb n="1036"/>Qu'il sera mien, quoy qu'il attende.
+<lb n="1037"/>A Lucifer payera l'amende,
+<lb n="1038"/>Veu le train que je voy qu'il tient.</ab></sp>
+			<sp><speaker>LE PREVOST</speaker>
+<ab type="gv"><lb n="1039"/>Comment, dea, quant il m'en souvient,
+<lb n="1040"/>Ce juif si n'est point revenu
+<lb n="1041"/>Ne son homme! Mal advenu
+<lb n="1042"/>Leur sera s'i faillent au jour.</ab></sp>
+			<sp><speaker>L'ADVOCAT</speaker>
+<ab type="gv"><lb n="1043"/>Ilz ne feront gueres sejour;
+<lb n="1044"/>Vous les verrés tout a cest heure.</ab></sp>
+			<sp><speaker>LE GREFFIER</speaker>
+<ab type="gv"><lb n="1045"/>Si font ilz bien longue demeure;
+<lb n="1046"/>Il aproche ja sus le tart.</ab></sp>
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="1047"/>J'ay esté un peu trop fetart;
+<lb n="1048"/>J'aperçoy le prevost au lieu.
+<lb n="1049"/>Vous, sire prevost, le grant Dieu
+<lb n="1050"/>Si vous tienne en joye et santé.</ab></sp>
+			<sp><speaker>LE PREVOST</speaker>
+<ab type="gv"><lb n="1051"/>Avez vous esté contenté?</ab></sp>
+			<pb n="129"/>
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="1052"/>Ouÿ, de ung <hi rend="I"> <foreign xml:lang="la">nego</foreign> </hi> a grant queue
+<lb n="1053"/>En justice je vous en veue.
+<lb n="1054"/>Vecy mon varlet en presence
+<lb n="1055"/>Devant lequel ceste finance
+<lb n="1056"/>Luy presté, par bonne equité,
+<lb n="1057"/>En sa grande necessité.</ab></sp>
+			<sp><speaker>LE PREVOST</speaker>
+<ab type="gv"><lb n="1058"/>Est il vray?</ab></sp>
+			<sp><speaker>MATHATIEL</speaker>
+<ab type="gv">Ouÿ, seurement.
+<lb n="1059"/>Cent escus d'or sur son serment
+<lb n="1060"/>Luy a prestés sans aultre gaige.</ab></sp>
+			<sp><speaker>L'ADVOCAT</speaker>
+<ab type="gv"><lb n="1061"/><hi rend="I"> <foreign xml:lang="la">Audi partem</foreign>.</hi> Vous dictes raige!
+<lb n="1062"/>Vous sçavés bien que la partie
+<lb n="1063"/>Du tout en tout si vous le nie.
+<lb n="1064"/>Attendés ung peu.</ab></sp>
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv">Sire juge,
+<lb n="1065"/>Que nul de sa cause ne juge,
+<lb n="1066"/>Car je luy nie tout en effect.</ab></sp>
+			<sp><speaker>LE PREVOST</speaker>
+<ab type="gv"><lb n="1067"/>Vous en jurerez sur ce fait.
+<lb n="1068"/>Allons tost, sans plus de debas,
+<lb n="1069"/>Dessus l'autel sainct Nicolas,
+<lb n="1070"/>Selon l'apointement donné.
+<stage rend="ital">Icy s'en vont a l'autel sainct Nicolas</stage>.</ab></sp>
+			<sp><speaker>L'ADVOCAT</speaker>
+<ab type="gv"><lb n="1071"/>C'est trop longuement sermonné,
+			<pb n="130"/>			
+<lb n="1072"/>Puisqu'il en croit par son serment.
+<lb n="1073"/>Despeschons nous legierement;
+<lb n="1074"/>Allons vistement a l'eglise.</ab></sp>
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="1075"/>O sainct Nicolas, ta franchise
+<lb n="1076"/>Ci soit mise
+<lb n="1077"/>Et monstree la foy promise
+<lb n="1078"/>Ainsi qu'en toy ay eu fiance!
+<lb n="1079"/>Tes miracles font demonstrance,
+<lb n="1080"/>Sans doubtance.
+<lb n="1081"/>Que <supplied>cil</supplied> qui ont en toy fiance,
+<lb n="1082"/>Recevront ta grace promise.
+<lb n="1083"/>O sainct Nicolas, ta franchise
+<lb n="1084"/>[ si soit mise
+<lb n="1085"/>Et monstree la foy promise
+<lb n="1086"/>Ainsi qu'en toy ay eu fiance! ]</ab></sp>
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv"><lb n="1087"/>Sa franchise vueil maintenir.
+<lb n="1088"/>Dont, je vous pry, vueillez tenir
+<lb n="1089"/>Mon baston ung peu, s'i vous plaist.</ab></sp>
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="1090"/>Le tenir point ne me desplaist;
+<lb n="1091"/>J'en suis content, baillez le moy,
+<lb n="1092"/>Car il me tarde que la foy
+<lb n="1093"/>Des chrestiens aye aprouvee.</ab></sp>
+			<sp><speaker>LE PREVOST</speaker>
+<ab type="gv"><lb n="1094"/>Allons tost!</ab></sp>
+			<sp><speaker>LE <num>.I.</num> SERGENT</speaker>
+<ab type="gv"><w>El<surplus>le</surplus></w> sera prouvee
+<lb n="1095"/>A ceste heure, vaille que vaille.</ab></sp>
+			<pb n="131"/>			
+			<sp><speaker>LE <num>.II.</num> SERGENT</speaker>
+<ab type="gv"><lb n="1096"/>Sans y gaigner denier ne maille,
+<lb n="1097"/>Nous sommes cy bien longuement.</ab></sp>
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="1098"/>Entrons trestous assembleement
+<lb n="1099"/>Dedans l'eglise.</ab></sp>
+			<sp><speaker>LE PREVOST</speaker>
+<ab type="gv">Sus l'autel
+<lb n="1100"/>Sainct Nicolas ferez <w><supplied>i</supplied>tel</w>
+<lb n="1101"/>Serment ainsi qu'il est de faire.</ab></sp>
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv"><lb n="1102"/>Point je n'alegue le contraire.</ab></sp>
+			<sp><speaker> LE PRESTRE </speaker>
+<ab type="gv"><lb n="1103"/>Dea, seigneur, il me souvient bien
+<lb n="1104"/>De ce juif et ce crestien;
+<lb n="1105"/>Dessus l'autel sainct Nicolas
+<lb n="1106"/>Vindrent tous deux.</ab></sp>
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv">C'est pour le cas.
+<lb n="1107"/>Il me regnie mes cent escus
+<lb n="1108"/>Que je luy presté.</ab></sp>
+			<sp><speaker> LE PRESTRE </speaker>
+<ab type="gv">Et non plus?
+<lb n="1109"/>Mon amy, ce n'est pas bien fait.</ab></sp>
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv"><lb n="1110"/>Les y ay rendus en effect.</ab></sp>
+			<pb n="132"/>
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="1111"/>Rendus?</ab></sp>
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv">Voire en ma conscience.</ab></sp>
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="1112"/>Je perdroye icy pacience.</ab></sp>
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv"><lb n="1113"/>Par le vray Dieu en qui je croy,
+<lb n="1114"/>La crestienté et la loy
+<lb n="1115"/>Que j'ay receu comme crestien,
+<lb n="1116"/>Je ne cuide avoir rien du sien
+<lb n="1117"/>Que tout je ne luy aye rendu.</ab></sp>
+			<sp><speaker>MATHATIEL</speaker>
+<ab type="gv"><lb n="1118"/>Mon maistre, vous avez perdu.
+<lb n="1119"/>Congnoissez maintenant le cas.</ab></sp>
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="1120"/>A, glorieux sainct Nicolas,
+<lb n="1121"/>Souffriras tu qu'il se parjure?</ab></sp>
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv"><lb n="1122"/>Par sainct Nicolas <supplied>je le lure</supplied>
+<lb n="1123"/>Dont vecy sa <w>plaisant<surplus>e</surplus></w> ymage,
+<lb n="1124"/>Que s'il m'a rien presté sans gaige,
+<lb n="1125"/>Je l'en ay tres bien contenté.</ab></sp>
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="1126"/>Fy, fy de la crestïenté!
+<lb n="1127"/>Tenez vous ainsi verité?
+<lb n="1128"/>Crestien remply de faulceté,
+			<pb n="133"/>			
+<lb n="1129"/>T'es tu parjuré en ce cas?
+<lb n="1130"/>Je sçay bien que sainct Nicolas
+<lb n="1131"/>Impugny ne te lairra pas.
+<lb n="1132"/>Quoiqu'il tarde, pugny seras.
+<lb n="1133"/>Mais, congneu ta perversité,
+<lb n="1134"/>Fy, fy de la crestienté!</ab></sp>
+			<sp><speaker>MATHATIEL</speaker>
+<ab type="gv"><lb n="1135"/>Franchement, il c'est acquité;
+<lb n="1136"/>Il s'en peult aller franchement.</ab></sp>
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv"><lb n="1137"/>Tout franc, m'en yray voyrement.
+<lb n="1138"/>Les despens payrés de justice.
+<lb n="1139"/>Adieu, seigneurs.</ab></sp>
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv">Ta grant malice,
+<lb n="1140"/>A la fin, si te decepvra.</ab></sp>
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv"><lb n="1141"/>Ou est mon baston?</ab></sp>
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv">Le vela,
+<lb n="1142"/>Mauldit parjure que tu es.</ab></sp>
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv"><lb n="1143"/>Faictes luy payer tous les frais
+<lb n="1144"/>Et que noz journees soyent tauxees.
+<lb n="1145"/>Adieu, seigneurs.</ab></sp>
+			<sp><speaker>LE PREVOST</speaker>
+<ab type="gv">Recompensees
+<lb n="1146"/>Te seront, n'en fay nulle doubte.
+			<pb n="134"/>			
+<lb n="1147"/>Payez les despens, somme toute,
+<lb n="1148"/>Qui ont esté faictz en la cause.</ab></sp>
+			<sp><speaker>LE JUIF</speaker>
+<stage rend="ital">Icy fait maniere de bailler argent a ceulx de la justice.</stage>
+<ab type="gv"><lb n="1149"/>Cecy plus de douleur me cause
+<lb n="1150"/>Que la cause du principal.</ab></sp>
+			<sp><speaker>LE CHARTIER</speaker>
+<ab type="gv"><lb n="1151"/>Hure, ho, dea, que tu vas mal!
+<lb n="1152"/>Va avant, vache, malle rosse!</ab></sp>
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv"><lb n="1153"/>Mon fait est bien.</ab></sp>
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv">Faulx desloyal!</ab></sp>
+			<sp><speaker>LE CHARTIER</speaker>
+	<ab type="gv"><lb n="1154"/>Hure, ho, dea, que tu vas mal!</ab></sp>
+			<sp><speaker>SATHAN</speaker>
+<ab type="gv"><lb n="1155"/>Le crestien, en propos final,
+<lb n="1156"/>Si sera mien.</ab></sp>
+			<sp><speaker>LE CHARTIER</speaker>
+<ab type="gv">Garde la fosse!
+<lb n="1157"/>Hure, ho, dea, que tu vas mal!
+<lb n="1158"/>Va, avant, vache, malle rosse!
+<lb n="1159"/>Ceste charge cy m'est trop grosse
+<lb n="1160"/>Et me donne beaucoup de peine.</ab></sp>
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv"><lb n="1161"/>Oncques ne fus de la sepmaine
+			<pb n="135"/>			
+<lb n="1162"/>Sy endormy comme je suis.
+<lb n="1163"/>Qu'est cecy? Nullement ne puis
+<lb n="1164"/>Me porter. Je ne sçay que c'est.
+<lb n="1165"/>Dormir me convient sans arrest.
+<lb n="1166"/>Icy endroit me coucheray
+<lb n="1167"/>Et ung peu me reposeray,
+<lb n="1168"/>Car je suis fort prins de sommeil.</ab></sp>
+			<sp><speaker><abbr>S.</abbr> NICOLAS</speaker>
+<ab type="gv"><lb n="1169"/>Dieu eternel, trois en ung vueil
+<lb n="1170"/>Une voulenté par essence
+<lb n="1171"/>Qui en divine prescience
+<lb n="1172"/>Congnois les cueurs et les couraiges,
+<lb n="1173"/>Tu vois de Sathan les oultrages
+<lb n="1174"/>Qu'il a pourchassés contre moy
+<lb n="1175"/>Pour cuider destruire la loy.
+<lb n="1176"/>Le povre juif a eu fiance
+<lb n="1177"/>En moy et parfaicte creance,
+<lb n="1178"/>Et Sathan, pour me faire injure,
+<lb n="1179"/>A rendu le crestien parjure.
+<lb n="1180"/>Te plaise d'y remedier
+<lb n="1181"/>Et tellement le juif ayder
+<lb n="1182"/>Qu'il ait le royaulme des cieulx!</ab></sp>
+			<sp><speaker>DIEU</speaker>
+<ab type="gv"><lb n="1183"/>Nicolas, ton amy glorieux
+<lb n="1184"/>Sera exaulcé pour le cas.
+<lb n="1185"/>L'injure ne demoura pas
+<lb n="1186"/>Que, par la justice divine,
+<lb n="1187"/>N'en soit monstré evident signe
+<lb n="1188"/>A ta glorification.</ab></sp>
+			<sp><speaker><abbr>S.</abbr> NICOLAS</speaker>
+<ab type="gv"><lb n="1189"/>Preserve de damnation
+<lb n="1190"/>Le juif et le povre crestien.</ab></sp>
+			<pb n="136"/>
+			<sp><speaker>DIEU</speaker>
+<ab type="gv"><lb n="1191"/>Par divine punition,
+<lb n="1192"/>Le juif si aura tout le sien.</ab></sp>
+			<sp><speaker>NOSTRE DAME</speaker>
+<ab type="gv"><lb n="1193"/>Soit amoderé le moyen
+<lb n="1194"/>Par grace en exaltation.</ab></sp>
+			<sp><speaker>DIEU</speaker>
+<ab type="gv"><lb n="1195"/>La faulce machination
+<lb n="1196"/>Sera punië.</ab></sp>
+			<sp><speaker><abbr>S.</abbr> NICOLAS</speaker>
+<ab type="gv">En tout bien,
+<lb n="1197"/>Preserve de damnation
+<lb n="1198"/>Le juif et le povre crestien.</ab></sp>
+			<sp><speaker>DIEU</speaker>
+<ab type="gv"><lb n="1199"/>Nicolas, par toy, du lïen
+<lb n="1200"/>De Sathan seront delivrés
+<lb n="1201"/>Et grans miracles demonstréz.
+<lb n="1202"/>Le crestien corporelle mort
+<lb n="1203"/>Recepvra, mais, par ton support,
+<lb n="1204"/>Ressuscité de mort a vie
+<lb n="1205"/>Sera et la faulce envie
+<lb n="1206"/>Du dyable de tous apperceue.
+<lb n="1207"/>Par toy l'ame soit deffendue
+<lb n="1208"/>De Sathan! Et descens en terre.</ab></sp>
+			<sp><speaker><abbr>S.</abbr> NICOLAS</speaker>
+<ab type="gv"><lb n="1209"/>De rechief je te vueil requerre
+<lb n="1210"/>Que le juif reçoive la loy,
+<lb n="1211"/>Veu qu'il a grant fiance en moy,
+<lb n="1212"/>Et qu'en fin il ait paradis.</ab></sp>
+			<pb n="137"/>
+			<sp><speaker>DIEU</speaker>
+<ab type="gv"><lb n="1213"/>Il sera fait comme tu dis.
+<lb n="1214"/>Va en terre legierement,
+<lb n="1215"/>Car Sathan grant encombrement
+<lb n="1216"/>Si s'efforce trop de leur faire.</ab></sp>
+			<sp><speaker>NOSTRE DAME</speaker>
+<ab type="gv"><lb n="1217"/>Pour sa legation parfaire,
+<lb n="1218"/>Anges, avec luy descendez.</ab></sp>
+<sp><speaker>GABRIEL</speaker>
+<ab type="gv"><lb n="1219"/>Dame, nous vous voulons complaire
+<lb n="1220"/>Ainsi comme le commandez.</ab></sp>
+			<sp><speaker>DIEU</speaker>
+<ab type="gv"><lb n="1221"/>A luy obeÿr entendez.</ab></sp>
+			<sp><speaker>RAPHAEL</speaker>
+<ab type="gv"><lb n="1222"/>Souverain Dieu tres debonnaire,
+<lb n="1223"/>Nous le ferons.</ab></sp>
+			<sp><speaker>NOSTRE DAME</speaker>
+<ab type="gv">Sus, sus chantez.
+<lb n="1224"/>Pour sa legation parfaire,
+<lb n="1225"/>Anges, avec luy descendez.</ab></sp>
+	<stage rend="ital">Icy chantent en descendant.</stage>
+			<sp><speaker>SATHAN</speaker>
+<ab type="gv"><lb n="1226"/>Dyables, se ne me deffendez
+<lb n="1227"/>A ceste heure, je suis desert.
+<lb n="1228"/>Le gouffre d'Enfer soit ouvert
+<lb n="1229"/>Afin que sailliez a ung tas,
+<lb n="1230"/>Car je voy bien que Nicolas
+			<pb n="138"/>		
+<lb n="1231"/>Nous fera du mal et du grief.
+<lb n="1232"/>Secourez moy tost et de brief
+<lb n="1233"/>Et ce faulx crestien sera nostre.</ab></sp>
+			<sp><speaker>LE CHARTIER</speaker>
+<ab type="gv"><lb n="1234"/>Hay, bon gré bieu!</ab></sp>
+			<sp><speaker>SATHAN</speaker>
+<ab type="gv">Sa patenostre
+<lb n="1235"/>Luy fera bien de gringoter.</ab></sp>
+			<sp><speaker>LE CHARTIER</speaker>
+<ab type="gv"><lb n="1236"/>Hurre, ho, je vous feray troter
+	<lb n="1237"/>Ou le fouët si me fauldra.</ab></sp>
+			<sp><speaker>SATHAN</speaker>
+<ab type="gv"><lb n="1238"/>Souëf, ou il s'esveillera,
+<lb n="1239"/>Et puis mon fait sera perdu.</ab></sp>
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv"><lb n="1240"/>Au meurtre!</ab></sp>
+			<sp><speaker>SATHAN</speaker>
+<ab type="gv">C'est bien entendu.</ab></sp>
+			<sp><speaker>LE CHARTIER</speaker>
+<ab type="gv"><lb n="1241"/>Doulce Vierge!</ab></sp>
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv">Sainct Nicolas!</ab></sp>
+			<sp><speaker>LE CHARTIER</speaker>
+<ab type="gv"><lb n="1242"/>Je suis destruit.</ab></sp>
+			<pb n="139"/>
+			<sp><speaker>SATHAN</speaker>
+<ab type="gv">Dedans mes las
+<lb n="1243"/>Je t'ai atrappé a cest heure.</ab></sp>
+			<sp><speaker><abbr>S.</abbr> NICOLAS</speaker>
+<ab type="gv"><lb n="1244"/>Il est temps que n'en le sequeure.
+<lb n="1245"/>Laisse ceste ame!</ab></sp>
+			<sp><speaker>SATHAN</speaker>
+<ab type="gv">Non feray.
+<lb n="1246"/>En Enfer je l'emporteray,
+<lb n="1247"/>Car elle est mienne par droicture.</ab></sp>
+			<sp><speaker><abbr>S.</abbr> NICOLAS</speaker>
+<ab type="gv"><lb n="1248"/>Tu as menty.</ab></sp>
+			<sp><speaker>SATHAN</speaker>
+<ab type="gv">Il est parjure
+<lb n="1249"/>Et mesmement encontre toy.</ab></sp>
+			<sp><speaker><abbr>S.</abbr> NICOLAS</speaker>
+<ab type="gv"><lb n="1250"/>Il est mort en tres ferme foy
+	<lb n="1251"/>Et a eu grant contriction.</ab></sp>
+			<sp><speaker>SATHAN</speaker>
+<ab type="gv"><lb n="1252"/>Tu me veulx faire extorcion.
+<lb n="1253"/>De ta main mise j'en appelle.</ab></sp>
+			<sp><speaker>LE <num>.I.</num> SERGENT</speaker>
+				<ab type="gv"><lb n="1254"/>Au meurtre!</ab></sp>
+			<sp><speaker>LE <num>.II.</num> SERGENT</speaker>
+<ab type="gv">O, la voix cruelle!</ab></sp>
+			<pb n="140"/>			
+			<sp><speaker>LE <num>.I.</num> SERGENT</speaker>
+<ab type="gv"><lb n="1255"/>Au meurtre!</ab></sp>
+			<sp><speaker>LE <num>.II.</num> SERGENT</speaker>
+<ab type="gv">Comme il brait hault!
+<lb n="1256"/>Seroy ge point mis en deffault?
+<lb n="1257"/>Qu'as tu trouvé, dy, fine espice?</ab></sp>
+			<sp><speaker>LE <num>.I.</num> SERGENT</speaker>
+<ab type="gv"><lb n="1258"/>Va bien tost querir la justice.
+<lb n="1259"/>Vecy nostrë homme tout mort.</ab></sp>
+			<sp><speaker>LE <num>.II.</num> SERGENT</speaker>
+<ab type="gv"><lb n="1260"/>Vela ung tres piteux rapport.
+<lb n="1261"/>Lequel?</ab></sp>
+			<sp><speaker>LE <num>.I.</num> SERGENT</speaker>
+<ab type="gv">Celuy aux cent escus
+<lb n="1262"/>Que vecy trestous espandus.
+<lb n="1263"/>Oncques ne vy pareille chose.</ab></sp>
+			<sp><speaker>LE SECOND SERGENT</speaker>
+<ab type="gv"><lb n="1264"/>Sans y faire plus longue pose,
+<lb n="1265"/>Le prevost je m'en vois querir.</ab></sp>
+			<sp><speaker>LE CHARTIER</speaker>
+<stage rend="ital">Icy s'en va en franchise.</stage>
+<ab type="gv"><lb n="1266"/>En franchise m'en vueil fouyr
+<lb n="1267"/>Pour eviter tous les perilz.</ab></sp>
+	<sp><speaker>LE <num>.II.</num> SERGENT</speaker>
+<ab type="gv"><lb n="1268"/>Monseigneur le prevost!</ab></sp>
+			<pb n="141"/>
+			<sp><speaker>LE PREVOST</speaker>
+<ab type="gv">Et puis?
+	<lb n="1269"/>Qu'i a il?</ab></sp>
+			<sp><speaker>LE <num>.II.</num> SERGENT</speaker>
+<ab type="gv">En cheminant <surplus>tost</surplus> sus,
+<lb n="1270"/>Nostre homme a tous ces cent escus
+<lb n="1271"/>A esté tué maintenant.</ab></sp>
+			<sp><speaker>LE PREVOST</speaker>
+<ab type="gv"><lb n="1272"/>Tué? Dea!</ab></sp>
+			<sp><speaker>LE <num>.II.</num> SERGENT</speaker>
+<ab type="gv">Veritablement
+<lb n="1273"/>Il est mort, je vous certifie.</ab></sp>
+			<sp><speaker>L'ADVOCAT</speaker>
+<ab type="gv"><lb n="1274"/>Glorieuse Vierge Marie!</ab></sp>
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="1275"/>Ha, monseigneur sainct Nicolas!</ab></sp>
+			<sp><speaker>LE <num>.II.</num> SERGENT</speaker>
+<ab type="gv"><lb n="1276"/>Il est trouvé chargé du cas.
+<lb n="1277"/>Advisez vous.</ab></sp>
+			<sp><speaker>LE GREFFIER</speaker>
+<ab type="gv">Sans plus tarder,
+<lb n="1278"/>Il le convient aller garder
+<lb n="1279"/>Et savoir qui fait a le fait.</ab></sp>
+<sp><speaker>LE PREVOST <hi rend="I">en allant</hi> </speaker>
+<ab type="gv"><lb n="1280"/>En chemin, tost!</ab></sp>
+			<pb n="142"/>
+			<sp><speaker>MATHATIEL</speaker>
+<ab type="gv">C'est ung parfait
+<lb n="1281"/>Refuge et souverain soulas
+<lb n="1282"/>Que de servir sainct Nicolas.
+<lb n="1283"/>L'experience le demonstre.</ab></sp>
+			<sp><speaker>LE PREVOST</speaker>
+<ab type="gv"><lb n="1284"/>Ou esse, dy?</ab></sp>
+			<sp><speaker>LE <num>.II.</num> SERGENT</speaker>
+<ab type="gv">Icy encontre,
+<lb n="1285"/>Dessoubz les roues du chariot.</ab></sp>
+			<sp><speaker>LE PREVOST</speaker>
+<ab type="gv"><lb n="1286"/>Faictes paix et ne sonnés mot.
+<lb n="1287"/>Sçavoir fault ou est le chartier.</ab></sp>
+			<sp><speaker>LE <num>.I.</num> SERGENT</speaker>
+<ab type="gv"><lb n="1288"/>Ces piedz luy ont eu bon mestier.</ab></sp>
+			<sp><speaker>LE PREVOST</speaker>
+<ab type="gv"><lb n="1289"/>Ou est il fouÿ?</ab></sp>
+			<sp><speaker>LE <num>.I.</num> SERGENT</speaker>
+<ab type="gv">En franchise.</ab></sp>
+			<sp><speaker>LE PREVOST</speaker>
+<ab type="gv"><lb n="1290"/>Faulx homme plain de convoitise,
+<lb n="1291"/>Ta mauvaistié icy se monstre.
+<lb n="1292"/>Or est ton ame en danger mise
+	<lb n="1293"/>Par ceste fortuné rencontre.</ab></sp>
+			<sp><speaker>L'ADVOCAT</speaker>
+<ab type="gv"><lb n="1294"/>Sainct Nicolas ycy demonstre
+<lb n="1295"/>Une merveilleuse devise.
+			<pb n="143"/>			
+<lb n="1296"/>Pour chant vecy piteuse contre,
+<lb n="1297"/>Faulx homme plain de couvoitise.</ab></sp>
+			<sp><speaker>LE PREVOST</speaker>
+<ab type="gv"><lb n="1298"/>Helas, or est il mort parjure!
+<lb n="1299"/>Vecy l'or en ce baston creux.
+<lb n="1300"/>Sainct Nicolas, quel adventure!
+<lb n="1301"/>Le cas est fort miraculeux.</ab></sp>
+			<sp><speaker>LE GREFFIER</speaker>
+<ab type="gv"><lb n="1302"/>Ha, sainct Nicolas glorieux,
+<lb n="1303"/>Tu oeuvres par dessus Nature.
+<lb n="1304"/>Par courtoisie, est malheureux.
+<lb n="1305"/>Helas, or il est mort parjure!</ab></sp>
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="1306"/>Sainct Nicolas, vraye esperance
+<lb n="1307"/>Ou gist mon espoir et confort,
+<lb n="1308"/>Qui a en toy ferme fiance,
+<lb n="1309"/>Tu leur donnes grant reconfort.</ab></sp>
+			<sp><speaker>MATHATIEL</speaker>
+<ab type="gv"><lb n="1310"/>Le povre malheureux est mort
+<lb n="1311"/>Et voit on a l'oeil la fiance
+<lb n="1312"/>Et congnoissance de son tort,
+<lb n="1313"/>Sainct Nicolas, vraye esperance.</ab></sp>
+			<sp><speaker>LE <num>.I.</num> SERGENT</speaker>
+<ab type="gv"><lb n="1314"/>Sainct Nicolas est dangereux;
+<lb n="1315"/>Point ne se fault en luy fier.
+<lb n="1316"/>Il demonstre icy de ses jeux
+<lb n="1317"/>Pour son sainct nom glorifier.</ab></sp>
+			<sp><speaker>LE <num>.II.</num> SERGENT</speaker>
+<ab type="gv"><lb n="1318"/>On le doit bien magnifier,
+			<pb n="144"/>			
+<lb n="1319"/>Louer son sainct nom precieux.
+<lb n="1320"/>Pour malice mortifier,
+<lb n="1321"/>Sainct Nicolas est dangereux.</ab></sp>
+			<sp><speaker>LE PREVOST</speaker>
+<ab type="gv"><lb n="1322"/>Prenez cest or entre vous deux
+<lb n="1323"/>Et allons ensemble a l'eglise.</ab></sp>
+			<sp><speaker>LE <num>.II.</num> SERGENT</speaker>
+<ab type="gv"><lb n="1324"/>Le chartier y est en franchise,
+<lb n="1325"/>Qui vous donra le cas entendre.</ab></sp>
+			<sp><speaker>LE PREVOST <hi rend="I">en cheminant</hi> </speaker>
+<ab type="gv"><lb n="1326"/>A Dieu nous convient grace rendre
+<lb n="1327"/>Et au glorieux confesseur.</ab></sp>
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="1328"/>S'i lui plaist estre intercesseur
+<lb n="1329"/>Envers la puissance divine,
+<lb n="1330"/>Que par luy puisse veoir tel signe
+<lb n="1331"/>Que ce povre homme vivifie
+<lb n="1332"/>Tellement qu'il lui rende <surplus>la</surplus> vie,
+<lb n="1333"/>J'en faitz cy veu au createur
+<lb n="1334"/>Et au glorieux confesseur
+<lb n="1335"/>Le sainct baptesme recevoir.</ab></sp>
+			<sp><speaker>MATHATIEL</speaker>
+<ab type="gv"><lb n="1336"/>Il nous convient faire devoir
+<lb n="1337"/>D'aler a l'eglise, mon maistre.</ab></sp>
+			<sp><speaker>L'ADVOCAT</speaker>
+<ab type="gv"><lb n="1338"/>Mon amy, ne fault rien promettre
+<lb n="1339"/>A Dieu qui ne luy veult tenir.</ab></sp>
+			<pb n="145"/>
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="1340"/>Je prometz de l'entretenir
+	<lb n="1341"/>Se une foys je le voy en vie.</ab></sp>
+<stage rend="ital">Nota que sainct Nicolas et Sathan et les anges tiennent l'ame l'ung contre
+L'autre.</stage>
+			<sp><speaker>SAINCT NICOLAS</speaker>
+<ab type="gv"><lb n="1342"/>Mauldit serpent, remply d'envie,
+<lb n="1343"/>Va t'en d'icy, laisse ceste ame!</ab></sp>
+			<sp><speaker>GABRIEL</speaker>
+<ab type="gv"><lb n="1344"/>Seurement tu ne l'auras mye,
+	<lb n="1345"/>Mauldit serpent remply d'envie.</ab></sp>
+<stage rend="ital">Nota que, durant ce dialogue devant Sathan et sainct Nicolas, le juif et tous
+Les aultres vont a leur lieu.</stage>
+			<sp><speaker>SATHAN</speaker>
+<ab type="gv"><lb n="1346"/>Elle est mienne.</ab></sp>
+			<sp><speaker>RAPHAEL</speaker>
+<ab type="gv">On te le nye,
+<lb n="1347"/>Dyable d'Enfer plain de diffame.</ab></sp>
+			<sp><speaker>SATHAN</speaker>
+<ab type="gv"><lb n="1348"/>Dyables, venez tost, je vous prie,
+<lb n="1349"/>Car de fine rage j'affame.</ab></sp>
+			<sp><speaker>SAINCT NICOLAS</speaker>
+<ab type="gv"><lb n="1350"/>Mauldit serpent remply d'envie,
+<lb n="1351"/>Va t'en d'icy, laisse <supplied>ceste</supplied> ame.
+<lb n="1352"/>Il plaist a ma maistresse et dame
+<lb n="1353"/>Et a son doulx enfant Jesus
+<lb n="1354"/>Que tu la laisses <w>ça<surplus>r</surplus></w> dessus.</ab></sp>
+			<sp><speaker>GABRIEL</speaker>
+<ab type="gv"><lb n="1355"/>Tu l'as malicieusement.</ab></sp>
+			<pb n="146"/>
+			<sp><speaker>SATHAN</speaker>
+<ab type="gv"><lb n="1356"/>Il a donné consentement
+<lb n="1357"/>Et en cest estat l'ay trouvé.
+<lb n="1358"/><hi rend="I"> <foreign xml:lang="la">Ergo</foreign>,</hi> donc, eternellement,
+<lb n="1359"/>Je vueil dire qu'il est damné.</ab></sp>
+			<sp><speaker><abbr>S.</abbr> NICOLAS</speaker>
+<ab type="gv"><lb n="1360"/>Au cueur a eu gemissement:
+<lb n="1361"/>Parquoy il n'est pas reprouvé
+<lb n="1362"/>Et n'en fais plus nul argument,
+<lb n="1363"/>Car par moy Dieu l'a preservé.</ab></sp>
+			<sp><speaker>SATHAN</speaker>
+<ab type="gv"><lb n="1364"/>Preservé, dea? Ne le peult faire,
+<lb n="1365"/>Car il est juste justicier.
+<lb n="1366"/>Il a donné reigle au contraire
+<lb n="1367"/>Pour les pecheurs justifier.</ab></sp>
+			<sp><speaker><abbr>S.</abbr> NICOLAS</speaker>
+<ab type="gv"><lb n="1368"/>Je suis cy pour en satisfaire
+<lb n="1369"/>Et pour au cas remedier.
+<lb n="1370"/>Ja ne te convient si hault braire,
+<lb n="1371"/>Car je le suis venu ayder.</ab></sp>
+			<sp><speaker>GABRIEL</speaker>
+<ab type="gv"><lb n="1372"/>En Enfer va braire et crier.
+<lb n="1373"/>Dieu si luy fait misericorde</ab></sp>
+			<sp><speaker>RAPHAEL</speaker>
+<ab type="gv"><lb n="1374"/>Nous <supplied>cuides</supplied> tu contrarier
+	<lb n="1375"/>Et nous tenir en discorde?</ab></sp>
+<stage rend="ital">Icy s'en va Sathan sans plus parler.</stage>
+			<pb n="147"/>
+			<sp><speaker>SATHAN</speaker>
+<ab type="gv"><lb n="1376"/>Deablerie puante et orde,
+<lb n="1377"/>Tost la corde
+<lb n="1378"/>Pour me pendre et pour me trainer
+<lb n="1379"/>Affin que ma douleur recorde!
+<lb n="1380"/>Dyablerie puante et orde,
+<lb n="1381"/>Tost la corde
+<lb n="1382"/>Pour m'estrangler! Je m'y accorde
+<lb n="1383"/>Et recorde,
+<lb n="1384"/>Venez tost me faire finer!
+<lb n="1385"/>Dyablerie puante et orde,
+<lb n="1386"/>Tost la corde
+<lb n="1387"/>Pour me pendre et pour me trainer!
+<lb n="1388"/>Je ne sçay plus que ymaginer
+<lb n="1389"/>Ne penser.
+<lb n="1390"/>Ce Nicolas contrepenser
+<lb n="1391"/>Vient tousjours contre mon conquest.
+<lb n="1392"/>Je ne sçay trouver tant d'acquest
+<lb n="1393"/>Que ung arrest
+<lb n="1394"/>Ne soit par Nicolas tout prest.
+<lb n="1395"/>Feu d'Enfer si le puist bruler!
+<lb n="1396"/>Je ne sçay <supplied>plus</supplied> que ymaginer.
+<lb n="1397"/>Autre part m'en voys hutiner
+<lb n="1398"/>Puisque j'ay perdu ceste proye.
+<lb n="1399"/>Se sur luy je peulx dominer,
+<lb n="1400"/>Je l'auray par une autre voye.</ab></sp>
+			<sp><speaker><abbr>S.</abbr> NICOLAS</speaker>
+<ab type="gv"><lb n="1401"/>Pour faire a mon serviteur joye,
+<lb n="1402"/>Ceste ame remettray au corps.
+<lb n="1403"/>Sus, anges, que chascun s'employe
+	<lb n="1404"/>De chanter quelques beaux accors!</ab></sp>
+<stage rend="ital">Icy sainct Nicolas et les anges s'en retournent en leur lieu sans plus parler.</stage>
+			<pb n="148"/>
+
+<stage rend="ital">En entrant a l'eglise.</stage>
+			<sp><speaker>LE PREVOST</speaker>
+<ab type="gv"><lb n="1405"/>Dieu puissant et misericors,
+<lb n="1406"/>Par sa haulte vertu divine,
+<lb n="1407"/>Nous demonstre cy ung grant signe
+<lb n="1408"/>Qui est bien digne de memoire.</ab></sp>
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="1409"/>C'est tout a la louange et gloire
+<lb n="1410"/>Du glorieux sainct Nicolas,
+<lb n="1411"/>Lequel je requiers que soulas
+<lb n="1412"/>Donne a ce povre homme crestien.
+<lb n="1413"/>Et, se pour moy il fait ce bien,
+<lb n="1414"/>Baptiser crestien me feray
+<lb n="1415"/>Et tout mon temps le serviray,
+<lb n="1416"/>Ma famille pareillement.</ab></sp>
+			<sp><speaker>L'ADVOCAT</speaker>
+<ab type="gv"><lb n="1417"/>Sus, sus, entrons devotement
+<lb n="1418"/>En l'eglise mercier Dieu
+<lb n="1419"/>Qui nous a monstré en ce lieu
+<lb n="1420"/>Si haultain merveilleux signacle.</ab></sp>
+			<sp><speaker>MATHATIEL <hi rend="I">varlet du juif</hi> </speaker>
+<ab type="gv"><lb n="1421"/>C'est ung moult apparent miracle
+<lb n="1422"/>Qu'on ne doit pas en oubly mettre
+<lb n="1423"/>Et vous vueil bien dire, mon maistre,
+<lb n="1424"/>Qu'a ce lieu estes bien tenus
+<lb n="1425"/>Quant vous ravez voz cent escus,
+<lb n="1426"/>Tout bien consideré le cas.</ab></sp>
+			<pb n="149"/>
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv"><lb n="1427"/>O glorieux sainct Nicolas,
+<lb n="1428"/>Quel trespas!
+<lb n="1429"/>A tout jamais damné estoye.
+<lb n="1430"/><hi rend="I"> <foreign xml:lang="la">Peccavi</foreign> </hi> trop merveilleux cas.
+<lb n="1431"/>O glorieux sainct Nicolas,
+<lb n="1432"/>Quel trespas!
+<lb n="1433"/>De toy ay receu grant soulas
+<lb n="1434"/>Quant es las
+<lb n="1435"/>De Sathan possedé estoye.
+<lb n="1436"/>O glorieux sainct Nicolas,
+<lb n="1437"/>Quel trespas!
+<lb n="1438"/>A tout jamais damné estoye.
+<lb n="1439"/>J'ay esté en terrible voye,
+<lb n="1440"/>J'ay veu de moult terribles signes.
+<lb n="1441"/>Racompter je ne le sçauroye:
+<lb n="1442"/>Ce sont moult cruelles espines.
+<lb n="1443"/>Les opperations divines,
+<lb n="1444"/>Craindre et doubter on les doit,
+<lb n="1445"/>Mais fol ne croit tant qu'il reçoit.
+<lb n="1446"/>Sainct Nicolas m'a secouru
+<lb n="1447"/>Et contre luy avoye peché.
+<lb n="1448"/>Tres diligemment a couru.
+<lb n="1449"/>Present, je congnois mon peché
+<lb n="1450"/>De grant courtoisie enteché,
+<lb n="1451"/>Tempté du pervers ennemy.
+<lb n="1452"/>N'est secours que de vray amy.
+<lb n="1453"/>Tout droit yray en sa chapelle
+<lb n="1454"/>Me confesser publicquement
+<lb n="1455"/>De ma couvoitise cruelle,
+<lb n="1456"/>Aussi de mon parjurement
+<lb n="1457"/>Et crier mercy humblement
+<lb n="1458"/>Au juif, lequel avoye deceu,
+<lb n="1459"/>La justice subsequemment,
+	<lb n="1460"/>De mon faulx serment apperceu.</ab></sp>
+<stage rend="ital">En parlant au prestre.</stage>
+			<pb n="150"/>
+			<sp><speaker>LE PREVOST</speaker>
+<ab type="gv"><lb n="1461"/>Monseigneur, av'ous point <w><surplus>i</surplus>cy</w> veu
+<lb n="1462"/>Ung homme requerant franchise?</ab></sp>
+			<sp><speaker> LE PRESTRE </speaker>
+<ab type="gv"><lb n="1463"/>J'en ay veu ung en ceste eglise
+<lb n="1464"/>Fort esmeu.</ab></sp>
+			<sp><speaker>LE CHARTIER</speaker>
+<ab type="gv">Ha, misericorde!</ab></sp>
+			<sp><speaker>LE PREVOST</speaker>
+<ab type="gv"><lb n="1465"/>C'est raison que n'en te l'acorde.</ab></sp>
+			<sp><speaker>LE CHARTIER</speaker>
+<ab type="gv"><lb n="1466"/>Je l'ay fait ignorantement.</ab></sp>
+			<sp><speaker>L'ADVOCAT</speaker>
+<ab type="gv"><lb n="1467"/>Nous l'avons veu evidemment,
+<lb n="1468"/>Mais sainct Nicolas remercie.</ab></sp>
+			<sp><speaker>LE CHARTIER</speaker>
+<ab type="gv"><lb n="1469"/>En ce lieu mercy le luy crie,
+<lb n="1470"/>Magnifie,
+<lb n="1471"/>Mais du crime me purifie,
+<lb n="1472"/>Car il dormoit emmy la place.
+<lb n="1473"/>Mon offense du tout efface,
+<lb n="1474"/>Me reface
+<lb n="1475"/>Tellement que j'aye sa grace
+<lb n="1476"/>Et, puisqu'il m'a sauvé la vie,
+<lb n="1477"/>En ce lieu je le glorifie.</ab></sp>
+			<pb n="151"/>
+			<sp><speaker>LE CRESTIEN</speaker>
+<stage rend="ital">en entrant a l'eglise</stage>
+<ab type="gv"><lb n="1478"/>A toute ceste compaignie
+<lb n="1479"/>Je requiers mercy humblement.</ab></sp>
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="1480"/>C'est mon homme qui est en vie!
+<lb n="1481"/>Vecy grant resjouyssement!</ab></sp>			
+			<sp><speaker>LE PREVOST</speaker>				
+<ab type="gv"><lb n="1482"/>C'est luy mesmes <supplied>tres</supplied> proprement.</ab></sp>
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv"><lb n="1483"/>Proprement, je vous certifie.</ab></sp>
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="1484"/>Je renonce a toute juifrie.</ab></sp>
+			<sp><speaker>MATHATIEL</speaker>
+<ab type="gv"><lb n="1485"/>Et moy aussi, vous certifie.</ab></sp>
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv"><lb n="1486"/>A toute ceste compaignie
+<lb n="1487"/>Je requiers mercys humblement
+<lb n="1488"/>Et confesse publicquement
+<lb n="1489"/>Que je suis ung mauldit parjure
+<lb n="1490"/>Et requiers grace de l'injure
+<lb n="1491"/>Que j'ay fait encontre justice
+<lb n="1492"/>De ma pure et propre malice.
+<lb n="1493"/>Je recongnois cy en ce lieu
+<lb n="1494"/>Le mal qu'ay fait encontre Dieu,
+<lb n="1495"/>Encontre mon prochain aussi.
+<lb n="1496"/>Mon amy, je vous cry mercy;
+<lb n="1497"/>S'i vous plaist, pardonnez le moy.</ab></sp>
+			<pb n="152"/>
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="1498"/>Vivre et mourir vueil avec toy
+<lb n="1499"/>Et le sainct baptesme demande,
+<lb n="1500"/>Et proteste payer l'amende
+<lb n="1501"/>Et faire satisfaction
+<lb n="1502"/>De l'erreur, variation
+	<lb n="1503"/>Que j'ay eu encontre la foy.</ab></sp>
+			<sp><speaker>MATHATIEL</speaker>
+<ab type="gv"><lb n="1504"/>En Jhesus et sa foy je croy
+<lb n="1505"/>Et aussi en sainct Nicolas.
+<lb n="1506"/>Requiers pardon du desarroy
+<lb n="1507"/>Et l'erreur qu'ay eu en ce cas.</ab></sp>
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv"><lb n="1508"/>De luy ay receu grant soulas:
+<lb n="1509"/>Dampné estoye.</ab></sp>
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv">Quant à moy,
+<lb n="1510"/>Sans point varier en nul pas,
+<lb n="1511"/>En Jhesus et sa foy je croy,
+<lb n="1512"/>Car entendement apperçoy
+<lb n="1513"/>Que Jhesus est vray redempteur.</ab></sp>
+			<sp><speaker> LE PRESTRE </speaker>
+<ab type="gv"><lb n="1514"/>Se vous sentés aucun erreur,
+<lb n="1515"/>Declarez lay cy en ce lieu.</ab></sp>
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="1516"/>Je croy tres fermement en Dieu,
+<lb n="1517"/>Pere, Filz et Sainct Esperit.</ab></sp>
+			<sp><speaker>MATHATIEL</speaker>
+<ab type="gv"><lb n="1518"/>Et moy aussi sans contredit.</ab></sp>
+			<pb n="153"/>
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="1519"/>Que le Filz sans corruption
+<lb n="1520"/>Print chair et incarnation
+<lb n="1521"/>En sa mere nommee Marie.</ab></sp>
+			<sp><speaker>MATHATIEL</speaker>
+<ab type="gv"><lb n="1522"/>En cela point n'y contrarie.</ab></sp>
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="1523"/>Pour racheter l'humain lignage,
+<lb n="1524"/>Que son corps a offert pour gaige,
+<lb n="1525"/><w>e<supplied>s</supplied>t</w> mort en l'arbre de la croix.</ab></sp>
+			<sp><speaker>MATHATIEL</speaker>
+<ab type="gv"><lb n="1526"/>Sans varier, ainsi le crois.</ab></sp>
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="1527"/>Que tout son sainct corps glorieux
+<lb n="1528"/>A ouvert la porte des cieulx,
+<lb n="1529"/>Viendra juger bons et mauvais
+<lb n="1530"/>Et qu'a chascun selon leur faitz
+<lb n="1531"/>Rendra le loyer et desserte.</ab></sp>
+			<sp><speaker> LE PRESTRE </speaker>
+<ab type="gv"><lb n="1532"/>A ceste heure cy treuve ouverte
+<lb n="1533"/>Clerement la foy catholicque.</ab></sp>
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="1534"/>Touchant le siege apostolicque,
+<lb n="1535"/>Le chef capital de l'eglise,
+<lb n="1536"/>G'y crois fermement.</ab></sp>
+			<sp><speaker>MATHATIEL</speaker>
+<ab type="gv">Sans faintise.</ab></sp>
+			<pb n="154"/>
+			<sp><speaker> LE PRESTRE </speaker>
+<ab type="gv"><lb n="1537"/>Or, vous despouillés, mes amys,
+<stage rend="ital">Icy se despouillent.</stage>
+<lb n="1538"/>Si serés dedans ces fons mis
+<lb n="1539"/>Pour recepvoir crestienté.</ab></sp>
+			<sp><speaker>LE PREVOST</speaker>
+<ab type="gv"><lb n="1540"/>Quant on a bonne voulenté
+<lb n="1541"/>Envers Dieu et ses benoistz sainctz,
+<lb n="1542"/>Sans vouloir mal ne faulceté,
+<lb n="1543"/>Grant confort treuve <supplied>on</supplied> en ces plains.</ab></sp>
+			<sp><speaker>L'ADVOCAT</speaker>
+<ab type="gv"><lb n="1544"/>Sainct Nicolas sur les humains
+<lb n="1545"/>Monstre avoir grant auctorité
+<lb n="1546"/>Et que partout il met les mains
+<lb n="1547"/>Quant on a bonne voulenté.</ab></sp>
+			<sp><speaker>LE GREFFIER</speaker>
+<ab type="gv"><lb n="1548"/>Sainct Nicolas si faict merveilles,
+<lb n="1549"/>Vers luy est singulier refuge
+<lb n="1550"/>Et qui me besse les oreilles,
+<lb n="1551"/>Il faict ung terrible deluge.</ab></sp>
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv"><lb n="1552"/>Sainct Nicolas est ung vray juge,
+<lb n="1553"/>Ses sentences sont nompareilles.
+<lb n="1554"/>Quant il fault que de cause il juge,
+<lb n="1555"/>Sainct Nicolas si fait merveilles.</ab></sp>
+<stage rend="ital">Icy entre dedans les fons.</stage>
+			<sp><speaker> LE PRESTRE </speaker>
+<ab type="gv"><lb n="1556"/>Merveilles fait le benoist sainct.
+<lb n="1557"/>Or ça, mes amys, sans cueur faint,
+<lb n="1558"/>Le baptesme voulez avoir?</ab></sp>
+			<pb n="155"/>
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="1559"/>Ainsi le voulons recepvoir.</ab></sp>
+			<sp><speaker> LE PRESTRE </speaker>
+<ab type="gv"><lb n="1560"/>Et ainsi comme l'avez dit,
+<lb n="1561"/>La foy croyez sans contredit
+<lb n="1562"/>Et y voulez vivre et mourir?</ab></sp>
+			<sp><speaker>MATHATIEL</speaker>
+<ab type="gv"><lb n="1563"/>Ainsi le croy.</ab></sp>
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv">Sans encourir
+<lb n="1564"/>Quelque suspection de faintise.</ab></sp>
+			<sp><speaker> LE PRESTRE </speaker>
+<ab type="gv"><lb n="1565"/>Et en ceste foy vous baptise
+<lb n="1566"/><hi rend="I"> <foreign xml:lang="la">in nomine Patris et Filii
+<lb n="1567"/>Et Spiritus sancti</foreign> </hi>.</ab></sp>
+<sp><speaker>LES PARRAINS TOUS ENSEMBLE</speaker>
+	<ab type="gv"><hi rend="I">Amen</hi>.</ab></sp>
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv"><lb n="1568"/>Je te <w><surplus>re</surplus>mercye</w> de ce hault bien,
+<lb n="1569"/>Tres glorieux amy de Dieu,
+<lb n="1570"/>Quant par toy ce juif voy crestien
+<lb n="1571"/>Et baptisé cy en ton lieu.
+<lb n="1572"/>Ressuscité a ton adveu
+<lb n="1573"/>Ay esté de mort moult piteuse,
+<lb n="1574"/>Douloureuse,
+<lb n="1575"/>Angoisseuse,
+<lb n="1576"/>Pris des mains du faulx ennemy,
+<lb n="1577"/>Dont j'eus ta grace planctureuse,
+			<pb n="156"/>			
+<lb n="1578"/>Sumptueuse,
+<lb n="1579"/>Savoureuse,
+<lb n="1580"/>De Dieu te tiens ung vray amy.</ab></sp>
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="1581"/>Sainct Nicolas, si en ta place
+<lb n="1582"/>Ou tu as demonstré ta gloire,
+<lb n="1583"/>Ton pouoir de grant efficace,
+<lb n="1584"/>Ouvrage hault et meritoire,
+<lb n="1585"/>Selon ma petite memoire
+<lb n="1586"/>Je te remercie humblement,
+<lb n="1587"/>Devotement
+<lb n="1588"/>Que simplement
+<lb n="1589"/>Et de rechef je te supply
+<lb n="1590"/>Qu'avec toy soye finablement,
+<lb n="1591"/>Car vrayement,
+<lb n="1592"/>Seurement
+<lb n="1593"/>De Dieu te tiens ung vray amy.</ab></sp>
+			<sp><speaker>MATHATIEL</speaker>
+<ab type="gv"><lb n="1594"/>O sainct Nycolas, vray secours
+<lb n="1595"/>En necessité secourable,
+<lb n="1596"/>Je te rens louenge en secours,
+<lb n="1597"/>Car tes fais te rendent louable.
+<lb n="1598"/>Des sainctz cieulx tu es heritable,
+<lb n="1599"/>Glorieux ou ciel et en terre.
+<lb n="1600"/>Au requerre
+<lb n="1601"/>Tu tiens terre
+<lb n="1602"/>Et preserve de tout ennuy.
+<lb n="1603"/>Gardes moy que jamais je erre,
+<lb n="1604"/>Seure pierre,
+<lb n="1605"/>Car en terre
+<lb n="1606"/>De Dieu te tiens ung vray amy.</ab></sp>
+			<sp><speaker> LE PRESTRE </speaker>
+<ab type="gv"><lb n="1607"/>Au departir, tous je vous pry
+			<pb n="157"/>			
+<lb n="1608"/>Que vous ayez intelligence
+<lb n="1609"/>Des sainctz faictz en vostre presence.
+<lb n="1610"/>Honnorez le sainct et doubtez
+<lb n="1611"/>Et de l'offencer redoubtez,
+<lb n="1612"/>Entretenez ce lieu et place
+<lb n="1613"/>Ou vous avez receu tel grace
+<lb n="1614"/>Que puissons tous assemblement
+<lb n="1615"/>Avec luy pardurablement
+<lb n="1616"/>La sus le veoir en Paradis.</ab></sp>
+			<sp><speaker>LE PREVOST</speaker>
+<ab type="gv"><hi rend="I">Amen,</hi> monseigneur.</ab></sp>
+			<sp><speaker> LE PRESTRE </speaker>
+<ab type="gv"><lb n="1617"/>Faitz et ditz
+<lb n="1618"/>Du glorieux amy de Dieu
+<lb n="1619"/>Que vous avez veu en ce lieu,
+<lb n="1620"/>Faictes lay partout assavoir.</ab></sp>
+			<sp><speaker>LE PREVOST</speaker>
+<ab type="gv"><lb n="1621"/>Chascun de nous a grant pouoir
+<lb n="1622"/>Si le fera.</ab></sp>
+			<sp><speaker> LE PRESTRE </speaker>
+<ab type="gv">Adieu, amys.</ab></sp>
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="1623"/>De vostre devoir en nous mis
+<lb n="1624"/>Nous remercions humblement.
+<lb n="1625"/>Adieu, seigneur.</ab></sp>
+			<sp><speaker> LE PRESTRE </speaker>
+<ab type="gv">Assemblement
+<lb n="1626"/>Le glorieux sainct Nicolas
+<lb n="1627"/>Nous doint a tous joye et soulas
+			<pb n="158"/>			
+<lb n="1628"/>Et si tres bien nous secourir
+<lb n="1629"/>Que vrays conféz puissons mourir!</ab></sp>
+<stage rend="ital">En allant hors du jeu.</stage>
+			<sp><speaker>LE PREVOST</speaker>
+<ab type="gv"><lb n="1630"/>Ainsi soit par sa saincte grace
+<lb n="1631"/>Et si bien vivre par compas
+<lb n="1632"/>Qu'en Paradis tous ayons place
+	<lb n="1633"/>Des merites sainct Nicolas!</ab></sp>			
+			<sp><speaker>L'ADVOCAT</speaker>				
+<ab type="gv"><lb n="1634"/>Pour avoir ung bon advocat
+<lb n="1635"/>Qui pourchasse bien nostre cas,
+<lb n="1636"/>Prenons apoinctement d'estat
+<lb n="1637"/>Des merites sainct Nicolas</ab></sp>
+			<sp><speaker>LE GREFFIER</speaker>
+<ab type="gv"><lb n="1638"/>Pour bien pourchasser nostre cause,
+<lb n="1639"/>Encontre le dyable et ses las,
+<lb n="1640"/>Estudions bien ceste cause
+<lb n="1641"/>Des merites sainct Nicolas.</ab></sp>
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv"><lb n="1642"/>Avez veu par experience
+<lb n="1643"/>Les mondains dangereux trespas.
+<lb n="1644"/>Nettoyons nostre conscience
+<lb n="1645"/>Des merites sainct Nicolas.</ab></sp>
+			<sp><speaker>LE JUIF</speaker>
+<ab type="gv"><lb n="1646"/>Eslevons nostre entendement
+<lb n="1647"/>A laisser ces mondains estatz
+<lb n="1648"/>Pour avoir part finablement
+<lb n="1649"/>Des merites sainct Nicolas.</ab></sp>
+			<pb n="159"/>
+			<sp><speaker>MATHATIEL</speaker>
+<ab type="gv"><lb n="1650"/>Servons de cueur le createur,
+<lb n="1651"/>Aymons l'ung l'autre sans debatz
+<lb n="1652"/>Et nous aurons de la liqueur
+<lb n="1653"/>Des merites sainct Nicolas.</ab></sp>
+			<sp><speaker>LE <num>.I.</num> SERGENT</speaker>
+<ab type="gv"><lb n="1654"/>Il fault tous <w>m<surplus>e</surplus>orir</w> une fois,
+<lb n="1655"/>Rendre compte tous en ung tas.
+<lb n="1656"/>Pourchassons donc d'avoir la voix
+<lb n="1657"/>Des merites sainct Nicolas.</ab></sp>
+			<sp><speaker>LE <num>.II.</num> SERGENT</speaker>
+<ab type="gv"><lb n="1658"/>Labourons tandis qu'il est temps,
+<lb n="1659"/>Querons de l'ame le repas,
+<lb n="1660"/>Car nous avons de grans moyens
+<lb n="1661"/>Des merites sainct Nicolas.</ab></sp>
+			<sp><speaker>LE CHARTIER</speaker>
+<ab type="gv"><lb n="1662"/>Nous n'emportons riens de ce monde,
+<lb n="1663"/>Riens ne prouffitent les amas;
+<lb n="1664"/>Vers Dieu aurons cueur net et munde
+<lb n="1665"/>Des merites sainct Nicolas.</ab></sp>
+			<sp><speaker>LE CRESTIEN</speaker>
+<ab type="gv"><lb n="1666"/>Des merites sainct Nicolas
+<lb n="1667"/>Prions toute la compaignie
+<lb n="1668"/>Qu'i prennent en gre noz esbatz
+<lb n="1669"/>Et soustenez la confrarie.</ab></sp>
+			
+		</body>
+		<back>
+			<div type="explicit">
+				<head xml:lang="la" rend="maj">Explicit</head>
+				<p>
+					Cy fine le present livre nouvellement imprimé à Paris
+					Par la veufve feu Jehan Treperel et Jehan Jehannot,
+					Imprimeur et libraire juré en l'Université de Paris,
+					Demourant en la rue neufve Nostre Dame, a l'enseigne
+					De l'escu de France.
+				</p>			
+			</div>
+		</back>
+	</text>
+</TEI>

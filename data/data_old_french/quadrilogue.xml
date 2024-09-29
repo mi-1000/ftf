@@ -1,0 +1,2472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="main">Quadrilogue invectif</title>
+      <title type="formal">quadrilogue</title>
+      <title type="reference">quadrilogue</title>
+      <title type="DEAF">AlChartQuadrD*</title>
+      <title type="FRANTEXT">0101</title>
+      <title type="gmd">transcription électronique</title>
+      <author xml:id="AChartier" key="Chartier, Alain (1385?-1430?) " ref="http://www.idref.fr/026780828">Alain Chartier</author>
+      <editor>Équipe de la Base de français médiéval - ENS de Lyon / UMR 5317 IHRIM</editor>
+      <funder>Laboratoire IHRIM</funder>
+    </titleStmt>
+    <editionStmt>
+      <edition>transcripion électronique</edition>
+      <respStmt xml:id="encoder3">
+        <resp>balisage de la structure du texte</resp>
+        <name xml:id="AL">Alexei Lavrentiev</name>
+      </respStmt>
+      <respStmt xml:id="encoder1">
+        <resp>numérisation</resp>
+        <name xml:id="ATILF">ATILF</name>
+      </respStmt>
+      <respStmt xml:id="encoder2">
+        <resp>rétroconversion automatique d'un texte du corpus FRANTEXT, base DMF, au format TEI P4</resp>
+        <name xml:id="GSouvay">Gilles Souvay (ATILF)</name>
+      </respStmt>
+      <respStmt xml:id="annotator1">
+        <resp>vérification de l'étiquetage morphosyntaxique et de la lemmatisation</resp>
+        <name xml:id="NKanaoka">Naomi Kanaoka</name>
+      </respStmt>
+    </editionStmt>
+    <extent>- Numéros de pages saisies : de 1 à 66 ;
+            - Nombre de mots d'après la base des descripteurs : <num xml:id="nb_mots_given">19387</num> ;
+            - Nombre de tokens (mots et ponctuations) d'après la base des descripteurs : <num xml:id="nb_tokens_given">21050</num>.
+    </extent>
+    <publicationStmt>
+      <publisher><name>Projet BFM, ENS de Lyon / UMR 5317 IHRIM</name></publisher>
+      <address>
+        <addrLine>15, parvis René Descartes</addrLine>
+        <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+        <addrLine>Tél : 04 37 37 63 10</addrLine>
+        <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+        <addrLine>http://bfm.ens-lyon.fr</addrLine>
+      </address>
+      <idno type="bfm">http://catalog.bfm-corpus.org/quadrilogue</idno>
+      <idno type="doi">10.34847/nkl.cedcus2w</idno>
+      <availability status="free">
+        <licence target="https://www.etalab.gouv.fr/licence-ouverte-open-licence">
+          <ab type="availability_bfm" subtype="libre_1c">Les Conditions générales d'utilisation de la Base de Français Médiéval (http://txm.bfm-corpus.org/bfm/files/CGU.pdf), 
+            et notamment son Article 5 « PROPRIETE INTELLECTUELLE », s'appliquent à tous les textes de la BFM.</ab>
+          <ab type="how_to_cite">
+            <label>Comment citer ce texte :</label>
+            <bibl>Alain Chartier, Quadrilogue invectif, édité par Eugénie Droz, Paris, 1950. 
+              Publié en ligne par la Base de français médiéval, http://catalog.bfm-corpus.org/quadrilogue.
+              Dernière révision le 2016-05-30.</bibl>
+            D'autres formules de citation de la BFM sont proposées sur la page web suivante :
+            http://bfm.ens-lyon.fr/article.php3?id_article=281.</ab>
+          <ab type="availability_file">
+            <label>Conditions d'utilisation de ce fichier :</label>
+              Ce fichier numérique est composé du corps de texte médiéval et des suppléments numériques : balisage XML-TEI, métadonnées (teiHeader), balisage du discours direct, étiquetage morpho-syntaxique, lemmatisation. Le texte et les suppléments numériques sont libres de droit et peuvent à ce titre être téléchargés et réutilisés librement.
+            </ab>
+            <ab type="availability_txmweb" subtype="illimité">
+              <label>Conditions d'utilisation par le portail BFM :</label>
+              Pas de limitation dans l'usage des fonctionnalités. Téléchargement autorisé.</ab>
+        </licence>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>Le quadrilogue invectif</title>
+          <author>Alain Chartier</author>
+          <respStmt>
+            <resp xml:id="editor">Éditeur scientifique</resp>
+            <name type="person">Eugénie Droz</name>
+          </respStmt>
+        </titleStmt>
+        <editionStmt>
+            <edition>2e éd.</edition>
+          </editionStmt>
+          <extent>66 page(s)
+        </extent>
+        <publicationStmt>
+          <publisher>Champion</publisher>
+          <pubPlace>Paris</pubPlace>
+          <date>1950</date>
+          <idno type="sigle_DEAF">AlChartQuadrD*</idno>
+          <idno type="cote_FRANTEXT">0101</idno>
+          <idno type="cote_biblio">ENS-LSH : 84/24 CHArt 2 qua</idno>
+        </publicationStmt><seriesStmt><title>CFMA</title><idno type="collection">32</idno></seriesStmt>
+      </biblFull>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p>Projet :<name type="project">BFM - Base de français médiéval</name>
+        Resp. : <name type="person">Céline Guillot-Barbance</name>
+        Équipe : Base de français médiéval
+        Laboratoire : UMR 5317 IHRIM
+        Institution : ENS de Lyon
+        <address>
+          <addrLine>15, parvis René Descartes</addrLine>
+          <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+          <addrLine>Tél : 04 37 37 63 10</addrLine>
+          <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+          <addrLine>http://bfm.ens-lyon.fr</addrLine>
+        </address>
+      </p>
+      <p>Ce texte provient de la Base textuelle du <name type="project">Dictionnaire du Moyen Français</name>
+        et fait partie de la base <name type="project">FRANTEXT</name>.
+        <address>
+          <addrLine>ATILF UMR 7118 CNRS - Université de Lorraine</addrLine>
+          <addrLine>44, avenue de la Libération</addrLine>
+          <addrLine>BP 30687</addrLine>
+          <addrLine>54063 NANCY CEDEX</addrLine>
+          <addrLine>Tél : 03 54 50 53 00</addrLine>
+          <addrLine>Fax : 03 83 97 24 56</addrLine>
+          <addrLine>Courriel : contact@atilf.fr</addrLine>
+          <addrLine>http://www.atilf.fr</addrLine>
+          <addrLine>http://www.frantext.fr</addrLine>
+          <addrLine>http://www.atilf.fr/dmf</addrLine>
+        </address>
+      </p>
+    </projectDesc>
+    <editorialDecl>
+      <p>Voir le <ref target="http://bfm.ens-lyon.fr/IMG/pdf/Manuel_Encodage_TEI.pdf">Manuel d'encodage XML-TEI de la BFM</ref>
+        et les <ref target="http://bfm.ens-lyon.fr/IMG/pdf/Consignes_BFM.pdf">Consignes aux relecteurs de la BFM</ref>.</p>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="abbr" occurs="1"/>
+        <tagUsage gi="back" occurs="1"/>
+        <tagUsage gi="body" occurs="1"/>
+        <tagUsage gi="div" occurs="4"/>
+        <tagUsage gi="foreign" occurs="1"/>
+        <tagUsage gi="front" occurs="1"/>
+        <tagUsage gi="head" occurs="1"/>
+        <tagUsage gi="hi" occurs="4"/>
+        <tagUsage gi="num" occurs="3"/>
+        <tagUsage gi="p" occurs="75"/>
+        <tagUsage gi="pb" occurs="66"/>
+        <tagUsage gi="q" occurs="5"/>
+        <tagUsage gi="sp" occurs="17"/>
+        <tagUsage gi="speaker" occurs="17"/>
+        <tagUsage gi="text" occurs="1"/>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <creation>
+      <name type="author">Alain Chartier</name>
+      <title>Quadrilogue invectif</title>
+      <date type="compo" when="1422-01-01" notBefore="1422-01-01" notAfter="1422-12-31" n="15">1422</date>
+      <date type="compo_periode">moyen</date>
+      <date type="compo_sous_siecle" n="15_1">début</date>
+      <date type="ms" when="1436-01-01" notBefore="1422-01-01" notAfter="1449-12-31">1e m. 15e s</date>
+      <idno type="msIdentifier">Paris, BnF, fr. 126</idno>
+      <region type="dialecte_auteur">non défini</region>
+    </creation>
+    <langUsage>
+      <language ident="fro" usage="100">Le texte est entièrement écrit en prose en moyen français.</language>
+    </langUsage>
+    <textDesc>
+      <channel mode="w">print</channel>
+      <constitution type="single"/>
+      <derivation type="original"/>
+      <domain type="didactique"/>
+    <factuality type="inapplicable"/>
+      <interaction type="none"/>
+      <preparedness type="prepared"/>
+      <purpose type="narrative"/></textDesc>
+    <textClass>
+      <keywords scheme="http://authorities.bfm-corpus.org">
+        <term type="domaine">didactique</term>
+        <term type="genre">débat</term>
+        <term type="forme">prose</term>
+        <term type="relation">original</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change who="#GSouvay" when="2005-03-30">rétroconversion automatique d'un texte du corpus FRANTEXT, base DMF, au format TEI P4</change>
+    <change who="#ATILF" when="2005-03-30">numérisation</change>
+    <change who="#AL" when="2016-05-30">balisage de la structure du texte</change>
+    <change who="#AL" when="2016-05-30">balisage du discours direct</change>
+    <change who="#NKanaoka" when="2022-07-12">vérification de l'étiquetage morphosyntaxique et de la lemmatisation</change>
+    <change when="2016-05-30">Dernière modification du texte</change>
+    <change when="2022-11-04">Création de cet entête</change>
+  </revisionDesc>
+</teiHeader>
+<text>
+  <pb n="1"/>
+  <front>
+    <div type="titre">
+      <p><hi rend="pmaj">Le quadrilogue invectif</hi></p>
+    </div>
+  </front>
+<body>
+<div><p>
+A la treshaulte et excellente majesté des princes, à la
+treshonnouree magnificence des nobles, circonspection
+des clers et bonne industrie du peuple françois, Alain
+Charretier, humble secretaire du roy nostre sire et de
+mon tresredoubté seigneur monseigneur le regent,
+lointaing immitateur des orateurs, salut en crainte de
+Dieu, humiliacion soubz sa justice, cognoissance de
+ses jugemens et retourner a sa misericorde soubz la
+pointure de sa punicion.</p>
+<p>Comme les haultes dignitez des seigneuries soient
+establies soubz la divine et infinie puissance qui les
+eslieve en florissant, en prosperité et en glorieuse
+renommee, il est a croire et tenir fermement que, ainsi
+que leurs commencemens et leurs accroissances sont
+maintenues et adrecees par la divine providence ainsi
+est leur fin et leur detriment par sentence donnee ou
+hault conseil de la souveraine sapience, qui les aucuns
+verse du hault trosne de imperial seigneurie en la basse
+fosse de servitude et de magnificence en ruine et fait
+des vainqueurs vaincus et ceulx obeir par crainte qui
+commander souloient par autorité. Mais quant doulce
+misericorde entremeslee avecques droicturiere justice
+donne sur les princes et sur le peuple le decret de plus
+attrempee punicion, l'orgueil de trop oultrecuidié
+povoir qui se descognoist est rabaissié par puissance
+<pb n="2"/>
+ennemie, la superfluité des biens mondains, qui est
+nourrice de sedicions et de murmure, est chastiee par
+sa mesmes nourreture et l'ingratitude des dons de Dieu
+est punie sur les hommes par sustracion de sa grace
+que aprés bon amendement et loiale correction a renvoyé
+et redrecié les seigneuries et les peuples en parfaitte
+paix et restitucion de leur disposicion premiere.
+Ainsi divise ses graces merveilleusement selon la diversité
+des personnes, des lieux et des temps, et, comme
+maistre seigneur, mue, croist et amendrist, fait et
+deffait en ses oeuvres selon sa tresraisonnable voulenté
+que nul ne puet decevoir.
+Encore, selon les drois de Nature qui ont leur commencement
+en la divine providence et l'instrument de
+leur ouvraige ou mouvement, en la lumiere et en l'influence
+des corps celestielz, nous demonstrent les
+maistres de tresinestimable science d'astrologie que
+ou livre des cieulx, qui en si large volume est escript
+de tant diverses empraintes et ymaiges, se peult
+cognoistre le cours et la duree des seigneuries et des
+citez, que les naturiens appellent periode, et que elles
+ont leurs maladies et leur mort comme les hommes
+en leur endroit. Ainsi cellui qui puet tout depart et
+retranche les puissances et de sa pardurable eternité
+mue les choses qui soubz le temps decourent. Et lui,
+qui est infiny en hault povoir, met commencement,
+moyen, et fin en toutes ses oevres soubz le mouvement
+des cieulx, comme le potier qui a tour de sa roe fait
+d'une mesme masse divers pots de differentes façons
+et grandeurs, et les grans decasse et derompt, se bien
+ne lui plaisent, pour en faire des petiz, et de la matiere
+des mendres refait il les plus grans.
+Et se memoire vous puet aucune chose ramentevoir
+<pb n="3"/>
+et les anciens livres de noz peres apprendre à cognoistre
+nos faiz par les leurs, toutes anciennes escriptures
+sont pleines de mutacions, subversions et changemens
+des royaumes et des principautez, car comme les
+enfants naiscent et croiscent en hommes parfaiz et
+puis declinent a viellesce et a mort, ainsi ont seigneuries
+leur commencement, leur accroissement et leur
+declin. Ou est Ninive, la grant cité qui duroit trois
+journees de chemin? Qu'est devenue Babillone, qui fut
+edifiee de matiere artificieuse pour plus durer aux
+hommes, et maintenant est habitee de serpens? Que
+dira l'en de Troye la renommee et la tresriche, et de
+Ylion, le chastel sans per dont les portes furent d'ivoire
+et les columpnes d'argent, et maintenant a paine reste
+le pié des fondemens que les haulx buissons forcloent
+de la veue des hommes? Thebes, qui fut fondee de
+Cadmus, fils d'Agenor, et la plus peuplee de dessus la
+terre en son temps, en quelle part pourroit l'en trouver
+tant de reliques de son nom que gens se puissent monstrer
+nez de sa semence? Lacedemone, par qui les lois
+vindrent a diverses nacions desquelles encores nous
+usons, ne pout oncques tant estroictement garder les
+lois de Ligurgus le droicturier, qui furent faictes pour
+sa perpetuation, que sa vertu ne soit estaincte et aneantie.
+Athenes, fontaine de sapience et sourse des haultes
+doctrines de philosophie, n'est elle pas en subvertion
+et les ruisseaulx de son escolle tariz et assechiez?
+Cartage la batailleresse, qui avoit dompté les elephans
+a batailler et qui jadis fut tant redoutable aux Rommains,
+ou a elle tourné sa grant gloire sinon en la
+cendre du feu dont elle fut arse et embrasee?
+Mais parlons de Romme, qui fut derreniere en souveraine
+magesté et excellente en vertu, et notons bien
+<pb n="4"/>
+la parolle de Lucan qui dit que d'elle mesmes, par sa
+pesanteur, elle decheut, car les trop pesants fais font
+les griefves choistes. Par ceste maniere, chascune en
+son tour et en son ordre, si changent, rabbaissent ou
+subvertissent, les eureuses fortunes et le bruit des
+royaumes, ainsi comme la monarchie du monde et la
+dignité du souverain empire fut jadiz translatee des
+Assiriens aux Persans et des Persans aux Grecs, des
+Grecs aux Rommains, des Rommains es mains des
+François et des Germains. Et combien que ces choses
+soient assez evidentes et cognoistre, si y errent les
+pluseurs. Car, en racontant les faiz qu'ilz cognoiscent
+a l'oeil, ilz demeurent en descognoissance de la cause.
+Et pour ce que les jugemens de Dieu, sans qui riens ne
+se fait, sont une abisme parfonde ou nul entendement
+humain ne sceit prendre fons et que noz sens sont
+trop foibles, noz ans trop cours et noz affections trop
+fraelles à les comprendre, nous imputons a Fortune,
+qui est chose faincte et vaine et ne se peut revencher,
+la juste venjance que Dieu prent de noz faultes, laquelle,
+ainsi que dit Vallere, vient bien a tart, mais la
+longue attente est recompensee par aggravement de
+peine.
+Comme doncques, en l'an mil <num>IIIICXXII</num>, je veisse le
+roy anglois, ancien adversaire de ceste seigneurie, soy
+glorifier en nostre ignominieux reproche, enrichir de
+noz despoilles et despriser noz faiz et noz couraiges et
+des nostres, qu'il a vers soy atraiz, fortifier les voulentez
+a son aliance, et avecques ce noz vices croistre
+avecques le temps et a noz aveuglees affections adjouster
+tousjours quelque chose a nostre confusion, j'ay
+conclut en ma pensee que la main de Dieu est sur nous
+et que sa fureur a mis en oevre ce flaiel de persecution,
+<pb n="5"/>
+et ay curieusement encerchié par les discours des
+Sainctes Escriptures les faultes et les punicions de noz
+peres et des primerains et en grant craincte debatu
+en ma pensee se ceste douloureuse affliction en est en
+verge de pere pour nostre chastiement ou en rigueur
+de juge pour nostre exterminacion. Et entre autres
+escriptures, comme je leusse le tiers chapitre de Ysaïe,
+le cueur m'est troublé de freeur et les yeulx obscurciz
+de larmes, quant je voy sur nous les coups feruz qui
+sont signes de mort et donnent ensaignes de la divine
+indignacion, se nous n'y querons briefves medicines.
+Et qui plus avant en veult entendre lise le chapitre qui
+est parole de Dieu, ou la langue ne la plume de homme
+mortel ne peut actaindre. Et je, meu de compassion,
+pour ramener a memoire l'estat de nostre infelicité et
+a chascun ramentevoir ce qui lui en touche, ay composé
+ce petit traictié que je appelle <hi rend="I">Quadrilogue,</hi> pour
+ce que en quatre personnages est ceste oeuvre comprise,
+et est dit <hi rend="I">invectif</hi> en tant qu'il procede par
+maniere d'envaïssement de paroles et par forme de
+reprendre. Si ne vueille aucun lire l'une partie sans
+l'autre, afin que l'en ne cuide que tout le blasme soit
+mis sur ung estat. Mais s'aucune chose y a digne de
+lecture, si vaille pour attrait a donner aucune espace
+de temps a visiter et lire le sourplus.</p></div>
+  <div>
+<head><foreign xml:lang="la"> <hi rend="I">Incipit Quadrilogium invectivum et comicum
+ad morum Gallicorum correctionem.</hi> </foreign></head>
+<sp><speaker>L'Acteur commence:</speaker>
+<p>Environ l'aube du jour, lors que la premiere clarté
+du soleil et nature contente du repos de la nuit nous
+rappellent aux mondains labours, n'a gaires me trouvay
+<pb n="6"/>
+
+soudainement esveillié et, ainsi que a l'entendement
+après repos se presente ce que l'en a plus a
+cuer, me vint en ymaginacion la douloureuse fortune
+et le piteux estat de la haulte seigneurie et glorieuse
+maison de France, qui entre destruction et ressource
+chancelle douloureusement soubz la main de Dieu,
+ainsi que la divine puissance l'a souffert. Et comme
+je recueillisse en ma souvenance la puissance et
+diligence des ennemis, la desloiaulté de plusieurs
+subgiez et la perte des princes et chevallerie, dont
+Dieu, par maleureuse bataille, a laissié ce royaume
+desgarny, qui me fait durement ressongnier l'issue de
+ceste infortune, je contrepensoye et pensoye à l'encontre
+la grandeur et distance des parties de ce dit
+royaume dont les ennemis ne suffiroient garder le
+quart, le merveilleux nombre des nobles et gens
+deffensables qui trouver s'i pourroient, les haultes
+richesses qui encores y abondent en pluseurs lieux,
+les subtilz engins, prudence et industrie de gens de
+divers estaz qui y ont naissance, estat et vie. Aprés
+lesquelz partis ainsi debatuz a part moy , sembloit que
+faulte de donner et recevoir ordre, discipline et regle
+a mettre en oeuvre le povoir que Dieu nous a laissié,
+est cause de la longue duree de nostre persecucion.
+Si est a doubter que la verge de punicion divine soit
+sur nous pour noz pechiez, et que l'oscurté de noz
+vies et corrumpues meurs aveugle en nous le jugement
+de raison et noz parciaulx desirs refroident
+l'affection publique, ainsi demourons nous en la
+descongnoissance de nostre fortune advenir et a noz
+ennemis, par pusillanimité et failly couraige, donnons
+sur nous victoire plus que leur proesce ne leur en
+acquiert.
+</p>
+<pb n="7"/>
+<p>
+Tandis que en ce debat entre espoir et desesperance
+mon entendement traveilloit, ung legier sompme me
+reprint comme, aprés la pesanteur du premier repos,
+il advient souvent vers le matin. Or me fut advis en
+sommeillant que je veisse en ung païs en fresche une
+dame dont le hault port et seigneury maintien
+signifioit sa tresexcellente extraction, mais tant fut
+dolente et esplouree que bien sembloit dame decheue
+de plus hault honneur que pour lors son estat ne
+demonstroit. Et bien apparissoit a son semblant que
+forment feust espoventee et doubteuse de plus grant
+maleurté et douleur advenir. Et en signe de ce, ses
+blons cheveulx, qui a fin or estrivoient de couleur,
+veissez espanduz et degetiez sans aournement au
+travers de ses espaules et une couronne d'or fin sur
+son chief portoit, qui par divers hurs si fort estoit
+esbranlee que ja penchoit de coste, enclinee moult
+durement. De sa vesture ne me puis je pas passer ne
+taire, et mesmement du mantel ou paille qui son corps
+couvroit, dont le merveilleux artifice fait a ramentevoir.
+De trois paires d'ouvraiges sembloit avoir esté
+tissu et assemblé. Premierement, en chief, d'ancienne
+brodeure enrichi de moult precieuses pierres y
+estoient figurees les nobles fleurs de lis tout en travers
+semees de banieres, gonphanons et ensaignes des
+anciens roys et princes françois, en memoire de leurs
+rennomees victoires et de leurs loables entreprises.
+Ou my lieu se monstroient entaillees lectres,
+caratheres et figures de diverses sciences qui esclarcissoyent
+les entendemens et adreçoyent les oeuvres
+des homes. A la partie d'embas, qui vers terre pendoit,
+assez povoit on veoir pourtraitures et entremeslees
+bestes, pluseurs plantes, fruiz et semences
+<pb n="8"/>
+
+tendans de leurs branches en hault et naissans de la
+bordeure d'embas comme de terre plantureuse et
+fertile. Qu'en diroy je plus? De si precieux et riche
+ouvraige estoit basty cellui mantel et de si longue
+main avoit on mis paine a y ouvrer et faire l'assemblee
+des parties dont il estoit composé que, dessoubz le
+ciel, ne fut veu le pareil, se Fortune, envieuse de
+longue prosperité, l'eust souffert en sa beauté demourer;
+mais tant lui despleut l'excellence et duree de
+si parfaicte oeuvre qu'elle tourna son pervers et
+senestre costé et ouvry voyes dont cellui mantel,
+assemblé par la souveraine industrie des predecesseurs,
+estoit desja par violentes mains froissez et
+derompuz et aucunes pieces violentement arrachees,
+si que la partie de dessus se monstroit obscurcie et
+pou de fleurs de liz y apparissoient qui ne fussent
+debrisees ou salies. Ne demande nul se la partie
+moyenne estoit neantmoins demouree entiere ne
+conjointe, et les lectres formees et assises en leur
+ordre, car si separees, decharpies et desordonnees
+furent que pou s'en povoit assembler qui portast
+proufitable sentence. Mais se nous venons a parler de
+la basse partie, ceste chose seule en peut on dire, que
+tant la veoit on usee, en gast et en destruction, par
+rudement frapper, tirer et detrainer, que en plusieurs
+lieux l'emprainte de la terre apparoit descouverte et
+les arbres et semences comme desracinees, gectees et
+pendans au travers par paleteaux, si que on n'y peust
+cognoistre ordonnance ne esperer fruit. En somme
+tant estoit cellui habit changié par empirement de
+couleur et de beauté que ceulx qui tel le bastirent a
+paine y cognoistroient leur ouvraige. Du mantel me
+deporteray a tant de present pour ce que trop longuement
+<pb n="9"/>
+
+ne vueil sur description demourer, ne ce n'est
+la fin de ce present quadrilogue.
+</p>
+  <p>Toutes voies pour appliquer a mon intencion principale,
+vueil soubz briefté declairer les gestes et
+contenances de ceste dame. Ung riche palais ancien
+avoit de coste soy, somptueusement edifié de murailles
+eslevees et de haultes tours, compassé, comprins
+et environné de diverses et differentes habitacions
+par engins de souverains ouvriers, enrichy d'entailleures,
+paintures, armoeries et autres menueries a
+l'ueil plaisans, mais, par negligence des maistres des
+oeuvres et en default de bonne reparacion, les eaues
+et les vens y avoient tel dommaige porté que de
+pluseurs lez estoit prest de fondre et verser tout jus,
+et n'y apparoit refection sinon aucuns appuys de
+foibles et petites estaies que pour passer temps et a
+la haste, non pas a durer, on avoit ça et la assises
+ou et quant la ruyne sembloit greigneur et le péril
+plus prouchain. Lors que ceste dame regarda cellui
+seigneurieux edifice et maison royal pres que de
+cheoir, elle, qui leans avoit esté nourrie en abondance
+de biens et d'onneurs, descouvry de dessoubz son
+mantel l'un de ses bras, couvert et paré de fleurs de
+lis et de daulphins en quartiers, et estaioit le costé
+qui plus penchoit et par pesanteur s'enclinoit et
+tiroit grant partie du sourplus a tendre en ruyne, et
+contretenoit de cellui bras le plus principal pan de
+mur et qui portoit le branle du seurplus, et neantmoins
+se desmentoit et decrevoit en pluseurs lieux et
+des principaulx piliers s'enclinoient aux fais des
+aucuns. Or fut moult fort grevée de si long travail. Si
+se retourna le visage couvert de larmes a l'entour de
+soy, comme desireuse de secours et contrainte par
+<pb n="10"/>
+
+besoing. Et a celle heure apperceut trois de ses
+enfans, l'un estant droit en armes appuyé sur sa
+hasche, effrayé et songeux, l'autre en vestement long
+sur ung siege de costé, escoutant et taisant, le tiers,
+en vil habit, reversé sur la terre, plaintif et langoureux.
+Comme doncques elle les eust choisiz à l'ueil,
+indignee en son hault couraige, vers eulx les prist a
+reprendre de leur oiseuse lacheté par parolles entrerompues
+souvent de douloureux soupirs qui de cuer
+adollé lui mouvoient, leur disant en ceste maniere:
+</p>
+  </sp><sp>
+<speaker>FRANCE.</speaker>
+<p>O hommes forvoiez du chemin de bonne cognoissance,
+feminins de couraiges et de meurs, loingtains
+de vertuz, forlignez de la constance de voz peres, qui
+pour delicieusement vivre choisissez a mourir sans
+honneur, quelle musardie ou chetiveté de cuer vous
+tient les mains ployees et les voulentez amaties que
+vous bastez en regardant devant voz yeulx vostre
+commune desertion et musez comme attendans de
+quelle part versera le faiz de cestui vostre naturel
+heberge et retrait, lequel vous pourroit tous acraventer
+et enclorre vostre ruyne soubz la sienne? Et
+toutesvoies ne mettez les mains en oeuvre a ce que je
+soye secourue par vostre travail. Qui est cellui qui
+pourroit assez blasmer ou reprendre voz piteuses et
+delicatives condicions ou vous estes nourriz et y
+voulez envieillir, ne quelles assez aspres paroles
+pourray je prendre pour vous reprocher vostre
+ingratitude envers moy? Ce vous puis je mettre au
+devant que, aprés le lien de foy catholique, Nature
+<pb n="11"/>
+vous a devant toute autre chose obligiez au commun
+salut du pays de vostre nativité et a la defense de
+celle seigneurie soubz laquelle Dieu vous a fait naistre
+et avoir vie. Encore dy je que peu doit priser sa
+naissance et mains desirer la continuation de sa vie
+qui passe ses jours, ainsi que fait homme nez pour
+soy seulement, sans fructifier a la commune utilité,
+et comme cellui qui estaint sa memoire avecques sa
+vie. Helas! tant est es anciens couraiges prouchaine
+et si inseparablement enracinee l'amour naturelle du
+païz que le corps tent a y retourner de toutes pars
+comme en son propre lieu, le cuer y est donné come
+a celle habitacion qui plus lui est aggreable, la vie
+et la sancté y croissent et amendent l'omme y quiert
+sa sceurté, sa paix, son refuge, le repos de sa vieillesce
+et sa derreniere sepulture.
+</p>
+    <p>Et puis que tele est la loy que Nature y a establie, il
+fault dire que nul labour ne vous doit estre grief, que
+nulle adventure ne vous doit estre estrange a soustenir
+pour cellui pays et seigneurie sauver, qui depuis
+vostre nativité jusques a vostre mort est quant de soy
+ouvert envers vous a toute soustenance, et qui vous
+repaist et nourrit entre les vivans, et entre les mors
+vous reçoit en sepulture. Si est force de dire que
+ceulx sont desnaturez, qui au commun besoing et
+pour le salut de leur païz et seigneurie n'efforcent
+leur povoir, et mieulx veulent soy laisser perdre
+avecques la chose publique que pour icelle soy exposer
+a peril. Donc pouroit il sembler que la loy de
+Nature, qui toutes choses soubz le ciel oblige par
+lien indissoluble, seroit plus parfaictement es bestes
+mues que en vous autres, et que vous seriez trouver
+plus desnaturez que elles, qui n'ont pas entendement
+<pb n="12"/>
+de raison, quant les oyseaulx au bec et aux ungles
+defendent leurs nits et les ours et les lyons gardent
+leurs cavernes a la force de leurs gris et de leurs
+dens.
+</p>
+    <p>Retournons au fait des homes et jugons nous
+mesmes par autruy, et nous souviengne que, comme
+tesmoignent les anciennes histoires, les Troyens pour
+leur pays defendre soustindrent le siege des Grecs
+par dis ans devant leur cité. Et le peuple appellé
+Scite, en la guerre qu'il eut avecques le roy Daire de
+Perse, se mist tousjours en fuyte jusques ad ce qu'il
+vint au lieu ou estoient les sepultures de leurs peres
+et predecesseurs, et illec se combatirent jusques a la
+mort, comme ceulx qui pitié naturelle de leurs
+parens et païz contraignoit a resistence et a garder le
+lieu de la naissance et sepulture de leurs lignees.
+Dure chose est a moy que ainsi me convient plaindre,
+mais plus dure et de mains de reconfort que vous,
+qui me devez soustenir, defendre et relever, estes
+adversaires de ma prosperité, et en lieu de guerdon
+querez ma destruction et l'avancement de voz singuliers
+desirs. Mes anciens ennemis et adversaires me
+guerroient au dehors par feu et par glaive, et vous
+par dedans me guerroiez par voz couvoitises et mauvaises
+ambitions. Les naturelz ennemis quierent moy
+oster liberté pour tenir en leur miserable subjection,
+et vous me asservicez à l'usage de voz desordonnances
+et lachetez, en cuidant demourer delivres des dangiers
+de ma fortune. Ilz me portent dommaige comme
+partie contraire pour leur entreprinse d'armes et de
+chevalerie. Et vous, soubz umbre d'amis et le nom
+d'amis et deffenseurs, parachevez ma perte et desertion
+par faulte de gouvernement convenable. Moult
+<pb n="13"/>
+rudes et rigoureuses vous pourront sembler cestes
+mes parolles, mais, a les comparoir a voz oeuvres et a
+ma necessité, elles sont de mendre austerité et
+aspresse que le cas qui s'i offre ne le requiert. Tournez
+voz yeulx et convertissez vostre jugement sur
+vous mesmes, denuez voz pensees de toutes affections
+qui vous meuvent a part, et vous cognoistrez que les
+pluseurs de vous laissent la seigneurie dont vous estes
+subgiez sans defense exposee a toute fortune, comme
+la nef degetee par tempeste de mer qui va la voille
+baissee ou le vent et les vagues la dechacent. Vous
+grevez et guerroiez voz ennemis de souhaiz. Vous
+desirez leur desconfiture par prieres et parolles, et ilz
+pourchacent la vostre par entreprinse de fait. Vous
+conseillez de les dechacer, et ilz besoignent en vous
+dechaçant; leur travail et songneux desir de conquerir
+esbahit voz couraiges et vostre negligence de
+defendre enhardist leurs voulentez; les lermes des
+femmes et les soubhais des hommes ne leur acquierent
+pas l'aide de Dieu ne l'accomplissement de leurs
+vouloirs, mais aux travaillans saiges et curieux
+adviennent de don des cieulx et de leur pourchaz les
+prosperitez et les ressourses. Pensez que rien ne
+suffist vouloir le salut et liberté publique et desirer
+la confusion de son ennemi, il faut mectre la main a
+l'oeuvre, et de l'oeuvre vient la louenge et le guerdon.
+Mais ou sont doncques ceulx qui en ces condicions
+chevaleureuses quierent leur renommee et leur perfection,
+quant ilz ne se apparoissent et mettent avant
+en besoigne et que entre les autres en peut on si pou
+choisir pour telz, donc ceulx qui bien font sont
+dignes de plus grant los? Ou est la prudence des
+clers et conseilliers, qui par leurs sens ont mains
+<pb n="14"/>
+royaumes preservez et relevez souvent en perilleuses
+aventures? Qu'est devenue la constance et loyauté du
+peuple françois, qui si longtemps a eu renom de perseverer
+loial, ferme et entier, vers son naturel
+seigneur sans querir nouvelles mutacions? Je me
+doubte que tous trois soient rabaissez et avillez de la
+dignité et devoir de leurs estaz. Pluseurs de la chevalerie
+et des nobles crient aux armes, mais ilz
+courent a l'argent; le clergé et les conseilliers parlent
+a deux visaiges et vivent avecques les vivans; le
+peuple veult estre en sceurté gardé et tenu franc, et
+si est impacient de souffrir subgection de seigneurie.
+</p>
+    <p>O tresredoutable et perilleuse acoustumance de
+voluptez et d'aises, o envieillie et enracinee norreture
+de pompes et de delices, tant avez bestourné et
+ramolly les courages françois que ceste subversion,
+dont Fortune nous fait ciseau de si prez, nous avez
+couvee et mise sus, et toutes voies sont et demeurent
+par vous les cuers si envelopez que le peril de la seigneurie
+et d'eulx mesmes et la doubte de leur
+prouchaine desercion ne les peut retraire de leurs
+delicatives acoustumances. Tele est la condicion
+naturelle des voluptez delicieuses qu'elles sont impacientes
+de tout labeur, contraires a vertueux courage
+et ouvraige, marrastre de diligence et nourrice de
+pusillanimité; elles vous perdent et si ne les voulez
+perdre, elles vous font et laissent perir et si ne les
+voulez laisser, elles ont esté et sont le rabaissement
+de vostre force et la confusion de vostre povoir et en
+querant vostre ressource et relievement vous les entretenez
+et accueillez. Moult est forte chose de delaisser
+longue acoustumance, mais qui au besoing se veult
+aux honnourables fais usager et endurcir il ne treuve
+<pb n="15"/>
+pas aprés nul si plaisant travail comme celluy dont
+l'onneur et la renommee naissent aux vertueux.
+Scipion l'Affrican, quant premier demena son ost en
+Auffrique, commanda que toutes choses, qui en ses
+legions seroient trouvees provocans a volupté, en
+fussent tantost degeteez. Hannibal, aprés ce que
+Cappue fut reduitte en sa subjection et qu'il ot esté
+haultement receu et delicativement traictié, trouva les
+cuers de ses chevaliers changez et matiz de leur
+premiere vertu. Et pour exemple de hault prince
+adjouster, le pareil cas en avint a Alixandre aprés la
+conqueste de la grant Babilone et Sardanapalus en
+perdy sa seigneurie et vie. Puis doncques que les
+grans conquereurs en la grant gloire de leur victoire
+ont esté avillez et amendriz par acueil de voluptez,
+quelle sceurté peuent avoir ceulx qui soubz les dangiers
+de tresperverse fortune s'endurcissent a
+delicieuse vie et corruption de leurs meurs? Et telz
+y a qui jour et nuit sont par les bois et par les
+champs a chacer les bestes et au gibier des oiseaulx,
+et les aultres rompent chevaulz au pourchaz des
+offices, des estaz, des chevances et de leurs autres
+plaisirs, qui pour honneur acquerir et leur naturel
+devoir acquiter ne laisseroient le repos d'une nuit ne
+ne souffreroient le dangier, estroit ou messaisé
+hebergement.
+</p>
+    <p>Querez, querez, François, les exquises saveurs des
+viandes, les longs repoz empruntez de la nuit sur le
+jour, les oultraiges des robes et des joyaulx sans
+garder difference des estaz ne des degrez a ceulx a
+qui ilz appartiennent, les blandices et delices feminins!
+Endormez vous comme pourceaux en l'ordure
+et vilté des horribles pechiez qui vous ont mis si prés
+<pb n="16"/>
+de la fin de voz bons jours! Estoupez vos oreilles a
+toutes bonnes amonicions, mais ce sera par tele condicion
+que tant plus y demourrez et plus approuchera
+le douloureux jour de vostre exterminacion, et
+en pourrez tant user et si longuement vous y aouiller
+que trop en avoir prins vous en fera souffreteux a
+tousjours. Semiramis de Babilone laissa bien a moictié
+ses cheveulx a peigner, quant en les peignant on
+lui denonça la rebellion de sa cité, et demoura l'atour
+de son chief demy a point et demy desordonné jusques
+a ce qu'elle eust par povoir d'armes sa cité mise
+en subjection. Les dames de Romme, aprés la tresmiserable
+bataille de Cannes, changerent la richesse de
+leur abis et la cointise de leurs estaz. Le pays de
+Languedoc, en la prise du roy Jehan, se mua en vesteures
+et gouvernement de hommes et de femmes en
+laissant toute remonstrance de leesce et festivité.
+Quelles gens estes vous, ne quelles durtez avez vous
+en vos couraiges, qui ainsi vous laissez perdre a
+vostre escient, sans vouloir delaisser ce qui vous
+meyne a perdicion et vous tire a perdicion les bras
+au col?
+</p>
+    <p>Apprenez a cognoistre vostre infelicité par les fortunes
+eureuses de voz ennemis, et vous souviengne
+que les glaces d'yver, ne la diminucion du vivre, la
+pestillence des maladies contagieuses ne le long travail
+des armes vestir et porter nuit et jour, ne leur
+cassent leurs fortes entreprises, ne ilz n'en laissent
+sieges a mectre, ne champs a tenir, et tous voz faiz se
+delaissent pour chacune legiere ochoison ou particuliere
+voulenté. Toutes bonnes nouvelles vous semblent
+victoire et toutes mauvaises vous esbahissent
+comme desconfite bataille, car voz couraiges volages
+<pb n="17"/>
+et vicieux ne sont a nulle chose affermez; voz engins
+travaillent a acquerre finances et voz vanitez a les
+degaster; vostre entendement se occupe a les querir
+et assembler, mais vostre sens est perdu quant a les
+emploier.
+</p>
+    <p>Pleust a Dieu que bien feust escript en voz souvenances
+combien proufite a l'exaussement de seigneurie
+savoir saigement departir le guerdon des bons et
+la punicion des mauvais, sans suivre le bruit ou
+l'affection; car la corection des mauvais hoste le
+hardement de mal et la recongnoissance des bons est
+le redoublement de leurs biensfaiz, et, qui plus fort
+est, j'ose bien dire que celle seule vertu de recognoistre
+les bons qui peu voulentiers empressent et
+les maulvais qui se ingerent rebouter est celle qui souverainement
+conferme et maintient les princes en
+leurs seigneuries et majestez. Si n'estoit pas sans
+cause que, pour louenge et memoire, les Rommains
+faisoient ymages de divers metaulx, ars et curres
+triumphans a ceulx qui vertueusement se portoient
+pour accroistre la seigneurie rommaine et augmenter
+le bien publique de leur cité. Taisons nous a tant de
+choses, combien que trop ne les pourroye reprouver
+ne blasmer, si venons a vous remonstrer en brief que
+la justice de querelle, posé que ja autre ochoison n'y
+trouvissez, vous doit rebouter le hardement es courages.
+Sachons premierement qui sont ceulx contre
+qui vous avez a guerroyer. Et se bien en enquerez,
+c'est la lignee de Forgestus et de Hangestus, les
+Saxons, qui comme souldoyers vindrent au secours
+du roy de la Grant Bretaigne oppressé de dures
+guerres. Et depuis occuperent et prindrent le pays
+pour eulx, quant ilz le sentirent despourveu par
+<pb n="18"/>
+guerre de sa bonne chevalerie, et par traïson, soubz
+faintise de paix, occirent le sourplus de la noblesce
+du païz. C'est la lignee qui debouta et occist son
+souverain seigneur, roy d'Angleterre, pour usurper
+tiranniquement sa seigneurie. Ce sont ceulx qui voz
+peres et voz predecesseurs ont souvent guerroiez, ars
+et degastez voz champs et voz villes et qui de tele
+ligne sont issuz que naturelment convoitent anyentir
+du tout vostre generacion. Ce sont ceulx qui se sont
+adjoins et aliez a voz desloiaulx et rebelles de ce
+royaume, dont a la desraison de leur querelle ilz ont
+adjousté desloiauté, en soustenant les oeuvres desloialles
+de leurs alliez et compaignons. D'autre part,
+je vueil monstrer les raisons qui doivent voz couraiges
+enflammer et vous donner sceurté et confiance.
+Voz ennemis anciens et naturelz vous assaillent a leur
+entreprise et viennent chalengier vostre terre et vostre
+pays sur vous, ilz sont assaillans et vous estes defendeurs,
+ilz veulent asservir vostre liberté et vous avez
+a vous deffendre de leur servage, ilz quierent vostre
+mort et perdicion, et nature vous oblige à defendre
+vostre sceurté et vostre vie, ilz se efforcent d'oster et
+ravir par force la vie et la substance de voz femmes
+et enfans que nature vous contraint a doulcement
+nourrir et tendrement amer, ilz veulent debouter vostre
+prince droiturier et seigneur naturel que voz vies et
+voz corps sont tenuz defendre et tendent occuper le
+siege royal pour vous defouler soubz leur tirannie.
+Enviz entreprendriez les conquestes de voz predecesseurs
+qui sommistrent grant partie de Grece en leur
+subjection laquelle de leur nom s'appelle encores Gallogrecie
+et conquisrent Romme jusques au Capitole, <abbr>etc.</abbr>,
+quant la terre, sur quoy vous habitez et qui vous soustient
+<pb n="19"/>
+et donne pasture, vous ne povez pas secourir ne
+defendre et vous laissez estre comme exiliez sur vostre
+mesmes pays, que delaisser ne voulez ne garder vous
+ne savez. Quelle chose est ce doncques qui peut si
+refroidir et tant rabaisser voz couraiges? Les ennemis
+ne sont de fer immortelz ou indiviables ne que vous,
+ilz n'ont glaives ne armeures que vous n'ayez les
+pareilles, ne ne sont en si grant nombre que ne soiez
+autant ou plus; leur eur ne sera pas Fortune leur estre
+tousjours propice, qui de sa nature est envers tous
+muable. Si fault par force dire que, s'ilz ont riens
+d'avance qui les eslieve sur vous, c'est hardement de
+courages, et, se vous avez riens qui soubz eulx vous
+deprime, c'est la multitude de voz pechiez qui convertit
+vostre cuer en fuye et laissez estaindre la lumiere de
+vostre gloire et destruire vostre seigneurie devant voz
+yeulx, sans remede y querir ne mectre, si non que la
+grace de Dieu y euvre de soy, a laquelle deservir vous
+metez petite peine, et ne povez en ce point longuement
+temporiser sans veoir decheoir le nom françois a
+vostre pardurable vitupere et malediction.
+    </p>
+    </sp><sp>
+<speaker>L'acteur.</speaker>
+<p>Ces parolles moult aigrement et de cuer couroucié
+disoit au dessus escrips celle dame tresadoulee et de
+ses beaulx yeux, dont les ruisseaulx de larmes couroient,
+regardoit si effroiement leur desroyé maintien
+que bien sembloit soy sentir d'eulx injuriee ou mescogneue.
+Et aprés ce que chascun se fu longuement
+tenu de parler, cellui qui gisoit reversé sur la terre,
+plaintif et langoureux et tant actaint de mal que nulle
+vertu ne lui estoit demouree, si non la voix et le cry,
+prinst a parler et respondre ce qui s'ensuit:
+</p>
+    </sp>
+<pb n="20"/>
+<sp>
+<speaker>LE PEUPLE.</speaker>
+<p>Haa, mere, jadiz habondant et plantureuse de prosperité
+et ores angoisseuse et triste du declin de ta
+lignee, je reçoy bien en gré ta correction et cognois
+que tes plaintes ne sont point desraisonnables ne sans
+cause, maiz trop m'est amere desplaisance que j'aye
+de ce meschief la perte et le reproche ensemble et que
+m'en doiez en riens tenir suspect quant d'autruy coulpe
+je porte la tresaspre penitance. Je suis comme l'asne
+qui soustient fardel importable et si suis aguillonné et
+batu pour faire et souffrir ce que je ne puis. Je suis le
+bersault contre qui chascun tire sajettes de tribulacion.
+Haa, chetif douloureux, dont vient ceste usance qui a
+si bestourné l'ordre de justice que chascun a sur moy
+tant de droit comme sa force lui en donne? Le labour
+de mes mains nourrist les lasches et les oyseux et ilz
+me persecutent de fain et de glaive. Je soustien leur vie
+a la sueur et travail de mon corps et ils guerroient la
+moye par leurs outraiges dont je suys en mendicité.
+Ilz vivent de moy et je meur pour eulx. Ilz me deussent
+garder des ennemis, helas, helas, et ilz me gardent bien
+de menger mon pain en sceurté. Comment auroit
+homme en ce party pacience parfaite, quant a ma persecution
+ne peut on riens adjouster que la mort. Je
+meur et transiz par default et necessité des biens que
+j'ay gaignez; Labeur a perdu son esperance, Marchandise
+ne treuve chemin qui la puisse sauvement adrecier.
+Tout est proye ce que le glaive ou l'espee ne
+defend, ne je n'ay autre esperance en ma vie sinon
+par desespoir laissier mon estat pour faire comme
+ceulx qui ma despoille enrichit, qui mieulx ayment la
+proye que l'onneur de la guerre.
+</p>
+<pb n="21"/>
+<p>
+Que appelle je guerre? Ce n'est pas guerre qui en ce
+royaume se mayne, c'est une privee roberie, ung larrecin
+habandonné, force publique soubz umbre d'armes
+et violente rapine que faulte de justice et de bonne
+ordonnance fait estre loisibles. Les armes sont criees
+et les estendars levez contre les ennemis, mais les
+esploiz sont contre moy a la destruction de ma povre
+substance et de ma miserable vie. Les ennemis sont
+combatuz de parolle et je le suys de fait. Regarde,
+mere, regarde, et advise bien ma treslangoureuse affliction
+et tu cognoistras que tous refuges me défaillent,
+les champs n'ont plus de franchise pour administrer
+sceure demeure, et je n'ay de quoy les cultiver ne
+fournir pour y recueillir le fruit de nourreture. Tout
+est en autres mains acquis ce que force de murs et de
+fossez n'environne et encores en meilleures gardes a
+il souvent de grans pertes que chascun voit. Or convendra
+il les champs demourer desers, inhabitez et
+habandonnez aux bestes sauvaiges, et ceulx qui par
+travail de loial marchandise ont les aucuns en leur
+necessitéz secouruz demourer despourveuz et esgarez
+et perdre par courroux la vie aprés les biens; le soc
+est tourné en glaive mortel et mes mains, qui ont porté
+le faiz dont les autres recueillent les aises en habondance,
+sont souvent estraintes jusques au sang espandre
+pour ce que je n'ay baillié ce que j'ay et ce que je n'ay
+mie. Si fault que le corps decline en default des biens
+et que en languour soubz seigneurie dissipee et chargee
+de famille mendie. Je vif en mourant, voiant la mort
+de ma povre femme et de mes petis enfans et desirant
+la mienne, que tant me tarde que je la regrete chascun
+jour, comme cellui qui couroux, fain et defiance de
+confort, mainent douloureusement a son derrenier
+<pb n="22"/>
+jour. Du sourplus ne fault faire enqueste ne demande,
+les oeuvres sont publiques et le tesmoing en est intollerable
+famine, qui encourt et courra sus a ung chascun
+si amerement que tart sera de regreter la passee
+habondance et vouloir par raison departir le demourant
+des choses consumees par oultraiges, et s'en ensuivra
+que Nature, qui chascun ensaigne à conserver
+sa vie par la recreation de mengier, laschera la bride
+et la licence de la ravir par force ou il sera, dont les
+commencemens sont ja moult merveilleux et les conclusions
+seront tant redoutables que la chose sera plus
+espoventable a veoir qu'elle n'est merveilleuse a
+ymaginer.
+</p>
+  <p>Ennuyeuse chose est a raconter et plus griefve a
+soustenir ma piteuse desolation, car je suys en exil en
+ma maison, prisonnier de mes amis, assailli de mes
+defendeurs et guerroyé aux souldees dont le paiement
+est fait de mon propre chatel. Et pour faire une abhominable
+somme de mes males mescheances infinies, je
+ne voy autre demourant ou exploit des longues guerres
+de ce royaume, si non terres en fresche et pays
+inhabité, multitude de veufves et d'orphelins chetifz,
+mendians et desolez, et mutacion de biens, qui des
+mains de ceulx qui les ont gaignez sont transportéz aux
+plus fors et ravissans. Et telement est la chose menee et
+changee de sa nature que entre l'impetuosité des armes
+se taisent les lois, et Justice a laissié son siege tribunal
+ouquel se siet et preside Voulenté. Si a fait icelle ung
+tel edit que ce que Fortune veult elle peut, ce qu'elle
+peut elle accomplit, ce qu'elle accomplit elle appreuve,
+ce qu'elle appreuve est essaucié, loé et non pugny. Par
+droicte comparaison la nostre police françoise semble
+maintenant l'ostel d'ung mauvais mesnagier qui
+<pb n="23"/>
+dissipe sa presente substance avant qu'il pourvoye a
+celle a venir, menjut sa vigne en verjus et vuide ses
+garniers hors de saison a sa comble mesure si que le
+pain lui fault au plus grant besoing. Le fourmy se
+fournit et espargne en l'esté contre la durté de la
+froidure et saison de l'yver, et prevoit sa necessité
+devant ce qu'elle le sourpreigne. Haa, hommes françois,
+vous faictes le contraire, et gastez avant la main ce
+dont vous deussiez aider es autres grans affaires, et
+mectez le fais de vostre guerre a la charge du peuple,
+qui soubz vous deust demourer entier comme une
+espargne pour secourir aux extremitez et pour avoir
+recours en perverse fortune.
+</p>
+  <p>Se je veisse que par chevalereuses hardiesses de la
+guerre, dont vous faictes le bruit, les ennemis sentissent
+la perte et le dommaige, le mien en seroit plus
+aisié à soustenir, mais tousjours mal souffrir, quant il
+ne redonde a aucun bien, fait le couraige cheoir en
+desespoir et perdre pacience entierement. Et quant
+patience fault, qui soustient les courages contre la
+durté de fortune et qui tient les autres vertuz alieez
+et conjoinctes, ne doubtez que elles se separent et departent.
+Si avient souvent que, pacience faillie, toute
+obeissance, subjection et constance defaillent, et tourne
+l'ordre de vertu en desordonnee confusion. Assez le
+peut on noter et prendre exemple du roy Roboan, qui,
+pour les oppressions de son peuple qu'il ne voult amendrir
+ne cesser en delaissant le conseil des saiges
+anciens et ensuivant la sote oppinion des jounes et
+non saichans, perdy de sa seigneurie dix lignies et
+demie.
+</p>
+  <p>Le peuple si est membre notable d'un royaume, sans
+lequel les nobles ne le clergé ne pevent suffire a faire
+<pb n="24"/>
+corps de police ne a soustenir leurs estas ne leur vie,
+et ne me puis trop donner de merveille qu'il doye si
+estre habandonné a toute infelicité et persecuté par les
+autres membres subgiez a son mesmes chief, ne je ne
+voy meilleur similitude a ce propos sinon que nostre
+police françoise est comme l'omme furieux qui de ses
+dens mort et dessire ses autres membres. Trop bien
+pourveurent a telz inconveniens les anciens Rommains
+quant, pour garder les parties de leur communité chascune
+en sa dignité et en son ordre, ilz establirent les
+tribuns du pueuple qui avoient office pour icellui soustenir
+et defendre sa franchise contre le Senat et la
+puissance des nobles hommes. Ainsi n'est pas, car sans
+aide ne secours je suis delaissié es mains des ravisseurs
+comme la proye des autres qui me contraignent a crier
+a Dieu venjance contre eulx de l'importable et dure
+affliction qu'ilz me donnent. Car, comme souvent
+repetent les anciens escrips, pour la misere des povres
+et gemissemens des souffreteux la divine justice donne
+sentence de tresaigre punicion. Or s'en gard qui en
+coulpe s'en sent, car il n'est pas a penser que tant de
+couraiges tormentez et de voix trespiteables, que
+comme par desespoir adrecent leurs criz et leurs plains
+aux cieulx, ne esmeuvent a pitié la clemence du tresmisericors
+et tout puissant createur et que sa justice
+ne les sequeure a la confusion de ceulx dont procedent
+teles iniquitez. Et je, qui suys en attente de ma mort
+et desesperé de ma vie, ne scey plus autre part recourir.
+Ainsi descharge mon cuer envers toy, mere tres redoutable,
+exempt de la coulpe de griefz maulz dont je
+porte la paine, et me rapporte a ton bon jugement de
+savoir a qui en est le blasme. Je doy bien estre tenu
+pour excusé et delaissié pour si chetif que je suis, sans
+<pb n="25"/>
+adjouster a ma misere blasme ou reproche, car douleur
+et mesaise me chacent a la mort si durement que je
+seiche sur le pié sans attente de mieulx, ne je ne scay
+plus sinon maudire qui ce me fait, plaignant ma grant
+douleur dont Dieu par sa pitié me vueille gectier et
+mectre briefment hors de ceste langoureuse vie, puis
+que desormais n'y puis demourer fors en orphanté.</p>
+  </sp><sp>
+<speaker>L'acteur.</speaker>
+<p>Atant se teut, car par mesaise de corps et disete de
+mengier avoit la parolle et les esperiz afoibliz et come
+aggravanté de douleur povoit a paine parler. Si prist
+les parolles cellui qui en armes estoit, et commença
+lors a respondre tout hault et de cuer courroucié ce qui
+aprés cy est escript:</p>
+    </sp><sp>
+<speaker>LE CHEVALIER.</speaker>
+<p>Maintenant voit on clerement la petite constance de
+ton muable couraige, peuple seduit et legier a decevoir,
+quant tu ne sceis souffrir l'aise de paix et si ne peus
+soustenir la durté de la guerre, car, lors que tu es riche
+et plantureux de biens, tu ne peuz vivre sans blapheme
+et sans murmure, et si tost que la foule des guerres que
+tu pourchasses vient sur toy, tu es enclin a toute sedicion
+et ne le peus soustenir sans forvoyer de vraye
+obeissance. Tu te plains de moy et cries a Dieu venjance
+des maulx que tu mesmes t'as pourchacé, mais
+tu ne te juges pas de ta mesmes coulpe, ainçois faiz
+la clamour et le bruit des presentes pertes et afflictions
+sans ramentevoir tes faultes passees qui en sont la
+cause. Souviengne toy en combien grant ingratitude
+et voulenté injurieuse follement affectee tu as souffert
+<pb n="26"/>
+et passé la grant doulceur de paix, la sceurté de justice
+et habondance de biens, qui depuis trante ans jusques
+a l'entree des guerres a duré en ce royaume; n'estoies
+tu pas raemply lors de richesses, environné de delices
+avecques toute franchise d'en user a ton plaisir?
+Recognois au moins que tu, ta femme et tes enfans,
+mengiez vostre pain en sceurté chascun jour, chascun
+sur son lieu et soubz la seigneurie, comblé de tous
+biens, sans perte et sans dangier; de ce temps la peus
+tu avoir remembrance, car Dieu sceit le bruit, la
+rumeur et l'esclandre obprobrieux, que tu donnoyes a
+ceulx qui en plantureuse union et transquilité te gouvernoient.
+Icellui temps detestoies et tenoies a mauvais,
+en tresgrant ingratitude a Dieu et vers ton prince. Or le
+te fault a present regreter et loer ce que tu blasmoyes
+si aigrement.
+</p>
+      <p>O combien dangereuse chose est a couraige d'omme
+qui descognoist sa condicion, vivre en multitude de
+biens mondains, mais plus forte chose est d'endurer
+grant aise a ceulx qui ne scevent penser que Fortune
+les peut de legier transmuer en douloureux mesaise. A
+ce propos narrent les histoires rommaines que la longue
+paix descongneue, la plenitude des biens qui enorgueillist
+les couraiges des ingras et la delicieuse oysiveté
+qui donne occasion de soy subtilier a mal, furent
+cause des batailles intestines, guerres et discors d'entre
+les Rommains es temps de Catilina, de Silla et de
+Marius, dont la seigneurie rommaine, plus par eulx-mesmes
+que par estranges ennemis, est decheue du
+tout et sans ressource, qui fut tele et si haulte comme
+les ruines le demonstrent. Ainsi le fol peuple, qui ne
+desire que mutation, quiert souvent et convoite ce qui
+plus lui est contraire. Si te dy que tes rumeurs et particulieres
+<pb n="27"/>
+affections, tes mençongieres paroles et ta
+legiere creance, ont mis sur toy ceste tresamere division.
+Par toy et par les partiz que tu as choisiz folement
+et soustenuz de obstinee voulenté est ceste guerre
+sourse et aggravee, et n'as oncques cessé jusques a ce
+que ta parfaicte paix a esté troublee et muee en trescruelle
+division. Or en as tu assez et plus que porter
+n'en peus. Tu l'as provoquee et appelee a toy, si fault
+que tu en seuffres les aguillons et les pointures, car
+qui pourchasse guerre la doit querir par tele condicion
+qu'il se submete aux males aventures qui de guerre
+naissent. Guerre, de sa propre naissance, vient par
+defaulte de justice, car, se tous estions justes, force
+d'armes ne nous auroit besoing. Se tu veulx doncques
+en guerre querir tout ordre, mesure et raison, tu
+travailles en vain, car, se le plus juste qui oncques
+nasquit faisoit guerre, ce ne peut estre sans aucunement
+autruy grever, car tous ceulz de mauvais vouloir,
+qui en temps de paix ne l'osent mectre en oeuvre,
+prennent hardement de soy mectre sus soubz umbre
+de guerre.
+</p>
+      <p>Par dessus tout ce, puis que tant me charges, te diray
+je plus. Pensez tu evader la main de Dieu dont tu
+requiers venjance sur nous autres, quant ta vaine indignacion,
+ta folle cuidance et ton erreur, sont les ochoisons
+et les racines des maulx que nous faisons. Ayez en
+memoire les punicions qui, pour les murmures et impaciences
+du peuple d'Israël encontre leurs chiefz, vindrent
+sur eulx es temps de Moyse et d'Aaron, dont les
+aucuns furent vifs transgloutiz en terre, les autres
+devourez de serpens et embrasez du feu qui du ciel
+descendy.
+</p>
+      <p>Confesse maintenant ce que tu ne peus denyer et bat
+<pb n="28"/>
+ta coulpe de tes mauvais pechiez et ramentoy a toy
+mesmes que tu crias <q>« Noël »</q> de grant feste et joieuse
+leesce du douloureux fait pour lequel tu dis maintenant
+<q>« Helas »</q> cent fois le jour, et requier Dieu qu'il
+te pardonne ton aveuglement et ta folie, non pas qu'il
+pugnisse les autres, qui pour icelle erreur seuffrent
+avecques toy et dont tant de preudommes ont esté tant
+horriblement es champs enfouyz et es villes mors par
+aucuns des tiens a pluseurs et diverses fois et sans misericorde,
+tant que l'esclande en est es autres royaumes
+a la perpetuelle honte et diffame du peuple françois,
+qui es temps passez estoit renommé de toute
+benignité. Toutes ces choses sont cogneues et notoires
+et m'en rapporte a Dieu qui les voit, et neantmoins je
+les passe, car ameres sont a ramentevoir, fors tant que
+je ne me pourroye tenir de dire que la legiere foy
+muable et petite loiaulté des subgez a ceste seigneurie
+est mouvement et occhoison de la venue de noz ennemis
+sur nous, qui autrement n'en eussent prins le hardement.
+Et puis que parler en fault si avant et que tu
+me donnes reprouche de lascheté, je te ose dire que
+ton enfermeté et petite constance est grant cause que
+mieulx ne se fait, car en plusieurs lieux, non pas en
+tous, qui ne se donroit aussi grant garde de toy que des
+ennemis, ta folie et petite foy feroit de haulx dommaiges
+que tu mesmes et autres acheteroies puis asprès. De
+rechief, pour ce que tu te plains si trestristement qu'il
+semble que nul ait douleur ou mesaise fors que toy
+mesmes et ne comptes a rien les autres fortunes qui
+souvent aviennent a ung chascun, et combien que
+chascun son dueil plaigne, ne penses tu pas que les
+nobles hommes en leur estat aient a souffrir autant
+que tu as? Quans en est il de haulx hommes et de
+<pb n="29"/>
+nobles dames exillez de leurs païs et mal receuz entre
+toy et les autres, despourveus de tous biens, souffreteux
+de confort et aggravez de douleur pour leur loiauté
+acquiter et garder. Quantes malles nuiz et disete de
+boire et de menger endurent souvent ceulx qui le mestier
+de la guerre frequentent, chargez de fer au vent et
+a la pluye, sans autre couverture que du ciel et y perdent
+souvent leurs chevaulx et leur chatel, mettent leur
+vie en aventure de mort et de fait y meurent. Et dont
+les pluseurs pour se mectre en point de bien servir
+ont leurs terres vendues et engaigees et par aprés
+cheent en povreté. Et ung grant bourgois, qui compte
+ses deniers par default d'autre besoigne, ou ung riche
+chanoyne, qui exploicte le plus du temps a menger et
+a dormir, criera sur nous pourquoy nous ne combatons
+et que nous ne chaçons les ennemis comme l'en chaceroit
+les coulons d'une cheneviere ou d'une pesiere, et
+ainsi que s'il estoit aussi legier a faire comme a le
+deviser sur le coute, coste le vin. Mais toutesvoies ceulx
+qui ainsi jugent de la guerre en leur fouyer n'en laisseroient
+ung jour de leur aise, ne n'en debourseroient
+ung denier, sinon a regret et en le plaignant comme
+chose perdue, quant il fault que puissance de prince
+y mette la main, et, se nous avions besoing, nous
+recueuldroyent a paine aussi peu que les ennemis.
+</p>
+      <p>De ceulx viennent les clameurs et les plaintes qui
+sont plus fourniz et plus aises que nous ne sommes,
+mais l'affliction est sur le peuple de labour et avons les
+paines et le travail. Je ne parle pas de tous, car assez
+en est de preudommes constans, mais les meurs que je
+dy sont plus souvent trouvez en ceulx qui plus mectent
+avant de plaintes et de murmures, et tant y a, dont je
+me tays, qu'il ne chault a plusieurs qui tiengne la
+<pb n="30"/>
+seigneurie, mais qu'ilz soient prouchains des proufiz
+et loing des pertes, et plus choisiroient desavouer leur
+naturel seigneur pour garder et accroître leurs richesses
+que souffrir perte pour demourer en loiauté. Voulsist
+Dieu que chascun eust toujours eu le bien publique
+et l'onneur de la seigneurie devant les yeulx et que les
+couraiges y eussent esté fermes et arrestez comme ilz
+doivent. Helas, nous ne feussons pas cheuz en cest
+inconvenient ou, se Fortune eust esté si puissant sur les
+loiaulx et entiers couraiges qu'elle nous eust ung pou
+rebouté de prosperité, au moins nous feussons nous
+plustost ressours par l'union et fermeté de noz voulentez.
+Autrement est, car, aussi comme l'une maladie
+atrait l'autre, ainsi viennent les afflictions des hommes
+d'une mutacion. En plus grant l'exemple en est cler,
+car nous avons quis division en nous mesmes pour
+trouver mutacion de gouvernement entre nous, et d'entre
+nous l'avons de rechief mis dehors de nous, et de
+hors nous contre nous. Il appert quant pour soustenir
+une oultrageuse et desloiale folie nous avons tant allé
+d'un a autre que nostre souverain seigneur est baillié
+a gouverner es mains de son mortel ennemi. O constance,
+treslouable vertu et digne de memoire perpetuelle,
+par qui les seigneuries sont faictes longuement
+durables et les hommes, quoy qu'ilz seuffrent, eschappent
+a honneur des dangiers de perverse fortune, bien
+as trouvé peu de couraiges françois qui ta doctrine
+aient en ces merveilleux dangiers de guerre ensuye, et
+bien heureux sont ceulx qui, en si griefve tempeste et
+troublee confusion, se sont maintenuz sans reprouche.
+Toutesvoies, quoy qu'il soit advenu ou temps passé,
+nous devons assez avoir aprins pour noz couraiges
+rafermer a ce qu'est avenir et aidier a redrecier par
+<pb n="31"/>
+meilleur advis ce que nous mesmes avons bestourné
+par folle creance, et n'y doit nul epargnier peril de
+corps, travail de pensee, ne despense de chevance.
+</p>
+      <p>Assez trouvons es histoires rommaines de malles
+aventures survenues aux Rommains et que Fortune
+avoit mis jusques au bas, mais de tant se ressourdoient
+ilz plus vertueusement comme le besoing les rendoit
+plus contrains a ce, et, s'ilz avoient perdu des chevaliers,
+ilz en establissoient de nouveaux et mettoient sus
+des gens de tous estas, mesmes des serfs, et les apprenoient
+et faisoient exerciter aux armes, et par la cure
+et ordonnance qu'ilz y mettoient s'en aidoient en leurs
+batailles et devenoient vaillans et hardiz, car en toutes
+choses usaige rent les homes seurs et hardiz et arrestez
+en leurs oeuvres. D'autre part, se le tresor de Romme
+estoit desgarny de pecune, chacun bailloit liberalment
+le sien et mesmement les dames leurs precieux joyaulx
+pour secourir a la necessité publique et reacheter le
+temps de prosperité commune de leur propre chatel,
+ne riens ne leur estoit plus chier que ce qu'ilz exposoient
+pour la seigneurie et bien publique de leur cité.
+Encor, afin de monstrer par exemple, que au besoing
+commun des Rommains nulle chose particuliere, tant
+feust precieuse, n'estoit espargnee ne recelee, racompte
+Vegece que, comme aux engins de guerre, dont les
+Rommains defendoient le Capitole de Romme, feust
+defailli le cordage, les dames de Romme firent couper
+leurs blons cheveux et bailler pour faire cordes et
+secourir a la publique necessité, et consentirent leur
+plus chier et naturel adournement estre converti en
+rude mistere et traitié par les dures mains d'ouvriers
+mecaniques ce que depuis l'eure de leur naissance
+<pb n="32"/>
+avoient espargné sur leurs chiefs et de leurs mains
+soigneusement cultivé.
+</p>
+      <p>Maintenant, las, dolent, m'est advis que je voy le contraire;
+orendroit dit le pere a son filz et le voisin a son
+prouchain: <q>« Beaux amis, le temps est merveilleux et
+ne savons comment l'estat des choses presentes tournera,
+si fault mucier, garder et enfouir en terre ou
+faire transporter en autres païz noz avoirs et noz chevances. »</q>
+Qu'est ce autre chose a dire si non que, en
+soy cuidant sauver a part, forclorre l'aide de ses biens
+au besoing commun et priver eulx mesmes et la chose
+publique de l'usaige des biens qui d'elle sont issuz, mais
+tant sont ilz deceuz que maintes fois perdent leur chatel
+pour eschiver de proufiter au bien commun; et croy
+que le trop parler en charge ou accusation d'autruy ne
+soit ja chose trop louable. Je puis sceurement dire que
+oncques honneur, vertu et salut universel de la communité
+de la seigneurie ne fut mains empraint es
+couraiges qu'il est de present. Tournez vos yeulx a
+l'environ a cognoistre les condicions et les meurs des
+hommes de tous estas et vous verrez que les pluseurs
+songent a part soy une singuliere forme de querir leur
+salut. Haa, Dieu tout puissant, se tous ceulx qui a ce se
+soubtillent joignissent ensemble leurs entendemens a
+cherchier la ressourse de leur seigneurie, ilz gaignassent
+a la prosperité comme le salut de leurs estas et de
+leurs vies, quant par leurs parciaulx desirs ilz le perdent
+avecques la seigneurie qu'ilz delaissent en
+perdicion.
+</p>
+      <p>Or se plaint le peuple de nous, or crient et murmurent
+les communes gens contre la seigneurie pour
+l'argent qui sur eulx est aucunesfois levé pour la
+defense du pays. Ilz veulent estre gardez et defenduz
+<pb n="33"/>
+et si se font les pluseurs forcier de contribuer a la
+garde, ainsi que s'ilz voulsissent avoir les biens a leur
+part sans riens souffrir et nous laisser les perilz et les
+paines sans riens avoir. Nous ne povons pas vivre du
+vent, ne noz revenues ne nous suffiront a soustenir les
+fraiz de la guerre, et se le prince ne recueult de son
+peuple dont il nous puisse paier, et en servant a la
+communité nous vivons des biens que nous trouvons, a
+Dieu m'en rapporte d'avoir noz consciences excusees.
+</p>
+      <p>Et puis que l'adversité est commune a tout le
+royaume, il est force que chascun en sueffre ce que
+Dieu lui en envoie. Et Dieu sceit se nous en sommes
+quittes et exemps, car se l'on se plaint de nous ou nous
+allons, ceulx qui viennent et passent sur noz terres ne
+nous portent pas mains de grief que nous faisons aux
+autres; ainsi, se tout estoit pesé a juste balance, les
+travaulx et les perilz que nous souffrons, les fraiz, despenses
+et dommaiges que nous soustenons, et de l'autre
+costé les maulx que nous faisons, nous n'aurions mendre
+part de la douleur du peuple qui crie sur nous.
+Peut estre que, soubz umbre de nous, mains grans
+oultraiges se font, car en guerre, ou la force est et
+regne et le fer seigneurit, ne peut droit dominer; mais,
+a bien enquerir, il sera trouvé que gens de peuple et de
+bas estat, qui se mettent sus soubz le nom d'armes, sont
+coulpables de ces horribles excez, et naist d'entre ceulx
+du peuple le mal qui sur le peuple redonde, par quoy
+toute la charge n'en doit pas estre sur les nobles
+hommes, qui mieulx amassent vivre sur le leur, en
+leurs maisons, comme seigneurs, que estre hebergez a
+regret et comme hostes en autruy dangier.
+</p>
+      <p>Se le peuple doncques se plaint et il est foulé et blecié,
+je appelle Dieu en tesmoing que nous n'en sommes
+<pb n="34"/>
+pas sains et que assez en avons nostre part. Et
+puis qu'il fault comparoir mal a mal, cest avantaige
+ont les populaires que leur bourse est come la cisterne
+qui a recueilli et recueult les eaues et les agoutz de
+toutes les richesses de ce royaume, qui es coffres des
+nobles et du clergié sont amendriz par la longueur de
+la guerre, car la fieblesce des monnoies leur a diminué
+le paiement des devoirs et des rentes qu'ilz nous doivent,
+et l'outrageuse chierté qu'ilz ont mise es vivres et
+ouvraiges leur a creu l'avoir que par chascun jour ilz
+recueillent et amassent. Or ont vers eulx nostre chatel,
+et maintenant ilz crient contre nous et nous blasment
+que nous ne combatons a toutes heures, comme ceulx
+qui peu doubtent mectre en aventure, sans raison et
+ordre, la noblesce et le royaume, et qui feroient assez
+grant marchié du sang des nobles hommes dont, s'ilz
+estoient perduz, le royaume ploureroit la mort puis
+aprés. Dieu me gard que je defende ou debate qu'il ne
+soit bon de grever et guerroyer ses ennemis et les combatre
+en lieu et en temps que on puisse trouver son
+avantage, et moult y a de vaillans chevaliers et d'escuiers
+en cestui royaume qui ne demanderoient pas
+plus grant eur que de soy y trouver pour faire leur
+devoir, mais en armes a il aussi bien sens pour
+attendre son bon et delay pour faire son preu en son
+avantaige comme il y a en marchandises ou en autres
+mendres affaires. Et doit estre reputé a plus grant
+honneur et louenge au chief de bataille savoir saigement
+retraire et sauver son ost et le tenir entier quant
+il est besoing que par trop aventureuse hardiesce exposer
+a perte et laisser atrempance et mesure pour cuider
+acquerir le nom de vaillance. Il ne m'est besoing, pour
+ma raison confermer, de querir anciennes histoires du
+<pb n="35"/>
+temps passé, mais nous vaille pour leçon ce que nous
+avons veu n'a gueres et de noz jours, et recordons a noz
+cueurs le fait de la maleureuse bataille d'Agincourt,
+dont nous avons chier comparé et encore plaignons la
+douloureux infortune et emportons sur nous toute celle
+malle mescheance, de laquelle ne pourrons saillir sinon
+par diligemment travaillier et saigement souffrir et
+chastier nostre hastiveté perilleuse par la sceurté de
+bonne attrempance.
+</p>
+      <p>Moult a grant difference, ou doit avoir, en conseil et
+en oeuvre entre le prince eureux de prosperité, qui
+veult icelle garder et defendre, et cellui qui de perverse
+fortune se veult ressourdre et oster la victoire de la
+main du vainqueur. Telle oeuvre avons nous a mener,
+en quoy plus chiet d'aguet et de sens que d'ouvraige de
+chaude colle. En pareil cas le monstra bien le saige
+Rommain Fabius Maximus au temps de sa dictature,
+aprés les innumerables pertes que firent les Rommains
+par la folle entreprinse de Varro le consul, a la bataille
+de Cannes, a l'encontre de Hannibal lors eslevé en
+orgueil par la haultesce de ses victoires, en laquelle
+bataille furent tant de nobles hommes perduz que pour
+magnifier sa victoire Hannibal envoya a Cartage troys
+muys des anneaulx d'or qui orent esté prins en leurs
+dois. Mais Fabius, depuis ce, tint son ost ensemble et
+costoioit ses ennemis et les dommagoit peu a peu de
+gens et de vivres. Et combien qu'il fust provoqué a
+bataille par Hannibal et que le peuple murmuroit
+contre luy qu'il ne combatoit, neantmoins oncques ne
+voult souffrir que la chevallerie rommaine, deprimee
+par les victoires des adversaires, feust a ung coup et
+comme la derreniere foiz exposee es perilz de Fortune,
+qui moult estoit favorable au vainqueur, et tant y contrestat
+<pb n="36"/>
+que le peuple, en derogant au tiltre de son
+honneur, esleva en dictature et comme son compagnon
+Municius, le maistre des gens de cheval, et cellui qui
+soubz lui et son subgiet estoit fut son egal et son compaignon.
+Or cuida Municius, pour assouvir le vouloir
+du peuple, soy combatre contre Hannibal, mais il fut
+honteusement vaincu et eust perdu ses legions, se
+Fabius ne l'eust secouru et rebouté ses ennemis. Ainsi
+fut contraint de rendre graces de son secours a cellui
+dont il avoit esclandé l'onneur et tenir pour vertu la
+constance de Fabius qui paravant avoit appelee lacheté,
+par laquelle le dictateur Fabius mena Hannibal si durement
+que, a peu et sans dommaige de la chevallerie de
+Romme, que a tresgrans et dures pertes aprés toutes
+ses victoires il fu dechacié d'Itallie en Auffrique et fut
+vaincu et mort miserablement.
+</p>
+      <p>Plaise a Dieu que ainsi nous en puisse avenir, et si
+fera il s'en nous ne tient, car quelque mal que nous
+souffrons pour nostre pechié et la division d'entre
+nous, François, qui accroist la force de l'adversaire,
+on voit clerement que ses pertes ont esté et sont
+grandes et ses dangiers merveilleux, et, se nous savons
+mectre paine a le saigement grever et avoir pacience
+de souffrir, trop plus legiere chose est a nous, si fortunez
+que nous sommes, de le dechacier que a lui, si
+exaucié comme il cuide, de nous conquerir.
+</p>
+      <p>Pren doncques en gré, mere, ce que le peuple me
+contraint de respondre et juge de nostre debat a ton
+bon plaisir, car de ma part je m'en cuide assez estre
+deschargié.</p>
+      </sp><sp>
+<speaker>L'acteur.</speaker>
+<p>A paine eust mis cestui fin a ses parolles que cellui
+<pb n="37"/>
+qui premier avoit parlé print a repliquer, par impacience
+de ouir reprouchier ses faultes, et dist:</p>
+        </sp><sp>
+<speaker>LE PEUPLE.</speaker>
+<p>Or voy je bien que, ainsi que violence se donne droit
+par la force ou elle n'a riens, en semblable maniere
+veult oultrecuidance confundre verité par haultaines
+parolles et soy descharger de ses oeuvres vituperables
+sur ceulx qui mais n'en pevent. Dieu! tant est affection
+humaine vaine chose et muable, quant celle
+desloiale voye a mise Fortune en ses variables oeuvres,
+que, des ce qu'il meschiet aux chetiz, on leur
+met sus que c'est par leurs dessertes, comme cellui
+qui son chien veult tuer et pour couleur de son fait
+lui met sus la rage. Tu diz que je suis cause de ceste
+tresmaudite guerre et que je l'ay pourchacee et bastie
+par impatience de la haulte prosperité de paix. Tu diz
+que par ma folle erreur et les partiz que j'ay desloiaument
+soustenuz est ceste confusion et maleurté sourvenue.
+Si te respons que la folie des mendres hommes
+est fondee sur l'outraige des plus grans et que les
+pechiez et desordonnances descendent des greigneurs
+aux plus petiz. Car, selon ce que les princes et les
+haulx hommes se maintiennent en estat et en vie, le
+peuple y prent sa rigle et son exemple soit de bien ou
+de mal, de paix ou d'esclandre. Pour ce te dy que de
+la grant planté de biens et des richesses du temps
+paisible les puissans et les nobles hommes ont usé en
+gast et dissolution de vie et en ingratitude et descongnoissance
+de Dieu, qui a suscité contre eulx le
+murmure du peuple. Si est vostre desmesuree vie et
+vostre desordonné gouvernement cause de nostre
+<pb n="38"/>
+impacience et commencement de noz maulx, car, lors
+que les biens et les richesses multiplioient par le
+royaume et que les finances y habondoient comme
+sourse d'eaue vive, voz pompes desmesurees, voz
+oisivetez aouillees de toutes delices et la descognoissance
+de vous mesmes vous avoit ja et a bestourné le
+sens, si que ambicion d'estaz, convoitise d'avoir et
+envie de gouverner, vous commençoient a mener a
+la confusion ou vous estes. Et par ces trois estoit et
+est consumee la pecune roial et les tresors de la seigneurie,
+evacuez en temps d'abondance, ne la multiplication
+de l'avoir lors sourvenant de toutes pars ou la
+consideracion de la necessité avenir ne pevent
+mouvoir voz courages a cognoistre qu'il soit expedient
+en reserver au prince pour son besoing ne a pourveoir
+que tout ne soit avant despendu que receu. Et comme
+la soif aux ydropiques en bevant leur croist et augmente,
+ainsi qui plus en avoit plus en convoitoit avoir.
+Si estoit la voix du peuple comme les mouetes qui par
+leur cry denoncent les floz de la mer, car noz parolles,
+que tu appelles murmure, signifioient des lors le
+meschief qui pour ces causes estoit a advenir. Or est
+ainsi que d'oultraige et de desordonnance vient murmure,
+de murmure rumeur et de rumeur division et de
+division desolation et esclandre. Et qui est cause de
+telz commencemens ne doit pas estre descoulpez,
+desquelles doncques, se tu me blasmes que en si dure
+adversité je ne puis pacience garder et en tes haultes
+prosperitez tu n'as peu retenir atrempance ne moderacion,
+ton inconstance doit estre dicte mendre que
+la mienne et ton excusation mains recevable de tant
+comme ton sens et ton autorité est greigneure.
+</p>
+          <p>Venons a parler de la folle erreur et des partiz que
+<pb n="39"/>
+tu m'acuses d'avoir soustenuz, et s'il estoit aussi grant
+besoing du dire comme il est honneste du taire de tel
+vice ou obprobre comme il y peut avoir, aucuns des
+tiens ne s'en sauroient laver ne que moy. Et puis que
+l'oeuvre de fait va devant les affections et les parolles
+legieres du menu peuple, je me rapporte a toy de
+conclurre qui est de ce le plus chargié. Tant puis je
+dire que j'ay creu ce que par lectres, par renommee
+et par predications et enhortemens de presumptueux
+clercs, on m'a mis es oreilles. S'ilz ont erré, a eulx en
+doit on demander le retour et sur eulx en soit la
+vengence, quant soubz umbre de nous esclarcir verité
+ilz nous ont mis en ces obscures tenebres.
+</p>
+          <p>D'une autre chose suis je par toy contraint de
+respondre, quant tu me notes de souppeçon, de faulte
+d'aide et de reffuz ou doubte de recueil de toy et des
+tiens, et que tu affermes que ceulz du peuple, qui
+soubz ton umbre se sont mis sus, font les deliz dont
+tu acquiers les mauvais loz. A peu de parolles, je ose
+affermer que tes faiz, que chascun congnoist, me
+donnent plus cause de defiance vers toy que au prince
+ne donnent de confiance, et, se monstrer le fault, je
+produiroye exemples en lieu de raisons et nommeroye
+les lieux et les villes ou pluseurs des tiens ont habité
+tant come les vivres et les rappines des biens qu'ilz
+n'avoient pas acquiz les ont peu soustenir, mais ilz
+ont failly aux places quant la proye leur a failly, et
+prins des amis ce qu'ilz n'eussent ozé sur les ennemis
+chalengier pour laissier les lieux aux ennemis qu'ilz
+s'estoient chargez de garder aux amis. Assez me vueil
+de ceste chose taire a poy de parler, mais a ce que tu
+diz que aucuns des miens font les maulx soubz umbre
+de toy, telz qu'ils sont tu les as faiz et de ce qu'ilz font
+<pb n="40"/>
+tu dois porter le faiz. Tu leur es umbre a faire leurs
+iniquitez et ilz te font umbre a multiplier tes vices et
+croistre ta compaignie de larrons pour avoir plus de
+souldees et acquerir greigneur renommee, dont tu
+destruis le peuple et ton honneur, et si te rendent tes
+pechiez et l'orreur des cruaultez de ta compaignie
+indigne d'avoir la grace de bien faire, deffiez et descouragez
+d'avoir victoire sur tes ennemis, et en la fin
+te mectront a confusion, se par meilleur adviz n'y
+donnes aucun prochain remede.</p>
+          </sp><sp>
+<speaker>L'acteur.</speaker>
+<p>Ung peu musa cellui qui en armes estoit et puis
+reprist en ceste maniere a parler:</p>
+            </sp><sp>
+<speaker>LE CHEVALIER.</speaker>
+<p>A tes diz cognois je bien le vouloir de ton courage
+et que, quant tu pues et oses, tes faiz et tes parolles
+sont en rigueur, mais quant crainte te oste le hardement,
+encore demeure ton langaige aigre et poignant
+pour tousjours courre sus par detraction a meilleur
+de toy. Tu fais tes plaintes de la vanité des pompes
+et dissolucion des estas de nous et semble que trop
+fort te dueilles de la consumption des finances dont
+la despence est sur la bourse des nobles et les tresors
+en sont en tes coffres. Toutes voies ne te desplaise
+si je te dy que tu en faiz sur tous le plus a blasmer.
+Or te demande je doncques qui est le plus dommageable
+vice, ou a nous de abuser des estas oultre ce
+que mesure donne quand ilz nous appartiennent, ou a
+toy de les prendre telz qu'ilz ne t'appartiennent pas?
+Et pour conclurre sur ce point du temps dont tu
+parles et de cestui, j'appelle les vivans a tesmoing
+<pb n="41"/>
+que tu t'es selon toy desroyé en tes estaz trop plus
+que nous, et tu en vois encores les ensaignes, quant
+ung varlet cousturier et la femme d'un homme de bas
+estat osent porter l'abit d'ung vaillant chevalier et
+d'une noble dame et dont ilz souloient estre en court
+de prince tresbien parez. Ceste tresscandaleuse faulte
+est venue de plus haut que de toy ne de moy, quant
+ceulx qui ont eu a departir les guerredons des biensfaiz
+et des honneurs les ont donnez aux robes et aux
+apparences de dehors, dont chascun a prins tele
+instruction que fort est de congnoistre l'estat des
+hommes a leurs habiz ne de choisir ung noble home
+d'avec ung ouvrier mecanique.
+</p>
+              <p>Encores parles tu de gast et de consumption des
+finances dont a moy guaires n'affiert d'en respondre,
+car mien n'en a esté le proufit ne sur moy n'en doit
+tourner le reproche. Tant sceit chascun que la cité qui
+a esté sur toutes les autres, a esté tachee de murmure
+et de desobeissance, a englouty toute celle pecune dont
+tu parles cy devant, et que le peuple d'icelle a entonné
+et recueilly la gresse du labeur et conquestz des autres
+pars du royaume et les derrenieres espargnes des
+nobles hommes, comme le gouffre et l'abisme ou tout
+est descendu, puis en a rendu ce guerredon que l'ampostume
+de son orgueil, enflee de trop avoir, est crevee
+de toutes pars et a respandu partout le venin et la
+poison de cruelle et horrible sedicion et les oeuvres de
+inhumaine tirannie. Veez cy l'achoison de la murmure
+et les mouvemens de ton impacience. Veez cy les
+dissolucions que tu nous reproches et mes au devant
+pour palier tes couvertes machinations de bouche,
+que tu as assez descouvertes de fait. Tu as fait cri
+contre l'eslargissement des despenses et les legieretez
+<pb n="42"/>
+et esbaudissemens des jounes nobles homes, mais tu
+n'as pas gecté ton obprobrieuse voix contre les desloiales
+effusions de sang humain qui ont froissié le
+lien de justice et ouvert le chemin de abhominacion.
+Tu as accusees les jounesses et les envoisees joieusetez,
+mais tu as excusé et soustenu les traïsons et les conspirations
+detestables dont tu es en ce ruineux party.
+De ton erreur ne des parties que tu as soustenuz ne te
+peus tu gueres excuser, quant ton obstinacion y a mis
+en aucun temps celle loy avant la main que qui te
+disoit le contraire de ta faveur estoit ains sa parolle
+jugié digne de mort et sa sentence donnee avant le
+cas; et, se publiques exhortacions te ont de ce meu,
+je m'en rapporte aux publieurs du dire et a toy du
+croire, si en demeure le tort a qui il devra, mais de
+la mauvaise affection vient l'aveuglee et legiere creance
+et se peut aidier a decevoir par parolles d'autruy qui
+dedans soy mesmes est desja corrumpu par mauvaise
+pensee.
+</p>
+              <p>Ainsi tu ne te pues par raison plaindre et ne te
+veulx de bienfait louer, ne tu ne sceis mettre frain
+en tes desirs, sinon vouloir tousjours le contraire de
+ce que tu dois. Les maulx, ce qu'il en y a, sont mis
+en compte, mais les biensfaiz sont en pou d'eure
+oubliez, sans avoir remembrance de maintes belles
+aventures et honnourables esploiz que pluseurs nobles
+hommes ont faiz es jours passez en ceste guerre. Ilz
+ne pevent pas tout a ung coup desconfire, car ainsi
+que le mal que nous avons et la guerre que nous soustenons
+ne fut pas mise avant a une seule heure, aussi
+ne sera la ressource trouvee a une foiz, mais il faut
+saillir de ce meschief en souffrant les douloureux desconforts
+de doubtes meslez d'espérance. Et, se tu veulx
+<pb n="43"/>
+responce à tes chargans parolles qui touchent des
+places habandonnees sans gueire de defense, je te dy,
+pour plus avant entrer, que aussi en trouveras tu qui
+moult puissamment ont esté defendues sans point de
+secours, et est force que en guerre si entremeslee et
+dangereuse ait des biensfaiz et des faultes; mais je
+n'ay veu les biensfaiz guerredonner, ne les faultes
+punir, si ne scay, se honte y a, qui plus en doit rougir
+ou ceulx qui faillent a leurs gardes defendre ou ceulx
+qui leur faillent de bon secours. Et sur tous en est
+plus la vergoigne à ceulx qui les défaillans et les
+bienfaicteurs mectent tout en ung raeng, que se n'est
+ce que vertu en donne aux bons le contentement de
+leur cuer, au jugement des hommes y a peu de difference.
+A qui tu t'en prendras? je ne scay, fors que a
+faulte de cognoissance, et a ce que les haulx et puissans
+hommes, entre les grans abondances qu'ilz ont
+de toutes choses, ont le plus de souffrete et de despit
+de ouir dire verité et que par leur puissance ilz finent
+de toutes autres besoignes, de langues veritables sont
+ilz tousjours diseteux. Toutes voies a verité celle
+proprieté singuliere que, quant plus est foulee, tant
+plus se ressourt, et sont les commencements poignans
+a soustenir et durs, mais son yssue est aggreable et
+fructueuse; mais la descongnoissance des haultes seigneuries
+n'en pevent souffrir l'entree et ne daigne
+congnoistre le fruit de l'issue. Son contraire tient
+autre chemin, car son entree leur est attraiant et plaisant,
+mais sa conclusion est triste et plaine d'amere
+repentance qui a tart leur vient.</p>
+              </sp><sp>
+<speaker>L'acteur.</speaker>
+<p>Longue fut et trop attaigneuse que il n'affiert la
+<pb n="44"/>
+contention de ces deux, qui estrivoient ensemble par
+parolles mordans treshaineusement, et sans nul mot
+dire les escoutoit le tiers qui de coste se seoit, ne
+encores n'avoit ouvert sa bouche jusques a ce qu'il vit
+les parolles trop multiplier et approucher aux faiz et
+qu'il se senti point et aguillonné de la charge que
+chascun boutoit de soy pour verser sur lui couvertement,
+et fut l'entrée de son parler tele:</p>
+                </sp><sp>
+<speaker>LE CLERGÉ.</speaker>
+<p>Assez et plus que noz sens ne pevent redrecier ou
+noz paciences souffrir avons sur nous de discors et
+debas et sommes persecutez des divisions dedens et
+dehors, sans ceste nouvelle tençon esmouvoir, et si
+voulons ceulx ressembler qui voient le feu embrasé
+et esprins par leurs lieux et habitacions et sont en
+question pour debatre entre eulx qui le feu y a mis et
+et a qui le devoir de l'estaindre appartient. Et tantdiz
+se brulle la maison par leurs difficultez et negligences,
+que que chascun y deust comme au feu courir
+et eviter la destruction de son hostel en pourchassant
+le salut de cellui a son voisin. Si ne voy pas que noz
+contentions ou noz parolles semees en appert ou en
+secret des ungs contre les autres nous puissent gecter
+de ce dangereux pas, ains fault tirer au collier et
+prendre aux dens le frain vertueusement, et, se le
+cheval par batre et flageler et le beuf par force d'aguillonner
+durement tirent hors leurs voitures des effondrez
+et des mauvais passaiges, ainsi croy je que le
+flaël de divine justice, qui nous fiert par l'adversité
+presente, nous doye esmouver a prendre couraige pour
+nous horsgecter de ceste infortune. Entreprengne
+Cellui qui en a le povoir l'adversité que nous souffrons
+<pb n="45"/>
+et plus en gré que nous ne la recevons ou congnoissons,
+car, quoy qu'elle suffise pour punir noz maulx
+selon sa pitié, je doubte que assez grande ne soit elle
+pas selon noz faultes et la descongnoissance que nous
+avons d'elles. Et se nous passons ceste sans avoir congnoissance
+de Dieu, en plus grande pourrons nous
+entrer qui mieulx nous apprendra a congnoistre ce
+que Dieu peut et ce que nous valons. De ce me tais a
+tant et dy pour retourner aux difficultez que nous
+querons que, ainsi que de longue maladie dont les
+membres sont alterez et corrumpuz ne peut on recouvrer
+a garison sans divers assez et mutacions merveilleuses
+et recidives, aussi ne povons nous gecter de
+ceste tribulacion tumultueuse et entremeslee sans souffrir
+mains doubteux assaulx et mortelx perilz et la
+contagieuse infection qui entre nous court ait prins
+son cours, si que par aprés les choses retournent a
+leur nature. Si ne croye nulz que, entre telz embrasemens
+de guerre, puissent estre faittes oeuvres sans
+plaintes et au contentement d'un chascun. Et se tu y
+quiers ou veulx trouver du tout repos de cuer ou
+appaisement de conscience, tu sembles cellui qui
+quiert raison entre les forsenez. Et pour non longuement
+aller autour de ceste matiere et venir au fondement
+de la possibilité de mectre fin en ces griefves
+discentions, qui ne correspont pas en fait ne en oeuvre
+a ce qu'en est es voulentez et desirs hastiz des homes,
+considerons que a prince qui maine guerre et a puissance
+de gens convient avoir trois choses principales:
+savance, chevance et obeissance. Savance pour
+cognoistre son fait et cellui de son ennemi, chevance
+pour ses contraires attraire et aidans soustenir, et
+obeissance pour esploicter promptement en lieu et en
+<pb n="46"/>
+temps a l'avancement de son proufit et eschevement
+de son dommaige. Enquerre nous fault doncques se
+nous les avons; mais il ne souffist pas entierement
+les avoir se nous ne savons et voulons saigement nous
+en aidier.
+</p>
+                  <p>Quant de la savance chascun sceit que en ce royaume
+sont gens de hault sens et de clere cognoissance. Si y
+peut avoir un obstacle jouxte les paroles d'Ysaïe, qui
+dit que souvent le conseil des saiges est irrité ou
+precipité de Dieu par faulte de bien recognoistre de
+lui. L'autre obstacle si est que, quelque grace de bon
+entendement ou discretion de bien jugier que Dieu
+ait mis en testes et comprehencions des jounes hommes,
+leur capacité ne pourroit les regards particuliers
+et cauteles ingenieuses qui affierent a si hault oeuvre
+bien conduire ne comprendre.
+</p>
+                  <p>O guerre d'ennemis et division d'amis, discords de
+royaumes et batailles civilles et plus que civilles au
+dedans des cités et des seigneuries, par vous est mis
+le joug de servitude sur les treshaultes puissances, par
+vous est donné a cognoistre aux hommes mortelz que
+sur eulx regne Dieu immortel, qui l'orgueil de leur fier
+povoir peut reprimer et asservir a mendre de soy et
+la vanité de leurs grans habondances chastier et ramener
+a indigence et necessité. Soit doncques regardé
+quans aguetz d'ennemis, dangiers des servans et souldoiers
+mal contens, indignacions de gens escondiz ou
+reboutez, murmure de subgiez, plaintes de peuple et
+de commun, rappors divers et souspeçonneux, ligues
+et riotes entre les siens, prince menant guerre est tenu
+d'escouter, doubter et refraindre, et chacun cognoistra
+que plus a d'eur, sceurté, franchise, suffisance et
+faculté de vivre a son gré, en la loge d'un petit bergier
+<pb n="47"/>
+que es haulx palais des princes que grant autorité de
+seigneurie a fait estre serfz a plusieurs pour icelle
+avoir, mais plus que serfz quant le besoing contraint
+a la defendre. Or est a juger selon ces premisses l'estat
+et infelicité des princes qui, pour acquerir seigneurie
+ou pour demourer seigneurs de celles qui leur appartiennent,
+sont faiz serfs et subgiets a gens de diverses
+affections, de contraires voulentez, et a pourveoir et
+avoir l'ueil a choses repugnans et aux cas qui soudainement
+leur sourviennent soit en leur avantaige, quant
+bien en veulent user, ou en leur préjudice, se obvier
+n'y scevent. Dont se peut ensuivre clerement que, se
+le plus saige prince que oncques Dieu meist sur terre
+estoit environné de pesans affaires et de cuisans poinctures,
+qui pour relever ceste seigneurie opprimee sourviennent
+en chascun jour, dur lui seroit a y pourveoir
+au bien de la chose et aux divers appetiz des hommes.
+Le savoir raisonnable croist avecques les ans et la
+longue vie et grans experiences font les certains jugemens,
+si est la savance quise en ceulx qui plus ont veu
+et plus vescu. Neantmoins a eu la seigneurie mestier
+jusques cy de prince saichant et de assistence de gens
+qui aient savoir. Et se des oeuvres passees en ce temps
+de guerre se peut faire rapport sans vanterie et sans
+arrogance, on a peu veoir, en pou de jours, ung prince
+en joune aage esloignié par fureur et sedicion de la
+maison royal dont il est filz et heritier, guerroyé de
+ses ennemis, assailli de glaive et de parolles de ses
+propres subgiez, doubteusement obey du sourplus de
+son peuple, delaissié de ses aides principaulx ou il se
+devoit fier, despourveu de tresor, encloz de forteresses
+rebellans, et qui bien a tout comparé et remembré les
+tristours des choses de ce temps jusques a ores, quoy
+<pb n="48"/>
+que les faiz de ceste seigneurie ne soient comme chascun
+bon cuer doit desirer, n'a pas esté sans paine,
+appensement et diligence de les remectre de si bas
+point en l'estat ou nous les voions jusques cy, Dieu
+en est tesmoing. Les plus simples l'ont peu jugier et
+les plus rudes clerement le cognoistre. Et n'a pas encores
+trois ans que j'ay veu en pluseurs hommes de
+tous estas si enferme et petite foy que les pluseurs
+en leurs couraiges fuioyent l'adhesion de leur seigneur
+et l'aide de leur seigneurie comme chose perdue et
+comme malade jugié a mort et abandonné sans remede,
+qui depuis ont reprins cuer et bonne fiance. La est
+trouvee la fermeté et esprouvee la vertu ou sont les
+extremes perilz, quant le sens demeure entre les grans
+doubtes et la constance ou mylieu des terribles aventures;
+lors ne se doit la chose publique delaisser, quant
+l'infortune d'icelle la rent plus besongneuse de bon
+secours, car, comme en nous redonde le bien de la
+prosperité publique, aussi devons nous les infortunes
+de son adversité aider a soustenir et non lui defaillir
+de fait ne de couraige en necessité. Ceste maniere tint
+le vertueux homme et d'entier courage Mathathias et
+ses enfans les Machabees en la persecution que fist
+le roy Anthiocus sur le peuple d'Israël par la desloiauté
+d'aucuns pervers hommes d'icellui peuple qui vers lui
+se tournerent; car, aprés ce que la cité de Jherusalem
+ot esté par traïson destruite, prinse, pillee et arse a
+grant et lamentable occision, et le peuple en servitute
+et dispertion, Mathathias et ses enfans, qui se estoient
+retraiz es montaignes, recueillirent les fuitiz et les
+desolez en petit nombre et fermerent en leurs couraiges
+choisir la mort ains que veoir l'affliction et le declin
+du peuple et de leurs freres, et tant vertueusement se
+<pb n="49"/>
+gouvernerent si peu de gens, qui es montaignes se
+tapissoient, que ilz racheterent de leur sang et par leur
+mort la servitude et desolacion de leur peuple et
+remistrent le royaume de Juda en sa franchise et
+haulte dignité.
+</p>
+                  <p>Quel exemple avons nous en ce cas du vaillant magnanime
+Scipion, qui bien fait a ramentevoir comme,
+ou temps que la seigneurie romaine estoit si durement
+foulee par Hannibal, aprés ses grans victoires, que
+es couraiges des Rommains n'avoit plus comme nulle
+esperance de salut de leur cité et que la plus grant
+partie d'eulx descendoit en oppinion de monter es
+nefs et abandonner Romme et aller habiter en autres
+regions, il, qui le peril commun de lui et des autres
+cognoissoit, le vouloir aussi du Senat qui se vouloit
+departir, vainqui les doubtes de son cuer par l'affection
+publique, si tira son espee emmy le conseil et jura
+haultement que qui parleroit plus de habandonner la
+cité sentiroit au trenchant de son espee que doit estre
+le guerredon de ceulx qui la chose publique delaissent
+pour leur singulier salut. Et en tele voulenté fut suivy
+par ceulx qui avoient bon vouloir, et depuis demourerent
+a Rome et se releverent en leur haulte autorité.
+De ce se peult ensuivre que savance et constance ont
+mestier a qui se veult tirer de perverse fortune, et nous,
+qui en tel estat sommes, en avons eu et avons bien
+besoing de plus que Dieu ne nous en donne et que
+nous n'en desservons; mais, se nous en avons usé
+aucunement es plus grans besoings et maintenant
+aprés ung pou de amandement de la premiere infelicité,
+nous y defaillons, les meschiefz ou nous nous
+sommes trouvez ont esté tresmauvaiz, mais de rencheoir
+nous sera mortel. Assez fait ceste parolle a
+<pb n="50"/>
+noter, mais plus a doubter, pour ce que vexacion et
+travail doit l'entendement esclarcir et le sentement
+accroistre, et, ou le rebours est, c'est signifiance de
+cuers endurcis et de voulenté obstinee, quant après
+l'adversité ne vient aux hommes cognoissance des
+ochoisons et des offenses qui les ont a telz meschiefs
+asserviz, ains retournent des qu'ilz se sentent quelque
+peu deschargiez a leurs premieres acoustumances
+comme le chien a son vomissement. Et qui ceste voie
+vouldroit suivir pour l'esperance qui est de meilleur
+prosperité, legierement pourroit retourner en pis que
+le bruit de la premiere confusion que nous avons a tel
+douleur passee, ce que ja Dieu ne vueille avenir.
+</p>
+                  <p>Aprés nous fault aucunement entendre, pour congnoistre
+la difficulté du fait que nous menons, se nostre
+finance se peut estendre selon nostre necessité, et en
+ce pas ne me vueil je trop avant bouter, car fort est
+en moy de bien en jugier et a pluseurs qui en parlent
+de bien le cognoistre et comprendre. Ce puis je savoir
+que la finance, tele que nostre prince la recueult,
+n'est pas prinse de revenue, mais vient par industrie et
+diligence, et la despence qu'il fait pour noz affaires
+n'est pas une chose limitee, mais est une droicte abisme
+ou tout se fond et despent, car qui meine guerre ne
+peut mectre compte ne nombre en la mise, soit sa
+recepte petite ou grande. Or est le demaine en partie
+occupé par les ennemis et de l'autre partie degasté par
+ceulx qui sur les pays vivent, et si sont les aides, qui
+lever se souloient pour le fait de la guerre, cessez et
+du tout pour le relievement du peuple. Et se l'en
+demande d'autre part quel aide vient au prince de ses
+subgiez, la responce en est clere, car la verité en est
+cogneue a chacun, et qui comparage le temps de paix
+<pb n="51"/>
+ja passez a cellui qui est de present, longue difference
+trouvera entre les aides faiz au prince en cellui temps
+paisible et cellui que on lui fait en ce temps besongneux.
+Et se plus large estoit la finance, l'aide et la revenue,
+assez y a gens et besoingnes ou employer comme
+souldees de gens d'armes, estat de seigneurs, mises
+d'engins de guerre, fraiz d'armees de mer, voyages
+d'ambassadeurs, presens aux estrangiers, dons a ceulx
+qui servent, biensfaiz aux aidans, corrupcions aux nuisans,
+et plus y a dont je me tais a tant que ceulx qui
+sont plus tenus de servir se font plus chier achater,
+et convient traire par largesse les pluseurs a faire leur
+devoir ou loiauté ne les povoit mener. D'autres faultes
+peut assez avoir sur ce point, car justice et liberalité
+sont deux vertuz qui regardent les guerdons et les largesses
+et les poisent et mesurent egalement selon les
+droiz et les dessertes. Si doubte que en ce pas ne
+soient bien gardees leurs regles et que erreur soit en
+la distribucion par trop despendre et se eslargir ou il
+n'affiert et mal recompenser ou donner a qui dessert.
+Ainsi le trop qui va d'une part n'a point de contrepois,
+si ne peut la balance soy tenir droicte ne la mesure
+estre gardee.
+</p>
+                  <p>A cest argument se efforcent aucuns de donner solucion
+en disant que ainsi a il tousjours esté, et ne fut
+oncques que en court de prince n'eust des services
+mal congneuz et des biensfaiz mal deserviz; mais, a
+l'encontre de ceste evasion, je dy pour replique que
+tousjours en est il mal prins, si ne doit l'usaige avoir
+lieu dont l'user porte prejudice, mesmement quant le
+temps et la pointure des cuisans affaires contraignent
+a refraindre ce que la planté des biens et l'oiseux
+esloingnement de grans cures avoit fait ouvert et abandoné.
+</p>
+<pb n="52"/>
+<p>
+Et combien que rigle si estroite ne s'i doye
+donner que la vertu de liberalité, qui tant bien siet en
+hault seigneur, n'ait tousjours vers le prince son effect,
+toutes voies puis je soustenir que celle vertu pour circonstances
+regarde lieu et temps de donner, et que en
+temps d'abondance et de oisiveté telle domnacion seroit
+dicte oeuvre de largesse qui maintenant se devroit
+appeler prodigalité. Bien doivent avoir regard a ce que
+dit est ceulx qui trop pour eulz y pourchacent, et plus
+en est sur eulx le pechié et la charge que sur le prince
+que franchise et noblesce de couraige fait doubter des
+siens escondire, et qui se veult enrichir avecques ung
+prince necessiteux et accroistre trop grandement sa
+substance et son estat des biens de cellui qui peu en
+a, pour la sienne sauver, monstre par sa privee affection
+que son couraige est indigne de service publique.
+</p>
+                  <p>Loing de ceste acoustumance se gouvernerent les
+Peres rommains, quant les pluseurs d'iceulx amendrissoient
+leurs maisons et povoir et la magnificence
+de leurs estas pour non estre en charge en la chose
+publique en temps de necessité. D'un autre inconvenient
+ne me puis je pas taire, c'est que aucuns chiefs
+et conditeurs de gens prennent l'argent des gaiges de
+leurs souldoiers sans le leur departir, en les faisant
+vivre sur le peuple, si encourent la villaine tache de
+larrecin farcie de desloiaulté, et en soy continuant
+comme les grans larrons qui emblent a la seigneurie,
+nourrissent et soustiennent une niee d'autres larronceaux
+pour rober sur le peuple. A tant me deporte
+de ce propos fors que je adjouste ceste conclusion
+que loial subgiet ne doit pour le prouffit de la guerre
+en delaissier l'onneur. Et ceulx qui le bien de vertu
+et le salut publique, mesmement aux entreprinses de
+<pb n="53"/>
+guerre, ne veulent plus que le gaing n'y feront ja au
+paraller oeuvre salvable. Car le proufit et la proye
+mainent les affections legieres et variables des convoiteux
+a soy mettre en aventure, mais l'onneur et
+la loiaulté des vertueux mainent le cuer, le sens et
+l'entendement, a leurs vies exposer pour le salut
+publique.
+</p>
+                  <p>Des exemples peut on assez traire de pluseurs histoires
+en cest endroit et mectre avant pluseurs haulx
+et saiges hommes qui voluntairement ont voulu perdre
+la vie pour recouvrer a la chose publique sa prosperité.
+Comme Codrus, le roy des Atheniens, qui ot en responce
+des dieux que, s'il mouroit en la bataille qu'il
+menoit, que victoire seroit pour lui, et combien que
+ceste responce feust venue a la cognoissance de ses
+ennemis et que defence feust faicte que nul ne se
+embatist a ferir Codrus, toutesvoies il changa son abit
+royal en abit de saquement, afin que nul ne l'espargnast,
+et par sa mort acquist victoire a son peuple et a
+sa cité sceurté de ses ennemis. Marcius Curcius ne
+saillit il pas en la tresparfonde ouverture de la terre
+qui advint ou marchié de Romme, dont la cité estoit
+en peril, si ne se povoit combler, selon le dit des aruspices,
+sinon que la plus digne et noble chose romaine
+y feust descendue? Mais le jouvencel, saichant que
+proesce de noble cuer estoit la plus digne chose, saillit
+a cheval et tout armé dedens icelle abisme inestimable,
+qui aprés lui se recloy pour le sauvement de la cité.
+Decius se voua a mort pour sauver les legions qu'il
+conduisoit et Sanson le fort, pour les Philistiens
+ennemis du peuple d'Israël acravanter et confondre,
+abbati sur soy et sur eulx par sa grant force la maison
+ou ilz tenoient leurs grans conviz. D'autres histoires
+<pb n="54"/>
+pourroit on assez amener, mais il me suffist d'avoir
+monstré que chevance et avoir ne sont que accessoires
+et serves a vertu et comme chamberieres qui ministrent
+ce qu'est necessaire a fragilité humaine et si
+sont fortes a avoir, dangereuses a garder, a distribuer
+perilleuses, douloureuses au perdre et necessaires a
+princes et seigneurs a leurs guerres conduire et
+achever. Sans elles ne povons ceste oeuvre bien mener
+et toutesvoies elles nous deffaillent de fournir a suffisance
+et nous leur defaillons de les esploiter a prouffit.
+</p>
+                  <p>Reste maintenant le tiers point ou nous avons a
+declairer quelle obeissance doit estre gardee vers le
+prince guerroiant pour sa chevalerie et pour ses subgiez.
+Si fais ma premisse jouxte la tresgriefve sentence
+de Valere, que discipline de chevalerie estroitement
+retenue et rigoureusement gardee maintiennent les seigneuries
+acquises et si acquiert celles qui sont a l'encontre
+defendues. Et qu'est discipline de chevalerie
+si non loy ordonnee et gardee en l'exercice des armes
+et des batailles soubz le commandement du chief et
+pour l'utilité publique? Ceste ont gardee si curieusement
+tous ceulx qui oncques acquirent hault honneur
+et victoire par proesce d'armes que nulle chose ne se
+faisoit contre droit de chevalerie ou contre le commandement
+du chief dont la punicion ne feust capitale
+ou mortelle. Bien y apparut au fait memorable de
+Manlius Torquatus, lequel, ou temps qu'il conduisoit
+les legions rommaines, fist trenchier la teste a son
+propre filz pour ce qu'il s'estoit combatu aux ennemis
+contre son commandement, jaçoit ce que il eust la
+victoire obtenue; et en ce cas la victoire que fist le
+vaillant jouvencel comme vainqueur ne peut effacier
+la desobéissance qu'il fist comme transgresseur, pour
+<pb n="55"/>
+quoy la rigueur de la discipline chevalereuse vainqui
+la pitié naturelle du pere, car cellui que Nature admonneste
+d'estre pere misericors pour le devoir de sang
+acquiter se monstra juge rigoureux pour la loy d'armes
+aigrement observer.
+</p>
+                  <p>Diverses histoires se pourroient produire a ce propos
+d'autres punicions et aspres justices faictes par faulte
+de garder l'obbeissance et l'ordre du treshonnourable
+mestier d'armes, et, oultre de ceulx qui pour ces causes
+ont esté capitalment punis, trouveroit on pluseurs es
+rommaines escriptures qui pour menues et petites
+negligences ont esté batuz de verges a l'estache et
+rabaessiez du raeng de chevalerie jusques a l'estat de
+servans de pié. Par ceste maniere fut puniz Aurelius
+par le conseil Cotta, car il fut batu de verges et remis
+avecques les gens de pié pour ce qu'il avoit negligemment
+laissié ardoir par les ennemis partie de la
+chose publique et de la closture du logeis qu'il devoit
+garder. Et Lucius Tucius fut condempné a aller nuz
+piez sans compaignie parmy l'ost, et les gens de cheval,
+qui avecques lui estoient, a servir de pierres ceulx
+qui gettoient des fondes, pour ce qu'il s'estoit rendu
+villainement aux ennemis sans défence. Jugeons les
+plus grans et difficilles choses par les doubtes que nous
+appercevons es maindres, si saurons que nulle communité
+ou compaignie ne se peut maintenir sans justice
+et mesmement entre les larrons, pour continuer
+ensemble et departir leurs proyes, fault il une maniere
+de justice garder et l'un vers l'autre, combien que
+justice ne soit ce pas, pour faulceté de la matiere et
+de l'entencion, sinon qu'elle est ainsi dicte par similitude.
+Et s'il est ainsi qu'en une famille faille garder
+ordre et obeissance vers ung chief, comment durera
+<pb n="56"/>
+ung ost de gens garniz d'armes et esmeuz de couraiges,
+ne comment se pourra garder leur sceurté vers les
+ennemis et leur paix entre eulx et leurs amis, se non
+que leurs voulentez soient en la puissance d'un chief
+et leurs povoirs limitez a l'obeissance du commandeur
+qui sur eulx puisse garder justice d'armes et discipline
+de chevalerie?
+</p>
+                  <p>Que diray je doncques de nous, ne quelle esperance
+pourray je prendre en noz entreprinses et armes, se
+discipline de chevalerie et droicturiere justice d'armes
+n'y sont gardees? Autre chose ne se peut dire fors
+que en ce cas nous allons comme la nef sans gouvernail
+et comme le cheval sans frain. Dieu tout puissant,
+tu sceis et cognois que qui vouldroit les abuz corriger
+en ceste partie plus y avroit de coulpables que de corrigeurs,
+car chascun veult estre maistre du mestier
+dont nous avons encores pou de bons apprentiz. Tous
+pevent a peine suffire a grever les ennemis par guerre,
+mais chascun veult faire compaignie et chief a part
+soy, et tant y a de chevetaines et de maistres que a
+paine treuvent ilz compaignons ne varlés. Nul ne
+souloit estre dit escuier s'il ne s'estoit trouvé en fait
+de souveraine proesce, nul n'estoit appellé aux gaiges
+d'omme d'armes s'il n'avoit prins honnestement prisonnier
+de sa main; maintenant savoir ceindre l'espee
+et vestir ung hauberjon suffist a faire ung nouveau
+capitaine. Or avient que sont faictes entreprinses ou
+sieges assis ou le ban des princes est crié et le jour
+souvent nommé pour les champs tenir, mais plusieurs
+y viennent par maniere plus que pour doubte d'y faillir
+et pour paour de avoir honte et de reprouche plus
+que pour vouloir de bien faire, et si est en leur chois
+le tost ou le tart venir, le retour ou la demeure. Et de
+<pb n="57"/>
+telz en y a qui tant aiment les aises de leurs maisons
+plus que l'onneur de noblesse dont ilz les tiennent
+que, lors qu'ilz sont contrains de partir, voulentiers
+les portassent avecques eulx, comme les limaz qui
+tousjours trainent la coquille ou ilz se hebergent; et
+s'ilz les vouloient garder par la maniere que elles leur
+furent acquises, ce ne seroit pas en y reposant, car
+au travail de leurs corps et au peril de leurs vies ont
+les anciens nobles hommes acquis les honneurs et les
+drois des noblesces. Nous voions nostre prince qui
+depuis quatre ans n'a cessé de voiager sans guaires de
+repos ne d'arrest, nous voions les estrangiers alliez de
+nostre royaume qui passent les fortunes de mer pour
+venir a nostre secours et estre parçonniers de nostre
+adversité et de nostre paine, et les plusieurs de ceulx
+qui sont tenuz de defendre actendent et escoutent quel
+en sera le bruit, et se laisseroient avant chacer et
+charger du fais de la guerre jusques a estre deboutez
+de leurs maisons qu'ilz meissent paine de prevenir ne
+de chacer la guerre loing de soy. Ceste ignorance ou
+faulte de cuer est cause des durtez et rapines dont le
+peuple se complaint, car, en default de ceulx dont on se
+devroit aider, a convenu prendre ceulx que on a peu
+finer et faire sa guerre de gens acquis par dons et
+par prieres ou lieu de ceulx qui leur devoir et loiaulté
+y semonnoit. Si est faicte la guerre par gens sans
+terre et sans maison ou que la greigneur part, que
+necessité a contrains de vivre sur autrui, et nostre
+besoing nous a convaincus a le souffrir et encores ne
+nous a la penitance de ce pechié chastiez, et quant
+les vaillans entrepreneurs, donc, mercy Dieu, a encor
+en ce royaume de bien esprouvez, mectent paine de
+tirer sur champs les nobles pour aucun bien faire, ilz
+<pb n="58"/>
+delaient si longuement a partir bien enviz et s'avancent
+bien tost de retourner voulentiers que a paine se peut
+riens bien commencer, mais a plus grant paine entretenir
+ne parfaire.
+</p>
+                  <p>Encores y a piz que ceste negligence, car avecques
+la petite voulenté de pluseurs se treuve souvent une
+si grant arrogance que ceulx qui ne sauroient rien conduire
+par eulx ne vouldroient armes porter soubz autrui
+et tiennent a deshonneur estre subgiez a cellui soubz
+qui leur peut venir la renommee d'onneur que par eulx
+ilz ne vouldroient acquerir.
+</p>
+                  <p>O arrogance aveuglee, folie et petite cognoissance
+de vertu, o tresperilleuse erreur en fait d'armes et de
+batailles, par ta malediction sont desroutees et desordonnees
+les puissances et les armes desjoinctes et
+divisees, quant chascun veult croire son sens et suivre
+son oppinion. Et pour soy cuider equiparer aux
+meilleurs font souvent teles faultes dont ilz sont
+depprimez soubz tous les mendres. En memoire me
+vient que j'ay souvent a plusieurs ouy dire: <q>« Je
+n'yroie pour riens soubz le panon d'ung tel, car mon
+pere ne fut oncques soubz le sien. »</q> Et ceste parolle
+n'est pas assez pesee avant que dicte, car les lignaiges
+ne font pas les chiefs des guerres, mais ceulz a qui
+Dieu, leurs sens ou leurs vaillances et l'auctorité du
+prince, en donnent la grace doivent estre pour telz
+obeiz. Laquelle obeissance n'est mie rendue a la personne,
+mais a l'office et ordre des armes et discipline
+de chevallerie, que chascun noble doit preferer a tout
+autre honneur.
+</p>
+                  <p>Mouvoir nous pevent a ce faire moult d'anciennes
+histoires, mais avec ce nous doivent contraindre les
+maulx qui par oultrecuidance et faulte d'obeir sont
+<pb n="59"/>
+avenuz et aviennent en noz vies devant noz yeulx;
+et, se histoires prouffitent a regectier ung pou cest
+orgueil, lisons Titus Livius et nous trouverons que les
+dictateurs et les conseulz qui conduisoient les batailles
+rommaines estoient souvent esleuz a Romme de
+vaillanz hommes que on envoioit querre es champs
+ou ilz faisoient les labours des terres, comme il avint
+de Fabricius, de Lucius Quintus et de pluseurs autres,
+qui neantmoins estoient si craintivement obeiz que, ou
+les faultes advenoient contre discipline d'armes, pitié
+n'y avoit lieu, lignaige ne hault port n'y donnoit faveur
+et prieres n'y avoient mestier. Si estoit tele leur euvre
+que par euvres et ensaignemens ilz apprenoient aux
+gens qui armes portoient que plus estoit a doubter le
+chevetaigne que les ennemis, et les honteux paines des
+honteux defaulx plus cruelles que les plaies qu'ilz
+rapportoient des adversaires. Celer ne se peut ce que
+loiale affection contraint a dire et, quoy qu'il touche
+aux haulx faiz et haultes personnes, j'en parle selon
+ma petitesce, mais oncques ne fut veue a l'ueil ne levé
+par escript maindre discipline ne plus fraelle justice
+d'armes que celle que nous disons tenir sur nostre
+chevalerie. Qui sera cellui qui me puist mectre avant
+ung hault honneur rendu pour vertueux service ne une
+seule correction pour deliz infiniz commiz en chief
+contre toute ordonnance d'armes et au revers des loys
+et coustumes des preux et des vaillans? Et se aucun
+en enquiert pour savoir ce que nul ne peut ignorer,
+quans avons nous veu desobeir aux mandemens,
+enfraindre les deffenses, venir quant il leur plaist et
+s'en aller a qui qu'en desplaise, abandonner leurs
+gardes pour garder choses abandonnees sans cause,
+livrer les forteresces pour soy delivrer de force, au
+<pb n="60"/>
+besoing faillir et soy rendre sans besoing, faire departir
+les compaignies et tenir compaignie a part? Et
+s'aucun savoit de toutes ces choses moy monstrer une
+punicion dont l'exemple peust estre doctrine d'aucun
+amendement, aucunement seroit ramolliee la rigueur
+de mes parolles, mais a Dieu me rapporte de ce qu'il
+en est, a chascun de ce qu'il en congnoist. Piz me fait
+que les nobles hommes y prennent si peu garde que
+a peu se laissent ja les pluseurs couller en l'ordonnance
+des autres, sans difference de meurs ne de voulentez,
+et ne craingnent aucuns encourre male
+renommee contre qui noble cuer doit avoir plus
+mortelle guerre que contre autres ennemis, et doivent
+contre les autres celle merche porter que leurs euvres
+les facent cognoistre des autres et que nul d'eulx en son
+semblable ne laisse tache de reprouche sans y donner
+le remede, comme firent les Scipions a Romme, quant
+ilz osterent a l'un des hoirs de Scipion l'Auffricain
+l'annel qu'il portoit, ou estoit empraint l'imaige du
+vaillant Scipion, pour ce qu'il ne faisoit pas les oeuvres
+de cellui dont il portoit si noble ensaigne.
+</p>
+                  <p>De Marcus Scaurus est il aussi escript une responce
+de vertueux pere et vergoigneuse aux gens de failly
+couraige, car, comme il lui fut noncié que son filz
+s'en retournoit villainement d'une bataille et venoit
+devers lui, il respondy que plus joieusement il allast a
+l'encontre de ses ostz, s'il lui feust rapporté mort par
+vaillance, qu'il ne le recevroit en sa maison aprés une
+faulte si deshonnourable. Ce fut dit de pere constant
+et entierement ferme de garder l'onneur de sa maison
+et de sa noblesce et fut sentence d'omme de grant gravité;
+mais par la bouche de femme et de fraelle sexe
+fut en semblable cas seurmontée ceste parolle. quant
+<pb n="61"/>
+une dame de haulte renommee vint a l'encontre de
+ses enfans qui d'une bataille s'enfuyoient et pour confundre
+leur vituperable honte et lacheté laissa la
+commune vergoigne feminine, car elle se descouvry
+par devant en leur disant, puis que fouir vouloient,
+qu'ilz rentrassent ou ventre qui les avoit portez et que
+autre lieu n'avoit pour les sauver, comme s'elle voulsist
+dire que mieulx leur vaulsist n'avoir oncques esté nez
+que estre yssuz de son ventre au reprouche d'eulx et
+de leur lignee.
+</p>
+                  <p>Si doit estre discipline de chevalerie et crainte d'onneur
+gardee es maisons des nobles comme en l'ost du
+prince, car la reverence et salvable doctrine des
+vaillans peres et anciens d'un lignaige peut plus aux
+jounes proufiter a vertu que la peur de la justice de
+leur chief.
+</p>
+                  <p>En somme, se la sapience de Salomon, la proesce
+de Hector, la constance de Machabees, la force de
+Sanson, la cautelle de Ulixes, la multitude des legions
+de Daire et de Xercés et l'avoir d'Octovien estoit en
+ung ost desordonné sans justice et sans discipline de
+chevalerie, la sapience seroit au paraller irritee, la
+prouesce ramollie, la constance froissee, la force debilitee,
+les cautelles aneanties, la multitude dissipee et
+l'avoir degasté, et, se bien y advenoit, plus devroit
+estre imputé a Fortune que a Raison. Ces choses et noz
+autres defaulx ne sont pas a raconter pour entrer en
+contempcion les ungs aux autres, ains seroient du tout
+a traire a qui n'en vouldroit plus user pour correction
+que pour reprouche. Si ne les recite pas pour donner
+charge, mais pour y prendre adviz, et a tant suffise a
+chascun ce peu que j'en scay dire, car, quoy qu'il soit
+<pb n="62"/>
+de petit effect, il procede de grant abondance de bon
+vouloir.</p>
+                  </sp><sp>
+<speaker>L'acteur.</speaker>
+<p>Une seule replique requiert avoir cellui qui les
+armes portoit et prist a dire:</p>
+                    </sp><sp>
+<speaker>LE CHEVALIER.</speaker>
+<p>De la savance et cognoissance qui doit acompaigner
+la magesté des princes et des seigneurs et leurs chevances
+convertir en maintes oeuvres me puis je bien
+taire et en laissier les parolles a ceulx a qui sont les
+faiz et les dangiers, mais je m'arreste a l'obeissance
+et discipline de chevalerie dont nostre estat est a
+present reprouchiez et griefment reprins.
+</p>
+                      <p>Ou est cellui de nous qui peut garder ordre d'armes
+ne discipline de chevalerie a part soy, et qui la
+recevra ne retendra, s'elle ne lui est baillee et maintenue?
+Comme commencera elle entre les membres,
+s'elle est defaillie es plus haulx? Et comment la garderont
+les subgiez se leurs souverains la corrumpent?
+Et qui veult actaindre la racine de ceste maladie, il
+fault venir au fondement et a la sourse dont ceste
+ordonnance chevalereuse doit prendre sa continuacion
+et sa naissance, et que des maistres viengne le patron
+et l'exemple sur quoy leurs aides et leurs apprentiz
+doivent ouvrer.
+</p>
+                      <p>Les tresesleuz ensaignemens de Aristote pratiquez
+par voies de fait firent toutes choses subgectes et seurmontables
+a la chevalerie d'Alixandre, la constance
+et courageuse amonicion du roy Preamus redoubla
+la proesce du vaillant Hector, les aguaitz et advisé gouvernement
+<pb n="63"/>
+de Hannibal firent a ses gens passer les
+Alpes et les grans maraiz et merveilleux passaiges
+sans grans dommaiges, les entreprinses et exercice
+d'armes du roy Charles le grant donnerent a Rouland,
+Ogier et Olivier leur grant renommee qui encores dure,
+et le meur adrecement et hault esgard du roy Charles
+derrenier mort fist le bon Bertran tant de foiz vaincre
+les ennemis glorieusement et le royaume de grief
+maleur soy ressourdre en paisible bieneureté.
+</p>
+                      <p>Cestui Bertran laissa de son temps une tele remonstrance
+en memoire de discipline et de chevalerie, dont
+nous parlons, que, quiconcques homme noble se forfaisoit
+reprochable, on lui venoit au mengier trencher
+la nappe devant soy. Ceste estroicte garde d'onneur
+et de sceurté fist le large chemin de proesce es gens
+chevalereux qui lors vivoient, et ceste ouverture de
+vengence rigoureuse forclouy toutes voyes aux faiz
+deshonnourables.
+</p>
+                      <p>En cest endroit, l'aspresse de vengier chaudement
+teles honteuses offenses est tenue aux princes et haulx
+hommes a equité, qui en autre cas seroit pour cruaulté
+reputee; quoy que a princes singulierement appartient
+clemence et debonnaireté, pour ce que puissance
+fait les seigneuries redoutables, mais clemence les fait
+estables et fermes, et de la clemence et humanité du
+prince naist confidence, de confidence sceurté, de
+sceurté hardement d'entreprendre et constance de
+conduire, mais du contraire de clemence naist souppeçon,
+de souppeçon vengence, de vengence rancune,
+separation et murmure. Plus avant ne pense je pas
+me bouter es debas de ceste matiere et m'en rapporte
+a ceulx qui ont les faiz publiques a conseillier d'en
+acquitter leurs loiaultez plainement. Car doubte de
+<pb n="64"/>
+desplaisir des personnes ne doit pas empescher les
+choses proufitables aux communitez et aux seigneuries,
+et qui donne conseil a l'appetit, non pas a la raison,
+son oppinion n'est pas conseil mais flaterie. Si dy que
+en la loiaulté des conseilleurs gist la sceurté du prince
+et le salut de la chose publique et la devons cerchier
+le fons de toutes noz difficultez et la solution de noz
+debas.</p>
+                      </sp><sp>
+<speaker>L'acteur.</speaker>
+<p>Celle replique finie, combien que chascun s'efforçast
+de adjouster aucune autre chose, la dame dessus
+escripte leur commanda silence garder et puis fist
+conclusion a leurs argumens et questions en parlant
+ainsi:</p>
+                        </sp><sp>
+<speaker>FRANCE.</speaker>
+<p>Je ne vueil voz excusacions et deffences plus longuement
+escouter, ne en voz discors et descharges l'un
+vers l'autre ne gist pas la ressource de mon infortune,
+si non en tant que chascun la doye plus appliquer a
+son chastiement que a vitupere de son prouchain;
+mais l'affection du bien publique peut estaindre voz
+desordonnances singulieres, se les voulentez se conjoingnent
+en ung mesme desir de commun salut et
+en souffrant leur fortune et les ungs vers les autres
+gardent pacience, peut a tous ensemble venir ce bon
+eur que chascun veult querir par divers remedes. Et
+puis que Dieu et Nature vous ont creez plus parfaiz
+des autres choses qui ont ames, ne soiez pas plus
+desordonnez que les mendres besteletes, ne plus negligens
+ou mains enclinez a vostre commune salvation,
+<pb n="65"/>
+utilité et defense, que sont les mouchetes a miel, que
+chascune en leur essaim gardent leurs offices et leurs
+ordres et mectent leur vie pour deffendre et entretenir
+leur assemblee et leur petite pollice et pour
+garder la seigneurie de leur roy qui regne entre elles
+soubz une petite ruche, que moult de foiz, quant il est
+navrez en leurs batailles, contre une autre compaignie
+d'autres mouchetes, elles portent et soustiennent a
+leurs eles et se laissent mourir pour luy maintenir sa
+seigneurie et sa vie.
+</p>
+                          <p>J'ay assez ouy de voz tençons, pour ce vueil que a
+tant vous en souffrez ou surseés. Toutesvoies, afin
+que en vain n'ait esté gastee vostre saison, je ordonne
+voz raisons estre escriptes a ce que chascun y congnoisce
+sa faulte par autrui et que ceulx qui les liront
+effacent l'erreur de leurs cuers, dont ilz se trouveront
+par leurs prouchains reprouchiez en la lectre, et que
+cy en droit n'aiez pas disputacion haineuse, mais
+fructueuse.</p>
+</sp><sp>
+<speaker>L'acteur.</speaker>
+<p>Adoncques m'appella, car assez pres estoye ou
+j'avoye tout escouté. Si me dist: <q>« Tu, qui as ouye
+ceste presente disputacion faicte par maniere de quadrilogue
+invectif, escry ces parolles afin qu'elles
+demeurent a memoire et a fruit. Et puis que Dieu ne
+t'a donné force de corps ne usaige d'armes, sers a la
+chose publique de ce que tu pués, car autant exaulça
+la gloire des Rommains et renforça leurs couraiges
+a vertu la plume et la langue des orateurs comme les
+glaives des combatans. »</q>
+</p>
+  <p>Ces parsonnages fuirent adoncques de mes yeulx et
+le dormir me laissa. Si ay acompli de mon petit sentement
+<pb n="66"/>
+les commandemens d'icelle dame par ce present
+escript, et a chascun lecteur prie le voulloir interpreter
+favourablement et y jugier a cognoistre la bonne
+affection plus que la gloire de l'ouvraige. Car je
+afferme loiaument que l'esmouvement de cest oeuvre
+est plus par compassion de la necessité publique que
+par presumption d'entendement et pour profiter par
+bonne exhortacion que pour autrui reprendre.
+</p></sp></div>
+</body>
+  <back>
+    <div type="explicit"><p>EXPLICIT.</p></div>
+  </back>
+</text>
+</TEI>

@@ -1,0 +1,1357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="fr">
+  <fileDesc>
+    <titleStmt>
+      <title type="main">Vie de sainte Geneviève (version II)</title>
+      <title type="formal">SGenPr2</title>
+      <title type="reference">SGenPr2</title>
+      <title type="DEAF">SGenPr1B*</title>
+      <title type="gmd">transcription électronique</title>
+      <author xml:id="JGolein" key="Golein, Jean (1325?-1403)" ref="http://www.idref.fr/06852630X">Jean Golein (traducteur probable)</author>
+      <editor>Équipe de la Base de français médiéval - ENS de Lyon / UMR 5317 IHRIM</editor>
+      <funder>Laboratoire IHRIM</funder>
+      <funder>HumaNum (consortium CAHIER)</funder>
+    </titleStmt>
+    <editionStmt>
+      <edition>transcripion électronique</edition>
+      <respStmt xml:id="donator">
+        <resp>cession du texte numérique à la BFM</resp>
+        <name xml:id="ABengtsson">Anders Bengtsson</name>
+      </respStmt>
+      <respStmt xml:id="encoderDD">
+        <resp>balisage du discours direct</resp>
+        <name xml:id="AL">Alexei Lavrentiev</name>
+      </respStmt>
+      <respStmt xml:id="encoder1">
+        <resp>conversion en XML-TEI</resp>
+        <name xml:id="LD">Lydie Danjean</name>
+      </respStmt>
+    </editionStmt>
+    <extent>- Numéros de pages saisies : de 55 à 93 ;
+            - Nombre de mots d'après la base des descripteurs : <num xml:id="nb_mots_given">12628</num> ;
+            - Nombre de tokens (mots et ponctuations) d'après la base des descripteurs : <num xml:id="nb_tokens_given">14310</num>.
+    </extent>
+    <publicationStmt>
+      <publisher><name>Projet BFM, ENS de Lyon / UMR 5317 IHRIM</name></publisher>
+      <address>
+        <addrLine>15, parvis René Descartes</addrLine>
+        <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+        <addrLine>Tél : 04 37 37 63 10</addrLine>
+        <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+        <addrLine>http://bfm.ens-lyon.fr</addrLine>
+      </address>
+      <idno type="bfm">http://catalog.bfm-corpus.org/SGenPr2</idno>
+      <idno type="doi">10.34847/nkl.afe49t0o</idno>
+      <availability status="free">
+        <licence target="https://www.etalab.gouv.fr/licence-ouverte-open-licence">
+          <ab type="availability_bfm" subtype="libre_1b">Les Conditions générales d'utilisation de la Base de Français Médiéval (http://txm.bfm-corpus.org/bfm/files/CGU.pdf), 
+            et notamment son Article 5 « PROPRIETE INTELLECTUELLE », s'appliquent à tous les textes de la BFM.</ab>
+          <ab type="how_to_cite">
+            <label>Comment citer ce texte :</label>
+            <bibl>Jean Golein (traducteur probable), Vie de sainte Geneviève (version II), édité par Anders Bengtsson, Stockholm, 2006. 
+              Publié en ligne par la Base de français médiéval, http://catalog.bfm-corpus.org/SGenPr2.
+              Dernière révision le 2013-08-05.</bibl>
+            D'autres formules de citation de la BFM sont proposées sur la page web suivante :
+            http://bfm.ens-lyon.fr/article.php3?id_article=281.</ab>
+          <ab type="availability_file">
+            <label>Conditions d'utilisation de ce fichier :</label>
+              Ce fichier numérique est composé du corps de texte médiéval et des suppléments numériques : balisage XML-TEI, métadonnées (teiHeader), balisage du discours direct. Le texte et les suppléments numériques sont libres de droit et peuvent à ce titre être téléchargés et réutilisés librement.
+            </ab>
+            <ab type="availability_txmweb" subtype="illimité">
+              <label>Conditions d'utilisation par le portail BFM :</label>
+              Pas de limitation dans l'usage des fonctionnalités. Téléchargement autorisé.</ab>
+        </licence>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>La Vie de sainte Geneviève en prose : cinq versions en prose des XIVe et XVe siècles // Version II</title>
+          <author>Jean Golein (traducteur probable)</author>
+          <respStmt>
+            <resp xml:id="editor">Éditeur scientifique</resp>
+            <name type="person">Anders Bengtsson</name>
+          </respStmt>
+        </titleStmt>
+          <extent>39 page(s)
+        </extent>
+        <publicationStmt>
+          <publisher>Almqvist och Wiksell</publisher>
+          <pubPlace>Stockholm</pubPlace>
+          <date>2006</date>
+          <idno type="sigle_DEAF">SGenPr1B*</idno>
+          <idno type="cote_biblio">Perso : R179</idno>
+        </publicationStmt><seriesStmt><title>Romanica Stockholmiensia</title><idno type="collection">21</idno></seriesStmt>
+      </biblFull>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p>Projet :<name type="project">BFM - Base de français médiéval</name>
+        Resp. : <name type="person">Céline Guillot-Barbance</name>
+        Équipe : Base de français médiéval
+        Laboratoire : UMR 5317 IHRIM
+        Institution : ENS de Lyon
+        <address>
+          <addrLine>15, parvis René Descartes</addrLine>
+          <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+          <addrLine>Tél : 04 37 37 63 10</addrLine>
+          <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+          <addrLine>http://bfm.ens-lyon.fr</addrLine>
+        </address>
+      </p>
+    </projectDesc>
+    <editorialDecl>
+      <p>Voir le <ref target="http://bfm.ens-lyon.fr/IMG/pdf/Manuel_Encodage_TEI.pdf">Manuel d'encodage XML-TEI de la BFM</ref>
+        et les <ref target="http://bfm.ens-lyon.fr/IMG/pdf/Consignes_BFM.pdf">Consignes aux relecteurs de la BFM</ref>.</p>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="ab" occurs="6"/>
+        <tagUsage gi="body" occurs="1"/>
+        <tagUsage gi="div" occurs="47"/>
+        <tagUsage gi="foreign" occurs="1"/>
+        <tagUsage gi="head" occurs="47"/>
+        <tagUsage gi="hi" occurs="9"/>
+        <tagUsage gi="lb" occurs="898"/>
+        <tagUsage gi="milestone" occurs="31"/>
+        <tagUsage gi="p" occurs="91"/>
+        <tagUsage gi="pb" occurs="39"/>
+        <tagUsage gi="q" occurs="27"/>
+        <tagUsage gi="supplied" occurs="2"/>
+        <tagUsage gi="text" occurs="1"/>
+        <tagUsage gi="w" occurs="5"/>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <creation>
+      <name type="author">Jean Golein (traducteur probable)</name>
+      <title>Vie de sainte Geneviève (version II)</title>
+      <date type="compo" when="1367-01-01" notBefore="1367-01-01" notAfter="1367-12-31" n="14">1367</date>
+      <date type="compo_periode">moyen</date>
+      <date type="compo_sous_siecle" n="14_3">fin</date>
+      <date type="ms" when="1383-01-01" notBefore="1367-01-01" notAfter="1399-12-31">fin 14e s.</date>
+      <idno type="msIdentifier">Paris, BnF, fr. 5667</idno>
+      <region type="dialecte_auteur">non défini</region>
+    </creation>
+    <langUsage>
+      <language ident="fro" usage="100">Le texte est entièrement écrit en prose en moyen français.</language>
+    </langUsage>
+    <textDesc>
+      <channel mode="w">print</channel>
+      <constitution type="single"/>
+      <derivation type="traduction">Vita Sanctae Genovefae</derivation>
+      <domain type="religieux"/>
+    <factuality type="inapplicable"/>
+      <interaction type="none"/>
+      <preparedness type="prepared"/>
+      <purpose type="narrative"/></textDesc>
+    <textClass>
+      <keywords scheme="http://authorities.bfm-corpus.org">
+        <term type="domaine">religieux</term>
+        <term type="genre">hagiographie</term>
+        <term type="forme">prose</term>
+        <term type="relation">traduction</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change who="#ABengtsson" when="2006-12-31">cession du texte numérique à la BFM</change>
+    <change who="#LD" when="2012-06-28">conversion en XML-TEI</change>
+    <change who="#AL" when="2013-08-04">création du descripteur</change>
+    <change who="#AL" when="2013-08-05">balisage du discours direct</change>
+    <change when="2013-08-05">Dernière modification du texte</change>
+    <change when="2022-11-04">Création de cet entête</change>
+  </revisionDesc>
+</teiHeader>
+<text>
+<body>
+<pb n="55"/>
+
+<div type="episode"><head rend="ital">Ci commence la vie madame sainte Genevieve en françois proprement selonc le latin.</head>
+
+<p>
+<lb/>A tout crestien qui Jhesucrist et ses sains requiert et honneure est grant bien
+<lb/>et honneur et proufist de savoir aucune chose des vertus, miracles et bontés
+<lb/>que nostre Seigneur a fait et fait en euls et par euls pour Dieu amer plus
+<lb/>parfaitement, pour les sains honnorer plus devotement et pour y prendre
+<lb/>exemple et doctrine de sauvement. Mout de genz requierent et honnorent
+<lb/>madame sainte Genevieve, qui de sa vie et de ses vertus scevent pou ou nient.
+<lb/>Sa vie avons en latin mout proprement et en françoiz rimee mout gentement,
+<lb/>mes li pluseurs n'entendent pas latin, li autres ne ont cure de rimerie, pour ce
+<lb/>que on y seult ajouster, oster et muer autrement que il n'est ou texte, si est
+<lb/>escripte ci apréz en prose sens rime, estraite du latin en françoiz veritablement
+<lb/>et loiaument. A la gloire de Dieu soit, a l'onneur de la vierge et au profit du
+<lb/>peuple. Amen.
+
+</p></div><pb n="56"/>
+<div type="episode"><head rend="ital">Quant el fu nee et quant el trespassa.</head>
+<p>
+<lb/>A Nanterre prez de Paris fu nee la vierge digne madame sainte Genevieve
+<lb/>ou temps dez imperateurs Honoire et Theodose le mendre et fu avec pere et
+<lb/>mere jusques au temps de l'imperateur Valentinien. Bien tost aprés sa nativité
+<lb/>revela le Saint Esperit a saint Germain d'Aucuerre comment el serviroit a
+<lb/>Dieu saintement et virginaument, laquele chose il dist a pluseurs. Puis fu
+<lb/>sacree de l'evesque de Chartres Villiques et vint demourer a Paris pleine de
+<lb/>vertuz et de miracles par le temps saint Nicase de Reins que les Hondrez
+<lb/>martirizerent et par le temps saint Remy sous le roy de France Childeric, puis
+<lb/>souz le roy Clovis son fil, premier roy de France crestien, dit Loys en son
+<lb/>baptesme, lequel saint Remy baptiza. Et apporta un ange de paradis une
+<lb/>ampolle pleine de saint cresme, dont il fu enoins et dont ses successeurs roys
+<lb/>de France sont enoins a leur coronnement. Puis fu de bonne vie et fonda
+<lb/>l'eglize que on appelle maintenent <milestone unit="folio" n="96v"/> Sainte Genevieve ou Mont de
+<lb/>Paris en l'onneur de saint Pere et de saint Pol a la requeste de la royne sainte
+<lb/>Clote sa fame, dont le corps repose en ladicte eglize, et a l'incitacion de sainte
+<lb/>Genevieve et la dedia saint Remy. Mout acreut ledit roy le royaume de France.
+<lb/>Il le franchit de la puissance dez Rommains. Il conquist Meleun et la terre
+<lb/>agesante a Seine et a Leire, Thoringe, Auvergne, Thoulouze et toute Aquitaine
+<lb/>et a sa venue trebucherent par miracle les murs de la cité d'Engolesme. Il fist
+<lb/>Alemaingne tributaire et Bourgoigne. Il institua Paris le siege du royaume et
+<lb/>regna XXX ans. Puis fu enterré en ladicte eglize l'an <w>V<hi rend="exp">C</hi>XIIII</w>. Ou temps dudit
+<lb/>roy vesqui ladite virge jusques au temps du roy Clotaire son filz, souz lequel
+<lb/>l'ame de elle vola es cielx et le corps demoura en terre enterré en ladicte
+<lb/>eglise, en laquele il est encor tout entierement la Dieu mercy.
+
+
+
+</p></div><pb n="57"/>
+<div type="episode"><head rend="ital">Comment saint Germain d'Aucuerre vit par le Saint Esperit sa grant bonté.</head>
+<p>
+<lb/>Ou temps que ladite virge estoit enfes, saint Germain d'Aucuerre et saint
+<lb/>Lou de Troyes, esleus dez prelas de France pour aler estaindre une herezie qui
+<lb/>estoit en la Grant Bretaigne, maintenant dite Engleterre, vindrent a Nanterre
+<lb/>pour eulz herbergier. Le pueple vint encontre euls pour avoir la beneiçon.
+<lb/>Enmi les genz saint Germain par l'enseignement du Saint Esperit va choisir la
+<lb/>pucelote Genevieve et la fet venir a luy. En la teste la bese et demande son
+<lb/>nom et qui fille estoit. Dirent lez gens d'entour que Genevieve estoit
+<lb/>nommee. Son pere Severe et sa mere Geronce vindrent. <q> « Est, dit li sains
+  <lb/>homs, cest enfant vostre fille ? » </q> Respondirent : <q> « Sire, oil. </q><q>- Beneurés estes,
+<lb/>dit li sains homs, a cuy Diex a donné si noble ligniee. Sachiéz que le jour de sa
+<lb/>nativité li angez celebrerent grant mistere ou ciel a grant joie et a grant leece.
+<lb/>El sera de grant merite devant Dieu et a sa bonne vie et conversacion
+<lb/>prendront pluseurs example qui pechié lesseront et a Dieu se convertiront et
+<lb/>vivront <w>religi<milestone unit="folio" n="97"/>eusement</w>, par quoy il aront pardon et loier pardurable. » </q></p>
+<p>
+<lb/>Lors dist a la damoisele : <q> « Ma fille, dites moi, et ne aiés pas honte, se vous
+<lb/>pourriez estre sacree et vivre en virginité jusques a la mort comme espouse
+<lb/>Jhesucrist. » </q> La vierge respondit : <q> « Saint Pere, vous demandés ce que je
+<lb/>desirre. Plus n'y faut fors que par vos prieres nostre Segneur vueille acomplir
+<lb/>ma devocion. » </q> Dist li sains : <q> « Fille, aiés ferme fiance en Dieu et prouvéz par
+<lb/>euvres le bien que vous croiés en cuer et que vous dites de bouche. Nostre
+<lb/>Sire vous donra force et vertu. » </q> Ce dit, saint Germain li tint la main sus la
+
+
+
+<pb n="58"/>
+<lb/>teste jusques atant qu'il fussent au moustier. Illeq, la beneiçon donnee au
+<lb/>pueple, saint Germain dist au pere et a la mere de la vierge qu'il ramenassent
+<lb/>l'andemain au matin leur fille. Quant fu ramenee, saint Germain vit en elle ne
+<lb/>say quel signe celestiel et li dist : <q> « Dieu te salut, fille Genevieve. Te souvient il
+<lb/>que tu me promis hier de la virginité de ton corps ? </q><q>- Saint pere,
+<lb/>respondit l'enfant, je m'en recole bien et a l'aide de Dieu je desirre et pense
+<lb/>acomplir mon propos. » </q> Lors li sains regarde a terre et voit un denier d'arain
+<lb/>venu de la volenté de Dieu, signé du signe de la crois. Il le print et li donna et
+<lb/>dist : <q> « Bele fille, vous percerés ce denier et le porteréz en memoire de
+<lb/>Jhesucrist vostre espous et ne souffrés entour vous autre aournement ne de
+<lb/>aur ne d'argent ne de pierres precieuses, car, se la biauté de cest monde
+<lb/>surmonte un pou vostre pensee, vous perdrés les biens du ciel. » </q> Il la
+<lb/>commanda a Dieu et li pria qu'el se remenbrast de luy en ses oroisons et la
+<lb/>recommanda a pere et a mere. </p>
+<p>
+<lb/>Li II sains evesques s'en alerent en Engleterre. La estoient hereges qui
+<lb/>contre la foi catholique disoient que li enfanz nés de pere et de mere baptizés
+<lb/>n'avoient mestier de baptesme. Ce n'est pas verité, car nostre sire Jhesucrist
+<lb/>dit clerement en l'Evangile que nulz ne puet entrer ou regne de Dieu s'il n'est
+<lb/>renay d'yaue et du Saint Esperit, c'est a dire regeneré ou sacrement de
+<lb/>baptesme. Par cete Escripture et par <milestone unit="folio" n="97v"/> samblables destruirent li sains
+<lb/>prelas leur fausse creance et par vertuz ausint et par miracles, car en une
+<lb/>sollennité de Pasques que pluseurs estoient nouvelement baptiséz, il chacerent
+<lb/>en chantant <hi rend="ital">Alleluya</hi> anemis de Escoce et d'autres lieus estranges qui estoient
+<lb/>venuz pour le pais grever.
+
+</p></div><pb n="59"/>
+<div type="episode"><head rend="ital">Comment el rendit la veue a sa mere qui estoit aveugle por ce qu'el avoit ferue.</head>
+<p>
+<lb/>Il avint que Geronce, mere de la sainte pucele, en un jour de feste aloit au
+<lb/>moustier et dist a sa fille qu'el gardast l'ostel. La pucelote aloit aprés criant et
+<lb/>disant que la foy qu'el avoit promise a saint Germain el garderoit a l'aide de
+<lb/>Dieu et que souvent iroit au moustier afin qu'el deservist estre espouse
+<lb/>Jhesucrist et que digne fust trouvee de s'amour. La mere se courouça et li
+<lb/>donna une paumee. Dieu venga l'enfant qui la mere avugla : XXI mois ne vit
+<lb/>goute. Quant la mere out esté longuement en celle peine qui mout li ennuioit,
+<lb/>si li souvint du bien que saint Germain avoit dit de sa fille, si l'appella et li dit :
+<lb/><q> « Ma fille, aléz au puis et me apportés de l'yaue. » </q> La pucelote y ala bonne
+<lb/>aleure. Quant au puiz fu, el commença a plourer de ce que sa mere avoit
+<lb/>perdu la veue pour elle. El print de l'yaue et l'aporta a sa mere. La mere tendit
+<lb/>lez mains au ciel et en grant foi et reverence print l'yaue et la fist signer a sa
+<lb/>fille du signe de la croiz. El en lava ses yex. El commença a veoir un tantet.
+<lb/>Quant II foiz ou III les out lavés, la veue li revint comme devant.</p></div>
+<div type="episode"><head rend="ital">Comment l'evesque de Chartres aperçut sa sainteté.</head>
+<p>
+<lb/>Apréz ce avint que la sainte pucele fu offerte a l'evesque de Chartres
+<lb/>Villiques pour estre sacree avec II autres ainsneez de elle. Comme on les
+<lb/>offroit selonc l'aage, li evesques sceut par le Saint Esperit que Genevieve
+<lb/>estoit la plus digne, si dist : <q> « Celle qui est desriere viegne devant, car Dieu l'a
+<lb/>ja saintefiee. » </q></p></div>
+<div type="episode"><head rend="ital">Comment en une <milestone unit="folio" n="98"/> maladie el fu menee en paradis et en enfer.</head>
+<p>
+<lb/>Apréz la mort de pere et mere, vint la sainte damoisele demourer a Paris.
+<lb/>Illeq pour sa bonté esprouver et por mielx valoir fu si malade de paralizie qu'il
+
+
+
+<pb n="60"/>
+<lb/>sembloit que ses membres fussent desjoins li un de l'autre dont el fu si
+<lb/>tourmentee que par III jours on la gardoit comme morte ne signe de vie n'y
+<lb/>apparoit fors en ses joes qui un pou rouges estoient. En celle espace, si
+<lb/>comme el confessa apréz la maladie, l'amena un ange ou repos des bons et ou
+<lb/>tourment dez mauvés. Depuis ce, revela a pluseurs les secrés de leur
+<lb/>consciences comme celle qui ensegniee estoit du Saint Esperit. </p></div>
+<div type="episode"><head rend="ital">Comment saint Germain la recommanda de rechief.</head>
+<p>
+<lb/>Seconde foiz retourna saint Germain en Engleterre, si vint a Paris. Le
+<lb/>pueple presque tout ala encontre luy a grant joie. Devant toutez choses saint
+<lb/>Germain demanda comment Genevieve le fesoit. Le pueple qui plus est pres
+<lb/>de mesdire des bonnes gens que de euls ensuir respondit que ce ne estoit
+<lb/>nient de elle, mes en la blasmant, il la loeient. D'autruy loenge n'est nuls
+<lb/>meilleur ne d'autruy blasme n'est nulz poieur. Pour ce ne tint conte li sains de
+<lb/>leur jangleries, ainçois, si tost qu'il entra en la cité, il s'en ala tout droit a l'ostel
+<lb/>de la vierge, laquelle il salua a si grant humilité que touz s'en merveillerent et
+<lb/>monstra a ceulz qui la despisoient la terre arrousee de ses lermes et leur recita
+<lb/>le commencement de sa vie et comment a Nenterre il trouva qu'il estoit de
+<lb/>Dieu eslite et la recommanda au pueple.</p></div>
+<div type="episode"><head rend="ital">Comment el garda Paris dez anemis et comment Dieu la garda de mal.</head>
+<p>
+<lb/>Nouveles vindrent a Paris que li felon roy des Hondres Attile avoit emprins
+<lb/>a gaster toutes les parties de France et soumettre a sa dominacion. Li bourgois
+<lb/>de Paris, de la grant poour qu'il orent, envoierent leur biens es autres cités plus
+<lb/>seures. Genevieve admonesta les preudefames de la ville qu'il veillassent
+<lb/>
+
+
+
+<pb n="61"/>
+<lb/>en jeunes et en oroisons par quoi il peussent la tirannie dez anemis eschivoir et
+<lb/>estaindre comme jadiz firent II saintes fames Judith <milestone unit="folio" n="98v"/> et Hester. Il li
+<lb/>obeirent et par pluseurs jours furent en l'eglize en veilles, en jeusnes et en
+<lb/>oroisons. Au bourgois dist qu'il ne boujassent leur biens de Paris, car les
+<lb/>autres cités qu'il cuidoient estre plus seures seroient gastees, mez par la grace
+<lb/>de Dieu Paris n'aroit mal. Si en eurent aucuns indignacion et dirent que une
+<lb/>fausse prophete estoit apparue en leur temps et commencerent a traitier s'il la
+<lb/>noieroient ou lapideroient. En ce traitant comme Dieu le voult, vint a Paris
+<lb/>aprés le decés saint Germain l'archediacre d'Aucuerre, si entendit qu'il
+<lb/>traitoient ensemble de sa mort, vint a eulz et leur dist : <q> « Beau segneurs, pour
+<lb/>Dieu ne veillés faire tel meschief, car celle dont vous traitiés, tesmoing saint
+<lb/>Germain, est de Dieu eslite dez le ventre sa mere et voéz ci lettres qu'il li
+<lb/>envoie en quoi il se recommande a ses prieres. » </q> Quant li bourgois oïrent les
+<lb/>paroles saint Germain reciter et virent ses lettres, il se merveillerent. Il
+<lb/>doubterent Dieu et, leur mauvéz conseil lessyé, plus n'en firent. Ainsi la garda
+<lb/>nostre Sire de mal qui les siens seult garder adés et defendre selon ce que dist
+<lb/>l'apostre et por la siene amour fist que li tirans n'aproucherent Paris. Gloire a
+<lb/>Dieu et honneur a la vierge.</p></div>
+<div type="episode"><head rend="ital">Comment el mena dure vie.</head>
+<p>
+<lb/>Durement tourmenta son corps la precieuse vierge toute sa vie por pechié
+<lb/>macter et pour bonne example donner, car depuis qu'el fu en l'aage de XV
+<lb/>ans jusques au <w>L<hi rend="exp">me</hi></w> an jeunoit touz jours fors au dymenche et au juedi. En sa
+
+
+
+<pb n="62"/>
+<lb/>refection n'avoit que pain d'orge et feves cuites apréz II semaines ou III. Elle
+<lb/>menjoit pour toutes delices en oroisons, tous jours en veilles et en penitance.
+<lb/>Onques ne beut de vin ne d'autre liqueur qui puisse enyvrer par tout le temps
+<lb/>de sa vie. Quant L ans out mené celle vie, les evesques du temps regarderent
+<lb/>que trop floible estoit tant de abstinence que de viellece, si la amonnesterent
+<lb/>de croistre un pou son vivre. La sainte fame n'osa contredire, car dez prelas
+<lb/>dit nostre Sire par l'Escripture : <q> « Qui vous ot me ot et qui vous desprist me
+<lb/>desprist. » </q>, si se print par obedience a menger avec son pain d'orge poisson et
+<lb/>let et toutezfois que ce fesoit, el regardoit au ciel et <milestone unit="folio" n="99"/> ploroit dont en
+<lb/>croit qu'il veoit apertement nostre sire Jhesucrist selonc la promesse de
+<lb/>l'Evangile qui dit que beneuréz sont li nés de cuer, car il verront Dieu. El
+<lb/>avoit le cuer et le corps pur et net. XII vertuz virginals sont, ce dit Hermes
+<lb/>pasteur, sans lesqueles nulle vierge ne puet estre agreable a Dieu, c'est assavoir
+<lb/>foi, abstinence, pacience, magnanimité, simplece, innocence, concorde, charité,
+<lb/>discipline, chasteté, verité et prudence. Ces vertus acomplissoit la sainte vierge
+<lb/>par euvre, ensegnoit de parole et monstroit par example.</p></div>
+<div type="episode"><head rend="ital">Comment el fist faire l'eglize Saint Denis de l'Ettree et dez miracles qui y avindrent.</head>
+<p>Souvent et devant touz autres lieus sains visitoit le lieu ou reposoit saint
+<lb/>Denis et ses compaignons, si li print devocion de edifier sus les corps sains
+<lb/>une eglize, mez n'avoit de quoi. Une fois vindrent a elle les prestres comme
+<lb/>souvent le fesoient, si leur dist : <q> « Reverens peres en Dieu, je vous suppli que
+<lb/>chascun face son pouer d'assembler matiere par quoi on puist edefier une
+<lb/>eglize en l'onneur dez glorieus martirs saint Denys et ses compaignons, car
+<lb/>mout est a honnorer et a doubter le lieu ou ceulz reposent qui a nos ancestres
+
+
+
+<pb n="63"/>
+<lb/>ensegnerent premierement la foi. » </q> <q> « Dame, respondirent li prestres, grant
+<lb/>volenté en avons, mez de chaux ne pourrions finer. » </q> Lors dist la sainte vierge
+<lb/>a chiere liee en prophetizant comme celle qui remplie estoit du Saint Esperit :
+<lb/><q> « Alés, je vous pri, a Paris sus Grant Pont et me rapportéz ce que vous
+<lb/>trouveréz. » </q> A Grant Pont s'en alerent et illec se tindrent une piece touz
+<lb/>merveilléz et esbahis et tantost pres de eulz vindrent II porchiers parlant
+<lb/>ensemble et dist li uns : <q> « Comme je aloie hier aprés une de mez truyes qui
+<lb/>vouloit pourceler, je trouve un fournel de chaux merveilleusement grant. » </q> Li
+<lb/>autres respondit : <q> « Et je trouve ou boys dessouz la racine de un arbre que le
+<lb/>vent a abatu un fournel de chaux dont on n'a riens osté, ce croi. » </q> Quant li
+<lb/>prestrez oïrent ce, il orent grant admiracion et beneirent nostre Sire qui tel
+<lb/>grace avoit donnee a Genevieve, la siene ancelle. Demanderent ou estoient lez
+<lb/>fournaux, puis retornerent et dirent a la vierge ceu qu'il avoient trouvé. El
+<lb/>commença a plorer de joie et si tost que li prestres s'en furent aléz, el mist
+<lb/><milestone unit="folio" n="99v"/> les genouz a terre et fu toute la nuit en oroison et en lermez en
+<lb/>requerant l'aide de Dieu a cel euvre parfaire. Et l'endemain bien matin matee
+<lb/>et traveilliee de veillier s'en ala a Genese, un bon prestre, et li pria mout qu'il
+<lb/>meist peine a l'eglize edefier et li dist les nouveles de la chaux. Quant Geneses
+<lb/>oït de la chaux, touz merveillés li cheï au piés et li promist que nuit et jour
+<lb/>metroit peine d'acomplir son commandement.</p></div>
+<div type="episode"><head rend="ital">Comment el donna a boire aus ouvriés par miracle.</head>
+<p>
+<lb/>A l'aide de Dieu, de madame sainte Genevieve et du pueple de Paris, fu
+<lb/>commenciee ladite eglize en l'onneur dez benois martirs saint Denis, saint
+<lb/>Rustique et saint Eleuthere, qui maintenant est appelee Saint Denis de l'Etree.
+<lb/>La estoient encore li corps sains. Mout beau miracle y fist nostre Sire, car
+<lb/>comme li ouvriers entendoient a l'edifice faire chascun selonc son mestier, il
+<lb/>avint que le boire failly. Si dist Genese a la virge, qui de ce riens ne savoit,
+
+<pb n="64"/>
+<lb/>qu'el sermonnast aus ouvriers tant qu'il fust alé a Paris querre a boire. Quant
+<lb/>el oï ce, el demanda la coupe en quoi en leur donnoit a boire. On li apporta.
+<lb/>El les en fist aler. Lors a genouz se mist et pria Dieu a chaudes lermes. Quant
+<lb/>el senti que nostre Sire avoit oï sa priere, el se leva et fist le signe de la croiz
+<lb/>suz le vessel. Merveilleuse chose y avint, car le vessel se emplit. Li ouvriéz en
+<lb/>beurent touz a cuer saoul et toutezfois qu'il vouloient jusques atant que
+<lb/>l'eglize fust parfaite, dont il regracierent nostre Segneur.</p></div>
+<div type="episode"><head rend="ital">Comment un cierge aluma en sa main par miracle.</head>
+<p>
+<lb/>En devocion avoit la sainte dame de veillier la nuit que nostre Sire resuscita
+<lb/>de mort a vie selonc la coustume et les estatuz des anciens peres, si avint une
+<lb/>fois qu'el se mist au chemin devant le jour pour aler a ladite eglize de Saint
+<lb/>Denis et fesoit porter un cierge ardant devant luy. La nuit estoit obscure, les
+<lb/>boes grans et plouvoit fort, si estaint le cierge. Les virges qui estoient en sa
+<lb/>compagnie furent mout troublees. El demanda le cierge. Si tost qu'el le tint, il
+<lb/>fu alumé et le porta ardant jusques a <milestone unit="folio" n="100"/> l'eglize. Une autre fois en
+<lb/>l'eglize oroit. Quant finee ot son oroison, un cierge qu'el tenoit tout entier fu
+<lb/>alumé en sa main par la voulenté de Dieu. En sa celle ausint fu allumé en sa
+<lb/>main un cierge sanz le feu de ce monde, ouquel cierge pluseurs malades qui
+<lb/>par bonne foi et reverence prenoient un pou guerissoient. On le garde ou
+<lb/>reliquiere Nostre Dame de Paris.
+
+
+
+</p></div><pb n="65"/>
+<div type="episode"><head rend="ital">Comment el rendit la veue a une fame.</head>
+<p>
+<lb/>Une fame par tentacion de l'anemi qui tous jours deçoit les bons a son
+<lb/>pouoir li embla ses soulers, mes si tost qu'el fu a l'ostel el perdit la veue.
+<lb/>Quant el vit que nostre Sire vengoist l'injure qu'el avoit faite a la vierge, el s'i
+<lb/>fist mener en raportant son larrecin. Quant fu devant la sainte dame, el li cheï
+<lb/>au piéz et li requist pardon et restitucion de sa veue. Genevieve, qui tres
+<lb/>debonnaires estoit, la leva de terre en souzriant et li rendit la lumiere de ces
+<lb/>yelx.</p></div>
+<div type="episode"><head rend="ital">De une paralitique qu'el guary.</head>
+<p>
+<lb/>A Laon ala une foiz la sainte dame. Le pueple issit de la ville encontre luy.
+<lb/>Entre lez autres estoient le pere et la mere de une pucelle qui par IX ans avoit
+<lb/>esté paralitique si fort que nuls ne peust monstrer la jointure de sez membres.
+<lb/>Il supplierent a la vierge, eulz et les anciens du pueple, qu'el vousit visiter
+<lb/>ladite malade. El y ala. En oroison se mist selonc sa coustume. Puis demaina
+<lb/>les membres de la pucele et li commanda qu'el se vestist et chauçast.
+<lb/>Incontinent el se leva en si bonne santé qu'el ala avec le pueple a l'eglize. Les
+<lb/>genz qui ce virent beneirent nostre Segneur qui tel grace avoit donnee a sa
+<lb/>damoisele Genevieve. Et quant d'illec retourna, il la convoierent en chantant
+<lb/>a grant joie. </p></div>
+<div type="episode"><head rend="ital">Comment les portes de Paris se ouvrirent devant elle et cetera.</head>
+<p>Li roy de France Childeric, combien qu'il fust paien, la tenoit en grant
+<lb/>reverence. Si fesoient ausint les barons de France pour lez beaus miracles
+<lb/>qu'el fesoit ou non Jhesucrist. Dont une fois avint que ledit roy tenoit
+<lb/>prisonniers jugiéz a mort. Mez afin que Genevieve ne li ostast, il issit hors de
+
+
+
+<pb n="66"/>
+<lb/>Paris et fist clorre les portez aprés li. La virge le sceut. El se mist <milestone unit="folio" n="100v"/> au
+<lb/>chemin bonne aleure pour lez ames delivrer. Si tost qu'el vint au portes, il se
+<lb/>ouvrirent sanz clef voiant le pueple qui de ce fu en grant admiracion. El
+<lb/>poursuyt le roy et obtint grace au prisonniers.</p></div>
+<div type="episode"><head rend="ital">Comment saint Symeon, moine, sceut par le Saint Esperit sa sainteté.</head>
+<p>
+<lb/>Es partiez d'Orient outre Anthyoche estoit un preudomme, Symeon avoit
+<lb/>nom, grant despriseur du siecle et de vie merveilleuse qui de sainte Genevieve
+<lb/>demanda au marchans qui aloient par dela et par eulz la salua mout
+<lb/>honnorablement et se recommanda en ses prieres. Grant merveille est que li
+<lb/>sains homs qui onques ne l'avoit veue ne oï parler de elle la saluoit par son
+<lb/>nom voir. Li amis Dieu qui sa volenté cognoissent et font scevent les uns des
+<lb/>autres par l'aministracion du Saint Esperit ja ne seront si separés comme saint
+<lb/>Ambroise a Milan sceut le trespassement de saint Martin de Tours. </p></div>
+<div type="episode"><head rend="ital">Comment sainte Celine s'acompaigna a elle et cetera.</head>
+<p>
+<lb/>A Meaux avoit une noble damoisele que on nommoit Celine. Quant oï parler
+<lb/>de la grace que Diex avoit donnee a sainte Genevieve, el li requist qu'el li
+<lb/>muast son abit. Uns jeunes homs l'avoit fiancee qui out grant indignacion
+<lb/>quant oï ces nouveles et vint a Meaux en grant ire ou lez II virges
+<lb/>demouroient. Quant il sceurent sa venue, il s'en fuirent a l'eglize. Beau miracle
+<lb/>y avint, car si tost qu'il furent a la porte qui fermee estoit, el se deferma de son
+<lb/>gré. Ainsint delivra sainte Genevieve sainte Celine du peril et de la
+<lb/>contagion de cest monde, laquele parsevera en abstinence et chasteté jusques
+<lb/>en la fin. En cel temps offrit ladite Celine a sainte Genevieve une siene
+<lb/>chamberiere qui II ans avoit esté si malade qu'el ne pouoit aler. La sainte
+<lb/>dame li demaina les membres a ses dignes mains. Tantost fu saine et en bon
+<lb/>point.
+
+
+
+</p></div><pb n="67"/>
+<div type="episode"><head rend="ital">Comment el guery XII forsenés.</head>
+<p>
+<lb/>On li amena une foiz a Paris XII forsenés demoniacles, qui trop durement
+<lb/>estoient tourmentés de l'anemi. La vierge en out pitié. El se mist a oroison en
+<lb/>requerant nostre Sire a chaudes lermes que par sa douceur il lez vousit
+<lb/>delivrer de celle pestilence. Si comme el parseveroit en oroison, <milestone unit="folio" n="101"/> il
+<lb/>furent penduz en l'air en tel maniere qu'il ne touchoient a riens. El se leva
+<lb/>d'oroison et leur dist qu'il alassent a saint Denis. Li forsenés respondirent
+<lb/>qu'il ne pouoient se el ne les deslioit. La virge, qui pour eulz estoit en grant
+<lb/>douleur, commanda qu'il y alassent et souffri que on les y menast secretement
+<lb/>lez mains liees desriere le dos. Aprés els ala et quant fu en l'eglize saint Denis,
+<lb/>el se estendit a la terre en oroison et en pleur. Comme el parseveroit en
+<lb/>oroison, li forsenés crioient a haute voiz que ceulz s'aprouchoient que la virge
+<lb/>appelloit a son aide. Nulz ne doit doubter que li anemis qui veoit que issir
+<lb/>hors li convenoit senefioit par la bouche dez demoniacles que li apostres et li
+<lb/>martirs et li autres sains que la vierge appelloit venoient a son aide par le don
+<lb/>de Dieu, qui appareillés est de faire la volenté de ceulz qui le doubtent et qui
+<lb/>l'appellent en verité. Quant la virge out oï ce qu'il disoient, el se leva et les
+<lb/>signa l'un aprés l'autre du signe de la crois et tantost furent delivréz des
+<lb/>anemis. Ceulz qui presens estoient sentirent si trez grant punezie qu'il ne
+<lb/>doubterent point que les ames ne fussent delivréz de la vexacion au dyable et
+<lb/>beneirent nostre Seigneur pour tel signe.
+
+
+
+</p></div><pb n="68"/>
+<div type="episode"><head rend="ital">Comment el savoit par le Saint Esperit lez secrés des consciences.</head>
+<p>
+<lb/>Une damoisele avoit a Bourgez qui oït le grant renom de la sainte, si vint a
+<lb/>Paris pour parler aveques elle. Sacree avoit esté, mez depuis la consecracion
+<lb/>avoit perdu sa virginité. La sainte dame li demanda se el estoit vierge nonnein
+<lb/>ou veueve famme. Celle respondit que el estoit vierge sacree. Genevieve dist
+<lb/>que non en li exposant le lieu et le temps de sa defloracion et le homme qui ce
+<lb/>avoit fait. Quant celle vit que pour nient se fesoit vierge, conscience la
+<lb/>remordit et li cheÿ au piéz en requerant pardon. Par samblable maniere, la
+<lb/>sainte dame descouvry a pluseurs les secrés de leur consciences qui ne sont
+<lb/>pas escriz qu'il ne tournast a ennuy. </p></div>
+<div type="episode"><head rend="ital">Comment el resuscita un enfant mort.</head>
+<p>
+<lb/>Une fame que la virge avoit guerie de forsenerie avoit un enfant de l'aage de
+<lb/>IIII ans qui d'aventure cheÿ en un puis. Longuement il fu ausi comme par
+<lb/>l'espace de III heures. La mere le traist et le apporta a la sainte en desrompant
+<lb/>ses cheveuls, en batant son piz et ses mamelles et en <milestone unit="folio" n="101v"/> plorant
+<lb/>amerement et le jeta tout mort a ses piés. La vierge couvrist l'enfant de son
+<lb/>mantel et se mist a oroison en plorant. Lors y fist nostre Segneur miracle
+<lb/>merveilleux, car si tost qu'el cessa de plorer, la mort s'en fuy et l'enfant
+<lb/>reveschit, lequel fu baptizé a Pasques prouchaines et ot nom Cellomer, pour
+<lb/>ce que resuscité avoit esté en la celle sainte Genevieve.</p></div>
+<div type="episode"><head rend="ital">De un homme qui avoit le bras perdu.</head>
+<p>A Meaux vint a la virge un home qui avoit la main seche jusques au coute et
+<lb/>la prioit qu'el li restituast. El print sa main et demaina les jointes dez dois et
+<lb/>fist le signe de la croiz dessuz. Bien tost la main devint toute saine.
+
+
+
+</p></div><pb n="69"/>
+<div type="episode"><head rend="ital">Comment el se tint longuement en oroison et cetera.</head>
+<p>
+<lb/>Genevieve, la Dieu amie, qui bien savoit que tantost que nostre sire
+<lb/>Jhesucrist fu baptizé le jour de la Typhaine, il s'en ala ou desert en donnant
+<lb/>ensengnement a ceuls qui sont regenerés ou sainct sacrement de baptesme, de
+<lb/>jeuner, veillier et orer assiduement et d'acomplir par euvre la grace qu'il ont
+<lb/>prise ou baptesme. A l'example du douls Jhesucrist, s'en entra en sa celle le
+<lb/>dymenche devant ladite feste et la fu comme recluse jusques au juedi absolu
+<lb/>en veilles, en junes et en oroisons. Si vint une fame veoir qu'el fesoit plus par
+<lb/>curiosité que par bonne foi et pour ce Dieu l'en puny, car si tost qu'el
+<lb/>aproucha l'uys, el perdit la veue. Mez la virge debonnaire l'enlumina par
+<lb/>oroison et par le signe de la croiz quant el issit de sa celle en la fin de karesme.</p></div>
+<div type="episode"><head rend="ital">Comment el delivra Paris de famine et Seine de peril.</head>
+<p>
+<lb/>Ou temps que Paris fu assegé X ans, si com li anciens dient, si grant famine
+<lb/>se ensuy que pluseurs mouroient de fain. La virge que pitié contraignoit se
+<lb/>mist en Seine pour aler querre a navie des vivres. Quant vint en un lieu de
+<lb/>Seine ou les nés souloient periller, el fist traire les nés a rive et commanda que
+<lb/>on coupast un arbre qui estoit en l'yaue et se mist a oroison. Si comme li
+<lb/>notonniers voudrent ferir sus, l'arbre trebucha et II bestes sauvages vaires et
+<lb/>horribles vont issir d'ilec que si grant pueur lessierent que les gens en furent
+<lb/>touz eveniméz par l'espace de II heures. Onques puis nef n'y <milestone unit="folio" n="102"/> pery
+<lb/>merci Dieu et la sainte.
+
+
+
+</p></div><pb n="70"/>
+<div type="episode"><head rend="ital">De une paralitique qu'el guary.</head>
+<p>A Arcy le chastel ou pais de Troies s'en ala. Encontre luy vint un grant sires
+<lb/>qui li requist qu'el visitast sa fame, qui lonc temps avoit esté paralitique. La
+<lb/>virge la visita. A oroison se mist, puis la signa du signe de la croiz et li
+<lb/>commanda qu'el se levast. Celle qui IIII anz avoit esté si malade que aidier ne
+<lb/>se pouoit se leva toute saine voiant le pueple qui loa nostre Segneur.</p></div>
+<div type="episode"><head rend="ital">Dez miracles que el fist a Troies.</head>
+<p>De Arcy s'en ala a Troies. Le pueple vint encontre luy qui li offry grant
+<lb/>multitude de malades de diverses maladies sanz nombre. El les seigna et
+<lb/>beneit. Incontinent furent gueris voiant le pueple qui mout se merveilla et
+<lb/>rendit graces a Dieu. On li amena un homme que la punicion divine avoit
+<lb/>aveuglé, pour ce qu'il besoignoit au dymenche et une pucele ausint aveugle li
+<lb/>fu presentee. La virge les seigna ou nom du Pere et du Fil et du Saint Esperit
+<lb/>et tantost la veue leur fu restituee. Quant un souzdiacre qui presens estoit vit
+<lb/>ce, il li amena un enfant qui X mois avoit esté en fievre tres dure. La sainte
+<lb/>dame se fist apporter de l'yaue. El la seigna et li en donna a boire. L'enfant
+<lb/>par la grace de Dieu fu en bonne santé.</p></div>
+<div type="episode"><head rend="ital">Comment li maladez guerissoient par ses vestemens.</head>
+<p>
+<lb/>En cel temps prindrent pluseurs des tailleures de sa vesture par devocion
+<lb/>dont pluseurs malades furent guariz et dont pluseurs forsené furent delivréz
+<lb/>de l'anemi et remis en leur sen.
+
+
+
+</p></div><pb n="71"/>
+<div type="episode"><head rend="ital">Comment el guarda XI nés de perir en Seine.</head>
+<p>
+<lb/>De Arcy retournoit la sainte dame a Paris avec XI nés chargies de vitaille
+<lb/>quant vent et orage les acuylli si fort qu'il cuidoient perir sanz remede. La
+<lb/>virge leva les mains au ciel en requerant l'aide nostre Sire. Tantost la tempeste
+<lb/>cessa et le peril. Quant ce vit, Bessuz, un prestre qui presens estoit qui de
+<lb/>poour avoit, tremble un pou devant. Il commença a chanter a grant joie
+<lb/><hi rend="ital">Cantemus Domino et cetera</hi>. Tuit loerent nostre Segneur, qui sauvéz les avoit par
+<lb/>les prieres de sa damoisele Genevieve. Quant a Paris vint, lez biens que
+<lb/>amenéz avoit departit et donna aus uns pour l'annee, auz autres les pains
+<lb/>entiers. Aucune foiz se hastoit si de pitié que lez pains chaux el <milestone unit="folio" n="102v"/>
+<lb/>ostoit du four secretement et donnoit au povres. <supplied>Les fames se merveilloient
+<lb/>de ceu que elle prenoit leur pains mais parler n'en osoient et moult doubtoient
+<lb/>qu'il ne peussent trouver leur compte, mais grace a Dieu il trouverent touz
+<lb/>leur pains par les merites de la saincte.</supplied> S'esperance estoit non pas es biens du
+<lb/>monde mes es biens du ciel, car el creoit a la sainte Escripture qui dit que qui
+<lb/>donne au povres preste a Dieu a usure. Le pais ou ceuls reçoivent qui au
+<lb/>povres donnent li avoit pieça revelé le Saint Esperit et pour ce ne cessoit de
+<lb/>plorer et de orer et de faire euvres de pitié, car el savoit bien que en cest
+<lb/>monde ne estoit fors comme pelerine trespassant.</p></div>
+<div type="episode"><head rend="ital">De un homme qui ne pouoit aler ne oïr.</head>
+<p>
+<lb/>A Meaulx avoit un bourgois, qui par l'espace de IIII ans, n'avoit peu oïr ne
+<lb/>aler. Il se fist apporter a la virge qui demouroit a Paris et li requist qu'el li
+<lb/>vousist l'oÿe restituer. La sainte li atoucha les oreilles et les seigna. Il ala et oït
+<lb/>comme devant et beney nostre Segneur.
+
+
+
+</p></div><pb n="72"/>
+<div type="episode"><head rend="ital">Des miracles qu'el fist a Orliens.</head>
+<p>
+<lb/>A Orliens ala une foiz la sainte dame. Une fame que on appelloit Fraterne
+<lb/>estoit en grant douleur pour sa fille qui se mouroit. Si tost qu'el senti la venue
+<lb/>de la sainte virge, el vint a luy a saint Agnen ou el la trouva en oroison.
+<lb/>Fraterne li va choer au piéz en disant : <q> « Dame Genevieve, rendés moi Clode,
+<lb/>ma fille. » </q> Quant la virge vit sa bonne foy, si li dist : <q> « Ne te desconforte plus.
+<lb/>Ta fille est en santé. » </q> Tantost la bonne fame se leva a grant joie et retourna a
+<lb/>son ostel certaine du salut de sa fille, laquele par la merveilleuse puissance de
+<lb/>Dieu a la parole de la virge fu ramenee du guychet de la mort et vint encontre
+<lb/>sa mere toute saine. Au portal de sa meson le pueple loa nostre Sire pour le
+<lb/>beau miracle.</p></div>
+<div type="episode"><head rend="ital">Un autre beau miracle.</head>
+<p>
+<lb/>En ladite cité avoit un varlet qui vers son mestre estoit coupables. La sainte
+<lb/>dame soupplia a son mestre qu'il li pardonnast son meffet. Li mestres felons et
+<lb/>orguilleuz n'en daigna riens faire. Lors dist la virge : <q> « Se vous me despités,
+<lb/>nostre segneur Jhesucrist ne me aura pas en despist pourtant. » </q> Si tost que
+<lb/>celuy fu a son ostel, chaude fievre l'acuilly par tel maniere que toute la nuit il
+<lb/>ne peut reposer. L'andemain au point du jour s'en couru a la sainte dame
+<lb/>gueule bee comme un ours d'Alemaigne, la lengue traite, escumans comme
+<lb/><milestone unit="folio" n="103"/> un pourcel. Au piéz li cheÿ requerant pardon qui pardon n'avoit
+<lb/>voulou donner. La sainte en out pitié. El le seigna et la fievre le lessa. Ainsint
+<lb/>rendit le mestre en santé et le varlet excusé.</p></div>
+<div type="episode"><head rend="ital">Dez miraclez qu'el fist a Tours.</head>
+<p>
+<lb/>De Orliens ala la sainte dame a Tours par l'yaue de Leire, ou el souffri mout
+<lb/>de perils. Quant fu arivee a Tours, grant foison de demoniaclez s'en vindrent
+<lb/>encontre luy de l'eglize Saint Martin et crioient li anemis par la bouche dez
+<lb/>forsenés qu'il estoient ars par les merites saint Martin et sainte Genevieve et
+<lb/>que, les perils que la virge avoit euz en Leire, il avoient fait par envie. La virge
+
+
+
+</p><pb n="73"/>
+<p>ala a l'eglize saint Martin, ou el guery pluseurs demoniacles par oroison et par
+<lb/>le signe de la croiz et disoient li forsenés a l'eure de leur tourment que les dois
+<lb/>de la sainte ardoient entour euls comme ciergez enflambés du feu du ciel. De
+<lb/>ce oïrent parler III hommes qui leur fames gardoient toutes forsenees. Il s'en
+<lb/>alerent a l'eglize et li prierent qu'el vousist visiter leur fames. La virge
+<lb/>debonnaire les ala visiter et les delivra de l'anemi par unction de oile benoite
+<lb/>et par oroison. Bien tost aprés avint que la sainte virge estoit au vegiles saint
+<lb/>Martin en un coron de l'eglize en oroison et ne savoient les gens d'entour luy
+<lb/>qui elle estoit et voiz ci un de ceuls qui chantoient va estre si tourmenté de
+<lb/>l'anemi qu'il mengoit ses membres. Il va issir du chancel et vient tout droit a la
+<lb/>virge. La virge dist au malvéz esperit qu'il issit. Il respondi que, se il issoit, il
+<lb/>istroit par l'ueyl. El li commanda que plus n'y demourast. Il s'en va issir,
+<lb/>vousist ou non, par flux de ventre et lessa ledes enseignes. Li malade fu en
+<lb/>bon sen dont il loa nostre Segneur. Ceuls de Tours honnorerent mout la
+<lb/>sainte dame combien que ce fust contre sa volenté. </p></div>
+<div type="episode"><head rend="ital">Comment el avoit clere cognoissance de l'anemi.</head>
+<p>
+<lb/>Une foiz se tenoit ladite virge a son huis, si vit passer une pucelle qui
+<lb/>portoit une buretee de oile. El l'appella et li demanda qu'el portoit. Celle
+<lb/>respondi qu'el portoit oile qu'el venoit d'acheter. La sainte qui veoit l'anemi
+<lb/>seoir suz la gueule de la burete le va soufler et menacer et la gueule de la
+<lb/>burete va rompre. El segna l'uile et dit a la pucelle qu'el <milestone unit="folio" n="103v"/> s'en alast
+<lb/>seurement. Les gens qui ce virent se merveillerent mout de ce que li anemis
+<lb/>ne se savoit si mucier qu'el ne l'aperceust et loerent nostre Segneur.</p></div>
+<div type="episode"><head rend="ital">De IIII beauz miracles qu'el fist en un homme.</head>
+<p>
+<lb/>Un enfant li fu apporté de ses parens qui estoit sourt et muet, aveugle et
+<lb/>contrait. La virge le enoint de oile benoite. En l'eure il vit et oït clerement. Il
+<lb/>parla et ala et receut santé entierement.
+
+
+
+</p></div><pb n="74"/>
+<div type="episode"><head rend="ital">Comment el garda de la pluie un champ ou el fesoit aouster.</head>
+<p>
+<lb/>Ou terrouer de Meaulx fesoit une foiz la sainte dame aouster blés qu'el y
+<lb/>avoit, si se leva un grant orage de pluie et de vent qui mout troubla ses
+<lb/>ouvriés. El se va mettre a terre en oraison. Merveilleuse vertu y demonstra
+<lb/>nostre segneur Jhesucrist, car la pluie cheoit fort suz touz les blés d'environ.
+<lb/>Ou champ de la virge ne cheï onque goute.</p></div>
+<div type="episode"><head rend="ital">Comment el fist cesser une tempeste en Seine.</head>
+<p>
+<lb/>Par Seine aloit une foiz la sainte. Tempeste leva grant de vent qui la nef
+<lb/>durement debatoit et les undes si fort demenoit que la nef a pou en estoit
+<lb/>couverte. Lors tendit les mains au ciel en requerant l'aide nostre Segneur. En
+<lb/>l'eure le temps s'apaisa en tel maniere que ceuls qui presens estoient virent
+<lb/>bien que nostre sire Jhesucrist pour l'amour de la virge avoit fet vent et pluie
+<lb/>cesser.</p></div>
+<div type="episode"><head rend="ital">Pluseurs autres beaus miracles.</head>
+<p>
+<lb/>Touz li malades qu'el oignoit d'oile benoist devenoient en l'eure touz sains.
+<lb/>Dont il avint qu'el vouloit une foiz enoindre un demoniacle, mes ne trouva
+<lb/>point d'oile en son ampolle. Si fu mout troublee et ne savoit que faire, car
+<lb/>nuls evesques ne estoit present qui l'oile peust beneir. El se va mettre a
+<lb/>oroison en priant Dieu qu'il vousit le forsené delivrer de l'anemi. Nostre
+<lb/>Segneur y monstra II beles vertus, car si tost qu'el se leva de oroison,
+<lb/>l'ampolle se emplit d'uille entre ses mains, de laquelle el enoint le forsené, qui
+<lb/>tantost fu delivré du mauvés esperit. Ladite ampolle avec l'oile vit celuy qui sa
+<lb/>vie escript en latin XVIII ans passés aprés le decéz de la virge.
+
+
+
+</p></div><pb n="75"/>
+<div type="episode"><head rend="ital">De son trespassement.</head>
+<p>
+<lb/>Mout d'autres miracles sanz nombre fist nostre Segneur pour l'amour de la
+<lb/>sainte, laquele veschi en cest siecle pleine de vertuz et de bien plus <milestone unit="folio" n="104"/>
+<lb/>de <w>IIII<hi rend="exp">XX</hi></w> ans et trespassa dignement le tiers jour de janvier. Puis fu enterree
+<lb/>ou Mont de Paris, jadiz appellé Mont Parloer, maintenant dit Mont Sainte
+<lb/>Genevieve, en l'eglize Saint Pere et Saint Pol, laquele comme dit est ou
+<lb/>commencement le roy Loys, jadiz appellé Clovis, fist faire a l'enortement de la
+<lb/>virge pour qui amour il fist grace a maint prisonnier. A son trespassement et
+<lb/>apréz avindrent mout de beauz miraclez qui par negligence, par ennuy et par
+<lb/>nonchalance ne sont pas escriz comme cil le confesse qui sa vie mist en latin
+<lb/>fors II qu'il met en la fin de son livre qui ci apréz sont escriz. </p>
+<p>
+<lb/>Au sepucre de la sainte virge fu apporté un jeune homme qui si malades
+<lb/>estoit de la pierre que ses amis n'avoient nulle esperance de sa vie. En grant
+<lb/>pleur et douleur le amenerent en requerant l'aide de la virge. Bien tost apréz
+<lb/>leur oroison, la pierre s'en issit et fu aussint sain et liés comme s'il n'eust
+<lb/>onques eu maladie. Un autre homme y vint qui volentiers besoignoit au
+<lb/>dymenche, si l'en punit nostre Sire, car il li fist lez mains contraites qu'il ne
+<lb/>pouoit besoignier aus autres jours. Il se repenti et renonça au pechié et vint au
+<lb/>tumbel de la virge. Illec plora et veilla et ora devotement. L'endemain il
+<lb/>retourna tout sain loant nostre Segneur et la virge qui par ses dignes merites et
+<lb/>prieres nous veille empetrer pardon et grace et joie pardurable. Amen.
+
+
+
+</p></div><pb n="76"/>
+
+<div><head>Ci apréz sont escriz aucuns des miracles d'apréz son trespassement.</head>
+<p>
+<lb/>Apréz le trespassement de la benoite virge madame sainte Genevieve fu
+<lb/>assignee une lampe a son sepucre, en laquele l'oile sourdoit comme l'yaue en
+<lb/>la fontaine. III beles vertus y fesoit nostre Segneur, car li feu adéz y ardoit.
+<lb/>L'oile point n'apetiçoit. L'oile les malades guerissoit. Ainsint ouvroit la virge
+<lb/>corporelment qui plus habundamment euvre es ames par ses merites
+<lb/>esperituelment. Au sepucre de la virge vint un homme qui de lonc temps
+<lb/>n'avoit parlé ne veu. Comme li clers chanterent au communion de la messe :
+<lb/><hi rend="ital">Illumina faciem tuam super servum tuum</hi> - c'est a dire <q> « Diex, enlumine ta face sur
+<lb/>ton sergent » </q> - il vit et parla et loa nostre Segneur.</p>
+<p>
+<lb/><milestone unit="folio" n="104v"/> Revelé fu a uns homs devers Poissy, Foucoins avoit nom, muet dez
+<lb/>l'eure qu'il fu né que il alast a la presence de la virge et illec trouveroit la voiz
+<lb/>que nature li avoit deneyé. Il y vint et ariva a un dymence a heure que on
+<lb/>lisoit en l'Evangile de la messe : <foreign rend="ital">Bene omnia fecit et surdos fecit audire et mutos loqui</foreign>,
+<lb/>c'est a dire : <q> « Nostre Sire fist bien toutez choses, il a fait les sours oïr et les
+<lb/>muéz parler » .</q> Il oït et creut a la sainte Evangile et tantost sa lengue fu desliee
+<lb/>et parla en beneissant nostre Segneur. Aprés la messe li demanda li prelat de
+<lb/>l'eglize qu'il vouloit faire aprés si grant benefice que Diex li avoit fet. Celuy
+<lb/>respont que ou lieu vourroit bien demourer toute sa vie que nostre Sire li
+<lb/>avoit demonstré par revelacion et ou il avoit prins nouvele voiz. Li prelaz out
+<lb/>aggreable sa devocion et li amenistra tant com veschi les necessaires.</p>
+<p>
+<lb/>En cel temps fu amonnestee en vision une fame qu'el apportast audit lieu
+<lb/>son enfant qui onques n'avoit veu. Le jour qu'il y vint on recita en l'Evangile
+<lb/>de la messe le miracle comme nostre sire Jhesucrist ouvrit les yex de celuy qui
+<lb/>fu né aveugle. En l'eure que on dist cele clause les yex de l'enfant se
+
+<pb n="77"/>
+<lb/>ouvrirent et commença regarder les choses d'entour li comme cil qui onques
+<lb/>mes tels choses n'avoit veues et ala prendre une chandele que sa mere tenoit
+<lb/>pour offrir voians pluseurs qui presens estoient qui de ce se merveillerent et
+<lb/>loerent nostre Sire. Uns homs de Paris forsenés estoit que ses amis menerent
+<lb/>en pluseurs lieus sains, mez nulle guerison ne trouvoit, si n'avoient plus
+<lb/>esperance de sa santé et le lierent de chaienes. Une nuit, ceuls qui le gardoient
+<lb/>se endormirent, si s'en fuy et s'en vint par la volenté de Dieu a l'eglize de la
+<lb/>sainte virge. Mez li anemis senti en l'eure la puissance de la sainte et le lessa
+<lb/>bien tost. Aprés lez portez furent ouvertes. Il entra sain et liés et offry la
+<lb/>chaiene dont il avoit esté liés et s'en retourna disant a touz le benefice que
+<lb/>nostre Sire li avoit fet.</p>
+<p>
+<lb/>En la couverture de ladite eglize ouvroient une foiz ouvriers. Un de euls
+<lb/>trebucha du feste et cheoit aval, comme il trouva une es a quoi il <milestone unit="folio" n="105"/>
+<lb/>mist la main et son corps pendoit. Les freres se mistrent en oroison pour li et
+<lb/>pluseurs monterent en haut qui le leverent a cordes par dessouz les esseles.
+<lb/>Quant du peril fu hors, il disoit que peeur nulle n'avoit eue, ne du peril riens
+<lb/>ne savoit, ainçoiz avoit reposé comme s'il dormist et a confirmacion du
+<lb/>miracle avint une grant merveille, car l'es qui bougié ne se estoit pour la
+<lb/>pesanteur de son corps cheï sanz nulle violence et se depeça en pieces.</p>
+<p>
+<lb/>Le jour de la nativité Nostre Dame avint que une fame pegnoit laine es
+<lb/>fauxbours de Paris. Une siene voisine la reprint de ce faire en si grant
+<lb/>sollennité. Celle ajousta pechié suz pechié et respondit : <q> « Ne fu pas Marie
+<lb/>fame et fist besoigne comme autre une ? » </q> Si tost qu'el out dit ce mauvéz mot,
+<lb/>les piegnez s'aerdirent a ses mains et s'i tindrent jusques a la feste madame
+<lb/>sainte Genevieve. La nuit de ladite feste vint celle fame en l'eglize de la sainte.
+
+<pb n="78"/>
+<lb/>Si tost que on commença matines, les piegnes li cheïrent des mains. Par ce
+<lb/>devons croire fermement que ceuls qui en la virge ont amour et devocion
+<lb/>sont par ses merites deschargiéz de pechié. Ledit miracle tesmoignoient les
+<lb/>piegnes qui par long temps pendirent au dehors du moustier, si doit on bien
+<lb/>devotement celebrer la sollennité de ladite vierge qui si legierement apaise
+<lb/>Dieu et la virge Marie.</p></div>
+<div type="episode"><head rend="ital">Comment el guarda Paris de estre destruite par yaue.</head>
+<p>Il avint en un yver qu'il plut en France plus que on avoit oï de memoire de
+<lb/>homme qui lors fust, si creut Seine et desriva par tel maniere que la cité de
+<lb/>Paris fu toute pleine d'yaue et que les clers et les gens lesserent les eglizes et
+<lb/>leur mesons. Li evesques qui mout doubta que ce ne venist par le pechié de
+<lb/>luy ou de ses subjés amonnesta son pueple de Dieu apaisier par jeunes et par
+<lb/>oroisons et commanda au prestres et au clers qu'il alassent a navie par les
+<lb/>eglizes pour veoir se on pourroit trouver lieu ou en peust faire le devin
+<lb/>service. Un qui avoit nom Richart se mist en une nef et naja jusques au
+<lb/>moustier dez puceles. Illeques estoit encor le lit ou la benoite virge trespassa
+<lb/>tout avironné de yaue qui haute estoit jusques au milieu dez parois <milestone unit="folio" n="105v"/>
+<lb/>sanz ce que goute nulle y entrast. Celuy s'aproucha pour veoir la vertu du lit et
+<lb/>vit aus iex la verité du miracle. Il le denonça a l'evesque qui tantost y vint a
+<lb/>grant multitude de clers et de pueple. Il regarderent le beau miracle et
+<lb/>rendirent graces a Dieu et a la virge. Depuis cel jour se retraist Seine en son
+<lb/>propre cours.</p></div>
+<div type="episode"><head rend="ital">De un lierres que el respita de mort.</head>
+<p>En cel temps gardoit le prevost de Paris un lierres pour estre destruit, qui a
+<lb/>heure de vespres souz ombre d'aler a chambres eschapa et s'en fui a l'eglize
+<lb/>Sainte Genevieve. Il trouva la porte devers la cité fermee, si s'en ala a l'autre.
+<lb/>Ledit prevost vint bonne aleure avec ses sergens. Un en y ot qui la puissance
+<lb/>de la virge despitoit et s'aproucha du larron pour le prendre sanz faire
+
+
+
+<pb n="79"/>
+<lb/>reverence au lieu. Ledit lierres soupplioit a la virge. Le sergant la blafardoit en
+<lb/>disant que la virge ne le pourroit garentir. Si tost qu'il out ce dit, il cheÿ mort
+<lb/>soudainement. Quant ce virent li autres, il donnerent honneur et reverence a
+<lb/>Dieu et a la virge et emporterent leur mort hors de la cité et l'enterrerent sanz
+<lb/>honneur en un fossé.</p></div>
+<div type="episode"><head rend="ital">Miracles du temps le roy Charles, fil du roy Loys empereur, et depuis.</head>
+<p>
+<lb/>Les miracles devant diz furent faiz ainçois que l'eglize de la virge fust arse
+<lb/>dez Normans qui lors estoient paiens et non creans en Dieu et point n'avoient
+<lb/>encor de habitacion ou roiaume de France, si y vindrent ou temps
+<lb/>du roy Charles, fil de l'empereur Loys, et gastoient tout le pais. Et pour ce les
+<lb/>freres de ladite eglize, pour decliner leur tirannie, prindrent le saint corps de la
+<lb/>virge et s'en alerent avec grant foison de pueple a Atiz, une ville qui lors
+<lb/>apartenoit a la sainte. Le cierge que on portoit devant elle voians touz fu
+<lb/>allumé par miracle afin que celle ne alast en tenebres qui onques ne fist euvres
+<lb/>de tenebres.</p>
+<p>
+<lb/>Autre merveille grant y fist la vertu de Dieu qui merveilleus est en ses sains,
+<lb/>car l'autel sur quoi la sainte dame devoit estre mise et toutez lez choses qui
+<lb/>dessus estoient tremblerent a son avenement, mez si tost que le corps saint
+<lb/>entra <milestone unit="folio" n="106"/> en l'eglize, il furent en repos. Bien est merveilleuse et digne de
+<lb/>estre preeschiee et loee ceste glorieuse dame de cuy lez chosez insensibles
+<lb/>sentent l'avenement et le aourent. Les chosez inmouvables se muevent et
+<lb/>esjoissent. Les hommes se merveillent, doubtent et honneurent. De Athiz fu
+<lb/>portee la sainte dame a Dravel, ou elle fist mout de beauz miracles. Illec vint li
+<lb/>abbés de l'eglize Hebert aourer la virge en devocion pour estre plus seur de sa
+<lb/>protection et fist tant qu'il osta une dent du saint corps par devote conscience
+<lb/>mez sanz science, dont il fu espoventé en diverses visions et tourmenté
+<lb/>jusques pres de la mort. Bien confessoit que pechié avoit, mez le pechié ne
+<lb/>savoit. Quant repenti se fu a tout son pouoir, il fist enclorre la precieuse dent
+<lb/>en cristal et aourner de pur or et la restitua a l'eglize.
+
+
+
+</p></div><pb n="80"/>
+<div type="episode"><head rend="ital">Du cierge qui aluma et pluseurs autres miracles.</head>
+<p>Quant acort fu fet entre li Normans et ceuls de Paris, li freres ramenerent
+<lb/>leur dame a son saint lieu. Li pueple vint encontre a grant joie. Comme il
+<lb/>eurent passé le ruissiau de Bievre, le cierge que on portoit devant elle estandi,
+<lb/>mez si tost que li freres se mistrent a oroison, il alluma. Dont a grant joie et a
+<lb/>grans loenges fu menee du pueple a son eglize et mise non pas es croutes mez
+<lb/>suz l'autel Saint Pere et Saint Pol.</p>
+<p>En cel temps vint a la presance de la virge de Luvimgy, ville saint Denis,
+<lb/>une fame qui estoit toute usee de fievres. Quant veillié out une nuit, la santé li
+<lb/>revint, mez non pas entierement et s'en retourna. La semaine passee, el revint
+<lb/>faire l'offrendre et ses oroisons. Quant el out veillié une nuit, el fu toute saine
+<lb/>et loa nostre Segneur. Deléz Poissy avoit une fame qui desloiaument se
+<lb/>portoit envers son segneur, dont il fu tué pour cause de elle. Dieu l'en puni et
+<lb/>pardit la parole. El vint requerir l'aide de la virge et fu une semaine a son
+<lb/>tombel en gemissemens et en oroisons. Le dymenche aprés au premier son de
+<lb/>matines, el vomit sanc et receut la parole. Encor demoura une semaine en
+<lb/>rendant graces ; le dymenche aprés el retourna sanz licence et sans messe,
+<lb/>mez ne fu pas loings qu'el cheÿ toute contraite. Raportee fu au saint lieu ou
+<lb/>elle fu longuement soustenue des <milestone unit="folio" n="106v"/> aumosnes des bonnes gens.
+<lb/>Finablement la santé li fu restituee.</p>
+<p>
+<lb/>Une fame de Paris qui goute ne veoit aprint par revelacion que l'uile de la
+<lb/>lampe sainte Genevieve li restitueroit la veue, se Martin, guarde de l'eglize, li
+<lb/>enoignoit lez yex. El vint a la presence de la virge et exposa la vision. Tantost
+<lb/>Martin print de l'oile et li enoint les yex et vit clerement. La semaine apréz,
+<lb/>ceste fame qui la vertu de la virge avoit esprouvee y amena un aveugle, a cuy
+<lb/>la veue fu reformee par l'unction de la lampe.
+
+
+
+</p><pb n="81"/>
+<p>
+<lb/>Touz li malades qui y venoient guerissoient par la grace de Dieu et par les
+<lb/>merites de la sainte virge. Un varlet gardoit mouches par nuit en celuy temps,
+<lb/>si s'endormi et en dormant pardi la veue. Quant il s'esveilla, il aperçut qu'il ne
+<lb/>vit goute. Il fist faire II longueurs de cire et les offri au sepucre de la virge.
+<lb/>Illec supplia une semaine pour la restitucion de sa veue. La nuit du dymenche
+<lb/>ensuiant il senti ne say qui passer par devant li qui li toucha aus yex de sa
+<lb/>robe. Il cuidoit que ce fust un des freres, mez le benefice que Dieu li fist li
+<lb/>ensengna la vertu de cuy ce estoit, car au premier son de matines, la veue li fu
+<lb/>rendue, dont il rendit graces a Dieu et a la sainte.</p>
+<p>
+<lb/>Une fame, serve de la virge, fu amenee a sa presence. El supplia a sa dame
+<lb/>pour restitucion de sa veue. Quant fete out s'oroison, el requist de l'uile de la
+<lb/>lampe et se confessa afin que pechié ne retardast sa guerison. Quant fu
+<lb/>confessee et ointe de l'uile, la veue li fu restituee et loa nostre Segneur. Pour
+<lb/>doubte dez paiens fu la virge reportee a Dravel, ou il avoit un contret qui fu
+<lb/>mis dessouz le saint corps et en l'eure fu guariz.</p></div>
+<div type="episode"><head rend="ital">Pluseurs autres beauz miracles.</head>
+<p>
+<lb/>Souz la seconde persecucion dez Normans contre Paris, fu la virge portee a
+<lb/>Marisy, une ville que sire Hermogaud, jadiz chevalier, avoit donnee a saint
+<lb/>Pere et a saint Pol et a sainte Genevieve pour remembrer chascun an son
+<lb/>anniversaire. En ceste alee fist mout de beaus miracles qui ne furent pas escriz
+<lb/>pour la haste que on avoit de fuir avec ce que on ne doubtoit point qu'il ne
+<lb/>venist dez autres asséz.</p>
+<p>
+<lb/>En ladite ville de Marisy avoit un contret, Fouchier avoit nom, qui lez piéz
+<lb/>avoit si joins aus fessez que par nul art n'en pouoient estre dezjoins. Il fu
+<lb/>presenté a la sainte. Tantost il sailly sus joians et loant nostre Segneur. Uns
+<lb/>homs de Resbéz en Brie mouloit <milestone unit="folio" n="107"/> a un dymenche, si li sailly un grain
+<lb/>en l'ueil qui li creva. Avec ce li avint plus grant passion, car il ne cessoit de
+<lb/>batre sa poitrine et son ventre tant qu'il vomissoit sanc. Un an li tint celle
+<lb/>passion et ala en pluseurs pelerinages, mez remede n'en peut avoir.
+
+
+
+<pb n="82"/>
+<lb/>Finablement, il vint a la presence de la virge. En l'eure il osta les mains de la
+<lb/>poitrine et leva au ciel a grant joie en glorifiant nostre Segneur.</p>
+<p>
+<lb/>Fouchiere, une fame de Marisy qui perdue avoit la moitié de luy, fu amenee
+<lb/>a la sainte. Quant II jours y out esté, au tiers jour en maniere de resurrection la
+<lb/>partie morte revesqui et se leva toute saine en loant Dieu et la virge.</p>
+<p>
+<lb/>Une autre fame de Marisy qui longuement avoit esté forsenee fu amenee
+<lb/>devant le saint corps par force les mains liees. Li anemis la tourmenta lors si
+<lb/>fort qu'el escumoit. Mez, vousist ou non, il issit hors par vomissement de sanc
+<lb/>et la fame fu guerie.</p>
+<p>
+<lb/>De Choy y vint un jeune homme qui de ses bras ne se pouoit aidier. Par II
+<lb/>jours supplia la virge. Au tiers jour ses bras furent ausint prez de faire
+<lb/>besoigne comme onques plus avoient esté.</p>
+<p>
+<lb/>De Arcy y vint un homme, serf de la virge, qui estoit malade de fievre et de
+<lb/>meselerie. Si tost que son corps fu oint de l'uile sainte Genevieve, la meselerie
+<lb/>et la fievre le lesserent et fu tout sain.</p>
+<p>
+<lb/>Une pucele y vint supplier a la virge pour un ueil qu'el avoit perdu. El
+<lb/>aluma une chandele et en l'eure son ueil fu enluminé.</p>
+<p>
+<lb/>Amide, une fame de Choy, y fu apportee qui longuement attendi la
+<lb/>benivolence de la virge. Finablement, on la mist devant le saint corps et
+<lb/>tantost el se leva toute saine voians touz et qui de ce loerent nostre Segneur.</p>
+<p>
+<lb/>Prez de Marisy avoit un moustier de saint Germain que la virge honnora de
+<lb/>sa presence et de ses miracles. Illec fu apportee une contraite qui mout haut
+<lb/>crioit devant la virge en requerant son aide. La virge en out pitié. Celle se
+<lb/>dreça et s'en retourna toute saine.</p>
+<p>
+<lb/>Un demoniacle li fu amené, mez pour ce que lumiere n'a nulle
+<lb/>participacion a tenebres, li anemi s'en fuy et l'omme rendit graces a Dieu et
+<lb/>s'en retourna tout sain.
+
+</p><pb n="83"/>
+<p>
+<lb/>Un autre demoniacle y vint qui offri un denier, mez en l'eure li anemis le
+<lb/>commença a tourmenter. Lors il demanda <milestone unit="folio" n="107v"/> a frere Martin, qui le
+<lb/>saint corps gardoit, son denier ou la mort. Ceuls qui presens estoient le
+<lb/>voudrent prendre, mez il s'en fuy. Il alerent apréz et le prindrent et lierent et
+<lb/>ramenerent. L'endemain, il fu mené dedens l'eglize et tantost il fu en bon
+<lb/>repos et retourna tout sain glorefiant nostre Segneur.</p>
+<p>
+<lb/>En ladite ville de Marisy avoit un demoniacle, serf de la virge, qui si enragiés
+<lb/>estoit qu'il mordoit sa lengue au dens et vomissoit sanc sanz cesser.
+<lb/>Il fu amené par force et couchié a terre devant le saint corps. Illeq fu
+<lb/>longuement comme mort. Finablement, il se leva sain et delivré de l'anemi et
+<lb/>retourna en bon sen loant nostre Segneur.</p>
+<p>
+<lb/>Digne chose est de reciter comment li anemis ne se puet celer en la
+<lb/>presence de la virge. Un demoniacle avoit ou pais qui sa maladie avoit celee
+<lb/>par tel maniere que on ne cuidoit point qu'il fust demoniacle. En dissimulant
+<lb/>sa maladie, il vint en l'oratoire de la virge et se mist a oroison. Tantost, par la
+<lb/>volenté de Dieu, qui la vertu de la siene amie vouloit demonstrer, li anemis le
+<lb/>traveilla si fort qu'il commença a braire horriblement et a mengier ses mains
+<lb/>aus dens et depecier ses vestemens. Lez gens de environ le voudrent prendre,
+<lb/>mez il leur eschapa et s'en fuy. Sa mere ala apréz pour le ramener, mez il
+<lb/>retourna et voult sa mere lapider et la poursuy jetant pierres jusques au
+<lb/>cimetiere de la virge. Lors il fu prins et liéz et miz a grant force en pleine cuve
+<lb/>de yaue benoite et apréz fu mené devant la sainte dame et signé du signe de la
+<lb/>croiz. Tantost il fu gueri entierement.</p>
+<p>
+<lb/>Une fame y vint qui de pieça avoit perdue la parole. El se mist a oroison en
+<lb/>priant Dieu et la virge de cuer, car de bouche ne pouoit. Comme el se leva de
+<lb/>oroison, el parla adroit et regracia nostre Sire. Pluseurs malades de diverses
+<lb/>fievres y vindrent a si grant nombre que on ne les pouoit touz escrire, mez
+<lb/>tesmoing le pueple, il s'en retournerent sains et liés en regraciant Dieu et la
+<lb/>precieuse virge sainte Genevieve.
+
+
+
+</p><pb n="84"/>
+<p>
+<lb/>Par l'espace de V ans fu la sainte vierge hors de son propre lieu pour
+<lb/>doubte des Normans qui gastoient tout le pais d'entour Seine. Lesquels
+<lb/>retournéz en <milestone unit="folio" n="108"/> leur pais, li freres ramenerent leur dame de Marisy et fu
+<lb/>leur premier herbegement a Maroil. Illecq avoit une fame qui estoit mise ou
+<lb/>cep avec sa fille pour cause de son mari qui avoit emprunté argent et puis s'en
+<lb/>estoit fuy. Comme li saint corps aproucha du lieu, la virge qui out plus grant
+<lb/>pouoir que li hommes deslia lesdites fames qui vindrent encontre et
+<lb/>l'aourerent devotement voiant le monde.</p>
+<p>
+<lb/>De illec fu portee en l'eglize Saint Martin. Comme li corps saint y entra,
+<lb/>une fame qui toute sa vie avoit esté sourde, commença a oïr clerement. Une
+<lb/>pucele ausint qui ne se pouoit aidier de ses membres y receut partie de sa
+<lb/>santé. Pourquoi el ne la receut toute, Dieu le scet, qui santé donne et oste
+<lb/>comme il veult.</p>
+<p>
+<lb/>L'endemain fu menee a Lisy a grant procession en l'eglize Saint Martin, qui
+<lb/>a la virge apartient. A la porte de l'eglize, gesoit une contraite qui commença a
+<lb/>dire quant le saint corps y entra : <q> « O trez benoite virge, madame sainte
+<lb/>Genevieve, plaise a Dieu que je puisse estre guerie par ta sainte priere et toi
+<lb/>convoier jusquez a Paris. » </q> En l'eure el se leva toute saine et servi a la virge
+<lb/>toute sa vie.</p>
+<p>
+<lb/>Une fame avoit en la ville teliere, mez son mestier ne pouoit faire pour sez
+<lb/>mains qui estoient contraites. El vint orer devant la virge et tantost el dreça
+<lb/>les mains et retourna a son mestier toute saine.</p>
+<p>
+<lb/>De Lisy fu portee a Trit. L'endemain, a l'issue de la ville, vindrent au
+<lb/>devant II jeunes hommes qui portoient une contraite. Il la jeterent devant le
+<lb/>saint corps. La virge li donna santé et celle la convoia jusques a Paris et
+<lb/>requist au freres l'office de nettoier le moustier toute sa vie.</p>
+<p>
+<lb/>De Tribardoul fu menee a Rony, de Rony a Paris. Lors vindrent encontre a
+<lb/>grans processions le clergié et li pueple a grant joie et l'amenerent a son lieu
+
+
+
+<pb n="85"/>
+<lb/>en chantant hymnes et loenges et en donnant gloire et honneur au Pere et au Fil et au Saint Esperit qui vit et regne sanz fin. Amen.</p></div>
+
+<div><head>Le beau miracle dez ardans qui fut fait l'an Mil CX.</head>
+<p>
+<lb/>Ou temps du roy Loys, fil du roy Phelippe, guerres <milestone unit="folio" n="108v"/> cesserent en
+<lb/>France et justice se redreça, si fu la terre en repos. Mez les gens du royaume
+<lb/>qui le temps passé deussent avoir reins par euvres de misericorde se
+<lb/>estudierent a faire leur volentés comme chevaus qui n'ont point
+<lb/>d'entendement et assemblerent pechié suz pechié et furent pirez que devant.
+<lb/>Lors Jhesucrist, qui pour le monde sauver descendi du ciel a terre, les visita et
+<lb/>bati comme pere fet ses enfans, car ceuls il chastie qu'il aime et ne leur donne
+<lb/>pas tribulacion double. Ce dit l'Escripture, car il ocist le corps pour l'ame
+<lb/>vivifier, il tourmente la char pour l'esperit sauver. Si envoia une pestilence en
+<lb/>France et se print une maladie de feu au membres qui avoient servi a pechié
+<lb/>et ardoient horriblement. Les medicins firent leur pouoir de estaindre la
+<lb/>maladie, mez riens ne valu, car Dieu faisoit ce et nul conseil ne puet contre
+<lb/>Dieu. Li pueples cria a nostre Sire, mez il ne les voult oïr, car il ne estoient pas
+<lb/>de sez deciplez. La maladie s'enfforça, si apporterent leur malades de prez et
+<lb/>de loings a Nostre Dame de Paris. L'eglize en fu si pleine qu'il n'y demoura
+<lb/>que une sentele par ou li clers aloient faire le servise et le pueple offrir.</p>
+<p>
+<lb/>Li evesques de Paris Etienne, religieuse personne, pere au povres,
+<lb/>examplaire de tout bien, fu mout troublés. Il, qui mout songneus estoit du
+<lb/>salu de son pueple, fist faire processions et apporter les reliques des corps
+<lb/>sains a Nostre Dame, par quoy il peussent empetrer pardon de leur pechiéz et
+<lb/>remede de cele grieve pestilence. Par pluseurs jours le firent en pleurs, en
+<lb/>jeunes et en oroisons, mez ne furent pas oïs, car le miracle estoit reservé a la
+<lb/>sainte virge Genevieve. Toutevoiz el ne le voul pas faire en son propre
+<lb/>moustier ne en propre personne, ainçoiz en gardant fourme de humilité voult
+    <lb/>honnorer la glorieuse virge Marie afin, comme raison est, <supplied>qu'</supplied>el eust l'autorité
+<lb/>de ouvrer et ceste du supplier.
+
+
+
+</p><pb n="86"/>
+<p>
+<lb/>Tuit furent desconfortéz et deffians de salut avoir, si se recorda ledit
+<lb/>evesques comme sainte Genevieve avoit pluseurs foiz gardé Paris et delivré de
+<lb/>pluseurs perils. Si print grant esperance en l'aide de la virge et s'en vint li et
+<lb/>pluseurs religieuses personnes a l'eglize de la sainte <milestone unit="folio" n="109"/> et traita avec les
+<lb/>freres en chapitre du grant peril et leur exposa mout piteusement comment il
+<lb/>avoit prins fiance en la virge. Et pour ce que commandement ne pouoit faire
+<lb/>en ladite eglize, il requist a grans gemissemens et souspirs comme celuy qui se
+<lb/>douloit dez douleurs de son pueple qu'il vousissent que la presence de la virge
+<lb/>secourist a la cité qui perilloit. A sa peticion enclinerent li freres et assignerent
+<lb/>jour que la virge seroit portee pour prier pour le pueple.</p>
+<p>
+<lb/>Li evesques le manda par tout son eveschié et commanda que on jeunast.
+<lb/>Le jour attendoient touz comme feste sollennel, car certaine esperance de
+<lb/>salut avoient en la virge qui tant fet de miracles. Ainsint com li evesques
+<lb/>ordenoit son pueple, li freres eslirent les plus devoz et les plus anciens pour le
+<lb/>saint corps porter. Saintefiéz furent par jeunes et oroisons et vestuz de nectes
+<lb/>vesteures comme il afiert a la purté de la virge. Le jour vint. Le saint corps fu
+<lb/>descendu. Li freres couchiés a terre en oroison et en lermes, li bons evesques
+<lb/>arriva a sollennele procession, car de ancienne coustume est gardé sanz faillir
+<lb/>que, toutesfoiz que la sainte virge madame sainte Genevieve est portee,
+<lb/>sollennement doit estre menee et sollennement ramenee. La procession se
+<lb/>meut selonc l'ordinacion de l'eglize et li evesques, qui ferme fiance avoit en la
+<lb/>virge, fist aler compter les malades. Finablement, si tost que le precieus corps
+<lb/>de la sainte dame entra en l'eglize de la glorieuse virge Marie, nostre Sire se
+<lb/>eveilla comme s'il eust dormi et fist cesser la maladie. Cent et troiz estoient li
+<lb/>malades. Li cent atoucherent la fiertre ou li corps saint estoit qui incontinent
+
+
+
+<pb n="87"/>
+<lb/>furent guariz. Li troiz ne le furent pas. Autre raison n'y savons fors que touz
+<lb/>n'ont pas bonne foy, ce dit l'Escripture et nostre Segneur dist a centurion que
+<lb/>fet li seroit selonc sa creance. Ainsint ovra Dieu et la virge Marie pour l'amour
+<lb/>de la virge madame sainte Genevieve et non pas tant seulement en donnant
+<lb/>santé a cent malades mez a tout le royaume, car touz languissoient ou 
+<lb/><milestone unit="folio" n="109v"/> de la maladie ou du peril de la maladie, dont il se doubtoient a toutes
+<lb/>heures et plus grant chose fu destruire la maladie que guerir.</p>
+<p>
+<lb/>Veu ce beau miracle, li evesques et li clergié se efforçoient de loer Dieu et
+<lb/>la virge, mez il ne pouoient bonnement pour la noise dez genz qui
+<lb/>regracioient Dieu et la virge a haute voiz et en lermes de devocion. Quant
+<lb/>longuement il eurent ce fet, li freres se hasterent de retourner, mez tant de
+<lb/>pueple trouverent qu'il fu bas vespre, ainçoiz qu'il fussent a l'ostel.</p>
+<p>
+<lb/>L'an ensuiant, vint en France le pape Innocent qui le miracle autoriza a
+<lb/>grant joie et voult que on en fist feste chascun an, laquele feste fu confermee
+<lb/>par un espoventable example. Il avint une foiz que Symon, chevecier de
+<lb/>l'eglize, qui devoit pourveoir de luminaire et de aournemens au jour de la
+<lb/>feste, s'en ala un pou devant pour eschiver les despens par quoi la feste fu
+<lb/>celebree sans sollennité. Il retourna aprés la feste. Si comme il montoit ou
+<lb/>saintuaire, la puissance de Dieu le fist reculer. Il s'efforça de remonter. Il fu
+<lb/>bouté arriere et cheï suz le pavement de mort soubite, de laquele mort vueille
+<lb/>garder nostre segneur Jhesucrist touz ceuls qui ce beau miracle recorderont
+<lb/>devotement. Amen.
+
+
+
+</p></div><pb n="88"/>
+<div type="episode"><head rend="ital">Comme son corps fu revelé et trouvé tout entier.</head>
+<p>
+<lb/>L'an mil CXLI fu reporté au roy Loys, fil du roy Loys, que la teste de la
+<lb/>glorieuse virge madame sainte Genevieve ne estoit pas en son eglize. Li roys
+<lb/>en fu troublés et en parlementa avec le clergié et le pueple et envoia seeller la
+<lb/>chapse ou le saint corps repose afin que li freres n'y missent autre teste.
+<lb/>L'andemain vindrent de par le roy a ladite eglize honnorables peres
+<lb/>l'archevesque de Sens et l'evesque d'Aucuerre. Apréz euls vint l'evesque
+<lb/>d'Orliens Manassés, anemi de verité, persecuteur de religion et de honnesteté
+<lb/>et avec li grant foison de pueple a bastons et a pierres touz pres de lapider lez
+<lb/>freres. <milestone unit="folio" n="110"/> La chapse fu descendue et ouverte. Le corps saint fu exposé
+<lb/>aus yex de touz sus draps purs et nés et encerchy diligemment. Tout
+<lb/>entierement fu trouvé teste et membres ensemble. Lors chanterent li freres a
+<lb/>grant leece <hi rend="ital">Te Deum laudamus</hi>. Le pueple, qui par devant estoit prest de mal
+<lb/>faire, commença a plorer de pitié et de joie. Li faux Manassés s'en ala touz
+<lb/>enflés et confunduz, dont il vint a meschante fin. Li autrez bons prelas
+<lb/>sermonnerent au pueple et manderent au roy la verité, qui de ce fu liés et
+<lb/>joieus et ama, garda et defendi ladite eglize plus que devant. L'an dessus dit
+<lb/>ou <w>X<hi rend="exp">me</hi></w> jour de jenvier, aus octieves de la sollennité de la virge, fu son saint
+<lb/>corps revelé et monstré au pueple et besié dez freres devotement, doucement
+<lb/>et l'andemain mis de rechief en son lieu, et de ce font memoire li freres
+<lb/>chascun an audit jour a la gloire de Dieu et a l'onneur de la virge et de l'eglize.</p></div>
+<div type="episode"><head rend="ital">Comment el guarda Paris de yaue.</head>
+<p>
+<lb/>L'an mil CCVI, ou mois de decembre, envoia nostre Sire Diex par son
+<lb/>juste jugement ou royaume de France si grant abondance de pluies et de yaues
+<lb/>que les flueves et les rivieres desriverent si impetueusement qu'il esrachoient
+<lb/>les arbres, destruizoient les semences, abatoient mesons des villes et des citéz.
+<lb/>Entre les autres, la cité de Paris fu durement tourmentee de Seine tant qu'il
+
+
+
+<pb n="89"/>
+<lb/>convenoit aler a navie parmi les rues et que pluseurs edefices trebucherent. Li
+<lb/>autres qui en estant se tenoient valoient en ruine, tant estoient debatuz dez
+<lb/>undes de l'yaue. Petit Pont qui lors estoit de pierre estoit si quassé, descrevé,
+<lb/>desjoint et ruineus et si debatuz de la redeur de l'yaue et des undes qu'il
+<lb/>chancelloit et croulloit comme arbre que le vent demeine. La cité estoit
+<lb/>desconfortee. Seule esperance avoient apréz Dieu et la virge Marie en
+<lb/>madame sainte Genevieve en qui li Parisiens ont especial devocion pour les
+<lb/>benefices qu'el leur a fait. Touz ensemble crierent que on feist tant que la
+<lb/>digne virge fust apportee a Paris pour secourir de sa presence a la cité qui
+<lb/>perilloit et pour misericorde et pardon empetrer au pueple par devers Dieu. Li
+<lb/>evesques Odon, le clergyé et le pueple en supplierent au freres de l'eglize. La
+<lb/>procession <milestone unit="folio" n="110v"/> fu ordenee et faite sollennement selonc ce qu'il est a
+<lb/>coustume de ancienneté. On vint a Petit Pont, qui pres estoit de choer. Les
+<lb/>corps sains passerent et puis le corps saint de la virge qui plus soustenoit le
+<lb/>pont que le pont ne la soustenoit. Aprés la virge passa le pueple seurs de sa
+<lb/>protection, comme fist jadiz le pueple de Israel ou flueve Jourdain apréz
+<lb/>l'Arche du Testament. Si tost que la virge entra en l'eglize Nostre Dame de
+<lb/>Paris, la cité et les choses meues se affermerent en bonne pes. Seine se retraist
+<lb/>en son cours et ne plut depuis cel jour jusques atant que la terre fu seche. Le
+<lb/>servise fet et esperance de salu prinse en la presence de la virge, la procession
+<lb/>retourna parsus Petit Pont, dont grant merveilles avindrent, car bien tost
+<lb/>aprés ce que la virge fu remise en son lieu et les gens furent retournés a leur
+<lb/>ostels Petit Pont cheï sans blecier et sanz noier ame nulle. Digne de honneur
+<lb/>est ceste virge par cui les pluies cesserent, les yaues se retrairent, beauté de
+<lb/>temps fu donnee, le pueple gardé de peril, la cité et le pais delivré. Loé soit
+<lb/>nostre Segneur. Amen.
+
+
+
+</p></div><pb n="90"/>
+
+<div type="episode"><head rend="ital">Autre beau miracle.</head>
+<p>
+<lb/>Le myracle precedent fu confermé par un autre beau miracle qui avint
+<lb/>XXVII ans aprés que les pluies et les yaues furent grans outre mesure en peril
+<lb/>de tout le pais comme dit est. Mez une chose y avint bien notable, car quant la
+<lb/>procession fu menee ordeneement et sollennement, si tost que la virge issy
+<lb/>de son moustier, une coulombe voiant tout le pueple commença a voler
+<lb/>endroit la chapse. Quant el aloit, la coulombe voloit. Quant el se arrestoit, la
+<lb/>coulombe se reposoit comme l'estoile qui les III roys mena en Bethleem.
+<lb/>Quant la chapse entra en l'eglize Nostre Dame de Paris, la coulombe se assist
+<lb/>suz l'ymage saint Michiel dessuz la porte. Le pueple la regardoit en pleurs et
+<lb/>en oroisons en attendant aucun signe de nostre Segneur. Tant comme la virge
+<lb/>fu en l'eglize, la colombe se tint suz ledit ymage. Quant el issy, la colombe la
+<lb/>reconvoia jusques a son propre lieu. Depuis cel jour, Seine se retraist en son
+<lb/>chanel ; Dieu donna beau temps, pes et salu au pueple. Merciee en soit la virge
+<lb/>et glorefiee en soit la benoite trinité, un Dieu qui vit et regne sanz fin. Amen.</p>
+<p>
+<lb/>Mout bele vertu fist nostre segneur Jhesucrist pour l'amour de ladite virge
+<lb/><milestone unit="folio" n="111"/> l'an mil CCCXIX du conte de Bouloigne, qui gesoit malades dedens
+<lb/>les murs de l'abbaye en tel maniere que les phisiciens du roy et autres de Paris
+<lb/>en avoient osté leur main, quant un dez gens audit conte li ala dire : <q> « Sire, il
+<lb/>repose ceens une vierge de grant puissance. Requerés son aide et li promettéz
+<lb/>a offrir une ymage de voste pesant de cire et je croi qu'el vous fera ceu que li
+<lb/>phisicien ne pourraient faire et qu'el vous rendra tout sain. » </q> A ces mos, li
+<lb/>conte leva les yex au ciel et le cuer, car plus ne pouoit, et requist l'aide de la
+<lb/>virge. En l'eure, il demanda a mengier et bien tost aprés il fu gueriz et fist faire
+<lb/>une ymage de cire et une de fust qui encor est en l'eglize.
+
+
+
+</p><pb n="91"/>
+<p>
+<lb/>L'an mil CCCLX vint un contret de Brie a Paris requerir la sainte virge. Si
+<lb/>tost qu'il vit le clochier de l'eglize, il se mist a oroison. Sa priere finee, il se
+<lb/>leva tout sain et apporta ses potences a ladite eglize en nostre presence.</p>
+<p>
+<lb/>L'an mil CCCLXV le samedi de Pasques que on seult faire l'yaue benoite,
+<lb/>vint de l'Engleterre un escuier qui disoit que par lonc temps il avoit esté
+<lb/>durement malades de paralizie et d'autres maladies grieves. Comme il estoit
+<lb/>en son lit, ses amis li apporterent pour li deporter pluseurs vies de sains. Entre
+<lb/>les autres, on li apporta la vie madame sainte Genevieve. Quant il out
+<lb/>regardee, <q> « Diex, dist il, que ceste glorieuse dame fu de grant merite ! Si li
+<lb/>plesoit a moi donner santé, je iroie la ou el repose, se je le pouoie savoir. » </q>
+<lb/>Tantost il senti que la santé li revint et fu en bon point. Et par l'enditement
+<lb/>dez Françoiz qui estoient en Engleterre, il vint a Paris en l'eglize de la virge et
+<lb/>fist son offrendre en nostre presence. Puis s'en retourna glorefiant nostre
+<lb/>Segneur.</p>
+<p>
+<lb/>L'an mil CCCLXVI ou temps d'aoust, furent les pluies si grans que on ne
+<lb/>pouoit cuillir les biens dez champs. Ou mandement du roy, le corps madame
+<lb/>sainte Genevieve fu porté a Nostre Dame de Paris a procession sollennelle.
+<lb/>Dieu donna beau temps et cler qui dura jusques atant que les gens eurent
+<lb/>aousté par loisir.</p>
+<p>
+<lb/>Les miracles que nostre Segneur a fait et fait continuement <milestone unit="folio" n="111v"/> pour
+<lb/>l'amour de elle en pluseurs lieus par le monde ne saroit nuls certes reciter ne
+<lb/>escrire. Il soufist de ce pou qu'il ne tourne a ennuy. Glorefié soit le Pere et le
+<lb/>Fil et le Saint Esperit qui par les merites de madame sainte Genevieve nous
+<lb/>vueille nos pechiéz pardonner et sa grace donner et a sa benoite vision mener.
+<lb/>Amen. <hi rend="ital">Deo gracias</hi>.
+
+
+
+</p><pb n="92"/>
+
+<ab type="gv">
+<lb/>Virge douce, virge benigne,
+<lb/>vierge sainte, virge trez digne,
+<lb/>virge franche de France nee,
+<lb/>virge de grace enluminee,
+<lb/>virge puissante et vertueuse,
+<lb/>espouse de Dieu gracieuse.
+<lb/>Sainte Genevieve ma dame,
+<lb/>par ta pitié mon corps et m'ame
+<lb/>vueilles de tout pechié deffendre
+<lb/>et en ta sainte garde prendre.
+<lb/>Jhesu ton espous debonnaire
+<lb/>me doint par ta sainte priere
+<lb/>humble cuer en prosperité,
+<lb/>patient en adversité,
+<lb/>de mes pechiés remission
+<lb/>et en bien confirmation
+<lb/>si que jaméz ne puisse faire
+<lb/>chose qui li doie desplaire.
+<lb/>et a mes parens et amis
+<lb/>doint bonne pes et paradis.
+<lb/>Les mauvéz vueille convertir
+<lb/>et les bons en bien maintenir,
+<lb/>guerres destruire et pes donner
+<lb/>toutes offenses pardonner,
+<lb/>bonne vie et fin honnorable
+<lb/>nous doint et joie pardurable,
+<lb/>et aus ames de purgatoire
+<lb/>otroit vrai repos en sa gloire.
+<lb/>Amen.
+</ab>
+
+<pb n="93"/>
+<ab type="gv">O pia sponsa Dei,
+<lb/>turbatis spes requiei !
+<lb/>Virgo francigena,
+<lb/>virgo dulcedine plena,
+<lb/>cordis langores
+<lb/>carnisque repelle dolores !
+<lb/>Ora pro nobis, beata virgo Genovefa,
+<lb/>ut digni efficiamur promissionibus Christi.
+<lb/>Oremus.
+<lb/>Rex virginum et omnium
+<lb/>bene viventium Deus
+<lb/>tibi supplicantes exaudi
+<lb/>et beate Genovefe virginis tue
+<lb/>meritis nobis tribue culparum veniam,
+<lb/>virtutum gratiam, morum redolentiam,
+<lb/>malorum carentiam, pacem et gloriam sempiternam.
+<lb/>Per Christum dominum nostrum.
+<lb/>Amen.</ab>
+</div>
+
+</body>
+</text>
+</TEI>

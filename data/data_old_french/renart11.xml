@@ -1,0 +1,13068 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="fr">
+  <fileDesc>
+    <titleStmt>
+      <title type="main">Roman de Renart (branche XI)</title>
+      <title type="formal">renart11</title>
+      <title type="reference">renart11</title>
+      <title type="DEAF">RenR</title>
+      <title type="gmd">transcription électronique</title>
+      <author xml:id="anonyme">anonyme</author>
+      <editor>Équipe de la Base de français médiéval - ENS de Lyon / UMR 5317 IHRIM</editor>
+      <funder>Laboratoire IHRIM</funder>
+    </titleStmt>
+    <editionStmt>
+      <edition>transcripion électronique</edition>
+      <respStmt xml:id="encoderDD">
+        <resp>balisage du discours direct</resp>
+        <name xml:id="AL">Alexei Lavrentiev</name>
+      </respStmt>
+      <respStmt xml:id="proofreader1">
+        <resp>révision de tout le texte</resp>
+        <name xml:id="GP">Gabriella Parussa</name>
+      </respStmt>
+    </editionStmt>
+    <extent>- Numéros de pages saisies : de 69 à 113 ;
+            - Nombre de mots d'après la base des descripteurs : <num xml:id="nb_mots_given">8563</num> ;
+            - Nombre de tokens (mots et ponctuations) d'après la base des descripteurs : <num xml:id="nb_tokens_given">10259</num>.
+    </extent>
+    <publicationStmt>
+      <publisher><name>Projet BFM, ENS de Lyon / UMR 5317 IHRIM</name></publisher>
+      <address>
+        <addrLine>15, parvis René Descartes</addrLine>
+        <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+        <addrLine>Tél : 04 37 37 63 10</addrLine>
+        <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+        <addrLine>http://bfm.ens-lyon.fr</addrLine>
+      </address>
+      <idno type="bfm">http://catalog.bfm-corpus.org/renart11</idno>
+      <idno type="doi">10.34847/nkl.0af1k30s</idno>
+      <availability status="free">
+        <licence target="https://www.etalab.gouv.fr/licence-ouverte-open-licence">
+          <ab type="availability_bfm" subtype="libre_1a">Les Conditions générales d'utilisation de la Base de Français Médiéval (http://txm.bfm-corpus.org/bfm/files/CGU.pdf), 
+            et notamment son Article 5 « PROPRIETE INTELLECTUELLE », s'appliquent à tous les textes de la BFM.</ab>
+          <ab type="how_to_cite">
+            <label>Comment citer ce texte :</label>
+            <bibl>Roman de Renart (branche XI), édité par Mario Roques, Paris, 1958. 
+              Publié en ligne par la Base de français médiéval, http://catalog.bfm-corpus.org/renart11.
+              Dernière révision le 2018-07-27.</bibl>
+            D'autres formules de citation de la BFM sont proposées sur la page web suivante :
+            http://bfm.ens-lyon.fr/article.php3?id_article=281.</ab>
+          <ab type="availability_file">
+            <label>Conditions d'utilisation de ce fichier :</label>
+              Ce fichier numérique est composé du corps de texte médiéval et des suppléments numériques : balisage XML-TEI, métadonnées (teiHeader), balisage du discours direct. Le texte et les suppléments numériques sont libres de droit et peuvent à ce titre être téléchargés et réutilisés librement.
+            </ab>
+            <ab type="availability_txmweb" subtype="illimité">
+              <label>Conditions d'utilisation par le portail BFM :</label>
+              Pas de limitation dans l'usage des fonctionnalités. Téléchargement autorisé.</ab>
+        </licence>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>Le roman de Renart. Branches X - XI : éditées d'après le manuscrit de Cangé</title>
+          <respStmt>
+            <resp xml:id="editor">Éditeur scientifique</resp>
+            <name type="person">Mario Roques</name>
+          </respStmt>
+        </titleStmt>
+          <extent>46 page(s)
+        </extent>
+        <publicationStmt>
+          <publisher>Champion</publisher>
+          <pubPlace>Paris</pubPlace>
+          <date>1958</date>
+          <idno type="sigle_DEAF">RenR</idno>
+          <idno type="cote_biblio">D4.019 : COR3-ROQ10</idno>
+        </publicationStmt><seriesStmt><title>CFMA</title><idno type="collection">85</idno></seriesStmt>
+      </biblFull>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p>Projet :<name type="project">BFM - Base de français médiéval</name>
+        Resp. : <name type="person">Céline Guillot-Barbance</name>
+        Équipe : Base de français médiéval
+        Laboratoire : UMR 5317 IHRIM
+        Institution : ENS de Lyon
+        <address>
+          <addrLine>15, parvis René Descartes</addrLine>
+          <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+          <addrLine>Tél : 04 37 37 63 10</addrLine>
+          <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+          <addrLine>http://bfm.ens-lyon.fr</addrLine>
+        </address>
+      </p>
+    </projectDesc>
+    <editorialDecl>
+      <p>Voir le <ref target="http://bfm.ens-lyon.fr/IMG/pdf/Manuel_Encodage_TEI.pdf">Manuel d'encodage XML-TEI de la BFM</ref>
+        et les <ref target="http://bfm.ens-lyon.fr/IMG/pdf/Consignes_BFM.pdf">Consignes aux relecteurs de la BFM</ref>.</p>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="ab" occurs="28"/>
+        <tagUsage gi="body" occurs="1"/>
+        <tagUsage gi="div" occurs="1"/>
+        <tagUsage gi="head" occurs="1"/>
+        <tagUsage gi="hi" occurs="1"/>
+        <tagUsage gi="lb" occurs="1464"/>
+        <tagUsage gi="pb" occurs="46"/>
+        <tagUsage gi="q" occurs="65"/>
+        <tagUsage gi="s" occurs="475"/>
+        <tagUsage gi="text" occurs="1"/>
+        <tagUsage gi="w" occurs="10259"/>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <creation>
+      <name type="author">anonyme</name>
+      <title>Roman de Renart (branche XI)</title>
+      <date type="compo" when="1216-01-01" notBefore="1200-01-01" notAfter="1233-01-01" n="13">déb. 13e s.</date>
+      <date type="compo_periode">ancien</date>
+      <date type="compo_sous_siecle" n="13_1">début</date>
+      <date type="ms" when="1275-01-01" notBefore="1250-01-01" notAfter="1299-12-31">2e m. 13e s.</date>
+      <idno type="msIdentifier">Paris, BnF, fr. 371</idno>
+      <region type="dialecte_auteur">franco-italien</region>
+    </creation>
+    <langUsage>
+      <language ident="fro" usage="100">Le texte est entièrement écrit en vers en ancien français.</language>
+    </langUsage>
+    <textDesc>
+      <channel mode="w">print</channel>
+      <constitution type="single"/>
+      <derivation type="original"/>
+      <domain type="littéraire"/>
+    <factuality type="fiction"/>
+      <interaction type="none"/>
+      <preparedness type="prepared"/>
+      <purpose type="narrative"/></textDesc>
+    <textClass>
+      <keywords scheme="http://authorities.bfm-corpus.org">
+        <term type="domaine">littéraire</term>
+        <term type="genre">récit bref</term>
+        <term type="forme">vers</term>
+        <term type="relation">original</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change who="#GP" when="2002-09-30">révision de tout le texte</change>
+    <change who="#AL" when="2003-09-30">balisage, numérotation et vérifications finales</change>
+    <change who="#AL" when="2007-05-31">corrections ponctuelles, préparation à la tokenisation</change>
+    <change who="#AL" when="2012-04-23">conversion TEI P5 et validation</change>
+    <change who="#AL" when="2018-07-27">balisage du discours direct</change>
+    <change when="2018-07-27">Dernière modification du texte</change>
+    <change when="2022-11-04">Création de cet entête</change>
+  </revisionDesc>
+</teiHeader>
+<text>
+<pb n="69"/>
+<body>
+<div n="11" type="branche">
+<pb n="69"/>
+<head>
+<s n="1">
+<hi rend="pmaj">
+<w>Conment</w>
+<w>Renart</w>
+<w>et</w>
+<w>Tibert</w>
+<w>li</w>
+<w>chaz</w>
+<w>chanterent</w>
+<w>vespres</w>
+<w>et</w>
+<w>matines</w>
+<w type="pon">.</w>
+</hi>
+</s>
+</head>
+<ab rend="strophe">
+<lb n="11473"/>
+<s n="2">
+<w>Oiez</w>
+<w>une</w>
+<w>novele</w>
+<w>estoire</w>
+<lb n="11474"/>
+<w>qui</w>
+<w>bien</w>
+<w>doit</w>
+<w>estre</w>
+<w>en</w>
+<w>mirmoire</w>
+<w type="pon">;</w>
+<lb n="11475"/>
+<w>lonc</w>
+<w>tens</w>
+<w>a</w>
+<w>esté</w>
+<w>adiree</w>
+<w type="pon">,</w>
+<lb n="11476"/>
+<w>mais</w>
+<w>or</w>
+<w>l'</w>
+<w>a</w>
+<w>uns</w>
+<w>mestres</w>
+<w>trovee</w>
+<lb n="11477"/>
+<w>qui</w>
+<w>l'</w>
+<w>a</w>
+<w>tranlatee</w>
+<w>an</w>
+<w>romanz</w>
+<w type="pon">;</w>
+<lb n="11478"/>
+<w>oiez</w>
+<w>comment</w>
+<w>je</w>
+<w>la</w>
+<w>comanz</w>
+<w type="pon">.</w>
+</s>
+</ab>
+<ab rend="strophe">
+<lb n="11479"/>
+<s n="3">
+<w>Ce</w>
+<w>fu</w>
+<w>en</w>
+<w>mai</w>
+<w>au</w>
+<w>tens</w>
+<w>novel</w>
+<lb n="11480"/>
+<w>que</w>
+<w>Renart</w>
+<w>tint</w>
+<w>son</w>
+<w>fil</w>
+<w>Rousel</w>
+<lb n="11481"/>
+<w>sor</w>
+<w>ses</w>
+<w>jenouz</w>
+<w>a</w>
+<w>un</w>
+<w>matin</w>
+<w type="pon">.</w>
+</s>
+<lb n="11482"/>
+<s n="4">
+<w>Li</w>
+<w>anfles</w>
+<w>ploroit</w>
+<w>de</w>
+<w>grant</w>
+<w>fin</w>
+<lb n="11483"/>
+<w>por</w>
+<w>ce</w>
+<w>que</w>
+<w>n'</w>
+<w>avoit</w>
+<w>que</w>
+<w>mengier</w>
+<w type="pon">.</w>
+</s>
+<lb n="11484"/>
+<s n="5">
+<w>Renart</w>
+<w>le</w>
+<w>prant</w>
+<w>a</w>
+<w>apaier</w>
+<w type="pon">,</w>
+<lb n="11485"/>
+<w>si</w>
+<w>li</w>
+<w>a</w>
+<w>dit</w>
+<w type="pon">:</w>
+</s>
+<q>
+<s>
+<w type="pon">«</w>
+<w>Fins</w>
+<w>cuers</w>
+<w>de</w>
+<w>roi</w>
+<w type="pon">,</w>
+<lb n="11486"/>
+<w>je</w>
+<w>vois</w>
+<w>ou</w>
+<w>bois</w>
+<w type="pon">,</w>
+<w>si</w>
+<w>vaneroi</w>
+<w type="pon">,</w>
+<lb n="11487"/>
+<w>porchacier</w>
+<w>la</w>
+<w>nostre</w>
+<w>vïande</w>
+<w type="pon">.</w>
+<w type="pon">»</w>
+</s>
+</q>
+<lb n="11488"/>
+<s n="6">
+<w>A</w>
+<w>tant</w>
+<w>se</w>
+<w>mist</w>
+<w>par</w>
+<w>mi</w>
+<w>la</w>
+<w>lande</w>
+<w type="pon">,</w>
+<lb n="11489"/>
+<w>si</w>
+<w>se</w>
+<w>met</w>
+<w>a</w>
+<w>la</w>
+<w>voie</w>
+<w>errant</w>
+<w type="pon">:</w>
+<lb n="11490"/>
+<w>entor</w>
+<w>cez</w>
+<w>colz</w>
+<w>va</w>
+<w>coloiant</w>
+<lb n="11491"/>
+<w>savoir</w>
+<w>s'</w>
+<w>il</w>
+<w>peüst</w>
+<w>acrochier</w>
+<lb n="11492"/>
+<w>qui</w>
+<w>a</w>
+<w>son</w>
+<w>fil</w>
+<w>eüst</w>
+<w>mestier</w>
+<w type="pon">,</w>
+<lb n="11493"/>
+<w>ou</w>
+<w>coc</w>
+<w>ou</w>
+<w>geline</w>
+<w>ou</w>
+<w>oison</w>
+<w type="pon">;</w>
+<lb n="11494"/>
+<w>mestier</w>
+<w>en</w>
+<w>eüst</w>
+<w>en</w>
+<w>maison</w>
+<lb n="11495"/>
+<w>que</w>
+<w>il</w>
+<w>n'</w>
+<w>i</w>
+<w>a</w>
+<w>point</w>
+<w>de</w>
+<w>quisine</w>
+<w type="pon">,</w>
+<lb n="11496"/>
+<w>et</w>
+<w>sa</w>
+<w>fame</w>
+<w>gist</w>
+<w>en</w>
+<w>gesine</w>
+<w type="pon">,</w>
+<lb n="11497"/>
+<w>si</w>
+<w>est</w>
+<w>ses</w>
+<w>ostez</w>
+<w>desgarniz</w>
+<w type="pon">.</w>
+</s>
+<lb n="11498"/>
+<s n="7">
+<w>A</w>
+<w>tant</w>
+<w>li</w>
+<w>sont</w>
+<w>devant</w>
+<w>sailliz</w>
+<lb n="11499"/>
+<w type="num">.V.</w>
+<w>que</w>
+<w>jelines</w>
+<w>que</w>
+<w>chapons</w>
+<w type="pon">,</w>
+<lb n="11500"/>
+<w>et</w>
+<w>Renart</w>
+<w>s'</w>
+<w>est</w>
+<w>mis</w>
+<w>es</w>
+<w>trotons</w>
+<pb n="70"/>
+<lb n="11501"/>
+<w>trestot</w>
+<w>droit</w>
+<w>vers</w>
+<w>aus</w>
+<w>l'</w>
+<w>aleüre</w>
+<w type="pon">,</w>
+<lb n="11502"/>
+<w>tant</w>
+<w>qu'</w>
+<w>il</w>
+<w>vit</w>
+<w>venir</w>
+<w>l'</w>
+<w>anbleüre</w>
+<lb n="11503"/>
+<w>Huon</w>
+<w>l'</w>
+<w>abé</w>
+<w>et</w>
+<w>sa</w>
+<w>mainie</w>
+<w type="pon">.</w>
+</s>
+<lb n="11504"/>
+<s n="8">
+<w>Renart</w>
+<w>maudit</w>
+<w>la</w>
+<w>chevauchie</w>
+<lb n="11505"/>
+<w>qui</w>
+<w>sor</w>
+<w>lui</w>
+<w>a</w>
+<w>hui</w>
+<w>faite</w>
+<w>taille</w>
+<w type="pon">;</w>
+<lb n="11506"/>
+<w>fuiant</w>
+<w>s'</w>
+<w>an</w>
+<w>torne</w>
+<w type="pon">,</w>
+<w>si</w>
+<w>baaille</w>
+<w type="pon">,</w>
+<lb n="11507"/>
+<w>qu'</w>
+<w>il</w>
+<w>n'</w>
+<w>i</w>
+<w>ose</w>
+<w>plus</w>
+<w>demorer</w>
+<lb n="11508"/>
+<w>por</w>
+<w>les</w>
+<w>levriers</w>
+<w>qu'</w>
+<w>il</w>
+<w>vit</w>
+<w>mener</w>
+<w type="pon">.</w>
+</s>
+<lb n="11509"/>
+<s n="9">
+<w>Vers</w>
+<w>la</w>
+<w>forest</w>
+<w>s'</w>
+<w>en</w>
+<w>va</w>
+<w>corrant</w>
+<lb n="11510"/>
+<w>et</w>
+<w>Huon</w>
+<w>l'</w>
+<w>abé</w>
+<w>maudisant</w>
+<w type="pon">:</w>
+</s>
+<lb n="11511"/>
+<q>
+<s>
+<w type="pon">«</w>
+<w>Mal</w>
+<w>seies</w>
+<w>tu</w>
+<w>si</w>
+<w>main</w>
+<w>levez</w>
+<w type="pon">,</w>
+<lb n="11512"/>
+<w>ce</w>
+<w>dist</w>
+<w>Renart</w>
+<w>li</w>
+<w>desfaez</w>
+<w type="pon">,</w>
+<lb n="11513"/>
+<w>tu</w>
+<w>m'</w>
+<w>as</w>
+<w>hui</w>
+<w>fait</w>
+<w>ci</w>
+<w>destorbier</w>
+<w type="pon">:</w>
+<lb n="11514"/>
+<w>en</w>
+<w>ma</w>
+<w>bouche</w>
+<w>et</w>
+<w>en</w>
+<w>ma</w>
+<w>cuillier</w>
+<lb n="11515"/>
+<w>as</w>
+<w>hui</w>
+<w>proié</w>
+<w>sor</w>
+<w>moi</w>
+<w>saisine</w>
+<w type="pon">;</w>
+<lb n="11516"/>
+<w>maudite</w>
+<w>soit</w>
+<w>la</w>
+<w>teue</w>
+<w>orine</w>
+<w type="pon">,</w>
+<lb n="11517"/>
+<w>qui</w>
+<w>trop</w>
+<w>par</w>
+<w>me</w>
+<w>avras</w>
+<w>hui</w>
+<w>grevé</w>
+<w type="pon">.</w>
+</s>
+<lb n="11518"/>
+<s n="10">
+<w>J'</w>
+<w>en</w>
+<w>eüsse</w>
+<w>ja</w>
+<w type="num">.I.</w>
+<w>levé</w>
+<w type="pon">,</w>
+<lb n="11519"/>
+<w>se</w>
+<w>ne</w>
+<w>fusses</w>
+<w>si</w>
+<w>tost</w>
+<w>venuz</w>
+<w type="pon">;</w>
+<lb n="11520"/>
+<w>mais</w>
+<w type="pon">,</w>
+<w>qant</w>
+<w>tu</w>
+<w>m'</w>
+<w>as</w>
+<w>aparceü</w>
+<w type="pon">,</w>
+<lb n="11521"/>
+<w>ge</w>
+<w>m'</w>
+<w>en</w>
+<w>irai</w>
+<w>or</w>
+<w>mal</w>
+<w>que</w>
+<w>mal</w>
+<w type="pon">:</w>
+<lb n="11522"/>
+<w>ge</w>
+<w>voil</w>
+<w>miauz</w>
+<w>partir</w>
+<w>par</w>
+<w>igal</w>
+<lb n="11523"/>
+<w>trestot</w>
+<w>sanz</w>
+<w>perte</w>
+<w>et</w>
+<w>sanz</w>
+<w>gaaing</w>
+<lb n="11524"/>
+<w>que</w>
+<w>recevoir</w>
+<w>mortel</w>
+<w>gaaing</w>
+<w type="pon">.</w>
+<w type="pon">»</w>
+</s>
+</q>
+</ab>
+<ab rend="strophe">
+<lb n="11525"/>
+<s n="11">
+<w>A</w>
+<w>tant</w>
+<w>s'</w>
+<w>en</w>
+<w>va</w>
+<w>toz</w>
+<w>eslaissiez</w>
+<w type="pon">;</w>
+<lb n="11526"/>
+<w>mout</w>
+<w>est</w>
+<w>dolanz</w>
+<w>et</w>
+<w>corrociez</w>
+<lb n="11527"/>
+<w>de</w>
+<w>ce</w>
+<w>que</w>
+<w>riens</w>
+<w>n'</w>
+<w>a</w>
+<w>conquesté</w>
+<lb n="11528"/>
+<w>q'</w>
+<w>a</w>
+<w>son</w>
+<w>ostel</w>
+<w>eüst</w>
+<w>porté</w>
+<lb n="11529"/>
+<w>por</w>
+<w>sa</w>
+<w>maisnie</w>
+<w>desgeuner</w>
+<w type="pon">.</w>
+</s>
+<lb n="11530"/>
+<s n="12">
+<w>Toute</w>
+<w>jor</w>
+<w>ne</w>
+<w>fina</w>
+<w>d'</w>
+<w>errer</w>
+<lb n="11531"/>
+<w>jusqu'</w>
+<w>a</w>
+<w>tant</w>
+<w>qu'</w>
+<w>il</w>
+<w>vint</w>
+<w>a</w>
+<w>midi</w>
+<w type="pon">;</w>
+<lb n="11532"/>
+<w>il</w>
+<w>esgarda</w>
+<w type="pon">,</w>
+<w>si</w>
+<w>a</w>
+<w>choisi</w>
+<lb n="11533"/>
+<w>Tibert</w>
+<w>le</w>
+<w>chat</w>
+<w type="pon">,</w>
+<w>qui</w>
+<w>se</w>
+<w>gisoit</w>
+<pb n="71"/>
+<lb n="11534"/>
+<w>sor</w>
+<w>une</w>
+<w>roche</w>
+<w>et</w>
+<w>rostisoiz</w>
+<lb n="11535"/>
+<w>sa</w>
+<w>pance</w>
+<w>encontre</w>
+<w>le</w>
+<w>soloil</w>
+<w type="pon">.</w>
+</s>
+<lb n="11536"/>
+<s n="13">
+<w>Et</w>
+<w>dist</w>
+<w>Renart</w>
+<w type="pon">:</w>
+</s>
+<q>
+<s>
+<w type="pon">«</w>
+<w>Je</w>
+<w>me</w>
+<w>mervoil</w>
+<lb n="11537"/>
+<w>se</w>
+<w>c'</w>
+<w>est</w>
+<w>Tibert</w>
+<w>qui</w>
+<w>la</w>
+<w>se</w>
+<w>coste</w>
+<w type="pon">.</w>
+<lb n="11538"/>
+<w type="pon">-</w>
+</s>
+<s n="14">
+<w>Oïl</w>
+<w type="pon">,</w>
+<w>et</w>
+<w>ce</w>
+<w>sui</w>
+<w>ge</w>
+<w type="pon">,</w>
+<w>bel</w>
+<w>oste</w>
+<w type="pon">;</w>
+<lb n="11539"/>
+<w>et</w>
+<w>por</w>
+<w>coi</w>
+<w type="pon">?</w>
+</s>
+<s n="15">
+<w>que</w>
+<w>me</w>
+<w>volez</w>
+<w>vos</w>
+<w type="pon">?</w>
+<lb n="11540"/>
+<w type="pon">-</w>
+</s>
+<s n="16">
+<w>Je</w>
+<w>me</w>
+<w>voil</w>
+<w>dereignier</w>
+<w>a</w>
+<w>vos</w>
+<w type="pon">,</w>
+<lb n="11541"/>
+<w>ce</w>
+<w>dist</w>
+<w>Renart</w>
+<w type="pon">,</w>
+<w>et</w>
+<w>reposer</w>
+<w type="pon">,</w>
+<lb n="11542"/>
+<w>que</w>
+<w>je</w>
+<w>ne</w>
+<w>finai</w>
+<w>hui</w>
+<w>d'</w>
+<w>aler</w>
+<w type="pon">.</w>
+<lb n="11543"/>
+<w type="pon">-</w>
+</s>
+<s n="17">
+<w>Si</w>
+<w>alez</w>
+<w>dormir</w>
+<w>en</w>
+<w>une</w>
+<w>angle</w>
+<w type="pon">:</w>
+<lb n="11544"/>
+<w>n'</w>
+<w>ai</w>
+<w>que</w>
+<w>faire</w>
+<w>de</w>
+<w>vostre</w>
+<w>gangle</w>
+<lb n="11545"/>
+<w>ne</w>
+<w>de</w>
+<w>voz</w>
+<w>farloines</w>
+<w>oïr</w>
+<w type="pon">.</w>
+</s>
+<lb n="11546"/>
+<s n="18">
+<w>Alez</w>
+<w type="pon">,</w>
+<w>si</w>
+<w>me</w>
+<w>laissiez</w>
+<w>dormir</w>
+<w type="pon">:</w>
+<lb n="11547"/>
+<w>je</w>
+<w>n'</w>
+<w>ai</w>
+<w>or</w>
+<w>de</w>
+<w>noise</w>
+<w>mestier</w>
+<w type="pon">;</w>
+<lb n="11548"/>
+<w>fuiez</w>
+<w>de</w>
+<w>ci</w>
+<w type="pon">,</w>
+<w>alez</w>
+<w>billier</w>
+<w type="pon">.</w>
+<lb n="11549"/>
+<w type="pon">-</w>
+</s>
+<s n="19">
+<w>Avoi</w>
+<w type="pon">,</w>
+<w>sire</w>
+<w>Tibert</w>
+<w>le</w>
+<w>chaz</w>
+<w type="pon">,</w>
+<lb n="11550"/>
+<w>por</w>
+<w>ce</w>
+<w>se</w>
+<w>avez</w>
+<w>vos</w>
+<w>degraz</w>
+<lb n="11551"/>
+<w>et</w>
+<w>se</w>
+<w>la</w>
+<w>vostre</w>
+<w>pance</w>
+<w>est</w>
+<w>plaine</w>
+<w type="pon">,</w>
+<lb n="11552"/>
+<w>ne</w>
+<w>durra</w>
+<w>toute</w>
+<w>la</w>
+<w>semainne</w>
+<lb n="11553"/>
+<w>li</w>
+<w>orgiauz</w>
+<w>que</w>
+<w>vos</w>
+<w>ore</w>
+<w>avez</w>
+<w type="pon">;</w>
+<lb n="11554"/>
+<w>por</w>
+<w>ce</w>
+<w>se</w>
+<w>iestes</w>
+<w>saoulez</w>
+<w type="pon">,</w>
+<lb n="11555"/>
+<w>si</w>
+<w>me</w>
+<w>faites</w>
+<w>chiere</w>
+<w>louvine</w>
+<w type="pon">;</w>
+<lb n="11556"/>
+<w>gel</w>
+<w>conterai</w>
+<w>a</w>
+<w>Ermeline</w>
+<lb n="11557"/>
+<w>la</w>
+<w>foi</w>
+<w>et</w>
+<w>la</w>
+<w>reconoissance</w>
+<lb n="11558"/>
+<w>que</w>
+<w>vos</w>
+<w>avez</w>
+<w>et</w>
+<w>la</w>
+<w>provance</w>
+<w type="pon">.</w>
+</s>
+<lb n="11559"/>
+<s n="20">
+<w>Et</w>
+<w>je</w>
+<w>l'</w>
+<w>ai</w>
+<w>en</w>
+<w>maison</w>
+<w>laissiee</w>
+<w type="pon">,</w>
+<lb n="11560"/>
+<w>que</w>
+<w>de</w>
+<w>novel</w>
+<w>est</w>
+<w>acouchiee</w>
+<lb n="11561"/>
+<w>d'</w>
+<w>un</w>
+<w>mout</w>
+<w>biau</w>
+<w>fil</w>
+<w>et</w>
+<w>d'</w>
+<w>une</w>
+<w>fille</w>
+<w type="pon">.</w>
+<lb n="11562"/>
+<w type="pon">-</w>
+</s>
+<s n="21">
+<w>Certes</w>
+<w>n'</w>
+<w>i</w>
+<w>dorroie</w>
+<w>une</w>
+<w>bille</w>
+<w type="pon">,</w>
+<lb n="11563"/>
+<w>ce</w>
+<w>dit</w>
+<w>Tibert</w>
+<w type="pon">,</w>
+<w>en</w>
+<w>aus</w>
+<w>n'</w>
+<w>en</w>
+<w>toi</w>
+<w type="pon">.</w>
+<lb n="11564"/>
+<w type="pon">-</w>
+</s>
+<s n="22">
+<w>Avoi</w>
+<w type="pon">,</w>
+<w>sire</w>
+<w>Tibert</w>
+<w type="pon">,</w>
+<w>par</w>
+<w>foi</w>
+<w type="pon">,</w>
+<lb n="11565"/>
+<w>je</w>
+<w>n'</w>
+<w>en</w>
+<w>puis</w>
+<w>mais</w>
+<w>se</w>
+<w>me</w>
+<w>dement</w>
+<w type="pon">,</w>
+<lb n="11566"/>
+<w>que</w>
+<w>desgarniz</w>
+<w>sui</w>
+<w>malement</w>
+<w type="pon">;</w>
+<pb n="72"/>
+<lb n="11567"/>
+<w>je</w>
+<w>ne</w>
+<w>laissai</w>
+<w>hui</w>
+<w>a</w>
+<w>l'</w>
+<w>ostel</w>
+<lb n="11568"/>
+<w>ne</w>
+<w>pain</w>
+<w type="pon">,</w>
+<w>ne</w>
+<w>vin</w>
+<w type="pon">,</w>
+<w>ne</w>
+<w>char</w>
+<w type="pon">,</w>
+<w>ne</w>
+<w>sel</w>
+<w type="pon">,</w>
+<lb n="11569"/>
+<w>dont</w>
+<w>ele</w>
+<w>se</w>
+<w>poïst</w>
+<w>disner</w>
+<w type="pon">;</w>
+<lb n="11570"/>
+<w>si</w>
+<w>m'</w>
+<w>avint</w>
+<w>hui</w>
+<w>a</w>
+<w>l'</w>
+<w>ancontrer</w>
+<lb n="11571"/>
+<w>Huon</w>
+<w>l'</w>
+<w>abé</w>
+<w type="pon">,</w>
+<w>un</w>
+<w>vif</w>
+<w>deauble</w>
+<w type="pon">.</w>
+<w type="pon">.</w>
+<w type="pon">.</w>
+<lb n="11572"/>
+<w type="pon">-</w>
+</s>
+<s n="23">
+<w>Renart</w>
+<w type="pon">,</w>
+<w>doit</w>
+<w>il</w>
+<w>dont</w>
+<w>dire</w>
+<w>fable</w>
+<lb n="11573"/>
+<w>qui</w>
+<w>jeüne</w>
+<w>et</w>
+<w>fait</w>
+<w>penitance</w>
+<w type="pon">?</w>
+</s>
+<lb n="11574"/>
+<s n="24">
+<w>Nanil</w>
+<w type="pon">,</w>
+<w>mes</w>
+<w>aistre</w>
+<w>en</w>
+<w>repentance</w>
+<w type="pon">;</w>
+<lb n="11575"/>
+<w>si</w>
+<w>doit</w>
+<w>aler</w>
+<w>paisiblement</w>
+<lb n="11576"/>
+<w>ne</w>
+<w>mie</w>
+<w>tancier</w>
+<w>a</w>
+<w>la</w>
+<w>gent</w>
+<w type="pon">;</w>
+<lb n="11577"/>
+<w>il</w>
+<w>n'</w>
+<w>afiert</w>
+<w>pas</w>
+<w>a</w>
+<w>peneant</w>
+<lb n="11578"/>
+<w>que</w>
+<w>il</w>
+<w>aille</w>
+<w>la</w>
+<w>gant</w>
+<w>gabant</w>
+<lb n="11579"/>
+<w>qu'</w>
+<w>il</w>
+<w>trovera</w>
+<w>par</w>
+<w>les</w>
+<w>chemins</w>
+<w type="pon">;</w>
+<lb n="11580"/>
+<w>ainz</w>
+<w>se</w>
+<w>doit</w>
+<w>tenir</w>
+<w>toz</w>
+<w>anclins</w>
+<w type="pon">;</w>
+<lb n="11581"/>
+<w>qant</w>
+<w>il</w>
+<w>va</w>
+<w>em</w>
+<w>pelerinage</w>
+<w type="pon">,</w>
+<lb n="11582"/>
+<w>il</w>
+<w>ne</w>
+<w>doist</w>
+<w>mie</w>
+<w>mener</w>
+<w>rage</w>
+<w type="pon">.</w>
+<lb n="11583"/>
+<w type="pon">-</w>
+</s>
+<s n="25">
+<w>Ahi</w>
+<w type="pon">,</w>
+<w>Tibert</w>
+<w type="pon">,</w>
+<w>or</w>
+<w>est</w>
+<w>assez</w>
+<w type="pon">.</w>
+</s>
+<lb n="11584"/>
+<s n="26">
+<w>N'</w>
+<w>iestes</w>
+<w>mie</w>
+<w>encor</w>
+<w>lassez</w>
+<w type="pon">,</w>
+<lb n="11585"/>
+<w>fait</w>
+<w>soi</w>
+<w>Renart</w>
+<w type="pon">,</w>
+<w>de</w>
+<w>moi</w>
+<w>gaber</w>
+<w type="pon">?</w>
+</s>
+<lb n="11586"/>
+<s n="27">
+<w>Ja</w>
+<w>ne</w>
+<w>le</w>
+<w>deüsiez</w>
+<w>panser</w>
+<w type="pon">.</w>
+</s>
+<lb n="11587"/>
+<s n="28">
+<w>Por</w>
+<w>ce</w>
+<w>se</w>
+<w>sui</w>
+<w>ore</w>
+<w>frarins</w>
+<w type="pon">;</w>
+<lb n="11588"/>
+<w>assez</w>
+<w>set</w>
+<w>Diex</w>
+<w>ques</w>
+<w>pelerins</w>
+<lb n="11589"/>
+<w>nos</w>
+<w>somes</w>
+<w type="pon">»</w>
+<w type="pon">,</w>
+</s>
+</q>
+  <s>
+<w>Renart</w>
+<w>li</w>
+<w>a</w>
+<w>dist</w>
+<w type="pon">.</w>
+</s>
+<lb n="11590"/>
+<q>
+<s>
+<w type="pon">«</w>
+<w>Or</w>
+<w>me</w>
+<w>di</w>
+<w>dont</w>
+<w type="pon">,</w>
+<w>se</w>
+<w>Diex</w>
+<w>t'</w>
+<w>aït</w>
+<w type="pon">,</w>
+<lb n="11591"/>
+<w>Renart</w>
+<w type="pon">,</w>
+<w>dist</w>
+<w>moi</w>
+<w>ou</w>
+<w>est</w>
+<w>l'</w>
+<w>eglise</w>
+<lb n="11592"/>
+<w>ou</w>
+<w>tu</w>
+<w>vas</w>
+<w>oïr</w>
+<w>le</w>
+<w>servise</w>
+<w type="pon">.</w>
+</s>
+<lb n="11593"/>
+<s n="30">
+<w>Ja</w>
+<w>ne</w>
+<w>sez</w>
+<w>tu</w>
+<w>la</w>
+<w>messe</w>
+<w>entendre</w>
+<w type="pon">.</w>
+</s>
+<lb n="11594"/>
+<s n="31">
+<w>Je</w>
+<w>t'</w>
+<w>ai</w>
+<w>veü</w>
+<w>charité</w>
+<w>prandre</w>
+<lb n="11595"/>
+<w>deus</w>
+<w>foiz</w>
+<w>sanz</w>
+<w>aler</w>
+<w>au</w>
+<w>mostier</w>
+<w type="pon">.</w>
+</s>
+<lb n="11596"/>
+<s n="32">
+<w>Mout</w>
+<w>ies</w>
+<w>religieus</w>
+<w>des</w>
+<w>ier</w>
+<lb n="11597"/>
+<w>en</w>
+<w>petit</w>
+<w>d'</w>
+<w>eure</w>
+<w>devenuz</w>
+<w type="pon">.</w>
+</s>
+<lb n="11598"/>
+<s n="33">
+<w>Conment</w>
+<w type="pon">?</w>
+</s>
+<s n="34">
+<w>viauz</w>
+<w>tu</w>
+<w>estre</w>
+<w>reclus</w>
+<w type="pon">?</w>
+<lb n="11599"/>
+<w type="pon">-</w>
+</s>
+<s n="35">
+<w>Par</w>
+<w>Dieu</w>
+<w type="pon">,</w>
+<w>Tibert</w>
+<w type="pon">,</w>
+<w>vos</w>
+<w>avez</w>
+<w>tort</w>
+<w type="pon">:</w>
+<pb n="73"/>
+<lb n="11600"/>
+<w>tieus</w>
+<w>est</w>
+<w>foibles</w>
+<w>qui</w>
+<w>devient</w>
+<w>fort</w>
+<w type="pon">.</w>
+</s>
+<lb n="11601"/>
+<s n="36">
+<w>Tibert</w>
+<w type="pon">,</w>
+<w>ce</w>
+<w>dit</w>
+<w>Renart</w>
+<w type="pon">,</w>
+<w>merci</w>
+<w type="pon">:</w>
+<lb n="11602"/>
+<w>au</w>
+<w>besoing</w>
+<w>voit</w>
+<w>on</w>
+<w>son</w>
+<w>ami</w>
+<w type="pon">.</w>
+</s>
+<lb n="11603"/>
+<s n="37">
+<w>Mais</w>
+<w>faites</w>
+<w>lou</w>
+<w>conme</w>
+<w>cortois</w>
+<w type="pon">,</w>
+<lb n="11604"/>
+<w>venez</w>
+<w>o</w>
+<w>moi</w>
+<w>en</w>
+<w>cest</w>
+<w>defais</w>
+<w type="pon">,</w>
+<lb n="11605"/>
+<w>el</w>
+<w>plaissié</w>
+<w>Guillaume</w>
+<w>Bacon</w>
+<w type="pon">,</w>
+<lb n="11606"/>
+<w>savoir</w>
+<w>se</w>
+<w>nos</w>
+<w>i</w>
+<w>troverom</w>
+<lb n="11607"/>
+<w>aucune</w>
+<w>chose</w>
+<w>por</w>
+<w>ma</w>
+<w>fame</w>
+<w type="pon">.</w>
+<lb n="11608"/>
+<w type="pon">-</w>
+</s>
+<s n="38">
+<w>Non</w>
+<w>ferai</w>
+<w type="pon">,</w>
+<w>fait</w>
+<w>Tibert</w>
+<w type="pon">,</w>
+<w>par</w>
+<w>m'</w>
+<w>ame</w>
+<w type="pon">:</w>
+<lb n="11609"/>
+<w>n'</w>
+<w>ai</w>
+<w>or</w>
+<w>mestier</w>
+<w>de</w>
+<w>traveillier</w>
+<w type="pon">.</w>
+<lb n="11610"/>
+<w type="pon">-</w>
+</s>
+<s n="39">
+<w>Jel</w>
+<w>di</w>
+<w>por</w>
+<w>vos</w>
+<w>esbenoier</w>
+<lb n="11611"/>
+<w>et</w>
+<w>por</w>
+<w>moi</w>
+<w>faire</w>
+<w>conpaignie</w>
+<w type="pon">;</w>
+<lb n="11612"/>
+<w>si</w>
+<w>ferez</w>
+<w>mout</w>
+<w>grant</w>
+<w>cortoisie</w>
+<w type="pon">,</w>
+<lb n="11613"/>
+<w>se</w>
+<w>vos</w>
+<w>venez</w>
+<w>o</w>
+<w>mi</w>
+<w>esbatre</w>
+<w type="pon">.</w>
+<lb n="11614"/>
+<w type="pon">-</w>
+</s>
+<s n="40">
+<w>Voire</w>
+<w type="pon">,</w>
+<w>mes</w>
+<w>se</w>
+<w>tu</w>
+<w>me</w>
+<w>fais</w>
+<w>batre</w>
+<lb n="11615"/>
+<w>par</w>
+<w>ton</w>
+<w>angin</w>
+<w>et</w>
+<w>faire</w>
+<w>honte</w>
+<w type="pon">?</w>
+<lb n="11616"/>
+<w type="pon">-</w>
+</s>
+<s n="41">
+<w>Avoi</w>
+<w type="pon">,</w>
+<w>Tibert</w>
+<w type="pon">,</w>
+<w>ice</w>
+<w>que</w>
+<w>monte</w>
+<w type="pon">?</w>
+</s>
+<lb n="11617"/>
+<s n="42">
+<w>Par</w>
+<w>la</w>
+<w>foi</w>
+<w>que</w>
+<w>je</w>
+<w>doi</w>
+<w>Rouvel</w>
+<w type="pon">,</w>
+<lb n="11618"/>
+<w>nel</w>
+<w>voudroie</w>
+<w>por</w>
+<w>le</w>
+<w>mantel</w>
+<lb n="11619"/>
+<w>qui</w>
+<w>or</w>
+<w>androit</w>
+<w>au</w>
+<w>col</w>
+<w>me</w>
+<w>pant</w>
+<lb n="11620"/>
+<w>c'</w>
+<w>on</w>
+<w>vos</w>
+<w>i</w>
+<w>forfeïst</w>
+<w>noiant</w>
+<w type="pon">,</w>
+<lb n="11621"/>
+<w>ne</w>
+<w>qu'</w>
+<w>i</w>
+<w>eüsiez</w>
+<w>se</w>
+<w>bien</w>
+<w>non</w>
+<lb n="11622"/>
+<w>tant</w>
+<w>con</w>
+<w>nos</w>
+<w>somes</w>
+<w>conpaignon</w>
+<w type="pon">.</w>
+<w type="pon">»</w>
+</s>
+</q>
+<lb n="11623"/>
+<s n="43">
+<w>Et</w>
+<w>puis</w>
+<w>dit</w>
+<w>en</w>
+<w>bas</w>
+<w>bailement</w>
+<w type="pon">:</w>
+</s>
+<lb n="11624"/>
+<q>
+<s>
+<w type="pon">«</w>
+<w>Tibert</w>
+<w type="pon">,</w>
+<w>mal</w>
+<w>aiez</w>
+<w>et</w>
+<w>torment</w>
+<w type="pon">,</w>
+<lb n="11625"/>
+<w>que</w>
+<w>mout</w>
+<w>m'</w>
+<w>as</w>
+<w>or</w>
+<w>hui</w>
+<w>ranponé</w>
+<w type="pon">,</w>
+<lb n="11626"/>
+<w>mais</w>
+<w>i</w>
+<w>t'</w>
+<w>iert</w>
+<w>bien</w>
+<w>guerredoné</w>
+<w type="pon">,</w>
+<lb n="11627"/>
+<w>si</w>
+<w>je</w>
+<w>puis</w>
+<w>et</w>
+<w>angins</w>
+<w>i</w>
+<w>vaut</w>
+<w type="pon">.</w>
+<w type="pon">»</w>
+</s>
+</q>
+<lb n="11628"/>
+<s n="44">
+<w>Et</w>
+<w>aprés</w>
+<w>a</w>
+<w>parlé</w>
+<w>plus</w>
+<w>haut</w>
+<w type="pon">:</w>
+</s>
+</ab>
+<ab rend="strophe">
+<lb n="11629"/>
+<q>
+<s>
+<w type="pon">«</w>
+<w>Sire</w>
+<w>Tibert</w>
+<w type="pon">,</w>
+<w>Renart</w>
+<w>a</w>
+<w>dit</w>
+<w type="pon">,</w>
+<lb n="11630"/>
+<w>je</w>
+<w>vos</w>
+<w>aim</w>
+<w>mout</w>
+<w type="pon">,</w>
+<w>se</w>
+<w>Diex</w>
+<w>m'</w>
+<w>aïst</w>
+<w type="pon">.</w>
+<w type="pon">»</w>
+</s>
+</q>
+<lb n="11631"/>
+<s n="46">
+<w>Et</w>
+<w>dist</w>
+<w>Tibert</w>
+<w type="pon">:</w>
+</s>
+<q>
+<s>
+<w type="pon">«</w>
+<w>Bien</w>
+<w>vos</w>
+<w>an</w>
+<w>croi</w>
+<w type="pon">.</w>
+<w type="pon">»</w>
+</s>
+</q>
+<lb n="11632"/>
+<s n="47">
+<w>A</w>
+<w>tant</w>
+<w>sont</w>
+<w>issu</w>
+<w>de</w>
+<w>l'</w>
+<w>aunoi</w>
+<pb n="74"/>
+<lb n="11633"/>
+<w>vers</w>
+<w>le</w>
+<w>Moloi</w>
+<w>toz</w>
+<w>eslaissiez</w>
+<w type="pon">,</w>
+<lb n="11634"/>
+<w>si</w>
+<w>se</w>
+<w>fierent</w>
+<w>enz</w>
+<w>el</w>
+<w>pleissié</w>
+<lb n="11635"/>
+<w>loing</w>
+<w>d'</w>
+<w>un</w>
+<w>chastel</w>
+<w>desoz</w>
+<w>la</w>
+<w>vile</w>
+<w type="pon">,</w>
+<lb n="11636"/>
+<w>Et</w>
+<w>Renart</w>
+<w type="pon">,</w>
+<w>qui</w>
+<w>mout</w>
+<w>sot</w>
+<w>de</w>
+<w>guile</w>
+<lb n="11637"/>
+<w>avoit</w>
+<w>mis</w>
+<w>Tibert</w>
+<w>a</w>
+<w>raison</w>
+<w type="pon">:</w>
+</s>
+<lb n="11638"/>
+<q>
+<s>
+<w type="pon">«</w>
+<w>Tibert</w>
+<w type="pon">,</w>
+<w>par</w>
+<w>ta</w>
+<w>confessïon</w>
+<w type="pon">,</w>
+<lb n="11639"/>
+<w>fait</w>
+<w>soi</w>
+<w>Renart</w>
+<w type="pon">,</w>
+<w>di</w>
+<w>moi</w>
+<w>verté</w>
+<w type="pon">.</w>
+</s>
+<lb n="11640"/>
+<s n="48">
+<w>S'</w>
+<w>or</w>
+<w>venoient</w>
+<w>ci</w>
+<w>arouté</w>
+<lb n="11641"/>
+<w>tuit</w>
+<w>li</w>
+<w>chien</w>
+<w>Gullaume</w>
+<w>Bacon</w>
+<w type="pon">,</w>
+<lb n="11642"/>
+<w>se</w>
+<w>Diex</w>
+<w>te</w>
+<w>face</w>
+<w>voir</w>
+<w>pardon</w>
+<w type="pon">,</w>
+<lb n="11643"/>
+<w>car</w>
+<w>me</w>
+<w>di</w>
+<w>ores</w>
+<w>que</w>
+<w>feroies</w>
+<w type="pon">:</w>
+<lb n="11644"/>
+<w>fuiroies</w>
+<w>tu</w>
+<w>et</w>
+<w>me</w>
+<w>leroies</w>
+<w type="pon">.</w>
+<lb n="11645"/>
+<w type="pon">-</w>
+</s>
+<s n="49">
+<w>Ainz</w>
+<w>m'</w>
+<w>en</w>
+<w>monteroies</w>
+<w>lasus</w>
+<w type="pon">,</w>
+<lb n="11646"/>
+<w>ce</w>
+<w>dit</w>
+<w>Tibert</w>
+<w type="pon">,</w>
+<w>or</w>
+<w>n'</w>
+<w>i</w>
+<w>a</w>
+<w>plus</w>
+<w type="pon">:</w>
+<lb n="11647"/>
+<w>je</w>
+<w>esgarderoie</w>
+<w>lor</w>
+<w>force</w>
+<w type="pon">,</w>
+<lb n="11648"/>
+<w>se</w>
+<w>je</w>
+<w>trovoie</w>
+<w>crues</w>
+<w>n'</w>
+<w>escorce</w>
+<lb n="11649"/>
+<w>ou</w>
+<w>je</w>
+<w>me</w>
+<w>peüsse</w>
+<w>mucier</w>
+<w type="pon">,</w>
+<lb n="11650"/>
+<w>ses</w>
+<w>lairaie</w>
+<w>outre</w>
+<w>chevauchier</w>
+<w type="pon">,</w>
+<lb n="11651"/>
+<w>car</w>
+<w>trop</w>
+<w>par</w>
+<w>ai</w>
+<w>la</w>
+<w>pance</w>
+<w>plaine</w>
+<w type="pon">:</w>
+<lb n="11652"/>
+<w>au</w>
+<w>corre</w>
+<w>me</w>
+<w>fauroit</w>
+<w>l'</w>
+<w>alaine</w>
+<w type="pon">.</w>
+</s>
+<lb n="11653"/>
+<s n="50">
+<w>Et</w>
+<w>vos</w>
+<w type="pon">,</w>
+<w>Renart</w>
+<w type="pon">,</w>
+<w>que</w>
+<w>ferïez</w>
+<w type="pon">?</w>
+</s>
+<lb n="11654"/>
+<s n="51">
+<w>Bien</w>
+<w>sai</w>
+<w>que</w>
+<w>vos</w>
+<w>me</w>
+<w>lairïez</w>
+<w type="pon">,</w>
+<lb n="11655"/>
+<w>si</w>
+<w>me</w>
+<w>lairïez</w>
+<w>couvenir</w>
+<w type="pon">.</w>
+<w type="pon">»</w>
+</s>
+</q>
+<lb n="11656"/>
+<s n="52">
+<w>A</w>
+<w>tant</w>
+<w>voient</w>
+<w>andui</w>
+<w>venir</w>
+<lb n="11657"/>
+<w>Guillaume</w>
+<w>Bacon</w>
+<w>et</w>
+<w>ses</w>
+<w>chiens</w>
+<w type="pon">.</w>
+</s>
+<lb n="11658"/>
+<q>
+<s>
+<w type="pon">«</w>
+<w>Ici</w>
+<w>ne</w>
+<w>voi</w>
+<w>ge</w>
+<w>nul</w>
+<w>des</w>
+<w>miens</w>
+<w type="pon">,</w>
+<lb n="11659"/>
+<w>sire</w>
+<w>Tibert</w>
+<w type="pon">,</w>
+<w>ce</w>
+<w>dist</w>
+<w>Renart</w>
+<w type="pon">;</w>
+<lb n="11660"/>
+<w>or</w>
+<w>face</w>
+<w>chascuns</w>
+<w>de</w>
+<w>son</w>
+<w>art</w>
+<lb n="11661"/>
+<w>et</w>
+<w>chascuns</w>
+<w>miauz</w>
+<w>que</w>
+<w>il</w>
+<w>porra</w>
+<w type="pon">,</w>
+<lb n="11662"/>
+<w>que</w>
+<w>Renart</w>
+<w>plus</w>
+<w>n'</w>
+<w>i</w>
+<w>demorra</w>
+<w type="pon">.</w>
+</s>
+<lb n="11663"/>
+<s n="54">
+<w>Sire</w>
+<w>Tibert</w>
+<w type="pon">,</w>
+<w>or</w>
+<w>dou</w>
+<w>monter</w>
+<w type="pon">;</w>
+<lb n="11664"/>
+<w>ne</w>
+<w>vos</w>
+<w>tient</w>
+<w>ore</w>
+<w>de</w>
+<w>fabler</w>
+<w type="pon">;</w>
+<lb n="11665"/>
+<w>vos</w>
+<w>n'</w>
+<w>iestes</w>
+<w>mie</w>
+<w>sor</w>
+<w>la</w>
+<w>roche</w>
+<pb n="75"/>
+<lb n="11666"/>
+<w>ou</w>
+<w>je</w>
+<w>oï</w>
+<w>de</w>
+<w>vostre</w>
+<w>bouche</w>
+<lb n="11667"/>
+<w>les</w>
+<w>foles</w>
+<w>paroles</w>
+<w>disant</w>
+<w type="pon">;</w>
+<lb n="11668"/>
+<w>ja</w>
+<w>esterez</w>
+<w>muz</w>
+<w>et</w>
+<w>taisant</w>
+<w type="pon">.</w>
+</s>
+<lb n="11669"/>
+<s n="55">
+<w>I</w>
+<w>vos</w>
+<w>vandront</w>
+<w>ja</w>
+<w>desfïer</w>
+<w type="pon">;</w>
+<lb n="11670"/>
+<w>si</w>
+<w>conmenciez</w>
+<w>a</w>
+<w>sermoner</w>
+<w type="pon">.</w>
+</s>
+<lb n="11671"/>
+<s n="56">
+<w>Se</w>
+<w>vos</w>
+<w>lor</w>
+<w>tenez</w>
+<w>un</w>
+<w>sermon</w>
+<w type="pon">,</w>
+<lb n="11672"/>
+<w>vos</w>
+<w>vos</w>
+<w>en</w>
+<w>tenrez</w>
+<w>a</w>
+<w>bricon</w>
+<w type="pon">,</w>
+<lb n="11673"/>
+<w>que</w>
+<w>ja</w>
+<w>ne</w>
+<w>monterez</w>
+<w>si</w>
+<w>haut</w>
+<lb n="11674"/>
+<w>a</w>
+<w>terre</w>
+<w type="pon">-</w>
+<w>ne</w>
+<w>sor</w>
+<w>eschaufaut</w>
+<w type="pon">-</w>
+<lb n="11675"/>
+<w>ne</w>
+<w>vos</w>
+<w>batent</w>
+<w>de</w>
+<w>lor</w>
+<w>bastons</w>
+<w type="pon">,</w>
+<lb n="11676"/>
+<w>de</w>
+<w>lor</w>
+<w>ars</w>
+<w>et</w>
+<w>de</w>
+<w>lor</w>
+<w>bouzons</w>
+<w type="pon">.</w>
+</s>
+<lb n="11677"/>
+<s n="57">
+<w>Et</w>
+<w>se</w>
+<w>vos</w>
+<w>iestes</w>
+<w>entepris</w>
+<w type="pon">,</w>
+<lb n="11678"/>
+<w>ja</w>
+<w>par</w>
+<w>moi</w>
+<w>n'</w>
+<w>i</w>
+<w>serez</w>
+<w>requis</w>
+<w type="pon">;</w>
+<lb n="11679"/>
+<w>si</w>
+<w>n'</w>
+<w>en</w>
+<w>prandront</w>
+<w>la</w>
+<w>raançon</w>
+<w type="pon">,</w>
+<lb n="11680"/>
+<w>s'</w>
+<w>il</w>
+<w>n'</w>
+<w>ont</w>
+<w>vostre</w>
+<w>gris</w>
+<w>peliçon</w>
+<w type="pon">.</w>
+<w type="pon">»</w>
+</s>
+</q>
+</ab>
+<ab rend="strophe">
+<lb n="11681"/>
+<s n="58">
+<w>Lors</w>
+<w>se</w>
+<w>mist</w>
+<w>Renart</w>
+<w>en</w>
+<w>travers</w>
+<w type="pon">,</w>
+<lb n="11682"/>
+<w>et</w>
+<w>Tibert</w>
+<w>est</w>
+<w>au</w>
+<w>chene</w>
+<w>aers</w>
+<w type="pon">,</w>
+<lb n="11683"/>
+<w>si</w>
+<w>est</w>
+<w>montez</w>
+<w>sanz</w>
+<w>desfïance</w>
+<w type="pon">,</w>
+<lb n="11684"/>
+<w>car</w>
+<w>el</w>
+<w>corre</w>
+<w>n'</w>
+<w>avoit</w>
+<w>fïance</w>
+<w type="pon">:</w>
+<lb n="11685"/>
+<w>trop</w>
+<w>se</w>
+<w>santoit</w>
+<w>pesant</w>
+<w>et</w>
+<w>lenz</w>
+<w type="pon">.</w>
+</s>
+<lb n="11686"/>
+<s n="59">
+<w>Soués</w>
+<w>a</w>
+<w>dit</w>
+<w>entre</w>
+<w>ses</w>
+<w>denz</w>
+<lb n="11687"/>
+<w>sa</w>
+<w>credo</w>
+<w>et</w>
+<w>sa</w>
+<w>paternostre</w>
+<w type="pon">:</w>
+</s>
+<lb n="11688"/>
+<q>
+<s>
+<w type="pon">«</w>
+<w>Et</w>
+<w>Diex</w>
+<w type="pon">,</w>
+<w>fait</w>
+<w>il</w>
+<w type="pon">,</w>
+<w>biax</w>
+<w>pere</w>
+<w>nostre</w>
+<w type="pon">,</w>
+<lb n="11689"/>
+<w>abandonez</w>
+<w>a</w>
+<w>totes</w>
+<w>genz</w>
+<w type="pon">,</w>
+<lb n="11690"/>
+<w>gairissiez</w>
+<w>mes</w>
+<w>piez</w>
+<w>et</w>
+<w>mes</w>
+<w>denz</w>
+<lb n="11691"/>
+<w>et</w>
+<w>ma</w>
+<w>santé</w>
+<w>et</w>
+<w>ma</w>
+<w>prouesce</w>
+<w type="pon">,</w>
+<lb n="11692"/>
+<w>que</w>
+<w>je</w>
+<w>n'</w>
+<w>i</w>
+<w>muirre</w>
+<w>par</w>
+<w>peresce</w>
+<w type="pon">,</w>
+<lb n="11693"/>
+<w>mon</w>
+<w>chief</w>
+<w type="pon">,</w>
+<w>mes</w>
+<w>iauz</w>
+<w>et</w>
+<w>ma</w>
+<w>faiture</w>
+<w type="pon">;</w>
+<lb n="11694"/>
+<w>et</w>
+<w>si</w>
+<w>donez</w>
+<w>male</w>
+<w>avanture</w>
+<lb n="11695"/>
+<w>Renart</w>
+<w type="pon">,</w>
+<w>qui</w>
+<w>ci</w>
+<w>m'</w>
+<w>a</w>
+<w>amené</w>
+<w type="pon">.</w>
+<w type="pon">»</w>
+</s>
+</q>
+<lb n="11696"/>
+<s n="60">
+<w>A</w>
+<w>tant</w>
+<w>ont</w>
+<w>Renart</w>
+<w>escrïé</w>
+<lb n="11697"/>
+<w>li</w>
+<w>braconnier</w>
+<w>qui</w>
+<w>l'</w>
+<w>ont</w>
+<w>veü</w>
+<w type="pon">,</w>
+<lb n="11698"/>
+<w>et</w>
+<w>li</w>
+<w>brachet</w>
+<w>sont</w>
+<w>esmeü</w>
+<w type="pon">,</w>
+<pb n="76"/>
+<lb n="11699"/>
+<w>si</w>
+<w>vienent</w>
+<w>soz</w>
+<w>le</w>
+<w>chaisne</w>
+<w>droit</w>
+<lb n="11700"/>
+<w>ou</w>
+<w>dant</w>
+<w>Tibert</w>
+<w>montez</w>
+<w>estoiz</w>
+<w type="pon">.</w>
+</s>
+<lb n="11701"/>
+<s n="61">
+<w>Ileuc</w>
+<w>conmencent</w>
+<w>a</w>
+<w>glatir</w>
+<w type="pon">,</w>
+<lb n="11702"/>
+<w>ne</w>
+<w>s'</w>
+<w>en</w>
+<w>veulent</w>
+<w>por</w>
+<w>riens</w>
+<w>partir</w>
+<lb n="11703"/>
+<w>de</w>
+<w>ci</w>
+<w>que</w>
+<w>tuit</w>
+<w>li</w>
+<w>veneor</w>
+<lb n="11704"/>
+<w>sont</w>
+<w>venu</w>
+<w>et</w>
+<w>li</w>
+<w>coureor</w>
+<w type="pon">.</w>
+</s>
+<lb n="11705"/>
+<s n="62">
+<w>Merveillent</w>
+<w>soi</w>
+<w>que</w>
+<w>li</w>
+<w>chien</w>
+<w>ont</w>
+<w type="pon">,</w>
+<lb n="11706"/>
+<w>tant</w>
+<w>qu'</w>
+<w>il</w>
+<w>esgardent</w>
+<w>contre</w>
+<w>mont</w>
+<w type="pon">,</w>
+<lb n="11707"/>
+<w>si</w>
+<w>ont</w>
+<w>choisi</w>
+<w>Tibert</w>
+<w>le</w>
+<w>chat</w>
+<w type="pon">.</w>
+</s>
+<lb n="11708"/>
+<s n="63">
+<w>S'</w>
+<w>or</w>
+<w>ne</w>
+<w>set</w>
+<w>Tibert</w>
+<w>de</w>
+<w>barat</w>
+<w type="pon">,</w>
+<lb n="11709"/>
+<w>ja</w>
+<w>i</w>
+<w>porra</w>
+<w>tost</w>
+<w>escoter</w>
+<w type="pon">,</w>
+<lb n="11710"/>
+<w>qar</w>
+<w>i</w>
+<w>comencent</w>
+<w>a</w>
+<w>rüer</w>
+<lb n="11711"/>
+<w>que</w>
+<w>pierre</w>
+<w>que</w>
+<w>baston</w>
+<w>an</w>
+<w>haut</w>
+<w type="pon">;</w>
+<lb n="11712"/>
+<w>et</w>
+<w>il</w>
+<w>lor</w>
+<w>ganchit</w>
+<w>et</w>
+<w>tressaut</w>
+<w type="pon">.</w>
+</s>
+<lb n="11713"/>
+<s n="64">
+<w>Si</w>
+<w>li</w>
+<w>est</w>
+<w>bien</w>
+<w>de</w>
+<w>ce</w>
+<w>venu</w>
+<lb n="11714"/>
+<w>que</w>
+<w>il</w>
+<w>n'</w>
+<w>i</w>
+<w>ot</w>
+<w>nul</w>
+<w>arc</w>
+<w>eü</w>
+<w type="pon">,</w>
+<lb n="11715"/>
+<w>mais</w>
+<w>o</w>
+<w>les</w>
+<w>bastons</w>
+<w>en</w>
+<w>ruant</w>
+<lb n="11716"/>
+<w>le</w>
+<w>font</w>
+<w>sovant</w>
+<w>saillir</w>
+<w>avant</w>
+<w type="pon">.</w>
+</s>
+<lb n="11717"/>
+<s n="65">
+<w>Et</w>
+<w>il</w>
+<w>ne</w>
+<w>l'</w>
+<w>en</w>
+<w>est</w>
+<w>a</w>
+<w>noiant</w>
+<w type="pon">,</w>
+<lb n="11718"/>
+<w>qui</w>
+<w>les</w>
+<w>sant</w>
+<w>a</w>
+<w>mauvaise</w>
+<w>gent</w>
+<w type="pon">;</w>
+<lb n="11719"/>
+<w>ne</w>
+<w>prise</w>
+<w>rient</w>
+<w>tout</w>
+<w>lor</w>
+<w>rüer</w>
+<w type="pon">,</w>
+<lb n="11720"/>
+<w>ne</w>
+<w>s'</w>
+<w>en</w>
+<w>faisoit</w>
+<w>el</w>
+<w>que</w>
+<w>moquer</w>
+<w type="pon">;</w>
+<lb n="11721"/>
+<w>que</w>
+<w>ja</w>
+<w>par</w>
+<w>aus</w>
+<w>n'</w>
+<w>i</w>
+<w>eüst</w>
+<w>mal</w>
+<w type="pon">,</w>
+<lb n="11722"/>
+<w>qant</w>
+<w>uns</w>
+<w>prestres</w>
+<w>vint</w>
+<w>a</w>
+<w>cheval</w>
+<lb n="11723"/>
+<w>qui</w>
+<w>ses</w>
+<w>livres</w>
+<w>ot</w>
+<w>fait</w>
+<w>trouser</w>
+<w type="pon">,</w>
+<lb n="11724"/>
+<w>por</w>
+<w>ce</w>
+<w>que</w>
+<w>il</w>
+<w>devoit</w>
+<w>chanter</w>
+<lb n="11725"/>
+<w>a</w>
+<w>Blaiaigni</w>
+<w>por</w>
+<w>le</w>
+<w>prevoire</w>
+<lb n="11726"/>
+<w>qui</w>
+<w>estoit</w>
+<w>alez</w>
+<w>a</w>
+<w>la</w>
+<w>foire</w>
+<w type="pon">.</w>
+</s>
+<lb n="11727"/>
+<s n="66">
+<w>Ne</w>
+<w>set</w>
+<w>en</w>
+<w>autre</w>
+<w>livre</w>
+<w>rien</w>
+<w type="pon">,</w>
+<lb n="11728"/>
+<w>n'</w>
+<w>i</w>
+<w>quenoissoit</w>
+<w>ne</w>
+<w>mal</w>
+<w>ne</w>
+<w>bien</w>
+<w type="pon">;</w>
+<lb n="11729"/>
+<w>ce</w>
+<w>qu'</w>
+<w>a</w>
+<w>es</w>
+<w>suens</w>
+<w>set</w>
+<w>par</w>
+<w>anui</w>
+<w type="pon">,</w>
+<lb n="11730"/>
+<w>por</w>
+<w>ce</w>
+<w>les</w>
+<w>porte</w>
+<w>avesques</w>
+<w>lui</w>
+<w type="pon">.</w>
+</s>
+<lb n="11731"/>
+<s n="67">
+<w>Le</w>
+<w>prestre</w>
+<w>de</w>
+<w>Broil</w>
+<w>avoit</w>
+<w>non</w>
+<w type="pon">;</w>
+<pb n="77"/>
+<lb n="11732"/>
+<w>cele</w>
+<w>part</w>
+<w>vint</w>
+<w>a</w>
+<w>esperon</w>
+<w type="pon">,</w>
+<lb n="11733"/>
+<w>si</w>
+<w>vit</w>
+<w>çaus</w>
+<w>qui</w>
+<w>gitent</w>
+<w>au</w>
+<w>chat</w>
+<w type="pon">;</w>
+<lb n="11734"/>
+<w>tout</w>
+<w>prestement</w>
+<w>sor</w>
+<w>aus</w>
+<w>s'</w>
+<w>enbat</w>
+<w type="pon">,</w>
+<lb n="11735"/>
+<w>si</w>
+<w>li</w>
+<w>dïent</w>
+<w type="pon">:</w>
+</s>
+<q>
+<s>
+<w type="pon">«</w>
+<w>Se</w>
+<w>Diex</w>
+<w>vos</w>
+<w>voie</w>
+<w type="pon">,</w>
+<lb n="11736"/>
+<w>danz</w>
+<w>prestes</w>
+<w type="pon">,</w>
+<w>ou</w>
+<w>sera</w>
+<w>la</w>
+<w>voie</w>
+<w type="pon">?</w>
+<lb n="11737"/>
+<w type="pon">-</w>
+</s>
+<s n="68">
+<w>A</w>
+<w>Blaaigni</w>
+<w>voloie</w>
+<w>aler</w>
+<w type="pon">,</w>
+<lb n="11738"/>
+<w>mes</w>
+<w>o</w>
+<w>vos</w>
+<w>vodrai</w>
+<w>demorer</w>
+<lb n="11739"/>
+<w>tant</w>
+<w>que</w>
+<w>li</w>
+<w>chaz</w>
+<w>sait</w>
+<w>abatuz</w>
+<w type="pon">.</w>
+<w type="pon">»</w>
+</s>
+</q>
+<lb n="11740"/>
+<s n="69">
+<w>Lors</w>
+<w>est</w>
+<w>li</w>
+<w>prestes</w>
+<w>desçanduz</w>
+<w type="pon">,</w>
+<lb n="11741"/>
+<w>et</w>
+<w>Tibert</w>
+<w>le</w>
+<w>chat</w>
+<w>le</w>
+<w>regarde</w>
+<w type="pon">.</w>
+</s>
+<lb n="11742"/>
+<q>
+<s>
+<w type="pon">«</w>
+<w>Ha</w>
+<w type="pon">!</w>
+</s>
+<s n="71">
+<w>prestres</w>
+<w type="pon">,</w>
+<w>male</w>
+<w>flame</w>
+<w>t'</w>
+<w>arde</w>
+<w type="pon">,</w>
+<lb n="11743"/>
+<w>fait</w>
+<w>lors</w>
+<w>Tibert</w>
+<w type="pon">;</w>
+<w>de</w>
+<w>ton</w>
+<w>venir</w>
+<lb n="11744"/>
+<w>me</w>
+<w>poïsse</w>
+<w>je</w>
+<w>bien</w>
+<w>soufrir</w>
+<w type="pon">.</w>
+<w type="pon">»</w>
+</s>
+</q>
+</ab>
+<ab rend="strophe">
+<lb n="11745"/>
+<s n="72">
+<w>A</w>
+<w>tant</w>
+<w>vint</w>
+<w>li</w>
+<w>prestres</w>
+<w>au</w>
+<w>chesne</w>
+<lb n="11746"/>
+<w>et</w>
+<w>dant</w>
+<w>Tibert</w>
+<w>le</w>
+<w>chat</w>
+<w>l'</w>
+<w>aresne</w>
+<w type="pon">:</w>
+</s>
+<lb n="11747"/>
+<q>
+<s>
+<w type="pon">«</w>
+<w>Sire</w>
+<w>prestres</w>
+<w type="pon">,</w>
+<w>que</w>
+<w>me</w>
+<w>volez</w>
+<w type="pon">?</w>
+</s>
+<lb n="11748"/>
+<s n="73">
+<w>Sachiez</w>
+<w>bien</w>
+<w>que</w>
+<w>pas</w>
+<w>ne</w>
+<w>mainez</w>
+<lb n="11749"/>
+<w>vers</w>
+<w>moi</w>
+<w>a</w>
+<w>raison</w>
+<w>ne</w>
+<w>a</w>
+<w>droit</w>
+<w type="pon">,</w>
+<lb n="11750"/>
+<w>si</w>
+<w>con</w>
+<w>provoire</w>
+<w>faire</w>
+<w>doit</w>
+<w type="pon">,</w>
+<lb n="11751"/>
+<w>por</w>
+<w>moi</w>
+<w>doner</w>
+<w>confaissïon</w>
+<w type="pon">:</w>
+<lb n="11752"/>
+<w>ja</w>
+<w>ne</w>
+<w>sui</w>
+<w>ge</w>
+<w>mie</w>
+<w>larron</w>
+<lb n="11753"/>
+<w>c'</w>
+<w>on</w>
+<w>doie</w>
+<w>asaillir</w>
+<w>ne</w>
+<w>tüer</w>
+<w type="pon">.</w>
+</s>
+<lb n="11754"/>
+<s n="74">
+<w>Je</w>
+<w>me</w>
+<w>voloie</w>
+<w>confesser</w>
+<w type="pon">,</w>
+<lb n="11755"/>
+<w>se</w>
+<w>vos</w>
+<w>eüssiez</w>
+<w>vostre</w>
+<w>estole</w>
+<w type="pon">:</w>
+<lb n="11756"/>
+<w>vostre</w>
+<w>fame</w>
+<w>n'</w>
+<w>est</w>
+<w>mie</w>
+<w>fole</w>
+<w type="pon">,</w>
+<lb n="11757"/>
+<w>qu'</w>
+<w>el</w>
+<w>en</w>
+<w>a</w>
+<w>lïé</w>
+<w>son</w>
+<w>vael</w>
+<w type="pon">,</w>
+<lb n="11758"/>
+<w>foi</w>
+<w>que</w>
+<w>je</w>
+<w>doi</w>
+<w>saint</w>
+<w>Israel</w>
+<w type="pon">.</w>
+</s>
+<lb n="11759"/>
+<s n="75">
+<w>Et</w>
+<w>vos</w>
+<w>faites</w>
+<w>mout</w>
+<w>grant</w>
+<w>folie</w>
+<w type="pon">,</w>
+<lb n="11760"/>
+<w>qant</w>
+<w>venez</w>
+<w>par</w>
+<w>tele</w>
+<w>estoutie</w>
+<lb n="11761"/>
+<w>vers</w>
+<w>moi</w>
+<w>c'</w>
+<w>on</w>
+<w>vient</w>
+<w>ici</w>
+<w>detraire</w>
+<w type="pon">:</w>
+<lb n="11762"/>
+<w>encor</w>
+<w>vos</w>
+<w>porroi</w>
+<w>anui</w>
+<w>faire</w>
+<w type="pon">.</w>
+</s>
+<lb n="11763"/>
+<s n="76">
+<w>Or</w>
+<w>deüsiez</w>
+<w>avoir</w>
+<w>prié</w>
+<lb n="11764"/>
+<w>icil</w>
+<w>qui</w>
+<w>ci</w>
+<w>m'</w>
+<w>ont</w>
+<w>asegié</w>
+<pb n="78"/>
+<lb n="11765"/>
+<w>que</w>
+<w>il</w>
+<w>se</w>
+<w>traissisent</w>
+<w>ariere</w>
+<lb n="11766"/>
+<w>tant</w>
+<w>qu'</w>
+<w>eüsiez</w>
+<w>a</w>
+<w>cest</w>
+<w>pechierre</w>
+<lb n="11767"/>
+<w>priveement</w>
+<w>un</w>
+<w>poi</w>
+<w>parlé</w>
+<w type="pon">,</w>
+<lb n="11768"/>
+<w>tant</w>
+<w>que</w>
+<w>m'</w>
+<w>eüssiez</w>
+<w>confessé</w>
+<w type="pon">.</w>
+<w type="pon">»</w>
+</s>
+</q>
+<lb n="11769"/>
+<s n="77">
+<w>A</w>
+<w>cest</w>
+<w>mot</w>
+<w>li</w>
+<w>prestres</w>
+<w>pris</w>
+<w>a</w>
+<lb n="11770"/>
+<w type="num">.I.</w>
+<w>des</w>
+<w>bastons</w>
+<w>que</w>
+<w>il</w>
+<w>trova</w>
+<lb n="11771"/>
+<w>et</w>
+<w>fiert</w>
+<w>Tibert</w>
+<w>desor</w>
+<w>l'</w>
+<w>eschine</w>
+<lb n="11772"/>
+<w>que</w>
+<w>sor</w>
+<w>une</w>
+<w>branche</w>
+<w>l'</w>
+<w>ancline</w>
+<w type="pon">.</w>
+</s>
+<lb n="11773"/>
+<q>
+<s>
+<w type="pon">«</w>
+<w>Avoi</w>
+<w type="pon">!</w>
+</s>
+<s n="79">
+<w>dant</w>
+<w>prestre</w>
+<w type="pon">,</w>
+<w>dit</w>
+<w>Tibert</w>
+<w type="pon">,</w>
+<lb n="11774"/>
+<w>feru</w>
+<w>m'</w>
+<w>avez</w>
+<w>a</w>
+<w>descovert</w>
+<w type="pon">;</w>
+<lb n="11775"/>
+<w>vos</w>
+<w>n'</w>
+<w>iestes</w>
+<w>mie</w>
+<w>loial</w>
+<w>prestre</w>
+<w type="pon">:</w>
+<lb n="11776"/>
+<w>pastor</w>
+<w>d'</w>
+<w>ames</w>
+<w>deüsiez</w>
+<w>estre</w>
+<lb n="11777"/>
+<w>et</w>
+<w>vos</w>
+<w>iestes</w>
+<w>li</w>
+<w>plus</w>
+<w>rapiaus</w>
+<lb n="11778"/>
+<w>qui</w>
+<w>fait</w>
+<w>a</w>
+<w>tot</w>
+<w>son</w>
+<w>pooir</w>
+<w>maus</w>
+<w type="pon">.</w>
+</s>
+<lb n="11779"/>
+<s n="80">
+<w>Se</w>
+<w>vos</w>
+<w>fusiez</w>
+<w>pastor</w>
+<w>ovion</w>
+<w type="pon">,</w>
+<lb n="11780"/>
+<w>ne</w>
+<w>me</w>
+<w>feïsiez</w>
+<w>se</w>
+<w>bien</w>
+<w>non</w>
+<w type="pon">:</w>
+<lb n="11781"/>
+<w>poi</w>
+<w>antandez</w>
+<w>a</w>
+<w>l'</w>
+<w>Escriture</w>
+<w type="pon">.</w>
+</s>
+<lb n="11782"/>
+<s n="81">
+<w>Que</w>
+<w>Diex</w>
+<w>li</w>
+<w>doint</w>
+<w>male</w>
+<w>avanture</w>
+<lb n="11783"/>
+<w>qui</w>
+<w>a</w>
+<w>prestre</w>
+<w>vos</w>
+<w>ordena</w>
+<w type="pon">:</w>
+<lb n="11784"/>
+<w>en</w>
+<w>sa</w>
+<w>vie</w>
+<w>tant</w>
+<w>ne</w>
+<w>fola</w>
+<w type="pon">.</w>
+</s>
+<lb n="11785"/>
+<s n="82">
+<w>Danz</w>
+<w>prestres</w>
+<w type="pon">,</w>
+<w>fuiez</w>
+<w>vos</w>
+<w>de</w>
+<w>ci</w>
+<w type="pon">:</w>
+<lb n="11786"/>
+<w>par</w>
+<w>vos</w>
+<w>sera</w>
+<w>bien</w>
+<w>Dieu</w>
+<w>servi</w>
+<w type="pon">;</w>
+<lb n="11787"/>
+<w>dahaiz</w>
+<w>ait</w>
+<w>qui</w>
+<w>paor</w>
+<w>en</w>
+<w>a</w>
+<w type="pon">!</w>
+<w type="pon">»</w>
+</s>
+</q>
+<lb n="11788"/>
+<s n="83">
+<w>A</w>
+<w>tant</w>
+<w>li</w>
+<w>prestres</w>
+<w>regieta</w>
+<w type="pon">,</w>
+<lb n="11789"/>
+<w>et</w>
+<w>Tibert</w>
+<w>mout</w>
+<w>bien</w>
+<w>li</w>
+<w>ganchist</w>
+<w type="pon">,</w>
+<lb n="11790"/>
+<w>et</w>
+<w>puis</w>
+<w>aprés</w>
+<w>itant</w>
+<w>li</w>
+<w>dist</w>
+<w type="pon">:</w>
+</s>
+<lb n="11791"/>
+<q>
+<s>
+<w type="pon">«</w>
+<w>Por</w>
+<w>coi</w>
+<w>me</w>
+<w>volez</w>
+<w>vos</w>
+<w>abatre</w>
+<w type="pon">?</w>
+</s>
+<lb n="11792"/>
+<s n="84">
+<w>Ja</w>
+<w>vois</w>
+<w>je</w>
+<w>jus</w>
+<w>ma</w>
+<w>corpe</w>
+<w>batre</w>
+<w type="pon">:</w>
+<lb n="11793"/>
+<w>il</w>
+<w>a</w>
+<w>an</w>
+<w>vos</w>
+<w>mal</w>
+<w>confessor</w>
+<w type="pon">.</w>
+<w type="pon">»</w>
+</s>
+</q>
+<lb n="11794"/>
+<s n="85">
+<w>Et</w>
+<w>li</w>
+<w>prestres</w>
+<w>regiete</w>
+<w>ancor</w>
+<lb n="11795"/>
+<w type="num">.I.</w>
+<w>des</w>
+<w>bastons</w>
+<w>qui</w>
+<w>iert</w>
+<w>cheüz</w>
+<w type="pon">;</w>
+<lb n="11796"/>
+<w>et</w>
+<w>Tibert</w>
+<w>iert</w>
+<w>avant</w>
+<w>venuz</w>
+<lb n="11797"/>
+<w>de</w>
+<w>branche</w>
+<w>an</w>
+<w>branche</w>
+<w>belement</w>
+<w type="pon">.</w>
+<pb n="79"/>
+</s>
+<lb n="11798"/>
+<s n="86">
+<w>Apansez</w>
+<w>s'</w>
+<w>est</w>
+<w>d'</w>
+<w>un</w>
+<w>hardement</w>
+<w type="pon">:</w>
+<lb n="11799"/>
+<w>s'</w>
+<w>il</w>
+<w>poïst</w>
+<w>saillir</w>
+<w>ou</w>
+<w>cheval</w>
+<lb n="11800"/>
+<w>au</w>
+<w>pretre</w>
+<w>qui</w>
+<w>tant</w>
+<w>li</w>
+<w>fait</w>
+<w>mal</w>
+<w type="pon">,</w>
+<lb n="11801"/>
+<w>qui</w>
+<w>portoit</w>
+<w>les</w>
+<w>livres</w>
+<w>trousez</w>
+<w type="pon">,</w>
+<lb n="11802"/>
+<w>lors</w>
+<w>avroit</w>
+<w>de</w>
+<w>ses</w>
+<w>bons</w>
+<w>assez</w>
+<w type="pon">:</w>
+<lb n="11803"/>
+<w>aler</w>
+<w>l'</w>
+<w>en</w>
+<w>feroit</w>
+<w>a</w>
+<w>ses</w>
+<w>piez</w>
+<w type="pon">.</w>
+</s>
+<lb n="11804"/>
+<s n="87">
+<w>Tant</w>
+<w>par</w>
+<w>est</w>
+<w>Tibert</w>
+<w>abaissiez</w>
+<lb n="11805"/>
+<w>que</w>
+<w>tuit</w>
+<w>quident</w>
+<w>qu'</w>
+<w>a</w>
+<w>terre</w>
+<w>voise</w>
+<w type="pon">;</w>
+<lb n="11806"/>
+<w>li</w>
+<w>chien</w>
+<w>ullent</w>
+<w>et</w>
+<w>si</w>
+<w>font</w>
+<w>noise</w>
+<w type="pon">,</w>
+<lb n="11807"/>
+<w>cuident</w>
+<w>que</w>
+<w>il</w>
+<w>voille</w>
+<w>descendre</w>
+<w type="pon">;</w>
+<lb n="11808"/>
+<w>mes</w>
+<w>il</w>
+<w>vora</w>
+<w>a</w>
+<w>el</w>
+<w>antandre</w>
+<w type="pon">.</w>
+</s>
+<lb n="11809"/>
+<s n="88">
+<w>Mout</w>
+<w>tost</w>
+<w>se</w>
+<w>mist</w>
+<w>vers</w>
+<w>le</w>
+<w>ronci</w>
+<w type="pon">;</w>
+<lb n="11810"/>
+<w>et</w>
+<w>le</w>
+<w>provoire</w>
+<w>Malvoisin</w>
+<w type="pon">,</w>
+<lb n="11811"/>
+<w>son</w>
+<w>chien</w>
+<w type="pon">,</w>
+<w>apele</w>
+<w type="pon">:</w>
+</s>
+<q>
+<s>
+<w type="pon">«</w>
+<w>Or</w>
+<w>ça</w>
+<w type="pon">,</w>
+<w>or</w>
+<w>ça</w>
+<w type="pon">!</w>
+</s>
+<lb n="11812"/>
+<s n="89">
+<w>Ja</w>
+<w>a</w>
+<w>cestui</w>
+<w>n'</w>
+<w>eschapera</w>
+<w type="pon">,</w>
+<lb n="11813"/>
+<w>fait</w>
+<w>li</w>
+<w>prestres</w>
+<w type="pon">,</w>
+<w>bien</w>
+<w>le</w>
+<w>vos</w>
+<w>di</w>
+<w type="pon">,</w>
+<lb n="11814"/>
+<w>puis</w>
+<w>q'</w>
+<w>a</w>
+<w>la</w>
+<w>pel</w>
+<w>l'</w>
+<w>avra</w>
+<w>saisi</w>
+<w type="pon">;</w>
+<lb n="11815"/>
+<w>or</w>
+<w>l'</w>
+<w>enbatons</w>
+<w>entre</w>
+<w>les</w>
+<w>chiens</w>
+<w type="pon">,</w>
+<lb n="11816"/>
+<w>si</w>
+<w>verrons</w>
+<w>que</w>
+<w>fera</w>
+<w>li</w>
+<w>miens</w>
+<w type="pon">.</w>
+<w type="pon">»</w>
+</s>
+</q>
+<lb n="11817"/>
+<s n="90">
+<w>Lors</w>
+<w>ont</w>
+<w>tot</w>
+<w>derechiés</w>
+<w>hué</w>
+<w type="pon">;</w>
+<lb n="11818"/>
+<w>et</w>
+<w>Tibert</w>
+<w>a</w>
+<w>tant</w>
+<w>avalé</w>
+<lb n="11819"/>
+<w>et</w>
+<w>tant</w>
+<w>trait</w>
+<w>devers</w>
+<w>le</w>
+<w>polain</w>
+<lb n="11820"/>
+<w>que</w>
+<w>bien</w>
+<w>ot</w>
+<w>veü</w>
+<w>que</w>
+<w>le</w>
+<w>fraing</w>
+<lb n="11821"/>
+<w>ot</w>
+<w>sor</w>
+<w>le</w>
+<w>col</w>
+<w>tot</w>
+<w>a</w>
+<w>delivre</w>
+<w type="pon">;</w>
+<lb n="11822"/>
+<w>le</w>
+<w>prestre</w>
+<w>tanra</w>
+<w>il</w>
+<w>por</w>
+<w>ivre</w>
+<lb n="11823"/>
+<w>de</w>
+<w>ce</w>
+<w>que</w>
+<w>n'</w>
+<w>estoit</w>
+<w>atachiez</w>
+<w type="pon">.</w>
+</s>
+<lb n="11824"/>
+<s n="91">
+<w>Et</w>
+<w>Tibert</w>
+<w>s'</w>
+<w>est</w>
+<w>tant</w>
+<w>aprochiez</w>
+<lb n="11825"/>
+<w>que</w>
+<w>il</w>
+<w>li</w>
+<w>rüerent</w>
+<w>bastons</w>
+<w type="pon">.</w>
+</s>
+<lb n="11826"/>
+<s n="92">
+<w>Lors</w>
+<w>li</w>
+<w>saut</w>
+<w>entre</w>
+<w>les</w>
+<w>arçons</w>
+<w type="pon">,</w>
+<lb n="11827"/>
+<w>et</w>
+<w>li</w>
+<w>polains</w>
+<w>fu</w>
+<w>esfraez</w>
+<w type="pon">,</w>
+<lb n="11828"/>
+<w>les</w>
+<w>granz</w>
+<w>galoz</w>
+<w>s'</w>
+<w>en</w>
+<w>est</w>
+<w>tornez</w>
+<lb n="11829"/>
+<w>tot</w>
+<w>le</w>
+<w>chemin</w>
+<w>de</w>
+<w>Blaaigné</w>
+<w type="pon">;</w>
+<lb n="11830"/>
+<w>et</w>
+<w>li</w>
+<w>braconier</w>
+<w>tuit</w>
+<w>irié</w>
+<pb n="80"/>
+<lb n="11831"/>
+<w>de</w>
+<w>lor</w>
+<w>chat</w>
+<w>q'</w>
+<w>il</w>
+<w>orent</w>
+<w>perdu</w>
+<w type="pon">,</w>
+<lb n="11832"/>
+<w>et</w>
+<w>le</w>
+<w>provoire</w>
+<w>ont</w>
+<w>bien</w>
+<w>batu</w>
+<w type="pon">.</w>
+</s>
+</ab>
+<ab rend="strophe">
+<lb n="11833"/>
+<s n="93">
+<w>Lors</w>
+<w>apelent</w>
+<w>lor</w>
+<w>chien</w>
+<w>a</w>
+<w>tant</w>
+<lb n="11834"/>
+<w>et</w>
+<w>li</w>
+<w>prestres</w>
+<w>s'</w>
+<w>en</w>
+<w>va</w>
+<w>corant</w>
+<lb n="11835"/>
+<w>aprés</w>
+<w>Tibert</w>
+<w>tout</w>
+<w>le</w>
+<w>chemin</w>
+<w type="pon">,</w>
+<lb n="11836"/>
+<w>toz</w>
+<w>seus</w>
+<w>fors</w>
+<w>que</w>
+<w>de</w>
+<w>Malvoisin</w>
+<w type="pon">,</w>
+<lb n="11837"/>
+<w>son</w>
+<w>chien</w>
+<w type="pon">,</w>
+<w>qui</w>
+<w>o</w>
+<w>lui</w>
+<w>va</w>
+<w>trotant</w>
+<w type="pon">.</w>
+</s>
+<lb n="11838"/>
+<s n="94">
+<w>Et</w>
+<w>Tibert</w>
+<w>va</w>
+<w>esperonnant</w>
+<w type="pon">,</w>
+<lb n="11839"/>
+<w>galopant</w>
+<w type="pon">,</w>
+<w>et</w>
+<w>retint</w>
+<w>le</w>
+<w>fraing</w>
+<w type="pon">,</w>
+<lb n="11840"/>
+<w>et</w>
+<w>seoit</w>
+<w>bien</w>
+<w>sor</w>
+<w>le</w>
+<w>polain</w>
+<w type="pon">.</w>
+</s>
+<lb n="11841"/>
+<s n="95">
+<w>Il</w>
+<w>a</w>
+<w>le</w>
+<w>prestre</w>
+<w>regardé</w>
+<lb n="11842"/>
+<w>qui</w>
+<w>le</w>
+<w>suivoit</w>
+<w>tot</w>
+<w>esfraé</w>
+<w type="pon">:</w>
+</s>
+<lb n="11843"/>
+<q>
+<s>
+<w type="pon">«</w>
+<w>Avoi</w>
+<w type="pon">,</w>
+<w>dant</w>
+<w>pretre</w>
+<w type="pon">,</w>
+<w>dit</w>
+<w>Tibert</w>
+<w type="pon">:</w>
+<lb n="11844"/>
+<w>tes</w>
+<w>quide</w>
+<w>gaaignier</w>
+<w>qui</w>
+<w>pert</w>
+<lb n="11845"/>
+<w>et</w>
+<w>autre</w>
+<w>enporte</w>
+<w>le</w>
+<w>gaaing</w>
+<w type="pon">.</w>
+</s>
+<lb n="11846"/>
+<s n="96">
+<w>Max</w>
+<w>diaus</w>
+<w>li</w>
+<w>sorde</w>
+<w>et</w>
+<w>mal</w>
+<w>mehaing</w>
+<lb n="11847"/>
+<w>de</w>
+<w>son</w>
+<w>chatel</w>
+<w>et</w>
+<w>de</w>
+<w>son</w>
+<w>cors</w>
+<lb n="11848"/>
+<w>a</w>
+<w>provoire</w>
+<w type="pon">,</w>
+<w>qant</w>
+<w>il</w>
+<w>va</w>
+<w>hors</w>
+<lb n="11849"/>
+<w>por</w>
+<w>le</w>
+<w>mestier</w>
+<w>Dame</w>
+<w>Dieu</w>
+<w>faire</w>
+<w type="pon">,</w>
+<lb n="11850"/>
+<w>qui</w>
+<w>viaut</w>
+<w>les</w>
+<w>baistes</w>
+<w>contrefaire</w>
+<w type="pon">!</w>
+</s>
+<lb n="11851"/>
+<s n="97">
+<w>Dehaiz</w>
+<w>ait</w>
+<w>pretre</w>
+<w>veneor</w>
+<w type="pon">!</w>
+</s>
+<lb n="11852"/>
+<s n="98">
+<w>Il</w>
+<w>doit</w>
+<w>vivre</w>
+<w>d'</w>
+<w>autre</w>
+<w>labor</w>
+<w type="pon">,</w>
+<lb n="11853"/>
+<w>qant</w>
+<w>il</w>
+<w>est</w>
+<w>a</w>
+<w>pretre</w>
+<w>sacrez</w>
+<lb n="11854"/>
+<w>et</w>
+<w>fait</w>
+<w>tant</w>
+<w>qu'</w>
+<w>il</w>
+<w>est</w>
+<w>ordenez</w>
+<w type="pon">:</w>
+<lb n="11855"/>
+<w>dou</w>
+<w>mestier</w>
+<w>Dame</w>
+<w>Dieu</w>
+<w>doit</w>
+<w>vivre</w>
+<w type="pon">.</w>
+</s>
+<lb n="11856"/>
+<s n="99">
+<w>Et</w>
+<w>vos</w>
+<w type="pon">,</w>
+<w>prestes</w>
+<w type="pon">,</w>
+<w>estïez</w>
+<w>ivre</w>
+<lb n="11857"/>
+<w>qui</w>
+<w>lassïez</w>
+<w>vostre</w>
+<w>mestier</w>
+<lb n="11858"/>
+<w>por</w>
+<w>aler</w>
+<w>un</w>
+<w>chat</w>
+<w>dechacier</w>
+<w type="pon">;</w>
+<lb n="11859"/>
+<w>en</w>
+<w>vos</w>
+<w>avet</w>
+<w>mavés</w>
+<w>apel</w>
+<w type="pon">:</w>
+<lb n="11860"/>
+<w>de</w>
+<w>moi</w>
+<w>voliez</w>
+<w>avoir</w>
+<w>la</w>
+<w>pel</w>
+<w type="pon">,</w>
+<lb n="11861"/>
+<w>s'</w>
+<w>estoit</w>
+<w>por</w>
+<w>metre</w>
+<w>ou</w>
+<w>peliçon</w>
+<lb n="11862"/>
+<w>a</w>
+<w>vostre</w>
+<w>putain</w>
+<w>an</w>
+<w>maison</w>
+<w type="pon">.</w>
+</s>
+<lb n="11863"/>
+<s n="100">
+<w>Vos</w>
+<w>ne</w>
+<w>feïstes</w>
+<w>pas</w>
+<w>que</w>
+<w>sages</w>
+<w type="pon">,</w>
+<pb n="81"/>
+<lb n="11864"/>
+<w>or</w>
+<w>en</w>
+<w>est</w>
+<w>vostres</w>
+<w>li</w>
+<w>domages</w>
+<lb n="11865"/>
+<w>et</w>
+<w>la</w>
+<w>perte</w>
+<w>et</w>
+<w>la</w>
+<w>mescheance</w>
+<w type="pon">.</w>
+</s>
+<lb n="11866"/>
+<s n="101">
+<w>Et</w>
+<w>je</w>
+<w>sui</w>
+<w>en</w>
+<w>ferme</w>
+<w>creance</w>
+<w type="pon">,</w>
+<lb n="11867"/>
+<w>s'</w>
+<w>irai</w>
+<w>mes</w>
+<w>avant</w>
+<w>au</w>
+<w>mostier</w>
+<w type="pon">,</w>
+<lb n="11868"/>
+<w>si</w>
+<w>ferai</w>
+<w>por</w>
+<w>vos</w>
+<w>le</w>
+<w>mestier</w>
+<w type="pon">.</w>
+</s>
+<lb n="11869"/>
+<s n="102">
+<w>Si</w>
+<w>vos</w>
+<w>est</w>
+<w>or</w>
+<w>bien</w>
+<w>avenu</w>
+<w type="pon">:</w>
+<lb n="11870"/>
+<w>tot</w>
+<w>vostre</w>
+<w>sens</w>
+<w>avez</w>
+<w>perdu</w>
+<w type="pon">,</w>
+<lb n="11871"/>
+<w>ne</w>
+<w>savez</w>
+<w>ore</w>
+<w>nule</w>
+<w>lestre</w>
+<w type="pon">,</w>
+<lb n="11872"/>
+<w>d'</w>
+<w>el</w>
+<w>vos</w>
+<w>deüsiez</w>
+<w>antremestre</w>
+<w type="pon">,</w>
+<lb n="11873"/>
+<w>que</w>
+<w>de</w>
+<w>cure</w>
+<w>d'</w>
+<w>ame</w>
+<w>tenir</w>
+<w type="pon">.</w>
+</s>
+<lb n="11874"/>
+<s n="103">
+<w>Bien</w>
+<w>vos</w>
+<w>devroit</w>
+<w>mesavenir</w>
+<w type="pon">,</w>
+<lb n="11875"/>
+<w>qui</w>
+<w>derrieres</w>
+<w>avez</w>
+<w>trosez</w>
+<lb n="11876"/>
+<w>et</w>
+<w>a</w>
+<w>vostre</w>
+<w>dos</w>
+<w>adousez</w>
+<lb n="11877"/>
+<w>les</w>
+<w>sainz</w>
+<w>livres</w>
+<w>Nostre</w>
+<w>Saignor</w>
+<w type="pon">,</w>
+<lb n="11878"/>
+<w>que</w>
+<w>l'</w>
+<w>en</w>
+<w>en</w>
+<w>sert</w>
+<w>et</w>
+<w>nuit</w>
+<w>et</w>
+<w>jor</w>
+<w type="pon">;</w>
+<lb n="11879"/>
+<w>mais</w>
+<w>por</w>
+<w>ice</w>
+<w>le</w>
+<w>faisïez</w>
+<lb n="11880"/>
+<w>qu'</w>
+<w>es</w>
+<w>autres</w>
+<w>rians</w>
+<w>ne</w>
+<w>savïez</w>
+<w type="pon">.</w>
+</s>
+<lb n="11881"/>
+<s n="104">
+<w>Vos</w>
+<w>n'</w>
+<w>estes</w>
+<w>pas</w>
+<w>de</w>
+<w>mon</w>
+<w>savoir</w>
+<w type="pon">,</w>
+<lb n="11882"/>
+<w>que</w>
+<w>je</w>
+<w>cuit</w>
+<w>autretant</w>
+<w>savoir</w>
+<lb n="11883"/>
+<w>en</w>
+<w>trestot</w>
+<w>le</w>
+<w>paior</w>
+<w>qui</w>
+<w>soit</w>
+<lb n="11884"/>
+<w>con</w>
+<w>an</w>
+<w>çaus</w>
+<w>que</w>
+<w>j'</w>
+<w>ai</w>
+<w>or</w>
+<w>androit</w>
+<w type="pon">.</w>
+</s>
+</q>
+</ab>
+<ab rend="strophe">
+<lb n="11885"/>
+  <q>
+<s n="105">
+<w type="pon">-</w>
+<w>Ahi</w>
+<w type="pon">,</w>
+<w>Tieberz</w>
+<w type="pon">,</w>
+<w>ce</w>
+<w>dit</w>
+<w>li</w>
+<w>prestres</w>
+<w type="pon">,</w>
+<lb n="11886"/>
+<w>biauz</w>
+<w>tres</w>
+<w>douz</w>
+<w>freres</w>
+<w>et</w>
+<w>douz</w>
+<w>mestres</w>
+<w type="pon">,</w>
+<lb n="11887"/>
+<w>rent</w>
+<w>moi</w>
+<w>les</w>
+<w>livres</w>
+<w type="pon">;</w>
+<w>je</w>
+<w>t'</w>
+<w>afi</w>
+<w type="pon">,</w>
+<lb n="11888"/>
+<w>contenrai</w>
+<w>moi</w>
+<w>en</w>
+<w>ta</w>
+<w>merci</w>
+<w type="pon">,</w>
+<lb n="11889"/>
+<w>et</w>
+<w>si</w>
+<w>me</w>
+<w>rant</w>
+<w>mon</w>
+<w>palefroi</w>
+<w type="pon">.</w>
+<lb n="11890"/>
+<w type="pon">-</w>
+</s>
+<s n="106">
+<w>Or</w>
+<w>n'</w>
+<w>en</w>
+<w>saiez</w>
+<w>ja</w>
+<w>en</w>
+<w>esfroi</w>
+<w type="pon">,</w>
+<lb n="11891"/>
+<w>fait</w>
+<w>soi</w>
+<w>Tibert</w>
+<w type="pon">,</w>
+<w>par</w>
+<w>saint</w>
+<w>Martim</w>
+<lb n="11892"/>
+<w>q'</w>
+<w>ainçois</w>
+<w>m'</w>
+<w>avroiz</w>
+<w>dit</w>
+<w>en</w>
+<w>latin</w>
+<lb n="11893"/>
+<w>com</w>
+<w>l'</w>
+<w>en</w>
+<w>dit</w>
+<w type="pon">«</w>
+<w>fable</w>
+<w type="pon">»</w>
+<w type="pon">,</w>
+<w>se</w>
+<w>volez</w>
+<w type="pon">.</w>
+<lb n="11894"/>
+<w type="pon">-</w>
+</s>
+<s n="107">
+<w>Faba</w>
+<w type="pon">,</w>
+<w>fait</w>
+<w>le</w>
+<w>prestre</w>
+<w type="pon">,</w>
+<w>or</w>
+<w>l'</w>
+<w>avez</w>
+<w type="pon">.</w>
+<lb n="11895"/>
+<w type="pon">-</w>
+</s>
+<s n="108">
+<w>Et</w>
+<w>fabula</w>
+<w type="pon">?</w>
+</s>
+<s n="109">
+<w>ice</w>
+<w>est</w>
+<w type="pon">«</w>
+<w>fable</w>
+<w type="pon">»</w>
+<w type="pon">.</w>
+</s>
+<lb n="11896"/>
+<s n="110">
+<w>Alez</w>
+<w type="pon">,</w>
+<w>dant</w>
+<w>prestre</w>
+<w type="pon">,</w>
+<w>au</w>
+<w>deable</w>
+<pb n="82"/>
+<lb n="11897"/>
+<w>qui</w>
+<w>vos</w>
+<w>puise</w>
+<w>le</w>
+<w>col</w>
+<w>brisier</w>
+<w type="pon">,</w>
+<lb n="11898"/>
+<w>si</w>
+<w>aprenez</w>
+<w>vostre</w>
+<w>mestier</w>
+<w type="pon">,</w>
+<lb n="11899"/>
+<w>que</w>
+<w>la</w>
+<w>premiere</w>
+<w>questïon</w>
+<lb n="11900"/>
+<w>m'</w>
+<w>avez</w>
+<w>soce</w>
+<w>conme</w>
+<w>bricon</w>
+<w type="pon">.</w>
+</s>
+<lb n="11901"/>
+<s n="111">
+<w>Or</w>
+<w>me</w>
+<w>dites</w>
+<w>ci</w>
+<w>orandroit</w>
+<lb n="11902"/>
+<w>se</w>
+<w>savez</w>
+<w>par</w>
+<w>ou</w>
+<w>chievre</w>
+<w>poit</w>
+<w type="pon">.</w>
+<lb n="11903"/>
+<w type="pon">-</w>
+</s>
+<s n="112">
+<w>Par</w>
+<w>le</w>
+<w>cul</w>
+<w type="pon">,</w>
+<w>qant</w>
+<w>il</w>
+<w>est</w>
+<w>overt</w>
+<w type="pon">.</w>
+<lb n="11904"/>
+<w type="pon">-</w>
+</s>
+<s n="113">
+<w>Mes</w>
+<w>par</w>
+<w>la</w>
+<w>corne</w>
+<w type="pon">,</w>
+<w>dit</w>
+<w>Tibert</w>
+<w type="pon">.</w>
+</s>
+<lb n="11905"/>
+<s n="114">
+<w>Or</w>
+<w>me</w>
+<w>responez</w>
+<w>de</w>
+<w>gramaire</w>
+<w type="pon">:</w>
+<lb n="11906"/>
+<w>savez</w>
+<w>riens</w>
+<w>de</w>
+<w>celui</w>
+<w>afaire</w>
+<lb n="11907"/>
+<w>que</w>
+<w>li</w>
+<w>pretres</w>
+<w>font</w>
+<w>as</w>
+<w>clerçons</w>
+<lb n="11908"/>
+<w>qant</w>
+<w>il</w>
+<w>lor</w>
+<w>pranent</w>
+<w>lor</w>
+<w>leçons</w>
+<w type="pon">?</w>
+<lb n="11909"/>
+<w type="pon">-</w>
+</s>
+<s n="115">
+<w>Par</w>
+<w>foi</w>
+<w type="pon">,</w>
+<w>j'</w>
+<w>en</w>
+<w>soil</w>
+<w>savoir</w>
+<w>asez</w>
+<w type="pon">.</w>
+<lb n="11910"/>
+<w type="pon">-</w>
+</s>
+<s n="116">
+<w>Je</w>
+<w>vos</w>
+<w>en</w>
+<w>croi</w>
+<w type="pon">.</w>
+</s>
+<s n="117">
+<w>Mes</w>
+<w>trop</w>
+<w>venez</w>
+<lb n="11911"/>
+<w>pres</w>
+<w>de</w>
+<w>moi</w>
+<w type="pon">,</w>
+<w>et</w>
+<w>si</w>
+<w>m'</w>
+<w>en</w>
+<w>annuie</w>
+<w type="pon">.</w>
+</s>
+<lb n="11912"/>
+<s n="118">
+<w>Et</w>
+<w>savez</w>
+<w>vos</w>
+<w>point</w>
+<w>d'</w>
+<w>aulelie</w>
+<w type="pon">,</w>
+<lb n="11913"/>
+<w>ne</w>
+<w>douz</w>
+<w>chanz</w>
+<w type="pon">,</w>
+<w>por</w>
+<w>moi</w>
+<w>andormir</w>
+<w type="pon">?</w>
+</s>
+<lb n="11914"/>
+<s n="119">
+<w>Vos</w>
+<w>me</w>
+<w>vodrïez</w>
+<w>ja</w>
+<w>tenir</w>
+<lb n="11915"/>
+<w>par</w>
+<w>mi</w>
+<w>les</w>
+<w>resnes</w>
+<w>de</w>
+<w>cest</w>
+<w>fraing</w>
+<w type="pon">,</w>
+<lb n="11916"/>
+<w>et</w>
+<w>me</w>
+<w>toudrïez</w>
+<w>le</w>
+<w>polain</w>
+<lb n="11917"/>
+<w>et</w>
+<w>trestote</w>
+<w>la</w>
+<w>trouseüre</w>
+<w type="pon">.</w>
+</s>
+<lb n="11918"/>
+<s n="120">
+<w>Et</w>
+<w>Diex</w>
+<w>li</w>
+<w>doint</w>
+<w>male</w>
+<w>avanture</w>
+<lb n="11919"/>
+<w>qui</w>
+<w>le</w>
+<w>vos</w>
+<w>en</w>
+<w>verra</w>
+<w>mener</w>
+<w type="pon">.</w>
+<w type="pon">»</w>
+</s>
+</q>
+<lb n="11920"/>
+<s n="121">
+<w>Lors</w>
+<w>aquieut</w>
+<w>a</w>
+<w>esperoner</w>
+<lb n="11921"/>
+<w>tant</w>
+<w>que</w>
+<w>de</w>
+<w>lui</w>
+<w>pert</w>
+<w>la</w>
+<w>veüe</w>
+<w type="pon">.</w>
+</s>
+<lb n="11922"/>
+<s n="122">
+<w>Lors</w>
+<w>a</w>
+<w>Tibert</w>
+<w>grant</w>
+<w>joie</w>
+<w>eüe</w>
+<lb n="11923"/>
+<w>et</w>
+<w>li</w>
+<w>prestres</w>
+<w>trestoz</w>
+<w>dolanz</w>
+<lb n="11924"/>
+<w>va</w>
+<w>aprés</w>
+<w>et</w>
+<w>demande</w>
+<w>as</w>
+<w>genz</w>
+<lb n="11925"/>
+<w>qu'</w>
+<w>il</w>
+<w>encontre</w>
+<w>par</w>
+<w>mi</w>
+<w>la</w>
+<w>voie</w>
+<w type="pon">:</w>
+</s>
+<lb n="11926"/>
+<q>
+<s>
+<w type="pon">«</w>
+<w>Distes</w>
+<w type="pon">,</w>
+<w>fait</w>
+<w>il</w>
+<w type="pon">,</w>
+<w>se</w>
+<w>Diex</w>
+<w>vos</w>
+<w>voie</w>
+<w type="pon">,</w>
+<lb n="11927"/>
+<w>veïstes</w>
+<w>vos</w>
+<w>ci</w>
+<w>amener</w>
+<lb n="11928"/>
+<w>un</w>
+<w>cheval</w>
+<w>et</w>
+<w>esperoner</w>
+<lb n="11929"/>
+<w>qui</w>
+<w>or</w>
+<w>se</w>
+<w>departi</w>
+<w>de</w>
+<w>nos</w>
+<w type="pon">?</w>
+<pb n="83"/>
+<lb n="11930"/>
+<w type="pon">-</w>
+</s>
+<s n="123">
+<w>Cil</w>
+<w>prestres</w>
+<w>si</w>
+<w>nos</w>
+<w>tient</w>
+<w>a</w>
+<w>fous</w>
+<w type="pon">,</w>
+<lb n="11931"/>
+<w>font</w>
+<w>or</w>
+<w>ci</w>
+<w>a</w>
+<w>qui</w>
+<w>i</w>
+<w>parole</w>
+<w type="pon">;</w>
+<lb n="11932"/>
+<w>bien</w>
+<w>puet</w>
+<w>estre</w>
+<w>que</w>
+<w>il</w>
+<w>afole</w>
+<w type="pon">,</w>
+<lb n="11933"/>
+<w>ou</w>
+<w>il</w>
+<w>a</w>
+<w>espoir</w>
+<w>trop</w>
+<w>beü</w>
+<w type="pon">.</w>
+<lb n="11934"/>
+<w type="pon">-</w>
+</s>
+<s n="124">
+<w>Seignor</w>
+<w type="pon">,</w>
+<w>fait</w>
+<w>il</w>
+<w type="pon">,</w>
+<w>ainz</w>
+<w>m'</w>
+<w>a</w>
+<w>tolu</w>
+<lb n="11935"/>
+<w>mon</w>
+<w>cheval</w>
+<w>a</w>
+<w>trestoz</w>
+<w>mes</w>
+<w>livres</w>
+<w type="pon">.</w>
+<lb n="11936"/>
+<w type="pon">-</w>
+</s>
+<s n="125">
+<w>Oïez</w>
+<w type="pon">,</w>
+<w>fait</w>
+<w>cil</w>
+<w type="pon">,</w>
+<w>con</w>
+<w>il</w>
+<w>est</w>
+<w>ivres</w>
+<w type="pon">.</w>
+</s>
+<lb n="11937"/>
+<s n="126">
+<w>Danz</w>
+<w>prestres</w>
+<w type="pon">,</w>
+<w>il</w>
+<w>est</w>
+<w>la</w>
+<w>feste</w>
+<w>as</w>
+<w>fous</w>
+<lb n="11938"/>
+<w>si</w>
+<w>fera</w>
+<w>on</w>
+<w>demain</w>
+<w>des</w>
+<w>chous</w>
+<lb n="11939"/>
+<w>grant</w>
+<w>departie</w>
+<w>a</w>
+<w>Bahieus</w>
+<w type="pon">,</w>
+<lb n="11940"/>
+<w>alez</w>
+<w>et</w>
+<w>si</w>
+<w>verrez</w>
+<w>les</w>
+<w>geus</w>
+<w type="pon">.</w>
+<w type="pon">»</w>
+</s>
+</q>
+</ab>
+<ab rend="strophe">
+<lb n="11941"/>
+<s n="127">
+<w>Le</w>
+<w>pretre</w>
+<w>que</w>
+<w>il</w>
+<w>vont</w>
+<w>gabant</w>
+<lb n="11942"/>
+<w>si</w>
+<w>s'</w>
+<w>en</w>
+<w>retorne</w>
+<w>en</w>
+<w>plorant</w>
+<w type="pon">,</w>
+<lb n="11943"/>
+<w>il</w>
+<w>et</w>
+<w>son</w>
+<w>chien</w>
+<w type="pon">,</w>
+<w>en</w>
+<w>sa</w>
+<w>maison</w>
+<w type="pon">;</w>
+<lb n="11944"/>
+<w>et</w>
+<w>Tibert</w>
+<w>s'</w>
+<w>en</w>
+<w>va</w>
+<w>le</w>
+<w>troton</w>
+<lb n="11945"/>
+<w>et</w>
+<w>les</w>
+<w>galoz</w>
+<w>et</w>
+<w>l'</w>
+<w>anbleüre</w>
+<w type="pon">,</w>
+<lb n="11946"/>
+<w>tant</w>
+<w>qu'</w>
+<w>il</w>
+<w>garde</w>
+<w>par</w>
+<w>avanture</w>
+<lb n="11947"/>
+<w>desor</w>
+<w>Tornieres</w>
+<w>en</w>
+<w>uns</w>
+<w>blez</w>
+<lb n="11948"/>
+<w>et</w>
+<w>voit</w>
+<w>Renart</w>
+<w>qui</w>
+<w>iert</w>
+<w>lassez</w>
+<w type="pon">,</w>
+<lb n="11949"/>
+<w>si</w>
+<w>est</w>
+<w>couchiez</w>
+<w>por</w>
+<w>reposer</w>
+<w type="pon">.</w>
+</s>
+<lb n="11950"/>
+<s n="128">
+<w>Et</w>
+<w>Tibert</w>
+<w>prist</w>
+<w>a</w>
+<w>devaler</w>
+<w type="pon">;</w>
+<lb n="11951"/>
+<w>mil</w>
+<w>foiz</w>
+<w>se</w>
+<w>saigne</w>
+<w>qant</w>
+<w>le</w>
+<w>voit</w>
+<lb n="11952"/>
+<w>dedanz</w>
+<w>le</w>
+<w>blé</w>
+<w>ou</w>
+<w>il</w>
+<w>gisoit</w>
+<w type="pon">.</w>
+</s>
+<lb n="11953"/>
+<s n="129">
+<w>Mout</w>
+<w>l'</w>
+<w>esgarda</w>
+<w>apertemant</w>
+<w type="pon">:</w>
+<lb n="11954"/>
+<w>ne</w>
+<w>pot</w>
+<w>pas</w>
+<w>croire</w>
+<w>fermemant</w>
+<lb n="11955"/>
+<w>que</w>
+<w>ce</w>
+<w>soit</w>
+<w>Tibert</w>
+<w>qu'</w>
+<w>il</w>
+<w>voit</w>
+<w>la</w>
+<w type="pon">.</w>
+</s>
+<lb n="11956"/>
+<s n="130">
+<w>Et</w>
+<w>Tibert</w>
+<w type="pon">,</w>
+<w>qui</w>
+<w>bien</w>
+<w>veü</w>
+<w>l'</w>
+<w>a</w>
+<w type="pon">,</w>
+<lb n="11957"/>
+<w>ne</w>
+<w>fist</w>
+<w>sanblant</w>
+<w>que</w>
+<w>il</w>
+<w>le</w>
+<w>voie</w>
+<w type="pon">,</w>
+<lb n="11958"/>
+<w>ainz</w>
+<w>chemine</w>
+<w>mout</w>
+<w>biau</w>
+<w>sa</w>
+<w>voie</w>
+<lb n="11959"/>
+<w>et</w>
+<w>chevauche</w>
+<w>mout</w>
+<w>cointement</w>
+<w type="pon">;</w>
+<lb n="11960"/>
+<w>ses</w>
+<w>piez</w>
+<w>regarde</w>
+<w>durement</w>
+<lb n="11961"/>
+<w>et</w>
+<w>puis</w>
+<w>son</w>
+<w>cors</w>
+<w>de</w>
+<w>chief</w>
+<w>en</w>
+<w>chief</w>
+<w type="pon">;</w>
+<lb n="11962"/>
+<w>un</w>
+<w>chapel</w>
+<w>avoit</w>
+<w>en</w>
+<w>son</w>
+<w>chief</w>
+<pb n="84"/>
+<lb n="11963"/>
+<w>d'</w>
+<w>esglantier</w>
+<w>iert</w>
+<w>et</w>
+<w>de</w>
+<w>cerfuel</w>
+<w type="pon">.</w>
+</s>
+<lb n="11964"/>
+<s n="131">
+<w>Renart</w>
+<w>regarde</w>
+<w>en</w>
+<w>un</w>
+<w>ornoil</w>
+<w type="pon">,</w>
+<lb n="11965"/>
+<w>bien</w>
+<w>vit</w>
+<w>toute</w>
+<w>sa</w>
+<w>contenence</w>
+<w type="pon">.</w>
+</s>
+<lb n="11966"/>
+<s n="132">
+<w>Et</w>
+<w>dist</w>
+<w>Renart</w>
+<w type="pon">:</w>
+</s>
+<q>
+<s>
+<w type="pon">«</w>
+<w>Par</w>
+<w>la</w>
+<w>manbrance</w>
+<w type="pon">,</w>
+<lb n="11967"/>
+<w>par</w>
+<w>les</w>
+<w>plaies</w>
+<w type="pon">,</w>
+<w>par</w>
+<w>la</w>
+<w>mort</w>
+<w>bieu</w>
+<w type="pon">,</w>
+<lb n="11968"/>
+<w>ne</w>
+<w>sai</w>
+<w>ou</w>
+<w>sui</w>
+<w>ne</w>
+<w>en</w>
+<w>quel</w>
+<w>leu</w>
+<w type="pon">.</w>
+</s>
+<lb n="11969"/>
+<s n="133">
+<w>Es</w>
+<w>ce</w>
+<w>Tibert</w>
+<w>que</w>
+<w>je</w>
+<w>voi</w>
+<w>la</w>
+<w type="pon">?</w>
+</s>
+<lb n="11970"/>
+<s n="134">
+<w>Oïl</w>
+<w type="pon">,</w>
+<w>par</w>
+<w>ma</w>
+<w>foi</w>
+<w type="pon">,</w>
+<w>gel</w>
+<w>voi</w>
+<w>la</w>
+<w type="pon">;</w>
+<lb n="11971"/>
+<w>i</w>
+<w>me</w>
+<w>resanble</w>
+<w>chevalier</w>
+<w type="pon">.</w>
+</s>
+<lb n="11972"/>
+<s n="135">
+<w>Vez</w>
+<w type="pon">,</w>
+<w>por</w>
+<w>le</w>
+<w>cuer</w>
+<w type="pon">,</w>
+<w>con</w>
+<w>biau</w>
+<w>cloitrier</w>
+<w type="pon">!</w>
+</s>
+<lb n="11973"/>
+<s n="136">
+<w>De</w>
+<w>livres</w>
+<w>porte</w>
+<w>il</w>
+<w>planté</w>
+<w type="pon">:</w>
+<lb n="11974"/>
+<w>il</w>
+<w>est</w>
+<w>esleüz</w>
+<w>a</w>
+<w>abé</w>
+<w type="pon">.</w>
+</s>
+<lb n="11975"/>
+<s n="137">
+<w>Por</w>
+<w>coi</w>
+<w>me</w>
+<w>parti</w>
+<w>or</w>
+<w>de</w>
+<w>lui</w>
+<w type="pon">?</w>
+</s>
+<lb n="11976"/>
+<s n="138">
+<w>Si</w>
+<w>me</w>
+<w>vient</w>
+<w>or</w>
+<w>a</w>
+<w>grant</w>
+<w>anui</w>
+<lb n="11977"/>
+<w>que</w>
+<w>je</w>
+<w>n'</w>
+<w>en</w>
+<w>ose</w>
+<w>a</w>
+<w>lui</w>
+<w>parler</w>
+<w type="pon">:</w>
+<lb n="11978"/>
+<w>il</w>
+<w>me</w>
+<w>feroit</w>
+<w>tost</w>
+<w>defoler</w>
+<lb n="11979"/>
+<w>et</w>
+<w>laidir</w>
+<w>a</w>
+<w>son</w>
+<w>palefroi</w>
+<w type="pon">.</w>
+</s>
+<lb n="11980"/>
+<s n="139">
+<w>Il</w>
+<w>le</w>
+<w>mainne</w>
+<w>par</w>
+<w>grant</w>
+<w>desroi</w>
+<w type="pon">,</w>
+<lb n="11981"/>
+<w>si</w>
+<w>soit</w>
+<w>par</w>
+<w>sa</w>
+<w>male</w>
+<w>avanture</w>
+<w type="pon">!</w>
+</s>
+<lb n="11982"/>
+<s n="140">
+<w>Si</w>
+<w>sera</w>
+<w>il</w>
+<w type="pon">,</w>
+<w>g'</w>
+<w>i</w>
+<w>metrai</w>
+<w>cure</w>
+<w type="pon">,</w>
+<lb n="11983"/>
+<w>s'</w>
+<w>a</w>
+<w>lui</w>
+<w>me</w>
+<w>pusse</w>
+<w>aconpaignier</w>
+<w type="pon">;</w>
+<lb n="11984"/>
+<w>mais</w>
+<w>nel</w>
+<w>sai</w>
+<w>conmant</w>
+<w>aresnier</w>
+<w type="pon">:</w>
+<lb n="11985"/>
+<w>ge</w>
+<w>le</w>
+<w>coroçoi</w>
+<w>hui</w>
+<w>matin</w>
+<w type="pon">,</w>
+<lb n="11986"/>
+<w>por</w>
+<w>ce</w>
+<w>ne</w>
+<w>m'</w>
+<w>os</w>
+<w>a</w>
+<w>son</w>
+<w>chemin</w>
+<lb n="11987"/>
+<w>meitre</w>
+<w>ne</w>
+<w>ne</w>
+<w>l'</w>
+<w>os</w>
+<w>aresnier</w>
+<w type="pon">.</w>
+<w type="pon">»</w>
+</s>
+</q>
+<lb n="11988"/>
+<s n="141">
+<w>Et</w>
+<w>Tibert</w>
+<w>conmence</w>
+<w>a</w>
+<w>chanter</w>
+<lb n="11989"/>
+<w>une</w>
+<w>chançon</w>
+<w>toute</w>
+<w>de</w>
+<w>Rome</w>
+<w type="pon">,</w>
+<lb n="11990"/>
+<w>ainz</w>
+<w>si</w>
+<w>bele</w>
+<w>n'</w>
+<w>oï</w>
+<w>nul</w>
+<w>home</w>
+<w type="pon">;</w>
+<lb n="11991"/>
+<w>et</w>
+<w>qant</w>
+<w>laissié</w>
+<w>ot</w>
+<w>le</w>
+<w>chanter</w>
+<w type="pon">,</w>
+<lb n="11992"/>
+<w>si</w>
+<w>conmença</w>
+<w>a</w>
+<w>regarder</w>
+<lb n="11993"/>
+<w>Renart</w>
+<w type="pon">,</w>
+<w>qu'</w>
+<w>au</w>
+<w>matin</w>
+<w>l'</w>
+<w>ot</w>
+<w>laisié</w>
+<w type="pon">.</w>
+</s>
+<lb n="11994"/>
+<q>
+<s>
+<w type="pon">«</w>
+<w>Diex</w>
+<w type="pon">,</w>
+<w>fait</w>
+<w>il</w>
+<w type="pon">,</w>
+<w>je</w>
+<w>sui</w>
+<w>corrocié</w>
+<lb n="11995"/>
+<w>de</w>
+<w>Renart</w>
+<w>que</w>
+<w>ne</w>
+<w>puis</w>
+<w>trover</w>
+<w type="pon">.</w>
+<pb n="85"/>
+</s>
+<lb n="11996"/>
+<s n="143">
+<w>Se</w>
+<w>or</w>
+<w>le</w>
+<w>poïsse</w>
+<w>encontrer</w>
+<lb n="11997"/>
+<w>je</w>
+<w>le</w>
+<w>meïsse</w>
+<w>ore</w>
+<w>em</w>
+<w>pais</w>
+<w type="pon">;</w>
+<lb n="11998"/>
+<w>mes</w>
+<w>escuiers</w>
+<w>fust</w>
+<w>aen</w>
+<w>mais</w>
+<w type="pon">.</w>
+<w type="pon">»</w>
+</s>
+</q>
+</ab>
+<ab rend="strophe">
+<lb n="11999"/>
+<s n="144">
+<w>Lors</w>
+<w>se</w>
+<w>raquieut</w>
+<w>a</w>
+<w>estargir</w>
+<w type="pon">;</w>
+<lb n="12000"/>
+<w>le</w>
+<w>cheval</w>
+<w>fait</w>
+<w>avant</w>
+<w>saillir</w>
+<lb n="12001"/>
+<w>et</w>
+<w>dist</w>
+<w type="pon">:</w>
+</s>
+<q>
+<s>
+<w type="pon">«</w>
+<w>Qu'</w>
+<w>est</w>
+<w>Renart</w>
+<w>devenuz</w>
+<w type="pon">?</w>
+</s>
+<lb n="12002"/>
+<s n="145">
+<w>Ce</w>
+<w>poise</w>
+<w>moi</w>
+<w type="pon">,</w>
+<w>s'</w>
+<w>il</w>
+<w>est</w>
+<w>perduz</w>
+<w type="pon">.</w>
+<w type="pon">»</w>
+</s>
+</q>
+<lb n="12003"/>
+<s n="146">
+<w>Et</w>
+<w>Renart</w>
+<w type="pon">,</w>
+<w>qui</w>
+<w>bien</w>
+<w>l'</w>
+<w>ot</w>
+<w>oï</w>
+<w type="pon">,</w>
+<lb n="12004"/>
+<w>maintenant</w>
+<w>est</w>
+<w>en</w>
+<w>piez</w>
+<w>sailiz</w>
+<lb n="12005"/>
+<w>et</w>
+<w>dist</w>
+<w type="pon">:</w>
+</s>
+<q>
+<s>
+<w type="pon">«</w>
+<w>Je</w>
+<w>ne</w>
+<w>sui</w>
+<w>pas</w>
+<w>perduz</w>
+<w type="pon">,</w>
+<lb n="12006"/>
+<w>sire</w>
+<w type="pon">;</w>
+<w>bien</w>
+<w>saiez</w>
+<w>vos</w>
+<w>venuz</w>
+<lb n="12007"/>
+<w>et</w>
+<w>que</w>
+<w>beneoist</w>
+<w>jor</w>
+<w>aiez</w>
+<w type="pon">.</w>
+<w type="pon">»</w>
+</s>
+</q>
+<lb n="12008"/>
+<s n="147">
+<w>Et</w>
+<w>Tibert</w>
+<w>s'</w>
+<w>est</w>
+<w>lors</w>
+<w>soufaichiez</w>
+<lb n="12009"/>
+<w>sor</w>
+<w>les</w>
+<w>estrieus</w>
+<w type="pon">,</w>
+<w>si</w>
+<w>le</w>
+<w>regarde</w>
+<lb n="12010"/>
+<w>et</w>
+<w>de</w>
+<w>parler</w>
+<w>un</w>
+<w>poi</w>
+<w>se</w>
+<w>tarde</w>
+<w type="pon">.</w>
+</s>
+<lb n="12011"/>
+<s n="148">
+<w>Et</w>
+<w>Renart</w>
+<w>est</w>
+<w>avant</w>
+<w>venuz</w>
+<w type="pon">,</w>
+<lb n="12012"/>
+<w>si</w>
+<w>li</w>
+<w>dist</w>
+<w type="pon">:</w>
+</s>
+<q>
+<s>
+<w type="pon">«</w>
+<w>Sire</w>
+<w type="pon">,</w>
+<w>bon</w>
+<w>saluz</w>
+<lb n="12013"/>
+<w>et</w>
+<w>bon</w>
+<w>jor</w>
+<w>vos</w>
+<w>soit</w>
+<w>ajornez</w>
+<w type="pon">.</w>
+<lb n="12014"/>
+<w type="pon">-</w>
+</s>
+<s n="149">
+<w>A</w>
+<w>qui</w>
+<w>es</w>
+<w>ce</w>
+<w>que</w>
+<w>vos</w>
+<w>parlez</w>
+<w type="pon">?</w>
+<w type="pon">»</w>
+</s>
+</q>
+<lb n="12015"/>
+<s n="150">
+<w>Fait</w>
+<w>sai</w>
+<w>Renart</w>
+<w type="pon">:</w>
+</s>
+<q>
+<s>
+<w type="pon">«</w>
+<w>A</w>
+<w>vos</w>
+<w>que</w>
+<w>tient</w>
+<w type="pon">?</w>
+</s>
+<lb n="12016"/>
+<s n="151">
+<w>Sire</w>
+<w type="pon">,</w>
+<w>je</w>
+<w>di</w>
+<w>que</w>
+<w>Dieu</w>
+<w>vos</w>
+<w>maint</w>
+<lb n="12017"/>
+<w>et</w>
+<w>doint</w>
+<w>joie</w>
+<w>et</w>
+<w>bone</w>
+<w>avanture</w>
+<w type="pon">.</w>
+<lb n="12018"/>
+<w type="pon">-</w>
+</s>
+<s n="152">
+<w>De</w>
+<w>vostre</w>
+<w>salu</w>
+<w>n'</w>
+<w>ai</w>
+<w>ge</w>
+<w>cure</w>
+<w type="pon">,</w>
+<lb n="12019"/>
+<w>fait</w>
+<w>se</w>
+<w>Tibert</w>
+<w type="pon">;</w>
+<w>ce</w>
+<w>que</w>
+<w>je</w>
+<w>voil</w>
+<lb n="12020"/>
+<w>ai</w>
+<w>ge</w>
+<w>assez</w>
+<w type="pon">,</w>
+<w>et</w>
+<w>trop</w>
+<w>me</w>
+<w>duel</w>
+<lb n="12021"/>
+<w>que</w>
+<w>je</w>
+<w>ne</w>
+<w>puis</w>
+<w>Renart</w>
+<w>trover</w>
+<w type="pon">,</w>
+<lb n="12022"/>
+<w>que</w>
+<w>je</w>
+<w>voloie</w>
+<w>o</w>
+<w>moi</w>
+<w>mener</w>
+<lb n="12023"/>
+<w>a</w>
+<w>saint</w>
+<w>Martin</w>
+<w>a</w>
+<w>Blaaignié</w>
+<w type="pon">,</w>
+<lb n="12024"/>
+<w>que</w>
+<w>j'</w>
+<w>é</w>
+<w>de</w>
+<w>lui</w>
+<w>mout</w>
+<w>grant</w>
+<w>pitié</w>
+<w type="pon">.</w>
+</s>
+<lb n="12025"/>
+<s n="153">
+<w>Et</w>
+<w>je</w>
+<w>vois</w>
+<w>les</w>
+<w>vespres</w>
+<w>chanter</w>
+<w type="pon">:</w>
+<lb n="12026"/>
+<w>l'</w>
+<w>eglise</w>
+<w>m'</w>
+<w>estuet</w>
+<w>deporter</w>
+<lb n="12027"/>
+<w>jusqu'</w>
+<w>a</w>
+<w type="num">.VII.</w>
+<w>jorz</w>
+<w type="pon">,</w>
+<w>por</w>
+<w>le</w>
+<w>provoire</w>
+<w type="pon">,</w>
+<lb n="12028"/>
+<w>qui</w>
+<w>est</w>
+<w>alez</w>
+<w>a</w>
+<w>une</w>
+<w>foire</w>
+<w type="pon">,</w>
+<pb n="86"/>
+<lb n="12029"/>
+<w type="pon">(</w>
+<w>a</w>
+<w>Dol</w>
+<w>est</w>
+<w>alez</w>
+<w>en</w>
+<w>Bretaingne</w>
+<w type="pon">,</w>
+<lb n="12030"/>
+<w>ne</w>
+<w>voille</w>
+<w>Diex</w>
+<w>que</w>
+<w>il</w>
+<w>revaigne</w>
+<w type="pon">!</w>
+</s>
+<lb n="12031"/>
+<s n="154">
+<w>robe</w>
+<w>va</w>
+<w>querre</w>
+<w>a</w>
+<w>sa</w>
+<w>putain</w>
+<w type="pon">)</w>
+<w type="pon">;</w>
+<lb n="12032"/>
+<w>si</w>
+<w>m'</w>
+<w>i</w>
+<w>estuet</w>
+<w>chanter</w>
+<w>demain</w>
+<w type="pon">,</w>
+<lb n="12033"/>
+<w>et</w>
+<w>je</w>
+<w>n'</w>
+<w>ai</w>
+<w>clerc</w>
+<w>qui</w>
+<w>me</w>
+<w>respoingne</w>
+<w type="pon">.</w>
+<lb n="12034"/>
+<w type="pon">-</w>
+</s>
+<s n="155">
+<w>Je</w>
+<w>ferai</w>
+<w>bien</w>
+<w>ceste</w>
+<w>besoingne</w>
+<w type="pon">,</w>
+<lb n="12035"/>
+<w>le</w>
+<w>mestier</w>
+<w>sai</w>
+<w>de</w>
+<w>chief</w>
+<w>en</w>
+<w>chief</w>
+<w type="pon">,</w>
+<lb n="12036"/>
+<w>si</w>
+<w>vos</w>
+<w>aiderai</w>
+<w>par</w>
+<w>mon</w>
+<w>chief</w>
+<w type="pon">,</w>
+<lb n="12037"/>
+<w>fait</w>
+<w>soi</w>
+<w>Renart</w>
+<w type="pon">,</w>
+<w>se</w>
+<w>vos</w>
+<w>volez</w>
+<w type="pon">.</w>
+</s>
+<lb n="12038"/>
+<s n="156">
+<w>Je</w>
+<w>sui</w>
+<w>icil</w>
+<w>que</w>
+<w>vos</w>
+<w>querez</w>
+<w type="pon">,</w>
+<lb n="12039"/>
+<w>Renart</w>
+<w type="pon">,</w>
+<w>vostre</w>
+<w>bon</w>
+<w>conpaignon</w>
+<w type="pon">.</w>
+<lb n="12040"/>
+<w type="pon">-</w>
+</s>
+<s n="157">
+<w>Va</w>
+<w>ta</w>
+<w>voie</w>
+<w type="pon">,</w>
+<w>va</w>
+<w type="pon">,</w>
+<w>fol</w>
+<w>bricon</w>
+<w type="pon">:</w>
+<lb n="12041"/>
+<w>tu</w>
+<w>ies</w>
+<w>Renart</w>
+<w type="pon">?</w>
+<w type="pon">-</w>
+</s>
+<s n="158">
+<w>Voire</w>
+<w>par</w>
+<w>foi</w>
+<w type="pon">!</w>
+<lb n="12042"/>
+<w type="pon">-</w>
+</s>
+<s n="159">
+<w>En</w>
+<w>mentiroies</w>
+<w>tu</w>
+<w>ta</w>
+<w>foi</w>
+<w type="pon">?</w>
+<lb n="12043"/>
+<w type="pon">-</w>
+</s>
+<s n="160">
+<w>Oïl</w>
+<w type="pon">,</w>
+<w>certes</w>
+<w type="pon">,</w>
+<w>ce</w>
+<w>dit</w>
+<w>Renart</w>
+<w type="pon">.</w>
+<lb n="12044"/>
+<w type="pon">-</w>
+</s>
+<s n="161">
+<w>Va</w>
+<w>ta</w>
+<w>voie</w>
+<w type="pon">,</w>
+<w>tu</w>
+<w>ies</w>
+<w>musart</w>
+<w type="pon">:</w>
+<lb n="12045"/>
+<w>Renart</w>
+<w>ne</w>
+<w>s'</w>
+<w>osast</w>
+<w>pas</w>
+<w>veoir</w>
+<lb n="12046"/>
+<w>devant</w>
+<w>moi</w>
+<w>por</w>
+<w>nul</w>
+<w>estevoir</w>
+<w type="pon">,</w>
+<lb n="12047"/>
+<w>que</w>
+<w>il</w>
+<w>m'</w>
+<w>avoit</w>
+<w>hui</w>
+<w>renponé</w>
+<lb n="12048"/>
+<w>et</w>
+<w>mout</w>
+<w>corocié</w>
+<w>et</w>
+<w>gabé</w>
+<w type="pon">.</w>
+<lb n="12049"/>
+<w type="pon">-</w>
+</s>
+<s n="162">
+<w>Ja</w>
+<w>n'</w>
+<w>i</w>
+<w>ot</w>
+<w>se</w>
+<w>parole</w>
+<w>non</w>
+<w type="pon">.</w>
+<lb n="12050"/>
+<w type="pon">-</w>
+</s>
+<s n="163">
+<w>Si</w>
+<w>ot</w>
+<w type="pon">,</w>
+<w>il</w>
+<w>fist</w>
+<w>grant</w>
+<w>traïson</w>
+<w type="pon">,</w>
+<lb n="12051"/>
+<w>qant</w>
+<w>ileuc</w>
+<w>me</w>
+<w>laissa</w>
+<w>par</w>
+<w>moi</w>
+<lb n="12052"/>
+<w>ou</w>
+<w>iere</w>
+<w>alez</w>
+<w>en</w>
+<w>bone</w>
+<w>foi</w>
+<lb n="12053"/>
+<w>o</w>
+<w>lui</w>
+<w>esbatre</w>
+<w>en</w>
+<w>conpaignie</w>
+<w type="pon">;</w>
+<lb n="12054"/>
+<w>et</w>
+<w>il</w>
+<w>ne</w>
+<w>fist</w>
+<w>pas</w>
+<w>cortoisie</w>
+<w type="pon">.</w>
+</s>
+</q>
+</ab>
+<ab rend="strophe">
+<lb n="12055"/>
+<q>
+<s>
+<w type="pon">«</w>
+<w>Mais</w>
+<w>or</w>
+<w>me</w>
+<w>di</w>
+<w type="pon">,</w>
+<w>se</w>
+<w>Diex</w>
+<w>te</w>
+<w>gart</w>
+<lb n="12056"/>
+<w>se</w>
+<w>tu</w>
+<w>veïs</w>
+<w>anuit</w>
+<w>Renart</w>
+<w type="pon">.</w>
+<lb n="12057"/>
+<w type="pon">-</w>
+</s>
+<s n="165">
+<w>Naie</w>
+<w type="pon">,</w>
+<w>certes</w>
+<w type="pon">,</w>
+<w>jor</w>
+<w>de</w>
+<w>ma</w>
+<w>vie</w>
+<w type="pon">,</w>
+<lb n="12058"/>
+<w>je</w>
+<w>ne</w>
+<w>vos</w>
+<w>en</w>
+<w>mentise</w>
+<w>mie</w>
+<w type="pon">,</w>
+<lb n="12059"/>
+<w>ce</w>
+<w>li</w>
+<w>a</w>
+<w>Renart</w>
+<w>respondu</w>
+<w type="pon">:</w>
+<lb n="12060"/>
+<w>mais</w>
+<w type="pon">,</w>
+<w>Tibert</w>
+<w type="pon">,</w>
+<w>vos</w>
+<w>ai</w>
+<w>ge</w>
+<w>veü</w>
+<w type="pon">.</w>
+<lb n="12061"/>
+<w type="pon">-</w>
+</s>
+<s n="166">
+<w>Avez</w>
+<w>oï</w>
+<w type="pon">,</w>
+<w>por</w>
+<w>le</w>
+<w>cuer</w>
+<w>bé</w>
+<w type="pon">,</w>
+<pb n="87"/>
+<lb n="12062"/>
+<w>con</w>
+<w>or</w>
+<w>m'</w>
+<w>a</w>
+<w>ce</w>
+<w>vilain</w>
+<w>gabé</w>
+<w type="pon">.</w>
+<lb n="12063"/>
+<w type="pon">-</w>
+</s>
+<s n="167">
+<w>Gabé</w>
+<w>de</w>
+<w>coi</w>
+<w type="pon">?</w>
+</s>
+<s n="168">
+<w>Encor</w>
+<w>i</w>
+<w>pert</w>
+<w type="pon">.</w>
+</s>
+<lb n="12064"/>
+<s n="169">
+<w>N'</w>
+<w>este</w>
+<w>vos</w>
+<w>mie</w>
+<w>encor</w>
+<w>Tibert</w>
+<w type="pon">?</w>
+<lb n="12065"/>
+<w type="pon">-</w>
+</s>
+<s n="170">
+<w>Oïl</w>
+<w>voir</w>
+<w type="pon">.</w>
+<w type="pon">-</w>
+</s>
+<s n="171">
+<w>Et</w>
+<w>je</w>
+<w>Renart</w>
+<w>sui</w>
+<w type="pon">,</w>
+<lb n="12066"/>
+<w>a</w>
+<w>ces</w>
+<w>ansaingnes</w>
+<w>que</w>
+<w>je</w>
+<w>hui</w>
+<lb n="12067"/>
+<w>vos</w>
+<w>trovai</w>
+<w>en</w>
+<w>la</w>
+<w>roche</w>
+<w>en</w>
+<w>haut</w>
+<lb n="12068"/>
+<w>ou</w>
+<w>vos</w>
+<w>vos</w>
+<w>rotisiez</w>
+<w>au</w>
+<w>chaut</w>
+<w type="pon">.</w>
+<w type="pon">»</w>
+</s>
+</q>
+<lb n="12069"/>
+<s n="172">
+<w>Tibert</w>
+<w>respont</w>
+<w type="pon">:</w>
+</s>
+<q>
+<s>
+<w type="pon">«</w>
+<w>Tu</w>
+<w>as</w>
+<w>voir</w>
+<w>dit</w>
+<w type="pon">,</w>
+<lb n="12070"/>
+<w>mes</w>
+<w>or</w>
+<w>me</w>
+<w>di</w>
+<w type="pon">,</w>
+<w>se</w>
+<w>Diex</w>
+<w>t'</w>
+<w>aïst</w>
+<w type="pon">:</w>
+<lb n="12071"/>
+<w>se</w>
+<w>je</w>
+<w>te</w>
+<w>menoie</w>
+<w>avec</w>
+<w>moi</w>
+<w type="pon">,</w>
+<lb n="12072"/>
+<w>seras</w>
+<w>me</w>
+<w>tu</w>
+<w>de</w>
+<w>bone</w>
+<w>foi</w>
+<w type="pon">?</w>
+<lb n="12073"/>
+<w type="pon">-</w>
+</s>
+<s n="173">
+<w>Oïl</w>
+<w>certes</w>
+<w type="pon">,</w>
+<w>ce</w>
+<w>dit</w>
+<w>Renart</w>
+<w type="pon">.</w>
+</s>
+<lb n="12074"/>
+<s n="174">
+<w>Mais</w>
+<w>or</w>
+<w>me</w>
+<w>dites</w>
+<w>par</w>
+<w>quel</w>
+<w>part</w>
+<lb n="12075"/>
+<w>vos</w>
+<w>avez</w>
+<w>cel</w>
+<w>hernois</w>
+<w>conquis</w>
+<w type="pon">.</w>
+<lb n="12076"/>
+<w type="pon">-</w>
+</s>
+<s n="175">
+<w>Ja</w>
+<w>me</w>
+<w>cuidoient</w>
+<w>avoir</w>
+<w>pris</w>
+<lb n="12077"/>
+<w>li</w>
+<w>garçon</w>
+<w>Guillaume</w>
+<w>Bacon</w>
+<w type="pon">,</w>
+<lb n="12078"/>
+<w>qant</w>
+<w>uns</w>
+<w>prestres</w>
+<w>a</w>
+<w>esperon</w>
+<lb n="12079"/>
+<w>i</w>
+<w>vint</w>
+<w>sor</w>
+<w>un</w>
+<w>cheval</w>
+<w>errant</w>
+<w type="pon">;</w>
+<lb n="12080"/>
+<w>la</w>
+<w>desçandi</w>
+<w>tot</w>
+<w>maintenant</w>
+<lb n="12081"/>
+<w>et</w>
+<w>coilli</w>
+<w>ne</w>
+<w>sai</w>
+<w>quanz</w>
+<w>batons</w>
+<w type="pon">;</w>
+<lb n="12082"/>
+<w>lors</w>
+<w>m'</w>
+<w>asailli</w>
+<w>conme</w>
+<w>dragons</w>
+<w type="pon">,</w>
+<lb n="12083"/>
+<w>et</w>
+<w>je</w>
+<w>vi</w>
+<w>si</w>
+<w>pres</w>
+<w>le</w>
+<w>cheval</w>
+<lb n="12084"/>
+<w>delez</w>
+<w>l'</w>
+<w>abre</w>
+<w>tout</w>
+<w>a</w>
+<w>estal</w>
+<w type="pon">,</w>
+<lb n="12085"/>
+<w>conmençai</w>
+<w>moi</w>
+<w>a</w>
+<w>devaler</w>
+<w type="pon">;</w>
+<lb n="12086"/>
+<w>et</w>
+<w>il</w>
+<w>me</w>
+<w>pristrent</w>
+<w>a</w>
+<w>hüer</w>
+<lb n="12087"/>
+<w>lor</w>
+<w>chiens</w>
+<w type="pon">,</w>
+<w>qu'</w>
+<w>il</w>
+<w>me</w>
+<w>voloient</w>
+<w>prandre</w>
+<w type="pon">,</w>
+<lb n="12088"/>
+<w>et</w>
+<w>je</w>
+<w>n'</w>
+<w>oi</w>
+<w>cure</w>
+<w>de</w>
+<w>desçandre</w>
+<w type="pon">,</w>
+<lb n="12089"/>
+<w>ainz</w>
+<w>sailli</w>
+<w>dedanz</w>
+<w>les</w>
+<w>arçons</w>
+<w type="pon">;</w>
+<lb n="12090"/>
+<w>et</w>
+<w>il</w>
+<w>con</w>
+<w>uns</w>
+<w>esmerillons</w>
+<lb n="12091"/>
+<w>s'</w>
+<w>an</w>
+<w>ala</w>
+<w>tout</w>
+<w>demaintenant</w>
+<w type="pon">.</w>
+</s>
+<lb n="12092"/>
+<s n="176">
+<w>Qant</w>
+<w>je</w>
+<w>m'</w>
+<w>aloie</w>
+<w>regardant</w>
+<w type="pon">,</w>
+<lb n="12093"/>
+<w>vi</w>
+<w>le</w>
+<w>prestre</w>
+<w>dolant</w>
+<w>et</w>
+<w>las</w>
+<lb n="12094"/>
+<w>qui</w>
+<w>me</w>
+<w>suivoit</w>
+<w>plus</w>
+<w>que</w>
+<w>le</w>
+<w>pas</w>
+<w type="pon">;</w>
+<pb n="88"/>
+<lb n="12095"/>
+<w>touz</w>
+<w>les</w>
+<w>ous</w>
+<w>li</w>
+<w>orent</w>
+<w>quassez</w>
+<lb n="12096"/>
+<w>por</w>
+<w>ce</w>
+<w>que</w>
+<w>je</w>
+<w>fui</w>
+<w>eschapez</w>
+<w type="pon">.</w>
+</s>
+<lb n="12097"/>
+<s n="177">
+<w>Aprés</w>
+<w>moi</w>
+<w>vint</w>
+<w>et</w>
+<w>m'</w>
+<w>aresna</w>
+<lb n="12098"/>
+<w>et</w>
+<w>son</w>
+<w>polain</w>
+<w>me</w>
+<w>demanda</w>
+<w type="pon">;</w>
+<lb n="12099"/>
+<w>et</w>
+<w>je</w>
+<w>si</w>
+<w>le</w>
+<w>questionai</w>
+<w type="pon">,</w>
+<lb n="12100"/>
+<w>de</w>
+<w>gramaire</w>
+<w>li</w>
+<w>demandai</w>
+<w type="pon">,</w>
+<lb n="12101"/>
+<w>de</w>
+<w>sofime</w>
+<w>et</w>
+<w>de</w>
+<w>questïon</w>
+<w type="pon">:</w>
+<lb n="12102"/>
+<w>ne</w>
+<w>me</w>
+<w>sot</w>
+<w>respondre</w>
+<w>un</w>
+<w>bouton</w>
+<w type="pon">.</w>
+</s>
+<lb n="12103"/>
+<s n="178">
+<w>Qant</w>
+<w>je</w>
+<w>l'</w>
+<w>oi</w>
+<w>fait</w>
+<w>dou</w>
+<w>tot</w>
+<w>conclus</w>
+<w type="pon">,</w>
+<lb n="12104"/>
+<w>je</w>
+<w>m'</w>
+<w>en</w>
+<w>parti</w>
+<w type="pon">,</w>
+<w>il</w>
+<w>n'</w>
+<w>i</w>
+<w>ot</w>
+<w>plus</w>
+<w type="pon">;</w>
+<lb n="12105"/>
+<w>mais</w>
+<w>jel</w>
+<w>rovai</w>
+<w>aler</w>
+<w>aprandre</w>
+<lb n="12106"/>
+<w>et</w>
+<w>a</w>
+<w>autre</w>
+<w>mestier</w>
+<w>antandre</w>
+<w type="pon">.</w>
+</s>
+</q>
+</ab>
+<ab rend="strophe">
+<lb n="12107"/>
+  <q>
+<s n="179">
+<w type="pon">-</w>
+<w>Sire</w>
+<w>Tibert</w>
+<w type="pon">,</w>
+<w>ce</w>
+<w>dist</w>
+<w>Renart</w>
+<w type="pon">,</w>
+<lb n="12108"/>
+<w>s'</w>
+<w>or</w>
+<w>i</w>
+<w>estoient</w>
+<w>li</w>
+<w>sait</w>
+<w>art</w>
+<lb n="12109"/>
+<w>en</w>
+<w>cest</w>
+<w>livres</w>
+<w>que</w>
+<w>vos</w>
+<w>avez</w>
+<w type="pon">,</w>
+<lb n="12110"/>
+<w>bien</w>
+<w>nos</w>
+<w>avroit</w>
+<w>Diex</w>
+<w>regardez</w>
+<w type="pon">:</w>
+<lb n="12111"/>
+<w>escole</w>
+<w>porïons</w>
+<w>tenir</w>
+<lb n="12112"/>
+<w>et</w>
+<w>riches</w>
+<w>homes</w>
+<w>devenir</w>
+<w type="pon">.</w>
+<lb n="12113"/>
+<w type="pon">-</w>
+</s>
+<s n="180">
+<w>Par</w>
+<w>foi</w>
+<w type="pon">,</w>
+<w>dit</w>
+<w>Tibert</w>
+<w type="pon">,</w>
+<w>ge</w>
+<w>ne</w>
+<w>sai</w>
+<w type="pon">,</w>
+<lb n="12114"/>
+<w>que</w>
+<w>ainz</w>
+<w>es</w>
+<w>livres</w>
+<w>n'</w>
+<w>esgardoi</w>
+<w type="pon">.</w>
+<lb n="12115"/>
+<w type="pon">-</w>
+</s>
+<s n="181">
+<w>Non</w>
+<w type="pon">?</w>
+</s>
+<s n="182">
+<w>dant</w>
+<w>Tibert</w>
+<w type="pon">,</w>
+<w>or</w>
+<w>i</w>
+<w>gardon</w>
+<w type="pon">;</w>
+<lb n="12116"/>
+<w>desçandez</w>
+<w>et</w>
+<w>si</w>
+<w>destrouson</w>
+<w type="pon">.</w>
+<lb n="12117"/>
+<w type="pon">-</w>
+</s>
+<s n="183">
+<w>Non</w>
+<w>ferons</w>
+<w type="pon">,</w>
+<w>qar</w>
+<w>il</w>
+<w>est</w>
+<w>trop</w>
+<w>tart</w>
+<w type="pon">;</w>
+<lb n="12118"/>
+<w>mais</w>
+<w>alons</w>
+<w>tost</w>
+<w type="pon">,</w>
+<w>ce</w>
+<w>dist</w>
+<w type="pon">,</w>
+<w>Renart</w>
+<w type="pon">,</w>
+<lb n="12119"/>
+<w>bone</w>
+<w>aleüre</w>
+<w>a</w>
+<w>Blaaignié</w>
+<w type="pon">.</w>
+<lb n="12120"/>
+<w type="pon">-</w>
+</s>
+<s n="184">
+<w>Conment</w>
+<w type="pon">?</w>
+</s>
+<s n="185">
+<w>i</w>
+<w>irai</w>
+<w>ge</w>
+<w>a</w>
+<w>pié</w>
+<w type="pon">?</w>
+<lb n="12121"/>
+<w type="pon">-</w>
+</s>
+<s n="186">
+<w>Bien</w>
+<w type="pon">!</w>
+</s>
+<s n="187">
+<w>si</w>
+<w>verrez</w>
+<w>encontre</w>
+<w>moi</w>
+<lb n="12122"/>
+<w>au</w>
+<w>recevoir</w>
+<w>le</w>
+<w>palefroi</w>
+<w type="pon">,</w>
+<lb n="12123"/>
+<w>et</w>
+<w>as</w>
+<w>genz</w>
+<w>irez</w>
+<w>demander</w>
+<lb n="12124"/>
+<w>s'</w>
+<w>il</w>
+<w>i</w>
+<w>a</w>
+<w>ame</w>
+<w>a</w>
+<w>anterrer</w>
+<w type="pon">,</w>
+<lb n="12125"/>
+<w>ne</w>
+<w>nul</w>
+<w>anfant</w>
+<w>a</w>
+<w>bautisier</w>
+<w type="pon">,</w>
+<lb n="12126"/>
+<w>que</w>
+<w>tost</w>
+<w>le</w>
+<w>portent</w>
+<w>au</w>
+<w>moustier</w>
+<w type="pon">,</w>
+<lb n="12127"/>
+<w>et</w>
+<w>je</w>
+<w>i</w>
+<w>serai</w>
+<w>or</w>
+<w>androit</w>
+<w type="pon">.</w>
+<w type="pon">»</w>
+</s>
+</q>
+<pb n="89"/>
+<lb n="12128"/>
+<s n="188">
+<w>Renart</w>
+<w>dit</w>
+<w>que</w>
+<w>il</w>
+<w>ne</w>
+<w>porroit</w>
+<w type="pon">,</w>
+<lb n="12129"/>
+<w>qu'</w>
+<w>il</w>
+<w>a</w>
+<w>trop</w>
+<w>les</w>
+<w>piez</w>
+<w>despeciez</w>
+<w type="pon">,</w>
+<lb n="12130"/>
+<w>trop</w>
+<w>est</w>
+<w>lassez</w>
+<w>et</w>
+<w>traveilliez</w>
+<w type="pon">;</w>
+<lb n="12131"/>
+<w>ne</w>
+<w>manga</w>
+<w>hui</w>
+<w type="pon">,</w>
+<w>ne</w>
+<w>pot</w>
+<w>ester</w>
+<w type="pon">,</w>
+<lb n="12132"/>
+<w>se</w>
+<w>nou</w>
+<w>laisoit</w>
+<w>un</w>
+<w>pou</w>
+<w>monter</w>
+<w type="pon">.</w>
+</s>
+<lb n="12133"/>
+<q>
+<s>
+<w type="pon">«</w>
+<w>Montez</w>
+<w type="pon">,</w>
+<w>dit</w>
+<w>Tibert</w>
+<w type="pon">,</w>
+<w>vitement</w>
+<w type="pon">.</w>
+<w type="pon">»</w>
+</s>
+</q>
+<lb n="12134"/>
+<s n="190">
+<w>A</w>
+<w>tant</w>
+<w>va</w>
+<w>Renart</w>
+<w type="pon">,</w>
+<w>si</w>
+<w>se</w>
+<w>prant</w>
+<w type="pon">,</w>
+<lb n="12135"/>
+<w>si</w>
+<w>est</w>
+<w>montez</w>
+<w>derriere</w>
+<w>lui</w>
+<w type="pon">:</w>
+<lb n="12136"/>
+<w>il</w>
+<w>li</w>
+<w>dira</w>
+<w>par</w>
+<w>tans</w>
+<w>anui</w>
+<w type="pon">.</w>
+</s>
+</ab>
+<ab rend="strophe">
+<lb n="12137"/>
+<s n="191">
+<w>Or</w>
+<w>sont</w>
+<w>li</w>
+<w>baron</w>
+<w>a</w>
+<w>cheval</w>
+<w type="pon">,</w>
+<lb n="12138"/>
+<w>si</w>
+<w>chevaucherent</w>
+<w>contre</w>
+<w>val</w>
+<w type="pon">,</w>
+<lb n="12139"/>
+<w>et</w>
+<w>s'</w>
+<w>an</w>
+<w>fuient</w>
+<w>grant</w>
+<w>aleüre</w>
+<lb n="12140"/>
+<w>trestot</w>
+<w>le</w>
+<w>val</w>
+<w>d'</w>
+<w>une</w>
+<w>costure</w>
+<w type="pon">,</w>
+<lb n="12141"/>
+<w>Tibert</w>
+<w>devant</w>
+<w type="pon">,</w>
+<w>Renart</w>
+<w>derriere</w>
+<w type="pon">;</w>
+<lb n="12142"/>
+<w>si</w>
+<w>se</w>
+<w>porpanse</w>
+<w>en</w>
+<w>quel</w>
+<w>maniere</w>
+<lb n="12143"/>
+<w>il</w>
+<w>le</w>
+<w>porra</w>
+<w>mestre</w>
+<w>a</w>
+<w>raison</w>
+<w type="pon">.</w>
+</s>
+<lb n="12144"/>
+<q>
+<s>
+<w type="pon">«</w>
+<w>Tibert</w>
+<w type="pon">,</w>
+<w>par</w>
+<w>ta</w>
+<w>confessïon</w>
+<w type="pon">,</w>
+<lb n="12145"/>
+<w>de</w>
+<w>ce</w>
+<w>cheval</w>
+<w>et</w>
+<w>que</w>
+<w>feras</w>
+<w type="pon">?</w>
+</s>
+<lb n="12146"/>
+<s n="193">
+<w>donras</w>
+<w>le</w>
+<w>tu</w>
+<w>ou</w>
+<w>le</w>
+<w>vandras</w>
+<w type="pon">?</w>
+<lb n="12147"/>
+<w type="pon">-</w>
+</s>
+<s n="194">
+<w>Je</w>
+<w>le</w>
+<w>vandrai</w>
+<w type="pon">,</w>
+<w>Tibert</w>
+<w>a</w>
+<w>dit</w>
+<w type="pon">.</w>
+<lb n="12148"/>
+<w type="pon">-</w>
+</s>
+<s n="195">
+<w>Et</w>
+<w>por</w>
+<w>conbien</w>
+<w type="pon">,</w>
+<w>Renart</w>
+<w>a</w>
+<w>dist</w>
+<w type="pon">,</w>
+<lb n="12149"/>
+<w>le</w>
+<w>doras</w>
+<w>tu</w>
+<w type="pon">?</w>
+</s>
+<s n="196">
+<w>va</w>
+<w type="pon">,</w>
+<w>di</w>
+<w>le</w>
+<w>moi</w>
+<w type="pon">.</w>
+<lb n="12150"/>
+<w type="pon">-</w>
+</s>
+<s n="197">
+<w>Je</w>
+<w>le</w>
+<w>te</w>
+<w>dirai</w>
+<w>ja</w>
+<w type="pon">?</w>
+</s>
+<s n="198">
+<w>por</w>
+<w>coi</w>
+<w type="pon">?</w>
+</s>
+<lb n="12151"/>
+<s n="199">
+<w>vodroies</w>
+<w>le</w>
+<w>tu</w>
+<w>acheter</w>
+<w type="pon">?</w>
+<lb n="12152"/>
+<w type="pon">-</w>
+</s>
+<s n="200">
+<w>Oïl</w>
+<w type="pon">,</w>
+<w>sel</w>
+<w>volïez</w>
+<w>doner</w>
+<lb n="12153"/>
+<w>a</w>
+<w>raison</w>
+<w>et</w>
+<w>a</w>
+<w>droit</w>
+<w>esgart</w>
+<w type="pon">.</w>
+</s>
+<lb n="12154"/>
+<s n="201">
+<w>Por</w>
+<w>conbien</w>
+<w>avrai</w>
+<w>ge</w>
+<w>ta</w>
+<w>part</w>
+<w type="pon">,</w>
+<lb n="12155"/>
+<w>fai</w>
+<w>soi</w>
+<w>Renart</w>
+<w type="pon">,</w>
+<w>or</w>
+<w>di</w>
+<w>raison</w>
+<w type="pon">.</w>
+<lb n="12156"/>
+<w type="pon">-</w>
+</s>
+<s n="202">
+<w>A</w>
+<w>il</w>
+<w>dont</w>
+<w>nul</w>
+<w>part</w>
+<w type="pon">,</w>
+<w>se</w>
+<w>moi</w>
+<w>non</w>
+<w type="pon">?</w>
+</s>
+<lb n="12157"/>
+<s n="203">
+<w>ce</w>
+<w>dit</w>
+<w>Tibert</w>
+<w type="pon">,</w>
+<w>jel</w>
+<w>gahaignai</w>
+<w type="pon">.</w>
+<lb n="12158"/>
+<w type="pon">-</w>
+</s>
+<s n="204">
+<w>Et</w>
+<w>je</w>
+<w>por</w>
+<w>coi</w>
+<w>n'</w>
+<w>i</w>
+<w>partirai</w>
+<w type="pon">?</w>
+<w type="pon">»</w>
+</s>
+</q>
+<lb n="12159"/>
+<s n="205">
+<w>Et</w>
+<w>dist</w>
+<w>Tibert</w>
+<w type="pon">:</w>
+</s>
+<q>
+<s>
+<w type="pon">«</w>
+<w>Sire</w>
+<w>Renart</w>
+<w type="pon">,</w>
+<lb n="12160"/>
+<w>par</w>
+<w>foi</w>
+<w type="pon">,</w>
+<w>tu</w>
+<w>n'</w>
+<w>i</w>
+<w>avras</w>
+<w>ja</w>
+<w>part</w>
+<w type="pon">,</w>
+<pb n="90"/>
+<lb n="12161"/>
+<w>fait</w>
+<w>soi</w>
+<w>Tibert</w>
+<w type="pon">,</w>
+<w>male</w>
+<w>ne</w>
+<w>bone</w>
+<w type="pon">,</w>
+<lb n="12162"/>
+<w>s'</w>
+<w>autre</w>
+<w>raison</w>
+<w>ne</w>
+<w>le</w>
+<w>te</w>
+<w>done</w>
+<w type="pon">.</w>
+<w type="pon">»</w>
+</s>
+</q>
+<lb n="12163"/>
+<s n="206">
+<w>Et</w>
+<w>dist</w>
+<w>Renart</w>
+<w type="pon">:</w>
+</s>
+<q>
+<s>
+<w type="pon">«</w>
+<w>Por</w>
+<w>le</w>
+<w>cuer</w>
+<w>bé</w>
+<w type="pon">,</w>
+<lb n="12164"/>
+<w>ne</w>
+<w>sui</w>
+<w>ge</w>
+<w>autresi</w>
+<w>monté</w>
+<lb n="12165"/>
+<w>con</w>
+<w>vos</w>
+<w>iestes</w>
+<w type="pon">,</w>
+<w>sire</w>
+<w>Tibert</w>
+<w type="pon">?</w>
+</s>
+<lb n="12166"/>
+<s n="207">
+<w>trop</w>
+<w>est</w>
+<w>vostre</w>
+<w>barat</w>
+<w>apert</w>
+<w type="pon">,</w>
+<lb n="12167"/>
+<w>qui</w>
+<w>me</w>
+<w>volez</w>
+<w>par</w>
+<w>tricherie</w>
+<lb n="12168"/>
+<w>giter</w>
+<w>de</w>
+<w>votre</w>
+<w>conpaignie</w>
+<w type="pon">;</w>
+<lb n="12169"/>
+<w>et</w>
+<w>ou</w>
+<w>livre</w>
+<w>et</w>
+<w>ou</w>
+<w>cheval</w>
+<lb n="12170"/>
+<w>partira</w>
+<w>ge</w>
+<w>tot</w>
+<w>par</w>
+<w>igal</w>
+<lb n="12171"/>
+<w>et</w>
+<w>mot</w>
+<w>a</w>
+<w>mot</w>
+<w>et</w>
+<w>foil</w>
+<w>a</w>
+<w>foil</w>
+<w type="pon">.</w>
+<lb n="12172"/>
+<w type="pon">-</w>
+</s>
+<s n="208">
+<w>Male</w>
+<w>goute</w>
+<w>te</w>
+<w>criet</w>
+<w>ainz</w>
+<w>l'</w>
+<w>oil</w>
+<w type="pon">!</w>
+</s>
+<lb n="12173"/>
+<s n="209">
+<w>Deauble</w>
+<w>Renart</w>
+<w type="pon">;</w>
+<w>ies</w>
+<w>tu</w>
+<w>ivres</w>
+<w type="pon">?</w>
+</s>
+<lb n="12174"/>
+<s n="210">
+<w>Que</w>
+<w>feraies</w>
+<w>tu</w>
+<w>de</w>
+<w>mes</w>
+<w>livres</w>
+<w type="pon">?</w>
+</s>
+<lb n="12175"/>
+<s n="211">
+<w>Ja</w>
+<w>n'</w>
+<w>i</w>
+<w>sez</w>
+<w>tu</w>
+<w>ne</w>
+<w>c'</w>
+<w>une</w>
+<w>chivre</w>
+<w type="pon">.</w>
+<lb n="12176"/>
+<w type="pon">-</w>
+</s>
+<s n="212">
+<w>Ainz</w>
+<w>te</w>
+<w>poïssent</w>
+<w>tenir</w>
+<w>fievre</w>
+<w type="pon">,</w>
+<lb n="12177"/>
+<w>com</w>
+<w>rien</w>
+<w>n'</w>
+<w>i</w>
+<w>sai</w>
+<w type="pon">,</w>
+<w>ce</w>
+<w>dit</w>
+<w>Renarz</w>
+<w type="pon">;</w>
+<lb n="12178"/>
+<w>g'</w>
+<w>i</w>
+<w>sai</w>
+<w>plus</w>
+<w>que</w>
+<w>toi</w>
+<w type="num">.IIII.</w>
+<w>parz</w>
+<w type="pon">.</w>
+</s>
+</q>
+</ab>
+<ab rend="strophe">
+<lb n="12179"/>
+  <q>
+<s n="213">
+<w type="pon">-</w>
+<w>Sez</w>
+<w>tu</w>
+<w>riens</w>
+<w>de</w>
+<w>dïaletique</w>
+<w type="pon">?</w>
+<lb n="12180"/>
+<w type="pon">-</w>
+</s>
+<s n="214">
+<w>Oïl</w>
+<w type="pon">,</w>
+<w>tote</w>
+<w>quiqueliquique</w>
+<w type="pon">.</w>
+<lb n="12181"/>
+<w type="pon">-</w>
+</s>
+<s n="215">
+<w>Respondras</w>
+<w>moi</w>
+<w type="pon">,</w>
+<w>se</w>
+<w>je</w>
+<w>t'</w>
+<w>opous</w>
+<w type="pon">?</w>
+<lb n="12182"/>
+<w type="pon">-</w>
+</s>
+<s n="216">
+<w>Oïl</w>
+<w type="pon">,</w>
+<w>par</w>
+<w>derriere</w>
+<w>mon</w>
+<w>dos</w>
+<w type="pon">.</w>
+<lb n="12183"/>
+<w type="pon">-</w>
+</s>
+<s n="217">
+<w>Or</w>
+<w>antant</w>
+<w>dont</w>
+<w>mon</w>
+<w>argument</w>
+<w type="pon">:</w>
+<lb n="12184"/>
+<w>Je</w>
+<w>di</w>
+<w>pain</w>
+<w>d'</w>
+<w>orge</w>
+<w>et</w>
+<w>de</w>
+<w>froment</w>
+<w type="pon">,</w>
+<lb n="12185"/>
+<w>ge</w>
+<w>di</w>
+<w>pain</w>
+<w>de</w>
+<w>froment</w>
+<w>et</w>
+<w>d'</w>
+<w>orge</w>
+<w type="pon">.</w>
+<lb n="12186"/>
+<w type="pon">-</w>
+</s>
+<s n="218">
+<w>Male</w>
+<w>avanture</w>
+<w>avra</w>
+<w>ta</w>
+<w>gorge</w>
+<lb n="12187"/>
+<w>que</w>
+<w>pain</w>
+<w>d'</w>
+<w>orge</w>
+<w>soit</w>
+<w>de</w>
+<w>fromant</w>
+<w type="pon">.</w>
+<lb n="12188"/>
+<w type="pon">-</w>
+</s>
+<s n="219">
+<w>Tu</w>
+<w>l'</w>
+<w>as</w>
+<w>entandu</w>
+<w>malement</w>
+<w type="pon">,</w>
+<lb n="12189"/>
+<w>dist</w>
+<w>Tibert</w>
+<w type="pon">,</w>
+<w>ice</w>
+<w>ne</w>
+<w>i</w>
+<w>a</w>
+<w>mie</w>
+<w type="pon">;</w>
+<lb n="12190"/>
+<w>tu</w>
+<w>sez</w>
+<w>tro</w>
+<w>pou</w>
+<w>d'</w>
+<w>estrenomie</w>
+<w type="pon">.</w>
+</s>
+<lb n="12191"/>
+<s n="220">
+<w>Se</w>
+<w>l'</w>
+<w>argumant</w>
+<w>te</w>
+<w>puis</w>
+<w>prover</w>
+<w type="pon">,</w>
+<lb n="12192"/>
+<w>lairas</w>
+<w>m'</w>
+<w>en</w>
+<w>mon</w>
+<w>polain</w>
+<w>mener</w>
+<w type="pon">?</w>
+<lb n="12193"/>
+<w type="pon">-</w>
+</s>
+<s n="221">
+<w>Oïl</w>
+<w type="pon">,</w>
+<w>et</w>
+<w>se</w>
+<w>te</w>
+<w>puis</w>
+<w>faillir</w>
+<w type="pon">,</w>
+<pb n="91"/>
+<lb n="12194"/>
+<w>lairas</w>
+<w>me</w>
+<w>tu</w>
+<w>donques</w>
+<w>partir</w>
+<w type="pon">?</w>
+<lb n="12195"/>
+<w type="pon">-</w>
+</s>
+<s n="222">
+<w>Oïl</w>
+<w>voir</w>
+<w type="pon">,</w>
+<w>lors</w>
+<w>i</w>
+<w>partiras</w>
+<w type="pon">.</w>
+<lb n="12196"/>
+<w type="pon">-</w>
+</s>
+<s n="223">
+<w>Or</w>
+<w>orrai</w>
+<w>dont</w>
+<w>que</w>
+<w>tu</w>
+<w>diras</w>
+<w type="pon">.</w>
+<lb n="12197"/>
+<w type="pon">-</w>
+</s>
+<s n="224">
+<w>Je</w>
+<w>dirai</w>
+<w>dont</w>
+<w>por</w>
+<w>estre</w>
+<w>quite</w>
+<w type="pon">,</w>
+<lb n="12198"/>
+<w>que</w>
+<w>cil</w>
+<w>n'</w>
+<w>abat</w>
+<w>pas</w>
+<w>qui</w>
+<w>ne</w>
+<w>luite</w>
+<w type="pon">:</w>
+<lb n="12199"/>
+<w>or</w>
+<w>entent</w>
+<w>dont</w>
+<w>a</w>
+<w>la</w>
+<w>provance</w>
+<w type="pon">,</w>
+<lb n="12200"/>
+<w>si</w>
+<w>aparaille</w>
+<w>ta</w>
+<w>faillance</w>
+<w type="pon">.</w>
+</s>
+<lb n="12201"/>
+<s n="225">
+<w>Je</w>
+<w>pos</w>
+<w>ici</w>
+<w>que</w>
+<w>de</w>
+<w>fromant</w>
+<lb n="12202"/>
+<w>fait</w>
+<w>on</w>
+<w type="num">.I.</w>
+<w>sol</w>
+<w>pain</w>
+<w>voirement</w>
+<w type="pon">,</w>
+<lb n="12203"/>
+<w>n'</w>
+<w>i</w>
+<w>a</w>
+<w>orge</w>
+<w>ne</w>
+<w>autre</w>
+<w>blé</w>
+<w type="pon">.</w>
+<lb n="12204"/>
+<w type="pon">-</w>
+</s>
+<s n="226">
+<w>Ce</w>
+<w>point</w>
+<w>m'</w>
+<w>avois</w>
+<w>tu</w>
+<w>ore</w>
+<w>anblé</w>
+<w type="pon">,</w>
+<lb n="12205"/>
+<w>ce</w>
+<w>dit</w>
+<w>Renart</w>
+<w type="pon">,</w>
+<w>or</w>
+<w>di</w>
+<w>avant</w>
+<w type="pon">.</w>
+<lb n="12206"/>
+<w type="pon">-</w>
+</s>
+<s n="227">
+<w>Biaus</w>
+<w>amis</w>
+<w type="pon">,</w>
+<w>encor</w>
+<w>te</w>
+<w>di</w>
+<w>tant</w>
+<lb n="12207"/>
+<w>que</w>
+<w>l'</w>
+<w>en</w>
+<w>fait</w>
+<w>d'</w>
+<w>orge</w>
+<w>d'</w>
+<w>autre</w>
+<w>pain</w>
+<lb n="12208"/>
+<w>trestout</w>
+<w>pur</w>
+<w>et</w>
+<w>sanz</w>
+<w>autre</w>
+<w>grain</w>
+<w type="pon">.</w>
+</s>
+<lb n="12209"/>
+<s n="228">
+<w>Sont</w>
+<w>ce</w>
+<w type="num">.II.</w>
+<w>poinz</w>
+<w type="pon">!</w>
+</s>
+<s n="229">
+<w>que</w>
+<w>t'</w>
+<w>est</w>
+<w>avis</w>
+<w type="pon">?</w>
+<lb n="12210"/>
+<w type="pon">-</w>
+</s>
+<s n="230">
+<w>Nanil</w>
+<w>certes</w>
+<w type="pon">,</w>
+<w>tu</w>
+<w>as</w>
+<w>mespris</w>
+<w type="pon">:</w>
+<lb n="12211"/>
+<w>il</w>
+<w>ne</w>
+<w>puet</w>
+<w>estre</w>
+<w>que</w>
+<w type="num">.I.</w>
+<w>pain</w>
+<w type="pon">.</w>
+<lb n="12212"/>
+<w type="pon">-</w>
+</s>
+<s n="231">
+<w>Dont</w>
+<w>n'</w>
+<w>est</w>
+<w>il</w>
+<w>c'</w>
+<w>un</w>
+<w>fil</w>
+<w>a</w>
+<w>putain</w>
+<w type="pon">,</w>
+<lb n="12213"/>
+<w>fait</w>
+<w>Tibert</w>
+<w type="pon">,</w>
+<w>en</w>
+<w>trestot</w>
+<w>le</w>
+<w>monde</w>
+<w type="pon">.</w>
+<lb n="12214"/>
+<w type="pon">-</w>
+</s>
+<s n="232">
+<w>Tu</w>
+<w>menz</w>
+<w type="pon">.</w>
+<w type="pon">-</w>
+</s>
+<s n="233">
+<w>Mais</w>
+<w>tu</w>
+<w type="pon">,</w>
+<w>Dex</w>
+<w>le</w>
+<w>confonde</w>
+<w type="pon">!</w>
+</s>
+<lb n="12215"/>
+<s n="234">
+<w>Dont</w>
+<w>ne</w>
+<w>sera</w>
+<w>que</w>
+<w>une</w>
+<w>mains</w>
+<w type="pon">,</w>
+<lb n="12216"/>
+<w>se</w>
+<w>de</w>
+<w type="num">.X.</w>
+<w>blez</w>
+<w>n'</w>
+<w>i</w>
+<w>a</w>
+<w type="num">.X.</w>
+<w>pains</w>
+<w type="pon">;</w>
+<lb n="12217"/>
+<w>faire</w>
+<w>de</w>
+<w>chascun</w>
+<w type="num">.I.</w>
+<w>par</w>
+<w>soi</w>
+<lb n="12218"/>
+<w>sont</w>
+<w>ce</w>
+<w type="num">.X.</w>
+<w>en</w>
+<w>la</w>
+<w>toue</w>
+<w>foi</w>
+<w type="pon">?</w>
+</s>
+<lb n="12219"/>
+<s n="235">
+<w>Or</w>
+<w>garde</w>
+<w>con</w>
+<w>tu</w>
+<w>sez</w>
+<w>les</w>
+<w>arz</w>
+<w type="pon">.</w>
+<lb n="12220"/>
+<w type="pon">-</w>
+</s>
+<s n="236">
+<w>Va</w>
+<w>ta</w>
+<w>voie</w>
+<w type="pon">,</w>
+<w>ce</w>
+<w>dit</w>
+<w>Renarz</w>
+<w type="pon">.</w>
+</s>
+<lb n="12221"/>
+<s n="237">
+<w>Dont</w>
+<w>n'</w>
+<w>est</w>
+<w>blez</w>
+<w>blez</w>
+<w type="pon">,</w>
+<w>et</w>
+<w>pains</w>
+<w>est</w>
+<w>pains</w>
+<w type="pon">?</w>
+<lb n="12222"/>
+<w type="pon">-</w>
+</s>
+<s n="238">
+<w>Oïl</w>
+<w type="pon">,</w>
+<w>et</w>
+<w>vos</w>
+<w>fil</w>
+<w>a</w>
+<w>putains</w>
+<w type="pon">,</w>
+<lb n="12223"/>
+<w>fait</w>
+<w>Tibert</w>
+<w type="pon">,</w>
+<w>par</w>
+<w>ceste</w>
+<w>raison</w>
+<lb n="12224"/>
+<w>n'</w>
+<w>i</w>
+<w>a</w>
+<w>nule</w>
+<w>desfanssïon</w>
+<w type="pon">;</w>
+<lb n="12225"/>
+<w>et</w>
+<w>antr'</w>
+<w>aus</w>
+<w>a</w>
+<w>il</w>
+<w>desfïance</w>
+<w type="pon">?</w>
+<lb n="12226"/>
+<w type="pon">-</w>
+</s>
+<s n="239">
+<w>Avoi</w>
+<w type="pon">,</w>
+<w>avez</w>
+<w>vos</w>
+<w>mangié</w>
+<w>tance</w>
+<w type="pon">?</w>
+<pb n="92"/>
+</s>
+<lb n="12227"/>
+<s n="240">
+<w>fait</w>
+<w>Renart</w>
+<w type="pon">;</w>
+<w>si</w>
+<w>volez</w>
+<w>tancier</w>
+<lb n="12228"/>
+<w>et</w>
+<w>mellee</w>
+<w>a</w>
+<w>moi</w>
+<w>conmancier</w>
+<w type="pon">.</w>
+<lb n="12229"/>
+<w type="pon">-</w>
+</s>
+<s n="241">
+<w>Non</w>
+<w>faiz</w>
+<w type="pon">,</w>
+<w>mais</w>
+<w>vos</w>
+<w>n'</w>
+<w>estes</w>
+<w>pas</w>
+<w>sage</w>
+<w type="pon">,</w>
+<lb n="12230"/>
+<w>et</w>
+<w>itel</w>
+<w>gré</w>
+<w>a</w>
+<w>qui</w>
+<w>chien</w>
+<w>nage</w>
+<w type="pon">.</w>
+</s>
+<lb n="12231"/>
+<s n="242">
+<w>Qant</w>
+<w>je</w>
+<w>vos</w>
+<w>ai</w>
+<w>an</w>
+<w>bone</w>
+<w>foi</w>
+<lb n="12232"/>
+<w>monté</w>
+<w>desus</w>
+<w>mon</w>
+<w>palefroi</w>
+<w type="pon">,</w>
+<lb n="12233"/>
+<w>a</w>
+<w>chalangier</w>
+<w>le</w>
+<w>conmançates</w>
+<lb n="12234"/>
+<w>tot</w>
+<w>lors</w>
+<w>droit</w>
+<w>que</w>
+<w>vos</w>
+<w>i</w>
+<w>montates</w>
+<w type="pon">;</w>
+<lb n="12235"/>
+<w>vos</w>
+<w>ne</w>
+<w>feïtes</w>
+<w>pas</w>
+<w>savoir</w>
+<w type="pon">,</w>
+<lb n="12236"/>
+<w>si</w>
+<w>ne</w>
+<w>conquiert</w>
+<w>l'</w>
+<w>on</w>
+<w>pas</w>
+<w>avoir</w>
+<w type="pon">,</w>
+<lb n="12237"/>
+<w>sire</w>
+<w>Renart</w>
+<w type="pon">,</w>
+<w>a</w>
+<w>son</w>
+<w>glangler</w>
+<w type="pon">.</w>
+<lb n="12238"/>
+<w type="pon">-</w>
+</s>
+<s n="243">
+<w>Bien</w>
+<w>le</w>
+<w>poez</w>
+<w>laissier</w>
+<w>ester</w>
+<w type="pon">,</w>
+<lb n="12239"/>
+<w>ce</w>
+<w>dit</w>
+<w>Renart</w>
+<w type="pon">:</w>
+<w>je</w>
+<w>me</w>
+<w>jooie</w>
+<w type="pon">.</w>
+<w type="pon">»</w>
+</s>
+</q>
+<lb n="12240"/>
+<s n="244">
+<w>Si</w>
+<w>dist</w>
+<w>an</w>
+<w>bas</w>
+<w type="pon">:</w>
+</s>
+<q>
+<s>
+<w type="pon">«</w>
+<w>S'</w>
+<w>an</w>
+<w>ceste</w>
+<w>voie</w>
+<lb n="12241"/>
+<w>ne</w>
+<w>vos</w>
+<w>faz</w>
+<w>annui</w>
+<w>et</w>
+<w>pesance</w>
+<w type="pon">,</w>
+<lb n="12242"/>
+<w>dont</w>
+<w>ne</w>
+<w>sai</w>
+<w>ge</w>
+<w>de</w>
+<w>nigromance</w>
+<w type="pon">;</w>
+<lb n="12243"/>
+<w>se</w>
+<w type="pon">,</w>
+<w>ainçois</w>
+<w>que</w>
+<w>nos</w>
+<w>departons</w>
+<w type="pon">,</w>
+<lb n="12244"/>
+<w>n'</w>
+<w>est</w>
+<w>ramandez</w>
+<w>voz</w>
+<w>peliçons</w>
+<w type="pon">,</w>
+<lb n="12245"/>
+<w>ja</w>
+<w>Diex</w>
+<w>ne</w>
+<w>me</w>
+<w>laist</w>
+<w>jor</w>
+<w>puis</w>
+<w>vivre</w>
+<w type="pon">.</w>
+<w type="pon">»</w>
+</s>
+</q>
+<lb n="12246"/>
+<s n="245">
+<w>A</w>
+<w>tant</w>
+<w>chevauchent</w>
+<w>a</w>
+<w>delivre</w>
+<lb n="12247"/>
+<w>et</w>
+<w>tant</w>
+<w>ont</w>
+<w>entr'</w>
+<w>aus</w>
+<w>desputé</w>
+<lb n="12248"/>
+<w>que</w>
+<w>sont</w>
+<w>en</w>
+<w>Blaegni</w>
+<w>entré</w>
+<w type="pon">.</w>
+</s>
+<lb n="12249"/>
+<s n="246">
+<w>Desouz</w>
+<w>la</w>
+<w>vile</w>
+<w>en</w>
+<w>mi</w>
+<w>uns</w>
+<w>prez</w>
+<w type="pon">,</w>
+<lb n="12250"/>
+<w>la</w>
+<w>ont</w>
+<w>les</w>
+<w>livres</w>
+<w>destrousez</w>
+<w type="pon">;</w>
+<lb n="12251"/>
+<w>lor</w>
+<w>cheval</w>
+<w>laissierent</w>
+<w>aler</w>
+<lb n="12252"/>
+<w>et</w>
+<w>l'</w>
+<w>erbe</w>
+<w>paitre</w>
+<w>et</w>
+<w>saouler</w>
+<w type="pon">,</w>
+<lb n="12253"/>
+<w>si</w>
+<w>s'</w>
+<w>en</w>
+<w>tornerent</w>
+<w>au</w>
+<w>mostier</w>
+<w type="pon">.</w>
+</s>
+<lb n="12254"/>
+<s n="247">
+<w>Pres</w>
+<w>estoit</w>
+<w>ja</w>
+<w>de</w>
+<w>l'</w>
+<w>anuitier</w>
+<w type="pon">,</w>
+<lb n="12255"/>
+<w>si</w>
+<w>s'</w>
+<w>en</w>
+<w>aloient</w>
+<w>ja</w>
+<w>les</w>
+<w>ganz</w>
+<w type="pon">;</w>
+<lb n="12256"/>
+<w>au</w>
+<w>mostier</w>
+<w>antrent</w>
+<w>maintenant</w>
+<w type="pon">,</w>
+<lb n="12257"/>
+<w>les</w>
+<w>lampes</w>
+<w>furent</w>
+<w>alumees</w>
+<lb n="12258"/>
+<w>et</w>
+<w>les</w>
+<w>ganz</w>
+<w>s'</w>
+<w>en</w>
+<w>furent</w>
+<w>alees</w>
+<w type="pon">.</w>
+</s>
+<lb n="12259"/>
+<s n="248">
+<w>Ce</w>
+<w>dist</w>
+<w>Renart</w>
+<w type="pon">:</w>
+</s>
+<q>
+<s>
+<w type="pon">«</w>
+<w>Quar</w>
+<w>conmanciez</w>
+<w type="pon">,</w>
+<pb n="93"/>
+<lb n="12260"/>
+<w>par</w>
+<w>Dieu</w>
+<w>trop</w>
+<w>estes</w>
+<w>atargiez</w>
+<w type="pon">:</w>
+<lb n="12261"/>
+<w>sanz</w>
+<w>vespres</w>
+<w>oïr</w>
+<w>s'</w>
+<w>anz</w>
+<w>vont</w>
+<w>tuit</w>
+<w type="pon">.</w>
+<lb n="12262"/>
+<w type="pon">-</w>
+</s>
+<s n="249">
+<w>Renart</w>
+<w>sire</w>
+<w type="pon">,</w>
+<w>ne</w>
+<w>vos</w>
+<w>anuit</w>
+<w type="pon">,</w>
+<lb n="12263"/>
+<w>i</w>
+<w>lor</w>
+<w>avesprera</w>
+<w>assez</w>
+<w type="pon">,</w>
+<lb n="12264"/>
+<w>et</w>
+<w>cez</w>
+<w>chandeles</w>
+<w>alumez</w>
+<w type="pon">.</w>
+<w type="pon">»</w>
+</s>
+</q>
+<lb n="12265"/>
+<s n="250">
+<w>Ce</w>
+<w>dit</w>
+<w>Renart</w>
+<w>que</w>
+<w>lou</w>
+<w>servise</w>
+<lb n="12266"/>
+<w>doit</w>
+<w>on</w>
+<w>a</w>
+<w>tant</w>
+<w>dire</w>
+<w>an</w>
+<w>eglise</w>
+<lb n="12267"/>
+<w>et</w>
+<w>faire</w>
+<w>le</w>
+<w>mestier</w>
+<w>novel</w>
+<w type="pon">.</w>
+</s>
+<lb n="12268"/>
+<q>
+<s>
+<w type="pon">«</w>
+<w>Ouvrez</w>
+<w>dont</w>
+<w>l'</w>
+<w>uis</w>
+<w>de</w>
+<w>cest</w>
+<w>chancel</w>
+<lb n="12269"/>
+<w>nos</w>
+<w>i</w>
+<w>verrons</w>
+<w>encor</w>
+<w>bien</w>
+<w>cler</w>
+<w type="pon">.</w>
+</s>
+<lb n="12270"/>
+<s n="252">
+<w>Aus</w>
+<w>antaines</w>
+<w>covient</w>
+<w>aler</w>
+<w type="pon">,</w>
+<lb n="12271"/>
+<w>et</w>
+<w>vos</w>
+<w>reprenez</w>
+<w>cest</w>
+<w>sautier</w>
+<w type="pon">,</w>
+<lb n="12272"/>
+<w>si</w>
+<w>tornez</w>
+<w>a</w>
+<w>vostre</w>
+<w>mestier</w>
+<lb n="12273"/>
+<w>a</w>
+<w>ces</w>
+<w>versoiz</w>
+<w>et</w>
+<w>as</w>
+<w>set</w>
+<w>siaumes</w>
+<w type="pon">.</w>
+<w type="pon">»</w>
+</s>
+</q>
+<lb n="12274"/>
+<s n="253">
+<w>Et</w>
+<w>Renart</w>
+<w>aquieut</w>
+<w>a</w>
+<w>ses</w>
+<w>paumes</w>
+<lb n="12275"/>
+<w>plus</w>
+<w>menuz</w>
+<w>ces</w>
+<w>fieuz</w>
+<w>a</w>
+<w>torner</w>
+<w type="pon">,</w>
+<lb n="12276"/>
+<w>que</w>
+<w>vos</w>
+<w>ne</w>
+<w>poïssiez</w>
+<w>conter</w>
+<w type="pon">.</w>
+</s>
+<lb n="12277"/>
+<s n="254">
+<w>Qant</w>
+<w>a</w>
+<w>lor</w>
+<w>mestier</w>
+<w>ont</w>
+<w>torné</w>
+<w type="pon">,</w>
+<lb n="12278"/>
+<w>si</w>
+<w>se</w>
+<w>sont</w>
+<w>ambedui</w>
+<w>levé</w>
+<w type="pon">.</w>
+</s>
+<lb n="12279"/>
+<s n="255">
+<w>Tibert</w>
+<w>vesti</w>
+<w>le</w>
+<w>sorpeliz</w>
+<w type="pon">,</w>
+<lb n="12280"/>
+<w>et</w>
+<w>si</w>
+<w>est</w>
+<w>a</w>
+<w>l'</w>
+<w>autel</w>
+<w>sailliz</w>
+<w type="pon">;</w>
+<lb n="12281"/>
+<w>son</w>
+<w>chapelet</w>
+<w>Tibert</w>
+<w>outa</w>
+<w type="pon">;</w>
+<lb n="12282"/>
+<w>en</w>
+<w>tel</w>
+<w>maniere</w>
+<w>commença</w>
+<w type="pon">:</w>
+</s>
+</ab>
+<ab rend="strophe">
+<lb n="12283"/>
+<q>
+<s>
+<w type="pon">«</w>
+<w>Domine</w>
+<w type="pon">,</w>
+<w>labia</w>
+<w>mea</w>
+<w type="pon">.</w>
+<w type="pon">.</w>
+<w type="pon">.</w>
+<w type="pon">»</w>
+</s>
+</q>
+<lb n="12284"/>
+  <q>
+    <s>
+<w type="pon">-</w>
+<w>Se</w>
+<w>Diex</w>
+<w>t'</w>
+<w>aïst</w>
+<w type="pon">,</w>
+<w>conme</w>
+<w>ci</w>
+<w>a</w>
+<w type="pon">?</w>
+</s>
+<lb n="12285"/>
+<s n="258">
+<w>Se</w>
+<w>t'</w>
+<w>aïst</w>
+<w>Diex</w>
+<w type="pon">,</w>
+<w>ce</w>
+<w>dist</w>
+<w>Renart</w>
+<w type="pon">,</w>
+<lb n="12286"/>
+<w>ce</w>
+<w>sont</w>
+<w>matines</w>
+<w type="pon">,</w>
+<w>foux</w>
+<w>musart</w>
+<w type="pon">,</w>
+<lb n="12287"/>
+<w>que</w>
+<w>tu</w>
+<w>nos</w>
+<w>viaus</w>
+<w>por</w>
+<w>vespres</w>
+<w>dire</w>
+<w type="pon">.</w>
+<w type="pon">»</w>
+</s>
+</q>
+<lb n="12288"/>
+<s n="259">
+<w>Et</w>
+<w>Tibert</w>
+<w>conmença</w>
+<w>a</w>
+<w>rire</w>
+<w type="pon">,</w>
+<lb n="12289"/>
+<w>si</w>
+<w>li</w>
+<w>a</w>
+<w>dit</w>
+<w type="pon">:</w>
+</s>
+<q>
+<s>
+<w type="pon">«</w>
+<w>Qu'</w>
+<w>il</w>
+<w>i</w>
+<w>a</w>
+<w>donc</w>
+<w type="pon">?</w>
+<lb n="12290"/>
+<w type="pon">-</w>
+</s>
+<s n="260">
+<w>Deus</w>
+<w>in</w>
+<w>adjutorium</w>
+<w type="pon">,</w>
+<lb n="12291"/>
+<w>fait</w>
+<w>Renart</w>
+<w type="pon">,</w>
+<w>ou</w>
+<w>conmancement</w>
+<lb n="12292"/>
+<w>doit</w>
+<w>on</w>
+<w>dire</w>
+<w>premierement</w>
+<w type="pon">,</w>
+<pb n="94"/>
+<lb n="12293"/>
+<w>dant</w>
+<w>Tibert</w>
+<w type="pon">;</w>
+<w>ou</w>
+<w>vos</w>
+<w>estes</w>
+<w>ivres</w>
+<w type="pon">,</w>
+<lb n="12294"/>
+<w>ou</w>
+<w>riens</w>
+<w>ne</w>
+<w>savez</w>
+<w>en</w>
+<w>ces</w>
+<w>livres</w>
+<w type="pon">.</w>
+</s>
+<lb n="12295"/>
+<s n="261">
+<w>Aï</w>
+<w type="pon">!</w>
+</s>
+<s n="262">
+<w>que</w>
+<w>ne</w>
+<w>vos</w>
+<w>ont</w>
+<w>oïz</w>
+<lb n="12296"/>
+<w>Jehanz</w>
+<w>li</w>
+<w>viauz</w>
+<w>et</w>
+<w>dant</w>
+<w>Daviz</w>
+<lb n="12297"/>
+<w>ou</w>
+<w>li</w>
+<w>prestres</w>
+<w>de</w>
+<w>la</w>
+<w>Folie</w>
+<w type="pon">!</w>
+</s>
+<lb n="12298"/>
+<s n="263">
+<w>Cuidiez</w>
+<w>qu'</w>
+<w>il</w>
+<w>n'</w>
+<w>en</w>
+<w>rissisent</w>
+<w>mie</w>
+<w type="pon">,</w>
+<lb n="12299"/>
+<w>se</w>
+<w>i</w>
+<w>l'</w>
+<w>oïssent</w>
+<w>autresi</w>
+<w type="pon">,</w>
+<lb n="12300"/>
+<w>con</w>
+<w>gié</w>
+<w>et</w>
+<w>vos</w>
+<w>l'</w>
+<w>avons</w>
+<w>oï</w>
+<w type="pon">,</w>
+<lb n="12301"/>
+<w>en</w>
+<w>tel</w>
+<w>maniere</w>
+<w>conmancier</w>
+<w type="pon">?</w>
+<lb n="12302"/>
+<w type="pon">-</w>
+</s>
+<s n="264">
+<w>Foux</w>
+<w type="pon">,</w>
+<w>gel</w>
+<w>fis</w>
+<w>por</w>
+<w>toi</w>
+<w>essaier</w>
+<w type="pon">:</w>
+<lb n="12303"/>
+<w>je</w>
+<w>ne</w>
+<w>quidoie</w>
+<w>pas</w>
+<w>por</w>
+<w>voir</w>
+<lb n="12304"/>
+<w>que</w>
+<w>tu</w>
+<w>fuses</w>
+<w>de</w>
+<w>tel</w>
+<w>savoir</w>
+<w type="pon">,</w>
+<lb n="12305"/>
+<w>mais</w>
+<w>or</w>
+<w>t'</w>
+<w>ai</w>
+<w>ge</w>
+<w>bien</w>
+<w>esprové</w>
+<w type="pon">:</w>
+<lb n="12306"/>
+<w>se</w>
+<w>remenoir</w>
+<w>viaus</w>
+<w>en</w>
+<w>esté</w>
+<lb n="12307"/>
+<w>n'</w>
+<w>an</w>
+<w>ceste</w>
+<w>vile</w>
+<w>sejorner</w>
+<w type="pon">,</w>
+<lb n="12308"/>
+<w>mout</w>
+<w>te</w>
+<w>ferai</w>
+<w>jarbes</w>
+<w>doner</w>
+<w type="pon">.</w>
+<lb n="12309"/>
+<w type="pon">-</w>
+</s>
+<s n="265">
+<w>Ja</w>
+<w>es</w>
+<w>ce</w>
+<w>bien</w>
+<w type="pon">,</w>
+<w>ce</w>
+<w>dist</w>
+<w>Renart</w>
+<w type="pon">,</w>
+<lb n="12310"/>
+<w>mes</w>
+<w>chantez</w>
+<w>vepres</w>
+<w>qu'</w>
+<w>il</w>
+<w>est</w>
+<w>tart</w>
+<w type="pon">.</w>
+  <w type="pon">»</w>
+</s>
+</q>
+<lb n="12311"/>
+<s n="266">
+<w>Lor</w>
+<w>aplaingne</w>
+<w>Tibert</w>
+<w>son</w>
+<w>chief</w>
+<w type="pon">,</w>
+<lb n="12312"/>
+<w>si</w>
+<w>recomence</w>
+<w>derechief</w>
+<w type="pon">:</w>
+</s>
+</ab>
+<ab rend="strophe">
+<lb n="12313"/>
+<q>
+<s>
+<w type="pon">«</w>
+<w>Deus</w>
+<w>in</w>
+<w>adjutorium</w>
+<w type="pon">»</w>
+<w>dist</w>
+<w type="pon">.</w>
+</s>
+</q>
+<lb n="12314"/>
+<s n="268">
+<w>Et</w>
+<w>Renart</w>
+<w>les</w>
+<w>antenes</w>
+<w>list</w>
+<w type="pon">,</w>
+<lb n="12315"/>
+<w>puis</w>
+<w>ont</w>
+<w>chanté</w>
+<w>siaumes</w>
+<w>et</w>
+<w>vers</w>
+<lb n="12316"/>
+<w>mout</w>
+<w>hautement</w>
+<w>a</w>
+<w type="num">.II.</w>
+<w>envers</w>
+<w type="pon">:</w>
+<lb n="12317"/>
+<w>les</w>
+<w>entienes</w>
+<w>mout</w>
+<w>noblement</w>
+<w type="pon">,</w>
+<lb n="12318"/>
+<w>le</w>
+<w>chapitiaus</w>
+<w>mout</w>
+<w>simplement</w>
+<lb n="12319"/>
+<w>dist</w>
+<w>dant</w>
+<w>Tibert</w>
+<w type="pon">,</w>
+<w>et</w>
+<w>dant</w>
+<w>Renart</w>
+<lb n="12320"/>
+<w>redist</w>
+<w>le</w>
+<w>verset</w>
+<w>a</w>
+<w>sa</w>
+<w>part</w>
+<w type="pon">;</w>
+<lb n="12321"/>
+<w>puis</w>
+<w>ont</w>
+<w>chantee</w>
+<w>toute</w>
+<w>a</w>
+<w>lingne</w>
+<w type="pon">,</w>
+<lb n="12322"/>
+<w>tout</w>
+<w>mot</w>
+<w>a</w>
+<w>mot</w>
+<w>et</w>
+<w>tout</w>
+<w>par</w>
+<w>linge</w>
+<w type="pon">,</w>
+<lb n="12323"/>
+<w>sire</w>
+<w>Renart</w>
+<w>le</w>
+<w>verset</w>
+<w>dist</w>
+<lb n="12324"/>
+<w>et</w>
+<w>dant</w>
+<w>Tibert</w>
+<w>le</w>
+<w>respont</w>
+<w>fist</w>
+<w type="pon">.</w>
+</s>
+<lb n="12325"/>
+<s n="269">
+<w>L'</w>
+<w>antiene</w>
+<w>dou</w>
+<w>Manificaz</w>
+<w type="pon">,</w>
+<pb n="95"/>
+<lb n="12326"/>
+<w>cele</w>
+<w>dist</w>
+<w>dant</w>
+<w>Tibert</w>
+<w>li</w>
+<w>chaz</w>
+<w type="pon">,</w>
+<lb n="12327"/>
+<w>et</w>
+<w>Renart</w>
+<w>l'</w>
+<w>a</w>
+<w>bien</w>
+<w>entonné</w>
+<lb n="12328"/>
+<w>et</w>
+<w>mout</w>
+<w>piteusement</w>
+<w>chanté</w>
+<w type="pon">.</w>
+</s>
+<lb n="12329"/>
+<s n="270">
+<w>Aprés</w>
+<w>chantent</w>
+<w type="pon">,</w>
+<w>si</w>
+<w>con</w>
+<w>moi</w>
+<w>sanble</w>
+<w type="pon">,</w>
+<lb n="12330"/>
+<w>leur</w>
+<w>antienes</w>
+<w>andui</w>
+<w>ansanble</w>
+<w type="pon">.</w>
+</s>
+<lb n="12331"/>
+<s n="271">
+<w>Renart</w>
+<w>a</w>
+<w>dist</w>
+<w>aprés</w>
+<w>le</w>
+<w>vers</w>
+<lb n="12332"/>
+<w>et</w>
+<w>Tibert</w>
+<w>respont</w>
+<w>an</w>
+<w>travers</w>
+<w type="pon">.</w>
+</s>
+<lb n="12333"/>
+<s n="272">
+<w>Puis</w>
+<w>dist</w>
+<w>Tibert</w>
+<w>en</w>
+<w>sa</w>
+<w>raison</w>
+<lb n="12334"/>
+<w>mout</w>
+<w>bel</w>
+<w>Dominus</w>
+<w>vobiscon</w>
+<w type="pon">;</w>
+<lb n="12335"/>
+<w>Renart</w>
+<w>li</w>
+<w>respont</w>
+<w>hautement</w>
+<w type="pon">,</w>
+<lb n="12336"/>
+<w>l'</w>
+<w>orison</w>
+<w>fait</w>
+<w>apertement</w>
+<lb n="12337"/>
+<w>et</w>
+<w>Tibert</w>
+<w>le</w>
+<w>per</w>
+<w>omnia</w>
+<w type="pon">;</w>
+<lb n="12338"/>
+<w>devant</w>
+<w>l'</w>
+<w>autel</w>
+<w>s'</w>
+<w>agenoilla</w>
+<w type="pon">,</w>
+<lb n="12339"/>
+<w>et</w>
+<w>Renart</w>
+<w>respondi</w>
+<w type="pon">:</w>
+<w>amen</w>
+<w type="pon">.</w>
+</s>
+<lb n="12340"/>
+<s n="273">
+<w>Puis</w>
+<w>li</w>
+<w>a</w>
+<w>dist</w>
+<w type="pon">:</w>
+</s>
+<q>
+<s>
+<w type="pon">«</w>
+<w>Levez</w>
+<w>vos</w>
+<w>en</w>
+<lb n="12341"/>
+<w>et</w>
+<w>si</w>
+<w>alez</w>
+<w>fermer</w>
+<w>ces</w>
+<w>huis</w>
+<lb n="12342"/>
+<w>je</w>
+<w>dirai</w>
+<w>benedicamus</w>
+<w type="pon">.</w>
+<w type="pon">»</w>
+</s>
+</q>
+<lb n="12343"/>
+<s n="274">
+<w>Tant</w>
+<w>a</w>
+<w>si</w>
+<w>Renart</w>
+<w>envaï</w>
+<w type="pon">,</w>
+<lb n="12344"/>
+<w>qant</w>
+<w>benedicamus</w>
+<w>sailli</w>
+<w type="pon">,</w>
+<lb n="12345"/>
+<w>a</w>
+<w>ogre</w>
+<w type="pon">,</w>
+<w>a</w>
+<w>treble</w>
+<w>et</w>
+<w>a</w>
+<w>deschant</w>
+<w type="pon">,</w>
+<lb n="12346"/>
+<w>que</w>
+<w>il</w>
+<w>n'</w>
+<w>a</w>
+<w>home</w>
+<w>si</w>
+<w>vaillant</w>
+<lb n="12347"/>
+<w>el</w>
+<w>monde</w>
+<w>ne</w>
+<w>si</w>
+<w>mesaisié</w>
+<lb n="12348"/>
+<w>qui</w>
+<w>n'</w>
+<w>en</w>
+<w>eüst</w>
+<w>mout</w>
+<w>grant</w>
+<w>pitié</w>
+<w type="pon">,</w>
+<lb n="12349"/>
+<w>s'</w>
+<w>il</w>
+<w>oïst</w>
+<w>Renart</w>
+<w type="pon">,</w>
+<w>que</w>
+<w>de</w>
+<w>lui</w>
+<w type="pon">.</w>
+</s>
+<lb n="12350"/>
+<s n="275">
+<w>Tot</w>
+<w>le</w>
+<w>mont</w>
+<w>rapeü</w>
+<w>d'</w>
+<w>anui</w>
+<lb n="12351"/>
+<w>Renart</w>
+<w>de</w>
+<w>son</w>
+<w>riche</w>
+<w>chanter</w>
+<w type="pon">;</w>
+<lb n="12352"/>
+<w type="num">.II.</w>
+<w>liues</w>
+<w>pouïssiez</w>
+<w>aler</w>
+<lb n="12353"/>
+<w>ainz</w>
+<w>que</w>
+<w>il</w>
+<w>eüst</w>
+<w>parfiné</w>
+<w type="pon">;</w>
+<lb n="12354"/>
+<w>et</w>
+<w>Tibert</w>
+<w>avoit</w>
+<w>l'</w>
+<w>uis</w>
+<w>fermé</w>
+<w type="pon">,</w>
+<lb n="12355"/>
+<w>qui</w>
+<w>mout</w>
+<w>estoit</w>
+<w>de</w>
+<w>chanter</w>
+<w>las</w>
+<w type="pon">;</w>
+<lb n="12356"/>
+<w>si</w>
+<w>dist</w>
+<w>le</w>
+<w>Deo</w>
+<w>gracias</w>
+<w type="pon">,</w>
+<lb n="12357"/>
+<w>aprés</w>
+<w>ont</w>
+<w>vigile</w>
+<w>chantee</w>
+<w type="pon">,</w>
+<lb n="12358"/>
+<w>et</w>
+<w>quant</w>
+<w>dou</w>
+<w>tot</w>
+<w>l'</w>
+<w>orent</w>
+<w>finee</w>
+<w type="pon">,</w>
+<pb n="96"/>
+<lb n="12359"/>
+<w>si</w>
+<w>prist</w>
+<w>l'</w>
+<w>un</w>
+<w>l'</w>
+<w>autre</w>
+<w>a</w>
+<w>aresnier</w>
+<lb n="12360"/>
+<w>et</w>
+<w>Renart</w>
+<w>a</w>
+<w>parlé</w>
+<w>premier</w>
+<w type="pon">.</w>
+</s>
+</ab>
+<ab rend="strophe">
+<lb n="12361"/>
+<q>
+<s>
+<w type="pon">«</w>
+<w>Sire</w>
+<w>Tibert</w>
+<w type="pon">,</w>
+<w>ce</w>
+<w>dit</w>
+<w>Renart</w>
+<w type="pon">,</w>
+<lb n="12362"/>
+<w>or</w>
+<w>vodroie</w>
+<w>savoir</w>
+<w>quel</w>
+<w>part</w>
+<lb n="12363"/>
+<w>je</w>
+<w>avrai</w>
+<w>de</w>
+<w>tot</w>
+<w>le</w>
+<w>gaaing</w>
+<w type="pon">,</w>
+<lb n="12364"/>
+<w>s'</w>
+<w>an</w>
+<w>ceste</w>
+<w>vile</w>
+<w>o</w>
+<w>vos</w>
+<w>remaing</w>
+<w type="pon">,</w>
+<lb n="12365"/>
+<w>de</w>
+<w>la</w>
+<w>disme</w>
+<w>de</w>
+<w>ces</w>
+<w>porciaus</w>
+<w type="pon">,</w>
+<lb n="12366"/>
+<w>de</w>
+<w>ces</w>
+<w>poucins</w>
+<w type="pon">,</w>
+<w>de</w>
+<w>ces</w>
+<w>vëaus</w>
+<w type="pon">,</w>
+<lb n="12367"/>
+<w>de</w>
+<w>ces</w>
+<w>brebis</w>
+<w type="pon">,</w>
+<w>de</w>
+<w>ces</w>
+<w>oisons</w>
+<w type="pon">;</w>
+<lb n="12368"/>
+<w>dites</w>
+<w>conment</w>
+<w>les</w>
+<w>partirons</w>
+<w type="pon">.</w>
+</s>
+<lb n="12369"/>
+<s n="277">
+<w>Des</w>
+<w>oblacïons</w>
+<w>et</w>
+<w>des</w>
+<w>lais</w>
+<lb n="12370"/>
+<w>dites</w>
+<w>et</w>
+<w>devisez</w>
+<w>en</w>
+<w>pais</w>
+<lb n="12371"/>
+<w>conbien</w>
+<w>j'</w>
+<w>en</w>
+<w>avrai</w>
+<w>a</w>
+<w>ma</w>
+<w>part</w>
+<w type="pon">.</w>
+<lb n="12372"/>
+<w type="pon">-</w>
+</s>
+<s n="278">
+<w>Tu</w>
+<w>en</w>
+<w>avras</w>
+<w>trestot</w>
+<w>le</w>
+<w>quart</w>
+<w type="pon">,</w>
+<lb n="12373"/>
+<w>ce</w>
+<w>dist</w>
+<w>Tibert</w>
+<w type="pon">,</w>
+<w>s'</w>
+<w>on</w>
+<w>le</w>
+<w>me</w>
+<w>loe</w>
+<w type="pon">.</w>
+<w type="pon">»</w>
+</s>
+</q>
+<lb n="12374"/>
+<s n="279">
+<w>Et</w>
+<w>Renart</w>
+<w>li</w>
+<w>a</w>
+<w>fait</w>
+<w>la</w>
+<w>moe</w>
+<w type="pon">:</w>
+</s>
+<lb n="12375"/>
+<q>
+<s>
+<w type="pon">«</w>
+<w>Conment</w>
+<w type="pon">,</w>
+<w>fait</w>
+<w>il</w>
+<w type="pon">,</w>
+<w>par</w>
+<w>le</w>
+<w>cuer</w>
+<w>bé</w>
+<w type="pon">,</w>
+<lb n="12376"/>
+<w>ne</w>
+<w>ai</w>
+<w>ge</w>
+<w>autresi</w>
+<w>bien</w>
+<w>chanté</w>
+<lb n="12377"/>
+<w>anuit</w>
+<w>a</w>
+<w>vespres</w>
+<w>conme</w>
+<w>vous</w>
+<w type="pon">?</w>
+</s>
+<lb n="12378"/>
+<s n="280">
+<w>et</w>
+<w>autant</w>
+<w>sui</w>
+<w>religïous</w>
+<lb n="12379"/>
+<w>et</w>
+<w>nez</w>
+<w>et</w>
+<w>proudom</w>
+<w>de</w>
+<w>ma</w>
+<w>main</w>
+<w type="pon">;</w>
+<lb n="12380"/>
+<w>serai</w>
+<w>ge</w>
+<w>plus</w>
+<w>fil</w>
+<w>a</w>
+<w>putain</w>
+<lb n="12381"/>
+<w>que</w>
+<w>vous</w>
+<w type="pon">,</w>
+<w>que</w>
+<w>n'</w>
+<w>avrai</w>
+<w>de</w>
+<w>la</w>
+<w>disme</w>
+<lb n="12382"/>
+<w>autresi</w>
+<w>conme</w>
+<w>vos</w>
+<w>meïsme</w>
+<lb n="12383"/>
+<w>et</w>
+<w>de</w>
+<w>tote</w>
+<w>l'</w>
+<w>oblacïon</w>
+<w type="pon">?</w>
+<lb n="12384"/>
+<w type="pon">-</w>
+</s>
+<s n="281">
+<w>Renart</w>
+<w type="pon">,</w>
+<w>tu</w>
+<w>me</w>
+<w>tiens</w>
+<w>a</w>
+<w>bricon</w>
+<w type="pon">;</w>
+<lb n="12385"/>
+<w>par</w>
+<w>foi</w>
+<w type="pon">,</w>
+<w>Renart</w>
+<w type="pon">,</w>
+<w>je</w>
+<w>le</w>
+<w>t'</w>
+<w>afi</w>
+<w type="pon">,</w>
+<lb n="12386"/>
+<w>ne</w>
+<w>m'</w>
+<w>as</w>
+<w>encor</w>
+<w>gaires</w>
+<w>servi</w>
+<w type="pon">,</w>
+<lb n="12387"/>
+<w>et</w>
+<w>si</w>
+<w>viauz</w>
+<w>ja</w>
+<w>a</w>
+<w>moi</w>
+<w>partir</w>
+<w type="pon">.</w>
+<lb n="12388"/>
+<w type="pon">-</w>
+</s>
+<s n="282">
+<w>Par</w>
+<w>foi</w>
+<w type="pon">,</w>
+<w>non</w>
+<w>faz</w>
+<w type="pon">,</w>
+<w>einz</w>
+<w>voil</w>
+<w>oïr</w>
+<lb n="12389"/>
+<w>en</w>
+<w>qoi</w>
+<w>je</w>
+<w>me</w>
+<w>porroi</w>
+<w>fïer</w>
+<w type="pon">,</w>
+<lb n="12390"/>
+<w>se</w>
+<w>ci</w>
+<w>me</w>
+<w>siet</w>
+<w>a</w>
+<w>demorer</w>
+<w type="pon">.</w>
+<lb n="12391"/>
+<w type="pon">-</w>
+</s>
+<s n="283">
+<w>Et</w>
+<w>se</w>
+<w>tu</w>
+<w>ies</w>
+<w>de</w>
+<w>bone</w>
+<w>foi</w>
+<w type="pon">,</w>
+<pb n="97"/>
+<lb n="12392"/>
+<w>je</w>
+<w>plevis</w>
+<w>loiaument</w>
+<w>ma</w>
+<w>foi</w>
+<w type="pon">,</w>
+<lb n="12393"/>
+<w>l'</w>
+<w>une</w>
+<w>moitié</w>
+<w>t'</w>
+<w>en</w>
+<w>partirai</w>
+<lb n="12394"/>
+<w>de</w>
+<w>ce</w>
+<w>que</w>
+<w>je</w>
+<w>gahaignerai</w>
+<lb n="12395"/>
+<w>de</w>
+<w>morz</w>
+<w type="pon">,</w>
+<w>de</w>
+<w>vis</w>
+<w type="pon">,</w>
+<w>et</w>
+<w>d'</w>
+<w>avantures</w>
+<w type="pon">,</w>
+<lb n="12396"/>
+<w>d'</w>
+<w>ofrandes</w>
+<w>et</w>
+<w>de</w>
+<w>sepoutures</w>
+<w type="pon">,</w>
+<lb n="12397"/>
+<w>et</w>
+<w>si</w>
+<w>me</w>
+<w>saies</w>
+<w>bon</w>
+<w>ami</w>
+<w type="pon">.</w>
+<lb n="12398"/>
+<w type="pon">-</w>
+</s>
+<s n="284">
+<w>Je</w>
+<w>l'</w>
+<w>otroi</w>
+<w type="pon">,</w>
+<w>dist</w>
+<w>Renart</w>
+<w type="pon">,</w>
+<w>ainsi</w>
+<w type="pon">;</w>
+<lb n="12399"/>
+<w>mais</w>
+<w>je</w>
+<w>ai</w>
+<w>certes</w>
+<w>mout</w>
+<w>grant</w>
+<w>fain</w>
+<w type="pon">.</w>
+<lb n="12400"/>
+<w type="pon">-</w>
+</s>
+<s n="285">
+<w>Se</w>
+<w>tu</w>
+<w>voloies</w>
+<w>mengier</w>
+<w>pain</w>
+<w type="pon">,</w>
+<lb n="12401"/>
+<w>vez</w>
+<w>en</w>
+<w>la</w>
+<w type="num">.I.</w>
+<w>lez</w>
+<w>cel</w>
+<w>autel</w>
+<w type="pon">.</w>
+<lb n="12402"/>
+<w type="pon">-</w>
+</s>
+<s n="286">
+<w>Je</w>
+<w>ne</w>
+<w>mengai</w>
+<w>onques</w>
+<w>autel</w>
+<w type="pon">,</w>
+<lb n="12403"/>
+<w>fait</w>
+<w>Renart</w>
+<w type="pon">,</w>
+<w>a</w>
+<w>jor</w>
+<w>de</w>
+<w>ma</w>
+<w>vie</w>
+<lb n="12404"/>
+<w>mais</w>
+<w>de</w>
+<w>fromage</w>
+<w>i</w>
+<w>a</w>
+<w>il</w>
+<w>mie</w>
+<w type="pon">?</w>
+<lb n="12405"/>
+<w type="pon">-</w>
+</s>
+<s n="287">
+<w>Par</w>
+<w>foi</w>
+<w>ne</w>
+<w>sai</w>
+<w type="pon">»</w>
+<w type="pon">,</w>
+</s>
+</q>
+  <s>
+<w>Tibert</w>
+<w>a</w>
+<w>dist</w>
+<w type="pon">.</w>
+</s>
+<lb n="12406"/>
+<s n="288">
+<w>A</w>
+<w>tant</w>
+<w>garda</w>
+<w>a</w>
+<w>mont</w>
+<w type="pon">,</w>
+<w>si</w>
+<w>vit</w>
+<lb n="12407"/>
+<w>une</w>
+<w>touaille</w>
+<w>envelopee</w>
+<lb n="12408"/>
+<w>en</w>
+<w>une</w>
+<w>fenestre</w>
+<w>boutee</w>
+<w type="pon">,</w>
+<lb n="12409"/>
+<w type="num">.II.</w>
+<w>en</w>
+<w>i</w>
+<w>ot</w>
+<w>entorteilliez</w>
+<w type="pon">,</w>
+<lb n="12410"/>
+<w type="num">.I.</w>
+<w>trestout</w>
+<w>fres</w>
+<w>entremoillié</w>
+<w type="pon">.</w>
+</s>
+<lb n="12411"/>
+<s n="289">
+<w>Tibert</w>
+<w>le</w>
+<w>trait</w>
+<w>de</w>
+<w>la</w>
+<w>touaille</w>
+<w type="pon">:</w>
+</s>
+<lb n="12412"/>
+<q>
+<s>
+<w type="pon">«</w>
+<w>Ahi</w>
+<w type="pon">,</w>
+<w>fait</w>
+<w>il</w>
+<w type="pon">,</w>
+<w>ce</w>
+<w>n'</w>
+<w>est</w>
+<w>pas</w>
+<w>faille</w>
+<w type="pon">,</w>
+<lb n="12413"/>
+<w>que</w>
+<w>chascuns</w>
+<w>avra</w>
+<w>ja</w>
+<w>le</w>
+<w>suen</w>
+<w type="pon">.</w>
+<lb n="12414"/>
+<w type="pon">-</w>
+</s>
+<s n="290">
+<w>Par</w>
+<w>foi</w>
+<w type="pon">,</w>
+<w>fait</w>
+<w>Renart</w>
+<w type="pon">,</w>
+<w>ce</w>
+<w>est</w>
+<w>buen</w>
+<lb n="12415"/>
+<w>mais</w>
+<w>donez</w>
+<w>moi</w>
+<w>ore</w>
+<w>cest</w>
+<w>mol</w>
+<w type="pon">.</w>
+<lb n="12416"/>
+<w type="pon">-</w>
+</s>
+<s n="291">
+<w>Conment</w>
+<w type="pon">?</w>
+</s>
+<s n="292">
+<w>volez</w>
+<w>devenir</w>
+<w>fol</w>
+<w type="pon">,</w>
+<lb n="12417"/>
+<w>ce</w>
+<w>dist</w>
+<w>Tibert</w>
+<w type="pon">,</w>
+<w>sire</w>
+<w>Renart</w>
+<w type="pon">,</w>
+<lb n="12418"/>
+<w>cest</w>
+<w>dur</w>
+<w>avrez</w>
+<w>a</w>
+<w>vostre</w>
+<w>part</w>
+<w type="pon">,</w>
+<lb n="12419"/>
+<w>car</w>
+<w>il</w>
+<w>est</w>
+<w>bons</w>
+<w>por</w>
+<w>cuer</w>
+<w>tenir</w>
+<w type="pon">,</w>
+<lb n="12420"/>
+<w>et</w>
+<w>qui</w>
+<w>le</w>
+<w>voroit</w>
+<w>departir</w>
+<lb n="12421"/>
+<w>assez</w>
+<w>durret</w>
+<w>plus</w>
+<w>que</w>
+<w>cestui</w>
+<w type="pon">.</w>
+<lb n="12422"/>
+<w type="pon">-</w>
+</s>
+<s n="293">
+<w>Je</w>
+<w>nel</w>
+<w>voil</w>
+<w>pas</w>
+<w>mestre</w>
+<w>en</w>
+<w>estui</w>
+<w type="pon">,</w>
+<lb n="12423"/>
+<w>fait</w>
+<w>Renart</w>
+<w type="pon">;</w>
+<w>celui</w>
+<w>me</w>
+<w>donez</w>
+<w type="pon">.</w>
+<lb n="12424"/>
+<w type="pon">-</w>
+</s>
+<s n="294">
+<w>Ja</w>
+<w>por</w>
+<w>mon</w>
+<w>chief</w>
+<w>n'</w>
+<w>en</w>
+<w>gouterez</w>
+<pb n="98"/>
+<lb n="12425"/>
+<w>ce</w>
+<w>dist</w>
+<w>Tibert</w>
+<w type="pon">,</w>
+<w>grant</w>
+<w>ne</w>
+<w>petit</w>
+<w type="pon">.</w>
+<lb n="12426"/>
+<w type="pon">-</w>
+</s>
+<s n="295">
+<w>Por</w>
+<w>le</w>
+<w>cuer</w>
+<w>bieu</w>
+<w type="pon">,</w>
+<w>Renart</w>
+<w>a</w>
+<w>dist</w>
+<w type="pon">,</w>
+<lb n="12427"/>
+<w>dont</w>
+<w>este</w>
+<w>vos</w>
+<w>vers</w>
+<w>moi</w>
+<w>trichierre</w>
+<w type="pon">.</w>
+<lb n="12428"/>
+<w type="pon">-</w>
+</s>
+<s n="296">
+<w>Va</w>
+<w>ta</w>
+<w>voie</w>
+<w type="pon">,</w>
+<w>va</w>
+<w type="pon">,</w>
+<w>fol</w>
+<w>lechierre</w>
+<w type="pon">,</w>
+<lb n="12429"/>
+<w>demain</w>
+<w>au</w>
+<w>soir</w>
+<w>avrez</w>
+<w>cest</w>
+<w>moul</w>
+<w type="pon">.</w>
+<lb n="12430"/>
+<w type="pon">-</w>
+</s>
+<s n="297">
+<w>Vos</w>
+<w>m'</w>
+<w>avez</w>
+<w>entercié</w>
+<w>por</w>
+<w>foul</w>
+<w type="pon">,</w>
+<lb n="12431"/>
+<w>fait</w>
+<w>Renart</w>
+<w type="pon">,</w>
+<w>par</w>
+<w>la</w>
+<w>moie</w>
+<w>foi</w>
+<w type="pon">,</w>
+<lb n="12432"/>
+<w>et</w>
+<w>si</w>
+<w>mentez</w>
+<w>la</w>
+<w>vostre</w>
+<w>foi</w>
+<w type="pon">,</w>
+<lb n="12433"/>
+<w>si</w>
+<w>vos</w>
+<w>en</w>
+<w>apel</w>
+<w>a</w>
+<w>Roen</w>
+<lb n="12434"/>
+<w>ou</w>
+<w>devant</w>
+<w>Huon</w>
+<w>le</w>
+<w>doian</w>
+<lb n="12435"/>
+<w>au</w>
+<w>couvent</w>
+<w>a</w>
+<w>la</w>
+<w>confrarie</w>
+<w type="pon">.</w>
+<w type="pon">»</w>
+</s>
+</q>
+<lb n="12436"/>
+<s n="298">
+<w>Que</w>
+<w>que</w>
+<w>Renart</w>
+<w>Tibert</w>
+<w>envie</w>
+<w type="pon">,</w>
+<lb n="12437"/>
+<w>si</w>
+<w>a</w>
+<w>tant</w>
+<w>Tibert</w>
+<w>esploitié</w>
+<lb n="12438"/>
+<w>qu'</w>
+<w>il</w>
+<w>a</w>
+<w>son</w>
+<w>fromache</w>
+<w>mangié</w>
+<w type="pon">;</w>
+<lb n="12439"/>
+<w>s'</w>
+<w>en</w>
+<w>a</w>
+<w>Renart</w>
+<w>eü</w>
+<w>grant</w>
+<w>duel</w>
+<w type="pon">.</w>
+</s>
+<lb n="12440"/>
+<s n="299">
+<w>Il</w>
+<w>en</w>
+<w>eüst</w>
+<w>eü</w>
+<w>son</w>
+<w>veil</w>
+<w type="pon">,</w>
+<lb n="12441"/>
+<w>mais</w>
+<w>ne</w>
+<w>pot</w>
+<w>ore</w>
+<w>estre</w>
+<w>autrement</w>
+<w type="pon">;</w>
+<lb n="12442"/>
+<w>entre</w>
+<w>ses</w>
+<w>danz</w>
+<w>dist</w>
+<w>belement</w>
+<w type="pon">:</w>
+</s>
+<lb n="12443"/>
+<q>
+<s>
+<w type="pon">«</w>
+<w>Se</w>
+<w>hui</w>
+<w>ne</w>
+<w>sui</w>
+<w>de</w>
+<w>toi</w>
+<w>vengiez</w>
+<w type="pon">,</w>
+<lb n="12444"/>
+<w>mout</w>
+<w>en</w>
+<w>sera</w>
+<w>mes</w>
+<w>cuers</w>
+<w>iriez</w>
+<w type="pon">.</w>
+<w type="pon">»</w>
+</s>
+</q>
+<lb n="12445"/>
+<s n="300">
+<w>Lor</w>
+<w>a</w>
+<w>son</w>
+<w>fromage</w>
+<w>entamé</w>
+<w type="pon">,</w>
+<lb n="12446"/>
+<w>que</w>
+<w>il</w>
+<w>estoit</w>
+<w>mout</w>
+<w>afamé</w>
+<w type="pon">,</w>
+<lb n="12447"/>
+<w>si</w>
+<w>en</w>
+<w>menga</w>
+<w>tant</w>
+<w>con</w>
+<w>li</w>
+<w>plot</w>
+<w type="pon">,</w>
+<lb n="12448"/>
+<w>et</w>
+<w>qant</w>
+<w>assez</w>
+<w>mengié</w>
+<w>en</w>
+<w>ot</w>
+<lb n="12449"/>
+<w>l'</w>
+<w>autre</w>
+<w>lïa</w>
+<w>en</w>
+<w>son</w>
+<w>giron</w>
+<w type="pon">,</w>
+<lb n="12450"/>
+<w>que</w>
+<w>il</w>
+<w>portera</w>
+<w>en</w>
+<w>meson</w>
+<w type="pon">;</w>
+<lb n="12451"/>
+<w>mes</w>
+<w type="pon">,</w>
+<w>entre</w>
+<w>tens</w>
+<w>que</w>
+<w>il</w>
+<w>menja</w>
+<w type="pon">,</w>
+<lb n="12452"/>
+<w>toutes</w>
+<w>voies</w>
+<w>se</w>
+<w>porpensa</w>
+<lb n="12453"/>
+<w>conment</w>
+<w>Tibert</w>
+<w>conchïeroit</w>
+<lb n="12454"/>
+<w>qui</w>
+<w>si</w>
+<w>mal</w>
+<w>parti</w>
+<w>li</w>
+<w>avoit</w>
+<w type="pon">.</w>
+</s>
+</ab>
+<ab rend="strophe">
+<lb n="12455"/>
+<s n="301">
+<w>Lors</w>
+<w>a</w>
+<w>Tibert</w>
+<w>a</w>
+<w>reson</w>
+<w>mis</w>
+<w type="pon">:</w>
+</s>
+<lb n="12456"/>
+<q>
+<s>
+<w type="pon">«</w>
+<w>Sire</w>
+<w type="pon">,</w>
+<w>se</w>
+<w>j'</w>
+<w>ai</w>
+<w>vers</w>
+<w>vos</w>
+<w>mespris</w>
+<lb n="12457"/>
+<w>de</w>
+<w>ce</w>
+<w>que</w>
+<w>je</w>
+<w>vos</w>
+<w>laidangai</w>
+<w type="pon">,</w>
+<pb n="99"/>
+<lb n="12458"/>
+<w>onques</w>
+<w>mes</w>
+<w>de</w>
+<w>tel</w>
+<w>ne</w>
+<w>gostai</w>
+<w type="pon">:</w>
+<lb n="12459"/>
+<w>mout</w>
+<w>a</w>
+<w>esté</w>
+<w>bons</w>
+<w>li</w>
+<w>fromaches</w>
+<w type="pon">,</w>
+<lb n="12460"/>
+<w>et</w>
+<w>vos</w>
+<w>partites</w>
+<w>conme</w>
+<w>sages</w>
+<lb n="12461"/>
+<w>qant</w>
+<w>vos</w>
+<w>me</w>
+<w>donates</w>
+<w>cestu</w>
+<w type="pon">.</w>
+</s>
+<lb n="12462"/>
+<s n="302">
+<w>Mais</w>
+<w>i</w>
+<w>me</w>
+<w>torne</w>
+<w>a</w>
+<w>annui</w>
+<w type="pon">.</w>
+</s>
+<lb n="12463"/>
+<s n="303">
+<w>Anuit</w>
+<w>nos</w>
+<w>somes</w>
+<w>oublié</w>
+<w type="pon">,</w>
+<lb n="12464"/>
+<w>que</w>
+<w>nos</w>
+<w>n'</w>
+<w>avons</w>
+<w>mie</w>
+<w>soné</w>
+<lb n="12465"/>
+<w>as</w>
+<w>vespres</w>
+<w>ne</w>
+<w>a</w>
+<w>la</w>
+<w>vegile</w>
+<w type="pon">.</w>
+<lb n="12466"/>
+<w type="pon">-</w>
+</s>
+<s n="304">
+<w>Vos</w>
+<w>me</w>
+<w>dites</w>
+<w>voir</w>
+<w type="pon">,</w>
+<w>par</w>
+<w>saint</w>
+<w>Gile</w>
+<w type="pon">.</w>
+<w type="pon">»</w>
+</s>
+</q>
+<lb n="12467"/>
+<s n="305">
+<w>Ce</w>
+<w>dist</w>
+<w>Renart</w>
+<w type="pon">:</w>
+</s>
+<q>
+<s>
+<w type="pon">«</w>
+<w>Quar</w>
+<w>i</w>
+<w>alons</w>
+<lb n="12468"/>
+<w>as</w>
+<w>cordes</w>
+<w>et</w>
+<w>si</w>
+<w>i</w>
+<w>traions</w>
+<w type="pon">.</w>
+<w type="pon">»</w>
+</s>
+</q>
+</ab>
+<ab rend="strophe">
+<lb n="12469"/>
+<s n="306">
+<w>A</w>
+<w>tant</w>
+<w>sont</w>
+<w>as</w>
+<w>cordes</w>
+<w>venuz</w>
+<w type="pon">.</w>
+</s>
+<lb n="12470"/>
+<s n="307">
+<w>Renart</w>
+<w>qui</w>
+<w>plus</w>
+<w>vezïez</w>
+<w>fu</w>
+<w type="pon">,</w>
+<lb n="12471"/>
+<w>dist</w>
+<w>que</w>
+<w>i</w>
+<w>soneroit</w>
+<w>avant</w>
+<w type="pon">:</w>
+<lb n="12472"/>
+<w>as</w>
+<w>cordes</w>
+<w>s'</w>
+<w>aairt</w>
+<w>maintenant</w>
+<w type="pon">,</w>
+<lb n="12473"/>
+<w>mes</w>
+<w>ne</w>
+<w>pot</w>
+<w>de</w>
+<w>terre</w>
+<w>soner</w>
+<w type="pon">:</w>
+<lb n="12474"/>
+<w>sor</w>
+<w>un</w>
+<w>banc</w>
+<w>le</w>
+<w>covint</w>
+<w>monter</w>
+<w type="pon">;</w>
+<lb n="12475"/>
+<w>des</w>
+<w>cordes</w>
+<w>fait</w>
+<w>un</w>
+<w>laz</w>
+<w>corsor</w>
+<w type="pon">,</w>
+<lb n="12476"/>
+<w>a</w>
+<w>son</w>
+<w>col</w>
+<w>le</w>
+<w>mist</w>
+<w>tout</w>
+<w>entor</w>
+<lb n="12477"/>
+<w>et</w>
+<w>ses</w>
+<w type="num">.II.</w>
+<w>piez</w>
+<w>avec</w>
+<w>devant</w>
+<w type="pon">.</w>
+</s>
+<lb n="12478"/>
+<s n="308">
+<w>Tibert</w>
+<w>le</w>
+<w>va</w>
+<w>mout</w>
+<w>regardant</w>
+<w type="pon">,</w>
+<lb n="12479"/>
+<w>et</w>
+<w>il</w>
+<w>prant</w>
+<w>les</w>
+<w>cordes</w>
+<w>as</w>
+<w>danz</w>
+<w type="pon">,</w>
+<lb n="12480"/>
+<w>tant</w>
+<w>sone</w>
+<w>qu'</w>
+<w>esvoille</w>
+<w>les</w>
+<w>genz</w>
+<w type="pon">:</w>
+<lb n="12481"/>
+<w>qui</w>
+<w>dormoient</w>
+<w>sont</w>
+<w>esveillié</w>
+<w type="pon">.</w>
+</s>
+<lb n="12482"/>
+<s n="309">
+<w>Mais</w>
+<w>le</w>
+<w>laz</w>
+<w>ot</w>
+<w>si</w>
+<w>adrecié</w>
+<lb n="12483"/>
+<w>que</w>
+<w>il</w>
+<w>ne</w>
+<w>pooit</w>
+<w>corre</w>
+<w>aval</w>
+<w type="pon">,</w>
+<lb n="12484"/>
+<w>que</w>
+<w>trop</w>
+<w>savoit</w>
+<w>Renart</w>
+<w>de</w>
+<w>mal</w>
+<w type="pon">,</w>
+<lb n="12485"/>
+<w>que</w>
+<w>as</w>
+<w>danz</w>
+<w>les</w>
+<w>cordes</w>
+<w>ostoit</w>
+<w type="pon">.</w>
+</s>
+<lb n="12486"/>
+<s n="310">
+<w>Tibert</w>
+<w>de</w>
+<w>ce</w>
+<w>ne</w>
+<w>se</w>
+<w>gardoit</w>
+<w type="pon">,</w>
+<lb n="12487"/>
+<w>ainz</w>
+<w>quidoit</w>
+<w>que</w>
+<w>o</w>
+<w>les</w>
+<w type="num">.II.</w>
+<w>piez</w>
+<lb n="12488"/>
+<w>sonast</w>
+<w>avoc</w>
+<w>qu'</w>
+<w>avoit</w>
+<w>lïez</w>
+<w type="pon">;</w>
+<lb n="12489"/>
+<w>et</w>
+<w>qant</w>
+<w>il</w>
+<w>ot</w>
+<w>assez</w>
+<w>soné</w>
+<lb n="12490"/>
+<w>si</w>
+<w>s'</w>
+<w>est</w>
+<w>mout</w>
+<w>bien</w>
+<w>dou</w>
+<w>laz</w>
+<w>osté</w>
+<w type="pon">;</w>
+<pb n="100"/>
+<lb n="12491"/>
+<w>et</w>
+<w>dist</w>
+<w>Tibert</w>
+<w type="pon">:</w>
+</s>
+<q>
+<s>
+<w type="pon">«</w>
+<w>Voir</w>
+<w type="pon">,</w>
+<w>or</w>
+<w>est</w>
+<w>droiz</w>
+<lb n="12492"/>
+<w>que</w>
+<w>je</w>
+<w>sone</w>
+<w>la</w>
+<w>moie</w>
+<w>foiz</w>
+<w type="pon">.</w>
+<w type="pon">»</w>
+</s>
+</q>
+<lb n="12493"/>
+<s n="311">
+<w>Ce</w>
+<w>dist</w>
+<w>Renart</w>
+<w type="pon">:</w>
+</s>
+<q>
+<s>
+<w type="pon">«</w>
+<w>Par</w>
+<w>saint</w>
+<w>Richier</w>
+<w type="pon">,</w>
+<lb n="12494"/>
+<w>je</w>
+<w>voil</w>
+<w type="pon">,</w>
+<w>et</w>
+<w>qu'</w>
+<w>en</w>
+<w>boive</w>
+<w type="num">.I.</w>
+<w>setier</w>
+<lb n="12495"/>
+<w>sor</w>
+<w>celui</w>
+<w>qui</w>
+<w>pis</w>
+<w>sonera</w>
+<w type="pon">;</w>
+<lb n="12496"/>
+<w>dehaiz</w>
+<w>ait</w>
+<w>qui</w>
+<w>le</w>
+<w>veera</w>
+<w type="pon">.</w>
+<w type="pon">»</w>
+</s>
+</q>
+<lb n="12497"/>
+<s n="312">
+<w>Ce</w>
+<w>dist</w>
+<w>Tibert</w>
+<w type="pon">:</w>
+</s>
+<q>
+<s>
+<w type="pon">«</w>
+<w>Ainz</w>
+<w>soit</w>
+<w>ensi</w>
+<w type="pon">.</w>
+<w type="pon">»</w>
+</s>
+</q>
+<lb n="12498"/>
+<s n="313">
+<w>Adonc</w>
+<w>en</w>
+<w>est</w>
+<w>en</w>
+<w>piez</w>
+<w>sailliz</w>
+<w type="pon">,</w>
+<lb n="12499"/>
+<w>si</w>
+<w>est</w>
+<w>desor</w>
+<w>le</w>
+<w>banc</w>
+<w>montez</w>
+<w type="pon">,</w>
+<lb n="12500"/>
+<w>et</w>
+<w>as</w>
+<w>laz</w>
+<w>a</w>
+<w>ses</w>
+<w>piez</w>
+<w>boutez</w>
+<w type="pon">,</w>
+<lb n="12501"/>
+<w>et</w>
+<w>aprés</w>
+<w>i</w>
+<w>bouta</w>
+<w>son</w>
+<w>col</w>
+<w type="pon">;</w>
+<lb n="12502"/>
+<w>je</w>
+<w>cuit</w>
+<w>qu'</w>
+<w>il</w>
+<w>s'</w>
+<w>en</w>
+<w>tenra</w>
+<w>por</w>
+<w>fol</w>
+<w type="pon">.</w>
+</s>
+<lb n="12503"/>
+<s n="314">
+<w>Les</w>
+<w>cordes</w>
+<w>a</w>
+<w>prises</w>
+<w>as</w>
+<w>danz</w>
+<w type="pon">.</w>
+</s>
+<lb n="12504"/>
+<s n="315">
+<w>Adonc</w>
+<w>si</w>
+<w>le</w>
+<w>voient</w>
+<w>les</w>
+<w>genz</w>
+<lb n="12505"/>
+<w>qui</w>
+<w>vindrent</w>
+<w>au</w>
+<w>mostier</w>
+<w>garder</w>
+<lb n="12506"/>
+<w>que</w>
+<w>es</w>
+<w>ce</w>
+<w>qui</w>
+<w>tant</w>
+<w>puet</w>
+<w>soner</w>
+<w type="pon">.</w>
+</s>
+</ab>
+<ab rend="strophe">
+<lb n="12507"/>
+<s n="316">
+<w>A</w>
+<w>tant</w>
+<w>Renart</w>
+<w>Tibert</w>
+<w>aresne</w>
+<w type="pon">:</w>
+</s>
+<lb n="12508"/>
+<q>
+<s>
+<w type="pon">«</w>
+<w>Buer</w>
+<w>montates</w>
+<w type="pon">,</w>
+<w>fait</w>
+<w>il</w>
+<w type="pon">,</w>
+<w>ou</w>
+<w>chesne</w>
+<lb n="12509"/>
+<w>ou</w>
+<w>li</w>
+<w>provoires</w>
+<w>vos</w>
+<w>trova</w>
+<lb n="12510"/>
+<w>qui</w>
+<w>en</w>
+<w>cest</w>
+<w>lieu</w>
+<w>vos</w>
+<w>envoia</w>
+<w type="pon">;</w>
+<lb n="12511"/>
+<w>or</w>
+<w>me</w>
+<w>dites</w>
+<w>ne</w>
+<w>vos</w>
+<w>plaist</w>
+<w>il</w>
+<w type="pon">?</w>
+<w type="pon">»</w>
+</s>
+</q>
+<lb n="12512"/>
+<s n="317">
+<w>Si</w>
+<w>con</w>
+<w>Tibert</w>
+<w>vost</w>
+<w>dire</w>
+<w type="pon">«</w>
+<w>oïl</w>
+<w type="pon">»</w>
+<w type="pon">,</w>
+<lb n="12513"/>
+<w>et</w>
+<w>con</w>
+<w>il</w>
+<w>la</w>
+<w>bouche</w>
+<w>ouvri</w>
+<w type="pon">,</w>
+<lb n="12514"/>
+<w>li</w>
+<w>laz</w>
+<w>par</w>
+<w>le</w>
+<w>col</w>
+<w>le</w>
+<w>saisi</w>
+<lb n="12515"/>
+<w>et</w>
+<w>avec</w>
+<w>furent</w>
+<w>li</w>
+<w>dui</w>
+<w>piez</w>
+<lb n="12516"/>
+<w>a</w>
+<w>qoi</w>
+<w>auques</w>
+<w>est</w>
+<w>engingniez</w>
+<w type="pon">,</w>
+<lb n="12517"/>
+<w>que</w>
+<w>maintenant</w>
+<w>fust</w>
+<w>estranglez</w>
+<lb n="12518"/>
+<w>se</w>
+<w>il</w>
+<w>les</w>
+<w>piez</w>
+<w>eüst</w>
+<w>ostez</w>
+<w type="pon">,</w>
+<lb n="12519"/>
+<w>car</w>
+<w>o</w>
+<w>les</w>
+<w>piez</w>
+<w>le</w>
+<w>laz</w>
+<w>eslaise</w>
+<w type="pon">.</w>
+</s>
+<lb n="12520"/>
+<s n="318">
+<w>Et</w>
+<w>dist</w>
+<w>Renart</w>
+<w type="pon">:</w>
+</s>
+<q>
+<s>
+<w type="pon">«</w>
+<w>Iestes</w>
+<w>a</w>
+<w>aise</w>
+<w type="pon">?</w>
+</s>
+<lb n="12521"/>
+<s n="319">
+<w>Ne</w>
+<w>savez</w>
+<w>mie</w>
+<w>bien</w>
+<w>soner</w>
+<w type="pon">.</w>
+</s>
+<lb n="12522"/>
+<s n="320">
+<w>Estez</w>
+<w type="pon">,</w>
+<w>jel</w>
+<w>vos</w>
+<w>irai</w>
+<w>mostrer</w>
+<w type="pon">.</w>
+<w type="pon">»</w>
+</s>
+</q>
+<lb n="12523"/>
+<s n="321">
+<w>Tibert</w>
+<w>quide</w>
+<w>qu'</w>
+<w>il</w>
+<w>die</w>
+<w>voir</w>
+<w type="pon">,</w>
+<pb n="101"/>
+<lb n="12524"/>
+<w>mais</w>
+<w>Renart</w>
+<w type="pon">,</w>
+<w>qui</w>
+<w>ainz</w>
+<w>ne</w>
+<w>dist</w>
+<w>voir</w>
+<w type="pon">,</w>
+<lb n="12525"/>
+<w>qantz</w>
+<w>dou</w>
+<w>laz</w>
+<w>le</w>
+<w>dut</w>
+<w>delivrer</w>
+<w type="pon">,</w>
+<lb n="12526"/>
+<w>si</w>
+<w>li</w>
+<w>ala</w>
+<w>le</w>
+<w>banc</w>
+<w>oster</w>
+<lb n="12527"/>
+<w>que</w>
+<w>il</w>
+<w>avoit</w>
+<w>desoz</w>
+<w>ses</w>
+<w>piez</w>
+<w type="pon">.</w>
+</s>
+<lb n="12528"/>
+<s n="322">
+<w>Or</w>
+<w>est</w>
+<w>Tibert</w>
+<w>plus</w>
+<w>enlaciez</w>
+<w type="pon">,</w>
+<lb n="12529"/>
+<w>c'</w>
+<w>or</w>
+<w>ne</w>
+<w>s'</w>
+<w>a</w>
+<w>il</w>
+<w>sor</w>
+<w>coi</w>
+<w>ester</w>
+<lb n="12530"/>
+<w>et</w>
+<w>toz</w>
+<w>jorz</w>
+<w>fait</w>
+<w>les</w>
+<w>sainz</w>
+<w>soner</w>
+<w type="pon">;</w>
+<lb n="12531"/>
+<w>et</w>
+<w>qant</w>
+<w>il</w>
+<w>cuide</w>
+<w>eschaper</w>
+<w type="pon">,</w>
+<lb n="12532"/>
+<w>Renart</w>
+<w>le</w>
+<w>comence</w>
+<w>a</w>
+<w>gaber</w>
+<w type="pon">.</w>
+</s>
+<lb n="12533"/>
+<s n="323">
+<w>Envers</w>
+<w>lui</w>
+<w>conmence</w>
+<w>a</w>
+<w>passer</w>
+<w type="pon">:</w>
+</s>
+<lb n="12534"/>
+<q>
+<s>
+<w type="pon">«</w>
+<w>Ha</w>
+<w type="pon">,</w>
+<w>ha</w>
+<w type="pon">,</w>
+<w>fait</w>
+<w>il</w>
+<w type="pon">,</w>
+<w>or</w>
+<w>est</w>
+<w>assez</w>
+<w type="pon">,</w>
+<lb n="12535"/>
+<w>sire</w>
+<w>Tibert</w>
+<w type="pon">,</w>
+<w>ce</w>
+<w>est</w>
+<w>anui</w>
+<w type="pon">.</w>
+</s>
+<lb n="12536"/>
+<s n="324">
+<w>Conment</w>
+<w type="pon">?</w>
+</s>
+<s n="325">
+<w>ne</w>
+<w>finerez</w>
+<w>vos</w>
+<w>hui</w>
+<w type="pon">?</w>
+<w type="pon">»</w>
+</s>
+</q>
+<lb n="12537"/>
+<s n="326">
+<w>Et</w>
+<w>Tibert</w>
+<w>conmença</w>
+<w>a</w>
+<w>grondre</w>
+<w type="pon">.</w>
+</s>
+<lb n="12538"/>
+<q>
+<s>
+<w type="pon">«</w>
+<w>Comment</w>
+<w type="pon">?</w>
+</s>
+<s n="328">
+<w>ne</w>
+<w>me</w>
+<w>daigniez</w>
+<w>respondre</w>
+<w type="pon">,</w>
+<lb n="12539"/>
+<w>ce</w>
+<w>dit</w>
+<w>Renart</w>
+<w type="pon">:</w>
+<w>orgueil</w>
+<w type="pon">,</w>
+<w>orgueil</w>
+<w type="pon">!</w>
+</s>
+<lb n="12540"/>
+<s n="329">
+<w>Male</w>
+<w>avanture</w>
+<w>aient</w>
+<w>ti</w>
+<w>oil</w>
+<w type="pon">,</w>
+<lb n="12541"/>
+<w>se</w>
+<w>je</w>
+<w>ne</w>
+<w>vos</w>
+<w>faz</w>
+<w>sorde</w>
+<w>oroille</w>
+<w type="pon">.</w>
+</s>
+<lb n="12542"/>
+<s n="330">
+<w>Vos</w>
+<w>me</w>
+<w>faites</w>
+<w>or</w>
+<w>la</w>
+<w>dorvoille</w>
+<w type="pon">,</w>
+<lb n="12543"/>
+<w>que</w>
+<w type="pon">,</w>
+<w>qant</w>
+<w>je</w>
+<w>vos</w>
+<w>vois</w>
+<w>aresnant</w>
+<w type="pon">,</w>
+<lb n="12544"/>
+<w>ne</w>
+<w>me</w>
+<w>daigniez</w>
+<w>dire</w>
+<w>noiant</w>
+<w type="pon">,</w>
+<lb n="12545"/>
+<w>que</w>
+<w>ne</w>
+<w>daingniez</w>
+<w>a</w>
+<w>moi</w>
+<w>parler</w>
+<w type="pon">.</w>
+</s>
+<lb n="12546"/>
+<s n="331">
+<w>Comment</w>
+<w type="pon">?</w>
+</s>
+<s n="332">
+<w>Volez</w>
+<w>vos</w>
+<w>dont</w>
+<w>monter</w>
+<lb n="12547"/>
+<w>lassus</w>
+<w>a</w>
+<w>mont</w>
+<w>a</w>
+<w>Dame</w>
+<w>Dieu</w>
+<w type="pon">?</w>
+</s>
+<lb n="12548"/>
+<s n="333">
+<w>Avoit</w>
+<w type="pon">,</w>
+<w>Tibert</w>
+<w type="pon">,</w>
+<w>n'</w>
+<w>est</w>
+<w>mie</w>
+<w>jeu</w>
+<w type="pon">:</w>
+<lb n="12549"/>
+<w>l'</w>
+<w>en</w>
+<w>ne</w>
+<w>monte</w>
+<w>pas</w>
+<w>si</w>
+<w>as</w>
+<w>nues</w>
+<w type="pon">;</w>
+<lb n="12550"/>
+<w>dont</w>
+<w>vos</w>
+<w>sont</w>
+<w>ces</w>
+<w>folors</w>
+<w>venues</w>
+<w type="pon">?</w>
+</s>
+<lb n="12551"/>
+<s n="334">
+<w>Quidiez</w>
+<w>vos</w>
+<w>ja</w>
+<w>estre</w>
+<w>si</w>
+<w>sainz</w>
+<lb n="12552"/>
+<w>que</w>
+<w>vos</w>
+<w>ailliez</w>
+<w>avec</w>
+<w>les</w>
+<w>sainz</w>
+<w type="pon">,</w>
+<lb n="12553"/>
+<w>et</w>
+<w>moi</w>
+<w>volez</w>
+<w>seul</w>
+<w>guerpir</w>
+<w>ci</w>
+<w type="pon">?</w>
+</s>
+<lb n="12554"/>
+<s n="335">
+<w>Poi</w>
+<w>avez</w>
+<w>encor</w>
+<w>Dieu</w>
+<w>servi</w>
+<lb n="12555"/>
+<w>por</w>
+<w>ja</w>
+<w>aler</w>
+<w>lasus</w>
+<w>en</w>
+<w>gloire</w>
+<w type="pon">.</w>
+</s>
+<lb n="12556"/>
+<s n="336">
+<w>Vos</w>
+<w>ne</w>
+<w>feïtes</w>
+<w>pas</w>
+<w>mimoire</w>
+<pb n="102"/>
+<lb n="12557"/>
+<w>er</w>
+<w>soir</w>
+<w>a</w>
+<w>vespres</w>
+<w>de</w>
+<w>la</w>
+<w>feste</w>
+<w type="pon">.</w>
+</s>
+<lb n="12558"/>
+<s n="337">
+<w>Bien</w>
+<w>vos</w>
+<w>doit</w>
+<w>or</w>
+<w>doloir</w>
+<w>la</w>
+<w>teste</w>
+<w type="pon">,</w>
+<lb n="12559"/>
+<w>qui</w>
+<w>touz</w>
+<w>jorz</w>
+<w>contre</w>
+<w>mont</w>
+<w>gardez</w>
+<lb n="12560"/>
+<w>et</w>
+<w>a</w>
+<w>moi</w>
+<w>ne</w>
+<w>volez</w>
+<w>parler</w>
+<w type="pon">.</w>
+</s>
+<lb n="12561"/>
+<s n="338">
+<w>Por</w>
+<w>quoi</w>
+<w>m'</w>
+<w>avez</w>
+<w>si</w>
+<w>enhaï</w>
+<w type="pon">?</w>
+</s>
+<lb n="12562"/>
+<s n="339">
+<w>Ja</w>
+<w>n'</w>
+<w>ai</w>
+<w>ge</w>
+<w>mie</w>
+<w>Dieu</w>
+<w>traï</w>
+<w type="pon">,</w>
+<lb n="12563"/>
+<w>que</w>
+<w>ne</w>
+<w>daingniez</w>
+<w>parler</w>
+<w>a</w>
+<w>moi</w>
+<w type="pon">.</w>
+</s>
+<lb n="12564"/>
+<s n="340">
+<w>Vos</w>
+<w>me</w>
+<w>mantez</w>
+<w>la</w>
+<w>vostre</w>
+<w>foi</w>
+<w type="pon">,</w>
+<lb n="12565"/>
+<w>or</w>
+<w>la</w>
+<w>m'</w>
+<w>avez</w>
+<w type="num">.II.</w>
+<w>foiz</w>
+<w>mantie</w>
+<w type="pon">:</w>
+<lb n="12566"/>
+<w>une</w>
+<w>eure</w>
+<w>et</w>
+<w>autre</w>
+<w>a</w>
+<w>la</w>
+<w>partie</w>
+<lb n="12567"/>
+<w>que</w>
+<w>vos</w>
+<w>partites</w>
+<w>le</w>
+<w>fromache</w>
+<w type="pon">.</w>
+</s>
+<lb n="12568"/>
+<s n="341">
+<w>Vos</w>
+<w>ne</w>
+<w>feïtes</w>
+<w>pas</w>
+<w>que</w>
+<w>sage</w>
+<w type="pon">,</w>
+<lb n="12569"/>
+<w>si</w>
+<w>vos</w>
+<w>di</w>
+<w>bien</w>
+<w>par</w>
+<w>saint</w>
+<w>Senson</w>
+<lb n="12570"/>
+<w>que</w>
+<w>je</w>
+<w>vos</w>
+<w>en</w>
+<w>tieng</w>
+<w>a</w>
+<w>bricon</w>
+<w type="pon">;</w>
+<lb n="12571"/>
+<w>ne</w>
+<w>me</w>
+<w>sanblez</w>
+<w>or</w>
+<w>pas</w>
+<w>si</w>
+<w>mestre</w>
+<lb n="12572"/>
+<w>con</w>
+<w>vos</w>
+<w>vodrïez</w>
+<w>encor</w>
+<w>estre</w>
+<w type="pon">,</w>
+<lb n="12573"/>
+<w>qant</w>
+<w>vos</w>
+<w>me</w>
+<w>trovates</w>
+<w>ou</w>
+<w>val</w>
+<w type="pon">,</w>
+<lb n="12574"/>
+<w>que</w>
+<w>chevauchïez</w>
+<w>le</w>
+<w>cheval</w>
+<lb n="12575"/>
+<w>qui</w>
+<w>portoit</w>
+<w>les</w>
+<w>livres</w>
+<w>trousez</w>
+<lb n="12576"/>
+<w>que</w>
+<w>avïez</w>
+<w>au</w>
+<w>prestre</w>
+<w>anblez</w>
+<w type="pon">,</w>
+<lb n="12577"/>
+<w>et</w>
+<w>son</w>
+<w>polain</w>
+<w>par</w>
+<w>traïson</w>
+<w type="pon">.</w>
+</s>
+<lb n="12578"/>
+<s n="342">
+<w>Or</w>
+<w>en</w>
+<w>pandez</w>
+<w>conme</w>
+<w>larron</w>
+<lb n="12579"/>
+<w>et</w>
+<w>si</w>
+<w>avez</w>
+<w>ore</w>
+<w>chapel</w>
+<w type="pon">.</w>
+</s>
+<lb n="12580"/>
+<s n="343">
+<w>Et</w>
+<w>qu'</w>
+<w>iert</w>
+<w>il</w>
+<w>ore</w>
+<w>de</w>
+<w>l'</w>
+<w>apel</w>
+<lb n="12581"/>
+<w>que</w>
+<w>je</w>
+<w>avoie</w>
+<w>vers</w>
+<w>vos</w>
+<w>fait</w>
+<w type="pon">?</w>
+</s>
+<lb n="12582"/>
+<s n="344">
+<w>Conment</w>
+<w>iert</w>
+<w>il</w>
+<w>d'</w>
+<w>aler</w>
+<w>au</w>
+<w>plet</w>
+<w type="pon">?</w>
+</s>
+<lb n="12583"/>
+<s n="345">
+<w>Vos</w>
+<w>n'</w>
+<w>i</w>
+<w>poez</w>
+<w>or</w>
+<w>mie</w>
+<w>aler</w>
+<w type="pon">:</w>
+<lb n="12584"/>
+<w>si</w>
+<w>le</w>
+<w>faites</w>
+<w>contremander</w>
+<lb n="12585"/>
+<w>a</w>
+<w>la</w>
+<w>confrarie</w>
+<w>as</w>
+<w>nonains</w>
+<lb n="12586"/>
+<w type="num">.III.</w>
+<w>semaines</w>
+<w>ou</w>
+<w type="num">.I.</w>
+<w>mois</w>
+<w>mains</w>
+<w type="pon">.</w>
+</s>
+<lb n="12587"/>
+<s n="346">
+<w>Or</w>
+<w>me</w>
+<w>dites</w>
+<w>que</w>
+<w>ferez</w>
+<w>vos</w>
+<w type="pon">?</w>
+</s>
+<lb n="12588"/>
+<s n="347">
+<w>Par</w>
+<w>Dieu</w>
+<w type="pon">,</w>
+<w>trop</w>
+<w>estes</w>
+<w>orgeillos</w>
+<lb n="12589"/>
+<w>por</w>
+<w>estre</w>
+<w>mestre</w>
+<w>a</w>
+<w>povre</w>
+<w>gent</w>
+<w type="pon">:</w>
+<pb n="103"/>
+<lb n="12590"/>
+<w>vos</w>
+<w>les</w>
+<w>manrïez</w>
+<w>malement</w>
+<w type="pon">,</w>
+<lb n="12591"/>
+<w>se</w>
+<w>desor</w>
+<w>aus</w>
+<w>aviez</w>
+<w>baillie</w>
+<w type="pon">.</w>
+</s>
+<lb n="12592"/>
+<s n="348">
+<w>Ne</w>
+<w>place</w>
+<w>Dieu</w>
+<w type="pon">,</w>
+<w>le</w>
+<w>fiuz</w>
+<w>Marie</w>
+<w type="pon">,</w>
+<lb n="12593"/>
+<w>que</w>
+<w>en</w>
+<w>vos</w>
+<w>aient</w>
+<w>lor</w>
+<w>entente</w>
+<w type="pon">,</w>
+<lb n="12594"/>
+<w>que</w>
+<w>trop</w>
+<w>avroient</w>
+<w>male</w>
+<w>rante</w>
+<w type="pon">;</w>
+<lb n="12595"/>
+<w>ne</w>
+<w>vodrïez</w>
+<w>a</w>
+<w>aus</w>
+<w>parler</w>
+<w type="pon">,</w>
+<lb n="12596"/>
+<w>ne</w>
+<w>lor</w>
+<w>droit</w>
+<w>sovent</w>
+<w>escouter</w>
+<w type="pon">.</w>
+</s>
+<lb n="12597"/>
+<s n="349">
+<w>Je</w>
+<w>irai</w>
+<w>or</w>
+<w>cest</w>
+<w>uis</w>
+<w>ovrir</w>
+<w type="pon">:</w>
+<lb n="12598"/>
+<w>je</w>
+<w>oi</w>
+<w>la</w>
+<w>fors</w>
+<w>la</w>
+<w>gent</w>
+<w>venir</w>
+<lb n="12599"/>
+<w>qui</w>
+<w>volent</w>
+<w>entrer</w>
+<w>ou</w>
+<w>mostier</w>
+<w type="pon">.</w>
+</s>
+<lb n="12600"/>
+<s n="350">
+<w>Or</w>
+<w>deüssiez</w>
+<w>vostre</w>
+<w>sautier</w>
+<lb n="12601"/>
+<w>tenir</w>
+<w>ouverz</w>
+<w>sus</w>
+<w>voz</w>
+<w>genouz</w>
+<lb n="12602"/>
+<w>et</w>
+<w>vos</w>
+<w>vos</w>
+<w>iestes</w>
+<w>en</w>
+<w type="num">.III.</w>
+<w>nous</w>
+<lb n="12603"/>
+<w>lïez</w>
+<w>au</w>
+<w>cordes</w>
+<w>par</w>
+<w>la</w>
+<w>goule</w>
+<w type="pon">;</w>
+<lb n="12604"/>
+<w>ci</w>
+<w>seüte</w>
+<w>vos</w>
+<w>poi</w>
+<w>de</w>
+<w>boule</w>
+<w type="pon">.</w>
+</s>
+<lb n="12605"/>
+<s n="351">
+<w>Que</w>
+<w>diront</w>
+<w>ore</w>
+<w>li</w>
+<w>proudome</w>
+<w type="pon">?</w>
+</s>
+<lb n="12606"/>
+<s n="352">
+<w>Or</w>
+<w>ne</w>
+<w>chantez</w>
+<w>vos</w>
+<w>pas</w>
+<w>de</w>
+<w>Rome</w>
+<w type="pon">,</w>
+<lb n="12607"/>
+<w>si</w>
+<w>con</w>
+<w>vos</w>
+<w>faïssiez</w>
+<w>essoir</w>
+<w type="pon">.</w>
+</s>
+<lb n="12608"/>
+<s n="353">
+<w>Vos</w>
+<w>devrïez</w>
+<w>si</w>
+<w>bien</w>
+<w>savoir</w>
+<lb n="12609"/>
+<w>les</w>
+<w type="num">.VII.</w>
+<w>arz</w>
+<w>que</w>
+<w>dissïez</w>
+<w>ier</w>
+<w type="pon">.</w>
+</s>
+<lb n="12610"/>
+<s n="354">
+<w>Or</w>
+<w>ne</w>
+<w>vos</w>
+<w>savez</w>
+<w>deslïer</w>
+<w type="pon">:</w>
+<lb n="12611"/>
+<w>folie</w>
+<w>vos</w>
+<w>fait</w>
+<w>tant</w>
+<w>soner</w>
+<w type="pon">.</w>
+</s>
+<lb n="12612"/>
+<s n="355">
+<w>Or</w>
+<w>deüsiez</w>
+<w>laissier</w>
+<w>ester</w>
+<lb n="12613"/>
+<w>le</w>
+<w>debateïz</w>
+<w>de</w>
+<w>cez</w>
+<w>cloches</w>
+<w type="pon">.</w>
+</s>
+<lb n="12614"/>
+<s n="356">
+<w>Miauz</w>
+<w>vos</w>
+<w>venist</w>
+<w>peschier</w>
+<w>as</w>
+<w>loches</w>
+<lb n="12615"/>
+<w>qu'</w>
+<w>entremestre</w>
+<w>de</w>
+<w>tel</w>
+<w>mestier</w>
+<lb n="12616"/>
+<w>dont</w>
+<w>vos</w>
+<w>ne</w>
+<w>vos</w>
+<w>savez</w>
+<w>aidier</w>
+<w type="pon">.</w>
+</s>
+<lb n="12617"/>
+<s n="357">
+<w>Ne</w>
+<w>vos</w>
+<w>deüsiez</w>
+<w>entremestre</w>
+<w type="pon">,</w>
+<lb n="12618"/>
+<w>mais</w>
+<w>en</w>
+<w>pris</w>
+<w>vos</w>
+<w>volïez</w>
+<w>mestre</w>
+<lb n="12619"/>
+<w>de</w>
+<w>tenir</w>
+<w>la</w>
+<w>marreglerie</w>
+<w type="pon">;</w>
+<lb n="12620"/>
+<w>vos</w>
+<w>feïstes</w>
+<w>or</w>
+<w>grant</w>
+<w>folie</w>
+<w type="pon">:</w>
+<lb n="12621"/>
+<w>ge</w>
+<w>vos</w>
+<w>di</w>
+<w>bien</w>
+<w>tout</w>
+<w>a</w>
+<w>estrous</w>
+<w type="pon">,</w>
+<lb n="12622"/>
+<w>par</w>
+<w>foi</w>
+<w>trop</w>
+<w>estes</w>
+<w>orgeillous</w>
+<w type="pon">.</w>
+<pb n="104"/>
+</s>
+<lb n="12623"/>
+<s n="358">
+<w>Je</w>
+<w>cuidoie</w>
+<w>par</w>
+<w>saint</w>
+<w>Simon</w>
+<lb n="12624"/>
+<w>k'</w>
+<w>a</w>
+<w>la</w>
+<w>purificacïon</w>
+<lb n="12625"/>
+<w>venist</w>
+<w>ma</w>
+<w>fame</w>
+<w>a</w>
+<w>vos</w>
+<w>demain</w>
+<w type="pon">,</w>
+<lb n="12626"/>
+<w>mais</w>
+<w>ne</w>
+<w>porroit</w>
+<w>a</w>
+<w>vostre</w>
+<w>main</w>
+<lb n="12627"/>
+<w>ataindre</w>
+<w>ofrandre</w>
+<w>ne</w>
+<w>baillier</w>
+<w type="pon">,</w>
+<lb n="12628"/>
+<w>ne</w>
+<w>vostre</w>
+<w>bele</w>
+<w>main</w>
+<w>baissier</w>
+<w type="pon">,</w>
+<lb n="12629"/>
+<w>que</w>
+<w>trop</w>
+<w>iestes</w>
+<w>en</w>
+<w>haut</w>
+<w>levez</w>
+<w type="pon">;</w>
+<lb n="12630"/>
+<w>si</w>
+<w>vos</w>
+<w>tenroit</w>
+<w>a</w>
+<w>fol</w>
+<w>desvez</w>
+<w type="pon">,</w>
+<lb n="12631"/>
+<w>si</w>
+<w>en</w>
+<w>avroit</w>
+<w>a</w>
+<w>grant</w>
+<w>paor</w>
+<w type="pon">.</w>
+</s>
+<lb n="12632"/>
+<s n="359">
+<w>Mais</w>
+<w>or</w>
+<w>me</w>
+<w>changiez</w>
+<w>par</w>
+<w>amor</w>
+<w type="pon">,</w>
+<lb n="12633"/>
+<w type="num">.II.</w>
+<w>maailles</w>
+<w>por</w>
+<w type="num">.I.</w>
+<w>denier</w>
+<w type="pon">,</w>
+<lb n="12634"/>
+<w>car</w>
+<w>aillors</w>
+<w>les</w>
+<w>voil</w>
+<w>anvoier</w>
+<w type="pon">.</w>
+</s>
+<lb n="12635"/>
+<s n="360">
+<w>Que</w>
+<w>dites</w>
+<w>vos</w>
+<w type="pon">?</w>
+</s>
+<s n="361">
+<w>les</w>
+<w>avrai</w>
+<w>mie</w>
+<w type="pon">?</w>
+</s>
+<lb n="12636"/>
+<s n="362">
+<w>Vez</w>
+<w type="pon">,</w>
+<w>por</w>
+<w>le</w>
+<w>cors</w>
+<w>sainte</w>
+<w>Marie</w>
+<w type="pon">,</w>
+<lb n="12637"/>
+<w>s'</w>
+<w>il</w>
+<w>daingne</w>
+<w>pas</w>
+<w>parler</w>
+<w>ancor</w>
+<w type="pon">?</w>
+</s>
+<lb n="12638"/>
+<s n="363">
+<w>Malement</w>
+<w>ferïez</w>
+<w>vos</w>
+<w>or</w>
+<lb n="12639"/>
+<w>a</w>
+<w>un</w>
+<w>povre</w>
+<w>home</w>
+<w type="pon">,</w>
+<w>qant</w>
+<w>a</w>
+<w>moi</w>
+<w type="pon">,</w>
+<lb n="12640"/>
+<w>a</w>
+<w>qui</w>
+<w>vos</w>
+<w>estes</w>
+<w>par</w>
+<w>vo</w>
+<w>foi</w>
+<w type="pon">,</w>
+<lb n="12641"/>
+<w>demener</w>
+<w>loial</w>
+<w>conpaignie</w>
+<lb n="12642"/>
+<w>ne</w>
+<w>devrïez</w>
+<w>encore</w>
+<w>mie</w>
+<w type="pon">.</w>
+</s>
+<lb n="12643"/>
+<s n="364">
+<w>Mais</w>
+<w>avant</w>
+<w>volez</w>
+<w>mot</w>
+<w>a</w>
+<w>mot</w>
+<w type="pon">,</w>
+<lb n="12644"/>
+<w>si</w>
+<w>con</w>
+<w>je</w>
+<w>croi</w>
+<w type="pon">,</w>
+<w>oïr</w>
+<w>trestot</w>
+<w type="pon">,</w>
+<lb n="12645"/>
+<w>espoir</w>
+<w type="pon">,</w>
+<w>de</w>
+<w>ce</w>
+<w>que</w>
+<w>je</w>
+<w>vo</w>
+<w>di</w>
+<w type="pon">.</w>
+</s>
+<lb n="12646"/>
+<s n="365">
+<w>Mais</w>
+<w>por</w>
+<w>Dieu</w>
+<w type="pon">,</w>
+<w>sire</w>
+<w type="pon">,</w>
+<w>je</w>
+<w>vos</w>
+<w>pri</w>
+<w type="pon">,</w>
+<lb n="12647"/>
+<w>n'</w>
+<w>an</w>
+<w>metez</w>
+<w>riens</w>
+<w>a</w>
+<w>vostre</w>
+<w>cuer</w>
+<w type="pon">,</w>
+<lb n="12648"/>
+<w>que</w>
+<w>je</w>
+<w>nel</w>
+<w>vodroie</w>
+<w>a</w>
+<w>nul</w>
+<w>fuer</w>
+<lb n="12649"/>
+<w>q'</w>
+<w>en</w>
+<w>eüsiez</w>
+<w>ire</w>
+<w>ne</w>
+<w>mal</w>
+<w type="pon">.</w>
+</s>
+<lb n="12650"/>
+<s n="366">
+<w>Par</w>
+<w>mi</w>
+<w>tot</w>
+<w>ce</w>
+<w>que</w>
+<w>ou</w>
+<w>cheval</w>
+<lb n="12651"/>
+<w>ne</w>
+<w>vousises</w>
+<w>que</w>
+<w>je</w>
+<w>partise</w>
+<w type="pon">,</w>
+<lb n="12652"/>
+<w>si</w>
+<w>volïez</w>
+<w>que</w>
+<w>j'</w>
+<w>empreïsse</w>
+<lb n="12653"/>
+<w>a</w>
+<w>porter</w>
+<w>Ermeline</w>
+<w>a</w>
+<w>messe</w>
+<w type="pon">:</w>
+<lb n="12654"/>
+<w>ne</w>
+<w>vos</w>
+<w>fu</w>
+<w>onques</w>
+<w>felenesse</w>
+<w type="pon">,</w>
+<lb n="12655"/>
+<w>volentiers</w>
+<w>li</w>
+<w>devez</w>
+<w>prester</w>
+<w type="pon">,</w>
+<pb n="105"/>
+<lb n="12656"/>
+<w>et</w>
+<w>de</w>
+<w>vo</w>
+<w>chandoile</w>
+<w>alumer</w>
+<w type="pon">.</w>
+</s>
+<lb n="12657"/>
+<s n="367">
+<w>Avera</w>
+<w>ele</w>
+<w type="pon">,</w>
+<w>biauz</w>
+<w>douz</w>
+<w>sire</w>
+<w type="pon">?</w>
+</s>
+<lb n="12658"/>
+<s n="368">
+<w>Oïl</w>
+<w type="pon">!</w>
+</s>
+<s n="369">
+<w>Dame</w>
+<w>Dieu</w>
+<w>le</w>
+<w>vos</w>
+<w>mire</w>
+<w type="pon">;</w>
+<lb n="12659"/>
+<w>c'</w>
+<w>est</w>
+<w>bon</w>
+<w>gré</w>
+<w>Dieu</w>
+<w>et</w>
+<w>maugré</w>
+<w>vostre</w>
+<w type="pon">.</w>
+</s>
+<lb n="12660"/>
+<s n="370">
+<w>Elle</w>
+<w>dira</w>
+<w>sa</w>
+<w>paternostre</w>
+<lb n="12661"/>
+<w>que</w>
+<w>Diex</w>
+<w>vos</w>
+<w>doint</w>
+<w>honte</w>
+<w>en</w>
+<w>cest</w>
+<w>an</w>
+<w type="pon">;</w>
+<lb n="12662"/>
+<w>ainz</w>
+<w>que</w>
+<w>vaingne</w>
+<w>la</w>
+<w>saint</w>
+<w>Jehan</w>
+<w type="pon">,</w>
+<lb n="12663"/>
+<w>si</w>
+<w>avrez</w>
+<w>vos</w>
+<w>encor</w>
+<w>ennuit</w>
+<w type="pon">.</w>
+</s>
+<lb n="12664"/>
+<s n="371">
+<w>Sire</w>
+<w type="pon">,</w>
+<w>gardez</w>
+<w>ne</w>
+<w>vos</w>
+<w>anuit</w>
+<w type="pon">:</w>
+<lb n="12665"/>
+<w>je</w>
+<w>paroil</w>
+<w>volantier</w>
+<w>a</w>
+<w>vos</w>
+<w type="pon">,</w>
+<lb n="12666"/>
+<w>et</w>
+<w>vos</w>
+<w>iestes</w>
+<w>trop</w>
+<w>anuious</w>
+<w type="pon">,</w>
+<lb n="12667"/>
+<w>qui</w>
+<w>a</w>
+<w>moi</w>
+<w>ne</w>
+<w>volez</w>
+<w>parler</w>
+<w type="pon">.</w>
+</s>
+<lb n="12668"/>
+<s n="372">
+<w>Vodrez</w>
+<w>vos</w>
+<w>dont</w>
+<w>toujorz</w>
+<w>soner</w>
+<w type="pon">?</w>
+</s>
+<lb n="12669"/>
+<s n="373">
+<w>Je</w>
+<w>vos</w>
+<w>di</w>
+<w>que</w>
+<w>ce</w>
+<w>est</w>
+<w>folie</w>
+<w type="pon">,</w>
+<lb n="12670"/>
+<w>i</w>
+<w>sanble</w>
+<w>ce</w>
+<w>set</w>
+<w>estoutie</w>
+<w type="pon">.</w>
+<w type="pon">»</w>
+</s>
+</q>
+</ab>
+<ab rend="strophe">
+<lb n="12671"/>
+<s n="374">
+<w>A</w>
+<w>tant</w>
+<w>lait</w>
+<w>Renart</w>
+<w>le</w>
+<w>gangler</w>
+<w type="pon">,</w>
+<lb n="12672"/>
+<w>car</w>
+<w>a</w>
+<w>l'</w>
+<w>uis</w>
+<w>vit</w>
+<w>aboeter</w>
+<lb n="12673"/>
+<w>un</w>
+<w>grant</w>
+<w>vilain</w>
+<w>fort</w>
+<w>et</w>
+<w>enrievre</w>
+<w type="pon">,</w>
+<lb n="12674"/>
+<w>hardi</w>
+<w>entriere</w>
+<w>con</w>
+<w>un</w>
+<w>lievre</w>
+<w type="pon">;</w>
+<lb n="12675"/>
+<w>au</w>
+<w>costé</w>
+<w>ot</w>
+<w>s'</w>
+<w>espee</w>
+<w>çainte</w>
+<w type="pon">,</w>
+<lb n="12676"/>
+<w>que</w>
+<w>tout</w>
+<w>estoit</w>
+<w>de</w>
+<w>nielle</w>
+<w>tainte</w>
+<w type="pon">,</w>
+<lb n="12677"/>
+<w>que</w>
+<w>ne</w>
+<w>pooist</w>
+<w>issir</w>
+<w>des</w>
+<w>ais</w>
+<w type="pon">,</w>
+<lb n="12678"/>
+<w>ne</w>
+<w>ja</w>
+<w>par</w>
+<w>lui</w>
+<w>n'</w>
+<w>en</w>
+<w>istra</w>
+<w>mes</w>
+<w type="pon">.</w>
+</s>
+<lb n="12679"/>
+<s n="375">
+<w>Et</w>
+<w>qant</w>
+<w>il</w>
+<w>vit</w>
+<w>Tibert</w>
+<w>le</w>
+<w>chat</w>
+<lb n="12680"/>
+<w>qui</w>
+<w>si</w>
+<w>fort</w>
+<w>les</w>
+<w>cloches</w>
+<w>debat</w>
+<w type="pon">,</w>
+<lb n="12681"/>
+<w>et</w>
+<w>Renart</w>
+<w>vit</w>
+<w>ester</w>
+<w>lez</w>
+<w>lui</w>
+<w type="pon">,</w>
+<lb n="12682"/>
+<w>tel</w>
+<w>paor</w>
+<w>a</w>
+<w>et</w>
+<w>tel</w>
+<w>anui</w>
+<lb n="12683"/>
+<w>que</w>
+<w>maintenent</w>
+<w>li</w>
+<w>pritrent</w>
+<w>fievre</w>
+<lb n="12684"/>
+<w>et</w>
+<w>il</w>
+<w>s'</w>
+<w>en</w>
+<w>fuit</w>
+<w>tost</w>
+<w>conme</w>
+<w>lievre</w>
+<w type="pon">.</w>
+</s>
+<lb n="12685"/>
+<s n="376">
+<w>Et</w>
+<w>Renart</w>
+<w>est</w>
+<w>avant</w>
+<w>alez</w>
+<w type="pon">,</w>
+<lb n="12686"/>
+<w>si</w>
+<w>li</w>
+<w>a</w>
+<w>dit</w>
+<w type="pon">:</w>
+</s>
+<q>
+<s>
+<w type="pon">«</w>
+<w>Estez</w>
+<w type="pon">,</w>
+<w>estez</w>
+<w type="pon">!</w>
+<w type="pon">»</w>
+</s>
+</q>
+<lb n="12687"/>
+<s n="377">
+<w>Lor</w>
+<w>dut</w>
+<w>estre</w>
+<w>dou</w>
+<w>sans</w>
+<w>issuz</w>
+<w type="pon">,</w>
+<lb n="12688"/>
+<w>ainz</w>
+<w>ne</w>
+<w>fina</w>
+<w type="pon">,</w>
+<w>si</w>
+<w>fu</w>
+<w>venuz</w>
+<pb n="106"/>
+<lb n="12689"/>
+<w>laissus</w>
+<w>a</w>
+<w>mont</w>
+<w>en</w>
+<w>mi</w>
+<w>la</w>
+<w>vile</w>
+<w type="pon">.</w>
+</s>
+<lb n="12690"/>
+<s n="378">
+<w>Et</w>
+<w>Renart</w>
+<w type="pon">,</w>
+<w>qui</w>
+<w>mout</w>
+<w>sot</w>
+<w>de</w>
+<w>guile</w>
+<w type="pon">,</w>
+<lb n="12691"/>
+<w>s'</w>
+<w>en</w>
+<w>est</w>
+<w>retornez</w>
+<w>au</w>
+<w>mostier</w>
+<w type="pon">,</w>
+<lb n="12692"/>
+<w>si</w>
+<w>arache</w>
+<w type="num">.I.</w>
+<w>foil</w>
+<w>dou</w>
+<w>sautier</w>
+<w type="pon">,</w>
+<lb n="12693"/>
+<w>puis</w>
+<w>l'</w>
+<w>a</w>
+<w>dedanz</w>
+<w>son</w>
+<w>saing</w>
+<w>bouté</w>
+<w type="pon">,</w>
+<lb n="12694"/>
+<w>et</w>
+<w>Tibert</w>
+<w>a</w>
+<w>araisonné</w>
+<w type="pon">:</w>
+</s>
+<lb n="12695"/>
+<q>
+<s>
+<w type="pon">«</w>
+<w>Sire</w>
+<w>Tibert</w>
+<w type="pon">,</w>
+<w>Renart</w>
+<w>a</w>
+<w>dit</w>
+<w type="pon">,</w>
+<lb n="12696"/>
+<w>je</w>
+<w>vos</w>
+<w>di</w>
+<w>bien</w>
+<w type="pon">,</w>
+<w>se</w>
+<w>Diex</w>
+<w>m'</w>
+<w>aïst</w>
+<w type="pon">,</w>
+<lb n="12697"/>
+<w>je</w>
+<w>ne</w>
+<w>remanrai</w>
+<w>ja</w>
+<w>a</w>
+<w>vos</w>
+<lb n="12698"/>
+<w>que</w>
+<w>trop</w>
+<w>estes</w>
+<w>religious</w>
+<w type="pon">:</w>
+<lb n="12699"/>
+<w>trop</w>
+<w>povez</w>
+<w>par</w>
+<w>Dieu</w>
+<w>travaillier</w>
+<w type="pon">,</w>
+<lb n="12700"/>
+<w>je</w>
+<w>ne</w>
+<w>porroie</w>
+<w>si</w>
+<w>voillier</w>
+<w type="pon">.</w>
+</s>
+<lb n="12701"/>
+<s n="379">
+<w>Je</w>
+<w>m'</w>
+<w>en</w>
+<w>irai</w>
+<w type="pon">,</w>
+<w>ci</w>
+<w>remenrez</w>
+<lb n="12702"/>
+<w>et</w>
+<w>vostre</w>
+<w>ofrande</w>
+<w>recevez</w>
+<w type="pon">,</w>
+<lb n="12703"/>
+<w>tele</w>
+<w>con</w>
+<w>iert</w>
+<w>ou</w>
+<w>mole</w>
+<w>ou</w>
+<w>dure</w>
+<w type="pon">;</w>
+<lb n="12704"/>
+<w>par</w>
+<w>ma</w>
+<w>foi</w>
+<w type="pon">,</w>
+<w>sire</w>
+<w type="pon">,</w>
+<w>je</w>
+<w>n'</w>
+<w>ai</w>
+<w>cure</w>
+<lb n="12705"/>
+<w>ne</w>
+<w>de</w>
+<w>la</w>
+<w>moitié</w>
+<w>ne</w>
+<w>dou</w>
+<w>qart</w>
+<w type="pon">.</w>
+<w type="pon">»</w>
+</s>
+</q>
+<lb n="12706"/>
+<s n="380">
+<w>A</w>
+<w>tant</w>
+<w>si</w>
+<w>s'</w>
+<w>en</w>
+<w>depart</w>
+<w>Renart</w>
+<w type="pon">,</w>
+<lb n="12707"/>
+<w>si</w>
+<w>se</w>
+<w>va</w>
+<w>droit</w>
+<w>a</w>
+<w>une</w>
+<w>haie</w>
+<w type="pon">.</w>
+</s>
+<lb n="12708"/>
+<s n="381">
+<w>Et</w>
+<w>Tibert</w>
+<w>durement</w>
+<w>s'</w>
+<w>esmaie</w>
+<w type="pon">,</w>
+<lb n="12709"/>
+<w>qui</w>
+<w>de</w>
+<w>soner</w>
+<w>est</w>
+<w>si</w>
+<w>ataint</w>
+<lb n="12710"/>
+<w>a</w>
+<w>bien</w>
+<w>poi</w>
+<w>que</w>
+<w>il</w>
+<w>n'</w>
+<w>est</w>
+<w>estaint</w>
+<w type="pon">,</w>
+<lb n="12711"/>
+<w>ne</w>
+<w>se</w>
+<w>pooit</w>
+<w>mais</w>
+<w>preu</w>
+<w>aidier</w>
+<w type="pon">.</w>
+</s>
+<lb n="12712"/>
+<s n="382">
+<w>Et</w>
+<w>li</w>
+<w>vilains</w>
+<w type="pon">,</w>
+<w>qui</w>
+<w>dou</w>
+<w>mostier</w>
+<lb n="12713"/>
+<w>estoit</w>
+<w>avant</w>
+<w>Renart</w>
+<w>tornez</w>
+<w type="pon">,</w>
+<lb n="12714"/>
+<w>si</w>
+<w>avoit</w>
+<w>tantost</w>
+<w>encontrez</w>
+<lb n="12715"/>
+<w>bien</w>
+<w>plus</w>
+<w>de</w>
+<w type="num">.XX.</w>
+<w>vilains</w>
+<w>plains</w>
+<w>d'</w>
+<w>ire</w>
+<w type="pon">,</w>
+<lb n="12716"/>
+<w>qui</w>
+<w>tuit</w>
+<w>li</w>
+<w>conmencent</w>
+<w>a</w>
+<w>dire</w>
+<w type="pon">:</w>
+</s>
+<lb n="12717"/>
+<q>
+<s>
+<w type="pon">«</w>
+<w>Fuste</w>
+<w>vos</w>
+<w>hui</w>
+<w>a</w>
+<w>cest</w>
+<w>mostier</w>
+<w type="pon">?</w>
+<lb n="12718"/>
+<w type="pon">-</w>
+</s>
+<s n="383">
+<w>Oïl</w>
+<w type="pon">,</w>
+<w>fait</w>
+<w>il</w>
+<w type="pon">;</w>
+<w type="num">.I.</w>
+<w>aversier</w>
+<lb n="12719"/>
+<w>i</w>
+<w>ai</w>
+<w>veü</w>
+<w type="pon">,</w>
+<w>ce</w>
+<w>vos</w>
+<w>afi</w>
+<w type="pon">;</w>
+<lb n="12720"/>
+<w>n'</w>
+<w>alez</w>
+<w>pas</w>
+<w>en</w>
+<w>avant</w>
+<w>de</w>
+<w>ci</w>
+<w type="pon">,</w>
+<lb n="12721"/>
+<w>car</w>
+<w>as</w>
+<w>cordes</w>
+<w>pant</w>
+<w type="num">.I.</w>
+<w>dïauble</w>
+<w type="pon">;</w>
+<pb n="107"/>
+<lb n="12722"/>
+<w>ne</w>
+<w>cuidiez</w>
+<w>pas</w>
+<w>que</w>
+<w>ce</w>
+<w>soit</w>
+<w>fable</w>
+<w type="pon">;</w>
+<lb n="12723"/>
+<w>et</w>
+<w>uns</w>
+<w>autres</w>
+<w>estoit</w>
+<w>lez</w>
+<w>lui</w>
+<w type="pon">.</w>
+</s>
+<lb n="12724"/>
+<s n="384">
+<w>Sachiez</w>
+<w>qu'</w>
+<w>i</w>
+<w>m'</w>
+<w>ont</w>
+<w>fait</w>
+<w>grant</w>
+<w>annui</w>
+<w type="pon">,</w>
+<lb n="12725"/>
+<w>qar</w>
+<w>quant</w>
+<w>je</w>
+<w>voil</w>
+<w>leanz</w>
+<w>antrer</w>
+<lb n="12726"/>
+<w>il</w>
+<w>me</w>
+<w>pritrent</w>
+<w>a</w>
+<w>escrïer</w>
+<w type="pon">,</w>
+<lb n="12727"/>
+<w>et</w>
+<w>je</w>
+<w>m'</w>
+<w>en</w>
+<w>fouï</w>
+<w>conme</w>
+<w>uns</w>
+<w>lievres</w>
+<w type="pon">;</w>
+<lb n="12728"/>
+<w>si</w>
+<w>m'</w>
+<w>en</w>
+<w>sont</w>
+<w>ja</w>
+<w>prisses</w>
+<w>les</w>
+<w>fievres</w>
+<lb n="12729"/>
+<w>et</w>
+<w>autre</w>
+<w>mal</w>
+<w>encor</w>
+<w>assez</w>
+<w type="pon">,</w>
+<lb n="12730"/>
+<w>si</w>
+<w>ai</w>
+<w>esté</w>
+<w>espoantez</w>
+<w type="pon">;</w>
+<lb n="12731"/>
+<w>encore</w>
+<w>ore</w>
+<w>me</w>
+<w>suivoit</w>
+<w>il</w>
+<w type="pon">.</w>
+<lb n="12732"/>
+<w type="pon">-</w>
+</s>
+<s n="385">
+<w>Venez</w>
+<w>arriere</w>
+<w type="pon">»</w>
+<w type="pon">,</w>
+</s>
+</q>
+  <s>
+<w>font</w>
+<w>se</w>
+<w>il</w>
+<w type="pon">.</w>
+</s>
+</ab>
+<ab rend="strophe">
+<lb n="12733"/>
+<s n="386">
+<w>A</w>
+<w>tant</w>
+<w>retorne</w>
+<w>li</w>
+<w>vilains</w>
+<w type="pon">,</w>
+<lb n="12734"/>
+<w>qui</w>
+<w>des</w>
+<w>fievres</w>
+<w>estoit</w>
+<w>ja</w>
+<w>plains</w>
+<w type="pon">,</w>
+<lb n="12735"/>
+<w>si</w>
+<w>va</w>
+<w>avés</w>
+<w>aus</w>
+<w>au</w>
+<w>mostier</w>
+<w type="pon">,</w>
+<lb n="12736"/>
+<w>si</w>
+<w>lor</w>
+<w>a</w>
+<w>dist</w>
+<w type="pon">:</w>
+</s>
+<q>
+<s>
+<w type="pon">«</w>
+<w>Par</w>
+<w>saint</w>
+<w>Richier</w>
+<w type="pon">,</w>
+<lb n="12737"/>
+<w>se</w>
+<w>m'</w>
+<w>en</w>
+<w>creez</w>
+<w type="pon">,</w>
+<w>n'</w>
+<w>i</w>
+<w>enterroiz</w>
+<lb n="12738"/>
+<w>que</w>
+<w>li</w>
+<w>daiaubles</w>
+<w>est</w>
+<w>tout</w>
+<w>droit</w>
+<lb n="12739"/>
+<w>et</w>
+<w>par</w>
+<w>le</w>
+<w>col</w>
+<w>et</w>
+<w>par</w>
+<w>les</w>
+<w>piez</w>
+<w type="pon">,</w>
+<lb n="12740"/>
+<w>et</w>
+<w>as</w>
+<w>cordes</w>
+<w>est</w>
+<w>atachiez</w>
+<w type="pon">.</w>
+<lb n="12741"/>
+<w type="pon">-</w>
+</s>
+<s n="387">
+<w>C'</w>
+<w>est</w>
+<w>neanz</w>
+<w type="pon">,</w>
+<w>li</w>
+<w>uns</w>
+<w>respondi</w>
+<w type="pon">;</w>
+<lb n="12742"/>
+<w>avant</w>
+<w type="pon">,</w>
+<w>fait</w>
+<w>il</w>
+<w type="pon">,</w>
+<w>barons</w>
+<w>hardi</w>
+<w type="pon">.</w>
+<w type="pon">»</w>
+</s>
+</q>
+<lb n="12743"/>
+<s n="388">
+<w>A</w>
+<w>tant</w>
+<w>sont</w>
+<w>ou</w>
+<w>moutier</w>
+<w>venu</w>
+<w type="pon">.</w>
+</s>
+<lb n="12744"/>
+<s n="389">
+<w>Li</w>
+<w>vilains</w>
+<w type="pon">,</w>
+<w>qui</w>
+<w>fu</w>
+<w>esperdu</w>
+<w type="pon">,</w>
+<lb n="12745"/>
+<w>s'</w>
+<w>en</w>
+<w>va</w>
+<w>toujorz</w>
+<w>traiant</w>
+<w>arriere</w>
+<w type="pon">,</w>
+<lb n="12746"/>
+<w>que</w>
+<w>cuarz</w>
+<w>est</w>
+<w>de</w>
+<w>grant</w>
+<w>maniere</w>
+<w type="pon">.</w>
+</s>
+<lb n="12747"/>
+<s n="390">
+<w>Li</w>
+<w>autre</w>
+<w>sont</w>
+<w>alez</w>
+<w>avant</w>
+<w type="pon">;</w>
+<lb n="12748"/>
+<w>dant</w>
+<w>Tibert</w>
+<w>troverent</w>
+<w>pendant</w>
+<lb n="12749"/>
+<w>as</w>
+<w>cordes</w>
+<w type="pon">,</w>
+<w>si</w>
+<w>l'</w>
+<w>ont</w>
+<w>conjuré</w>
+<lb n="12750"/>
+<w>que</w>
+<w>il</w>
+<w>lor</w>
+<w>dïe</w>
+<w>verité</w>
+<w type="pon">,</w>
+<lb n="12751"/>
+<w>se</w>
+<w>il</w>
+<w>est</w>
+<w>bone</w>
+<w>chose</w>
+<w>ou</w>
+<w>non</w>
+<w type="pon">.</w>
+</s>
+<lb n="12752"/>
+<s n="391">
+<w>Il</w>
+<w>ne</w>
+<w>respont</w>
+<w>ne</w>
+<w>o</w>
+<w>ne</w>
+<w>non</w>
+<w type="pon">,</w>
+<lb n="12753"/>
+<w>et</w>
+<w>il</w>
+<w>l'</w>
+<w>en</w>
+<w>ont</w>
+<w>encor</w>
+<w>parlé</w>
+<lb n="12754"/>
+<w>et</w>
+<w>autre</w>
+<w>foiz</w>
+<w>l'</w>
+<w>ont</w>
+<w>conguré</w>
+<w type="pon">.</w>
+<pb n="108"/>
+</s>
+<lb n="12755"/>
+<s n="392">
+<w>Il</w>
+<w>ne</w>
+<w>respont</w>
+<w>ne</w>
+<w>tant</w>
+<w>ne</w>
+<w>qant</w>
+<w type="pon">.</w>
+</s>
+<lb n="12756"/>
+<q>
+<s>
+<w type="pon">«</w>
+<w>Tierce</w>
+<w>foiz</w>
+<w type="pon">,</w>
+<w>dïent</w>
+<w>li</w>
+<w>auqant</w>
+<w type="pon">,</w>
+<lb n="12757"/>
+<w>le</w>
+<w>covient</w>
+<w>encor</w>
+<w>conjurer</w>
+<w type="pon">,</w>
+<lb n="12758"/>
+<w>et</w>
+<w>se</w>
+<w>a</w>
+<w>nous</w>
+<w>ne</w>
+<w>viaut</w>
+<w>parler</w>
+<w type="pon">,</w>
+<lb n="12759"/>
+<w>si</w>
+<w>l'</w>
+<w>asaillons</w>
+<w>hardïement</w>
+<w type="pon">.</w>
+<w type="pon">»</w>
+</s>
+</q>
+<lb n="12760"/>
+<s n="394">
+<w>Lors</w>
+<w>recorurent</w>
+<w>errantment</w>
+<w type="pon">;</w>
+<lb n="12761"/>
+<w>un</w>
+<w>bacheler</w>
+<w>preuz</w>
+<w>et</w>
+<w>hardiz</w>
+<lb n="12762"/>
+<w>plain</w>
+<w>pié</w>
+<w>est</w>
+<w>devent</w>
+<w>aus</w>
+<w>sailliz</w>
+<w type="pon">,</w>
+<lb n="12763"/>
+<w>si</w>
+<w>li</w>
+<w>a</w>
+<w>dit</w>
+<w type="pon">:</w>
+</s>
+<q>
+<s>
+<w type="pon">«</w>
+<w>Tu</w>
+<w>qui</w>
+<w>la</w>
+<w>panz</w>
+<w type="pon">,</w>
+<lb n="12764"/>
+<w>je</w>
+<w>te</w>
+<w>conjur</w>
+<w>de</w>
+<w>toutes</w>
+<w>genz</w>
+<lb n="12764a"/>
+<w>et</w>
+<w>de</w>
+<w>l'</w>
+<w>apostoile</w>
+<w>de</w>
+<w>Ronme</w>
+<w type="pon">,</w>
+<lb n="12764b"/>
+<w>que</w>
+<w>je</w>
+<w>ne</w>
+<w>sai</w>
+<w>or</w>
+<w>plus</w>
+<w>haut</w>
+<w>home</w>
+<lb n="12764c"/>
+<w>mais</w>
+<w>que</w>
+<w>sol</w>
+<w>nostre</w>
+<w>sire</w>
+<w>Dex</w>
+<w type="pon">,</w>
+<lb n="12764d"/>
+<w>ge</w>
+<w>te</w>
+<w>conjur</w>
+<w type="pon">,</w>
+<w>se</w>
+<w>tu</w>
+<w>es</w>
+<w>tex</w>
+<lb n="12765"/>
+<w>que</w>
+<w>tu</w>
+<w>doies</w>
+<w>parler</w>
+<w>as</w>
+<w>genz</w>
+<w type="pon">,</w>
+<lb n="12766"/>
+<w>a</w>
+<w>moi</w>
+<w>parole</w>
+<w>vistement</w>
+<w type="pon">;</w>
+<lb n="12767"/>
+<w>de</w>
+<w>ta</w>
+<w>foi</w>
+<w>et</w>
+<w>de</w>
+<w>ta</w>
+<w>creence</w>
+<lb n="12768"/>
+<w>te</w>
+<w>conjur</w>
+<w type="pon">,</w>
+<w>et</w>
+<w>dou</w>
+<w>roi</w>
+<w>de</w>
+<w>France</w>
+<lb n="12769"/>
+<w>et</w>
+<w>de</w>
+<w>trestoute</w>
+<w>la</w>
+<w>mainie</w>
+<lb n="12770"/>
+<w>qu'</w>
+<w>il</w>
+<w>maine</w>
+<w>o</w>
+<w>lui</w>
+<w>en</w>
+<w>conpaignie</w>
+<w type="pon">,</w>
+<lb n="12771"/>
+<w>et</w>
+<w>de</w>
+<w>par</w>
+<w>le</w>
+<w>roi</w>
+<w>d'</w>
+<w>Engleterre</w>
+<w type="pon">,</w>
+<lb n="12772"/>
+<w>de</w>
+<w>bois</w>
+<w type="pon">,</w>
+<w>de</w>
+<w>pré</w>
+<w type="pon">,</w>
+<w>de</w>
+<w>toute</w>
+<w>terre</w>
+<w type="pon">,</w>
+<lb n="12773"/>
+<w>et</w>
+<w>de</w>
+<w>trestote</w>
+<w>creature</w>
+<w type="pon">,</w>
+<lb n="12774"/>
+<w>de</w>
+<w>tes</w>
+<w>iauz</w>
+<w>et</w>
+<w>de</w>
+<w>ta</w>
+<w>faiture</w>
+<w type="pon">,</w>
+<lb n="12775"/>
+<w>que</w>
+<w>me</w>
+<w>dïe</w>
+<w>s'</w>
+<w>ies</w>
+<w>de</w>
+<w>par</w>
+<w>Dé</w>
+<w type="pon">.</w>
+</s>
+<lb n="12776"/>
+<s n="395">
+<w>Ou</w>
+<w type="pon">,</w>
+<w>par</w>
+<w>celi</w>
+<w>qui</w>
+<w>me</w>
+<w>fist</w>
+<w>né</w>
+<w type="pon">,</w>
+<lb n="12777"/>
+<w>ja</w>
+<w>te</w>
+<w>verras</w>
+<w>tout</w>
+<w>detranchier</w>
+<w type="pon">.</w>
+</s>
+<lb n="12778"/>
+<s n="396">
+<w>Ne</w>
+<w>voiz</w>
+<w>tu</w>
+<w>ci</w>
+<w>le</w>
+<w>brant</w>
+<w>d'</w>
+<w>acier</w>
+<w type="pon">?</w>
+<lb n="12779"/>
+<w type="pon">-</w>
+</s>
+<s n="397">
+<w>Noienz</w>
+<w>est</w>
+<w type="pon">,</w>
+<w>cil</w>
+<w>ont</w>
+<w>respondu</w>
+<w type="pon">.</w>
+</s>
+<lb n="12780"/>
+<s n="398">
+<w>Avant</w>
+<w type="pon">,</w>
+<w>font</w>
+<w>il</w>
+<w type="pon">,</w>
+<w>barons</w>
+<w>cremu</w>
+<w type="pon">:</w>
+<lb n="12781"/>
+<w>asaillons</w>
+<w>lou</w>
+<w>destre</w>
+<w>et</w>
+<w>senestre</w>
+<w type="pon">.</w>
+<w type="pon">»</w>
+</s>
+</q>
+<lb n="12782"/>
+<s n="399">
+<w>A</w>
+<w>tant</w>
+<w>es</w>
+<w>la</w>
+<w>meschine</w>
+<w>au</w>
+<w>prestre</w>
+<w type="pon">,</w>
+<lb n="12783"/>
+<w>si</w>
+<w>li</w>
+<w>passe</w>
+<w>conme</w>
+<w>desvee</w>
+<w type="pon">:</w>
+</s>
+<pb n="109"/>
+<lb n="12784"/>
+  <q>
+    <s>
+<w type="pon">«</w>
+<w>Avez</w>
+<w>vos</w>
+<w type="pon">,</w>
+<w>fait</w>
+<w>ele</w>
+<w type="pon">,</w>
+<w>trovee</w>
+<lb n="12785"/>
+<w>ceste</w>
+<w>eglise</w>
+<w>par</w>
+<w>pute</w>
+<w>estraine</w>
+<w type="pon">?</w>
+</s>
+<lb n="12786"/>
+<s n="400">
+<w>Ja</w>
+<w>est</w>
+<w>el</w>
+<w>mon</w>
+<w>saignor</w>
+<w>demaine</w>
+<w type="pon">;</w>
+<lb n="12787"/>
+<w>conparrez</w>
+<w>lou</w>
+<w type="pon">,</w>
+<w>se</w>
+<w>Diex</w>
+<w>me</w>
+<w>saut</w>
+<w type="pon">,</w>
+<lb n="12788"/>
+<w>se</w>
+<w>la</w>
+<w>quenoille</w>
+<w>ne</w>
+<w>me</w>
+<w>faut</w>
+<w type="pon">.</w>
+<w type="pon">»</w>
+</s>
+</q>
+<lb n="12789"/>
+<s n="401">
+<w>Ele</w>
+<w>li</w>
+<w>passe</w>
+<w>o</w>
+<w>sa</w>
+<w>quenoille</w>
+<lb n="12790"/>
+<w>et</w>
+<w>durement</w>
+<w>li</w>
+<w>dous</w>
+<w>li</w>
+<w>roille</w>
+<w type="pon">;</w>
+<lb n="12791"/>
+<w>Tibert</w>
+<w>en</w>
+<w>chauciere</w>
+<w>et</w>
+<w>tressaut</w>
+<w type="pon">,</w>
+<lb n="12792"/>
+<w>et</w>
+<w>por</w>
+<w>neant</w>
+<w type="pon">:</w>
+<w>riens</w>
+<w>ne</w>
+<w>li</w>
+<w>vaut</w>
+<w type="pon">,</w>
+<lb n="12793"/>
+<w>que</w>
+<w>il</w>
+<w>ne</w>
+<w>lor</w>
+<w>puet</w>
+<w>eschaper</w>
+<w type="pon">.</w>
+</s>
+<lb n="12794"/>
+<s n="402">
+<w>Lor</w>
+<w>saut</w>
+<w>li</w>
+<w>cointes</w>
+<w>bacheler</w>
+<w type="pon">,</w>
+<lb n="12795"/>
+<w>celui</w>
+<w>qui</w>
+<w>s'</w>
+<w>espee</w>
+<w>avoit</w>
+<w>traite</w>
+<w type="pon">,</w>
+<lb n="12796"/>
+<w>fiere</w>
+<w>envaïe</w>
+<w>li</w>
+<w>a</w>
+<w>faite</w>
+<w type="pon">;</w>
+<lb n="12797"/>
+<w>et</w>
+<w>cil</w>
+<w>qui</w>
+<w>tant</w>
+<w>l'</w>
+<w>ot</w>
+<w>conjuré</w>
+<lb n="12798"/>
+<w>est</w>
+<w>maintenant</w>
+<w>vers</w>
+<w>lui</w>
+<w>alé</w>
+<w type="pon">,</w>
+<lb n="12799"/>
+<w>entor</w>
+<w>son</w>
+<w>braz</w>
+<w>tortoille</w>
+<w>a</w>
+<w>masse</w>
+<lb n="12800"/>
+<w>son</w>
+<w>mantel</w>
+<w type="pon">,</w>
+<w>et</w>
+<w>puis</w>
+<w>si</w>
+<w>li</w>
+<w>passe</w>
+<w type="pon">;</w>
+<lb n="12801"/>
+<w>saigniez</w>
+<w>s'</w>
+<w>est</w>
+<w>et</w>
+<w>si</w>
+<w>va</w>
+<w>avant</w>
+<w type="pon">,</w>
+<lb n="12802"/>
+<w>un</w>
+<w>cop</w>
+<w>li</w>
+<w>rue</w>
+<w>en</w>
+<w>reculant</w>
+<lb n="12803"/>
+<w>que</w>
+<w>la</w>
+<w>maille</w>
+<w>de</w>
+<w>la</w>
+<w>pelice</w>
+<lb n="12804"/>
+<w>li</w>
+<w>fraint</w>
+<w>et</w>
+<w>fause</w>
+<w>et</w>
+<w>deslice</w>
+<w type="pon">;</w>
+<lb n="12805"/>
+<w>si</w>
+<w>l'</w>
+<w>a</w>
+<w>feru</w>
+<w>de</w>
+<w>grant</w>
+<w>aïr</w>
+<lb n="12806"/>
+<w>a</w>
+<w>terre</w>
+<w>a</w>
+<w>fait</w>
+<w type="num">.I.</w>
+<w>pan</w>
+<w>venir</w>
+<w type="pon">,</w>
+<lb n="12807"/>
+<w>mais</w>
+<w>ne</w>
+<w>l'</w>
+<w>a</w>
+<w>en</w>
+<w>char</w>
+<w>adesé</w>
+<w type="pon">;</w>
+<lb n="12808"/>
+<w>un</w>
+<w>poi</w>
+<w>li</w>
+<w>est</w>
+<w>le</w>
+<w>brant</w>
+<w>coulé</w>
+<w type="pon">,</w>
+<lb n="12809"/>
+<w>en</w>
+<w>tornant</w>
+<w>descent</w>
+<w>contre</w>
+<w>val</w>
+<w type="pon">,</w>
+<lb n="12810"/>
+<w>ne</w>
+<w>li</w>
+<w>a</w>
+<w>fait</w>
+<w>gaires</w>
+<w>de</w>
+<w>mal</w>
+<w type="pon">.</w>
+</s>
+<lb n="12811"/>
+<q>
+<s>
+<w type="pon">«</w>
+<w>Voiz</w>
+<w>com</w>
+<w>ore</w>
+<w>tranche</w>
+<w>m'</w>
+<w>espee</w>
+<w type="pon">;</w>
+<lb n="12812"/>
+<w>s'</w>
+<w>ele</w>
+<w>ne</w>
+<w>fust</w>
+<w>un</w>
+<w>poi</w>
+<w>tornée</w>
+<w type="pon">,</w>
+<lb n="12813"/>
+<w>ja</w>
+<w>en</w>
+<w>eüsse</w>
+<w>pris</w>
+<w>vangance</w>
+<w type="pon">.</w>
+<w type="pon">»</w>
+</s>
+</q>
+<lb n="12814"/>
+<s n="404">
+<w>Lor</w>
+<w>saut</w>
+<w>uns</w>
+<w>vilains</w>
+<w>o</w>
+<w>sa</w>
+<w>lance</w>
+<w type="pon">,</w>
+<lb n="12815"/>
+<w>si</w>
+<w>li</w>
+<w>refait</w>
+<w>une</w>
+<w>anvaïe</w>
+<w type="pon">;</w>
+<lb n="12816"/>
+<w>a</w>
+<w type="num">.II.</w>
+<w>mains</w>
+<w>l'</w>
+<w>a</w>
+<w>forment</w>
+<w>brandie</w>
+<w type="pon">,</w>
+<pb n="110"/>
+<lb n="12817"/>
+<w>par</w>
+<w>mi</w>
+<w>le</w>
+<w>cors</w>
+<w>le</w>
+<w>vost</w>
+<w>ferir</w>
+<w type="pon">;</w>
+<lb n="12818"/>
+<w>mais</w>
+<w>Tibert</w>
+<w>li</w>
+<w>sot</w>
+<w>bien</w>
+<w>ganchir</w>
+<lb n="12819"/>
+<w>et</w>
+<w>li</w>
+<w>vilains</w>
+<w>outre</w>
+<w>passa</w>
+<w type="pon">:</w>
+<lb n="12820"/>
+<w>a</w>
+<w>une</w>
+<w>pierre</w>
+<w>s'</w>
+<w>acoupa</w>
+<w type="pon">,</w>
+<lb n="12821"/>
+<w>si</w>
+<w>chiet</w>
+<w>que</w>
+<w>la</w>
+<w>lance</w>
+<w>est</w>
+<w>brisie</w>
+<lb n="12822"/>
+<w>et</w>
+<w>une</w>
+<w>coste</w>
+<w>a</w>
+<w>peçoiee</w>
+<w type="pon">;</w>
+<lb n="12823"/>
+<w>et</w>
+<w>li</w>
+<w>bachelers</w>
+<w>ot</w>
+<w>l'</w>
+<w>espee</w>
+<w type="pon">,</w>
+<lb n="12824"/>
+<w>qui</w>
+<w>ot</w>
+<w>sa</w>
+<w>force</w>
+<w>recovree</w>
+<lb n="12825"/>
+<w>et</w>
+<w>tout</w>
+<w>repris</w>
+<w>son</w>
+<w>hardement</w>
+<w type="pon">,</w>
+<lb n="12826"/>
+<w>li</w>
+<w>est</w>
+<w>passez</w>
+<w>isnelement</w>
+<w type="pon">.</w>
+</s>
+<lb n="12827"/>
+<s n="405">
+<w>Li</w>
+<w>bachelers</w>
+<w>ot</w>
+<w>non</w>
+<w>Guillaume</w>
+<w type="pon">,</w>
+<lb n="12828"/>
+<w>ferir</w>
+<w>le</w>
+<w>cuida</w>
+<w>sor</w>
+<w>le</w>
+<w>hiaume</w>
+<w type="pon">,</w>
+<lb n="12829"/>
+<w>mais</w>
+<w>a</w>
+<w>cestui</w>
+<w>cop</w>
+<w>a</w>
+<w>failli</w>
+<w type="pon">,</w>
+<lb n="12830"/>
+<w>que</w>
+<w>Tibert</w>
+<w>li</w>
+<w>avoit</w>
+<w>ganchi</w>
+<w type="pon">,</w>
+<lb n="12831"/>
+<w>ne</w>
+<w>l'</w>
+<w>a</w>
+<w>mie</w>
+<w>a</w>
+<w>cel</w>
+<w>cop</w>
+<w>ataint</w>
+<w type="pon">,</w>
+<lb n="12832"/>
+<w>s'</w>
+<w>espee</w>
+<w>entre</w>
+<w>les</w>
+<w>poinz</w>
+<w>li</w>
+<w>fraint</w>
+<w type="pon">,</w>
+<lb n="12833"/>
+<w>einsi</w>
+<w>trespasse</w>
+<w>le</w>
+<w>tronçon</w>
+<w type="pon">,</w>
+<lb n="12834"/>
+<w>si</w>
+<w>l'</w>
+<w>a</w>
+<w>feru</w>
+<w>ou</w>
+<w>chaaingnon</w>
+<lb n="12835"/>
+<w>que</w>
+<w>li</w>
+<w>laz</w>
+<w>ou</w>
+<w>il</w>
+<w>fu</w>
+<w>laciez</w>
+<lb n="12836"/>
+<w>a</w>
+<w>a</w>
+<w>cest</w>
+<w>cop</w>
+<w>esté</w>
+<w>tranchiez</w>
+<w type="pon">.</w>
+</s>
+<lb n="12837"/>
+<s n="406">
+<w>Et</w>
+<w>Tibert</w>
+<w>chiet</w>
+<w type="pon">,</w>
+<w>qui</w>
+<w>ert</w>
+<w>mout</w>
+<w>las</w>
+<w type="pon">;</w>
+<lb n="12838"/>
+<w>fuiant</w>
+<w>s'</w>
+<w>en</w>
+<w>va</w>
+<w>plus</w>
+<w>que</w>
+<w>le</w>
+<w>pas</w>
+<w type="pon">.</w>
+</s>
+<lb n="12839"/>
+<s n="407">
+<w>Et</w>
+<w>li</w>
+<w>vilains</w>
+<w>fu</w>
+<w>esbahiz</w>
+<w type="pon">;</w>
+<lb n="12840"/>
+<w>par</w>
+<w>mi</w>
+<w>l'</w>
+<w>uis</w>
+<w>en</w>
+<w>estoit</w>
+<w>sailliz</w>
+<w type="pon">,</w>
+<lb n="12841"/>
+<w>car</w>
+<w>de</w>
+<w>lui</w>
+<w>ocirre</w>
+<w>iert</w>
+<w>engrés</w>
+<w type="pon">;</w>
+<lb n="12842"/>
+<w>si</w>
+<w>lor</w>
+<w>escrie</w>
+<w type="pon">:</w>
+</s>
+<q>
+<s>
+<w type="pon">«</w>
+<w>O</w>
+<w type="pon">!</w>
+</s>
+<s n="408">
+<w>tost</w>
+<w>aprés</w>
+<w type="pon">.</w>
+<w type="pon">»</w>
+</s>
+</q>
+<lb n="12843"/>
+<s n="409">
+<w>Il</w>
+<w>l'</w>
+<w>enchaucierent</w>
+<w>durement</w>
+<w type="pon">;</w>
+<lb n="12844"/>
+<w>et</w>
+<w>il</w>
+<w>nes</w>
+<w>doute</w>
+<w>de</w>
+<w>neient</w>
+<w type="pon">,</w>
+<lb n="12845"/>
+<w>car</w>
+<w>la</w>
+<w>nuit</w>
+<w type="pon">,</w>
+<w>qui</w>
+<w>estoit</w>
+<w>oscure</w>
+<w type="pon">,</w>
+<lb n="12846"/>
+<w>lor</w>
+<w>fist</w>
+<w>deperdre</w>
+<w>l'</w>
+<w>avanture</w>
+<lb n="12847"/>
+<w>qui</w>
+<w>li</w>
+<w>estoit</w>
+<w>a</w>
+<w>avenir</w>
+<w type="pon">,</w>
+<lb n="12848"/>
+<w>que</w>
+<w>il</w>
+<w>ne</w>
+<w>devoit</w>
+<w>pas</w>
+<w>morir</w>
+<w type="pon">.</w>
+</s>
+</ab>
+<ab rend="strophe">
+<lb n="12849"/>
+<s n="410">
+<w>Li</w>
+<w>vilain</w>
+<w>s'</w>
+<w>en</w>
+<w>tornent</w>
+<w>a</w>
+<w>tant</w>
+<pb n="111"/>
+<lb n="12850"/>
+<w>et</w>
+<w>Tibert</w>
+<w>les</w>
+<w>va</w>
+<w>maudisant</w>
+<w type="pon">;</w>
+<lb n="12851"/>
+<w>les</w>
+<w>vilains</w>
+<w>et</w>
+<w>la</w>
+<w>pute</w>
+<w>au</w>
+<w>prestre</w>
+<lb n="12852"/>
+<w>a</w>
+<w>maudit</w>
+<w>et</w>
+<w>trestout</w>
+<w>lor</w>
+<w>estre</w>
+<w type="pon">,</w>
+<lb n="12853"/>
+<w>et</w>
+<w>puis</w>
+<w>Renart</w>
+<w>et</w>
+<w>s'</w>
+<w>atraïne</w>
+<w type="pon">.</w>
+</s>
+<lb n="12854"/>
+<s n="411">
+<w>Que</w>
+<w>que</w>
+<w>Tibert</w>
+<w>si</w>
+<w>s'</w>
+<w>achemine</w>
+<w type="pon">,</w>
+<lb n="12855"/>
+<w>li</w>
+<w>est</w>
+<w>venuz</w>
+<w>Renart</w>
+<w>devant</w>
+<lb n="12856"/>
+<w>en</w>
+<w>sa</w>
+<w>voie</w>
+<w type="pon">:</w>
+</s>
+<q>
+<s>
+<w type="pon">«</w>
+<w>Par</w>
+<w>saint</w>
+<w>Climent</w>
+<w type="pon">,</w>
+<lb n="12857"/>
+<w>ahi</w>
+<w type="pon">,</w>
+<w>fait</w>
+<w>il</w>
+<w type="pon">,</w>
+<w>bons</w>
+<w>ordenez</w>
+<w type="pon">,</w>
+<lb n="12858"/>
+<w>de</w>
+<w>vostre</w>
+<w>ofrande</w>
+<w>nos</w>
+<w>donez</w>
+<w type="pon">,</w>
+<lb n="12859"/>
+<w>por</w>
+<w>amor</w>
+<w>Dieu</w>
+<w type="pon">,</w>
+<w>biaux</w>
+<w>tres</w>
+<w>douz</w>
+<w>sire</w>
+<w type="pon">,</w>
+<lb n="12860"/>
+<w>que</w>
+<w>Diex</w>
+<w>le</w>
+<w>pere</w>
+<w>le</w>
+<w>vos</w>
+<w>mire</w>
+<w type="pon">;</w>
+<lb n="12861"/>
+<w>et</w>
+<w>si</w>
+<w>me</w>
+<w>contez</w>
+<w>de</w>
+<w>vostre</w>
+<w>estre</w>
+<w type="pon">,</w>
+<lb n="12862"/>
+<w>que</w>
+<w>de</w>
+<w>vostre</w>
+<w>ordre</w>
+<w>vorré</w>
+<w>estre</w>
+<w type="pon">,</w>
+<lb n="12863"/>
+<w>car</w>
+<w>mout</w>
+<w>vos</w>
+<w>siet</w>
+<w>or</w>
+<w>cele</w>
+<w>estole</w>
+<lb n="12864"/>
+<w>qui</w>
+<w>tout</w>
+<w>vostre</w>
+<w>biau</w>
+<w>col</w>
+<w>acole</w>
+<w type="pon">:</w>
+<lb n="12865"/>
+<w>mais</w>
+<w>por</w>
+<w>Dieu</w>
+<w type="pon">,</w>
+<w>sire</w>
+<w type="pon">,</w>
+<w>qui</w>
+<w>l'</w>
+<w>i</w>
+<w>mist</w>
+<lb n="12866"/>
+<w>de</w>
+<w>grant</w>
+<w>folie</w>
+<w>s'</w>
+<w>entremist</w>
+<w type="pon">,</w>
+<lb n="12867"/>
+<w>que</w>
+<w>ce</w>
+<w>resanble</w>
+<w>chaiaignon</w>
+<lb n="12868"/>
+<w>a</w>
+<w>coi</w>
+<w>l'</w>
+<w>en</w>
+<w>ait</w>
+<w>pandu</w>
+<w>larron</w>
+<w type="pon">.</w>
+</s>
+</q>
+</ab>
+<ab rend="strophe">
+<lb n="12869"/>
+  <q>
+<s n="412">
+<w type="pon">-</w>
+<w>Renart</w>
+<w type="pon">,</w>
+<w>ce</w>
+<w>dit</w>
+<w>Tiberz</w>
+<w>li</w>
+<w>chaz</w>
+<w type="pon">,</w>
+<lb n="12870"/>
+<w>male</w>
+<w>avanture</w>
+<w>ait</w>
+<w>tes</w>
+<w>baraz</w>
+<lb n="12871"/>
+<w>et</w>
+<w>trestoute</w>
+<w>la</w>
+<w>teue</w>
+<w>foi</w>
+<w type="pon">.</w>
+<w type="pon">»</w>
+<lb n="12872"/>
+<w type="pon">-</w>
+</s>
+<s n="413">
+<w>Dites</w>
+<w>vos</w>
+<w type="pon">,</w>
+<w>dist</w>
+<w>Renart</w>
+<w type="pon">,</w>
+<w>a</w>
+<w>moi</w>
+<w type="pon">?</w>
+<lb n="12873"/>
+<w type="pon">-</w>
+</s>
+<s n="414">
+<w>Oïl</w>
+<w>voir</w>
+<w type="pon">,</w>
+<w>Tibert</w>
+<w>respondi</w>
+<w type="pon">.</w>
+<lb n="12874"/>
+<w type="pon">-</w>
+</s>
+<s n="415">
+<w>De</w>
+<w>coi</w>
+<w>vos</w>
+<w>ai</w>
+<w>ge</w>
+<w>mal</w>
+<w>parti</w>
+<w type="pon">,</w>
+<lb n="12875"/>
+<w>sire</w>
+<w>Tibert</w>
+<w type="pon">?</w>
+</s>
+<s n="416">
+<w>Renart</w>
+<w>a</w>
+<w>dit</w>
+<w type="pon">.</w>
+</s>
+<lb n="12876"/>
+<s n="417">
+<w>Trestout</w>
+<w>aiez</w>
+<w>sanz</w>
+<w>contredist</w>
+<w type="pon">;</w>
+<lb n="12877"/>
+<w>vostre</w>
+<w>ofrande</w>
+<w>toute</w>
+<w>l'</w>
+<w>aiez</w>
+<w type="pon">.</w>
+</s>
+<lb n="12878"/>
+<s n="418">
+<w>Iestes</w>
+<w>vos</w>
+<w>ore</w>
+<w>bien</w>
+<w>paiez</w>
+<w type="pon">?</w>
+</s>
+<lb n="12879"/>
+<s n="419">
+<w>Anuit</w>
+<w>avez</w>
+<w>parti</w>
+<w>et</w>
+<w>pris</w>
+<w type="pon">,</w>
+<lb n="12880"/>
+<w>mes</w>
+<w>de</w>
+<w>tant</w>
+<w>avïez</w>
+<w>mespris</w>
+<lb n="12881"/>
+<w>que</w>
+<w>cil</w>
+<w>n'</w>
+<w>en</w>
+<w>avoit</w>
+<w>point</w>
+<w>eü</w>
+<lb n="12882"/>
+<w>qui</w>
+<w>a</w>
+<w>l'</w>
+<w>evangile</w>
+<w>o</w>
+<w>vous</w>
+<w>fu</w>
+<w type="pon">,</w>
+<pb n="112"/>
+<lb n="12883"/>
+<w>Renart</w>
+<w type="pon">,</w>
+<w>vostre</w>
+<w>bon</w>
+<w>conpaignon</w>
+<w type="pon">.</w>
+</s>
+<lb n="12884"/>
+<s n="420">
+<w>Mais</w>
+<w>tenez</w>
+<w>vos</w>
+<w type="pon">,</w>
+<w>si</w>
+<w>oiez</w>
+<w>mon</w>
+<lb n="12885"/>
+<w>que</w>
+<w>dedanz</w>
+<w>cest</w>
+<w>brief</w>
+<w>ici</w>
+<w>a</w>
+<w type="pon">,</w>
+<lb n="12886"/>
+<w>que</w>
+<w>orandroit</w>
+<w>le</w>
+<w>m'</w>
+<w>envoia</w>
+<lb n="12887"/>
+<w>mesire</w>
+<w>Huon</w>
+<w>le</w>
+<w>doien</w>
+<w type="pon">;</w>
+<lb n="12888"/>
+<w>si</w>
+<w>vos</w>
+<w>mande</w>
+<w>que</w>
+<w>a</w>
+<w>Ruen</w>
+<lb n="12889"/>
+<w>saiez</w>
+<w>lundi</w>
+<w>avant</w>
+<w>mangier</w>
+<w type="pon">,</w>
+<lb n="12890"/>
+<w>tot</w>
+<w>prest</w>
+<w>a</w>
+<w>eure</w>
+<w>de</w>
+<w>plaidier</w>
+<lb n="12891"/>
+<w>encontre</w>
+<w>le</w>
+<w>prestre</w>
+<w>de</w>
+<w>Brueill</w>
+<w type="pon">,</w>
+<lb n="12892"/>
+<w>qui</w>
+<w>a</w>
+<w>escrit</w>
+<w>dedanz</w>
+<w>cest</w>
+<w>fueil</w>
+<w type="pon">;</w>
+<lb n="12893"/>
+<w>et</w>
+<w type="pon">,</w>
+<w>se</w>
+<w>vos</w>
+<w>bien</w>
+<w>ne</w>
+<w>m'</w>
+<w>en</w>
+<w>creez</w>
+<w type="pon">,</w>
+<lb n="12894"/>
+<w>venez</w>
+<w>avant</w>
+<w>et</w>
+<w>si</w>
+<w>veez</w>
+<w type="pon">.</w>
+</s>
+<lb n="12895"/>
+<s n="421">
+<w>Et</w>
+<w>plus</w>
+<w>i</w>
+<w>a</w>
+<w>encore</w>
+<w>ou</w>
+<w>brif</w>
+<lb n="12896"/>
+<w>que</w>
+<w>ne</w>
+<w>vos</w>
+<w>ai</w>
+<w>dit</w>
+<w type="pon">,</w>
+<w>par</w>
+<w>mon</w>
+<w>chief</w>
+<w type="pon">:</w>
+<lb n="12897"/>
+<w>le</w>
+<w>mostier</w>
+<w>a</w>
+<w>mis</w>
+<w>en</w>
+<w>defoiz</w>
+<w type="pon">:</w>
+<lb n="12898"/>
+<w>vos</w>
+<w>ne</w>
+<w>chanterez</w>
+<w>mes</w>
+<w>des</w>
+<w>mois</w>
+<w type="pon">,</w>
+<lb n="12899"/>
+<w>ne</w>
+<w>mes</w>
+<w>aan</w>
+<w type="pon">,</w>
+<w>de</w>
+<w>ci</w>
+<w>que</w>
+<w>la</w>
+<lb n="12900"/>
+<w>que</w>
+<w>avrez</w>
+<w>de</w>
+<w>fide</w>
+<w>lesa</w>
+<lb n="12901"/>
+<w>respondu</w>
+<w>devant</w>
+<w>l'</w>
+<w>arcevesque</w>
+<w type="pon">,</w>
+<lb n="12902"/>
+<w>ou</w>
+<w>a</w>
+<w>la</w>
+<w>cort</w>
+<w>devant</w>
+<w>l'</w>
+<w>evesque</w>
+<w type="pon">:</w>
+<lb n="12903"/>
+<w>mon</w>
+<w>saignor</w>
+<w>Gautier</w>
+<w>de</w>
+<w>Coutences</w>
+<lb n="12904"/>
+<w>avïons</w>
+<w>mises</w>
+<w>noz</w>
+<w>santances</w>
+<lb n="12905"/>
+<w>li</w>
+<w>prestres</w>
+<w>et</w>
+<w>je</w>
+<w>sanz</w>
+<w>mantir</w>
+<w type="pon">;</w>
+<lb n="12906"/>
+<w>ansanble</w>
+<w>volïons</w>
+<w>tenir</w>
+<w type="pon">,</w>
+<lb n="12907"/>
+<w>fait</w>
+<w>soi</w>
+<w>Renart</w>
+<w type="pon">,</w>
+<w>se</w>
+<w>vos</w>
+<w>volez</w>
+<w type="pon">.</w>
+<w type="pon">»</w>
+</s>
+</q>
+<lb n="12908"/>
+<s n="422">
+<w>Lors</w>
+<w>par</w>
+<w>fu</w>
+<w>Tibert</w>
+<w>adolez</w>
+<w type="pon">,</w>
+<lb n="12909"/>
+<w>tristes</w>
+<w>fu</w>
+<w>et</w>
+<w>dolanz</w>
+<w>et</w>
+<w>maz</w>
+<w type="pon">,</w>
+<lb n="12910"/>
+<w>et</w>
+<w>por</w>
+<w>les</w>
+<w>cous</w>
+<w>et</w>
+<w>por</w>
+<w>les</w>
+<w>gaz</w>
+<w type="pon">,</w>
+<lb n="12911"/>
+<w>si</w>
+<w>s'</w>
+<w>en</w>
+<w>va</w>
+<w>droit</w>
+<w>en</w>
+<w>sa</w>
+<w>maison</w>
+<w type="pon">.</w>
+</s>
+<lb n="12912"/>
+<s n="423">
+<w>Si</w>
+<w>departent</w>
+<w>li</w>
+<w>conpaignon</w>
+<w type="pon">,</w>
+<lb n="12913"/>
+<w>ce</w>
+<w>dist</w>
+<w>l'</w>
+<w>estoire</w>
+<w>qui</w>
+<w>afine</w>
+<w type="pon">.</w>
+</s>
+<lb n="12914"/>
+<s n="424">
+<w>Renart</w>
+<w>s'</w>
+<w>en</w>
+<w>va</w>
+<w>a</w>
+<w>Ermeline</w>
+<w type="pon">,</w>
+<lb n="12915"/>
+<w>si</w>
+<w>encontra</w>
+<w>un</w>
+<w>gras</w>
+<w>oison</w>
+<pb n="113"/>
+<lb n="12916"/>
+<w>qu'</w>
+<w>il</w>
+<w>portera</w>
+<w>en</w>
+<w>sa</w>
+<w>maison</w>
+<lb n="12917"/>
+<w>por</w>
+<w>sa</w>
+<w>fame</w>
+<w>doner</w>
+<w>mangier</w>
+<w type="pon">,</w>
+<lb n="12918"/>
+<w>qui</w>
+<w>mout</w>
+<w>en</w>
+<w>avra</w>
+<w>bon</w>
+<w>mestier</w>
+<w type="pon">.</w>
+</s>
+<lb n="12919"/>
+<s n="425">
+<w>Si</w>
+<w>li</w>
+<w>a</w>
+<w>trestout</w>
+<w>raconté</w>
+<lb n="12920"/>
+<w>comment</w>
+<w>Tibert</w>
+<w>l'</w>
+<w>avoit</w>
+<w>mené</w>
+<w type="pon">,</w>
+<lb n="12921"/>
+<w>comment</w>
+<w>le</w>
+<w>prist</w>
+<w>a</w>
+<w>achoison</w>
+<w type="pon">.</w>
+</s>
+<lb n="12922"/>
+<s n="426">
+<w>Ce</w>
+<w>vos</w>
+<w>dist</w>
+<w>Richart</w>
+<w>de</w>
+<w>Lison</w>
+<lb n="12923"/>
+<w>qui</w>
+<w>tranlatee</w>
+<w>a</w>
+<w>ceste</w>
+<w>fable</w>
+<lb n="12924"/>
+<w>por</w>
+<w>doner</w>
+<w>a</w>
+<w>un</w>
+<w>connestable</w>
+<w type="pon">.</w>
+</s>
+<lb n="12925"/>
+<s n="427">
+<w>Il</w>
+<w>est</w>
+<w>normenz</w>
+<w type="pon">:</w>
+<w>s'</w>
+<w>il</w>
+<w>a</w>
+<w>mespris</w>
+<w type="pon">,</w>
+<lb n="12926"/>
+<w>il</w>
+<w>n'</w>
+<w>en</w>
+<w>doit</w>
+<w>ja</w>
+<w>estre</w>
+<w>repris</w>
+<lb n="12927"/>
+<w>se</w>
+<w>il</w>
+<w>i</w>
+<w>a</w>
+<w>de</w>
+<w>son</w>
+<w>langage</w>
+<w type="pon">,</w>
+<lb n="12928"/>
+<w>car</w>
+<w>fox</w>
+<w>neïs</w>
+<w>ne</w>
+<w>n'</w>
+<w>iert</w>
+<w>ja</w>
+<w>sage</w>
+<w type="pon">,</w>
+<lb n="12929"/>
+<w>n'</w>
+<w>il</w>
+<w>ne</w>
+<w>viaut</w>
+<w>guerpir</w>
+<w>sa</w>
+<w>nature</w>
+<w type="pon">,</w>
+<lb n="12930"/>
+<w>que</w>
+<w>Diex</w>
+<w>nostre</w>
+<w>sire</w>
+<w>n'</w>
+<w>a</w>
+<w>cure</w>
+<w type="pon">:</w>
+<lb n="12931"/>
+<w>toujorz</w>
+<w>siez</w>
+<w>la</w>
+<w>pome</w>
+<w>ou</w>
+<w>pomier</w>
+<w type="pon">.</w>
+</s>
+<lb n="12932"/>
+<s n="428">
+<w>Ne</w>
+<w>vos</w>
+<w>en</w>
+<w>voil</w>
+<w>avant</w>
+<w>traitier</w>
+<w type="pon">.</w>
+</s>
+</ab>
+</div>
+</body>
+</text>
+</TEI>

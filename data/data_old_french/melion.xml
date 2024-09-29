@@ -1,0 +1,803 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="main">Melion</title>
+      <title type="formal">melion</title>
+      <title type="reference">melion</title>
+      <title type="DEAF">MelionT</title>
+      <title type="gmd">transcription électronique</title>
+      <author xml:id="anonyme">anonyme</author>
+      <editor>Équipe de la Base de français médiéval - ENS de Lyon / UMR 5317 IHRIM</editor>
+      <funder>Laboratoire IHRIM</funder>
+    </titleStmt>
+    <editionStmt>
+      <edition>transcripion électronique</edition>
+      <respStmt xml:id="encoderDD">
+        <resp>balisage du discours direct</resp>
+        <name xml:id="AL">Alexei Lavrentiev</name>
+      </respStmt>
+      <respStmt xml:id="digitizer">
+        <resp>scannage et océrisation</resp>
+        <name xml:id="ES">Ekaterina Shcherbina</name>
+      </respStmt>
+      <respStmt xml:id="proofreader1">
+        <resp>révision de tout le texte</resp>
+        <name xml:id="PL">Pierre Levron</name>
+      </respStmt>
+      <respStmt xml:id="proofreader2">
+        <resp>révision de tout le texte</resp>
+        <name xml:id="VO">Vanessa Obry</name>
+      </respStmt>
+    </editionStmt>
+    <extent>- Numéros de pages saisies : de 296 à 316 ;
+            - Nombre de mots d'après la base des descripteurs : <num xml:id="nb_mots_given">3429</num> ;
+            - Nombre de tokens (mots et ponctuations) d'après la base des descripteurs : <num xml:id="nb_tokens_given">4073</num>.
+    </extent>
+    <publicationStmt>
+      <publisher><name>Projet BFM, ENS de Lyon / UMR 5317 IHRIM</name></publisher>
+      <address>
+        <addrLine>15, parvis René Descartes</addrLine>
+        <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+        <addrLine>Tél : 04 37 37 63 10</addrLine>
+        <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+        <addrLine>http://bfm.ens-lyon.fr</addrLine>
+      </address>
+      <idno type="bfm">http://catalog.bfm-corpus.org/melion</idno>
+      <idno type="doi">10.34847/nkl.2f683c5s</idno>
+      <availability status="free">
+        <licence target="https://www.etalab.gouv.fr/licence-ouverte-open-licence">
+          <ab type="availability_bfm" subtype="libre_1b">Les Conditions générales d'utilisation de la Base de Français Médiéval (http://txm.bfm-corpus.org/bfm/files/CGU.pdf), 
+            et notamment son Article 5 « PROPRIETE INTELLECTUELLE », s'appliquent à tous les textes de la BFM.</ab>
+          <ab type="how_to_cite">
+            <label>Comment citer ce texte :</label>
+            <bibl>Melion, édité par Prudence Mary O'Hara Tobin, Genève, 1976. 
+              Publié en ligne par la Base de français médiéval, http://catalog.bfm-corpus.org/melion.
+              Dernière révision le 2016-06-19.</bibl>
+            D'autres formules de citation de la BFM sont proposées sur la page web suivante :
+            http://bfm.ens-lyon.fr/article.php3?id_article=281.</ab>
+          <ab type="availability_file">
+            <label>Conditions d'utilisation de ce fichier :</label>
+              Ce fichier numérique est composé du corps de texte médiéval et des suppléments numériques : balisage XML-TEI, métadonnées (teiHeader), balisage du discours direct. Le texte et les suppléments numériques sont libres de droit et peuvent à ce titre être téléchargés et réutilisés librement.
+            </ab>
+            <ab type="availability_txmweb" subtype="illimité">
+              <label>Conditions d'utilisation par le portail BFM :</label>
+              Pas de limitation dans l'usage des fonctionnalités. Téléchargement autorisé.</ab>
+        </licence>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>Les lais anonymes : le lai de Melion</title>
+          <respStmt>
+            <resp xml:id="editor">Éditeur scientifique</resp>
+            <name type="person">Prudence Mary O'Hara Tobin</name>
+          </respStmt>
+        </titleStmt>
+          <extent>21 page(s), soit 296-316
+        </extent>
+        <publicationStmt>
+          <publisher>Droz</publisher>
+          <pubPlace>Genève</pubPlace>
+          <date>1976</date>
+          <idno type="sigle_DEAF">MelionT</idno>
+          <idno type="cote_biblio">ENS-LSH : 84/2 A lai</idno>
+        </publicationStmt><seriesStmt><title>Publications romanes et françaises</title><idno type="collection">143</idno></seriesStmt>
+      </biblFull>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p>Projet :<name type="project">BFM - Base de français médiéval</name>
+        Resp. : <name type="person">Céline Guillot-Barbance</name>
+        Équipe : Base de français médiéval
+        Laboratoire : UMR 5317 IHRIM
+        Institution : ENS de Lyon
+        <address>
+          <addrLine>15, parvis René Descartes</addrLine>
+          <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+          <addrLine>Tél : 04 37 37 63 10</addrLine>
+          <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+          <addrLine>http://bfm.ens-lyon.fr</addrLine>
+        </address>
+      </p>
+    </projectDesc>
+    <editorialDecl>
+      <p>Voir le <ref target="http://bfm.ens-lyon.fr/IMG/pdf/Manuel_Encodage_TEI.pdf">Manuel d'encodage XML-TEI de la BFM</ref>
+        et les <ref target="http://bfm.ens-lyon.fr/IMG/pdf/Consignes_BFM.pdf">Consignes aux relecteurs de la BFM</ref>.</p>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="ab" occurs="5"/>
+        <tagUsage gi="back" occurs="1"/>
+        <tagUsage gi="body" occurs="1"/>
+        <tagUsage gi="div" occurs="3"/>
+        <tagUsage gi="front" occurs="1"/>
+        <tagUsage gi="lb" occurs="594"/>
+        <tagUsage gi="num" occurs="38"/>
+        <tagUsage gi="p" occurs="4"/>
+        <tagUsage gi="pb" occurs="21"/>
+        <tagUsage gi="q" occurs="24"/>
+        <tagUsage gi="text" occurs="1"/>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <creation>
+      <name type="author">anonyme</name>
+      <title>Melion</title>
+      <date type="compo" when="1190-01-01" notBefore="1204-01-01" notAfter="1197-01-01" n="12">entre 1170 et 1267 et même après 1190 et av. 1204</date>
+      <date type="compo_periode">ancien</date>
+      <date type="compo_sous_siecle" n="12_3">fin</date>
+      <date type="ms" when="1268-01-01" notBefore="1267-01-01" notAfter="1268-12-31">1267-1268</date>
+      <idno type="msIdentifier">Paris, Arsenal, fr.3516 ©</idno>
+      <region type="dialecte_auteur">picard</region>
+    </creation>
+    <langUsage>
+      <language ident="fro" usage="100">Le texte est entièrement écrit en vers en ancien français.</language>
+    </langUsage>
+    <textDesc>
+      <channel mode="w">print</channel>
+      <constitution type="single"/>
+      <derivation type="original"/>
+      <domain type="littéraire"/>
+    <factuality type="inapplicable"/>
+      <interaction type="none"/>
+      <preparedness type="prepared"/>
+      <purpose type="narrative"/></textDesc>
+    <textClass>
+      <keywords scheme="http://authorities.bfm-corpus.org">
+        <term type="domaine">littéraire</term>
+        <term type="genre">récit bref</term>
+        <term type="forme">vers</term>
+        <term type="relation">original</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change who="#ES" when="2006-10-31">scannage et océrisation</change>
+    <change who="#PL" when="2006-12-31">révision de tout le texte</change>
+    <change who="#VO" when="2007-03-31">révision de tout le texte</change>
+    <change who="#AL" when="2016-06-19">balisage du discours direct</change>
+    <change who="#AL" when="2016-06-20">balisage, numérotation et vérifications finales</change>
+    <change when="2016-06-19">Dernière modification du texte</change>
+    <change when="2022-11-04">Création de cet entête</change>
+  </revisionDesc>
+</teiHeader>
+<text>
+<pb n="296"/>
+<front>
+<div type="titre">
+<p>CHI COMENCHE MELION</p>
+</div>
+</front>
+<body>
+<div>
+<ab type="gv">
+<lb n="1"/>Al tans que rois Artus regnoit,
+<lb n="2"/>cil ki les terres conqueroit,
+<lb n="3"/>e qui dona les riches dons
+<lb n="4"/>as chevaliers e as barons,
+<pb n="297"/>
+<lb n="5"/>avoit od lui <num>.I.</num> bacheler,
+<lb n="6"/>Melïon l'ai oï nomer ;
+<lb n="7"/>molt par estoit cortois e prous,
+<lb n="8"/>e amer se f aisoit a tos ;
+<lb n="9"/>molt ert de grant chevalerie
+<lb n="10"/>e de cortoise compaignie.
+<lb n="11"/>Li rois ot molt riche maisnie,
+<lb n="12"/>par tot le mont estoit proisie
+<lb n="13"/>de cortoisie e de proece 
+<lb n="14"/>e de bonté e de largece.
+<lb n="15"/>A icel jor lor veu faisoient,
+<lb n="16"/>e sachiés bien k'il le gardoient.
+<lb n="17"/>Cil Melïons <num>.I.</num> en voa
+<lb n="18"/>que a grant mal li atorna.
+<lb n="19"/>Il dist : <q>« Ja n'ameroit pucele
+<lb n="20"/>que tant seroit gentil ne bele,
+<lb n="21"/>que nul autre home eüst amé,
+<lb n="22"/>ne que de nul eüst parlé. »</q>
+<lb n="23"/>Une grant pièce fu ensi. 
+<lb n="24"/>Cil ki le veu orent oï,
+<lb n="25"/>en pluisors lieus le recorderent
+<lb n="26"/>e as puceles le conterent,
+<lb n="27"/>e qant les puceles l'oïrent
+<lb n="28"/>molt durement l'en enhaïrent.
+<lb n="29"/>Celes ki es canbres estoient
+<lb n="30"/>e ki la roïne servoient,
+<lb n="31"/>dont il en i ot plus de cent,
+<lb n="32"/>en ont tenu <num>.I.</num> parlement :
+<lb n="33"/>dïent jamais ne l'ameront,
+<lb n="34"/>n'encontre lui ne parleront,
+<lb n="35"/>dame nel voloit regarder,
+<lb n="36"/>ne pucelë a lui parler.
+<lb n="37"/>Qant Melïon ice oï,
+<pb n="298"/>
+<lb n="38"/>molt durement s'en asopli ;
+<lb n="39"/>ne voloit mais querre aventure,
+<lb n="40"/>ne d'armes porter n'avoit cure ;
+<lb n="41"/>molt fu dolans, molt asopli ;
+<lb n="42"/>e de son pris alques perdi.
+<lb n="43"/>Li rois le sot, molt l'en pesa,
+<lb n="44"/>mander le fist, a lui parla.
+<lb n="45"/><q>« Melïons, fait li rois Artus,
+<lb n="46"/>tes grans sens qu'est il devenus,
+<lb n="47"/>ton pris e ta chevalerie ?
+<lb n="48"/>Di que tu as, nel celes mie.
+<lb n="49"/>Se tu veus terre ne manoir,
+<lb n="50"/>n'autre cose que puisse avoir,
+<lb n="51"/>se il est en ma roiauté,
+<lb n="52"/>tu l'avras a ta volenté.
+<lb n="53"/>Volentiers te rehaiteroie,
+<lb n="54"/>ce dist li rois, si jo pooie.
+<lb n="55"/>Un castel ai sor cele mer,
+<lb n="56"/>en tot cest siecle n'a son per,
+<lb n="57"/>beax est de bois e de riviere
+<lb n="58"/>e de forest que molt as chiere.
+<lb n="59"/>Cel te donrai por rehaitier,
+<lb n="60"/>bien t'i porras esbanoier. »</q>
+<lb n="61"/>Li rois li a en fief doné,
+<lb n="62"/>Melïons l'en a mercïé.
+<lb n="63"/>A son castel en est alés,
+<lb n="64"/><num>.C.</num> chevaliers i a menés.
+<lb n="65"/>Li païs bien li conteça
+<lb n="66"/>e la forest que molt ama.
+<lb n="67"/>Qant il i ot <num>.I.</num> an esté,
+<lb n="68"/>molt a le païs enamé,
+<lb n="69"/>car ja deduit ne demandast
+<pb n="299"/>
+<lb n="70"/>que en la forest ne trovast.
+<lb n="71"/>Un jor estoit alé chacier
+<lb n="72"/>Melïon e si forestier.
+<lb n="73"/>Od lui furent si venëor
+<lb n="74"/>ki l'amerent de bone amor,
+<lb n="75"/>car ce estoit lor liges sire,
+<lb n="76"/>totes honors en lui remire.
+<lb n="77"/>Tost orent <num>.I.</num> grant cerf trové,
+<lb n="78"/>tost l'orent pris e descoplé.
+<lb n="79"/>En une lande s'aresta
+<lb n="80"/>por sa meute k'il escouta.
+<lb n="81"/>Od lui estoit uns escuiers,
+<lb n="82"/>en sa main tenoit <num>.II.</num> levriers.
+<lb n="83"/>En la lande qu'est verte e bele
+<lb n="84"/>vit Melïons une pucele
+<lb n="85"/>venir sor <num>.I.</num> bel palefroi ;
+<lb n="86"/>molt erent riche si conroi.
+<lb n="87"/>Un vermeil samit ot vestu,
+<lb n="88"/>estoit a las molt bien cosu,
+<lb n="89"/>a son col <num>.I.</num> mantel d'ermine,
+<lb n="90"/>ainc meillor n'afubla roïne.
+<lb n="91"/>Gent cors e bele espauleüre,
+<lb n="92"/>s'ot blonde la cheveleüre,
+<lb n="93"/>petite bouche bien mollee
+<lb n="94"/>e comme rose encoloree,
+<lb n="95"/>les ex ot vairs, clers e rians,
+<lb n="96"/>molt estoit bele en tos samblans ;
+<lb n="97"/>seule venoit sans compaignie,
+<lb n="98"/>molt par fu gente e escavie.
+<lb n="99"/>Melïon contre lui en va,
+<lb n="100"/>molt belement le salua.
+<lb n="101"/><q>« Bele, dist il, jo vos salu
+<pb n="300"/>
+<lb n="102"/>del Glorious le roi Jesu.
+<lb n="103"/>Dites moi dont vos estes nee,
+<lb n="104"/>e que ici vos a menee. »</q>
+<lb n="105"/>Cele respont : <q>« Jel vos dirai,
+<lb n="106"/>que ja de mot n'en mentirai ;
+<lb n="107"/>je sui assez de haut parage
+<lb n="108"/>e nee de gentil lignage.
+<lb n="109"/>D'Yrlande sui a vos venue,
+<lb n="110"/>sachiés que je sui molt vo drue.
+<lb n="111"/>Onques home fors vos n'amai,
+<lb n="112"/>ne jamais plus n'en amerai.
+<lb n="113"/>Forment vos ai oï loer,
+<lb n="114"/>onques ne voloie altre amer
+<lb n="115"/>fors vos tot seul ; ne jamais jor
+<lb n="116"/>vers nul autre n'avrai amor. »</q>
+<lb n="117"/>Qant Melïons a antendu
+<lb n="118"/>que si veu erent avenu,
+<lb n="119"/>par mi les flans l'a enbracie,
+<lb n="120"/>e plus de trente fois baisie.
+<lb n="121"/>Puis a tote sa gent mandee,
+<lb n="122"/>l'aventure lor a contee.
+<lb n="123"/>Cil ont veüe la pucele,
+<lb n="124"/>el roialme n'avoit tant bele.
+<lb n="125"/>A son castel l'en a mené,
+<lb n="126"/>molt ont grant joie demené.
+<lb n="127"/>A grant richoise l'espousa,
+<lb n="128"/>e molt grant joie en demena ;
+<lb n="129"/><num>.XV.</num> jors a li pas duré.
+<lb n="130"/><num>.III.</num> ans le tint en grant chierté,
+<lb n="131"/><num>.II.</num> fiex en ot en ces <num>.III.</num> ans,
+<lb n="132"/>molt par en fu lies e joians.
+<pb n="301"/>
+<lb n="133"/>Un jor en la forest ala,
+<lb n="134"/>sa chiere feme ot lui mena.
+<lb n="135"/>Un cerf trova, si l'ont chacié,
+<lb n="136"/>e il s'en fuit, le col baissié.
+<lb n="137"/><num>.I.</num> escuier o lui avoit
+<lb n="138"/>ki sa bercerië portoit.
+<lb n="139"/>En une lande sont entré,
+<lb n="140"/>en <num>.I.</num> buisson a regardé,
+<lb n="141"/>un molt grant cerf i voit estant,
+<lb n="142"/>sa feme regarde en riant.
+<lb n="143"/><q>- Dame, fait il, se jo voloie,
+<lb n="144"/><num>.I.</num> molt grant cerf vos mosterroie ;
+<lb n="145"/>veés le la en cel buisson.
+<lb n="146"/>- Par foi, fait ele, Melïon,
+<lb n="147"/>sachiés se jo de cel cerf n'ai,
+<lb n="148"/>que jo jamais ne mangerai. »</q>
+<lb n="149"/>Del palefroi chaï pasmee,
+<lb n="150"/>e Melïons l'a relevee.
+<lb n="151"/>Qant ne le pot reconforter,
+<lb n="152"/>molt durement prist a plorer.
+<lb n="153"/><q>- Dame, dist il, por Deu merci,
+<lb n="154"/>ne plorés mais, jo vos en pri ;
+<lb n="155"/>j'ai en ma main <num>.I.</num> tel anel,
+<lb n="156"/>ves le ci en mon doit manel ;
+<lb n="157"/><num>.II.</num> pieres a ens el caston,
+<lb n="158"/>onques si faites ne vit on,
+<lb n="159"/>l'une est blance, l'autre vermeille,
+<lb n="160"/>oïr en poés grant merveille :
+<pb n="302"/>
+<lb n="161"/>de la blance me toucerés
+<lb n="162"/>e sor mon chief le meterés,
+<lb n="163"/>qant jo serai despoilliés nus,
+<lb n="164"/>leus devenrai, grans e corsus.
+<lb n="165"/>Por vostre amor le cerf prendrai
+<lb n="166"/>e del lart vos aporterai.
+<lb n="167"/>Por Deu vos pri, ci m'atendés
+<lb n="168"/>e ma despoille me gardés.
+<lb n="169"/>Je vos lais ma vie e ma mort ;
+<lb n="170"/>il n'i aurait nul reconfort
+<lb n="171"/>se de l'autre touciés n'estoie ;
+<lb n="172"/>jamais nul jor hom ne seroie. »</q>
+<lb n="173"/>II apela son escuier,
+<lb n="174"/>si se commande a deschaucier.
+<lb n="175"/>Cil vint avant, sel descaucha,
+<lb n="176"/>e Melïon el bois entra.
+<lb n="177"/>Ses dras osta, nus est remez,
+<lb n="178"/>de son mantel s'est afublez.
+<lb n="179"/>Cele l'a de l'anel touchié
+<lb n="180"/>qant le vit nu e despoillié.
+<lb n="181"/>Lors devint leu grant e corsus,
+<lb n="182"/>en grant paine s'est enbatus.
+<lb n="183"/>Li leus s'en vait, molt tost corant
+<lb n="184"/>la ou il vit le cerf gisant,
+<lb n="185"/>tost se fu en la trace mis.
+<lb n="186"/>Anchois sera grant li estris
+<lb n="187"/>que il l'ait pris ne adesé,
+<lb n="188"/>ne que il avra del lardé.
+<lb n="189"/>La dame dist a l'escuier :
+<lb n="190"/><q>« Or le laissons assés chacier. »</q>
+<lb n="191"/>Montee est, plus ne se targa,
+<pb n="303"/> 
+<lb n="192"/>e l'escuier o lui mena.
+<lb n="193"/>Droit vers Yrlande, sa contree
+<lb n="194"/>en est la dame retornee.
+<lb n="195"/>Al havne vint, nef i trova,
+<lb n="196"/>as mariniers tantost parla
+<lb n="197"/>qui l'ont mené a Duveline,
+<lb n="198"/>une cité sor la marine
+<lb n="199"/>qui son pere ert, le roi d'Yrlande ;
+<lb n="200"/>des or ot ce qu'ele demande.
+<lb n="201"/>Lués qu'ele fu al port venue
+<lb n="202"/>a grant joie fu receüe.
+<lb n="203"/>De li lairomes aïtant,
+<lb n="204"/>de Melïon dirons avant.
+<lb n="205"/>Melïon ki le cerf chaça,
+<lb n="206"/>a grant merveille le hasta ;
+<lb n="207"/>en la lande l'a conseü,
+<lb n="208"/>tot maintenant l'a abatu,
+<lb n="209"/>puis prist de lui <num>.I.</num> grant lardé,
+<lb n="210"/>en sa bouche l'en a porté.
+<lb n="211"/>Hastivement s'en retorna
+<lb n="212"/>la ou il sa feme laissa ;
+<lb n="213"/>mais il ne l'i a pas trovee,
+<lb n="214"/>vers Yrlande s'en est tornee.
+<lb n="215"/>Molt fu dolans, ne set que face,
+<lb n="216"/>qant il ne le troeve en la place.
+<lb n="217"/>Mais neporqant se leus estoit,
+<lb n="218"/>sens e memoire d'orne avoit.
+<lb n="219"/>Tant atendi k'il avespra,
+<pb n="304"/>
+<lb n="220"/>une nef vit que on charga,
+<lb n="221"/>ki la nuit devoit eskiper,
+<lb n="222"/>e en Yrlande droit aler.
+<lb n="223"/>Envers cele part s'en ala,
+<lb n="224"/>tant atendi k'il anuita,
+<lb n="225"/>entrés i est par aventure,
+<lb n="226"/>car de sa vie n'avoit cure.
+<lb n="227"/>Sos une cloie s'est muciés
+<lb n="228"/>e s'est tapis e enbuissiés.
+<lb n="229"/>Li maronier se sont hasté,
+<lb n="230"/>car molt avoient bon oré ;
+<lb n="231"/>lors s'en tornerent vers Yrlande,
+<lb n="232"/>cascuns avoit quanque demande.
+<lb n="233"/>Il sachierent amont lor voiles,
+<lb n="234"/>al ciel corent, e as estoiles,
+<lb n="235"/>e l'endemain a l'ajornee
+<lb n="236"/>virent d'Yrlande la contree.
+<lb n="237"/>E qant il sont al port venu,
+<lb n="238"/>Melïon n'a plus atendu,
+<lb n="239"/>ains issi fors de son cloier,
+<lb n="240"/>de la nef sailli el gravier.
+<lb n="241"/>Li maronier l'ont escrié,
+<lb n="242"/>e de lor aviron geté ;
+<lb n="243"/>li uns l'a d'un baston feru,
+<lb n="244"/>a poi k'il ne l'ont retenu.
+<lb n="245"/>Lies est qant lor fu escapés, 
+<lb n="246"/>sor une montaigne est alés ;
+<lb n="247"/>molt a regardé le païs
+<lb n="248"/>ou il savoit ses anemis.
+<lb n="249"/>Encore avoit il son lardé
+<lb n="250"/>ke de sa terre ot aporté ;
+<lb n="251"/>grant faim avoit, si l'a mangié,
+<lb n="252"/>molt l'avoit la mer traveillié.
+<pb n="305"/>
+<lb n="253"/>En une forest est alés,
+<lb n="254"/>vaches e bues i a trovés ;
+<lb n="255"/>molt en ocit e estrangla,
+<lb n="256"/>iluec sa guerre comencha ;
+<lb n="257"/>plus en i a ocis de cent
+<lb n="258"/>a cest premier commencement.
+<lb n="259"/>La gent ki estoit el boscage,
+<lb n="260"/>virent des bestes le damage ;
+<lb n="261"/>corant vindrent a la cité,
+<lb n="262"/>al roi l'ont dit e aconté
+<lb n="263"/>qu'en la forest <num>.I.</num> leu avoit
+<lb n="264"/>ki le païs tot escilloit,
+<lb n="265"/>molt a ocis de lor almaille ;
+<lb n="266"/>mais tot ce tient li rois a faille.
+<lb n="267"/>Tant a alé par la forest,
+<lb n="268"/>par montaignes e par dessert,
+<lb n="269"/>que a <num>.X.</num> leus s'acompaigna ;
+<lb n="270"/>tant les blandi e losenga
+<lb n="271"/>que avoec lui les a menés,
+<lb n="272"/>e font totes ses volentés.
+<lb n="273"/>Par le païs molt se forvoient,
+<lb n="274"/>homes e femes malmenoient. 
+<lb n="275"/>Un an tot plain ont si esté,
+<lb n="276"/>tot le païs ont degasté,
+<lb n="277"/>homes e femes ocioient,
+<lb n="278"/>tote la terre destruioient.
+<lb n="279"/>Molt se savoient bien gaitier,
+<lb n="280"/>li rois nes pooit engingnier.
+<lb n="281"/>Une nuit orent molt erré,
+<lb n="282"/>traveillié furent e pené ;
+<lb n="283"/>en <num>.I.</num> bois joste Duveline
+<lb n="284"/>sor <num>.I.</num> tertre les la marine,
+<lb n="285"/>li bois estoit les une plaigne,
+<pb n="306"/>
+<lb n="286"/>tot environ ot grant compaigne,
+<lb n="287"/>por reposer i sont entré ;
+<lb n="288"/>traï seront e engané.
+<lb n="289"/>Un païsant les a veüs,
+<lb n="290"/>al roi en est tantost corus.
+<lb n="291"/><q>- Sire, dist il, el bois reont
+<lb n="292"/>li <num>.XI.</num> leu colchié s'i sont. »</q>
+<lb n="293"/>Qant li rois l'ot, molt en fu liés,
+<lb n="294"/>ses homes en a araisniés.
+<lb n="295"/>Li rois ses homes apela.
+<lb n="296"/><q>- Baron, dist il, entendés cha !
+<lb n="297"/>Sachiés de voir, les <num>.XI.</num> lous
+<lb n="298"/>en ma forest vit cis hom tous. »</q>
+<lb n="299"/>Les rois dont soelent les pors prandre
+<lb n="300"/>environ le bois ont fait tendre.
+<lb n="301"/>Qant on les ot tot portendus,
+<lb n="302"/>lors monta, n'i atarga plus ;
+<lb n="303"/>sa fille dist avoec venra
+<lb n="304"/>e la chace des leus verra.
+<lb n="305"/>Tantost se sont el bois alé,
+<lb n="306"/>tot coiement e a celé ;
+<lb n="307"/>le bois ont tot avironé,
+<lb n="308"/>car gent i ot a grant plenté
+<lb n="309"/>ki portent haces e maçues,
+<lb n="310"/>e li alqant espees nues.
+<lb n="311"/>Adont i ot <num>.M.</num> chiens hués
+<lb n="312"/>ki les leus orent tost trovés. 
+<pb n="307"/>
+<lb n="313"/>Melïon vit k'il ert traïs,
+<lb n="314"/>bien set que il est malbaillis.
+<lb n="315"/>Li chien les vont molt angoissant,
+<lb n="316"/>e il vienent as rois fuiant.
+<lb n="317"/>Tot sont detrancié e ocis,
+<lb n="318"/>un tos seus n'en escapa vis
+<lb n="319"/>fors Melïon, qui escapa,
+<lb n="320"/>par deseure les rois lança ;
+<lb n="321"/>en <num>.I.</num> grant bois s'en est alé,
+<lb n="322"/>par engien lor est escapé.
+<lb n="323"/>A la cité sont repairié,
+<lb n="324"/>li rois se fait durement lié.
+<lb n="325"/>Li rois grant joie demena 
+<lb n="326"/>que il des <num>.XI.</num> leus <num>.X.</num> a,
+<lb n="327"/>car molt bien s'est vengié des leus,
+<lb n="328"/>escapés ne l'en est c'uns seus.
+<lb n="329"/>Sa fille dist : <q>« C'est li plus grans,
+<lb n="330"/>encor les fera tos dolans. »</q>
+<lb n="331"/>Qant Melïon fu escapés,
+<lb n="332"/>sor une montaigne est montés ;
+<lb n="333"/>molt fu dolans, molt li pesa
+<lb n="334"/>de ses leus que il perdu a ;
+<lb n="335"/>molt a traveillié longement,
+<lb n="336"/>mais ore avra socors briement.
+<lb n="337"/>Artus en Yrlande venoit,
+<lb n="338"/>car une pais faire i voloit.
+<lb n="339"/>Mellé estoient el païs,
+<lb n="340"/>acorder vout les anemis ;
+<lb n="341"/>Sor les Romains voloit conquerre,
+<lb n="342"/>mener les voloit en sa guerre.
+<lb n="343"/>Li rois venoit priveement,
+<lb n="344"/>ne menoit mie molt grant gent ;
+<pb n="308"/>
+<lb n="345"/><num>.XX.</num> chevaliers od lui menoit.
+<lb n="346"/>Molt fist bel tans, bon vent avoit,
+<lb n="347"/>molt fu la nef e riche e grans,
+<lb n="348"/>il i avoit bons esturmans ;
+<lb n="349"/>molt par fu bien apareillie,
+<lb n="350"/>d'ommes e d'armes bien garnie.
+<lb n="351"/>Lor escus furent fors pendus,
+<lb n="352"/>Melions les a coneüs ;
+<lb n="353"/>primes conut l'escu Gawain,
+<lb n="354"/>e puis a ravisé l'Iwain,
+<lb n="355"/>e puis l'escu le roi Ydel ;
+<lb n="356"/>tot ce li plot e li fu bel. 
+<lb n="357"/>L'escu le roi bien ravisa,
+<lb n="358"/>sachiés, de voir, grant joie en a ;
+<lb n="359"/>molt en fu liés, molt s'esjoï,
+<lb n="360"/>car encor quide avoir merci.
+<lb n="361"/>Vers la terre vienent siglant,
+<lb n="362"/>li vens lor est venus devant,
+<lb n="363"/>ne porent prendre cil le port ;
+<lb n="364"/>adont i ot grant desconfort.
+<lb n="365"/>A <num>.I.</num> autre port sont torné,
+<lb n="366"/>a <num>.II.</num> lieues de la cité.
+<lb n="367"/>Un grant castel i ot jadis,
+<lb n="368"/>mais ore estoit tos agastis,
+<lb n="369"/>e qant il furent arivé,
+<lb n="370"/>nuis estoit, si ert avespré.
+<lb n="371"/>Li rois s'est al port arivés, 
+<lb n="372"/>molt s'est traveilliés e penés,
+<lb n="373"/>car la nef li ot fait grant mal.
+<pb n="309"/>
+<lb n="374"/>Il apela son senescal.
+<lb n="375"/><q>- Alés, dist il, la fors veïr
+<lb n="376"/>u jo porrai anuit gesir. »</q>
+<lb n="377"/>Cil est a la nef retornés,
+<lb n="378"/>les canberlens a apelés.
+<lb n="379"/><q>- Issiés, fait il, ça fors od moi,
+<lb n="380"/>si atornés l'ostel le roi. »</q>
+<lb n="381"/>Fors de la nef en sont issu,
+<lb n="382"/>si en sont a l'ostel venu ;
+<lb n="383"/><num>.II.</num> chierges i ont fait porter,
+<lb n="384"/>molt tost les firent alumer,
+<lb n="385"/>kieutes i portent e tapis ;
+<lb n="386"/>hastivement fu bien garnis. 
+<lb n="387"/>Adont s'en est li rois issus,
+<lb n="388"/>droit a l'ostel en est venus.
+<lb n="389"/>E qant il i fu ens entré
+<lb n="390"/>liés est qant si bel l'a trové.
+<lb n="391"/>Melïons pas ne se targa,
+<lb n="392"/>tostans contre la nef ala,
+<lb n="393"/>pres del chastel est arestus ;
+<lb n="394"/>molt les a bien reconeüs.
+<lb n="395"/>Bien set, se del roi n'a confort,
+<lb n="396"/>qu'en Yrlande prendra la mort ;
+<lb n="397"/>mais il ne set comment aler,
+<lb n="398"/>leus est, e si ne set parler ;
+<lb n="399"/>e nekedent tostans ira,
+<lb n="400"/>en aventure se metra.
+<lb n="401"/>A l'uis le roi en est venus,
+<lb n="402"/>tot ses barons a coneüs.
+<lb n="403"/>Il ne s'est de rien arestés,
+<pb n="310"/>
+<lb n="404"/>tot droit al roi en est alés,
+<lb n="405"/>en aventure est de morir.
+<lb n="406"/>As piés le roi se lait chaïr,
+<lb n="407"/>ne se voloit pas redrecier,
+<lb n="408"/>dont la veïsciés merveillier.
+<lb n="409"/>Ce dist li rois : <q>« Merveilles voi !
+<lb n="410"/>Cis leus est ci venus a moi.
+<lb n="411"/>Or, sachiés bien qu'il est privés,
+<lb n="412"/>mar ert touchiés ne adesés ! »</q>
+<lb n="413"/>Qant li mangier sont apresté
+<lb n="414"/>e li barons orent lavé,
+<lb n="415"/>li rois lava, si s'est assis,
+<lb n="416"/>devant ax ont les dobliers mis.
+<lb n="417"/>Li rois a Ydel apelé,
+<lb n="418"/>se l'assist joste son costé.
+<lb n="419"/>As piés le roi jut Melïons,
+<lb n="420"/>bien conut trestot les barons.
+<lb n="421"/>Li rois le regarda sovent,
+<lb n="422"/>un pain li done e il le prent,
+<lb n="423"/>puis le commença a mangier.
+<lb n="424"/>Li rois s'en prist a merveillier ;
+<lb n="425"/>al roi Ydel dist : <q>« Esgardés,
+<lb n="426"/>sachiés que cis leus est privés. »</q>
+<lb n="427"/>Li rois <num>.I.</num> lardé li dona
+<lb n="428"/>e il volentiers le manga.
+<lb n="429"/>Lors dist Gavains : <q>« Segnor, veés,
+<lb n="430"/>cis leus est tous desnaturés. »</q>
+<lb n="431"/>Entr'aus dïent tot li baron
+<lb n="432"/>c'ainc si cortois leu ne vit on.
+<lb n="433"/>Li rois fait aporter le vin
+<lb n="434"/>devant le leu en <num>.I.</num> bacin.
+<lb n="435"/>Li leus le voit, beüt en a,
+<lb n="436"/>sachiés que molt le desira ;
+<lb n="437"/>il a del vin assés beü,
+<pb n="311"/>
+<lb n="438"/>e li rois l'a molt bien veü.
+<lb n="439"/>Qant del mangier furent levé
+<lb n="440"/>e li baron orent lavé
+<lb n="441"/>fors issirent sor le gravoi ;
+<lb n="442"/>tostans fu li leus ot le roi,
+<lb n="443"/>onques ne sot cel lieu aler
+<lb n="444"/>c'on le peüst de lui oster.
+<lb n="445"/>Qant li rois volt aler colchier,
+<lb n="446"/>son lit rova apareillier,
+<lb n="447"/>dormir s'en vait, molt est lassés,
+<lb n="448"/>e li leus est od lui alés ;
+<lb n="449"/>ainc nel pot on de li partir,
+<lb n="450"/>as piés le roi en vait gesir.
+<lb n="451"/>Li rois d'Yrlande a mes eüs
+<lb n="452"/>c'Artus estoit a lui venus ;
+<lb n="453"/>molt en fu liés, grant joie en a. 
+<lb n="454"/>Bien main a l'aube se leva ;
+<lb n="455"/>deci al port en est alés,
+<lb n="456"/>ses barons a o lui menés,
+<lb n="457"/>tot droit al port en vint errant.
+<lb n="458"/>Molt s'entrefirent bel samblant,
+<lb n="459"/>Artus li mostra grant amor
+<lb n="460"/>e fait li a molt grant honor.
+<lb n="461"/>Qant il le voit a lui venir,
+<lb n="462"/>ne se volt mie enorgoillir,
+<lb n="463"/>ains leva sus, si l'a baisié.
+<lb n="464"/>Li ceval sont apareillié,
+<lb n="465"/>ne targent plus, ains sont monté,
+<lb n="466"/>ore en iront vers la cité.
+<lb n="467"/>Li rois monte en son palefroi,
+<pb n="312"/>
+<lb n="468"/>de son leu a pris bon conroi,
+<lb n="469"/>ne le voloit mie laissier,
+<lb n="470"/>il fu tos jors a son estrier.
+<lb n="471"/>D'Artus fu molt li rois joians,
+<lb n="472"/>li conrois fu riches e grans.
+<lb n="473"/>A Duveline sont venu
+<lb n="474"/>e el grant palais descendu.
+<lb n="475"/>Qant li rois monta el doignon,
+<lb n="476"/>li leus li tint par le giron ;
+<lb n="477"/>qant li rois Artus fu assis,
+<lb n="478"/>li leus s'est a ses pïés mis.
+<lb n="479"/>Li rois a son leu regardé,
+<lb n="480"/>joste le dois l'a apelé.
+<lb n="481"/>Ensemble sisent li doi roi,
+<lb n="482"/>molt par i ot riche conroi,
+<lb n="483"/>molt bien servoient li baron ;
+<lb n="484"/>de totes pars par la maison
+<lb n="485"/>servi furent a grant plenté.
+<lb n="486"/>Mais Melïon a regardé,
+<lb n="487"/>enmi la sale ravisa
+<lb n="488"/>celui ki sa feme enmena.
+<lb n="489"/>Bien sot la mer estoit passés
+<lb n="490"/>e en Yrlande estoit alés.
+<lb n="491"/>Par l'espaule le vait saisir,
+<lb n="492"/>cil ne se pot a lui tenir ;
+<lb n="493"/>en la sale l'a abatu,
+<lb n="494"/>ja l'eüst mort e confondu,
+<lb n="495"/>ne fuissent li sergant le roi
+<lb n="496"/>qui la vindrent a grant desroi ;
+<lb n="497"/>de totes pars par le palais,
+<lb n="498"/>fus aporterent, e gamais.
+<lb n="499"/>Ja eüsent le leu tué,
+<lb n="500"/>qant li rois Artus a crié :
+<pb n="313"/>
+<lb n="501"/><q>« Mar ert touchiés, fait il, par foi !
+<lb n="502"/>Sachiés que li leus est a moi. »</q>
+<lb n="503"/>Dist Ydel, li fiex Yrïen :
+<lb n="504"/><q>« Segnor, ne faites mie bien ;
+<lb n="505"/>s'il nel haïst, nel touchast pas. »</q>
+<lb n="506"/>E dist li rois : <q>« Ydel, droit as. »</q>
+<lb n="507"/>Artus s'en est del dois tornés,
+<lb n="508"/>deci al leu en est alés ;
+<lb n="509"/>al vallet dist : <q>« Tu jehiras
+<lb n="510"/>porcoi t'a pris ou ja morras. »</q>
+<lb n="511"/>Melïons le roi regarda,
+<lb n="512"/>celui estraint, e il cria.
+<lb n="513"/>Cil a le roi merci rové,
+<lb n="514"/>dist k'il contera verité.
+<lb n="515"/>Maintenant a le roi conté
+<lb n="516"/>comment la dame l'ot mené,
+<lb n="517"/>comment del anel le toucha
+<lb n="518"/>e en Yrlande l'enmena.
+<lb n="519"/>Tot li a dit e coneü,
+<lb n="520"/>comment li estoit avenu.
+<lb n="521"/>Artus a le roi apelé :
+<lb n="522"/><q>« Or sai bien que c'est verité ;
+<lb n="523"/>de mon baron m'est il molt bel.
+<lb n="524"/>Faites moi delivrer l'anel
+<lb n="525"/>e vo fille, ki l'enporta ;
+<lb n="526"/>malvaisement engignié l'a. »</q>
+<lb n="527"/>Li rois s'en est d'iluec tornés,
+<lb n="528"/>en sa cambre s'en est entrés,
+<lb n="529"/>le roi Ydel o lui mena.
+<lb n="530"/>Tant le blandi e losenga
+<pb n="314"/>
+<lb n="531"/>qu'ele li a l'anel doné ;
+<lb n="532"/>il l'a al roi Artu porté.
+<lb n="533"/>Si tost con l'anel a veü
+<lb n="534"/>Melïon l'a bien coneü,
+<lb n="535"/>al roí vint, si s'agenoilla
+<lb n="536"/>e ans <num>.II.</num> les piés li baisa.
+<lb n="537"/>Li rois Artus le vout touchier,
+<lb n="538"/>Gavains nel volt pas otroier.
+<lb n="539"/><q>- Biaus oncles, fait il, non ferés !
+<lb n="540"/>En une chambre l'en menrés,
+<lb n="541"/>tot seul a seul priveement,
+<lb n="542"/>que il n'ait honte de la gent. »</q>
+<lb n="543"/>Li rois a Gavain apelé,
+<lb n="544"/>si a od lui Ydel mené ;
+<lb n="545"/>en une cambre l'en mena,
+<lb n="546"/>qant il fu ens, l'uis si ferma.
+<lb n="547"/>L'anel li a sor le chief mis,
+<lb n="548"/>d'ome li aparut le vis,
+<lb n="549"/>tote sa figure mua,
+<lb n="550"/>lors devint hom e si parla.
+<lb n="551"/>As piés le roi se lait cheïr,
+<lb n="552"/>d'un mantel le firent covrir.
+<lb n="553"/>Qant le virent home formé,
+<lb n="554"/>molt ont grant joie demené.
+<lb n="555"/>De pitié li rois en plora,
+<lb n="556"/>e en plorant, li demanda
+<lb n="557"/>comment li estoit avenu,
+<lb n="558"/>par pechié l'avoient perdu.
+<lb n="559"/>Son canberlenc a fait mander,
+<lb n="560"/>riches dras li fist aporter ;
+<lb n="561"/>bien le vesti e conrea
+<lb n="562"/>e en la sale le mena.
+<lb n="563"/>Merveillié sont par la maison
+<lb n="564"/>qant voient venir Melïon.
+<pb n="315"/>
+<lb n="565"/>Li rois a sa fille amenee,
+<lb n="566"/>al roi Artus l'a presentee,
+<lb n="567"/>a tote sa volenté faire,
+<lb n="568"/>voille l'ardoir, voille desfaire.
+<lb n="569"/>Melïons dist : <q>« Jel toucherai
+<lb n="570"/>de la piere, ja nel lairai. »</q>
+<lb n="571"/>Artus li a dit : <q>« Non ferés !
+<lb n="572"/>por vos beaus enfans le lairés. »</q>
+<lb n="573"/>Tot li baron l'en ont proié,
+<lb n="574"/>Melïon lor a otroié.
+<lb n="575"/>Li rois Artus tant demora
+<lb n="576"/>que la guerre tot acorda.
+<lb n="577"/>En sa contree en est alé,
+<lb n="578"/>Melïon a od lui mené ;
+<lb n="579"/>molt en fu liés, grant joie en a,
+<lb n="580"/>sa feme en Yrlande laissa,
+<lb n="581"/>a deables l'a commandee ;
+<lb n="582"/>jamais n'iert jor de li amee,
+<lb n="583"/>por ce qu'ele l'ot si bailli
+<lb n="584"/>con vos avés el conte oï ;
+<lb n="585"/>ne le volt il onques reprendre,
+<lb n="586"/>ains le laissast ardoir u pendre.
+<lb n="587"/>Melïons dist <q>« Ja ne faldra 
+<lb n="588"/>que de tot sa feme kerra,
+<lb n="589"/>qu'en la fin ne soit malbaillis ;
+<lb n="590"/>ne doit pas croire tos ses dis. »</q>
+<pb n="316"/>
+<lb n="591"/>Vrais est li lais de Melïon,
+<lb n="592"/>ce dïent bien tot li baron.
+				</ab>
+</div>
+</body>
+<back>
+<div type="explicit">
+<p>
+<lb n="593"/>Explicit de Melion
+<lb n="594"/>Chi fine Melion
+</p>
+</div>
+</back>
+</text>
+</TEI>

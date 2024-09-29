@@ -1,0 +1,5985 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:txm="http://textometrie.org/1.0">
+ <teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="main">L'ornement des dames</title>
+      <title type="formal">OrnDames</title>
+      <title type="reference">OrnDamesR</title>
+      <title type="DEAF">OrnDamesR</title>
+      <title type="gmd">transcription électronique</title>
+      <author xml:id="anonyme">anonyme</author>
+      <editor>Équipe de la Base de français médiéval - ENS de Lyon / UMR 5317 IHRIM</editor>
+      <funder>Laboratoire IHRIM</funder>
+    </titleStmt>
+    <editionStmt>
+      <edition>transcripion électronique</edition>
+      <respStmt xml:id="encoder2">
+        <resp>Balisage de structure</resp>
+        <name xml:id="Acollignon">Alain Collignon</name>
+      </respStmt>
+      <respStmt xml:id="encoder1">
+        <resp>conversion en XML et balisage automatique</resp>
+        <name xml:id="AL">Alexei Lavrentiev</name>
+      </respStmt>
+      <respStmt xml:id="annotator1">
+        <resp>vérification de l'étiquetage morphosyntaxique</resp>
+        <name xml:id="JG">Julie Glikman</name>
+      </respStmt>
+    </editionStmt>
+    <extent>- Numéros de pages saisies : de 32 à 72 ;
+            - Nombre de mots d'après la base des descripteurs : <num xml:id="nb_mots_given">4275</num> ;
+            - Nombre de tokens (mots et ponctuations) d'après la base des descripteurs : <num xml:id="nb_tokens_given">4741</num>.
+    </extent>
+    <publicationStmt>
+      <publisher><name>Projet BFM, ENS de Lyon / UMR 5317 IHRIM</name></publisher>
+      <address>
+        <addrLine>15, parvis René Descartes</addrLine>
+        <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+        <addrLine>Tél : 04 37 37 63 10</addrLine>
+        <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+        <addrLine>http://bfm.ens-lyon.fr</addrLine>
+      </address>
+      <idno type="bfm">http://catalog.bfm-corpus.org/OrnDamesR</idno>
+      <idno type="doi">10.34847/nkl.d266x082</idno>
+      <availability status="free">
+        <licence target="https://www.etalab.gouv.fr/licence-ouverte-open-licence">
+          <ab type="availability_bfm" subtype="libre_1a">Les Conditions générales d'utilisation de la Base de Français Médiéval (http://txm.bfm-corpus.org/bfm/files/CGU.pdf), 
+            et notamment son Article 5 « PROPRIETE INTELLECTUELLE », s'appliquent à tous les textes de la BFM.</ab>
+          <ab type="how_to_cite">
+            <label>Comment citer ce texte :</label>
+            <bibl>L'ornement des dames, édité par Pierre Ruelle, Bruxelles, 1967. 
+              Publié en ligne par la Base de français médiéval, http://catalog.bfm-corpus.org/OrnDamesR.
+              Dernière révision le 2021-06-25.</bibl>
+            D'autres formules de citation de la BFM sont proposées sur la page web suivante :
+            http://bfm.ens-lyon.fr/article.php3?id_article=281.</ab>
+          <ab type="availability_file">
+            <label>Conditions d'utilisation de ce fichier :</label>
+              Ce fichier numérique est composé du corps de texte médiéval et des suppléments numériques : balisage XML-TEI, métadonnées (teiHeader), étiquetage morpho-syntaxique. Le texte et les suppléments numériques sont libres de droit et peuvent à ce titre être téléchargés et réutilisés librement.
+            </ab>
+            <ab type="availability_txmweb" subtype="illimité">
+              <label>Conditions d'utilisation par le portail BFM :</label>
+              Pas de limitation dans l'usage des fonctionnalités. Téléchargement autorisé.</ab>
+        </licence>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>L'ornement des dames (Ornatus mulierum)</title>
+          <respStmt>
+            <resp xml:id="editor">Éditeur scientifique</resp>
+            <name type="person">Pierre Ruelle</name>
+          </respStmt>
+        </titleStmt>
+          <extent>21 page(s), soit 32-72
+        </extent>
+        <publicationStmt>
+          <publisher>Presses universitaires de Bruxelles</publisher>
+          <pubPlace>Bruxelles</pubPlace>
+          <date>1967</date>
+          <idno type="sigle_DEAF">OrnDamesR</idno>
+          <idno type="cote_biblio">BIU : Mag. 2 052252</idno>
+        </publicationStmt><seriesStmt><title>Travaux de la Faculté de philosophie et lettres de l'Université de Bruxelles</title><idno type="collection">36</idno></seriesStmt>
+      </biblFull>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p>Projet :<name type="project">BFM - Base de français médiéval</name>
+        Resp. : <name type="person">Céline Guillot-Barbance</name>
+        Équipe : Base de français médiéval
+        Laboratoire : UMR 5317 IHRIM
+        Institution : ENS de Lyon
+        <address>
+          <addrLine>15, parvis René Descartes</addrLine>
+          <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+          <addrLine>Tél : 04 37 37 63 10</addrLine>
+          <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+          <addrLine>http://bfm.ens-lyon.fr</addrLine>
+        </address>
+      </p>
+    </projectDesc>
+    <editorialDecl>
+      <p>Voir le <ref target="http://bfm.ens-lyon.fr/IMG/pdf/Manuel_Encodage_TEI.pdf">Manuel d'encodage XML-TEI de la BFM</ref>
+        et les <ref target="http://bfm.ens-lyon.fr/IMG/pdf/Consignes_BFM.pdf">Consignes aux relecteurs de la BFM</ref>.</p>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="ab" occurs="5"/>
+        <tagUsage gi="back" occurs="1"/>
+        <tagUsage gi="body" occurs="1"/>
+        <tagUsage gi="div" occurs="75"/>
+        <tagUsage gi="front" occurs="1"/>
+        <tagUsage gi="head" occurs="71"/>
+        <tagUsage gi="hi" occurs="2"/>
+        <tagUsage gi="lb" occurs="469"/>
+        <tagUsage gi="milestone" occurs="16"/>
+        <tagUsage gi="p" occurs="76"/>
+        <tagUsage gi="pb" occurs="21"/>
+        <tagUsage gi="text" occurs="1"/>
+        <tagUsage gi="w" occurs="4734"/>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <creation>
+      <name type="author">anonyme</name>
+      <title>L'ornement des dames</title>
+      <date type="compo" when="1250-01-01" notBefore="1200-01-01" notAfter="1299-12-31" n="13">13e s.</date>
+      <date type="compo_periode">ancien</date>
+      <date type="compo_sous_siecle" n="13_2">milieu</date>
+      <date type="ms" when="1275-01-01" notBefore="1250-01-01" notAfter="1299-12-31">2e m. 13e s.</date>
+      <idno type="msIdentifier">Oxford, Bodleian Ashmole 1470</idno>
+      <region type="dialecte_auteur">anglo-normand</region>
+    </creation>
+    <langUsage>
+      <language ident="fro" usage="100">Le texte est entièrement écrit en prose en ancien français.</language>
+    </langUsage>
+    <textDesc>
+      <channel mode="w">print</channel>
+      <constitution type="single"/>
+      <derivation type="original"/>
+      <domain type="didactique"/>
+    <factuality type="inapplicable"/>
+      <interaction type="none"/>
+      <preparedness type="prepared"/>
+      <purpose type="narrative"/></textDesc>
+    <textClass>
+      <keywords scheme="http://authorities.bfm-corpus.org">
+        <term type="domaine">didactique</term>
+        <term type="genre">traité</term>
+        <term type="forme">prose</term>
+        <term type="relation">original</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change who="#JG" when="2021-04-09">scannage</change>
+    <change who="#JG" when="2021-04-09">océrisation</change>
+    <change who="#AL" when="2021-04-20">conversion en XML et balisage automatique</change>
+    <change who="#AL" when="2021-04-22">création du descripteur</change>
+    <change who="#Acollignon" when="2021-04-22">Balisage de structure</change>
+    <change who="#JG" when="2021-06-25">vérification de l'étiquetage morphosyntaxique</change>
+    <change when="2021-06-25">Dernière modification du texte</change>
+    <change when="2022-11-04">Création de cet entête</change>
+  </revisionDesc>
+</teiHeader>
+<text>
+ <front>
+  <pb n="32"/>
+   <milestone unit="column" n="276 r° a"/>
+  <div type="incipit">
+   <p xml:lang="la">
+    <w type="ETR">INCIPIT</w>
+    <w type="ETR">ORNATUS</w>
+    <w type="ETR">MULIERUM</w>
+    <w type="PONfrt">.</w>
+   </p>
+   </div>
+ </front>
+<body>
+ <div n="I">
+<ab type="gv">
+<lb/>
+<w type="CONsub">Quant</w>
+<w type="NOMpro">Deus</w>
+<w type="VERcjg">out</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">femme</w>
+<w type="VERppe">fete</w>
+<w type="PONfbl">,</w>
+
+<lb/>
+<w type="PRE">De</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">coste</w>
+<w type="NOMpro">Adam</w>
+<w type="VERcjg">est</w>
+<w type="VERppe">traite</w>
+<w type="PONfbl">,</w>
+<lb/>
+<w type="NOMcom">Bauté</w>
+<w type="PROper">la</w>
+<w type="VERcjg">duna</w>
+<w type="ADJqua">perdurable</w>
+<w type="PONfrt">.</w>
+<lb/>
+<w type="CONcoo">Mes</w>
+<w type="PROper">ele</w>
+<w type="PROper">le</w>
+<w type="VERcjg">perdi</w>
+<w type="PRE">par</w>
+<w type="DETdef">le</w>
+<w type="NOMcom">deble</w>
+<lb/>
+<w type="ADVgen">Puis</w>
+<w type="CONsub">que</w>
+<w type="PROper">ele</w>
+<w type="VERcjg">out</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">pume</w>
+<w type="VERppe">gusté</w>
+<w type="PONfbl">;</w>
+<lb/>
+<w type="ADVgen">Mult</w>
+<w type="PROadv">en</w>
+<w type="VERcjg">fu</w>
+<w type="VERppe">disonuré</w>
+<w type="PONfrt">.</w>
+<lb/>
+<w type="CONcoo">Et</w>
+<w type="DETdef">les</w>
+<w type="NOMcom">dames</w>
+<w type="PROrel">que</w>
+<w type="ADVgen">ore</w>
+<w type="VERcjg">sunt</w>
+<w type="PONfbl">,</w>
+<lb/>
+<w type="PROrel">Ke</w>
+<w type="PRE">de</w>
+<w type="PROdem">ceo</w>
+<w type="NOMcom">culpes</w>
+<w type="ADVneg">ne</w>
+<w type="VERcjg">hunt</w>
+<w type="PONfbl">,</w>
+<lb/>
+<w type="PRE">Pur</w>
+<w type="PROdem">ceo</w>
+<w type="CONsub">que</w>
+<w type="NOMcom">Heve</w>
+<w type="VERcjg">forfist</w>
+<w type="ADVgen">tant</w>
+<w type="PONfbl">,</w>
+<lb/>
+<w type="PRE">De</w>
+<w type="DETpos">lur</w>
+<w type="NOMcom">bauté</w>
+<w type="VERcjg">sunt</w>
+<w type="ADVgen">mult</w>
+<w type="VERppa">perdant</w>
+<w type="PONfrt">.</w>
+<lb/>
+<w type="CONcoo">Kar</w>
+<w type="PROind">tele</w>
+<w type="PROadv">i</w>
+<w type="VERcjg">ad</w>
+<w type="PONfbl">,</w>
+<w type="CONsub">quant</w>
+<w type="VERcjg">est</w>
+<w type="NOMcom">pucele</w>
+<w type="PONfbl">,</w>
+<lb/>
+<w type="ADVgen">Dunc</w>
+<w type="VERcjg">est</w>
+<w type="NOMcom">ruvente</w>
+<w type="PONfbl">,</w>
+<w type="ADJqua">blanche</w>
+<w type="CONcoo">et</w>
+<w type="ADJqua">bele</w>
+<lb/>
+<w type="ADVgen">Tant</w>
+<w type="ADVgen">tost</w>
+<w type="CONsub">cum</w>
+<w type="PROper">ele</w>
+<w type="VERcjg">est</w>
+<w type="VERppe">marïé</w>
+<lb/>
+<w type="PROper">Li</w>
+<w type="VERcjg">est</w>
+<w type="NOMcom">colur</w>
+<w type="VERppe">remué</w>
+<w type="PONfrt">.</w>
+<lb/>
+<w type="PROind">Tele</w>
+<w type="PROadv">i</w>
+<w type="VERcjg">ad</w>
+<w type="CONsub">que</w>
+<w type="PRE">en</w>
+<w type="DETpos">sa</w>
+<w type="NOMcom">vie</w>
+<lb/>
+<w type="ADVgen">Unches</w>
+<w type="PRE">de</w>
+<w type="NOMcom">bauté</w>
+<w type="ADVneg">n'</w>
+<w type="VERcjg">ut</w>
+<w type="VERppe">ballie</w>
+<w type="PONfrt">.</w>
+
+<lb/>
+<w type="PRE">Pur</w>
+<w type="PROdem">ceo</w>
+<w type="PROper">vus</w>
+<w type="VERcjg">fas</w>
+<w type="PROper">jeo</w>
+<w type="DETdem">cest</w>
+<w type="NOMcom">livre</w>
+<lb/>
+<w type="CONsub">Que</w>
+<w type="ADVgen">tres</w>
+<w type="ADVgen">bien</w>
+<w type="VERcjg">seez</w>
+<w type="VERppe">delivre</w>
+<lb/>
+<w type="PROper">Vus</w>
+<w type="ADJind">memes</w>
+<w type="PRE">en</w>
+<w type="NOMcom">bauté</w>
+<w type="VERinf">guarder</w>
+<lb/>
+<w type="CONcoo">Et</w>
+<w type="PROper">vos</w>
+<w type="VERcjg">acunit</w>
+<w type="PRE.DETdef">el</w>
+<w type="VERinf">amender</w>
+<w type="PONfrt">.</w>
+<lb/>
+<w type="PRE">A</w>
+<w type="NOMcom">prime</w>
+<w type="PRE.DETdef">des</w>
+<w type="NOMcom">chevoilz</w>
+<w type="VERcjg">dirai</w>
+<lb/>
+<w type="CONcoo">Et</w>
+<w type="PRE">par</w>
+<w type="DETind">tut</w>
+<w type="DETdef">le</w>
+<w type="NOMcom">cors</w>
+<w type="VERcjg">decenderai</w>
+<w type="PONfbl">:</w>
+<lb/>
+<w type="PRE.DETdef">Del</w>
+<w type="NOMcom">frunt</w>
+<w type="PONfbl">,</w>
+<w type="PRE.DETdef">des</w>
+<w type="NOMcom">oilz</w>
+<w type="PONfbl">,</w>
+<w type="PRE.DETdef">des</w>
+<w type="NOMcom">surcilz</w>
+<w type="VERcjg">dirun</w>
+<w type="PONfbl">,</w>
+<lb/>
+<w type="PRE">De</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">face</w>
+<w type="PONfbl">,</w>
+<w type="PRE.DETdef">des</w>
+<w type="NOMcom">dens</w>
+<w type="PONfbl">,</w>
+<w type="PRE.DETdef">del</w>
+<w type="NOMcom">mentun</w>
+<w type="PONfbl">,</w>
+<lb/>
+<w type="PRE.DETdef">Des</w>
+<w type="ADJind">autre</w>
+<w type="NOMcom">choses</w>
+<w type="ADVgen">tut</w>
+<w type="PRE">a</w>
+<w type="NOMcom">munt</w>
+<w type="PONfbl">,</w>
+<lb/>
+<w type="PRE">De</w>
+<w type="DETind">tut</w>
+<w type="PROdem">celes</w>
+<w type="PROrel">que</w>
+<w type="NOMcom">mester</w>
+<w type="VERcjg">unt</w>
+<w type="PONfrt">.</w>
+<lb/>
+<w type="PRE">A</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">mamele</w>
+<w type="ADJqua">fin</w>
+<w type="PROadv">en</w>
+<w type="VERcjg">frai</w>
+<w type="PONfbl">,</w>
+<lb/>
+<w type="PRE">De</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">matire</w>
+<w type="ADVgen">alliurs</w>
+<w type="VERcjg">dirai</w>
+<w type="PONfrt">.</w>
+<pb n="34"/>
+<lb/>
+<w type="DETdef">Les</w>
+<w type="PROind">auturs</w>
+<w type="VERcjg">trai</w>
+<w type="PRE">a</w>
+<w type="NOMcom">testemunie</w>
+<lb/>
+<w type="NOMcom">Verté</w>
+<w type="VERcjg">dirai</w>
+<w type="PRE">senz</w>
+<w type="NOMcom">essunie</w>
+<w type="PONfbl">:</w>
+<lb/>
+<w type="NOMpro">Galien</w>
+<w type="PONfbl">,</w>
+<w type="NOMpro">Constantin</w>
+<w type="PONfbl">,</w>
+<w type="NOMpro">Ypocras</w>
+<w type="PONfrt">…</w>
+<lb/>
+<w type="ADVneg">Ne</w>
+<w type="VERcjg">ublirai</w>
+<w type="PROind">nul</w>
+<w type="PONfbl">,</w>
+<w type="VERcjg">seit</w>
+<w type="ADJqua">aut</w>
+<w type="VERcjg">seit</w>
+<w type="ADJqua">bas</w>
+<w type="PONfbl">,</w>
+
+<lb/>
+<w type="CONcoo">Ne</w>
+<w type="PROdem">ceo</w>
+<w type="PROrel">que</w>
+<w type="VERcjg">ai</w>
+<w type="VERppe">apris</w>
+<w type="PRE">a</w>
+<w type="NOMpro">Mechine</w>
+<lb/>
+<w type="PRE">D'</w>
+<w type="DETndf">une</w>
+<w type="NOMcom">dame</w>
+<w type="PROrel">que</w>
+<w type="VERcjg">ert</w>
+<w type="NOMcom">saratine</w>
+<w type="PONfbl">,</w>
+<lb/>
+<w type="NOMcom">Mires</w>
+<w type="VERcjg">fu</w>
+<w type="PRE">de</w>
+<w type="DETpos">sa</w>
+<w type="NOMcom">lai</w>
+<w type="PONfbl">,</w>
+<lb/>
+<w type="ADVgen">Mut</w>
+<w type="VERcjg">fust</w>
+<w type="VERppa">valiant</w>
+<w type="ADVgen">si</w>
+<w type="VERcjg">ust</w>
+<w type="NOMcom">fei</w>
+<w type="PONfbl">,</w>
+<lb/>
+<w type="CONcoo">Ne</w>
+<w type="CONsub">que</w>
+<w type="PRE">a</w>
+<w type="NOMpro">Salerne</w>
+<w type="VERcjg">oï</w>
+<w type="PRE">de</w>
+<w type="NOMpro">Trote</w>
+<w type="PONfbl">,</w>
+<lb/>
+<w type="NOMcom">Dame</w>
+<w type="PROrel">que</w>
+<w type="PROper">li</w>
+<w type="ADVneg">ne</w>
+<w type="VERcjg">creit</w>
+<w type="VERcjg">est</w>
+<w type="ADJqua">sote</w>
+<w type="PONfrt">.</w>
+<lb/>
+<w type="ADVneg">Ne</w>
+<w type="VERcjg">dirai</w>
+<w type="ADVneg">pas</w>
+<w type="PRE">par</w>
+<w type="PROind">tut</w>
+<w type="PRE">en</w>
+<w type="NOMcom">rime</w>
+<w type="PONfbl">,</w>
+<lb/>
+<w type="CONcoo">Kar</w>
+<w type="NOMcom">hum</w>
+<w type="ADVneg">ne</w>
+<w type="VERcjg">pot</w>
+<w type="ADVneg">pas</w>
+<w type="PRE">de</w>
+<w type="NOMcom">medecine</w>
+<lb/>
+<w type="PRE">En</w>
+<w type="DETind">tuz</w>
+<w type="NOMcom">lius</w>
+<w type="ADVgen">prestement</w>
+<w type="VERinf">parler</w>
+<lb/>
+<w type="CONcoo">Et</w>
+<w type="DETdef">les</w>
+<w type="NOMcom">speces</w>
+<w type="VERinf">acunter</w>
+<w type="PONfrt">.</w>
+<milestone unit="column" n="276 r° b"/>
+<lb/>
+<w type="ADVgen">Or</w>
+<w type="VERcjg">pri</w>
+<w type="NOMpro">Deu</w>
+<w type="PONfbl">,</w>
+<w type="DETdef">le</w>
+<w type="NOMcom">Rei</w>
+<w type="ADJqua">celestre</w>
+<w type="PONfbl">,</w>
+<lb/>
+<w type="CONsub">Ke</w>
+<w type="DETdem">cest</w>
+<w type="NOMcom">livre</w>
+<w type="ADJind">tel</w>
+<w type="VERcjg">puisse</w>
+<w type="VERinf">estre</w>
+<lb/>
+<w type="CONsub">Que</w>
+<w type="PRE">de</w>
+<w type="NOMcom">dames</w>
+<w type="PROadv">en</w>
+<w type="VERcjg">ai</w>
+<w type="NOMcom">grez</w>
+<w type="PONfbl">,</w>
+<lb/>
+<w type="PROrel">Dunt</w>
+<w type="PRE">en</w>
+<w type="VERcjg">sei</w>
+<w type="DETind">tut</w>
+<w type="NOMcom">dis</w>
+<w type="VERppe">amez</w>
+<w type="PONfrt">.</w>
+</ab>
+</div>
+<div n="II">
+<p>
+<lb/>
+<w type="ADJqua">Grant</w>
+<w type="NOMcom">encumbrement</w>
+<w type="VERcjg">vent</w>
+<w type="ADVgen">suvent</w>
+<w type="PRE.DETdef">as</w>
+<w type="NOMcom">chevoilz</w>
+<w type="PONfbl">:</w>
+
+<lb/>
+<w type="PRE">a</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">fiet</w>
+<w type="VERcjg">chént</w>
+<w type="PONfbl">,</w>
+<w type="PRE">a</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">fiet</w>
+<w type="PROper">les</w>
+<w type="VERcjg">manjuent</w>
+<w type="ADJqua">verms</w>
+<w type="PONfbl">,</w>
+<w type="PRE">a</w>
+
+<lb/>
+<w type="DETdef">la</w>
+<w type="NOMcom">fiet</w>
+<w type="VERcjg">chanisent</w>
+<w type="PRE">devant</w>
+<w type="DETpos">lur</w>
+<w type="NOMcom">tens</w>
+<w type="PONfbl">,</w>
+<w type="PRE">a</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">fiet</w>
+<w type="ADVneg">ne</w>
+<lb/>
+<w type="VERcjg">volent</w>
+<w type="VERinf">creistre</w>
+<w type="PONfbl">,</w>
+<w type="CONcoo">et</w>
+<w type="DETind">muz</w>
+<w type="PROind">autres</w>
+<w type="PROrel">dunt</w>
+<w type="VERcjg">dirun</w>
+<w type="ADVgen">aprés</w>
+<w type="PONfrt">.</w>
+<lb/>
+<w type="CONsub">Cum</w>
+<w type="NOMcom">chevoilz</w>
+<w type="VERcjg">chént</w>
+<w type="PONfbl">,</w>
+<w type="CONcoo">u</w>
+<w type="PROdem">ceo</w>
+<w type="VERcjg">est</w>
+<w type="PRE">pur</w>
+<w type="ADVgen">trop</w>
+<w type="ADJqua">grand</w>
+<lb/>
+<w type="NOMcom">chalur</w>
+<w type="PONfbl">,</w>
+<w type="CONsub">cum</w>
+<w type="PRE">aprés</w>
+<w type="NOMcom">fefre</w>
+<w type="ADJqua">agüe</w>
+<w type="PONfbl">,</w>
+<w type="CONcoo">u</w>
+<w type="PRE">pur</w>
+<w type="PROdem">ceo</w>
+<w type="CONsub">que</w>
+<w type="DETdef">les</w>
+<lb/>
+<w type="NOMcom">racines</w>
+<w type="VERcjg">sunt</w>
+<w type="VERppe">purries</w>
+<w type="PONfbl">,</w>
+<w type="CONsub">cum</w>
+<w type="PRE">en</w>
+<w type="NOMcom">meseus</w>
+<w type="PONfbl">,</w>
+<w type="CONcoo">u</w>
+<w type="PRE">pur</w>
+<w type="PROdem">ceo</w>
+<lb/>
+<w type="CONsub">que</w>
+<w type="DETdef">les</w>
+<w type="NOMcom">pertus</w>
+<w type="VERcjg">sunt</w>
+<w type="ADVgen">trop</w>
+<w type="ADJqua">larges</w>
+<w type="PRE">par</w>
+<w type="PROrel">unt</w>
+<w type="PROper">il</w>
+<w type="VERcjg">pendent</w>
+<w type="PONfrt">.</w>
+<lb/>
+<w type="PRE">Par</w>
+<w type="DETdem">cest</w>
+<w type="NOMcom">mecine</w>
+<w type="PROper">les</w>
+<w type="VERcjg">frez</w>
+<w type="VERinf">creistre</w>
+<w type="PONfrt">.</w>
+</p>
+</div>
+<div n="III">
+<head xml:lang="la">
+<w type="ETR">CONTRA</w>
+<w type="ETR">CASUM</w>
+<w type="ETR">CAPILLORUM</w>
+<w type="PONfrt">.</w>
+</head>
+<p>
+<lb/>
+<w type="VERcjg">Pernez</w>
+<w type="NOMcom">roses</w>
+<w type="CONcoo">u</w>
+<w type="ADJqua">vertes</w>
+<w type="CONcoo">u</w>
+<w type="NOMcom">secches</w>
+<w type="CONcoo">et</w>
+<w type="NOMcom">mirte</w>
+<w type="CONcoo">et</w>
+
+<lb/>
+<w type="NOMcom">planteine</w>
+<w type="CONcoo">et</w>
+<w type="NOMcom">escorche</w>
+<w type="PRE">de</w>
+<w type="NOMcom">glan</w>
+<w type="CONcoo">et</w>
+<w type="PRE">de</w>
+<w type="NOMcom">chastanies</w>
+<w type="PONfbl">,</w>
+<lb/>
+<w type="ADVgen">si</w>
+<w type="PROper">les</w>
+<w type="VERcjg">bulliez</w>
+<w type="PRE">en</w>
+<w type="NOMcom">eve</w>
+<w type="PRE">de</w>
+<w type="NOMcom">pluie</w>
+<w type="CONcoo">et</w>
+<w type="PRE">de</w>
+<w type="DETdem">cel</w>
+<w type="NOMcom">eve</w>
+<w type="VERcjg">lavez</w>
+<pb n="36"/>
+<lb/>
+<w type="DETdef">le</w>
+<w type="NOMcom">chef</w>
+<w type="PRE.DETdef">al</w>
+<w type="NOMcom">matin</w>
+<w type="CONcoo">et</w>
+<w type="PRE.DETdef">au</w>
+<w type="NOMcom">seir</w>
+<w type="PONfrt">.</w>
+<w type="PROper">Jeo</w>
+<w type="VERcjg">vi</w>
+<w type="DETndf">une</w>
+<w type="NOMcom">dame</w>
+<w type="PRE">en</w>
+<lb/>
+<w type="NOMpro">Pulie</w>
+<w type="PROrel">que</w>
+<w type="DETind">chascun</w>
+<w type="NOMcom">an</w>
+<w type="VERcjg">perdi</w>
+<w type="DETdef">les</w>
+<w type="NOMcom">chilvouz</w>
+<w type="PONfrt">.</w>
+<w type="NOMpro">Trote</w>
+<w type="PRE">de</w>
+<lb/>
+<w type="NOMpro">Salerne</w>
+<w type="PROper">les</w>
+<w type="VERcjg">medicinat</w>
+<w type="PRE">en</w>
+<w type="DETdem">ceste</w>
+<w type="NOMcom">manere</w>
+<w type="PONfbl">:</w>
+<w type="PROper">ele</w>
+<w type="VERcjg">prist</w>
+<lb/>
+<w type="NOMcom">nele</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">arst</w>
+<w type="CONcoo">et</w>
+<w type="DETdef">l'</w>
+<w type="NOMcom">escorche</w>
+<w type="PRE">de</w>
+<w type="NOMcom">sauz</w>
+<w type="CONcoo">et</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">foille</w>
+<w type="PRE">de</w>
+<lb/>
+<w type="NOMcom">fïer</w>
+<w type="CONcoo">et</w>
+<w type="NOMcom">cendre</w>
+<w type="PRE">de</w>
+<w type="NOMcom">chastanie</w>
+<w type="CONcoo">et</w>
+<w type="PRE">de</w>
+<w type="NOMcom">vinie</w>
+<w type="CONcoo">et</w>
+<w type="PRE">de</w>
+<lb/>
+<w type="NOMcom">euforbe</w>
+<w type="PONfbl">,</w>
+<w type="ADVgen.PROper">sil</w>
+<w type="VERcjg">destempra</w>
+<w type="PRE">od</w>
+<w type="NOMcom">olie</w>
+<w type="PRE">de</w>
+<w type="NOMcom">olive</w>
+<w type="CONcoo">et</w>
+<w type="PONfbl">,</w>
+<w type="CONsub">quant</w>
+<lb/>
+<w type="DETdef">le</w>
+<w type="NOMcom">chef</w>
+<w type="VERcjg">fu</w>
+<w type="VERppe">lavé</w>
+<w type="PRE">de</w>
+<w type="NOMcom">eve</w>
+<w type="PRE">de</w>
+<w type="NOMcom">pluie</w>
+<w type="PONfbl">,</w>
+<w type="VERcjg">uinst</w>
+<w type="DETcar">quatre</w>
+<w type="NOMcom">fiet</w>
+<w type="PONfrt">.</w>
+<lb/>
+<w type="ADVgen">Unche</w>
+<w type="ADVgen">puis</w>
+<w type="ADVneg">ne</w>
+<w type="VERcjg">chaïrent</w>
+<w type="DETdef">les</w>
+<w type="NOMcom">chevoilz</w>
+<w type="PONfrt">.</w>
+
+</p>
+</div>
+<div n="IV">
+<head xml:lang="la">
+<w type="ETR">AD</w>
+<w type="ETR">IDEM</w>
+<w type="PONfrt">.</w>
+</head>
+<p>
+<lb/>
+<w type="DETdef">La</w>
+<w type="NOMpro">Saracine</w>
+<w type="PRE">de</w>
+<w type="NOMpro">Meschine</w>
+<w type="VERcjg">soleit</w>
+<w type="VERinf">faire</w>
+<w type="DETdem">cest</w>
+<lb/>
+<w type="NOMcom">ungiment</w>
+<w type="PONfbl">:</w>
+<w type="PROper">ele</w>
+<w type="VERcjg">prist</w>
+<w type="PRE">de</w>
+<w type="NOMcom">peivre</w>
+<w type="CONcoo">et</w>
+<w type="PRE">de</w>
+<w type="NOMcom">sufre</w>
+<w type="DETndf">une</w>
+<lb/>
+<w type="NOMcom">unce</w>
+<w type="CONcoo">et</w>
+<w type="PRE">de</w>
+<w type="NOMcom">piretre</w>
+<w type="PROind">une</w>
+<w type="PONfbl">,</w>
+<w type="PRE">de</w>
+<w type="NOMcom">jus</w>
+<w type="PRE">de</w>
+<w type="NOMcom">poret</w>
+<w type="PROcar">une</w>
+<w type="PONfbl">,</w>
+<w type="CONcoo">et</w>
+<lb/>
+<w type="NOMcom">savun</w>
+<w type="DETcar">quatre</w>
+<w type="NOMcom">unces</w>
+<w type="PONfbl">,</w>
+<w type="ADVgen">si</w>
+<w type="VERcjg">medlad</w>
+<w type="PROind">tut</w>
+<w type="ADVgen">ensemble</w>
+
+<lb/>
+<w type="CONcoo">et</w>
+<w type="VERcjg">mist</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">dame</w>
+<w type="PRE">en</w>
+<w type="NOMcom">bain</w>
+<w type="CONcoo">et</w>
+<w type="PONfbl">,</w>
+<w type="CONsub">quant</w>
+<w type="PROper">ele</w>
+<w type="VERcjg">fu</w>
+<w type="ADVgen">bien</w>
+<lb/>
+<w type="VERppe">eschaufé</w>
+<w type="PONfbl">,</w>
+<w type="PROper">ele</w>
+<w type="VERcjg">uinst</w>
+<w type="DETind">tute</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">teste</w>
+<w type="PONfbl">,</w>
+<w type="CONcoo">et</w>
+<w type="ADVgen">issi</w>
+<w type="VERcjg">soleit</w>
+<milestone unit="column" n="276 v° a"/>
+<lb/>
+<w type="PROper">ele</w>
+<w type="VERinf">faire</w>
+<w type="DETdef">les</w>
+<w type="NOMcom">chevouz</w>
+<w type="VERinf">tenir</w>
+<w type="PONfrt">.</w>
+<w type="PROind">Autre</w>
+<w type="VERcjg">ad</w>
+<w type="PROdem">ceo</w>
+<w type="PONfbl">,</w>
+<w type="PROper">ele</w>
+<lb/>
+<w type="VERcjg">prist</w>
+<w type="NOMcom">parchemin</w>
+<w type="PRE">de</w>
+<w type="NOMcom">velin</w>
+<w type="CONcoo">et</w>
+<w type="NOMcom">pain</w>
+<w type="PRE">de</w>
+<w type="NOMcom">orge</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">arst</w>
+<lb/>
+<w type="PROper">les</w>
+<w type="PONfbl">,</w>
+<w type="ADVgen">puis</w>
+<w type="ADVgen.PROper">sis</w>
+<w type="VERcjg">tribla</w>
+<w type="PRE">od</w>
+<w type="NOMcom">seim</w>
+<w type="PRE">de</w>
+<w type="NOMcom">urs</w>
+<w type="PONfbl">,</w>
+<w type="CONcoo">et</w>
+<w type="PRE">de</w>
+<w type="PROdem">ceo</w>
+<w type="VERcjg">uinst</w>
+<lb/>
+<w type="DETdef">la</w>
+<w type="NOMcom">teste</w>
+<w type="CONcoo">et</w>
+<w type="DETdef">les</w>
+<w type="NOMcom">chevoilz</w>
+<w type="PONfrt">.</w>
+</p>
+</div>
+<div n="V">
+<head xml:lang="la">
+<w type="ETR">AD</w>
+<w type="ETR">IDEM</w>
+<w type="PONfrt">.</w>
+</head>
+<p>
+<lb/>
+<w type="PROper">Jeo</w>
+<w type="VERcjg">vi</w>
+<w type="NOMpro">Trote</w>
+<w type="VERinf">quire</w>
+<w type="NOMcom">mirte</w>
+<w type="PRE">en</w>
+<w type="NOMcom">eve</w>
+<w type="PRE">de</w>
+<w type="NOMcom">pluie</w>
+<w type="CONcoo">et</w>
+<w type="VERinf">laver</w>
+
+<lb/>
+<w type="DETdef">la</w>
+<w type="NOMcom">teste</w>
+<w type="CONcoo">et</w>
+<w type="ADVgen">puis</w>
+<w type="VERinf">enuindre</w>
+<w type="DETdef">les</w>
+<w type="NOMcom">chevousz</w>
+<w type="PRE">de</w>
+<w type="NOMcom">seim</w>
+<lb/>
+<w type="PRE">de</w>
+<w type="NOMcom">urs</w>
+<w type="PONfbl">,</w>
+<w type="CONcoo">et</w>
+<w type="ADVgen">plus</w>
+<w type="ADVneg">ne</w>
+<w type="VERcjg">chaïrent</w>
+<w type="PONfrt">.</w>
+</p>
+</div>
+<div n="VI">
+<head xml:lang="la">
+<w type="ETR">AD</w>
+<w type="ETR">GUARANDOS</w>
+<w type="ETR">PILOS</w>
+<w type="PONfrt">.</w>
+</head>
+<p>
+<lb/>
+<w type="CONsub">Si</w>
+<w type="PROper">vus</w>
+<w type="VERcjg">volez</w>
+<w type="CONsub">que</w>
+<w type="DETdef">les</w>
+<w type="NOMcom">chevousz</w>
+<w type="VERcjg">revengent</w>
+<w type="ADVgen">asez</w>
+
+<lb/>
+<w type="ADJqua">lungs</w>
+<w type="CONcoo">et</w>
+<w type="ADJqua">esspés</w>
+<w type="PONfbl">,</w>
+<w type="VERcjg">pernez</w>
+<w type="NOMcom">orge</w>
+<w type="PRE">en</w>
+<w type="ADJqua">grant</w>
+<w type="NOMcom">quantité</w>
+<w type="CONcoo">et</w>
+<lb/>
+<w type="DETndf">une</w>
+<w type="NOMcom">taupe</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">ardez</w>
+<w type="PRE">en</w>
+<w type="DETndf">un</w>
+<w type="NOMcom">pot</w>
+<w type="ADJqua">nuvel</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">faites</w>
+<lb/>
+<w type="NOMcom">puldre</w>
+<w type="PONfbl">,</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">pernez</w>
+<w type="ADJqua">blanc</w>
+<w type="NOMcom">mel</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">ungiesz</w>
+<w type="DETdef">le</w>
+<w type="NOMcom">liu</w>
+<w type="PROrel">u</w>
+<lb/>
+<w type="PROper">vus</w>
+<w type="VERcjg">volesz</w>
+<w type="CONsub">que</w>
+<w type="DETdef">les</w>
+<w type="NOMcom">peils</w>
+<w type="VERcjg">creisent</w>
+<w type="PONfbl">,</w>
+<w type="CONcoo">et</w>
+<w type="ADVgen">puis</w>
+<w type="VERcjg">jetez</w>
+<w type="DETdef">la</w>
+<lb/>
+<w type="NOMcom">puldre</w>
+<w type="ADVgen">sure</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">lassez</w>
+<w type="DETcar">dous</w>
+<w type="NOMcom">jurs</w>
+<w type="PONfrt">.</w>
+<w type="PRE.DETdef">El</w>
+<w type="AJDord">terce</w>
+<w type="NOMcom">jur</w>
+<w type="PONfbl">,</w>
+<pb n="38"/>
+<lb/>
+<w type="VERcjg">lavez</w>
+<w type="PRE">od</w>
+<w type="NOMcom">eve</w>
+<w type="CONcoo">u</w>
+<w type="NOMcom">alcanne</w>
+<w type="CONcoo">et</w>
+<w type="NOMcom">mente</w>
+<w type="CONcoo">et</w>
+<w type="NOMcom">sauge</w>
+<w type="VERcjg">sunt</w>
+<lb/>
+<w type="ADVgen">bien</w>
+<w type="VERppe">quit</w>
+<w type="ADVgen">enz</w>
+<w type="PONfrt">.</w>
+</p>
+</div>
+<div n="VII">
+<head xml:lang="la">
+<w type="ETR">AD</w>
+<w type="ETR">IDEM</w>
+<w type="PONfrt">.</w>
+</head>
+<p>
+<lb/>
+<w type="ADVgen">Certes</w>
+<w type="PONfbl">,</w>
+<w type="DETdef">la</w>
+<w type="NOMpro">Saracine</w>
+<w type="PRE">de</w>
+<w type="NOMpro">Meschine</w>
+<w type="VERcjg">guari</w>
+<w type="NOMcom">meschine</w>
+<w type="PONfbl">,</w>
+
+<lb/>
+<w type="PROper">mei</w>
+<w type="VERppa">veant</w>
+<w type="PONfbl">,</w>
+<w type="PROrel">que</w>
+<w type="ADVgen">tute</w>
+<w type="VERcjg">fu</w>
+<w type="ADJqua">chauve</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">out</w>
+<w type="VERppe">perdu</w>
+<w type="DETdef">les</w>
+<lb/>
+<w type="NOMcom">peilz</w>
+<w type="PRE.DETdef">des</w>
+<w type="NOMcom">surcilz</w>
+<w type="PONfrt">.</w>
+<w type="PROper">Ele</w>
+<w type="VERcjg">prist</w>
+<w type="NOMcom">persil</w>
+<w type="CONcoo">et</w>
+<w type="NOMcom">sauge</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">tribla</w>
+<lb/>
+<w type="ADVgen">forment</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">bulli</w>
+<w type="PRE">en</w>
+<w type="ADJqua">blanc</w>
+<w type="NOMcom">vin</w>
+<w type="VERppe">medlé</w>
+<w type="PRE">od</w>
+<w type="NOMcom">grese</w>
+<w type="PRE">de</w>
+<lb/>
+<w type="NOMcom">porc</w>
+<w type="PONfrt">.</w>
+<w type="CONsub">Quan</w>
+<w type="PROadv">i</w>
+<w type="VERcjg">fu</w>
+<w type="ADVgen">bient</w>
+<w type="VERppe">bulli</w>
+<w type="PONfbl">,</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">grese</w>
+<w type="PRE">de</w>
+<w type="NOMcom">sus</w>
+<w type="VERppe">culli</w>
+<lb/>
+<w type="PRE">en</w>
+<w type="DETndf">un</w>
+<w type="ADJind">altre</w>
+<w type="NOMcom">pote</w>
+<w type="PONfbl">,</w>
+<w type="ADVgen">puis</w>
+<w type="VERcjg">prist</w>
+<w type="NOMcom">cumin</w>
+<w type="CONcoo">et</w>
+<w type="NOMcom">mastic</w>
+<w type="CONcoo">et</w>
+<lb/>
+<w type="VERcjg">tribla</w>
+<w type="PRE">od</w>
+<w type="NOMcom">mués</w>
+<w type="PRE">de</w>
+<w type="NOMcom">hof</w>
+<w type="VERppe">quit</w>
+<w type="PRE">en</w>
+<w type="NOMcom">eve</w>
+<w type="PONfrt">.</w>
+<w type="ADVgen">Dunc</w>
+<w type="PROper">les</w>
+<w type="VERcjg">bulli</w>
+
+<lb/>
+<w type="ADVgen">ensemble</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">fu</w>
+<w type="CONsub">cum</w>
+<w type="VERcjg">unguent</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">uinst</w>
+<w type="PONfbl">:</w>
+<w type="DETdef">les</w>
+<w type="NOMcom">surcilz</w>
+<lb/>
+<w type="CONcoo">et</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">teste</w>
+<w type="PROper">li</w>
+<w type="VERcjg">revindrent</w>
+<w type="PONfrt">.</w>
+<w type="ADVgen">Issi</w>
+<w type="VERcjg">poez</w>
+<w type="VERinf">faire</w>
+<w type="CONsub">quant</w>
+<w type="PROper">vus</w>
+<lb/>
+<w type="VERcjg">volesz</w>
+<w type="CONsub">que</w>
+<w type="NOMcom">peilz</w>
+<w type="PROper">vus</w>
+<w type="VERcjg">creisent</w>
+<w type="PONfrt">.</w>
+</p>
+</div>
+<div n="VIII">
+<head xml:lang="la">
+<w type="ETR">AD</w>
+<w type="ETR">IDEM</w>
+<w type="PONfrt">.</w>
+</head>
+<p>
+<lb/>
+<w type="PROper">Jeo</w>
+<w type="VERcjg">vi</w>
+<w type="NOMpro">Constantin</w>
+<w type="VERinf">prendre</w>
+<w type="NOMcom">piretre</w>
+<w type="CONcoo">et</w>
+<w type="VERinf">faire</w>
+
+<lb/>
+<w type="NOMcom">puldre</w>
+<w type="CONcoo">et</w>
+<w type="VERinf">medler</w>
+<w type="PRE">od</w>
+<w type="NOMcom">gresse</w>
+<w type="PRE">de</w>
+<w type="NOMcom">urse</w>
+<w type="CONcoo">et</w>
+<w type="VERinf">uindre</w>
+<w type="DETdef">le</w>
+<lb/>
+<w type="NOMcom">liu</w>
+<w type="PROrel">u</w>
+<w type="PROper">il</w>
+<w type="VERcjg">voleit</w>
+<w type="CONsub">que</w>
+<w type="NOMcom">peilz</w>
+<w type="VERcjg">crusent</w>
+<w type="PONfrt">.</w>
+</p>
+</div>
+<div n="IX">
+<head xml:lang="la">
+<w type="ETR">AD</w>
+<w type="ETR">IDEM</w>
+<w type="PONfrt">.</w>
+</head>
+<p>
+<lb/>
+<w type="NOMcom">Dame</w>
+<w type="NOMpro">Trote</w>
+<w type="VERcjg">fait</w>
+<w type="NOMcom">peilz</w>
+<w type="VERinf">creistre</w>
+<w type="ADVgen">issi</w>
+<w type="PONfbl">:</w>
+<w type="PROper">ele</w>
+<w type="VERcjg">prist</w>
+
+
+<lb/>
+<w type="DETdef">les</w>
+<w type="NOMcom">cheffes</w>
+<w type="PRE">de</w>
+<w type="NOMcom">oiseus</w>
+<w type="ADJqua">petiz</w>
+<w type="PROrel">que</w>
+<w type="PROper">ele</w>
+<w type="VERcjg">poeit</w>
+<w type="VERinf">truver</w>
+<w type="CONcoo">et</w>
+<lb/>
+<w type="ADJqua">plein</w>
+<w type="NOMcom">puin</w>
+<w type="PRE">de</w>
+<w type="NOMcom">furment</w>
+<w type="CONcoo">et</w>
+<w type="ADVgen">autretant</w>
+<w type="PRE">de</w>
+<w type="NOMcom">eisil</w>
+<w type="CONcoo">et</w>
+<milestone unit="column" n="276 v° b"/>
+<lb/>
+<w type="VERcjg">arst</w>
+<w type="PROind">tut</w>
+<w type="ADVgen">ensemble</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">fist</w>
+<w type="NOMcom">puldre</w>
+<w type="PONfbl">,</w>
+<w type="VERcjg">lava</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">teste</w>
+<lb/>
+<w type="CONcoo">et</w>
+<w type="VERcjg">uinst</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">teste</w>
+<w type="PRE">de</w>
+<w type="NOMcom">seim</w>
+<w type="CONcoo">et</w>
+<w type="PRE">de</w>
+<w type="ADJqua">blanc</w>
+<w type="NOMcom">mel</w>
+<w type="PONfbl">,</w>
+<w type="ADVgen">puis</w>
+<w type="ADVgen">si</w>
+<lb/>
+<w type="VERcjg">jetat</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">pudre</w>
+<w type="ADVgen">sure</w>
+<w type="PONfrt">.</w>
+<pb n="40"/>
+</p>
+</div>
+<div n="X">
+<head xml:lang="la">
+<w type="ETR">AD</w>
+<w type="ETR">FACIENDOS</w>
+<w type="ETR">LONGOS</w>
+<w type="ETR">CAPILLOS</w>
+<w type="PONfrt">.</w>
+</head>
+<p>
+<lb/>
+<w type="CONsub">Si</w>
+<w type="PROper">vus</w>
+<w type="VERcjg">volez</w>
+<w type="VERinf">faire</w>
+<w type="NOMcom">chevousz</w>
+<w type="ADJqua">lungs</w>
+<w type="CONcoo">et</w>
+<w type="ADJqua">spes</w>
+<w type="PONfbl">,</w>
+<w type="VERcjg">pernez</w>
+
+<lb/>
+<w type="DETndf">une</w>
+<w type="NOMcom">herbe</w>
+<w type="PROrel">que</w>
+<w type="NOMcom">hume</w>
+<w type="VERcjg">apele</w>
+<w type="PONpga">«</w>
+<w type="NOMcom">brionie</w>
+<w type="PONpdr">»</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">quisez</w>
+<lb/>
+<w type="PRE">en</w>
+<w type="NOMcom">vin</w>
+<w type="CONcoo">u</w>
+<w type="PRE">en</w>
+<w type="NOMcom">eisil</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">lavesz</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">teste</w>
+<w type="PONfbl">,</w>
+<w type="CONcoo">et</w>
+<w type="DETdef">les</w>
+<w type="NOMcom">chevouz</w>
+<lb/>
+<w type="VERcjg">serunt</w>
+<w type="ADJqua">lungs</w>
+<w type="PONfrt">.</w>
+<w type="PROdem">Ceo</w>
+<w type="VERcjg">vi</w>
+<w type="PROper">jeo</w>
+<w type="VERinf">faire</w>
+<w type="PRE.DETdef">as</w>
+<w type="NOMcom">dames</w>
+<w type="PRE">de</w>
+<w type="NOMpro">Salerne</w>
+<w type="PONfrt">.</w>
+</p>
+</div>
+<div n="XI">
+<head xml:lang="la">
+<w type="ETR">AD</w>
+<w type="ETR">IDEM</w>
+<w type="PONfrt">.</w>
+</head>
+<p>
+<lb/>
+<w type="NOMpro">Galien</w>
+<w type="VERcjg">cunte</w>
+<w type="PRE">en</w>
+<w type="DETndf">un</w>
+<w type="NOMcom">livre</w>
+<w type="CONsub">que</w>
+<w type="VERcjg">vit</w>
+<w type="DETndf">un</w>
+<w type="NOMcom">hume</w>
+
+<lb/>
+<w type="VERinf">faire</w>
+<w type="DETdef">les</w>
+<w type="NOMcom">chevouz</w>
+<w type="VERinf">creistre</w>
+<w type="PONfbl">:</w>
+<w type="PROper">il</w>
+<w type="VERcjg">prist</w>
+<w type="DETdef">les</w>
+<w type="NOMcom">offes</w>
+<w type="PRE">de</w>
+<w type="DETdef">la</w>
+
+
+<lb/>
+<w type="NOMcom">cornellie</w>
+<w type="PROrel">que</w>
+<w type="VERcjg">furent</w>
+<w type="NOMcom">puns</w>
+<w type="PRE">en</w>
+<w type="NOMcom">mai</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">arst</w>
+<w type="PROper">les</w>
+<w type="PRE">en</w>
+<w type="DETndf">un</w>
+<lb/>
+<w type="NOMcom">pot</w>
+<w type="ADJqua">nuvel</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">fist</w>
+<w type="NOMcom">puldre</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">destempra</w>
+<w type="PRE">od</w>
+<w type="NOMcom">olie</w>
+<w type="PRE">de</w>
+<lb/>
+<w type="NOMcom">olive</w>
+<w type="PONfrt">.</w>
+</p>
+</div>
+<div n="XII">
+<head xml:lang="la">
+<w type="ETR">AD</w>
+<w type="ETR">IDEM</w>
+<w type="PONfrt">.</w>
+</head>
+<p>
+<lb/>
+<w type="PROper">Jeo</w>
+<w type="VERcjg">vi</w>
+<w type="NOMpro">Trote</w>
+<w type="VERinf">prendre</w>
+<w type="NOMcom">lupins</w>
+<w type="CONcoo">et</w>
+<w type="VERinf">faire</w>
+<w type="NOMcom">puldre</w>
+<w type="CONcoo">et</w>
+
+<lb/>
+<w type="VERinf">bullir</w>
+<w type="PRE">en</w>
+<w type="NOMcom">eisil</w>
+<w type="CONcoo">et</w>
+<w type="VERinf">frire</w>
+<w type="PRE">od</w>
+<w type="DETdef">le</w>
+<w type="NOMcom">eisil</w>
+<w type="DETdef">les</w>
+<w type="NOMcom">chevousz</w>
+<w type="PRE">entre</w>
+<lb/>
+<w type="DETdef">les</w>
+<w type="NOMcom">mains</w>
+<w type="PONfbl">,</w>
+<w type="CONcoo">et</w>
+<w type="DETdef">les</w>
+<w type="NOMcom">verms</w>
+<w type="VERcjg">mururent</w>
+<w type="PONfrt">.</w>
+</p>
+</div>
+<div n="XIII">
+<head xml:lang="la">
+<w type="ETR">AD</w>
+<w type="ETR">IDEM</w>
+<w type="PONfrt">.</w>
+</head>
+<p>
+<lb/>
+<w type="DETndf">Unne</w>
+<w type="NOMcom">dame</w>
+<w type="PRE">a</w>
+<w type="NOMpro">Pumtremble</w>
+<w type="PONfbl">,</w>
+<w type="PROper">mei</w>
+<w type="VERppa">veant</w>
+<w type="PONfbl">,</w>
+<w type="VERcjg">prist</w>
+
+<lb/>
+<w type="NOMcom">farine</w>
+<w type="PRE">de</w>
+<w type="NOMcom">orge</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">pestela</w>
+<w type="PRE">od</w>
+<w type="NOMcom">jus</w>
+<w type="PRE">de</w>
+<w type="NOMcom">aluine</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">fit</w>
+<lb/>
+<w type="DETndf">un</w>
+<w type="NOMcom">pain</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">mist</w>
+<w type="VERinf">quire</w>
+<w type="PRE">en</w>
+<w type="DETndf">un</w>
+<w type="NOMcom">furn</w>
+<w type="CONcoo">et</w>
+<w type="PONfbl">,</w>
+<w type="ADVgen">si</w>
+<w type="ADVgen">tost</w>
+<w type="CONsub">cum</w>
+<lb/>
+<w type="PROper">el</w>
+<w type="PROper">le</w>
+<w type="VERcjg">trest</w>
+<w type="PONfbl">,</w>
+<w type="VERcjg">envolupa</w>
+<w type="DETdef">les</w>
+<w type="NOMcom">chevouz</w>
+<w type="ADVgen">denz</w>
+<w type="PONfbl">,</w>
+<w type="CONcoo">et</w>
+<w type="DETdef">les</w>
+<lb/>
+<w type="NOMcom">verms</w>
+<w type="VERcjg">mururent</w>
+<w type="PONfrt">.</w>
+</p>
+</div>
+<div n="XIV">
+<head xml:lang="la">
+<w type="ETR">AD</w>
+<w type="ETR">SCALAS</w>
+<w type="ETR">QUE</w>
+<w type="ETR">NASCUNTUR</w>
+<w type="ETR">IN</w>
+<w type="ETR">CAPITE</w>
+<w type="PONfrt">.</w>
+</head>
+<p>
+<lb/>
+<w type="NOMcom">Ecales</w>
+<w type="VERcjg">nesent</w>
+<w type="PRE">en</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">teste</w>
+<w type="PONfbl">,</w>
+<w type="PROrel">que</w>
+<w type="NOMcom">hume</w>
+<w type="VERcjg">apele</w>
+<w type="PRE">en</w>
+
+<lb/>
+<w type="NOMpro">Pullie</w>
+<w type="PONpga">«</w>
+<w type="NOMcom">furfurasches</w>
+<w type="PONpdr">»</w>
+<w type="PONfbl">,</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">funt</w>
+<w type="DETdef">les</w>
+<w type="NOMcom">chevous</w>
+<w type="VERinf">porrir</w>
+<w type="PONfrt">.</w>
+<pb n="42"/>
+<lb/>
+<w type="ADVgen">Issi</w>
+<w type="PROper">les</w>
+<w type="VERcjg">osterez</w>
+<w type="PONfbl">:</w>
+<w type="VERcjg">pernez</w>
+<w type="PRE">de</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">geneste</w>
+<w type="PONfbl">,</w>
+<w type="CONcoo">u</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">flur</w>
+<lb/>
+<w type="CONcoo">u</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">foille</w>
+<w type="PONfbl">,</w>
+<w type="CONcoo">et</w>
+<w type="DETndf">une</w>
+<w type="NOMcom">herbe</w>
+<w type="PROrel">que</w>
+<w type="NOMcom">hume</w>
+<w type="VERcjg">apele</w>
+<w type="PONpga">«</w>
+<w type="NOMcom">centrum</w>
+
+<lb/>
+<w type="NOMcom">galli</w>
+<w type="PONpdr">»</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">bulliez</w>
+<w type="PRE">en</w>
+<w type="NOMcom">eisil</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">lavez</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">teste</w>
+<w type="PRE">od</w>
+<w type="PROdem">uoc</w>
+<w type="PONfrt">.</w>
+</p>
+</div>
+<div n="XV">
+<head xml:lang="la">
+<w type="ETR">AD</w>
+<w type="ETR">IDEM</w>
+<w type="PONfrt">.</w>
+</head>
+<p>
+<lb/>
+<w type="NOMpro">Trote</w>
+<w type="DETdef">les</w>
+<w type="VERcjg">ost</w>
+<w type="PRE">en</w>
+<w type="DETdem">ceste</w>
+<w type="NOMcom">manere</w>
+<w type="PONfbl">:</w>
+<w type="PROper">ele</w>
+<w type="VERcjg">prent</w>
+<w type="DETdef">la</w>
+
+<lb/>
+<w type="NOMcom">semence</w>
+<w type="PRE">de</w>
+<w type="NOMcom">urtie</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">met</w>
+<w type="PROper">le</w>
+<w type="NOMcom">temprer</w>
+<w type="PRE.DETdef">ou</w>
+<w type="NOMcom">eisil</w>
+<w type="DETcar">dous</w>
+
+<lb/>
+<w type="NOMcom">jurs</w>
+<w type="CONcoo">u</w>
+<w type="DETcar">treis</w>
+<w type="CONcoo">et</w>
+<w type="ADVgen">puis</w>
+<w type="VERcjg">leve</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">teste</w>
+<w type="PRE">od</w>
+<w type="ADJqua">bone</w>
+<w type="NOMcom">lexive</w>
+
+<lb/>
+<w type="CONcoo">et</w>
+<w type="ADVgen">puis</w>
+<w type="PRE">od</w>
+<w type="DETdem">cel</w>
+<w type="NOMcom">eisil</w>
+<w type="PONfrt">.</w>
+</p>
+</div>
+<div n="XVI">
+<head xml:lang="la">
+<w type="ETR">AD</w>
+<w type="ETR">IDEM</w>
+<w type="PONfrt">.</w>
+</head>
+<p>
+<lb/>
+<w type="DETdef">La</w>
+<w type="NOMpro">Saracine</w>
+<w type="VERcjg">fait</w>
+<w type="NOMcom">puldre</w>
+<w type="PRE">de</w>
+<w type="NOMcom">peiz</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">destempre</w>
+
+<lb/>
+<w type="PRE">od</w>
+<w type="NOMcom">jus</w>
+<w type="PRE">de</w>
+<w type="NOMcom">blete</w>
+<w type="CONcoo">u</w>
+<w type="PRE">od</w>
+<w type="NOMcom">jus</w>
+<w type="PRE">de</w>
+<w type="NOMcom">mauve</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">met</w>
+<w type="PRE">od</w>
+<w type="PROdem">uoc</w>
+<milestone unit="column" n="277 r° a"/>
+<lb/>
+<w type="NOMcom">eisil</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">leve</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">teste</w>
+<w type="PRE">od</w>
+<w type="DETdem">cele</w>
+<w type="NOMcom">medicine</w>
+<w type="CONcoo">et</w>
+<w type="ADVgen">puis</w>
+<lb/>
+<w type="PRE">od</w>
+<w type="NOMcom">vin</w>
+<w type="CONcoo">u</w>
+<w type="NOMcom">centauree</w>
+<w type="VERcjg">est</w>
+<w type="VERppe">quit</w>
+<w type="ADVgen">enz</w>
+<w type="PONfrt">.</w>
+</p>
+</div>
+<div n="XVII">
+<head xml:lang="la">
+<w type="ETR">AD</w>
+<w type="ETR">AUGENDOS</w>
+<w type="ETR">CAPILLOS</w>
+<w type="PONfrt">.</w>
+</head>
+<p>
+<lb/>
+<w type="PRE">A</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">fie</w>
+<w type="VERcjg">chanisent</w>
+<w type="DETdef">les</w>
+<w type="NOMcom">chevous</w>
+<w type="ADVgen">trop</w>
+<w type="ADVgen">tost</w>
+<w type="CONcoo">et</w>
+<w type="PROdem">ceo</w>
+<lb/>
+<w type="VERcjg">est</w>
+<w type="PRE">de</w>
+<w type="ADJqua">grant</w>
+<w type="NOMcom">habundance</w>
+<w type="PRE">de</w>
+<w type="NOMcom">flemme</w>
+<w type="PONfrt">.</w>
+<w type="ADVgen">Primes</w>
+
+<lb/>
+<w type="VERcjg">dunez</w>
+<w type="PRE">a</w>
+<w type="DETdef">l'</w>
+<w type="NOMcom">hume</w>
+<w type="NOMcom">mescine</w>
+<w type="PROrel">que</w>
+<w type="NOMcom">purge</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">teste</w>
+<w type="PRE">de</w>
+<lb/>
+<w type="NOMcom">fieume</w>
+<w type="CONcoo">et</w>
+<w type="ADVgen">pois</w>
+<w type="VERcjg">pernez</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">racine</w>
+<w type="PRE">de</w>
+<w type="NOMcom">cholet</w>
+<w type="ADJqua">sec</w>
+<lb/>
+<w type="CONcoo">et</w>
+<w type="ADJqua">vert</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">quisez</w>
+<w type="PRE">en</w>
+<w type="NOMcom">eve</w>
+<w type="PRE">de</w>
+<w type="NOMcom">funteinne</w>
+<w type="PRE">dec'</w>
+<w type="PRE">a</w>
+<w type="DETdef">la</w>
+<lb/>
+<w type="NOMcom">meité</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">lavez</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">teste</w>
+<w type="ADVgen">assiduelement</w>
+<w type="PONfrt">.</w>
+</p>
+</div>
+<div n="XVIII">
+<head xml:lang="la">
+<w type="ETR">AD</w>
+<w type="ETR">FACIENDOS</w>
+<w type="ETR">CAPILLOS</w>
+<w type="ETR">CROCEOS</w>
+<w type="PONfrt">.</w>
+</head>
+<p>
+<lb/>
+<w type="CONsub">Si</w>
+<w type="PROper">vus</w>
+<w type="VERcjg">volez</w>
+<w type="VERinf">faire</w>
+<w type="DETdef">les</w>
+<w type="NOMcom">chevouz</w>
+<w type="ADJqua">gaudnes</w>
+<w type="CONcoo">et</w>
+<w type="ADJqua">espés</w>
+<w type="PONfbl">,</w>
+
+<lb/>
+<w type="VERcjg">pernés</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">lesarde</w>
+<w type="ADJqua">verte</w>
+<w type="CONcoo">et</w>
+<w type="VERppe">coupez</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">cue</w>
+<w type="CONcoo">et</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">teste</w>
+<lb/>
+<w type="CONcoo">et</w>
+<w type="PROadv">I</w>
+<w type="VERcjg">quisez</w>
+<w type="PRE">en</w>
+<w type="NOMcom">olie</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">uingnez</w>
+<w type="DETdef">le</w>
+<w type="NOMcom">chevouz</w>
+<w type="PONfrt">.</w>
+<w type="PROind">Autre</w>
+<w type="PONfbl">:</w>
+<lb/>
+<w type="VERcjg">pernez</w>
+<w type="NOMcom">chenille</w>
+<w type="CONcoo">et</w>
+<w type="NOMcom">orpiment</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">faites</w>
+<w type="VERinf">bullir</w>
+<w type="PRE">en</w>
+<w type="NOMcom">olie</w>
+<lb/>
+<w type="ADJqua">laurin</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">ungniez</w>
+<w type="DETdef">les</w>
+<w type="NOMcom">chevouz</w>
+<w type="PONfrt">.</w>
+<pb n="44"/>
+</p>
+</div>
+<div n="XIX">
+<head xml:lang="la">
+<w type="ETR">AD</w>
+<w type="ETR">LONGOS</w>
+<w type="ETR">FACIENDOS</w>
+<w type="PONfrt">.</w>
+</head>
+<p>
+<lb/>
+<w type="DETndf">Une</w>
+<w type="NOMcom">velie</w>
+<w type="PROper">me</w>
+<w type="VERcjg">cunta</w>
+<w type="CONsub">que</w>
+<w type="PROper">ele</w>
+<w type="VERcjg">prist</w>
+<w type="NOMcom">crotes</w>
+<w type="PRE">de</w>
+
+<lb/>
+<w type="NOMcom">cheffe</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">quist</w>
+<w type="PRE">en</w>
+<w type="NOMcom">olie</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">uinst</w>
+<w type="DETdef">les</w>
+<w type="NOMcom">chevouz</w>
+<w type="CONcoo">et</w>
+<w type="PROper">il</w>
+<lb/>
+<w type="VERcjg">devindrent</w>
+<w type="ADJqua">espés</w>
+<w type="PONfrt">.</w>
+</p>
+</div>
+<div n="XX">
+<head xml:lang="la">
+<w type="ETR">ALIUD</w>
+<w type="ETR">AD</w>
+<w type="ETR">IDEM</w>
+<w type="PONfrt">.</w>
+</head>
+<p>
+<lb/>
+<w type="PROind">Altre</w>
+<w type="PRE">a</w>
+<w type="VERinf">faire</w>
+<w type="DETdef">les</w>
+<w type="NOMcom">chevouz</w>
+<w type="ADJqua">lungés</w>
+<w type="CONcoo">et</w>
+<w type="ADJqua">bealés</w>
+<w type="PONfbl">:</w>
+
+<lb/>
+<w type="VERcjg">pernez</w>
+<w type="DETdef">les</w>
+<w type="NOMcom">nueus</w>
+<w type="PRE">de</w>
+<w type="NOMcom">fore</w>
+<w type="PRE">de</w>
+<w type="NOMcom">aveine</w>
+<w type="CONcoo">et</w>
+<w type="DETndf">une</w>
+<w type="NOMcom">herbe</w>
+<lb/>
+<w type="PROrel">k'</w>
+<w type="PROind">um</w>
+<w type="VERcjg">apele</w>
+<w type="PONpga">«</w>
+<w type="NOMcom">morgeline</w>
+<w type="PONpdr">»</w>
+<w type="CONcoo">et</w>
+<w type="NOMcom">glanz</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">quisez</w>
+<w type="PROper">les</w>
+<w type="PRE">en</w>
+<lb/>
+<w type="NOMcom">eve</w>
+<w type="PONfbl">,</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">lavez</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">teste</w>
+<w type="PRE">de</w>
+<w type="NOMcom">lexive</w>
+<w type="CONcoo">et</w>
+<w type="ADVgen">puis</w>
+<w type="PRE">de</w>
+<w type="DETdem">ceste</w>
+<lb/>
+<w type="NOMcom">eve</w>
+<w type="PONfbl">,</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">liez</w>
+<w type="PROper">les</w>
+<w type="PRE">od</w>
+<w type="DETndf">une</w>
+<w type="NOMcom">guimple</w>
+<w type="DETind">tote</w>
+<w type="NOMcom">nuit</w>
+<w type="PONfrt">.</w>
+</p>
+</div>
+<div n="XXI">
+<head xml:lang="la">
+<w type="ETR">AD</w>
+<w type="ETR">FACIENDOS</w>
+<w type="ETR">CROCEOS</w>
+<w type="PONfrt">.</w>
+</head>
+<p>
+<lb/>
+<w type="DETdef">La</w>
+<w type="NOMpro">Sarazine</w>
+<w type="VERcjg">fist</w>
+<w type="ADVgen">issi</w>
+<w type="DETdef">les</w>
+<w type="NOMcom">chevouz</w>
+<w type="ADJqua">gadnes</w>
+<w type="PONfbl">:</w>
+<w type="PROper">ele</w>
+
+<lb/>
+<w type="VERcjg">prist</w>
+<w type="NOMcom">sarment</w>
+<w type="PRE">de</w>
+<w type="NOMcom">vinie</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">fist</w>
+<w type="NOMcom">cendre</w>
+<w type="PONfbl">,</w>
+<w type="CONcoo">et</w>
+<w type="NOMcom">cendre</w>
+<lb/>
+<w type="PRE">de</w>
+<w type="NOMcom">fredne</w>
+<w type="PONfbl">,</w>
+<w type="ADVgen">tan</w>
+<w type="PRE">de</w>
+<w type="DETdef">l'</w>
+<w type="PROind">un</w>
+<w type="CONsub">cum</w>
+<w type="PRE">de</w>
+<w type="DETdef">l'</w>
+<w type="PROind">autre</w>
+<w type="PONfbl">,</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">prist</w>
+<w type="PRE">de</w>
+<lb/>
+<w type="NOMcom">galle</w>
+<w type="ADJqua">plein</w>
+<w type="NOMcom">main</w>
+<w type="PONfbl">,</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">quist</w>
+<w type="PROper">les</w>
+<w type="PROind">un</w>
+<w type="ADJqua">demi</w>
+<w type="NOMcom">jur</w>
+<w type="PRE">en</w>
+<w type="NOMcom">eisil</w>
+<lb/>
+<w type="CONcoo">et</w>
+<w type="VERcjg">lava</w>
+<w type="DETdef">les</w>
+<w type="NOMcom">chevouz</w>
+<w type="PRE">de</w>
+<w type="NOMcom">lexive</w>
+<w type="CONcoo">et</w>
+<w type="ADVgen">puis</w>
+<w type="PRE">de</w>
+<w type="DETdem">cel</w>
+<lb/>
+<w type="NOMcom">decocciun</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">lia</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">teste</w>
+<w type="PRE">d'</w>
+<w type="DETndf">une</w>
+<w type="NOMcom">guimple</w>
+<w type="DETind">tute</w>
+<lb/>
+<w type="NOMcom">nuit</w>
+<w type="PONfbl">,</w>
+<w type="CONcoo">et</w>
+<w type="DETdef">les</w>
+<w type="NOMcom">chevouz</w>
+<w type="VERcjg">devindrent</w>
+<w type="ADJqua">ghadnes</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">dura</w>
+<lb/>
+<w type="ADVgen">lungement</w>
+<w type="PONfrt">.</w>
+<w type="PROind">Altre</w>
+<w type="PONfbl">:</w>
+<w type="NOMcom">savun</w>
+<w type="CONcoo">et</w>
+<w type="NOMcom">safran</w>
+<w type="VERcjg">quist</w>
+<w type="ADVgen">ensemble</w>
+<lb/>
+<w type="CONcoo">et</w>
+<w type="VERcjg">lava</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">teste</w>
+<w type="PRE">de</w>
+<w type="NOMcom">eve</w>
+<w type="PROrel">u</w>
+<w type="NOMcom">alum</w>
+<w type="VERcjg">fu</w>
+<w type="VERppe">quit</w>
+<w type="ADVgen">ensz</w>
+<w type="CONcoo">et</w>
+<w type="ADVgen">puis</w>
+<milestone unit="column" n="277 r° b"/>
+<lb/>
+<w type="VERcjg">fist</w>
+<w type="VERinf">lier</w>
+<w type="DETdef">les</w>
+<w type="NOMcom">chevouz</w>
+<w type="DETind">tute</w>
+<w type="NOMcom">nuit</w>
+<w type="PONfrt">.</w>
+
+</p>
+</div>
+<div n="XXII">
+<head xml:lang="la">
+<w type="ETR">AD</w>
+<w type="ETR">FACIENDOS</w>
+<w type="ETR">RUBEOS</w>
+<w type="ETR">CAPILLOS</w>
+<w type="PONfrt">.</w>
+</head>
+<p>
+<lb/>
+<w type="DETdef">Les</w>
+<w type="NOMcom">chevouz</w>
+<w type="VERcjg">frez</w>
+<w type="ADJqua">ruges</w>
+<w type="PRE">en</w>
+<w type="DETdem">ceste</w>
+<w type="NOMcom">manere</w>
+<w type="PONfbl">:</w>
+<w type="VERcjg">pernez</w>
+
+<lb/>
+<w type="NOMcom">brasil</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">faites</w>
+<w type="NOMcom">puldre</w>
+<w type="PONfbl">,</w>
+<w type="CONcoo">et</w>
+<w type="NOMcom">guarance</w>
+<hi rend="italic">
+<w type="ADVgen">item</w>
+</hi>
+<w type="PONfbl">,</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">quisez</w>
+<lb/>
+<w type="ADVgen">ensemble</w>
+<w type="PRE">en</w>
+<w type="ADJqua">blanc</w>
+<w type="NOMcom">eisil</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">lavez</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">teste</w>
+<w type="PRE">de</w>
+<w type="ADJqua">bone</w>
+<lb/>
+<w type="NOMcom">lexive</w>
+<w type="CONcoo">et</w>
+<w type="PONfbl">,</w>
+<w type="CONsub">quant</w>
+<w type="DETdef">les</w>
+<w type="NOMcom">chevouz</w>
+<w type="VERcjg">serunt</w>
+<w type="VERppe">secchés</w>
+<w type="PONfbl">,</w>
+<w type="VERcjg">lavez</w>
+<lb/>
+<w type="PRE">de</w>
+<w type="DETdem">cest</w>
+<w type="NOMcom">eisil</w>
+<w type="PONfrt">.</w>
+<w type="CONsub">Si</w>
+<w type="PROper">vus</w>
+<w type="PROper">les</w>
+<w type="VERcjg">volez</w>
+<w type="VERinf">faire</w>
+<w type="ADVgen">mult</w>
+<w type="ADJqua">ruges</w>
+<w type="PONfbl">,</w>
+<lb/>
+<w type="VERcjg">ajustez</w>
+<w type="DETcar">treis</w>
+<w type="NOMcom">deners</w>
+<w type="VERppa">pesant</w>
+<w type="PRE">de</w>
+<w type="NOMcom">sanc</w>
+<w type="PRE">de</w>
+<w type="NOMcom">dragun</w>
+<w type="PONfrt">.</w>
+
+<pb n="46"/>
+<lb/>
+<w type="ADVgen">Altrement</w>
+<w type="PROper">les</w>
+<w type="VERcjg">poez</w>
+<w type="VERinf">faire</w>
+<w type="ADJqua">ghadnes</w>
+<w type="PONfbl">:</w>
+<w type="VERcjg">pernez</w>
+
+<lb/>
+<w type="NOMcom">estreim</w>
+<w type="PRE">de</w>
+<w type="NOMcom">aveine</w>
+<w type="ADJqua">menu</w>
+<w type="VERppe">agé</w>
+<w type="CONcoo">et</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">flur</w>
+<w type="PRE">de</w>
+<w type="NOMcom">geneste</w>
+
+<lb/>
+<w type="CONcoo">et</w>
+<w type="VERcjg">quisez</w>
+<w type="PRE">en</w>
+<w type="NOMcom">eve</w>
+<w type="CONcoo">et</w>
+<w type="ADVgen">puis</w>
+<w type="VERcjg">jetez</w>
+<w type="PRE">od</w>
+<w type="PROdem">uoc</w>
+<w type="DETndf">un</w>
+<w type="NOMcom">dener</w>
+<lb/>
+<w type="VERppa">pesant</w>
+<w type="PRE">de</w>
+<w type="NOMcom">safran</w>
+<w type="CONcoo">et</w>
+<w type="ADJqua">plein</w>
+<w type="NOMcom">puin</w>
+<w type="PRE">de</w>
+<w type="NOMcom">galde</w>
+<w type="PONfbl">,</w>
+<w type="ADVgen.PROper">sis</w>
+<w type="NOMcom">colez</w>
+<lb/>
+<w type="CONcoo">et</w>
+<w type="PRE">de</w>
+<w type="PROdem">ceo</w>
+<w type="VERcjg">lavés</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">teste</w>
+<w type="PONfbl">,</w>
+<w type="CONcoo">et</w>
+<w type="DETdef">les</w>
+<w type="NOMcom">chevous</w>
+<w type="VERcjg">devendrunt</w>
+<lb/>
+<w type="ADJqua">ghadnes</w>
+<w type="PONfrt">.</w>
+</p>
+</div>
+<div n="XXIII">
+<head xml:lang="la">
+<w type="ETR">AD</w>
+<w type="ETR">FACIENDOS</w>
+<w type="ETR">NIGROS</w>
+<w type="PONfrt">.</w>
+</head>
+<p>
+<lb/>
+<w type="PROper">Jeo</w>
+<w type="VERcjg">vi</w>
+<w type="NOMpro">Trote</w>
+<w type="VERinf">teindre</w>
+<w type="DETdef">les</w>
+<w type="NOMcom">chevouz</w>
+<w type="ADVgen">issi</w>
+<w type="PONfbl">:</w>
+<w type="PROper">ele</w>
+<w type="VERcjg">prist</w>
+
+<lb/>
+<w type="NOMcom">ruil</w>
+<w type="PRE">de</w>
+<w type="NOMcom">fer</w>
+<w type="CONcoo">et</w>
+<w type="NOMcom">galles</w>
+<w type="CONcoo">et</w>
+<w type="DETdef">l'</w>
+<w type="NOMcom">escorche</w>
+<w type="PRE">de</w>
+<w type="NOMcom">nugauges</w>
+<w type="CONcoo">et</w>
+<lb/>
+<w type="NOMcom">alum</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">bulli</w>
+<w type="PRE">en</w>
+<w type="NOMcom">eisil</w>
+<w type="CONcoo">et</w>
+<w type="ADVgen">puis</w>
+<w type="VERcjg">cola</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">lava</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">teste</w>
+<lb/>
+<w type="PRE">de</w>
+<w type="NOMcom">eve</w>
+<w type="CONcoo">et</w>
+<w type="ADVgen">puis</w>
+<w type="PRE">de</w>
+<w type="DETdem">cel</w>
+<w type="NOMcom">eisil</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">lia</w>
+<w type="ADVgen">bien</w>
+<w type="DETdef">les</w>
+<w type="NOMcom">chevousz</w>
+<lb/>
+<w type="PRE">d'</w>
+<w type="DETndf">une</w>
+<w type="NOMcom">guimple</w>
+<w type="DETcar">dous</w>
+<w type="NOMcom">jurs</w>
+<w type="CONcoo">et</w>
+<w type="DETcar">dous</w>
+<w type="NOMcom">nuiz</w>
+<w type="PONfbl">,</w>
+<w type="CONcoo">et</w>
+<w type="ADVgen">pois</w>
+
+<lb/>
+<w type="VERcjg">esteint</w>
+<w type="DETdef">les</w>
+<w type="NOMcom">chevouz</w>
+<w type="ADJqua">neirés</w>
+<w type="PONfrt">.</w>
+
+</p>
+</div>
+<div n="XXIV">
+<head xml:lang="la">
+<w type="ETR">AD</w>
+<w type="ETR">FACIENDOS</w>
+<w type="ETR">SUBNIGROS</w>
+<w type="PONfrt">.</w>
+</head>
+<p>
+<lb/>
+<w type="PRE">Pur</w>
+<w type="VERinf">faire</w>
+<w type="DETdef">les</w>
+<w type="NOMcom">chevouz</w>
+<w type="ADJqua">auburs</w>
+<w type="PONfbl">,</w>
+<w type="VERcjg">pernez</w>
+<w type="NOMcom">dragant</w>
+
+<lb/>
+<w type="CONcoo">et</w>
+<w type="NOMcom">galles</w>
+<w type="VERppe">arses</w>
+<w type="CONcoo">u</w>
+<w type="ADVgen">tan</w>
+<w type="PRE">de</w>
+<w type="NOMcom">chastaine</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">destemprez</w>
+<lb/>
+<w type="PRE">od</w>
+<w type="NOMcom">eve</w>
+<w type="PRE">de</w>
+<w type="NOMcom">pluie</w>
+<w type="PROrel">u</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">fuille</w>
+<w type="PRE">de</w>
+<w type="NOMcom">nuer</w>
+<w type="VERcjg">seit</w>
+<w type="VERppe">quit</w>
+<w type="ADVgen">enz</w>
+<lb/>
+<w type="CONcoo">et</w>
+<w type="VERcjg">lavez</w>
+<w type="DETdef">les</w>
+<w type="NOMcom">chevouz</w>
+<w type="PRE">od</w>
+<w type="PROdem">uoc</w>
+<w type="PONfrt">.</w>
+</p>
+</div>
+<div n="XXV">
+<head xml:lang="la">
+<w type="ETR">DEPILATORIUM</w>
+<w type="PONfrt">.</w>
+</head>
+<p>
+<lb/>
+<w type="DETdef">Les</w>
+<w type="NOMcom">dames</w>
+<w type="PRE">de</w>
+<w type="NOMpro">Salerne</w>
+<w type="VERcjg">funt</w>
+<w type="DETndf">un</w>
+<w type="NOMcom">unguent</w>
+<w type="PROrel">que</w>
+<w type="PROper">eles</w>
+
+<lb/>
+<w type="VERcjg">apelent</w>
+<w type="PONpga">«</w>
+<w type="NOMcom">silotre</w>
+<w type="PONpdr">»</w>
+<w type="CONcoo">et</w>
+<w type="PRE">de</w>
+<w type="PROdem">ceo</w>
+<w type="VERcjg">ostent</w>
+<w type="NOMcom">peilz</w>
+<w type="CONcoo">et</w>
+<w type="NOMcom">chevouz</w>
+<lb/>
+<w type="PRE">par</w>
+<w type="PROind">tut</w>
+<w type="PONfrt">.</w>
+<w type="PROper">Eles</w>
+<w type="VERcjg">pernent</w>
+<w type="NOMcom">chausz</w>
+<w type="ADJqua">vif</w>
+<w type="PROrel">u</w>
+<w type="NOMcom">eve</w>
+<w type="ADVneg">ne</w>
+<w type="VERcjg">seit</w>
+<lb/>
+<w type="VERppe">jeté</w>
+<w type="ADVgen">sure</w>
+<w type="PONfbl">,</w>
+<w type="ADJqua">demi</w>
+<w type="NOMcom">escquele</w>
+<w type="PONfbl">,</w>
+<w type="ADVgen">bien</w>
+<w type="ADJqua">net</w>
+<w type="CONcoo">et</w>
+<w type="VERppe">passé</w>
+<w type="PRE">parmi</w>
+<lb/>
+<w type="DETndf">un</w>
+<w type="NOMcom">drap</w>
+<w type="CONcoo">u</w>
+<w type="PRE">parmi</w>
+<w type="DETndf">unc</w>
+<w type="NOMcom">sac</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">metent</w>
+<w type="PROper">le</w>
+<w type="PRE">en</w>
+<w type="DETndf">un</w>
+<w type="ADJqua">plein</w>
+<lb/>
+<w type="NOMcom">pot</w>
+<w type="PRE">de</w>
+<w type="NOMcom">eve</w>
+<w type="VERppa">bulliante</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">movent</w>
+<w type="CONcoo">et</w>
+<w type="PONfbl">,</w>
+<w type="CONsub">quant</w>
+<w type="PROper">eles</w>
+<lb/>
+<w type="VERcjg">volent</w>
+<w type="VERinf">saver</w>
+<w type="CONsub">s'</w>
+<w type="PROper">il</w>
+<w type="VERcjg">est</w>
+<w type="ADVgen">bien</w>
+<w type="VERppe">quit</w>
+<w type="PONfbl">,</w>
+<w type="VERcjg">metent</w>
+<w type="ADVgen">enz</w>
+<w type="DETndf">une</w>
+<lb/>
+<w type="NOMcom">penne</w>
+<w type="CONcoo">et</w>
+<w type="PONfbl">,</w>
+<w type="CONsub">si</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">plume</w>
+<w type="VERcjg">chet</w>
+<w type="PRE">de</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">penne</w>
+<w type="PONfbl">,</w>
+<w type="ADVgen">dunc</w>
+<w type="VERcjg">est</w>
+<lb/>
+<w type="ADVgen">bien</w>
+<w type="VERppe">quit</w>
+<w type="CONcoo">et</w>
+<w type="ADVgen">dunc</w>
+<w type="PROper">le</w>
+<w type="VERcjg">metent</w>
+<w type="PRE">od</w>
+<w type="DETpos">lur</w>
+<w type="NOMcom">main</w>
+<w type="ADVgen">tut</w>
+<milestone unit="column" n="277 v° a"/>
+<lb/>
+<w type="ADJqua">chaud</w>
+<w type="PRE">sur</w>
+<w type="DETdef">le</w>
+<w type="NOMcom">peil</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">tardent</w>
+<w type="PRE">en</w>
+<w type="NOMcom">veie</w>
+<w type="PONfrt">.</w>
+<w type="ADVgen">Autresi</w>
+<w type="VERcjg">poez</w>
+<pb n="48"/>
+<lb/>
+<w type="VERinf">faire</w>
+<w type="PONfbl">,</w>
+<w type="CONcoo">mes</w>
+<w type="VERcjg">guardez</w>
+<w type="CONsub">que</w>
+<w type="DETdef">le</w>
+<w type="NOMcom">unguent</w>
+<w type="PROadv">i</w>
+<w type="VERcjg">demure</w>
+<lb/>
+<w type="ADVgen">lungement</w>
+<w type="PONfbl">,</w>
+<w type="CONcoo">kar</w>
+<w type="PROper">il</w>
+<w type="VERcjg">escorchereit</w>
+<w type="DETdef">le</w>
+<w type="VERinf">quir</w>
+<w type="PONfrt">.</w>
+<w type="ADVgen">Altrement</w>
+<lb/>
+<w type="PROper">les</w>
+<w type="VERcjg">poez</w>
+<w type="VERinf">oster</w>
+<w type="VERcjg">pernez</w>
+<w type="DETcar">cinc</w>
+<w type="NOMcom">peces</w>
+<w type="PRE">de</w>
+<w type="NOMcom">collofonie</w>
+<w type="CONcoo">et</w>
+
+<lb/>
+<w type="PROind">une</w>
+<w type="PRE">de</w>
+<w type="NOMcom">cire</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">quisez</w>
+<w type="PROper">les</w>
+<w type="PRE">en</w>
+<w type="DETndf">une</w>
+<w type="NOMcom">teste</w>
+<w type="CONcoo">et</w>
+<w type="ADVgen">puis</w>
+<lb/>
+<w type="VERcjg">metez</w>
+<w type="PRE">en</w>
+<w type="DETndf">une</w>
+<w type="NOMcom">pece</w>
+<w type="PRE">de</w>
+<w type="NOMcom">linge</w>
+<w type="NOMcom">teile</w>
+<w type="CONcoo">et</w>
+<w type="PONfbl">,</w>
+<w type="ADVgen">si</w>
+<w type="ADVgen">tost</w>
+<w type="CONsub">cum</w>
+<lb/>
+<w type="PROper">vus</w>
+<w type="PROper">le</w>
+<w type="VERcjg">poez</w>
+<w type="VERinf">suffrir</w>
+<w type="PONfbl">,</w>
+<w type="VERcjg">metez</w>
+<w type="PRE">sur</w>
+<w type="DETdef">le</w>
+<w type="NOMcom">peil</w>
+<w type="PONfrt">.</w>
+</p>
+</div>
+<div n="XXVI">
+<head xml:lang="la">
+<w type="ETR">AD</w>
+<w type="ETR">NECANDOS</w>
+<w type="ETR">PEDICUILOS</w>
+<w type="PONfrt">.</w>
+</head>
+<p>
+<lb/>
+<w type="CONsub">Si</w>
+<w type="NOMcom">puilz</w>
+<w type="CONcoo">hu</w>
+<w type="NOMcom">lentes</w>
+<w type="NOMcom">seint</w>
+<w type="PRE.DETdef">es</w>
+<w type="NOMcom">chevouz</w>
+<w type="PONfbl">,</w>
+<w type="VERcjg">pernez</w>
+
+<lb/>
+<w type="NOMcom">sufonie</w>
+<w type="CONcoo">et</w>
+<w type="NOMcom">ellebre</w>
+<w type="ADJqua">blanc</w>
+<w type="CONcoo">et</w>
+<w type="DETndf">une</w>
+<w type="NOMcom">herbe</w>
+<w type="PROrel">k'</w>
+<w type="PROind">um</w>
+<w type="VERcjg">apele</w>
+<lb/>
+<w type="PONpga">«</w>
+<w type="NOMcom">sta</w>
+<w type="NOMcom">fisagre</w>
+<w type="PONpdr">»</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">bulliez</w>
+<w type="PRE">en</w>
+<w type="NOMcom">eve</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">lavez</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">teste</w>
+<w type="PONfrt">.</w>
+<lb/>
+<w type="VERcjg">Guardez</w>
+<w type="CONsub">que</w>
+<w type="PROper">vus</w>
+<w type="ADVneg">ne</w>
+<w type="VERcjg">metez</w>
+<w type="ADJqua">vif</w>
+<w type="NOMcom">argent</w>
+<w type="PRE.DETdef">al</w>
+<w type="NOMcom">chef</w>
+<w type="PONfrt">.</w>
+</p>
+</div>
+<div n="XXVII">
+<head xml:lang="la">
+<w type="ETR">AD</w>
+<w type="ETR">CASUM</w>
+<w type="ETR">CILIORUM</w>
+<w type="PONfrt">.</w>
+</head>
+<p>
+<lb/>
+<w type="CONsub">Si</w>
+<w type="DETdef">les</w>
+<w type="NOMcom">surcilz</w>
+<w type="VERcjg">chént</w>
+<w type="PONfbl">,</w>
+<w type="PROper">vus</w>
+<w type="PROper">les</w>
+<w type="VERcjg">poez</w>
+<w type="VERinf">faire</w>
+<w type="VERinf">creistre</w>
+
+<lb/>
+<w type="ADVgen">si</w>
+<w type="CONsub">cum</w>
+<w type="PROper">jeo</w>
+<w type="VERcjg">dis</w>
+<w type="PRE.DETdef">des</w>
+<w type="NOMcom">chevouz</w>
+<w type="PONfrt">.</w>
+<w type="PRE">A</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">fie</w>
+<w type="VERcjg">avent</w>
+<w type="CONsub">que</w>
+<lb/>
+<w type="DETdef">les</w>
+<w type="NOMcom">surcilz</w>
+<w type="VERcjg">sun</w>
+<w type="ADVgen">trop</w>
+<w type="ADJqua">granz</w>
+<w type="PONfrt">.</w>
+<w type="CONcoo">Dunc</w>
+<w type="PROper">les</w>
+<w type="VERcjg">poez</w>
+<w type="VERinf">amesurer</w>
+<lb/>
+<w type="PRE">en</w>
+<w type="DETdem">ceste</w>
+<w type="NOMcom">manere</w>
+<w type="PONfbl">:</w>
+<w type="VERcjg">ostez</w>
+<w type="ADVgen">primes</w>
+<w type="PRE.DETdef">del</w>
+<w type="NOMcom">peil</w>
+<w type="ADVgen">tan</w>
+<w type="CONsub">cum</w>
+
+<lb/>
+<w type="PROper">vus</w>
+<w type="VERcjg">volez</w>
+<w type="PONfbl">,</w>
+<w type="ADVgen">puis</w>
+<w type="VERcjg">pernez</w>
+<w type="NOMcom">ofs</w>
+<w type="PRE">de</w>
+<w type="NOMcom">furmie</w>
+<w type="CONcoo">et</w>
+<w type="NOMcom">gume</w>
+<lb/>
+<w type="PRE">de</w>
+<w type="NOMcom">ere</w>
+<w type="CONcoo">et</w>
+<w type="NOMcom">orpiment</w>
+<w type="ADVgen">tut</w>
+<w type="ADVgen">uelement</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">medlez</w>
+<w type="PROind">tut</w>
+<lb/>
+<w type="ADVgen">ensemble</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">ungniez</w>
+<w type="DETdef">le</w>
+<w type="NOMcom">liu</w>
+<w type="PROrel">u</w>
+<w type="PROper">vus</w>
+<w type="VERcjg">ostastes</w>
+<w type="DETdef">le</w>
+<w type="NOMcom">poil</w>
+<w type="PONfrt">.</w>
+
+<lb/>
+<w type="ADVgen">Ja</w>
+<w type="ADVneg">n'</w>
+<w type="PROadv">en</w>
+<w type="VERcjg">creistrunt</w>
+<w type="PONfrt">.</w>
+</p>
+</div>
+<div n="XXVIII">
+<head xml:lang="la">
+<w type="ETR">AD</w>
+<w type="ETR">IDEM</w>
+<w type="PONfrt">.</w>
+</head>
+<p>
+<lb/>
+<w type="NOMpro">Trote</w>
+<w type="VERcjg">prent</w>
+<w type="NOMcom">ofs</w>
+<w type="PRE">de</w>
+<w type="NOMcom">furmie</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">destempre</w>
+<w type="PRE">od</w>
+<w type="NOMcom">olie</w>
+
+<lb/>
+<w type="PROrel">hu</w>
+<w type="DETndf">un</w>
+<w type="NOMcom">yrçun</w>
+<w type="VERcjg">est</w>
+<w type="VERppe">quit</w>
+<w type="ADVgen">enz</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">uinst</w>
+<w type="DETdef">le</w>
+<w type="NOMcom">liu</w>
+<w type="PROrel">u</w>
+<w type="PROper">ele</w>
+<w type="VERcjg">oste</w>
+
+<lb/>
+<w type="DETdef">le</w>
+<w type="NOMcom">peil</w>
+<w type="PONfrt">.</w>
+</p>
+</div>
+<div n="XXIX">
+<head xml:lang="la">
+<w type="ETR">ALIUD</w>
+<w type="ETR">AD</w>
+<w type="ETR">IDEM</w>
+<w type="PONfrt">.</w>
+</head>
+<p>
+<lb/>
+<w type="PROind">Altre</w>
+<w type="PONfbl">:</w>
+<w type="PROper">ele</w>
+<w type="VERcjg">prist</w>
+<w type="DETdef">le</w>
+<w type="NOMcom">limazun</w>
+<w type="CONcoo">et</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">reine</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">quist</w>
+
+
+<pb n="50"/>
+<lb/>
+<w type="PRE">en</w>
+<w type="NOMcom">eisil</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">prist</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">grese</w>
+<w type="PROrel">que</w>
+<w type="PRE">de</w>
+<w type="ADVgen">sure</w>
+<w type="VERcjg">est</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">uinst</w>
+
+<lb/>
+<w type="DETdef">le</w>
+<w type="NOMcom">liu</w>
+<w type="PROrel">hu</w>
+<w type="PROper">ele</w>
+<w type="VERcjg">voleit</w>
+<w type="CONsub">que</w>
+<w type="NOMcom">peilz</w>
+<w type="ADVneg">ne</w>
+<w type="VERcjg">crusent</w>
+<w type="PONfrt">.</w>
+
+</p>
+</div>
+<div n="XXX">
+<head xml:lang="la">
+<w type="ETR">AD</w>
+<w type="ETR">IDEM</w>
+<w type="PONfrt">.</w>
+</head>
+<p>
+<lb/>
+<w type="PROind">Altre</w>
+<w type="PONfbl">:</w>
+<w type="VERcjg">pernez</w>
+<w type="NOMcom">orpiment</w>
+<w type="CONcoo">et</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">semence</w>
+<w type="PRE">de</w>
+<w type="NOMcom">chanille</w>
+
+<lb/>
+<w type="CONcoo">et</w>
+<w type="VERcjg">batez</w>
+<w type="PROper">les</w>
+<w type="ADVgen">ensemble</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">destemprez</w>
+<w type="PROper">les</w>
+<w type="PRE">od</w>
+<w type="ADJqua">chaut</w>
+
+<lb/>
+<w type="NOMcom">sanc</w>
+<w type="PRE">de</w>
+<w type="NOMcom">porc</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">sechez</w>
+<w type="CONcoo">u</w>
+<w type="PRE.DETdef">au</w>
+<w type="NOMcom">fu</w>
+<w type="CONcoo">u</w>
+<w type="PRE">a</w>
+<w type="NOMcom">soleil</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">uniez</w>
+<lb/>
+<w type="DETdef">le</w>
+<w type="NOMcom">liu</w>
+<w type="PROrel">u</w>
+<w type="NOMcom">peilz</w>
+<w type="VERcjg">sunt</w>
+<w type="VERppe">ostez</w>
+<w type="PONfrt">.</w>
+</p>
+</div>
+<div n="XXXI">
+<head xml:lang="la">
+<w type="ETR">AD</w>
+<w type="ETR">IDEM</w>
+<w type="PONfrt">.</w>
+</head>
+<p>
+<lb/>
+<w type="CONsub">Quant</w>
+<w type="DETdef">les</w>
+<w type="NOMcom">cilz</w>
+<w type="VERcjg">chént</w>
+<w type="PONfbl">,</w>
+<w type="VERcjg">faites</w>
+<w type="DETdem">ceste</w>
+<w type="NOMcom">mecine</w>
+<w type="PONfbl">:</w>
+
+<milestone unit="column" n="277 v° b"/>
+<lb/>
+<w type="VERcjg">stampez</w>
+<w type="NOMcom">ladanun</w>
+<w type="PRE">od</w>
+<w type="DETndf">un</w>
+<w type="ADJqua">chau</w>
+<w type="NOMcom">pestel</w>
+<w type="CONcoo">et</w>
+<lb/>
+<w type="VERcjg">destemprez</w>
+<w type="PRE">od</w>
+<w type="NOMcom">olie</w>
+<w type="CONcoo">et</w>
+<w type="ADVgen">puis</w>
+<w type="VERcjg">uniez</w>
+<w type="DETdef">les</w>
+<w type="NOMcom">cilz</w>
+<w type="PONfrt">.</w>
+</p>
+</div>
+<div n="XXXII">
+<head xml:lang="la">
+<w type="ETR">DE</w>
+<w type="ETR">VERMIBUS</w>
+<w type="PONfrt">.</w>
+</head>
+<p>
+<lb/>
+<w type="NOMcom">Vermine</w>
+<w type="VERcjg">sout</w>
+<w type="VERinf">naistre</w>
+<w type="PRE.DETdef">al</w>
+<w type="NOMcom">penil</w>
+<w type="CONcoo">hu</w>
+<w type="PRE.DETdef">as</w>
+<w type="NOMcom">asseles</w>
+<w type="PROrel">que</w>
+
+<lb/>
+<w type="DETdef">l'</w>
+<w type="PROind">um</w>
+<w type="VERcjg">apele</w>
+<w type="PRE">en</w>
+<w type="NOMcom">franceis</w>
+<w type="PONpga">«</w>
+<w type="ADJqua">mau</w>
+<w type="NOMcom">puil</w>
+<w type="PONpdr">»</w>
+<w type="PONfrt">.</w>
+<w type="ADVgen">Si</w>
+<w type="VERcjg">sunt</w>
+<w type="ADJqua">ordes</w>
+<lb/>
+<w type="CONcoo">et</w>
+<w type="VERcjg">funt</w>
+<w type="ADJqua">grant</w>
+<w type="NOMcom">mal</w>
+<w type="PRE">a</w>
+<w type="NOMcom">hume</w>
+<w type="PONfrt">.</w>
+<w type="ADVgen">Issi</w>
+<w type="PROper">les</w>
+<w type="VERcjg">poez</w>
+<w type="VERinf">oster</w>
+<w type="PONfbl">:</w>
+<lb/>
+<w type="ADVgen">primes</w>
+<w type="VERcjg">tundé</w>
+<w type="DETdef">le</w>
+<w type="NOMcom">peil</w>
+<w type="CONcoo">et</w>
+<w type="ADVgen">puis</w>
+<w type="VERcjg">lavez</w>
+<w type="ADVgen">bien</w>
+<w type="DETdef">le</w>
+<w type="NOMcom">liu</w>
+<w type="CONcoo">et</w>
+<lb/>
+<w type="ADVgen">puis</w>
+<w type="VERcjg">uniez</w>
+<w type="PRE">de</w>
+<w type="NOMcom">olie</w>
+<w type="PRE">de</w>
+<w type="NOMcom">olive</w>
+<w type="PONfrt">.</w>
+<w type="PROind">Altre</w>
+<w type="PONfbl">:</w>
+<w type="VERcjg">uniez</w>
+<w type="DETdef">le</w>
+<w type="NOMcom">liu</w>
+<lb/>
+<w type="PRE">de</w>
+<w type="NOMcom">savun</w>
+<w type="PROrel">hu</w>
+<w type="PROper">il</w>
+<w type="VERcjg">sunt</w>
+<w type="PONfbl">,</w>
+<w type="CONcoo">et</w>
+<w type="ADVgen">tost</w>
+<w type="VERcjg">murunt</w>
+<w type="PONfrt">.</w>
+</p>
+</div>
+<div n="XXXIII">
+<head xml:lang="la">
+<w type="ETR">AD</w>
+<w type="ETR">IDEM</w>
+<w type="PONfrt">.</w>
+</head>
+<p>
+<lb/>
+<w type="PROper">Jeo</w>
+<w type="VERcjg">vi</w>
+<w type="NOMpro">Trote</w>
+<w type="VERinf">prendre</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">foille</w>
+<w type="PRE">de</w>
+<w type="NOMcom">geneste</w>
+<w type="CONcoo">hu</w>
+
+<lb/>
+<w type="DETdef">la</w>
+<w type="NOMcom">flur</w>
+<w type="CONcoo">et</w>
+<w type="VERinf">tribler</w>
+<w type="CONcoo">et</w>
+<w type="VERinf">uindre</w>
+<w type="DETdef">le</w>
+<w type="NOMcom">liu</w>
+<w type="PROrel">u</w>
+<w type="PROper">il</w>
+<w type="VERcjg">esteint</w>
+<w type="PONfbl">,</w>
+<w type="CONcoo">et</w>
+<lb/>
+<w type="PROper">il</w>
+<w type="VERcjg">mururent</w>
+<w type="PONfrt">.</w>
+<pb n="52"/>
+</p>
+</div>
+<div n="XXXIV">
+<head xml:lang="la">
+<w type="ETR">AD</w>
+<w type="ETR">RUBOREM</w>
+<w type="ETR">CILIORUM</w>
+<w type="PONfrt">.</w>
+</head>
+<p>
+<lb/>
+<w type="DETdef">Les</w>
+<w type="NOMcom">cilz</w>
+<w type="VERcjg">sunt</w>
+<w type="PRE">a</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">fie</w>
+<w type="ADJqua">ruges</w>
+<w type="CONcoo">et</w>
+<w type="VERppe">muliez</w>
+<w type="PONfrt">.</w>
+<w type="ADVgen">Dunc</w>
+
+<lb/>
+<w type="VERcjg">faites</w>
+<w type="DETdem">ceste</w>
+<w type="NOMcom">mecine</w>
+<w type="PONfbl">:</w>
+<w type="VERcjg">pernez</w>
+<w type="DETdef">le</w>
+<w type="NOMcom">jus</w>
+<w type="PRE">de</w>
+<w type="NOMcom">verbene</w>
+<lb/>
+<w type="CONcoo">et</w>
+<w type="PRE">de</w>
+<w type="NOMcom">fenoil</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">medlez</w>
+<w type="PRE">od</w>
+<w type="NOMcom">muel</w>
+<w type="PRE">de</w>
+<w type="DETndf">un</w>
+<w type="NOMcom">of</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">mulliez</w>
+<lb/>
+<w type="PRE">enz</w>
+<w type="NOMcom">linge</w>
+<w type="NOMcom">dra</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">metez</w>
+<w type="PRE.DETdef">al</w>
+<w type="VERinf">cucher</w>
+<w type="PRE">sur</w>
+<w type="DETdef">les</w>
+<w type="NOMcom">cilz</w>
+<w type="PONfbl">,</w>
+<w type="CONcoo">u</w>
+<lb/>
+<w type="VERcjg">pernez</w>
+<w type="NOMcom">sarcocolle</w>
+<w type="CONcoo">et</w>
+<w type="NOMcom">aloen</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">triblez</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">passez</w>
+<lb/>
+<w type="PRE">par</w>
+<w type="NOMcom">mi</w>
+<w type="DETndf">un</w>
+<w type="NOMcom">drap</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">distemprez</w>
+<w type="PRE">od</w>
+<w type="NOMcom">leit</w>
+<w type="PRE">de</w>
+<w type="NOMcom">femme</w>
+<w type="PONfbl">;</w>
+<lb/>
+<w type="PRE">a</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">teie</w>
+<w type="VERcjg">vaut</w>
+<w type="PONfrt">.</w>
+<w type="PROind">Altre</w>
+<w type="PONfbl">:</w>
+<w type="VERcjg">pernez</w>
+<w type="NOMcom">vert</w>
+<w type="PRE">de</w>
+<w type="NOMpro">Grece</w>
+<w type="CONcoo">et</w>
+<lb/>
+<w type="NOMcom">os</w>
+<w type="PRE">de</w>
+<w type="NOMcom">seche</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">destemprez</w>
+<w type="PRE">od</w>
+<w type="NOMcom">jus</w>
+<w type="PRE">de</w>
+<w type="NOMcom">celidonie</w>
+<w type="CONcoo">et</w>
+<lb/>
+<w type="VERcjg">metez</w>
+<w type="PRE">sur</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">teie</w>
+<w type="PONfrt">.</w>
+</p>
+</div>
+<div n="XXXV">
+<head xml:lang="la">
+<w type="ETR">AD</w>
+<w type="ETR">LENTIGINES</w>
+<w type="ETR">FACIEI</w>
+<w type="PONfrt">.</w>
+</head>
+<p>
+<lb/>
+<w type="DETind">Meint</w>
+<w type="NOMcom">encumbrement</w>
+<w type="VERcjg">vent</w>
+<w type="PRE">a</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">fie</w>
+<w type="PRE">a</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">face</w>
+<w type="PONfbl">,</w>
+<w type="ADVgen">si</w>
+
+
+<lb/>
+<w type="CONsub">cum</w>
+<w type="NOMcom">lentilles</w>
+<w type="CONcoo">et</w>
+<w type="DETind">muz</w>
+<w type="ADJind">altres</w>
+<w type="NOMcom">maladies</w>
+<w type="PONfrt">.</w>
+<w type="NOMcom">Lentilles</w>
+<lb/>
+<w type="PRE">en</w>
+<w type="DETdem">ceste</w>
+<w type="NOMcom">manere</w>
+<w type="VERcjg">osteret</w>
+<w type="PONfbl">:</w>
+<w type="PROind">asquanz</w>
+<w type="VERcjg">pernent</w>
+<w type="DETcar">deus</w>
+<w type="NOMcom">ofs</w>
+
+<lb/>
+<w type="PRE">de</w>
+<w type="NOMcom">geline</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">metent</w>
+<w type="PRE">en</w>
+<w type="ADJqua">blanc</w>
+<w type="NOMcom">eisil</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">laisent</w>
+<w type="ADJqua">desche</w>
+
+<lb/>
+<w type="DETdef">les</w>
+<w type="NOMcom">escales</w>
+<w type="VERcjg">seint</w>
+<w type="ADJqua">tendres</w>
+<w type="PONfbl">,</w>
+<w type="ADVgen">puis</w>
+<w type="VERcjg">pernez</w>
+<w type="ADJqua">plein</w>
+<w type="NOMcom">puin</w>
+<lb/>
+<w type="PRE">de</w>
+<w type="NOMcom">seneveie</w>
+<w type="VERppe">pudré</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">destemprez</w>
+<w type="PRE">od</w>
+<w type="DETdef">les</w>
+<w type="NOMcom">ofs</w>
+<w type="CONcoo">et</w>
+<w type="PRE">od</w>
+<lb/>
+<w type="DETndf">un</w>
+<w type="PROind">poi</w>
+<w type="PRE">de</w>
+<w type="NOMcom">eisil</w>
+<w type="CONcoo">et</w>
+<w type="NOMcom">colez</w>
+<w type="PRE">par</w>
+<w type="NOMcom">mi</w>
+<w type="DETndf">un</w>
+<w type="NOMcom">drap</w>
+<w type="CONcoo">et</w>
+<w type="PRE">de</w>
+<w type="PROdem">ceo</w>
+<lb/>
+<w type="VERcjg">lavez</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">face</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">laisez</w>
+<w type="DETind">tute</w>
+<w type="NOMcom">nuit</w>
+<w type="PONfbl">,</w>
+<w type="VERcjg">lavez</w>
+<w type="DETdef">le</w>
+<w type="NOMcom">matin</w>
+<lb/>
+<w type="PRE">od</w>
+<w type="NOMcom">eve</w>
+<w type="ADJqua">pure</w>
+<w type="PONfrt">.</w>
+<w type="ADVgen">Issi</w>
+<w type="VERcjg">faites</w>
+<w type="ADVgen">suvent</w>
+<w type="CONcoo">et</w>
+<w type="DETdef">les</w>
+<w type="NOMcom">lentilles</w>
+<w type="PROper">s'</w>
+<w type="PROadv">en</w>
+<milestone unit="column" n="278 r° a"/>
+<lb/>
+<w type="VERcjg">irunt</w>
+<w type="PONfbl">,</w>
+<w type="CONcoo">mes</w>
+<w type="ADVneg">ne</w>
+<w type="VERcjg">faites</w>
+<w type="DETdem">ceste</w>
+<w type="NOMcom">mescine</w>
+<w type="PRE">a</w>
+<w type="NOMcom">femme</w>
+<lb/>
+<w type="VERppe">enceinte</w>
+<w type="PONfbl">,</w>
+<w type="CONcoo">kar</w>
+<w type="PROper">ele</w>
+<w type="VERcjg">perdreit</w>
+<w type="DETdef">l'</w>
+<w type="NOMcom">enfant</w>
+<w type="PONfrt">.</w>
+</p>
+</div>
+ <div n="XXXVI">
+<head xml:lang="la">
+<w type="ETR">AD</w>
+<w type="ETR">IDEM</w>
+<w type="PONfrt">.</w>
+</head>
+<p>
+<lb/>
+<w type="NOMcom">Dame</w>
+<w type="NOMpro">Trote</w>
+<w type="VERcjg">oste</w>
+<w type="NOMcom">lentilles</w>
+<w type="ADVgen">issi</w>
+<w type="PONfbl">:</w>
+<w type="PROper">ele</w>
+<w type="VERcjg">prent</w>
+<w type="NOMcom">mel</w>
+<lb/>
+<w type="VERppe">escumé</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">fait</w>
+<w type="VERinf">bullir</w>
+<w type="CONcoo">et</w>
+<w type="ADVgen">puis</w>
+<w type="VERcjg">prent</w>
+<w type="NOMcom">puldre</w>
+<w type="PRE">de</w>
+
+<lb/>
+<w type="NOMcom">seneveie</w>
+<w type="CONcoo">et</w>
+<w type="PRE">de</w>
+<w type="NOMcom">gingivre</w>
+<w type="CONcoo">et</w>
+<w type="PRE">de</w>
+<w type="ADJqua">blanc</w>
+<w type="NOMcom">encens</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">met</w>
+<lb/>
+<w type="ADVgen">ensemble</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">laise</w>
+<w type="VERinf">refreidir</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">fait</w>
+<w type="VERinf">fumer</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">face</w>
+<lb/>
+<w type="PRE">de</w>
+<w type="NOMcom">eve</w>
+<w type="ADJqua">chaude</w>
+<w type="PRE.DETdef">al</w>
+<w type="VERinf">cutcher</w>
+<w type="CONcoo">et</w>
+<w type="ADVgen">dunc</w>
+<w type="VERcjg">uinst</w>
+<w type="PRE">de</w>
+<w type="PROdem">ceo</w>
+<w type="PONfrt">.</w>
+<w type="PRE.DETdef">Al</w>
+<lb/>
+<w type="NOMcom">matin</w>
+<w type="VERcjg">tarst</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">face</w>
+<w type="PRE">od</w>
+<w type="DETndf">un</w>
+<w type="NOMcom">linge</w>
+<w type="NOMcom">drap</w>
+<w type="PONfrt">.</w>
+<pb n="54"/>
+</p>
+</div>
+ <div n="XXXVII">
+<head xml:lang="la">
+<w type="ETR">AD</w>
+<w type="ETR">IDEM</w>
+<w type="PONfrt">.</w>
+</head>
+<p>
+<lb/>
+<w type="DETdef">La</w>
+<w type="NOMpro">Sarazine</w>
+<w type="PRE">de</w>
+<w type="NOMpro">Meschine</w>
+<w type="VERcjg">oste</w>
+<w type="NOMcom">lentilles</w>
+<w type="ADVgen">issi</w>
+<w type="PONfbl">:</w>
+<w type="PROper">ele</w>
+
+<lb/>
+<w type="VERcjg">emple</w>
+<w type="DETndf">un</w>
+<w type="ADJqua">nuvel</w>
+<w type="NOMcom">pot</w>
+<w type="PRE">de</w>
+<w type="NOMcom">chauz</w>
+<w type="ADJqua">vif</w>
+<w type="PONfbl">,</w>
+<w type="PRE">senz</w>
+<w type="NOMcom">eve</w>
+<w type="PONfbl">,</w>
+<w type="CONcoo">et</w>
+<lb/>
+<w type="VERcjg">covre</w>
+<w type="ADVgen">bien</w>
+<w type="PRE">de</w>
+<w type="NOMcom">sus</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">quit</w>
+<w type="DETcar">nof</w>
+<w type="NOMcom">feiz</w>
+<w type="PRE">en</w>
+<w type="DETndf">un</w>
+<w type="NOMcom">furnt</w>
+<w type="CONcoo">et</w>
+<lb/>
+<w type="VERcjg">fait</w>
+<w type="NOMcom">puldre</w>
+<w type="CONcoo">et</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">puldre</w>
+<w type="PRE">de</w>
+<w type="NOMcom">os</w>
+<w type="PRE">de</w>
+<w type="NOMcom">secche</w>
+<w type="CONcoo">et</w>
+<lb/>
+<w type="VERcjg">destempre</w>
+<w type="PRE">od</w>
+<w type="NOMcom">mel</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">uinst</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">dame</w>
+<w type="PRE">en</w>
+<w type="NOMcom">bain</w>
+<w type="PRE">de</w>
+<w type="PROdem">ceo</w>
+<lb/>
+<w type="DETcar">treis</w>
+<w type="NOMcom">feiz</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">sufre</w>
+<w type="CONsub">desque</w>
+<w type="PROper">il</w>
+<w type="VERcjg">chet</w>
+<w type="VERinf">parsivir</w>
+<w type="CONcoo">et</w>
+<w type="ADVgen">puis</w>
+<lb/>
+<w type="DETdef">la</w>
+<w type="NOMcom">face</w>
+<w type="VERcjg">leve</w>
+<w type="PRE">od</w>
+<w type="NOMcom">eve</w>
+<w type="ADJqua">clere</w>
+<w type="PONfrt">.</w>
+</p>
+</div>
+ <div n="XXXVIII">
+<head xml:lang="la">
+<w type="ETR">AD</w>
+<w type="ETR">IDEM</w>
+<w type="PONfrt">.</w>
+</head>
+<p>
+<lb/>
+<w type="PROind">Autre</w>
+<w type="PRE">a</w>
+<w type="NOMcom">lentilles</w>
+<w type="PONfbl">:</w>
+<w type="PROper">ele</w>
+<w type="VERcjg">met</w>
+<w type="NOMcom">lie</w>
+<w type="PRE">de</w>
+<w type="NOMcom">vin</w>
+<w type="PRE">en</w>
+<w type="DETndf">une</w>
+
+<lb/>
+<w type="NOMcom">fuille</w>
+<w type="PRE">de</w>
+<w type="NOMcom">fïer</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">mist</w>
+<w type="VERinf">quire</w>
+<w type="DETndf">une</w>
+<w type="NOMcom">nuit</w>
+<w type="PRE">de</w>
+<w type="PRE">suz</w>
+<w type="DETdef">les</w>
+<lb/>
+<w type="NOMcom">cendres</w>
+<w type="CONcoo">et</w>
+<w type="DETdef">le</w>
+<w type="NOMcom">matin</w>
+<w type="VERcjg">fist</w>
+<w type="NOMcom">puldre</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">fait</w>
+<w type="NOMcom">puldre</w>
+<w type="PRE">de</w>
+<lb/>
+<w type="NOMcom">seneveie</w>
+<w type="CONcoo">et</w>
+<w type="PRE">de</w>
+<w type="NOMcom">gingivre</w>
+<w type="CONcoo">et</w>
+<w type="PRE">de</w>
+<w type="NOMcom">encens</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">destempre</w>
+<lb/>
+<w type="PRE">od</w>
+<w type="NOMcom">vin</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">fait</w>
+<w type="VERinf">bullir</w>
+<w type="PRE">en</w>
+<w type="DETndf">une</w>
+<w type="NOMcom">racine</w>
+<w type="PROrel">k'</w>
+<w type="PROind">um</w>
+<w type="VERcjg">apele</w>
+<lb/>
+<w type="PONpga">«</w>
+<w type="NOMcom">pain</w>
+<w type="NOMcom">porcin</w>
+<w type="PONpdr">»</w>
+<w type="CONsub">desque</w>
+<w type="PROper">il</w>
+<w type="VERcjg">seit</w>
+<w type="ADJqua">espés</w>
+<w type="CONcoo">et</w>
+<w type="PRE">de</w>
+<w type="PROdem">ceo</w>
+<w type="VERcjg">uinst</w>
+<lb/>
+<w type="DETdef">la</w>
+<w type="NOMcom">face</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">fait</w>
+<w type="ADVgen">puis</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">femme</w>
+<w type="VERinf">fumer</w>
+<w type="PROper">sei</w>
+<w type="PRE">de</w>
+<w type="NOMcom">eve</w>
+<lb/>
+<w type="ADJqua">chaude</w>
+<w type="CONcoo">et</w>
+<w type="DETdef">le</w>
+<w type="NOMcom">matin</w>
+<w type="VERinf">laver</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">face</w>
+<w type="PRE">od</w>
+<w type="NOMcom">eve</w>
+<w type="ADJqua">freide</w>
+<w type="CONcoo">et</w>
+<lb/>
+<w type="ADVgen">issi</w>
+<w type="VERcjg">fait</w>
+<w type="DETcar">dous</w>
+<w type="NOMcom">nuiz</w>
+<w type="CONcoo">u</w>
+<w type="DETcar">treis</w>
+<w type="PONfrt">.</w>
+<w type="CONsub">Si</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">face</w>
+<w type="VERcjg">devent</w>
+<lb/>
+<w type="NOMcom">ruvente</w>
+<w type="PONfbl">,</w>
+<w type="PROper">ele</w>
+<w type="VERcjg">destempre</w>
+<w type="NOMcom">os</w>
+<w type="PRE">de</w>
+<w type="NOMcom">secche</w>
+<w type="CONcoo">et</w>
+<w type="NOMcom">albun</w>
+<w type="PRE">de</w>
+<lb/>
+<w type="NOMcom">of</w>
+<w type="PRE">od</w>
+<w type="NOMcom">eve</w>
+<w type="ADJqua">rose</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">met</w>
+<w type="PRE">sur</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">ruvure</w>
+<w type="PRE">en</w>
+<w type="DETndf">un</w>
+<w type="NOMcom">linge</w>
+
+<lb/>
+<w type="NOMcom">drap</w>
+<w type="PONfrt">.</w>
+</p>
+</div>
+ <div n="XXXIX">
+<head xml:lang="la">
+<w type="ETR">AD</w>
+<w type="ETR">COLORANDAM</w>
+<w type="ETR">FACIEM</w>
+<w type="PONfrt">.</w>
+</head>
+<p>
+<lb/>
+<w type="PROper">Jeo</w>
+<w type="VERcjg">vi</w>
+<w type="NOMpro">Trote</w>
+<w type="VERinf">colurer</w>
+<w type="DETdef">les</w>
+<w type="NOMcom">faces</w>
+<w type="ADVgen">issi</w>
+<w type="PONfbl">:</w>
+<w type="PROper">ele</w>
+<w type="VERcjg">prist</w>
+
+<lb/>
+<w type="NOMcom">viticele</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">trencha</w>
+<w type="PRE">en</w>
+<w type="NOMcom">rueles</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">sechi</w>
+<w type="PRE">a</w>
+<w type="NOMcom">soleil</w>
+<w type="CONcoo">et</w>
+<milestone unit="column" n="278 r° b"/>
+<lb/>
+<w type="VERcjg">fist</w>
+<w type="NOMcom">puldre</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">destemprad</w>
+<w type="PRE">od</w>
+<w type="NOMcom">eve</w>
+<w type="ADJqua">freide</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">mist</w>
+<lb/>
+<w type="PRE">sur</w>
+<w type="NOMcom">linge</w>
+<w type="NOMcom">drap</w>
+<w type="CONcoo">et</w>
+<w type="CONsub">quant</w>
+<w type="PROper">ele</w>
+<w type="VERcjg">alout</w>
+<w type="VERinf">cucher</w>
+<w type="VERcjg">mist</w>
+<w type="PRE">sur</w>
+<lb/>
+<w type="DETdef">la</w>
+<w type="NOMcom">face</w>
+<w type="CONcoo">et</w>
+<w type="DETdef">le</w>
+<w type="NOMcom">matin</w>
+<w type="VERcjg">lava</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">face</w>
+<w type="PRE">de</w>
+<w type="NOMcom">eve</w>
+<w type="ADJqua">chaude</w>
+<w type="PONfbl">,</w>
+<lb/>
+<w type="CONcoo">et</w>
+<w type="ADVgen">issi</w>
+<w type="VERcjg">fu</w>
+<w type="NOMcom">ruvente</w>
+<w type="PONfrt">.</w>
+<pb n="56"/>
+</p>
+</div>
+ <div n="XL">
+<head xml:lang="la">
+<w type="ETR">ALIUD</w>
+<w type="ETR">AD</w>
+<w type="ETR">COLORANDAM</w>
+<w type="ETR">FACIEM</w>
+<w type="PONfrt">.</w>
+</head>
+<p>
+<lb/>
+<w type="PROind">Autre</w>
+<w type="VERcjg">fist</w>
+<w type="PROper">ele</w>
+<w type="PRE">a</w>
+<w type="VERinf">colurer</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">face</w>
+<w type="PONfbl">:</w>
+<w type="PROper">ele</w>
+<w type="VERcjg">tribla</w>
+<w type="DETdef">la</w>
+
+<lb/>
+<w type="NOMcom">racine</w>
+<w type="PRE">de</w>
+<w type="NOMcom">dragance</w>
+<w type="CONcoo">et</w>
+<w type="PRE">de</w>
+<hi rend="italic">
+<w type="NOMcom">barba</w>
+</hi>
+<w type="NOMcom">Aron</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">destempra</w>
+<lb/>
+<w type="PRE">od</w>
+<w type="NOMcom">eve</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">cola</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">mist</w>
+<w type="PROind">altre</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">cola</w>
+<w type="ADVgen">suvent</w>
+<w type="CONcoo">et</w>
+<lb/>
+<w type="ADVgen">puis</w>
+<w type="VERcjg">sechi</w>
+<w type="PRE.DETdef">al</w>
+<w type="NOMcom">soleil</w>
+<w type="CONcoo">et</w>
+<w type="ADVgen">pois</w>
+<w type="VERcjg">prent</w>
+<w type="PROper">ele</w>
+<w type="NOMcom">ceruse</w>
+<w type="CONcoo">et</w>
+<lb/>
+<w type="VERcjg">destempra</w>
+<w type="PRE">od</w>
+<w type="NOMcom">eve</w>
+<w type="VERppa">buliant</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">laisat</w>
+<w type="VERinf">aser</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">mist</w>
+<lb/>
+<w type="PROind">altre</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">laisa</w>
+<w type="VERinf">sechir</w>
+<w type="PRE.DETdef">al</w>
+<w type="NOMcom">soleil</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">prist</w>
+<w type="DETdef">les</w>
+<w type="ADJcar">dous</w>
+<lb/>
+<w type="NOMcom">parz</w>
+<w type="PRE">de</w>
+<w type="PROdem">cest</w>
+<w type="CONcoo">et</w>
+<w type="DETdef">la</w>
+<w type="PROord">terce</w>
+<w type="PRE">de</w>
+<w type="PROind">altre</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">destempra</w>
+<w type="PRE">od</w>
+
+<lb/>
+<w type="NOMcom">eve</w>
+<w type="NOMcom">rose</w>
+<w type="PONfrt">.</w>
+<w type="CONcoo">Et</w>
+<w type="CONsub">quant</w>
+<w type="PROper">ele</w>
+<w type="VERcjg">voleit</w>
+<w type="VERinf">faire</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">face</w>
+<w type="ADJqua">blanche</w>
+<w type="PONfbl">,</w>
+<lb/>
+<w type="PROper">ele</w>
+<w type="VERcjg">lava</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">face</w>
+<w type="PRE">de</w>
+<w type="NOMcom">savun</w>
+<w type="CONcoo">hu</w>
+<w type="PRE">de</w>
+<w type="NOMcom">eve</w>
+<w type="CONcoo">hu</w>
+<w type="NOMcom">mie</w>
+<w type="PRE">de</w>
+<lb/>
+<w type="NOMcom">pain</w>
+<w type="VERcjg">seit</w>
+<w type="VERppe">destempré</w>
+<w type="ADVgen">enz</w>
+<w type="CONcoo">et</w>
+<w type="ADVgen">puis</w>
+<w type="VERcjg">uins</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">face</w>
+<w type="PONfrt">.</w>
+</p>
+</div>
+ <div n="XLI">
+<head xml:lang="la">
+<w type="ETR">AD</w>
+<w type="ETR">FACIENDAM</w>
+<w type="ETR">CERUSAM</w>
+<w type="PONfrt">.</w>
+</head>
+<p>
+<lb/>
+<w type="NOMcom">Ceruse</w>
+<w type="VERcjg">est</w>
+<w type="ADJqua">blanchet</w>
+<w type="PONfrt">.</w>
+<w type="ADVgen">Isi</w>
+<w type="VERcjg">poez</w>
+<w type="PROper">le</w>
+<w type="VERinf">faire</w>
+<w type="PONfbl">:</w>
+<w type="VERcjg">pernez</w>
+
+<lb/>
+<w type="NOMcom">plateins</w>
+<w type="PRE">de</w>
+<w type="NOMcom">plum</w>
+<w type="ADJqua">tenves</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">pendez</w>
+<w type="PRE">en</w>
+<w type="DETndf">un</w>
+<w type="NOMcom">pot</w>
+<lb/>
+<w type="PRE">ultre</w>
+<w type="NOMcom">eisil</w>
+<w type="PONfbl">,</w>
+<w type="ADVgen">issi</w>
+<w type="CONsub">que</w>
+<w type="PROper">il</w>
+<w type="ADVneg">ne</w>
+<w type="VERcjg">atuchent</w>
+<w type="PRE">a</w>
+<w type="DETdef">l'</w>
+<w type="NOMcom">eisil</w>
+<w type="PONfbl">,</w>
+<w type="ADVgen">puis</w>
+<lb/>
+<w type="VERcjg">coverez</w>
+<w type="ADVgen">bien</w>
+<w type="DETdef">le</w>
+<w type="NOMcom">pot</w>
+<w type="PRE">de</w>
+<w type="NOMcom">arzil</w>
+<w type="CONcoo">hu</w>
+<w type="PRE">de</w>
+<w type="NOMcom">past</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">laisez</w>
+<lb/>
+<w type="ADVgen">issi</w>
+<w type="VERinf">stere</w>
+<w type="DETcar">nof</w>
+<w type="NOMcom">jurs</w>
+<w type="CONcoo">et</w>
+<w type="ADVgen">puis</w>
+<w type="VERcjg">ostez</w>
+<w type="DETdef">le</w>
+<w type="NOMcom">cuvercle</w>
+<w type="CONcoo">et</w>
+
+<lb/>
+<w type="VERcjg">reez</w>
+<w type="DETdef">le</w>
+<w type="ADJqua">blanc</w>
+<w type="PRE">od</w>
+<w type="DETndf">un</w>
+<w type="NOMcom">cutel</w>
+<w type="PONfbl">,</w>
+<w type="CONcoo">et</w>
+<w type="PROdem">ceo</w>
+<w type="VERcjg">est</w>
+<w type="NOMcom">blanchet</w>
+<w type="PONfrt">.</w>
+<lb/>
+<w type="PROind">Altre</w>
+<w type="PONfbl">:</w>
+<w type="VERcjg">pernez</w>
+<w type="NOMcom">noeus</w>
+<w type="PRE">de</w>
+<w type="NOMcom">pesches</w>
+<w type="VERppe">sechés</w>
+<w type="PRE.DETdef">al</w>
+<w type="NOMcom">soleil</w>
+<lb/>
+<w type="CONcoo">et</w>
+<w type="VERcjg">faites</w>
+<w type="NOMcom">puldre</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">metez</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">puldre</w>
+<w type="PRE">sur</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">face</w>
+<lb/>
+<w type="ADVgen">ben</w>
+<w type="VERppe">lavé</w>
+<w type="PONfrt">.</w>
+<w type="PROper">Jeo</w>
+<w type="VERcjg">vi</w>
+<w type="PROind">une</w>
+<w type="VERinf">uindre</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">face</w>
+<w type="PRE">de</w>
+<w type="NOMcom">olie</w>
+<w type="PRE">de</w>
+<lb/>
+<w type="NOMcom">pesches</w>
+<w type="CONsub">quant</w>
+<w type="PROper">ele</w>
+<w type="VERcjg">voleit</w>
+<w type="VERinf">estre</w>
+<w type="VERppe">coluré</w>
+<w type="PONfrt">.</w>
+</p>
+</div>
+ <div n="XLII">
+<head xml:lang="la">
+<w type="ETR">AD</w>
+<w type="ETR">COLORANDAM</w>
+<w type="ETR">FACIEM</w>
+<w type="PONfrt">.</w>
+</head>
+<p>
+<lb/>
+<w type="DETdef">La</w>
+<w type="NOMpro">Sarazine</w>
+<w type="PRE">de</w>
+<w type="NOMpro">Mescine</w>
+<w type="VERcjg">colura</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">face</w>
+<w type="ADVgen">issi</w>
+<w type="PONfbl">:</w>
+<w type="PROper">ele</w>
+
+<lb/>
+<w type="VERcjg">destempra</w>
+<w type="NOMcom">peis</w>
+<w type="CONcoo">et</w>
+<w type="NOMcom">chiches</w>
+<w type="CONcoo">et</w>
+<w type="ADVgen">puis</w>
+<w type="VERcjg">mist</w>
+<w type="PRE">en</w>
+<w type="NOMcom">eve</w>
+<lb/>
+<w type="VERinf">temprer</w>
+<w type="CONcoo">et</w>
+<w type="ADVgen">puis</w>
+<w type="VERcjg">osta</w>
+<w type="DETdef">l'</w>
+<w type="NOMcom">escorche</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">tribla</w>
+<w type="CONcoo">et</w>
+<lb/>
+<w type="VERcjg">destempra</w>
+<w type="PRE">od</w>
+<w type="NOMcom">albun</w>
+<w type="PRE">de</w>
+<w type="NOMcom">of</w>
+<w type="CONcoo">u</w>
+<w type="PRE">de</w>
+<w type="NOMcom">leit</w>
+<w type="PRE">de</w>
+<w type="NOMcom">adnesse</w>
+<w type="PONfbl">,</w>
+<lb/>
+<w type="PROrel">que</w>
+<w type="ADVgen">meins</w>
+<w type="VERcjg">vaut</w>
+<w type="PONfbl">,</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">sechi</w>
+<w type="PRE.DETdef">al</w>
+<w type="NOMcom">soleil</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">fist</w>
+<w type="NOMcom">puldre</w>
+<w type="CONcoo">et</w>
+<lb/>
+<w type="VERcjg">destempra</w>
+<w type="PRE">od</w>
+<w type="NOMcom">eve</w>
+<w type="ADJqua">tedve</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">lava</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">face</w>
+<w type="PONfrt">.</w>
+<pb n="58"/>
+</p>
+</div>
+ <div n="XLIII">
+<head xml:lang="la">
+<w type="ETR">AD</w>
+<w type="ETR">IDEM</w>
+<w type="PONfrt">.</w>
+</head>
+<p>
+<lb/>
+<w type="PROind">Altre</w>
+<w type="PONfbl">:</w>
+<w type="PROper">ele</w>
+<w type="VERcjg">prist</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">meule</w>
+<w type="PRE">de</w>
+<w type="NOMcom">bof</w>
+<w type="CONcoo">hu</w>
+<w type="PRE">de</w>
+<w type="NOMcom">vache</w>
+
+<milestone unit="column" n="278 v° a"/>
+<lb/>
+<w type="CONcoo">et</w>
+<w type="VERcjg">tribla</w>
+<w type="ADVgen">forment</w>
+<w type="PRE">od</w>
+<w type="NOMcom">puldre</w>
+<w type="PRE">de</w>
+<w type="NOMcom">aloen</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">uinst</w>
+
+<lb/>
+<w type="DETdef">la</w>
+<w type="NOMcom">face</w>
+<w type="PONfrt">.</w>
+</p>
+</div>
+ <div n="XLIV">
+<head xml:lang="la">
+<w type="ETR">AD</w>
+<w type="ETR">IDEM</w>
+<w type="PONfrt">.</w>
+</head>
+<p>
+<lb/>
+<w type="PROind">Altre</w>
+<w type="PONfbl">:</w>
+<w type="PROper">ele</w>
+<w type="VERcjg">prist</w>
+<w type="DETndf">une</w>
+<w type="NOMcom">racine</w>
+<w type="PROrel">que</w>
+<w type="DETdef">l'</w>
+<w type="PROind">um</w>
+<w type="VERcjg">apele</w>
+<lb/>
+<w type="PONpga">«</w>
+<w type="NOMcom">nuiz</w>
+<w type="PRE">de</w>
+<w type="NOMcom">tere</w>
+<w type="PONpdr">»</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">fis</w>
+<w type="ADVgen">bien</w>
+<w type="VERinf">sechir</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">fist</w>
+<w type="NOMcom">puldre</w>
+<lb/>
+<w type="CONcoo">et</w>
+<w type="VERcjg">pudra</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">face</w>
+<w type="PONfrt">.</w>
+</p>
+</div>
+ <div n="XLV">
+<head xml:lang="la">
+<w type="ETR">DE</w>
+<w type="ETR">CERUSA</w>
+<w type="PONfrt">.</w>
+</head>
+<p>
+<lb/>
+<w type="DETndf">Un</w>
+<w type="NOMcom">blanchet</w>
+<w type="ADVgen">ben</w>
+<w type="ADVgen">legerement</w>
+<w type="VERcjg">poez</w>
+<w type="VERinf">faire</w>
+<w type="PONfbl">:</w>
+<w type="VERcjg">metez</w>
+
+<lb/>
+<w type="VERcjg">furment</w>
+<w type="ADVgen">mut</w>
+<w type="ADJqua">net</w>
+<w type="PRE">en</w>
+<w type="NOMcom">eve</w>
+<w type="DETcar">quinse</w>
+<w type="NOMcom">jurs</w>
+<w type="CONcoo">et</w>
+<w type="ADVgen">puis</w>
+
+<lb/>
+<w type="VERcjg">triblez</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">destemprez</w>
+<w type="PRE">od</w>
+<w type="NOMcom">eve</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">colé</w>
+<w type="PRE">parmi</w>
+<w type="DETndf">un</w>
+<lb/>
+<w type="NOMcom">drap</w>
+<w type="PONfbl">,</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">coleure</w>
+<w type="VERcjg">metez</w>
+<w type="PRE.DETdef">al</w>
+<w type="NOMcom">soleil</w>
+<w type="VERinf">secchir</w>
+<w type="CONcoo">et</w>
+<w type="PROper">il</w>
+<lb/>
+<w type="VERcjg">devendra</w>
+<w type="ADVgen">si</w>
+<w type="ADJqua">blanc</w>
+<w type="CONsub">cum</w>
+<w type="NOMcom">neif</w>
+<w type="PONfrt">.</w>
+<w type="CONsub">Quant</w>
+<w type="PROper">le</w>
+<w type="VERcjg">volez</w>
+<lb/>
+<w type="VERinf">mettre</w>
+<w type="PRE">sur</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">face</w>
+<w type="PONfbl">,</w>
+<w type="VERcjg">lavé</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">face</w>
+<w type="PRE">de</w>
+<w type="NOMcom">eve</w>
+<w type="ADJqua">chaude</w>
+<w type="CONcoo">et</w>
+<lb/>
+<w type="VERcjg">destemplez</w>
+<w type="PROdem">ceo</w>
+<w type="PRE">od</w>
+<w type="NOMcom">eve</w>
+<w type="ADJqua">rose</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">metez</w>
+<w type="PRE">sur</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">face</w>
+<lb/>
+<w type="CONcoo">et</w>
+<w type="VERcjg">tardez</w>
+<w type="PRE">od</w>
+<w type="DETndf">un</w>
+<w type="NOMcom">drap</w>
+<w type="PONfrt">.</w>
+</p>
+</div>
+ <div n="XLVI">
+<head xml:lang="la">
+<w type="ETR">DE</w>
+<w type="ETR">UNGUENTO</w>
+<w type="ETR">AD</w>
+<w type="ETR">LENTIGINES</w>
+<w type="PONfrt">.</w>
+</head>
+<p>
+<lb/>
+<w type="ADVgen">Ore</w>
+<w type="PROper">vus</w>
+<w type="VERcjg">dirai</w>
+<w type="DETndf">un</w>
+<w type="NOMcom">unguent</w>
+<w type="PROrel">que</w>
+<w type="VERcjg">vaut</w>
+<w type="PRE">a</w>
+<w type="NOMcom">berbelettes</w>
+
+<lb/>
+<w type="CONcoo">et</w>
+<w type="PRE">a</w>
+<w type="NOMcom">lentilles</w>
+<w type="CONcoo">et</w>
+<w type="PRE">ad</w>
+<w type="NOMcom">ale</w>
+<w type="PONfbl">:</w>
+<w type="VERcjg">pernez</w>
+<w type="NOMcom">ceruse</w>
+<w type="CONcoo">et</w>
+
+<lb/>
+<w type="VERcjg">destemprez</w>
+<w type="PRE">od</w>
+<w type="NOMcom">eve</w>
+<w type="ADJqua">rose</w>
+<w type="PONfbl">,</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">batez</w>
+<w type="DETdef">le</w>
+<w type="NOMcom">albun</w>
+<w type="PRE">de</w>
+<lb/>
+<w type="NOMcom">ofs</w>
+<w type="PRE">de</w>
+<w type="NOMcom">geline</w>
+<w type="CONcoo">et</w>
+<w type="DETdef">le</w>
+<w type="ADJqua">cler</w>
+<w type="VERcjg">medlez</w>
+<w type="PRE">od</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">ceruse</w>
+<w type="PONfbl">,</w>
+<w type="CONcoo">et</w>
+<lb/>
+<w type="VERcjg">pernez</w>
+<w type="ADVgen">puis</w>
+<w type="ADJqua">freis</w>
+<w type="NOMcom">seim</w>
+<w type="PRE">de</w>
+<w type="PRE">por</w>
+<w type="ADJqua">nuvel</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">fundez</w>
+<w type="PRE">en</w>
+<lb/>
+<w type="DETndf">une</w>
+<w type="NOMcom">paele</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">puldré</w>
+<w type="PRE">de</w>
+<w type="NOMcom">os</w>
+<w type="PRE">de</w>
+<w type="NOMcom">secche</w>
+<w type="PONfbl">,</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">medlez</w>
+<lb/>
+<w type="ADVgen">durement</w>
+<w type="CONcoo">et</w>
+<w type="PROper">il</w>
+<w type="VERcjg">era</w>
+<w type="ADJqua">blanc</w>
+<w type="CONsub">cum</w>
+<w type="NOMcom">neif</w>
+<w type="PONfbl">,</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">metez</w>
+<w type="DETndf">un</w>
+<lb/>
+<w type="PROind">poi</w>
+<w type="PRE">de</w>
+<w type="NOMcom">camfre</w>
+<w type="PONfrt">.</w>
+<w type="PRE">De</w>
+<w type="DETdem">cest</w>
+<w type="NOMcom">uingment</w>
+<w type="VERcjg">uinghent</w>
+<w type="DETdef">les</w>
+<pb n="60"/>
+<lb/>
+<w type="NOMcom">dames</w>
+<w type="PRE">de</w>
+<w type="NOMpro">Pulie</w>
+<w type="DETpos">lur</w>
+<w type="NOMcom">faces</w>
+<w type="CONsub">cum</w>
+<w type="PROper">eles</w>
+<w type="VERcjg">volent</w>
+<w type="VERinf">estre</w>
+<lb/>
+<w type="ADVgen">bien</w>
+<w type="VERppe">colurez</w>
+<w type="PONfrt">.</w>
+<w type="DETdem">Cest</w>
+<w type="NOMcom">unguet</w>
+<w type="VERcjg">vaut</w>
+<w type="ADVgen">plus</w>
+<w type="CONsub">que</w>
+<w type="DETind">altre</w>
+<lb/>
+<w type="NOMcom">blanchet</w>
+<w type="PONfrt">.</w>
+</p>
+</div>
+ <div n="XLVII">
+<head xml:lang="la">
+<w type="ETR">DE</w>
+<w type="ETR">TINCTURA</w>
+<w type="PONfrt">.</w>
+</head>
+<p>
+<lb/>
+<w type="ADVneg">Ne</w>
+<w type="VERcjg">metez</w>
+<w type="ADVneg">pas</w>
+<w type="NOMcom">teinture</w>
+<w type="PRE">sur</w>
+<w type="DETpos">vostre</w>
+<w type="NOMcom">face</w>
+<w type="PONfbl">,</w>
+<w type="CONcoo">kar</w>
+
+<lb/>
+<w type="PROper">ele</w>
+<w type="VERcjg">devendra</w>
+<w type="ADJqua">fruncheuse</w>
+<w type="PONfbl">,</w>
+<w type="CONcoo">mes</w>
+<w type="CONsub">si</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">face</w>
+<w type="VERcjg">est</w>
+<lb/>
+<w type="ADVgen">mult</w>
+<w type="VERppe">discoluré</w>
+<w type="PONfbl">,</w>
+<w type="VERcjg">pernez</w>
+<w type="NOMcom">blanchet</w>
+<w type="PRE">de</w>
+<w type="NOMcom">furment</w>
+<w type="CONcoo">et</w>
+<lb/>
+<w type="VERcjg">destemprez</w>
+<w type="PRE">od</w>
+<w type="DETdef">le</w>
+<w type="NOMcom">cler</w>
+<w type="PRE">de</w>
+<w type="DETdef">l'</w>
+<w type="NOMcom">albun</w>
+<w type="PRE">de</w>
+<w type="DETdef">l'</w>
+<w type="NOMcom">of</w>
+<w type="CONcoo">et</w>
+<w type="PRE">od</w>
+<lb/>
+<w type="NOMcom">seim</w>
+<w type="CONcoo">et</w>
+<w type="PRE">de</w>
+<w type="PROdem">ceo</w>
+<w type="VERcjg">uinez</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">face</w>
+<w type="CONsub">quant</w>
+<w type="VERcjg">est</w>
+<w type="ADVgen">bien</w>
+<w type="VERppe">fumé</w>
+<lb/>
+<w type="PRE">de</w>
+<w type="NOMcom">eve</w>
+<w type="ADJqua">chaude</w>
+<w type="PONfrt">.</w>
+</p>
+</div>
+ <div n="XLVIII">
+<head xml:lang="la">
+<w type="ETR">AD</w>
+<w type="ETR">LENTIGINES</w>
+<w type="PONfrt">.</w>
+</head>
+<p>
+<lb/>
+<w type="PROper">Jeo</w>
+<w type="VERcjg">vi</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">cuntesse</w>
+<w type="PRE">de</w>
+<w type="NOMpro">Gurnie</w>
+<w type="VERinf">bullir</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">racine</w>
+<w type="PRE">de</w>
+
+<lb/>
+<w type="NOMcom">luvesche</w>
+<w type="PRE">en</w>
+<w type="NOMcom">eve</w>
+<w type="CONcoo">et</w>
+<w type="NOMcom">albun</w>
+<w type="PRE">de</w>
+<w type="NOMcom">ofs</w>
+<w type="CONcoo">et</w>
+<w type="PRE">de</w>
+<w type="PROdem">ceo</w>
+<w type="VERcjg">lava</w>
+<lb/>
+<w type="DETdef">la</w>
+<w type="NOMcom">face</w>
+<w type="PONfbl">,</w>
+<w type="CONcoo">et</w>
+<w type="PROdem">ceo</w>
+<w type="VERcjg">vaut</w>
+<w type="ADVgen">asez</w>
+<w type="PRE">a</w>
+<w type="NOMcom">lentilles</w>
+<w type="PONfrt">.</w>
+
+</p>
+</div>
+ <milestone unit="column" n="278 v° b"/>
+ <div n="XLIX">
+<head xml:lang="la">
+<w type="ETR">DE</w>
+<w type="ETR">BARBULIS</w>
+<w type="PONfrt">.</w>
+</head>
+<p>
+<lb/>
+<w type="DETndf">Unes</w>
+<w type="NOMcom">berbelettes</w>
+<w type="ADJqua">vermeiles</w>
+<w type="VERcjg">nesent</w>
+<w type="PRE">en</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">face</w>
+<lb/>
+<w type="CONcoo">et</w>
+<w type="ADVgen">mut</w>
+<w type="VERcjg">enleidissent</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">dame</w>
+<w type="PONfrt">.</w>
+<w type="ADVgen">Issi</w>
+<w type="PROper">les</w>
+<w type="VERcjg">poez</w>
+<w type="VERinf">oster</w>
+<w type="PONfbl">:</w>
+
+<lb/>
+<w type="VERcjg">sengiez</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">dame</w>
+<w type="ADVgen">suvent</w>
+<w type="PRE.DETdef">del</w>
+<w type="NOMcom">braz</w>
+<w type="PRE">de</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">veine</w>
+<lb/>
+<w type="NOMcom">capitale</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">faites</w>
+<w type="VERinf">ventuser</w>
+<w type="PRE.DETdef">del</w>
+<w type="NOMcom">col</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">destemprez</w>
+<lb/>
+<w type="NOMcom">jus</w>
+<w type="PRE">de</w>
+<w type="NOMcom">aluine</w>
+<w type="CONcoo">et</w>
+<w type="PRE">de</w>
+<w type="NOMcom">parele</w>
+<w type="PRE">od</w>
+<w type="NOMcom">alum</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">metez</w>
+<w type="ADVgen">sure</w>
+<w type="PONfrt">.</w>
+<lb/>
+<w type="PROind">Altre</w>
+<w type="PONfbl">:</w>
+<w type="VERcjg">destempré</w>
+<w type="NOMcom">lie</w>
+<w type="PRE">de</w>
+<w type="NOMcom">vin</w>
+<w type="CONcoo">et</w>
+<w type="NOMcom">jus</w>
+<w type="PRE">de</w>
+<w type="NOMcom">parele</w>
+<w type="PRE">od</w>
+<lb/>
+<w type="NOMcom">alum</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">ungiez</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">face</w>
+<w type="PONfrt">.</w>
+</p>
+</div>
+ <div n="L">
+<head xml:lang="la">
+<w type="ETR">AD</w>
+<w type="ETR">IDEM</w>
+<w type="PONfrt">.</w>
+</head>
+<p>
+<lb/>
+<w type="PROper">Jeo</w>
+<w type="VERcjg">guari</w>
+<w type="DETndf">une</w>
+<w type="NOMcom">dame</w>
+<w type="PRE">en</w>
+<w type="NOMpro">Pulie</w>
+<w type="PROrel">que</w>
+<w type="VERcjg">fu</w>
+<w type="ADVgen">si</w>
+<w type="ADVgen">leidement</w>
+
+<lb/>
+<w type="VERppe">aturné</w>
+<w type="PRE">de</w>
+<w type="NOMcom">berbelettes</w>
+<w type="CONsub">que</w>
+<w type="NOMcom">gent</w>
+<w type="VERcjg">diseint</w>
+<w type="CONsub">que</w>
+<w type="PROper">ele</w>
+<w type="VERcjg">fu</w>
+<pb n="62"/>
+<lb/>
+<w type="NOMcom">mesele</w>
+<w type="PONfrt">.</w>
+<w type="PROper">Jeo</w>
+<w type="PROper">la</w>
+<w type="VERcjg">fis</w>
+<w type="VERinf">segnier</w>
+<w type="PRE.DETdef">del</w>
+<w type="NOMcom">braz</w>
+<w type="CONcoo">et</w>
+<w type="ADVgen">puis</w>
+<w type="VERcjg">mis</w>
+<w type="DETndf">une</w>
+
+<lb/>
+<w type="NOMcom">ventuse</w>
+<w type="PRE">sur</w>
+<w type="DETdef">le</w>
+<w type="NOMcom">mentun</w>
+<w type="PONfbl">,</w>
+<w type="ADVgen">pois</w>
+<w type="VERcjg">fis</w>
+<w type="VERinf">bullir</w>
+<w type="NOMcom">alunie</w>
+<w type="CONcoo">et</w>
+<lb/>
+<w type="NOMcom">averanie</w>
+<w type="CONcoo">et</w>
+<w type="NOMcom">taneseie</w>
+<w type="CONcoo">et</w>
+<w type="NOMcom">sauge</w>
+<w type="PRE">en</w>
+<w type="DETndf">un</w>
+<w type="ADJqua">nuvel</w>
+<w type="NOMcom">pot</w>
+<w type="PRE">od</w>
+
+<lb/>
+<w type="NOMcom">vin</w>
+<w type="CONcoo">et</w>
+<w type="PRE">de</w>
+<w type="PROdem">ceo</w>
+<w type="VERinf">receivre</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">fumee</w>
+<w type="PRE">sur</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">face</w>
+<w type="PONfbl">,</w>
+<w type="CONcoo">et</w>
+
+<lb/>
+<w type="ADVgen">pois</w>
+<w type="VERcjg">triblai</w>
+<w type="ADVgen">bien</w>
+<w type="NOMcom">moles</w>
+<w type="PONfbl">,</w>
+<w type="NOMcom">sal</w>
+<w type="NOMcom">amoniac</w>
+<w type="CONcoo">et</w>
+<w type="NOMcom">sanc</w>
+<w type="PRE">de</w>
+<lb/>
+<w type="NOMcom">dragun</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">destemprai</w>
+<w type="PRE">od</w>
+<w type="NOMcom">jus</w>
+<w type="PRE">de</w>
+<w type="NOMcom">planteine</w>
+<w type="CONcoo">et</w>
+<lb/>
+<w type="VERcjg">mis</w>
+<w type="PRE">sur</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">face</w>
+<w type="DETcar">trois</w>
+<w type="NOMcom">feiz</w>
+<w type="PONfbl">,</w>
+<w type="CONcoo">et</w>
+<w type="PROper">ele</w>
+<w type="VERcjg">guari</w>
+<w type="PONfrt">.</w>
+</p>
+</div>
+ <div n="LI">
+<head xml:lang="la">
+<w type="ETR">ALIUD</w>
+<w type="ETR">AD</w>
+<w type="ETR">IDEM</w>
+<w type="PONfrt">.</w>
+</head>
+<p>
+<lb/>
+<w type="PROind">Altre</w>
+<w type="PONfbl">:</w>
+<w type="VERcjg">triblez</w>
+<w type="NOMcom">coriandre</w>
+<w type="CONcoo">et</w>
+<w type="NOMcom">roses</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">destemprez</w>
+
+<lb/>
+<w type="PRE">od</w>
+<w type="NOMcom">jus</w>
+<w type="PRE">de</w>
+<w type="NOMcom">herbe</w>
+<w type="VERppe">beneit</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">metez</w>
+<w type="PRE">od</w>
+<w type="DETind">tut</w>
+<w type="DETndf">un</w>
+<w type="PROind">poi</w>
+<w type="PRE">de</w>
+<lb/>
+<w type="ADJqua">vif</w>
+<w type="NOMcom">argent</w>
+<w type="CONcoo">et</w>
+<w type="PRE">de</w>
+<w type="NOMcom">savun</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">ungiez</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">face</w>
+<w type="PONfrt">.</w>
+</p>
+</div>
+ <div n="LII">
+<head xml:lang="la">
+<w type="ETR">DE</w>
+<w type="ETR">DERTRIS</w>
+<w type="PONfrt">.</w>
+</head>
+<p>
+<lb/>
+<w type="CONsub">Si</w>
+<w type="NOMcom">dertres</w>
+<w type="VERcjg">nesent</w>
+<w type="PRE">en</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">face</w>
+<w type="PONfbl">,</w>
+<w type="ADVgen">issi</w>
+<w type="PROper">les</w>
+<w type="VERcjg">poez</w>
+<w type="VERinf">oster</w>
+<w type="PONfbl">:</w>
+
+<lb/>
+<w type="VERcjg">destemprez</w>
+<w type="NOMcom">orpiment</w>
+<w type="PRE">od</w>
+<w type="NOMcom">jus</w>
+<w type="PRE">de</w>
+<w type="NOMcom">parele</w>
+<w type="CONcoo">et</w>
+<w type="PRE">de</w>
+<lb/>
+<w type="NOMcom">aluine</w>
+<w type="CONcoo">et</w>
+<w type="PRE">de</w>
+<w type="NOMcom">savun</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">ungiez</w>
+<w type="DETdef">les</w>
+<w type="NOMcom">dertres</w>
+<w type="PONfbl">,</w>
+<w type="CONcoo">hu</w>
+<w type="PRE">de</w>
+
+<lb/>
+<w type="NOMcom">olie</w>
+<w type="PRE">de</w>
+<w type="NOMcom">furment</w>
+<w type="CONcoo">hu</w>
+<w type="PRE">de</w>
+<w type="NOMcom">ofs</w>
+<w type="PONfrt">.</w>
+<w type="PROind">Altre</w>
+<w type="PONfbl">:</w>
+<w type="VERcjg">pernez</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">racine</w>
+<lb/>
+<w type="PRE">de</w>
+<w type="NOMcom">parele</w>
+<w type="CONcoo">et</w>
+<w type="NOMcom">olie</w>
+<w type="CONcoo">et</w>
+<w type="NOMcom">sel</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">destemprez</w>
+<w type="PRE">od</w>
+<w type="DETpos">vostre</w>
+
+<lb/>
+<w type="NOMcom">urine</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">ungiez</w>
+<w type="DETdef">les</w>
+<w type="DETind">chascun</w>
+<w type="NOMcom">jur</w>
+<w type="DETcar">tris</w>
+<w type="NOMcom">feiz</w>
+<w type="PONfrt">.</w>
+
+<lb/>
+<w type="NOMcom">Olie</w>
+<w type="PRE">de</w>
+<w type="NOMcom">ofs</w>
+<w type="VERcjg">frez</w>
+<w type="ADVgen">issi</w>
+<w type="PONfbl">:</w>
+<w type="VERcjg">triblez</w>
+<w type="NOMcom">ofs</w>
+<w type="VERppe">quiz</w>
+<w type="ADVgen">mult</w>
+<w type="ADJqua">durs</w>
+
+<lb/>
+<w type="CONcoo">et</w>
+<w type="VERcjg">friez</w>
+<w type="PRE">en</w>
+<w type="DETndf">une</w>
+<w type="NOMcom">paele</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">muvez</w>
+<w type="ADVgen">durement</w>
+<w type="CONcoo">et</w>
+<w type="ADVgen">puis</w>
+<lb/>
+<w type="VERcjg">premez</w>
+<w type="PRE">parmi</w>
+<w type="DETndf">un</w>
+<w type="NOMcom">drap</w>
+<w type="PRE">par</w>
+<w type="NOMcom">force</w>
+<w type="PONfrt">.</w>
+<milestone unit="column" n="279 r° a"/>
+</p>
+</div>
+ <div n="LIII">
+<head xml:lang="la">
+<w type="ETR">DE</w>
+<w type="ETR">CORRUGATIONE</w>
+<w type="ETR">FACIEI</w>
+<w type="PONfrt">.</w>
+</head>
+<p>
+<lb/>
+<w type="CONsub">Si</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">dame</w>
+<w type="VERcjg">ad</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">face</w>
+<w type="ADJqua">frunchuse</w>
+<w type="PONfbl">,</w>
+<w type="ADVgen">issi</w>
+<w type="PROper">les</w>
+<w type="VERcjg">poez</w>
+
+<lb/>
+<w type="VERinf">amender</w>
+<w type="PONfbl">:</w>
+<w type="VERcjg">pernez</w>
+<w type="NOMcom">herbe</w>
+<w type="PRE">de</w>
+<w type="NOMcom">violet</w>
+<w type="CONcoo">et</w>
+<w type="PRE">de</w>
+<w type="NOMcom">mauve</w>
+<w type="CONcoo">et</w>
+<pb n="64"/>
+<lb/>
+<w type="VERcjg">bulliez</w>
+<w type="PRE">en</w>
+<w type="NOMcom">vin</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">faites</w>
+<w type="VERinf">receivre</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">fumé</w>
+<w type="PRE">a</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">face</w>
+<lb/>
+<w type="CONcoo">et</w>
+<w type="ADVgen">puis</w>
+<w type="VERcjg">faites</w>
+<w type="NOMcom">puldre</w>
+<w type="PRE">de</w>
+<w type="NOMcom">semence</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">ajustez</w>
+<w type="NOMcom">seim</w>
+<lb/>
+<w type="PRE">de</w>
+<w type="NOMcom">geline</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">faites</w>
+<w type="DETndf">un</w>
+<w type="NOMcom">unguent</w>
+<w type="PRE">de</w>
+<w type="NOMcom">dragagant</w>
+<w type="CONcoo">et</w>
+<lb/>
+<w type="PRE">de</w>
+<w type="NOMcom">farine</w>
+<w type="PRE">de</w>
+<w type="NOMcom">citres</w>
+<w type="CONcoo">et</w>
+<w type="PRE">de</w>
+<w type="NOMcom">lupins</w>
+<w type="CONcoo">et</w>
+<w type="PRE">de</w>
+<w type="NOMcom">feves</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">uniez</w>
+<lb/>
+<w type="DETdef">la</w>
+<w type="NOMcom">face</w>
+<w type="PONfrt">.</w>
+<w type="PROdem">Ceo</w>
+<w type="VERcjg">oste</w>
+<w type="DETdef">les</w>
+<w type="NOMcom">frunches</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">fait</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">face</w>
+<w type="ADVgen">mult</w>
+<lb/>
+<w type="ADVgen">bien</w>
+<w type="VERppe">coluré</w>
+<w type="PONfrt">.</w>
+</p>
+</div>
+ <div n="LIV">
+<head xml:lang="la">
+<w type="ETR">AD</w>
+<w type="ETR">DISCOLORATIONEM</w>
+<w type="PONfrt">.</w>
+</head>
+<p>
+<lb/>
+<w type="DETdef">Les</w>
+<w type="NOMcom">dames</w>
+<w type="VERcjg">sunt</w>
+<w type="PRE">a</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">fie</w>
+<w type="VERppe">descoluré</w>
+<w type="PRE">desuz</w>
+<w type="DETdef">les</w>
+<w type="NOMcom">oilz</w>
+
+<lb/>
+<w type="PRE">de</w>
+<w type="DETndf">un</w>
+<w type="NOMcom">colur</w>
+<w type="ADJqua">blef</w>
+<w type="PONfrt">.</w>
+<w type="ADVgen">Issi</w>
+<w type="PROper">les</w>
+<w type="VERcjg">poez</w>
+<w type="VERinf">amender</w>
+<w type="PONfbl">:</w>
+<w type="VERcjg">faites</w>
+<lb/>
+<w type="VERinf">estuver</w>
+<w type="DETpos">lur</w>
+<w type="NOMcom">faces</w>
+<w type="CONcoo">et</w>
+<w type="VERinf">frire</w>
+<w type="ADVgen">bien</w>
+<w type="PRE">od</w>
+<w type="DETndf">un</w>
+<w type="NOMcom">dei</w>
+<w type="PROrel">hu</w>
+<w type="PROper">ele</w>
+<lb/>
+<w type="VERcjg">est</w>
+<w type="VERppe">descoluré</w>
+<w type="CONcoo">et</w>
+<w type="ADVgen">puis</w>
+<w type="VERinf">prendre</w>
+<w type="NOMcom">blanchet</w>
+<w type="PRE">de</w>
+<w type="NOMcom">furment</w>
+<lb/>
+<w type="CONcoo">et</w>
+<w type="VERinf">frire</w>
+<w type="ADVgen">bien</w>
+<w type="PRE">od</w>
+<w type="PROdem">ceo</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">tardez</w>
+<w type="PRE">en</w>
+<w type="NOMcom">veie</w>
+<w type="PRE">od</w>
+<w type="DETndf">un</w>
+<w type="NOMcom">drap</w>
+<w type="PONfrt">.</w>
+<lb/>
+<w type="PROdem">Ceo</w>
+<w type="VERcjg">faites</w>
+<w type="ADVgen">suvent</w>
+<w type="CONcoo">et</w>
+<w type="PROper">ele</w>
+<w type="VERcjg">ert</w>
+<w type="ADVgen">iloc</w>
+<w type="ADVgen">mult</w>
+<w type="ADVgen">bien</w>
+<w type="VERppe">coluré</w>
+<w type="PONfrt">.</w>
+</p>
+</div>
+ <div n="LV">
+<head xml:lang="la">
+<w type="ETR">DE</w>
+<w type="ETR">RUBORE</w>
+<w type="ETR">NIMIO</w>
+<w type="PONfrt">.</w>
+</head>
+<p>
+<lb/>
+<w type="CONsub">Si</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">dame</w>
+<w type="VERcjg">est</w>
+<w type="ADVgen">trop</w>
+<w type="ADJqua">ruvente</w>
+<w type="PONfbl">,</w>
+<w type="VERcjg">faites</w>
+<w type="PROper">la</w>
+<w type="VERinf">segner</w>
+
+<lb/>
+<w type="ADVgen">suven</w>
+<w type="PRE.DETdef">del</w>
+<w type="NOMcom">braz</w>
+<w type="CONcoo">u</w>
+<w type="VERinf">garsir</w>
+<w type="PRE.DETdef">des</w>
+<w type="NOMcom">ganbes</w>
+<w type="CONcoo">et</w>
+<w type="ADVgen">puis</w>
+<w type="PRE">de</w>
+<lb/>
+<w type="DETdef">l'</w>
+<w type="NOMcom">unguent</w>
+<w type="PROrel">que</w>
+<w type="PROper">jeo</w>
+<w type="VERcjg">dis</w>
+<w type="ADVgen">desuz</w>
+<w type="PRE">de</w>
+<w type="NOMcom">ceruse</w>
+<w type="CONcoo">et</w>
+<w type="PRE">de</w>
+<w type="DETind">altres</w>
+<lb/>
+<w type="NOMcom">choses</w>
+<w type="PONfbl">;</w>
+<w type="CONcoo">et</w>
+<w type="CONsub">si</w>
+<w type="PROper">ele</w>
+<w type="VERcjg">est</w>
+<w type="ADJqua">padle</w>
+<w type="PONfbl">,</w>
+<w type="PRE">od</w>
+<w type="DETdef">les</w>
+<w type="NOMcom">mescines</w>
+<w type="PROrel">que</w>
+<w type="PROper">jeo</w>
+<lb/>
+<w type="VERcjg">ai</w>
+<w type="VERppe">dit</w>
+<w type="PROper">le</w>
+<w type="VERcjg">poez</w>
+<w type="VERinf">amender</w>
+<w type="PONfrt">.</w>
+</p>
+</div>
+ <div n="LVI">
+<head xml:lang="la">
+<w type="ETR">DE</w>
+<w type="ETR">COLORATIONE</w>
+<w type="PONfrt">.</w>
+
+</head>
+<p>
+<lb/>
+<w type="PROper">Jeo</w>
+<w type="PROper">vus</w>
+<w type="VERcjg">dirai</w>
+<w type="DETndf">un</w>
+<w type="ADJqua">leger</w>
+<w type="ADVgen">atifement</w>
+<w type="PONfbl">:</w>
+<w type="VERcjg">lavez</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">face</w>
+
+<lb/>
+<w type="PRE">de</w>
+<w type="ADVgen">primes</w>
+<w type="PRE">de</w>
+<w type="NOMcom">savun</w>
+<w type="PONfbl">,</w>
+<w type="ADVgen.PROper">sil</w>
+<w type="VERcjg">tardez</w>
+<w type="PRE">od</w>
+<w type="DETndf">un</w>
+<w type="NOMcom">linge</w>
+<w type="NOMcom">drap</w>
+<w type="PONfbl">,</w>
+<lb/>
+<w type="ADVgen">pois</w>
+<w type="VERcjg">friez</w>
+<w type="ADVgen">bien</w>
+<w type="PONfbl">,</w>
+<w type="NOMcom">ceruse</w>
+<w type="VERcjg">triblé</w>
+<w type="PRE">entre</w>
+<w type="DETpos">vos</w>
+<w type="NOMcom">mains</w>
+<w type="CONcoo">et</w>
+<lb/>
+<w type="VERcjg">metez</w>
+<w type="PRE">sur</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">face</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">friez</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">face</w>
+<w type="PRE">od</w>
+<w type="DETndf">un</w>
+<w type="PROind">poi</w>
+<w type="PRE">de</w>
+
+<lb/>
+<w type="NOMcom">leine</w>
+<w type="CONcoo">hu</w>
+<w type="PRE">de</w>
+<w type="NOMcom">cotun</w>
+<w type="PONfrt">.</w>
+</p>
+</div>
+ <div n="LVII">
+<head xml:lang="la">
+<w type="ETR">DE</w>
+<w type="ETR">BRASIL</w>
+<w type="PONfrt">.</w>
+
+</head>
+<p>
+<lb/>
+<w type="DETdef">La</w>
+<w type="NOMcom">decocciun</w>
+<w type="PRE">de</w>
+<w type="NOMcom">brasil</w>
+<w type="VERcjg">frez</w>
+<w type="PRE">en</w>
+<w type="DETdem">ceste</w>
+<w type="NOMcom">manere</w>
+<w type="PONfbl">:</w>
+<lb/>
+<w type="VERcjg">faites</w>
+<w type="NOMcom">puldre</w>
+<w type="PRE">de</w>
+<w type="NOMcom">brasil</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">bulliez</w>
+<w type="PRE">en</w>
+<w type="NOMcom">vin</w>
+<w type="CONsub">desque</w>
+<pb n="66"/>
+<lb/>
+<w type="PROper">il</w>
+<w type="VERcjg">seit</w>
+<w type="ADJqua">ruge</w>
+<w type="CONcoo">et</w>
+<w type="ADVgen">puis</w>
+<w type="VERcjg">mulliez</w>
+<w type="ADVgen">leinz</w>
+<w type="NOMcom">leine</w>
+<w type="CONcoo">hu</w>
+<w type="NOMcom">cotun</w>
+<lb/>
+<w type="CONcoo">et</w>
+<w type="VERcjg">friez</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">face</w>
+<w type="CONsub">quant</w>
+<w type="PROper">vus</w>
+<w type="VERcjg">volez</w>
+<w type="PONfrt">.</w>
+<w type="PROdem">Ceo</w>
+<w type="VERcjg">apellent</w>
+<w type="DETdef">la</w>
+<lb/>
+<w type="NOMcom">gent</w>
+<w type="PRE">en</w>
+<w type="NOMpro">Pullie</w>
+<w type="PONpga">«</w>
+<w type="NOMcom">ruvencel</w>
+<w type="PONpdr">»</w>
+<w type="PONfrt">.</w>
+</p>
+</div>
+ <div n="LVIII">
+<head xml:lang="la">
+<w type="ETR">DE</w>
+<w type="ETR">VERRUCIS</w>
+<w type="PONfrt">.</w>
+</head>
+<p>
+<lb/>
+<w type="NOMcom">Verues</w>
+<w type="VERcjg">solent</w>
+<w type="VERinf">creistre</w>
+<w type="PRE">en</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">face</w>
+<w type="CONcoo">et</w>
+<w type="ADVgen">aliurs</w>
+<w type="PONfrt">.</w>
+<w type="PRE">Enz</w>
+
+<milestone unit="column" n="279 r° b"/>
+<lb/>
+<w type="DETdem">ceste</w>
+<w type="NOMcom">manere</w>
+<w type="PROper">les</w>
+<w type="VERcjg">poez</w>
+<w type="VERinf">oster</w>
+<w type="PONfbl">:</w>
+<w type="PRE.DETdef">al</w>
+<w type="NOMcom">curs</w>
+<w type="PRE">de</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">lune</w>
+<w type="PONfbl">,</w>
+<lb/>
+<w type="VERcjg">uniez</w>
+<w type="PROper">les</w>
+<w type="PRE">od</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">flur</w>
+<w type="PRE">de</w>
+<w type="NOMcom">eble</w>
+<w type="PONfrt">.</w>
+<w type="PROind">Altre</w>
+<w type="PONfbl">:</w>
+<w type="VERcjg">pernez</w>
+<w type="VERcjg">ulez</w>
+<lb/>
+<w type="NOMcom">greins</w>
+<w type="PRE">de</w>
+<w type="NOMcom">orge</w>
+<w type="PRE.DETdef">al</w>
+<w type="NOMcom">fir</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">metez</w>
+<w type="ADVgen">sur</w>
+<w type="PONfrt">.</w>
+<w type="PROind">Altre</w>
+<w type="PONfbl">:</w>
+<w type="PROrel">qui</w>
+<w type="VERcjg">prent</w>
+<lb/>
+<w type="NOMcom">meule</w>
+<w type="PRE">de</w>
+<w type="NOMcom">os</w>
+<w type="PRE">de</w>
+<w type="DETdef">l'</w>
+<w type="NOMcom">hanche</w>
+<w type="PRE">de</w>
+<w type="NOMcom">mule</w>
+<w type="CONcoo">et</w>
+<w type="PRE">de</w>
+<w type="NOMcom">vache</w>
+<lb/>
+<w type="CONcoo">et</w>
+<w type="VERcjg">uinst</w>
+<w type="DETdef">les</w>
+<w type="NOMcom">verrues</w>
+<w type="PONfbl">,</w>
+<w type="ADVgen">ja</w>
+<w type="ADVneg">ne</w>
+<w type="VERcjg">creistrunt</w>
+<w type="PONfrt">.</w>
+</p>
+</div>
+ <div n="LIX">
+<head xml:lang="la">
+<w type="ETR">AD</w>
+<w type="ETR">IDEM</w>
+<w type="PONfrt">.</w>
+</head>
+<p>
+<lb/>
+<w type="NOMpro">Trote</w>
+<w type="VERcjg">fait</w>
+<w type="DETndf">une</w>
+<w type="NOMcom">mescine</w>
+<w type="PROrel">que</w>
+<w type="ADVneg">ne</w>
+<w type="VERcjg">faut</w>
+<w type="PONfbl">:</w>
+<w type="PROper">ele</w>
+<w type="VERcjg">prent</w>
+
+<lb/>
+<w type="NOMcom">savun</w>
+<w type="CONcoo">et</w>
+<w type="NOMcom">morter</w>
+<w type="ADJqua">vif</w>
+<w type="CONcoo">et</w>
+<w type="NOMcom">orpiment</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">medle</w>
+<w type="ADVgen">ensemle</w>
+<lb/>
+<w type="CONcoo">et</w>
+<w type="VERcjg">fait</w>
+<w type="DETndf">une</w>
+<w type="NOMcom">casse</w>
+<w type="PRE">de</w>
+<w type="NOMcom">cire</w>
+<w type="PROrel">que</w>
+<w type="VERcjg">puise</w>
+<w type="VERinf">clore</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">verrue</w>
+<w type="PONfbl">,</w>
+<lb/>
+<w type="CONcoo">et</w>
+<w type="PONfbl">,</w>
+<w type="PRE">denz</w>
+<w type="PROper">la</w>
+<w type="VERcjg">casse</w>
+<w type="PONfbl">,</w>
+<w type="PRE">sur</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">verrue</w>
+<w type="PONfbl">,</w>
+<w type="VERcjg">met</w>
+<w type="DETdef">le</w>
+<w type="NOMcom">unguent</w>
+<w type="PONfbl">-</w>
+<lb/>
+<w type="CONcoo">et</w>
+<w type="VERcjg">laisez</w>
+<w type="ADVgen">issi</w>
+<w type="DETind">tute</w>
+<w type="NOMcom">nit</w>
+<w type="PONfbl">-</w>
+<w type="PONfbl">;</w>
+<w type="DETdef">le</w>
+<w type="NOMcom">matin</w>
+<w type="VERcjg">met</w>
+<w type="PRE">sure</w>
+<w type="DETdef">la</w>
+<lb/>
+<w type="NOMcom">rasure</w>
+<w type="PRE">de</w>
+<w type="NOMcom">linge</w>
+<w type="NOMcom">drap</w>
+<w type="PONfrt">.</w>
+<w type="CONcoo">Et</w>
+<w type="CONsub">si</w>
+<w type="DETdef">le</w>
+<w type="NOMcom">liu</w>
+<w type="PROadv">en</w>
+<w type="VERcjg">vent</w>
+<w type="VERppe">emflé</w>
+<w type="PONfbl">,</w>
+<lb/>
+<w type="VERcjg">uniez</w>
+<w type="DETdef">le</w>
+<w type="NOMcom">liu</w>
+<w type="PRE">de</w>
+<w type="NOMcom">freis</w>
+<w type="NOMcom">seim</w>
+<w type="PRE">de</w>
+<w type="NOMcom">mutun</w>
+<w type="PONfrt">.</w>
+</p>
+</div>
+ <div n="LX">
+<head xml:lang="la">
+<w type="ETR">AD</w>
+<w type="ETR">IDEM</w>
+<w type="PONfrt">.</w>
+</head>
+<p>
+<lb/>
+<w type="PROper">Jeo</w>
+<w type="VERcjg">vi</w>
+<w type="VERinf">prendre</w>
+<w type="NOMcom">fer</w>
+<w type="ADJqua">chaut</w>
+<w type="CONcoo">et</w>
+<w type="VERinf">quire</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">verrue</w>
+<w type="PRE">de</w>
+
+<lb/>
+<w type="ADVgen">suz</w>
+<w type="PONfbl">,</w>
+<w type="CONcoo">et</w>
+<w type="DETdef">les</w>
+<w type="NOMcom">racines</w>
+<w type="VERcjg">purrirent</w>
+<w type="PONfrt">.</w>
+</p>
+</div>
+ <div n="LXI">
+<head xml:lang="la">
+<w type="ETR">DE</w>
+<w type="ETR">ASPERITATE</w>
+<w type="ETR">FACIEI</w>
+<w type="PONfrt">.</w>
+</head>
+<p>
+<lb/>
+<w type="CONsub">Si</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">face</w>
+<w type="PROrel">u</w>
+<w type="DETdef">le</w>
+<w type="NOMcom">frunt</w>
+<w type="VERcjg">seit</w>
+<w type="ADJqua">aspre</w>
+<w type="CONcoo">hu</w>
+<w type="VERppe">adlé</w>
+<w type="PONfbl">,</w>
+
+<lb/>
+<w type="VERcjg">destemprez</w>
+<w type="NOMcom">blanchet</w>
+<w type="PRE">de</w>
+<w type="NOMcom">furment</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">uniez</w>
+<w type="ADVgen">bien</w>
+
+<lb/>
+<w type="DETdef">la</w>
+<w type="NOMcom">face</w>
+<w type="PONfrt">.</w>
+</p>
+</div>
+ <div n="LXII">
+<head xml:lang="la">
+<w type="ETR">AD</w>
+<w type="ETR">LENTIGINES</w>
+<w type="PONfrt">.</w>
+</head>
+<p>
+<lb/>
+<w type="CONsub">Si</w>
+<w type="DETdef">le</w>
+<w type="NOMcom">nes</w>
+<w type="VERcjg">seit</w>
+<w type="ADJqua">lentilluse</w>
+<w type="CONcoo">et</w>
+<w type="ADJqua">frunchuse</w>
+<w type="PONfbl">,</w>
+<w type="VERinf">amender</w>
+
+<lb/>
+<w type="PROper">le</w>
+<w type="VERcjg">poez</w>
+<w type="CONsub">sicum</w>
+<w type="PROper">jeo</w>
+<w type="PROper">vus</w>
+<w type="VERcjg">ai</w>
+<w type="VERppe">dit</w>
+<w type="PONfrt">.</w>
+
+<pb n="68"/>
+</p>
+</div>
+ <div n="LXIII">
+<head xml:lang="la">
+<w type="ETR">AD</w>
+<w type="ETR">FETORDEM</w>
+<w type="ETR">NARIUM</w>
+<w type="PONfrt">.</w>
+</head>
+<p>
+<lb/>
+<w type="PRE">A</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">fiet</w>
+<w type="VERcjg">aven</w>
+<w type="CONsub">que</w>
+<w type="DETdef">le</w>
+<w type="NOMcom">nes</w>
+<w type="VERcjg">put</w>
+<w type="PONfbl">:</w>
+<w type="VERcjg">pernez</w>
+<w type="NOMcom">puliole</w>
+<w type="CONcoo">et</w>
+
+<lb/>
+<w type="NOMcom">roses</w>
+<w type="CONcoo">et</w>
+<w type="DETind">altres</w>
+<w type="NOMcom">especes</w>
+<w type="ADVgen">bien</w>
+<w type="VERppa">odoranz</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">metez</w>
+<w type="PRE">sur</w>
+
+<lb/>
+<w type="ADJqua">vifs</w>
+<w type="NOMcom">carbuns</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">faites</w>
+<w type="VERinf">receivre</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">fumé</w>
+<w type="CONcoo">hu</w>
+<w type="VERcjg">pernez</w>
+<lb/>
+<w type="DETndf">unes</w>
+<w type="NOMcom">piles</w>
+<w type="PROrel">que</w>
+<w type="DETdef">l'</w>
+<w type="PROind">um</w>
+<w type="VERcjg">apele</w>
+<w type="PONpga">«</w>
+<w type="NOMcom">dia</w>
+<w type="NOMcom">castoree</w>
+<w type="PONpdr">»</w>
+<w type="CONcoo">et</w>
+<lb/>
+<w type="VERcjg">destemprez</w>
+<w type="PRE">od</w>
+<w type="NOMcom">vin</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">metez</w>
+<w type="PRE">denz</w>
+<w type="DETdef">le</w>
+<w type="NOMcom">nes</w>
+<w type="PONfrt">.</w>
+
+</p>
+</div>
+ <div n="LXIV">
+<head xml:lang="la">
+<w type="ETR">CONTRA</w>
+<w type="ETR">ARDOREM</w>
+<w type="ETR">SOLIS</w>
+<w type="PONfrt">.</w>
+</head>
+<p>
+<lb/>
+<w type="PRE">Pur</w>
+<w type="NOMcom">adle</w>
+<w type="PONfbl">,</w>
+<w type="VERcjg">uniez</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">face</w>
+<w type="PRE">de</w>
+<w type="NOMcom">albun</w>
+<w type="PRE">de</w>
+<w type="NOMcom">of</w>
+<w type="CONcoo">et</w>
+<w type="PRE.DETdef">al</w>
+<lb/>
+<w type="NOMcom">matin</w>
+<w type="VERcjg">lavez</w>
+<w type="PRE">de</w>
+<w type="ADJqua">chaude</w>
+<w type="NOMcom">eve</w>
+<w type="PONfrt">.</w>
+</p>
+</div>
+ <div n="LXV">
+<head xml:lang="la">
+<w type="ETR">AD</w>
+<w type="ETR">COLORANDAM</w>
+<w type="ETR">FACIEM</w>
+<w type="PONfrt">.</w>
+</head>
+<p>
+<lb/>
+<w type="PRE">Pur</w>
+<w type="ADJqua">blanc</w>
+<w type="NOMcom">vis</w>
+<w type="VERinf">aver</w>
+<w type="CONcoo">et</w>
+<w type="VERinf">oster</w>
+<w type="NOMcom">lentilles</w>
+<w type="CONcoo">et</w>
+<w type="DETind">tut</w>
+<w type="NOMcom">ordure</w>
+
+<lb/>
+<w type="PRE.DETdef">del</w>
+<w type="NOMcom">vis</w>
+<w type="PONfbl">,</w>
+<w type="VERcjg">uniez</w>
+<w type="DETndf">un</w>
+<w type="NOMcom">pot</w>
+<w type="PRE">de</w>
+<w type="NOMcom">denz</w>
+<w type="PRE">de</w>
+<w type="NOMcom">savun</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">covré</w>
+<lb/>
+<w type="ADVgen">bien</w>
+<w type="PRE">de</w>
+<w type="DETndf">un</w>
+<w type="PRE.PROrel">esquele</w>
+<w type="CONsub">que</w>
+<w type="DETind">nule</w>
+<w type="NOMcom">ren</w>
+<w type="ADVneg">ne</w>
+<w type="VERcjg">puse</w>
+<w type="VERinf">entrer</w>
+<lb/>
+<w type="CONcoo">et</w>
+<w type="VERcjg">metez</w>
+<w type="PRE">en</w>
+<w type="DETndf">un</w>
+<w type="NOMcom">fumer</w>
+<w type="PONfbl">,</w>
+<w type="ADVgen.PROper">sil</w>
+<w type="VERcjg">lassez</w>
+<w type="VERinf">remeindre</w>
+<w type="DETcar">treis</w>
+
+<milestone unit="column" n="279 v° a"/>
+<lb/>
+<w type="NOMcom">jurs</w>
+<w type="CONcoo">et</w>
+<w type="ADVgen">puis</w>
+<w type="ADVgen">si</w>
+<w type="PROper">l'</w>
+<w type="VERcjg">ostez</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">metez</w>
+<w type="PRE">en</w>
+<w type="NOMcom">buiste</w>
+<w type="CONcoo">et</w>
+<w type="ADVgen">puis</w>
+<lb/>
+<w type="VERcjg">medlez</w>
+<w type="ADVgen">ensemble</w>
+<w type="NOMcom">gume</w>
+<w type="PRE">de</w>
+<w type="NOMcom">here</w>
+<w type="CONcoo">et</w>
+<w type="PRE">de</w>
+<w type="NOMcom">savun</w>
+<w type="CONcoo">et</w>
+<lb/>
+<w type="VERcjg">lavez</w>
+<w type="ADVgen">suvent</w>
+<w type="DETdef">le</w>
+<w type="NOMcom">vis</w>
+<w type="PONfbl">,</w>
+<w type="CONcoo">et</w>
+<w type="PROdem">ceo</w>
+<w type="VERcjg">ostra</w>
+<w type="DETind">tute</w>
+<w type="NOMcom">ordure</w>
+<w type="PONfrt">.</w>
+</p>
+</div>
+ <div n="LXVI">
+<head xml:lang="la">
+<w type="ETR">AD</w>
+<w type="ETR">LENTIGINES</w>
+<w type="PONfrt">.</w>
+</head>
+<p>
+<lb/>
+<w type="PRE">Pur</w>
+<w type="NOMcom">lentilles</w>
+<w type="VERinf">oster</w>
+<w type="CONcoo">et</w>
+<w type="ADJqua">blanc</w>
+<w type="NOMcom">vis</w>
+<w type="VERinf">aver</w>
+<w type="PONfbl">,</w>
+<w type="VERcjg">faites</w>
+
+<lb/>
+<w type="NOMcom">puldre</w>
+<w type="PRE">de</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">racine</w>
+<w type="PRE">de</w>
+<w type="NOMcom">dragunte</w>
+<w type="VERppe">secchi</w>
+<w type="PRE.DETdef">al</w>
+<w type="NOMcom">soleil</w>
+
+
+<lb/>
+<w type="CONcoo">et</w>
+<w type="VERcjg">destemprez</w>
+<w type="PRE">od</w>
+<w type="DETdef">le</w>
+<w type="NOMcom">albun</w>
+<w type="PRE">de</w>
+<w type="DETdef">l'</w>
+<w type="NOMcom">of</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">sechez</w>
+<w type="PRE.DETdef">al</w>
+<lb/>
+<w type="NOMcom">soleil</w>
+<w type="CONcoo">et</w>
+<w type="DETind">altre</w>
+<w type="NOMcom">feiz</w>
+<w type="VERcjg">destemprez</w>
+<w type="PRE">od</w>
+<w type="NOMcom">albun</w>
+<w type="PRE">de</w>
+<w type="NOMcom">of</w>
+<w type="CONcoo">et</w>
+<lb/>
+<w type="VERcjg">uniez</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">face</w>
+<w type="CONcoo">et</w>
+<w type="ADVgen">puis</w>
+<w type="VERcjg">lavez</w>
+<w type="PRE">od</w>
+<w type="NOMcom">eve</w>
+<w type="PRE">de</w>
+<w type="NOMcom">orge</w>
+<w type="PONfrt">.</w>
+<pb n="70"/>
+</p>
+</div>
+ <div n="LXVII">
+<head xml:lang="la">
+<w type="ETR">DE</w>
+<w type="ETR">AQUA</w>
+<w type="ETR">ORDEARIA</w>
+<w type="PONfrt">.</w>
+
+</head>
+<p>
+<lb/>
+<w type="NOMcom">Eve</w>
+<w type="PRE">de</w>
+<w type="NOMcom">orge</w>
+<w type="ADVgen">issi</w>
+<w type="PROper">le</w>
+<w type="VERcjg">devez</w>
+<w type="VERinf">faire</w>
+<w type="PONfbl">:</w>
+<w type="VERcjg">metez</w>
+<w type="NOMcom">orge</w>
+<w type="PRE">en</w>
+
+<lb/>
+<w type="NOMcom">eve</w>
+<w type="DETcar">treis</w>
+<w type="NOMcom">jurs</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">changez</w>
+<w type="DETdef">le</w>
+<w type="NOMcom">eve</w>
+<w type="DETind">chascun</w>
+<w type="NOMcom">jur</w>
+<w type="CONcoo">et</w>
+<lb/>
+<w type="DETdef">le</w>
+<w type="ADJord">quin</w>
+<w type="NOMcom">jur</w>
+<w type="VERcjg">pilez</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">destemprez</w>
+<w type="PRE">od</w>
+<w type="NOMcom">eve</w>
+<w type="ADJqua">tedve</w>
+<w type="PONfbl">,</w>
+<w type="ADVgen.PROper">sil</w>
+<lb/>
+<w type="VERcjg">colez</w>
+<w type="PRE">par</w>
+<w type="NOMcom">mi</w>
+<w type="DETndf">un</w>
+<w type="NOMcom">drap</w>
+<w type="PONfrt">.</w>
+</p>
+</div>
+ <div n="LXVIII">
+<head xml:lang="la">
+<w type="ETR">AD</w>
+<w type="ETR">TOLLENDOS</w>
+<w type="ETR">PILOS</w>
+<w type="PONfrt">.</w>
+</head>
+<p>
+<lb/>
+<w type="CONsub">Si</w>
+<w type="DETdef">les</w>
+<w type="NOMcom">peilz</w>
+<w type="VERcjg">creisent</w>
+<w type="ADVgen">trop</w>
+<w type="ADVgen">tost</w>
+<w type="PONfbl">,</w>
+<w type="VERcjg">destemprez</w>
+<w type="NOMcom">cendre</w>
+
+<lb/>
+<w type="PRE">de</w>
+<w type="NOMcom">vingnie</w>
+<w type="PRE">od</w>
+<w type="NOMcom">peis</w>
+<w type="VERppa">curant</w>
+<w type="CONcoo">et</w>
+<w type="NOMcom">olie</w>
+<w type="PRE">de</w>
+<w type="NOMcom">olive</w>
+<w type="CONcoo">et</w>
+<lb/>
+<w type="VERcjg">ungiez</w>
+<w type="ADVgen">suvent</w>
+<w type="PONfrt">.</w>
+</p>
+</div>
+ <div n="LXIX">
+<head xml:lang="la">
+<w type="ETR">AD</w>
+<w type="ETR">FACIENDOS</w>
+<w type="ETR">SPISSOS</w>
+<w type="PONfrt">.</w>
+</head>
+<p>
+<lb/>
+<w type="PRE">Pur</w>
+<w type="NOMcom">chevoilz</w>
+<w type="VERinf">aver</w>
+<w type="ADJqua">espés</w>
+<w type="PONfbl">,</w>
+<w type="VERcjg">quisez</w>
+<w type="NOMcom">fullies</w>
+<w type="PRE">de</w>
+<w type="NOMcom">sauz</w>
+
+<lb/>
+<w type="CONcoo">et</w>
+<w type="ADVgen">puis</w>
+<w type="VERcjg">triblez</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">destemprez</w>
+<w type="PRE">od</w>
+<w type="NOMcom">olie</w>
+<w type="PRE">de</w>
+<w type="NOMcom">olive</w>
+<w type="CONcoo">et</w>
+<lb/>
+<w type="VERcjg">uniez</w>
+<w type="DETpos">vostre</w>
+<w type="NOMcom">chef</w>
+<w type="PONfrt">.</w>
+</p>
+</div>
+ <div n="LXX">
+<head xml:lang="la">
+<w type="ETR">AD</w>
+<w type="ETR">CAPILLOS</w>
+<w type="PONfrt">.</w>
+</head>
+<p>
+<lb/>
+<w type="CONsub">Si</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">chevelure</w>
+<w type="PROper">vus</w>
+<w type="VERcjg">chet</w>
+<w type="PONfbl">,</w>
+<w type="VERcjg">destemprez</w>
+<w type="NOMcom">semence</w>
+
+<lb/>
+<w type="PRE">de</w>
+<w type="NOMcom">lin</w>
+<w type="VERppe">ars</w>
+<w type="PRE">od</w>
+<w type="NOMcom">olie</w>
+<w type="PRE">de</w>
+<w type="NOMcom">olive</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">uniez</w>
+<w type="ADVgen">suvent</w>
+<w type="PONfrt">.</w>
+</p>
+</div>
+ <div n="LXXI">
+<head xml:lang="la">
+<w type="ETR">AD</w>
+<w type="ETR">CAPITIS</w>
+<w type="ETR">PULCRITUDINEM</w>
+<w type="PONfrt">.</w>
+</head>
+<p>
+<lb/>
+<w type="PRE">Pur</w>
+<w type="ADJqua">beau</w>
+<w type="NOMcom">chef</w>
+<w type="VERinf">aver</w>
+<w type="PONfbl">,</w>
+<w type="VERcjg">pernez</w>
+<w type="NOMcom">olie</w>
+<w type="PRE">de</w>
+<w type="NOMcom">olive</w>
+<w type="CONcoo">et</w>
+<w type="NOMcom">mel</w>
+
+<lb/>
+<w type="CONcoo">et</w>
+<w type="NOMcom">alum</w>
+<w type="ADVgen">tut</w>
+<w type="ADJqua">equal</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">medlez</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">metez</w>
+<w type="ADVgen">plus</w>
+<w type="PRE">de</w>
+<lb/>
+<w type="ADJqua">vif</w>
+<w type="NOMcom">argent</w>
+<w type="CONsub">que</w>
+<w type="DETind">nul</w>
+<w type="PROind">altre</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">uniez</w>
+<w type="ADVgen">suvent</w>
+<w type="PONfrt">.</w>
+</p>
+</div>
+ <div n="LXXII">
+<head xml:lang="la">
+<w type="ETR">UNGUENTUM</w>
+<w type="ETR">AD</w>
+<w type="ETR">CAPITEM</w>
+<w type="PONfrt">.</w>
+</head>
+<p>
+<lb/>
+<w type="PRE">Pur</w>
+<w type="DETind">altre</w>
+<w type="VERcjg">unguent</w>
+<w type="ADVgen">mult</w>
+<w type="ADJqua">bon</w>
+<w type="PRE.DETdef">al</w>
+<w type="NOMcom">chef</w>
+<w type="PONfbl">,</w>
+<w type="VERcjg">triblez</w>
+<w type="DETdef">la</w>
+
+<lb/>
+<w type="NOMcom">racine</w>
+<w type="PRE">de</w>
+<w type="NOMcom">parele</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">quisez</w>
+<w type="PRE">od</w>
+<w type="NOMcom">olie</w>
+<w type="PRE">de</w>
+<w type="NOMcom">olive</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">metez</w>
+<pb n="72"/>
+<lb/>
+<w type="PRE">enz</w>
+<w type="ADJqua">virgine</w>
+<w type="NOMcom">cire</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">faites</w>
+<w type="PROind">tut</w>
+<w type="VERinf">bullir</w>
+<w type="CONsub">desque</w>
+<w type="DETdef">le</w>
+<w type="NOMcom">olie</w>
+<lb/>
+<w type="VERcjg">ait</w>
+<w type="VERppe">pris</w>
+<w type="DETdef">la</w>
+<w type="NOMcom">force</w>
+<w type="PRE">de</w>
+<w type="DETdef">l'</w>
+<w type="NOMcom">herbe</w>
+<w type="PONfbl">;</w>
+<w type="ADVgen">dunc</w>
+<w type="PROper">la</w>
+<w type="VERcjg">colez</w>
+<w type="PRE">par</w>
+<w type="NOMcom">mi</w>
+<lb/>
+<w type="DETndf">un</w>
+<w type="NOMcom">drap</w>
+<w type="CONcoo">et</w>
+<w type="PONfbl">,</w>
+<w type="CONsub">quant</w>
+<w type="PROper">il</w>
+<w type="VERcjg">est</w>
+<w type="VERppe">refreidi</w>
+<w type="DETndf">un</w>
+<w type="PROind">poi</w>
+<w type="PONfbl">,</w>
+<w type="VERcjg">metez</w>
+<w type="PRE">od</w>
+<lb/>
+<w type="PROdem">ceo</w>
+<w type="ADJqua">vif</w>
+<w type="NOMcom">argent</w>
+<w type="CONcoo">et</w>
+<w type="VERcjg">metez</w>
+<w type="PRE">en</w>
+<w type="NOMcom">buiste</w>
+<w type="PONfrt">.</w>
+<milestone unit="column" n="279 v° b"/>
+</p>
+</div>
+ <div n="LXXIII">
+<head xml:lang="la">
+<w type="ETR">AD</w>
+<w type="ETR">DEALBANDOS</w>
+<w type="ETR">DENTES</w>
+<w type="PONfrt">.</w>
+</head>
+<p>
+<lb/>
+<w type="PRE">Pur</w>
+<w type="NOMcom">denz</w>
+<w type="VERinf">enblanchir</w>
+<w type="PONfbl">,</w>
+<w type="VERcjg">pernez</w>
+<w type="NOMcom">farine</w>
+<w type="PRE">de</w>
+<w type="NOMcom">orge</w>
+<w type="ADVgen">mut</w>
+
+<lb/>
+<w type="ADJqua">net</w>
+<w type="CONcoo">et</w>
+<w type="NOMcom">alum</w>
+<w type="ADJqua">menu</w>
+<w type="CONcoo">et</w>
+<w type="NOMcom">sel</w>
+<w type="VERppe">ars</w>
+<w type="PONfbl">,</w>
+<w type="ADVgen">si</w>
+<w type="VERcjg">medlez</w>
+<w type="ADVgen">ensemble</w>
+<lb/>
+<w type="PRE">od</w>
+<w type="NOMcom">gute</w>
+<w type="PRE">de</w>
+<w type="NOMcom">mel</w>
+<w type="VERppe">quit</w>
+<w type="PONfbl">,</w>
+<w type="ADVgen">si</w>
+<w type="VERcjg">ungniez</w>
+<w type="ADVgen">suvent</w>
+<w type="DETpos">vosz</w>
+<w type="NOMcom">denz</w>
+<lb/>
+<w type="CONcoo">et</w>
+<w type="PROdem">ceo</w>
+<w type="PROper">vus</w>
+<w type="VERcjg">fra</w>
+<w type="DETdef">les</w>
+<w type="NOMcom">denz</w>
+<w type="ADJqua">blanches</w>
+<w type="PONfrt">.</w>
+</p>
+</div>
+</body>
+ <back>
+  <div type="explicit">
+   <p>
+    <w type="ETR">EXPLICIT</w>
+    <w type="PONfrt">.</w>
+   </p>
+  </div>
+ </back>
+</text>
+</TEI>

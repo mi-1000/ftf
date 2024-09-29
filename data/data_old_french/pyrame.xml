@@ -1,0 +1,1103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="main">Pyrame et Thisbé</title>
+      <title type="formal">pyrame</title>
+      <title type="reference">pyrame</title>
+      <title type="DEAF">PirBa</title>
+      <title type="gmd">transcription électronique</title>
+      <author xml:id="anonyme">anonyme</author>
+      <editor>Équipe de la Base de français médiéval - ENS de Lyon / UMR 5317 IHRIM</editor>
+      <funder>Laboratoire IHRIM</funder>
+    </titleStmt>
+    <editionStmt>
+      <edition>transcripion électronique</edition>
+      <respStmt xml:id="digitizer">
+        <resp>scannage et océrisation</resp>
+        <name xml:id="FR">Fleur Rodde</name>
+      </respStmt>
+      <respStmt xml:id="proofreader2">
+        <resp>Relecture et balisage XML-TEI</resp>
+        <name xml:id="LHostrenko">Laura Hostrenko</name>
+      </respStmt>
+    </editionStmt>
+    <extent>- Numéros de pages saisies : de 22 à 80 ;
+            - Nombre de mots d'après la base des descripteurs : <num xml:id="nb_mots_given">4724</num> ;
+            - Nombre de tokens (mots et ponctuations) d'après la base des descripteurs : <num xml:id="nb_tokens_given">5671</num>.
+    </extent>
+    <publicationStmt>
+      <publisher><name>Projet BFM, ENS de Lyon / UMR 5317 IHRIM</name></publisher>
+      <address>
+        <addrLine>15, parvis René Descartes</addrLine>
+        <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+        <addrLine>Tél : 04 37 37 63 10</addrLine>
+        <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+        <addrLine>http://bfm.ens-lyon.fr</addrLine>
+      </address>
+      <idno type="bfm">http://catalog.bfm-corpus.org/pyrame</idno>
+      <idno type="doi">10.34847/nkl.1f02318k</idno>
+      <availability status="free">
+        <licence target="https://www.etalab.gouv.fr/licence-ouverte-open-licence">
+          <ab type="availability_bfm" subtype="libre_1a">Les Conditions générales d'utilisation de la Base de Français Médiéval (http://txm.bfm-corpus.org/bfm/files/CGU.pdf), 
+            et notamment son Article 5 « PROPRIETE INTELLECTUELLE », s'appliquent à tous les textes de la BFM.</ab>
+          <ab type="how_to_cite">
+            <label>Comment citer ce texte :</label>
+            <bibl>Pyrame et Thisbé, édité par Emmanuèle Baumgartner, Paris, 2000. 
+              Publié en ligne par la Base de français médiéval, http://catalog.bfm-corpus.org/pyrame.
+              Dernière révision le 2022-01-30.</bibl>
+            D'autres formules de citation de la BFM sont proposées sur la page web suivante :
+            http://bfm.ens-lyon.fr/article.php3?id_article=281.</ab>
+          <ab type="availability_file">
+            <label>Conditions d'utilisation de ce fichier :</label>
+              Ce fichier numérique est composé du corps de texte médiéval et des suppléments numériques : balisage XML-TEI, métadonnées (teiHeader), balisage du discours direct. Le texte et les suppléments numériques sont libres de droit et peuvent à ce titre être téléchargés et réutilisés librement.
+            </ab>
+            <ab type="availability_txmweb" subtype="illimité">
+              <label>Conditions d'utilisation par le portail BFM :</label>
+              Pas de limitation dans l'usage des fonctionnalités. Téléchargement autorisé.</ab>
+        </licence>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>Pyrame et Thisbé : Narcisse : Philomena : Trois contes : du XIIe siècle français : imités d'Ovide : Présentés, édités et traduits : par Emmanuèle Baumgartner // Pyrame et Thisbé</title>
+          <respStmt>
+            <resp xml:id="editor">Éditeur scientifique</resp>
+            <name type="person">Emmanuèle Baumgartner</name>
+          </respStmt>
+        </titleStmt>
+          <extent>30 page(s), soit 22-80 (pages paires)
+        </extent>
+        <publicationStmt>
+          <publisher>Gallimard</publisher>
+          <pubPlace>Paris</pubPlace>
+          <date>2000</date>
+          <idno type="isbn">2-07-040317-3</idno>
+          <idno type="sigle_DEAF">PirBa</idno>
+          <idno type="cote_biblio">IHRIM : COR3-BAU</idno>
+        </publicationStmt><seriesStmt><title>Folio classique</title><idno type="collection">3448</idno></seriesStmt>
+      </biblFull>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p>Projet :<name type="project">BFM - Base de français médiéval</name>
+        Resp. : <name type="person">Céline Guillot-Barbance</name>
+        Équipe : Base de français médiéval
+        Laboratoire : UMR 5317 IHRIM
+        Institution : ENS de Lyon
+        <address>
+          <addrLine>15, parvis René Descartes</addrLine>
+          <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+          <addrLine>Tél : 04 37 37 63 10</addrLine>
+          <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+          <addrLine>http://bfm.ens-lyon.fr</addrLine>
+        </address>
+      </p>
+    </projectDesc>
+    <editorialDecl>
+      <p>Voir le <ref target="http://bfm.ens-lyon.fr/IMG/pdf/Manuel_Encodage_TEI.pdf">Manuel d'encodage XML-TEI de la BFM</ref>
+        et les <ref target="http://bfm.ens-lyon.fr/IMG/pdf/Consignes_BFM.pdf">Consignes aux relecteurs de la BFM</ref>.</p>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="ab" occurs="30"/>
+        <tagUsage gi="body" occurs="1"/>
+        <tagUsage gi="div" occurs="1"/>
+        <tagUsage gi="head" occurs="1"/>
+        <tagUsage gi="hi" occurs="1"/>
+        <tagUsage gi="lb" occurs="889"/>
+        <tagUsage gi="pb" occurs="30"/>
+        <tagUsage gi="q" occurs="15"/>
+        <tagUsage gi="text" occurs="1"/>
+        <tagUsage gi="w" occurs="1"/>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <creation>
+      <name type="author">anonyme</name>
+      <title>Pyrame et Thisbé</title>
+      <date type="compo" when="1157-01-01" notBefore="1155-01-01" notAfter="1160-01-01" n="12">entre 1155 et 1160</date>
+      <date type="compo_periode">ancien</date>
+      <date type="compo_sous_siecle" n="12_2">milieu</date>
+      <date type="ms" when="1325-01-01" notBefore="1320-01-01" notAfter="1330-12-31">ca. 1325</date>
+      <idno type="msIdentifier">Rouen 1044 (O.4)</idno>
+      <region type="dialecte_auteur">non défini</region>
+    </creation>
+    <langUsage>
+      <language ident="fro" usage="100">Le texte est entièrement écrit en vers en ancien français.</language>
+    </langUsage>
+    <textDesc>
+      <channel mode="w">print</channel>
+      <constitution type="single"/>
+      <derivation type="reprise">Métamorphoses d'Ovide</derivation>
+      <domain type="littéraire"/>
+    <factuality type="inapplicable"/>
+      <interaction type="none"/>
+      <preparedness type="prepared"/>
+      <purpose type="narrative"/></textDesc>
+    <textClass>
+      <keywords scheme="http://authorities.bfm-corpus.org">
+        <term type="domaine">littéraire</term>
+        <term type="genre">récit bref</term>
+        <term type="forme">vers</term>
+        <term type="relation">reprise</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change who="#FR" when="2006-01-31">scannage et océrisation</change>
+    <change who="#LHostrenko" when="2022-01-30">Relecture et balisage XML-TEI</change>
+    <change when="2022-01-30">Dernière modification du texte</change>
+    <change when="2022-11-04">Création de cet entête</change>
+  </revisionDesc>
+</teiHeader><text>
+<body>
+<pb n="22"/>
+<div><head>Piramus et Tysbé</head><ab type="gv">
+<lb n="1"/>En Babilone la cité
+<lb n="2"/>Furent dui home renomé,
+<lb n="3"/>De grant valour, de grant hautesce,
+<lb n="4"/>De parenté et de richesce.
+<lb n="5"/>Li riche home orent .II. enfans
+<lb n="6"/>D'une biauté et d'uns samblans :
+<lb n="7"/>L'uns fu vallés, l'autre meschine ;
+<lb n="8"/>Tant biaux n'orent rois ne roÿne.
+<lb n="9"/>.II. enfans orent li riche home,
+<lb n="10"/>Qu'Ovides en son livre nome
+<lb n="11"/>Et dist qu'il furent apelé
+<lb n="12"/>L'un Piramus, l'autre Tysbé.
+<lb n="13"/>Ançois qu'il eüssent .VII. ans,
+<lb n="14"/>Toucha Amours les .II. enfans
+<lb n="15"/>Et navra plus en lor endroit
+<lb n="16"/>Que lor aëz ne requeroit.
+<lb n="17"/>Li pers aëz, l'igaulz corages,
+<lb n="18"/>Lor grans biautez, lor grans parages,
+<lb n="19"/>Les paroles, les ris, les jeus,
+<lb n="20"/>Et li aaisement d'eulz deus,
+<lb n="21"/>Et li entreveoir souvent
+<lb n="22"/>Lor donnerent esmouvement
+<pb n="24"/>
+<lb n="23"/>Haÿ, Amors, devant tes jex
+<lb n="24"/>Ne puet durer joenes ne viex ;
+<lb n="25"/>II n'est jouvente ni aëz
+<lb n="26"/>Qui de ton dart ne soit navrez.
+<lb n="27"/>Contre ton dart n'a nulle essoigne
+<lb n="28"/>Double haubers ne double broigne.
+<lb n="29"/>Ta saiete ne set faillir,
+<lb n="30"/>Vers lui ne puet nulz home garir.
+<lb n="31"/>Sans doleur fais traire souspir,
+<lb n="32"/>Sans sanc espandre fais palir.
+<lb n="33"/>Li fers de ton dart porte feu,
+<lb n="34"/>Souspirs, la fleche dou mileu.
+<lb n="35"/>Li fers navre dou regarder,
+<lb n="36"/>Et la fleche coule el penser.
+<lb n="37"/>Li penon font les apareulz,
+<lb n="38"/>La coiche ajouste ses conceulz.
+<lb n="39"/>De tel saiete et de tel lance
+<lb n="40"/>Navra Amours en lor enfance
+<lb n="41"/>Le jovencel et la meschine,
+<lb n="42"/>Tres que la mort lor fu voisine.
+<lb n="43"/>Encor ne sevent riens d'Amours,
+<lb n="44"/>Si les a mist en grans freours :
+<lb n="45"/>Ja lor plaist par matin lever
+<lb n="46"/>Et l'un de l'autre porpenser,
+<lb n="47"/>Et jeünent plus que lor droit
+<lb n="48"/>Et lor aëz ne requeroit.
+<lb n="49"/>Par matinet chascun s'en emble,
+<lb n="50"/>Si vont le jour jouer ensamble,
+<lb n="51"/>Deduient soi o les enfans
+<lb n="52"/>De lor aëz et de lor tans.
+<lb n="53"/>Le jour pensent d'eulz esgarder,
+<lb n="54"/>Qu'il ne s'en pueent saoler.
+<lb n="55"/>Tart revienent a lor ostaulz
+<pb n="26"/>
+<lb n="56"/>Quar li departirs lor est maulz.
+<lb n="57"/>Plaist lor a faire mainte chose
+<lb n="58"/>Dont l'en mout les manace et chose.
+<lb n="59"/>Tant comme jaspes sormonte voirre
+<lb n="60"/>Et or argent, et primevoirre
+<lb n="61"/>A la marouste sormonté,
+<lb n="62"/>Tant sormontoient de bonté
+<lb n="63"/>Et de valour et de biauté
+<lb n="64"/>Cil dui tous ceulz de la cité.
+<lb n="65"/>Par grant conseil et par grant cure
+<lb n="66"/>Et par grant sens les fist Nature.
+<lb n="67"/>Tant com lor aëz fu contraire
+<lb n="68"/>A ce qu'Amours requiert a faire,
+<lb n="69"/>Et il furent dedens .X. ans,
+<lb n="70"/>Fu assés lor leesce grans
+<lb n="71"/>D'aler ensamble et de parler,
+<lb n="72"/>D'esbanoier et de joer.
+<lb n="73"/>Li dous regars, li simples sens
+<lb n="74"/>Et li non convenables temps,
+<lb n="75"/>Et que nulz biens n'est sans envie,
+<lb n="76"/>Ne nulz sers n'est sans felonie,
+<lb n="77"/>Les fist departir et garder,
+<lb n="78"/>Qu'il ne porent ensamble aler.
+<lb n="79"/>.I. sers perçut lor contenance
+<lb n="80"/>Et dist : <q>« Or sai je sans doutance
+<lb n="81"/>Que mout s' <w>entr'</w> aiment cil enfant,
+<lb n="82"/>Et se il fussent auques grant
+<lb n="83"/>Et il eüssent tel lesir,
+<lb n="84"/>Griez chose fust dou departir. »</q>
+<lb n="85"/>A la mere a la damoisele
+<lb n="86"/>Porta li sers ceste novele,
+<lb n="87"/>Et cele dist : <q>«Des or t'en tés,
+<lb n="88"/>Quar il n'assambleront ja més. »</q>
+<pb n="28"/>
+<lb n="89"/>Puis dist a une chamberiere :
+<lb n="90"/><q>«Garde, se tu m'as de riens chiere,
+<lb n="91"/>Que Tysbé n'isse fors de l'us,
+<lb n="92"/>Ne qu'el ne voie Piramus. »</q>
+<lb n="93"/>Adont leva uns maltalans
+<lb n="94"/>Entre les peres aus enfans,
+<lb n="95"/>Une tençon et une envie,
+<lb n="96"/>Qui puis dura toute lor vie.
+<lb n="97"/>Ceste chose fist destorber
+<lb n="98"/>Les .II. enfans a aprimer,
+<lb n="99"/>Et d'assambler par mariage,
+<lb n="100"/>Et d'envoier entr'eulz message.
+<lb n="101"/>Li dui enfant sont en destroit,
+<lb n="102"/>Li uns n'ot l'autre ne ne voit :
+<lb n="103"/>Mout lor samble griez la devise
+<lb n="104"/>Que lor parens ont entr'aulz mise,
+<lb n="105"/>Mes ce que l'en les garde plus,
+<lb n="106"/>- Tysbé n'ose issir fors de l'us
+<lb n="107"/>Ne Piramus vers lui garder - ,
+<lb n="108"/>Fet plus lor amour aviver.
+<lb n="109"/>Andui croissent selonc lor tens :
+<lb n="110"/>Croist lor aëz et croist lor sens,
+<lb n="111"/>Croist lor ardours et croist lor plaie,
+<lb n="112"/>Et croist li feus qui riens n'apaie,
+<lb n="113"/>Croist lor amours et lor aëz,
+<lb n="114"/>Et ja orent .XV. ans passez.
+<lb n="115"/>Et puis qu'il vindrent en jouvent
+<lb n="116"/>Et il choisirent escïent,
+<lb n="117"/>Et lor aëz s'ahert au cours
+<lb n="118"/>Ou nature choisist amours,
+<lb n="119"/>Adont nes lesse plus guerir.
+<lb n="120"/>Li lonc penser, li griés souspir,
+<lb n="121"/>Les grans dolors, li fort complaint,
+<pb n="30"/>
+<lb n="122"/>Li durs tormenz au cuer lor maint.
+<lb n="123"/>Dementent soi et nuit et jour,
+<lb n="124"/>Toute lor vie est en dolour;
+<lb n="125"/>Plorent, plaignent chascuns par soi,
+<lb n="126"/>Ne sevent d'eulz prendre conroi,
+<lb n="127"/>Ne ne pueent trouver remire
+<lb n="128"/>Ne par mecine ne par mire.
+<lb n="129"/>Li feux lor siet dedens les os,
+<lb n="130"/>Qui ne lor lesse avoir repos,
+<lb n="131"/>Ains les travaille jor et nuit
+<lb n="132"/>Et de mortel travail les cuit.
+<lb n="133"/>Cil feux et cele flame seule
+<lb n="134"/>Retrait les ners et art la meule,
+<lb n="135"/>Tault la vertu, change biauté,
+<lb n="136"/>Et chace toute alegrieté.</ab>
+<ab type="gv">
+<lb n="137"/>Piramus est plains de tristour,
+<lb n="138"/>Plains de souspir et plains de plour,
+<lb n="139"/>Plains de penser et plains de cure.
+<lb n="140"/>Demente soi en tel mesure
+<lb n="141"/>	Sovent :</ab>
+<ab type="gv" rend="ital">
+<lb n="142"/><q>Hé, las ! fet il, chetis, dolent,
+<lb n="143"/>Soufferai longues cest torment ?
+<lb n="144"/>Tous tens ai duel, joie noient,
+<lb n="145"/>Et com plus me dueil, plus m'esprent
+<lb n="146"/>	Amour.
+<lb n="147"/>Je mens certes, ains est ardour
+<lb n="148"/>Qui ensi vient de jour en jour;
+<lb n="149"/>Si taint ma force et ma coulour
+<lb n="150"/>Com fait la fueille la froidour.
+<lb n="151"/>	Hé, las!
+<lb n="152"/>Hé, Piramus, quel la feras ?
+<pb n="32"/>
+<lb n="153"/>En quel guise te contendras ?
+<lb n="154"/>Haÿ, pere qui m'engendras,
+<lb n="155"/>	Pour quoi
+<lb n="156"/>N'as tu ore pitié de moi ?
+<lb n="157"/>Se tu ne prens autre conroi,
+<lb n="158"/>Ou par enging ou par desroi
+<lb n="159"/>	Ferai
+<lb n="160"/>Tysbé, bele, que te verrai,
+<lb n="161"/>Ou se ce non pour toi morrai.
+<lb n="162"/>Saches, se par amours ne t'ai,
+<lb n="163"/>Que par force te ravirai.
+<lb n="164"/>	La mort
+<lb n="165"/>Iert mon refuge et mon confort,
+<lb n="166"/>S'aulques me tient cis mal si fort
+<lb n="167"/>Ou se longues m'est fais cis tors.
+<lb n="168"/>	Tors fais ?
+<lb n="169"/>Hé, Dieux, pour quoi n' est fait cis plais,
+<lb n="170"/>Que nos parens fussent em pais ?
+<lb n="171"/>N'eüssons mie tant d'agais !
+<lb n="172"/>	Gaitier !
+<lb n="173"/>Ja ne puis je tant esploitier
+<lb n="174"/>Que je trouvaisse messagier
+<lb n="175"/>Que je li peüsse envoier.
+<lb n="176"/>	Cui chault ? 
+<pb n="34"/>
+<lb n="177"/>Ne monte riens, se Dieux me sault.
+<lb n="178"/>Haÿ, Peres qui mains en hault,
+<lb n="179"/>Estain le feu qui si m'assault,
+<lb n="180"/>	Le feu
+<lb n="181"/>Qui m'a tolu et ris et jeu;
+<lb n="182"/>Ne puis guerir en nesun leu.
+<lb n="183"/>	Amie,
+<lb n="184"/>Pour vous est ma coulour perie,
+<lb n="185"/>Mon cors navré, ma chars percie.
+<lb n="186"/>Bele, pour vous despens ma vie
+<lb n="187"/>	En plours.
+<lb n="188"/>Consentez moi, li dieux d'amours,
+<lb n="189"/>Qu'encor la tiengne nuit ou jours,
+<lb n="190"/>Ou a leesce ou a dolours !
+<lb n="191"/>	Pasmer
+<lb n="192"/>M'estuet errant, ne puis parler ;
+<lb n="193"/>Or sui hetiez, or vueil plorer,
+<lb n="194"/>Ore ai grant chault, or vueil trambler.</q></ab>
+<ab type="gv">
+<lb n="195"/>Ains qu'il peüst son duel fenir,
+<lb n="196"/>Li prist la face a empalir.
+<lb n="197"/>En lermes et en plorement
+<lb n="198"/>Cheÿ pasmez ou pavement ;
+<lb n="199"/>Emprez grant piece est relevez,
+<lb n="200"/>Tous tristes, tous descolorez ;
+<lb n="201"/>Vait s'ent au temple Veneris,
+<lb n="202"/>Couche soi sus le marbre bis,
+<lb n="203"/>Fait proieres, vouz et promesse
+<lb n="204"/>Et sacrifise a la deesse,
+<lb n="205"/>Qu'ele li doinst avoir baillie
+<lb n="206"/>De parler a Tysbé s'amie.</ab>
+<ab type="gv">
+<lb n="207"/>Tysbé rest la dedens enclose,
+<lb n="208"/>Fors dou palais issir n'en ose.
+<lb n="209"/>Souvent remembre ses amours, 
+<pb n="36"/>
+<lb n="210"/>Souvent mue le jour colours,
+<lb n="211"/>Souvent se plaint et souvent plore. </ab>
+<ab type="gv" rend="ital">
+<lb n="212"/><q>Lasse, fet elle, com male ore
+<lb n="213"/>	Fui nee !
+<lb n="214"/>Hé, Diex, com male destinee,
+<lb n="215"/>Com dure vie m'est donee !
+<lb n="216"/>Ains mes ne fu nulle esgaree
+<lb n="217"/>	En vie,
+<lb n="218"/>Qui par savoir ou par voisdie
+<lb n="219"/>Ne seüst engignier boisdie,
+<lb n="220"/>	Fors moi.
+<lb n="221"/>Mes quant je plus pens, et mains voi
+<lb n="222"/>En quel guise prendrai conroi,
+<lb n="223"/>Amis douz, de parler a toi.
+<lb n="224"/>	Parler ?
+<lb n="225"/>Tysbé, fole, veulz tu desver
+<lb n="226"/>Et ta chasteé violer,
+<lb n="227"/>Et ton lignage vergonder ?
+<lb n="228"/>	Nou faire !
+<lb n="229"/>Garde raison, qui t'est contraire.
+<lb n="230"/>Ne te chaille entour toi atraire
+<lb n="231"/>	Corage
+<lb n="232"/>Par quoi tu faces tel rage.
+<lb n="233"/>Onques feme de ton lignage
+<lb n="234"/>Ne fu reprise de putage.
+<lb n="235"/>	Reprise ?
+<lb n="236"/>Non serai je, par nulle guise !
+<lb n="237"/>Miex vueil estre .C. fois ocise.
+<pb n="38"/>
+<lb n="238"/>	Tysbé,
+<lb n="239"/>Ou as tu pris icest pensé ?
+<lb n="240"/>Tost as Pyramus oublié !
+<lb n="241"/>	Amis,
+<lb n="242"/>Onques a certes ne le dis !
+<lb n="243"/>Or poez dire, ce m'est vis,
+<lb n="244"/>	A droit
+<lb n="245"/>Qu'en amours de feme n' a foit.
+<lb n="246"/>Biaux douz amis, prenez a droit
+<lb n="247"/>	Le gage.
+<lb n="248"/>Tenez, sire, pour cest outrage,
+<lb n="249"/>Vous otroi ci mon pucelage.
+<lb n="250"/>Trop iere ore de fier corage !
+<lb n="251"/>	De fier !
+<lb n="252"/>Vers vous doi ge bien supploier.
+<lb n="253"/>Moult avroie le blasme chier
+<lb n="254"/>Se m'en ooie reprochier.
+<lb n="255"/>	Contraire,
+<lb n="256"/>Si comme samble a mon vïaire,
+<lb n="257"/>Nulz hom ne m'en devroie retraire
+<lb n="258"/>Ne reprendre de cest afaire.
+<lb n="259"/>	Desvee !
+<lb n="260"/>Tes toi, fole desmesuree !
+<lb n="261"/>Quel corage vous a muee ?
+<lb n="262"/>Moult estes ore forsenee !
+<lb n="263"/>	Lerai
+<lb n="264"/>Tout cest pensé que je ore ai.
+<lb n="265"/>Par le conseil mon pere avrai
+<lb n="266"/>Autresi gent ami, bien sai. 
+<pb n="40"/>
+<lb n="267"/>	Si gent?
+<lb n="268"/>Merveil, se Piramus m'entent !
+<lb n="269"/>Oïl, je tramble, bien le sent.
+<lb n="270"/>Si mar le dis, or m'en repent.
+<lb n="271"/>	Hé, biaus !
+<lb n="272"/>Rose tendre et lis nouviaus,
+<lb n="273"/>Flors de tous autres damoisiaus,
+<lb n="274"/>	Merci !
+<lb n="275"/>N'aiés cure de quanque di.
+<lb n="276"/>De paour ai le cuer marri,
+<lb n="277"/>Ja mais n'avrai nul autre ami
+<lb n="278"/>	Que vous.
+<lb n="279"/>Mes vos parens sont envïous
+<lb n="280"/>Et li mien sont de moi jalous.
+<lb n="281"/>	Cui chault ?
+<lb n="282"/>Ne monte riens, se Diex me sault :
+<lb n="283"/>Or sent mon cuer, ore ai trop chault,
+<lb n="284"/>A poi ferai pour vous .I. sault
+<lb n="285"/>	Hé, lasse,
+<lb n="286"/>Que ai je dit ? Riens ne me passe
+<lb n="287"/>Li maulz qui si souvent me lasse,
+<lb n="288"/>	Dolente.
+<lb n="289"/>Li diex d'amours me le consente,
+<lb n="290"/>Ou bon me soit ou m'en repente,
+<lb n="291"/>Qu' entre mes bras encor le sente
+<lb n="292"/>	Par termes.
+<lb n="293"/>Ci fenirai ma plainte en lermes,
+<lb n="294"/>Pasmer m'estuet, ore est li termes.
+<lb n="295"/>Ensi fais je par chascun di,
+<lb n="296"/>Tel fief tieng je de mon ami.</q></ab>
+<ab type="gv">
+<lb n="297"/>La pucele est trois fois pasmee ;
+<lb n="298"/>Et quant elle s'est relevee
+<pb n="42"/>
+<lb n="299"/>Ansdeus ses mains vers le ciel tent :
+<lb n="300"/>Aus diex prie moult humblement
+<lb n="301"/>Qu'il li doignent conseil trouver
+<lb n="302"/>Qu'a son ami puisse parler.
+<lb n="303"/>Prochain furent li dui palais,
+<lb n="304"/>Et par tele maniere fais
+<lb n="305"/>C' une parois et .I. murs seulz
+<lb n="306"/>Estoit devise d'ambedeus.
+<lb n="307"/>Endroit la chambre la dedens
+<lb n="308"/>Ou mains conversoient de gens,
+<lb n="309"/>Ou la pucele iert enfermee,
+<lb n="310"/>Fu la parois .I. peu crevee.
+<lb n="311"/>La crevace n'ert gaires grans,
+<lb n="312"/>Si fu celee par mains ans
+<lb n="313"/>De si qu'Amours la fist trouver,
+<lb n="314"/>Vers cui riens ne se puet celer.
+<lb n="315"/>Quel chose est ce qu'Amours ne sent ?
+<lb n="316"/>Li dui amant premierement
+<lb n="317"/>Aperçurent celui pertus,
+<lb n="318"/>Primes Tysbé, puis Piramus.
+<lb n="319"/>Tysbé trouva la creveüre,
+<lb n="320"/>Prist le pendant de sa çainture,
+<lb n="321"/>S'en fist outre le fer paroir,
+<lb n="322"/>Que ses amis le pot veoir.
+<lb n="323"/>Piramus vint de deporter
+<lb n="324"/>Pour ses dolours reconforter.
+<lb n="325"/>Entre en la chambre, cele soi,
+<lb n="326"/>Torne ses iex vers la paroi,
+<lb n="327"/>Garde, si aperçoit l'enseigne
+<lb n="328"/>Qui la crevace li enseigne.
+<lb n="329"/>Cele part vait, prent le pendant,
+<lb n="330"/>Voit le pertus aparissant.</ab>
+<ab type="gv" rend="ital">
+<pb n="44"/>
+<lb n="331"/><q>Tysbé, dist il, bele faiture
+<lb n="332"/>Flours de toute autre creature,
+<lb n="333"/>Par l'enseigne de la chainture
+<lb n="334"/>Sui je venus offrir droiture,
+<lb n="335"/>Qui ne trouvai la creveüre.
+<lb n="336"/>Vostre en est bele l'aventure
+<lb n="337"/>D'apercevoir tel troveüre.
+<lb n="338"/>Se vous avez de moi tel cure,
+<lb n="339"/>Ne vous tendra la fermeüre
+<lb n="340"/>Que ne veigniez ici segure.
+<lb n="341"/>Sans message, sans couverture,
+<lb n="342"/>A basse vois et a murmure
+<lb n="343"/>Porrons parler de nostre injure.
+<lb n="344"/>Emprez savrois en quel ardure
+<lb n="345"/>M'a mis Amours sans forfaiture.
+<lb n="346"/>Hé, Diex, comme est sa vie dure
+<lb n="347"/>Qui longuement teulz maulz endure !</q></ab>
+<ab type="gv">
+<lb n="348"/>La pucele de l'autre part
+<lb n="349"/>Est en escout et en esgart :
+<lb n="350"/>De la parole entent l'esfroi,
+<lb n="351"/>Torne ses iex vers la paroi,
+<lb n="352"/>Met son oeil endroit la crevace :
+<lb n="353"/>De son ami connut la face.
+<lb n="354"/>Parler cuide, mes el ne puet
+<lb n="355"/>Pour l'amour qui si la commuet.
+<lb n="356"/>Ou premerain esgardement
+<lb n="357"/>Fremist, souspire, et si esprent,
+<lb n="358"/>Tressault, tramble et si tressue,
+<lb n="359"/>Taint sa color et si li mue,
+<lb n="360"/>Porpense soi qu'ele li die,
+<lb n="361"/>En soi meïsmes s'entroblie.
+<pb n="46"/>
+<lb n="362"/>En tantes guises la destraint
+<lb n="363"/>Amours, qui toutes choses vaint.
+<lb n="364"/>A la parfin s'est pourpensee,
+<lb n="365"/>Si s'est un poi asseüree ;
+<lb n="366"/>Met sa bouche endroit la fendure,
+<lb n="367"/>Emprez parole en tel mesure :</ab>
+<ab type="gv" rend="ital">
+<lb n="368"/><q>Amis, ensi vous os nomer,
+<lb n="369"/>- Ce ne me puet on pas veer -,
+<lb n="370"/>Ne me puis pas vers vous celer.
+<lb n="371"/>Vostre proesce vueil gaber :
+<lb n="372"/>Premiere sot conseil trouver
+<lb n="373"/>Com peüssons ci assambler,
+<lb n="374"/>Quar, qui plus aime, plus voit cler.
+<lb n="375"/>Griement vos oi desconforter,
+<lb n="376"/>Mes poi savez que est amer :
+<lb n="377"/>Encor vous en poez joer !
+<lb n="378"/>A moi lessiez le duel user,
+<lb n="379"/>Cui riens ne puet confort doner.
+<lb n="380"/>Joie ai changiee por plorer,
+<lb n="381"/>Pour dolereus complains jeter,
+<lb n="382"/>Et leesce pour gamenter,
+<lb n="383"/>Soëf dormir por grief penser,
+<lb n="384"/>Jeu et delit pour souspirer.
+<lb n="385"/>Amis, ne puis ci plus ester :
+<lb n="386"/>Souspirs me tolent le parler.
+<lb n="387"/>Pensez demain dou retorner,
+<lb n="388"/>Plus a loisir porrons parler
+<lb n="389"/>Et li uns l'autre conforter.</q></ab>
+<ab type="gv">
+<lb n="390"/>Ne pot lors plus parler a lui;
+<lb n="391"/>Ensi departent ambedui.</ab>
+<ab type="gv">
+<lb n="392"/>Li jours s'en vait, la nuit prist fin.
+<pb n="48"/>
+<lb n="393"/>Ansi repairent au matin,
+<lb n="394"/>Et revienent a lor pertus.
+<lb n="395"/>Primes parole Piramus :</ab>
+<ab type="gv" rend="ital">
+<lb n="396"/><q>Amie, moult sui angoissous
+<lb n="397"/>Quar a mort sui navrez pour vous.
+<lb n="398"/>Des or vieng bien a reclain :
+<lb n="399"/>Plus sui pris que poissons a l'ain.
+<lb n="400"/>	Sorpris
+<lb n="401"/>Sui je pour vous, ce m'est avis.
+<lb n="402"/>Ne sai que soit joie ne ris.
+<lb n="403"/>S'auques me tient, n'en irai vis.
+<lb n="404"/>	Muir moi !
+<lb n="405"/>Li diex d'amours ne garde foi,
+<lb n="406"/>Quar sormontez nous a sa loi :
+<lb n="407"/>Lacié somes en une roi
+<lb n="408"/>	Andui.
+<lb n="409"/>Ne sai cui prier, vous ou lui.
+<lb n="410"/>Bele a vous fais je mon refui :
+<lb n="411"/>Se por vous muir, tant mar i fui !
+<lb n="412"/>	Amie,
+<lb n="413"/>Moult ferïez grant felonie
+<lb n="414"/>Se pour vous perdoie la vie,
+<lb n="415"/>Quant par vous puis avoir aÿe.
+<lb n="416"/>	Dolent !
+<lb n="417"/>Moult puis avoir duel et torment,
+<lb n="418"/>Qui tant ai amé longuement
+<lb n="419"/>Et ne puis faire mon talent.
+<lb n="420"/>	Chetis !
+<lb n="421"/>Hé, bele, com sui entrepris !
+<lb n="422"/>Bien ai apris mal a sousfrir.
+<lb n="423"/>	Deduit,
+<lb n="424"/>Et quanque je desir me fuit.
+<lb n="425"/>Hé, Diex, a cui complaing je lui !
+<pb n="50"/>
+<lb n="426"/>Ne ja garrai se ne m'enfui.
+<lb n="427"/>	Foïr ?
+<lb n="428"/>Amours ne me veult pas guerpir :
+<lb n="429"/>Pour Amours m'estovra morir.
+<lb n="430"/>	Morir ?
+<lb n="431"/>Se Dieu plaist et vous, non ferai,
+<lb n="432"/>Ançois vous en soupploierai :
+<lb n="433"/>Ja tant, ce cuit, n'en prierai
+<lb n="434"/>	En vain,
+<lb n="435"/>Ains tendrai tant droite ma main
+<lb n="436"/>Que de cest mal me ferois sain
+<lb n="437"/>Et de vostre amistié certain.
+<lb n="438"/>	Hé, murs,
+<lb n="439"/>Tant par estes aspres et durs !
+<lb n="440"/>Mes se je fuisse auques seürs,
+<lb n="441"/>	La frete
+<lb n="442"/>Fust a mes mains si ample fete,
+<lb n="443"/>Que, sans veüe de la guete,
+<lb n="444"/>Vos en eüsse par mi trete.
+<lb n="445"/>	Parois,
+<lb n="446"/>Aiez merci de ces destrois !
+<lb n="447"/>Pertuis, tant par estes estrois !
+<lb n="448"/>Chaillous, se vous aouvressois
+<lb n="449"/>	Seul tant
+<lb n="450"/>Qu' ensamble fussions en parlant
+<lb n="451"/>Et alissons entrebesant !
+<lb n="452"/>	Amie,
+<lb n="453"/>Se fusse en vostre compaignie,
+<lb n="454"/>De grant doleur eüsse aïe !
+<lb n="455"/>	Hoster,
+<pb n="52"/>
+<lb n="456"/>Pour tant te devons nous amer
+<lb n="457"/>Que par mi toi nous lais parler.
+<lb n="458"/>	Crevace,
+<lb n="459"/>Cele toi bien, c'on ne te sace.
+<lb n="460"/>N'es pas de ceulz qui nous manace.
+<lb n="461"/>A demi oeil esgart la face
+<lb n="462"/>	Par toi
+<lb n="463"/>De cele qui le cuer de moi
+<lb n="464"/>Et le corage a trait o soi.
+<lb n="465"/>	Mesiere,
+<lb n="466"/>Tant par estes cruel et fiere,
+<lb n="467"/>Qui n'aouvrez par ma proiere
+<lb n="468"/>Tant que besier puisse la chiere,
+<lb n="469"/>	La bouche,
+<lb n="470"/>La cui douceurs au cuer me touche.
+<lb n="471"/>	Hé, gente,
+<lb n="472"/>Itant me fetes sans atente,
+<lb n="473"/>	Ne plus.
+<lb n="474"/>Prions orendroit de ça jus
+<lb n="475"/>Que nous aït dame Venus,
+<lb n="476"/>Que nulz ne truisse cest pertus </q></ab>
+<ab type="gv">
+<lb n="477"/>Li jovenciaux plaint et souspire,
+<lb n="478"/>Lores fremist, ne pot mot dire.
+<lb n="479"/>Et quant li siens contes remaint,
+<lb n="480"/>Tysbé commence son complaint.</ab>
+<ab type="gv" rend="ital">
+<lb n="481"/>	<q>Amis, trop vous desconfortez.
+<lb n="482"/>N'est merveilles, que trop m'amez !
+<lb n="483"/>Bien sai qu'a mort estes navrez
+<lb n="484"/>	Pour moi,
+<lb n="485"/>Et je pour vous, en moie foi.
+<lb n="486"/>De ma vie ne sai conroi,
+<lb n="487"/>Ne sui mie en menor esfroi
+<lb n="488"/>	Que vous.
+<pb n="54"/>
+<lb n="489"/>Moult estes tristes et plorous,
+<lb n="490"/>Et mes cuers est moult angoissous.
+<lb n="491"/>	Griement
+<lb n="492"/>Vous complainiez de cest tourment,
+<lb n="493"/>Mes je, espoir, plus durement.
+<lb n="494"/>	Amis,
+<lb n="495"/>Qui si dites qu'estes conquis,
+<lb n="496"/>Li miens cuers est d'amors sorpris.
+<lb n="497"/>	Sans faille,
+<lb n="498"/>Plus est espris que feus em paille.
+<lb n="499"/>Amors m'ocist et me travaille.
+<lb n="500"/>	Diex grans,
+<lb n="501"/>Quel ire est ce, quel maltalans,
+<lb n="502"/>Que as a moi de si lonc tans ?
+<lb n="503"/>	Diex pere,
+<lb n="504"/>Qui me feïs nestre de mere,
+<lb n="505"/>Veez mon duel et ma misere,
+<lb n="506"/>	Ma paine.
+<lb n="507"/>Males herres et male estraine
+<lb n="508"/>	Reçui,
+<lb n="509"/>Amis, quant primes te connui :
+<lb n="510"/>Ains puis ne nuit ne jour ne fui
+<lb n="511"/>	Sans plaie.
+<lb n="512"/>N'est merveille s'ele s'esmaie,
+<lb n="513"/>	La touse
+<lb n="514"/>Qui pour vous est si angoissouse.
+<lb n="515"/>Riens ne la puet faire joiouse.
+<lb n="516"/>	A tort
+<lb n="517"/>Ai je perdu joie et confort.
+<pb n="56"/>
+<lb n="518"/>Par grant angoisse atens la mort.
+<lb n="519"/>	Le jour,
+<lb n="520"/>I sui en lerme et en freour,
+<lb n="521"/>Et en angoisse et en dolour,
+<lb n="522"/>Et en torment et en tristour.
+<lb n="523"/>	La nuit,
+<lb n="524"/>N'ai je ne deport ne deduit
+<lb n="525"/>Quant je me gis dedens mon lit.
+<lb n="526"/>	Riens n' oi,
+<lb n="527"/>S'en sui en paine et en esfroi;
+<lb n="528"/>Si m'est avis que je vous voi
+<lb n="529"/>Et ne poez parler a moi,
+<lb n="530"/>Dont sui pires que ne soloi.
+<lb n="531"/>	Tressail,
+<lb n="532"/>Tressu d'angoisse et de travail;
+<lb n="533"/>Dont tens mes mains que je vous bail,
+<lb n="534"/>Et quant vous doi prendre, si fail.
+<lb n="535"/>	Amis,
+<lb n="536"/>Quant me rendors, si m'est avis
+<lb n="537"/>Que vous estes devant mon vis,
+<lb n="538"/>Tous dehaitiez et tous pensis.
+<lb n="539"/>	Diex donge
+<lb n="540"/>Que biens me viengne de cest songe !
+<lb n="541"/>Dont m'est avis que me semonge
+<lb n="542"/>	Sovent
+<lb n="543"/>Ne sai quel vois en complaignant,
+<lb n="544"/>Qui ce me di apertemant
+<lb n="545"/>	Ensi :
+<lb n="546"/><q>« Tysbé, cognois tu ton ami ?
+<pb n="58"/>
+<lb n="547"/>Esveille toi, s'alons de ci,
+<lb n="548"/>	Tysbé. »</q>
+<lb n="549"/>Li dieu nous ont amonesté
+<lb n="550"/>Que issons fors de la cité,
+<lb n="551"/>Tant que pussons estre assamblé.
+<lb n="552"/>	Amis,
+<lb n="553"/>Dites qu'il vous en est avis.
+<lb n="554"/>De m'amor vueil que soiés fis.
+<lb n="555"/>	Pour voir,
+<lb n="556"/>Je m'emblerai dou premier soir,
+<lb n="557"/>A la fontaine irai seoir,
+<lb n="558"/>	La fors,
+<lb n="559"/>Si trouverai le vostre cors.
+<lb n="560"/>Amis, ta vie est mes tresors.
+<lb n="561"/>	Gardez
+<lb n="562"/>Ne soiez lens ne demorez ;
+<lb n="563"/>Dou premerain some levez,
+<lb n="564"/>A la fontaine me querez,
+<lb n="565"/>Souz le morier en mi les prez,
+<lb n="566"/>La ou Ninus fu enterrez :
+<lb n="567"/>Certainement m' i troverez.</q></ab>
+<ab type="gv">
+<lb n="568"/>Ensi ferment lor convenant.
+<lb n="569"/>Puis departent li dui amant
+<lb n="570"/>Et saluerent le pertuis
+<pb n="60"/>
+<lb n="571"/>Qu'il ne virent des or mais puis.
+<lb n="572"/>Mes primes baise la paroi
+<lb n="573"/>chascuns au departir de soi.
+<lb n="574"/>Li dui amant sont en grant cure,
+<lb n="575"/>Trop lor samble que li jours dure,
+<lb n="576"/>Moult se complaignent dou soleil,
+<lb n="577"/>Souvent l'apelent <q>« non feeil »</q>,
+<lb n="578"/>Quar trop se targe d'esconser
+<lb n="579"/>Et si fait la nuit demorer.
+<lb n="580"/>Dïent qu'a escïent le fait
+<lb n="581"/>Pour destourbance de lor plait.
+<lb n="582"/>Li jours s'en vait, la nuis repaire
+<lb n="583"/>Et li termes de lor afaire.
+<lb n="584"/>Montent les guetes sor les murs :
+<lb n="585"/>Cil se dorment, qui sont segurs,
+<lb n="586"/>Mes nulz des .II. ne se repose,
+<lb n="587"/>Ains est en apens d'autre chose.
+<lb n="588"/>Chascuns en soi meïsmes soigne
+<lb n="589"/>De bien emprendre sa besoigne.
+<lb n="590"/>Or sont li cuer en esperance,
+<lb n="591"/>Et non pourquant sont em balance
+<lb n="592"/>De ce s'il le facent ou non ;
+<lb n="593"/>Mes volontez oste raison.
+<lb n="594"/>Delitent soi ou dous penser
+<lb n="595"/>De ce qu'il doivent assambler,
+<lb n="596"/>Et devisent en lor corages
+<lb n="597"/>Lors mors, lor deulz et lor damages.
+<lb n="598"/>Il ont andui joie et dolour,
+<lb n="599"/>Mes toutes ores vaint Amour :
+<lb n="600"/>Sens ne raison nes puet retraire
+<lb n="601"/>De ce qu'il ont empris a faire.
+<lb n="602"/>Ja ert la gent toute endormie
+<lb n="603"/>Quant Tysbé s'est desavancie :
+<pb n="62"/>
+<lb n="604"/>Lieve dou lit ou elle gist,
+<lb n="605"/>Tout belement de la chambre ist ;
+<lb n="606"/>Ne la tint huis ne fermeüre.
+<lb n="607"/>De la chambre ist toute segure,
+<lb n="608"/>Sole par nuit et sans paour :
+<lb n="609"/>Tel hardement li done Amour !
+<lb n="610"/>Quant fu issue dou palais
+<lb n="611"/>Et elle devaloit em pais,
+<lb n="612"/>Si mist avant le pié senestre,
+<lb n="613"/>Puis esgarda par devers destre :
+<lb n="614"/>Senti tout le palais fermir,
+<lb n="615"/>Et vit la lune empalir.
+<lb n="616"/>Quant ot esgardé tout entour,
+<lb n="617"/>Onques pour ce n'en ot paour
+<lb n="618"/>Qu'el ne parface son afaire,
+<lb n="619"/>A quel fin qu'ele en doie traire.
+<lb n="620"/>Ja ert desi qu'as murs venue
+<lb n="621"/>Quant une gaite l'a veüe ;
+<lb n="622"/>Et quant a cele hore la voit,
+<lb n="623"/>Guide une deesse soit.
+<lb n="624"/>Trait soi ariere, ne l'apele.
+<lb n="625"/>Ensi s'en vait la demoisele
+<lb n="626"/>Devant les iex de cele guaite ;
+<lb n="627"/>S'en ala bien par une fraite
+<lb n="628"/>Et vint au leu sans demorance
+<lb n="629"/>Ou fu prise la convenance.
+<lb n="630"/>Ja iert assise sus le marbre,
+<lb n="631"/>A la fontainne dessous l'arbre
+<lb n="632"/>Ou il devoient assambler,
+<lb n="633"/>Puis se commence a porpenser
+<lb n="634"/>En quel guise elle gaberoit
+<lb n="635"/>Le jovenciel qui ne venoit,
+<pb n="64"/>
+<lb n="636"/>Quant uns lïons de la montaigne,
+<lb n="637"/>Qui ot ocis une compaigne
+<lb n="638"/>De bestes, vint par mi les prez :
+<lb n="639"/>Encor estoit envolepez
+<lb n="640"/>Des entrailles et de la laine.
+<lb n="641"/>Abevrer vint a la fontaine.
+<lb n="642"/>La pucele bessa la teste
+<lb n="643"/>Quant vit venir la fiere beste.
+<lb n="644"/>Fuit li li sans, pert la colour :
+<lb n="645"/>N'est merveille s'elle ot paour.
+<lb n="646"/>Vait s'en fuiant par une voie
+<lb n="647"/>Et crient que li lÿons la voie,
+<lb n="648"/>Mes tant est esbahie et simple
+<lb n="649"/>Qu'en mi sa voie laist sa guimple.
+<lb n="650"/>Vait s'en isnelement mucier
+<lb n="651"/>Sous l'ombre d'un alemandier.
+<lb n="652"/>Li lÿons vint a grant esfroi,
+<lb n="653"/>A la fontaine estaint sa soi,
+<lb n="654"/>Et quant il est bien assasez,
+<lb n="655"/>Si se deduit aval les prez.
+<lb n="656"/>Trouve la guimple en une sente,
+<lb n="657"/>Si la defoule et ensanglente.
+<pb n="66"/>
+<lb n="658"/>Et quant il est des prez issus,
+<lb n="659"/>Et Pyramus y est venus.
+<lb n="660"/>Hé, Dieux, com grans mesaventure
+<lb n="661"/>Li aproche, pesant et dure !
+<lb n="662"/>Quar a la clarté de la lune,
+<lb n="663"/>Si com apareilloit Fortune,
+<lb n="664"/>Garda sous l'ombre dou morier,
+<lb n="665"/>Si vit la guimple blanchoier,
+<lb n="666"/>Et sus la poudriere environ,
+<lb n="667"/>Cognut la trace dou lÿon.
+<lb n="668"/>Esgrapilliee voit l'araine,
+<lb n="669"/>Trouble, l'iaue de la fontaine,
+<lb n="670"/>Trouve la guimple defolee
+<lb n="671"/>Et de nouvel ensanglantee,
+<lb n="672"/>Guide que soit dou sanc s'amie,
+<lb n="673"/>Garde environ, ne l'i voit mie.
+<lb n="674"/>Hé, las, com malement demore !
+<lb n="675"/>N'ert pas venue en icele ore :
+<lb n="676"/>Tant crient icele beste f<hi rend="color(FF0000)">i</hi>ere
+<lb n="677"/>Qu'encor n'osoit torner ariere.</ab>
+<ab type="gv">
+<lb n="678"/>Quant Pyramus ne voit s'amie,
+<lb n="679"/>Dont cuide il bien qu'el soit fenie.
+<lb n="680"/>Plus devint vers que fueille d'ierre
+<lb n="681"/>Et enredi comme une pierre ;
+<lb n="682"/>Mue li sans, change corage.
+<lb n="683"/>Lores esprent d'ire et de rage,
+<lb n="684"/>Emprez parole itant comme ire
+<lb n="685"/>Et maltalens li lesse dire :</ab>
+<ab type="gv" rend="ital">
+<lb n="686"/><q>Nuis de dolour, nuis de torment,
+<lb n="687"/>Moriers, arbres de plorement,
+<lb n="688"/>Prez, qui dou sanc estes sanglent,
+<lb n="689"/>	Fontaine,
+<lb n="690"/>Que ne m'avez rendue saine
+<pb n="68"/>
+<lb n="691"/>Celle cui sans gist en l'araine !
+<lb n="692"/>Sodainement est fete vaine
+<lb n="693"/>	M'entente,
+<lb n="694"/>M'esperance, m'amour, m'atente !
+<lb n="695"/>Hé, Diex, quel duel me represente
+<lb n="696"/>Ceste guimple que voi sanglente !
+<lb n="697"/>	Amie,
+<lb n="698"/>Com fu la beste tant hardie
+<lb n="699"/>Qui vers vous fist ceste envaÿé !
+<lb n="700"/>Quel mal, quel duel, quel felonie
+<lb n="701"/>Qu' en tel maniere estes perie !
+<lb n="702"/>	Ma cure,
+<lb n="703"/>C'est grant damage que tant dure,
+<lb n="704"/>Qui ci vous fis venir segure,
+<lb n="705"/>Sole en tel liu par nuit obscure.
+<lb n="706"/>	Seule !
+<lb n="707"/>Haÿ de la mauvaise goule,
+<lb n="708"/>Qui de vostre char est saoule !
+<lb n="709"/>	Hé, las !
+<lb n="710"/>Ci voi dou sanc et voi des dras.
+<lb n="711"/>Lÿon, tu qui la devoras,
+<lb n="712"/>Merveil se plus en i lessas !
+<lb n="713"/>Lune crueulz qui l'esgardas,
+<lb n="714"/>S'a cele hore n'en obcurras,
+<lb n="715"/>	C'est tors.
+<lb n="716"/>Quant ele est morte et ne sui mors,
+<lb n="717"/>Ne sai quel duel me soit plus fors :
+<lb n="718"/>La mors est mon mieudre confors.
+<lb n="719"/>	Chetis,
+<lb n="720"/>Quant ele est morte et je sui vis,
+<lb n="721"/>Por Dieu, terre, quar m'englotis !
+<lb n="722"/>Ou tu, lÿons qui l'oceïs,
+<lb n="723"/>	Repaire !
+<pb n="70"/>
+<lb n="724"/>Je sui tous pres, sans nul contraire :
+<lb n="725"/>Ta volenté pues de moi faire.
+<lb n="726"/>	Revien,
+<lb n="727"/>Qui devoras la douce rien !
+<lb n="728"/>Son sanc beüz, or boi le mien.
+<lb n="729"/>	Dolens,
+<lb n="730"/>Ma douce amie, trop fui lens,
+<lb n="731"/>Qu'a vostre mort ne fui presens.
+<lb n="732"/>Mors, quar repaire, si me prens !
+<lb n="733"/>	Hé, mors,
+<lb n="734"/>Pour quoi demore ? C'est grans tors
+<lb n="735"/>Que je ne sui orendroit mors.
+<lb n="736"/>	Suer chiere,
+<lb n="737"/>Je vous ai morte, qui derriere
+<lb n="738"/>Ving a mon terme, et vous premiere.
+<lb n="739"/>Or pri ma destre que bien fiere :
+<lb n="740"/>Vengerai vous en tel maniere.
+<lb n="741"/>	Vengier ?
+<lb n="742"/>Mes primes vueil aus diex proier
+<lb n="743"/>Qu' il demoustrent en cest morier
+<lb n="744"/>Signe de mort et destorbier :
+<lb n="745"/>Facent le fruit de tel coulour
+<lb n="746"/>Comme il afiert a la dolour !</q></ab>
+<ab type="gv">
+<lb n="747"/>Tel duel et tel priere faite,
+<lb n="748"/>Puis emprez a s'espee traite,
+<lb n="749"/>Si a la guimple sus levee
+<lb n="750"/>En son la more de l'espee :
+<lb n="751"/>Bese la guimple aveuc le sanc,
+<lb n="752"/>Tresperce soi par mi le flanc,
+<lb n="753"/>Tres que de l'autre part dou cors
+<lb n="754"/>Fet aparoir l'espee fors.
+<lb n="755"/>La ou il muert, baise la guimple.
+<lb n="756"/>Si fete amour a mort le simple !
+<pb n="72"/>
+<lb n="757"/>Sor les branches raie li sans,
+<lb n="758"/>Nercist li fruis, qui estoit blans.
+<lb n="759"/>Tous temps avoit esté la more
+<lb n="760"/>Blanche jusques a icele hore ;
+<lb n="761"/>Adonc si ot noire coulour
+<lb n="762"/>En tesmoignage de dolour.</ab>
+<ab type="gv">
+<lb n="763"/>Tysbé repairoit a ytant,
+<lb n="764"/>Qu'el ne deceive son amant ;
+<lb n="765"/>Moult couvoite qu'ele li die
+<lb n="766"/>De quel peril elle est garie.
+<lb n="767"/>Cuide acomplir sa volenté
+<lb n="768"/>De ce qu'ele ot tant desirré ;
+<lb n="769"/>Mes ore aproce terme brief
+<lb n="770"/>Que lor amours vendront a chief !
+<lb n="771"/>Ja li est vis qu'el soit o lui,
+<lb n="772"/>Et s'entrebracent ambedui,
+<lb n="773"/>Et parolent de lor amours,
+<lb n="774"/>Mes orendroit avra dolours !
+<lb n="775"/>Tout belement s'en vait arrier,
+<lb n="776"/>Et quant elle aproce au morier,
+<lb n="777"/>Donques se tint pour esgaree
+<lb n="778"/>Pour la coulour qu'el vit muee,
+<lb n="779"/>Quar primes avoit veü blanc
+<lb n="780"/>Le fruit, qui ore est taint de sanc.
+<lb n="781"/>Endementres que elle doute,
+<lb n="782"/>Si a tenue droite route,
+<lb n="783"/>Le jovenciel oit senglotir,
+<lb n="784"/>Plaindre, gesmir, trere souspir.
+<lb n="785"/>Vit la guimple comme il la touche
+<lb n="786"/>D'ores en autres a sa bouche.
+<lb n="787"/>Et quant elle aperçoit la plaie,
+<lb n="788"/>N'est merveille s'elle s'esmaie.
+<lb n="789"/>Quant voit par mi le cors l'espee,
+<pb n="74"/>
+<lb n="790"/>Fuit li li sans, si s'est pasmee.
+<lb n="791"/>Relieve soi, dolante et mate,
+<lb n="792"/>Trait ses cheveux, si se degrate,
+<lb n="793"/>Derront sa char, si plore et crie ;
+<lb n="794"/>Plus aime mort que ne fet vie.
+<lb n="795"/>Lores s'encline sor le cors,
+<lb n="796"/>Si a traite l'espee fors ;
+<lb n="797"/>Encontremont l'en a drecie,
+<lb n="798"/>Puis parole com feme irie :</ab>
+<ab type="gv" rend="ital">
+<lb n="799"/><q>Espee dont je sui saisie,
+<lb n="800"/>Or esproeuve com es hardie !
+<lb n="801"/>	Espee,
+<lb n="802"/>Qui nostre amour as terminee,
+<lb n="803"/>En mon pis soies reschaufee,
+<lb n="804"/>De nos .II. sans ensanglentee.
+<lb n="805"/>	Sanglente !
+<lb n="806"/>Hé, Diex, quel fin et quele atente !
+<lb n="807"/>Com tost perist nostre jouvente !
+<lb n="808"/>	Biau sire,
+<lb n="809"/>Petit vos puet espargner ire,
+<lb n="810"/>Quant vostre main vos vault ocire !
+<lb n="811"/>Lasse, com puis parole dire
+<lb n="812"/>La ou je voi que il souspire ?
+<lb n="813"/>	Jou voi
+<lb n="814"/>Que il travaille a mort pour moi.
+<lb n="815"/>Com faible amour, com povre foi
+<lb n="816"/>	Avroie,
+<lb n="817"/>Amis, se je ne vous sivoie,
+<lb n="818"/>S'a court terme ne m'ocioie !
+<lb n="819"/>	Biaux chiers,
+<lb n="820"/>Com grant dolours, quelz destorbiers !
+<lb n="821"/>Trop fu vostre corages fiers !
+<lb n="822"/>Lune, fontaine, prez, moriers,
+<pb n="76"/>
+<lb n="823"/>	Nuit pale,
+<lb n="824"/>Qui enseigne me feïs male
+<lb n="825"/>Quant sui issue de la sale,
+<lb n="826"/>	Oiez !
+<lb n="827"/>Pri vous que ma mort tesmoigniez.
+<lb n="828"/>Diex, de mon cuer comme est iriez !
+<lb n="829"/>Tysbé, mauvese, que targiez ?
+<lb n="830"/>	Mauvese,
+<lb n="831"/>Tant solement morir vous plese,
+<lb n="832"/>Qu' or ne vous fault ne point ni ese !
+<lb n="833"/>	Morir ?
+<lb n="834"/>Nulle chose tant ne desir
+<lb n="835"/>Com mes doleurs a defenir.
+<lb n="836"/>A tort me targe dou ferir,
+<lb n="837"/>	A tort!
+<lb n="838"/>Amours, fetes mon poing si fort
+<lb n="839"/>Qu' a un seul cop reçoive mort,
+<lb n="840"/>S'en avra s'ame grant confort :
+<lb n="841"/>Andui morromes d'une mort.
+<lb n="842"/>	Amis,
+<lb n="843"/>Duel et Amours vous ont ocis.
+<lb n="844"/>Quant assambler ne poons vis,
+<lb n="845"/>Mors nous joindra, ce m'est avis.
+<lb n="846"/>	Parens,
+<lb n="847"/>Qui nous cuidiez garder leens,
+<lb n="848"/>A court terme serois dolens.
+<lb n="849"/>Com dolereus encombremens
+<lb n="850"/>	Verrois,
+<lb n="851"/>Quant ambedeus nous trouverois,
+<lb n="852"/>Ensamble mors et acolez.
+<lb n="853"/>Pri vous que cest don me donez :
+<lb n="854"/>Quant en joie fumes sevrez,
+<pb n="78"/>
+<lb n="855"/>Et a mort somes dessamblez,
+<lb n="856"/>Que nous contiengne .I. seulz tombliaux,
+<lb n="857"/>Andeus nous reçoive .I. vesseaux !</q></ab>
+<ab type="gv">
+<lb n="858"/>Adont s'encline la pucele,
+<lb n="859"/>Bese sa bouche, si l'apele :</ab>
+<ab type="gv" rend="ital">
+<lb n="860"/><q>Pyramus, vesci vostre amie,
+<lb n="861"/>Quar l'esgardez, si ert garie !</q></ab>
+<ab type="gv">
+<lb n="862"/>Li jovenciaux, la ou moroit,
+<lb n="863"/>Entr'oeuvre les iex et si voit
+<lb n="864"/>Que ce iere Tysbé s'amie,
+<lb n="865"/>Qui l'apeloit toute esmarie.
+<lb n="866"/>Parler i veult, mes il ne puet,
+<lb n="867"/>Quar la mort, qui le tient, ne let.</ab>
+<ab type="gv">
+<lb n="868"/>Mes tant a dit : <q>Tysbé, amie,
+<lb n="869"/>Pour Dieu, qui vous remist en vie ?</q></ab>
+<ab type="gv">
+<lb n="870"/>Atant se taist, ne puet plus dire,
+<lb n="871"/>Puis la regarde, si souspire.
+<lb n="872"/>Li cuers li part, si pert la vie ;
+<lb n="873"/>Cele lesse toute esmarie.
+<pb n="80"/>
+<lb n="874"/>Cil est mort et cele est pasmee.
+<lb n="875"/>Diex, quele amours est ci finee !
+<lb n="876"/>La pucele s'est redrecie,
+<lb n="877"/>L'espee a a .II. mains sachie.
+<lb n="878"/>Par mi le pis, sous la mamele,
+<lb n="879"/>Se tresperce la damoisele ;
+<lb n="880"/>D'ambedeus pars sault li sans fors
+<lb n="881"/>Et cele chiet dessus le cors.
+<lb n="882"/>Le cors acole et si l'embrace,
+<lb n="883"/>Les iex li baise et bouche et face,
+<lb n="884"/>Baise la bouche par grant cure.
+<lb n="885"/>Tant com sens et vie li dure,
+<lb n="886"/>Se demoustre veraie amie.
+<lb n="887"/>Cil est fenis, cele est fenie.
+<lb n="888"/>En tel maniere sont finé
+<lb n="889"/>Li dui amant par loiauté.</ab>
+</div></body></text></TEI>

@@ -1,0 +1,1347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="fr">
+  <fileDesc>
+    <titleStmt>
+      <title type="main">Commentaires du Jouvencel</title>
+      <title type="formal">tringant</title>
+      <title type="reference">tringant</title>
+      <title type="DEAF">TringCommJouvL*</title>
+      <title type="FRANTEXT">5603</title>
+      <title type="gmd">transcription électronique</title>
+      <author xml:id="GTringant" key="Tringant, Guillaume (14..-14..)" ref="http://www.idref.fr/03450950X">Guillaume Tringant</author>
+      <editor>Équipe de la Base de français médiéval - ENS de Lyon / UMR 5317 IHRIM</editor>
+      <funder>Laboratoire IHRIM</funder>
+    </titleStmt>
+    <editionStmt>
+      <edition>transcripion électronique</edition>
+      <respStmt xml:id="encoderDD">
+        <resp>balisage du discours direct</resp>
+        <name xml:id="AL">Alexei Lavrentiev</name>
+      </respStmt>
+      <respStmt xml:id="encoder1">
+        <resp>numérisation</resp>
+        <name xml:id="ATILF">ATILF</name>
+      </respStmt>
+      <respStmt xml:id="encoder2">
+        <resp>rétroconversion automatique d'un texte du corpus FRANTEXT, base DMF, au format TEI P4</resp>
+        <name xml:id="GSouvay">Gilles Souvay (ATILF)</name>
+      </respStmt>
+      <respStmt xml:id="encoder3">
+        <resp>adaptation au format TEI BFM</resp>
+        <name xml:id="LD">Lydie Danjean</name>
+      </respStmt>
+    </editionStmt>
+    <extent>- Numéros de pages saisies : de 265 à 299 ;
+            - Nombre de mots d'après la base des descripteurs : <num xml:id="nb_mots_given">8291</num> ;
+            - Nombre de tokens (mots et ponctuations) d'après la base des descripteurs : <num xml:id="nb_tokens_given">9554</num>.
+    </extent>
+    <publicationStmt>
+      <publisher><name>Projet BFM, ENS de Lyon / UMR 5317 IHRIM</name></publisher>
+      <address>
+        <addrLine>15, parvis René Descartes</addrLine>
+        <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+        <addrLine>Tél : 04 37 37 63 10</addrLine>
+        <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+        <addrLine>http://bfm.ens-lyon.fr</addrLine>
+      </address>
+      <idno type="bfm">http://catalog.bfm-corpus.org/tringant</idno>
+      <idno type="doi">10.34847/nkl.ceacjov7</idno>
+      <availability status="free">
+        <licence target="https://www.etalab.gouv.fr/licence-ouverte-open-licence">
+          <ab type="availability_bfm" subtype="libre_1c">Les Conditions générales d'utilisation de la Base de Français Médiéval (http://txm.bfm-corpus.org/bfm/files/CGU.pdf), 
+            et notamment son Article 5 « PROPRIETE INTELLECTUELLE », s'appliquent à tous les textes de la BFM.</ab>
+          <ab type="how_to_cite">
+            <label>Comment citer ce texte :</label>
+            <bibl>Guillaume Tringant, Commentaires du Jouvencel, édité par Léon Lecestre, Paris, 1889. 
+              Publié en ligne par la Base de français médiéval, http://catalog.bfm-corpus.org/tringant.
+              Dernière révision le 2013-05-28.</bibl>
+            D'autres formules de citation de la BFM sont proposées sur la page web suivante :
+            http://bfm.ens-lyon.fr/article.php3?id_article=281.</ab>
+          <ab type="availability_file">
+            <label>Conditions d'utilisation de ce fichier :</label>
+              Ce fichier numérique est composé du corps de texte médiéval et des suppléments numériques : balisage XML-TEI, métadonnées (teiHeader), balisage du discours direct. Le texte et les suppléments numériques sont libres de droit et peuvent à ce titre être téléchargés et réutilisés librement.
+            </ab>
+            <ab type="availability_txmweb" subtype="illimité">
+              <label>Conditions d'utilisation par le portail BFM :</label>
+              Pas de limitation dans l'usage des fonctionnalités. Téléchargement autorisé.</ab>
+        </licence>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>Le Jouvencel / Commentaires du Jouvencel</title>
+          <author>Guillaume Tringant</author>
+          <respStmt>
+            <resp xml:id="editor">Éditeur scientifique</resp>
+            <name type="person">Léon Lecestre</name>
+          </respStmt>
+        </titleStmt>
+          <extent>35 page(s)
+        </extent>
+        <publicationStmt>
+          <publisher>Renouard</publisher>
+          <pubPlace>Paris</pubPlace>
+          <date>1889</date>
+          <idno type="sigle_DEAF">TringCommJouvL*</idno>
+          <idno type="cote_FRANTEXT">5603</idno>
+          <idno type="cote_biblio">D4.019 : COR3 BUE(2)</idno>
+        </publicationStmt><seriesStmt><title>Société de l'histoire de France</title></seriesStmt>
+      </biblFull>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p>Projet :<name type="project">BFM - Base de français médiéval</name>
+        Resp. : <name type="person">Céline Guillot-Barbance</name>
+        Équipe : Base de français médiéval
+        Laboratoire : UMR 5317 IHRIM
+        Institution : ENS de Lyon
+        <address>
+          <addrLine>15, parvis René Descartes</addrLine>
+          <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+          <addrLine>Tél : 04 37 37 63 10</addrLine>
+          <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+          <addrLine>http://bfm.ens-lyon.fr</addrLine>
+        </address>
+      </p>
+      <p>Ce texte provient de la Base textuelle du <name type="project">Dictionnaire du Moyen Français</name>
+        et fait partie de la base <name type="project">FRANTEXT</name>.
+        <address>
+          <addrLine>ATILF UMR 7118 CNRS - Université de Lorraine</addrLine>
+          <addrLine>44, avenue de la Libération</addrLine>
+          <addrLine>BP 30687</addrLine>
+          <addrLine>54063 NANCY CEDEX</addrLine>
+          <addrLine>Tél : 03 54 50 53 00</addrLine>
+          <addrLine>Fax : 03 83 97 24 56</addrLine>
+          <addrLine>Courriel : contact@atilf.fr</addrLine>
+          <addrLine>http://www.atilf.fr</addrLine>
+          <addrLine>http://www.frantext.fr</addrLine>
+          <addrLine>http://www.atilf.fr/dmf</addrLine>
+        </address>
+      </p>
+    </projectDesc>
+    <editorialDecl>
+      <p>Voir le <ref target="http://bfm.ens-lyon.fr/IMG/pdf/Manuel_Encodage_TEI.pdf">Manuel d'encodage XML-TEI de la BFM</ref>
+        et les <ref target="http://bfm.ens-lyon.fr/IMG/pdf/Consignes_BFM.pdf">Consignes aux relecteurs de la BFM</ref>.</p>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="body" occurs="1"/>
+        <tagUsage gi="div" occurs="39"/>
+        <tagUsage gi="head" occurs="39"/>
+        <tagUsage gi="hi" occurs="27"/>
+        <tagUsage gi="lb" occurs="893"/>
+        <tagUsage gi="p" occurs="42"/>
+        <tagUsage gi="pb" occurs="35"/>
+        <tagUsage gi="q" occurs="6"/>
+        <tagUsage gi="supplied" occurs="6"/>
+        <tagUsage gi="text" occurs="1"/>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <creation>
+      <name type="author">Guillaume Tringant</name>
+      <title>Commentaires du Jouvencel</title>
+      <date type="compo" when="1480-01-01" notBefore="1477-01-01" notAfter="1483-12-31" n="15">1477-1483</date>
+      <date type="compo_periode">moyen</date>
+      <date type="compo_sous_siecle" n="15_3">fin</date>
+      <date type="ms" when="1483-01-01" notBefore="1467-01-01" notAfter="1499-12-31">fin du 15e s.</date>
+      <idno type="msIdentifier">Paris, Arsenal, fr. 3059</idno>
+      <region type="dialecte_auteur">non défini</region>
+    </creation>
+    <langUsage>
+      <language ident="fro" usage="100">Le texte est entièrement écrit en prose en moyen français.</language>
+    </langUsage>
+    <textDesc>
+      <channel mode="w">print</channel>
+      <constitution type="single"/>
+      <derivation type="commentaire"/>
+      <domain type="didactique"/>
+    <factuality type="inapplicable"/>
+      <interaction type="none"/>
+      <preparedness type="prepared"/>
+      <purpose type="narrative"/></textDesc>
+    <textClass>
+      <keywords scheme="http://authorities.bfm-corpus.org">
+        <term type="domaine">didactique</term>
+        <term type="genre">commentaire</term>
+        <term type="forme">prose</term>
+        <term type="relation">commentaire</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change who="#ATILF" when="2005-03-30">numérisation</change>
+    <change who="#GSouvay" when="2005-03-30">rétroconversion automatique d'un texte du corpus FRANTEXT, base DMF, au format TEI P4</change>
+    <change who="#LD" when="2012-03-08">adaptation au format TEI BFM</change>
+    <change who="#AL" when="2012-05-02">adaptation du balisage aux normes BFM TEI P5</change>
+    <change who="#AL" when="2013-05-28">balisage du discours direct</change>
+    <change when="2013-05-28">Dernière modification du texte</change>
+    <change when="2022-11-04">Création de cet entête</change>
+  </revisionDesc>
+</teiHeader>
+<text>
+<body>
+<pb n="265"/>
+<div>
+<head>I.</head>
+<p>
+<lb/> S'ensuit l'exposition du livre du <hi rend="ital">Jouvencel</hi> 
+<lb/> faict en l'honneur de Dieu, de la glorieuse vierge 
+<lb/> Marie et de monseigneur sainct Michel l'ange, auquelz 
+<lb/> je suplie et requiers qu'il leur plaise me donner grace 
+<lb/> de parfaire mon livre à la verité pour donner exemple 
+<lb/> de bien faire, tant en paix que en guerre. Et, pour 
+<lb/> ce que ledict <hi rend="ital">Jouvencel</hi> est fait par divers et estranges 
+<lb/> termes et, ainsi qu'il me semble, faict à la louenge de 
+<lb/> Dieu le Createur, advertissement aux jeunes gens de 
+<lb/> guerre d'eulx y gouverner saigement, loyaulment et 
+<lb/> prudemment (car qui maintient la guerre loiaulment 
+<lb/> et prudemment en bonne querelle, j'entens que c'est 
+<lb/> justice et chose qui plaist à Dieu de defendre contre 
+<lb/> les tirans et ceulx qui veullent usurper à tort et sans 
+<lb/> cause le bien d'aultruy pour apeter honneur et 
+<lb/> gloire) ; et pour ce que je sçay que ledit livre est 
+<lb/> faict en intencion de soustenir droicture et bonne 
+<pb n="266"/>
+
+<lb/> querelle, et les exemples qui y sont mys, sont faictz 
+<lb/> et escriptz en ceste intencion, non pas pour faire 
+<lb/> guerre par tyrannie, par orgueil, par avarice ; et du 
+<lb/> raport de plusieurs bons capitaines et compagnons, 
+<lb/> qui ont suyvy les armes et ont veu la pluspart des 
+<lb/> chouses escriptes ou livre du <hi rend="ital">Jouvencel</hi> : Jehan Tibergeau, 
+<lb/> seigneur de la Mothe, Martin Morin et maistre 
+<lb/> Nicole Riolay, serviteurs du seigneur de Bueil, mon 
+<lb/> maistre ; au rapport de vaillans hommes qui ont suivy 
+<lb/> la guerre et de ce qu'ilz ont veu ou escript, ou moins 
+<lb/> mal qu'ilz ont peu et le plus à la verité que possible 
+<lb/> leur a esté, les chouses escriptes audit <hi rend="ital">Jouvencel</hi> (vray 
+<lb/> est qu'il y a une fiction faicte de la fille du roy Amydas 
+<lb/> et du Jouvencel ; pour ce que les susdis serviteurs 
+<lb/> ne voloient pas ne ne veoient le Jouvencel estre tirant 
+<lb/> ne parvenu à estre seigneur et prince par tyrannie, 
+<lb/> pour ce que leur livre est faict et fondé sur bonne 
+<lb/> equité ; et autrement n'y povoit parvenir, car il n'avoit 
+<lb/> nulle cause de soy faire seigneur ne prince, pour ce 
+<lb/> que c'estoit ung povre gentilhomme ; et est fait ce 
+<lb/> mariage pour exemple de bien faire et pour monstrer 
+<lb/> que nul ne doit venir à hault estat ny à grant 
+<lb/> seignorie, s'il n'y vient justement et à bonne querelle ; 
+<lb/> mais les exploictz de guerre, qui sont escriptz 
+<lb/> soubz umbre du mariage, ont esté faictz et sont 
+<lb/> veritables). Et, pour ce que mes maistres dessus-dis 
+<pb n="267"/>
+
+<lb/> ne voloient pas declarer les noms ne les lieux 
+<lb/> où les chouses ont esté faictes, ou de ceulx qui les 
+<lb/> ont faictes, il leur a convenu querir noms estranges, 
+<lb/> qui les a faict troubles ; car, quant de tous points 
+<lb/> ilz eussent escript les noms et les lieux, ilz l'eussent 
+<lb/> faict plus legièrement et myeux à leur plaisir ; mais 
+<lb/> le sire de Bueil, à qui eulx et moy estions, ne vouloit 
+<lb/> jamaiz qu'ilz le fissent pour ce qu'il ne voloit estre 
+<lb/> loué ne magnifié devant luy-mesme ; car la pluspart 
+<lb/> des chouses qui sont escriptes oudit livre du <hi rend="ital">Jouvencel</hi>, 
+<lb/> il les a faictes et executées, dont d'autres se 
+<lb/> sont donné la gloire de les avoir faictes, ainsi que plus 
+<lb/> à plain vous seront declarées. Et moy, Guillaume 
+<lb/> Tringant, dit Messire Odes, nourry en la compagnie 
+<lb/> des troys dessus nommez, <supplied resp="#editor">qui</supplied> ay oy debatre à eulx-mesmes 
+<lb/> et autres la certainetté et verité des faictz, ay 
+<lb/> volu escripre et declarer à mon povoir les chouses 
+<lb/> ainsi que je les ay peu entendre et comprendre. Au 
+<lb/> vray ne sçay pas toutes les besongnes faictes et 
+<lb/> escriptes du <hi rend="ital">Jouvencel</hi> ; mais celles dont je puis avoir 
+<lb/> vraye cognoissance, les declareray à mon povoir, afin 
+<lb/> que chascun les entende, et par especial celles du sire 
+<lb/> de Bueil, le maistre de mes maistres et le mien, et 
+<lb/> des autres cappitaines et gens de guerre ce que j'en 
+<lb/> puis sçavoir. Mais, quant depuis je m'en suis enquis, 
+<pb n="268"/>
+
+<lb/> j'ay plus sceu de ses faitz par mes maistres et autres 
+<lb/> à qui j'en ay parlé, que des autres capitaines et chefz 
+<lb/> de guerre ; et, pour ce, plus de luy je parle certaynement ; 
+<lb/> et je croy que ceulx qui ont veu les choses ne 
+<lb/> m'en ont point menty, et est la chose tant prouvée par 
+<lb/> amys et ennemys qu'il ne sera pas trouvé le contraire 
+<lb/> de ce que je dis. 
+</p>
+</div>
+<div>
+<head>II.</head>
+<p>
+<lb/> Premièrement, après la bataille de Vernueil, 
+<lb/> là où morut la pluspart des nobles de France et d'Escosse 
+<lb/> (de plus loing ne sauroye parler, car je n'ay pas 
+<lb/> veu ne congneu ceulx qui ont esté prins et mors en la 
+<lb/> bataille de Cravant là où fut prins messire Jehan 
+<lb/> Stuart, connestable des Escossois) ; et y fut mort le 
+<lb/> sire de Fontaines en Anjou, qui fut ung moult bon et 
+<lb/> vaillant chevallier en son temps. En celle mesme 
+<lb/> bataille fut prins le sire de Bellay, en Anjou, qui fut 
+<lb/> semblablement ung très bon et vaillant chevallier, 
+<lb/> lequel avoit esté prins en la bataille de Soubize et fut 
+<lb/> mort en la bataille de Vernuel. Aussi y fut prins ung 
+<pb n="269"/>
+
+<lb/> gentil chevallier, nommé le sire de Gamaches, par 
+<lb/> ung Anglois qui le mena à Paris et le voloit mettre à 
+<lb/> une finance impossible à payer à luy ; et, pour ce 
+<lb/> qu'il ne luy voloit pas offrir plus que six mil escuz, 
+<lb/> qui estoit sa puissance, cest Anglois, pour le contraindre 
+<lb/> à plus grant finance que ce qu'il offroit et 
+<lb/> qu'il povoit, le pendit par les piedz ; et ung gentilhomme 
+<lb/> des prochains du roy Henry d'Angleterre, qui 
+<lb/> le vit, courut au Roy et luy dit le cas. Incontinent le 
+<lb/> Roy envoya querir ledit Gamaches et lui demanda 
+<lb/> <supplied resp="#editor">ce</supplied> qu'il avoit offert de sa bonne volenté ; et il luy 
+<lb/> respondit : <q>« Six mil escuz. »</q> Adonc le Roy envoya 
+<lb/> le sire de Gamaches sur sa foy et donna lesdis six mil 
+<lb/> escuz aux gentilshommes qui l'alerent querir et advertyr 
+<lb/> du cas, et condampna l'Angloys à n'en avoir 
+<lb/> ryens. Aussi y fut prins messire Guillaume de Coursillon, 
+<lb/> qui pour lors estoit jeune homme. Ne aussi je 
+<lb/> n'ay pas esté à la bataille d'Agincourt, là où furent 
+<lb/> prins et mors plusieurs des princes et grans seigneurs 
+<lb/> de France, chevaliers et escuiers, et moult grant 
+<lb/> noblesse, ainsi que chascun scet, et meismement le 
+<lb/> pere de mon maistre, ses freres et ses cosins. Or de 
+<lb/> cela je m'en raporte à ceulx qui en sauront mieulx 
+<lb/> parler et aux Croniques de France. 
+</p>
+</div>
+<div>
+<head>III.</head>
+<p>
+<lb/> Et, pour retourner à ma matière et à parler 
+<pb n="270"/>
+
+<lb/> de l'exposition du <hi rend="ital">Jouvencel</hi>, pour qui le livre fut 
+<lb/> faict et pour qui mes maistres le firent, c'est le seigneur 
+<lb/> de Bueil, mon maistre. Et, pour commencer 
+<lb/> à dire la verité du faict, il avoit dix-huit ans, quant la 
+<lb/> bataille de Verneil fut faicte, et avoit esté page du 
+<lb/> viconte de Narbonne, qui morut en ladicte bataille, 
+<lb/> en la compagnie du duc d'Alençon, qui y fut prins 
+<lb/> prisonnier, du duc de Glas et son filz James de Glas 
+<lb/> d'Escosse, le conte de Boucan, connestable de France, 
+<lb/> le conte d'Aumalle et plusieurs autres seigneurs, chevaliers 
+<lb/> et escuiers de France et d'Escosse mors en 
+<lb/> icelle bataille, dont le duc de Bethfort estoit chef, le 
+<lb/> conte de Salbry et le conte de Siffort, le seigneur 
+<lb/> d'Escalles et autres chevaliers et escuyers du royaulme 
+<lb/> d'Angleterre, acompagnez d'aucuns Normans. 
+</p>
+</div>
+<div>
+<head>IV.</head>
+<p>
+<lb/> Et, quant ceste bataille fut gaignée par les 
+<lb/> Anglois, ainsi qu'avez oy, ilz marcherent jusques au 
+<lb/> Mans et prindrent la cité, et plus avant jusques sur 
+<lb/> le Loir prindrent le Chasteau-du-Loir, le Lude et 
+<lb/> Gallerande. Et le roy Charles septiesme, fort desnué 
+<lb/> de sa puissance et noblesse, print cueur vertueusement 
+<lb/> et tellement resista, moyennant la grace de 
+<pb n="271"/>
+
+<lb/> Dieu, qu'il arresta les Anglois sur la rivière du Loir, et 
+<lb/> ne marcherent plus avant. Il ralia gens de tous estatz, 
+<lb/> vieux et jeunes rotiers qui estoient dessus les champs, 
+<lb/> estrangiers, et toute manière de gens de quoy il se 
+<lb/> povoit ayder. 
+</p>
+</div>
+<div>
+<head>V.</head>
+<p>
+<lb/> Le sire de Bueil, de quoy j'ay parlé, comançoit 
+<lb/> adonc à porter armes et, en petites places remparées 
+<lb/> et autres, hantoit avec les gens de guerre ; ne 
+<lb/> homme ne le povoit tirer en cour. Aussi n'estoit-ce 
+<lb/> pas sa vocation ; si y eust-il de ses amys qui lui conseilloient 
+<lb/> assez. Il avoit quelque congnoissance de la 
+<lb/> guerre, pour ce qu'il avoit esté avec ce vaillant chevalier, 
+<lb/> le viconte de Narbonne, avec lequel il avoit 
+<lb/> appris. Et depuis anta ung très vaillant chevalier, 
+<lb/> nommé Estienne de Vignolles, dit Lahyre, lequel fut 
+<lb/> cappitaine de Vendosme ; et, pour ce que ledit seigneur 
+<lb/> de Bueil se tenoit souvent à Coursillon, La 
+<lb/> Marchere et au Val-Joyeux, dont il povoit saillir de 
+<lb/> trente à quarante hommes à cheval et de trois à quatre 
+<lb/> cens hommes à pied, Lahire l'envoyoit querir aucuneffoys ; 
+<lb/> et il y alloit volentiers et menoit ce qu'il 
+<lb/> povoit, et tout le plaisir qu'il povoit faire à Lahire il 
+<lb/> le faisoit, pour tousjours apprendre le mestier de la 
+<lb/> guerre ; car c'estoit tout son entendement et autre 
+<lb/> plaisir n'avoit. 
+</p>
+</div>
+<div>
+<head>VI.</head>
+<p>
+<lb/> En ce temps avoit une grosse garnison à 
+<lb/> Marchenoir de Bourguignons, et Lahire y fit une 
+<lb/> emprise, ainsi que vous orrez. Il alla courir devant, 
+<pb n="272"/>
+
+<lb/> ainsi que souvent luy et ses gens faisoient, et pour ce 
+<lb/> que les Bourguignons saillirent hors de leur place bien 
+<lb/> avant, Lahire se pansa qu'il iroit courir devant, et 
+<lb/> embucha gens la nuyt à ung fumier au plus près de la 
+<lb/> place qu'il peult sans estre descouvers, et fit monter 
+<lb/> gens de pied derrière tous ses hommes d'armes et 
+<lb/> avec une lime sorde seyer une barrière à quoy lesditz 
+<lb/> Bourguignons se fioient, et mist de la cyre et de la 
+<lb/> terre par dessus afin qu'on n'aperceust le cyage qu'il 
+<lb/> avoit fait ; puis vint courir devant, ainsi qu'on avoit 
+<lb/> acoustumé. Les Bourguignons saillirent orgueilleusement 
+<lb/> dehors ; Lahyre partit de son embuche, lui et sa 
+<lb/> compagnie, et hurterent la barrière de poictrine de 
+<lb/> chevaulx et la porterent par terre et les gens de pied, 
+<lb/> qui estoient derrière les hommes d'armes, saillirent à 
+<lb/> pied et ceulx du fumier d'autre costé. Ainsi fut la garnison 
+<lb/> de Marchenoir destroussée et desconfite, qui 
+<lb/> est appellée Escallon ou livre de <hi rend="ital">Jouvencel</hi>. 
+</p>
+</div>
+<div>
+<head>VII.</head>
+<p>
+<lb/> En celluy temps monseigneur de Dunois 
+<lb/> et Lahyre leverent le siège de Montargis, et beaucoup 
+<lb/> d'autres gens de bien en leur compagnie. Et, 
+<lb/> pour ce que je ne veulx pas dire que le Jouvencel ayt 
+<lb/> faict toutes les choses escriptes en son livre ; mais ce 
+<lb/> sont chouses faictes et advenues de son temps et où 
+<lb/> il estoit à la pluspart ; mais je veulx declarer les 
+<lb/> chouses qu'il a faictes et dont il estoit chef, moyennant 
+<lb/> la grace de Dieu, non pas toutes les petites entreprinses, 
+<pb n="273"/>
+
+<lb/> dont il a faictes beaucoup, qui seroient trop 
+<lb/> longues à racompter ; aussi je n'ay pas congnoissance 
+<lb/> de tout ; mais je declareray celles dont je puis avoir 
+<lb/> cognoissance et les plus grosses, dont il a esté chef 
+<lb/> seul et pour le tout, après que j'auray ung peu parlé 
+<lb/> de ce bon escuyer Lahyre, qui servit bien le bon roy 
+<lb/> Charles après la bataille de Verneuil perdue. Et tellement 
+<lb/> que, par le bon sens du bon roy Charles, la 
+<lb/> vallance de Lahyre et des autres, les Anglois furent 
+<lb/> arrestez, attendant que les jeunes fussent saiges et 
+<lb/> puissans de servir, dont le Jouvencel fut ung. Et, 
+<lb/> pour ce, je veul declarer partie des faiz de mon 
+<lb/> maistre le Jouvencel et les noms de ceulx qui lui 
+<lb/> ayderent à conduire ses fais, et les besongnes telles 
+<lb/> qu'elles ont esté et les lieux, et pour mieulx exposer 
+<lb/> en bref le livre du <hi rend="ital">Jouvencel</hi>. 
+</p>
+</div>
+<div>
+<head>VIII.</head>
+<p>
+<lb/> Vray est que les François commencerent 
+<lb/> à prendre cueur pour les jeunes qui se faisoient 
+<lb/> hommes, et le pays qui se repopuloit de gens. En 
+<lb/> ce temps là, le duc Artus fut faict connestable de 
+<lb/> France ; et furent commis en son absence les sires 
+<lb/> de Raiz et de Montafillant, le sire de Bueil mon 
+<lb/> maistre, le sire de Tucé, le sire de Champagne, messire 
+<lb/> Pierre de Brezé, seigneur de Brissac, le sire de Bellay 
+<lb/> et plusieurs autres chevaliers et escuyers, acompagnez 
+<lb/> des chevaliers et escuiers d'Anjou et du Mayne 
+<lb/> et des frontières avec trois ou quatre cens Escossois ; 
+<pb n="274"/>
+
+<lb/> et vint le viconte de Thouars, acompagné de plusieurs 
+<lb/> nobles de Poictou, pour renforcer le siège qui 
+<lb/> fut mis au Lude, et la place fort batue de bombardes 
+<lb/> et d'artillerie. Et estoit pour lors maistre de l'artillerie 
+<lb/> ung nommé Bessonneau, très noble et saige gentilhomme 
+<lb/> en son office et en toutes autres, où on le 
+<lb/> voloit employer. Les Angloys misdrent leurs chevaulx 
+<lb/> dehors quant ilz seurent la venue des Françoys ; et 
+<lb/> les destroussa Gervaise Nadereau, dont est fait mention 
+<lb/> ou livre du <hi rend="ital">Jouvencel</hi>, qui estoit serviteur en la 
+<lb/> compagnie du sire de Fromentières, qui estoit lors 
+<lb/> au siège. Jehan Tibergeau, seigneur de la Mothe, 
+<lb/> cappitaine des gens d'armes estans à Beaufort et au 
+<lb/> Louroux, eut la charge de faire le guet et les escotes, 
+<lb/> par où les Angloys povoient venir, tant sur les guetz 
+<lb/> du Loir que jusques aux portes du Mans. Et, pour 
+<lb/> descouvrir le pays, fut envoyé Garguesalle, pour lors 
+<lb/> jeune gentilhomme qui ja commançoit fort à valoir, 
+<lb/> acompagné de douze à quinze hommes ; et rencontra 
+<lb/> dix-huit Anglois qu'il destroussa entre Beaufort et le 
+<lb/> Lude. La place fut prinse d'assault et y entra l'enseigne 
+<lb/> du sire de Bueil, mon maistre, la première, 
+<lb/> laquelle porte ung rangier en son estandart, qui est 
+<lb/> bien congneu d'Anglois et de Françoys. Et s'est trouvé 
+<lb/> ledit estandart en maint bon lieu depuis et avant ; 
+<pb n="275"/>
+
+<lb/> car ses predecesseurs l'ont tousjours porté. Et en 
+<lb/> icelle mesme saison furent prinses d'autres places 
+<lb/> comme Malicorne, Gallerande et autres. Le cappitaine 
+<lb/> du Lude anglois avoit nom Blaqueborne ; et entre les 
+<lb/> autres en y avoit ung qu'on appelloit le Borgne-Foulquet ; 
+<lb/> et furent mors lesdis Foulquet et André Obtat, 
+<lb/> lequel se disoit escossois, avec plusieurs autres, fors 
+<lb/> le cappitaine Blaqueborne, que messire Henry de 
+<lb/> Villeblanche, du pays de Bretaigne, print et sauva et 
+<lb/> quatre ou cinq autres avec luy. 
+</p>
+</div>
+<div>
+<head>IX.</head>
+<p>
+<lb/> Environ deux ans après, fut commis le sire 
+<lb/> d'Orval, frere germain du conte d'Albret, lieutenant 
+<lb/> en Anjou et au Mayne pour le Roy, acompagné de 
+<lb/> Lahyre, Poton, du sire de Bueil, mon maistre, et du 
+<lb/> sire de Tucé. Et, le soir, print la ville du Mans, et 
+<lb/> arryva le seigneur de Montafillant à son secours à 
+<lb/> très belle compagnie. Le chasteau se tenoit. Et, au 
+<lb/> point du jour, par la dilligence que fit ung cappitaine 
+<lb/> anglois nommé Matago, qui tenoit Chasteau-l'Hermitage, 
+<lb/> arriva au point du jour le sire de Talbot, acompagné 
+<lb/> de gens de son party, c'est assavoir : ledit 
+<lb/> Matago, messire Guillaume Hondchalle, Glacedas, messire 
+<lb/> Jehan Popan et plusieurs autres Anglois. Et, ainsi 
+<lb/> que les Françoys sailloient de la ville pour aller combatre 
+<pb n="276"/>
+
+<lb/> ledit sire de Talbot aux champs, ledit Talbot 
+<lb/> entra par le chasteau, rua jus le guet des Françoys, et 
+<lb/> regangnerent la ville par ce moyen ; et fut la chouse si 
+<lb/> composée de la sallie des Françoys et de l'entrée des 
+<lb/> Anglois que, s'il y eut eu ung quart d'heure de distance, 
+<lb/> les Anglois n'y eussent jamais entré. Mon 
+<lb/> maistre, le sire de Bueil, se print par le poulce en 
+<lb/> prenant la chaine du pont, et y eut de grans armes 
+<lb/> faictes pour le rescourre ; touteffoys, graces à Dieu, 
+<lb/> rescoux fut. 
+</p>
+</div>
+<div>
+<head>X.</head>
+<p>
+<lb/> Tantost après le conte de Salbry marcha en 
+<lb/> Beaulce et print Yenville, Baugency, Mehung-sur-Loire 
+<lb/> et Gerguiau ; puis mirent le siège à Orléans, qui dura 
+<lb/> depuis le moys de septembre, jusques à la fin de 
+<lb/> juing ensuivant. Et, au commancement du siège, le 
+<lb/> conte Salbry fut tué d'un canon, et fit Dieu grant bien 
+<lb/> aux Françoys de le laisser tuer. La première sepmaine 
+<lb/> de caresme ensuivant, les Anglois venoient à 
+<lb/> puissance avitailler leur siège d'Orleans. Pour ce que 
+<lb/> c'estoit en caresme et qu'ilz amenoient force harens, 
+<lb/> elle fut nommé la Jornée du haren ; et là furent rencontrez 
+<lb/> en la Beaulce par le duc de Bourbon, le viconte 
+<lb/> de Thouars, le conte de Dunoys, le sire de Dorval, lieutenant 
+<lb/> d'Anjou et du Maine, messire Jehan Stuart 
+<lb/> connestable des Escossois et son frere, le mareschal de 
+<pb n="277"/>
+
+<lb/> Boussac, messire Loys de Culant, admyral de France, 
+<lb/> Lahire, Poton et plusieurs seigneurs, chevaliers et 
+<lb/> escuyers, desquelz, par leur oultraige et pour marcher 
+<lb/> à qui iroit le premier, furent mort le sire de Dorval, 
+<lb/> le connestable des Escossois et son frère Alixandre 
+<lb/> Stuart et bien quatre cens chevaliers et escuyers, qui 
+<lb/> furent tuez en leur compagnie, pour ce qu'ilz aloient 
+<lb/> sans ordre et en deprisant leurs ennemis. Le surplus 
+<lb/> s'en retourna à Orleans ; et de là s'en allerent le duc 
+<lb/> de Borbon, le viconte de Thouars et autres seigneurs, 
+<lb/> chevaliers et escuyers en leur compagnie et 
+<lb/> ne demoura que la garnison acoustumée, dont mon 
+<lb/> maistre fut ung. 
+</p>
+</div>
+<div>
+<head>XI.</head>
+<p>
+<lb/> Peu de temps après ceste bataille perdue, 
+<lb/> vindrent nouvelles au bon roy Charles de la venue 
+<lb/> d'une Pucelle gardant les bestes, qui disoit qu'elle le 
+<lb/> venoit secourir et estoit, par son dit, couroucée qu'elle 
+<lb/> n'estoit venue plus tost, pour ce que la besongne qui 
+<lb/> avoit esté aux Harens fust advenue au prouffit du Roy 
+<lb/> et de tous les François ; mais je croy que Dieu voloit 
+<lb/> qu'il fust ainsi pour mieulx montrer que riens ne 
+<lb/> peult sans luy. Elle fut esseyée à mettre les vivres 
+<lb/> dedans Orleans pour secourir la ville qui en avoit 
+<lb/> neccessité, où nul ne se osoit entremettre de ce faire. 
+<lb/> Monseigneur de Dunoys conduisoit le faict de la ville ; 
+<lb/> Lahire saillit aux champs et mon maistre avec luy ; 
+<lb/> et vint le sire de Raiz, qui amena une belle compagnie 
+<lb/> d'Anjou et du Maine pour acompagner la Pucelle. 
+<lb/> Et, pour abreger, les dessus nommez furent envoyez 
+<lb/> avec elle pour en advenir ce qu'il pouroit et en faire 
+<lb/> l'essay ; car de tous points la chouse sembloit estrange 
+<pb n="278"/>
+
+<lb/> et gueres de gens ne s'i voloient trouver. La ville 
+<lb/> fut avitaillée et se conduisit tellement la Pucelle que 
+<lb/> chacun congnut que c'estoit une chouse de la grace de 
+<lb/> Dieu et print fiance en elle. 
+</p>
+</div>
+<div>
+<head>XII.</head>
+<p>
+<lb/> Après cela vint le temps qu'il fallut que la 
+<lb/> place fut secourue. Par la volenté de Dieu, la Pucelle 
+<lb/> marcha et vint secourir la ville, print et leva aucunes 
+<lb/> bastilles ; mais touteffoys demoura la puissance des 
+<lb/> Anglois fortifiée en ung lieu nommé Sainct-Laurens. 
+<lb/> Et, pour ce qu'ilz congnurent que leurs vivres ne leur 
+<lb/> pouroient fornir jouxte la puissance des Françoys, ilz 
+<lb/> delibererent demarcher et d'eulx en aller. Et y estoit 
+<lb/> le conte de Siffor, le sire de Talbot et autres chefz du 
+<lb/> royaulme d'Angleterre. Et, pour ce qu'il estoit 
+<lb/> dimanche, la Pucelle n'estoit pas d'opinion qu'on les 
+<lb/> combatist ; mais aucuns compagnons les chevaucherent 
+<lb/> tellement que, quant ilz arriverent en la ville de 
+<lb/> Meung, ilz estoient hors d'aleyne ; car la pluspart 
+<lb/> estoient à pied ; et chascun mist peyne de gaigner la 
+<lb/> ville. Et, pour ce, n'est tel que d'assaillir gens quant 
+<lb/> ilz sont près de leur retraicte ; chascun quiert de se 
+<lb/> sauver. Vray fut que aucuns volurent charger à ung 
+<lb/> passage, qui furent prins. Et, pour ce, est-il dit ou <hi rend="ital">Jouvencel</hi> 
+<lb/> que, à la retraicte que fit le duc Baudoyn à 
+<lb/> Crathor, Conyn fut prins et autres. Aussi avoit dit 
+<lb/> la Pucelle qu'il estoit dimanche et qu'on ne les debvoit 
+<lb/> point assaillir. Si ceulx qui furent prins avoient nom 
+<lb/> Conyn ou autrement, je n'en sçay ryen ; vray est 
+<pb n="279"/>
+
+<lb/> qu'il y avoit ung homme qui avoit nom Conyn ; et, 
+<lb/> pour mieulx deguiser le livre du <hi rend="ital">Jouvencel</hi>, on y avoit 
+<lb/> tousjours nommez gens et noms incongneuz. <supplied resp="#editor">à</supplied> Crathor, 
+<lb/> pour le vous donner à entendre, et <supplied resp="#editor">dans</supplied> tout 
+<lb/> le livre, ont esté les chouses meslez, afin que l'on n'en 
+<lb/> eust point de cognoissance et qu'on n'y peust ryens 
+<lb/> gloser qui c'estoit ne dont ce venoit. Et, pour mieulx 
+<lb/> encores vous advertir, il y a telles deux chouses, 
+<lb/> voire trois, qui ont estez mises en une pour cause 
+<lb/> d'abreviacion pour oster la congnoissance des chouses 
+<lb/> et qu'on ne peust dire que c'estoit. Touteffoys les 
+<lb/> chouses escriptes sont ainsi advenues et veritables ; 
+<lb/> et, pour advertir chacun bon et loyal Françoys de ce 
+<lb/> qu'il a affaire sans en donner gloire à nul, fors à Dieu, 
+<lb/> ont esté les chouses escriptes et divisées en deux et 
+<lb/> troys parties, afin qu'on n'en eust point de congnoissance 
+<lb/> ne qu'on n'y peust ryen gloser ne adjouster, 
+<lb/> comme dit est cy-dessus. 
+</p>
+</div>
+<div>
+<head>XIII.</head>
+<p>
+<lb/> Après le lièvement de ce siège, fut prins 
+<lb/> par les Françoys Jargiau, Baugency et Mung. Le conte 
+<lb/> de Siffort et les Anglois tirerent aux champs, où estoit 
+<lb/> le sire de Talbot, le sire d'Escailles, messire Jehan 
+<lb/> Fastoc, chefz, et plusieurs autres barons, chevaliers 
+<lb/> et escuyers d'Angleterre, en ung lieu nommé Patay. 
+<lb/> La Pucelle par son emprise conclud de les combatre 
+<lb/> devant tous les chefz et capitaines, qui là estoient en 
+<lb/> sa compaignie, le duc Artus de Bretaigne, le duc 
+<pb n="280"/>
+
+<lb/> d'Alençon, le sire de Dunois, le sire de Montafillant et 
+<lb/> mon maistre, qui fut ordonné pour les gardiger et 
+<lb/> chevaucher, Lahire, Poton et plusieurs autres. Et là 
+<lb/> furent combatus et desconfiz, le sire de Talbot prins, 
+<lb/> le sire d'Escailles, messire Thomas Rameston et messire 
+<lb/> Robert de Hongrefort. Messire Jehan Fastoc 
+<lb/> emmena une compagnie d'Anglois jusques à Yenville 
+<lb/> et les saulva par sa bonne conduicte. 
+</p>
+</div>
+<div>
+<head>XIV.</head>
+<p>
+<lb/> Après ceste bataille faicte, le bon roy 
+<lb/> Charles entreprint, par le conseil de la Pucelle, de 
+<lb/> soy aller faire coroner à Rains, ce qu'il fit, et alla 
+<lb/> mettre le siège à Aucerre. Ce pendant, mon maistre 
+<lb/> fut prins, que je ne veulx oblier ses faictz ; depuis 
+<lb/> se recouyt par son bon sens et hardement. Le Roy 
+<lb/> mist le siège à Aucerre, comme j'ay dit ; de là, à Troyes 
+<lb/> et à Rains. Je ne veult point mettre les petitz chasteaux 
+<lb/> ne les petites villes qui furent prinses, pour ce 
+<lb/> que les chouses seroient trop longues à escripre. Il 
+<lb/> fut coronné à Rains ; de là, marcha droit à Paris ; et au 
+<lb/> devant de luy vint le duc de Bethfort à grant puissance 
+<lb/> d'Anglois et de Bourguignons, lequel nous 
+<lb/> appellons, ou livre du <hi rend="ital">Jouvencel</hi>, le duc Baudoyn, et 
+<lb/> à Senlis vint presenter la bataille au Roy, et y eut 
+<lb/> tout le jour grandes escarmoches et beaucoup de gens 
+<pb n="281"/>
+
+<lb/> prins et mors d'une part et d'autre. Et y eut des 
+<lb/> charges si grandes que plusieurs foys furent toutes 
+<lb/> les deux batailles en dangier de perdition. Et, si n'eust 
+<lb/> esté ung chevalier, nommé messire Baudoyn de 
+<lb/> Champaigne, seigneur de Tucé, ou pays du Mayne, et 
+<lb/> ung autre chevalier d'Auvergne nommé Sainct-Peritz, 
+<lb/> qui arresterent deux cens hommes d'armes ensemble, 
+<lb/> la chouse eust esté en dangier. J'omets Lahyre qui se 
+<lb/> vint joindre avec eulx, et beaucoup d'autres gens de 
+<lb/> bien, qui rebouterent les Angloys tellement qu'ilz 
+<lb/> cuyderent torner en desconfiture. Et y eut d'une part 
+<lb/> et d'autre, si grant broulis et estour que, si n'eust esté 
+<lb/> les bons remedes de bataille qui se donnoient d'une 
+<lb/> part et d'autre, ilz eussent estez desconfiz les ungs et 
+<lb/> les autres plus de quatre foys le jour. Touteffoys la 
+<lb/> chouse fut si bien maintenue d'une part et d'autre 
+<lb/> que la nuyt les departit, et d'autre remede n'y avoit. 
+</p>
+</div>
+<div>
+<head>XV.</head>
+<p>
+<lb/> Le bon roy Charles et Jehanne la Pucelle 
+<lb/> paracheverent d'aller en avant et prindrent Senlis, 
+<lb/> Compiègne et autres places ; et de là vindrent à 
+<lb/> Sainct-Denis ; et donnerent l'assault à Paris et ne le 
+<lb/> peurent prendre. Et estoit dedens le duc de Bethfort 
+<lb/> avec une grosse puissance d'Anglois. Entre Paris et 
+<lb/> Sainct-Denis eut de grandes escarmoches et de beaux 
+<lb/> faiz d'armes, qui dura plus de troys moys sans cesser, 
+<lb/> et tous les jours y avoit butin. Mais le bon roy 
+<lb/> Charles ne peust plus tenir son armée ensemble par 
+<lb/> faulte de vivres, et s'en revint le Roy en Touraine, et 
+<pb n="282"/>
+
+<lb/> laissa la Pucelle ès pays qu'ilz avoient conquis, acompagnée 
+<lb/> de beaucoup de gens de bien et bons cappitaines. 
+<lb/> Et, au retour, ung homme de bien, nommé 
+<lb/> Guillaume de Bressay, print Chasteau-l'Ermitage, près 
+<lb/> le Mans ; auquel lieu mon maistre se rendit (car il 
+<lb/> cherchoit tousjours la guerre quelque part qu'elle 
+<lb/> fust), acompagné de messire André d'Averton, seigneur 
+<lb/> de Bellin, de messire Pierre de Brezé, de 
+<lb/> messire Guy de Fromentières, qui estoit leur conduicte 
+<lb/> principalle, pour ce qu'il avoit plus veu que eulx. 
+</p>
+</div>
+<div>
+<head>XVI.</head>
+<p>
+<lb/> Et, pour savoir qui estoit le viel cappitaine 
+<lb/> de Crathor, c'estoit Guillaume de Bressay ; et, pour 
+<lb/> sçavoir qui estoit le Mareschal qui conduysoit tout, 
+<lb/> c'estoit messire Guy de Fromentières, lequel est 
+<lb/> nommé, ou livre du <hi rend="ital">Jouvencel</hi>, le sire de Chamblay ; 
+<lb/> et fut ung des trois ambassadeurs, qui vindrent aporter 
+<lb/> au Jouvencel le povoir d'avoir autant de puissance 
+<lb/> comme le lieutenant du Roy. Et, pour sçavoir qui est 
+<lb/> le sire de Roqueton, est le sire de Raveton, et servit 
+<lb/> bien le Jouvencel à tous ses besoings. Crator est dit 
+<lb/> pour le siège d'Orleans et la retraicte que firent le 
+<lb/> conte de Siffort, le sire de Talbot et autres Anglois, et 
+<lb/> une retraicte pareille que fit le duc de Bethfort en 
+<lb/> personne devant Lagny-sur-Marne. Et, pour ce que 
+<lb/> au Jouvencel n'a rien declaré et le plus couvertement 
+<pb n="283"/>
+
+<lb/> qu'on a peu faire, on l'a faict, et l'on a mis deux et 
+<lb/> troys chouses en une. 
+</p>
+</div>
+<div>
+<head>XVII.</head>
+<p>
+<lb/> Et, pour vous parler plus clerement de 
+<lb/> Crator, il est prins pour le siège d'Orleans et de Lagny-sur-Marne, 
+<lb/> et après nommerent-ilz Crator le chasteau 
+<lb/> de Sablé et misdrent nom à Chasteau-l'Ermitage et à 
+<lb/> Mect, Luc. Ainsi sont les deux chouses ensemble 
+<lb/> interpretées : Lucrator, qui est autant à dire comme 
+<lb/> « gaigneur de biens ; » car, par ce moyen, commencerent-ilz 
+<lb/> à gaigner le pays sur les Anglois. Et, pour 
+<lb/> ce, sont mises les troys choses en une : Orleans, 
+<lb/> Lagny et Sablé ; car de Sablé fist mon maistre de grans 
+<lb/> chouses et honnorables, ainsi que vous orrés. Il partit 
+<lb/> dudit Sablé pour executer les chouses qui s'ensuivent, 
+<lb/> et de Chasteau l'Hermitage. Pour ce sont-ilz 
+<lb/> nommez, l'un Luc et l'autre Crator ; ainsi sont-ilz 
+<lb/> appellez Lucrator ; et les autres lieux dessus nommez 
+<lb/> sont la demonstrance de Crator, qui est dit ou <hi rend="ital">Jouvencel</hi>. 
+<lb/> Les choses mises à pars soy eussent esté trop 
+<lb/> cleres, et mondit maistre ne le voloit pas ; car il ne 
+<lb/> donnoit point d'argent pour soy faire mettre ès 
+<lb/> Croniques. 
+</p>
+</div>
+<div>
+<head>XVIII.</head>
+<p>
+<lb/> La prinse du Jouvencel fut faicte par le sire 
+<lb/> de Raiz, qui luy voloit oster Chasteau-l'Hermitaige 
+<lb/> de peur qu'il vint à plus grant chouse, comme il fist. 
+<lb/> Et, pour ce, il le print, où il n'estoit que luy quatriesme, 
+<lb/> et le tint prisonnier à Sablé. Puis luy eschappa 
+<lb/> et trouva les moyens d'avoir ledit Sablé sur ledit sire 
+<pb n="284"/>
+
+<lb/> de Raiz. Et cela veult dire la prinse de Crathor. Ainsi 
+<lb/> est-il dit ou <hi rend="ital">Jouvencel</hi> que c'estoit sur les ennemys ; 
+<lb/> et fut bien vray que ledit sire de Raiz luy monstroit 
+<lb/> bien qu'il estoit son ennemy. Et, pour ce qu'ilz estoient 
+<lb/> tous deux françoys, mes maistres ne volurent point 
+<lb/> declarer sur quoy fut prins Crator, mais seulement 
+<lb/> sur les ennemys. Neantmoins que le Jouvencel, luy 
+<lb/> estant prisonier, projecta et pansa la prinse de Sablé 
+<lb/> sur le sire de Raiz, ce qu'il fit. 
+</p>
+</div>
+<div>
+<head>XIX.</head>
+<p>
+<lb/> De là vint <supplied resp="#editor">mettre</supplied> le siège au Chasteau-du-Loir 
+<lb/> que les Anglois tenoient, acompagné de messire 
+<lb/> Baudoyn de Champagne, seigneur de Tucé, et du 
+<lb/> baron de Colonges, et fist venir ung juge de Touraine, 
+<lb/> nommé maistre Jacques Amelin, à Tours ; et fut 
+<lb/> prinse la place ; et vindrent les Anglois au secours, 
+<lb/> qui n'oserent combatre mondict maistre ne la 
+<lb/> compagnie. 
+</p>
+</div>
+<div>
+<head>XX.</head>
+<p>
+<lb/> Au retour dudit siège et incontinent que 
+<lb/> mondict maistre fut à Sablé, il partit et s'en alla à 
+<lb/> Laval et là trouva le sire de Loheac, et allerent 
+<lb/> ensemble jusques à Sainct-Guillaume-de-Mortaing, 
+<lb/> où ilz trouverent une grosse compagnie d'Angloys, 
+<lb/> nommez Thomas Ampton et Henry Chou, avec l'estandart 
+<lb/> et compagnie du sire d'Escalles. Lesdits sires 
+<lb/> de Loyeac et de Bueil, mon maistre, les desconfirent ; 
+<pb n="285"/>
+
+<lb/> et fut Thomas Ampton prins et Henry Chou mort, et 
+<lb/> l'estandart et compagnie dudit sire d'Escalles destroussez 
+<lb/> et desconfis comme les autres. De là s'en 
+<lb/> retournerent à leurs garnisons et firent tousjours 
+<lb/> la guerre aux Anglois et grandement y servirent le 
+<lb/> Roy. 
+</p>
+</div>
+<div>
+<head>XXI.</head>
+<p>
+<lb/> Tantost après que mon maistre, le sire 
+<lb/> de Bueil, fut retorné à Sablé, vint devers luy messire 
+<lb/> Ambroise de Leré le prier et requerir qu'il voulsist 
+<lb/> secourir ceulx de Sainct-Celerin, qui avoit toute 
+<lb/> fience en luy. Et, sur ce, mondit maistre fit toute 
+<lb/> dilligence d'assembler toutes les frontières qu'il peust. 
+<lb/> Aucuns vindrent à luy ; les autres n'y peurent estre 
+<lb/> à heure ; touteffoys il partist avec ses gens pour ce 
+<lb/> que le cas le requeroit. Brussac, cappitaine de Craon, 
+<lb/> vint avec sa garnison ; et autres compagnies n'y 
+<lb/> vindrent, sinon ses gens et aucunes petites garnisons 
+<lb/> d'environ. Et tant chemina mondit maistre qu'il ariva 
+<lb/> à Beaumont et envoya partie de sa compagnie loger 
+<lb/> à Vivaing, où il y a environ ung quart de lieue de 
+<lb/> distance et ung pont à passer la rivière de Sarte. 
+<lb/> Brussart demoura avec lui audict Beaulmont. Monseigneur 
+<lb/> de Champagne avec la garnison de Villenes et 
+<lb/> ledit messire Ambroise de Leré, lequel n'avoit point 
+<lb/> de compagnée de gens d'armes et n'avoit avec luy 
+<lb/> que ung seul compagnon combatant, nommé le Silleux 
+<lb/> (je ne sçay s'il estoit homme d'armes ou archier), 
+<pb n="286"/>
+
+<lb/> <supplied resp="#editor">alerent loger à Vivaing</supplied>. Au matin, au point du 
+<lb/> jour, vindrent bien cent chevaulx d'Angloys avec 
+<lb/> deux trompetes pour faire crier alarme et amuser le 
+<lb/> logis de Beaumont, tandis qu'ilz aloient combatre 
+<lb/> ceulx de Vivaing. Incontinant mondict maistre congneut 
+<lb/> leur malice et dit : <q>« Ilz vont combatre noz gens. 
+<lb/> à cheval ! à cheval ! »</q> et passa le pont à toute dilligence, 
+<lb/> dont chascun n'estoit pas d'opinion ; mais il 
+<lb/> disoit que les ennemys estoient empeschez de leur 
+<lb/> proye tellement qu'ilz ne se pourroient mettre en 
+<lb/> ordonnance de combatre. Et, sur ce, fit mondit 
+<lb/> maistre apeller messire Pierre de Brezé, qui estoit en 
+<lb/> la tour de Beaumont, lequel descendit à toute dilligence 
+<lb/> et amena la garnison dudit Beaumont, qui 
+<lb/> estoit en nombre vingt-cinq lances, lesquelz vindrent 
+<lb/> sur le debat et y servirent très bien. à l'assemblée, ledit 
+<lb/> sire de Brezé ordonna qu'on donnast aux enseignes 
+<lb/> des Anglois : car ilz sont de telle nature, ainsi qu'on 
+<lb/> dit, que, quant leurs enseignes sont ruées et portées 
+<lb/> par terre, ilz sont tous esbays et ne se ralient plus. 
+<lb/> Il y avoit deux chevaliers de l'hostel monseigneur du 
+<lb/> Maine, l'un nommé messire Auvergnas Chapperon, et 
+<lb/> l'autre le sire de la Vessière, lesquelz avoient ung 
+<lb/> guidon de monseigneur du Maine ; car ledit sire de 
+<lb/> Bueil, mon maistre, estoit lieutenant au pays pour 
+<lb/> ledit seigneur du Mayne. Lequel guidon fut porté par 
+<pb n="287"/>
+
+<lb/> terre des Angloys, puis relevé et baillé à messire 
+<lb/> Guillaume de Coursillon qui le porta bien et vaillamment. 
+<lb/> Aussi s'estoit-il trouvé avec le sire de Bueil en 
+<lb/> tous les bons lieux, où il avoit esté très bien gouverné. 
+<lb/> Les chefz et cappitaines des Angloys estoient le bastard 
+<lb/> de Salbery, messire Jehan Arthus et Matago, 
+<lb/> cappitaine du Mans. Ledit Salbery se saulva et messire 
+<lb/> Jehan Artus y fut mors ; Matago fut prins par ung 
+<lb/> vaillant escuyer nommé Jehan de Vaulue et combatirent 
+<lb/> corps à corps tous deux bien et vaillamment, 
+<lb/> tellement qu'ilz se navrerent tous deux. Touteffoys le 
+<lb/> sire de Bueil, qui vit la bataille entre son escuyer et 
+<lb/> ledit Matago, tira celle part. Lors ledit Matago dist audit 
+<lb/> de la Vaulue : <q>« Je ne pouroys contre deux ; je me 
+<lb/> rens à vous. »</q> Adonc Jehan de la Vaulue lui dist : 
+<lb/> <q>« C'est mon maistre ; vous vous rendrez à lui. »</q> Et le 
+<lb/> sire de Bueil respondit : <q>« Jehan, à Dieu ne plaise, 
+<lb/> puisque vous l'avez conquis, que j'en preigne la 
+<lb/> foy ! »</q> Et, sur ce, Jehan de la Vaulue print la foy. Le 
+<lb/> sire d'Albery estoit chef du siège de Sainct-Celerin, 
+<lb/> qui est apellé ou livre du <hi rend="ital">Jouvencel</hi> Sardine. Il s'en 
+<lb/> alla et habandonna son artillerie, qui fut gaignée : car 
+<lb/> toute l'eslite de l'armée estoit desconfite. Il est escript 
+<lb/> ou <hi rend="ital">Jouvencel</hi> ; mais à payne l'entendrez-vous, tant est 
+<lb/> desguisé. Pour ce ay-je volu, moy Tringant, faire 
+<lb/> l'exposition, ainsi que je l'ay peu comprendre et 
+<lb/> savoir au vray. 
+</p>
+</div>
+<div>
+<head>XXII.</head>
+<p>
+<lb/> Après ceste besongne de Vivaing, fut 
+<pb n="288"/>
+
+<lb/> pourpencé beaucoup de choses à l'encontre dudit sire 
+<lb/> de Bueil, qui n'eussent eu jamais bien, si n'eust esté 
+<lb/> par luy. Il fit de haultes et grandes entreprinses et les 
+<lb/> mist par son moyen, sens et hardement en bonne 
+<lb/> conduicte en avant. Principallement monseigneur 
+<lb/> Charles d'Anjou, qui n'avoit ryens, fors qu'il estoit 
+<lb/> de grant maison, ainsi que chascun scet, et du sang 
+<lb/> royal, le fist estre conte du Mayne, coucher où le bon 
+<lb/> roy Charles, gouverneur de Languedoc, conte de 
+<lb/> Gyen, de Civray, de Melle, de Sainct-Maissant et de 
+<lb/> Chissé et encore d'autres, tant en don que en achapt, 
+<lb/> qu'il eut par l'auctorité qu'il avoit avec le Roy, et 
+<lb/> tout par le moyen de mon maistre le sire de Bueil. 
+<lb/> Et après declarerons les bons et grans services qu'il 
+<lb/> fist audit monseigneur Charles d'Anjou, le tout pour 
+<lb/> le bien du bon roy Charles et de tout le royaulme, 
+<lb/> dont après il fut mal guerdonné dudit monseigneur 
+<lb/> Charles d'Anjou, après les bons et notables services 
+<lb/> qu'il fit. Pour abregier, il destroussa toutes les garnisons 
+<lb/> angloises, ses voisines. 
+</p>
+</div>
+<div>
+<head>XXIII.</head>
+<p>
+<lb/> Il y eut ung grant cappitaine, nommé 
+<lb/> Rodigues, conte de Ribegieux, d'Espagne, et estoit 
+<lb/> espaignol de nacion, qui vint loger au Pont-de-Scé, 
+<lb/> atout six cens hommes d'armes et leur sequelle, 
+<lb/> lequel courut devant Angiers et rançonnoit tout le 
+<lb/> pays ; et demandoit à la royne Yolant et à monseigneur 
+<lb/> Charles d'Anjou, son filz, grans sommes de 
+<lb/> deniers. Lesquelz dame et seigneur manderent querir 
+<lb/> le sire de Bueil (ce qu'ilz faisoient à toutes les necessitez 
+<lb/> et affaires) qu'il vint devers eulx ; ce qu'il fist. 
+<lb/> Et combatit ledit conte de Ribegieux, qui est le cappitaine 
+<lb/> estrangier que vous trouverez escript ou <hi rend="ital">Jouvencel</hi>. 
+<pb n="289"/>
+
+<lb/> Et n'avoit que cent huit lances et troys cens 
+<lb/> archiers ; et morut en la besongne le frere dudit conte 
+<lb/> de Ribegieux. 
+</p>
+</div>
+<div>
+<head>XXIV.</head>
+<p>
+<lb/> En celluy temps le duc d'Alençon, qui 
+<lb/> pour lors estoit lieutenant du Roy, fit une assemblée 
+<lb/> de tout ce qu'il peust finer, tant des frontières que 
+<lb/> d'autres, et manda querir le sire de Bueil et sa compagnie 
+<lb/> et passa par devant Alençon. Auquel lieu estoit 
+<lb/> messire Jehan Fastoc, gouverneur d'Anjou et du 
+<lb/> Maine pour le roy d'Angleterre, ainsi que bien au 
+<lb/> long est determiné ou livre du <hi rend="ital">Jouvencel</hi>. Et, pour 
+<lb/> myeulx deguiser icellui Fastoc, il est appellé messire 
+<lb/> Jehan Alpy. Et là vous trouverez ce qui fut faict entre 
+<lb/> ledit sire de Bueil et ledit Fastoc. 
+</p>
+</div>
+<div>
+<head>XXV.</head>
+<p>
+<lb/> Après le voyage fait, chacun retourna à 
+<lb/> ses garnisons, et ne demoura gueres que le siège fut 
+<lb/> mis à Sainct-Denis-en-France près Paris par les 
+<lb/> Angloys. Là se tira le conte de Dunoys, le sire de 
+<lb/> Loyeac et ledit sire de Bueil et toutes leurs compagnies 
+<lb/> jusques au pont de Meullant. Et eulx estans au 
+<lb/> dit pont, vint ung poursuyvant qui dist que messire 
+<lb/> Thomas Kiriel et Matago repassoient à Estrepagny et 
+<lb/> qu'ilz venoient atout huit cens combatans au siège de 
+<lb/> Sainct-Denis pour le renforcer. Et, sur ce, ledit sire 
+<lb/> de Bueil monta à cheval avec bonne compagnie de 
+<lb/> Françoys, tant de ses gens que de ceulx qui le voloient 
+<pb n="290"/>
+
+<lb/> suivre, et rua jus ledit messire Thomas Kiriel et sa compagnie 
+<lb/> et print Matago, que autreffoys il avoit eu entre 
+<lb/> ses mains. Et, au soir, le conte de Dunoys et le sire de 
+<lb/> Loyeac, qui estoient audict pont de Meullant, furent 
+<lb/> joyeulx de l'aventure, comme plus à plain vous voyez 
+<lb/> audict livre du <hi rend="ital">Jouvencel</hi> ; car maintes entreprinses y 
+<lb/> sont mises bien au long, et ceste-cy et autres, dont la 
+<lb/> forme et manière de faire y est escripte. Et, combien 
+<lb/> qu'elles soient desguisées, si sont-elles mises ainsi 
+<lb/> qu'elles furent faictes, pour monstrer exemple aux 
+<lb/> jeunes gens qui ont volenté de suivre les armes, non 
+<lb/> pas pour donner louenge à ceulx qui l'ont faict. Et, 
+<lb/> pour ce, me suffist assez declarer les lieux et ceulx 
+<lb/> qui ont executé les chouses. 
+</p>
+</div>
+<div>
+<head>XXVI.</head>
+<p>
+<lb/> Après ces chouses advenues et faictes 
+<lb/> par mondit maistre le Jouvencel (je les escriptz en 
+<lb/> gros, afin que chacun sache qui c'est qui les a faictes, 
+<lb/> et escriptz la verité à mon povoir), il y a maintes apertisses 
+<lb/> d'armes que je ne sauroys escripre. Pour ce, je 
+<lb/> m'en taiz à tant. 
+</p>
+</div>
+<div>
+<head>XXVII.</head>
+<p>
+<lb/> Or retournons à parler de Rodigues. 
+<lb/> Aucuns ne furent pas content de la destrousse dudict 
+<lb/> Rodigues, conte de Ribedyeux, estans en auctorité 
+<lb/> autour du Roy, et envoyerent Poncet de Rivière et 
+<lb/> Lyonnet, capitaines des gens d'armes, courre à Myrebeau, 
+<lb/> pour ce que le Jouvencel le tenoit. Et là 
+<lb/> prindrent beufz, vaches, mulles et tout ce qu'ilz 
+<lb/> peurent en revanche de la destrousse de Rodigues. 
+<pb n="291"/>
+
+<lb/> Ilz estoient grant compagnie et troys foys plus que 
+<lb/> n'estoit le Jouvencel, qui estoit dedans la ville de 
+<lb/> Myrebeau. Et, pour ce, faillut qu'il leur laissast faire 
+<lb/> ce jour-là à leur plaisir. Mais, au lendemain, fut au 
+<lb/> point du jour à leur lever et recouyt toute leur proye 
+<lb/> à Bucières près La Haye en Thoraine, et emporta 
+<lb/> leurs enseignes et estandartz de ceulx qui les y 
+<lb/> envoyoient. 
+</p>
+</div>
+<div>
+<head>XXVIII.</head>
+<p>
+<lb/> Ung peu après, en la presence du Roy, 
+<lb/> le sire de Bueil entra dedans Chinon atout quatre-vingts 
+<lb/> hommes et fit tellement qu'il fut bien content 
+<lb/> de luy. Encores fit-il tant pour eulx qu'ilz s'en 
+<lb/> allerent surement et les saulva sans mal avoir. Et, 
+<lb/> par ce moyen, entra monseigneur du Mayne et autres 
+<lb/> en auctorité par le pourchas de monseigneur mon 
+<lb/> maistre, qui, puis après, lui pourchasserent le pis 
+<lb/> qu'ilz peurent, ainsi que communement il advient que 
+<lb/> ceulx à qui on faict du bien ont honte de veoir ceulx 
+<lb/> à qui ilz sont tenus. 
+</p>
+</div>
+<div>
+<head>XXIX.</head>
+<p>
+<lb/> De là partit mon maistre et s'en alla à 
+<lb/> Dreux, où il print Damville d'assault ; puis fut vendu 
+<lb/> aux Angloys. Après vint le sire de Talbot à Louviers, 
+<lb/> qui pour lors n'estoit que ung village, pour le cuyder
+<lb/> faire prendre et destrousser. Quant il sçut que 
+<pb n="292"/>
+
+<lb/> Talbot venoit combatre, il avoit bien douze cents 
+<lb/> prisonniers, ausquelz il dist : <q>« Mes amys, allez-vous 
+<lb/> en, excepté Angloys d'Angleterre, gentilzhommes 
+<lb/> et gens estans en ville clouse tenant le party d'Angloys. 
+<lb/> Vous voyez bien que le roy d'Angleterre ne 
+<lb/> vous peult garentir que le roy de France, vostre 
+<lb/> souverain seigneur et le myen, ne vous envoye 
+<lb/> querir toutes foys que bon luy semblera. Pour ce, 
+<lb/> rendez-vous à tel jour à Dreux de chacune parroisse 
+<lb/> ung homme, sur peine d'estre couruz et 
+<lb/> d'estre mis à finance comme rebelles et desobéissans. »</q> 
+<lb/> Puis Loys de Bueil, son frere, saillit aux 
+<lb/> champs avec bon nombre de gens, tant comme mon 
+<lb/> maistre et la compaignie repaissoient ; car ilz avoient 
+<lb/> faict grant traicte. Et ainsi que mondit maistre et la 
+<lb/> compaignie, comme dit est, repaissoient, Loys de 
+<lb/> Bueil, son frere, envoya devers lui ung chevaucheur 
+<lb/> à très grant dilligence, lui faisant sçavoir que ledit 
+<lb/> sire de Talbot estoit aux champs et chevauchoit pour 
+<lb/> le venir surprendre à Lovyers, et desjà avoit-il veu 
+<lb/> son advengarde. Incontinant mon maistre monta à 
+<lb/> cheval pour aller au secours de son frere. Et, quant 
+<lb/> il vit venir son secours, il donna avec les gens qu'il 
+<lb/> avoit dans l'advengarde dudit sire de Talbot et rua 
+<lb/> jus et destroussa, dont Adam Ilthon estoit chef, qui 
+<lb/> fut prins prisonnier. Et Talbot se retira à Verneil à 
+<lb/> toute dilligence, et les baillifz de Rouen et de Gisors 
+<lb/> se retirerent droit à Rouen. 
+</p>
+</div>
+<div>
+<head>XXX.</head>
+<p>
+<lb/> Le lendemain, Talbot envoya sur une 
+<lb/> montagne près Louviers aucunes gens, que pareillement 
+<pb n="293"/>
+
+<lb/> Loys de Bueil destroussa. Puis s'en revindrent 
+<lb/> à Dreux, où ilz firent d'autres destrousses et entreprinses, 
+<lb/> qui longues seroient à racompter. De là partirent 
+<lb/> et allerent emparer Sainct-James de Beuvron, 
+<lb/> où ilz firent de belles chouses, et destrousserent Jannequin 
+<lb/> Bachetier et André Trollot, cappitaines d'Angloys, 
+<lb/> et de là prindrent Saincte-Suzanne sur les 
+<lb/> Anglois. 
+</p>
+</div>
+<div>
+<head>XXXI.</head>
+<p>
+<lb/> Puis fut prins une trefve entre les Françoys 
+<lb/> et les Anglois. Sur quoy, monseigneur le Daulphin 
+<lb/> entreprint d'aller secourir le duc d'Autriche en 
+<lb/> Almaigne. Et y vint Matago, anglois, Reinefor et 
+<lb/> autres jusques au nombre de quatre cens lances et 
+<lb/> quatre cens archiers, lesquelz ne furent point à la 
+<lb/> bataille que monseigneur le Daulphin gaigna sur les 
+<lb/> Soysses, par ce qu'ilz ne peurent pas venir à heure. 
+<lb/> Et, si vous volez dire qu'ilz n'ayent esté mis en la fiction 
+<lb/> du roy Amydas, c'estoit de peur que la chouse 
+<lb/> fut congneue ; et fut mis en leur lieu messire Guillaume 
+<lb/> Boqueton ; car on faisoit sur le livre ce qu'on 
+<lb/> povoit pour n'y entendre ryens. Ainsi estoient les 
+<pb n="294"/>
+
+<lb/> chouses meslées l'une parmy l'autre ; mais touteffoys 
+<lb/> c'estoient chouses advenues et y eust eu quelque 
+<lb/> entendement, ce que ne voloient ceulx qui faisoient 
+<lb/> le livre dudit <hi rend="ital">Jouvencel</hi>. Il y a beaucoup d'exemples 
+<lb/> qui se declarent ou livre du <hi rend="ital">Jouvencel</hi> assez d'eulx 
+<lb/> mesmes, au moyen de quoy n'en parle plus. 
+</p>
+</div>
+<div>
+<head>XXXII.</head>
+<p>
+<lb/> Et, sur ce, monseigneur le Daulphin fit 
+<lb/> prendre par mon maistre Montbelliart à peu de gens 
+<lb/> sur Allemans, Bourguignons et Savoysiens, puis 
+<lb/> donna à mon maistre commission d'aller secourir 
+<lb/> le siège de Surich, qui estoit à monseigneur d'Autriche, 
+<lb/> où les Soysses tenoient le siège. Et, quant les 
+<lb/> Soysses seurent la venue de mon maistre, ilz partirent 
+<lb/> du siège de Surich et vindrent au devant de 
+<lb/> luy pour le combatre. Monseigneur le Daulphin l'avoit 
+<lb/> fait son lieutenant et capitaine general sur toute son 
+<lb/> armée. Aussi n'avoit-il avec luy cappitaine que le 
+<lb/> comte de Dampmartin, messire Martin Gassic et 
+<lb/> Stevenot de Vignolles. Il combatit les Soysses devant 
+<lb/> Basle et les desconfit, ainsi qu'il pleut à Dieu. Et 
+<lb/> avoit monseigneur le Daulphin, son maistre, au doz 
+<lb/> pour le secourir, si mestier en estoit. 
+</p>
+</div>
+<div>
+<head>XXXIII.</head>
+<p>
+<lb/> Après cela, monseigneur le Daulphin 
+<lb/> mist en subgection tout le plain d'Aussais, depuis 
+<lb/> Basle jusques à Strasbourg ; puis fut mandé par le 
+<lb/> Roy son pere et rendit Montbelliart et tout ce qu'il 
+<lb/> tenoit au plain d'Aussays jusques à quinze places, 
+<pb n="295"/>
+
+<lb/> villes et chasteaux par le commandement du Roy son 
+<lb/> pere. 
+</p>
+</div>
+<div>
+<head>XXXIV.</head>
+<p>
+<lb/> Tantost après, les Angloys rompirent 
+<lb/> la trefve, parce qu'ilz prindrent Fougeres, et, sur ce, 
+<lb/> le Roy reprint la guerre à eulx et recouvra Normandie 
+<lb/> et Guyenne. Et ne fut Guienne gueres françoys 
+<lb/> qu'il ne se rebellast : le sire de Talbot vint à Bourdeaux 
+<lb/> avec une grande armée d'Anglois et la pluspart 
+<lb/> du pays luy obéist. Le Roy envoya monseigneur 
+<lb/> de Foiz, monseigneur de Dorval, Poton de Santrailles 
+<lb/> et autres seigneurs, chevaliers, cappitaines et 
+<lb/> escuyers ; et deça la Gironde envoya le sire de Bueil, 
+<lb/> mon maistre, son lieutenant, monseigneur le marechal 
+<lb/> de Loheac, messire Jacques de Chabanes, grant 
+<lb/> maistre d'hostel, le sire de la Forest, Joachin Rouault, 
+<lb/> le sire de la Vessière et maistre Jehan Bureau. Et 
+<lb/> bailla mondit maistre audit Joachin et à messire René 
+<lb/> d'Espeaux et Loys Sorbier une barrière coulisse en 
+<lb/> garde de par le Roy, qui estoit à l'entour du camp. 
+<lb/> Et s'i gouvernerent bien et vaillamment. Et vindrent 
+<lb/> de Bretaigne les sires de Montaulban et de la Hunaudaye. 
+<pb n="296"/>
+
+<lb/> Le maréchal de Jalonges estoit à Bergerac tout 
+<lb/> porté ; le sire de Talbot s'advisa que la plus petite 
+<lb/> compaignie estoit deça la Garonne, et estoient gens 
+<lb/> pour combatre à pied et menoient grant charroy et 
+<lb/> artillerie, et que les seigneurs, qui estoient delà la 
+<lb/> Gironde, estoient grant puissance et gens à cheval, et 
+<lb/> ne les trouveroit, sinon à leur plaisir, et les autres 
+<lb/> ne luy povoient fuyr, ainsi qu'il luy sembloit. Pour ce, 
+<lb/> marcha droit à eulx, et mal luy en print ; car il fut 
+<lb/> desconfit devant Castillon en Périgour, comme plus 
+<lb/> au long est contenu ou livre du <hi rend="ital">Jouvencel</hi>. 
+</p>
+</div>
+<div>
+<head>XXXV.</head>
+<p>
+<lb/> De là s'en partirent les seigneurs et 
+<lb/> cappitaines susdits et prindrent Sainct-Million et 
+<lb/> Liborne ; de là tirerent à Lormont devant Bourdeaux. 
+<lb/> Le Roy s'en alla à Liborne et fit venir grans 
+<lb/> navires par mer de Normandie, Bretaigne, Olande, 
+<lb/> Zelande, qui lors estoit à La Rochelle, et y vint l'admyral 
+<lb/> de Bretaigne en personne. Le sire de Bueil, 
+<lb/> mon maistre, estoit pour le temps admyral de France, 
+<lb/> qui fut chef de ceste armée, comme admyral et lieutenant 
+<lb/> du Roy à Lormont. Ainsi je vuel dire que c'est 
+<lb/> le mariage qu'il eust de la fille du roy Amydas par 
+<lb/> fiction : car deça la Gironde il fut lieutenant du Roy 
+<lb/> par mer et par terre. Si se acquita bien mon maistre 
+<lb/> de l'honneur que le Roy lui fist et tellement, graces 
+<pb n="297"/>
+
+<lb/> à Dieu, que le Roy conquist Bourdeaux et tout le 
+<lb/> pays. Et, en tant qu'il le fist lieutenant en celle partie, 
+<lb/> j'entens que le Roy lui avoit donné sa fille pour 
+<lb/> la puissance que luy avoit donnée et l'honneur qu'il 
+<lb/> lui fist. Aussi par ceste fiction du roy Amydas est à 
+<lb/> entendre que, quant le Roy commist le Jouvencel, 
+<lb/> mon maistre, son lieutenant devant Bourdeaux, on 
+<lb/> fit des rapportz en le cuydant brouller avec le Roy, 
+<lb/> disant que mondit maistre et aucuns avec luy faisoient 
+<lb/> des chouses qui ne luy plaisoient pas, et qu'il estoit 
+<lb/> besoin y donner provision. Et, pour lesditz rapportz, 
+<lb/> ne fut pas le Roy content de luy, quelque service 
+<lb/> qu'il lui eust faict, et luy manda que incontinent 
+<lb/> allast devers luy à Liborne : ce qu'il fist. Et, ce tantost 
+<lb/> qu'il fut devers luy, le Roy congneut les faulx 
+<lb/> rapportz qu'on avoit faict de luy. Pour ces causes, 
+<lb/> suplia au Roy que son plaisir fust le descharger de 
+<lb/> l'auctorité et puissance qu'il lui avoit donnée et commetre 
+<lb/> quelque homme de bien à Lormont et prendre 
+<lb/> ou faire prendre le serment de tous les capitaines et 
+<lb/> gens d'armes qui y estoient. Adonc congnut le Roy 
+<lb/> qu'il n'estoit ryen desdictz rapportz, et en fut très 
+<lb/> content en donnant plus de puissance que devant à 
+<lb/> mondit maistre le Jouvencel. 
+</p>
+</div>
+<div>
+<head>XXXVI.</head>
+<p>
+<lb/> Des chouses qui ont esté desguisées et 
+<lb/> divisées ou livre du <hi rend="ital">Jouvencel</hi>, je vous en dis l'exposition. 
+<lb/> D'autres pratiques qui ont esté faictes, que 
+<lb/> mon maistre et autres ont faictes et executées à l'exploict 
+<lb/> de la guerre, je ne les vous declareray point ; 
+<lb/> car vous en trouverez la pluspart ou livre du <hi rend="ital">Jouvencel</hi>, 
+<pb n="298"/>
+
+<lb/> ouquel mondit maistre y a point volu estre 
+<lb/> nommé. 
+</p>
+</div>
+<div>
+<head>XXXVII.</head>
+<p>
+<lb/> Et, pour vous declarer le conte de 
+<lb/> Parvencheres ou livre du <hi rend="ital">Jouvencel</hi>, ce eust esté forte 
+<lb/> chouse d'avoir couché tous les lieutenants que le Roy 
+<lb/> ordonnoit ; car il en a eu plusieurs et en plusieurs 
+<lb/> pays et contrées. Entre les autres, il s'est fort aydé 
+<lb/> du conte de Dunoys ; car il y avoit de grans princes 
+<lb/> lieutenans en plusieurs pays ; mais le Roy lui donnoit 
+<lb/> communement des charges çà et là et lieutenances ; 
+<lb/> mesmement, là où estoit la personne du Roy et des 
+<lb/> grans seigneurs, l'ay-je veu lieutenant sur les gens 
+<lb/> d'armes. Et, en beaucoup de lieux, le Jouvencel, 
+<lb/> mon maistre, l'acompagnoit, et, quant le Roy embesongnoit 
+<lb/> monseigneur de Dunoys en son conseil ou 
+<lb/> autrement, du voloir du Roy, il laissoit volentiers la 
+<lb/> charge au Jouvencel. 
+</p>
+</div>
+<div>
+<head>XXXVIII.</head>
+<p>
+<lb/> Le Jouvencel fut lieutenant du conte 
+<lb/> du Mayne et du duc d'Alençon quelquefoys. Et pour 
+<lb/> ce est-il dit en son livre qu'il estoit lieutenant du 
+<lb/> conte de Parvencheres, pour ce que ces seigneurs 
+<lb/> le laissoient en leur lieu. Et, pour mieulx deguiser 
+<lb/> tousjours icelluy livre, on les appelle tous le conte 
+<lb/> de Parvancheres. Aussi, de la part des Angloys, 
+<lb/> il est entendu pour tous lieutenans du roy d'Angleterre 
+<lb/> le duc Baudoyn, dit le duc d'Ath, pour le duc 
+<lb/> de Bethfort, et le conte d'Arondel pour le conte 
+<lb/> d'Orthe. 
+</p>
+</div>
+<div>
+<head>XXXIX.</head>
+<p>
+<lb/> Il saillit de la compaignie du Jouvencel, 
+<lb/> mon maistre, plusieurs gens de bien qui se firent 
+<lb/> grans gens, et entre les autres messire Anthoyne de 
+<pb n="299"/>
+
+<lb/> Champagne, Joachin Rouault, qui depuis a esté 
+<lb/> mareschal de France, Jehan de Brezé, messire René 
+<lb/> de la Jumelière, et mesmement messire Pierre de 
+<lb/> Brezé, qui depuis a esté grant senechal de Normandie, 
+<lb/> et plusieurs autres. Et, pour ce que j'ay en mon 
+<lb/> entendement sceu la verité des chouses, je les ay 
+<lb/> mises le plus au vray que j'ay peu, grossement, sans 
+<lb/> plus declarer. Et soyez seurs qu'il n'y a point de 
+<lb/> faulte en ce que j'ay cy-devant escript. Et, s'il n'est 
+<lb/> si bien mis et si au long comme il appartient, je supplie 
+<lb/> aux lisans qu'il leur plaise me pardonner.
+</p>
+</div>
+</body>
+</text>
+</TEI>

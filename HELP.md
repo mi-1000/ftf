@@ -6,16 +6,16 @@
    | $$   | $$         | $$                       | $$  | $$| $$      | $$      | $$  \ $$
    | $$   | $$$$$      | $$          /$$$$$$      | $$$$$$$$| $$$$$   | $$      | $$$$$$$/
    | $$   | $$__/      | $$         |______/      | $$__  $$| $$__/   | $$      | $$____/ 
-   | $$   | $$         | $$                       | $$  | $$| $$      | $$      | $$    
-   | $$   | $$         | $$                       | $$  | $$| $$$$$$$$| $$$$$$$$| $$    
-   |__/   |__/         |__/                       |__/  |__/|________/|________/|__/    
+   | $$   | $$         | $$                       | $$  | $$| $$      | $$      | $$  
+   | $$   | $$         | $$                       | $$  | $$| $$$$$$$$| $$$$$$$$| $$  
+   |__/   |__/         |__/                       |__/  |__/|________/|________/|__/  
 ```
 
 ## How to know which terminal language I am using?
 
 - In this guide, I will show commands for 3 languages, CMD, PowerShell and Bash:
   - CMD is used on Windows. It's less powerful than PowerShell, I personally don't like it, but it's totally okay for what we do. You should know you are using CMD if typing the command `ls` gives you an error.
-  - PowerShell is the newer terminal language used by Windows. It is the default language in the terminal integrated to VS Code. It supports autocompletion using `<kbd>`TAB`</kbd>`.
+  - PowerShell is the newer terminal language used by Windows. It is the default language in the terminal integrated to VS Code. It supports autocompletion using `<kbd>`TAB `</kbd>`.
   - Bash is used on MacOS and Linux. You can also run it natively on Windows through WSL, which I will cover later in this guide.
 
 ## Useful terminal commands
@@ -47,7 +47,7 @@
   - CMD/PowerShell/Bash: `rmdir <folder_name>` - Note: This removes the folder permanently, same as above with `del`/`rm`
 - Remove a folder and all files inside:
   - CMD: `rd/s/q <folder_name>` - Note: I've already said it, but this removes all the files permanently without any possible backup. Same applies for both other languages.
-  - PowerShell: `rm -Recurse -Force <folder_name>` - Note: That's long to type, so don't forget to use autocompletion with `<kbd>`TAB`</kbd>`.
+  - PowerShell: `rm -Recurse -Force <folder_name>` - Note: That's long to type, so don't forget to use autocompletion with `<kbd>`TAB `</kbd>`.
   - Bash: `rm -r <folder_name>` - Note: You can use the flag `-f` (`rm -rf`) to bypass warnings or errors, but use it at your own risk. Typing `rm -rf /` by accident can destroy all files in your computer forever.
 - Clear the console:
   - CMD/PowerShell: `cls`
@@ -64,8 +64,8 @@
   - Open the current folder in VS Code as a new project: `code .`
   - Open a file in VS Code and create it if it doesn't exists: `code <file_name>`
 - Stop a process:
-  - If a program you are running in your terminal is stuck, you can force stop it using `<kbd>`Ctrl`</kbd>`+`<kbd>`C`</kbd>`.
-  - As this shortcut is taken, you need to use `<kbd>`Ctrl`</kbd>`+`<kbd>`Shift`</kbd>`+`<kbd>`C`</kbd>` for copying. Likewise, you might have to use `<kbd>`Ctrl`</kbd>`+`<kbd>`Shift`</kbd>`+`<kbd>`V`</kbd>` for pasting.
+  - If a program you are running in your terminal is stuck, you can force stop it using `<kbd>`Ctrl `</kbd>`+`<kbd>`C `</kbd>`.
+  - As this shortcut is taken, you need to use `<kbd>`Ctrl `</kbd>`+`<kbd>`Shift `</kbd>`+`<kbd>`C `</kbd>` for copying. Likewise, you might have to use `<kbd>`Ctrl `</kbd>`+`<kbd>`Shift `</kbd>`+`<kbd>`V `</kbd>` for pasting.
 
 ## What's the difference between Git and GitHub?
 
@@ -141,7 +141,7 @@
   - CMD/PowerShell/Bash: `pip install <package_name>` - Example: To install `transformers`, run `pip install transformers` within the project root folder (with your virtual environment activated).
 - A project typically needs several of such dependencies to work properly. As we do not push our virtual environment to GitHub, everybody needs to install the required packages on their own.
 - To make sure everybody can easily install all the necessary packages without running `pip install <package_name>` tens of times, and to also ensure we all work with the same version of each dependency, we will use a special file named `requirements.txt`, that will list all the dependencies used in our project along with their corresponding version (if applicable). We then just have to run `pip install -r requirements.txt` regularly to keep our packages up-to-date, as `requirements.txt` will be a file shared by everyone.
-- When a piece of code you add requires a new dependency, you need to add it to `requirements.txt`. But programmers are lazy, so run `pip freeze > requirements.txt` instead (with your virtual environment activated), or `py -m  pipreqs.pipreqs --encoding utf-8 .` (CMD/PowerShell)/`python -m  pipreqs.pipreqs --encoding utf-8 .` (Bash), which is a better practice, but you will have to install it using `pip install pipreqs` first.
+- When a piece of code you add requires a new dependency, you need to add it to `requirements.txt`. But programmers are lazy, so run `pip freeze > requirements.txt` instead (with your virtual environment activated), or `py -m  pipreqs.pipreqs --encoding utf-8 .` (CMD/PowerShell)/`python -m  pipreqs.pipreqs --encoding=utf-8 .` (Bash), which is a better practice, but you will have to install it using `pip install pipreqs` first. If you get an error, try to change the value of the `--encoding` flag to `iso-8859-1` instead, or add the following flag: `--ignore .venv`
 
 ### Environment variables
 
@@ -164,7 +164,7 @@
   - List available distributions: `wsl -l -o` - Note: You can have several distributions installed, and then switch between them upon starting WSL, using `wsl -d <distribution_name`.
 - I recommend you to install the default Ubuntu distribution for now. This is the one I will use in my next examples.
 - Once WSL is installed, restart your computer.
-- You can now open your terminal and run `wsl` to start WSL. Even better, you can call the program directly, using `<kbd>`Win`</kbd>`+`<kbd>`R`</kbd>`, then typing `wsl`.
+- You can now open your terminal and run `wsl` to start WSL. Even better, you can call the program directly, using `<kbd>`Win `</kbd>`+`<kbd>`R `</kbd>`, then typing `wsl`.
 - For the first launch, you will have to set up a password for your super user (`sudo`). You will use it quite a lot, so don't take something overcomplicated; 6 letters is enough.
 - In case you forget your password, run `wsl -u root`. This will connect you to WSL directly as a super user. You can then type `passwd <username>` to reset your password.
 - You have your Linux home directory located at `~/` (shortcut for `/home/<username>`), but you can also access your Windows user directory from within WSL at `/mnt/c/Users/<username>`.

@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="fr">
+  <fileDesc>
+    <titleStmt>
+      <title type="main">Cérémonial d'une épreuve judiciaire</title>
+      <title type="formal">EpreuveJudic</title>
+      <title type="reference">EpreuveJudic</title>
+      <title type="DEAF">EpreuveJudicG</title>
+      <title type="gmd">transcription électronique</title>
+      <author xml:id="anonyme">anonyme</author>
+      <editor>Équipe de la Base de français médiéval - ENS de Lyon / UMR 5317 IHRIM</editor>
+      <funder>Laboratoire IHRIM</funder>
+    </titleStmt>
+    <editionStmt>
+      <edition>transcripion électronique</edition>
+      <respStmt xml:id="encoder2">
+        <resp>conversion en XML et balisage automatique</resp>
+        <name xml:id="AL">Alexei Lavrentiev</name>
+      </respStmt>
+      <respStmt xml:id="proofreader2">
+        <resp>deuxième relecture et vérification du balisage</resp>
+        <name xml:id="BS">Bérénice Stoll</name>
+      </respStmt>
+      <respStmt xml:id="digitizer2">
+        <resp>océrisation</resp>
+        <name xml:id="CICL">CICL</name>
+      </respStmt>
+      <respStmt xml:id="proofreader1">
+        <resp>première relecture</resp>
+        <name xml:id="CS">Claire Sonnefraud</name>
+      </respStmt>
+      <respStmt xml:id="encoder2">
+        <resp>validation finale</resp>
+        <name xml:id="LB">Lauranne Bertrand</name>
+      </respStmt>
+    </editionStmt>
+    <extent>- Numéros de pages saisies : de 64 à 66 ;
+            - Nombre de mots d'après la base des descripteurs : <num xml:id="nb_mots_given">414</num> ;
+            - Nombre de tokens (mots et ponctuations) d'après la base des descripteurs : <num xml:id="nb_tokens_given">511</num>.
+    </extent>
+    <publicationStmt>
+      <publisher><name>Projet BFM, ENS de Lyon / UMR 5317 IHRIM</name></publisher>
+      <address>
+        <addrLine>15, parvis René Descartes</addrLine>
+        <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+        <addrLine>Tél : 04 37 37 63 10</addrLine>
+        <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+        <addrLine>http://bfm.ens-lyon.fr</addrLine>
+      </address>
+      <idno type="bfm">http://catalog.bfm-corpus.org/EpreuveJudic</idno>
+      <idno type="doi">10.34847/nkl.846ers85</idno>
+      <availability status="free">
+        <licence target="https://www.etalab.gouv.fr/licence-ouverte-open-licence">
+          <ab type="availability_bfm" subtype="libre_1a">Les Conditions générales d'utilisation de la Base de Français Médiéval (http://txm.bfm-corpus.org/bfm/files/CGU.pdf), 
+            et notamment son Article 5 « PROPRIETE INTELLECTUELLE », s'appliquent à tous les textes de la BFM.</ab>
+          <ab type="how_to_cite">
+            <label>Comment citer ce texte :</label>
+            <bibl>Cérémonial d'une épreuve judiciaire, édité par Markus Gersbach, Bern, 1965. 
+              Publié en ligne par la Base de français médiéval, http://catalog.bfm-corpus.org/EpreuveJudic.
+              Dernière révision le 2010-08-10.</bibl>
+            D'autres formules de citation de la BFM sont proposées sur la page web suivante :
+            http://bfm.ens-lyon.fr/article.php3?id_article=281.</ab>
+          <ab type="availability_file">
+            <label>Conditions d'utilisation de ce fichier :</label>
+              Ce fichier numérique est composé du corps de texte médiéval et des suppléments numériques : balisage XML-TEI, métadonnées (teiHeader). Le texte et les suppléments numériques sont libres de droit et peuvent à ce titre être téléchargés et réutilisés librement.
+            </ab>
+            <ab type="availability_txmweb" subtype="illimité">
+              <label>Conditions d'utilisation par le portail BFM :</label>
+              Pas de limitation dans l'usage des fonctionnalités. Téléchargement autorisé.</ab>
+        </licence>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>Eine altfranzösische Formel zu einem Gottesurteil</title>
+          <respStmt>
+            <resp xml:id="editor">Éditeur scientifique</resp>
+            <name type="person">Markus Gersbach</name>
+          </respStmt>
+        </titleStmt>
+          <extent>3 page(s), soit 1-3
+        </extent>
+        <publicationStmt>
+          <publisher>Francke Verlag</publisher>
+          <pubPlace>Bern</pubPlace>
+          <date>1965</date>
+          <idno type="sigle_DEAF">EpreuveJudicG</idno>
+          <idno type="cote_biblio">ENC : 8Q338</idno>
+        </publicationStmt>
+      </biblFull>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p>Projet :<name type="project">BFM - Base de français médiéval</name>
+        Resp. : <name type="person">Céline Guillot-Barbance</name>
+        Équipe : Base de français médiéval
+        Laboratoire : UMR 5317 IHRIM
+        Institution : ENS de Lyon
+        <address>
+          <addrLine>15, parvis René Descartes</addrLine>
+          <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+          <addrLine>Tél : 04 37 37 63 10</addrLine>
+          <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+          <addrLine>http://bfm.ens-lyon.fr</addrLine>
+        </address>
+      </p>
+    </projectDesc>
+    <editorialDecl>
+      <p>Voir le <ref target="http://bfm.ens-lyon.fr/IMG/pdf/Manuel_Encodage_TEI.pdf">Manuel d'encodage XML-TEI de la BFM</ref>
+        et les <ref target="http://bfm.ens-lyon.fr/IMG/pdf/Consignes_BFM.pdf">Consignes aux relecteurs de la BFM</ref>.</p>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="ab" occurs="14"/>
+        <tagUsage gi="body" occurs="1"/>
+        <tagUsage gi="div" occurs="1"/>
+        <tagUsage gi="lb" occurs="64"/>
+        <tagUsage gi="pb" occurs="3"/>
+        <tagUsage gi="text" occurs="1"/>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <creation>
+      <name type="author">anonyme</name>
+      <title>Cérémonial d'une épreuve judiciaire</title>
+      <date type="compo" when="1117-01-01" notBefore="1100-01-01" notAfter="1133-01-01" n="12">déb. 12e s.</date>
+      <date type="compo_periode">ancien</date>
+      <date type="compo_sous_siecle" n="12_1">début</date>
+      <date type="ms" when="1216-01-01" notBefore="1200-01-01" notAfter="1233-01-01">déb. 12e s.</date>
+      <idno type="msIdentifier">BN lat. 2403</idno>
+      <region type="dialecte_auteur">normand</region>
+    </creation>
+    <langUsage>
+      <language ident="fro" usage="100">Le texte est entièrement écrit en prose en ancien français.</language>
+    </langUsage>
+    <textDesc>
+      <channel mode="w">print</channel>
+      <constitution type="single"/>
+      <derivation type="original"/>
+      <domain type="juridique"/>
+    <factuality type="inapplicable"/>
+      <interaction type="none"/>
+      <preparedness type="prepared"/>
+      <purpose type="narrative"/></textDesc>
+    <textClass>
+      <keywords scheme="http://authorities.bfm-corpus.org">
+        <term type="domaine">juridique</term>
+        <term type="genre">cérémonial</term>
+        <term type="forme">prose</term>
+        <term type="relation">original</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change who="#CICL" when="2008-07-21">océrisation</change>
+    <change who="#CICL" when="2008-07-21">scannage</change>
+    <change who="#AL" when="2008-08-13">préparation à la relecture 1</change>
+    <change who="#AL" when="2008-09-24">création du descripteur</change>
+    <change who="#CS" when="2008-11-04">première relecture</change>
+    <change who="#AL" when="2009-02-16">conversion en XML et balisage automatique</change>
+    <change who="#BS" when="2010-06-19">deuxième relecture et vérification du balisage</change>
+    <change who="#LB" when="2010-08-10">validation finale</change>
+    <change when="2010-08-10">Dernière modification du texte</change>
+    <change when="2022-11-04">Création de cet entête</change>
+  </revisionDesc>
+</teiHeader>
+<text>
+		
+		<body>
+			<div>
+			    <pb n="64"/>
+				<ab type="gl" n="1">
+<lb n="1"/>Chi certe cose deit enquerre, ses iunies deit faire
+<lb n="2"/>e ses elemosinas e ne deit estre e missa et matinas deit 
+<lb n="3"/>orer e ses septem psalmes e sa letania e ses oratiuns et 
+<lb n="4"/>aqua benedicta.
+				</ab>
+			    <ab type="gl" n="2">
+<lb n="5"/>Antiphona. Nos autem gloriari.
+<lb n="6"/>Psalmus. Deus misereatur.
+<lb n="7"/>Oratio. Deus qui in praeclara.
+<lb n="8"/>Epistola. Fratres confido in vobis.
+<pb n="65"/>
+<lb n="9"/>Alleluia. Nos autem.
+<lb n="10"/>Alleluia. Dulce lignum.
+<lb n="11"/>Evangelium. Erat homo ex phariseis.
+<lb n="12"/>Offertorium. Protege Domine.
+<lb n="13"/>Secreta. Sacrifitium Domine.
+<lb n="14"/>Agnus Dei. Agnus Dei.
+			    </ab>
+			    <ab type="gl" n="3">
+<lb n="15"/>Ore preiuns devine misericordie e ma damne sancta Maria
+<lb n="16"/>e ma damne sainte Cruiz et ma damne sancta Elena et toz 
+<lb n="17"/>sainz et totes saintes et toz les fedelz damine Deu,
+<lb n="18"/>qui trinus est in numero et unus est in homine, que il
+<lb n="19"/>tot preient damine Deu, que il declarast et il demonstrast 
+<lb n="20"/>ceste cose, que nuls uem ne puscet estre encolpet si cil
+<lb n="21"/>non chi dreit i ad.
+			    </ab>
+			    <ab type="gl" n="4">			        
+<lb n="22"/>Ore deit lon prendre une rotele et ensansunt en un fust
+<lb n="23"/>et metre le mance ensz el livre e lier bien que nen chidet, 
+<lb n="24"/>et puis prendre le livre par la rotele a duos deenz et
+<lb n="25"/>ius prendre.
+			    </ab>
+			    <ab type="gl" n="5">			        
+<lb n="26"/>Domine Jhesu Christe, fili Dei vivi, quia tu mundas manus
+<lb n="27"/>posuisti in cruce et nos omnes tuo pretioso sanguine
+<lb n="28"/>redemisti, appareat veritas tua super librum istum,
+<lb n="29"/>qui in dexteram formasti et benedixisti in substantia
+<lb n="30"/>hominum et ad continendam si veritas est qui culpabilis
+<lb n="31"/>sit ille homo aliquid qui te. nom. ill.,
+<lb n="32"/>si ille furtum fecerit aut consenserit, tornet librum istum, 
+<lb n="33"/>et si ille furtum non fecerit nec consenserit, non tornet.
+			    </ab>
+			    <ab type="gl" n="6">
+<lb n="34"/>Domine Deus Abraham, Domine Deus Isaac, Domine Deus Jacob,
+<lb n="35"/>Domine Deus Micael, Domine Deus Gabriel, Domine Deus Raphael, 
+<lb n="36"/>Domine Deus angelorum, Domine Deus arcangelorum,
+<lb n="37"/>Domine Deus prophetarum, Domine Deus apostolorum, Domine 
+<lb n="38"/>Deus martirum, Domine Deus confessorum, Domine Deus virginum,
+<pb n="66"/>
+<lb n="39"/>Domine Deus omnium sanctorum, Domine Deus qui liberasti
+<lb n="40"/>tres pueros de camino ignis ardentis, Sidrac, Misac et
+<lb n="41"/>Abdenago, Domine Deus qui liberasti Danielem de lacu leonum,
+<lb n="42"/>libera innocentem et trade malefactorem in culpam.
+			    </ab>
+			    <ab type="gl" n="7">
+<lb n="43"/>Psalmus. Miserere mei Deus totus.
+<lb n="44"/>Gloria patri.
+<lb n="45"/>Enquore enquirere.
+			    </ab>
+			    <ab type="gl" n="8">
+<lb n="46"/>Agnus Dei.
+<lb n="47"/>Communio. Redemptor mundi. 
+<lb n="48"/>Postcommunio. Repleti alimonia. 
+<lb n="49"/>Psalmus. Profitiat.
+			    </ab>
+			    <ab type="gl" n="9">
+<lb n="50"/>Missa de natali Domini deit odir chi campist.
+<lb n="51"/>Antiphona. Lux fulgebit.
+<lb n="52"/>Psalmus. Dominus regnavit.
+<lb n="53"/>Oratio. Da quaesumus omnipotens Deus ut qui nova.
+<lb n="54"/>Epistola. Apparuit benignitas.
+<lb n="55"/>Responsum. Benedictus qui venit. 
+<lb n="56"/>Versus. A Domino.
+<lb n="57"/>Alleluia. Dominus regnavit.
+<lb n="58"/>Evangelium. Pastores loquebantur. 
+<lb n="59"/>Offertorium. Deus enim firmavit.
+<lb n="60"/>Secreta. Munera nostra quaesumus Domine.
+			    </ab>
+			    <ab type="gl" n="10">
+<lb n="61"/>Missa de la resurrection, missam de sancta Trinitate,
+<lb n="62"/>missa de sancto Stephano deit lun dire por le campiun
+<lb n="63"/>quant il entret el camp.
+<lb n="64"/>Psalmus. Quicumque vult.
+				</ab>
+			</div>
+		</body>
+	</text>
+</TEI>

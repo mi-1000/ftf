@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="fr">
+  <fileDesc>
+    <titleStmt>
+      <title type="main">Légende de sainte Bathilde</title>
+      <title type="formal">SBath4</title>
+      <title type="reference">SBath4</title>
+      <title type="DEAF">LégDorVignBathB</title>
+      <title type="gmd">transcription électronique</title>
+      <author xml:id="JVignay" key="Jean de Vignay (1282?-13..)" ref="http://www.idref.fr/026659778">Jean Vignay</author>
+      <editor>Équipe de la Base de français médiéval - ENS de Lyon / UMR 5317 IHRIM</editor>
+      <funder>Laboratoire IHRIM</funder>
+      <funder>HumaNum (consortium CAHIER)</funder>
+    </titleStmt>
+    <editionStmt>
+      <edition>transcripion électronique</edition>
+      <respStmt xml:id="encoder2">
+        <resp>vérification et validation du balisage</resp>
+        <name xml:id="AL">Alexei Lavrentiev</name>
+      </respStmt>
+      <respStmt xml:id="encoder1">
+        <resp>conversion en XML TEI et balisage manuel</resp>
+        <name xml:id="LD">Lydie Danjean</name>
+      </respStmt>
+    </editionStmt>
+    <extent>- Numéros de pages saisies : de 100 à 102 ;
+            - Nombre de mots d'après la base des descripteurs : <num xml:id="nb_mots_given">717</num> ;
+            - Nombre de tokens (mots et ponctuations) d'après la base des descripteurs : <num xml:id="nb_tokens_given">812</num>.
+    </extent>
+    <publicationStmt>
+      <publisher><name>Projet BFM, ENS de Lyon / UMR 5317 IHRIM</name></publisher>
+      <address>
+        <addrLine>15, parvis René Descartes</addrLine>
+        <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+        <addrLine>Tél : 04 37 37 63 10</addrLine>
+        <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+        <addrLine>http://bfm.ens-lyon.fr</addrLine>
+      </address>
+      <idno type="bfm">http://catalog.bfm-corpus.org/SBath4</idno>
+      <idno type="doi">10.34847/nkl.b535yzo2</idno>
+      <availability status="free">
+        <licence target="https://www.etalab.gouv.fr/licence-ouverte-open-licence">
+          <ab type="availability_bfm" subtype="libre_1b">Les Conditions générales d'utilisation de la Base de Français Médiéval (http://txm.bfm-corpus.org/bfm/files/CGU.pdf), 
+            et notamment son Article 5 « PROPRIETE INTELLECTUELLE », s'appliquent à tous les textes de la BFM.</ab>
+          <ab type="how_to_cite">
+            <label>Comment citer ce texte :</label>
+            <bibl>Jean Vignay, Légende de sainte Bathilde, édité par Anders Bengtsson, Lund, 1996. 
+              Publié en ligne par la Base de français médiéval, http://catalog.bfm-corpus.org/SBath4.
+              Dernière révision le 2013-07-29.</bibl>
+            D'autres formules de citation de la BFM sont proposées sur la page web suivante :
+            http://bfm.ens-lyon.fr/article.php3?id_article=281.</ab>
+          <ab type="availability_file">
+            <label>Conditions d'utilisation de ce fichier :</label>
+              Ce fichier numérique est composé du corps de texte médiéval et des suppléments numériques : balisage XML-TEI, métadonnées (teiHeader). Le texte et les suppléments numériques sont libres de droit et peuvent à ce titre être téléchargés et réutilisés librement.
+            </ab>
+            <ab type="availability_txmweb" subtype="illimité">
+              <label>Conditions d'utilisation par le portail BFM :</label>
+              Pas de limitation dans l'usage des fonctionnalités. Téléchargement autorisé.</ab>
+        </licence>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>La vie de sainte Bathilde / Version IV - ms. B. N. fr. 242</title>
+          <author>Jean Vignay</author>
+          <respStmt>
+            <resp xml:id="editor">Éditeur scientifique</resp>
+            <name type="person">Anders Bengtsson</name>
+          </respStmt>
+        </titleStmt>
+          <extent>3 page(s), soit 100-102
+        </extent>
+        <publicationStmt>
+          <publisher>Lund University Press</publisher>
+          <pubPlace>Lund</pubPlace>
+          <date>1996</date>
+          <idno type="isbn">91-7966-373-7</idno>
+          <idno type="sigle_DEAF">LégDorVignBathB</idno>
+          <idno type="cote_biblio">BFM perso : R179</idno>
+        </publicationStmt><seriesStmt><title>Études romanes de Lund</title></seriesStmt>
+      </biblFull>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p>Projet :<name type="project">BFM - Base de français médiéval</name>
+        Resp. : <name type="person">Céline Guillot-Barbance</name>
+        Équipe : Base de français médiéval
+        Laboratoire : UMR 5317 IHRIM
+        Institution : ENS de Lyon
+        <address>
+          <addrLine>15, parvis René Descartes</addrLine>
+          <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+          <addrLine>Tél : 04 37 37 63 10</addrLine>
+          <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+          <addrLine>http://bfm.ens-lyon.fr</addrLine>
+        </address>
+      </p>
+    </projectDesc>
+    <editorialDecl>
+      <p>Voir le <ref target="http://bfm.ens-lyon.fr/IMG/pdf/Manuel_Encodage_TEI.pdf">Manuel d'encodage XML-TEI de la BFM</ref>
+        et les <ref target="http://bfm.ens-lyon.fr/IMG/pdf/Consignes_BFM.pdf">Consignes aux relecteurs de la BFM</ref>.</p>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="body" occurs="1"/>
+        <tagUsage gi="div" occurs="1"/>
+        <tagUsage gi="head" occurs="1"/>
+        <tagUsage gi="lb" occurs="61"/>
+        <tagUsage gi="milestone" occurs="2"/>
+        <tagUsage gi="p" occurs="9"/>
+        <tagUsage gi="pb" occurs="3"/>
+        <tagUsage gi="text" occurs="1"/>
+        <tagUsage gi="w" occurs="1"/>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <creation>
+      <name type="author">Jean Vignay</name>
+      <title>Légende de sainte Bathilde</title>
+      <date type="compo" when="1335-01-01" notBefore="1330-01-01" notAfter="1340-01-01" n="14">ca. 1335</date>
+      <date type="compo_periode">moyen</date>
+      <date type="compo_sous_siecle" n="14_2">milieu</date>
+      <date type="ms" when="1402-01-01" notBefore="1402-01-01" notAfter="1402-12-31">1402</date>
+      <idno type="msIdentifier">Paris, BnF, fr. 242</idno>
+      <region type="dialecte_auteur">non défini</region>
+    </creation>
+    <langUsage>
+      <language ident="fro" usage="100">Le texte est entièrement écrit en prose en moyen français.</language>
+    </langUsage>
+    <textDesc>
+      <channel mode="w">print</channel>
+      <constitution type="single"/>
+      <derivation type="traduction"/>
+      <domain type="religieux"/>
+    <factuality type="inapplicable"/>
+      <interaction type="none"/>
+      <preparedness type="prepared"/>
+      <purpose type="narrative"/></textDesc>
+    <textClass>
+      <keywords scheme="http://authorities.bfm-corpus.org">
+        <term type="domaine">religieux</term>
+        <term type="genre">hagiographie</term>
+        <term type="forme">prose</term>
+        <term type="relation">traduction</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change who="#LD" when="2012-06-28">conversion en XML TEI et balisage manuel</change>
+    <change who="#AL" when="2013-07-29">vérification et validation du balisage</change>
+    <change when="2013-07-29">Dernière modification du texte</change>
+    <change when="2022-11-04">Création de cet entête</change>
+  </revisionDesc>
+</teiHeader>
+<text>
+      <body>
+         <div>
+            <pb n="100"/>
+            
+<head>
+<lb/>De la vie sainte Baudeur.</head>
+<p>
+<lb/>Sainte Baudeur fu emblee de ceulx d'oultre mer et depuis fu
+<lb/>rachatee d'un prince que on appeloit Herchanoaldus qui estoit moult
+<lb/>puissant. Elle fu attraitte de moult noble sanc et estoit moult belle en
+<lb/>regart <milestone unit="folio" n="295b"/> et moult lié visage avoit, meure en maintieng et
+<lb/>conversacion et moult chaste, sobre, sage, humble et gracieuse et tant
+<lb/>pleut au devantdit prince que il l'ordonna estre gouvernerresse de son
+<lb/>ostel, ouquel office elle servoit si humblement tous les anciens de
+<lb/>l'ostel que elle mesme les deschaussoit et leur nestoioit leurs soliers et
+<lb/>appareilloit leurs vestemens et donnoit l'eaue a laver lez mains et toutes
+<lb/>ces choses cy faisoit d'umble cuer sans faintise, sans moquerie et sanz
+<lb/>flaterie.</p>
+<p>
+<lb/>Quant la femme Herchanoaldus fu trespassee, il voult avoir
+<lb/>Baudeur, et aussy comme on l'appelloit pour couchier avec le prince,
+<lb/>elle se muça et retray en un anglet et mist sur elle un grant tas de ors et
+<lb/>meschans drapiaux affin que nul ne pensast qu'il y eust personne
+<lb/>dessoubz. Quant le prince vit qu'on ne la povoit trouver, il en prist une
+<lb/>autre. Toutefoiz, aprez on la quist tant que elle fu trouvee, maiz le
+<lb/>prince ne lui toucha point. Aprez, par la grace de Dieu, elle fu 
+ 
+
+<pb n="101"/>
+<lb/>femme du roy Clovis, filz du roy Dagobert, dont ce fu bien raison, car
+<lb/>elle estoit femme de sanc royal. Elle faisoit moult d'aumosnes aux
+<lb/>eglises et aux povres par les mains d'un abbé appellé Genesi, qui estoit
+<lb/>songneusement receus ou palayz, lequel depuis fu evesque de Lyon et si
+<lb/>fu ordonné de par le roy pour estre conseillier de la royne.</p>
+<p>
+<lb/>Ceste royne cy mist hors du royaume de France et extyrpa la
+<lb/>pestilence de symonie et si fist cesser les mauvaises exactions publiques
+<lb/>qui estoient si grandes et si grevables que plusieurs desiroient plus la
+<lb/>mort de leurs enfans que la vie. Elle fist edifier une eglise de
+<lb/>glorieuses nonnains que on apelle en latin Kalam et en l'eveschié
+<lb/>d'Amiens l'eglise de Corbie et y donna moult de villes et de rentes. Et
+<lb/>a maintes eglises elle donna aussy maints beaulx dons et libertez et si
+<lb/>rachata plusieurs prisonniers qu'elle laissa gaigner leurs vies et les
+<lb/>aucuns faisoit mettre en religion.</p>
+<p>
+<lb/>Quant Nostre Sire ot fet sa volenté de son mary, elle fu menee
+<lb/>par sa priere des seigneurs de France en l'<w>abba<milestone unit="folio" n="295c"/>ye</w> de Kalam
+<lb/>et la prist l'abit de la religion. En sa sepmaine qu'elle devoit ministrer
+<lb/>en l'office de la cuisine, elle servoit et ministroit si humblement
+<lb/>comme la mendre des suers de leans et nettoit plus proprement que
+<lb/>nulle des autres, et l'ordure des povres malades moult songneusement
+<lb/>nettoioit. Une foiz, elle cheut en une maladie que l'en appelle douleur
+<lb/>de ventre, de laquelle moyennant l'ayde de Dieu et des medicins elle fu
+<lb/>garie. 
+ 
+</p>
+<pb n="102"/>
+<p>
+<lb/>Quant l'eure de sa mort approcha, une vision lui fu monstrree
+<lb/>telle qu'il lui sembloit que une eschiele fust dreciee devant l'ostel a la
+<lb/>vierge Marie, de laquelle le bout d'en haut touchoit au ciel et par lez
+<lb/>degrez de ladite eschiele elle penetroit les secrets du ciel en la
+<lb/>compaignie des angelz. Elle avoit une filleuse qu'elle avoit levee de
+<lb/>fons, pour laquelle elle avoit prié a Dieu qu'elle trespassast devant lui,
+<lb/>et aussy fist elle de la voulenté de Dieu. Bien tost aprez elle trespassa et
+<lb/>quant l'ame se parti du corps, une grant clarté celestiel issi hors de son
+<lb/>corps et si virent ceulz qui la estoient grant compaignie d'anges venir
+<lb/>encontre elle et avecques estoit son tres feal amy Genesiz, l'evesque. La
+<lb/>virent touz comme les anges de paradis prindrent et receurent l'ame
+<lb/>d'elle et l'emporterent en paradis.</p>
+<p>
+<lb/>L'eglise de Kalam fist faire premierement la royne Clotilde qui
+<lb/>fu femme au roy Clovis le grant qui fu baptisiez de saint Remy, et
+<lb/>l'edifia en l'onneur de saint George, maiz pour tant qu'elle estoit trop
+<lb/>petite et n'y povoit on logier gueires de nonnains, madame sainte
+<lb/>Baudeur, royne, la fist abbatre et refaire plus grant en l'onneur de
+<lb/>Dieu qui vit et regne in secula seculorum.</p>
+<p>
+<lb/>Amen. 
+ 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

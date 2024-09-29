@@ -1,0 +1,1627 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="fr">
+  <fileDesc>
+    <titleStmt>
+      <title type="main">Les métiers et corporations de la ville de Paris</title>
+      <title type="formal">mestiersparis</title>
+      <title type="reference">mestiersparis</title>
+      <title type="DEAF">LMestL</title>
+      <title type="gmd">transcription électronique</title>
+      <author xml:id="EBoileau" key="Boileau, Étienne (1200?-1270)" ref="http://www.idref.fr/058654011">Étienne Boileau</author>
+      <editor>Équipe de la Base de français médiéval - ENS de Lyon / UMR 5317 IHRIM</editor>
+      <funder>Laboratoire IHRIM</funder>
+    </titleStmt>
+    <editionStmt>
+      <edition>transcripion électronique</edition>
+      <respStmt xml:id="digitizer1">
+        <resp>numérisation, relecture et encodage XML-TEI</resp>
+        <name xml:id="ABeyer">Projet GTRC</name>
+      </respStmt>
+      <respStmt xml:id="encoder0">
+        <resp>création du descripteur</resp>
+        <name xml:id="AL">Alexei Lavrentiev</name>
+      </respStmt>
+    </editionStmt>
+    <extent>- Numéros de pages saisies : de 1 à 48 ;
+            - Nombre de mots d'après la base des descripteurs : <num xml:id="nb_mots_given">15952</num> ;
+            - Nombre de tokens (mots et ponctuations) d'après la base des descripteurs : <num xml:id="nb_tokens_given">17098</num>.
+    </extent>
+    <publicationStmt>
+      <publisher><name>Projet BFM, ENS de Lyon / UMR 5317 IHRIM</name></publisher>
+      <address>
+        <addrLine>15, parvis René Descartes</addrLine>
+        <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+        <addrLine>Tél : 04 37 37 63 10</addrLine>
+        <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+        <addrLine>http://bfm.ens-lyon.fr</addrLine>
+      </address>
+      <idno type="bfm">http://catalog.bfm-corpus.org/mestiersparis</idno>
+      <idno type="doi">10.34847/nkl.9fd48i6x</idno>
+      <availability status="free">
+        <licence target="https://www.etalab.gouv.fr/licence-ouverte-open-licence">
+          <ab type="availability_bfm" subtype="restreint_3">Les Conditions générales d'utilisation de la Base de Français Médiéval (http://txm.bfm-corpus.org/bfm/files/CGU.pdf), 
+            et notamment son Article 5 « PROPRIETE INTELLECTUELLE », s'appliquent à tous les textes de la BFM.</ab>
+          <ab type="how_to_cite">
+            <label>Comment citer ce texte :</label>
+            <bibl>Étienne Boileau, Les métiers et corporations de la ville de Paris, édité par René de Lespinasse et François Bonnardot, Paris, 1879. 
+              Publié en ligne par la Base de français médiéval, http://catalog.bfm-corpus.org/mestiersparis.
+              Dernière révision le 2012-05-02.</bibl>
+            D'autres formules de citation de la BFM sont proposées sur la page web suivante :
+            http://bfm.ens-lyon.fr/article.php3?id_article=281.</ab>
+          <ab type="availability_file">
+            <label>Conditions d'utilisation de ce fichier :</label>
+              Ce fichier numérique est composé du corps de texte médiéval et des suppléments numériques : balisage XML-TEI, métadonnées (teiHeader), balisage du discours direct. Le texte et les suppléments numériques sont libres de droit et peuvent à ce titre être téléchargés et réutilisés librement.
+            </ab>
+            <ab type="availability_txmweb" subtype="limité">
+              <label>Conditions d'utilisation par le portail BFM :</label>
+              Contexte maximal limité à 400 mots à gauche et à droite du pivot dans les concordances. Affichage des pages interdit. Téléchargement interdit.</ab>
+        </licence>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>Le Livre des métiers</title>
+          <author>Étienne Boileau</author>
+          <respStmt>
+            <resp xml:id="editor">Éditeur scientifique</resp>
+            <name type="person">René de Lespinasse</name>
+            <name type="person">François Bonnardot</name>
+          </respStmt>
+        </titleStmt>
+          <extent>48 page(s), soit 1-48
+        </extent>
+        <publicationStmt>
+          <publisher>Imprimerie Nationale</publisher>
+          <pubPlace>Paris</pubPlace>
+          <date>1879</date>
+          <idno type="sigle_DEAF">LMestL</idno>
+          <idno type="cote_biblio">PARIS-Bib-Sainte Geneviève : 4 L 242 (15 BIS) INV 2 (L) RES</idno>
+        </publicationStmt><seriesStmt><title>Histoire générale de Paris, collection de documents</title></seriesStmt>
+      </biblFull>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p>Projet :<name type="project">BFM - Base de français médiéval</name>
+        Resp. : <name type="person">Céline Guillot-Barbance</name>
+        Équipe : Base de français médiéval
+        Laboratoire : UMR 5317 IHRIM
+        Institution : ENS de Lyon
+        <address>
+          <addrLine>15, parvis René Descartes</addrLine>
+          <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+          <addrLine>Tél : 04 37 37 63 10</addrLine>
+          <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+          <addrLine>http://bfm.ens-lyon.fr</addrLine>
+        </address>
+      </p>
+    </projectDesc>
+    <editorialDecl>
+      <p>Voir le <ref target="http://bfm.ens-lyon.fr/IMG/pdf/Manuel_Encodage_TEI.pdf">Manuel d'encodage XML-TEI de la BFM</ref>
+        et les <ref target="http://bfm.ens-lyon.fr/IMG/pdf/Consignes_BFM.pdf">Consignes aux relecteurs de la BFM</ref>.</p>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="abbr" occurs="166"/>
+        <tagUsage gi="body" occurs="1"/>
+        <tagUsage gi="choice" occurs="3"/>
+        <tagUsage gi="corr" occurs="4"/>
+        <tagUsage gi="div" occurs="23"/>
+        <tagUsage gi="front" occurs="1"/>
+        <tagUsage gi="head" occurs="21"/>
+        <tagUsage gi="hi" occurs="6"/>
+        <tagUsage gi="lb" occurs="822"/>
+        <tagUsage gi="num" occurs="240"/>
+        <tagUsage gi="p" occurs="276"/>
+        <tagUsage gi="pb" occurs="48"/>
+        <tagUsage gi="q" occurs="1"/>
+        <tagUsage gi="sic" occurs="8"/>
+        <tagUsage gi="supplied" occurs="56"/>
+        <tagUsage gi="surplus" occurs="1"/>
+        <tagUsage gi="text" occurs="1"/>
+        <tagUsage gi="w" occurs="27"/>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <creation>
+      <name type="author">Étienne Boileau</name>
+      <title>Les métiers et corporations de la ville de Paris</title>
+      <date type="compo" when="1268-01-01" notBefore="1268-01-01" notAfter="1268-12-31" n="13">ca. 1268</date>
+      <date type="compo_periode">ancien</date>
+      <date type="compo_sous_siecle" n="13_3">fin</date>
+      <date type="ms" when="1290-01-01" notBefore="1285-01-01" notAfter="1295-12-31">ca 1290</date>
+      <idno type="msIdentifier">Paris, BnF, fr. 24069 (anc. Sorbonne)</idno>
+      <region type="dialecte_auteur">parisien</region>
+    </creation>
+    <langUsage>
+      <language ident="fro" usage="100">Le texte est entièrement écrit en prose en ancien français.</language>
+    </langUsage>
+    <textDesc>
+      <channel mode="w">print</channel>
+      <constitution type="single"/>
+      <derivation type="original"/>
+      <domain type="didactique"/>
+    <factuality type="inapplicable"/>
+      <interaction type="none"/>
+      <preparedness type="prepared"/>
+      <purpose type="narrative"/></textDesc>
+    <textClass>
+      <keywords scheme="http://authorities.bfm-corpus.org">
+        <term type="domaine">didactique</term>
+        <term type="genre">répertoire</term>
+        <term type="forme">prose</term>
+        <term type="relation">original</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change who="#ABeyer" when="2012-05-02">numérisation, relecture et encodage XML-TEI</change>
+    <change who="#AL" when="2012-05-02">adaptation du balisage aux normes BFM TEI P5</change>
+    <change who="#AL" when="2021-07-07">création du descripteur</change>
+    <change when="2012-05-02">Dernière modification du texte</change>
+    <change when="2022-11-04">Création de cet entête</change>
+  </revisionDesc>
+</teiHeader>
+<text>
+<front>
+<pb n="1"/>
+<div type="titre">
+<p> LI 
+<lb/> ESTABLISSEMENT DES MESTIERS 
+<lb/> DE PARIS.</p>
+</div>
+<div type="prologue">
+<head> CI COMMENCENT 
+<lb/> LI ESTABLISSEMENT DES MESTIERS DE PARIS. </head>
+<p> Estienne Boiliaue, garde de la prevosté de Paris, a toz les bourgois et a touz les 
+<lb/> residens de Paris, et a touz ceus qui dedens les bonnes de cel meisme liu venront, 
+<lb/> as quex ce apartendra, saluz. </p>
+<p> Pour ce que nous avons veu a Paris, en nostre tans, mout de plais et de contens
+
+<lb/> par la delloial envie qui est mere de plais, et deffernée couvoitise qui gaste 
+<lb/> soy meisme, et par le non sens as jones et as poi sachans, entre les estranges 
+<lb/> gens et ceus de la vile qui aucun mestier usent et hantent, pour la reson de ce 
+<lb/> qu’il avoient vendu as estranges aucunes choses de leur mestier, qui n’estoient 
+<lb/> pas si bones ne si loiaus que eles deusent; et entre les paageurs et les coustumiers 
+<lb/> de Paris et ceus qui les coustumes et les paages doivent de Paris et ceus 
+<lb/> qui ne les i doivent pas; et meesmement entre nous et cex qui justice ou juridicion 
+<lb/> ont a Paris, qui le nous demandoient et requeroient autre que il ne le devoient 
+<lb/> avoir, ne n’ont usée ne acoustumée de avoir; et pour ce que nous nous doutiemes 
+<lb/> que li Rois n’i euist domage, et cil qui ont les coustumes de par lou Roy 
+<lb/> n’i perdisent, et que fauses oevres n’i fussent faites ne vendues a Paris, ou que
+
+<lb/> mauvaises coustumes n’i fussent acoustumées; et pour ce que li offices au bon 
+<lb/> juge est d’abatre et de finer les plez a son pooir, et de voloir touz faire bons, non 
+<lb/> pas tant seulement par paour de paines, mès par amonestement de louiers : nostre 
+<lb/> intenptions est a esclairer, en la <hi rend="pmaj">Premiere partie</hi> de ceste oeuvre, au mius que 
+<lb/> nous porrons, touz les Mestiers de Paris, leur ordenances, la maniere des entrepresures 
+<lb/> de chascun mestier, et leur amendes.</p>
+<pb n="2"/>
+<p> En la <hi rend="pmaj">Seconde partie</hi> entendons nous a tretier des Chaucies, des Tonlius, des 
+<lb/> Travers, des Conduis, des Rivages, des Halages, des Pois, des Botages, des Rouages, 
+<lb/> et de toutes les autres choses qui a coustume apartienent.</p>
+<p> En la <hi rend="pmaj">Tierce partie</hi> et en la dehareniere, des Joustices et des Juriditions a 
+<lb/> toz ceus qui justice et juridition ont dedens la ville et dedens les forbours de Paris. </p>
+<p> Ce avons nos fait pour le profit de touz, et meesmement pour les povres et 
+<lb/> pour les estranges qui a Paris vienent acheter aucune marchandise, que la marchandise 
+<lb/> soit si loiauz qu’il n’en soient deceu par le vice de li; et pour ceus 
+<lb/> qui a Paris doivent aucune droiture ou aucune coustume, ou qui ne les doivent 
+<lb/> pas; et meesmement pour chastier ceus qui par covoitise de vilain gaaing ou par 
+<lb/> non sens les demandent et prendent contre Dieu, contre droit et contre raison. </p>
+<p> Quant ce fu fait, concoilli, asamblé et ordené, nous le feimes lire devant 
+<lb/> grant plenté des plus sages, des plus leauz et des plus anciens homes de Paris, et 
+<lb/> de ceus qui plus devoient savoir de ces choses; li quel tout ensamble loerent 
+<lb/> moult ceste oevre. Et nos quemandames a touz les Mestiers de Paris, a touz 
+<lb/> les <w>paagier<supplied resp="#editor">s</supplied></w> et les coustumiers de cel meesme liu, et a touz ceus qui justice et 
+<lb/> juridition ont dedens les murs et dedens la banliue de Paris, que il ne feisent ne 
+<lb/> n’alaisent en contre; et que se il le faisoient a leur tort, que il l’amendroient 
+<lb/> a la volenté le Roy, et rendroient a la partie touz les couz, touz les despens et 
+<lb/> touz les domages qu’il i auroient euz et faiz pour cele ochoison, par le leau 
+<lb/> taxement de nous et de nos successeurs.</p>
+</div>
+</front>
+<body>
+<pb n="3"/>
+<div type="partie" n="1">
+<div type="titre" n="1">
+<head> Cis titres parole des Talemeliers qui sunt dedens la banliue de Paris. </head>
+<p n="I "> Nuz ne peut estre Talemeliers dedans la banliue de Paris se il n’achate 
+<lb/> le mestier du Roi; se il ne demeure a Saint Marchel, a Saint Germain des Prez, 
+<lb/> hors de murs de Paris, ou en la viez terre Madame Sainte Genevieve, ou en la 
+<lb/> terre du chapitre Nostre Dame de Paris asise en Guarlande, hors mise la terre 
+<lb/> Saint Magloire dedans les murs de Paris et dehors, et la terre Saint Martin des 
+<lb/> Chans asise hors des murs de Paris. Et vendent les mestiers devant dit, de par 
+<lb/> le Roy, cil qui du Roy l’ont achaté, a l’un Talemelier plus, a l’autre mains, si come
+
+<lb/> il leur semble que bien soit. </p>
+<p n="II "> Nus ne puet estre Talemeliers dedans la banliue de Paris, hors mis ceus qui 
+<lb/> demeurent es terres desuz dites, qui ne poit le hauban le Roy et les coustumes 
+<lb/> du mestier, si n’en est previlegié du Roi. </p>
+<p n=" III"> Li Talemelier qui demeurent es devant dites terres n’achatent pas le 
+<lb/> mestier du Roi, si ne leur plait; et si seroient haubanier, se il leur plait. Et se 
+<lb/> il sont haubanier, il auront les autres franchises que li haubanier ont; et se il 
+<lb/> ne sont haubanier, il doivent les redevances du mestier come forain. </p>
+<p n=" IV"> Quant li noviaus Talemeliers a ce mestier achaté devant la Saint Jehan 
+<lb/> Baptiste, se il ne demeure es terres devant dites, il doit
+<num>VI.</num>
+<abbr>s.</abbr> de parisis au Roi 
+<lb/> por le hauban, a paier a la Saint Martin d’yver prochenement après ansuians; et a <pb n="4"/>
+
+<lb/> chascune Saint Martin d’yver après ansuiant, <num>VI</num>
+<abbr>s.</abbr> de parisis por le hauban le Roi, 
+<lb/> tant come il vaudra estre haubaniers et del mestier de talemelerie. </p>
+<p n="V "> Se li Talemelier haubanier va demorer en aucune des terres devant dites, il 
+<lb/> iert quite de son hauban, se il plest, mès il sera aus coustumes et <w>au<supplied resp="#editor">s</supplied></w> redevances
+
+<lb/> du mestier, come forain. </p>
+<p n=" VI"> Se li noviaus Talemelier achete le mestier de talemelerie entre la
+<abbr>S.</abbr> Jehan 
+<lb/> Bauptiste et la <abbr>S.</abbr> Martin d’iver, il ne paiera pas a cele <abbr>S.</abbr> Martin les <num>VI</num>
+<abbr>s.</abbr> de hauban, 
+<lb/> mais il les paiera a chascune des autre
+<abbr>S.</abbr> Martin d’iver après ensuiant, se 
+<lb/> il est demorans en aucune des terres devant dites, si come il est dit par devant. </p>
+<p n=" VII">
+<hi rend="pmaj">Haubans</hi> est uns propres nons d’une coustume asise, par la quele il fu 
+<lb/> establi ancienement que quiconques seroit haubaniers, qu’i seroit plus frans et 
+<lb/> paieroit mains de droitures et des coustumes de la marchandise de son mestier 
+<lb/> que cil qui ne seroit pas haubaniers. </p>
+<p n=" VIII"> Haubanier furent ancienement establi a un mui de vin paier. Et puis mist 
+<lb/> li bons rois Phelippe cel mui de vin a <num>VI</num>
+<abbr>s.</abbr> de parisis, pour le contens qui estoit 
+<lb/> entre les povres haubaniers et les eschançons lou Roy, qui le hauban recevoient 
+<lb/> de par lou Roy. </p>
+<p n=" IX"> Des mestres qui sont haubaniers, li un doivent demi hauban, c’est a
+
+<lb/> savoir <num>III</num>
+<abbr>s.</abbr>; li autre plain hauban, c’est a savoir <num>VI</num>
+<abbr>s.</abbr>; et li autre, hauban et 
+<lb/> demi, c’est a savoir
+<num>IX</num>·<abbr>s.</abbr>. </p>
+<p n="X "> Tout li mestre de Paris ne sont pas haubanier, ne nul ne puet estre haubanier 
+<lb/> se il n’est de mestier qui ait hauban, ou se li Rois ne li otroie par don ou 
+<lb/> par vente. </p>
+<pb n="5"/>
+<p n=" XI"> Li Talemelier qui sont haubanier sont quite du tonliu des pors qu’il
+
+<lb/> achetent et de ceus qu’il revendent, por tant qu’il aient une fois mangié de leur 
+<lb/> bren. Et si sont quite li Talemelier du tonliu de tout le blé qu’il achetent pour 
+<lb/> leur cuire et du pain qu’i vendent, fors que trois demies de pain que chascun 
+<lb/> Talemelier, noviax et viez, doit chascune semaine au Roy, de tonliu. </p>
+<p n=" XII"> Li noviax Talemeliers doit, le premier an qu’il a acheté le mestier de 
+<lb/> talemelerie, <num>XXV</num>
+<abbr>d.</abbr> de coustume a paier au Roy; a la Thiphaine et a Pasques 
+<lb/>
+<num>XXII</num>
+<abbr>d.</abbr>, et a la <abbr>S.</abbr> Jehan Baptiste <num>V</num>
+<abbr>d.</abbr> obole; et chascun an <num>VI</num>
+<abbr>s.</abbr> de hauban, 
+<lb/> et chascune semaine trois demies de pain, de tonliu. Et autant doit il 
+<lb/> au segont an, et autant au tiers an, et autant au quart an. Et si doit faire li 
+<lb/> noviax Talemelier, chascun an des quatre années desus dites, une oche en 
+<lb/> un baston a la Thiephaine, contre celui qui queut la coustume du pain de par 
+<lb/> lou Roy. </p>
+<p n=" XIII"> Quant li noviax Talemelier ara en tel maniere fet quatre ans acomplis, il 
+<lb/> prendra un nuef pot de terre, et ara dedanz le pot nois et nieules; et venra a la 
+<lb/> meson au mestre des Talemeliers, et aura avec lui le coustumier et touz les Talemeliers 
+<lb/> et les mestres vallès, que l’on apele joindres. Et doit cil noviax Talemelier 
+<lb/> livrer son pot et ses nois au mestre, et dire : <q>Mestre, je ai fait et acompli 
+<lb/> mes quatre années.</q> Et li mestre doit demander au coustumier se ce est voirs. 
+<lb/> Et se il dit que ce est voirs, li mestre doit baillier au noviau Talemelier son pot et 
+<lb/> ses nois, et conmander li qu’il les jete au mur. Et lors li noviax Talemelier doit 
+<lb/> jeter son pot et ses nois et ses nieules au mur de la meson le mestre, au dehors. 
+<lb/> Et lors doivent li mestres, coustumiers, li noviax Talemeliers et tout li autre Talemelier
+
+<lb/> et li vallet, entrer en la meson au mestre, et li mestre leur doit livrer feu 
+<lb/> et vin. Et chascun des Talemeliers et li noviax et li mestre vallet doivent chascun 
+<lb/>
+<num>I</num>
+<abbr>d.</abbr> au mestre des Talemeliers, pour le vin et pour le feu qu’il livre. </p>
+<pb n="6"/>
+<p n=" XIV"> Li mestre des Talemeliers doit faire asavoir au coustumier, aus Talemeliers, 
+<lb/> aus joindres, que il viegnent a ce jour a sa meson. Et il i doivent venir 
+<lb/> ou envoier leur denier au mestre des Talemeliers, pour le vin devant dit. </p>
+<p n=" XV"> Se li Talemelier et li joindre ne vienent a cel jour, se il en sont semons, 
+<lb/> ou il n’envoient leur denier au mestre des Talemeliers, li mestre des Talemeliers 
+<lb/> leur puet deffendre le mestier tant come il aient paié le denier devant dit. </p>
+<p n=" XVI"> Le jour que le mestre des Talemeliers doit assigner au coustumier, aus 
+<lb/> Talemeliers, <w>au<supplied resp="#editor">s</supplied></w> mestres vallès, doit estre le premier dimanche après le premier 
+<lb/> jour de l’an. </p>
+<p n=" XVII"> Quant cil quatre an del noviau Talemelier seront passé, et il ara en tel 
+<lb/> maniere ouvré depuis cel jour en avant, il iert mestre Talemeliers, ne ne paiera 
+<lb/> au Roy chascun an que <num>X</num>
+<abbr>d.</abbr> au Noel, de coustume, <num>XXII</num>
+<abbr>d.</abbr> a Pasques, <num>V</num>
+<abbr>d.</abbr>
+
+<lb/> obole a la <abbr>S.</abbr> Jehan Baptiste, et les <num>VI</num>
+<abbr>s.</abbr> de hauban a paier a la <abbr>S.</abbr> Martin d’iver, 
+<lb/> et les trois demies de pain a paier chascune semaine pour son tonliu, c’est a 
+<lb/> savoir, demie le merquedi et danrée le samedi. Et ces trois demies de pain 
+<lb/>
+<supplied resp="#editor">prant</supplied>  li esvesques la tierce semaine, c’est a savoir que li Rois prant les deus 
+<lb/> semaines et li evesques la tierce. </p>
+<p n=" XVIII"> Se li noviaus Talemelier pert son eschantillon une fois ou pluseurs 
+<lb/> dedans les quatre années desus dites, il devra, a chascune fois qu’i le perdra, un <pb n="7"/>
+
+<lb/> chapon ou <num>XII</num>
+<abbr>d.</abbr> por le chapon a celui qui la coustume lou Roy guardera de par 
+<lb/> le Roi. </p>
+<p n=" XIX"> Tout li Talemelier novel et viez doivent chascun, chascune semaine, au 
+<lb/> Roy les trois demies de pain de tonliu, avec les autres coustumes et les autres 
+<lb/> redevances devant dites. Se il sont demorant es terres devant dites et il aportent 
+<lb/> leur pain es hales, si doivent il les trois demies de pain desus dites, avec toutes 
+<lb/> les autres coustumes que forain Talemelier doivent. </p>
+<p n=" XX"> Li rois Phelippe dona ce tonliu a un chevalier. Et doivent <w>prend<supplied resp="#editor">r</supplied>e</w>, cil 
+<lb/> qui le tienent, a chascun Talemelier demie de pain au merquedi, se li Talemelier 
+<lb/> a pain a sa fenestre ou en son four, et <abbr>d.</abbr> au samedi, se il a pain a sa fenestre 
+<lb/> ou en son four. Et se il n’avoit pain en ces jours, il ne devroit ne la demie ne 
+<lb/> obole. </p>
+<p n=" XXI"> Li Rois a doné a son mestre panetier la mestrise des Talemeliers, tant 
+<lb/> come il li plaira, et la petite justice et les amendes des Talemeliers et des joindres 
+<lb/> et des vallès : si come des entrepresures de leur mestier, et de bateure sanz 
+<lb/> sanc, et de clameur, hors mise la clameur de proprieté. Li mestre panetiers doit 
+<lb/> faire prendre guarde du mestier des Talemeliers, et en a les amendes de par lou 
+<lb/> Roy, tant come il li plaira. Et doit cil mestre panetier prendre un preud'ome 
+<lb/> Talemelier qui li guarde son mestier et ses amendes, et qui bien sache connoistre 
+<lb/> les bones denrées et les leaus. </p>
+<p n=" XXII"> Quant li Rois a doné a son mestre panetier le mestier de Talemelier, li <pb n="8"/>
+
+<lb/> mestre panetier doit venir a Paris et faire asembler touz les Talemeliers par celui 
+<lb/> qui est en son leu. Et doit eslire
+<num>XII</num> des plus preud'omes du mestier de Talemelier, 
+<lb/> ou plus ou mains, selonc ce qu’il li semble bon, qui miex sachent connoistre 
+<lb/> le pain, et qui plus sachent du mestier, pour le profist a ceus qui dedans la 
+<lb/> vile sont. Et doivent icil <num>XII </num> preud'ome jurer seur Sainz que il garderont 
+<lb/> le mestier bien et leaument, et que, au jugier le pain, qu’il n’espargneront ne 
+<lb/> parent ne ami, ne ne comdempneront nullui pour haine ne pour malvoillance, a 
+<lb/> tort. </p>
+<p n="XXIII"> Nul Talemelier ne doit cuire au dimenche, ne au jour de Noel, ne
+
+<lb/> l’endemain, ne au tierc jour; mès au quar jour de Noel puent il cuire. </p>
+<p n=" XXIV"> Nul Talemelier ne puet cuire le jour de la Thiphaine, ne au jour de 
+<lb/> la Purification Nostre Dame, ne au jour Nostre Dame en mars, ne au jour Nostre 
+<lb/> Dame de la mi aoust, ne au jour de la Septembresche. </p>
+<p n=" XXV"> Nul Talemelier ne puet cuire au jor de feste d’apostre du quel la veille 
+<lb/> soit jeulable, ne en la feste <abbr>S.</abbr> Pere en goule aoust, ne a la feste <abbr>S.</abbr> Berthelemi, 
+<lb/> ne l’endemain de Pasques, ne le jour de l’Acencion, ne l’endemain de la Penthecoste. </p>
+<p n=" XXVI"> Nul Talemelier ne puet cuire au jour de la feste <abbr>S.</abbr> Crois après aoust, ne 
+<lb/> au jour de la feste <abbr>S.</abbr> Crois en may, ne au jour de la Nativité <abbr>S.</abbr> Jehan Baptitre, <pb n="9"/>
+
+<lb/> ne au jour de la feste <abbr>S.</abbr> Martin d’yver, ne au jour de la feste <abbr>S.</abbr> Nicholas en 
+<lb/> yver. </p>
+<p n=" XXVII"> Nul Talemeliers ne puet cuire le jour de la Magdeleine, ne au jor de 
+<lb/> la feste <abbr>S.</abbr> Jaque et <abbr>S.</abbr> Cristofle, ne au jour <abbr>S.</abbr> Lorent. </p>
+<p n=" XXVIII"> Nus Talemeliers ne puet cuire au jour de la <abbr>S.</abbr> Jaque et <abbr>S.</abbr> Phelippe, 
+<lb/> ne au jour de la <abbr>S.</abbr> Denise, ne au jour de la Touz Sainz, ne au jour de la feste 
+<lb/>
+<w>au<supplied resp="#editor">s</supplied></w> Mors, se ce ne sont eschaudés a doner por Dieu, ne au jour de la feste 
+<lb/>
+<abbr>S.</abbr> Genevieve après Noel. </p>
+<p n=" XXIX"> Nul Talemeliers ne puet cuire es veilles des festes desus dites, que li 
+<lb/> pains ne soit au plus tart a chandoiles alumans dedans le four, ne es chamedis, 
+<lb/> fors qu’en la veille du Noel qu’il pueent cuire jusques <w>au<supplied resp="#editor">s</supplied></w> matines Nostre Dame 
+<lb/> de Paris. </p>
+<p n=" XXX"> Li Talemelier puent cuire les lundis ains jour, si tost come matines de 
+<lb/> Nostre Dame sonent, se aucunes des festes desus dites n’i escheent. </p>
+<p n=" XXXI"> Se aucun Talemelier cuisoit en aucun des jours des festes desus dis, il 
+<lb/> seroit de chascune fournée a <num>VI</num>
+<abbr>d.</abbr> d’amende au mestre et en <num>II</num> saudées de 
+<lb/> pain, que li mestres et li juré donroient pour Dieu a chascune fois que li Talemelier 
+<lb/> en seroit repris. Et se li pains failloit a Paris, si converoit il qu’il presist 
+<lb/> congié de cuire au mestre des Talemeliers. </p>
+<p n=" XXXII"> Nul Talemelier ne puet faire plus grant pain de <num>II</num>
+<abbr>d.</abbr> se ce ne sont 
+<lb/> gastel a presenter, ne plus petit de obole se ce ne sont eschaudés. </p>
+<p n=" XXIII"> Tout li Talemelier doivent faire denrées et demies et pains de
+<num>II</num>
+<abbr>d.</abbr>
+
+<lb/> bons et loiaus, selonc le marchié qu’il ont du blé. </p>
+<pb n="10"/>
+<p n=" XXXIV"> Se aucuns Talemelier vent <num>III</num> pains doubliaus plus de
+<num>VI</num>
+<abbr>d.</abbr> ou mains de 
+<lb/>
+<num>V</num> obole, il pert le pain. Et a li mestres des Talemeliers ce pain, et en fet sa volenté. </p>
+<p n=" XXXV"> Li Talemelier de Paris doivent faire si bon pain et si grant, de denier 
+<lb/> et de obole, que les <num>VI</num> denrées ne puissent estre donées por mains de 
+<lb/>
+<num>V</num> obole, sans prandre les <num>VI</num>
+<abbr>d.</abbr> obole pour <num>VI</num>
+<abbr>d.</abbr>, les <num>XII</num>
+<abbr>d.</abbr> por <num>XI</num>
+<abbr>d.</abbr>, et les <num>XIII</num>
+<abbr>d.</abbr>
+
+<lb/> pour <num>XII</num>
+<abbr>d.</abbr>. </p>
+<p n=" XXXVI"> Li juré qui jugent le pain doivent aler par mi la vile por prendre 
+<lb/> le petit pain, toutes les fois que li mestre les en semondra, et tant des jurés 
+<lb/> come il li plaira, c’est a savoir quatre jurés au mains a chascune fois qu’il 
+<lb/> vaudra aler par mi la vile. </p>
+<p n=" XXXVII"> Quent li mestres et li juré vont par mi la vile pour prandre le petit 
+<lb/> pain, il <supplied resp="#editor">prendront</supplied>  un sergant du Chastelet, et as fenestres ou il treuvent le pain 
+<lb/> a vendre, li mestre prant le pain et le baille as jurés, et les jurés reguardent se il 
+<lb/> est souffisans ou non. Et se il est souffisans, li juré le remestent seur la fenestre, 
+<lb/> et s’il n’est souffisans, li juré metent le pain en la main au mestre. Et par tant, li 
+<lb/> mestres set bien que li pain n’est mie souffisans, et puet prandre tout <supplied resp="#editor">le remanant</supplied> 
+
+<lb/> de cele meesme fournée. </p>
+<p n=" XXXVIII"> Et se il i a a une fenestre pluseur maniere de pains, li mestres fera <pb n="11"/>
+
+<lb/> chascune maniere jugier, et ceus que l’en troverra petit, li mestre
+<supplied resp="#editor">et</supplied>  li juré 
+<lb/> feront doner por Dieu le pain. </p>
+<p n=" XXXIX"> Nul pains ne puet estre pris se li mestres et li juré n’i sont, ne li petis 
+<lb/> pains donés por Dieu fors la ou li mestres et li juré s’asentent, ne nus pains estre 
+<lb/> jugiez a trop petit se il n’i a de cele maniere de pain plus du petit que du 
+<lb/> grant. Et li petit pains est touz jours perdus. </p>
+<p n=" XL"> Se li mestre treuve pain meschevé, c’est a savoir pain doublel que on 
+<lb/> ait vendu les trois plus de <num>VI</num>
+<abbr>d.</abbr> ou mains de <num>V</num>
+<abbr>d.</abbr> obole, ou pain de denier et 
+<lb/> de obole de quoi on ait vendu les <num>XII</num> denrées pour mains de <num>XI</num>
+<abbr>d.</abbr> ou les 
+<lb/>
+<num>XIII</num> denrées por mains de <num>XII</num>
+<abbr>d.</abbr>, fors eschaudés des quex l’en puet doner <num>XIIII</num> denrées 
+<lb/> por <num>XII</num>
+<abbr>d.</abbr> et nient mains : li mestres auroit tout le pain meschevé, et de 
+<lb/> celui feroit li mestres sa volanté et son plaisir, fors que au semedi, ne ja n’en 
+<lb/> parleroit aus jurés. </p>
+<p n=" XLI"> Tout li Talemelier de Paris et d’ailleurs pueent vendre au semedi, ou 
+<lb/> marchié de Paris, pain a touz feurs, au miex que il porroit, mès que li pain ne 
+<lb/> soit de plus de <num>II</num>
+<abbr>d.</abbr>; et se li pains estoit de plus de <num>II</num>
+<abbr>d.</abbr>, il seroit le mestre. Cel 
+<lb/> pain apele l’on <hi rend="ital">pain pote</hi>. </p>
+<p n=" XLII"> Li mestres et li juré devant dit sont quite du guet, por la paine et por 
+<lb/> le traivail que il ont de guarder le mestier de Talemelier, qui est le Roy. Et ce 
+<lb/> establi la roieine Blanche, que Diex absoille. </p>
+<p n=" XLIII"> Se uns Talemeliers est semons par devant le mestre des Talemeliers 
+<lb/> et il a tort, il doit <num>VI</num>
+<abbr>d.</abbr> d’amende au mestre; et s’il est defaillans, il doit <num>VI</num>
+<abbr>d.</abbr> au 
+<lb/> mestre. </p>
+<p n="XLIV "> Se li sergant au Talemelier, soit joindre, soit vallès ou aidans a Talemelier, 
+<lb/> c’est a savoir vaneres, buleteres, pestriseur, sont ajourné par devant le 
+<lb/> mestre a leur tort, c’est a savoir, qu’il connoissent ou nient la dete et soient 
+<lb/> ataint, ou il soient defaillant de venir a la semonse le mestre, il doivent chascun 
+<lb/>
+<num>III</num>
+<abbr>d.</abbr> d’amende au mestre. </p>
+<pb n="12"/>
+<p n=" XLV"> Les <num>VI</num>
+<abbr>d.</abbr> du Talemelier et les <num>III</num> du vallet d’amende prant li mestres 
+<lb/> de ceus qui connoissent ausi bien come de ceux qui nient, pour la reson de ce 
+<lb/> que en la joustice n’a point de despit; ne plus n’en puet il lever d’amende. </p>
+<p n=" XLVI"> Li mestres des Talemeliers ne puet lever que une amende d’une querele. 
+<lb/> Et se cil qui l’amende a faite est si erredes ou si fous que il ne voille obeir au 
+<lb/> conmendement le mestre ou s’amende paier, se il est Talemelier, li mestre li puet 
+<lb/> deffendre le mestier; ne icil Talemelier ne puet puis cuire se son levain n’est faiz 
+<lb/> avant que la deffence li ait esté faite; et se son levain est fait, il puet cuire la cuite 
+<lb/> du levain. </p>
+<p n=" XLVII"> Se li Talemelier cuist pain seur la deffanse au mestre, se li levains 
+<lb/> n’a esté faiz ains la deffence, li mestres puet il celui pain prendre et faire ent sa 
+<lb/> volanté. Et se li Talemelier li efforce, li mestre des Talemeliers vient au prevost 
+<lb/> de Paris, et li prevost de Paris est tenus a abatre li la force. </p>
+<p n=" XLVIII"> Se li vallès des Talemeliers ou li aide, qui a amende faite au mestre, 
+<lb/> est si errede et si fouz que il ne voille obeir au conmendement le mestre ou s’amende 
+<lb/> paier, li mestre li puet deffendre le mestier, et a touz les Talemeliers 
+<lb/> qu’il ne le mestent en oeuvre dessi adont qu’il ait acompli le conmandement le 
+<lb/> mestre selonc droit. </p>
+<p n=" XLIX"> Se Talemelier met le vallet en oevre par desus le deffens le mestre, il 
+<lb/> le doit amender de <num>VI</num>
+<abbr>d.</abbr> au mestre. Et se li Talemelier ces <num>VI</num>
+<abbr>d.</abbr> ne veut paier, ou 
+<lb/> il, pour le deffens le mestre, ne veut lessier a metre le sergant en oevre, li 
+<lb/> mestres li puet deffendre son mestier et prendre ent l’amende en la maniere desus 
+<lb/> dite : c’est a savoir, la fournée du pain, s’il cuit puis son deffens, et prendre la 
+<lb/> force lou Roy, se mestier li est. </p>
+<p n=" L"> Li Talemeliers ou li vallès au quel li mestiers est deffendus doivent requerre <pb n="13"/>
+
+<lb/> au mestre que il leur rende leur mestier; et li mestre leur doit rendre, se il ont 
+<lb/> finé a leur partie et a lui de s’amende. </p>
+<p n=" LI"> Se li mestres vée a randre le mestier aus Talemeliers et aus vallès au 
+<lb/> quex il a deffendu, pour que il li samble que il aient trop mesfeit, si come s’il li 
+<lb/> eussent dit vilonnie en son siege ou fait ou a un autre, present le mestre, ou 
+<lb/> aus jurés qui prandent le petit pain
+: cil a qui li mestiers seroit veez du mestre, 
+<lb/> doit prendre II preudesomes jurés ou autres, et requerre le mestre qu’il son 
+<lb/> mestier li rende, par donant plegerie d’estre a droit par devant le mestre panetier
+
+<lb/> lou Roy. Et se li mestres estoit si erredes que il la plegerie ne vausist 
+<lb/> prendre, il cil a qui li mestiers seroit deffendus le doit offrir devant les jurés, et 
+<lb/> li juré li doivent rendre son mestier, dessi a la venue le mestre panetier, sauve 
+<lb/> la droiture le mestre et l’autrui en toutes choses. </p>
+<p n=" LII"> Quant li mestres panetier est venus, il doit faire venir les parties par devant 
+<lb/> lui et oïr la cause, et terminer le par le conseil au jurés du mestier, selonc 
+<lb/> les us et les coustumes du mestier devant dit. </p>
+<p n=" LIII"> Li rois Phelippes establi que nus hom qui ne demorast dedans la banliue 
+<lb/> de Paris ne pooit pain aporter ou faire aporter pour vendre a Paris, for 
+<lb/> que au samedi, pour la reson de ce que li Talemelier qui sont dedans Paris 
+<lb/> doivent la taille, le guet lou Roy, et doit chascun, chascun an, au Roy <num>IX</num>
+<abbr>s.</abbr>
+
+<lb/>
+<num>III</num> oboles que de hauban que de coustume, et chascune semaine
+<num>III</num> oboles de 
+<lb/> pain de tonliu au Roy ou a ceus a qui li Rois l’a doné, se li Rois ne les en a 
+<lb/> franchis. Et ceste coustume a esté guardée <w>trè<supplied resp="#editor">s</supplied></w> le tans le roy Phelippe. Dont 
+<lb/> il avint, au tans le Roi qui ore est, qui Diex doint bone vie, que li Talemelier 
+<lb/> de Corbeil et d’ailleurs louerent greniers en Greve et ailleurs, pour vendre leur 
+<lb/> pain seur semaine : que il ne pooient faire ne devoient. Li Talemelier de 
+<lb/> Paris en furent plaintif au Roy, et li requisent que l’establisement que li 
+<lb/> roys Phelippes, ses aious, leur avoit doné, feist tenir et garder; et li monstrerent 
+<lb/> le grant profist que li Rois avoit des Talemeliers en paiant les coustumes, es 
+<lb/> quelles li Talemelier sont tenu a paier au Roy chascuns chascun an. Lors li Rois 
+<lb/> conferma l’establisement de son aoul, et conmanda que nus Talemelier demorans 
+<lb/> hors de sa banliue de Paris n’aportast ne ne feist aporter pain a Paris <pb n="14"/>
+
+<lb/> pour vendre, fors que au <w>samedi<supplied resp="#editor">s</supplied></w>; et se il l’aportoit ou feist aporter, qu’il 
+<lb/> fut pardus et donés por Dieu par le mestre et par les jurés du mestier, se 
+<lb/> bestens n’estoit, c’est a savoir des grans gelées et des grans iaues, par l’enpeechement 
+<lb/> des quelles li Talemelier de Paris ne puissent asouvir la vile de 
+<lb/> Paris. </p>
+<p n=" LIV"> Li rois Phelippes establi que les Talemeliers demorans dedans la banliue 
+<lb/> de Paris peussent vendre leur pain reboutis, c’est a savoir leur refus, si come 
+<lb/> leur pain raté, que rat ou souris ont entamé, pain trop dur, pain ars ou eschaudé, 
+<lb/> pain trop levé, pain aliz, pain mestourné, c’est a dire pain trop petit, qu’il n’osent 
+<lb/> mestre a estal au dimenche en la hale, la ou en vent le fer, devant le cemetire 
+<lb/>
+<abbr>S.</abbr> Innocent, ou il peussent vendre, s’il leur pleust, au dimenche, entre le 
+<lb/> parvis Nostre Dame et Saint Cristofle. </p>
+<p n=" LV"> Li Talemelier demorans dedanz la banliue de Paris, se il sont haubanier, 
+<lb/> pueent au diemenche es lius devant diz porter leur pain en leur corbeillons 
+<lb/> ou en leur bajoes, et porter <choice><corr resp="#editor">leur</corr><sic><w>l<surplus>u</surplus>eur</w></sic></choice> estal ou buffez ou tables, por tant que 
+<lb/> li estaus ne soit plus lons que de <num>V</num> piés. </p>
+<p n=" LVI"> Se li Talemeliers haubaniers de Paris porte es leus devant diz pain bien 
+<lb/> conreé qui ne soit bouteis, faire le puet. Et se li mestres treuve qu’il le mescheve, il 
+<lb/> est siens. Et se li mestres et li juré trevent pain trop petit, il le pueent prendre et 
+<lb/> doner le por Dieu, si come il est dit par desus. </p>
+<p n=" LVII"> Nus bourgois ne forains ne doit avoir part a blé que li Talemelier haubanier 
+<lb/> de Paris achate por son cuire, se il n’est demorant dedans Paris. Et se il 
+<lb/> est demorant a Paris, il doit avoir un sestier por son menjer en l’achat que li Talemelier 
+<lb/> haubanier fait, se il n’est Talemelier qui soit haubanier. Quar li Talemelier 
+<lb/> qui n’est mie haubanier n’a mie part avec celui qui est haubanier, mès 
+<lb/> celui qui est haubanier a part a celui qui n’est mie haubanier, se il vient au 
+<lb/> marchié avant que li marchiez soit acordés. </p>
+<p n=" LVIII"> Se li hom demorant a Paris veut avoir un sestier de blé por son mengier 
+<lb/> en l’achat que li Talemeliers haubaniers a fait, avoir le puet, se il ou ses 
+<lb/> conmandemens i vienent avant que le sac ou la banne soit close, por tant qu’en <pb n="15"/>
+
+<lb/> cel sac ou en la charrete ait <num>II</num> sestiers de blé ou plus. Et se il n’i avoit que trois 
+<lb/> mines, li estagiers de Paris auroit une mine por son mengier, mès plus n’en 
+<lb/> porroit il pas avoir. </p>
+<p n=" LIX"> Estagiers de Paris puent barguinier et achater blé ou marchié de Paris 
+<lb/> por leur mengier en la presence des Talemeliers haubaniers, sanz ce que li Talemelier 
+<lb/> haubanier n’i aura ja part ne autres Talemeliers. Et se estagiers de Paris 
+<lb/> qui ne soit Talemelier voille avoir part, avoir le puet, por tant qu’il viegne au 
+<lb/> denier Dieu baillier. </p>
+<p n=" LX"> Se li Talemelier haubanier ou ses conmendemens veut avoir part en l’achat du Telemelier qui n’est pas haubanier, il convient que il viegne au marchié 
+<lb/> avant que li marchiés soit acordés entre le vendeur et l’achateur. </p>
+<p n=" LXI"> Se estagiers de Paris achetoit blé por revendre, et blatier ou Talemelier 
+<lb/> haubanier ou qui ne soient mie haubanier viegnent seur le marchié, et il soient au 
+<lb/> marchié en tele maniere que on rabatist
+<num>I</num> denier, ou plus ou mains, il partiroit 
+<lb/>
+<supplied resp="#editor">velment</supplied> , tant come cil qui au rabatre seroit. Et se il ne venoit au rabatre, 
+<lb/> il ne partiroit de noiant, ne haubaniers ne autres.</p>
+</div>
+<div type="titre" n="2">
+<head>Cis titres parole des Meuniers de Grand pont.</head>
+<p n=" I"> Quiconques veut estre Meuniers a Grant pont, a Paris, estre le puet se il 
+<lb/> a molin qui siens soit ou a ferme. </p>
+<pb n="16"/>
+<p n=" II"> Quiconques est Meuniers a Grant pont a Paris, il puet avoir tant d’aprentis 
+<lb/> et de vallès come il li plaist, et maudre par nuit se mestiers li est. </p>
+<p n=" III"> Li Meunier de Grant pont ne pueent pas maudre au diemenche, desdont
+
+<lb/> que li eaue benoite est faite a Saint Liefroy dessi adont que l’en sone vespres à 
+<lb/> Saint Leffroi. </p>
+<p n=" IV"> Li Meunier de Grant pont pueent prendre, de chascun sestier de blé ou 
+<lb/> de aucun autre grain maudre, <num>I</num> boissiel, mès plus n’en pueent il pas prendre 
+<lb/> se il n’est bestens, c’est a savoir glace grans et fors, ou trop grans eaues ou trop 
+<lb/> petites; et lors, quant il est bestens, il puet prendre de chascun sestier, et aveuc 
+<lb/> ce puet il demander et prendre <num>VI</num>
+<abbr>d.</abbr> ou <num>IIII</num>
+<abbr>d.</abbr>, ou plus argent se il plus en puet 
+<lb/> avoir. </p>
+<p n=" V"> Li Meunier de Grant pont ne pueent maudre a mains de fuer que
+<num>II</num> sestiers 
+<lb/> pour <num>I</num> boissiel, et ce meisme ne pueent il faire ne prendre fors que aus Talemeliers, 
+<lb/> quar aus borgois ne pueent il prendre, ne en bestenc ne hors bestenc, 
+<lb/> ne en esté ne en yver, que de <num>I</num> sestier <num>I</num> res boissel, ne a nule autre persone demourant 
+<lb/> a Paris fors que aus Talemeliers. </p>
+<p n=" VI"> Li Meunier de Grant pont ne pueent desliener nului, et se il le fait et li 
+<lb/> deslienés s’en plaint au serjant qui est garde des Meniers de Grant pont de par <pb n="17"/>
+
+<lb/> le chapitre Nostre Dame de Paris, il est a <num>VI</num>
+<abbr>d.</abbr> de amende aveuc le damage que il 
+<lb/> rent au desliené. Et se li deslienés s’en plaint au serjant du chapitre, il l’amende 
+<lb/> au chapitre en <num>II</num>
+<abbr>s.</abbr>
+<num>VI</num>
+<abbr>d.</abbr> de parisis : des <num>II</num>
+<abbr>s.</abbr>
+<num>VI</num>
+<abbr>d.</abbr>, li mestres des molins a <num>VI</num>
+<abbr>d.</abbr> pour 
+<lb/> s’amende, et li chapitres le remanant. </p>
+<p n=" VII"> Nus ne puet prendre molin a ferme a Grant pont, qu’il ne pait
+<num>V</num>
+<abbr>s.</abbr> aus 
+<lb/> compaingnons pour boivre. </p>
+<p n=" VIII"> Quiconques est Meuniers a Grant pont, soit mestres, soit vallès, il convient 
+<lb/> que il jurt seur Sains que il gardera bien et leaument les biens et les choses 
+<lb/> a touz ceuz qui es molins devant diz les arront; et que il les bons us et les bones 
+<lb/> costumes garderont; et que se aucuns des voisins a mestier de lui, soit de 
+<lb/> nuis, soit de jours, que il a son pooir li aidera, et se il n’i vient et il est seu, il 
+<lb/> l’amendera : et si seroit parjures. Cest serement doivent il faire dedens les premiers 
+<lb/>
+<num>VIII</num> jours que il serroient venu ens molins devant diz. </p>
+<p n=" IX"> Li Meunier de Grant pont doivent le guet et les autres redevances que 
+<lb/> li autre borgois de Paris doivent au Roy. </p>
+<p n=" X"> Nus des Meuniers de Grant pont qui ait passé <num>LX</num> ans, ne cilz a qui sa 
+<lb/> fame gist d’enfant, ne doivent point guet; mès il le doivent faire savoir a celui 
+<lb/>
+<supplied resp="#editor">qui le</supplied>  queut de par le Roy.</p>
+</div>
+<pb n="18"/>
+<div type="titre" n="3">
+<head>Cis titres parole des Blaetiers et des vendeurs de toute autre maniere de graim. </head>
+<p n=" I"> Quiconques veut estre Blaetiers, c’est a savoir venderes de blé et de toutes 
+<lb/> autres manieres de graim boin et leau, et achateres, a Paris, estre le puet franchement, 
+<lb/> par paiant le tonlieu et la droiture que chascuns grains doit. </p>
+<p n=" II"> Quiquonques est Blaetiers a Paris, il puet avoir tant de vallès et de aprentis 
+<lb/> comme il leur plaist, et avoir mine leur propre, boine et leau, seingnie au 
+<lb/> seing le Roy; et en puent mesurer dessi a
+<num>I</num> sestier tant seulement, au vendre et a 
+<lb/> l’achater, se il plaist a l’achateur; et le sourplus de <num>I</num> sestier qu’il vendent ou
+
+<lb/> achatent, doivent il faire mesurer aus Mesureurs de la ville de Paris, mis et establiz 
+<lb/> par les Borgois de Paris, c’est a savoir par le prevost et par les jurés des 
+<lb/> Marchans. </p>
+<p n=" III"> Li Blaetier partissent li uns a l’autre, en la maniere que borgois partissent 
+<lb/> li uns a l’autre. </p>
+<p n=" IV"> Li Blaetier de Paris doivent la taille, le guet et les autres redevances que 
+<lb/> li autre borgois de Paris doivent au Roy.</p>
+</div>
+<div type="titre" n="4">
+<head> Cis titres parole des Mesureus de blé et de toute autre maniere de graim. </head>
+<p n=" I"> Nus ne puet estre Mesureres de blé ne de nul autre manire de graim, de <pb n="19"/>
+
+<lb/> quelque maniere que ce soit, a Paris, se il n’a le congiet du prevost des Marcheans 
+<lb/> et des jurés de la confraerie. </p>
+<p n=" II"> Quiquonques a enpetré le congié de mesurer, il convient qu’il jure seur 
+<lb/> Sains, avant que il puisse mesurer, que il le mesurage fera bien et loiaument a son 
+<lb/> pooir, de quelque maniere de grain que il mesureche, et que il la droiture a 
+<lb/> celui vendeur et a l’achateur gardera bien et loiaument. </p>
+<p n=" III"> Nus Mesureres ne puet ne ne doit demander de une charretée de grain
+
+<lb/> mesurer que <num>IIII</num>
+<abbr>d.</abbr> du mesurer, <num>VIII</num>
+<abbr>d.</abbr> du char, <num>I</num>
+<abbr>d.</abbr> de la some, soit a quelque 
+<lb/> beste que ce soit, soit a asne ou a cheval, soient grans les somes ou les charretées 
+<lb/> ou petites, de quelque maniere de grain <w>qu<supplied resp="#editor">e</supplied></w> ce soit. Lequel mesurage li 
+<lb/> venderes paie. </p>
+<p n=" IV"> Se aucun hom a vendu son blé ou son grain, quel que il soit, mesurer
+
+<lb/> le puet, se li achateur le veut recevoir de sa main; mès se li achateres veut, li 
+<lb/> Mesureur juré le mesurront. </p>
+<p n=" V"> Se un bourgois de Paris ne un forain de dehors, quel que il soit, livre 
+<lb/> le tesmoing de son grain pour vendre et il le vent, il li doit assener de son 
+<lb/> argent bien et souffisan, sanz domage que li i ait. Et li Mesureur doit avoir de 
+<lb/> chascun mui de grain <num>VI</num>
+<abbr>d.</abbr> du mesurer et dou vendre; ne plus n’en puet prendre 
+<lb/> ne demander. Et doit avoir du plus plus et du mains mains. </p>
+<p n=" VI"> Se Mesureur mesure aucun grain, quel qu’il soit, soit en grenier ou en 
+<lb/> nef, il aura de chascun mui <num>IIII</num>
+<abbr>d.</abbr> du mesurer, du plus plus et du mains mains. </p>
+<p n=" VII"> Nus Mesureur ne puet mesurer nule maniere de grain a nule mesure
+
+<lb/> qui ne soit seigniée au seing le Roi; et se il le fesoit, il seroit en la merci au 
+<lb/> prevost de Paris. Et se il a mesure et ele n’est pas seigniée, il la doit porter ou 
+<lb/> Parloir aus Bourgois, et illeuc doit estre justée et seignie. Et doit cil qui la 
+<lb/> mesure est, pour la mesure, soit mine, soit minot, <num>IIII</num>
+<abbr>d.</abbr> pour l’ajouster et pour 
+<lb/> le seignier. </p>
+<p n=" VIII"> Se mine ou minot se forfeit, c’est a savoir se ele gete hors ou ens, par <pb n="20"/>
+
+<lb/> quoi ele ne soit souffisans ne loial a mesurer, il n’en est a nule amende li Mesureur, 
+<lb/> se il ne l’a feit par sa tricherie; il seroit en la merci le Roi de cors et 
+<lb/> d’avoir, quar ce seroit larecin. Et si tost que li Mesureur s’aperçoit que sa mine 
+<lb/> soit forfeite, il la doit reporter ou Parloir, par son serement. Et se on treuve ou 
+<lb/> Parloir que la mine ne soit bone et loiaus, ele doit estre quassée, et li Mesureur 
+<lb/> doit ravoir le fer; et se ele est bone et loiaus, li Mesureur doit <num>IIII</num>
+<abbr>d.</abbr> pour le 
+<lb/> rajouster, toutes les fois que il la fera rajouster; ne plus ne doit il du seignier ne 
+<lb/> du rajuster. </p>
+<p n=" IX"> Nus Mesureur ne puet ne ne doit marchander de grain de nule maniere
+
+<lb/> en la vile de Paris, ne ne puet achater grain pour envoier chiès bourgois en la 
+<lb/> vile de Paris, se li bourgois ou son conmendement n’i est present. </p>
+<p n=" X"> Nus Marchans de grain, c’est a savoir vendeur ou achateur de grain, quelque 
+<lb/> il soit, dedenz la vile de Paris, ne puet ne ne doit mesurer chose que il vende, 
+<lb/> plus haut d’un sextier a une fois. Et se il li convenoit plus mesurer, il devroit apeler 
+<lb/> un Mesureur juré; et li Mesureur li devroit mesurer le mui pour <num>IIII</num>
+<abbr>d.</abbr>, du plus 
+<lb/> plus et du mains mains. </p>
+<p n=" XI"> Quiconques vende son grain a Paris, il puet apeler un Mesureur, quel que 
+<lb/> il veut, pour tant que il soit jurez et sermentés de la Vile. Et cil Mesureres li doit 
+<lb/> faire sa besoigne bien et loialment, par son serement, a la maniere desus dite. </p>
+<p n=" XII"> Se aucuns du mestier devant dit mesprent en aucune des choses desus
+
+<lb/> dites, il le doit amender au Roy selonc le jugement au prevost de Paris. Quar li 
+<lb/> Bourgois de Paris n’ont nul pooir ne nule joustice es choses desus dites, fors que 
+<lb/> de doner congié de mesurer, et de tolir le mesurage a aucun, se il leur semble 
+<lb/> bon et il leur plaist. </p>
+<p n=" XIII"> Nus Mesureur ne doit point de gueit, quar ce sont une maniere de
+
+<lb/> gaigne maille. </p>
+<p n=" XIV"> Li Mesureur doivent la taille et les autres redevances que li autre bourgois 
+<lb/> doivent au Roy.</p>
+</div>
+<div type="titre" n="5">
+<pb n="21"/>
+<head>Cis tytres parole des Crieurs de Paris. </head>
+<p n=" I"> Nus ne puet estre Crieur a Paris se il <supplied resp="#editor">n</supplied> ’en a enpetré le congié au prevost 
+<lb/> des Marcheans et as eschevins de la Marchandise. Et quant il en a enpetré 
+<lb/> lou congié, il doit <num>IIII</num>
+<abbr>d.</abbr> as mestres des Crieurs; et par les <num>IIII</num>
+<abbr>d.</abbr> le mestre des 
+<lb/> Crieurs li doit adrecier ses mesures et apointier. </p>
+<p n=" II"> Quiconques est Crieur a Paris, il convient qu’il doinst au prevost des Marcheans 
+<lb/> et aus eschevins de la Marchandise, ou a leur conmendement, seurté de 
+<lb/>
+<num>LX</num>
+<abbr>s.</abbr> et <num>I</num>
+<abbr>d.</abbr>; et seur cele seurté, li doit livrer li Taverniers son hanap. Et se li 
+<lb/> Taverniers le perdoit, il auroit recours aus pleges de son hanap. </p>
+<pb n="22"/>
+<p n=" III"> Quiconques est Crieur a Paris, il doit touz les jours que il est en escrit, 
+<lb/> dès le premier jour qu’il fu mis en escrit jusques adont qu’il en iert ostez, chascun 
+<lb/> jour, <num>I</num>
+<abbr>d.</abbr> a la confrarie des Marchans, hors mis tant seulement le diemenche 
+<lb/> qu’il ne doit riens, se li Crieres n’est malades ou il va en pelerinage a Saint Jaques 
+<lb/> ou outre mer. Et quant il va en ces pelerinages, il doit prendre congié au Parloir 
+<lb/> aus Bourgois et soi fere arrester tant qu’il ait fet son pelerinage, ou il poieroit 
+<lb/> chascun jour <num>I</num>
+<abbr>d.</abbr> Et se il est malades, il le doit faire monstrer au mestre des 
+<lb/> Crieurs, ou il seroit tenuz a poier le denier chascun jour. </p>
+<p n=" IV"> Quiconques est Crieur a Paris, il convient que il jure en Seins que il 
+<lb/> bones mesures portera en sa taverne, ne qu’il n’en n’i saura nule mauvese qu’il 
+<lb/> ne face a savoir, et que il gardera le profit aus Taverniers et au coumun de la 
+<lb/> vile, a son pooir. </p>
+<p n=" V"> Quiconques est Crieur a Paris, il puet aler en la quele taverne que il voudra 
+<lb/> et crier le vin, por tant que il y ait vin a broche, se en la taverne n’a Crieur; ne 
+<lb/> li Tavernier ne li puet veer. Et se li Tavernier dit que il n’i a point de vin a 
+<lb/> broche, li Crierres aura son serement que il ne vendi onques denrée, soit ses 
+<lb/> celiers clos ou overt. </p>
+<p n=" VI"> Se li Crierres treuve beuveeurs en une taverne et il leur demande a quel 
+<lb/> feur il boivent, le Crieur criera a cel feur qu’il li diront, vueille ou ne vueille 
+<lb/> li Tavernier, por tant que il n’i ait Crieur. </p>
+<p n=" VII"> Se Taverniers qui vent vin a Paris qui n’a point de crieur et il cloust son 
+<lb/> huis contre le Crieur, le Crieur puet crier le vin au Tavernier au feur lou Roy; 
+<lb/> ce est a savoir a <num>VIII</num>
+<abbr>d.</abbr> se il est bon tens de vin, et se il est chier tens de vin il le 
+<lb/> puet crier a <num>XII</num>
+<abbr>d.</abbr>. </p>
+<pb n="23"/>
+<p n="VIII"> Li Crieres ne puet porter vin pour crier se il ne l’a treit ou ait veu treire 
+<lb/> par devant lui, par son serement. </p>
+<p n=" IX"> Li Crierres a, touz les jours, de sa taverne <num>IIII</num>
+<abbr>d.</abbr> au moins, et plus il ne 
+<lb/> puet prendre, par son serement. </p>
+<p n=" X"> Se li Crierres n’a taverne, pour ce ne <w>demeur<supplied resp="#editor">e</supplied></w> il pas que il ne paie le
+
+<lb/> denier de chascun jour, ansi comme il est dit desus. </p>
+<p n=" XI"> Li Crierres est tenuz de requerre sa taverne avant qu’il soit eure de crier, 
+<lb/> pour ce que il doit encuser le vin qu’i doit crier, avant qu’il crit. Et se encuseeurs 
+<lb/> vont, li Tavernier li puet veer sa taverne et dire qu’il n’est mie tens de requerre 
+<lb/> mestre, car encuseeur vont. Et li Crierres li puet demander sa taverne a l’endemain. </p>
+<p n=" XII"> Li Crierres doit crier chascun jour <num>II</num> foiz, fors mis le Quaresme, les diemenges, 
+<lb/> les vendredis, et les <num>VIII</num> jourz de Nouel, et les Vigiles, qu’il ne crient que 
+<lb/> une foiz; le vendredi de Croiz Aourée ne crient pas Crieurs, mès il encusent 
+<lb/> après le service. </p>
+<p n=" XIII"> Li Crieurs ne crient pas le jour que li Rois ou la Roïne ou leur enfanz 
+<lb/> meurent. </p>
+<p n=" XIV"> Se li Rois met vin a taverne, tuit li autre Tavernier cessent, et li Crieur <pb n="24"/>
+
+<lb/> tout ensemble doivent crier le vin le Roi, au mein et au soir, par les quarrefours 
+<lb/> de Paris; et les doivent li mestre des <w>Crieur<supplied resp="#editor">s</supplied></w> mener; et, de ces vins crier, doivent 
+<lb/> il avoir chascuns <num>IIII</num>
+<abbr>d.</abbr> ausi comme de leur autres tavernes. </p>
+<p n=" XV"> Li prevoz de la confrerie des Marchanz et li eschevin ont la joustice de 
+<lb/> touz les Crieeurs, de toutes choses, fors mise la justice de la proprieté et de sanc, 
+<lb/> et les autres par desus. </p>
+<p n=" XVI"> Se li Crieurs mesprent es choses de leur mestier, le prevost des Marchanz 
+<lb/> le fet metre el cep, tant qu’il ait le meffet bien espeni; se ce n’est de larrecin ou 
+<lb/> des choses desus dites, que le Roi connoist. </p>
+<p n=" XVII"> Li Crierres doit livrer a son Tavernier mesures, soient bones ou ne soient 
+<lb/> les mesures au Tavernier.</p>
+</div>
+<div type="titre" n="6">
+<head>Jaugeurs. </head>
+<p n=" I"> Nus ne puet estre Jaugeur a Paris, se il ne l’a enpetré du prevost et des 
+<lb/> jurés de la conflarrie des Marcheans de Paris. </p>
+<p n=" II"> Quiconques est Jaugeur a Paris, il doit jurer par devant <supplied resp="#editor">le</supplied>  devant dit 
+<lb/> que il le mestier de jaugerie fera bien et loiaument a son pooir, et que il la
+
+<lb/> droiture au vendeur et a l’achateur gardera a son pooir, et que il ira jaugier toutes 
+<lb/> les fois que il en sera requis, pour qu’il soit <sic resp="#editor">aisier</sic> d’aler et qu’il soit eure et 
+<lb/> tans, dedens les murs de Paris. </p>
+<p n=" III"> Nus Jaugeur ne puet ne ne doit prandre de <num>I</num> tonel jaugier, quel que li 
+<lb/> tonniax soit, petit ou grans, que <num>II</num>
+<abbr>d.</abbr> : ce est a savoir <num>I</num>
+<abbr>d.</abbr> du vendre et <num>I</num>
+<abbr>d.</abbr> de <pb n="25"/>
+
+<lb/> l’achater, quelque liqueur qu’i i ait dedenz le tonnel, fors que de miel, du quel il 
+<lb/> ont du tonnel jaugier <num>IIII</num>
+<abbr>d.</abbr> : ce est a savoir <num>II</num> du vendeur et <num>II</num> de l’achateur. </p>
+<p n=" IV"> Se <num>I</num> Jaugeur jauge et cil qui vende ou cil qui achate se doute de la 
+<lb/> jauge qui n’est mie droitement jaugée, rapeler en puet par devant <num>I</num> des autres 
+<lb/> Jaugeurs, et cil Jaugeur puet rejaugier ce que li autre aura devant jaugié. Et se 
+<lb/> il se corde au premier Jaugeur, on ne puet rapeler <sic resp="#editor">del</sic> jauge aus
+<num>II</num>, et aura 
+<lb/> chascun l’argent desus devisé. Et se li seconz Jaugeur ne se corde au premier, 
+<lb/> rapeler puet on au tiers, et a ce que li dui s’acorderont doit estre pardus, et aura 
+<lb/> chascun de touz ceux qui auront jaugié l’argent desus devisé, ja soit ce que on 
+<lb/> rapele de sa jauge. </p>
+<p n=" V"> Li Jaugeur de Paris sont tenu d’aler jauger a la requeste des hestagiers de 
+<lb/> Paris par tout dedenz la prevosté de Paris, par tant que cil qui le maine leur 
+<lb/> doit livrer cheval et leur despens. Et doivent avoir de chascun tonnel l’argent 
+<lb/> devant dit, quar plus n’en pueent il demander par leur serement. </p>
+<p n=" VI"> Li preud'ome Jaugeur de Paris sont quite du gueit, quar leur mestier n’en 
+<lb/> doit point; mès il doivent la taille et les autres redevances que li autre bourgois 
+<lb/> de Paris doivent au Roy.</p>
+</div>
+<div type="titre" n="7">
+<head>Cist tytres parole des Taverniers de Paris.</head>
+<p n=" I"> Tout cil pueent estre Tavernier a Paris qui vueulent, se il ont de quoi, par 
+<lb/> aiant le chantelage au Roy, les mesures aus Bourgois, et les Crieurs. </p>
+<p n=" II"> Chascuns Tavernier doit achater chascun an ses mesures des Bourgois de 
+<lb/> Paris; et les vendent li Bourgois a l’un plus et a l’autre mains, selonc qu’il leur 
+<lb/> plaira, dessi a <num>I</num>
+<abbr>d.</abbr> le jour. </p>
+<pb n="26"/>
+<p n=" III"> Quiconques vent vin a broche a Paris, il convient qu’il ait Crieur, se il ne 
+<lb/> fine <w>au<supplied resp="#editor">s</supplied></w> Bourgois. </p>
+<p n=" IV"> Tout li Tavernier de Paris pueent vendre tel vin come il voelent, cras ou 
+<lb/> bouté, et a tel fuer come il voelent, mès qu’il ne croissent leur fuer et le pueent 
+<lb/> bien abessier, et avoir ent a broche tant come il leur plaist, mès qu’il mesurent 
+<lb/> a loial mesure. Et se nul i est repris de fause mesure, il amendera a la volenté 
+<lb/> lou Roy.</p>
+</div>
+<div type="titre" n="8">
+<head>Cist tytres parole de Cervoisiers de Paris.</head>
+<p n=" I"> Il puet estre Cervoisier a Paris qui veut, pour tant que il oevre as us et as 
+<lb/> coustumes du mestier que li preud'ome du mestier ont establi et ordené pour bien 
+<lb/> et pour leauté, si plaist au Roy. Li quel us et les quex coustumes sont tel : </p>
+<p n=" II"> A qui qu’il plaise au Roy qui face cervoise a Paris, il puet avoir tant d’aprantis 
+<lb/> et de sergens come il li plaist, et fere son mestier de jours et de nuiz, se 
+<lb/> mestiers li est. </p>
+<p n=" III"> Nus Cervoisiers ne puet ne ne doit faire cervoise, fors de yaue et de grain : 
+<lb/> c’est a savoir d’orge, de mestuel et de dragie. Et se il y metoit autre chose 
+<lb/> pour efforcier, c’est a savoir baye, piment et pois reisine, et quiconques y metroit 
+<lb/> aucune de ces choses, il amenderoit au Roy de <num>XX</num>
+<abbr>s.</abbr> de parisis toutes les 
+<lb/> fois qu’il en seroit reprins, et si seroit touz li brasins qui seroit faiz de tex 
+<lb/> choses donez pour Dieu. Li preud'ome du mestier dient que teuz choses ne sont 
+<lb/> pas bones ne leaus a metre en cervoise, quar elles sont enfermes et mauveises au 
+<lb/> chief et au cors et aus haytiez et aus malades. </p>
+<p n=" IV"> Nus ne puet ne ne doit vendre cervoise ailleurs que en l’ostel ou en
+
+<lb/> la brasse; quar cil qui sont Regratier de cervoises vendre ne les vendent 
+<lb/> pas si bones ne si loiaus come cil qui les font en leur hostieuz, et les vendent 
+<lb/> aigres et tournées, quar il ne les scevent pas metre a point. Et cil qui ne les <pb n="27"/>
+
+<lb/> font en leur hostiex, quant il les envoient vendre en <num>II</num> leus ou en <num>III</num> par la vile 
+<lb/> de Paris, il ne sont pas au vendre, ne leur fames, ains les font vendre par leur 
+<lb/> garconnès petiz, en rues foraines : si vont en tex leus et en tex tavernes li fol 
+<lb/> et les foles faire leur pechiez. Pour la quele chose li preud'ome du mestier se sont 
+<lb/> assenti a ce, s’il plaist au Roy. Et quiconques fera contre cest establissement, il 
+<lb/> amendera au Roy de <num>XX</num>
+<abbr>s.</abbr> de parisis toutes les fois que il en sera reprins, et si seroit 
+<lb/> la cervoise qui seroit trouvée en tex hostiex donée por Dieu. </p>
+<p n=" V"> Li preud'ome du mestier des Cervoisiers de Paris requierent, se il plaist 
+<lb/> au Roy, que el mestier devant dit ait <num>II</num> preud'omes jurés et serementés de par le 
+<lb/> Roy. Li quel preud'ome jurent seur Sains par devant le prevost de Paris que il 
+<lb/> garderont bien et loiaument le mestier devant dit, et que toutes les entrepresures 
+<lb/> qu’il sauront que i seront, au prevost de Paris ou a son conmendement, au plus 
+<lb/> tost qu’il porront, par reson le feront a savoir. Les quex preud'omes le prevost
+
+<lb/> de Paris met et oste a sa volenté. Et aient li <num>II</num> preud'ome pooir de arester les cervoises 
+<lb/> forfaites de par le Roi, ou que il les truissent, dessi adont que il aient fait 
+<lb/> savoir au prevost de Paris ou a son conmendement. </p>
+<p n=" VI"> Li Cervoisier de Paris doivent le gueit et la taille et les autres redevances 
+<lb/> que li autre bourgois de Paris doivent au Roy. </p>
+<p n=" VII"> Li Cervoisier de Paris qui ont passé <num>LX</num> ans de age, et cil qui sont malade, 
+<lb/> cil qui sont sainnié se il n’ont esté semons ains qu’il se firent sainier, cil qui sont 
+<lb/> hors de la vile se il ne furent semons avant ou il ne savoient la semonse, et cil as 
+<lb/> quex leur fames gisent d’anfant, sont quite du gueit, pour tant que il le facent 
+<lb/> savoir a celui qui le gueit garde de par le Roy.</p>
+</div>
+<div type="titre" n="9">
+<head>Des Regratiers de pain, de sel, de poisson de mer et de toutes autres denrées, 
+<lb/> fors poisson de eaue douce et cire ouvrée.</head>
+<p n=" I"> Nus ne puet estre Regratiers de pain a Paris, c’est a savoir venderes de pain 
+<lb/> que autres fourniece et quise, se il ne achate le mestier du Roy. Et le vent de par 
+<lb/> le Roy cilz qui del Roy l’a achaté, a l’un plus et a l’autre mains, si comme il li 
+<lb/> samble buen. </p>
+<p n=" II"> Quiquonques a achaté le mestier de Regraterie de pain a Paris, il puet <pb n="28"/>
+
+<lb/> vendre poisson de mer, char quite, sel a mines et a boisseaus, a estal et a fenestre, 
+<lb/> et pomes et toute autre maniere de fruit crut eu rene de France, aus, 
+<lb/> oingnons, et toute autre maniere d’aigrun, dates, figues et toute maniere de 
+<lb/> roisins, poivre, coumin, canele, regulisse et cire qui ne soit ouvrée. Quar, qui le 
+<lb/> mestier de Regraterie de pain a achaté, il puet vendre toutes les choses desuz 
+<lb/> dites, par paiant les costumes et les redevances que chascuns mestier doit. </p>
+<p n=" III"> Li Regratier de pain pueent vendre toutes autres manieres de denrées, fors 
+<lb/> poisson de eaue douce et cire ouvrée. </p>
+<p n=" IV"> Li Regratier de Paris puent avoir tant de vallès et de aprentis comme il 
+<lb/> leur plaira. </p>
+<p n=" V"> Chascuns Regratiers de pain doit chascun an au Roy <num>III</num>
+<abbr>s.</abbr> de hauban, a poier 
+<lb/> a la saint Martin d’yver. </p>
+<p n=" VI"> Se li Regratiers qui vent pain achate le mestier devant la Saint Jehan Baptistre, 
+<lb/> il doit <num>V</num>
+<abbr>d.</abbr> obole a la saint Jehan Baptistre, et <num>III</num>
+<abbr>s.</abbr> de hauban a la saint 
+<lb/> Martin d’yver, et a chascunne saint Martin d’yver <num>III</num>
+<abbr>s.</abbr>, <num>X</num>
+<abbr>d.</abbr> au Nouel, <num>XXII</num>
+<abbr>d.</abbr> a 
+<lb/> Paques. Et chascun an après ensuivant, autant aus termes desus <w>devisé<supplied resp="#editor">s</supplied></w>. </p>
+<p n=" VII">
+<supplied resp="#editor">Se</supplied>  li Regratier qui vent pain achate le mestier de Regraterie entre la 
+<lb/> saint Jehan Baptistre et la saint Martin d’yver, il est quites des premiers <num>III</num>
+<abbr>s.</abbr>
+
+<lb/> de hauban. </p>
+<p n=" VIII"> Touz li Regratier qui vendent pain doivent chascun, chascune semaine, 
+<lb/>
+<num>I</num>
+<abbr>d.</abbr> de tonlieu, a poier au diemenche se il a vendu pain en celle semaine. </p>
+<pb n="29"/>
+<p n=" IX"> Regratier qui vendent sel doivent chascun, chascun an, <num>III</num>
+<abbr>s.</abbr> de hauban 
+<lb/> au Roy, et <num>VIII</num>
+<abbr>d.</abbr> de coutume a poier au Nouël, et <num>VIII</num>
+<abbr>d.</abbr> a Paques. Et doit achater 
+<lb/> le mestier en la maniere desus devisée. </p>
+<p n=" X"> Se Regratier de pain vent sel, i doit <num>VI</num>
+<abbr>s.</abbr> de hauban : <num>III</num>
+<abbr>s.</abbr> pour le pain et 
+<lb/>
+<num>III</num>
+<abbr>s.</abbr> pour le sel. Et doit la coutume du pain et la coutume du sel chascun an, en 
+<lb/> la maniere desus devisée. </p>
+<p n=" XI"> De rechief, il est establi que il doit avoir eu mestier de Regraterie quatre 
+<lb/> vendeeurs d’oes et de fronmaches des charretes, et quatre de sonmiers.</p>
+</div>
+<div type="titre" n="10">
+<head>Cis titres parole des Regratiers qui vendent fruit et aigrun a Paris.</head>
+<p n=" I"> Nus ne puet estre Regratiers a Paris de fruit ou d’egrun, c’est a savoir de 
+<lb/> aus, de oingnons, de eschaloingnes et de toute maniere de tel egrun, s’il n’achate 
+<lb/> le mestier du Roy. Et le vent de par le Roy cil qui du Roy l’a acheté, a 
+<lb/> l’un plus, a l’autre mains, selon ce que boen li semble. </p>
+<p n=" II"> Quiquonques vent fruit a Paris et aigrun, il doit pour toutes ces choses, 
+<lb/> chascun an, <num>VI</num>
+<abbr>d.</abbr> de coutume au Roy, a poier : <num>IIII</num>
+<abbr>d.</abbr> aus huitenes de la foire 
+<lb/>
+<abbr>S.</abbr> Denis, et a la foire saint Ladre <num>II</num>
+<abbr>d.</abbr> Et les va cuiellir en leurs otieus, cil 
+<lb/> qui la coutume reçoit de par le Roy; et s’il ne li poient au jour noumé, il 
+<lb/> n’en poient point d’amende, mès cilz qui gardent la coustume de par le Roy 
+<lb/> puet prendre gage en leurs hotieus, pour qu’il ait <num>I</num> sergant du Chastelet avec lui. </p>
+<p n=" III"> Se aucuns est Regratiers et il vent fruit tant seulement, il doit les <num>IIII</num>
+<abbr>d.</abbr>
+
+<lb/> de coutume devanz diz; et se il vent egrun tant seulement, il doit les
+<num>II</num>
+<abbr>d.</abbr> de 
+<lb/> coustume devanz diz; et se il vent l’un et l’autre, il doit la coustume devant dite. </p>
+<pb n="30"/>
+<p n=" IV"> Quiquonques achate le mestier de l’un, il puet vendre l’autre ou l’un et 
+<lb/> l’autre, franchement, par paiant la coutume devant dite. </p>
+<p n=" V"> Nus Regratiers de Paris, ne autre quel que il soit demouranz a Paris, ne 
+<lb/> puet ne ne doit achater chartée de oes ne de froumaches, ne somme de ces 
+<lb/> choses, par chemin, puis que elle est charchiée pour venir a Paris, juques a 
+<lb/> tant que elle soit descendue a Paris en place commune la ou en vent tex choses, 
+<lb/> c’est a savoir el marchié a Paris ou entre le parvis Nostre Dame de Paris et 
+<lb/> Saint Cristofle; quar il est resons que les denrées viegnent en plain marchié et 
+<lb/> illuec soient veues se elle sont bones et loiaus ou non, et illeuc soient venduees, 
+<lb/> si que li povre home puissent prendre part avec le riche, se il <supplied resp="#editor">partir y veulent </supplied> 
+
+<lb/> et mestier leur est. Et se aucun feit encontre cest establisemens, il le doit amender 
+<lb/> <supplied resp="#editor">au Roy en <num>IIII</num>
+<abbr>s.</abbr> de parisis </supplied>. </p>
+<p n=" VI"> Nus Regratiers de Paris ne puet ne ne doit achater de nul marchant charetée 
+<lb/> de oes ne de fromages, ne some, a livrer a la revenue del marchant ne a 
+<lb/> nul terme; quar tex marchiez n’est ne bons ne loiaus, pour ce que en tex marchiés 
+<lb/> a trop de baraz, quar a envis les veut vendre cil qui les doit livrer, <supplied resp="#editor">ne</supplied>  si 
+<lb/> bons ne si leaus que il devroit. Autre reson : li riche marchant auroient toutes les 
+<lb/> denrées, et li povre n’en porroient nule avoir. Autre reson : en tex achaz nus 
+<lb/> ne porroit demander part ne avoir au marchié, et ensi li riche auroient tout, et 
+<lb/> revendroient si chier come il leur plairoit. Car <w>au<supplied resp="#editor">s</supplied></w> choses desus dites, vendues 
+<lb/> en plain marchié, tout pueent avoir part, et povre et riche. Et se aucun fait encontre 
+<lb/> cest establisemens, il amendera <supplied resp="#editor">au Roy en <num>IIII</num>
+<abbr>s.</abbr> de parisis</supplied>. </p>
+<p n=" VII"> Nus Regratier de Paris ne autres ne puet ne ne doit achater oes ne fromages 
+<lb/> qui viegnent par eaue, devant que il soient venu dedenz les murs de Paris, 
+<lb/> et soient a rive. Et se aucun les achatoit en l’iaue ou a aucun port, fors des murs 
+<lb/> de Paris, il l’amenderoit <supplied resp="#editor">au Roy en <num>IIII</num>
+<abbr>s.</abbr> de parisis</supplied><sic/>. </p>
+<p n=" VIII"> Se aucuns amaine a Paris par eaue oes ou fromages, ou auz ou oingnons, 
+<lb/> ou aucune autre maniere d’aigrun, et il sont dedenz les murs de Paris, au port 
+<lb/> ou en hostel ou en grenier, ou aporteche aucune des choses desus dites <pb n="31"/>
+
+<lb/> dedenz la vile de Paris a col, l’en les puet, soit Regratiers ou autres, achater 
+<lb/> franchement. </p>
+<p n=" IX"> Li Regratier de Paris et autres, de Paris et d’ailleurs, pueent achater es 
+<lb/> meisons de relegion assises dedenz Paris et dehors Paris, sans coustume paier et 
+<lb/> sans amende. </p>
+<p n=" X"> Tot Regratier de Paris d’aigrun et de fruit pueent achater hors de la vile 
+<lb/> de Paris charetée ou some de fruit et de aigrun, et les puent amener a Paris tout 
+<lb/> franchement, soit que il soit chargiez pour venir a Paris ou en autre maniere; 
+<lb/> ne mais que li Regratiers de Paris n’ait conpaignie a home de hors. </p>
+<p n=" XI"> Quant aucun du mestier ou autres mesprent en aucun des articles desus 
+<lb/> dis ou en aucune des choses desus dites, il le doit amender
+<supplied resp="#editor">au Roy en <num>IIII</num>
+<abbr>s.</abbr> de 
+<lb/> parisis toutes les fois qu’il en serra reprins, et li marchiés qu’il auroit fait contre 
+<lb/> l’establissement devant dit serroit nul, et les denrées venroient en plain marchiet 
+<lb/> en conmune place, si comme elles doivent faire</supplied><sic/>. </p>
+<p n=" XII"> Quiconques achate le mestier devant dit, il puet par droit vendre tout 
+<lb/> avoir de pois, se ce n’est cire ouvrée, toute poulaile, toute sauvagine, toute 
+<lb/> volille, sel et pain, et poisson de mer, sans achater le mestier du Roi, par paiant 
+<lb/> les coustumes que les choses devant dites doivent : c’est a savoir le hauban le Roi, 
+<lb/> et les autres droitures. </p>
+<p n=" XIII"> El mestier devant dit a <num>XII</num> preud'omes, jurés et serementés de par le Roy, 
+<lb/> les quex li prevos de Paris met et hoste a sa volenté. Li quel jurent seur Sains que 
+<lb/> il le mestier devant dit garderont bien et leaument en la maniere desus devisée, 
+<lb/> et qu’il, au prevost de Paris ou a son conmandement, toutes les entrepresures 
+<lb/> que il sauront que faites y serront, le feront a savoir au plus tost qu’il porront 
+<lb/> par raison. Li quel <num>XII</num> juré sunt quite del guet, pour le service que il font au Roy 
+<lb/> de son mestier garder. </p>
+<p n=" XIV"> Li Regratier de fruit et de aigrun doivent le gueit et la taille et les autres 
+<lb/> redevances que li autre bourgois de Paris doivent au Roy. </p>
+<p n=" XV"> Nus Regratier qui ait plus de <num>LX</num> ans ne doit point de gueit au Roi, ne cil 
+<lb/> a qui sa fame gist d’anfant ne doit point de gueit par droit; mès il sont tenu de 
+<lb/> faire le savoir a celui qui le guet garde de par le Roy. </p>
+<pb n="32"/>
+<p n=" XVI"> Nus ne puet ne ne doit achater ne vendre charretée de oes ne de fromages, 
+<lb/> ne some, se ele ne sont deliées de chief en chief. </p>
+<p n=" XVII"> De rechief, il est establi eu dit mestier que il i doit avoir quatre vendeeurs 
+<lb/> d’oes et de fronmages des charretées, et quatre des sonmiers, que les 
+<lb/> douze jurez i doivent metre par leur serement preudeshommes et soufisanz, joustiçables 
+<lb/> le Rei, por douze deniers la charretée d’oes et de fronmages. Et ne doivent 
+<lb/> avoir a leur oes nulle des denrées que il vendent, par leur serement; et les 
+<lb/> doivent conter de leurs mains iceus <num>IIII</num>, por ceus dehors et por ceus dedenz, bien 
+<lb/> et loiaument. Et que nus ne puisse retenir denrées au fuer de place. </p>
+<p n=" XVIII"> Item, que nus qui vende oes ne fronmages ne doit avoir oes quassez 
+<lb/> qui viegnent des entiers que il recevra, ne por denier ne por maaille; et 
+<lb/> se l’en li veut donner, que il ne les praignie pas, quar c’est grief a ceus de hors 
+<lb/> et a ceus de denz. Et que nus qui recoive oes en geron n’en pannier, et, puis 
+<lb/> que il seront en sa meson, n’en doit nus apporter a la charrete. Et touz ceus qui 
+<lb/> achatent fronmages et oes por vendre, et il en i ait nul qui parte a lui, que 
+<lb/> il li face bone part et loial, et que il ne retiegne rien de son conpaignion a outrage. </p>
+<p n=" XIX"> Item, que nus ne pregnie oes ne frommages eu nom du Rei ne de Reïne
+
+<lb/> por revendre, quar ce est grief.</p>
+</div>
+<div type="titre" n="11">
+<head>Cist tytres parole des Orfevres et de l’ordenance de leur mestier.</head>
+<p n=" I"> Il est a Paris Orfevres qui veut et qui faire le set, pour que il oevre ad us 
+<lb/>
+
+<lb/> et sa coustumes du mestier, qui tex sunt : </p>
+<pb n="33"/>
+<p n=" II"> Nus Orfevre ne puet ouvrer d’or a Paris, qu’il ne soit a la touche de Paris ou 
+<lb/> mieudres : la quele touche passe touz les ors de quoi en oevre en nulle terre. </p>
+<p n=" III"> Nus Orfevres ne puet ouvrer a Paris d’argent, que il ne soit ausi bons 
+<lb/> come esterlins ou mieudres. </p>
+<p n=" IV"> Nus Orfevres ne puet avoir que un aprentis estrange; mès de son linage 
+<lb/> ou du lignage de sa fame, soit de loing, soit de près, en puet il avoir tant come 
+<lb/> il li plaist. </p>
+<p n=" V"> Nus Orfevres ne puet avoir aprentis privez ne estrange, a mains de
+<num>X</num> ans, 
+<lb/> se li aprentis n’est tex qu’il sache gaingnier
+<num>C</num>
+<abbr>s.</abbr> l’an, et son despens de boivre et 
+<lb/> de mangier. </p>
+<p n=" VI"> Nus Orfevres ne puet ouvrer de nuit, se ce n’est a l’euvre lou Roy, la 
+<lb/> Roïne, leur anfans, leur freres, et l’evesque de Paris. </p>
+<p n=" VII"> Nus Orfevres ne doit paiage de coustume nule de chose qu’il achate ne 
+<lb/> vende, appartenant a leur mestier. </p>
+<p n=" VIII"> Nus Orfevres ne puet ouvrir sa forge au jour d’apostele, se ele n’eschiet 
+<lb/> au semedi, fors que un ouvroir que chascun ouvre a son tour a ces festes et au 
+<lb/> diemenche. Et quanque cil gaaigne, qui l’ouvroir a ouvert, il le met en la boiste de 
+<lb/> la confrarie des Orfevres, en la quele boiste on met les deniers Dieu que li Orfevre 
+<lb/> font des choses que il vendent ou achatent, apartenans a leur mestier. Et de tout 
+<lb/> l’argent de cele boiste done on chascun an, le jor de Pasques, <num>I</num> disner as povres 
+<lb/> de l’ostel Dieu de Paris. </p>
+<p n=" IX"> Tous ces establisemens devant diz ont juré li Orfevre a tenir et a garder 
+<lb/> bien et loiaument. Et se estranges Orfevres vient a Paris, il jure a tenir touz ces 
+<lb/> establissemens. </p>
+<pb n="34"/>
+<p n=" X"> Li Orfevre de Paris sont quite du gueit, mès il doivent les autres redevances 
+<lb/> que li autre bourgois doivent au Roy. </p>
+<p n=" XI"> Et est a savoir que li preud'ome du mestier elisent <num>II</num> preudeshomes ou <num>III</num>, 
+<lb/> pour garder le mestier : li quel preud'ome jurent que il garderont le mestier bien 
+<lb/> et loiaument as us et as coustumes devant diz. Et quant cil preud'ome ont finé leur 
+<lb/> office, li communs du mestier ne les pueent mès remetre a garder le mestier
+
+<lb/> devant <num>III</num> ans, se il n’i voelent entrer de leur bone volenté. </p>
+<p n=" XII"> Et se li <num>III</num> preud'ome treuvent <num>I</num> home de leur mestier qui ovre de mauvès 
+<lb/> or ou de mauvès argent, et il ne s’en voille chatoier, li <num>III</num> preud'ome ameinent 
+<lb/> celui au prevost de Paris, et li prevoz le punist si qu’il le banist a <num>IIII</num> anz ou a <num>VI</num>, 
+<lb/> selonc ce qu’il a deservi.</p>
+</div>
+<div type="titre" n="12">
+<head>Cis titres parole des Potiers d’estaim de Paris.</head>
+<p n=" I"> Quiconques veut estre Potiers d’estain a Paris, estre le puet franchement, 
+<lb/> pour tant qu’il face bon oevre et loial; et puet avoir tant de vallès et d’aprentis 
+<lb/> come il li plera. </p>
+<p n=" II"> Nus Potiers d’estain ne puet ouvrer de nuiz ne a jour de feste que conmun 
+<lb/> de vile foire; et quiconques le fera, il iert a <num>V</num>
+<abbr>s.</abbr> d’amende a paier au Roy: 
+<lb/> quar la clartez de la nuit n’est mie souffisans que il peussent faire bone oevre 
+<lb/> et loial de leur mestier. </p>
+<pb n="35"/>
+<p n=" III"> Nus Potiers d’estain ne puet ne ne doit par droit ovrer de nul ovrage de 
+<lb/> son mestier, qui ne soit aloié bien et loialment selonc ce que l’euvre le <w>requier<supplied resp="#editor">t</supplied></w>. 
+<lb/> Et se il le feit autrement, il piert l’euvre et si est a <num>V</num>
+<abbr>s.</abbr> d’amende au Roi. </p>
+<p n=" IV"> Nus Maagnan ne autres, soit dedenz la vile, soit de dehors, ne puet nule des 
+<lb/> oevres apartenans au mestier de Potiers d’estain vendre aval la vile, ne en son 
+<lb/> ostel, se l’oevre n’est de bon aloiement et de loial. Et se il le feit, il doit perdre 
+<lb/> l’oevre et paier <num>V</num>
+<abbr>s.</abbr> de parisis au Roi pour l’amende. </p>
+<p n=" V"> Nus ne puet ne ne doit vendre oevre apartenant as Potiers d’estain, nueve 
+<lb/> pour viez. Et s’il le feit, il doit <num>V</num>
+<abbr>s.</abbr> d’amende au Roy. </p>
+<p n=" VI"> Li preud'ome du mestier de Potiers d’estain requierent que
+<num>II</num> preud'ome 
+<lb/> du mestier soient esleu par le conmendement au prevost de Paris. Li quel doi 
+<lb/> preud'ome doivent jurer seur Sains que il le mestier devant dit garderont bien 
+<lb/> et loialment en la maniere desus devisee, et que les entrepresures du mestier 
+<lb/> feront savoir au prevost de Paris ou a son conmendement. </p>
+<p n=" VII"> Li Potier d’estain doivent le gueit, se il n’ont passé
+<num>LX</num> ans. </p>
+<p n=" VIII"> Li Potier d’estain requierent que li <num>II</num> preud'ome qui gardent le mestier 
+<lb/> soient quite du gueit. </p>
+<p n=" IX"> Li Potier doivent la taille et les autres redevances que li autre bourgois de 
+<lb/> Paris doivent au Roy.</p>
+</div>
+<div type="titre" n="13">
+<head>Cist tytres parole des Cordiers de Paris.</head>
+<p n=" I"> Il puet estre Cordier a Paris qui veut, c’est a savoir faisierres des cordes 
+<lb/> de toutes manieres de fil, de teill, de poil, pour tant que il sache le mestier, 
+<lb/> et il a de quoi, et pour tant que il euvre aus us et aus coustumes del mestier, qui 
+<lb/> tel sont : </p>
+<p n=" II"> Li Cordier pueent avoir tant vallez coume il leur plaist. Mais il ne pueent <pb n="36"/>
+
+<lb/> avoir que un aprentiz, le quel il ne pueent prendre a mains de
+<num>IIII</num> anz de service; 
+<lb/> mès a plus service le pueent il bien prendre. </p>
+<p n=" III"> Nus Cordier ne puet ouvrer de nuit, pour les fausses euvres que on i puet 
+<lb/> faire, ne a nul jour de feste que li quemun de la vile foire. </p>
+<p n=" IV"> Nus Cordier ne puet ne ne doit nule corde faire, de quelque maniere que 
+<lb/> ele soit, que ele ne soit faite tout de <num>I</num> etoffe, c’est a savoir : ou toute de teil, ou 
+<lb/> toute de chanvre, ou toute de lin, ou toute de saie, hors mises <w>le<supplied resp="#editor">s</supplied></w>ordes que 
+<lb/> on fait de poil desous les queles l’en met chanvre pour <w>est<supplied resp="#editor">re</supplied></w> meilleur et pour 
+<lb/> plus faire les valoir et pour plus durer. </p>
+<p n=" V"> Nus Cordier ne puet ne ne doit metre viez cordes avecques neves. </p>
+<p n=" VI"> Nus Cordier ne puet faire traians a <w>ch<supplied resp="#editor">ar</supplied>rue</w> par quatre, c’est a savoir qu’il 
+<lb/> ne puet faire traians qu’il ne soient de fil. </p>
+<p n=" VII"> Nus Cordier ne puet ne ne doit faire chaable, de quelque maniere qu’il 
+<lb/> soit, ne huves, c’est a savoir cordes par les queles les vallès et li cheval traient 
+<lb/> les nes contre mont <w>le<supplied resp="#editor">s</supplied></w> iaues, que eles ne soient auteles et ausi fines dedenz 
+<lb/> come dehors. </p>
+<p n=" VIII"> Nus Cordier ne doit rien de chose qu’il vende ne achate, apartenant a 
+<lb/> son mestier. </p>
+<p n=" IX"> Quiconques mesprendra en aucune des choses desus dites, il amendera au 
+<lb/> Roy de <num>V</num>
+<abbr>s.</abbr> de parisis toutes les fois que il li mesprendra, avecques l’oevre fauce 
+<lb/> que l’en ardroit, se aucune en avoit faite. </p>
+<p n=" X"> El mestier desus dit a <num>II</num> preudeshomes jurés et serementés de par lou Roi, 
+<lb/> les quex li prevoz met et oste a sa volenté. Li quel preud'ome jurent seur Sains 
+<lb/> que il le mestier devant dit garderont bien et loialment en la maniere desus 
+<lb/> devisée, et que il, toutes les entrepresures qu’il sauront que faites i seront, au 
+<lb/> prevost de Paris ou a celui qui est en son leu le feront a savoir au plus tost que il 
+<lb/> le porront faire savoir par reson. </p>
+<p n=" XI"> Et ont pooir les <num>II</num> preudeshomes de prendre toute la mauveise oevre 
+<lb/> de leur mestier, de par le Roi, partout la ou il la troveront, et aporter au prevost <pb n="37"/>
+
+<lb/> de Paris. Et se aucun leur efforçoit, montrer le doivent et faire le savoir au 
+<lb/> prevost de Paris, et li prevoz leur doit faire amender l’entrepresure et la rescousse 
+<lb/> devant dite, en la maniere desus devisée. </p>
+<p n=" XII"> Li Cordier doivent le gueit et la taile et les autres redevances que li 
+<lb/> autre bourgois de Paris doivent au Roy. </p>
+<p n=" XIII"> Li <num>II</num> preud'ome juré, qui le mestier gardent de par le Roi, sont quite 
+<lb/> du gueit, pour le servise que il li font de son mestier garder; et cil qui ont <num>LX</num> ans 
+<lb/> passés, et cil aus quex leur fames gisent d’anfant, tant come eles gisent. Et sont 
+<lb/> tenu a fere le savoir a celui qui le gueit garde de par lou Roi.</p>
+</div>
+<div type="titre" n="14">
+<head>Cis titres parole des Ouvriers de toutes menues ouevres que on fait d’estaim ou de plom 
+<lb/> a Paris.</head>
+<p n=" I"> Quiconques veut estre Ovriers d’estain, c’est a savoir fesieres de miroirs 
+<lb/> d’estain, de fremaus d’estain, de sonneites, de anelès d’estain, de maillès de plon, 
+<lb/> de mereaus de toutes manieres, et de toutes autres menues choseites apartenans 
+<lb/> a plom et a estain, il le puet estre franchement et ouvrer de nuiz et 
+<lb/> de jours, se il li plaist et il en a mestier, et avoir tant de vallès come il li plaira. </p>
+<p n=" II"> Nus menestreus du mestier devant dit ne puet ne ne doit avoir que
+<num>I</num> aprentis 
+<lb/> tant seulement, se ce ne sont si enfant ou li enfant de sa fame né de loial mariage. 
+<lb/> Et puet prendre l’aprentis a argent et sans argent, et a tel terme come il li plaira. </p>
+<p n=" III"> Nus du mestier devant dit <supplied resp="#editor">ne puet</supplied>  ne ne doit ouvrer au diemenche ne 
+<lb/> a nul jour de feste que quemun de vile foire. </p>
+<p n=" IV"> Quiconques mesprendra en aucune des choses desus dites, il l’amendera 
+<lb/> au Roy de <num>V</num>
+<abbr>s.</abbr> de parisis toutes les fois que il li mesprendra. </p>
+<p n=" V"> Li menestereul devant dit doivent le gueit et la taille et les autres redevances 
+<lb/> que li autre bourgois de Paris doivent au Roy. </p>
+<pb n="38"/>
+<p n=" VI"> Nus hom du mestier devant dit qui est passé <num>LX</num> ans de age ne doit point 
+<lb/> de gueit, ne cil a qui sa fame gist d’anfant tant come ele gise; mès il le doivent 
+<lb/> faire savoir a celui qui le gueit reçoit de par le Roy.</p>
+</div>
+<div type="titre" n="15">
+<head>Des Fevres, des Marissaus, des Veilliers, des Greifiers et des Heaumiers.</head>
+<p n=" I"> Nus ne puet estre Fevre a Paris, c’est a savoir Marischax, Greifiers, Hiaumiers, 
+<lb/> Veilliers, Grossiers, que il n’achate le mestier du Roy. Et le vent de par 
+<lb/> lou Roy son mestre Marischal, a l’un plus et a l’autre mains, selonc ce qu’il li 
+<lb/> plera, dessi a <num>V</num>
+<abbr>s.</abbr>; les quex <num>V</num>
+<abbr>s.</abbr> il ne puet passer. </p>
+<p n=" II"> Li Rois a doné a son mestre Marischal ce mestier et la joustice du mestier, 
+<lb/> tant come il li plera. </p>
+<p n=" III"> Quiconques est del mestier devant dit, il doit chascun an au Roi
+<num>VI</num>
+<abbr>d.</abbr> aus 
+<lb/> fers le Roy, a paier <w>au<supplied resp="#editor">s</supplied></w> huitenes de Penthecoste; et les a son mestre Marischal, 
+<lb/> tant conme il li plera. Et de ce est tenuz li mestres Marischax le Roy au ferrer ses 
+<lb/> palefroy de sa siele tant seulement, sanz autre cheval nul. </p>
+<p n=" IV"> Quiconques est des mestiers devant diz et ait achaté le mestier en la maniere 
+<lb/> desus devisée, il est quites de son gueit un an et un jour tant seulement. </p>
+<p n=" V"> Nus qui ait achaté les mestiers devant diz ne puet touchier au mestier, devant 
+<lb/> qu’il ait paié le pris que il ait achaté dessi a
+<num>V</num>
+<abbr>s.</abbr>, et que il ait feit serement 
+<lb/> que il gardera le mestier bien et loiaument, as us et as coustumes que si devantier 
+<lb/> l’ont gardé par devant lui. </p>
+<p n=" VI"> Li mestre du mestier doit recevoir ce serement par devant des preudeshomes 
+<lb/> du mestier. </p>
+<pb n="39"/>
+<p n=" VII"> Quiconques veut avoir travail en sa meson, avoir le puet par paiant
+
+<lb/> chascun an <num>III</num>
+<abbr>s.</abbr> de hauban au Roy. </p>
+<p n=" VIII"> Quiconques vaut avoir travail hors de son hostel, il convient qu’il en ait 
+<lb/> le congié du voier de Paris. Et se il a le congié du voier, il doit <num>VI</num>
+<abbr>s.</abbr> de hauban au 
+<lb/> Roy, se il met son travail hors de son hostel. </p>
+<p n=" IX"> Quiconques est du mestier desus dit, il puet avoir tant de vallès et d’aprentis 
+<lb/> come il li plera. </p>
+<p n=" X"> Fevre, Marischal, Grossier et Greifier et Hiaumiers pueent ovrer de nuiz 
+<lb/> s’il leur plaist, et tout li mestier devant dit, hors mis Serreuriers et Couteliers. </p>
+<p n=" XI"> Li mestres des Marischax doit semondre son gueit, et doit eslire chascun 
+<lb/> an <num>VI</num> preudeshomes; li quel <num>VI</num> home sont ajorné a semondre le gueit et sont 
+<lb/> quite de leur gueit : ne nul autre profist li <num>VI</num> home ne li mestres n’en n’ont. </p>
+<p n=" XII"> Nus qui soit des mestiers devant diz, qui ait passé <num>LX</num> ans, n’est tenuz a 
+<lb/> gueitier; ne nul au quel sa fame gise d’enfant tant come ele gise. </p>
+<p n=" XIII"> Li mestres Marischaus a la joustice de touz les mestres des mestiers desus 
+<lb/> diz et de touz leur vallès, de touz les forfais apartenans a leur mestiers Fevres 
+<lb/> a autre, et de toutes les clameurs qu’il <supplied resp="#editor">i</supplied>  font li uns seur l’autre. </p>
+<p n=" XIV"> De ces joustices a li mestres usé et use encore pesiblement en toutes les 
+<lb/> terres aus joustices de Paris, et en la terre l’evesque et en l’autrui, hors mise la 
+<lb/> terre Sainte Genevieve et <abbr>S.</abbr> Martin des Chans, qui li empeechent et destourbent 
+<lb/> a user ent, contre Dieu, contre droit et contre reson, puis <num>V</num> ans en ença, par 
+<lb/> la force de leur semonses : c’est a savoir que <abbr>S.</abbr> Genevieve le semonnent a Orliens 
+<lb/> et a Blois tout de une cause, et <abbr>S.</abbr> Martin des Chans le semonent a Hesdig 
+<lb/> et ailleurs. </p>
+<p n=" XV"> Se aucuns des mestiers desus diz, c’est a savoir li mestres ou li vallès, 
+<lb/> mesprent en aucune chose en son mestier envers estranges, et il s’en plainst et il <pb n="40"/>
+
+<lb/> est prouvé que mespris i ait, il doit rendre le domage au plaintif et au mestre 
+<lb/> amender en <num>IIII</num> parisis, hors mis le mestier des Couteliers et des Serreuriers, qui 
+<lb/> ont mises plus grosses amendes en leur establissement. Es queles amendes li 
+<lb/> mestres des Marischaus a
+<num>IIII</num> parisis, se nus des mestiers devant diz se plainst li
+
+<lb/> uns de l’autre de quelque chose que se soit, hors mises les clameurs de proprieté 
+<lb/> et de sanc; et, par desus, cil qui est convaincus <corr resp="#editor">est</corr> en <num>IIII</num>
+<abbr>d.</abbr> d’amende au mestre. </p>
+<p n=" XVI"> Se aucuns des mestiers desus diz est condempnez par le mestre en aucune 
+<lb/> chose envers qui que ce soit, et li condempnez ne voille obeir au conmendement 
+<lb/> le mestre, li mestres li puet deffendre le mestier dessi adont qu’il ara 
+<lb/> enteriné le conmendement le mestre. Et se il, pour la desfence le mestre, ne veut 
+<lb/> lessier le mestier, li mestres li puet abatre la forge. Et s’il, pour le mestier desfendu 
+<lb/> et pour la forge abatue, soit si erredes qu’il ne voille obeir au mestre, li 
+<lb/> mestres doit venir au prevost de Paris et prier et requerre qu’il li aide a jousticier, 
+<lb/> et li prevoz le doit faire. </p>
+<p n=" XVII"> Se li mestres du mestier n’a pas la joustice des mestres desus diz ne 
+<lb/> de leur vallès, es choses que il auroient forfaites en leur mestier qui apartendroient 
+<lb/> a larecin, ançois l’auroit li prevoz de Paris, quar il i queurt vie ou 
+<lb/> menbre.</p>
+</div>
+<div type="titre" n="16">
+<head>Cist tytres parole des Fevres Couteliers de Paris.</head>
+<p n=" I"> Nus ne puet estre Fevres Couteliers a Paris s’il n’achate le mestier du Roy. 
+<lb/> Et le vent de par le Roy son mestre Marissal, à qui li Roys l’a donné, tant 
+<lb/> comme il li plaira. Et le vent a l’un plus a l’autre mains, si comme il li plaist, 
+<lb/> dessi a <num>V</num>
+<abbr>s.</abbr>, les quex <num>V</num>
+<abbr>s.</abbr> il ne puet passer. </p>
+<p n=" II"> Si tost comme li Fevres Couteliers a achaté le mestier del mestre qui garde 
+<lb/> le mestier de par le Roy, il doit jurer seur Sains que il le mestier gardera et fera 
+<lb/> bien et loiaument, as us et as coustumes du mestier, qui tel sunt : </p>
+<pb n="41"/>
+<p n=" III"> Nus Fevres Coutelier ne puet avoir que <num>II</num> aprantis ensamble, ne ne les puet 
+<lb/> prandre a mains de <num>VI</num> ans de service; mès a plus service les puet il bien prandre 
+<lb/> et a argent, se avoir les puet. </p>
+<p n=" IV"> Nus Fevre Coutelier ne puet ne ne doit ouvrer au jour de feste que li 
+<lb/> commun de la vile foire, ne par nuit, en chose qui apartiegne a son mestier de 
+<lb/> coutelerie; quar la clartez de la nuit ne soufist au mestier devant dit. </p>
+<p n=" V"> Nus ne puet ne ne doit ouvrer en charnage puis vespres sonans audit
+
+<lb/> mestier, ne en quaresme puis complie sonant. </p>
+<p n=" VI"> Nus ne puet ne ne doit fortraire autrui aprantis ne autrui sergent, par lui 
+<lb/> ne par autre, devant qu’il ait feit et acompli son service. </p>
+<p n=" VII"> Quiconques mesprandra en aucun des articles desus diz, il amendera,
+
+<lb/> toutes les fois que il en sera reprins, de <num>V</num>
+<abbr>s.</abbr> de parisis au Roy. </p>
+<p n=" VIII"> El mestier devant dit a <num>II</num> preudeshomes jurez et sermentez de par le Roi, 
+<lb/> les quex li prevoz de Paris met et oste a sa volenté; li quel jurent seur Sains que 
+<lb/> il le mestier devant dit garderont bien et loiaument selonc leur pooir, et que 
+<lb/> toutes les entrepresures qu’il sauront que feites i seront, au plus tost que il porront, 
+<lb/> au prevost de Paris ou a son conmendement le feront a savoir par reson. Et doivent 
+<lb/> li <num>II</num> preud'ome devant dit avoir, de chascun <num>V</num>
+<abbr>s.</abbr> d’amende <num>XII</num> <supplied resp="#editor"><abbr>d.</abbr></supplied> parisis par la main 
+<lb/> du prevost de Paris, pour les mises et pour les couz et pour les despens qu’il y font. </p>
+<p n=" IX"> Li Fevre Coutelier de Paris doivent le gueit et la taille et les autres redevances 
+<lb/> que li autre bourgois de Paris doivent au Roy. </p>
+    <p n=" X"> Li Fevre Coutelier qui ont passé <num>LX</num> ans, et cil as <choice><corr resp="#encoder">quex</corr><sic>quexl</sic></choice> <choice><corr resp="#encoder">leur </corr><sic>eur</sic></choice> fame gisent 
+<lb/> d’enfant, tant come ele gisent, ne doivent point de gueit; mès il sont tenu de faire 
+<lb/> le savoir a celui qui le gueit garde de par lou Roy. </p>
+<p n=" XI"> Li <num>II</num> preud'ome qui le mestier gardent de par lou Roy sont quite du gueit, 
+<lb/> pour la paine et pour le travail qu’il ont de garder le mestier devant dit de par lou 
+<lb/> Roy.</p>
+</div>
+<div type="titre" n="17">
+<head>Cist titres parole de Couteliers feseeurs de manches.</head>
+<p n=" I"> Quiconques veut estre Coutelier a Paris, ce est a savoir feseeurs de manches <pb n="42"/>
+
+<lb/> a coutiaux d’os et de fust et d’yvoire, et faisierres de pignes d’yvoire, et enmancheeurs 
+<lb/> de coutiaus, estre le puet franchement, pour tant que il oevre as us 
+<lb/> et aus coustumes du mestier, qui tel sont : </p>
+<p n=" II"> Nus Couteliers ne puet avoir que <num>II</num> aprentiz, se ce ne sont si enfant tant 
+<lb/> seulement, nez de loiau mariage; ne ne puet son aprentiz prendre a mains de 
+<lb/>
+<num>VIII</num> anz de service, mès a plus service le puet il bien prendre et a argent, se 
+<lb/> avoir le puet. </p>
+<p n=" III"> Nus Coutelier ne puet vendre son aprentiz, se il ne gist a lit de langueur, ou 
+<lb/> il ne va outre mer, ou il ne lesse le mestier du tout, ou il ne le fet par poverté. </p>
+<p n=" IV"> Se li aprentiz s’en part d’entour son mestre sanz congié, par sa folour ou 
+<lb/> par sa joliveté, par <num>III</num> foiz, le mestre ne le doit pas prendre a la tierce, ne nul 
+<lb/> autre el mestier devant dit, ne a serjant ne a aprentiz. Et ce establissent li preud'ome 
+<lb/> du mestier por refrener la folie et la joliveté des aprentiz, car il font grant 
+<lb/> damage a leur mestres et a eus meismes qant il s’enfuient : car, qant li aprentiz 
+<lb/> est enroiez a aprendre et il s’enfuist <num>I</num> mois ou
+<num>II</num>, il oublie quant que il a apris, 
+<lb/> et einsi il pert son tens, et fet damage a son mestre. </p>
+<p n=" V"> Nus mestre ne doit prendre son aprentiz, fors par devant
+<num>II</num> preudeshomes 
+<lb/> ou <num>III</num> du mestier, a mains qui entendent le recort de leur couvenences. </p>
+<p n=" VI"> Nus Coutelier ne doit commencier oevre a ame qui ne soit du mestier, se 
+<lb/> il ne la <supplied resp="#editor">parfait</supplied> . </p>
+<p n=" VII"> Nus du mestier ne puet ne ne doit <supplied resp="#editor">soi</supplied>  alouer a home qui ne soit du 
+<lb/> mestier, pour faire chose qui apartiegne au mestier. </p>
+<pb n="43"/>
+<p n=" VIII"> Nus ne puet ne ne doit metre <w><supplied resp="#editor">ho</supplied>me</w> en oevre au mestier, qui <w><supplied resp="#editor">so</supplied>it</w> de 
+<lb/> dehors, se ce n’est as <supplied resp="#editor">us</supplied>  et as coutumes du mestier. </p>
+<p n=" IX"> Nus Couteliers ne puet ne ne doit metre argent seur manche d’os. </p>
+<p n=" X"> Nus Couteliers ne doit ne ne puet ouvrer de nuiz <supplied resp="#editor">de chose qui apartiegne 
+<lb/> au mestier,</supplied> ne a jour de feste que quemun de la vile foire. </p>
+<p n=" XI"> Les preud'omes du mestier ont regardé que les manches qui sont covers 
+<lb/> de soie, de fil d’archal, et d’estain, et de plon, et de fer,
+<w>soien<supplied resp="#editor">t</supplied></w> abatu por ce que 
+<lb/> ce n’est pas bone oevre, ainz est fause, quar il sont desous de seuz, et de saus, 
+<lb/> et de tramble, et ne sont pas couvenable. </p>
+<p n=" XII"> Quiconques mesprendra en aucun des articles de sus diz, il l’amendera <supplied resp="#editor">de 
+<lb/>
+<num>IIII</num>
+<abbr>s.</abbr> dont le Roy aura <num>III</num>
+<abbr>s.</abbr> et les mestres qui gardent le mestier <num>XII</num>
+<abbr>d.</abbr> pour leur poine</supplied>. </p>
+<p n=" XIII"> Item, que en la <num>XII</num>
+<hi rend="exp">ne</hi> de coustiaux doit avoir <num>III</num> quarterons de besans, 
+<lb/> les quieux doivent peser deux estellins; et se il ne le poisent, les coustiaux sont 
+<lb/> forffaiz, et paiera celui sus qui il sont trouvez la dicte amende. </p>
+<p n=" XIV"> Li Coutelier doivent le guet et la taille et les autres redevences que li 
+<lb/> autre bourgois doivent au Roy. </p>
+<p n=" XV"> Li Coutelier est quite du gueit la premiere année qu’il commence son
+
+<lb/> mestier. </p>
+<p n=" XVI"> Nus Couteliers qui ait <num>LX</num> ans d’aage, et ceus qui sont hors de la vile, et 
+<lb/> cil a qui leur femes gisent d’enfent, et cil qui sont seignié, ne doivent point de 
+<lb/> guet; mès il le doivent faire savoir a celui qui le guet garde de par lou Roy. <supplied resp="#editor">Et se 
+<lb/> nus failloit du gueit, il estoit quite pour
+<num>IIII</num>
+<abbr>d.</abbr> de amende au Roy</supplied><sic/>. </p>
+<pb n="44"/>
+<p n=" XVII"> Li Coutelier ont usé <w>dè<supplied resp="#editor">s</supplied></w> le tens le roy Felippe, que il pooient envoier 
+<lb/> vallez au gueit pour eus, <supplied resp="#editor">et estoit li vallès reçeu pour tant que il feust souffisant </supplied> ; 
+<lb/> et encore en useroient volentiers, se il plaisoit au Roy. </p>
+<p n=" XVIII"> Nus Coutelier ne doit metre yvoire en oevre que home qui n’est du
+
+<lb/> mestier tranche. Et a ce se sont acordé tout le conmun du mestier, et requierent 
+<lb/> a monseigneur lou Roy que il en usent encore, se sa volenté i est.</p>
+</div>
+<div type="titre" n="18">
+<head>Cist tytres parole de Serreuriers de Paris et de l’ordenance de leur mestier.</head>
+<p n=" I"> Il puet estre Serreuriers a Paris qui veut, pour tant qu’il ait achaté le mestier 
+<lb/> dou Roy. Et le vent de par lou Roy ses mestres Marischax de sa forge, a cui 
+<lb/> li Rois l’a doné, tant come il li plera; et le vent a l’un plus et a l’autre mains, 
+<lb/> dessi a <num>V</num>
+<abbr>s.</abbr>, mès les <num>V</num>
+<abbr>s.</abbr> ne puet il passer; et par paiant un <abbr>d.</abbr> chascun an aus 
+<lb/>
+<w>huit<supplied resp="#editor">enes</supplied></w> de la Penthecoste, a paier au mestre marischal devant dit, a cui li 
+<lb/> Roys l’a doné. </p>
+<p n=" II"> Nus Serreuriers ne puet vendre a Paris serreure nueve, se ele n’est garnie 
+<lb/> de toutes gardes, quar ele est fause. </p>
+<p n=" III"> Nus Serreuriers ne puet faire clef a serreure, se la serreure n’est devant 
+<lb/> lui en son hostel. </p>
+<pb n="45"/>
+<p n=" IV"> Nus Serreuriers ne puet ouvrer fors a la veue del jour de chose qui
+
+<lb/> apartiegne au mestier de Serreurie; quar la veue de la nuit n’est pas souffisant a 
+<lb/> faire si soutil oevre come il apartient au mestier de Serreurie,<supplied resp="#editor">et pour la souspeçon 
+<lb/> que il ne facent fause euvre ou mestier</supplied>. </p>
+<p n=" V"> Quiconques est Serreuriers a Paris, il puet avoir tant vallès et d’aprantis 
+<lb/> come il li plera. </p>
+<p n=" VI"> Quiconques mesprant ou face encontre l’ordenance desus dite, il paie
+<num>V</num>
+<abbr>s.</abbr>
+
+<lb/> d’amende au prevost de Paris, et <num>IIII</num>
+<abbr>d.</abbr> au mestre des Marischaus devant dit; avec 
+<lb/> tout ce, que les serreures maugarnies seroient arses, de quelque part que eles 
+<lb/> venissent a Paris pour vendre. </p>
+<p n=" VII"> Li Serreuriers doivent le gueit et toutes les autres choses que li autre 
+<lb/> bourgois doivent au Roy, fors mis les homes du mestier qui ont passé <num>LX</num> ans qui ne 
+<lb/> doivent point de gueit, ne hom ausi qui sa fame gise d’enfant tant come ele gise. </p>
+<p n=" VIII"> A ce mestier garder, sont establi par les preudeshomes du mestier Hanri 
+<lb/> de Saint Marchel et Thomas de Clarevax pour garder la droiture lou Roy et la 
+<lb/> droiture du mestier; li quel devroient estre quite du gueit, si plaisoit au Roy et 
+<lb/> au prevost de Paris. </p>
+<p n=" IX"> Li Serreurier ne doivent rien de chose qu’il vende ou achate, apartenant a 
+<lb/> son mestier.</p>
+</div>
+<div type="titre" n="19">
+<head>C’est l’establisement aus Boitiers, feseeurs de serreures a boites.</head>
+<p n=" I"> Il puet estre Serreuriers de laiton, a boites, a escrins et a henapiers, a 
+<lb/> tables et a cofres, qui veut, pour qu’il sache fere le mestier, et il <supplied resp="#editor">ait</supplied>  de coy. </p>
+<pb n="46"/>
+<p n=" II"> Quiconques est du mestier desus dit, il ne puet tenir ne avoir que
+<num>I</num> aprentiz, 
+<lb/> le quel il ne puent ne ne doivent prendre a mains de <num>VII</num> anz de service et a 
+<lb/>
+<num>XX</num>
+<abbr>s.</abbr> d’argent, ou a <num>VIII</num> anz de service sanz argent. </p>
+<p n=" III"> Quiconques est du mestier desus dit, il ne puet ne ne doit ouvrer de nuiz, 
+<lb/> quar la clarté de la nuit n’est mie soufisant a fere le mestier desus dit. Et qui 
+<lb/> en seroit repris, il seroit a <num>V</num>
+<abbr>s.</abbr> de parisis d’amende au Roy li mestres, et li valez 
+<lb/> a
+<num>II</num>
+<abbr>s.</abbr>, toutes les foiz qu’il en seroit repris. </p>
+<p n=" IV"> Li menesterel du mestier desus dit doivent lesier oevre au samedi, au 
+<lb/> darrenier coup de vespres, en la parroise ou il demourrent. Et qui outre l’eure 
+<lb/> desus dite ouverroit, fust mestres, fust valez, il poieroit l’amende desus dite, 
+<lb/> toutes les foiz qu’il en seroit repris. </p>
+<p n=" V"> Se li aprentiz a aucuns des mestres du mestier desus dit s’en fuit par sa 
+<lb/> joliveté ou va hors du païs, son mestre le doit querre
+<num>I</num> journée a ses couz, et 
+<lb/> le pere a l’aprantiz ou si plege le doivent querre <num>I</num> autre journée a leur couz; 
+<lb/> et s’il ne le puent trouver, le mestre se doit soufrir de son apprentiz, de ci a 
+<lb/> la darreniere année de son service. Et se li aprentiz adonc revenoit, son mestre le 
+<lb/> devroit reprandre, et l’aprentiz li devroit restorer tout le service que il li auroit 
+<lb/> lesié, de quelque eure qu’il revenist; et s’il ne pleisoit a l’aprentiz a aler au mestier, 
+<lb/> il li convendroit forjurer le mestier et rendre a son mestre toz les couz et 
+<lb/> touz les doumages qu’i li auroit fez, avant que il meist sa main a nul autre mestier
+
+<lb/> en la vile de Paris. </p>
+<p n=" VI"> Quiconques fera serreure ou mestier desus dit, sanz resort <supplied resp="#editor">et sanz gardes</supplied> , 
+<lb/> la serreure seroit fause, <supplied resp="#editor">se elle n’estoit garnie de toutes gardes</supplied> , et devroit 
+<lb/> estre arse; et l’amenderoit, cil qui la feroit, de <num>VI</num>
+<abbr>s.</abbr> de parisis d’amende au 
+<lb/> Roy toutes les foiz qu’il en seroit repris. </p>
+<p n=" VII"> Quiconques est Serreurier u mestier desus dit, il ne peut ne ne doit 
+<lb/> afaitier serreure viez a Gainnier ne a Mercier ne a Coffrier, se il ne sevent 
+<lb/> que l’euvre soit leur propre pour leur user; et qui le feroit, il seroit a <num>V</num>
+<abbr>s.</abbr> de 
+<lb/> parisis d’amende au Roy toutes les foiz qu’il en seroit repris; et ce ont ordené li 
+<lb/> preud'oume du mestier, pour les Gainiers, les Merciers et les Cofriers, qui prenoient 
+<lb/> les granz salaires de viez serreures afetier, et s’il n’en savoient riens et dont
+
+<lb/> les aportoient au preudesoumes du mestier pour afetier, pour mains la moitié 
+<lb/> que il n’en avoient, si que les menesterieus estoient deceuz de leur salaire. </p>
+<pb n="47"/>
+<p n=" VIII"> Se aucuns hons estranges, qui sache le mestier desus dit, vient a Paris 
+<lb/> et vueille ouvrer u mestier, il convient qu’il se face creable par devant les 
+<lb/> mestres du mestier que il sache fere le mestier et que il ait ouvré <num>VII</num> ans ou plus 
+<lb/> avant qu’i meste la main u mestier dedenz la vile de Paris. Et quiconques le 
+<lb/> mestroit en euvre devant ce que il se fust fet creable en la menniere desus dite, il seroit a
+<num>V</num>
+<abbr>s.</abbr> de parisis d’amende, toutes les foiz qu’il en seroit repris. </p>
+<p n=" IX"> Li preud'oume du mestier desus dit se sont asenti que li prevost de Paris 
+<lb/> meste et oste en leur mestier <num>I</num> preud'oume qui le mestier gardera de par le Roy; 
+<lb/> li quex jurera sur Sains que il le mestier <w>garde<supplied resp="#editor">ra</supplied></w> bien et loiaument, et que il 
+<lb/> toutes les mesprantures qui fetes i seront fera a savoir au prevost de Paris ou a 
+<lb/> son conmandement, au plus tost que il pourra par reson. </p>
+<p n=" X"> Li preud'oume qui le mestier garde doit estre quite du guiet, si plest au 
+<lb/> Roy, pour la poinne et pour le travail que il a du mestier garder. Li home du 
+<lb/> mestier desus dit qui ont pasé <num>LX</num> anz d’aage sont quite du guiet. </p>
+<p n=" XI"> Li houme du mestier desus dit doivent au Roy les redevances que li autre 
+<lb/> bourgois de Paris li doivent.</p>
+</div>
+<div type="titre" n="20">
+<head>Ce tiltre parle des Batteurs d’archal.</head>
+<p n=" I"> Quiconques veut estre Bateres d’archal a Paris, estre le puet, mès qu’il 
+<lb/> sache faire le mestier et que il oevre aus us et aux coustumes du mestier, qui 
+<lb/> tel sunt : </p>
+<p n=" II"> Nus mestres du mestier ne puet penrre aprentiz a mains de
+<num>VI</num> ans de service, 
+<lb/> et si n’em pueent tenir que un; mès quant il ont tenu par <num>V</num> ans, il pueent 
+<lb/> penrre la deraine année <num>I</num> autre, pour ce que il ne demeurt sanz aprentiz; et 
+<lb/> si tost que li aprentis eirt acouvenanciés au mestre, il poiera <num>V</num>
+<abbr>s.</abbr>, qui seront 
+<lb/> converti ou pourfit de touz les maistres. Et par tant li communs du mestier sont 
+<lb/> tenu a faire aprendre l’aprentiz, se ses mestres li moroit avant que ses termes fust 
+<lb/> acomplis. </p>
+<p n=" III"> Nus maistres, nus vallès, ne nus aprentiz du mestier desus dit, ne pueent 
+<lb/> ouvrer de nuiz ou mestier desus dit, et il sont tenu a laissier oevre chascun <pb n="48"/>
+
+<lb/> jour <supplied resp="#editor">jusques aus chandeles alumanz </supplied>, pour ce que leur mestiers est trop penibles. 
+<lb/> Et doivent venir a l’uevre de haut jour. </p>
+<p n=" IV"> Item, il est ordené ou dit mestier que nus du mestier, soit mestres ou 
+<lb/> vallès, ne puet ne ne doit penrre les ostiex a son voisin ne retenir, se ce n’est 
+<lb/> de sa boine volenté; et se autrement le faisoit, il seroit cheus en l’amende. </p>
+<p n=" V"> Item, il est ordené que touz les mestres du mestier et li vallet doivent ouvrer 
+<lb/> de boine oevre et de loial et de boin aloy, selonc ce qui a esté acoustumé en 
+<lb/> la ville de Paris. </p>
+<p n=" VI"> Quicunques mesprendera en aucun des articles desus dis, li mestres poiera 
+<lb/>
+<num>X</num>
+<abbr>s.</abbr> au Roy, des quex <num>X</num>
+<abbr>s.</abbr> li maistre qui gardent le mestier auront <num>II</num>
+<abbr>s.</abbr> pour leur 
+<lb/> paine; et li vallès poiera <num>V</num>
+<abbr>s.</abbr>, es quex <num>V</num>
+<abbr>s.</abbr> li mestre auront <num>XII</num>
+<abbr>d.</abbr> pour leur paine. </p>
+<p n=" VII"> Et est ordené que toutes les foiz que on trouvera, sour qui que ce soit du 
+<lb/> mestier desus dit, fausse oevre, il poiera l’amende desus dite et sera li fausse 
+<lb/> oevre en la volenté le Roy. </p>
+<p n=" VIII"> Ou mestier desus dit a <num>II</num> preud'ommes, Jehan d’Esperay et Foukaut, qui 
+<lb/> sont esleu par l’assentement du commun; qui ont juré seur Sains au Chastelet 
+<lb/> que il bien et loiaument garderont le mestier desus dit, et feront a savoir toutes 
+<lb/> les mespresures du mestier au prevost de Paris ou a son conmandement. </p>
+</div>
+</div>
+</body>
+</text>
+</TEI>

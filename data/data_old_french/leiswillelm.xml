@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="fr">
+  <fileDesc>
+    <titleStmt>
+      <title type="main">Lois de Guillaume le conquérant</title>
+      <title type="formal">leiswillelm</title>
+      <title type="reference">leiswillelm</title>
+      <title type="DEAF">LoisGuillM</title>
+      <title type="gmd">transcription électronique</title>
+      <author xml:id="anonyme">anonyme</author>
+      <editor>Équipe de la Base de français médiéval - ENS de Lyon / UMR 5317 IHRIM</editor>
+      <funder>Laboratoire IHRIM</funder>
+    </titleStmt>
+    <editionStmt>
+      <edition>transcripion électronique</edition>
+      <respStmt xml:id="digitizer1">
+        <resp>numérisation et premières relectures</resp>
+        <name xml:id="ABeyer">Projet GTRC</name>
+      </respStmt>
+      <respStmt xml:id="encoder1">
+        <resp>balisage de structure en XML-TEI</resp>
+        <name xml:id="Acollignon">Alain Collignon</name>
+      </respStmt>
+      <respStmt xml:id="encoder2">
+        <resp>suppression de l'extrait tardif</resp>
+        <name xml:id="AL">Alexei Lavrentiev</name>
+      </respStmt>
+    </editionStmt>
+    <extent>- Numéros de pages saisies : de 1 à 23 ;
+            - Nombre de mots d'après la base des descripteurs : <num xml:id="nb_mots_given">2197</num> ;
+            - Nombre de tokens (mots et ponctuations) d'après la base des descripteurs : <num xml:id="nb_tokens_given">2533</num>.
+    </extent>
+    <publicationStmt>
+      <publisher><name>Projet BFM, ENS de Lyon / UMR 5317 IHRIM</name></publisher>
+      <address>
+        <addrLine>15, parvis René Descartes</addrLine>
+        <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+        <addrLine>Tél : 04 37 37 63 10</addrLine>
+        <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+        <addrLine>http://bfm.ens-lyon.fr</addrLine>
+      </address>
+      <idno type="bfm">http://catalog.bfm-corpus.org/leiswillelm</idno>
+      <idno type="doi">10.34847/nkl.76a1nvhk</idno>
+      <availability status="free">
+        <licence target="https://www.etalab.gouv.fr/licence-ouverte-open-licence">
+          <ab type="availability_bfm" subtype="libre_1a">Les Conditions générales d'utilisation de la Base de Français Médiéval (http://txm.bfm-corpus.org/bfm/files/CGU.pdf), 
+            et notamment son Article 5 « PROPRIETE INTELLECTUELLE », s'appliquent à tous les textes de la BFM.</ab>
+          <ab type="how_to_cite">
+            <label>Comment citer ce texte :</label>
+            <bibl>Lois de Guillaume le conquérant, édité par J. Matzke, Paris, 1899. 
+              Publié en ligne par la Base de français médiéval, http://catalog.bfm-corpus.org/leiswillelm.
+              Dernière révision le 2021-05-03.</bibl>
+            D'autres formules de citation de la BFM sont proposées sur la page web suivante :
+            http://bfm.ens-lyon.fr/article.php3?id_article=281.</ab>
+          <ab type="availability_file">
+            <label>Conditions d'utilisation de ce fichier :</label>
+              Ce fichier numérique est composé du corps de texte médiéval et des suppléments numériques : balisage XML-TEI, métadonnées (teiHeader). Le texte et les suppléments numériques sont libres de droit et peuvent à ce titre être téléchargés et réutilisés librement.
+            </ab>
+            <ab type="availability_txmweb" subtype="illimité">
+              <label>Conditions d'utilisation par le portail BFM :</label>
+              Pas de limitation dans l'usage des fonctionnalités. Téléchargement autorisé.</ab>
+        </licence>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>Lois de Guillaume le conquérant en français et en latin</title>
+          <respStmt>
+            <resp xml:id="editor">Éditeur scientifique</resp>
+            <name type="person">J. Matzke</name>
+          </respStmt>
+        </titleStmt>
+          <extent>23 page(s), soit 1-23
+        </extent>
+        <publicationStmt>
+          <publisher>Picard</publisher>
+          <pubPlace>Paris</pubPlace>
+          <date>1899</date>
+          <idno type="sigle_DEAF">LoisGuillM</idno>
+          <idno type="cote_biblio">ENS-LSH : Mag 4 GII 1119</idno>
+        </publicationStmt>
+      </biblFull>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p>Projet :<name type="project">BFM - Base de français médiéval</name>
+        Resp. : <name type="person">Céline Guillot-Barbance</name>
+        Équipe : Base de français médiéval
+        Laboratoire : UMR 5317 IHRIM
+        Institution : ENS de Lyon
+        <address>
+          <addrLine>15, parvis René Descartes</addrLine>
+          <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+          <addrLine>Tél : 04 37 37 63 10</addrLine>
+          <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+          <addrLine>http://bfm.ens-lyon.fr</addrLine>
+        </address>
+      </p>
+    </projectDesc>
+    <editorialDecl>
+      <p>Voir le <ref target="http://bfm.ens-lyon.fr/IMG/pdf/Manuel_Encodage_TEI.pdf">Manuel d'encodage XML-TEI de la BFM</ref>
+        et les <ref target="http://bfm.ens-lyon.fr/IMG/pdf/Consignes_BFM.pdf">Consignes aux relecteurs de la BFM</ref>.</p>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="body" occurs="1"/>
+        <tagUsage gi="div" occurs="31"/>
+        <tagUsage gi="foreign" occurs="2"/>
+        <tagUsage gi="front" occurs="1"/>
+        <tagUsage gi="head" occurs="4"/>
+        <tagUsage gi="hi" occurs="12"/>
+        <tagUsage gi="lb" occurs="395"/>
+        <tagUsage gi="note" occurs="2"/>
+        <tagUsage gi="p" occurs="50"/>
+        <tagUsage gi="pb" occurs="23"/>
+        <tagUsage gi="text" occurs="1"/>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <creation>
+      <name type="author">anonyme</name>
+      <title>Lois de Guillaume le conquérant</title>
+      <date type="compo" when="1112-01-01" notBefore="1100-01-01" notAfter="1125-01-01" n="12">1e q. 12e s.</date>
+      <date type="compo_periode">ancien</date>
+      <date type="compo_sous_siecle" n="12_1">début</date>
+      <date type="ms" when="1162-01-01" notBefore="1150-01-01" notAfter="1174-12-31">3e q. 12e s.</date>
+      <idno type="msIdentifier">BL Add. 49366 (anc. Holkham Hall 228)</idno>
+      <region type="dialecte_auteur">anglo-normand / anglais</region>
+    </creation>
+    <langUsage>
+      <language ident="fro" usage="100">Le texte est entièrement écrit en prose en ancien français.</language>
+    </langUsage>
+    <textDesc>
+      <channel mode="w">print</channel>
+      <constitution type="single"/>
+      <derivation type="original"/>
+      <domain type="juridique"/>
+    <factuality type="inapplicable"/>
+      <interaction type="none"/>
+      <preparedness type="prepared"/>
+      <purpose type="narrative"/></textDesc>
+    <textClass>
+      <keywords scheme="http://authorities.bfm-corpus.org">
+        <term type="domaine">juridique</term>
+        <term type="genre">lois</term>
+        <term type="forme">prose</term>
+        <term type="relation">original</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change who="#ABeyer" when="2006-06-29">numérisation et premières relectures</change>
+    <change who="#Acollignon" when="2021-02-05">balisage de structure en XML-TEI</change>
+    <change who="#AL" when="2021-05-03">suppression de l'extrait tardif</change>
+    <change who="#AL" when="2021-05-11">ajout des métadonnées</change>
+    <change when="2021-05-03">Dernière modification du texte</change>
+    <change when="2022-11-04">Création de cet entête</change>
+  </revisionDesc>
+</teiHeader>
+<text>
+<front>
+<pb n="1"/>
+<div type="titre">
+<p>LOIS DE GUILLAUME LE CONQUÉRANT</p>
+</div>
+<div type="prologue">
+<p>Cez sunt les leis e les<lb/>custumes que li reis Will. <lb/>grantad al pople de
+               Engleterre<lb/> apres le cunquest de <lb/>la terre; iceles meimes <lb/>que li reis
+               Edward, sun <lb/>cusin, tint devant lui. </p>
+</div>
+</front>
+<body>
+<div n="1">
+<p>
+              <!-- <hi rend="gras">1</hi>--><!---\-->Ceo est a saver : <lb/>Pais a seinte iglise. De <lb/>quel
+               forfeit que hom oust <lb/>fet, e il poust venir a <lb/>seinte iglise, oust pais
+               <lb/>de vie e de menbre.</p>
+<pb n="2"/>
+<p n="1"> <!---\-->E si aucuns meist <lb/>main en celui ki la mere <lb/>iglise requereit, si ceo
+               <lb/>fust u evesqué u abeie u <lb/>iglise de religiun, rendist <lb/>ceo qu'il avreit
+               pris, e <lb/>cent souz le forfeit; e de <lb/>mere iglise de parosse <lb/>xx souz; e
+               de chapele x <lb/>souz. </p>
+</div>
+<div n="2">
+<p>
+               <!--<hi rend="gras">2</hi>--><!-- -\-->E ki enfreint la <lb/>pais le rei, en Merchenelahe <lb/>cent
+               souz les amendes. <lb/>Autresi de <foreign xml:lang="en">hemfore</foreign> et de
+               <lb/>agwait purpensé. Icel plait <lb/>afert a la curune le rei. </p>
+<p n="1"> <!---\-->E si aucuns <lb/>vescunte u provost mesfait <lb/>as humes de sa baillie,
+               <lb/>e de ceo seit ateint <pb n="3"/>
+               <lb/>devant justise, le forfeit <lb/>est a duble de <lb/>ceo que autre fust forfeit. </p>
+<p n="2"> <!---\-->E ki en Denelahe <lb/>enfreint la pais le rei, set <lb/>vint livres e quatre
+               les <lb/>amendes e les forfez le <lb/>rei, ki aferent al vescunte, <lb/>
+               <hi rend="pmaj">L</hi> souz. en Merchenelahe <lb/>e <hi rend="pmaj">xl</hi> souz en
+               <lb/>Westsexenelahe.</p>
+<p n="3"> <!---\-->E cil francs <lb/>hom ki ad e sache e <lb/>soche e toll e tem e
+               infangentheof, <lb/>se il est enplaidé, <lb/>e il seit mis en forfeit <lb/>el cunté,
+               afert al os <lb/>le vescunte en Denelahe <hi rend="pmaj">xl</hi>
+               <lb/>ores, e de cel hume ki <lb/>ceste franchise nen ad <pb n="4"/>
+               <lb/>xxxii ores. De cez xxxii <lb/>ores averad le vescunte <lb/>al os le rei x ores,
+               e <lb/>cil ki le plait averad <lb/>deredné vers lui xii ores, <lb/>e le seinur, en ki
+               fiu il <lb/>meindra, les x ores. Ceo <lb/>est en Denelahe.</p>
+</div>
+<div n="3">
+<p>
+               <!--<hi rend="gras">3</hi>--> <!---\-->La custume en <lb/>Merchenelahe est : si aucuns <lb/>est
+               apelé de larrecin <lb/>u de roberie, e il seit <lb/>plevi a venir devant justise,
+               <lb/>e il s'en fuie dedenz <lb/>[le terme], sun plege si <lb/>averad terme de un
+               <lb/>meis e un jur de querre le; <lb/>e s'il le pot truver dedenz <lb/>le terme, sil
+               merra a la justise; <lb/>e s'il nel pot truver, <lb/>si jurra sei duzime main,
+               <lb/>que, a l'ure qu'il le plevi, <pb n="5"/>
+               <lb/>larrun nel sout, ne par <lb/>lui ne s'en est fuid, ne <lb/>aver nel pot.</p>
+<p n="1"> <!---\-->Dunc rendrad le <lb/>chatel, dunt il est retez, e <lb/>xx souz pur la teste e
+               iiii <lb/>den. al ceper, e une maille <lb/>pur la besche, e <hi rend="pmaj">xl</hi>
+               sol. al <lb/>rei.</p>
+<p n="2"> <!---\-->E en Westsexenelahe <lb/>c sol.; xx sol. al clamif <lb/>pur la teste e iiii
+               lib. <lb/>al rei.</p>
+<p n="3"> En Denelahe viii <lb/>lib. le forfeit : les xx sol. <lb/>pur la teste, les vii
+               lib. al <lb/>rei.</p>
+<p n="4"> <!---\-->E s'il pot dedenz <lb/>un an e un jur truver le <lb/>larrun e amener a
+               justise, <lb/>si lui rendra cil les xx sol. <lb/>kis averad oud e sin <pb n="6"/>
+               <lb/> ert feite la justise del <lb/>larrun.</p>
+</div>
+<div n="4">
+<p>
+               <!--<hi rend="gras">4</hi>--> <!---\-->Cil ki prendra larrun <lb/>senz siwte e senz <lb/>cri que cil
+               enlest a ki il <lb/>avera le damage fait, e il <lb/>vienge apres, si est resun
+               <lb/>qu'il duinse x sol de <lb/>hengwite e si face la justise <lb/>a la primere
+               devise. <lb/>E s'il passe la devise senz <lb/>le cunged a la justise, si <lb/>est
+               forfeit de <hi rend="pmaj">xl</hi> sol.</p>
+</div>
+<div n="5">
+<p>
+               <!--<hi rend="gras">5</hi>--> <!---\-->Cil ki aveir rescut, <lb/>u chevals u bos u vaches <lb/>u
+               berbiz u pors, que est <lb/>
+               <foreign xml:lang="en">forfeng</foreign> apelé en engleis, cil <lb/>kis claimed durrad al
+               <lb/>provost pur la rescussiun <pb n="7"/>
+               <lb/> viii den ; ja tant n'i <lb/>ait, mes qu'il i oust cent <lb/>almaille, ne durrad
+               que viii <lb/> den.; e pur un porc i <lb/>den., e pur i berbiz i <lb/>den., e issi
+               tresque a <lb/>viii, pur chascune i den.; <lb/>ne ja tant n'i averad, ne <lb/>durrad
+               que viii den.. E <lb/>durrad gwage e truverad <lb/>plege, que si autre vienge
+               <lb/>aprof dedenz l'an e le <lb/>jur pur l'aveir demander, <lb/>qu'il l'ait a dreit
+               en la <lb/>curt celui ki l'aveit rescus.</p>
+</div>
+<div n="6">
+<p>
+               <!--<hi rend="gras">6</hi>--> <!---\-->Autresi de aveir <lb/> adiré e de autre truveure, <lb/>seit
+               mustred de treis parz <lb/>deI visned, qu'il ait testimonie <lb/>de la truveure. E
+               <lb/>si aucuns vienged avant <pb n="8"/>
+               <lb/> pur clamer la chose, <lb/>duinst gwage e truist <lb/>plege, que si autre
+               <lb/>le cleimt dedenz l'an e <lb/>un jur, qu'il l'ait a dreit <lb/>en la curt celui
+               ki l'avera <lb/>truved.</p>
+</div>
+<div n="7">
+<p>
+               <!--<hi rend="gras">7</hi>--> <!---\-->Si hom ocist autre, <lb/>e il seit cunuissant e <lb/>il deive
+               faire les amendes, <lb/>durrad de sa manbote al <lb/>seinur pur le franch hume <lb/>x
+               sol. e pur le serf xx sol.</p>
+</div>
+<div n="8">
+<p>
+               <!--<hi rend="gras">8</hi>--> <!---\-->La were del thein <lb/> xx lib.en Merchenelahe, <lb/>xxv lib.
+               en Westsexenelahe; <lb/>e la were del vilain c sol. <lb/>en Merchenelahe e ensement
+               <lb/> en Westsexenelahe. </p>
+</div>
+<pb n="9"/>
+<div n="9">
+<head rend="ital">De la were.</head>
+<p>
+               <!--<hi rend="gras">9</hi>--><!---\--> Primereinement <lb/> rendrad l'om del halsfang <lb/>a la
+               vedve x sol., e le surplus <lb/>les parenz e les orfenins <lb/>partent entre eus.
+               <lb/>En la were purra il rendre <lb/>cheval ki ad la coille <lb/>pur xx sol., e tor
+               pur x <lb/>sol., e ver pur v sol. </p>
+</div>
+<div n="10">
+<p>
+               <!--<hi rend="gras">10</hi>--> <!---\-->Si hom fait plaie <lb/> en autre, e il deive faire <lb/>les
+               amendes, primereinement <lb/>lui rende sun lecheof; <lb/>e li plaez jurra sur
+               <lb/>seinz que pur meins <lb/>nel pot feire ne pur haur <lb/>si cher nel fist. </p>
+<pb n="10"/>
+<div>
+<head>
+                  <hi rend="ital">De sarbote, ceo est de la dulur.</hi>
+               </head>
+<p n="1"><!---\--> Si la plaie lui vient <lb/>el vis en descuvert, al <lb/> pouz tuteveies
+                  viii den., u <lb/>en la teste u en autre liu u <lb/> ele seit cuverte, al pouz
+                  tuteveies <lb/>iiii den. E de tanz <lb/> os cum l'om trait de la <lb/> plaie, al
+                  os tuteveies iiii <lb/> den.</p>
+<p n="2"><!---\-->Puis al acordement, <lb/>si lui metera avant <lb/>honurs, e jurra que s'il
+                  <lb/>lui oust fait ceo qu'il <lb/>lui ad fet, e se sun <lb/>quor lui purportast e
+                  <lb/>sun cunseil lui dunast, <lb/>prendreit de lui ceo que <lb/>offert ad a
+               lui.</p>
+</div>
+</div>
+<div n="11">
+<p>
+              <!-- <hi rend="gras">11</hi>--><!---\-->Si ceo avient <lb/>que aucuns coupe le <pb n="11"/>
+               <lb/> puing al autre u le pie, <lb/>si lui rendrad demi were <lb/>sulunc ceo qu'il
+               est nez. <lb/>Del poucer lui rendra <lb/>la meité de la main; del <lb/>dei apres le
+               poucer xv <lb/>sol. de sol. engleis, que <lb/>est apelé quaer denier; <lb/>del lung
+               dei, xvi sol.; del <lb/>autre, ki porte l'anel, <lb/>xvii sol.; del petit dei, v
+               <lb/>sol.; del ungle, s’il le <lb/>couped de la charn, v <lb/>sol. de souz Engleis;
+               al <lb/>ungle del petit dei, iiii den.</p>
+</div>
+<div n="12">
+<p>
+              <!-- <hi rend="gras">12</hi>--> <!---\-->Cil ki autrui <lb/> femme purgist, si forfeit <lb/>sun were
+               vers sun seinur. </p>
+</div>
+<div n="13">
+<p>
+              <!-- <hi rend="gras">13</hi>--> <!---\-->Autresi ki faus <lb/> jugement fait, pert sa were,<pb n="12"/>
+               <lb/>s'il ne pot jurer sur seinz <lb/>que mieuz nel sout juger.</p>
+</div>
+<div n="14">
+<p>
+               <!--<hi rend="gras">14</hi>--> <!---\-->Si hom apeled <lb/> autre de larrecin, et il <lb/>seit
+               franchs hom et il <lb/>puissed aver testimonie de <lb/>lealted, se escundirad par
+               <lb/>plein serment; et autre ki <lb/>blasmé ait esté, se escundirad <lb/>par serment
+               numé, <lb/>ceo est a saver per xiiii <lb/>humes leals par num, <lb/>s'il les pot
+               aver; si s'en <lb/>escundira sei duzime <lb/>main. E si il aver nes pot, <lb/>si s'en
+               defende par juise; <lb/>e li apelur jurra sur lui par <lb/>vii humes numez, sei siste
+               <lb/>main, que pur haur nel fait <lb/>ne pur autre chose, se pur <lb/>sun dreit nun
+               purchacer. </p>
+</div>
+<pb n="13"/>
+<div n="15">
+<p>
+               <!--<hi rend="gras">15</hi>--><!---\--> E si aucuns est <lb/>apeled de mustier fruisser <lb/>u de
+               chambre, e il n'ait <lb/>esté en ariere blasmé, s'en <lb/>escundisse par xiiii humes
+               <lb/>leals numez, sei duzime <lb/>main. E s'il ait autre <lb/>fiede esté blasmé, s'en
+               <lb/>escundisse a treis duble, <lb/>ceo est a saveir par <hi rend="pmaj">xlii</hi>
+               <lb/>leals humes numez, sei <lb/>trente siste main. E s'il <lb/>aver nes pot, aut a
+               la <lb/>juise a treis duble, si cum <lb/>il deust a treis duble <lb/>serment. E s'il
+               ad larrecin <lb/>ca en ariere amendé, aut <lb/>al ewe.</p>
+</div>
+<div n="16">
+<p><!--
+               <hi rend="gras">16</hi>--><!---\-->Li ercevesque averad <lb/>de forfeirure <hi rend="pmaj">xl</hi> sol. en <pb n="14"/>
+               <lb/> Merchenelahe, e li eveske <lb/>xx sol. et li queons xx <lb/>sol. e li barun x
+               sol. e <lb/>li socheman <hi rend="pmaj">xl</hi> den.</p>
+</div>
+<div n="17">
+<p>
+               <!--<hi rend="gras">17</hi>--> <!---\-->Cil ki ad aveir <lb/> champestre xxx den. vaillant <lb/>deit
+               duner le den. <lb/>Seint Piere. Le seignur <lb/>pur un den. que il donrad, <lb/>si
+               erent quites ses bordiers <lb/>e ses bovers e ses serjanz. <lb/>Li burgeis qui ad en
+               soun <lb/>propre chatel demi marc <lb/>vailant deit doner le dener <lb/>Seint Pere.</p>
+<p n="1"><!---\-->Ki en Denelahe <lb/>franch hume est, s'il ad <lb/>demi marc vaillant d'aveir
+               <lb/>champestre, si duinst le <lb/>den. Seint Piere; e par le <lb/>den. que li sire
+                  durrad,<pb n="15"/>
+               <lb/>si erent quite cil ki <lb/>meindrunt en sun demeine.</p>
+<p n="2"><!---\--> Ki retient le <lb/>dener Seint Pere, le dener <lb/>rendra per la justice de
+               <lb/>seinte eglise e xxx den. <lb/>de forfait. </p>
+<p n="3"> <!---\--> E si il est enplaidé <lb/>de la justise le rei, <lb/>le forfait al evesque
+               xxx den. <lb/>e al rei <hi rend="pmaj">XL</hi> solz.</p>
+</div>
+<div n="18">
+<p>
+               <!--<hi rend="gras">18</hi>--> <!---\-->Cil ki purgist <lb/> femme a force, forfeit ad <lb/>les
+               menbres. Ki abat <lb/>femme a terre pur fere lui <lb/>force, la multe al seinur x
+               <lb/>sol. </p>
+</div>
+<div n="19">
+<p>
+               <!--<hi rend="gras">19</hi>--> <!---\--> Si alquns crieve <lb/>l'oil al altre per aventure <lb/>quel
+               que seit, si amendrad<pb n="16"/>
+               <lb/>
+               <hi rend="pmaj">LXX</hi> solz de solz engleis, e <lb/>si la purnele i est remis, si
+               <lb/>ne rendra lui que la meité. </p>
+</div>
+<div n="20">
+<p>
+              <!-- <hi rend="gras">20</hi>--> <!---\-->De relief a <lb/>cunte, ki al rei afert: viii <lb/>chevals
+               enfrenez e enseelez <lb/>les iiii, e iiii haubercs <lb/>e iiii haumes e iiii escuz
+               <lb/>e iiii lances e iiii espees. <lb/>Les autres, ii chaceurs e ii <lb/>palefreis a
+               freins e a chevestres.</p>
+<p n="1"><!---\--> De relief a barun : <lb/> iiii chevals, les ii enfrenez e <lb/>enseelez, e ii
+               haubercs, e ii <lb/>haumes, e ii escuz, e ii <lb/>espees e ii lances. E les
+               <lb/>autres ii chevals, un chaceur <lb/>e un palefrei a freins e <lb/>a chevestres.</p>
+<p n="2"> <!---\-->De relief a vavassur <lb/>a sun lige seinur : <pb n="17"/>
+               <lb/>deit estre quite par le cheval <lb/>sun pere, tel cum il <lb/>out le jur de sa
+               mort, e par <lb/>sun haume e par sun escu e <lb/>par sun hauberc e par sa <lb/>lance
+               e par s'espee. E s'il <lb/>fust desaparaillé, qu'il <lb/>n'oust cheval ne armes,
+               <lb/>fust quite par c sol. </p>
+<p n="3"> <!---\-->De relief a vilain: <lb/> le meillur aveir qu'il averad, <lb/>u cheval u bof
+               u vache, <lb/>durrad a sun seinur, e <lb/>puis seient tuz les vilains en <lb/>franc
+               plege.</p>
+<p n="4"> <!---\--> Cil qui tenent lur <lb/>terre a cense, soit lur dreit <lb/>relief a tant cum
+               la cense <lb/>est de un an.</p>
+</div>
+<div n="21">
+<p>
+               <!--<hi rend="gras">21</hi>--> <!---\-->De entercement de <lb/>vif aveir, kil voldra clamer <lb/>pur
+               embled e voldrad duner<pb n="18"/>
+               <lb/> gwage e truver plege <lb/>a parsivre sun apel, <lb/>dunc estuvera a celui
+               <lb/>ki l'avera entre mains <lb/>numer sun guarant, s'il <lb/>l'ad.</p>
+<p n="1"><!---\-->E s'il ne l'ad, dunc <lb/>numerad il sun heimelborch <lb/>e ses testimonies,
+               <lb/>e ait les a jur e a terme, <lb/>s'il les ad; e li enterceur le <lb/>mettrad en
+               guage sei <lb/>siste main, e li autre le <lb/>mettrad en la main sun <lb/>guarant, u
+               a sun heimelborch, <lb/>lequel qu'il averad. <lb/>E s'il n'ad guarant ne haimelborch,
+               <lb/>e il ait les testimonies <lb/>qu'il le achatad al <lb/>marché le rei, e qu'il ne
+               <lb/>set sun guarant ne <lb/>sun plege vif ne mort, <lb/>ceo jurrad od ses
+               testimonies <lb/>od plein serment, <pb n="19"/>
+               <lb/>si perdera sun chatel, <lb/>s’il testimonient qu'il <lb/>heimelborch en prist. </p>
+<p n="2"> <!---\-->E s'il ne pot guarant <lb/>ne testimonie aver, si perderad <lb/>e parsoudrad
+               e pert sun <lb/>were vers sun seinur. Ceo <lb/>est en Merchenelahe e en Denelahge.
+               <lb/>En Westsexenelahge <lb/>ne vocherad il mie sun <lb/>guarant devant iceo qu'il
+               <lb/>seit mis en guage. En Denelahe <lb/>mettrad l'om l'aveir <lb/>en uele main, de
+               ici qu'il <lb/>seit derehdned; e s'il pot prover, <lb/>que ceo seit de sa nureture,
+               <lb/>par de treis parz <lb/>de sun visned, si l'averad <lb/>derehdné; kar puis que
+               <lb/>le serment lui est juged ne <lb/>l'en pot l'om puis lever par <lb/>le jugement
+               de Engleterre.</p>
+</div>
+<pb n="20"/>
+<div n="22">
+<head rend="ital">De murdre.</head>
+<p>
+               <!--<hi rend="gras">22</hi>--> <!---\-->Ki Franceis <lb/>ocist, e les humes del hundred <lb/>nel
+               prengent e meinent <lb/>a la justise dedenz les <lb/>viii jurs, pur mustrer <lb/>k'il
+               l'ait fet, si renderunt <lb/>le murdre xlvi <lb/>mars. </p>
+</div>
+<div n="23">
+<p>
+               <!--<hi rend="gras">23</hi>--> <!---\-->Si hom volt derehdner <lb/>cuvenant de terre <lb/>vers sun
+               seinur, par ses <lb/>pers de la tenure meimes, <lb/>qu'il apelerad a testimonie,
+               <lb/>lui estuverad derehdner, <lb/>kar par estrange <lb/>nel purrad pas
+            derehdner.</p>
+</div>
+<div n="24">
+<p>
+               <!--<hi rend="gras">24</hi>--> <!---\-->De hume ki <lb/>plaided en curt, en ki<pb n="21"/>
+               <lb/>curt que ceo seit, fors la <lb/>u le cors le rei seit, e <lb/>hom lui met sure
+               <lb/>k'il ad dit chose qu'il ne <lb/>voille conuistre, s'il pot <lb/>derehdner par un
+               entendable <lb/>hume del plait, oant et <lb/>veant, qu'il ne l'averad <lb/>dit,
+               recovré ad sa parole.</p>
+</div>
+<div n="25">
+<note anchored="true" resp="encoder">L'article 25 n'existe que dans la version latine.</note>
+</div>
+<div n="26">
+<p>
+               <!--<hi rend="gras">26</hi>--> <!---\-->De quatre chemins, <lb/> ceo est a saveir Watlingestrete,
+               <lb/>Ermingestrete, <lb/>Fosse, Hykenild , ki en <lb/>aucun de ces quatre chemins
+               <lb/>ocist aucun ki seit <lb/>errant par le pais, u assaut, <lb/>si enfreint la pais
+               le rei.</p>
+</div>
+<pb n="22"/>
+<div n="27">
+<p>
+               <!--<hi rend="gras">27</hi>--> <!---\-->Si larrecin est <lb/>truved, en ki terre que ceo <lb/>seit,
+               e le larrun ovoc, li <lb/>seinur de la terre e la <lb/>femme averunt la meité
+               <lb/>deI aveir al larrun, e les <lb/>chalenjurs lur chatel,<lb/>s'il le trovent; e
+               l'autre <lb/>meited, s'il est trové dedenz <lb/>sache e soche, si <lb/>perderad la
+               femme e le <lb/> seinur l'averad.</p>
+</div>
+<div n="28">
+<head rend="ital"> De stretwarde.</head>
+<p>
+               <!--<hi rend="gras">28</hi>--> <!---\-->De chascuns x <lb/>hides deI hundred un <lb/>hume dedenz la
+               feste Seint <lb/>Michel e la Seint Martin. <lb/>E si Ii guardireve averad <lb/>
+               <hi rend="pmaj">xxx</hi> hides, quite serrad <lb/>pur sun travail. E si <lb/>aveir
+               trespasse par iloc <lb/> u il deivent guaiter, e il <pb n="23"/>ne puissent mustrer
+               ne cri <lb/>ne force que lur fust feite, <lb/> si rendissent l'aveir.<note resp="#AL">Les paragraphes 29 à 52 sont transcrits d'après un manuscrit tardif et ne sont pas intégrés à la BFM.</note></p>
+</div>
+<!--<div  n="29">
+<p>
+               <!-\-<hi rend="gras">29</hi>-\-><!-\-\-\\-\->Cil qui cultivent<lb/> la terre ne deit l'um travailer
+               <lb/>se de lour droite cense<lb/>noun ; ne leist a seignurage <lb/>departir les
+               cultivurs <lb/>de lur terre, pur tant cum il <lb/>pussent le dreit servise
+               <lb/>faire.</p>
+</div>
+<div  n="30">
+<p>
+               <!-\-<hi rend="gras">30</hi>-\-> <!-\-\-\\-\->Les naifs ki departent <lb/>de la terre ne <lb/>deivent
+               cartre faire n'avurie <lb/>quere, que il ne facent lur<lb/> dreit servise, que apend
+               a <lb/>Iour terre. Li naifs, qui departet<lb/> de sa terre, dont il <lb/>est nez, e
+               vent a autri terre, <lb/>nuls nel retenget, ne Ii ne se <lb/>chatels, enz le facet
+               venir <lb/>arere a faire soun servise, <lb/>tel cum a Ii apend.</p>
+</div>
+<pb n="24"/>
+<div  n="31">
+<p>
+               <!-\-<hi rend="gras">31</hi>-\-> <!-\-\-\\-\->Si les seignurages <lb/>ne facent altri gainurs <lb/>venir a
+               lour terre, la justise <lb/>le facet.</p>
+</div>
+<div  n="32">
+<p>
+               <hi rend="gras">32</hi> <!-\-\-\\-\->Nului ne toille a <lb/>soun seinour sun dreit servise,
+               <lb/>pur nul relais que il Ii <lb/>ait fait en arere. </p>
+</div>
+<div  n="33">
+<p>
+               <!-\-<hi rend="gras">33</hi>-\-> <!-\-\-\\-\->Si femme est <lb/>jugée a mort u a defaciun <lb/>des
+               membres, ki seit enceintée, <lb/>ne facet l'um justice <lb/>desqu'ele seit
+            delivrée.</p>
+</div>
+<div  n="34">
+<p>
+               <!-\-<hi rend="gras">34</hi>-\-> <!-\-\-\\-\->Si home mort <lb/>senz devise, si departent <lb/>les enfans
+               l'erité entre sei <lb/> per uwel.</p>
+</div>
+<pb n="25"/>
+<div  n="35">
+<p>
+              <!-\- <hi rend="gras">35</hi>-\-> <!-\-\-\\-\->Si le pere truvet <lb/>sa file en avulterie en sa
+               <lb/>maisoun, u en la maisoun <lb/>soun gendre, bien li leist <lb/>ocire la
+            avultere.</p>
+</div>
+<div  n="36">
+<p>
+               <!-\-<hi rend="gras">36</hi>-\-> <!-\-\-\\-\->Si home enpuissuned <lb/>altre, seit occis u
+               <lb/>permanablement eissilledz.</p>
+</div>
+<div  n="37">
+<p>
+               <!-\-<hi rend="gras">37</hi>-\-> <!-\-\-\\-\->Jo jettai voz choses <lb/>de la nef pur pour de mort <lb/>et
+               de co ne me poez enplaider, <lb/>kar leist a faire damage<lb/> a altre pur pour de
+               mort, <lb/> quant per el ne pot eschaper. <lb/>E si de co me vieltez, <pb n="26"/>
+               que pur pour de mort nel <lb/>feisse, de co m'espurgerai; <lb/>e les choses qui sunt
+               remises <lb/>en la nef seient departis <lb/>en comune sulun les <lb/>chatels. E si
+               alcun jetted <lb/>les chatels fors de la nef <lb/>senz busun, sil rendet.</p>
+</div>
+<div  n="38">
+<p>
+              <!-\- <hi rend="gras">38</hi>-\-><!-\-.-\-> <!-\-\-\\-\->Dous sont perceners<lb/> de un erithet, e est <lb/>l'un
+               enplaidé senz l'altre, et <lb/>per sa folie si pert, ne deit <lb/>pur co l'altre
+               estre perdant, <lb/>qui present ne fud ; <lb/>kar chose jugée entre eus <lb/>ne
+               forsjuge pas les altres, <lb/>qui ne sunt a present.</p>
+</div>
+<div  n="39">
+<p>
+               <!-\-<hi rend="gras">39</hi>-\-> <!-\-\-\\-\->Ententivement se <lb/>purpensent cil qui les jugementz
+               <lb/>unt a faire que si <lb/>jugent cum desirent, quant <lb/> il dient:
+                  <foreign>Dimitte nobis debita nostra</foreign>. </p>
+<pb n="27"/>
+<p n="1"> <!-\-\-\\-\->Ki tort eslevera u <lb/>faus jugement fra pur curruz <lb/>ne pur hange u pur
+               aveir, <lb/>seit en la forfaiture le rei <lb/>de <hi rend="pmaj">XL</hi> solz, s'il
+               ne pot aleier, <lb/>que plus dreit faire nel <lb/>sout; si perde sa franchise,
+               <lb/>si al rei nel pot reachater a <lb/>soun pleisir. E s'il est en <lb/>Denelae,
+               seit forfait de sa <lb/>laxlite, s'il aleier ne se pot, <lb/>que il melz faire ne
+               sout.</p>
+</div>
+<div  n="40">
+<note anchored="true" resp="encoder">L'article 40 n'existe que dans la version latine.</note>
+</div>
+<div  n="41">
+<p>
+               <!-\-<hi rend="gras">41</hi>-\-><!-\-.-\-> Et nous defendun<lb/>que l'un Christien fors de <pb n="28"/>
+               la terre ne vende, n'ensurchetut <lb/>en paisnime. Wart <lb/>l'un que l'un l'anme ne
+               <lb/>perde, que Deu rechatat <lb/>de sa vie.</p>
+</div>
+<div  n="42">
+<p>
+               <!-\-<hi rend="gras">42</hi>-\-> <!-\-\-\\-\->E qui dreite lei e <lb/>dreit jugement refuserad, <lb/>seit
+               forfait envers celi ki <lb/>dreit co est a aveir. Si co est <lb/>envers le rei, vi
+               livres; si <lb/>co est envers cunte, <hi rend="pmaj">XL</hi> solz; <lb/>si co est en
+               hundred, <hi rend="pmaj">XXX</hi> solz , <lb/>e envers touz icous ki curt <lb/>unt en
+               Engleterre : co est <lb/>as solz engleis. E en Denelae <lb/>qui dreit jugement
+               refuserad, <lb/>seit en la merci de sa laxlite.</p>
+</div>
+<div  n="43">
+<p>
+               <!-\-<hi rend="gras">43</hi>-\-> <!-\-\-\\-\->E ne face l'un <lb/>pleinte a rei , d'ici que l'un <lb/>Ii
+               seit defaili el hundred u <lb/>el conté.</p>
+</div>
+<pb n="29"/>
+<div  n="44">
+<p>
+               <!-\-<hi rend="gras">44</hi> -\-><!-\-\-\\-\->Ne prenge hum <lb/>nam nul en conté ne defors, <lb/>d'ici
+               qu'il eit tres foiz demandé <lb/>dreit el hundred u<lb/>el conté. E s'il a la terce
+               <lb/>fiée ne pot dreit aver, aIt al <lb/>conté, e le conté l'en asete le <lb/>quart
+               iurn ; e se cil i <lb/>defalt, de ki il se claime, <lb/>dunt prenge congé que il
+               <lb/>pusse nam prendre pur le <lb/>son, luin e pref.</p>
+</div>
+<div  n="45">
+<p>
+              <!-\- <hi rend="gras">45</hi>-\-> <!-\-\-\\-\->Ne nul achat le <lb/>vailiant de iiii den., ne mort <lb/>ne
+               vif, sans testimoine ad <lb/>iiii hommes u de burg u de <lb/>vile. E se hum le
+               chalange, <lb/>e il nen ait testimonie , si <lb/>n'ad nul warant , rende l'un <lb/>al
+               hum soun chatel, e le <lb/>forfait eit qui aver le deit. <lb/>E si testimonie ad, si
+               cum <lb/>nous einz desimes, voist <pb n="30"/>les treis feiz, e a la <lb/>quarte feiz
+               le dereinet , u <lb/>il le rende.</p>
+</div>
+<div  n="46">
+<p>
+               <!-\-<hi rend="gras">46</hi>-\-> <!-\-\-\\-\->Nus ne semble<lb/> pas raisoun que l'un <lb/>face pruvance
+               sur testimonie, <lb/>ki conussent co que entercé <lb/>est; e que nul nel prust
+               <lb/>devant le terme de vi meis <lb/>apres ico que l'aveir fu <lb/>emblé.</p>
+</div>
+<div  n="47">
+<p>
+              <!-\- <hi rend="gras">47</hi>-\-> <!-\-\-\\-\->E cil qui est redté <lb/>e testimoniet de deleauté, e
+               <lb/>le plait tres foiz eschuit, e al <lb/>quart mustrent Ii sumenour <lb/>de ses
+               treis defautes, uncore <lb/>le mande l'un que il plege<lb/> truse e vienge a dreit. E
+               <lb/>s'il ne volt, si le juist l'un <lb/>vif u mort, si prenge l'un <lb/>quanque il
+               ad, e si rende <lb/>l'un al chalangeur sun chatel,<lb/> e Ii sire ait la meité deI
+               <lb/>remenant e le hundred la <pb n="31"/>meité. E si nul parent <lb/>n'ami ceste
+               justise deforcent, <lb/>seient forfeit envers <lb/>le rei de vi lib. E quergent
+               <lb/>le larun; ne en ki poesté <lb/>il seit trové, n'eit warant <lb/>de sa vie, ne
+               per defense de <lb/>plait n'ait mes recoverer.</p>
+</div>
+<div  n="48">
+<p>
+               <!-\-<hi rend="gras">48</hi>-\-> <!-\-\-\\-\->Nuls ne receit <lb/>home ultre iii nuis, si cil <lb/>ne Ii
+               command , od qui il <lb/>fust ainz. Ne nuls ne lait <lb/>sun hume de Ii partir pus
+               <lb/>que il est rete.</p>
+</div>
+<div  n="49">
+<p>
+               <!-\-<hi rend="gras">49</hi>-\-><!-\-. -\-><!-\-\-\\-\->E ki larun encontre, <lb/>e sanz cri a acient le leit
+               <lb/>aler, si l'amend a la vailaunce <lb/>de larun, u s'en <lb/>espurge per plenere
+               lei, <lb/>que il laroun nel sout.</p>
+</div>
+<pb n="32"/>
+<div  n="50">
+<p>
+               <!-\-<hi rend="gras">50</hi>-\-><!-\-.-\-> <!-\-\-\\-\->E ki le cri orat, e <lb/>sursera, la sursise le rei
+               <lb/>amend u s'en espurget.</p>
+</div>
+<div  n="51">
+<p>
+               <!-\-<hi rend="gras">51</hi>-\-><!-\-.-\-> <!-\-\-\\-\->Si est alquons <lb/>qui blamet seit dedenz le <lb/>hundred
+               e iiii humes le retent, <lb/>sei xii main s'espurget.</p>
+</div>
+<div  n="52">
+<p>
+               <!-\-<hi rend="gras">52</hi>-\-><!-\-.-\-> <!-\-\-\\-\->E chascun seniour <lb/>eit soun serjant en sun <lb/>plege,
+               que si il est reté , que<lb/>il l'ait a dreit el hundred. <lb/>E si il s'enfuist
+               dedenz la <lb/>chalange , Ii sire rende sun<lb/>were. E si l'un chalange le
+               <lb/>seignour que per Ii s'en seit <lb/>alé, si s'escundie sei vi <lb/>main, e s'il
+               ne pot, envers <lb/>le rei l'ament, e cil seit <lb/>utlagé.</p>
+</div>-->
+</body>
+</text>
+</TEI>
