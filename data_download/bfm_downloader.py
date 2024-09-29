@@ -29,7 +29,7 @@ def get_metadata_from_id(id: str) -> str:
     else:
         date = ""
     
-    return f'<item link="https://nakala.fr/{id}" language="old-french" filename="data/data_old_french/*" date="{date}" place="" />'
+    return f'<item link="https://nakala.fr/{id}" language="old-french" filename="*" date="{date}" place="" />'
 
 def get_download_link_from_id(id: str) -> str | None:
     """Retrieves the download link of a file from its identifier on `https://nakala.fr`
