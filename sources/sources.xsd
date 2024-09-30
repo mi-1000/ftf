@@ -35,6 +35,13 @@
                                 </xs:restriction>
                             </xs:simpleType>
                         </xs:attribute>
+                        <xs:attribute name="bilingual" type="xs:boolean" use="optional">
+                            <xs:annotation>
+                                <xs:documentation>
+                                    Indicates if the resource is bilingual. Use `true` for bilingual documents, and `false` or omit for monolingual ones.
+                                </xs:documentation>
+                            </xs:annotation>
+                        </xs:attribute>
                         <xs:attribute name="frantext-id" type="xs:string" use="optional">
                             <xs:annotation>
                                 <xs:documentation>
@@ -55,7 +62,7 @@
                             <xs:simpleType>
                                 <xs:restriction base="xs:anyURI">
                                     <xs:pattern
-                                        value="data\/data_(old_french|latin|ancient_greek)\/.*\.(xml|json|txt)" />
+                                        value="data\/raw\/data_(old_french|latin|ancient_greek)\/.*\.(xml|json|txt)" />
                                 </xs:restriction>
                             </xs:simpleType>
                         </xs:attribute>

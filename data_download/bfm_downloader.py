@@ -69,12 +69,12 @@ def get_file_identifiers_from_collection(collection: str) -> List[str]:
             identifiers.append(data['data'][i]['identifier'])
     return identifiers
 
-def download_all_files(collection_id: str = "10.34847/nkl.1279lie9", output_folder: str = "data/data_old_french"):
+def download_all_files(collection_id: str = "10.34847/nkl.1279lie9", output_folder: str = "data/raw/data_old_french"):
     """Downloads all files from a given collection to the folder of your choice and saves metadata to a temporary XML file (`sources_tmp.xml`) that you can then copy and paste
 
     Args:
         collection_id (str, optional): The id of the collection. Defaults to "10.34847/nkl.1279lie9".
-        output_folder (str, optional): The output folder for files. Defaults to "data/data_old_french".
+        output_folder (str, optional): The output folder for files. Defaults to "data/raw/data_old_french".
     """
     with open('sources_tmp.xml', 'w') as f:
         sources = ""

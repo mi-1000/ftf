@@ -3,453 +3,453 @@
 <items>
     <item
         link="https://huggingface.co/datasets/grosenthal/latin_english_translation/viewer/default/train"
-        language="latin" filename="data/data_latin/latin_english_translation.json" date="" place="" />
+        language="latin" bilingual="true" filename="data/raw/data_latin/latin_english_translation.json" date="" place="" />
     <item link="https://syntacticus.org/source/proiel:20180408:greek-nt" language="ancient-greek"
-        filename="data/data_ancient_greek/greek-nt.xml" date="100" place="" />
+        filename="data/raw/data_ancient_greek/greek-nt.xml" date="100" place="" />
     <item link="https://www.frantext.fr" frantext-id="E174" language="old-french"
-        filename="data/data_old_french/La_Chanson_de_Roland.xml" date="1100" place="Normandy" />
+        filename="data/raw/data_old_french/La_Chanson_de_Roland.xml" date="1100" place="Normandy" />
     <item link="https://nakala.fr/10.34847/nkl.422d4qq6" language="old-french"
-        filename="data/data_old_french/mirsnicjuif.xml" date="" place="" />
+        filename="data/raw/data_old_french/mirsnicjuif.xml" date="" place="" />
     <item link="https://nakala.fr/10.34847/nkl.953cu90o" language="old-french"
-        filename="data/data_old_french/bestiaire.xml" date="1128" place="" />
+        filename="data/raw/data_old_french/bestiaire.xml" date="1128" place="" />
     <item link="https://nakala.fr/10.34847/nkl.af360929" language="old-french"
-        filename="data/data_old_french/fauvel.xml" date="1310" place="" />
+        filename="data/raw/data_old_french/fauvel.xml" date="1310" place="" />
     <item link="https://nakala.fr/10.34847/nkl.9bcc76f7" language="old-french"
-        filename="data/data_old_french/trot.xml" date="1210" place="" />
+        filename="data/raw/data_old_french/trot.xml" date="1210" place="" />
     <item link="https://nakala.fr/10.34847/nkl.bfb79265" language="old-french"
-        filename="data/data_old_french/villehardouin1.xml" date="1206" place="" />
+        filename="data/raw/data_old_french/villehardouin1.xml" date="1206" place="" />
     <item link="https://nakala.fr/10.34847/nkl.dff6u8rs" language="old-french"
-        filename="data/data_old_french/YvainKu.xml" date="1179" place="" />
+        filename="data/raw/data_old_french/YvainKu.xml" date="1179" place="" />
     <item link="https://nakala.fr/10.34847/nkl.0dbd4j6v" language="old-french"
-        filename="data/data_old_french/vergy.xml" date="1250" place="" />
+        filename="data/raw/data_old_french/vergy.xml" date="1250" place="" />
     <item link="https://nakala.fr/10.34847/nkl.2f99gszy" language="old-french"
-        filename="data/data_old_french/villehardouin2.xml" date="1206" place="" />
+        filename="data/raw/data_old_french/villehardouin2.xml" date="1206" place="" />
     <item link="https://nakala.fr/10.34847/nkl.751a1469" language="old-french"
-        filename="data/data_old_french/VidPierrePetit.xml" date="1444" place="" />
+        filename="data/raw/data_old_french/VidPierrePetit.xml" date="1444" place="" />
     <item link="https://nakala.fr/10.34847/nkl.d4029n9w" language="old-french"
-        filename="data/data_old_french/ursins.xml" date="1438" place="" />
+        filename="data/raw/data_old_french/ursins.xml" date="1438" place="" />
     <item link="https://nakala.fr/10.34847/nkl.6ae5qr5c" language="old-french"
-        filename="data/data_old_french/tydorel.xml" date="1190" place="" />
+        filename="data/raw/data_old_french/tydorel.xml" date="1190" place="" />
     <item link="https://nakala.fr/10.34847/nkl.648457te" language="old-french"
-        filename="data/data_old_french/tyolet.xml" date="1212" place="" />
+        filename="data/raw/data_old_french/tyolet.xml" date="1212" place="" />
     <item link="https://nakala.fr/10.34847/nkl.9c0aglfv" language="old-french"
-        filename="data/data_old_french/thomas.xml" date="1174" place="" />
+        filename="data/raw/data_old_french/thomas.xml" date="1174" place="" />
     <item link="https://nakala.fr/10.34847/nkl.7dfa18ky" language="old-french"
-        filename="data/data_old_french/thebes2.xml" date="1150" place="" />
+        filename="data/raw/data_old_french/thebes2.xml" date="1150" place="" />
     <item link="https://nakala.fr/10.34847/nkl.dc8984n7" language="old-french"
-        filename="data/data_old_french/tdechamp.xml" date="1226" place="" />
+        filename="data/raw/data_old_french/tdechamp.xml" date="1226" place="" />
     <item link="https://nakala.fr/10.34847/nkl.ceacjov7" language="old-french"
-        filename="data/data_old_french/tringant.xml" date="1480" place="" />
+        filename="data/raw/data_old_french/tringant.xml" date="1480" place="" />
     <item link="https://nakala.fr/10.34847/nkl.74d66vu0" language="old-french"
-        filename="data/data_old_french/theologie.xml" date="1479" place="" />
+        filename="data/raw/data_old_french/theologie.xml" date="1479" place="" />
     <item link="https://nakala.fr/10.34847/nkl.f30ao7o6" language="old-french"
-        filename="data/data_old_french/thebes1.xml" date="1150" place="" />
+        filename="data/raw/data_old_french/thebes1.xml" date="1150" place="" />
     <item link="https://nakala.fr/10.34847/nkl.f57b23q4" language="old-french"
-        filename="data/data_old_french/strasbBfm.xml" date="842" place="" />
+        filename="data/raw/data_old_french/strasbBfm.xml" date="842" place="" />
     <item link="https://nakala.fr/10.34847/nkl.8b237bwt" language="old-french"
-        filename="data/data_old_french/SLambert.xml" date="1242" place="" />
+        filename="data/raw/data_old_french/SLambert.xml" date="1242" place="" />
     <item link="https://nakala.fr/10.34847/nkl.dbdb12yj" language="old-french"
-        filename="data/data_old_french/slethgier.xml" date="1000" place="" />
+        filename="data/raw/data_old_french/slethgier.xml" date="1000" place="" />
     <item link="https://nakala.fr/10.34847/nkl.9aadsffn" language="old-french"
-        filename="data/data_old_french/SGenPr5.xml" date="1450" place="" />
+        filename="data/raw/data_old_french/SGenPr5.xml" date="1450" place="" />
     <item link="https://nakala.fr/10.34847/nkl.1e41e350" language="old-french"
-        filename="data/data_old_french/SEustPr1.xml" date="1225" place="" />
+        filename="data/raw/data_old_french/SEustPr1.xml" date="1225" place="" />
     <item link="https://nakala.fr/10.34847/nkl.9bc22j5d" language="old-french"
-        filename="data/data_old_french/SGenPr3.xml" date="1287" place="" />
+        filename="data/raw/data_old_french/SGenPr3.xml" date="1287" place="" />
     <item link="https://nakala.fr/10.34847/nkl.9eeaco4j" language="old-french"
-        filename="data/data_old_french/SGenPr1.xml" date="1275" place="" />
+        filename="data/raw/data_old_french/SGenPr1.xml" date="1275" place="" />
     <item link="https://nakala.fr/10.34847/nkl.f87ara6z" language="old-french"
-        filename="data/data_old_french/SGenPr4.xml" date="1433" place="" />
+        filename="data/raw/data_old_french/SGenPr4.xml" date="1433" place="" />
     <item link="https://nakala.fr/10.34847/nkl.afe49t0o" language="old-french"
-        filename="data/data_old_french/SGenPr2.xml" date="1367" place="" />
+        filename="data/raw/data_old_french/SGenPr2.xml" date="1367" place="" />
     <item link="https://nakala.fr/10.34847/nkl.ba45x88s" language="old-french"
-        filename="data/data_old_french/SermMadn.xml" date="1183" place="" />
+        filename="data/raw/data_old_french/SermMadn.xml" date="1183" place="" />
     <item link="https://nakala.fr/10.34847/nkl.eedfj70s" language="old-french"
-        filename="data/data_old_french/SBath3.xml" date="1417" place="" />
+        filename="data/raw/data_old_french/SBath3.xml" date="1417" place="" />
     <item link="https://nakala.fr/10.34847/nkl.f0df59um" language="old-french"
-        filename="data/data_old_french/SBernAn.xml" date="1183" place="" />
+        filename="data/raw/data_old_french/SBernAn.xml" date="1183" place="" />
     <item link="https://nakala.fr/10.34847/nkl.afa2z894" language="old-french"
-        filename="data/data_old_french/SBernCant.xml" date="1187" place="" />
+        filename="data/raw/data_old_french/SBernCant.xml" date="1187" place="" />
     <item link="https://nakala.fr/10.34847/nkl.b535yzo2" language="old-french"
-        filename="data/data_old_french/SBath4.xml" date="1335" place="" />
+        filename="data/raw/data_old_french/SBath4.xml" date="1335" place="" />
     <item link="https://nakala.fr/10.34847/nkl.9c5d327b" language="old-french"
-        filename="data/data_old_french/sarrasin.xml" date="1249" place="" />
+        filename="data/raw/data_old_french/sarrasin.xml" date="1249" place="" />
     <item link="https://nakala.fr/10.34847/nkl.5443624a" language="old-french"
-        filename="data/data_old_french/RutebZ.xml" date="1267" place="" />
+        filename="data/raw/data_old_french/RutebZ.xml" date="1267" place="" />
     <item link="https://nakala.fr/10.34847/nkl.7589rtfi" language="old-french"
-        filename="data/data_old_french/SBath1.xml" date="1275" place="" />
+        filename="data/raw/data_old_french/SBath1.xml" date="1275" place="" />
     <item link="https://nakala.fr/10.34847/nkl.837c3143" language="old-french"
-        filename="data/data_old_french/SAgnesDob.xml" date="1200" place="" />
+        filename="data/raw/data_old_french/SAgnesDob.xml" date="1200" place="" />
     <item link="https://nakala.fr/10.34847/nkl.7af4r7nv" language="old-french"
-        filename="data/data_old_french/SBath2.xml" date="1450" place="" />
+        filename="data/raw/data_old_french/SBath2.xml" date="1450" place="" />
     <item link="https://nakala.fr/10.34847/nkl.4fbf96c2" language="old-french"
-        filename="data/data_old_french/rosem2.xml" date="1274" place="" />
+        filename="data/raw/data_old_french/rosem2.xml" date="1274" place="" />
     <item link="https://nakala.fr/10.34847/nkl.42e06nx5" language="old-french"
-        filename="data/data_old_french/rosel.xml" date="1227" place="" />
+        filename="data/raw/data_old_french/rosel.xml" date="1227" place="" />
     <item link="https://nakala.fr/10.34847/nkl.49fefla8" language="old-french"
-        filename="data/data_old_french/rosem3.xml" date="1274" place="" />
+        filename="data/raw/data_old_french/rosem3.xml" date="1274" place="" />
     <item link="https://nakala.fr/10.34847/nkl.ac79n6xq" language="old-french"
-        filename="data/data_old_french/rosem1.xml" date="1274" place="" />
+        filename="data/raw/data_old_french/rosem1.xml" date="1274" place="" />
     <item link="https://nakala.fr/10.34847/nkl.289fbm08" language="old-french"
-        filename="data/data_old_french/roland.xml" date="1100" place="" />
+        filename="data/raw/data_old_french/roland.xml" date="1100" place="" />
     <item link="https://nakala.fr/10.34847/nkl.0af1k30s" language="old-french"
-        filename="data/data_old_french/renart11.xml" date="1216" place="" />
+        filename="data/raw/data_old_french/renart11.xml" date="1216" place="" />
     <item link="https://nakala.fr/10.34847/nkl.92630s0p" language="old-french"
-        filename="data/data_old_french/regcrim2.xml" date="1390" place="" />
+        filename="data/raw/data_old_french/regcrim2.xml" date="1390" place="" />
     <item link="https://nakala.fr/10.34847/nkl.4c0539z6" language="old-french"
-        filename="data/data_old_french/ressource.xml" date="1494" place="" />
+        filename="data/raw/data_old_french/ressource.xml" date="1494" place="" />
     <item link="https://nakala.fr/10.34847/nkl.ed664i29" language="old-french"
-        filename="data/data_old_french/renart10.xml" date="1216" place="" />
+        filename="data/raw/data_old_french/renart10.xml" date="1216" place="" />
     <item link="https://nakala.fr/10.34847/nkl.6b388id9" language="old-french"
-        filename="data/data_old_french/regcrim1.xml" date="1390" place="" />
+        filename="data/raw/data_old_french/regcrim1.xml" date="1390" place="" />
     <item link="https://nakala.fr/10.34847/nkl.dfb27v81" language="old-french"
-        filename="data/data_old_french/qgraal_cm.xml" date="1227" place="" />
+        filename="data/raw/data_old_french/qgraal_cm.xml" date="1227" place="" />
     <item link="https://nakala.fr/10.34847/nkl.1d7av3je" language="old-french"
-        filename="data/data_old_french/QJoyesKa.xml" date="1400" place="" />
+        filename="data/raw/data_old_french/QJoyesKa.xml" date="1400" place="" />
     <item link="https://nakala.fr/10.34847/nkl.aa6b61y9" language="old-french"
-        filename="data/data_old_french/quenouilles1.xml" date="1468" place="" />
+        filename="data/raw/data_old_french/quenouilles1.xml" date="1468" place="" />
     <item link="https://nakala.fr/10.34847/nkl.3cf826l8" language="old-french"
-        filename="data/data_old_french/qlr.xml" date="1190" place="" />
+        filename="data/raw/data_old_french/qlr.xml" date="1190" place="" />
     <item link="https://nakala.fr/10.34847/nkl.b71e8eus" language="old-french"
-        filename="data/data_old_french/quenouilles2.xml" date="1470" place="" />
+        filename="data/raw/data_old_french/quenouilles2.xml" date="1470" place="" />
     <item link="https://nakala.fr/10.34847/nkl.cedcus2w" language="old-french"
-        filename="data/data_old_french/quadrilogue.xml" date="1422" place="" />
+        filename="data/raw/data_old_french/quadrilogue.xml" date="1422" place="" />
     <item link="https://nakala.fr/10.34847/nkl.e4d2369t" language="old-french"
-        filename="data/data_old_french/plaidsmortemer.xml" date="1320" place="" />
+        filename="data/raw/data_old_french/plaidsmortemer.xml" date="1320" place="" />
     <item link="https://nakala.fr/10.34847/nkl.c9c81ul5" language="old-french"
-        filename="data/data_old_french/ProvSerlo.xml" date="1165" place="" />
+        filename="data/raw/data_old_french/ProvSerlo.xml" date="1165" place="" />
     <item link="https://nakala.fr/10.34847/nkl.3f0e8ioj" language="old-french"
-        filename="data/data_old_french/passpal.xml" date="1317" place="" />
+        filename="data/raw/data_old_french/passpal.xml" date="1317" place="" />
     <item link="https://nakala.fr/10.34847/nkl.0abavpd9" language="old-french"
-        filename="data/data_old_french/PsOrne.xml" date="1150" place="" />
+        filename="data/raw/data_old_french/PsOrne.xml" date="1150" place="" />
     <item link="https://nakala.fr/10.34847/nkl.afa206ms" language="old-french"
-        filename="data/data_old_french/prov.xml" date="1350" place="" />
+        filename="data/raw/data_old_french/prov.xml" date="1350" place="" />
     <item link="https://nakala.fr/10.34847/nkl.558cd5pt" language="old-french"
-        filename="data/data_old_french/PercevalKu.xml" date="1183" place="" />
+        filename="data/raw/data_old_french/PercevalKu.xml" date="1183" place="" />
     <item link="https://nakala.fr/10.34847/nkl.37a2q4iu" language="old-french"
-        filename="data/data_old_french/passion.xml" date="1000" place="" />
+        filename="data/raw/data_old_french/passion.xml" date="1000" place="" />
     <item link="https://nakala.fr/10.34847/nkl.7b11q6yo" language="old-french"
-        filename="data/data_old_french/moree.xml" date="1322" place="" />
+        filename="data/raw/data_old_french/moree.xml" date="1322" place="" />
     <item link="https://nakala.fr/10.34847/nkl.cec351oi" language="old-french"
-        filename="data/data_old_french/oxfps.xml" date="1125" place="" />
+        filename="data/raw/data_old_french/oxfps.xml" date="1125" place="" />
     <item link="https://nakala.fr/10.34847/nkl.2c72p8d6" language="old-french"
-        filename="data/data_old_french/passbonnes.xml" date="1317" place="" />
+        filename="data/raw/data_old_french/passbonnes.xml" date="1317" place="" />
     <item link="https://nakala.fr/10.34847/nkl.03afsboc" language="old-french"
-        filename="data/data_old_french/nabaret.xml" date="1209" place="" />
+        filename="data/raw/data_old_french/nabaret.xml" date="1209" place="" />
     <item link="https://nakala.fr/10.34847/nkl.e4375465" language="old-french"
-        filename="data/data_old_french/menreims.xml" date="1260" place="" />
+        filename="data/raw/data_old_french/menreims.xml" date="1260" place="" />
     <item link="https://nakala.fr/10.34847/nkl.32fd0ho5" language="old-french"
-        filename="data/data_old_french/MirNDOrl.xml" date="1175" place="" />
+        filename="data/raw/data_old_french/MirNDOrl.xml" date="1175" place="" />
     <item link="https://nakala.fr/10.34847/nkl.24d97ixm" language="old-french"
-        filename="data/data_old_french/mf.xml" date="1160" place="" />
+        filename="data/raw/data_old_french/mf.xml" date="1160" place="" />
     <item link="https://nakala.fr/10.34847/nkl.7015yg08" language="old-french"
-        filename="data/data_old_french/menagier.xml" date="1393" place="" />
+        filename="data/raw/data_old_french/menagier.xml" date="1393" place="" />
     <item link="https://nakala.fr/10.34847/nkl.53880se8" language="old-french"
-        filename="data/data_old_french/monstre.xml" date="1443" place="" />
+        filename="data/raw/data_old_french/monstre.xml" date="1443" place="" />
     <item link="https://nakala.fr/10.34847/nkl.aa50v9q6" language="old-french"
-        filename="data/data_old_french/MirNDChartr.xml" date="1262" place="" />
+        filename="data/raw/data_old_french/MirNDChartr.xml" date="1262" place="" />
     <item link="https://nakala.fr/10.34847/nkl.11cfomx6" language="old-french"
-        filename="data/data_old_french/magloire3.xml" date="1337" place="" />
+        filename="data/raw/data_old_french/magloire3.xml" date="1337" place="" />
     <item link="https://nakala.fr/10.34847/nkl.bcb2o7tt" language="old-french"
-        filename="data/data_old_french/maniere1399.xml" date="1399" place="" />
+        filename="data/raw/data_old_french/maniere1399.xml" date="1399" place="" />
     <item link="https://nakala.fr/10.34847/nkl.83044d4b" language="old-french"
-        filename="data/data_old_french/maniere1396.xml" date="1396" place="" />
+        filename="data/raw/data_old_french/maniere1396.xml" date="1396" place="" />
     <item link="https://nakala.fr/10.34847/nkl.2f683c5s" language="old-french"
-        filename="data/data_old_french/melion.xml" date="1190" place="" />
+        filename="data/raw/data_old_french/melion.xml" date="1190" place="" />
     <item link="https://nakala.fr/10.34847/nkl.34af7q17" language="old-french"
-        filename="data/data_old_french/melusine.xml" date="1392" place="" />
+        filename="data/raw/data_old_french/melusine.xml" date="1392" place="" />
     <item link="https://nakala.fr/10.34847/nkl.7f23c940" language="old-french"
-        filename="data/data_old_french/maniere1415.xml" date="1415" place="" />
+        filename="data/raw/data_old_french/maniere1415.xml" date="1415" place="" />
     <item link="https://nakala.fr/10.34847/nkl.17a57o47" language="old-french"
-        filename="data/data_old_french/Lapidfp.xml" date="1150" place="" />
+        filename="data/raw/data_old_french/Lapidfp.xml" date="1150" place="" />
     <item link="https://nakala.fr/10.34847/nkl.37b089er" language="old-french"
-        filename="data/data_old_french/Juise.xml" date="1137" place="" />
+        filename="data/raw/data_old_french/Juise.xml" date="1137" place="" />
     <item link="https://nakala.fr/10.34847/nkl.add73700" language="old-french"
-        filename="data/data_old_french/lecheor.xml" date="1209" place="" />
+        filename="data/raw/data_old_french/lecheor.xml" date="1209" place="" />
     <item link="https://nakala.fr/10.34847/nkl.f4fby86r" language="old-french"
-        filename="data/data_old_french/Lapidal.xml" date="1117" place="" />
+        filename="data/raw/data_old_french/Lapidal.xml" date="1117" place="" />
     <item link="https://nakala.fr/10.34847/nkl.29bdm1f6" language="old-french"
-        filename="data/data_old_french/jouvencel2.xml" date="1461" place="" />
+        filename="data/raw/data_old_french/jouvencel2.xml" date="1461" place="" />
     <item link="https://nakala.fr/10.34847/nkl.abb18883" language="old-french"
-        filename="data/data_old_french/JAntRect.xml" date="1282" place="" />
+        filename="data/raw/data_old_french/JAntRect.xml" date="1282" place="" />
     <item link="https://nakala.fr/10.34847/nkl.b47cny05" language="old-french"
-        filename="data/data_old_french/jouvencel1.xml" date="1461" place="" />
+        filename="data/raw/data_old_french/jouvencel1.xml" date="1461" place="" />
     <item link="https://nakala.fr/10.34847/nkl.a95a31c0" language="old-french"
-        filename="data/data_old_french/ImMondePrK.xml" date="1246" place="" />
+        filename="data/raw/data_old_french/ImMondePrK.xml" date="1246" place="" />
     <item link="https://nakala.fr/10.34847/nkl.4ec9qmgu" language="old-french"
-        filename="data/data_old_french/jehpar.xml" date="1494" place="" />
+        filename="data/raw/data_old_french/jehpar.xml" date="1494" place="" />
     <item link="https://nakala.fr/10.34847/nkl.28eb61ym" language="old-french"
-        filename="data/data_old_french/JAntInv.xml" date="1282" place="" />
+        filename="data/raw/data_old_french/JAntInv.xml" date="1282" place="" />
     <item link="https://nakala.fr/10.34847/nkl.faeebcnf" language="old-french"
-        filename="data/data_old_french/jonas.xml" date="945" place="Flanders" />
+        filename="data/raw/data_old_french/jonas.xml" date="945" place="Flanders" />
     <item link="https://nakala.fr/10.34847/nkl.e15d3n43" language="old-french"
-        filename="data/data_old_french/guingamor.xml" date="1183" place="" />
+        filename="data/raw/data_old_french/guingamor.xml" date="1183" place="" />
     <item link="https://nakala.fr/10.34847/nkl.f4bf60v0" language="old-french"
-        filename="data/data_old_french/GuillMachLyonH.xml" date="1342" place="" />
+        filename="data/raw/data_old_french/GuillMachLyonH.xml" date="1342" place="" />
     <item link="https://nakala.fr/10.34847/nkl.eda527iv" language="old-french"
-        filename="data/data_old_french/guill1.xml" date="1140" place="" />
+        filename="data/raw/data_old_french/guill1.xml" date="1140" place="" />
     <item link="https://nakala.fr/10.34847/nkl.3764kli3" language="old-french"
-        filename="data/data_old_french/hlanc.xml" date="1354" place="" />
+        filename="data/raw/data_old_french/hlanc.xml" date="1354" place="" />
     <item link="https://nakala.fr/10.34847/nkl.2c8fz0ry" language="old-french"
-        filename="data/data_old_french/GuillMachPlourH.xml" date="1350"
+        filename="data/raw/data_old_french/GuillMachPlourH.xml" date="1350"
         place="" />
     <item link="https://nakala.fr/10.34847/nkl.9cafuiw9" language="old-french"
-        filename="data/data_old_french/GuillMachFortuneH.xml" date="1341"
+        filename="data/raw/data_old_french/GuillMachFortuneH.xml" date="1341"
         place="" />
     <item link="https://nakala.fr/10.34847/nkl.39bec375" language="old-french"
-        filename="data/data_old_french/grchron9.xml" date="1340" place="" />
+        filename="data/raw/data_old_french/grchron9.xml" date="1340" place="" />
     <item link="https://nakala.fr/10.34847/nkl.6a8d0n5f" language="old-french"
-        filename="data/data_old_french/gormont.xml" date="1130" place="" />
+        filename="data/raw/data_old_french/gormont.xml" date="1130" place="" />
     <item link="https://nakala.fr/10.34847/nkl.3cc47izc" language="old-french"
-        filename="data/data_old_french/grchron_j2c5.xml" date="1381" place="" />
+        filename="data/raw/data_old_french/grchron_j2c5.xml" date="1381" place="" />
     <item link="https://nakala.fr/10.34847/nkl.4865r68a" language="old-french"
-        filename="data/data_old_french/grchron1.xml" date="1277" place="" />
+        filename="data/raw/data_old_french/grchron1.xml" date="1277" place="" />
     <item link="https://nakala.fr/10.34847/nkl.1503sv9a" language="old-french"
-        filename="data/data_old_french/graelent.xml" date="1189" place="" />
+        filename="data/raw/data_old_french/graelent.xml" date="1189" place="" />
     <item link="https://nakala.fr/10.34847/nkl.0faan7tq" language="old-french"
-        filename="data/data_old_french/Fantosme.xml" date="1174" place="" />
+        filename="data/raw/data_old_french/Fantosme.xml" date="1174" place="" />
     <item link="https://nakala.fr/10.34847/nkl.19d8kke3" language="old-french"
-        filename="data/data_old_french/fournival.xml" date="1230" place="" />
+        filename="data/raw/data_old_french/fournival.xml" date="1230" place="" />
     <item link="https://nakala.fr/10.34847/nkl.ffcf0e15" language="old-french"
-        filename="data/data_old_french/floire_jl.xml" date="1155" place="" />
+        filename="data/raw/data_old_french/floire_jl.xml" date="1155" place="" />
     <item link="https://nakala.fr/10.34847/nkl.540b76y4" language="old-french"
-        filename="data/data_old_french/gcoin1.xml" date="1222" place="" />
+        filename="data/raw/data_old_french/gcoin1.xml" date="1222" place="" />
     <item link="https://nakala.fr/10.34847/nkl.19bbm590" language="old-french"
-        filename="data/data_old_french/fouke.xml" date="1317" place="" />
+        filename="data/raw/data_old_french/fouke.xml" date="1317" place="" />
     <item link="https://nakala.fr/10.34847/nkl.0269735z" language="old-french"
-        filename="data/data_old_french/eracle.xml" date="1180" place="" />
+        filename="data/raw/data_old_french/eracle.xml" date="1180" place="" />
     <item link="https://nakala.fr/10.34847/nkl.80faksz3" language="old-french"
-        filename="data/data_old_french/espine.xml" date="1190" place="" />
+        filename="data/raw/data_old_french/espine.xml" date="1190" place="" />
     <item link="https://nakala.fr/10.34847/nkl.dbcc1dmo" language="old-french"
-        filename="data/data_old_french/eneas2.xml" date="1155" place="" />
+        filename="data/raw/data_old_french/eneas2.xml" date="1155" place="" />
     <item link="https://nakala.fr/10.34847/nkl.d834xuuo" language="old-french"
-        filename="data/data_old_french/eulaliBfm.xml" date="883" place="Belgium" />
+        filename="data/raw/data_old_french/eulaliBfm.xml" date="883" place="Belgium" />
     <item link="https://nakala.fr/10.34847/nkl.07af5m77" language="old-french"
-        filename="data/data_old_french/ErecKu.xml" date="1170" place="" />
+        filename="data/raw/data_old_french/ErecKu.xml" date="1170" place="" />
     <item link="https://nakala.fr/10.34847/nkl.ea8b1104" language="old-french"
-        filename="data/data_old_french/EpMontDeu.xml" date="1183" place="" />
+        filename="data/raw/data_old_french/EpMontDeu.xml" date="1183" place="" />
     <item link="https://nakala.fr/10.34847/nkl.15041hh1" language="old-french"
-        filename="data/data_old_french/eneas1.xml" date="1155" place="" />
+        filename="data/raw/data_old_french/eneas1.xml" date="1155" place="" />
     <item link="https://nakala.fr/10.34847/nkl.6f8aryxb" language="old-french"
-        filename="data/data_old_french/DocSMichel_a.xml" date="1411" place="" />
+        filename="data/raw/data_old_french/DocSMichel_a.xml" date="1411" place="" />
     <item link="https://nakala.fr/10.34847/nkl.ec2553q4" language="old-french"
-        filename="data/data_old_french/doon.xml" date="1215" place="" />
+        filename="data/raw/data_old_french/doon.xml" date="1215" place="" />
     <item link="https://nakala.fr/10.34847/nkl.0c18j959" language="old-french"
-        filename="data/data_old_french/edconfcambr.xml" date="1245" place="" />
+        filename="data/raw/data_old_french/edconfcambr.xml" date="1245" place="" />
     <item link="https://nakala.fr/10.34847/nkl.d44d4o6f" language="old-french"
-        filename="data/data_old_french/dole.xml" date="1210" place="" />
+        filename="data/raw/data_old_french/dole.xml" date="1210" place="" />
     <item link="https://nakala.fr/10.34847/nkl.e2d7rwl6" language="old-french"
-        filename="data/data_old_french/dizsages.xml" date="1400" place="" />
+        filename="data/raw/data_old_french/dizsages.xml" date="1400" place="" />
     <item link="https://nakala.fr/10.34847/nkl.2eb455u4" language="old-french"
-        filename="data/data_old_french/DialAme.xml" date="1200" place="" />
+        filename="data/raw/data_old_french/DialAme.xml" date="1200" place="" />
     <item link="https://nakala.fr/10.34847/nkl.00008n3p" language="old-french"
-        filename="data/data_old_french/dictier.xml" date="1392" place="" />
+        filename="data/raw/data_old_french/dictier.xml" date="1392" place="" />
     <item link="https://nakala.fr/10.34847/nkl.ab5bx81c" language="old-french"
-        filename="data/data_old_french/DialGreg1.xml" date="1183" place="" />
+        filename="data/raw/data_old_french/DialGreg1.xml" date="1183" place="" />
     <item link="https://nakala.fr/10.34847/nkl.f997i2cw" language="old-french"
-        filename="data/data_old_french/desire.xml" date="1205" place="" />
+        filename="data/raw/data_old_french/desire.xml" date="1205" place="" />
     <item link="https://nakala.fr/10.34847/nkl.dd17p18k" language="old-french"
-        filename="data/data_old_french/DialGreg2.xml" date="1183" place="" />
+        filename="data/raw/data_old_french/DialGreg2.xml" date="1183" place="" />
     <item link="https://nakala.fr/10.34847/nkl.1d7di913" language="old-french"
-        filename="data/data_old_french/coutpoit_a.xml" date="1451" place="" />
+        filename="data/raw/data_old_french/coutpoit_a.xml" date="1451" place="" />
     <item link="https://nakala.fr/10.34847/nkl.7e6327z2" language="old-french"
-        filename="data/data_old_french/daudin.xml" date="1365" place="" />
+        filename="data/raw/data_old_french/daudin.xml" date="1365" place="" />
     <item link="https://nakala.fr/10.34847/nkl.1dc28p00" language="old-french"
-        filename="data/data_old_french/CoutRoum.xml" date="1407" place="" />
+        filename="data/raw/data_old_french/CoutRoum.xml" date="1407" place="" />
     <item link="https://nakala.fr/10.34847/nkl.4ea96xnk" language="old-french"
-        filename="data/data_old_french/CoutHector1.xml" date="1404" place="" />
+        filename="data/raw/data_old_french/CoutHector1.xml" date="1404" place="" />
     <item link="https://nakala.fr/10.34847/nkl.2b0fek68" language="old-french"
-        filename="data/data_old_french/DescrEngl.xml" date="1140" place="" />
+        filename="data/raw/data_old_french/DescrEngl.xml" date="1140" place="" />
     <item link="https://nakala.fr/10.34847/nkl.a10ct92c" language="old-french"
-        filename="data/data_old_french/commyn8.xml" date="1497" place="" />
+        filename="data/raw/data_old_french/commyn8.xml" date="1497" place="" />
     <item link="https://nakala.fr/10.34847/nkl.2bffh5kx" language="old-french"
-        filename="data/data_old_french/commyn6.xml" date="1497" place="" />
+        filename="data/raw/data_old_french/commyn6.xml" date="1497" place="" />
     <item link="https://nakala.fr/10.34847/nkl.fcdfas7p" language="old-french"
-        filename="data/data_old_french/comput.xml" date="1116" place="" />
+        filename="data/raw/data_old_french/comput.xml" date="1116" place="" />
     <item link="https://nakala.fr/10.34847/nkl.b31bd3oj" language="old-french"
-        filename="data/data_old_french/commyn7.xml" date="1497" place="" />
+        filename="data/raw/data_old_french/commyn7.xml" date="1497" place="" />
     <item link="https://nakala.fr/10.34847/nkl.56dfrgf2" language="old-french"
-        filename="data/data_old_french/commyn5.xml" date="1497" place="" />
+        filename="data/raw/data_old_french/commyn5.xml" date="1497" place="" />
     <item link="https://nakala.fr/10.34847/nkl.1fa520sn" language="old-french"
-        filename="data/data_old_french/conttyr_a.xml" date="1200" place="" />
+        filename="data/raw/data_old_french/conttyr_a.xml" date="1200" place="" />
     <item link="https://nakala.fr/10.34847/nkl.f31fb17k" language="old-french"
-        filename="data/data_old_french/commyn1.xml" date="1497" place="" />
+        filename="data/raw/data_old_french/commyn1.xml" date="1497" place="" />
     <item link="https://nakala.fr/10.34847/nkl.e1a31q5g" language="old-french"
-        filename="data/data_old_french/commyn4.xml" date="1497" place="" />
+        filename="data/raw/data_old_french/commyn4.xml" date="1497" place="" />
     <item link="https://nakala.fr/10.34847/nkl.fca5848n" language="old-french"
-        filename="data/data_old_french/cobe.xml" date="1185" place="" />
+        filename="data/raw/data_old_french/cobe.xml" date="1185" place="" />
     <item link="https://nakala.fr/10.34847/nkl.e0cbk77i" language="old-french"
-        filename="data/data_old_french/commyn2.xml" date="1497" place="" />
+        filename="data/raw/data_old_french/commyn2.xml" date="1497" place="" />
     <item link="https://nakala.fr/10.34847/nkl.689ej8cd" language="old-french"
-        filename="data/data_old_french/CommPsia1a.xml" date="1164" place="" />
+        filename="data/raw/data_old_french/CommPsia1a.xml" date="1164" place="" />
     <item link="https://nakala.fr/10.34847/nkl.abfaa9c1" language="old-french"
-        filename="data/data_old_french/commyn3.xml" date="1497" place="" />
+        filename="data/raw/data_old_french/commyn3.xml" date="1497" place="" />
     <item link="https://nakala.fr/10.34847/nkl.c47fw9b0" language="old-french"
-        filename="data/data_old_french/clari.xml" date="1210" place="" />
+        filename="data/raw/data_old_french/clari.xml" date="1210" place="" />
     <item link="https://nakala.fr/10.34847/nkl.a55aoth6" language="old-french"
-        filename="data/data_old_french/ChirAlbT.xml" date="1250" place="" />
+        filename="data/raw/data_old_french/ChirAlbT.xml" date="1250" place="" />
     <item link="https://nakala.fr/10.34847/nkl.9382r8ds" language="old-french"
-        filename="data/data_old_french/chartes_aube13.xml" date="1250" place="" />
+        filename="data/raw/data_old_french/chartes_aube13.xml" date="1250" place="" />
     <item link="https://nakala.fr/10.34847/nkl.215df441" language="old-french"
-        filename="data/data_old_french/CligesKu.xml" date="1176" place="" />
+        filename="data/raw/data_old_french/CligesKu.xml" date="1176" place="" />
     <item link="https://nakala.fr/10.34847/nkl.ec7185r8" language="old-french"
-        filename="data/data_old_french/ChronSMichelBo.xml" date="1155" place="" />
+        filename="data/raw/data_old_french/ChronSMichelBo.xml" date="1155" place="" />
     <item link="https://nakala.fr/10.34847/nkl.f7f963fz" language="old-french"
-        filename="data/data_old_french/chartes_hain13.xml" date="1250" place="" />
+        filename="data/raw/data_old_french/chartes_hain13.xml" date="1250" place="" />
     <item link="https://nakala.fr/10.34847/nkl.779ekp22" language="old-french"
-        filename="data/data_old_french/ChaceOisiiT.xml" date="1350" place="" />
+        filename="data/raw/data_old_french/ChaceOisiiT.xml" date="1350" place="" />
     <item link="https://nakala.fr/10.34847/nkl.0e110prw" language="old-french"
-        filename="data/data_old_french/cdo_peche.xml" date="1404" place="" />
+        filename="data/raw/data_old_french/cdo_peche.xml" date="1404" place="" />
     <item link="https://nakala.fr/10.34847/nkl.7c3a52x8" language="old-french"
-        filename="data/data_old_french/cdo_rondeaux.xml" date="1443" place="" />
+        filename="data/raw/data_old_french/cdo_rondeaux.xml" date="1443" place="" />
     <item link="https://nakala.fr/10.34847/nkl.a8178r8j" language="old-french"
-        filename="data/data_old_french/cdo_songe.xml" date="1437" place="" />
+        filename="data/raw/data_old_french/cdo_songe.xml" date="1437" place="" />
     <item link="https://nakala.fr/10.34847/nkl.84b16zc5" language="old-french"
-        filename="data/data_old_french/cdo_retenue.xml" date="1414" place="" />
+        filename="data/raw/data_old_french/cdo_retenue.xml" date="1414" place="" />
     <item link="https://nakala.fr/10.34847/nkl.8fbc8004" language="old-french"
-        filename="data/data_old_french/CharretteKu.xml" date="1179" place="" />
+        filename="data/raw/data_old_french/CharretteKu.xml" date="1179" place="" />
     <item link="https://nakala.fr/10.34847/nkl.fadcnf3b" language="old-french"
-        filename="data/data_old_french/BrutCist.xml" date="1183" place="" />
+        filename="data/raw/data_old_french/BrutCist.xml" date="1183" place="" />
     <item link="https://nakala.fr/10.34847/nkl.c2868c3y" language="old-french"
-        filename="data/data_old_french/cdo_complaintes.xml" date="1433"
+        filename="data/raw/data_old_french/cdo_complaintes.xml" date="1433"
         place="" />
     <item link="https://nakala.fr/10.34847/nkl.2bfd2370" language="old-french"
-        filename="data/data_old_french/cambps.xml" date="1157" place="" />
+        filename="data/raw/data_old_french/cambps.xml" date="1157" place="" />
     <item link="https://nakala.fr/10.34847/nkl.2f8f9g8w" language="old-french"
-        filename="data/data_old_french/brut2.xml" date="1155" place="" />
+        filename="data/raw/data_old_french/brut2.xml" date="1155" place="" />
     <item link="https://nakala.fr/10.34847/nkl.dcb60bl8" language="old-french"
-        filename="data/data_old_french/cdo_ballades.xml" date="1415" place="" />
+        filename="data/raw/data_old_french/cdo_ballades.xml" date="1415" place="" />
     <item link="https://nakala.fr/10.34847/nkl.16beabfc" language="old-french"
-        filename="data/data_old_french/beroul.xml" date="1180" place="" />
+        filename="data/raw/data_old_french/beroul.xml" date="1180" place="" />
     <item link="https://nakala.fr/10.34847/nkl.e1733451" language="old-french"
-        filename="data/data_old_french/BlondNesle.xml" date="1190" place="" />
+        filename="data/raw/data_old_french/BlondNesle.xml" date="1190" place="" />
     <item link="https://nakala.fr/10.34847/nkl.df8c1c0k" language="old-french"
-        filename="data/data_old_french/Berin1.xml" date="1370" place="" />
+        filename="data/raw/data_old_french/Berin1.xml" date="1370" place="" />
     <item link="https://nakala.fr/10.34847/nkl.e5fc9s6e" language="old-french"
-        filename="data/data_old_french/bestam.xml" date="1250" place="" />
+        filename="data/raw/data_old_french/bestam.xml" date="1250" place="" />
     <item link="https://nakala.fr/10.34847/nkl.d378a4l2" language="old-french"
-        filename="data/data_old_french/Berin2.xml" date="1370" place="" />
+        filename="data/raw/data_old_french/Berin2.xml" date="1370" place="" />
     <item link="https://nakala.fr/10.34847/nkl.4dee4d8b" language="old-french"
-        filename="data/data_old_french/BenDuc1b.xml" date="1174" place="" />
+        filename="data/raw/data_old_french/BenDuc1b.xml" date="1174" place="" />
     <item link="https://nakala.fr/10.34847/nkl.c6ae1426" language="old-french"
-        filename="data/data_old_french/baye2.xml" date="1409" place="" />
+        filename="data/raw/data_old_french/baye2.xml" date="1409" place="" />
     <item link="https://nakala.fr/10.34847/nkl.cd5dio5e" language="old-french"
-        filename="data/data_old_french/becket.xml" date="1173" place="" />
+        filename="data/raw/data_old_french/becket.xml" date="1173" place="" />
     <item link="https://nakala.fr/10.34847/nkl.ec8byys0" language="old-french"
-        filename="data/data_old_french/belinc.xml" date="1207" place="" />
+        filename="data/raw/data_old_french/belinc.xml" date="1207" place="" />
     <item link="https://nakala.fr/10.34847/nkl.0394g32i" language="old-french"
-        filename="data/data_old_french/beauma1.xml" date="1283" place="" />
+        filename="data/raw/data_old_french/beauma1.xml" date="1283" place="" />
     <item link="https://nakala.fr/10.34847/nkl.d568g1d9" language="old-french"
-        filename="data/data_old_french/amiamil.xml" date="1200" place="" />
+        filename="data/raw/data_old_french/amiamil.xml" date="1200" place="" />
     <item link="https://nakala.fr/10.34847/nkl.a2a5koj5" language="old-french"
-        filename="data/data_old_french/aucassin.xml" date="1212" place="" />
+        filename="data/raw/data_old_french/aucassin.xml" date="1212" place="" />
     <item link="https://nakala.fr/10.34847/nkl.bbfc1k15" language="old-french"
-        filename="data/data_old_french/anglure.xml" date="1398" place="" />
+        filename="data/raw/data_old_french/anglure.xml" date="1398" place="" />
     <item link="https://nakala.fr/10.34847/nkl.d3bd48f0" language="old-french"
-        filename="data/data_old_french/baye1.xml" date="1409" place="" />
+        filename="data/raw/data_old_french/baye1.xml" date="1409" place="" />
     <item link="https://nakala.fr/10.34847/nkl.2135yn36" language="old-french"
-        filename="data/data_old_french/atrper.xml" date="1250" place="" />
+        filename="data/raw/data_old_french/atrper.xml" date="1250" place="" />
     <item link="https://nakala.fr/10.34847/nkl.cd9ery9h" language="old-french"
-        filename="data/data_old_french/adgar.xml" date="1183" place="" />
+        filename="data/raw/data_old_french/adgar.xml" date="1183" place="" />
     <item link="https://nakala.fr/10.34847/nkl.7bbe37x6" language="old-french"
-        filename="data/data_old_french/AlexisRaM.xml" date="1050" place="Normandy" />
+        filename="data/raw/data_old_french/AlexisRaM.xml" date="1050" place="Normandy" />
     <item link="https://nakala.fr/10.34847/nkl.846ers85" language="old-french"
-        filename="data/data_old_french/EpreuveJudic.xml" date="1117" place="" />
+        filename="data/raw/data_old_french/EpreuveJudic.xml" date="1117" place="" />
     <item link="https://nakala.fr/10.34847/nkl.9a81x8fq" language="old-french"
-        filename="data/data_old_french/molinet1_ch01-10.xml" date="1490"
+        filename="data/raw/data_old_french/molinet1_ch01-10.xml" date="1490"
         place="" />
     <item link="https://nakala.fr/10.34847/nkl.d5e4a0m1" language="old-french"
-        filename="data/data_old_french/louis11_248.xml" date="1470" place="" />
+        filename="data/raw/data_old_french/louis11_248.xml" date="1470" place="" />
     <item link="https://nakala.fr/10.34847/nkl.436fe0jq" language="old-french"
-        filename="data/data_old_french/gcoin2.xml" date="1222" place="" />
+        filename="data/raw/data_old_french/gcoin2.xml" date="1222" place="" />
     <item link="https://nakala.fr/10.34847/nkl.7c680kt9" language="old-french"
-        filename="data/data_old_french/louis11_215.xml" date="1450" place="" />
+        filename="data/raw/data_old_french/louis11_215.xml" date="1450" place="" />
     <item link="https://nakala.fr/10.34847/nkl.1f02318k" language="old-french"
-        filename="data/data_old_french/pyrame.xml" date="1157" place="" />
+        filename="data/raw/data_old_french/pyrame.xml" date="1157" place="" />
     <item link="https://nakala.fr/10.34847/nkl.76a1nvhk" language="old-french"
-        filename="data/data_old_french/leiswillelm.xml" date="1112" place="" />
+        filename="data/raw/data_old_french/leiswillelm.xml" date="1112" place="" />
     <item link="https://nakala.fr/10.34847/nkl.35ech83h" language="old-french"
-        filename="data/data_old_french/froissart1.xml" date="1402" place="" />
+        filename="data/raw/data_old_french/froissart1.xml" date="1402" place="" />
     <item link="https://nakala.fr/10.34847/nkl.e6e46754" language="old-french"
-        filename="data/data_old_french/PsArundP.xml" date="1150" place="" />
+        filename="data/raw/data_old_french/PsArundP.xml" date="1150" place="" />
     <item link="https://nakala.fr/10.34847/nkl.dc4c1s9m" language="old-french"
-        filename="data/data_old_french/joinville.xml" date="1307" place="" />
+        filename="data/raw/data_old_french/joinville.xml" date="1307" place="" />
     <item link="https://nakala.fr/10.34847/nkl.a4ddq367" language="old-french"
-        filename="data/data_old_french/aliscans1.xml" date="1175" place="" />
+        filename="data/raw/data_old_french/aliscans1.xml" date="1175" place="" />
     <item link="https://nakala.fr/10.34847/nkl.0032v4s0" language="old-french"
-        filename="data/data_old_french/villon.xml" date="1461" place="" />
+        filename="data/raw/data_old_french/villon.xml" date="1461" place="" />
     <item link="https://nakala.fr/10.34847/nkl.9fd48i6x" language="old-french"
-        filename="data/data_old_french/mestiersparis.xml" date="1268" place="" />
+        filename="data/raw/data_old_french/mestiersparis.xml" date="1268" place="" />
     <item link="https://nakala.fr/10.34847/nkl.dc5eig8m" language="old-french"
-        filename="data/data_old_french/cnn.xml" date="1462" place="" />
+        filename="data/raw/data_old_french/cnn.xml" date="1462" place="" />
     <item link="https://nakala.fr/10.34847/nkl.cad77nu8" language="old-french"
-        filename="data/data_old_french/gcoin4.xml" date="1222" place="" />
+        filename="data/raw/data_old_french/gcoin4.xml" date="1222" place="" />
     <item link="https://nakala.fr/10.34847/nkl.110ctj52" language="old-french"
-        filename="data/data_old_french/griseld.xml" date="1395" place="" />
+        filename="data/raw/data_old_french/griseld.xml" date="1395" place="" />
     <item link="https://nakala.fr/10.34847/nkl.ed99732g" language="old-french"
-        filename="data/data_old_french/merlin_suite_litt.xml" date="1232"
+        filename="data/raw/data_old_french/merlin_suite_litt.xml" date="1232"
         place="" />
     <item link="https://nakala.fr/10.34847/nkl.9a0c078s" language="old-french"
-        filename="data/data_old_french/artois.xml" date="1460" place="" />
+        filename="data/raw/data_old_french/artois.xml" date="1460" place="" />
     <item link="https://nakala.fr/10.34847/nkl.ab1ew0z7" language="old-french"
-        filename="data/data_old_french/gerson_trinite.xml" date="1402" place="" />
+        filename="data/raw/data_old_french/gerson_trinite.xml" date="1402" place="" />
     <item link="https://nakala.fr/10.34847/nkl.879d4s17" language="old-french"
-        filename="data/data_old_french/RegleSBenCotton.xml" date="1183"
+        filename="data/raw/data_old_french/RegleSBenCotton.xml" date="1183"
         place="" />
     <item link="https://nakala.fr/10.34847/nkl.193a3o2j" language="old-french"
-        filename="data/data_old_french/pathelin.xml" date="1462" place="" />
+        filename="data/raw/data_old_french/pathelin.xml" date="1462" place="" />
     <item link="https://nakala.fr/10.34847/nkl.8077jvn0" language="old-french"
-        filename="data/data_old_french/ombre.xml" date="1220" place="" />
+        filename="data/raw/data_old_french/ombre.xml" date="1220" place="" />
     <item link="https://nakala.fr/10.34847/nkl.b8f4my0k" language="old-french"
-        filename="data/data_old_french/RecMedJute.xml" date="1175" place="" />
+        filename="data/raw/data_old_french/RecMedJute.xml" date="1175" place="" />
     <item link="https://nakala.fr/10.34847/nkl.2f7f5g77" language="old-french"
-        filename="data/data_old_french/oresme.xml" date="1370" place="" />
+        filename="data/raw/data_old_french/oresme.xml" date="1370" place="" />
     <item link="https://nakala.fr/10.34847/nkl.62ef72d7" language="old-french"
-        filename="data/data_old_french/narcisse_lai.xml" date="1170" place="" />
+        filename="data/raw/data_old_french/narcisse_lai.xml" date="1170" place="" />
     <item link="https://nakala.fr/10.34847/nkl.059a3pnh" language="old-french"
-        filename="data/data_old_french/donait.xml" date="1405" place="" />
+        filename="data/raw/data_old_french/donait.xml" date="1405" place="" />
     <item link="https://nakala.fr/10.34847/nkl.c1602em8" language="old-french"
-        filename="data/data_old_french/passauv.xml" date="1477" place="" />
+        filename="data/raw/data_old_french/passauv.xml" date="1477" place="" />
     <item link="https://nakala.fr/10.34847/nkl.bdc8t16b" language="old-french"
-        filename="data/data_old_french/saintre.xml" date="1456" place="" />
+        filename="data/raw/data_old_french/saintre.xml" date="1456" place="" />
     <item link="https://nakala.fr/10.34847/nkl.af439t75" language="old-french"
-        filename="data/data_old_french/prunier.xml" date="1325" place="" />
+        filename="data/raw/data_old_french/prunier.xml" date="1325" place="" />
     <item link="https://nakala.fr/10.34847/nkl.11a0k77s" language="old-french"
-        filename="data/data_old_french/bibleberze.xml" date="1221" place="" />
+        filename="data/raw/data_old_french/bibleberze.xml" date="1221" place="" />
     <item link="https://nakala.fr/10.34847/nkl.d9df2sq4" language="old-french"
-        filename="data/data_old_french/ponthus.xml" date="1400" place="" />
+        filename="data/raw/data_old_french/ponthus.xml" date="1400" place="" />
     <item link="https://nakala.fr/10.34847/nkl.b5db83g8" language="old-french"
-        filename="data/data_old_french/louis11_234.xml" date="1467" place="" />
+        filename="data/raw/data_old_french/louis11_234.xml" date="1467" place="" />
     <item link="https://nakala.fr/10.34847/nkl.6fe7kl29" language="old-french"
-        filename="data/data_old_french/aliscans2.xml" date="1175" place="" />
+        filename="data/raw/data_old_french/aliscans2.xml" date="1175" place="" />
     <item link="https://nakala.fr/10.34847/nkl.d17cr7tc" language="old-french"
-        filename="data/data_old_french/RecCoulTitH.xml" date="1183" place="" />
+        filename="data/raw/data_old_french/RecCoulTitH.xml" date="1183" place="" />
     <item link="https://nakala.fr/10.34847/nkl.ddeax556" language="old-french"
-        filename="data/data_old_french/gcoin3.xml" date="1222" place="" />
+        filename="data/raw/data_old_french/gcoin3.xml" date="1222" place="" />
     <item link="https://nakala.fr/10.34847/nkl.d266x082" language="old-french"
-        filename="data/data_old_french/OrnDamesR.xml" date="1250" place="" />
+        filename="data/raw/data_old_french/OrnDamesR.xml" date="1250" place="" />
     <item link="https://nakala.fr/10.34847/nkl.2913p8ez" language="old-french"
-        filename="data/data_old_french/trispr.xml" date="1270" place="" />
+        filename="data/raw/data_old_french/trispr.xml" date="1270" place="" />
     <item link="https://nakala.fr/10.34847/nkl.0c5e8op2" language="old-french"
-        filename="data/data_old_french/archier.xml" date="1479" place="" />
+        filename="data/raw/data_old_french/archier.xml" date="1479" place="" />
     <item link="https://nakala.fr/10.34847/nkl.63aad7m9" language="old-french"
-        filename="data/data_old_french/philomena.xml" date="1167" place="" />
+        filename="data/raw/data_old_french/philomena.xml" date="1167" place="" />
     <item link="https://nakala.fr/10.34847/nkl.91adot44" language="old-french"
-        filename="data/data_old_french/phares.xml" date="1496" place="" />
+        filename="data/raw/data_old_french/phares.xml" date="1496" place="" />
     <item link="https://nakala.fr/10.34847/nkl.cafd4j60" language="old-french"
-        filename="data/data_old_french/orange.xml" date="1183" place="" />
+        filename="data/raw/data_old_french/orange.xml" date="1183" place="" />
     <item link="https://nakala.fr/10.34847/nkl.91eeza91" language="old-french"
-        filename="data/data_old_french/bodelnic.xml" date="1195" place="" />
+        filename="data/raw/data_old_french/bodelnic.xml" date="1195" place="" />
     <item link="https://nakala.fr/10.34847/nkl.f638e070" language="old-french"
-        filename="data/data_old_french/escoufle.xml" date="1201" place="" />
+        filename="data/raw/data_old_french/escoufle.xml" date="1201" place="" />
     <item link="https://nakala.fr/10.34847/nkl.ec7bvmfy" language="old-french"
-        filename="data/data_old_french/jehan.xml" date="1235" place="" />
+        filename="data/raw/data_old_french/jehan.xml" date="1235" place="" />
     <item link="https://nakala.fr/10.34847/nkl.7428bkfv" language="old-french"
-        filename="data/data_old_french/louis11_223.xml" date="1463" place="" />
+        filename="data/raw/data_old_french/louis11_223.xml" date="1463" place="" />
     <item link="https://nakala.fr/10.34847/nkl.c3a89n13" language="old-french"
-        filename="data/data_old_french/Elucidaireiii.xml" date="1200" place="" />
+        filename="data/raw/data_old_french/Elucidaireiii.xml" date="1200" place="" />
     <item link="https://nakala.fr/10.34847/nkl.fc7c329a" language="old-french"
-        filename="data/data_old_french/galeran.xml" date="1212" place="" />
+        filename="data/raw/data_old_french/galeran.xml" date="1212" place="" />
     <item link="https://nakala.fr/10.34847/nkl.2b0837xc" language="old-french"
-        filename="data/data_old_french/AlexisProlRaM.xml" date="1050" place="" />
+        filename="data/raw/data_old_french/AlexisProlRaM.xml" date="1050" place="" />
 </items>
