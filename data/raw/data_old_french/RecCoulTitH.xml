@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="main">Petit recueil de recettes servant à la fabrication de couleurs et à la teinture</title>
+      <title type="formal">RecCoulTit</title>
+      <title type="reference">RecCoulTitH</title>
+      <title type="DEAF">RecCoulTitH</title>
+      <title type="gmd">transcription électronique</title>
+      <author xml:id="anonyme">anonyme</author>
+      <editor>Équipe de la Base de français médiéval - ENS de Lyon / UMR 5317 IHRIM</editor>
+      <funder>Laboratoire IHRIM</funder>
+      <funder>ANR (projet CoRPTeF)</funder>
+    </titleStmt>
+    <editionStmt>
+      <edition>transcripion électronique</edition>
+      <respStmt xml:id="proofreader2">
+        <resp>deuxième relecture et vérification du balisage</resp>
+        <name xml:id="AL">Alexei Lavrentiev</name>
+      </respStmt>
+      <respStmt xml:id="digitizer2">
+        <resp>océrisation</resp>
+        <name xml:id="CICL">CICL</name>
+      </respStmt>
+    </editionStmt>
+    <extent>- Numéros de pages saisies : de 206 à 207 ;
+            - Nombre de mots d'après la base des descripteurs : <num xml:id="nb_mots_given">579</num> ;
+            - Nombre de tokens (mots et ponctuations) d'après la base des descripteurs : <num xml:id="nb_tokens_given">667</num>.
+    </extent>
+    <publicationStmt>
+      <publisher><name>Projet BFM, ENS de Lyon / UMR 5317 IHRIM</name></publisher>
+      <address>
+        <addrLine>15, parvis René Descartes</addrLine>
+        <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+        <addrLine>Tél : 04 37 37 63 10</addrLine>
+        <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+        <addrLine>http://bfm.ens-lyon.fr</addrLine>
+      </address>
+      <idno type="bfm">http://catalog.bfm-corpus.org/RecCoulTitH</idno>
+      <idno type="doi">10.34847/nkl.d17cr7tc</idno>
+      <availability status="free">
+        <licence target="https://www.etalab.gouv.fr/licence-ouverte-open-licence">
+          <ab type="availability_bfm" subtype="libre_1a">Les Conditions générales d'utilisation de la Base de Français Médiéval (http://txm.bfm-corpus.org/bfm/files/CGU.pdf), 
+            et notamment son Article 5 « PROPRIETE INTELLECTUELLE », s'appliquent à tous les textes de la BFM.</ab>
+          <ab type="how_to_cite">
+            <label>Comment citer ce texte :</label>
+            <bibl>Petit recueil de recettes servant à la fabrication de couleurs et à la teinture, édité par Tony Hunt, London, 1995. 
+              Publié en ligne par la Base de français médiéval, http://catalog.bfm-corpus.org/RecCoulTitH.
+              Dernière révision le 2021-08-26.</bibl>
+            D'autres formules de citation de la BFM sont proposées sur la page web suivante :
+            http://bfm.ens-lyon.fr/article.php3?id_article=281.</ab>
+          <ab type="availability_file">
+            <label>Conditions d'utilisation de ce fichier :</label>
+              Ce fichier numérique est composé du corps de texte médiéval et des suppléments numériques : balisage XML-TEI, métadonnées (teiHeader). Le texte et les suppléments numériques sont libres de droit et peuvent à ce titre être téléchargés et réutilisés librement.
+            </ab>
+            <ab type="availability_txmweb" subtype="illimité">
+              <label>Conditions d'utilisation par le portail BFM :</label>
+              Pas de limitation dans l'usage des fonctionnalités. Téléchargement autorisé.</ab>
+        </licence>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>Early Anglo-Norman receipts for colours</title>
+          <respStmt>
+            <resp xml:id="editor">Éditeur scientifique</resp>
+            <name type="person">Tony Hunt</name>
+          </respStmt>
+        </titleStmt>
+          <extent>2 page(s), soit 206-207
+        </extent>
+        <publicationStmt>
+          <publisher>The Warburg Institute</publisher>
+          <pubPlace>London</pubPlace>
+          <date>1995</date>
+          <idno type="sigle_DEAF">RecCoulTitH</idno>
+          <idno type="cote_biblio">JSTOR : 751511</idno>
+        </publicationStmt>
+      </biblFull>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p>Projet :<name type="project">BFM - Base de français médiéval</name>
+        Resp. : <name type="person">Céline Guillot-Barbance</name>
+        Équipe : Base de français médiéval
+        Laboratoire : UMR 5317 IHRIM
+        Institution : ENS de Lyon
+        <address>
+          <addrLine>15, parvis René Descartes</addrLine>
+          <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+          <addrLine>Tél : 04 37 37 63 10</addrLine>
+          <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+          <addrLine>http://bfm.ens-lyon.fr</addrLine>
+        </address>
+      </p>
+    </projectDesc>
+    <editorialDecl>
+      <p>Voir le <ref target="http://bfm.ens-lyon.fr/IMG/pdf/Manuel_Encodage_TEI.pdf">Manuel d'encodage XML-TEI de la BFM</ref>
+        et les <ref target="http://bfm.ens-lyon.fr/IMG/pdf/Consignes_BFM.pdf">Consignes aux relecteurs de la BFM</ref>.</p>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="body" occurs="1"/>
+        <tagUsage gi="div" occurs="1"/>
+        <tagUsage gi="gap" occurs="1"/>
+        <tagUsage gi="milestone" occurs="4"/>
+        <tagUsage gi="num" occurs="6"/>
+        <tagUsage gi="p" occurs="13"/>
+        <tagUsage gi="pb" occurs="2"/>
+        <tagUsage gi="supplied" occurs="3"/>
+        <tagUsage gi="text" occurs="1"/>
+        <tagUsage gi="w" occurs="3"/>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <creation>
+      <name type="author">anonyme</name>
+      <title>Petit recueil de recettes servant à la fabrication de couleurs et à la teinture</title>
+      <date type="compo" when="1183-01-01" notBefore="1166-01-01" notAfter="1199-01-01" n="12">fin 12e s.</date>
+      <date type="compo_periode">ancien</date>
+      <date type="compo_sous_siecle" n="12_3">fin</date>
+      <date type="ms" when="1183-01-01" notBefore="1167-01-01" notAfter="1199-01-01">fin 12e s.</date>
+      <idno type="msIdentifier">BL Cotton Titus D.XXIV</idno>
+      <region type="dialecte_auteur">anglo-normand</region>
+    </creation>
+    <langUsage>
+      <language ident="fro" usage="100">Le texte est entièrement écrit en prose en ancien français.</language>
+    </langUsage>
+    <textDesc>
+      <channel mode="w">print</channel>
+      <constitution type="single"/>
+      <derivation type="original"/>
+      <domain type="didactique"/>
+    <factuality type="inapplicable"/>
+      <interaction type="none"/>
+      <preparedness type="prepared"/>
+      <purpose type="narrative"/></textDesc>
+    <textClass>
+      <keywords scheme="http://authorities.bfm-corpus.org">
+        <term type="domaine">didactique</term>
+        <term type="genre">recette</term>
+        <term type="forme">prose</term>
+        <term type="relation">original</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change who="#AL" when="2008-08-13">préparation à la relecture 1</change>
+    <change who="#CICL" when="2008-08-13">océrisation</change>
+    <change who="#CICL" when="2008-08-13">scannage</change>
+    <change who="#AL" when="2008-10-27">première relecture</change>
+    <change who="#AL" when="2009-01-14">création du descripteur</change>
+    <change who="#AL" when="2021-08-26">deuxième relecture et vérification du balisage</change>
+    <change who="#AL" when="2021-08-26">conversion en XML et balisage automatique</change>
+    <change when="2021-08-26">Dernière modification du texte</change>
+    <change when="2022-11-04">Création de cet entête</change>
+  </revisionDesc>
+</teiHeader>
+<text>
+<body>
+<pb n="206"/>
+<div>
+<p>
+    <gap/>
+<milestone unit="folio" n="131r"/>
+Ki vuldrat destempreir vermellun prenget un of, sil batet tut ensemble ot le muiol senz ewe, e mulle esspés e metet el corn. Pus i metet la glare faite senz ewe. E aprés <num>.iiii.</num> jurz purrat enluminer, e s'il fet bel, aprés <num>.i.</num> jurn. Mais ward sei de pluius jurn, kar dunc decurrat. </p>
+<p>De azur: Prenge ewe de funtaine et de la gume arabica et cola de parchamin un petit, et quisez en un'escale de of. Puis lavez l'azur en un bacin. Apres meteiz del destemprure faite de gumme arabica et cola purrit. Purveit que ben seit mulut od ewa su espés marbre. </p>
+<p>Prenge la bone pudre de vert e metet en un bacin. Si metet bon vin, nehent mellét ohoc ewe, si metet plain un petit bacin <milestone unit="folio" n="131v"/> e seit el solel <num>.viii.</num> jurz e suvent seit muut. Puis quant serrat ben asis, prenget del cleir desus e de cho destempret derechef la secche pudre ben tenve. Puis le mettet chascun jurn el solel e movet desque il seit maur, n'i metet neent (n'i metet neent) de croho, kar par icho solt murir. </p>
+<p>De brasil: Seit reis en un'ecsale e mis de la glaire. Aprés un jurn metez de l'alum bon e puis le lest esteir <num>.iii.</num> jurz pur maureir. E ben le ward de ewa. </p>
+    <p>De wreime, ki est apeleit mose: Seit mincét en un'escale, puis i meteiz de la chauz de muster. Issi seit mis pur maurer desque il le <w>vei<supplied>t</supplied></w> bon. Puis seit prent parmi un drap. Pernez le alum, sil metez en ewe, sil caufez, si metez le quir enz primer, e puis le <milestone unit="folio" n="132r"/> brasil en ewe, sil bullez, e <w>tempre<supplied>z</supplied></w> lle de le lessive de fust, la gume de l'eire e la gume del pruner e glud de parchemin, de veelin, ulinement, sil metez en un'escale, sil metez utre le fu pur caufer. </p>
+<p>Al gaunne fere: Pernez lissive del fust e cuillez de wdewise e bullez en celle wdewise. E aprés ostet le wdewise e tennez le drap, e ert ganne. </p>
+<pb n="207"/>
+<p>Al vert: Pernez hillereberies maures e ostez le jus e puis le pullez, e metez enz le drap ganne, e bullez, e vert ert. </p>
+<p>As pailes: Pernez le eble e facés cendre e de ço lissive e muliez enz la paile e tendez le paile. E ajustez un linceu e turnez entur un'hanste e puis rollez sur une table. </p>
+    <p>Ad petram frangendam: Petrosilium, apium, feniculum, absintium, saxifragium, luvesticum, salviam et sanguinem albi hirci, et herba que vocatur burneta; has omnes accipe equali mensura et coques in cervisia <milestone unit="folio" n="132v"/> et dabis bibere mane et vespere. </p>
+<p>Al cancre: Pernez le talpe tut vif e metez en un pot nuvel e faites en puldre e puis triblez le puldre. E puis pernét altretant de mel, e metez en un'teste al fu desque le meel e cele pudre seint ben melez, e puis sil metez en sauf. E zo ocist le <w>ca<supplied>n</supplied>cre</w> e le verm. En tele manere metez od un'pene sur la plaie, sil lasseiz jesir une nuut e, Deu aidant, warrat. </p>
+<p>De taindre la sele: Pernez arguel e mader, sil triblez, e bullez en stala cervaise ben. E pernez le jus de l'eble e treis itant de l'ewe e bullez ben. E aprés metez lissive itant cum del jus. E cum del fu l'avrez osté, dunc i metez le pel quan si chalt ert que ben puissez suffrir la main. 
+</p>
+</div>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,2129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="fr">
+  <fileDesc>
+    <titleStmt>
+      <title type="main">Ressource de la chrestienté</title>
+      <title type="formal">ressource</title>
+      <title type="reference">ressource</title>
+      <title type="DEAF">AndrtVigneResB*</title>
+      <title type="FRANTEXT">0704</title>
+      <title type="gmd">transcription électronique</title>
+      <author xml:id="AVigne" key="La Vigne, André de (1470?-1526?)" ref="http://www.idref.fr/03433128X">André de la Vigne</author>
+      <editor>Équipe de la Base de français médiéval - ENS de Lyon / UMR 5317 IHRIM</editor>
+      <funder>Laboratoire IHRIM</funder>
+    </titleStmt>
+    <editionStmt>
+      <edition>transcripion électronique</edition>
+      <respStmt xml:id="encoder0">
+        <resp>création du descripteur</resp>
+        <name xml:id="AL">Alexei Lavrentiev</name>
+      </respStmt>
+      <respStmt xml:id="encoder1">
+        <resp>rétroconversion automatique d'un texte du corpus FRANTEXT, base DMF, au format TEI P4</resp>
+        <name xml:id="GSouvay">Gilles Souvay (ATILF)</name>
+      </respStmt>
+    </editionStmt>
+    <extent>- Numéros de pages saisies : de 107 à 142 ;
+            - Nombre de mots d'après la base des descripteurs : <num xml:id="nb_mots_given">13013</num> ;
+            - Nombre de tokens (mots et ponctuations) d'après la base des descripteurs : <num xml:id="nb_tokens_given">14767</num>.
+    </extent>
+    <publicationStmt>
+      <publisher><name>Projet BFM, ENS de Lyon / UMR 5317 IHRIM</name></publisher>
+      <address>
+        <addrLine>15, parvis René Descartes</addrLine>
+        <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+        <addrLine>Tél : 04 37 37 63 10</addrLine>
+        <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+        <addrLine>http://bfm.ens-lyon.fr</addrLine>
+      </address>
+      <idno type="bfm">http://catalog.bfm-corpus.org/ressource</idno>
+      <idno type="doi">10.34847/nkl.4c0539z6</idno>
+      <availability status="free">
+        <licence target="https://www.etalab.gouv.fr/licence-ouverte-open-licence">
+          <ab type="availability_bfm" subtype="libre_1c">Les Conditions générales d'utilisation de la Base de Français Médiéval (http://txm.bfm-corpus.org/bfm/files/CGU.pdf), 
+            et notamment son Article 5 « PROPRIETE INTELLECTUELLE », s'appliquent à tous les textes de la BFM.</ab>
+          <ab type="how_to_cite">
+            <label>Comment citer ce texte :</label>
+            <bibl>André de la Vigne, Ressource de la chrestienté, édité par Cynthia Jane Brown, Montréal, 1989. 
+              Publié en ligne par la Base de français médiéval, http://catalog.bfm-corpus.org/ressource.
+              Dernière révision le 2016-07-12.</bibl>
+            D'autres formules de citation de la BFM sont proposées sur la page web suivante :
+            http://bfm.ens-lyon.fr/article.php3?id_article=281.</ab>
+          <ab type="availability_file">
+            <label>Conditions d'utilisation de ce fichier :</label>
+              Ce fichier numérique est composé du corps de texte médiéval et des suppléments numériques : balisage XML-TEI, métadonnées (teiHeader), balisage du discours direct. Le texte et les suppléments numériques sont libres de droit et peuvent à ce titre être téléchargés et réutilisés librement.
+            </ab>
+            <ab type="availability_txmweb" subtype="illimité">
+              <label>Conditions d'utilisation par le portail BFM :</label>
+              Pas de limitation dans l'usage des fonctionnalités. Téléchargement autorisé.</ab>
+        </licence>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>La ressource de la chrestienté</title>
+          <author>André de la Vigne</author>
+          <respStmt>
+            <resp xml:id="editor">Éditeur scientifique</resp>
+            <name type="person">Cynthia Jane Brown</name>
+          </respStmt>
+        </titleStmt>
+          <extent>36 page(s)
+        </extent>
+        <publicationStmt>
+          <publisher>CERES</publisher>
+          <pubPlace>Montréal</pubPlace>
+          <date>1989</date>
+          <idno type="isbn">0-919089-05-4</idno>
+          <idno type="sigle_DEAF">AndrtVigneResB*</idno>
+          <idno type="cote_FRANTEXT">0704</idno>
+          <idno type="cote_biblio">ENC : 8M1151</idno>
+        </publicationStmt><seriesStmt><title>Inedita &amp; rara</title><idno type="collection">5</idno></seriesStmt>
+      </biblFull>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p>Projet :<name type="project">BFM - Base de français médiéval</name>
+        Resp. : <name type="person">Céline Guillot-Barbance</name>
+        Équipe : Base de français médiéval
+        Laboratoire : UMR 5317 IHRIM
+        Institution : ENS de Lyon
+        <address>
+          <addrLine>15, parvis René Descartes</addrLine>
+          <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+          <addrLine>Tél : 04 37 37 63 10</addrLine>
+          <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+          <addrLine>http://bfm.ens-lyon.fr</addrLine>
+        </address>
+      </p>
+      <p>Ce texte provient de la Base textuelle du <name type="project">Dictionnaire du Moyen Français</name>
+        et fait partie de la base <name type="project">FRANTEXT</name>.
+        <address>
+          <addrLine>ATILF UMR 7118 CNRS - Université de Lorraine</addrLine>
+          <addrLine>44, avenue de la Libération</addrLine>
+          <addrLine>BP 30687</addrLine>
+          <addrLine>54063 NANCY CEDEX</addrLine>
+          <addrLine>Tél : 03 54 50 53 00</addrLine>
+          <addrLine>Fax : 03 83 97 24 56</addrLine>
+          <addrLine>Courriel : contact@atilf.fr</addrLine>
+          <addrLine>http://www.atilf.fr</addrLine>
+          <addrLine>http://www.frantext.fr</addrLine>
+          <addrLine>http://www.atilf.fr/dmf</addrLine>
+        </address>
+      </p>
+    </projectDesc>
+    <editorialDecl>
+      <p>Voir le <ref target="http://bfm.ens-lyon.fr/IMG/pdf/Manuel_Encodage_TEI.pdf">Manuel d'encodage XML-TEI de la BFM</ref>
+        et les <ref target="http://bfm.ens-lyon.fr/IMG/pdf/Consignes_BFM.pdf">Consignes aux relecteurs de la BFM</ref>.</p>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="ab" occurs="161"/>
+        <tagUsage gi="body" occurs="1"/>
+        <tagUsage gi="div" occurs="1"/>
+        <tagUsage gi="foreign" occurs="2"/>
+        <tagUsage gi="head" occurs="1"/>
+        <tagUsage gi="hi" occurs="143"/>
+        <tagUsage gi="lb" occurs="1469"/>
+        <tagUsage gi="milestone" occurs="15"/>
+        <tagUsage gi="note" occurs="1"/>
+        <tagUsage gi="p" occurs="12"/>
+        <tagUsage gi="pb" occurs="36"/>
+        <tagUsage gi="q" occurs="4"/>
+        <tagUsage gi="quote" occurs="1"/>
+        <tagUsage gi="sp" occurs="17"/>
+        <tagUsage gi="speaker" occurs="17"/>
+        <tagUsage gi="supplied" occurs="1"/>
+        <tagUsage gi="text" occurs="1"/>
+        <tagUsage gi="w" occurs="129"/>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <creation>
+      <name type="author">André de la Vigne</name>
+      <title>Ressource de la chrestienté</title>
+      <date type="compo" when="1494-01-01" notBefore="1494-01-01" notAfter="1494-01-01" n="15">1494</date>
+      <date type="compo_periode">moyen</date>
+      <date type="compo_sous_siecle" n="15_3">fin</date>
+      <date type="ms" when="1494-01-01" notBefore="1494-01-01" notAfter="1494-12-31">1494</date>
+      <idno type="msIdentifier">Paris, BnF, fr. 1687</idno>
+      <region type="dialecte_auteur">non défini</region>
+    </creation>
+    <langUsage>
+      <language ident="fro" usage="100">Le texte est entièrement écrit en mixte en moyen français.</language>
+    </langUsage>
+    <textDesc>
+      <channel mode="w">print</channel>
+      <constitution type="single"/>
+      <derivation type="original"/>
+      <domain type="didactique"/>
+    <factuality type="inapplicable"/>
+      <interaction type="none"/>
+      <preparedness type="prepared"/>
+      <purpose type="narrative"/></textDesc>
+    <textClass>
+      <keywords scheme="http://authorities.bfm-corpus.org">
+        <term type="domaine">didactique</term>
+        <term type="genre">débat</term>
+        <term type="forme">mixte</term>
+        <term type="relation">original</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change who="#GSouvay" when="2005-03-30">rétroconversion automatique d'un texte du corpus FRANTEXT, base DMF, au format TEI P4</change>
+    <change who="#AL" when="2016-07-12">création du descripteur</change>
+    <change who="#AL" when="2016-07-25">adaptation du codage aux normes de la BFM</change>
+    <change who="#AL" when="2016-07-25">balisage du discours direct (balises sp et q)</change>
+    <change when="2016-07-12">Dernière modification du texte</change>
+    <change when="2022-11-04">Création de cet entête</change>
+  </revisionDesc>
+</teiHeader>
+<text>
+  <pb n="107"/>
+<body>
+<div part="N">
+<head>LA RESSOURCE DE LA CHRESTlENTE</head>
+<ab type="gv" n="I">
+<lb n="1"/> Au point du jour quant Aurora se lieve,
+<lb n="2"/> Et peu a peu son exquis lustre eslieve
+<lb n="3"/> Pour esclarcir l'essence diuturne,
+<lb n="4"/> Ung reposant voluntiers se soublieve,
+<lb n="5"/> Et sa celule totalement relieve.
+<lb n="6"/> Se besoing est lors du sommeil noturne
+<lb n="7"/> Se clariffie par le vueil de Saturne,
+<lb n="8"/> Dont est l'engin aleigre et esveillé
+<lb n="9"/> Se par avant n'a resvé ou veillé.</ab>
+ 
+ <ab type="gv" n="II">
+   <lb n="10"/> Quoy que le soir de hault jour on se couche
+   <lb n="11"/>Sur mol duvet, sur estrain ou sur couche
+   <lb n="12"/>Pour reposer la sensualité,
+   <lb n="13"/>Ne s'a l'envers soit la comme une souche,
+   <lb n="14"/>Le dormir est a l'engin trop farouche
+   <lb n="15"/>S'aulcunement est du soir alité,
+   <lb n="16"/>Et oultre plus se la charnalité
+   <lb n="17"/>De son sommeil ne se peult atourner,
+   <lb n="18"/>On ne se fait que virer ou tourner.
+</ab>
+  <ab type="gv" n="III">
+    <lb n="19"/>Doncques par force de vouloir fantastique,
+    <lb n="20"/>En atrossant ma cervelle acatique,
+    <lb n="21"/>Je trespassis le mydi chabrouillé,
+    <lb n="22"/>Prevaricant dë Isis le cantique.
+    <lb n="23"/>Mon esprit fut comme demy estique
+    <lb n="24"/>De tant l'avoir tourmenté et brouillé,
+    <lb n="25"/>Mais quant j'eux bien maint propos barbouillé,
+    <lb n="26"/>Vexacion par ung traveil acreux
+    <lb n="27"/>M'asomeilla et me fit songer creux.
+</ab>
+ <p>
+Acumulé de liqueur vapeureuse, perplex de vigillante vacacion, perturbé de sens,
+desnué d'avoir et de voir, offusqué par le dormitoire qui lors coaguloit le sens
+naturel de ma personne avec boursouffleuse oysiveté, qui permectoit a mon organe
+taisibleté, a mon serveau ruralité, a mon sens bestialité, a mes membres
+labilité, a mon engin debilité, repox a sensualité et au corps seul felicité et utilité
+naturelle, n'ayant aulcune vigueur de force, de pouoir ne de savoir fors seulement a mon povre
+cueur qui hanneloit et souffloit selon commune usance par les <milestone unit="folio" n="3r"/> conduys
+ad ce determinez, touteffois, moy en cest affaire labourant par le vueil de Dame
+Nature pour la grant sterilité de ma povre capacité qui avoit toute la nuyt
+jusques a celle heure veillé, resvé, fantastiqué et pencé en quelque chose trop longue
+reciter, je commancay a entrer en la plus estrange vision du monde. Car advis m'estoit
+<pb n="108"/>
+que je fusse en ung desert ou que ronces, espines, chardons, genestz et
+jonc marins  faisoient leur croissance selon la disposicion de Nature. Et a l'un costé
+d'iceluy desert avoit une grant et enorme forest en laquelle arbres, herbes,
+boys, buyssons, bocaiges et petis remaiges estoyent ainsi que chose creue sans art et
+sans mesure. D'aultre costé avoit une grant, enorme, terrible et accreuse riviere
+qui couroit plus tost c'un carreau d'arbaleste, de quoy l'eau estoit toute
+terreuse et sablonneuse et descendoit si impetueusement des rochiers et haultes montaignes
+qui alentour dudit desert estoient que jamais le Ras Sainct Mahé, le Pertuys
+d'Anthioche ne le Trou de Maumuson, lequel de dix lieux a l'environ de luy se
+faict <milestone unit="folio" n="3v"/> oÿr quant oraige et tormente se veulent en mer eslever, ne firent
+tel bruyt ne telz tempeste qu'elle faisoit. Pour quoy, moy veant en telle fortune et
+miserableté, commançay a raviser les lieux et regarder ça et la se d'aventure je
+pourroye rencontrer, voir ou apercevoir chemin ou sente par quoy je me peusse
+de ce perilleux lieu absentir. Lors en allant ung peu plus avant, je voys voir
+de loing une dame qui me sembloit de tresnoble et refulgent arroy, laquelle toute
+seulete comme une povre berbis esgaree se doulousoit et lamentoit a par elle en
+cedit desert. Touteffois, non saichant qui elle estoit, ne me volus approcher.
+Mais en me mussant de buysson en buysson au plus pres que je peux, advisay son estat,
+son geste, sa faconde et sa maniere de faire, laquelle estoit tant amyable
+et tant begnigne, quoy que douleur eust vexee et assorbee sa notable contenance,
+qu'il est impossible que langue peult suffire de narrer la disme de sa meliflue
+suavité. Car la doulce et sumptueuse dame estoit vestue par aulcuns lieux d'un riche
+drap d'or, <milestone unit="folio" n="4r"/> decoré, enrichy et aorné de pierres precieuses a suffisance
+innumerable, comme dame venue et yssue de haulte et royalle propagacion. Mais
+pource qu'en estrange contree et entre les mains de ses ennemys mortelz estoit
+tumbee, elle estoit tant foulee et tant souillee que c'estoit une pitié de la
+regarder pource que de ses riches ornemens et habillemens sumptueux l'un en avoit pris
+une piece, et l'aultre une aultre, en façon telle que la moitié de sa robe,
+ainçois plus que mains, luy avoient osté, decipé, gasté, desrompu et emporté tant et
+tellement que la peau ou du mains la chemise lui paroissoit quasi de toutes pars.
+Quant au regard de son viaire, oncques chose ne fut plus delictable, plus doulx
+ne plus amyable. Et a dire voir elle sembloit mieulx d'essence divine que de corpulence
+naturelle. Mais par les grans tribulacions, plains et pleurs qui
+distilloient par les yeulx de son vis, estoit pale, deffaicte, morte, morne, froide, roide,
+fade et mate, triste, desconfortee, persuadee, foulee, troublee et de tous poincts
+vilipendee. Parquoy <milestone unit="folio" n="4v"/> la noble et royalle dame, en se promenant parmy ces ronces,
+buyssons, espines et chardons, commança douloureusement, piteusement, en
+pleurant chauldement, a se complaindre et dire ainsi:
+</p>
+  <sp>
+     <speaker>Dame Crestienté</speaker>
+<ab type="gv" n="IV">
+  <lb n="28"/>Moy qui suis fille du prothoplasmateur,
+  <lb n="29"/>Constituee du divin redempteur,
+  <lb n="30"/>Seulle heritiere des basses regions,
+  <lb n="31"/>Pediseque de luy, seul protecteur,
+  <lb n="32"/>Adjuvateur, pere, conservateur,
+  <lb n="33"/>Reformateur de toutes legions,
+  <lb n="34"/>Qui pour moy fit maintes religions,
+  <lb n="35"/>Maint monastere et mainte eglise munde
+  <lb n="36"/>Pour me tenir par l'universel monde,
+</ab><ab type="gv" n="V">
+  <lb n="37"/>Par son sainct germe et hault thethragramate
+  <lb n="38"/>Fit mon pouoir de sa doulce enigmate
+  <lb n="39"/>En ce bas centre haultement decorer,
+<pb n="109"/>
+  <lb n="40"/>Et puis aprés par son divin crismate
+  <lb n="41"/>Loy judeïque retrogradee et macte;
+<lb n="42"/>Si fut alors pour son nom adorer,
+<lb n="43"/>Et pour ses fruys doulcement odorer.
+<lb n="44"/>Crestïenté je fus lors appellee
+<lb n="45"/>Et de tous maulx doulcement repellee.
+</ab><ab type="gv" n="VI">
+<lb n="46"/>Depuis ce temps je suis tumbee es mains
+<lb n="47"/>D'un tas de Turcs et de chiens inhumains
+<lb n="48"/>Qui m'ont des maulx cent milliers fait souffrir;
+<lb n="49"/>Et qui pis vault, les Chrestïens humains
+<lb n="50"/>D'aultre costé n'en ont faict gueres mains,
+<lb n="51"/>Quoy qu'a eulx tous me suis volue offrir,
+<lb n="52"/>En me cuydant de leur yde couvrir;
+<lb n="53"/>Mais pis me font, se je l'osoye dire,
+<lb n="54"/>Dont j'ay le cueur courroucé et plain d'ire.
+</ab><ab type="gv" n="VII">
+<lb n="55"/>Plains, pleurs piteux et tribulacions
+<lb n="56"/>Au temps qui queurt sont mes oblacions;
+<lb n="57"/>Car comme dame du tout persüadee,
+<lb n="58"/>Atroxemens et grans vexacions,
+<lb n="59"/>Douleurs ameres, enormes passions
+<lb n="60"/>M'ont trop souvant fait payer la souldee,
+<lb n="61"/>Pour quoy chagrin m'a tellement souldee
+<lb n="62"/>Avec soucy et douleur assouvye
+<lb n="63"/>Que je ne sçay commant je suys en vye.
+</ab><ab type="gv" n="VIII">
+<lb n="64"/>En mes esglises, posvre meschante, chante,
+<lb n="65"/>Dont on me dit pour excellente lente
+<lb n="66"/>Et sans mercy dame esperdue dehue,
+<lb n="67"/>Quoy que jadis fusse regente gente;
+<lb n="68"/>Il fault que dueil par voye et sente sente
+<lb n="69"/>Si fort que suis la despourveue vehue,
+<lb n="70"/>La plus qu'il soit dessoubz la nue nue;
+<lb n="71"/>Et qui pis vault, tant ma laidure dure
+<lb n="72"/>Que j'ay souvent chault et froidure dure.
+</ab><ab type="gv" n="IX">
+<lb n="73"/>Hellas! mes filz, mes enffans chrestïens,
+<lb n="74"/>Moy qui le lieu du hault Jhesucrist tiens,
+<lb n="75"/>Me lairrez vous ainsi vilipender?
+<lb n="76"/>Voyez, oyez commant je me maintiens
+<lb n="77"/>Et contemplez de quel sens la main tiens
+<lb n="78"/>Pour la douleur de mon cueur impender.
+<lb n="79"/>Voz armigeres veillez tous appender
+<lb n="80"/>Pour ces mastins du tout soubterraner,
+<lb n="81"/>Qui sur nous veullent dessus terre regner.
+</ab><ab type="gv" n="X">
+<lb n="82"/>Pource que suis pertroublee et doulente,
+<lb n="83"/>Mectre me veullent a leur loy ydolante
+<lb n="84"/>Pour abolir mon zodïacal trosne,
+<lb n="85"/>Dont je me treuve de cueur et de dox lente,
+<lb n="86"/>Ne plus pouoir en moy ne redolante,
+<lb n="87"/>Puis qu'au sabat font de moy leur matrone,
+<lb n="88"/>Car pis qu'encelle me tiennent en leur prosne,
+<pb n="110"/>
+<lb n="89"/>Et de Jhesus les joyaulx encoffrez:
+<lb n="90"/>Je m'esbahis commant vous le souffrez.
+</ab><ab type="gv" n="XI">
+<lb n="91"/>Se plusieurs furent mes grans biens desservans
+<lb n="92"/>Au temps jadis et mes droitz observans,
+<lb n="93"/>Que font ilz ores qu'ilz n'oyent mes clameurs?
+<lb n="94"/>Mais nenny non, au besoing nulz servans
+<lb n="95"/>Ne trouveray qui soyent asservans
+<lb n="96"/>Pour subvertir mes capaxes humeurs,
+<lb n="97"/>Car aujourduy les vertüeuses meurs
+<lb n="98"/>D'onneur haultain et de loyal service,
+<lb n="99"/>Tout est tourné brouillin brouillas en vice.
+</ab><ab type="gv" n="XII">
+<lb n="100"/>Ceurs, fendez vous en oyant mes complaintes,
+<lb n="101"/>Qui tant de fois se sont envers vous plaintes
+<lb n="102"/>Par zizanique perte irrecuperable,
+<lb n="103"/>Dont mes douleurs sont tellement empraintes
+<lb n="104"/>En mon couraige et si treffort espraintes
+<lb n="105"/>Qu'a mon tourment n'en est nul comparable;
+<lb n="106"/>Dont mon cerebre de doulceur superable,
+<lb n="107"/>De sens, d'avoir, de louenge et de pris
+<lb n="108"/>Est de tous poincts desnué et despris.
+</ab><ab type="gv" n="XIII">
+<lb n="109"/>Mise en exil pour vivre en hermitaige,
+<lb n="110"/>Je suis banye de mon propre heritage,
+<lb n="111"/>Voyant deffaictz mes singuliers suppostz;
+<lb n="112"/>Se fus privee, maintenant suis sauvaige,
+<lb n="113"/>Et pour maistresse suis ancelle en servage
+<lb n="114"/>Par estrangiers pis qu'es mains d'Atropos;
+<lb n="115"/>De tout mon faict rien ne vient a propos.
+<lb n="116"/>Commant doncques me puis je consoler
+<lb n="117"/>Fors que de pleurs mon povre corps souler?
+</ab><ab type="gv" n="XIV">
+<lb n="118"/>Pource qu'on n'oit ma povre voix umbreuse,
+<lb n="119"/>Je suis la dame sur toutes tenebreuse,
+<lb n="120"/>Hors mon paÿs myse en captivité,
+<lb n="121"/>Faisant mes plains de voix tremebundeuse,
+<lb n="122"/>Plus que nulle aultre de tristesse habundeuse
+<lb n="123"/>Qui vestibule sur mon cap tivité
+<lb n="124"/>Hors de maniere et de cointiveté;
+<lb n="125"/>Pour ma lïesse qu'est pieça preteree,
+<lb n="126"/>Serve je suis de tous maulx alteree.
+</ab><ab type="gv" n="XV">
+<lb n="127"/>Se de dix mille dessoubz la lune l'un,
+<lb n="128"/>Ou d'un grant tas de peuple commun ung
+<lb n="129"/>Je peusse voir a mon secours courir,
+<lb n="130"/>Ung poinct seroit, mais chascune et chascun
+<lb n="131"/>Par le moyen de quelcune ou quelcun
+<lb n="132"/>Ayme trop mieulx me voir mourant mourir
+<lb n="133"/>Et en tresville pourriture pourrir,
+<lb n="134"/>Plourer, gemyr en destresse tressee
+<lb n="135"/>Ainsi que dame d'inconstance tracee.
+<pb n="111"/>
+  </ab><ab type="gv" n="XVI">
+<lb n="136"/>Les Turcs maulditz, desloyaulx chiens mastins,
+<lb n="137"/>Courent ma terre de soirs et de matins
+<lb n="138"/>Et ma maignee ont trop martilloguee,
+<lb n="139"/>Ne depuys lors que leurs divers hus tins,
+<lb n="140"/>Propinez m'ont machinables hutins,
+<lb n="141"/>De quoy ma loy est mal epiloguee.
+<lb n="142"/>Se la puissance de Dieu prealeguee
+<lb n="143"/>N'y pourvoit brief par phas ou par nephas,
+<lb n="144"/>Mieulx me vauldroit estre es mains Caÿphas.
+</ab><ab type="gv" n="XVII">
+<lb n="145"/>Pour reconfort et pour tout preambule,
+<lb n="146"/>De ça, de la, chascun me patibule,
+<lb n="147"/>Me reputant pour servante meschine.
+<lb n="148"/>Se de mes biens on prent a Romme bule,
+<lb n="149"/>Neantmoins ce, mon bruyt se latibule,
+<lb n="150"/>Dont mille maulx ung chascun me machine.
+<lb n="151"/>Et se par ce peu ny pou je rechine,
+<lb n="152"/>On me dira pour confort acquester:
+<lb n="153"/><q>« Paix, vielle, paix! Vous fault il caqueter? »</q>
+</ab><ab type="gv" n="XVIII">
+<lb n="154"/>Ainsi seulete me convient guesmenter,
+<lb n="155"/>Plourer, gemyr, souspirer, lamenter,
+<lb n="156"/>Faisant de dueil ung trespiteux obstacle;
+<lb n="157"/>Et pour mon corps mieulx experimenter,
+<lb n="158"/>Il le me fault de tous poincts tourmenter,
+<lb n="159"/>Retrogradant mon amenyt spectacle.
+<lb n="160"/>Las! le mistere du paraclit sinacle,
+<lb n="161"/>Ou fut le sang Jhesucrist respendu,
+<lb n="162"/>Pour les traitres chrestïens est perdu.
+</ab><ab type="gv" n="XIX">
+<lb n="163"/>Pour la pitié et grant compassion
+<lb n="164"/>Qu'avoit de nous, honteuse Passion
+<lb n="165"/>Volut souffrir et son corps a mort mectre.
+<lb n="166"/>Et en la croix pour reparacion
+<lb n="167"/>L'ame du corps fit separacion,
+<lb n="168"/>Volant des limbes noz Saincts Peres desmectre,
+<lb n="169"/>Qui jusqu'alors avoit volu permectre
+<lb n="170"/>Estre interdis du deïffic premeve,
+<lb n="171"/>Que transgresserent jadis Adam et Eve.
+</ab><ab type="gv" n="XX">
+<lb n="172"/>Mate, confuse, antique, decrepee,
+<lb n="173"/>Vilipendee, revolvee, increpee,
+<lb n="174"/>Reverberant ma propagacion,
+<lb n="175"/>Pour quoy present de pencee atrempee,
+<lb n="176"/>Puis que me voy de douleur actrapee,
+<lb n="177"/>Hucher me fault ma congregacion,
+<lb n="178"/>Qui en brief temps par aggregacion
+<lb n="179"/>Me serviront, si leur plaist, en ce faict
+<lb n="180"/>Tant que mon vueil et mon plaisir soit faict.
+</ab><ab type="gv" n="XXI">
+<lb n="181"/>Las! Qui pourroit mes griefs maulx conspirer?
+<lb n="182"/>Qui nuyt et jour me verroit souspirer
+<lb n="183"/>Enormement de douleur scrupuleuse?
+<lb n="184"/>Mon hannelit ne peult plus respirer
+<pb n="112"/>
+<lb n="185"/>Pour mon meshain qui ne peult empirer,
+<lb n="186"/>Dont je me tiens de tous poinctz maleureuse,
+<lb n="187"/>Dame esploree, femme tresdouloureuse,
+<lb n="188"/>A bien gemyr present habilletee,
+<lb n="189"/>Et de soulas du tout debiletee.
+</ab><ab type="gv" n="XXII">
+<lb n="190"/>Chascun me court et chascun me discipe,
+<lb n="191"/>L'un me traveille et l'aultre m'anticipe,
+<lb n="192"/>L'un me degaste et l'aultre me destruyt,
+<lb n="193"/>L'un prent mes biens, I'autre mes joyaulx gripe,
+<lb n="194"/>Comme on feroit d'une meschant guenyppe,
+<lb n="195"/>Par telz façon que n'ay fueille ne fruyt;
+<lb n="196"/>L'un prent la rente, I'aultre prend l'usuffruyt,
+<lb n="197"/>Ainsi demeure la terre pour le sens,
+<lb n="198"/>Dont presque suis forcenee hors du sens.
+</ab><ab type="gv" n="XXIII">
+<lb n="199"/>Deseritee par suberbe rigueur,
+<lb n="200"/>Me voy present sans force ne vigueur,
+<lb n="201"/>Entre les mains d'une cepte paÿenne,
+<lb n="202"/>Qui desnuer veullent mon povre cueur
+<lb n="203"/>Du tout en tout de divine liqueur
+<lb n="204"/>Pour adorer l'idolle turquïenne.
+<lb n="205"/>Leur synagogue et loy barbarïenne
+<lb n="206"/>Par forces d'armes veullent remectre sus
+<lb n="207"/>En despitant le hault Dieu de lassus.
+</ab><ab type="gv" n="XXIV">
+<lb n="208"/>Tant ay de maulx que ne les puis nombrer,
+<lb n="209"/>Tant ay de dueil qu'il me fault obumbrer,
+<lb n="210"/>Tant ay d'orreur que soubz le faitz je cline,
+<lb n="211"/>Tant d'amertume il me fault denombrer,
+<lb n="212"/>Tant de souspirs me viennent encombrer,
+<lb n="213"/>Tant d'orreur ay que partout je decline,
+<lb n="214"/>Tant de traveil j'apostille et recline,
+<lb n="215"/>Tant de misere me convient supporter,
+<lb n="216"/>Que je ne sçay comment les puis porter.
+</ab><ab type="gv" n="XXV">
+<lb n="217"/>Hellas! mon Dieu, mon benoist redempteur,
+<lb n="218"/>Qui de moy fus le primogeniteur,
+<lb n="219"/>Je te requier par ta doulce clemence,
+<lb n="220"/>Comme celuy qui est vray createur,
+<lb n="221"/>Veille garder comme bon protecteur
+<lb n="222"/>Ou centre val chrestifere semence;
+<lb n="223"/>Car s'on achieve ainsi comme on commance,
+<lb n="224"/>Chascun dira soit a droit ou a tort:
+<lb n="225"/><q>« Alons jouer, car Chrestïenté dort. »</q>
+</ab><ab type="gv" n="XXVI">
+<lb n="226"/>Quel mal sera ce, quel honneur, quelle honte
+<lb n="227"/>A empereurs, a roys, a ducs, a conte,
+<lb n="228"/>Si subjuguez sont par les mescreans,
+<lb n="229"/>Et si par armes moy et eulx on surmonte
+<lb n="230"/>Tant que leur loy dessus la nostre monte!
+<lb n="231"/>Dignes serons d'estre ditz recreans,
+<lb n="232"/>Car desja sont si avant conquerans
+<pb n="113"/>
+<lb n="233"/>Que de mes terres tant mauvaises que bonnes
+<lb n="234"/>Ont transgressé les lymites et bonnes.
+</ab><ab type="gv" n="XXVII">
+<lb n="235"/>Les vraiz censiers, les notables marchans
+<lb n="236"/>Me sont trop fort sur la queue marchans,
+<lb n="237"/>Dont je deviens brehaignë et sterille
+<lb n="238"/>Pour leurs soubdars qui par ville et par champs
+<lb n="239"/>A leur soubhaict vont tousjours esparchans,
+<lb n="240"/>Sans contredit ne deffence virille;
+<lb n="241"/>Et qui pis est, en tute püerille
+<lb n="242"/>Me tiennent ja, dont suis en grant esmoy,
+<lb n="243"/>Ne reconfort n'y a plus nul en moy.
+</ab><ab type="gv" n="XXVIII">
+<lb n="244"/>Ainsi mon temps se degaste et se pert,
+<lb n="245"/>Comme a chascun evidamment apert,
+<lb n="246"/>Par nonchaillance et ville lascheté;
+<lb n="247"/>A mon besoing n'ay nul servant apert
+<lb n="248"/>Qui soit en riens de hardïesse expert
+<lb n="249"/>Pour m'aÿder de fine francheté,
+<lb n="250"/>Dont maints paillars mon tresor crocheté
+<lb n="251"/>Ont trop souvant comme larrons publiques,
+<lb n="252"/>Par qui je suis en ces voyes obliques.
+</ab><ab type="gv" n="XXIX">
+<lb n="253"/>Pleurant, criant, en tristesse confite
+<lb n="254"/>Je me maintiens, quoy que peu me proffite,
+<lb n="255"/>Patibulee d'ambicïeuse atroxe,
+<lb n="256"/>Chagrin, soucy par incoact m'afflite,
+<lb n="257"/>Dont ma celule de toute joye est fricte,
+<lb n="258"/>Qui du mehain m'a donné mainte trosse;
+<lb n="259"/>Pour droicte voye je tiens oblique torce,
+<lb n="260"/>Desconfortee et vexee au surplus
+<lb n="261"/>Tant et si fort que mon cueur n'en peult plus.</ab>
+</sp>
+  <sp>
+                    <speaker>L'Acteur</speaker>
+<milestone unit="folio" n="10r"/>
+<p>Alors la noble et excellente dame, de tant et si longuement avoir ses complaintes
+et lamentacions desgorgees, dictes et proferees, comme troublee et traveillee
+par l'oppression du dueil qui lors la tourmentoit merveilleusement, se
+commança a enrouer, palir, changer et muer tellement que, par la diverse douleur
+que sa debille sensualité soubstenoit, a terre comme pasmee et demy morte se
+laissist choir, pource que les membres d'icelle estoient si foibles et si lassez que
+bonnement ne la pouoient plus soubstenir. Mais touteffois par volunté divine se
+print a soublever et a revigourer peu a peu, jaçoit ce que a grant payne pouoit elle
+mectre ung pied devant l'aultre, en souspirant et pleurant amerement, par une voye
+oblique chemina tant et si largement qu'elle, par grant vexacion, payne et
+traveil, passa le mont de Synys et d'Aiguebellecte pour querir la residence du clymat
+francigene duquel, <milestone unit="folio" n="10r"/> comme il me sembloit, esperoit aulcun alegement. Si
+volus tousjours pas a pas et loing a loing de veue d'oeil suyvre la tresdolente
+esploree pour savoir qu'elle deviendroit et a quelle fin elle contendoit. Lors
+quant dudict clymat commança a sentir la tresequise suavité, fut aulcunement appaisantee
+de l'une partie de ses importunes tribulacions. Et en marchant et allant
+songneusement par ladicte region, passa par devant ung tresnoble pourpris, exquis
+jardin et excellent vergier, lequel estoit fait, composé et constitué plus
+par euvre divine que naturelle, aorné et decoré de cent mille fleurs, fleurons et fleuretes
+<pb n="114"/>
+sentans plus souef que basme, semé de beaulx rosiers, romarins, cyprés, passes
+roses, violiers, boutons, giroflees, hermignees, aspic, marjolayne, baselic,
+lavende, mirguet, muguet, et aultres fleurs d'odeurs suppellatives. Les allees et chemin
+d'iceluy, pavees de fin mabre de Pise, blanc et noir en maniere d'un eschaquier.
+Et le dessus d'aulcunes estoit couvert et umbragié de feuillages joyeux, de <milestone unit="folio" n="11r"/>
+ramaiges sumptueux et de frutaiges amoureux. Autour et du long les hayes, lesquelles
+estoyent faictes de fleurs d'esbaulpins, eglantiers, loriers, grenadiers,
+guygnyers, serisiers, poriers, prunyers et pommyers fleuris, frutiffiez et maturez
+selon l'excercisse de Dame Nature, y avoit vignes artifficiellement treuillees,
+agencees, acoustrees et actintees, Dieu saiche commant; la fleur, le fruyt du raisin vert
+et meheur par cy, par la, d'un costé et d'aultre, par esgalle porcion en acroissance
+estoit. Et a brief parler, quant je consideré l'esquisité et tryumphalité
+d'iceluy pourpris, ensemble la suavité, doulceur, saveur et flaireur odorifferante qui en
+redondoit, je l'estimoye plus a ung paradis terrestre que a ung pays terriffique.
+Item dedens ledit pourpris avoit une dame de hault arroy nommee Dame Noblesse,
+descendue, yssue, propaganee et prymogenitee de l'ymperialle, royalle et pryamyde
+lignee troyenne. Laquelle estoit en beaulté, pulcritude, doulce, amyable,
+courtoise, humble, begnigne <milestone unit="folio" n="11v"/> et gracieuse, tryumphamment acoustree
+d'une robe de drap d'or a la grant gorre, fourree d'ermynes, brodee d'orphaverie
+et enrichie de pierreries et perleries. En son col en escherpe portoit gros
+coliers, grosses chesnes d'or de pris et de poix. Son chief acoustré et decoré d'une
+coiffe faicte de fin or a la moderne façon. Oultre plus elle avoit une belle couronne
+garnye de pierres precieuses et au plus hault fleuron d'icelle, droit sur le moytant
+du front, y avoit une escharboucle estimee a ung tresor innumerable autour de laquelle
+estoient rubis, saphirs, dyamans, jacintes, balais, esmerauldes,
+turquoyses et grosses perles orientalles. Quant au regard de sa corpulence et excellente
+stature, elle estoit formee d'une taille la plus parfaicte du monde, haulte par
+raison, droicte comme un jonc, tendre comme rosee et necte comme une perle; corsaige
+compillé a souhaict de cueur, viaire plus poly c'un ymage, yeulx estincellans
+comme la rade du souleil, le cueur gay, dehaict, alegre et deliberé, la celule
+comble de science, playnne de prudence et riche de <milestone unit="folio" n="12r"/> savoir, le corpustule
+de pouoir, l'exigence d'avoir, premunye de tous honneurs, condicionnee de bonnes
+meurs, assouvye de toutes valeurs, soustenance des bienheureux et ressource des
+maleureux. Car depuys l'advenement Jhesucrist estoit appellee pour sa nobillité,
+proësse, sagesse, et habillité deesse des armes, victorieuse de tous vacarmes et
+appuy de gentilz gendarmes. Et a reallement parler elle estoit tant garnye de
+vertus, de haultes et de dignes loenges que Dame Nature y avoit mys le dernyer degré de
+sa science. Et pource qu'elle estoit tant bienheuree et beätiffiee, la deïté
+supernelle l'avoit constituee, eslue et ordonnee pour preserver, garder et deffendre
+l'excellente et deïffique fleur de lix qui au moytant dudit jardin estoit plantee.
+Laquelle par la grace de Dieu de jour en jour fleurissoit, multiplioit, croissoit,
+augmentoit et appendoit ses branches deça et dela, en long, en large et en travers plus que
+n'avoit faict depuis le temps du noble roy Clovys, qui par permission divine fut
+le premier cultiveur du courtillage <milestone unit="folio" n="12r"/>  d'icelle fleur du lix, qui estoit
+belle, blanche, fresche, tendre et necte, sans fraction ne brisure aulcune, ne sans estre
+tachee, maculee, ne souillee en rien du monde. Et de coste icelle avoit ung moult
+beau serf volant qui de l'erbaige croissant au pied dudit lix se nourrissoit et
+substantoit. Et aprés sa substance prinse a l'ombre d'icelluy se dormoit et reposoit
+seurement sans craincte ni paour de personne du monde. D'aultre costé y avoit
+ung tas de nobles, sumptueuses et requises bestellectes appellees hermynes qui
+depuis trois ans ou environ, par le vouloir et consentement de la predicte Dame Noblesse
+et par la fervente et singuliere amour qu'elles avoyent a la noble fleur
+du lix, estoient entrees audit jardin et telle acointance, alÿance et privaulté
+avoyent a ladicte fleur du lix que toucher, baiser et acoler la pouoient touteffois et
+quanteffois que bon leur sembloit, ce que jamais n'avoient faict. En ce voyant et
+regardant la povre doulente passant par devant ledict pourpris, comme dit est, Dame
+<pb n="115"/>
+Noblesse la commance a raviser et congnoistre, car aultreffois et des long temps
+l'avoit entretenue, <milestone unit="folio" n="13r"/> secourue et delivree des mains de ses ennemys
+mortelz. Si vint au devant d'icelle jusques a la porte dudict pourpris et dist:</p>
+  </sp>
+  <sp>
+    <speaker>Dame Noblesse</speaker>
+    <ab type="gv" n="XXX">
+<lb n="262"/>Ma chiere amye et ma seur dilective,
+<lb n="263"/>Ma regrectee, ma desiderative,
+<lb n="264"/>Mon alÿee et ma bonne compaigne,
+<lb n="265"/>Ou allez vous si tresimplorative,
+<lb n="266"/>Ainsi deffaicte, ainsi desolative,
+<lb n="267"/>Toute seulecte par mons et par champaigne?
+<lb n="268"/>Il semble advis que douloureux chant preigne
+<lb n="269"/>Vostre doulx cueur et que si fort l'espreigne
+<lb n="270"/>Que son soulas et sa lïesse amorte.
+<lb n="271"/>Si vous voulez que vostre dueil compreigne,
+<lb n="272"/>Il convient bien qu'aultre note on appreigne.
+<lb n="273"/>Dont vient cecy? Vous estes demy morte!
+</ab><ab type="gv" n="XXXI">
+<lb n="274"/>Hellas! Qu'av'ous? Quel vent present vous maine?
+<lb n="275"/>Que querez vous? Qu'esse qui vous promayne?
+<lb n="276"/>Ou gist le poinct de vostre adversité?
+<lb n="277"/>Vous me semblez en tristesse inhumayne
+<lb n="278"/>Toute plongee, ma bonne seur germayne.
+<lb n="279"/>Qui vous procure telle perversité?
+<lb n="280"/>De regarder vostre diversité,
+<lb n="281"/>Ne puis pencer si non qu'aux vers cité
+<lb n="282"/>Est vostre corps, tant estes pertroublee;
+<lb n="283"/>Et vous dis tant que ma capacité
+<lb n="284"/>Ne peult pencer vostre neccessité
+<lb n="285"/>Ne qui vous peult avoir ainsi troublee.
+</ab><ab type="gv" n="XXXII">
+<lb n="286"/>Donc vient cecy? Je vous ay veu plus fresche
+<lb n="287"/>Que poisson vif qui en vivier se pesche,
+<lb n="288"/>Et maintenant vous estes si deffaicte.
+<lb n="289"/>Qui est celuy qui vostre joye empesche,
+<lb n="290"/>Ne qui ce mal si subit vous despesche
+<lb n="291"/>Et qui si morne et fade vous a faicte?
+<lb n="292"/>Je vous ay veu, dame, la plus parfaicte
+<lb n="293"/>De tout le monde, rebondie et reffaicte,
+<lb n="294"/>Et maintenant vous estes si estrange.
+<lb n="295"/>Le lieu ne sçay ou vous estes forfaicte,
+<lb n="296"/>Mais advis m'est, de vous voir si infecte,
+<lb n="297"/>Qu'on vous ait mys par despit en la fenge.
+</ab><ab type="gv" n="XXXIII">
+<lb n="298"/>Qui sont les gens qui vous ont gouvernee,
+<lb n="299"/>Entretenue, nourrie et yvernee
+<lb n="300"/>Par tel façon que vostre geste porte?
+<lb n="301"/>Qui vous auroit par quinze jours bernee
+<lb n="302"/>Ou en ung van comme le ble vannee,
+<lb n="303"/>Si esse trop quant au corps qui la porte?
+<lb n="304"/>Si vous supplie qu'ores on se deporte,
+<lb n="305"/>Et ou jardin entrez par ceste porte
+<lb n="306"/>Pour la douleur du tout entroublier,
+<pb n="116"/>
+<lb n="307"/>Quoy qu'elle soit trop excessive ou forte;
+<lb n="308"/>Puys que voyez que je vous reconforte,
+<lb n="309"/>Tretous voz maulx vous convient oublier.
+</ab><ab type="gv" n="XXXIV">
+<lb n="310"/>Prenez couraige, ne vous chaille de rien,
+<lb n="311"/>Car se Dieu plaist, vostre bruyt terrïen
+<lb n="312"/>Viendra en place, qui qu'en parle ou en grongne,
+<lb n="313"/>Et voz ennemys domptera on si bien
+<lb n="314"/>Par forces d'armes en brief temps que, combien
+<lb n="315"/>Qu'ilz soyent plains de superbeuse grongne,
+<lb n="316"/>Je me mectray tellement en besongne
+<lb n="317"/>Qu'a leur dommaige et a leur grant vergongne,
+<lb n="318"/>Au plaisir Dieu, seront matz et confus;
+<lb n="319"/>Ne quoy qu'on die, qu'on murmure ou qu'on hongne,
+<lb n="320"/>Ains que jamais leur terroüer eslongne,
+<lb n="321"/>En despit d'eulx je vous remectray sus.
+</ab><ab type="gv" n="XXXV">
+<lb n="322"/>Sav'ous pas bien qu'au temps passé je fus
+<lb n="323"/>Vous secourir tant de fers que de fus
+<lb n="324"/>Des mains iniques de voz mortelz ennemys,
+<lb n="325"/>A voz requestes sans en faire reffus,
+<lb n="326"/>Dont en la fin ilz furent ruez jus
+<lb n="327"/>Et de leurs terres entierement desmys,
+<lb n="328"/>Prins et livrez pour estre a tourmens mys,
+<lb n="329"/>Et puis aprés a griefve mort submys
+<lb n="330"/>Quant de moy furent vaincus et recreans?
+<lb n="331"/>Puis que jadis on s'en est entremys,
+<lb n="332"/>Au temps present tant moy que mes amys
+<lb n="333"/>Yrons en brief sur ces chiens mescreans.
+</ab><ab type="gv" n="XXXVI">
+<lb n="334"/>Je suis bien seure qu'ilz ont sur vous les dens
+<lb n="335"/>Et nuyt et jour sur voz paÿs tendens
+<lb n="336"/>Pour vous destruyre et bouter a ruÿne,
+<lb n="337"/>Sur voz lymites et bonnes residens,
+<lb n="338"/>Comme larrons, desrobeurs, actendens
+<lb n="339"/>De vous nuyre plus que fouldre ou bruÿne,
+<lb n="340"/>Ou vous musser comme en terre fuÿne
+<lb n="341"/>Ou comme en mer goucte d'eau qui pluvyne
+<lb n="342"/>Pour adnuler vostre exquise memoire.
+<lb n="343"/>Mais j'ay espoir que la vertus divine
+<lb n="344"/>Y pourvoyra de puissance si digne
+<lb n="345"/>Que l'on mectra au dessus vostre gloire.
+</ab><ab type="gv" n="XXXVII">
+<lb n="346"/>Par mon moyen trouveray assez gens
+<lb n="347"/>Preux et hardis, en armes deligens,
+<lb n="348"/>Promps en bataille, leurrez des faitz de guerre,
+<lb n="349"/>Aÿde et port de roys et de regens,
+<lb n="350"/>Qui sur les champs se tiendront d'arroys gens
+<lb n="351"/>Pour leurs paÿs et contrees conquerre,
+<lb n="352"/>Et pour honneur et grant louenge acquerre.
+<lb n="353"/>Par ambassades si nous viendront requerre
+<lb n="354"/>D'aller monstrer le pouoir de leur corps,
+<lb n="355"/>Mains nobles homs d'Espaigne et d'Angleterre,
+<pb n="117"/>
+<lb n="356"/>Et d'aultres lieux tant par mer que par terre,
+<lb n="357"/>Affin que Dieu leur soit misericors.
+</ab><ab type="gv" n="XXXVIII">
+<lb n="358"/>Et pour ce donc n'ayez plus nul esmoy,
+<lb n="359"/>Mais vous fïez totalement en moy,
+<lb n="360"/>Car quoy qu'il soit ne qu'il doibve couster,
+<lb n="361"/>Se je devoye y aller tout par moy
+<lb n="362"/>Avant que soit la fin du moys de may,
+<lb n="363"/>Vous me verrez sur ces chiens acoucter;
+<lb n="364"/>Et pour ce faire je me veulx acoustrer
+<lb n="365"/>Pour sur les champs les aller rencontrer
+<lb n="366"/>De grant couraige et fureur cordïalle.
+<lb n="367"/>Mais pour le mieulx, il fault aller conter
+<lb n="368"/>De poinct en poinct et au long raconter
+<lb n="369"/>Nostre entreprise a Magesté Royalle.
+      </ab>
+  </sp>
+  <sp>
+    <speaker>L'Acteur</speaker>
+    <p>Lors parmy le jardin et gracieux vergier mena Dame Noblesse la tresesplouree
+Chrestienté jusques au bout d'iceluy, ou avoit ung tresnoble consistoire tout
+tendu de belles fleurs de lix, acoustré au grant et au petit possible, dedens
+lequel <milestone unit="folio" n="16r"/> estoit assise hault en une chaire couverte de drap d'or Magesté Royalle,
+ayant sur son chief une tresriche couronne de pierres precieuses, vestue et
+habillee d'abit royal en tel cas requis et tenant ung ceptre en sa main dextre, autour
+de laquelle estoyent plusieurs grans seigneurs acoustrez Dieu sache commant, desquelz
+les noms me furent incongneus. Ensemble aussi d'aultres gens de tous estatz,
+qui audict lieu s'estoyent assemblez pour aulcunes choses trop prolixes a
+reciter. Lesquelles nobles dames fit soir Magesté Royalle au fin plus pres de sa
+chaire d'un costé et d'aultre. Et en regardant la trespovre, virgine Chrestienté,
+elle fut moult esbahye de la voir ainsi tribulee et troublee. Si luy comanda que
+incontinant et sans delay elle luy comptast la cause pour quoy elle estoit ainsi
+oppressee, courroucee et marrie, luy promectant que si possible estoit d'y
+pourveoir en rien du monde, qu'elle le feroit vouluntiers. Lors la bonne dame tristement
+se commance a lever, <milestone unit="folio" n="16v"/> comme celle qui de pouoir, puissance, force ne vigueur
+n'avoit en son gent corpustule fors seulement l'esprit organisé de voix cassee
+et enrouee, de quoy elle se commança de rechief a doulourouser et dire ainsi:
+</p>
+    </sp>
+  <sp>
+    <speaker>Dame Chrestienté</speaker>
+    <ab type="gv" n="XXXIX">
+<lb n="370"/>Si pour me plaindre, pour gemyr, pour plourer
+<lb n="371"/>Je me pouoye de lÿesse implorer
+<lb n="372"/>Ou de tourment aulcunement estraindre,
+<lb n="373"/>De pleurs piteux me vouldroye deflorer
+<lb n="374"/>Et griefz souspirs incessamment flairer
+<lb n="375"/>Pour dueil et ire plus rudement actaindre;
+<lb n="376"/>Et puys mon cueur feroye en soucy taindre
+<lb n="377"/>Pour satiffaire a mes maulx admirables,
+<lb n="378"/>Qui sont si durs et si tresmiserables
+<lb n="379"/>Que nul qui vive a payne ou de legier
+<lb n="380"/>Ne peult sans Dieu bonnement alegier.
+</ab><ab type="gv" n="XL">
+<lb n="381"/>Je suis nommee par tout Chrestïenté,
+<lb n="382"/>Qui en ce monde ay chrestïen enté
+<lb n="383"/>Pour servir Dieu et salut acquerir;
+<pb n="118"/>
+<lb n="384"/>Mais au contraire ont si dur ton chanté
+<lb n="385"/>Que les paÿens m'ont quasi enchanté
+<lb n="386"/>Pour mes tresors et mes biens conquerir,
+<lb n="387"/>Dont il me fault presentement querir,
+<lb n="388"/>D'ardant desir et de chaulde colique,
+<lb n="389"/>Le bon secours d'un chascun catholique
+<lb n="390"/>Qui m'ostera de grant captivité
+<lb n="391"/>Par le moyen de la divinité.
+</ab><ab type="gv" n="XLI">
+<lb n="392"/>Reduyte suis par verberacions
+<lb n="393"/>Armygerantes es villes stacions,
+<lb n="394"/>Coagulee de maulditz sathalites,
+<lb n="395"/>Patibulee de grans vexacions,
+<lb n="396"/>Atroxemens et tribulacions,
+<lb n="397"/>Es tenebres d'ombreuses panthalites,
+<lb n="398"/>Actaincte au vif de dars marcïalites,
+<lb n="399"/>Dont il en sort ung divers pestifere
+<lb n="400"/>S'a glayve agu le genre scutiffere
+<lb n="401"/>N'y remedie par force et par puissance
+<lb n="402"/>En brief sejour, car Je ne puis sans ce.
+</ab><ab type="gv" n="XLII">
+<lb n="403"/>Tous mes paÿs sont perdus et gastez;
+<lb n="404"/>Hastez d'aller voy mes gens et matez
+<lb n="405"/>A tes exploitz qu'ilz n'ont brin de soulas;
+<lb n="406"/>Las, agravez, povrement substentez,
+<lb n="407"/>Tentez d'ennuy et d'espoir contentez,
+<lb n="408"/>En telz horreurs crient souvent <q>« Helas! »</q>
+<lb n="409"/>Es las de pleurs, Tribert, Gaultier, Colas,
+<lb n="410"/>Las avec moy, voy povres et meschans
+<lb n="411"/>Mes chants chanter et tristement tachans
+<lb n="412"/>Chançons hideuses, se je leur veulx promettre,
+<lb n="413"/>Mettre a l'esvent tant en prose qu'en mettre.<note>Cette strophe est placée entre chevrons dans l’édition de référence.</note>
+</ab><ab type="gv" n="XLIII">
+<lb n="414"/>Mes bons subgectz, oyez tous mes clameurs,
+<lb n="415"/>Mes plains, mes pleurs, mes diverses rumeurs
+<lb n="416"/>Que me propinent ces judeïques piffres.
+<lb n="417"/>Soyez par terre et par mer escumeurs,
+<lb n="418"/>Ainsi qu'enffans remplys de bonnes meurs,
+<lb n="419"/>Pour me vengier de ces maulditz galiffres,
+<lb n="420"/>En leur monstrant de nostre loy les chiffres.
+<lb n="421"/>Et desur eulx tant vous esvertuez
+<lb n="422"/>Qu'en brief ilz soyent tretous es vers tuez
+<lb n="423"/>Et mys a mort par guerre si mortelle
+<lb n="424"/>Et si terrible qu'on n'ait poinct veu mort telle.
+</ab><ab type="gv" n="XLIV">
+<lb n="425"/>Dessoubz ung jouc, dampnable tributaire,
+<lb n="426"/>Mise en exil par courroux voluntaire,
+<lb n="427"/>Et par vertus de champestre imbessilles
+<lb n="428"/>Calamytee en isle solitaire,
+<lb n="429"/>Puys que ne voy de repos salutaire
+<lb n="430"/>Appareiller les nobles ustencilles,
+<lb n="431"/>Qui sont a tous bons Chrestïens facilles,
+<lb n="432"/>Si couraiges se veullent employer,
+<lb n="433"/>Il n'est si fort qu'ilz ne facent ployer,
+<pb n="119"/>
+<lb n="434"/>Car quant pour moy bon Catholique s'arme,
+<lb n="435"/>Si le corps meurt, en paradis va s'arme.
+</ab><ab type="gv" n="XLV">
+<lb n="436"/>Oppressions, tourmens, griefz et torsfaitz,
+<lb n="437"/>Au temps present si sont a grans tors faitz
+<lb n="438"/>A mes subgectz et enffans domestiques.
+<lb n="439"/>Mes alïez et mes suppotz parfaitz
+<lb n="440"/>Presentement sont par ditz et par faitz
+<lb n="441"/>Hors de mes terres, provinces auctentiques,
+<lb n="442"/>Dont les planectes, poles et auctartiques
+<lb n="443"/>Sont assourdies des piteux pleurs et plains
+<lb n="444"/>Qu'ilz ont gecté tant par monts que par plains,
+<lb n="445"/>Quant vehus se sont en ce poinct forbanys
+<lb n="446"/>Et de leurs lieux foibles et fors banys.
+</ab><ab type="gv" n="XLVI">
+<lb n="447"/>Pour leur terre croistre et multiplier,
+<lb n="448"/>Ainsi que chiens se veullent emplÿer
+<lb n="449"/>A revolver la foy celestielle
+<lb n="450"/>Sans regarder ne sans riens supplier.
+<lb n="451"/>Chrestïenté veullent despeuplier
+<lb n="452"/>Et abolir sa noble kyrielle
+<lb n="453"/>Par une guerre si tresmaterielle,
+<lb n="454"/>Si meurtrissiere et si tresmyserable
+<lb n="455"/>Qu'onques n'en fut de pire ne semblable.
+<lb n="456"/>Et puis affin qu'on ne voyse aprés eulx,
+<lb n="457"/>llz pillent tout et si boutent les feux.
+</ab><ab type="gv" n="XLVII">
+<lb n="458"/>Il n'est nully qui ad ce contredie,
+<lb n="459"/>Dont il me fault ainsi estre interdie
+<lb n="460"/>De mes maisons et de mes heritaiges;
+<lb n="461"/>Pour quoy seulete ainsi je me tedie,
+<lb n="462"/>Et a la fin, quoy qu'on parle ou qu'on dye,
+<lb n="463"/>Me conviendra finer es hermytaiges,
+<lb n="464"/>Et si prandray pour mes parfaitz hostages,
+<lb n="465"/>Pource que dueil a mourir si me payne,
+<lb n="466"/>Ire, rigueur, chagrin, soucy et payne.
+<lb n="467"/>Ne se jadis je me tinssë heureuse,
+<lb n="468"/>Au temps present je me dis maleureuse.
+</ab><ab type="gv" n="XLVIII">
+<lb n="469"/>O, Jheremye, tresexcellant prophecte,
+<lb n="470"/>En vostre temps d'une amour tresparfaicte
+<lb n="471"/>N'ynoriez ma persecucion,
+<lb n="472"/>Quant disïez, par prophecie faicte,
+<lb n="473"/>C'une cité seroit ung jour deffaicte,
+<lb n="474"/>Qui estoit lors en consolacion,
+<lb n="475"/>Et se verroit en desolacion
+<lb n="476"/>Si ruÿneuse, si tresinhabitee
+<lb n="477"/>Que de nully ne seroit habitee
+<lb n="478"/>Fors de Juïfz, par leur offence vile,
+<lb n="479"/>Par quoy je dis que je suis celle ville.
+</ab><ab type="gv" n="XLIX">
+<lb n="480"/>Puissant patron, Macabeus Judas,
+<lb n="481"/>Qui par prouesse ta loy moult bien gardas,
+<lb n="482"/>Ou es tu ores ne qu'es tu devenu?
+<pb n="120"/>
+<lb n="483"/>Ou sont present tes valeureux souldars?
+<lb n="484"/>Qui, moyenant leurs lances et leurs dars,
+<lb n="485"/>A ton emprise es tousjours survenu?
+<lb n="486"/>Si en ton temps cecy me fust venu,
+<lb n="487"/>A grant armee de hardis bataillans,
+<lb n="488"/>Garnys d'armures et glayves bien taillans,
+<lb n="489"/>Fusses venu plus viste que le cours
+<lb n="490"/>Incontinant pour me donner secours.
+</ab><ab type="gv" n="L">
+<lb n="491"/>Vous, Gedeon, qui portastes le signe
+<lb n="492"/>Chrestifferant, humblement vous assigne
+<lb n="493"/>De comparoistre par devant ces mastins,
+<lb n="494"/>En leur monstrant vostre chief tresinsigne,
+<lb n="495"/>Pour les destruyre de fin fons en racyne
+<lb n="496"/>Comme jadis fistes soirs et matins,
+<lb n="497"/>Dont puis aprés en mon trosne me tins
+<lb n="498"/>Hault eslevee de bruyt et de louenge,
+<lb n="499"/>Incessamment plus heureuse c'une ange.
+<lb n="500"/>Mais se present je ne suis en ce poinct,
+<lb n="501"/>Peuple mondain, pourvoyez ad ce point.
+</ab><ab type="gv" n="LI">
+<lb n="502"/>O, Roy David, tresexcellant psalmiste,
+<lb n="503"/>En guerre preu et en scïence miste,
+<lb n="504"/>Pasteur subtil, noblesse decoree,
+<lb n="505"/>Qui jadis fustes si vaillant arcquemiste
+<lb n="506"/>Que Golïas d'une fronde funyste
+<lb n="507"/>Fust rué jus sur terre labouree,
+<lb n="508"/>Dont sa fierté si fut corroboree,
+<lb n="509"/>Et delaissit son superbe coraige,
+<lb n="510"/>Pour quoy aprés sur vostre viel aäige,
+<lb n="511"/>Moyennant Dieu, les pars occidentalles
+<lb n="512"/>Vous conquestistes et les orïentalles.
+</ab><ab type="gv" n="LII">
+<lb n="513"/>Las! vostre temps present ne regne plus,
+<lb n="514"/>Car maintenant tousjours de plus en plus
+<lb n="515"/>Mon bien se pert et mon temps si se passe,
+<lb n="516"/>Ma joye meurt, mon plaisir est reclus,
+<lb n="517"/>Plaisance n'ay, mon espoir est forclus,
+<lb n="518"/>Et mon secours joue de passe passe,
+<lb n="519"/>Dont suis si triste que quasi je trespasse,
+<lb n="520"/>Veu que me voy en si grant indigence,
+<lb n="521"/>Par deffaulte d'un peu de deligence,
+<lb n="522"/>Qu'on ne m'envoye bons gens d'armes a tas
+<lb n="523"/>Ainsi que fit Saül et Jonathas.
+</ab><ab type="gv" n="LIII">
+<lb n="524"/>Long temps aprés, puis la mort Jhesucrist,
+<lb n="525"/>Comme es croniques treuvë on par escript,
+<lb n="526"/>Moy qui estoye de tous poincts desolee,
+<lb n="527"/>Pource que lors la loy de l'Antecrist
+<lb n="528"/>Estoit en regne, ainsi qu'il est descript
+<lb n="529"/>Dedens la Bible, de nully consolee
+<lb n="530"/>Ne pouoye estre de creature nee,
+<lb n="531"/>Fors seulement que pour le roy Clovys,
+<lb n="532"/>Qui pour guerdon eult les troys fleurs de lis
+<pb n="121"/>
+<lb n="533"/>En ung tresbel estandart tryumphant,
+<lb n="534"/>Que l'on appelle de France l'orrifflant.
+</ab><ab type="gv" n="LIV">
+<lb n="535"/>Qu'esse qui vint aprés me secourir
+<lb n="536"/>Ne qui volut par terre et mer courir
+<lb n="537"/>Pour repugner et venger mes injures?
+<lb n="538"/>Qui fut celuy qui me vint requerir
+<lb n="539"/>Pour la grace Jhesucrist acquerir
+<lb n="540"/>Et pour casser mes enormes laidures,
+<lb n="541"/>Les dyvers tours, les oppressions dures
+<lb n="542"/>Que me faisoyent les dampnables Juïfz,
+<lb n="543"/>Dont puys aprés, se d'eulx tous je jouys
+<lb n="544"/>En Espaigne, en France et Alemaigne,
+<lb n="545"/>Ne fut ce pas par le roy Charlemaigne?
+</ab><ab type="gv" n="LV">
+<lb n="546"/>Par sa puissance et force imperialle,
+<lb n="547"/>En exaussant sa magesté royalle,
+<lb n="548"/>Et pour me mectre en bruyt perpetüel,
+<lb n="549"/>Guerre mist sus sur la faulce quenaille
+<lb n="550"/>Tant qu'il n'y eult coquin ne coquinaille
+<lb n="551"/>Qui n'atrempist son cueur impetuel,
+<lb n="552"/>Leur propinant mal si continuel
+<lb n="553"/>De cueur devost et couraige vaillant,
+<lb n="554"/>Acompaigné d'Olivyer et Rolant,
+<lb n="555"/>Qu'en la parfin ainsi que pure et munde,
+<lb n="556"/>Je tryumphay par l'universel monde.
+</ab><ab type="gv" n="LVI">
+<lb n="557"/>Aprés la mort de ses notables preux,
+<lb n="558"/>Par nonchaillance de plusieurs empereurs,
+<lb n="559"/>De mon pays me fyrent reculer,
+<lb n="560"/>Car retenir le vouloient pour eulx,
+<lb n="561"/>Et quant dedens se virent tout par eulx,
+<lb n="562"/>Ilz entreprindrent de tresbien maculer,
+<lb n="563"/>Me bien fourbir et me bien baculer,
+<lb n="564"/>Me desmolir et destruyre du tout.
+<lb n="565"/>Mais Dieu qui scet, qui oyt et qui voyt tout,
+<lb n="566"/>Me renvoya pour secours Sainct Loÿs,
+<lb n="567"/>Dont depuys lors nuyt et jour l'en louys.
+</ab><ab type="gv" n="LVII">
+<lb n="568"/>Le noble roy, roy des roys terriffique,
+<lb n="569"/>Portant le signe de la fleur deliffique
+<lb n="570"/>En l'air volant, banyere desployee,
+<lb n="571"/>Sans y commectre nulle myreliffique,
+<lb n="572"/>Marchit avant par vertus deïffique,
+<lb n="573"/>La ou ne fut la lance adés ployee;
+<lb n="574"/>Car son emprise fut si bien employee,
+<lb n="575"/>Et tellement parfournyt son entente
+<lb n="576"/>Que dix des siens si en valurent trente
+<lb n="577"/>Par tel façon brief que la Terre Saincte
+<lb n="578"/>Si fut par luy envyronnee et saincte.
+</ab><ab type="gv" n="LVIII">
+<lb n="579"/>Sy aulcun fol, ce non intelligent,
+<lb n="580"/>De proferer et dire est deligent
+<lb n="581"/>Que du Soubdan fut tenu prisonnyer
+<pb n="122"/>
+<lb n="582"/>Et rençonné troys cens besans d'argent,
+<lb n="583"/>Dont son royaulme fut si tresindigent
+<lb n="584"/>Qu'on n'y trouvoit ne maille ne denyer.
+<lb n="585"/>Les chevaliers que l'on volut donner
+<lb n="586"/>Pour ostaigë et pour seurté de myeulx
+<lb n="587"/>Se crever fit a chascun les deux yeulx;
+<lb n="588"/>Dieu, qui aprés la grant pitié eult veue,
+<lb n="589"/>Au retourner leur recouvrit la veue.
+</ab><ab type="gv" n="LIX">
+<lb n="590"/>Encor y a ung poinct que je veulx dire,
+<lb n="591"/>Affin qu'en ce n'y ait rien que redire,
+<lb n="592"/>Et qu'on n'en parle ainsi qu'a l'aventure,
+<lb n="593"/>Car on ne peult garder gens de mesdire,
+<lb n="594"/>Pour flagorneurs et malveillans desdire:
+<lb n="595"/>Qui pourroyent dire qu'il y fit sepulture
+<lb n="596"/>Devant son temps et mys en pourriture,
+<lb n="597"/>Ce je concede sans prolis parlement.
+<lb n="598"/>Mais qu'en dit on par tout le firmament
+<lb n="599"/>A la louenge et l'onneur du royaulme?
+<lb n="600"/>C'est qu'es haulx cieulx comme saincte est son ame.
+</ab><ab type="gv" n="LX">
+<lb n="601"/>Et pour ce donc que voz progeniteurs,
+<lb n="602"/>Voz ancestres et voz progrediteurs
+<lb n="603"/>Pour leurs haulx faitz sont mys eux es croniques,
+<lb n="604"/>Et aleguez de notables docteurs,
+<lb n="605"/>Comme de tous les excellans dompteurs,
+<lb n="606"/>Par leurs vaillances et prouesse auctentiques,
+<lb n="607"/>Dont j'ay chanté devocïeux cantiques
+<lb n="608"/>Jusques icy en Saincte Mere Eglise,
+<lb n="609"/>Vous devez donc la maniere et la guyse
+<lb n="610"/>De voz parens maintenir par proesse,
+<lb n="611"/>Tant que vous estes en la fleur de jeunesse.
+</ab><ab type="gv" n="LXI">
+<lb n="612"/>D'une Sebille de haulte extracion
+<lb n="613"/>Jadis a Romme prenosticacion
+<lb n="614"/>Cinq cens ans a fut es Rommains donnee,
+<lb n="615"/>Disant c'un jour viendroit sans fiction
+<lb n="616"/>Ung jeune Charles qui coronacion
+<lb n="617"/>Prandroit en France sur la treziesme annee,
+<lb n="618"/>Par qui seroye si treshault couronnee,
+<lb n="619"/>De haulte gloire et louenge immortelle,
+<lb n="620"/>Qu'on n'en list poinct es croniques de telle;
+<lb n="621"/>Et pour garder que personne n'en hongne,
+<lb n="622"/>En son psaultier David le nous tesmoigne.
+</ab><ab type="gv" n="LXII">
+<lb n="623"/>Tesmoigne la et si le veriffie
+<lb n="624"/>Comme ce fust par droicte prophecie
+<lb n="625"/>Faicte et descripte depuis quinze cens ans,
+<lb n="626"/>Dedens ung pseaulme de pencee jolye
+<lb n="627"/>Sy a posé ceste doulce omelye:
+<lb n="628"/><quote><foreign xml:lang="la">IN STILLICIDIIS EIVS LETABITVR GERMINANS
+<lb n="629"/>BENEDICES CORONE.</foreign></quote> Aux oyans
+<lb n="630"/>Et aux lisans qui trouveront encombre
+<lb n="631"/>De l'exposer, toutes lectres de nombre
+<pb n="123"/>
+<lb n="632"/>Qui sont dedens mectent en ordonnance,
+<lb n="633"/>S'y trouveront de Charles la nayssance.
+</ab><ab type="gv" n="LXIII">
+<lb n="634"/>Quel don de grace vous a Jhesus donné,
+<lb n="635"/>Veu que voz armes a Luy mesme ordonné
+<lb n="636"/>Et composé la noble fleur du lis,
+<lb n="637"/>Qui de porter Il vous a condempné
+<lb n="638"/>Dessus ung ost paÿen desordonné,
+<lb n="639"/>Pour me venger de leurs mauvaix delis;
+<lb n="640"/>Puys comme ung sainct qui est en paradis,
+<lb n="641"/>En cestuy monde par ung divin synacle,
+<lb n="642"/>Devant chascun faictes vous grant myracle
+<lb n="643"/>Et guerissez maladyes cruelles
+<lb n="644"/>De jour en jour c'on dit les escrouelles.
+</ab><ab type="gv" n="LXIV">
+<lb n="645"/>Qu'i a il plus si non qu'estes le roy,
+<lb n="646"/>Le plus noble de terriffique arroy,
+<lb n="647"/>Le plus puissant qui portast onc couronne,
+<lb n="648"/>Tant qu'il n'est nul qui vous mecte en desroy
+<lb n="649"/>Ne qu'esbransler puisse vostre charroy,
+<lb n="650"/>Car hault honneur sur vostre chief floronne,
+<lb n="651"/>Bruyt terrïen vostre corps envyronne
+<lb n="652"/>Incessamment par raison et par art.
+<lb n="653"/>Et pour savoir de vostre santé l'art,
+<lb n="654"/>Manne des cieulx dedens ung monopolle
+<lb n="655"/>Vous transmect Dieu qui est la Saincte Ampolle.
+</ab><ab type="gv" n="LXV">
+<lb n="656"/>Tant d'aultres biens, d'onneurs et de louenges,
+<lb n="657"/>Qui suffiroient a decorer les anges,
+<lb n="658"/>Dieu vous a faict, de quoy present foys pause,
+<lb n="659"/>Chief de pays tant privez comme estranges
+<lb n="660"/>Vous estes dit et a peu de coustanges,
+<lb n="661"/>Ou vostre peuple en seurté se repose;
+<lb n="662"/>Et a bien faire ung chascun se dispose,
+<lb n="663"/>Sans que nully les tourmente ou les blesse,
+<lb n="664"/>Acompaigné de ma dame Noblesse,
+<lb n="665"/>Pour quoy vous dis et pour tel vous maintien
+<lb n="666"/>En grant jeunesse le roy trescrestïen.
+</ab><ab type="gv" n="LXVI">
+<lb n="667"/>Puis que Dieu veult que vous soyez itel,
+<lb n="668"/>Lairrez vous prandre dessus le grant autel
+<lb n="669"/>Son divin corps et son precïeux sang?
+<lb n="670"/>Laisserez vous brusler temple et hostel,
+<lb n="671"/>A ruÿner de glayve et de cotel,
+<lb n="672"/>Et me meurtrir dessus bloc ou sur banc?
+<lb n="673"/>Ne mectrez vous pour me deffendre ung blanc
+<lb n="674"/>Contre ses faulx et maulditz infideles,
+<lb n="675"/>Qui a pavois, a targons et rodelles
+<lb n="676"/>Me courent sus? Pourtant ayez pité
+<lb n="677"/>Ou jamais non de la Crestïenté.
+</ab>
+    </sp>
+  <pb n="124"/>
+  <sp>
+    <speaker>L'Acteur</speaker>
+    <p>Aprés toutes ces choses par la trespitoyable Chrestienté dictes, proferees et
+aleguees, n'y eult homme quel qu'il fust grant ou petit, qui de maxime volunté et
+couraige fervent, plus par pitié que par consolacion, n'oyst et escoutist
+voluntiers les allegacions, remonstrances et desolacions que douloureusement elle faisoit
+en pleurant et souspirant amerement. A l'occasion de quoy la tresnoble Magesté
+Royalle, comme principal dudict auditoire, pour la compassion qu'elle en avoit,
+aussi pour les remonstrances et complainctes a elle faictes et actribuees, volut
+par mehur conseil et propos deliberé avoir l'advis et oppinion de Dame Noblesse et
+des principaulx auditeurs qui audict lieu estoient, affin que tost et en brief
+y fust pourveu de remede convenable. Si commança a parler et dire ainsi:
+</p>
+    </sp>
+  <sp>
+    <speaker>Magesté Royalle</speaker>
+    <ab type="gv" n="LXVII">
+<lb n="678"/><w><hi rend="gras">C</hi>ris</w> douloureux, maleureux pleurs et plains, 
+<lb n="679"/><w><hi rend="gras">H</hi>orreur</w> de crisme, sisme par monts, par plains,
+<lb n="680"/><w><hi rend="gras">AR</hi>dant</w> fumee, nuee mortiffere,                                
+<lb n="681"/><w><hi rend="gras">L</hi>ieux</w> ruÿnez, bruÿnez d'inhumains,
+<lb n="682"/><w><hi rend="gras">E</hi>ntreprinses</w> prinses sur les humains,
+<lb n="683"/><w><hi rend="gras">S</hi>ang</w> respandu, perdu par pestiffere
+<lb n="684"/><w><hi rend="gras">DE</hi>vostz</w> preudons, qui par dons mort confere,                   
+<lb n="685"/><w><hi rend="gras">VA</hi>illans</w> pÿons pour champÿons deffere,
+<lb n="686"/><w><hi rend="gras">L</hi>angueur</w>, rigueur, douleur, affliction,
+<lb n="687"/><w><hi rend="gras">O</hi>rdre</w> oppressee, pressee d'ymparfaire,
+<lb n="688"/><w><hi rend="gras">I</hi>eunes</w> marchans meschans du tout parfaire            
+<lb n="689"/><w><hi rend="gras">S</hi>ont</w> digne a voir d'avoir compassion.
+</ab><ab type="gv" n="LXVIII">
+<lb n="690"/><w><hi rend="gras">S</hi>eigneur</w> d'onneur qui en bruyt et haultesse
+<lb n="691"/><w><hi rend="gras">I</hi>nstituer</w> veult sa haulte noblesse,
+<lb n="692"/><w><hi rend="gras">LO</hi>nguement</w> estre de louenge auctentique,           
+<lb n="693"/><w><hi rend="gras">A</hi>voir</w> doibt l'ueil sur ses subgectz qu'on blesse,
+<lb n="694"/><w><hi rend="gras">V</hi>oir</w> en pitié estrangiers c'on abbesse,
+<lb n="695"/><w><hi rend="gras">DE</hi>sirant</w> estre leur secours princiffique,
+<lb n="696"/><w><hi rend="gras">S</hi>ervir</w> commune, maintenir bien publique,
+<lb n="697"/><hi rend="gras">LE</hi> droit garder de la foy catholique,
+<lb n="698"/><w><hi rend="gras">R</hi>abaisser</w> haynne, ire et discencion,
+<lb n="699"/><w><hi rend="gras">A</hi>ymer</w> son Dieu et sa loy magniffique
+<lb n="700"/><w><hi rend="gras">H</hi>umblement</w>, puys, puys de guerre terriffique,
+<lb n="701"/><w><hi rend="gras">C</hi>ommant</w> que soit, avoir compassion.
+</ab><ab type="gv" n="LXIX">
+<lb n="702"/><w><hi rend="gras">C</hi>ueurs</w> femenins,      <w><hi rend="gras">S</hi>urprins</w> d'impascïence,
+<lb n="703"/><w><hi rend="gras">H</hi>ideux</w> souspirs,      <w><hi rend="gras">I</hi>njur</w>ïeuse offense,
+<lb n="704"/><w><hi rend="gras">AR</hi>mes</w> hausteres,      <w><hi rend="gras">LO</hi>nguement</w> exploitees,
+<lb n="705"/><w><hi rend="gras">L</hi>oyaulx</w> pugnis,       <w><hi rend="gras">VA</hi>illans</w> gens en souffrance,
+<lb n="706"/><w><hi rend="gras">E</hi>nffans</w> destruys      <hi rend="gras">DE</hi> biens et de chevance,
+<lb n="707"/><w><hi rend="gras">S</hi>erves</w> filletes       <w><hi rend="gras">S</hi>implement</w> acoustrees,
+<lb n="708"/><w><hi rend="gras">DE</hi>sroy</w> commys         <w><hi rend="gras">E</hi>n</w> paÿs et contrees,
+<lb n="709"/><w><hi rend="gras">VA</hi>ssaulx</w> perdus,      <w><hi rend="gras">L</hi>oix</w> du tout penetrees,
+<lb n="710"/><w><hi rend="gras">L</hi>ait</w> et ort sort,     <w><hi rend="gras">R</hi>ude</w> destruction,
+<lb n="711"/><w><hi rend="gras">O</hi>rphenins</w> faitz       <hi rend="gras">A</hi> trop grans coups d'espees,
+<lb n="712"/><w><hi rend="gras">I</hi>ardinetz</w> netz,       <w><hi rend="gras">H</hi>orreurs</w> desmesurees,
+<lb n="713"/><w><hi rend="gras">S</hi>ont</w> rudesses ou      <w><hi rend="gras">C</hi>hiet</w> compassion.
+</ab>
+    </sp>
+  <pb n="125"/>
+  <sp>
+    <speaker>Prince</speaker>
+    <ab type="gv" n="LXX">
+<lb n="714"/><w><hi rend="gras">CH</hi>ant</w> douloureux        <w rend="aggl"><hi rend="gras">D</hi></w><w><hi rend="gras">E</hi>glise</w> consacree,
+<lb n="715"/><w><hi rend="gras">A</hi>igres</w> exploix,         <w><hi rend="gras">VA</hi>illance</w> mal ancree,
+<lb n="716"/><w><hi rend="gras">R</hi>is</w> esplourez,          <w><hi rend="gras">L</hi>ermes</w> d'oppression,
+<lb n="717"/><w><hi rend="gras">L</hi>ongues</w> tenebres,       <w><hi rend="gras">O</hi>rdres</w> persüadee,
+<lb n="718"/><w><hi rend="gras">E</hi>normes</w> faitz,          <w><hi rend="gras">I</hi>ustice</w> mal gardee,
+<lb n="719"/><w><hi rend="gras">S</hi>ont</w> rudesses           <w><hi rend="gras">S</hi>entant</w> compassion.
+   </ab><ab type="gv" n="LXXI">   
+<lb n="720"/>Moy qui voy donc et congnois telz ordures,
+<lb n="721"/>Telz cas villains, telz infractions dures
+<lb n="722"/>Excecuter sur ceste noble dame,
+<lb n="723"/>De quoy elle a et seuffre mains laidures,
+<lb n="724"/>Mains griefz tourmens, maintes rigueurs tresdures,
+<lb n="725"/>Luy doy ge pas yder de corps et d'ame,
+<lb n="726"/>Foy que je doy a Dieu et Nostre Dame,
+<lb n="727"/>De cueur vaillant et de puissance d'arme
+<lb n="728"/>En brief sejour? Qui me conseillera?
+<lb n="729"/>Pour acquerir bruyt, lox, honneur et fame
+<lb n="730"/>Et pour leur faire ung dangereux vacarme
+<lb n="731"/>Mes gens yront et ma personne yra.
+</ab><ab type="gv" n="LXXII">
+<lb n="732"/>Ung jeune cueur pour se faire valoir
+<lb n="733"/>Lache couraige doibt mectre a nonchaloir,
+<lb n="734"/>Affin qu'onneur en sa personne appere,
+<lb n="735"/>Et qu'en luy aict si notable vouloir
+<lb n="736"/>Qu'aprés sa mort a chascun puisse l'oir
+<lb n="737"/>Conter et dire les haulx faitz de son pere.
+<lb n="738"/>Nul ne vault rien si honneur ne compere,
+<lb n="739"/>Pour quoy affin qu'en moy ce bien appere,
+<lb n="740"/>Pour la louenge et le bien de vous tous,
+<lb n="741"/>Tant qu'en jeunesse maintenant je prospere,
+<lb n="742"/>Se d'y aller en personne j'espere,
+<lb n="743"/>Dame Noblesse, que m'en conseillez vous?
+</ab>
+    </sp><sp>
+    <speaker>L'Acteur</speaker>
+      <p>Lors Dame Noblesse, oyant l'exortacion de Magesté Royalle, congnoissant et
+voyant qu'au monde n'estoit poinct honneur plus loyaument acquis que d'aller
+venger les injures de la Crestienté; aussi elle voyant que Magesté Royalle en la
+fleur de sa jeunesse pouoit ad ce entendre et vacquer plus songneusement et vertueusement
+qu'en caducque viellesse; semblablement elle congnoissant que desja
+avoit faict, moyennant la grace divine, le bon conseil et ayde d'elle mesme,
+maintes excecussions armygeres, exploictz de guerre et grans conquestes sur ses ennemys
+chrestiens, qui a memoire perpetuelle sont ja redigees par escript; doncques
+puis que desdicts <milestone unit="folio" n="26r"/> ennemys chrestiens avoit heu victoire a son grant honneur
+et proffit, pensa et ymagina en soy mesmes que si une foys il entreprenoit
+le chemin et voye d'aller subjuguer et vaincre les ennemys de Dieu et les persecuteurs
+de sa loy et nostre foy, que par raison et a juste cause luy donroit
+faculté de victoire plustost qu'aultrement. Si commança a parler et dire ainsi:
+</p>
+      </sp>
+  <pb n="126"/>
+  <sp>
+        <speaker>Dame Noblesse</speaker>
+        <ab type="gv" n="LXXIII">
+<lb n="744"/>Cueur de noblesse, qui personne ne blesse
+<lb n="745"/>Mais soubstïent en reffulgent arroy,
+<lb n="746"/>Poinct ne s'abesse, mais se mect en haultesse
+<lb n="747"/>Par grant prouesse qui a jamais ne cesse,
+<lb n="748"/>Et sans desroy vit comme ung noble roy,
+<lb n="749"/>Sy dur courroy penetre son charroy,
+<lb n="750"/>Le divin roy par vertus magniffique,
+<lb n="751"/>Le paciffique de gloire deïffique.
+</ab><ab type="gv" n="LXXIV">
+<lb n="752"/>Pourtant vous dis tant que sommes en vie,
+<lb n="753"/>Et que Dieu veult nous maintenir sur terre,
+<lb n="754"/>Sur toute chose devons avoir envye
+<lb n="755"/>De franc couraige et pencee ravye
+<lb n="756"/>A force d'armes tous ses ennemys conquerre,
+<lb n="757"/>Moyennant luy, et le paÿs acquerre
+<lb n="758"/>Que present tiennent, qui est nostre heritaige,
+<lb n="759"/>Ou nous serons de moult lasche couraige.
+</ab><ab type="gv" n="LXXV">
+<lb n="760"/>Chascun scet bien que ces faulx Juïfz tiennent
+<lb n="761"/>Nostre paÿs et le possedent tout,
+<lb n="762"/>Lesquelz dedens comme chiens s'entretiennent,
+<lb n="763"/>Et qui pis est, marchent sur nous et viennent
+<lb n="764"/>Nous courir sus quasi de bout en bout,
+<lb n="765"/>Et qui en brief n'y boutera rebout,
+<lb n="766"/>Certayne suis ains que soit peu de temps,
+<lb n="767"/>On en verra beaucoup de mal contens.
+</ab><ab type="gv" n="LXXVI">
+<lb n="768"/>Qui sur ung ver de terre marcheroit,
+<lb n="769"/>Et fust il ore en la bourbe cachié,
+<lb n="770"/>Doubter ne fault qu'i se revencheroit
+<lb n="771"/>A son pouoir brief et si tacheroit
+<lb n="772"/>Mordre celuy qui l'auroit escachié.
+<lb n="773"/>Et nous qui sommes en ce poinct esmouchié
+<lb n="774"/>Qui avons sens et raison en la teste,
+<lb n="775"/>Vauldrons nous pis c'une meschante beste?
+</ab><ab type="gv" n="LXXVII">
+<lb n="776"/>Le saige dit qu'on doit pour son paÿs
+<lb n="777"/>Prandre les armes et ses subgectz deffendre,
+<lb n="778"/>Reconforter les povres esbahys,
+<lb n="779"/>Et au besoing secourir ses amys
+<lb n="780"/>Encontre ceulx qui les veullent offendre.
+<lb n="781"/>Nous devons donc tous et toutes entendre
+<lb n="782"/>A secourir de moult grant volenté
+<lb n="783"/>Nostre parente, Dame Chrestïenté.
+</ab><ab type="gv" n="LXXVIII">
+<lb n="784"/>Sy aultreffois par nous fut secourue,
+<lb n="785"/>Et aujourduy soit en neccessité,
+<lb n="786"/>Pour quoy vers vous soit maintenant venue,
+<lb n="787"/>Ser'elle pas encore soubstenue,
+<lb n="788"/>Comme devant en son adversité?
+<lb n="789"/>Quant a ma part, mon cueur est incité,
+<pb n="127"/>
+<lb n="790"/>Soit de tresors, de prouesse ou vaillance,
+<lb n="791"/>De la servir de toute ma puissance.
+</ab><ab type="gv" n="LXXIX">
+<lb n="792"/>Cueur juvenal qui a honneur veult tendre
+<lb n="793"/>Et qui desire d'acquerir bon renom,
+<lb n="794"/>Songneusement doibt a cecy entendre
+<lb n="795"/>Sur toutes choses et amplement contendre
+<lb n="796"/>Pour decorer ses armes et son nom.
+<lb n="797"/>Mains grans seigneurs et chevaliers de nom
+<lb n="798"/>De ce paÿs, d'Angleterre et d'Escosse,
+<lb n="799"/>Y troteront plus voluntiers qu'a nopce.
+</ab><ab type="gv" n="LXXX">
+<lb n="800"/>Vault il pas mieulx sur ces mastins et chiens,
+<lb n="801"/>Maulditz Juïfz, que la guerre on promaine,
+<lb n="802"/>Veu que ce sont noz ennemys ancïens,
+<lb n="803"/>Qu'a noz voisins, noz freres chrestiens
+<lb n="804"/>Le sang respandre, qui est chose inhumayne?
+<lb n="805"/>Il fault, il fault que la guerre on leur mayne,
+<lb n="806"/>En actendant le bien qui en viendra!
+<lb n="807"/>Et ce pendant Dieu nous aÿdera.
+</ab><ab type="gv" n="LXXXI">
+<lb n="808"/>Ce seroit trop inestimable honte
+<lb n="809"/>A vaillans gens qui ont nom de proesse
+<lb n="810"/>De ne tenir de ceste dame conte,
+<lb n="811"/>Et ne pourveoir ad ce qu'elle racompte,
+<lb n="812"/>Qui est ung cas de trop grande rudesse.
+<lb n="813"/>Ainsi qu'a elle le bas si nous en blesse,
+<lb n="814"/>Car s'on abbesse son hault bruyt terrïen
+<lb n="815"/>Je cuyde et croy que n'y gaignerons rien.
+</ab><ab type="gv" n="LXXXII">
+<lb n="816"/>Chascun scet bien que la loy nous oblige
+<lb n="817"/>A soubstenir les drois de Saincte Eglise,
+<lb n="818"/>Qu'est nostre souche et nostre droicte tige,
+<lb n="819"/>Nostre reffuge; pour ceste cause di ge
+<lb n="820"/>Qu'il y convient pourveoir par bonne guyse.
+<lb n="821"/>Et puis qu'elle a nostre aÿde requise,
+<lb n="822"/>Dont secourir la pouons nous moult bien,
+<lb n="823"/>Nous yrons tous, se sommes gens de bien.
+</ab><ab type="gv" n="LXXXIII">
+<lb n="824"/>Sy moy, Noblesse, ne suys aux champs premiere,
+<lb n="825"/>Qui s'i boutra? Ie povre laboureur?
+<lb n="826"/>Nenny, nenny, ce n'est pas sa maniere.
+<lb n="827"/>Je yray devant, puys il viendra derriere
+<lb n="828"/>Pour soubstenir ma querelle et fureur,
+<lb n="829"/>Acompaignee de quelque avant coureur,
+<lb n="830"/>Gentil rustrë et compaignon de guerre:
+<lb n="831"/>Ainsi pourrons tous noz ennemys conquerre.
+</ab><ab type="gv" n="LXXXIV">
+<lb n="832"/>Et pour ce donc je me veulx acquicter
+<lb n="833"/>Envers mon Dieu et benoist createur
+<lb n="834"/>Pour es haulx cieulx mon ame quïecter,
+<lb n="835"/>Traveil au corps en ce vueil acquester,
+<lb n="836"/>Me confiant au divin redempteur
+<lb n="837"/>Qui me sera aÿde et protecteur,
+<pb n="128"/>
+<lb n="838"/>Ains que la mort me tiengne en sa berelle,
+<lb n="839"/>Puis que je vois soubstenir sa querelle.
+</ab><ab type="gv" n="LXXXV">
+<lb n="840"/>Donc puis que c'est mon pere supernel
+<lb n="841"/>Et que je suis sa fillecte adoptive,
+<lb n="842"/>Mon heritaige temporel paternel,
+<lb n="843"/>En actendant le celeste eternel,
+<lb n="844"/>Veulx conquester par manyere subtive;
+<lb n="845"/>Ne sans estre farouche ne restive;
+<lb n="846"/>Tous mes subjectz seront sur champs marchans
+<lb n="847"/>En gens de guerre et non pas en marchans.
+</ab><ab type="gv" n="LXXXVI">
+<lb n="848"/>Jaçoit ce que par tiltre d'arrogance
+<lb n="849"/>Ne par orgueil qui soit reduyt en moy,
+<lb n="850"/>De l'entreprise en veulx faire l'avance
+<lb n="851"/>A coups d'espees ne a poincte de lance
+<lb n="852"/>Si non aux crys et aux pleurs de la foy,
+<lb n="853"/>En soubtenant les droitz de nostre loy,
+<lb n="854"/>Que les Juïfsa veullent du tout abatre.
+<lb n="855"/>Ha! Brief, je iray ung petit la m'esbatre.
+</ab><ab type="gv" n="LXXXVII">
+<lb n="856"/>Pourtant je prie et requiers humblement
+<lb n="857"/>Tout gentil cueur qui tiendra de noblesse,
+<lb n="858"/>S'il a vouloir, pouoir ne hardement,
+<lb n="859"/>Qu'a ceste foys il viengne hardyment
+<lb n="860"/>Soubz ma banyere qui personne ne blesse,
+<lb n="861"/>Ou je le tien lasche cueur en foiblesse,
+<lb n="862"/>Irreprouvable jusqu'a Constantinople,
+<lb n="863"/>Gayne, canart, indigne d'estre noble.
+</ab><ab type="gv" n="LXXXVIII">
+<lb n="864"/>Gentilz barons, dehaict saillez, saultez,
+<lb n="865"/>Humains espris, nobles chevaleureux,
+<lb n="866"/>Subtilz ouvriers, seigneurs d'auctoritez,
+<lb n="867"/>Mondains bragars gorriers advantureux,
+<lb n="868"/>Soubdains mignons, frisques suppostz heureux,
+<lb n="869"/>Prenez harnois dessus targes et lances,
+<lb n="870"/>Au moins ce coup aurez los glorïeux,
+<lb n="871"/>Venez, venez prendre dures vengences!
+</ab><ab type="gv" n="LXXXIX">
+<lb n="872"/>Entre voz dames gorgïases de cours,
+<lb n="873"/>Qui d'amouretes maintenez voz gorriers,
+<lb n="874"/>Telle folye soit present en decours,
+<lb n="875"/>Et les lassez a moy venyr les cours,
+<lb n="876"/>Que l'on ne dye qu'ilz soyent les derriers,
+<lb n="877"/>Ou aultrement pour vielz pëons terriers
+<lb n="878"/>Les tiendroit on et n'en feroit on compte,
+<lb n="879"/>Dont ce seroit a vous et eulx grant honte.
+</ab><ab type="gv" n="XC">
+<lb n="880"/>Ilz vous promectent quant avec vous devisent
+<lb n="881"/>Qu'ilz feront feu et puys qu'ilz feront rage,
+<lb n="882"/>Et sur ung banc quant de parler s'avisent,
+<lb n="883"/>En mille pieces leurs ennemys devisent,
+<lb n="884"/>Pour vous complaire leur povre cueur enrage.
+<lb n="885"/>Priez leur donc que s'ilz ont nul couraige
+<pb n="129"/>
+<lb n="886"/>Pour bien servir et contenter les dames,
+<lb n="887"/>Qu'ilz voysent faire sur les Juïfz faitz d'armes.
+</ab><ab type="gv" n="XCI">
+<lb n="888"/>N'aymez poinct tant le plaisir de voz yeulx
+<lb n="889"/>Que par vous soyent arrestés d'un cart d'eure,
+<lb n="890"/>Mais leur priez par motz tresgracïeux,
+<lb n="891"/>Pour acquerir la grant gloire des cieulx,
+<lb n="892"/>Qu'a ce grant bien ung chascun d'eulx labeure,
+<lb n="893"/>Et qu'ilz ne facent actente ne demeure
+<lb n="894"/>Pour voir s'ilz ont ne pouoir ne puissance,
+<lb n="895"/>Dont vostre honneur viendra en accroissance.
+</ab><ab type="gv" n="XCII">
+<lb n="896"/>Ne souffrez plus que dens vostre gyron
+<lb n="897"/>Perdent leur temps a racompter balades,
+<lb n="898"/>Dessoubz rideaux, tente ne pavillon,
+<lb n="899"/>Ou es jardins, dessoubz ung frezillon
+<lb n="900"/>Facent pour vous soubressaulx et gambades.
+<lb n="901"/>Envoyez les pour faire leurs pennades
+<lb n="902"/>Avecques moy, ou vous serez reprises
+<lb n="903"/>Et de mes biens toutes arrieres myses.
+</ab><ab type="gv" n="XCIII">
+<lb n="904"/>Femmes de comptes, de ductz et de barons,
+<lb n="905"/>De trespuissans et nobles chevaliers,
+<lb n="906"/>Sans les tenir en voz subjections,
+<lb n="907"/>Sur ces maulditz infidelles larrons
+<lb n="908"/>Envoyez les par cens et par milliers,
+<lb n="909"/>Semblablement voz amys famyliers,
+<lb n="910"/>Commant qu'il soit enortez a ce bien,
+<lb n="911"/>Et soyez seures qu'il vous en prandra bien.
+</ab><ab type="gv" n="XCIV">
+<lb n="912"/>Femmes d'estatz qui par champs et par ville
+<lb n="913"/>Avez mignons a voz commandemens,
+<lb n="914"/>Ne vous trouvez de pencee si vile
+<lb n="915"/>Que nostre loy canonique et cyville
+<lb n="916"/>Soit tourmentee par indehus mandemens,
+<lb n="917"/>Ains faictes leur exprés commandemens
+<lb n="918"/>Qu'a me servir ilz mectent leurs ententes,
+<lb n="919"/>Et des honneurs serez participentes.
+</ab><ab type="gv" n="XCV">
+<lb n="920"/>Patrons de mer, pillotes, capitaynes,
+<lb n="921"/>Contremaistres, maistres et mariniers,
+<lb n="922"/>Acoultrez tous voz carvelles haultaynes,
+<lb n="923"/>Fustes et nefs, galees maritaynes,
+<lb n="924"/>Et y mectez de gentilz notonnyers,
+<lb n="925"/>Compaings de guerre, vaillans aventuriers,
+<lb n="926"/>Qui s'en yront par mer aval le vent
+<lb n="927"/>Pour conquerir jusqu'a souleil levant.
+</ab><ab type="gv" n="XCVI">
+<lb n="928"/>Venez tretous tant par mer que par terre,
+<lb n="929"/>Gentilz souldars et pyetons d'Alemaigne,
+<lb n="930"/>Pour noz ennemys envahir et conquerre,
+<lb n="931"/>Puissans archiers d'Escosse et d'Angleterre,
+<lb n="932"/>Aventuriers de Gascongne et d'Espaigne,
+<lb n="933"/>Du Daulphyné, Normandie et Champaigne,
+<pb n="130"/>
+<lb n="934"/>Vrais francz archiers, venez a grant puissance
+<lb n="935"/>Acompaigner le noble sang de France.
+</ab><ab type="gv" n="XCVII">
+<lb n="936"/>Soyez certains qu'en faisant cest office
+<lb n="937"/>Ferons parler au temps futur de nous,
+<lb n="938"/>Et en faisant ce divin sacriffice,
+<lb n="939"/>Le Dieu des cieulx nous sera si propice
+<lb n="940"/>Que luy mesme guerroira avec nous,
+<lb n="941"/>Et puis sa grace si gectera sur nous,
+<lb n="942"/>Dont nous serons si vaillans et si durs
+<lb n="943"/>Que l'un de nous desconfira dix Turcs.
+</ab>
+    </sp>
+  <sp>
+    <speaker>L'Acteur</speaker>
+      <p>A ces parolles se leva ung homme d'estrange stature appellé Je ne sçay qui,
+lequel estoit en la compaignye des assistans. Et pource que Dame Noblesse conseilloit
+a Magesté Royalle s'appareiller, ordonner et mectre en poinct pour aller Chrestienté
+deffendre et soubstenir, aussi pource qu'elle deliberoit elle mesme se
+trouver sur les rans, donna a entendre par ses gestes et manieres que des parolles
+d'icelle ne devoit on faire myse ne recepte, luy grevant terriblement de quoy si
+long procés elle faisoit. Et pource que capacité suffisante <milestone unit="folio" n="31v"/> ne peust
+avoir d'actendre la conclusion, se Iyeva pour luy rompre son propos et dist ainsi:
+</p>
+    </sp>
+  <sp>
+    <speaker>Je ne sçay qui</speaker>
+    <ab type="gv" n="XCVIII">
+<lb n="944"/>Dame Noblesse dit si bien que merveille,
+<lb n="945"/>Et n'est possible, se me semble, de mieulx.
+<lb n="946"/>Se nous faisons tout ce qu'elle conseille,
+<lb n="947"/>Nous n'en pouons qu'estre en la fin joyeux,
+<lb n="948"/>Nous et les nostres, et pour jamais heureux.
+<lb n="949"/>Je me voy ja et en magesté haulte,
+<lb n="950"/>Sans jamais jour devenir maleureux;
+<lb n="951"/>Mais j'ay grant peur qu'il n'y ait quelque faulte.
+</ab><ab type="gv" n="XCIX">
+<lb n="952"/>Faulte vault quinze et au besoing le jeu
+<lb n="953"/>Qui le joueur en jouant desconforte,
+<lb n="954"/>Et qui pert paye, a bon argent bon jeu,
+<lb n="955"/>A tout le moins se ce sont gens de sorte.
+<lb n="956"/>Qui argent n'a, il fault que gaige sorte
+<lb n="957"/>En belle place, ou le corps on arreste.
+<lb n="958"/>Du jeu de guerre prie qu'on se deporte,
+<lb n="959"/>Car bien souvant on y demeure en reste.
+</ab><ab type="gv" n="C">
+<lb n="960"/>Reste n'est pas, se cuyde, payement,
+<lb n="961"/>Sy non qu'il faille que le corps le compere,
+<lb n="962"/>Qui a debteur est ung reboutement
+<lb n="963"/>Trop coustangeux et ung grant vitupere.
+<lb n="964"/>Mais quoy que dye, bonne fortune espere
+<lb n="965"/>De son emprise et m'y veulx consentir,
+<lb n="966"/>Se ce n'estoit que de gens une payre
+<lb n="967"/>S'en pourroient bien lourdement repentir.
+<pb n="131"/>
+</ab><ab type="gv" n="CI">
+<lb n="968"/>Soy repentir de grans folyes faictes
+<lb n="969"/>Ne peult on pas que ce ne soit a tart,
+<lb n="970"/>Et pour ce donc, qui de telz entreffaictes
+<lb n="971"/>Se peult garder n'est pas tenu sotart.
+<lb n="972"/>Il vault trop mieulx soy declarer fetart,
+<lb n="973"/>Nyce, couart et de lasche couraige,
+<lb n="974"/>Que dens le col s'aller bouter la hart
+<lb n="975"/>Ains qu'a demy avoir vescu son eaige.
+</ab><ab type="gv" n="CII">
+<lb n="976"/>Eäige d'omme vault bien honneur et rente,
+<lb n="977"/>Et en parle qui parler en vouldra,
+<lb n="978"/>Dont qui pourra de guerre se contente,
+<lb n="979"/>Car brief mon cueur plaisir point n'y prandra.
+<lb n="980"/>Et pour ce donc qui mon conseil tiendra,
+<lb n="981"/>Vestu de soye, de drap d'or, de velous,
+<lb n="982"/>Vostre personne en France se tiendra,
+<lb n="983"/>Sans l'aler mectre en la gueule des loups.
+</ab><ab type="gv" n="CIII">
+<lb n="984"/>Loups affamez et mastins plains de raige
+<lb n="985"/>Sont a doubter, quelque chose qu'on dye.
+<lb n="986"/>Pencez vous poinct que Turcs n'ayent couraige
+<lb n="987"/>Et cueur au ventre pour deffendre leur vie?
+<lb n="988"/>Ilz n'ont la chair non plus que nous pourrie,
+<lb n="989"/>Car au besoing chascun sa peau revanche,
+<lb n="990"/>Qu'il leur fera quelque farfouillerie,
+<lb n="991"/>Ilz monstreront qu'ilz ont bras en la manche.
+</ab><ab type="gv" n="CIV">
+<lb n="992"/>Qui tient le manche du marteau en son poing
+<lb n="993"/>Peult marteler et fraper ou qu'il veult,
+<lb n="994"/>Et cil qui va pour guerroyer trop loing,
+<lb n="995"/>N'est pas merveille si povreté l'acqueult,
+<lb n="996"/>Dont bien souvant ung estrangier requeult
+<lb n="997"/>En son paÿs l'usuffruyt de sa terre.
+<lb n="998"/>Si sur noz champs quelque ennemy nous aqueult,
+<lb n="999"/>Il sera temps lors de faire la guerre.
+</ab><ab type="gv" n="CV">
+<lb n="1000"/>Plourer, gemyr guerre faict tost et tart,
+<lb n="1001"/>Maleur et dueil d'elle seuffre <supplied>la</supplied> France,
+<lb n="1002"/>Souspirer gens voit on fort a l'escart,
+<lb n="1003"/>L'onneur blesse puis fait croistre souffrance,
+<lb n="1004"/>Douleur produit et pert toute chevance,
+<lb n="1005"/>Las et confus rent trop souvent fongneurs,
+<lb n="1006"/>Rigueur regner fait et estainct plaisance.
+<lb n="1007"/>Hellas! hellas! Fuyez guerre, seigneurs!
+</ab><ab type="gv" n="CVI">
+<lb n="1008"/>Guerre qui fait diminüer chevance
+<lb n="1009"/>Ne me plaist poinct et est hors mon papier,
+<lb n="1010"/>Semblablement honneur, gloire, bonbance,
+<lb n="1011"/>Qui l'omme faict par la mort espÿer.
+<lb n="1012"/>Il vault trop mieulx noz ennemys copïer
+<lb n="1013"/>Sur noz fumyers et faire bonne chiere,
+<lb n="1014"/>Boire bons vins et gourdement pÿer,
+<lb n="1015"/>Qu'aller si loings querir proye si chiere.
+<pb n="132"/>
+</ab><ab type="gv" n="CVII">
+<lb n="1016"/>Chiere joyeuse et joyeux passetemps
+<lb n="1017"/>Temporiser faict chascun en ce monde,
+<lb n="1018"/>Mondain plaisir sans noyses ne contens
+<lb n="1019"/>Contente l'omme de lïesse parfonde,
+<lb n="1020"/>Et qui a guerre inutille se fonde,
+<lb n="1021"/>Fonder cuydant son emprise en bon tiltre,
+<lb n="1022"/>Tiltre d'onneur est force qu'il confonde,
+<lb n="1023"/>Confondant l'ost par mal hourdir ou tilstre.
+</ab><ab type="gv" n="CVIII">
+<lb n="1024"/>Tilstre a proffit a grant payne est possible
+<lb n="1025"/>Sans bien hourdir et viser a son point,
+<lb n="1026"/>Pourtant est chose, se me semble, impossible
+<lb n="1027"/>Que guerre viengne en tous temps bien a point.
+<lb n="1028"/>Qui l'aguillonne, elle mort et si point,
+<lb n="1029"/>Pourtant s'i fye qui s'i fïer vouldra,
+<lb n="1030"/>Mais quant a moy je ne m'y fie point,
+<lb n="1031"/>Ne son party mon cueur ne maintiendra.
+</ab><ab type="gv" n="CIX">
+<lb n="1032"/>Maintenez vous comme prudent et sage
+<lb n="1033"/>Pour le plus seur dedens vostre royaulme,
+<lb n="1034"/>Sans entreprandre quelque fol vassellaige
+<lb n="1035"/>A l'appetit de Gaultier ou Guillaume.
+<lb n="1036"/>Car tel vous dit, mais qu'il ait son hëaulme,
+<lb n="1037"/>Qu'il assauldra le galiffre Bauldras,
+<lb n="1038"/>Qu'au grant besoing qu'il devra faire baulme
+<lb n="1039"/>N'aura pouoir a jambes ne a bras.
+</ab><ab type="gv" n="CX">
+<lb n="1040"/>Brasseurs mauvaix de venimeux beuvrages
+<lb n="1041"/>Sur toutes choses doibt on doubter et craindre,
+<lb n="1042"/>Bocquons de chairs et dangereux potaiges
+<lb n="1043"/>L'omme trop tost si font a la mort joindre.
+<lb n="1044"/>Il vault trop mieulx temporiser plus, maindre
+<lb n="1045"/>Avec les siens en paisibles sejours
+<lb n="1046"/>Qu'estre plus grant et s'aller faire poindre
+<lb n="1047"/>Par guerre a mort dix ans devant ses jours.
+</ab><ab type="gv" n="CXI">
+<lb n="1048"/>Les jours sont cours et les termes sont grans
+<lb n="1049"/>Pour conquerir la gloire d'une armee,
+<lb n="1050"/>Et bien souvant saichez que les plus grans
+<lb n="1051"/>Sont les premiers qui ont la rembourree.
+<lb n="1052"/>Ce n'est pas tout d'avoir la teste armee,
+<lb n="1053"/>Ne les pluffors se dire ne venter,
+<lb n="1054"/>Car bien souvant peu de pluye affamee
+<lb n="1055"/>Abbat grant vent qu'on voit moult fort venter.
+</ab><ab type="gv" n="CXII">
+<lb n="1056"/>Ventence n'a en la guerre nul lieu,
+<lb n="1057"/>Ne le grant ost ne faict pas la victoire;
+<lb n="1058"/>Actendre fault la volunté de Dieu,
+<lb n="1059"/>Car ou il veult, il en donne la gloire.
+<lb n="1060"/>Laissons le pape et tout son consistoire
+<lb n="1061"/>Aller s'il veult, et s'il ne veult, le laisse
+<lb n="1062"/>Faire la guerre, et qui me vouldra croire,
+<lb n="1063"/>Nous nous tiendrons par deça en lïesse.
+<pb n="133"/>
+</ab><ab type="gv" n="CXIII">
+<lb n="1064"/>Lÿesse est fille de joye et de soulas,
+<lb n="1065"/>Soulas et joye viennent de paix heureuse,
+<lb n="1066"/>Paix vient de Dieu, et qui est en ses las
+<lb n="1067"/>Peult maintenir sa vie bienheureuse.
+<lb n="1068"/>Et au contraire, qui guerre furïeuse
+<lb n="1069"/>Veult maintenir et tenir hault et bas,
+<lb n="1070"/>Il peult bien dire sa vie maleureuse,
+<lb n="1071"/>Car il pert paix et pert joye et soulas.
+</ab><ab type="gv" n="CXIV">
+<lb n="1072"/>Soulas prenons a dancer et chanter,
+<lb n="1073"/>A bancqueter et entretenir dames,
+<lb n="1074"/>Et a plaisance devant elles jouster,
+<lb n="1075"/>Pour de leurs graces acquerir quelquez drames.
+<lb n="1076"/>Laissons courir les dangereux faitz d'armes
+<lb n="1077"/>Sans tant faire des vaillans gorgïas,
+<lb n="1078"/>Car chascun scet qu'au temps jadis, sans armes,
+<lb n="1079"/>David bergier tua bien Golïas.
+</ab><ab type="gv" n="CXV">
+<lb n="1080"/>Sy Golïas fut tué d'un bergier
+<lb n="1081"/>Lequel estoit si puissant et si fort,
+<lb n="1082"/>A tel exemple se doibt on corriger,
+<lb n="1083"/>Et moderer son superbeux effort.
+<lb n="1084"/>Si de grans gens esperons grant confort
+<lb n="1085"/>D'artilleries et de bonnes monstures,
+<lb n="1086"/>Il n'est si fort qui ne treuve pluffort:
+<lb n="1087"/>En fait de guerre a de grans adventures.
+</ab><ab type="gv" n="CXVI">
+<lb n="1088"/>S'aventurer d'aller passer les mons
+<lb n="1089"/>A la volee, ce n'est pas peu de faict,
+<lb n="1090"/>Et se sans prince en France demourons,
+<lb n="1091"/>J'ay moult grant peur qu'il en viengne forfait.
+<lb n="1092"/>Sy nostre royne ung beau dauphin a faict,
+<lb n="1093"/>Lequel Dieu veille entretenir sur terre,
+<lb n="1094"/>Laissons le croistre en aaige parfaict,
+<lb n="1095"/>Et puys aprés nous troterons en guerre.
+</ab><ab type="gv" n="CXVII">
+<lb n="1096"/>Guerre est mauvaise, dangereuse, mortelle,
+<lb n="1097"/>De quoy en fin tout devient en souffrance,
+<lb n="1098"/>Raison pour quoy: car elle est immortelle,
+<lb n="1099"/>Comme l'on voit par vraye esperience;
+<lb n="1100"/>Et qui plus a en elle d'esperance,
+<lb n="1101"/>Plus le deçoit et plus le faict belistre.
+<lb n="1102"/>Puys qu'a Dieu plaist qu'elle soit hors de France,
+<lb n="1103"/>Laissons luy faire ou vouldra son chapitre.
+</ab><ab type="gv" n="CXVIII">
+<lb n="1104"/>Nostre chapitre tenons en nostre terre,
+<lb n="1105"/>Par my noz chambres ad cela ordonnees,
+<lb n="1106"/>Et a plaisance de haulx faictz de la guerre
+<lb n="1107"/>Deviserons dessoubz noz chemynees.
+<lb n="1108"/>Nos voluntez soyent determynees
+<lb n="1109"/>A suyvre l'art et le train d'amouretes,
+<lb n="1110"/>Et qui pourra sur couches courtinees,
+<lb n="1111"/>Face la guerre a ses jeunes fillectes.
+<pb n="134"/>
+  </ab><ab type="gv" n="CXIX">
+<lb n="1112"/>Guerre de filles si faict le temps passer,            
+<lb n="1113"/>Et guerre d'armes faict despasser le temps;
+<lb n="1114"/>Pour ceste cause il convient bien pencer
+<lb n="1115"/>Ains que la faire a son lieu et son temps.
+<lb n="1116"/>Et au surplus, selon ce que j'entens,     
+<lb n="1117"/>Il faict assez qui pour les syens se payne,
+<lb n="1118"/>Sans querir noyses, dlscencions, contens,
+<lb n="1119"/>Et pour aultruy se donner tant de payne.
+</ab><ab type="gv" n="CXX">
+<lb n="1120"/>Payne, soucy et tribulacions
+<lb n="1121"/>Vyennent de guerre par cent mille moyens,
+<lb n="1122"/>Mort et famyne, puis grans destructions
+<lb n="1123"/>De mains mignons, jeunes et ancïens.
+<lb n="1124"/>Quel lox sera ce de transporter noz biens
+<lb n="1125"/>En aultruy mains, sans grant seurté du cas?
+<lb n="1126"/>Et s'il advient que nous ne fassons riens,
+<lb n="1127"/>Je vous demande s'on s'en moquera pas.
+</ab><ab type="gv" n="CXXI">
+<lb n="1128"/>Pas ne se fault qui veult avoir maleur
+<lb n="1129"/>Haster si tost, car trop tost on y vient,
+<lb n="1130"/>Mais qui pretend parvenir a honneur,
+<lb n="1131"/>Par grant conseil besongner y convient.
+<lb n="1132"/>Se l'un y va, l'aultre pas n'en revient,
+<lb n="1133"/>De dix milliers n'en treuve ung qui s'en loue,
+<lb n="1134"/>Car quant Fortune au contraire survient,
+<lb n="1135"/>Dieu scet commant du malostru se joue.
+</ab><ab type="gv" n="CXXII">
+<lb n="1136"/>Jouons nous donc a jeu plus delictable, 
+<lb n="1137"/>Sans vouloir rompre andoilles aus genoulx,
+<lb n="1138"/>Et sans tant faire de l'amy pytoyable,
+<lb n="1139"/>Ayons pitié tant seulement de nous:
+<lb n="1140"/>S'avons milz biens, si les gardons pour nous,
+<lb n="1141"/>S'avons milz maulx, prenons en pascience,
+<lb n="1142"/>Car qui se mect en la gueulle des loups
+<lb n="1143"/>Pour aultruy pain, a luy n'est pas scïence.
+</ab><ab type="gv" n="CXXIII">
+<lb n="1144"/>Scïence donc soit en nostre servelle,
+<lb n="1145"/>Et par prudence maintenons nostre point,
+<lb n="1146"/>Car soit tant juste ou tant bonne querelle,
+<lb n="1147"/>En faict de guerre ne vient tousjours a point,
+<lb n="1148"/>Pour quoy souvant le colet du pourpoinct 
+<lb n="1149"/>En est sanglant ou la robe est trouee.
+<lb n="1150"/>A ceste emprise je ne m'y fie poinct,
+<lb n="1151"/>Je ne sçay pas qui la nous a trouee.
+</ab><ab type="gv" n="CXXIV">
+<lb n="1152"/>Trouvons, trouvons aultre moyen de vivre, 
+<lb n="1153"/>Car cestuy cy n'est pas nostre gibyer,
+<lb n="1154"/>Et ne soyons de guerre si tresyvre
+<lb n="1155"/>Que paix soit hors de nostre colombier.
+<lb n="1156"/>Car se si loings nous allons gambÿer, 
+<lb n="1157"/>Tel mal sur nous ensuivre se pourra
+<lb n="1158"/>Que medecin, cyrurgien, barbïer
+<lb n="1159"/>A moult grant payne y remedÿera.
+<pb n="135"/>
+</ab><ab type="gv" n="CXXV">
+<lb n="1160"/>Remedïer pourra on ad cecy
+<lb n="1161"/>Une aultreffois trop mieulx que maintenant,
+<lb n="1162"/>Et pour ce doncq ne soyons en soucy
+<lb n="1163"/>D'aller a Napples pour faire du Rolant,
+<lb n="1164"/>Car tel se dit plus qu'Ercules vaillant
+<lb n="1165"/>Ains qu'il y soit, qui sera bien pesneux,
+<lb n="1166"/>Et tel yra gorrier, gentil, gallant,
+<lb n="1167"/>Qui s'en viendra peult estre maleureux.
+</ab><ab type="gv" n="CXXVI">
+<lb n="1168"/>Maleureux est celuy qui maleur quiert,
+<lb n="1169"/>Et bien heureux celuy qui bonheur serche,
+<lb n="1170"/>Et qui fortune pour sa partie acquiert,
+<lb n="1171"/>Pencez que pas ne le mect a la perche.
+<lb n="1172"/>Qui en eau trouble tend ses rez pour la pesche,
+<lb n="1173"/>Que bien que mal la fortune en actend,
+<lb n="1174"/>Pareillement qui de guerre s'empesche.
+<lb n="1175"/>Ne scet pas bien ou que la fin s'estend.
+</ab><ab type="gv" n="CXXVII">
+<lb n="1176"/>Estandons nous a euvres plus certaynes,
+<lb n="1177"/>Car je vous dis pour mes conclusions
+<lb n="1178"/>Que telz yront qui les fievres cartaynes
+<lb n="1179"/>En aportront et mules aux tallons.
+<lb n="1180"/>Chault penetrant, maladies, poysons
+<lb n="1181"/>Sont a doubter sans ce qui surviendra
+<lb n="1182"/>Par quelque accord, traffiques, trahysons;
+<lb n="1183"/>Pourtant se garde qui se garder vouldra.
+</ab>
+  </sp>
+  <sp>
+    <speaker>L'Acteur</speaker>
+<p>Aprés toutes ces choses dictes par Je ne sçay qui, lequel evidamment Magesté
+Royalle destournoit a son pouoir d'aller au secours de la tresnoble Dame
+Chrestienté, pource que pas ne luy plaisoit l'entreprise pour aulcunes choses a
+luy plus prochaynes et particulieres, comme celuy qui d'onneur ne tient compte si
+non d'aultant que touche son proffit. Pourquoy veant ces choses d'un aultre
+costé, se leva ung homme nommé Bon Conseil qui, pour repugner les allegacions et remonstrances
+inutilles d'iceluy Je ne sçay qui, aussi pour conseiller en raison
+Magesté Royalle, comme tenu y estoit selon ledit de son nom, commança a parler et
+dire ainsi:
+</p></sp>
+  <sp><speaker>Bon Conseil</speaker>
+    <ab type="gv" n="CXXVIII">
+<lb n="1184"/>Homme qui parle encontre verité
+<lb n="1185"/>Pour maintenir particularité
+<lb n="1186"/>De syen proffit n'est pas digne de croire.
+<lb n="1187"/>Semblablement celuy qui equicté
+<lb n="1188"/>Veult rebouter par son iniquicté
+<lb n="1189"/>Est reprouvé en commun auditoire.
+<lb n="1190"/>Et qui la chose a ung chascun notoire
+<lb n="1191"/>Veult denÿer tant par dit que par faict,
+<lb n="1192"/>Ung chascun dit que c'est a luy mal faict.
+</ab><ab type="gv" n="CXXIX">
+<lb n="1193"/>Bon Conseil suis pour bon conseil donner
+<lb n="1194"/>Et pour a droit les choses ordonner
+<pb n="136"/>
+<lb n="1195"/>Qui suspendent de matiere ambigüe.
+<lb n="1196"/>Sans me vouloir en rien desordonner,
+<lb n="1197"/>Mais par raison, ma cause demener
+<lb n="1198"/>Je veulx present, et par scïence agüe.
+<lb n="1199"/>Sy a l'encontre de Ne sçay qui j'argüe
+<lb n="1200"/>Pour le fairë ou marry ou joyeux,
+<lb n="1201"/>Se grate fort qui se sentra rogneux.
+</ab><ab type="gv" n="CXXX">
+<lb n="1202"/>J'ay bien noté et visé les chapitres,
+<lb n="1203"/>Les remonstrances et les gracïeux tiltres
+<lb n="1204"/>Qu'il a produyt devant nostre presence,
+<lb n="1205"/>Les plaisans motz et les doulces epistres,
+<lb n="1206"/>Qui redigees sont en ses vieulx registres
+<lb n="1207"/>A grant langaige et a peu de substance,
+<lb n="1208"/>Tant seulement tout a la resistence
+<lb n="1209"/>Et au rebout de ce que voulons faire,
+<lb n="1210"/>Pource qu'il a quelque aultre chose a faire.
+</ab><ab type="gv" n="CXXXI">
+<lb n="1211"/>Puys qu'a conseil Je ne sçay qui s'adonne,
+<lb n="1212"/>Ne fault il pas que sur tout il s'ordonne
+<lb n="1213"/>De procurer de son prince l'onneur
+<lb n="1214"/>Ou se tayser? Car ung homme qui donne
+<lb n="1215"/>Quelque parolle qui n'est belle ne bonne,
+<lb n="1216"/>On le maintient pour ung fol sermonneur;
+<lb n="1217"/>Pourtant doibt on son vray prince et seigneur
+<lb n="1218"/>Hault eslever par prouesse en louenge,
+<lb n="1219"/>Ains que cueur lasche le remecte en la fenge.
+</ab><ab type="gv" n="CXXXII">
+<lb n="1220"/>Quelle memoire des choses auctentiques
+<lb n="1221"/>Seroit il ores, ne des preudoms antiques,
+<lb n="1222"/>Se ce n'estoit de leur faict le transcript,
+<lb n="1223"/>Dont on a faict de moult belles croniques,
+<lb n="1224"/>Livres a force, histoires magnifficques
+<lb n="1225"/>En grans volumes reduytes par escript,
+<lb n="1226"/>Pareillement de la mort Jhesucrist?
+<lb n="1227"/>Fors seulement tout ce qu'on en peult lyre
+<lb n="1228"/>De veue d'oeil, nul n'en sauroit rien dire.
+</ab><ab type="gv" n="CXXXIII">
+<lb n="1229"/>Qui est celuy qui vit jamais Adam,
+<lb n="1230"/>Le premier pere, Moÿse et Habraham,
+<lb n="1231"/>Caÿn aussi ne son doulx frere Abel?
+<lb n="1232"/>Ou est celuy qui ayt veu Balaäm
+<lb n="1233"/>Salmon le saige, Nason ne Roboham,
+<lb n="1234"/>Jheroboäm, Nembroch, Zorobabel,
+<lb n="1235"/>Le roy David, ne Absalon le Bel?
+<lb n="1236"/>Et touteffois d'eulx tient on moult grant compte,
+<lb n="1237"/>Pour les beaulx faitz que la Bible en racompte.
+</ab><ab type="gv" n="CXXXIV">
+<lb n="1238"/>Qui est celuy qui vit jamais Noé,
+<lb n="1239"/>Devant qui fut tout le monde noé,
+<lb n="1240"/>Excepté luy et tous ceulx de son arche?
+<lb n="1241"/>Ou est celuy qui a veu Josüé,
+<lb n="1242"/>Hector de Troye pour sa force loé
+<lb n="1243"/>Plus que nul aultre qui fut onc en sa marche?
+<pb n="137"/>
+<lb n="1244"/>Qui a poinct veu plus vaillant porteur d'aiche
+<lb n="1245"/>Qu'en son temps fut Godeffroy de Billon,
+<lb n="1246"/>Qui pour la guerre myst avant son billon?
+</ab><ab type="gv" n="CXXXV">
+<lb n="1247"/>Monstrez m'en ung qui vit onc Alixandre,
+<lb n="1248"/>Qui mil ans a et plus qu'il est en cendre,
+<lb n="1249"/>Et touteffois sa louenge encor regne,
+<lb n="1250"/>Lequel ne fut de couraige si tendre
+<lb n="1251"/>Que tout le monde ne volut condescendre
+<lb n="1252"/>Et rediger a son parfaict demayne.
+<lb n="1253"/>Sa grant puissance et magesté haultayne
+<lb n="1254"/>La savons nous par quelque creature?
+<lb n="1255"/>Nenny, vrayment, fors que par escripture.
+</ab><ab type="gv" n="CXXXVI">
+<lb n="1256"/>Semblablement du tresgrant Charlemagne,
+<lb n="1257"/>Roy des Françoys, empereur d'Alemaigne,
+<lb n="1258"/>De qui present nous avons haulte gloire
+<lb n="1259"/>Pour les haulx faitz qu'il a faict en Espaigne,
+<lb n="1260"/>Par valees, par mons et par champaigne,
+<lb n="1261"/>En obtenant de Jhesus la victoire,
+<lb n="1262"/>Comme la chose est a chascun notoire
+<lb n="1263"/>Par les croniques que l'on en a escriptes,
+<lb n="1264"/>Qui a jamais ne seront interdictes.
+</ab><ab type="gv" n="CXXXVII">
+<lb n="1265"/>Et pour ce donc quant comme eulx vous ferez,
+<lb n="1266"/>Pareillement es croniques serez
+<lb n="1267"/>Canonyzé de louenge immortelle,
+<lb n="1268"/>Et quant par mort comme eulx trespasserez,
+<lb n="1269"/>Tous les mondains es haulx cieulx passerez
+<lb n="1270"/>Pour estre mys en la joye eternelle,
+<lb n="1271"/>Et lors serez de louenge immortelle
+<lb n="1272"/>Hault eslevé selon vostre degré,
+<lb n="1273"/>Si en ce monde faictes de Dieu le gré.
+</ab><ab type="gv" n="CXXXVIII">
+<lb n="1274"/>Soit par amour, par force ou par rigueur,
+<lb n="1275"/>Faictes congnoistre aux gens vostre vigueur,
+<lb n="1276"/>Vostre pouoir et vostre grant puissance,
+<lb n="1277"/>Monstrez qu'avez dedens le ventre cueur
+<lb n="1278"/>Pour preserver et garder la liqueur
+<lb n="1279"/>De vostre honneur et de vostre excellence,
+<lb n="1280"/>Affin qu'on die en absence et presence,
+<lb n="1281"/>Qu'en ce royaulme dessus tous tryumphant,
+<lb n="1282"/>Y a ung roy et non pas ung enffant.
+</ab><ab type="gv" n="CXXXIX">
+<lb n="1283"/>S'ainsi le faictes, d'icy a cinq cens ans,
+<lb n="1284"/>Ceulx qui viendront yront voz faitz Iysans,
+<lb n="1285"/>Comme l'on fait des aultres devant ditz.
+<lb n="1286"/>Voz espris soyent a cecy deligens,
+<lb n="1287"/>Car soyez seur que plusieurs vaillans gens
+<lb n="1288"/>En feront faire pour memoire beaulx ditz.
+<lb n="1289"/>Saichez aussi se beaulx faitz interditz
+<lb n="1290"/>Sont de vous, sire, et lascheté vous mort,
+<lb n="1291"/>Quant vous mourrez vostre honneur sera mort.
+<pb n="138"/>
+</ab><ab type="gv" n="CXL">
+<lb n="1292"/>Pour decorer vostre nobilité,
+<lb n="1293"/>Vostre pouoir et vostre habilité,
+<lb n="1294"/>Mectez vous sus pour ces chiens envahir,
+<lb n="1295"/>Desployez y vostre subtillité
+<lb n="1296"/>Affin qu'ayez d'onneur utillité;
+<lb n="1297"/>Sans de leur force en rien vous esbahir,
+<lb n="1298"/>Vous les devez mortellement haÿr
+<lb n="1299"/>De grant couraige et de cueur despité
+<lb n="1300"/>Ainsi que chiens, sans en avoir pité.
+</ab><ab type="gv" n="CXLI">
+<lb n="1301"/>Voz grans puissans, voz forces teterrines
+<lb n="1302"/>Veillez transmectre es costes tartarines,
+<lb n="1303"/>Invocquez Mars et ses rudes dardures
+<lb n="1304"/>Pour subjuguer les isles transmarynes,
+<lb n="1305"/>Les fors chasteaulx, les villes barbarines
+<lb n="1306"/>En brief sejour par puissances d'ars dures.
+<lb n="1307"/>La employez voz nobles regardures
+<lb n="1308"/>Pour envers Dieu vous faire tous valoir,
+<lb n="1309"/>Car pour le pere en guerre s'en va l'oir.
+</ab><ab type="gv" n="CXLII">
+<lb n="1310"/>De toutes pars par compas prenez gens
+<lb n="1311"/>En ce, heureux, valeureux, deligens,
+<lb n="1312"/>En la bataille de taille suffisante,
+<lb n="1313"/>Qui par vertus nobles, ducs, roys, regens,
+<lb n="1314"/>Vrais champïons, bons pÿons et sergens
+<lb n="1315"/>Saichent trouver au lever de leur tente;
+<lb n="1316"/>Et au surplus ne faictes plus d'actente,
+<lb n="1317"/>Mais marchez beau, tout beau, de colle chaude,
+<lb n="1318"/>Affin que nul ce faisant ne s'eschaulde.
+</ab><ab type="gv" n="CXLIII">
+<lb n="1319"/>Seignez espees, brans et cousteaux d'acier,
+<lb n="1320"/>Sans d'aultre chose vous vouloir soucÿer
+<lb n="1321"/>Qu'au grant besoing les bouter a proffit,
+<lb n="1322"/>Ainsi que fit jadis le bon censier,
+<lb n="1323"/>Pigmalïum, qui porta l'encensier
+<lb n="1324"/>Des Mirmydains seulement et prou fit,
+<lb n="1325"/>Car par son sens luy mesme seul parfit
+<lb n="1326"/>L'occision qui fut faicte en ung parc
+<lb n="1327"/>Pour les deux cordes qu'il avoit en son arc.
+</ab><ab type="gv" n="CXLIV">
+<lb n="1328"/>Honneur par ce vous poursuivra de pres,
+<lb n="1329"/>Incessamment tant par champs que par prés;
+<lb n="1330"/>Ainsi c'un roy de prouesse et valeur,
+<lb n="1331"/>Et serez dit par petitz motz exprés
+<lb n="1332"/>Digne de lox aultant ou a pou pres
+<lb n="1333"/>Que Charlemaigne, le puissant empereur.
+<lb n="1334"/>Craindre ne fault de ces chiens la fureur,
+<lb n="1335"/>Leur grant pouoir ne leur chaulde colique,
+<lb n="1336"/>Car Dieu sera pour la foy catholique.
+</ab><ab type="gv" n="CXLV">
+<lb n="1337"/>Se ne faictes ce qu'avez entrepris,
+<lb n="1338"/>Vostre louenge, vostre bruyt, vostre pris
+<lb n="1339"/>Sera present de tous points rabaissé.
+<lb n="1340"/>S'au temps passé moult grant payne avez pris
+<pb n="139"/>
+<lb n="1341"/>De decorer de France le pourpris,
+<lb n="1342"/>Pour ung neant sera tout abaissé,
+<lb n="1343"/>Et dira on: <q>« Les Françoys ont laissé
+<lb n="1344"/>Leurs lances, dars, leurs arcs et estandars
+<lb n="1345"/>Cropir en l'astre comme povres canars. »</q>
+</ab><ab type="gv" n="CXLVI">
+<lb n="1346"/>Ainsi doncques, s'au temps passé vous eustes
+<lb n="1347"/>Quelque louenge, et s'en hault bruyt vous feustes
+<lb n="1348"/>D'avoir mys sus si tresgrant entreprise,
+<lb n="1349"/>Et la laisser onc tel deshonneur n'eustes,
+<lb n="1350"/>Ne lacheté en croniques ne leustes,
+<lb n="1351"/>Qui fust jamais plus digne de reprise?
+<lb n="1352"/>Car on le scet a Naples et Venyse,
+<lb n="1353"/>En Angleterre, en Espaigne et Boësme,
+<lb n="1354"/>En Turquië et en Sarrazinesme.
+</ab><ab type="gv" n="CXLVII">
+<lb n="1355"/>Pourtant donques de bon cueur je vous prie
+<lb n="1356"/>Et humblement vous requier et suplie,
+<lb n="1357"/>Pour vostre honneur et celuy du royaulme,
+<lb n="1358"/>Affin qu'en bien vostre bruyt multiplie,
+<lb n="1359"/>Que ceste emprise soit de vous acomplie,
+<lb n="1360"/>Et hardyment y boutez corps et ame;
+<lb n="1361"/>Car j'ay espoir, moyennant Nostre Dame
+<lb n="1362"/>Et tous les saincts qui verront vostre affaire,
+<lb n="1363"/>Que Dieu fera ce que ne pourrez faire.
+</ab>
+  </sp>
+  <sp>
+    <speaker>L'Acteur</speaker>
+<p>Lors Magesté Royalle, oyant les parolles de Bon Conseil, monstra par son semblant
+estre terriblement joyeuse d'avoir oÿ si gracieuses et doulces parolles
+jaçoit ce qu'auparavant par le moyen de Je ne sçay qui fust aulcunement chagrineuse et
+mal a son aise. Touteffois des choses predictes commança a regarder ça et la les
+assistans, comme deliberee et appareillee d'acomplir ce que Bon Conseil luy avoit
+mys au devant, en reboutant et desprisant les parolles dudict Je ne sçay qui,
+ainsi que celle qui du divin redempteur esperoit et actendoit conseil, confort, ayde
+et secours. Par quoy de chiere baulde et couraige ardant dist ainsi:
+</p>
+  </sp>
+  <sp><speaker>Magesté Royalle</speaker>
+    <ab type="gv" n="CXLVIII">
+<lb n="1364"/><w><hi rend="gras">CHAR</hi>ité</w> mise en pitoyable office
+<lb n="1365"/><hi rend="gras">L'</hi>omme couronne de divin beneffice
+<lb n="1366"/><hi rend="gras">ES</hi> dignes gloires ou reposent les sains,
+<lb n="1367"/><w><hi rend="gras">H</hi>aulte</w> louenge luy rent son sacryffice,
+<lb n="1368"/><w><hi rend="gras">V</hi>ray</w> bruyt d'onneur l'entretient en police,
+<lb n="1369"/><w><hi rend="gras">I</hi>nnumerable</w> entre tous les humains,
+<lb n="1370"/><w><hi rend="gras">T</hi>ous</w> gentilz cueurs tendent ad ce les mains
+<lb n="1371"/><w><hi rend="gras">J</hi>oyeusement</w>, et de biens inhumains
+<lb n="1372"/><w><hi rend="gras">E</hi>n</w> sont donez tant a l'ame qu'au corps.
+<lb n="1373"/><w><hi rend="gras">S</hi>e</w> je voy donc sur Chrestïenté mains
+<lb n="1374"/><w><hi rend="gras">M</hi>aulx</w> perpeter, ne doi ge pas du mains
+<lb n="1375"/><w><hi rend="gras">E</hi>stre</w> aprés Dieu sur tous misericors?
+<pb n="140"/>
+</ab><ab type="gv" n="CXLIX">
+<lb n="1376"/><hi rend="gras">ET</hi> pour ce donc moy, qui telz faitz contemple,
+<lb n="1377"/><hi rend="gras">DE</hi> dens le chief n'ay cervelle ne temple,
+<lb n="1378"/><w><hi rend="gras">R</hi>is</w>, jeux, esbatz en sensüalité
+<lb n="1379"/><w><hi rend="gras">N</hi>e</w> aultre chose qui de pitié ne s'emple.
+<lb n="1380"/><w><hi rend="gras">J</hi>e</w> qui congnois destruyre nostre temple
+<lb n="1381"/><w><hi rend="gras">E</hi>t</w> molester Dame Chrestïenté,
+<lb n="1382"/><w><hi rend="gras">R</hi>aison</w> commande que j'en aye pité,
+<lb n="1383"/><w><hi rend="gras">DE</hi>sir</w> Ardant ne m'a le faict quicté,
+<lb n="1384"/><w><hi rend="gras">C</hi>onseil</w> ordonne d'y bouter resistence,
+<lb n="1385"/><w><hi rend="gras">E</hi>spoir</w> de mieulx et Consanguynyté,
+<lb n="1386"/><w><hi rend="gras">NO</hi>blesse</w> aussi par singularité
+<lb n="1387"/><hi rend="gras">M'</hi>ont mys au train d'en prandre la vengence.
+</ab><ab type="gv" n="CL">
+<lb n="1388"/><hi rend="gras">PAR</hi> quoy de brief sans plus rien en debatre, 
+<lb n="1389"/><hi rend="gras">LA</hi> m'en yray me deduyre et esbatre
+<lb n="1390"/><w><hi rend="gras">G</hi>orrierement</w>, quoy qu'on parle ou qu'on disse,
+<lb n="1391"/><w><hi rend="gras">R</hi>uer</w> par terre ces mastins et combatre
+<lb n="1392"/><hi rend="gras">A</hi> force d'armes pour du tout les abatre;  
+<lb n="1393"/><w><hi rend="gras">CE</hi>cy</w> faisant, Dieu me sera propice.
+<lb n="1394"/><w><hi rend="gras">D</hi>e</w> rebouter tel cruel maleffice
+<lb n="1395"/><w><hi rend="gras">E</hi>st</w> envers luy ma singuliere office,
+<lb n="1396"/><w><hi rend="gras">D</hi>ont</w> pour l'acquict et salut de mon ame
+<lb n="1397"/><w><hi rend="gras">J</hi>e</w> veulx aller, sans nul mal ne sans vice,
+<lb n="1398"/><w><hi rend="gras">E</hi>n</w> ma personne faire ce sacriffice,
+<lb n="1399"/><w><hi rend="gras">V</hi>eullent</w> ou nom aulcuns de mon royaume.
+</ab><ab type="gv" n="CLI">
+<lb n="1400"/><w><hi rend="gras">R</hi>oyne</w> des anges, emperiere des cieulx,
+<lb n="1401"/><w><hi rend="gras">O</hi>rdre</w> divine, lix tressubstancïeux,
+<lb n="1402"/><w><hi rend="gras">Y</hi>mage</w> doulce, passe rose eternelle,
+<lb n="1403"/><w><hi rend="gras">D</hi>yamant</w> nect, rubix solacïeux
+<lb n="1404"/><w><hi rend="gras">E</hi>scharboucle</w> du hault Dieu precïeux,
+<lb n="1405"/><w><hi rend="gras">F</hi>ille</w> virgine et mere supernelle,
+<lb n="1406"/><w><hi rend="gras">R</hi>uysseau</w> de joye, dame perpetüelle,
+<lb n="1407"/><w><hi rend="gras">A</hi>ffin</w> que mieulx ma personne se garde,
+<lb n="1408"/><w><hi rend="gras">N</hi>e</w> m'oubliez durant ceste querelle
+<lb n="1409"/><w><hi rend="gras">C</hi>onseillez</w> moy, gardez moy de cautelle,
+<lb n="1410"/><w><hi rend="gras">E</hi>t</w> me tenez en vostre saulvegarde.
+</ab><ab type="gv" n="CLII">
+<lb n="1411"/><w><hi rend="gras">A</hi>nges</w> celestes du trosne deïffique,
+<lb n="1412"/><w><hi rend="gras">Q</hi>ui</w> avez noms d'essence ceraffique
+<lb n="1413"/><w><hi rend="gras">V</hi>eillez</w> prier le treshault consistoire
+<lb n="1414"/><w><hi rend="gras">J</hi>usques</w> ad ce que d'amour magniffique
+<lb n="1415"/><w><hi rend="gras">D</hi>onner</w> me puisse sur les Turcs paciffique
+<lb n="1416"/><w><hi rend="gras">J</hi>oye</w> infinye et entiere victoire.
+<lb n="1417"/><w><hi rend="gras">E</hi>t</w> vous aussi de confort repertoire,
+<lb n="1418"/><w><hi rend="gras">V</hi>rais</w> saincts et sainctes en commun auditoire,
+<lb n="1419"/><w><hi rend="gras">DO</hi>ulces</w> parolles devant Dieu presentez
+<lb n="1420"/><w><hi rend="gras">I</hi>ncessamment</w>, affin que de sa gloire
+<lb n="1421"/><w><hi rend="gras">N</hi>ous</w> enlumine et d'espee et vulgaire
+<lb n="1422"/><w><hi rend="gras">T</hi>retous</w> ces chiens soyent mal contentez.
+</ab><ab type="gv" n="CLIII">
+<lb n="1423"/><w><hi rend="gras">BON</hi>s</w> champïons et singuliers souldars,
+<lb n="1424"/><w><hi rend="gras">N</hi>obles</w> Françoys qui de scïence et d'ars
+<lb n="1425"/><w><hi rend="gras">E</hi>stes</w> au monde plus vertüeux nommez,
+<pb n="141"/>
+<lb n="1426"/><w><hi rend="gras">V</hi>eillez</w> voz lances, voz espees, voz darcs,
+<lb n="1427"/><w><hi rend="gras">JE</hi>cter</w> au vent dessoubz mes estandars,
+<lb n="1428"/><hi rend="gras">ET</hi> vous serez mieulx qu'onques renommez.
+<lb n="1429"/><w><hi rend="gras">L</hi>evez</w> vous sus comme gens bien famez,
+<lb n="1430"/><w><hi rend="gras">O</hi>u</w> vous serez pour jamais diffamez,
+<lb n="1431"/><w><hi rend="gras">N</hi>ulz</w> et despris de plus honneur acquerre.
+<lb n="1432"/><w><hi rend="gras">G</hi>entilz</w> rustres et vaillans gens clamez,
+<lb n="1433"/><w><hi rend="gras">V</hi>eillez</w> monstrer present si vous m'aymez,
+<lb n="1434"/><w><hi rend="gras">E</hi>n</w> me suyvant tant par mer que par terre.
+</ab><ab type="gv" n="CLIV">
+<lb n="1435"/><hi rend="gras">ET</hi> pour conclure, venez tous hardyment
+<lb n="1436"/><w><hi rend="gras">P</hi>our</w> voir s'avez en voz corps hardement,
+<lb n="1437"/><hi rend="gras">A</hi> ceste emprise ou Dieu nous conduyra
+<lb n="1438"/><w><hi rend="gras">RA</hi>lïez</w> vous, car saichez seurement:
+<lb n="1439"/><w><hi rend="gras">DI</hi>eu</w> a donné a celuy saulvement
+<lb n="1440"/><w><hi rend="gras">S</hi>y</w> tost que l'ame de son corps sortira,
+<lb n="1441"/><w><hi rend="gras">A</hi>ussi</w> l'eglise nous favorisera,
+<lb n="1442"/><w><hi rend="gras">L</hi>e</w> commun peuple bien joyeux en sera;
+<lb n="1443"/><w><hi rend="gras">A</hi>insi</w> doncques sans faire aultre examen,
+<lb n="1444"/><w><hi rend="gras">F</hi>ilz</w> de Jhesus on nous declairera,
+<lb n="1445"/><w><hi rend="gras">N</hi>oz</w> corps es cieulx Il gloriffïera
+<lb n="1446"/><foreign xml:lang="la">In secula seculorum. Amen.</foreign>
+</ab>
+    </sp>
+  <sp><speaker>L'Acteur</speaker>
+<p>Aprés toutes ces choses dictes, aulcuns aultres se volurent ingerer de dire leur
+oppinion, demandant humblement audience a Magesté Royalle, laquelle interdist le
+plus parler de ceste matiere. Lors, comme deliberee et appareillee de mectre
+avant l'effect de ses parolles, se leva de sa chaire pour tirer oultre, par
+quoy ung moult grant effroy se commança a sourdre la dedens, pource que les oppinions
+de la plus grant partie d'iceulx estoient differantes les unes aux aultres.
+Et sur ce ung chascun d'eulx se retira vers la partie qui mieulx avoit parlé a son
+advantaige, c'est assavoir devers Magesté Royalle, Dames Chrestienté, Noblesse,
+Bon Conseil et la plus grant partie de l'assemblee. Et l'aultre partie avec Je
+ne sçay qui s'en alla par ung petit destourné guichet grongnant, groussant et
+grumellant tellement que par l'effroy qu'ilz firent mon povre esprit, qui si longuement
+avoit esté en ceste fantasie comme troublé et traveillé, fut contrainct de se
+reveiller, par lequel reveil en ung moment s'esvanouyt mon advision. Si me trouvay
+seulet, tout estonné et moult fors esbahy.
+</p>
+    <ab type="gv" n="CLV">
+<lb n="1447"/>Alors Phebus par moult grant appareil
+<lb n="1448"/>Fit esclarcir ses rades reluysantes,
+<lb n="1449"/>Dont je trouvay par mon subit reveil
+<lb n="1450"/>Esvanoÿes mes visions presentes.
+<lb n="1451"/>Et tout soubdain furent de moy excentes
+<lb n="1452"/>Les nobles dames dont j'ay cy sermonné,
+<lb n="1453"/>Si me trouvys seulet, tout estonné.
+</ab><ab type="gv" n="CLVI">
+<lb n="1454"/>Lors me levay, si prins mon escriptoire,
+<lb n="1455"/>Ce temps pendant que j'avoye l'engin fres,
+<lb n="1456"/>Et escripvis ce petit repertoire
+<lb n="1457"/>De tout mon songe, ou au moins a pou pres,
+<lb n="1458"/>En supplïant tous ceulx qui cy aprés
+<pb n="142"/>
+<lb n="1459"/>Le vauldront lire, a payne ou de leger,
+<lb n="1460"/>Que les faultes leur plaise corriger.
+</ab><ab type="gv" n="CLVII">
+<lb n="1461"/>Et pour conclure, je vous pry, treschier sire
+<lb n="1462"/>Que le traicté vous plaise avoir en grace,
+<lb n="1463"/>Quoy que n'y soit la scïence Porphire,
+<lb n="1464"/>Ne la prudence de Virgille ou Bocace.
+<lb n="1465"/>Se mon engin eust plus grant efficace,
+<lb n="1466"/>J'eusse trop mieulx labouré et enté
+<lb n="1467"/>La Ressource de la Chrestïenté,
+<lb n="1468"/>Qui a vous, sire, de presenter n'est digne,
+<lb n="1469"/>Ne plus ne mains que le fruyt De la vigne.</ab>
+</sp>
+</div>
+</body>
+</text>
+</TEI>

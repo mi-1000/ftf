@@ -1,0 +1,665 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="fr">
+  <fileDesc>
+    <titleStmt>
+      <title type="main">Vieux coustumier de Poictou</title>
+      <title type="formal">coutpoit</title>
+      <title type="reference">coutpoit_a</title>
+      <title type="DEAF">CoutPoitF</title>
+      <title type="gmd">transcription électronique</title>
+      <author xml:id="anonyme">anonyme</author>
+      <editor>Équipe de la Base de français médiéval - ENS de Lyon / UMR 5317 IHRIM</editor>
+      <funder>Laboratoire IHRIM</funder>
+      <funder>ANR (projet ELICO)</funder>
+    </titleStmt>
+    <editionStmt>
+      <edition>transcripion électronique</edition>
+      <respStmt xml:id="encoder4">
+        <resp>conversion TEI P5, balisage des citations</resp>
+        <name xml:id="AL">Alexei Lavrentiev</name>
+      </respStmt>
+      <respStmt xml:id="proofreader2">
+        <resp>deuxième relecture et vérification du balisage</resp>
+        <name xml:id="BS">Bérénice Stoll</name>
+      </respStmt>
+      <respStmt xml:id="digitizer">
+        <resp>scannage et océrisation</resp>
+        <name xml:id="CG">Céline Guillot-Barbance</name>
+      </respStmt>
+      <respStmt xml:id="proofreader1">
+        <resp>première relecture</resp>
+        <name xml:id="CP">Cinzia Pignatelli</name>
+      </respStmt>
+      <respStmt xml:id="encoder3">
+        <resp>validation finale</resp>
+        <name xml:id="GSouvay">Gilles Souvay (ATILF)</name>
+      </respStmt>
+      <respStmt xml:id="encoder1">
+        <resp>préparation à la relecture 1</resp>
+        <name xml:id="VO">Vanessa Obry</name>
+      </respStmt>
+    </editionStmt>
+    <extent>- Numéros de pages saisies : de 29 à 86 ;
+            - Nombre de mots d'après la base des descripteurs : <num xml:id="nb_mots_given">16636</num> ;
+            - Nombre de tokens (mots et ponctuations) d'après la base des descripteurs : <num xml:id="nb_tokens_given">17723</num>.
+    </extent>
+    <publicationStmt>
+      <publisher><name>Projet BFM, ENS de Lyon / UMR 5317 IHRIM</name></publisher>
+      <address>
+        <addrLine>15, parvis René Descartes</addrLine>
+        <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+        <addrLine>Tél : 04 37 37 63 10</addrLine>
+        <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+        <addrLine>http://bfm.ens-lyon.fr</addrLine>
+      </address>
+      <idno type="bfm">http://catalog.bfm-corpus.org/coutpoit_a</idno>
+      <idno type="doi">10.34847/nkl.1d7di913</idno>
+      <availability status="free">
+        <licence target="https://www.etalab.gouv.fr/licence-ouverte-open-licence">
+          <ab type="availability_bfm" subtype="libre_1d">Les Conditions générales d'utilisation de la Base de Français Médiéval (http://txm.bfm-corpus.org/bfm/files/CGU.pdf), 
+            et notamment son Article 5 « PROPRIETE INTELLECTUELLE », s'appliquent à tous les textes de la BFM.</ab>
+          <ab type="how_to_cite">
+            <label>Comment citer ce texte :</label>
+            <bibl>Vieux coustumier de Poictou, édité par René Filhol, Bourges, 1956. 
+              Publié en ligne par la Base de français médiéval, http://catalog.bfm-corpus.org/coutpoit_a.
+              Dernière révision le 2013-05-22.</bibl>
+            D'autres formules de citation de la BFM sont proposées sur la page web suivante :
+            http://bfm.ens-lyon.fr/article.php3?id_article=281.</ab>
+          <ab type="availability_file">
+            <label>Conditions d'utilisation de ce fichier :</label>
+              Ce fichier numérique est composé du corps de texte médiéval et des suppléments numériques : balisage XML-TEI, métadonnées (teiHeader). Le texte et les suppléments numériques sont libres de droit et peuvent à ce titre être téléchargés et réutilisés librement.
+            </ab>
+            <ab type="availability_txmweb" subtype="illimité">
+              <label>Conditions d'utilisation par le portail BFM :</label>
+              Pas de limitation dans l'usage des fonctionnalités. Téléchargement autorisé.</ab>
+        </licence>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>Le Vieux coustumier de Poictou</title>
+          <respStmt>
+            <resp xml:id="editor">Éditeur scientifique</resp>
+            <name type="person">René Filhol</name>
+          </respStmt>
+        </titleStmt>
+          <extent>57 page(s), soit 29-86
+        </extent>
+        <publicationStmt>
+          <publisher>Tardy</publisher>
+          <pubPlace>Bourges</pubPlace>
+          <date>1956</date>
+          <idno type="sigle_DEAF">CoutPoitF</idno>
+          <idno type="cote_biblio">ENC : 8K677</idno>
+        </publicationStmt>
+      </biblFull>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p>Projet :<name type="project">BFM - Base de français médiéval</name>
+        Resp. : <name type="person">Céline Guillot-Barbance</name>
+        Équipe : Base de français médiéval
+        Laboratoire : UMR 5317 IHRIM
+        Institution : ENS de Lyon
+        <address>
+          <addrLine>15, parvis René Descartes</addrLine>
+          <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+          <addrLine>Tél : 04 37 37 63 10</addrLine>
+          <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+          <addrLine>http://bfm.ens-lyon.fr</addrLine>
+        </address>
+      </p>
+    </projectDesc>
+    <editorialDecl>
+      <p>Voir le <ref target="http://bfm.ens-lyon.fr/IMG/pdf/Manuel_Encodage_TEI.pdf">Manuel d'encodage XML-TEI de la BFM</ref>
+        et les <ref target="http://bfm.ens-lyon.fr/IMG/pdf/Consignes_BFM.pdf">Consignes aux relecteurs de la BFM</ref>.</p>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="body" occurs="1"/>
+        <tagUsage gi="div" occurs="21"/>
+        <tagUsage gi="head" occurs="21"/>
+        <tagUsage gi="hi" occurs="12"/>
+        <tagUsage gi="p" occurs="185"/>
+        <tagUsage gi="pb" occurs="57"/>
+        <tagUsage gi="quote" occurs="2"/>
+        <tagUsage gi="text" occurs="1"/>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <creation>
+      <name type="author">anonyme</name>
+      <title>Vieux coustumier de Poictou</title>
+      <date type="compo" when="1451-01-01" notBefore="1450-01-01" notAfter="1452-01-01" n="15">prob. 1451</date>
+      <date type="compo_periode">moyen</date>
+      <date type="compo_sous_siecle" n="15_2">milieu</date>
+      <date type="ms" when="1475-01-01" notBefore="1450-01-01" notAfter="1499-12-31">2e m. 15e s.</date>
+      <idno type="msIdentifier">Niort, BM, 18</idno>
+      <region type="dialecte_auteur">poitevin</region>
+    </creation>
+    <langUsage>
+      <language ident="fro" usage="100">Le texte est entièrement écrit en prose en moyen français.</language>
+    </langUsage>
+    <textDesc>
+      <channel mode="w">print</channel>
+      <constitution type="single"/>
+      <derivation type="original"/>
+      <domain type="juridique"/>
+    <factuality type="inapplicable"/>
+      <interaction type="none"/>
+      <preparedness type="prepared"/>
+      <purpose type="narrative"/></textDesc>
+    <textClass>
+      <keywords scheme="http://authorities.bfm-corpus.org">
+        <term type="domaine">juridique</term>
+        <term type="genre">coutumier</term>
+        <term type="forme">prose</term>
+        <term type="relation">original</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change who="#CG" when="2007-12-31">scannage et océrisation</change>
+    <change who="#VO" when="2008-02-14">préparation à la relecture 1</change>
+    <change who="#CP" when="2008-06-01">première relecture</change>
+    <change who="#VO" when="2008-06-15">conversion XML et balisage automatique</change>
+    <change who="#GSouvay" when="2008-09-18">validation finale</change>
+    <change who="#BS" when="2008-09-18">deuxième relecture et vérification du balisage</change>
+    <change who="#AL" when="2008-11-21">création du descripteur</change>
+    <change who="#AL" when="2013-05-22">conversion TEI P5, balisage des citations</change>
+    <change when="2013-05-22">Dernière modification du texte</change>
+    <change when="2022-11-04">Création de cet entête</change>
+  </revisionDesc>
+</teiHeader>
+<text>
+<pb n="29"/>
+		<body>
+			    <div type="partie" n="1">
+<head>DE JURISDICION ET QUI EN EST FONDÉ</head>
+<p n="1"> Tout seigneur qui a comté, vicomté ou baronnye est fondé de droit commun par la coustume d'avoir droit de chastel, chastellenie, justice et juridiction haute, moyenne et basse. Et peut le seigneur comte, vicomte ou baron avoir et tenir à quatre pilliers sa justice; c'est assavoir forches patibulaires pour pandre et exécuter maulfaicteurs et peut porter bannières .</p>
+<p n="2"> Et pouvent lesdits comtes, vicomtes et barons banir les delinquans et rappeller sans aucune restitution de leur saisine, et sans remectre ne muher cas criminel où il y a paine de mort et aultre paine que de mort. Et ad ce que aucun soit ou doive estre dit comte, vicomte ou baron, convient qu'il ait soubz luy ung ou plusieurs qui aient droit de chastellenie.</p>
+<pb n="30"/>
+<p n="3"> Le seigneur chastellain est fondé de droit commun par la coustume d'avoir chastel et chastellenie, haulte justice, moyenne et basse. Et peut avoir et tenir justice et forches patibulaires à trois pilliers en tiers pié, et avoir seaulx à contraitz, et en sa chastellenie foyres et marchez en son lieu principal. Et ne peut ne doit aucun aultre fors ledit seigneur chastellain avoir scaulx à contraitz, foyres ne marchés, si ce n'estoit par usance et possession ancienne.</p>
+<p n="4"> Chascun seigneur chastellain est fondé d'avoir grande et petite assise laquelle en aucuns lieux est appellée prévousté, et en aucuns lieux est appelée les plaiz, et en aultres l'assise du chastellain. Et pour l'exercice d'icelles assises puet et doit avoir deux juges, c'est assavoir pour ladicte petite assise ung juge, et pour la grant assise ung senneschal ou bailly par dessus.</p>
+<p n="5"> Et pouvent lesdits senneschal ou bailly, et aussi ledit chastellain
+ou juge de prévousté créer ou constituer notaires pour passer lectres et contraitz voluntaires soubz les seelx establiz aux contraitz en chascune chastellenie, si le seigneur dont ilz sont officiers est seigneur baron ou plus grand ; mais s'il n'estoit que simple seigneur chastellain, son senneschal ou bailly pourra créer lesditz notaires, et non pas son chastellain ou prévoust.</p>
+<p n="6"> Et peut le seigneur chastellain ou son senneschal et bailly mectre et instituer sergens par et selon les bailliages de sa chastellenie.</p>
+<p n="7"> Et aussi ledit senneschal ou bailly peut évocquer par devant luy à la grant assise se il voyt que à faire face, les causes, plaiz et procès qui pendent à la petite assise par devant le juge chastellain ou prévoust paravant la contestation.</p>
+<pb n="31"/>
+<p n="8"> Celluy qui a haulte justice en aucun lieu est fondé d'avoir en icelluy la moyenne et la basse, et peut lesdictes justices exercer si aultre ne les y a par convenance ou usance au contraire. Et peut tout hault justicier avoir et tenir sa justice à forches patibulaires à deux piez ou pilliers, et avoir sa prison et seps à mectre les delinquans. Et ne peut mectre ledit hault justicier ne le comte, vicomte, baron ou chastellain lesdictes forches patibulaires en dommaine de son subgiect sans son consentement.</p>
+<p n="9"> Le seigneur qui a haulte justice, soit seigneur chastellain ou autre, ne peut contraindre ses hommes rousturiers ne aultres à garder les prisonniers en sa prison ne aultrement ; mais il peut bien contraindre 
+ses hommes rousturiers à aller veoir l'exécucion des prisonniers. Et si lesditz hommes deffaillent au cry ou commandement qui leur en sera fait, ledit seigneur les peut mectre et traire à amande jusques à soixante solz tournois ; c'est assavoir ceulx qui le cry pevent comprendre, comme les hommes d'une ville ou d'un bourg.</p>
+<p n="10"> Le vassal qui a moyenne justice peut donner tutelles et curatelles, 
+émanciper, bailler mesures, cognoistre d'applègemens et contrapplègemens et aultres causes dont l'amande n'excède oultre soixante solz. Car sadicte jurisdiction et contraincte se extend jusques à ladicte amande de soixante solz seulement, et ne peut pas contraindre à donner asseurtés, si ce n'est par usance et possession ancienne au contraire.</p>
+<p n="11"> Celluy qui tient fief noblement par hommage ou en parage ou part prenant ou part metant est fondé par la coustume d'avoir en sondit fief basse jurisdicion et a ledit bas justicier jurisdicion et contraincte jusques à amande de sept solz six deniers seulement ;
+<pb n="32"/>
+et peut congnoistre sur ses hommes en actions personnelles et aussi en actions réelles des choses immeubles en et de son fief et en sa jurisdicion. Et aussi peut congnoistre de injures sur ses hommes et subgiectz, dont l'amande ne excède sept solz six deniers. Et pour ce ne peut congnoistre de injures de sang ou de playe, ou de parolles de deslay, car en telles injures l'amande est de soixante solz tournois ; lesquelles parolles de deslay sont d'appeller aucun traître ou meurtrier, ou aultres équipolans pour lesquelles parolles si elles estoient vrayes celluy contre qui elles seroient dictes en seroit pugnissable en corps ou publiquement diffamé. Et en tous cas peut congnoistre sur sesdits hommes et sur les choses immeubles de sondit fief de toutes causes de quoy l'amande ne passe pas sept solz six deniers. Et ne peut ledit bas justicier bailler mesures si ce n'est par usance ou possession.</p>
+<p n="12"> Quiconques a jurisdicion est fondé de povoir tenir assise combien que aultreffoiz ne l'eust tenue, excepté en la chastellenie de Thouars en laquelle aucun n'a droit de tenir assise si d'ancienneté ne l'a acoustumé tenir. Et encores s'il n'est que bas justicier en Thouarcois, il n'aura congnoissance fors de l'estroit fons, et non pas de demandes personnelles entre ses subgietz ne aultres ; et convient quant il a assise qu'il tiengne son assise en la ville de Thouars si par possession ancienne il ne l'a acoustumé tenir ailleurs en son fief.</p>
+<p n="13"> Tout seigneur qui a droit de chastellenie peut faire tenir sa grant assise quatre foiz l'an et non plus, et sa petite assise, prévosté ou plaiz par chacun moys ou par chascune quinzaine ou huitesne ainsi qu'il est acoustumé.</p>
+<pb n="33"/>
+<p n="14"> Celluy qui a haulte justice, moyenne et basse, et n'est pas chastellain peut tenir son assise six foiz l'an seulement, et celluy qui n'a que basse jurisdiction ne la peut tenir que quatre foiz l'an.</p>
+			    </div>
+		    <div type="partie" n="2">
+			        <head> D'OFFICE DE SERGENS </head>
+<p n="15"> Les sergens, chacun en son bailliage puent sans mandement ou commission de juge faire et bailler les adjornemens qui leur seront requis, tant pour le procureur de la court que pour les parties ; et puent recevoir applègemens et adveuz, et les faire assavoir aux parties adverses, et recevoir les contrapplègemens et contradveuz, et sur ce bailler les adjournemens et mectre et tenir en main de court les choses que portent lesditz applègemens ou adveuz. Mais hors de leur bailliage ne puent faire exploict sans mandement, si ce n'estoit 
+bailler adjournement et recevoir lesditz applègemens pour raison des choses de leur bailliage.</p>
+<pb n="34"/>
+<p n="16"> Aussi pouvent lesditz sergens de quelque court que ce soit, grande ou petite, recevoir applègemens, requestes de lectres et jugiez pour raison des choses de leurs bailliages ; c'est assavoir que si aucun a contre ung aultre lectres de jugié et condempnation scellées de scel de court séculière, il peut requérir au sergent du bailliage de mectre à exécution contre celuy qui est condempné par ledit jugé ou contre son héritier ou universel successeur jusques à la somme contenue en icelluy jugié, et lors le sergent luy doit noctiffier et faire assavoir ladicte requeste et luy doit faire lecture desdictes lectres de jugié et le sommer de soy opposer ; et s'il dit qu'il aura advis ou qu'il s'oppose ou ne sonne mot, lors le sergent doit mectre en main de court de ses biens jusques à la quantité requise contenue audit jugié et bailler adjoumement devant son juge.</p>
+<p n="17"> Mais si ledit sergent et la court dont il est sergent n'avoit cognoissance de sceaulz à contraitz, et s'il y a opposition et non aultrement, la cause doit estre remise devant le juge qui immediate a seaulx à contraitz et est immediat souverain d'icelluy par devant qui la requeste a premièrement esté formée. Et à icelle court souveraine doit icelle requeste prendre fin.</p>
+<p n="18"> Toutesfoiz l'on ne pourra dire que la requeste n'ait bien esté faicte à la court qui l'a remise ; aincoys s'il n'y a aultre argument sera prinse pour bien faicte et voire en pourra icelle première court congnoistre jusques à ce qu'il y ayt opposition .</p>
+<p n="19"> Et si la partie respond expressément qu'il ne se veult point opposer, le sergent peut faire l'exécucion en sondit bailliage et n'eust son maistre que basse jurisdicion.</p>
+<p n="20"> A faire tous lesdits exploix d'exécucion ledit sergent doit avoir ung tesmoing avec luy, sauf que s'il fait assavoir à partie
+<pb n="35"/>
+aucunes requestes ou applégemens ou adveuz par vertu de mandement 
+ou commission de juge, en celuy cas ledit sergent, soit ordinaire ou de bailliage ou aultre, sera creu de sondit exploict et de l'adjornement
+sur ce par luy baillé par simple relacion, et ne sera pas la partie adjournée receue à en fayre esgart.</p>
+<p n="21"> Mais si ledit sergent recoyt telles requestes de lectres ou applègemens 
+ou adveuz de son office en son bailliage, quant il les fait savoir à partie et luy baille adjournement, il ne sera pas creu dudit exploit par luy fait par sa simple relacion, mais doit avoir ung tesmoing 
+pour le moins, et en faire mencion en sadicte relacion. Et si autrement sur ce assigne lesdictes parties et l'une d'icelles veult faire esgart ou nyer ledit exploict, si le tesmoing n'est dillec présent pour le garentir, l'on le pourra faire venir au terme suyvent</p>
+<p n="22">Et peut un sergent à la requeste des parties consentens mettre et appouser bonnes entre deux fons en son bailliage.</p>
+		    </div>
+		    <div type="partie" n="3">
+ <head>DE CONSTITUER PROCUREURS ET DE LES RÉVOCQUER</head>
+<p n="23"> Celluy qui veult constituer procureurs par impotence, doit premièrement informer sommèrement son juge ordinaire que il est détenu de telle maladie perpétuelle ou febloisse de corps par vieillesse 
+ou aultrement qu'il ne puet et est présumption que jamais ne pourra bonnement traicter, poursuyr ne débatre en sa personne ses plaiz, causes et négoces. Et lors le juge de ce sommèrement informé
+<pb n="36"/>
+luy doit donner congié de faire et constituer procureurs par impotence, 
+ausquelx ledit constituant donne tel pouvoir que bon luy semblera, et ledit congié donné, peut constituer sesdits procureurs devant ledit juge, ou devant ung notaire ; et peut d'ilec en avant par ladite procuracion comparoir comme si présent y estoit soit en demandent 
+ou en deffendent ; mais si l'empeschement cessoit, la procuracion cesseroit.</p>
+<p n="24"> Ung procureur fondé seulement par procuration sans grâce peut requérir et faire bailler adjournement aux demandes de son maistre et aussi requerre lectres et jugiez estre mis à exécucion et faire monstrées et exécuter complaincte en cas de saisine et de nouvelleté 
+et toutes autres préparatoires de plet jusques ad ce que la cause soit devant le juge ; et aussi sera receu à demander asseurté en jugement sans grâce.</p>
+<p n="25"> Et peut l'on révocquer ses procureurs touteffoiz que l'on veulst, et eussent ores lesditz procureurs contesté la cause</p>
+<p n="26"> Si aucun a constitué procureurs, et depuys il face aultre procuracion, et constitue aultre procureur, par tant ne sont revocquez les premiers procureurs si expressément n'est dit. Et semblablement pour comparestre en personne ne sont revocquez les procureurs suppousé que l'on ne face protestacion de non les révocquer.</p>
+<p n="27"> A toutes manières de gens d'église quand les causes qu'ilz poursuyvent sont à cause de leurs béneffices et aussi à toutes gens d'église subgietz à reigle, soient lesdites causes touchant leurs bénéfices ou non ne convient point de grâce. Et semblablement povent comparoir par procureurs sans grâce femmes vefves, collèges, communautez, fabriciens, tuteurs, curateurs, ladres et autres misérables 
+personnes, et le mary pour sa femme.</p>
+<pb n="37"/>
+<p n="28"> En court laye, homme d'église quel qu'il soit n'est receu à soy fonder procureur pour aultre personne quelle qu'elle soit, fors en cause d'église dont il seroit de collège ou religieux, esquelles il sera receu procureur et aultrement non. Et ne reçoit l'on en court laye les procuracions ecclesiastiques passées par notaires imperiaulx ou soubz court ou seel d'église, si ce n'est au regart des évesques et chappitres, abbayes et prieurés conventuelz, desquelz l'on reçoit les procuracions par eulx passées en leurs chappitres ou convents soubz leurs seaulx touchant leurs causes seulement.</p>
+		    </div>
+		    <div type="partie" n="4">
+		        <head>DE BAILLER ADJOURNEMENS ET QUELLES PERSONNES EN SONT CAPPABLES</head>
+<p n="29"> L'on puet en tous cas à aucun bailler adjournement en sa personne si apprehendé puet estre ou à son domicille par cédule atachée à la porte contenant ledit adjournement, et en matière civille en la personne de sa femme ou de son fils aisné aagié et demourant 
+avecques luy, ou de son procureur fondé en la cause, et à la femme en personne de son mari.</p>
+<p n="30"> Et aussi en matière civille puet l'on bailler adjournement en jugement à aucun en personne d'icelluy qui l'exoine par ainsi qu'il soit de la famille de l'exonié.</p>
+<p n="31"> Adjornement puet estre baillé au curé d'aucune église, et semblablement à aultre personne bénéficier d'aucun bénéfice ou chappelle en la personne de son vicaire ou fermier, ou d'icelluy qui sert ledit bénéfice par cédule atachée à la porte de l'ostel et domicille 
+dudit bénefice .</p>
+<pb n="38"/>
+<p n="32"> Si et quant aucun est adjourné en la personne d'icelluy qui est capable d'adjournement ainsi que dit est dessus, et ne obeist ne comparest au terme assigné, et ledit capable d'adjournement en personne de qui il a esté ainsi adjourné comparoist en jugement et certiffie par serment que depuys ledit adjournement baillé il n'a veu celuy qui ainsi a esté adjourné en sa personne ne parlé à luy et que pour ce ne luy a peu faire savoir ledit adjournement, il ne sera pas mys en deffault, et sera adjourné de rechief à ung aultre terme.</p>
+<p n="33"> Mais si ledit adjournement estoit baillé à aucun en personne de son procureur fondé en la cause, ledit procureur ne sera pas receu à alléguer que depuis ledit adjournement il n'a veu son maistre ne parlé à luy. Et s'il ne veult comparoir pour sondit maistre, iceluy son maistre sera mis en deffault et pourra estre adjourné sur deffault en la personne de sondit procureur.</p>
+<p n="34"> Adjournement pour donner asseurté n'est pas vallable quant à avoir deffault s'il n'est baillé en la personne de celluy de qui l'on la veult avoir ou par cédule atachée à la porte de son domicile. Mais si aucun de qui l'on requiert asseurté est présent en jugement, ou son procureur aiant pouvoir ad ce par sa procuracion, soit adjourné ou non, il sera contraint et semblablement sondit procureur à donner ladite asseurté, et ne fust-il ores subject de la court en laquelle l'on demande ladite asseurté estre donnée. Et ad ce sera contrainct par prinse de corps et detencion de ses biens. Et ondit cas que ledit procureur donneroit ladite asseurté, le juge luy doit donner terme compectent pour le faire assavoir à sondit maistre, ainsi que ledit juge verra estre à faire selon la distance des lieux.</p>
+<pb n="39"/>
+<p n="35"> Adjournement d'asseurté doit estre baillé formellement pour donner asseurté, ou aultrement il n'est pas vallable quant à avoir deffault ; et aussi en cause de retrait, l'on doit bailler adjournement formel pour venir procéder en cause de retrait, et sur reffus d'or ou d'argent ; et semblablement en causes de requestes, applègemens, complaintes, causes d'appel ; et pour dire si et pour quelle partie l'on est heritier d'aultre ; et pour reprandre ou reppudier ; et pour dire si et pour quelle partie l'on tient en aucun tènement ; et pour venir cognoistre ou nyer le merc seel ou escripture ; ou aultrement en cas susdits partie ne seroit tenue à aller avant.</p>
+<p n="36"> Si et quant aucun demandeur dit qu'il a fait bailler adjournement 
+à sa partie adverse par sergent, et sa dite partie dit et afferme qu'elle n'a ouy ne entendu ledit adjournement, en ce cas icelle partie ne sera tenue d'aller avant, et se sauvera par tel esgart. Mais si le sergent qui relate avoir baillé ledit adjournement le veriffie par ung tesmoing en jugement qui tesmoigne avoir ouy ledit adjournement, ladite partie yra avant, et ne se sauvera point par esgart. Et aussi ne se sauvera pas par esgart si ledit sergent avoit baillé ledit adjournement 
+par vertu de mandement ou commission de juge; et en sera creu ledit sergent par sa relacion sans tesmoing.</p>
+<p n="37"> Et pareillement sera receu ledit demandeur à dire et affermer par serment qu'il n'a point requis d'adjournement contre le deffendeur; et si ledit deffendeur ne preuve ou veriffie par ung tesmoing comme le demandeur a requis ledit adjournement, et il n'ait esté faict par vertu de mandement ou commission comme dessus, le juge en envoyera les parties, tant au regard du demandeur que du deffendeur touchant les adjournements susdits; et si ledit sergent n'est présent en jugement pour relater ou veriffier lesdit adjournements il ne sera point actendu.</p>
+<p n="38"> Mais la partie qui seroit accusée d'avoir adjournement sur deffault et o jugement ou plus grief baillé par le sergent soit demandeur ou deffendeur ne sera pas receue à en faire esgard, mais le doit nyer ou confesser. Et s'il est nyé et soit preuvé par le sergent et deux tesmoings présentement en court, il demourra en force et vertu en toute la cause, et la partie qui fait ladicte nyance sera condemp-
+<pb n="40"/>
+née en amande simple envers la court et en despens envers partie. Et si l'adjournement grief n'estoit prouvé, ladite partie qui le nye ne procèdera point en cause pour icelle journée si elle ne veult. Et quant le demandeur a une fois comparu en court en sa demande, il ne sera plus receu à dire qu'il n'a point requis adjournement.</p>
+<p n="39"> Et le demandeur ne doit estre receu à faire esgard qu'il n'ait requis ledit adjournement, mais le doit nyer. Et s'il nyoit, et le deffendeur 
+soit présent, et il ne le vueille prouver présentement, les demandeur 
+et deffendeur en seront envoyez. Et si le sergent n'estoit présent ou que l'on n'ayt relacion de luy, le sergent ne sera point actendu, et le juge en doit envoier les parties; et quant le deffendeur a comparu une foiz en la cause par luy ou autre, il ne sera plus receu à excepter d'ajournement.</p>
+<p n="40"> De tout adjournement qui est baillé en court à la requeste d'aucun, et le deffendeur veult excepter qu'il n'a point d'adjournement, 
+ledit demandeur en doit enseigner par escript par le procès ou registre d'icelle court, ou aultrement le deffendeur ne sera tenu d'aller avant en la cause.</p>
+		    </div>
+		    <div type="partie" n="5">
+		         <head>DE DEMANDER ET AVOIR CONSEIL</head>
+<p n="41"> Quant aucun a plait ou adjournement devant aucun juge et il n'a conseil pour soy conseiller, car par avanture ilz sont avecques sa partie adverse, il puet requerir au juge du conseil par provision ou distribucion. Et s'il demande conseil par provision, le juge doit commander à la partie qui est garnie de conseil qu'elle en preigne ; et lors celuy qui est garni en puet prendre et eslire deux conseillers qu'il luy plaira s'il y en a jusques à trois ou plus. Et celuy qui demande ladicte provision en prandra après jusques à ung ou deux si tant y en a en ladicte court. Et s'ilz n'estoient en ladicte court que deux
+<pb n="41"/>
+conseillers ou advocatz qui fussent tous deux avecques la partie qui est pourveue de conseil, l'aultre partie qui demande conseil en aura l'un par ladicte voye de provision.</p>
+<p n="42"> Aussi puet l'on demander et avoir conseil par ladicte voye de distribucion. Et lors celuy qui est garny de conseil prandra le premier ung seulement lequel luy plaira ; et celluy qui demande distribucion 
+prendra après l'aultre du conseil lequel luy plaira. Et ainsi procèderont tant qu'il y aura conseil si tant en voulent prendre. Et prend l'on en ladite distribution aussi bien les conseillers ou advocatz 
+absens comme présens, et nonobstant que l'on ait du conseil par manière de provision, l'on pourra demander et avoir distribution, mais l'on n'aura distribution que une fois en la cause, si ce n'estoit en achevant ladite distribution ; car supposé que l'on eust prins distribution 
+et se fust l'on arresté de plus prandre, et depuis aultres conseillers sourvenoient à notice ou aultrement qui n'auroient esté prins en ladicte distribution, la partie qui en vouldra avoir pourra requérir que ladicte distribucion soit parachevée, et sera regardé qui avoit prins le dernier, car l'aultre prandra le premier en parachevant ladicte distribucion.</p>
+<p n="43"> L'on puet demander et avoir distribution de conseil tant d'avocatz que procureurs supposé que plait ne pande encores : c'est assavoir quant aucun entend avoir plait contre aultre, et il ne puet trouver conseil qui vueille estre avecques luy par aventure pour amour, faveur ou crainte de sa partie adverse ou autrement, il puet venir par devers le juge et luy donner entendre comment il espère avoir plait et débat contre tel, et qu'il ne puet finer de conseil. Lors le juge doit commander que partie adverse soit adjournée à la requeste dudit requérant pour venir veoir prandre distribution de conseil en ce qu'il entend avoir à faire contre luy. Et s'il ne veult venir pour ledit adjournement, le juge ordonnera du conseil à la partie requérant, si comme ledit juge voirra estre à fayre. Et compellera 
+ledit conseil par les voyes raisonnables d'estre avecques ladicte partie.</p>
+<p n="44"> Ladicte partie qui ainsi veult avoir du conseil puet requérir au sergent sans aller premièrement au juge de bailler adjournement contre celluy qu'il veult mectre en cause pour venir veoir prandre distribucion de conseil en la court en laquelle il veult intanter sa cause
+<pb n="42"/>
+ou procès ; ou s'il trouve sa partie adverse en la court ou le procureur d'icelle partie adverse qui pour lors a charge et poursuyte d'autre cause ou causes pour icelle partie en ladicte court, il puet requérir et avoir ladicte distribucion sans adjournement.</p>
+<p n="45"> Le juge puet par privacion d'office d'advocation en sa court et par paines ou multes contraindre ceulx qui sont à la distribution ou à luy baillez pour provision d'estre à sa cause et à son conseil, en les paiant par icelluy qui les a requis avoir à son conseil, soit oultre contre leurs maistres avecques lesquelx ilz sont de pension ou contre leurs parens et aultres s'ilz n'estoient telx que de raison en seroient excusez.</p>
+		    </div>
+		    <div type="partie" n="6">
+		        <head>DE PRANDRE ET AVOIR DILACIONS EN CAUSES</head>
+<p n="46"> En toutes causes si elles ne sont criminelles esquelles l'on procède 
+extraordinairement ou d'injure dicte en court ou aultre qui requiert sommaire cognoissance de cause comme seroit en matière d'alimens, d'actions de tutelles et curatelles et aultres semblables, l'on puet demander et avoir une seule foiz en ladicte cause actende de conseil, et l'aura l'on duquel homme que l'on vouldra nommer soit advocat ou aultre.</p>
+<pb n="43"/>
+<p n="47"> Un aultre delay puet l'on avoir une foiz en la cause, qui est appelé déliberation ou dilacion de conseil, fors ès cas exceptez en prouchain précédent article. Toutes voyes ès grans assises notables dudit pays comme ès assises du senneschal de Poictou et ès grans assises de Thouars, Parthenay, Vouvent et aultres lieux où il y a grans et petites assises, n'est point baillé en ladite grant assise ledit deslay de déliberation ou dilacion de conseil.</p>
+		    </div>
+		    <div type="partie" n="7">
+		        <head>DE DEMANDER ET AVOIR GARENS OU ASSISTEURS EN CAUSE</head>
+<p n="48"> Quant aucun est convenu en action personnelle de chose qui soit de son fait, promesse ou obligacion ou de celluy dont il est héritier, 
+et il requiert d'avoir garent pour ce qu'il dit que celluy qu'il demande à garent estoit tenu de l'acquiter ou payer pour luy ou chose semblable, il aura ung seul délai pour le sommer de soy assister avecques luy en la cause pour l'instruire de ses deffenses et demourra tousjours en procès, et n'aura aultre delay ne garent formel pour le mectre hors de procès, et s'appelle communèment ledit delay sommacion 
+de garent.</p>
+<p n="49"> Et semblablement le demandeur en toutes causes soient personnelles 
+ou réelles pourra avoir un délay pour sommer et requérir celluy duquel il se dit avoir droit pour assister avecques luy en ladite cause pour l'instruire.</p>
+<p n="50"> Et si le deffendeur propose exceptions du fait de celuy dont ledit demandeur se dit avoir droit, desquelles exceptions le demandeur ne saurait respondre, et toucheroit celluy qui seroit advohé, sera
+<pb n="44"/>
+ledit assisteur receu à soy joindre avecques ledit demandeur en la cause, et procèdera l'on ensemble contre icelluy demandeur et contre icelluy qu'il a demandé garent ou assisteur ; et si celluy qui ainsi seroit sommé ne vient assister, celuy qui l'a requis en sera forclus et payera despens par procès retardé par forme de préjudice, soit le demandeur ou le deffendeur.</p>
+<p n="51"> En demandes et actions réelles, le deffendeur puet demander monstrée et voir la chose de quoy est débat, ou puet demander déclaracion 
+si la chose ne requiert monstrée comme seroit en rentes. Et à l'assise ou terme après ladicte monstrée ou déclaracion jugée, si ladicte monstrée ou déclaracion est faicte, ledit deffendeur puet demander 
+et avoir garens si avoir les veult. Et lors aura le premier délay de les avoir jusques à l'aultre assise ou terme ensuyvant. Et si à l'aultre assise ou terme prouchain il n'a sesditz garens, il pourra avoir le segond délay de les avoir.</p>
+<p n="52"> Mais si ladicte action réelle estoit du propre fait et obligacion du deffendeur comme seroit une ypothèque et obligacion de ses biens ou aultre action réelle de son fait, il pourra avoir ung seul délay pour sommer celluy ou ceulx qu'il vouldra pour assister avecques 
+luy en ladicte cause, et n'aura pas garent formel. Autre chose seroit de son héritier, car il pourroit avoir garent en ladicte action réelle comme auroit aultre personne estrange.</p>
+<p n="53"> Quant aucun demande à avoir garent en ce en quoy il le doit avoir, et ledit garent ou assisteur est présent en court, celuy qui le requiert à garent ou assisteur le puet sommer et requérir de prandre le gariment ou deffence ou soy assister. Et s'il ne le veult faire ny procéder en la cause, il n'aura point d'aultre délay pour l'avoir. Et si ledit deffendeur requiert et somme ledit garent ou
+<pb n="45"/>
+assisteur, si c'est en cause réelle en quoy cheoit garent ou assisteur, ledit garent puet demander et requérir sans estre receu à excepter d'adjournement à veoir les lieux de quoy est débat, et luy sera monstrée 
+jugée à faire de la partie d'iceluy qui le requiert à garent. Et si luy ou son procureur fondé en ladite cause respond qu'il n'en prandra aucun gariment, ou qu'il aura advis, ou qu'il fera ce qu'il devra, ou fait aultre response sonnant délay, celluy qui le requiert à garent yra avant en cause et puet fayre ses protestacions contre celluy qu'il requiert à garent qui ainsi luy deffault de gariment d'en avoir recours contre luy.</p>
+<p n="54"> Et si celluy que l'on requiert à garent ne est pas présent en court, mais y est présent son procureur fondé, en aultres causes en icelle court, et qui poursuyt aultres causes pour lors pour sondit maistre, l'on le pourra présentement sommer de prandre ledit gariment, 
+et courra le premier delay de garent dès lors sans aultre adjournement.</p>
+<p n="55"> Mais si ledit procureur n'a pour lors charge et poursuyte d'aultres causes pour sondit maistre en ladite court, ou face serment qu'il n'a point de procuracion pour sondit maistre, celluy qui le requiert à garent aura les delays susdits, et ne courra le premier délay pour ledit terme. Et si celluy qui le requiert à garent demandoit 
+delay d'actende de son conseil ou dilacion, il ne le doit avoir, ne pourtant la demande du demandeur ne retardera s'il ne veult.</p>
+<pb n="46"/>
+<p n="56"> Et ès cas susditz esquelx l'on requiert aucun à garent ou assisteur, si celluy que l'on requiert reffuse ledit gariment ou le veult prandre, il y a despens à partie pour procès retardé comme dessus est dit.</p>
+<p n="57"> Si celuy que l'on a requis avoir à garent à demandé à veoir les lieux, et au terme sur ce assigné se deffaille, celluy qui l'a demandé à garent aura audit terme ensuyvent le second delay de l'avoir à garent. Mais si c'estoit que le garent fust présent et refusast de prandre le gariment ou que celluy qui le requiert à garent eust aultreffois eu le premier délay, il n'aura plus de délay et en sera forclus comme dessus.</p>
+<p n="58"> Quant aucun a prins le gariment ou deffense d'aucune cause, le jour ou terme qu'il le prand il procèdera en la cause pour la journée.</p>
+<p n="59"> Si aucun demande à son seigneur ou au juge de sondit seigneur la délivrance ou la recréance d'aucune chose saisie en atrayent aucun à garent, et ladite délivrance ou recréance luy est faicte, le premier delay d'avoir lesditz garents court dès lors.</p>
+<p n="60"> Et quant aucun prant le gariment d'aultre et celuy de qui le gariment est prins a eu actende, delibéracion ou dilacion ou aucuns d'iceulx délays, le garent ne les aura plus ; et pareillement s'il y a eu immixion, celle immixion vault contre le garent. Idem de tous aultres procès.</p>
+<pb n="47"/>
+<p n="61"> Et après adveu de garent et forclusion d'icelluy ou que le garent prant le gariment, l'on n'est receu à proposer aucune chose fors péremptoire de cause, si ce n'estoit que par procès l'on enseignast 
+qu'il eust esté accordé entre les parties que l'on seroit receu à dire encores après adveu de garent tout ce à quoy l'on puet estre receu par avant. <hi rend="ital">Et idem dicas </hi>si la monstrée est jugée à faire simplement 
+et sans salvacion de dire comme audit adveu de garent. <hi rend="ital">Simili modo </hi>quant les parties en aucune cause sont appointées contraires simplement sans dire à toutes fins.</p>
+<p n="62"> Si celluy que l'on a requis et demandé à garent va de vie à trespassement par avant le terme auquel l'assignation d'avoir ledit garent pendoit, ou par le contraire, c'est assavoir que celuy qui a requis à garent aille de vie à trespassement dedans ledit terme, iceluy terme et délay d'avoir garent ne courra point, et sera renouvellé 
+au terme ensuyvant à celuy qui a requis garent ou à ses héritiers.</p>
+<p n="63"> Quant celluy que l'on a demandé à garent prant le gariment et demande aultre garent, et de tous autres garents qui viennent après ledit premier, celluy qui requiert garent n'aura que ung delay sur ce.</p>
+		    </div>
+		    <div type="partie" n="8">
+		         <head>DE FAIRE MONSTRÉES ET DÉCLARACIONS</head>
+<p n="64"> Quant en aucune court monstrée est jugée à faire, et en ladicte court à pluseurs sergens et bailliages l'on ne puet faire ladicte monstrée 
+ou déclaration fors devant le sergent du bailliage ouquel est assise la chose que l'on veult monstrer ou par devant le sergent
+<pb n="48"/>
+général s'il y a sergent général en ladicte court ou jurisdiction, si par le procès ou registre n'estoit commis à tous et chacuns les sergens d'estre présens à fayre ladicte monstrée, et celle clause <quote> « nonobstant que ce ne fust en leur pouvoir ou bailliage ».</quote> </p>
+<p n="65"> Si aucun a fait bailler assignation à sa partie adverse pour veoir faire la monstrée, celluy qui veult faire ladicte monstrée se doit comparoir pardevant ledit sergent au jour, lieu et heure assignés. Et si partie adverse n'y vient, il puet et doit en absence d'icelluy deffendeur faire ladite monstrée au sergent, et vauldra comme si c'estoit en présence de partie. Et n'y a aucuns despens pour cause dudit deffault pour ce que le deffault n'est point retardé. Et les sergens 
+des bailliages qui ont rolles, mesmement ceulx des grans assises, pevent faire les monstrées des causes estans en leursdits rolles sans ce que partie qui la doit faire enseigne de procès de l'adjudication d'icelle monstrée à partie jusques au jour du plait.</p>
+<p n="66"> Et si celluy qui doit fayre ladicte monstrée ne la fait dedans l'assise ou terme assigné ou n'a fait diligence de la faire et par luy soit demouré que ladicte monstrée ne fust faicte, il payera despens sans amande pour retardement de procès. Et sera ladicte monstrée jugée à estre faicte et entérinée précisément et pour tous delays, diligent ou négligent. Et si elle n'est faicte dedans le terme suyvant, 
+il perdra l'instance et paira despens et amande ; et si après il veult poursuir ladite demande, il conviendra qu'il veigne par nouvelle instance.</p>
+<pb n="49"/>
+<p n="67"> Et quant le deffendeur requiert garens, et la monstrée est jugée à faire par ledit deffendeur audit garent, il n'est mestier que ledit demandeur soit présent s'il ne veult à faire ladite monstrée. Et si le garent semblablement n'y veult estre et se deffault, incontinent ledit deffendeur la doit faire audit sergent et s'il ne la fait et par luy soit demouré qu'elle ne soif faicte, il payera despens sans amande et n'aura plus de délay de la faire.</p>
+		    </div>
+		    <div type="partie" n="9">
+		        <head>DE DÉCLINER DE SIÈGE ET DE JUGE</head>
+<p n="68"> Quand aucun noble en action personnelle ou homme d'église à cause des choses de son bénéfice est convenu devant ung juge chastellain ou prévost par dessus lequel y a senneschal et grant assise, il en puet décliner en disant qu'il est noble homme ou homme d'église en requérant estre renvoyé devant ledit seneschal qui est juge souverain sans moyen dudit chastellain ou prévost si aultrement les chastellains ou prévosts n'avoient acoustumé d'ancienneté d'en cognoistre.</p>
+<p n="69"> Et semblablement en action et demande réelle qui soit de chose noble et noblement tenue ou de chose d'aucun bénéfice de homme d'église, ledit noble ou homme d'église puet décliner et requérir estre renvoié devant le senneschal comme dessus est dit. Et aussi si l'action estoit de chose rousturière comme de cens non paiez ou aultre action touchant jurisdicion, ou que ledit noble ou homme d'église eust prins gariment de personne rousturière ou de demande rousturière touchant jurisdicion, il sera renvoyé à la grant assise si aultrement l'on n'a acoustumé d'en cognoistre d'ancienneté comme dit est. Et si ledit noble ou homme d'église prenoient <hi rend="ital">a capite </hi>sur la deffence d'aucun en aucune cause, ilz seroient renvoyez à ladicte grant assise.</p>
+<pb n="50"/>
+<p n="70"> Mais si ledit noble ou homme d'église a prins le gariment de personne ou de chose rousturière qui ne touche jurisdicion, il ne sera point renvoyé à la grant assise.</p>
+<p n="71"> Si aucun, soit presbtre ou clerc, ou aultre personne d'aultruy jurisdicion fait ou dit injure en jugement au juge ou à aucune autre personne, il en respondra promptement devant le juge devant lequel est faicte ou dicte ladicte injure, et ne sera receu à en décliner ne excepter d'ajournement, et n'aura actende ne aultre délay pour celle journée, mais ès aultres journées il pourra avoir les deslays comme ès aultres causes.</p>
+<p n="72"> Si aucun a fait aucun contrait ou marché en lieu ou terre dont il n'est de jurisdicion, et après soit débat dudit contrait ou marché, pourtant ne respondroit-il pas devant le juge du lieu où aura esté fait ledit contrait ou marché, et il y seroit mal convenu : car par la coustume <hi rend="ital">ratione contractus non sortitur quis forum, </hi>si ce n'estoit en contrait de chose personnelle et que promptement en fust débat, et que il fust adjourné luy estans encores en ladicte jurisdicion en laquelle estoit fait ledit contrait ou marché, et avant qu'il fust départi d'icelle jurisdicion, comme souvent advient aux foyres et aux marchés 
+des débatz qui sourviennent entre marchans qui promptement se font adjourner, et en cognoist l'on sommèrement de quelque jurisdicion qu'ilz soient.</p>
+<p n="73"> Toutesfoix si aucun s'estoit soubzmis à aucune jurisdicion dont il n'est subgiect, il n'en puet pas décliner ne s'en traire de luy, ne pareillement son héritier, mais celluy de qui il est subgiet en puet bien demander le renvoy ou obeissance, car le subgiet ne puet sur luy atribuer jurisdicion en préjudice de son seigneur à celuy qui ne l'auroit. Et s'il est forain, il doit donner caucion de obéir à droit à l'arbitrage du juge.</p>
+<p n="74"> Si aucun d'aucune chastellenie est convenu à la prévosté ou plaiz du seigneur souverain d'icelle chastellenie dont il est de ressort aussi comme si ung de la chastellenie de Thouars estoit
+<pb n="51"/>
+convenu à la court ordinaire de Poictiers ou à la prévosté de Poictiers en action personnelle ou en action réelle de chose estant en la chastellenie 
+dont est le deffendeur, il est mal convenu et puet requérir estre renvoié à ladite grant assise dudit seigneur souverain s'il veult, et y aura amande et despens contre celluy qui ainsi l'a fait convenir follement.</p>
+<p n="75"> Mais à la court ordinaire de Poictiers l'on cognoist par prévencion de tous seelz de court séculière contre quelxconques personnes 
+et choses dudit pays de Poictou, et supposé que icelles personnes 
+et choses ne soient pas du ressort de Poictiers, mais que l'on veigne par voye de requeste personnelle et ypothecque sur exécucion, et ne pouvent ceulx qui là sont convenuz estre mal convenuz.</p>
+<p n="76"> Toutesfoiz les seigneurs chastellains dont lesdiz convenuz sont de chastellenie ou ressort en pouvent demander le renvoy et obéissance quant la requeste est ypothecque seullement, et quant les choses demandées par ypothecque sont toutes en leurs jurisdicions, 
+ou que le convenu dit qu'il n'entend à débatre les choses demandées fors les choses qui sont en la jurisdicion d'icelluy qui demande l'obéissance.</p>
+<p n="77"> Et si ce estoit en aultres causes que de requeste, le convenu puet de ce décliner, et requérir estre renvoyé au siège du senneschal de Poictou dont il est de ressort, et doit avoir despens contre celluy qui l'a fait convenir, et y a amande à la court <hi rend="ital">et sic de similibus. </hi>Aultre chose seroit si aucun est convenu en aucune court au siège
+<pb n="52"/>
+dont il ne fust subgiect ou de ressort aultre que du senneschal de Poictou, car esditz cas il en puet décliner et sera renvoié à son siège et par devant son juge et y a despens à partie et amende à la court.</p>
+<p n="78"> Et semblablement quant aucun est convenu de quelque action que ce soit et de requeste personnelle ou ypothecque sur exécucion 
+en aucune court ou siège dont il n'est subgiect ou de ressort aultre que du senneschal de Poictou, il en peut et sera renvoyé à son siège ou pardevant son juge, et y a despens à partie et amande à court.</p>
+<p n="79"> Et s'il advient que en ladicte court ordinaire de Poictiers aucun face requeste personnelle et ypothecque ensemble ou requestes personnelles et demandes simples personnelles ou ypothecques déppendant 
+desdictes requestes personnelles, pour ce que ladicte court a droit de retenir la cognoissance de ladicte requeste personnelle par le privilège d'icelle et sans en rendre ne faire aucun renvoy ne obéissance, en ce cas icelle court aura semblablement la cognoissance de ladite requeste ypothecque deppendant de ladicte requeste ou requestes personnelles sans en faire ne rendre aucun renvoy ne obéissance.</p>
+<p n="80"> L'on puet sur ung cheval ou aultre chose meuble faire adveu ou applègement, esquelx adveu ou applègement choit sequestracion selon la coustume. Et si ung presbtre ou clerc non marié se contradvouhe 
+ou contrapplège à l'encontre dudit adveu ou applègement, il est tenu respondre et procéder à la court laye en laquelle a esté fait ledit adveu ou applègement, et ne sera receu à en décliner.</p>
+<p n="81"> Tout clerc non marié ou prestre qui est tenu en arrérages de rentes soient lesdictes rentes par raison de chose réelle ou personnelle respondra et procèdera en court laye pareillement que serait tenu faire ung homme lay.</p>
+		    </div>
+		    <div type="partie" n="10">
+		       <head> DE DEMANDER ET AVOIR RENVOYS ET OBEISSANCES ET DE LES EMPESCHER</head>
+<p n="82"> Le subgiet qui est convenu à la court de son seigneur souverain soit en action réelle ou personnelle n'est point mal convenu quelxcon-
+<pb n="53"/>
+ques vassaulx ou moyens qu'il y ait entre ledit seigneur et ledit subgiect, et ne s'en puet traire ledit subgiect de luy ne décliner si ce n'estoit comme dessus est dit qu'il fust de ressort et fust convenu à la prévousté, plaiz ou petite assise dudit seigneur souverain dont il est de ressort et non à sa grant assise .</p>
+<p n="83"> Mais s'il est de ressort et soit convenu à la grant assise du seigneur souverain ou à la grant ou petite assise du senneschal dont il est de chastellenie, celluy de qui le subgiet est homme et fait le moyen et est tenue la chose de luy en puet demander l'obeyssance, et luy doit estre rendue en l'estat que est la cause quant il l'a demandé, voyre et fust ladicte cause preste à juger.</p>
+<p n="84"> Toutesfoix si le deffendeur est convenu devant un juge royal, et la cause est contestée devant ledit juge royal, ledit juge ne rendra point l'obéissance de ladite cause, et ce est par privilège du Roy. Mais quant la comté de Poictou est hors des mains du Roy, ledit privilège n'a aucun lieu.</p>
+<p n="85"> Quant deux vassaulx dont l'un est subgiect de l'aultre sont concurrens à demander une obéissance, elle doit estre rendue à celluy qui est le plus près du fons et du subgiect de quoy est débat, et si aucune obéissance a esté rendue à aucun vassal et il a aultre vassal soubz luy de qui la chose est tenue ou que l'omme soit levant et couchant en son fief noble et l'action soit personnelle, il la luy doit rendre semblablement.</p>
+<p n="86"> Mays si l'obéissance de ladite cause est contendue entre deux vassaulx en jugement et en entreprenent procès à ceste occasion, le
+<pb n="54"/>
+seigneur devant lequel pend ladite cause cognoistra et déterminera de ladicte cause pendant ledit procès d'entre lesditz deux vassaulx et nonobstant icelluy, et si l'un desdits vassaulx obtenoit contre l'aultre pendent ladite cause du principal, l'obéissance luy en sera rendue.</p>
+<p n="87"> Si aucun fait contre aultre requeste sur exécucion par vertu de lettres et jugiez ou applègemens à la court d'aucun vassal qui est cappable, celuy contre qui est faicte ladicte requeste ou applègement se puet s'il veulst oppouser ou contrappléger à la court ou assise du seigneur souverain de ladite court à laquelle sont faictes lesdites requestes ou applègemens, comme si lesdites requestes et applègemens 
+estoient faiz à la court de Thouars, l'on se puet oppouser ou contrappléger aux grans assises de Poictiers et <hi rend="ital">sic de similibus.</hi></p>
+<p n="88"> Mais quant viendra au jour du plait, le vassal à la court duquel ont esté faictes lesdictes requestes ou applègemens en puet demander le renvoy ou obéissance ; et aussi la partie qui a faict ladicte requeste ou applègement puet requérir avant montrée faicte que la cause soit renvoyée audit lieu où a esté faicte ladicte requeste ou applègement. Et y doit ladite cause estre renvoyée, et l'obéissance rendue audit seigneur, sans ce que partie demanderesse doyve estre ne soit contraincte 
+de faire monstrée à ladicte court souveraine.</p>
+<p n="89"> Et sera faict ledit renvoy ou obéissance non obstant que le deffendeur ou procureur de la court deissent ou allegassent que le demandeur ou la chose contencieuse ou contendue n'estoient pas subgiectz dudit vassal à la court duquel ont esté faictes lesdites requestes ou applègemens. Car puys que ledit vassal a esté premier saisi de la cognoissance de la cause, il cognoistra si ledit deffendeur est bien ou mal convenu devant luy et se prononcera juge ou non juge s'il n'y avoit aultre chose qui l'empeschat comme pourroit estre exemption du deffendeur par appel ou aultre cause par laquelle l'on pourroit faire évoquer la cause à la court souveraine si elle estoit
+à la court dudit vassal.</p>
+<pb n="55"/>
+<p n="90"> Et si ladicte requeste est faicte en la court ordinaire de Poictiers pour ce que ladicte court est cappable et a rétencion desdictes requestes 
+comme dessus est dit, ledit deffendeur ne se puet ne doit opposer ailleurs que à ladicte court ordinaire.</p>
+<p n="91"> Le seigneur comte, vicomte ou baron ne rend aucunement à ses vassaulx ou subgiets l'obéissance des demandes personnelles touchant meubles esquelles le demandeur maintient par son libelle que le deffendeur luy a promis faire rendre ou poier ce qu'il demande par la foy et serment de son corps. Et en retient la cognoissance par prévencion quant foy de corps est maintenue avoir esté faicte de la propre personne du deffendeur. Aultre chose seroit qui la proposeroit du prédécesseur dudit deffendeur. Mais aucun aultre seigneur, s'il n'est comte, vicomte ou baron n'a tel droit de retenir lesdites causes, aincoys les doyvent rendre à leurs subjectz qui en demandent le renvoy ou obéissance nonobstant ladite foy du corps.</p>
+<p n="92"> Si aucun en sa demande personnelle a proposé foy de corps, et par son enqueste quant elle est publiée et leue apparoit que ladicte foy n'est pas prouvée, si le vassal de qui est subgiect ledit deffendeur demande l'obéissance, il la doit avoir, supposé que l'enqueste soit leue et la chose preste à jugier. Mais ès courts de la senneschaussée de Poictou, il conviendroit que ladicte obéissance eust esté demandée par avant la litiscontestacion o protestacion faicte de l'avoir là où ladicte foy ne seroit prouvée en fin de cause. Et esditz cas la partie qui a indeuement propousé la foy du corps et ne la prouve en fera l'amande à la court et en sera tenu ès intérests de partie.</p>
+<p n="93"> Quant aucun fait demande à aultres des arrérages de rente personnelle, c'est assavoir de rente que l'on fonde seulement par la possession, promesse et confession du deffendeur ou de ses prédécesseurs, 
+et le demandeur ne conclud fors esditz arrérages, et maintient 
+que ledit deffendeur les luy a promys paier par la foy de son corps, le seigneur comte, vicomte ou baron devant qui est le plait
+<pb n="56"/>
+en puet retenir la cognoissance sans en rendre obeyssance. Aultre chose seroit si le demandeur concluoit à faire et continuer la possession 
+ou qu'il demandast lesditz arrérages de rente deuz pour raison des choses, car esditz cas l'on en doit rendre l'obéissance nonobstant lesditz foy et serment propousez et maintenuz.</p>
+<p n="94"> Gens d'église ou clercs non mariez portans habit et tonsure, femmes vefves, pupilles et leurs tuteurs ou curateurs pouvent en action personnelle touchant meuble faire convenir leurs deffendeurs devant les juges de qui les deffendeurs sont subgietz, suppousé qu'il y ait moyens, sans ce que obéissance en soit rendue, et en retiendra le juge la cognoissance par prévencion et par le previllège des dessusditz.</p>
+<p n="95"> Le vassal en sa personne ou par son procureur ou senneschal puet demander en la court de son souverain le renvoy ou obeyssance de son subgiet ou de la chose qui est en et de son fief et jurisdicion dont il a et puet avoir la cognoissance. Et si et quant ledit senneschal demande ladite obéissance et elle est débatue ou empeschée, il pourra procéder et fayre pour ledit vassal son maistre le procès de ladite journée 
+et non plus. Et si le plait ou débat n'est fini ledit jour, il conviendra au terme suivant et aux autres jours que ledit vassal pour lequel on demande ladite obéissance ou procureur pour luy y soit, car ledit senneschal ne seroit plus receu après la première journée qui par luy est demandée pour ladite obéissance.</p>
+<p n="96"> Quant en aucune terre a plusieurs seigneurs comme souvent advient qui ont leur jurisdicion par indivis, ung chacun d'eulx pour le tout puet et doibt estre receu à l'obéissance de son subgiect ou de son fons estans au dedans de ladicte jurisdicion pareillement que si tous lesditz seigneurs la demandoient ensemble, et la doit avoir supposé que les autres se teussent.</p>
+<pb n="57"/>
+<p n="97"> Et en telles obéissances demandées s'il en cheoit débat et procès entre le procureur de la court en laquelle ladicte obéissance est demandée et celuy qui la demande, en celuy cas le procès principal 
+doit retarder et demourer en suspens jusques à ce que ladicte obéissance soit déterminée.</p>
+<p n="98"> Mais si ledit procès touchant ladite obéissance demandée estoit entre deux parties autres que ledit procureur, le procès principal 
+ne retardera point et y procédera l'on tousjours ce non obstant.
+Et en telles matières d'obéissance demandée procèdera l'on sommèrement et n'y a que ung délay ou producion pour faire enqueste ne que ung deffault, et par ung deffault pert l'on sa cause.</p>
+		    </div>
+		    <div type="partie" n="11">
+		       <head> DE RESPONDRE ET PROCÉDER SANS ADJOURNEMENT</head>
+<p n="99"> Si celuy qui se doubte d'aucune personne trouve celuy de qui il a doubte devant le hault justicier ou son senneschal, il puet requérir seurté de luy en jurant le doubte. Et sera celuy de qui l'on requiert ladicte seurté contrainct de la donner nonobstant qu'il n'y ait adjournement précédent. Et semblablement il y sera contrainct sans procureur s'il estoit trouvé garny de procuracion par laquelle il apparoisse qu'il ait pouvoir de donner seurté. Et si ledit procureur est reffusant de la donner, le juge le puet contraindre 
+à ceste fin de exhiber ladicte procuracion et de donner ladicte seurté, et puet le juge arrester ou mectre en prison celui qui sera reffusant de donner ladicte seurté et mectre ses biens en main de court jusques à ce qu'il l'ait donnée.</p>
+<p n="100"> En accordement de procès ne convient point d'ajournement : c'est assavoir que quant dans une cause à aucun terme a esté fait aucun appoinctement et sur ce l'une des parties veult avoir son registre,
+<pb n="58"/>
+et le clerc ou greffier de ladicte court ne le veut marquer car par avanture il n'est pas recors ou ne l'a pas en registre, et celui qui veult ledit registre trouve sa partie adverse devant le juge devant lequel pand sa cause, jasoit ce que le terme ou journée du plait soit passée, il puet requérir sa partie adverse d'accorder ledit registre ou dire les causes du discort, et à ce sera compellé à y procéder nonobstant qu'il n'y eust adjournement sur ce.</p>
+<p n="101"> Aussi l'on puet demander et requérir distribucion ou provision 
+de conseil contre aucun qui sera trouvé en jugement avec lequel l'on espère avoir procès sans qu'il ait adjournement et sans qu'il en puisse excepter, item aussi puet l'on faire complaincte judiciaire en présence d'icelluy qui a faict le trouble, et procèdera l'on en la cause sans ce qu'il eust adjournement.</p>
+<p n="102"> Si ung sergent, procureur ou autre officier délinque en son office, il en répondra promptement sans adjournement. Idem en notaires <hi rend="ital">et in similibus. </hi>Et semblablement en respondra promptement celuy qui dit ou fait injure en court au juge comme dit est dessus.</p>
+		    </div>
+		    <div type="partie" n="12">
+		         <head>DE LA MANIÈRE DE PROCÉDER A DONNER SENTENCE
+PAR DEFFAULX ET CONSTUMACES, ET PREMIÈREMENT
+EN CAUSES SIMPLES</head>
+<p n="103"> En causes simples convient quatre deffaulx pour obtenir guain de cause et sentence par contumace. Et pour ce, quant aucun veult intenter aucune action contre aultre en cause simple, et il a fait adjourner son adversaire devant son juge à l'assise ou à jour nommé et l'adjournement est relaté par le sergent de bouche ou par relacion avoir esté baillé à partie adverse en sa personne ou en la personne d'aultre cappable d'adjournement, si celuy qui ainsi est
+<pb n="59"/>
+adjourné ne vient ou comparoist au terme assigné, le demandeur doit avoir deffault et sera donné en commandement de l'ajourner sur deffault et o jugement sur le premier deffault.</p>
+<p n="104"> Et si après le deffaillant est adjourné sur deffault et o jugement et au terme sur ce assigné il ne comparoit, il sera derechief mis en deffault, mais il convient que ledit adjournement sur deffault 
+et o jugement soit relaté par le sergent comme dessus et garenti par deux tesmoigns qui tesmoignent avoir esté présens à bailler ledit adjournement.</p>
+<p n="105"> Si aucun est convenu à la requeste d'autre, et il comparoist en personne ou procureur pour luy, et il ne veult respondre ne aller avant en la cause, le juge le puet mectre en deffault.</p>
+<p n="106"> Et après ledit deffault ainsi donné dudit adjournement o jugement, le demandeur doit déclairer sa demande, et la quantité jusques à laquelle il conclud ou entend conclure, et doit faire serment 
+qu'il y croit avoir bon droit. Et si c'est en demande réelle, il doit déclairer la chose demandée, et mectre la confrontacion ou déclaracion en son registre, et à laquelle fin il entend conclure. Et après doit estre donné en commandement d'ajourner ledit deffendeur 
+défaillant en mesme forme que dessus, c'est assavoir sur deffault 
+et o jugement, et en oultre de ses biens tenuz en main de court et à veoir perdre saisine jusques à la quantité déclairée et jurée si la demande est personnelle ; et si la demande est réelle, les choses demandées tenues en main de court et en oultre à voir perdre saisine. Et puet l'on demander des biens dudit défaillant jusques à la quantité déclairée et jurée quant c'est action etdemande personnelle, ou les choses demandées quant l'action est réelle.</p>
+<pb n="60"/>
+<p n="107"> Et si dudit adjournement baillé audit deffendeur sur deffault 
+et o jugement et à veoir perdre saisine relaté et garenti comme dessus il ne comparoit au terme sur ce assigné, il sera mis en deffault dudit adjournement et sera donné en commandement de l'adjourner de rechief en semblable forme que dessus et en oultre o intimacion.</p>
+<p n="108"> Et si après ce il se deffault dudit adjournement o intimacion qui soit deument relaté par le sergent et garenti par deux tesmoings ou par le registre de la court, ledit deffault sera donné audit demandeur 
+o tout le prouffit qui s'en puet et doit ensuivre de raison et coustume; lequel prouffit doit estre déclairé par le juge s'il luy appert par registres et procès de ladite court lesditz deffaulx estre bien venuz et entretenuz et la demande avoir esté deuement déclairée et jurée comme dit est : c'est assavoir que ledit deffendeur n'est mais partie qui face à recevoir à défendre ladite cause et qu'il en est décheu et débouté comme constumax et que les conclusions du demandeur luy seront adjugées et acomplies ; et sera condempné ès despens dudit demandeur et ès amandes envers la court : C'est assavoir 
+une simple par chacun deffault et une pour le principal telle qu'il appartient selon la nature de la demande. Et en telles matières de constumaces n'est besoing que le demandeur face preuve de son droit.</p>
+<p n="109"> Et si aucun pendant le procès se fait exonier d'aucune cause raisonnable, ladite exoine vault default jusques à ce qu'elle ait esté veriffiée par le serment d'icelluy qui l'a envoyée ou de son procureur aiant pouvoir ad ce. Et sera joint ladite exoine non vériffiée et prinse pour deffault quant à constumace comme si ce fust deffault pur et absolu.</p>
+<pb n="61"/>
+<p n="110"> Toutesfoiz si ladite exoine estoit envoyée au dernier jour que l'on devroit perdre sa cause par contumace si l'on deffailloit absoluement, celuy qui ainsi se fait exoiner ne sera pas mis en contumace 
+s'il n'avoit injonction, mais sera donné en commandement de l'adjourner en semblable manière qu'il devoit estre audit jour, et ainsi sera fait à chacune exoine du terme duquel l'on perdroit la cause qui s'en deffauldroit absoluement jusques ad ce que injonction 
+luy ait esté faicte qu'il comparoisse en personne ou par procureur suffisemment fondé.</p>
+<p n="111"> Si ledit demandeur quant il a fait adjourner aucun se deffault, l'on procèdera semblablement contre luy quant à contumace comme contre le deffendeur. C'est assavoir que du premier deffault il sera adjourné sur deffault et o jugement, et s'il deffault dudit jour jugé garenti, prouvé et recordé comme dit est au regard du deffendeur, 
+il sera adjourné de rechief, son action ou droit de demander tenu en main de court et à voir perdre saisine. Et s'il se deffault dudit adjournement recordé et garenti, il sera adjourné o intimacion et dudit adjournement o intimacion preuvé et recordé comme dessus donra l'on sentence par constumace contre luy, par laquelle sera dit qu'il n'est mais partie qui face à recevoir à poursuir sa demande contre ledit deffendeur, et sera condempné ès despens dudit deffendeur 
+et ès amandes envers la court comme seroit ledit deffendeur.</p>
+		    </div>
+		    <div type="partie" n="13">
+	<head>D'ESTRE RECEU DEDANS L'AN ET JOUR A
+DEFFENDRE OU POURSUIR LA CAUSE APRÈS SENTENCE
+DONNÉE PAR DEFFAULX ET CONSTUMACE</head>
+<p n="112"> Si aucun demandeur ou deffendeur a tant defailli en cause simple que sentence par constumace ait esté donnée contre luy, il puet dedans l'an et jour venir par devers le juge et le requérir qu'il le reçoive à la défense ou poursuyte de ladite cause, offrans à paier les despens des deffaulx s'ilz sont bien venuz. Et lors ledit
+<pb n="62"/>
+juge doit donner en commandement d'adjourner celluy qui aura obtenu ladite sentence par constumace, et de luy faire assavoir ladite requeste. Et si ladite sentence n'est exécutée dedans l'an après l'an de la dacte d'icelle, icelluy deffaillant pourra estre receu à opposition contre l'exécucion d'icelle.</p>
+<p n="113"> Et si au jour sur ce assigné appert au juge que ladite sentence ait esté donnée par deffaulx bien venuz et entretenuz, ledit constumax 
+paira les despens desditz deffaulx sans estre receu à soy ensauver avecques les despens de la sentence si levée estoit, et aussi de l'exécution si faicte estoit, et tout ce paravant entrée de plait. Et sera l'adjournement o intimacion prononcé demourer en force et vertu en toute la cause, et ce fait pourra poursuyvre et deffendre la cause et y avoir ses dilacions raisonnables si paravant il ne les avoit eues.</p>
+<p n="114"> Mais si ladicte sentence ou deffaulx n'estoient bien venuz l'on sera receu à soy sauver des deffaulx tout ainsi que si ladicte sentence n'eust point esté donnée ; et procèdera l'on en la cause tout ainsi que l'on eust faict paravant ladite sentence donnée.</p>
+<p n="115"> Et si celluy qui ainsi après constumace est receu à la poursuite 
+ou deffense de la cause se deffault dudit jour o intimacion ainsi prononcé, il perdra la cause et ne sera plus receu à demander ne à deffendre.</p>
+<p n="116"> Quant aucun en cause simple a obtenu sentence par contumace, laquelle il a fait mectre à exécucion deuement au dedans de l'an partie présente, ou que ladite exécution soit venue à sa cognoissance, il se doit opposer dedans huyt jours après si opposer se veult ; aultrement il ne sera plus receu lesditz huyt jours passez.</p>
+<pb n="63"/>
+<p n="117"> En causes privilegiées comme sont causes de complainctes en cas de saisine et de nouvelleté, causes d'applègemens, causes de requestes par vertu de lectres et jugiez sur execucion et causes d'appel esquelles causes privilégiées ne convient que deux deffaulx bien venuz comme dit sera cy-après, si aucun pert sa cause par contumace, il ne sera plus receu à icelles causes poursuivre ou deffendre, soit le demandeur ou le deffendeur.</p>
+<p n="118"> Toutesfoys en toutes lesdites causes tant simples que privilégiées 
+avant que l'on donne sentence par constumace, l'on laisse passer tout le jour du dernier deffault. Si le deffaillant vient le jour après ledit deffault donné, en paient les despens dudit dernier deffault il sera receu à poursuir ou deffendre la cause tout ainsi que si ledit deffault n'eust point esté donné. Et pour ce mect l'on en procès et registres du dernier deffault que l'on esgardera la journée à passer.</p>
+<p n="119"> Mais si ledit dernier deffault estoit donné présent la partie, il n'y seroit plus receu dedans icelluy jour ne aultrement. Et si la partie n'y estoit présent en personne et son procureur qui estoit chargé de la cause y estoit présent, ledit procureur n'y sera semblablement point reçu si non que il face serment que depuys le dernier deffault il a eu nouvelles et instructions de son maistre sur ce, ou que son maistre mesmes y soit sourvenu en personne pour faire ladite opposition. Et esditz cas n'y a point journée esgardée à passer.</p>
+		    </div>
+   <div type="partie" n="14">
+ <head> DE FAIRE ADJOURNER LE HERITIER ET SUCCESSEUR DE CELUY QUI EST DECÉDÉ POUR REPRANDRE OU DÉLAISSER LES PROCÈS DE SON PREDÉCESSEUR ET COMME L'ON PUET DONNER SENTENCE PAR DEFFAULX ET CONSTUMACES EN LA MATIÈRE DE LADITE REPRINSE ET D'ESTRE RECEU AU DEDANS DE L'AN ET JOUR APRÈS SENTENCE DONNÉE A POURSUIR OU DEFFENDRE
+LA CAUSE</head>
+<p n="120"> Quant aucun héritier ou successeur est adjourné pour venir reprandre ou délaisser les procès et arremens faiz entre son prédé-
+<pb n="64"/>
+cesseur et celluy qui l'a fait adjourner, et la demande a esté déclairée contre ledit prédécesseur d'icelluy qui ainsi est adjourné pour reprandre, et d'icelle déclaracion appert par procès faiz en ladite cause comme si ladite cause estoit contestée ou que autresfoiz au jour à voir perdre saisine la demande eust esté desclairée, ou aultrement par procès faiz en icelle cause appert de ladite déclaration ; et celluy qui ainsi est adjourné pour reprandre ou délaisser se deffault en causes simples d'adjournemens o intimacion bien et deuement venu et entretenu, il perdra sa cause par constumace tout ainsi que eust fait son prédécesseur s'il fust vif et il se fust deffailly dudit adjournement o intimacion, et sera condempné ès despens.</p>
+<p n="121"> Et semblablement si celuy qui ainsi est adjourné pour reprandre 
+se deffault par deux deffaulx en causes privilégiées comme en causes de requestes sur exécution par vertu de lectres et jugiez, causes d'applègemens, complainctes en cas de saisine et de nouvelleté, 
+et en causes d'appeaulx, il perdra sa cause pareillement que eust fait sondit prédécesseur si durant sa vie il se fust défailly par deux deffaulx suffisaulment garentiz, mais qu'il apparoisse de la déclaration de la demande comme dit est dessus. Et si la demande n'avoit esté déclairée contre le prédécesseur d'icelluy qui ainsi est adjourné pour repprandre ou qu'il ne apparust aucunement de ladite déclaration par procès, si elle est desclairée en l'adjournement de la reprinse contre celluy qui ainsi est adjourné pour reprandre, et il se deffault en causes simples de jour o intimacion ou en causes privilégiées de jour o jugement, il perdra sa cause par constumace.</p>
+<p n="122"> Mais si en causes simples n'a esté desclairé la demande contre le prédecesseur d'icelluy qui ainsi est adjourné pour reprandre, en l'évocation de reprinse au jour à voir perdre saisine ou avant ou en causes privilégiées une foiz paravant le dernier deffault pour obtenir constumace, l'on ne doit donner aucune sentence pour ce qu'il n'appert aucunement de la déclaracion de la demande, fors en tant que le juge pourra bien condempner le constumax seulement ès despens faiz et soustenuz par icelluy qui a obéy en ladite cause.</p>
+<pb n="65"/>
+<p n="123"> Le juge qui veult donner sentence par deffault et contumace en matière de reprinse puet en la déclaracion du proufit desditz deffaulx user de telz motz ou semblables c'est assavoir : <quote> « Tel qui ainsi a esté adjourné pour reprandre ou délaisser les procès de son prédécesseur par le moyen desdits deffaulx et contumace n'est mais partie qui face à recevoir à reprandre ou délaisser lesdits procès... » </quote> et par ce, qu'il condempne <hi rend="ital">in petitis </hi> et ès despens du plait.</p>
+<p n="124"> Toutesfoiz celuy qui aura perdu sa cause par contumace en matière de reprinse puet en causes simples et sera reçu ce non obstant par le benéfice de la coustume à soy opposer contre la sentence 
+sur ce donnée au dedans de l'an pourveu que ladite sentence n'ait esté mise à exécution contre luy. Et sera l'adjournement o intimacion prononcé demourer en force et vertu en la cause pareillement 
+qu'il eust esté contre son prédécesseur s'il fust vif et durant sa vie, et il se fust laissé constumacer en causes simples et se fust opposé au dedans de l'an de la constumace, et eust esté receu à deffendre la cause, et le jour o intimacion eust esté prononcé.</p>
+<p n="125"> Mais ondit cas si après son décès son héritier est adjourné pour reprandre ou délaisser ses procès et en ladite reprinse il se deffault 
+de jour o intimacion, il ne sera plus receu à deffendre icelle cause néamplus que eust esté sondit prédécesseur s'il se fust deffailly dudit adjournement o intimacion. <hi rend="ital">Idem dicas </hi>du demandeur en l'adjournement de poursuir.</p>
+<p n="126"> Et au regard des causes privilégiées, si celluy qui est adjourné 
+pour reprandre ou délaisser les procès de son prédécesseur pert sa cause par deffault et contumace en ladite reprinse il ne sera plus receu à soy opposer dedans l'an contre la sentence par contumace 
+ne à deffendre namplus que eust esté son prédécesseur si en sa vie il se fust laissé constumacer en causes privilégiées comme dit est.</p>
+<p n="127"> Si l'éritier du demandeur est adjourné à poursuir ou délaisser la demande de son prédécesseur et en icelle évocacion il se deffault en causes simples d'ajournement o intimacion ou en causes privi-
+<pb n="66"/>
+légiées d'adjournement o jugement suffisaulment relatez et garentiz, il perdra sa cause par constumace pareillement que le héritier du deffendeur pourveu qu'il apparoisse de la déclaracion de ladite demande, car aultrement l'on ne donneroit pas sentence contre l'éritier du demandeur ne mais qu'il seroit condempné seulement ès despens faiz et soubstenuz en la cause par sa partie et ès amandes envers la court.</p>
+<p n="128"> Et est à noter en matière de reprinse que les procès faiz avec le deffunct n'ont point de lieu en ladicte matière de reprinse et ne se y joignent jusques ad ce que l'on ait reprins. Et après ce que l'on a reprins, soit l'éritier du demandeur la poursuyte ou l'éritier du deffendeur les procès de son prédécesseur, tous les procès faiz en ladite reprinse seront avallez et ne se joindront point à la cause principale fors et excepté les deffaulx comme dit est dessus. Et pour ce celuy qui est adjourné pour reprandre puet avoir actende de conseil et se faire exoiner en icelle reprinse posé que son précécesseur 
+eust eu actende de conseil ou se fust fait exoiner en la cause principale, et <hi rend="ital">sic de similibus. </hi>Toutesfoix lesdits procès de reprinse viendront en despens en fin de cause.</p>
+<p n="129"> Quant aucun demandeur va de vie à trespassement, il convient 
+que son héritier soit adjourné pour poursuir semblablement que l'éritier du deffendeur pour reprandre, ou autrement il ne sera point tenu de poursuir sans adjournement s'il ne vouloit.</p>
+</div>
+       <pb n="68"/>
+<pb n="69"/>
+<div type="partie" n="15">
+		    <head>DE LA MANIÈRE DE PROCÉDER A DONNER SENTENCE PAR DEFFAULX ET CONSTUMACES ÈS DICTES CAUSES PRIVILÉGIÉES. ET POUR L'ÉVIDENCE DE LA MATIÈRE EST A TRAICTER DE LA NATURE D'ICELLES : ET PREMIÈREMENT DES CAUSES D'APPLÈGEMENT.</head>
+<p n="130"> En Poictou, par la coustume du pais sont trois manières d'applègemens : c'est assavoir applègement de reffuz de pleige, applègement 
+de nouvelle succession ou eschoite, et applègement de tort de force et de nouvelle dessaisine.</p>
+<p n="131"> Et esditz applègemens quelx qu'ilz soient, la chose sur quoy l'on s'applège doit estre tenue en main de court réaulment et de fait dès ce que l'applègement est fait s'il est fait sur la chose ou qu'il soit baillé par escript à partie et adjournement baillé, auquel escript la chose soit confrontée et suffisemment desclairée nonobstant 
+appellacions ; et esdits applègemens qui déchoit d'ung point en la matière déchoit du tout et pert sa cause.</p>
+<pb n="70"/>
+<p n="132"> Applègement de reffus de pleige est quant le seigneur qui a juridicion saisist sur son subgiet aucune chose de quoy ledit subgiet avoit la possession, ouquel cas si ledit subgiet vient devers ledit seigneur qui a saisi ou fait saisir ladite chose ou devers son senneschal 
+et luy demande la délivrance ou recréance d'icelle chose saisie, deffendans et offrans deffendre toute la cause pour quoy ledit seigneur doit avoir saisi ou fait saisir et mectre en sa main ladite chose, ou en atraient à garieur aucun qu'il nomme sauf à deffendre la cause, et ad ce offre pleige qui se establisse ou mecte son temporel en lieu de pleige, si on cas susdit ledit seigneur ou son senneschal ne luy fait ladite recréance ou delivrance ou qu'il délaye de la faire, ledit subgiet s'en puet appléger contre ledit seigneur de deffault ou denée de droit, tort et reffus de pleige.</p>
+<p n="133"> Et est la forme de tel applègement que ledit subgiect doit aler par devers le seigneur souverain, moyen ou non, ou devers son senneschal ou sergent dedans l'an ensuivant et se appléger de défault et déni de droit, de tort et reffus de plège de ce que sondit 
+seigneur par luy ou son senneschal luy a fait tort puis an et jour encza en luy détenant telle chose et en luy reffusant ou dényant de faire la délivrance ou recréance de la dite chose que luy, son senneschal ou sergent avoient saisi, et reffusé le pleige que ledit tel subgiect luy bailloit et establissoit ; et à conduire ledit applègement 
+doit donner pleige. Et s'il n'en a point lors, il puet offrir et mectre son temporel en lieu de pleige.</p>
+<p n="134"> Si celluy à qui on demande ladite delivrance ou recréance ne respond rien, l'on se puet appléger de denée de droit et de reffus de pleige comme dit est. Et s'il respond qu'il aura advis celluy qui le requiert luy puet requérir qu'il luy assigne lieu et heure à dire sondit advis. Et lors celluy à qui l'on le requiert doit assigner lien compectent et heure qui ne passe pas le jour naturel : c'est assavoir de vingt et quatre heures, lequel temps il puet avoir à soy adviser.</p>
+<pb n="71"/>
+<p n="135"> Et si ladicte assignation il ne veult faire, ledit subgiet s'en puet appléger comme dit est et aussi en puet appeller ondit cas. Et pareillement en cas de reffus taisible ou exprès de faire ladicte delivrance ou recréance. Et puet l'on demander la délivrance et recréance 
+<hi rend="ital">in perpetuum </hi>; et a l'on temps de soy appléger dedans l'an après le reffus.</p>
+<p n="136"> Quand aucun s'est applégé ou a appellé de son seigneur à court souveraine en applègement de reffus de pleige, durant l'applègement 
+ou appel il est exempt de sondit seigneur, et sera la chose saisie dont l'on a demandé la delivrance ou recréance tenue en main de court souveraine à laquelle l'on s'applège ou appelle. Et par icelle en doit estre faicte recréance au jour du plait à celluy qu'il appartiendra 
+et qui monstrera plus clerc droit comme dit sera cy-dessous en autres manières de saisines.</p>
+<p n="137"> L'éritier ou successeur de celluy qui a le droit ou transport de celuy à qui l'on a saisi, s'il enseigne promptement de son droit et transport, puet semblablement demander la délivrance ou recréance et soy appléger ou appeler en cas de reffus.</p>
+</div>
+		    <div type="partie" n="16">
+    <head>D'APPLÈGEMENS DE NOUVELLE SUCCESSION ET
+ESCHOITE</head>
+<p n="138"> Quant aucun va de vie à trespassement et celluy qui doit estre eritier est empesché ès choses de la succession ou en général ou en particulier et ce est dedans l'an de la mort du deffunct de la succession duquel l'on traicte, s'il veulst il s'en tiendra pour saisi par la généralle coustume du royaulme de France par laquelle le mort saisit le vif, et se puet complaindre en cas de saisine et de nouvelleté des troubles et empeschemens à lui faiz, ou s'il veult il puet venir devers le seigneur, son senneschal ou sergent du bailliage dont les choses sont subgectes dedans l'an après la mort dudit deffunct
+<pb n="72"/>
+duquel il se dit estre héritier et desclairer comme il est prouchain parent et héritier dudit deffunct et à luy appartient de venir et de estre receu à la pocession et saisine des biens dont estoit mort le deffunct vestu et saisi puis an et jour encza ou par telle partie, et donner pleige ou mectre son temporel en lieu de pleige. Et suffit s'il dit par certains moiens et degrez à desclairer en lieu et en temps et que pour ce il se appleige de nouvelle succession ou eschoite contre tous ceulx qui opposer et contrapplégier se vouldroient.</p>
+<p n="139"> Et puet requérir que l'applègement soit fait assavoir à ceulx qui l'empeschent et qu'il requerra. Et lors doit nommer et requerir qu'ilz soient sommez et requis d'eulx contrappléger ou oppouser si fayre le veullent et que la chose contencieuse soit mise en la main de la court et l'ajournement baillé à l'assise du seigneur à la court duquel l'on s'applège. Et ainsi le doit faire assavoir le sergent et tenir en main de court la chose, et s'il y a biens meubles ilz doivent estre mys par inventoire et le tout baillé à gouverner à personne non suspecte 
+ne favorable suffisant de en respondre.</p>
+		    </div>
+		    <div type="partie" n="17">
+		        <head>DE APPLÈGEMENS DE TORT DE FORCE ET DE NOUVELLE DESSAISINE</head>
+<p n="140"> Quant aucun a eu par an et par jour par soy ou par aultre en son nom, voire tant luy que celluy dont il a cause le possession d'aucune 
+chose soit meuble ou immeuble, et aucun aultre l'en déssaisist, celluy qui ainsi est dessaisi puet dedans l'an et jour soy applégier de tort de force et de nouvelle dessaisine à la court souveraine et ès officiers que dessus, soit juge ou sergent, contre celluy qui l'a dessaisi et dire qu'il s'appleige contre tel à monstrer et prouver que comme ledit dessaisi eust la possession et saisine de telle chose... etc., et en ladite saisine et possession eust esté par an et par jour tant luy que cellui dont il a droit et cause, ledit tel l'en a dessaisi en faisant telz exploitz... etc., et en luy faisant tort de force, et de nouvel puys an et jour ; et doit donner pleige ou mectre son temporel en lieu de pleige,
+<pb n="73"/>
+et doit requérir que l'appleigement soit fait assavoir à partie adverse, et qu'il soit sommé de soy contrappléger, et que la chose contentieuse soit tenue en main de court, et que adjournement soit baillé comme dessus est dit ès aultres applègemens.</p>
+		    </div>
+		    <div type="partie" n="18">
+		 <head>DE CONTRAPPLÈGEMENS</head>
+<p n="141"> Tous applègemens doivent estre mys et baillés par escript si la chose requiert scélérité au sergent ordinaire ou du bailliage ou aultre sergent ayant pouvoir et commission sur ce, ou au seigneur ou à son juge ou son senneschal : et lors ledit sergent si applègement luy est faict, ou ledit seigneur ou son senneschal si l'applègement est fait à leurs personnes, doyvent faire assavoir ledit applègement à partie adverse et faire les aultres solemnitez requises, et faire lecture dudit applègement et en bailler coppie à partie adverse à ses despens si avoir les veulst.</p>
+<p n="142"> Et si ledit applègement est ainsi fait assavoir et baillé coppie à partie, ou par luy soit demouré de la prandre, partie adverse se doit contrappléger dedans huit jours et donner pleige ou mectre son temporel pour pleige ou s'il ne se contrapplège dedans ledit temps, en cas dessusdit il perdra sa cause, et decherra de son contrapplègement 
+comme partie non contrapplégée ; et n'est en demouré de soy contrappléger jusques à huit jours après ce que l'applègement luy soit baillé par escript, ou par luy soit demouré qu'il ne l'a eu.</p>
+<p n="143"> Mais si ledit applègement n'estoit baillé par escript et offert à en faire lecture à partie adverse et de luy en bailler ou offrir bailler coppie prestement si avoir le veulst, ledit deffendeur n'est point en demeure de soy contrappléger jusques à huit jours après ce, car aucun
+<pb n="74"/>
+n'est en demoure de soy contrapplégier jusques à huyt jours après que l'applègement luy ait esté fait assavoir et baillé ou offri bailler par escript comme dit est supposé que adjournement fust baillé à procéder en cause d'applègement et contrapplègement si contrapplègement 
+y avoit.</p>
+<p n="144"> Toutesfoys si aucun se applège sur aucune chose soit héritage ou meuble, et les parties soient présentes sur la chose sur quoy l'on s'applège, et la monstre en présent l'applégeur à sa partie adverse, 
+en faisant ledit applègement en présence du sergent ou aultre officier à qui l'on fait ledit applégement, en celluy cas partie adverse n'a que huyt jours à soy contrappléger, supposé que ledit applègement 
+ne soit pas baillé ou offri bailler promptement par escript.</p>
+<p n="145"> Le contrapplégeur soit de tort de force ou de nouvelle dessaisine 
+ou aultre n'est abstraint déclairer par son contrapplègement les causes d'icelluy, et suffit de dire qu'il se contrapplège à toutes fins par toutes ses causes, faiz et raisons à dire et déclairer en temps et en lieu, et suffit qu'il les desclaire au jour du plait en jugement.</p>
+<p n="146"> Le contrapplégeur à soubstenir et conduyre sondit contrapplègement 
+doit donner plège, et s'il ne l'a, il soufist qu'il establisse son temporel au lieu de plège.</p>
+<p n="147"> Avant que le contrapplégeur soit contrainct d'aller avant en cause d'applègement, il convient que l'applégeur enseigne premièrement 
+comme il est partie par applègement, et aussi avant que le deffendeur soit receu à aucune chose dire, il convient qu'il enseigne comment il soit partie par contrapplègement. Mais il se puet lors
+<pb n="75"/>
+contrappléger en jugement en continuant le contrapplègement autreffois 
+fait se aucun en y a, ou en le faisant de nouvel ; et ce fait sera receu à dire ses deffenses, et viendra en cognoissance de cause s'il s'estoit bien contrapplégé et dedans le temps ou non.</p>
+		    </div>
+		    <div type="chapitre" n="19">
+		         <head>DE ADVEUZ APPLEGEZ</head>
+<p n="148"> Adveuz applégez ont lieu en chose meuble, c'est assavoir quant aucun a perdu la possession de sa chose, et il trouve ladite chose avecques aucun qui l'exploicte et la détient, il puet venir devers le seigneur justicier en quelle jurisdicion est ladite chose ou son senneschal ou sergent comme dit est des applègemens, et soy advoher sur ladite chose, disant comme ladite chose fust sienne et en eust la possession que que soit par an et par jour, et encores avoit au temps qu'il décheut de la possession d'icelle dont il a esté dessaisi depuys an et jour, et laquelle possession est parvenue à tel... etc., qui l'a et détient et contredit de la luy rendre et bailler, pour quoy il se advouhe sur ladite chose à monstrer et prouver qu'elle estoit sienne et qu'il en avoit la possession et saisine, et requiert que ledit adveu soit fait assavoir audit tel... etc. et qu'il soit sommé de soy contradvouher, 
+et que ladicte chose soit mise en main de court ; et doit donner 
+pleige ou son temporel mectre en lieu de pleige comme en applègement ; et partie adverse a huyt jours à soy contradvoher comme a contrappléger, et doit donner plège comme l'advoheur. Et par ledit adveu ladite chose doit estre tenue en main de court nonobstant appellacion. Et celluy qui ainsi se advouhe n'est point tenu de bailler son adveu par escript, ne aussi le contradvouheur son contradveu.</p>
+<p n="149"> Adveuz applégez ont convenance avec applègemens en tant que est de donner plège et que la chose est tenue en main de court et se diffèrent d'applègement et concordent avec demandes simples en tant que avec la possession est traicté de la propriété ; et à perdre
+<pb n="76"/>
+la cause par contumace y convient quatre deffaulx comme en demande 
+simple, et l'amande n'y est que simple. Et en applègemens, elle est de LX solz ung denier ; et des causes d'aveu puet cognoistre le bas justicier, et il ne cognoistra pas de causes d'applègemens.</p>
+		    </div>
+		    <div type="partie" n="20">
+		         <head>DE DONNER SENTENCE PAR CONSTUMACE EN CAUSES D'APPLÈGEMENT</head>
+<p n="150"> En causes d'applègement à donner sentence par constumance y convient deux deffaulx, l'ung simple, et l'aultre sur deffault et o jugement, c'est assavoir que quant aucun a fait applègement contre aultre, il doit requérir adjournement comme dessus est dit ; et doit dès lors la chose contentieuse estre tenue en main de court, supposé ores qu'il n'y ait contrapplègement, si ce n'estoit que le deffendeur eust dit expressément qu'il ne se vouloit point contrappléger, 
+car on dit cas la possession de la chose seroit dès lors donnée à l'applégeur.</p>
+<p n="151"> Mais si ledit deffendeur se contrapplège ou dit qu'il aura advis, ou se taise sans riens dire, il sera adjourné au terme ou assise requis pour venir veoir procéder en ladite cause d'applègement et contrapplègement et pour venir dire les causes de son contrapplègement 
+si contrapplègement y a et il face à recevoir, et sinon pour veoir bailler la possession de la chose que porte et comprent le dit applègement estre adjugée et baillée audit applégeur, et procéder en oultre comme de raison.</p>
+<p n="152"> Et si ledit adjournement est souffisamment recordé de bouche par le sergent qui la baille ou par ses lectres de relacion garenti comme dessus est dit au tiltre d'<hi rend="ital">office de sergent, </hi>et ledit deffendeur se deffault, 
+il doit estre donné en commandement de l'ajourner sur deffault 
+et o jugement pour procéder en ladite cause d'applègement et contrapplègement si contrapplègement y a.</p>
+<p n="153"> Et si dudit adjournement sur deffault et o jugement recordé par le sergent et garenti par deux tesmoings ledit deffendeur se def-
+<pb n="77"/>
+fault, il doit estre donné deffault au demandeur o tout le prouffit qui s'en puet et doit ensuyvre de raison, stille et coustume, et doit l'on esgarder journée à passer ; et ladite journée passée doit estre déclairé par sentence et jugement que ledit deffendeur n'est plus partie qui face à recevoir à deffendre ledit applègement ny à poursuir 
+son contrapplègement si contrapplègement y avoit. Et en doit estre décheu et débouté, et la saisine et la possession de chose contencieuse 
+doit estre adjugée et baillée audit applégeur comme en main de partie, et la main de la court mise par dessus levée à son prouffit.</p>
+<p n="154"> Et doit ledit deffendeur estre condempné à luy rendre et bailler les fruitz et levées qu'il avoit prins et levé de ladite chose contencieuse depuis l'an et jour paravant ledit applègement fait, sauf au regard de ceulx qui auroient réaulment et de fait esté restabliz 
+en la main de la court ou levez par et soubz icelle main de ladicte court, lesqueulx seront délivrez par icelle court audit applégeur.</p>
+<p n="155"> Et doit en oultre ledit deffendeur estre condempné en despens et dommages dudit applégeur, la tauxacion à ladicte court réservée, et retenu ès amandes envers la court : c'est assavoir pour chacun deffault une amende simple, et pour le principal, l'amende est de soixante solz s'il y a contrapplègement dont il apparoisse. Car s'il n'y avoit point de contrapplègement et que le deffendeur le nye, si la court ou partie ne le prouve, l'amande sera simple.</p>
+<p n="156"> Si l'applégeur semblablement se deffault, il sera mis en constumace, 
+et y procèdera l'on contre luy comme contre le deffendeur, car par le premier deffault simple, il sera adjourné sur deffault et o jugement. Et si dudit adjournement recordé et garenti comme dessus se deffault, il sera mis en constumace, et sera sentence donnée contre luy par laquelle sera dit qu'il n'est plus partie qui face à recevoir à poursuir ledit applègement, et qu'il en est décheu et débouté. Et la
+<pb n="78"/>
+possession desdites choses contencieuses adjugée audit deffendeur, et la main de la court levée à son prouffit, et condempné ès despens et retenu ès amandes, et est l'amande du principal de soixante solz, supposé qu'il y eust contrapplègement.</p>
+<p n="157"> Si aucun demandeur ou deffendeur soit en cause simple ou privilégiée obeist après ce qu'il s'est défailli et face procès touchant dilacion de cause comme actende ou continuation, et il ne se sauve des deffaulx précédans, et il ne les avale par exoine, par esgard ou aultrement où de fait il en amande et soient prononciez demourer en force et vertu, lesdits deffault ou deffaulx sera ou seront tous joinctz quant à constumace aux aultres deffaulx qui viendront après, nonobstant lesditz procès ou ladicte obéissance faicte entre deux, si ce n'estoit que après lesdits deffaulx eust esté fait procès en cause comme d'aller à la monstrée d'advoher garieur ou aultrement 
+et ledit défaillant n'eust aucunement esté accusé desditz deffaulx 
+par son adversaire. Car quant telz procès sont faiz qui lient en cause, et la partie qui obeist ne accuse son adversaire des deffaulx précédens, lesdits deffaulx sont communs et tourneront à jour simple.</p>
+<p n="158"> Mais si lesditz deffaulx ont esté par jugement prononciez demourer en force et vertu en toute la cause, il n'est plus mestier d'en accuser partie ne déclairer ès procès ou registres subséquans qu'ilz s'en vont adjournez dudit adjournement pronuncié, et souffit dire qu'ilz s'en vont adjournez selon procès.</p>
+<p n="159"> Mais avant la prononciation dudit jour jugié, il convient tousjours 
+dire que l'on a adjournement et déclairer la qualité dudit adjournement, et que l'on s'en vait adjourné d'icelluy adjournement, aultrement les deffaulx ne se pourroient pas joindre l'un à l'aultre quant à constumace.</p>
+<p n="160"> En toutes causes soient simples ou privilégiées, lesdits deffaulx 
+aggrevent en tant que touche les parties si et quant l'une des parties obeist et l'aultre non, car quant l'une ne l'aultre des parties 
+ne obeist, le deffault ne aggravera point quant auxdictes parties, mais seulement aggravera quant à court soit le demandeur ou le deffendeur car la court est tousjours présente ; et pour ce souventesfoix
+<pb n="79"/>
+advient que aucun a jour ou terme o jugement ou à voir perdre saisine ou plus grief quant à court, et quant à partie n'a que simple adjournement 
+ou aultre moindre envers la court. Et aucunesfoiz est aucun mys en constumace quant à court que l'on procède encores quant à partie. Mais au regard de la demande du principal, elle arrestera jusques ad ce que l'une des parties ait obtenu par constumace ou par diffinitive sentence, et ce a lieu en toute cause comme dit est.</p>
+		    </div>
+		    <div type="partie" n="21">
+		         <head>DE COMPLAINCTES EN CAS DE SAYSINE ET DE
+NOUVELLETÉ ET DE Y DONNER SENTENCES PAR
+DEFFAULX ET CONSTUMACE</head>
+<p n="161"> Tout homme qui a jurisdicion haulte, moyenne et basse ou aucune 
+d'elles, luy ou son senneschal puet donner lectres de complainctes en cas de saisine et de nouvelleté pour raison des choses estans en sa jurisdicion, et puet par icelles mander ou commectre à son sergent que à la requeste du complaignant qui se dit estre en possession d'aucune chose et y avoir esté par an et jour et par les derniers exploiz, et en icelle avoir esté troublé et empesché de nouvel puys an et jour encza, il assigne jour et heure à ceulx qui le troublent ou qui l'empeschent à comparoir sur les lieux et choses contencieuses et que illec la nouveauté ostée il mainteigne et garde ledit complaignant en ses possessions et saisines, et face commandement de restablir ; 
+et on cas d'opposicion, contredit ou delay, qu'il baille adjournement 
+à certain jour. Et doit ledit sergent tenir la chose contencieuse 
+en main de court reaulment et de fait nonobstant appellacion quelconque.</p>
+<p n="162"> Des lors que l'on baille adjournement à partie adverse pour venir veoir les lectres de complaincte en cas de saisine et de nouvelleté 
+estre mys à exécucion, ou que la complainte soit faicte judi-
+<pb n="80"/>
+ciairement, la chose contencieuse doit estre tenue en main de court réaulment et de fait nonobstant appellacion si la chose contencieuse est confrontée ou aultrement suffisaulment déclairée en ladite complainte.</p>
+<p n="163"> Et en telles matières de complaintes en cas de nouvelleté, 
+le sergent sur painne de privacion d'office et d'amande arbitraire ne puet et ne doit exécuter lesdictes complainctes s'il ne donne huyt jours d'adjournement, sinon que l'exécution de ladite complaincte se face en lieu où l'on puisse tousjours finner de conseil ; ouquel cas souffist que l'adjournement conteigne deux ou trois jours.</p>
+<p n="164"> Celluy qui trouve sa partie adverse en jugement ou ailleurs devant le juge ou senneschal à qui la cognoissance en appartient puet sans lectres ne adjournement déclairer sa complainte en cas de saisine et de nouvelleté et faire ses conclusions pertinens et déclairer la chose, offrans de la monstrer si monstrée y choit ; et ne puet partie adverse excepter d'adjournement, et ne sera tenu de procéder en la cause.</p>
+<p n="165"> Complaincte ou cas de saisine et de nouvelleté ne doit pas estre donnée et n'a pas lieu en chose qui seulement touche meubles, mais consécutivement les meubles y pouvent venir quant l'immeuble et meuble vient tout par ung droit ou moyen comme seroit estre troublé ou empesché en aucun hostel onquel l'on avoit plusieurs biens meubles ; et encores peult l'on venir par complainte en cas de saisine et de nouvelleté touchant fait de meuble supposé que en effect il n'y ait que meuble comme en cas de succession qui advient au père ou mère, ayol ou ayole, ou à aultres qui seroient troublez en la succession 
+des biens meubles de leur filz ou fille, nepveu ou nepce ou parens mors sans hoirs de chair, ou en cas semblables.</p>
+<pb n="81"/>
+<p n="166"> Supposé que des choses divines ou religieuses la congnoissance 
+appartient à la court de l'église, toutes voyes si aucun est de nouvel troublé ou empesché en la possession desdites choses, il puet pour cause desditz troubles, empeschemens et nouvelleté se pourveoir 
+par la court séculière en cas de saisine et de nouvelleté, et en cognoistra la court séculière et sera la chose contencieuse tenue en main de court.</p>
+<p n="167"> Quant aucun est adjourné pour veoir mectre à exécucion lectres de complaintes ou cas de saisine et de nouvelleté et à l'assignation 
+il se deffault ou se fait exoiner, le complaignant doit présenter et monstrer au sergent ses lectres de complaincte et mandement ; et lors le sergent doibt appeler le deffendeur et s'il n'y est doit donner deffault. Et s'il y a exoineur, doit donner deffault sauf la raison de son exoineur, car exoine vault deffault jusques ad ce qu'elle soit veriffiée. Et après ce le complaignant en absence de partie doit sa complainte ramener à fait et faire ses conclusions par devant ledit sergent. Et ce fait ledit sergent en absence et en deffault de partie doibt oster l'empeschement et maintenir et garder le complaignant en ses possessions et saisines prétendues, et si le complaignant veult il se deportera à tant.</p>
+<p n="168"> Mais s'il veulst, il fera bailler adjournement au deffendeur deffaillant par devant le juge pour le veoir plus applain maintenir et garder en ses possessions et saisines par le juge, et lui adjuger le prouffit du deffault et pour faire restablissement des choses prises et levées.</p>
+<p n="169"> Et combien que le deffendeur ait esté mis en deffault, et en son deffault et absence le complaignant ait esté maintenu et gardé par le sergent comme dit est, toutesvoyes on cas susdit que adjournement en a esté baillé audit deffendeur devant le juge à certain jour ou assise pour veoir plus applain maintenir et garder ledit
+<pb n="82"/>
+demandeur, icelluy deffendeur se puet opposer audit sergent dedans ledit terme ou assise et à l'expédicion de la cause, et y sera receu ; et si adjournement ne luy a esté baillé et fait bailler par le complaignant 
+pour le voir plus applain maintenir et garder, ledit deffendeur et deffaillant se pourra opposer, et y sera receu jusques à un an ; et dès ce qu'il se sera oppousé, la chose contencieuse ne sera plus en la main du complaignant qui avoit esté maintenu et gardé comme dit est, mais sera mise en la main de la court et sera baillé adjournement aux parties pour procéder en ladite cause de complainte, et vauldra ledit deffault ou exoine fait pardevant ledit sergent et se joindra en ladite cause.</p>
+<p n="170"> Et on cas susdit, quant adjournement a esté baillé à celluy qui ainsi s'estoit deffailly ou exoiné par devant ledit sergent comme dit est pour veoir plus applain maintenir et adjuger le prouffit du deffault et pour faire restablissement, il s'oppose et veulst aller avant ou s'oppose de soy sans adjournement et fait adjourner le complaignant 
+comme dit est, l'on le puet au jour du plait accuser dudit deffault fait devant l'exécuteur ; et s'il a saulvacions, il les puet proposer 
+et y sera receu comme d'ung deffault fait devant le juge; et s'il s'en sauve par exoine ou la vériffie, elle vaudra en la cause à joindre à injunction, et s'il ne se puet sauver, il en amandera à court et à partie, et sera pronuncié demourer en cause le jour sur deffault et o jugement semblablement que s'il l'avoit fait devant le juge.</p>
+<p n="171"> Semblablement si celluy qui a impétré aucunes lettres de complaincte et a fait bailler adjournement à sa partie adverse pour
+<pb n="83"/>
+les veoir mectre à exécucion se deffault au jour assigné, et la partie adverse comparoist à icelluy jour par devant le sergent exécuteur desdictes lectres de complaincte, le sergent luy donnera deffault contre le complaignant et en son absence, et le deffault mainctiendra et gardera le deffendeur en saisine et possession de la dite chose contendue par lettres de complainctes, et ostera l'empeschement que y avoit mys le complaignant par icelles lectres.</p>
+<p n="172"> Mais ce nonobstant le complaignant puet dedans ung moys après ledit deffault venir devers le juge duquel il a impétré lesdites lectres de complaincte et luy donner à entendre son cas, lequel juge luy puet donner ses lectres narratives desdites lectres de complainte par lesquelles sera mandé audit sergent exécuteur desdites lectres de complainte nonobstant ledit deffault qu'il baille adjournement à la partie adverse à aucun jour qui ne passe pas quinze jours, à compter dès le jour desdictes dernières lectres ; et vauldra ladite exécucion tout ainsi comme si elle avoit esté exécutée au jour du premier adjournement baillé. Mais le complaignant qui seroit deffailli amandera 
+à la court du deffault et en paira despens à partie et sera le jour jugié pronuncé demourer en force et vertu en la cause. Et s'il laisse passer le temps susdit, il n'y sera plus receu à faire exécuter ladite complaincte.</p>
+<p n="173"> Quant aucun s'oppose à l'exécucion d'aucune complaincte, l'exécuteur luy doit faire commandement de restablir et suffist audit premier commandement de restablir aucune chose par manière de signe ou figure, offrans plus applain de restablir.</p>
+<p n="174"> Mais au jour du plaict le juge luy doit faire commandement de restablir dedans l'assise ou terme suyvant tout ce qu'il devra
+<pb n="84"/>
+restablir. Et s'il n'a pas restabli dedans ledit terme suyvant, le juge luy puet et doit fayre le segond commandement à telle paine qu'il verra estre à faire dedans l'aultre assise au terme suyvant.</p>
+<p n="175"> Et si dedans ledit terme il ne restablit et obeist audit commandement 
+de restablir, le juge luy doit faire le tiers commandement à payne de perdicion de cause. Et si dedans le temps dudit commandement 
+judiciaire il n'a restabli, il perdra sa cause par deffault de restablissement, 
+et eust-il ores bon droit au principal. Et semblablement est gardé en toutes aultres causes esquelles choit restablissement.</p>
+<p n="176"> Esdictes causes de complainctes et aussi en causes d'applègement 
+de tort de force et aultres causes esquelles choit restablissement, si l'une des parties accuse sa partie adverse de non avoir restabli ce qu'elle a prins et levé des choses contencieuses, et la partie accusée dit qu'elle a restabli souffisaulment, elle doit enseigner par escript dudit restablissement, et ne sera pas reçue à le monstrer par tesmoigns.</p>
+<p n="177"> En icelles causes de complainctes et aultres causes privilégiées esquelles choit sequestracion, la chose contendue pendant le procès doit estre tenue en main de court, et se nonobstant la main mise les parties ou l'une d'elles enfraignent icelle main mise et exploitent la chose dont est débat, il y a amande arbitraire pour l'infraction de ladite main mise.</p>
+<p n="178"> Quant l'on fait aucun commandement de restablir, c'est à entendre de restablir en main de court ce qui a esté pris et levé des choses contencieuses l'an et jour précédent l'exécucion de la complaincte 
+et depuis par la partie qui a pris et levé ou par les deux parties si elles ont levé et prins desdites choses contencieuses.</p>
+<pb n="85"/>
+<p n="179"> Si le deffendeur en cas de complaincte et de nouvelleté se deffault, il doibt estre adjourné sur deffault et o jugement. Et si dudit adjournement o jugement prononcié et recordé par le sergent et garenti par deux tesmoings ou baillé en court par le juge il se deffault, il sera mis en constumace et donné contre luy sentence par laquelle il sera dit qu'il n'est mais partie qui face à recevoir à poursuir son opposicion si opposicion y a ne à deffendre ladite complainte ; et sera le complaignant mainctenu et gardé en ses possessions 
+et saisines par luy mainctenues et la main de la court mise sur lesdites choses contencieuses sera levée à son proufit, et partie condempnée 
+ès despens et dommages et ès amandes envers la court : c'est assavoir pour chacun deffault une amande simple et pour le principal une simple.</p>
+<p n="180"> Et si le complaignant se deffault par la manière susdite, semblablement sera mis en constumace et sera dit qu'il n'est mais partie qui face à recevoir à poursuir ladite complainte et en sera débouté et partie adverse maintenue et gardée ès possessions par luy prétendues, et la main de la court sera levée à son prouffit et condempné 
+en despens envers le deffendeur et retenu ès amandes envers la court.</p>
+<p n="181"> Combien que par les lectres de complaincte soit mandé et commis à l'exécuteur de oster la nouvelleté et empeschement et qu'ilz doivent estre ostés, toutesvoyes si ladicte complaincte touche aucun édiffice, et ledit ediffice de nouvel fait estoit tel qu'il puet couster à faire soixante solz, il ne sera pas démoly, et sera la nouvelleté ostée verbalement sans plus.</p>
+<p n="182"> En matière de complainte, au jour du plait sera receu le complaignant 
+à dire et proposer tout ce qu'il voudra et qu'il luy semblera bon à fayre pour soustenir sadicte complaincte et aux fins d'icelles sans changier la matière nonobstant que à l'exécucion ne depuys jusques au jour dudit premier plait de ce n'ayt esté faicte aucune mencion.</p>
+<pb n="86"/>
+<p n="183"> En matière de complainte, qui déchoit d'un point ne déchoit pas du tout comme dit sera cy-dessoubz plus applain en aultres pars.</p></div>
+		</body>
+	</text>
+</TEI>

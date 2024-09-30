@@ -1,0 +1,1183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="main">Lai de l'ombre</title>
+      <title type="formal">ombre</title>
+      <title type="reference">ombre</title>
+      <title type="DEAF">OmbreH</title>
+      <title type="gmd">transcription électronique</title>
+      <author xml:id="JRenart" key="Jean Renart (11..-12..)" ref="http://www.idref.fr/027094499">Jean Renart</author>
+      <editor>Équipe de la Base de français médiéval - ENS de Lyon / UMR 5317 IHRIM</editor>
+      <funder>Laboratoire IHRIM</funder>
+    </titleStmt>
+    <editionStmt>
+      <edition>transcripion électronique</edition>
+      <respStmt xml:id="proofreader1">
+        <resp>relecture et balisage XML-TEI</resp>
+        <name xml:id="LHostrenko">Laura Hostrenko</name>
+      </respStmt>
+    </editionStmt>
+    <extent>- Numéros de pages saisies : de 1 à 36 ;
+            - Nombre de mots d'après la base des descripteurs : <num xml:id="nb_mots_given">6226</num> ;
+            - Nombre de tokens (mots et ponctuations) d'après la base des descripteurs : <num xml:id="nb_tokens_given">7353</num>.
+    </extent>
+    <publicationStmt>
+      <publisher><name>Projet BFM, ENS de Lyon / UMR 5317 IHRIM</name></publisher>
+      <address>
+        <addrLine>15, parvis René Descartes</addrLine>
+        <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+        <addrLine>Tél : 04 37 37 63 10</addrLine>
+        <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+        <addrLine>http://bfm.ens-lyon.fr</addrLine>
+      </address>
+      <idno type="bfm">http://catalog.bfm-corpus.org/ombre</idno>
+      <idno type="doi">10.34847/nkl.8077jvn0</idno>
+      <availability status="free">
+        <licence target="https://www.etalab.gouv.fr/licence-ouverte-open-licence">
+          <ab type="availability_bfm" subtype="libre_1a">Les Conditions générales d'utilisation de la Base de Français Médiéval (http://txm.bfm-corpus.org/bfm/files/CGU.pdf), 
+            et notamment son Article 5 « PROPRIETE INTELLECTUELLE », s'appliquent à tous les textes de la BFM.</ab>
+          <ab type="how_to_cite">
+            <label>Comment citer ce texte :</label>
+            <bibl>Jean Renart, Lai de l'ombre, édité par Brian Joseph Levy et Alan Hindley, Hull, 1977. 
+              Publié en ligne par la Base de français médiéval, http://catalog.bfm-corpus.org/ombre.
+              Dernière révision le 2022-06-01.</bibl>
+            D'autres formules de citation de la BFM sont proposées sur la page web suivante :
+            http://bfm.ens-lyon.fr/article.php3?id_article=281.</ab>
+          <ab type="availability_file">
+            <label>Conditions d'utilisation de ce fichier :</label>
+              Ce fichier numérique est composé du corps de texte médiéval et des suppléments numériques : balisage XML-TEI, métadonnées (teiHeader), balisage du discours direct. Le texte et les suppléments numériques sont libres de droit et peuvent à ce titre être téléchargés et réutilisés librement.
+            </ab>
+            <ab type="availability_txmweb" subtype="illimité">
+              <label>Conditions d'utilisation par le portail BFM :</label>
+              Pas de limitation dans l'usage des fonctionnalités. Téléchargement autorisé.</ab>
+        </licence>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>Le lay de l'ombre</title>
+          <author>Jean Renart</author>
+          <respStmt>
+            <resp xml:id="editor">Éditeur scientifique</resp>
+            <name type="person">Brian Joseph Levy</name>
+            <name type="person">Alan Hindley</name>
+          </respStmt>
+        </titleStmt>
+          <extent>36 page(s)
+        </extent>
+        <publicationStmt>
+          <publisher>University of Hull</publisher>
+          <pubPlace>Hull</pubPlace>
+          <date>1977</date>
+          <idno type="isbn">0-85958-520-4</idno>
+          <idno type="sigle_DEAF">OmbreH</idno>
+          <idno type="cote_biblio">ENC : 8M986</idno>
+        </publicationStmt><seriesStmt><title>Hull French Texts</title></seriesStmt>
+      </biblFull>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p>Projet :<name type="project">BFM - Base de français médiéval</name>
+        Resp. : <name type="person">Céline Guillot-Barbance</name>
+        Équipe : Base de français médiéval
+        Laboratoire : UMR 5317 IHRIM
+        Institution : ENS de Lyon
+        <address>
+          <addrLine>15, parvis René Descartes</addrLine>
+          <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+          <addrLine>Tél : 04 37 37 63 10</addrLine>
+          <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+          <addrLine>http://bfm.ens-lyon.fr</addrLine>
+        </address>
+      </p>
+    </projectDesc>
+    <editorialDecl>
+      <p>Voir le <ref target="http://bfm.ens-lyon.fr/IMG/pdf/Manuel_Encodage_TEI.pdf">Manuel d'encodage XML-TEI de la BFM</ref>
+        et les <ref target="http://bfm.ens-lyon.fr/IMG/pdf/Consignes_BFM.pdf">Consignes aux relecteurs de la BFM</ref>.</p>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="ab" occurs="22"/>
+        <tagUsage gi="body" occurs="1"/>
+        <tagUsage gi="choice" occurs="25"/>
+        <tagUsage gi="corr" occurs="25"/>
+        <tagUsage gi="div" occurs="1"/>
+        <tagUsage gi="lb" occurs="962"/>
+        <tagUsage gi="pb" occurs="36"/>
+        <tagUsage gi="q" occurs="68"/>
+        <tagUsage gi="sic" occurs="25"/>
+        <tagUsage gi="supplied" occurs="16"/>
+        <tagUsage gi="surplus" occurs="1"/>
+        <tagUsage gi="text" occurs="1"/>
+        <tagUsage gi="w" occurs="10"/>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <creation>
+      <name type="author">Jean Renart</name>
+      <title>Lai de l'ombre</title>
+      <date type="compo" when="1220-01-01" notBefore="1217-01-01" notAfter="1222-01-01" n="13">entre 1217 et 1222</date>
+      <date type="compo_periode">ancien</date>
+      <date type="compo_sous_siecle" n="13_1">début</date>
+      <date type="ms" when="1300-01-01" notBefore="1290-01-01" notAfter="1309-12-31">ca. 1300</date>
+      <idno type="msIdentifier">BnF, n. a. fr. 1104</idno>
+      <region type="dialecte_auteur">picard</region>
+    </creation>
+    <langUsage>
+      <language ident="fro" usage="100">Le texte est entièrement écrit en vers en ancien français.</language>
+    </langUsage>
+    <textDesc>
+      <channel mode="w">print</channel>
+      <constitution type="single"/>
+      <derivation type="original"/>
+      <domain type="littéraire"/>
+    <factuality type="inapplicable"/>
+      <interaction type="none"/>
+      <preparedness type="prepared"/>
+      <purpose type="narrative"/></textDesc>
+    <textClass>
+      <keywords scheme="http://authorities.bfm-corpus.org">
+        <term type="domaine">littéraire</term>
+        <term type="genre">récit bref</term>
+        <term type="forme">vers</term>
+        <term type="relation">original</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change who="#LHostrenko" when="2022-06-01">relecture et balisage XML-TEI</change>
+    <change when="2022-06-01">Dernière modification du texte</change>
+    <change when="2022-11-04">Création de cet entête</change>
+  </revisionDesc>
+</teiHeader>
+<text>
+  <pb n="1"/>
+<body>
+  <div>
+<ab type="gv">
+<lb n="1"/>Ne me veil pas desaüser
+<lb n="2"/>de bien dire, ainz veil user
+<lb n="3"/>mon sens en el quë estre oiseus.
+<lb n="4"/>Je ne veil pas resembler ceus
+<lb n="5"/>qui sont oiseus por tout destruire,
+<lb n="6"/>mes, puis que j'é le sens d'estruire
+<lb n="7"/>aucun bien, en dit et en fet,
+<lb n="8"/>vilains est qui ses gas en fet,
+<lb n="9"/>quant ma cortoisie s'aoevre
+<lb n="10"/>a dire aucune plesant oevre
+<lb n="11"/>ou il n a rampone ne lait.
+<lb n="12"/>Fox est qui por parole lait
+<lb n="13"/>bien a dire, por qu'il le sache;
+<lb n="14"/>et s'aucuns fox sa langue en sache
+<lb n="15"/>par derriere, tot ce li loit,
+<lb n="16"/>que nient plus que je puis cest doit
+<lb n="17"/>faire ausi lonc comme cestui,
+<lb n="18"/>ne cuit je quë on peüst hui
+<lb n="19"/>fere un felon debonere estre ;
+<lb n="20"/>et miex vient de bone eure nestre
+<lb n="21"/>qu'estre des bons, c'est dit pieça.
+  <pb n="2"/>
+<lb n="22"/>Par Guillaume, qui despeça
+<lb n="23"/>l'escolfle et art un et un membre,
+<lb n="24"/>si con cis contes nos remembre,
+<lb n="25"/>puet on prover que je di voir,
+<lb n="26"/>que miex vaut a un home avoir
+<lb n="27"/>eür que parenz në amis:
+<lb n="28"/>amis muert, et on est tost mis
+<lb n="29"/>hors de l'avoir, qui bien nu gart;
+<lb n="30"/>et qui a fol le met en garde,
+<lb n="31"/>sachiez que tost le gaste et use.
+<lb n="32"/>Après, sa folie s'acuse,
+<lb n="33"/>qu'il l'a despendu sanz mesure.
+<lb n="34"/>Se d'ilec avant a mesure
+<lb n="35"/>ses sens, sa folie entrelet
+<lb n="36"/>et mesaventure le let,
+<lb n="37"/>eürs le r'a tost mis em pris;
+<lb n="38"/>et por cë ai cest lai empris,
+<lb n="39"/>que je voil mon sens desploier
+<lb n="40"/>a bien dire et a souploier
+<lb n="41"/>a la hautesce de l'Eslit.
+<lb n="42"/>Molt par me torne a grant delit
+<lb n="43"/>quant la volenté m'est eslite
+<lb n="44"/>a fere ce <choice><sic>que</sic><corr>qui</corr></choice> me delite :
+<lb n="45"/>d'une aventure metre en rime.
+<lb n="46"/>On dit: <q>«Qui bien nage, bien rime.»</q>
+<lb n="47"/>Qui de haute mer vient a rive,
+  <pb n="3"/>
+<lb n="48"/>fox est së a la mer estrive;
+<lb n="49"/>miex l'em prisent et roi et conte.
+<lb n="50"/>Or escoutez en icest conte
+<lb n="51"/>que ferai, s'aucuns ne m'encombre,
+<lb n="52"/>et dirai ci, du lay de l'ombre.
+</ab><ab type="gv">
+<lb n="53"/>Ci dit quë uns chevaliers iere
+<lb n="54"/>en cele marche de l'Empiere
+<lb n="55"/>de Loheraigne et d'Alemaingne.
+<lb n="56"/>Je ne cuit pas con tex en maingne
+<lb n="57"/>de Chaälons jusqu'en Perchois
+<lb n="58"/>qui eüst toutes a son chois
+<lb n="59"/>bones teches conme cil ot.
+<lb n="60"/>De maintes resemble au fil Lot,
+<lb n="61"/>Gauvain, si conme nos dison;
+<lb n="62"/>mes je n oi onques son non,
+<lb n="63"/>ne je ne sai se point en ot.
+<lb n="64"/>Proesce et cortoisie l ot
+<lb n="65"/>eslit a estre suen demaine;
+<lb n="66"/>de la despense qu'il demainne
+<lb n="67"/>se merveillent tuit si acointe.
+<lb n="68"/>Ne trop emparlé ne trop cointe
+<lb n="69"/>nu trovissiez por sa proesce.
+<lb n="70"/>Il n estoit pas de grant richesce,
+<lb n="71"/>mes il se savoit bien avoir;
+<lb n="72"/>bien sot prendre en un leu l'avoir
+<lb n="73"/>et metre la ou point n'en ot.
+<lb n="74"/>Pucele ne dame n'en ot
+  <pb n="4"/>
+<lb n="75"/>parler que durement <supplied>nu</supplied> prist,
+<lb n="76"/>n'onques a nule ne s'emprist
+<lb n="77"/>a certes quë il n en fust bien,
+<lb n="78"/>car il estoit sor toute rien
+<lb n="79"/>et frans et doz et debonnere.
+<lb n="80"/>Qanque chascuns en vosist fere,
+<lb n="81"/>en peüst fere entor ostel;
+<lb n="82"/>mes as armes autre que tel
+<lb n="83"/>le trovast on <surplus>plus</surplus> que <supplied>je</supplied> ne di :
+<lb n="84"/>estout et ireus et hardi
+<lb n="85"/>quant il avoit l'eaume en son chief.
+<lb n="86"/>Bien sot un renc de chief en chief
+<lb n="87"/>cerchier por une joste fere.
+<lb n="88"/>A cë ot torné son afere
+<lb n="89"/>li chevaliers dont je vos di,
+<lb n="90"/>qu'il vosist que chascun lundi,
+<lb n="91"/><w>qu<supplied>ë</supplied></w> il estoit, que il en fust deus!
+<lb n="92"/>Onques chevalier ne fist Deus
+<lb n="93"/>si preu d'armes conme il estoit.
+<lb n="94"/>Ce n'estoit pas cil qui vestoit.
+<lb n="95"/>sa robe d'esté en yver;
+<lb n="96"/>plus donoit il et gris et ver
+<lb n="97"/>C'uns autres de dis tanz d'avoir;
+<lb n="98"/>et tot jorz voloit il avoir
+<lb n="99"/>Set compaignons ou cinc au mains.
+<lb n="100"/>Ne ja riens ne tenist as mains,
+  <pb n="5"/>
+<lb n="101"/>s'en le vosist, qu en ne l eust.
+<lb n="102"/>Deduiz d'oisiaus,<choice><sic>qu'en</sic><corr>quant</corr></choice> li leust,
+<lb n="103"/>ama, que je despris mie;
+<lb n="104"/>il sot d'eschés et d'escremie
+<lb n="105"/>et d'autres geus plus que Tristans.
+<lb n="106"/>Molt bon mai ot un bien lonc tans
+<lb n="107"/>et molt se fist amer as genz.
+<lb n="108"/>Il ert de cors et biaux et genz
+<lb n="109"/>et frans et legiers et isneaus
+<lb n="110"/>et si estoit plus preuz que beaus
+<lb n="111"/>et tot ce doit chevaliers estre.
+</ab><ab type="gv">
+<lb n="112"/>Amors, qui est et dame et mestre,
+<lb n="113"/>en ce bon point li corut seur,
+<lb n="114"/>quë ele en velt estre au deseur,
+<lb n="115"/>et si veut avoir le treü
+<lb n="116"/>du grant deduit qu'il ot eu
+<lb n="117"/>de mainte dame en son aage,
+<lb n="118"/>N'onques servise në honmage
+<lb n="119"/>ne li fist entreues qu'il li lut.
+<lb n="120"/>Por ce qu'il ne se reconnut
+<lb n="121"/>a son honme n a son bailleu,
+<lb n="122"/>si li fist en tens et en lieu
+<lb n="123"/>sentir son pooir et sa force :
+<lb n="124"/>c'onques Tristans, qui fu a force
+<lb n="125"/>tonduz conme fox por Yseut,
+<lb n="126"/>n'ot le tierz d'ahan qüe il eut
+<lb n="127"/>de si qu'il en ot sa pais faite.
+  <pb n="6"/>
+<lb n="128"/>Ele li a saiete traite
+<lb n="129"/>par mi le cors dusqu'au panon :
+<lb n="130"/>la grant biaute et le doz non
+<lb n="131"/>d'une dame li mist el cuer.
+<lb n="132"/>Or li estuet a geter puer
+<lb n="133"/>toutes les autres por cestui.
+<lb n="134"/>De maintes s'en estoit parti
+<lb n="135"/>son cuer, que nule n en amoit;
+<lb n="136"/>mes or set il sanz doute et voit
+<lb n="137"/>qu'il li covient tot mestre ensemble
+<lb n="138"/>por ceste servir, qui li semble
+<lb n="139"/>Li reubis de toutes biautez.
+<lb n="140"/>li sens, la debonneretez,
+<lb n="141"/>la grant biauté de son cler vis
+<lb n="142"/>li est, ce li est bien avis,
+<lb n="143"/>devant ses eulz et jor et nuit.
+<lb n="144"/>N'est joie qui ne li ennuit,
+<lb n="145"/>fors que li pensers a cesti.
+<lb n="146"/>De tant li a bon plet basti
+<lb n="147"/>Amors qu'il la connoissoit bien;
+<lb n="148"/>c'onques nule si plesant rien
+<lb n="149"/>qui fame fust n'avoit veüe,
+<lb n="150"/>ce dist, et s'en tret sa veüe
+<lb n="151"/>a garant qu'il a dit <choice><sic>verité</sic><corr>verté</corr></choice>:
+<lb n="152"/><q>«Ahi! fet il, tante averté
+<lb n="153"/>j'ai fet de moi et tant dangier!
+<lb n="154"/>Or velt Dex par cesti vengier
+  <pb n="7"/>
+<lb n="155"/>celes qui m'ont seules amé.
+<lb n="156"/>Certes mar ai desaamé!»</q>
+<lb n="157"/>fet cil, qui d'Amors ert seurpris.
+<lb n="158"/><q>«Or m'a Amors en tel point pris,
+<lb n="159"/>qu ele veut que son pooir sache;
+<lb n="160"/>C'onques vilains cui barbiers sache
+<lb n="161"/>les denz ne fu si angoisseus!»</q>
+<lb n="162"/>Ce pense et dit quant il est seus;
+<lb n="163"/>ne ja, son vuel, ne fesist el,
+<lb n="164"/>c'onques mais honme <choice><corr>en si</corr><sic>einsi</sic></choice> cruel
+<lb n="165"/>point ne fu comme Amors l'a mis.
+<lb n="166"/><q>«Las! fet il, se je sui amis,
+<lb n="167"/>que sera ce, s'el n'est amie?
+<lb n="168"/>Je ne sai ne je ne voi mie,
+<lb n="169"/>conment je puisse vivre un jor!
+<lb n="170"/>Deduiz d'errer ne de sejor
+<lb n="171"/>ne m'i puet mon mal alaschier.
+<lb n="172"/>Or n'i a fors du tenir chier
+<lb n="173"/>ceus qui la vont ou ele maint,
+<lb n="174"/>car par ce fere ont eü maint
+<lb n="175"/>de lor dame joie et solaz.
+<lb n="176"/>Car m'eüst ceste fet un laz
+<lb n="177"/>de ses deus braz entor le col!
+<lb n="178"/>Tote nuit songe que l'acol
+<lb n="179"/>et qu ele m estraint et embrace.
+<lb n="180"/>Li esveilliers me desembrace
+  <pb n="8"/>
+<lb n="181"/>en ce qui plus me delitast;
+<lb n="182"/>lors quier par mon lit et atast
+<lb n="183"/>son biau cors, qui m'art et esprant.
+<lb n="184"/>Mes, las! <q>“qui ne trueve ne prent”</q>!
+<lb n="185"/>C'est avenu moi et maint autre
+<lb n="186"/>mainte foiz. Or ne puet estre autre;
+<lb n="187"/>aler ou envoier m'estuet
+<lb n="188"/>proier, puis qu'autre estre ne puet,
+<lb n="189"/>qu'ele ait merci de moi enfin
+<lb n="190"/>et que, por Deu, ainz que je fin,
+<lb n="191"/>qu'ele ait pitié de ma destrece,
+<lb n="192"/>et que, par sa grant gentillesce,
+<lb n="193"/>qu ele me gart et vie et sens.
+<lb n="194"/>Il i avroit un mains des siens
+<lb n="195"/>s'ele soffroit que je morisse;
+<lb n="196"/>s'est bien droiz que de son cuer isse
+<lb n="197"/>pitiez, et douceurs de ses euz.
+<lb n="198"/>Si cuit bien qu'i me vanroit miez
+<lb n="199"/>li alers, que se g'i envoi;
+<lb n="200"/>on dit : <q>“N'i a tel comme soi”</q>:
+<lb n="201"/>ne nus n'iroit si volentiers!
+<lb n="202"/>On dit pieça que li mestiers
+<lb n="203"/>aprent l'ome, et la grant sofrete.
+<lb n="204"/>Puis que g'i ai parole atrete,
+<lb n="205"/>il n'i a se d aler la non
+<lb n="206"/>dire qu ele a en sa prison
+  <pb n="9"/>
+<lb n="207"/>mon cuer, <supplied>qui</supplied> de gré s'i est mis.
+<lb n="208"/>Ja, devant qu'il ait non “amis”,
+<lb n="209"/>n'en <w>quier<supplied>t</supplied></w> eschaper por destrece;
+<lb n="210"/>gentilesce, pitiez, largece
+<lb n="211"/>la devroit a cë esmovoir.»</q>
+</ab><ab type="gv">
+<lb n="212"/>Il s'est atornez por movoir,
+<lb n="213"/>soi tierz de conpaignons sanz plus.
+<lb n="214"/>Ne sai que vos deïsse plus :
+<lb n="215"/>il monte, et vallet jusq'a sis.
+<lb n="216"/>Il chevauche liez et pensis
+<lb n="217"/>a son pensé et a sa voie;
+<lb n="218"/>ses conpaingnons oste et desvoie
+<lb n="219"/>de la voie et de son penser,
+<lb n="220"/>qu'il ne se puissent apenser
+<lb n="221"/>a la reson de son voiage.
+<lb n="222"/>Il dit qu'il chevauche a grant rage,
+<lb n="223"/>celant son pensé et sa voie,
+<lb n="224"/>tant qu'il vinrent a la monjoie
+<lb n="225"/>du chastel ou cele manoit.
+<lb n="226"/>Fet li sires qui les menoit,
+<lb n="227"/><q>«Vëez con cis chastiaus siet bien!»</q>
+<lb n="228"/>Il nel disoit pas tant por rien
+<lb n="229"/>qu'il montast as fossez n'as murs,
+<lb n="230"/>con por savoir se ses eürs,
+<lb n="231"/>l'avoit encor si haut monte
+<lb n="232"/>qu'il parlassent de <choice><sic>sa</sic><corr>la</corr></choice> bonté
+  <pb n="10"/>
+<lb n="233"/>de la dame qu'il va veoir.
+<lb n="234"/>Font cil, <q>«Vos devriez avoir
+<lb n="235"/>grant honte, car mal avez fet,
+<lb n="236"/>qui ançois nos avez retret
+<lb n="237"/>le chastel que la bele dame,
+<lb n="238"/>dont chascuns dit bien qu'el roiaume
+<lb n="239"/>n'a si cortoise ne si bele.
+<lb n="240"/>Or tot coi! font il, que së ele
+<lb n="241"/>savoit con vous avez mespris,
+<lb n="242"/>il vos venroit miex estre pris
+<lb n="243"/>as Turs et menez en Chaëre!»</q>
+<lb n="244"/>Il dit en sozriant a ere:
+<lb n="245"/><q>«Or, seignors, or tot belement!
+<lb n="246"/>Menez me un <supplied>poi</supplied> mains durement,
+<lb n="247"/>car je n'i ai mort deservie.
+<lb n="248"/>Il n'en est nus dont j'aie envie
+<lb n="249"/>des chastiaus, se de cestui non;
+<lb n="250"/>je vorroie estre en la prison
+<lb n="251"/>Salehadin cinc anz ou sis,
+<lb n="252"/>par si quë il fust miens, asis
+<lb n="253"/>si conme est, qu'en fusse seürs.
+<lb n="254"/>et qanqu'il a dedenz les murs.»</q>
+<lb n="255"/>Font il: <q>«Vos serïez trop sire!»</q>
+<lb n="256"/>Il n'entendent pas a son dire
+<lb n="257"/>le sofime qu'il lor fesoit;
+<lb n="258"/>li bons chevaliers nu disoit
+<lb n="259"/>fors por oïr mon qu'il diroient.
+  <pb n="11"/>
+<lb n="260"/>Il lor demande s'i l'iroient
+<lb n="261"/>veoir. <q>«Que feromes nos donques?»</q>
+<lb n="262"/>font cil, <q>«Chevaliers ne doit onques
+<lb n="263"/>trespasser n'<w>e<supplied>n</supplied></w> chemin n'<w>e<supplied>n</supplied></w> voie
+<lb n="264"/>bele dame, qu'il ne la voie.»</q>
+<lb n="265"/>Fet cil : <q>« Je m'en tien bien a vos;
+<lb n="266"/>et si le veil et lo que nos
+<lb n="267"/>i alons, quant resons l'aporte.»</q>
+<lb n="268"/>Atant guenchissent vers la porte
+<lb n="269"/>chascuns la teste du destrier,
+<lb n="270"/>criant : <q>«As armes, chevalier!»</q>
+<lb n="271"/>A tel voiage tel tençon!
+</ab><ab type="gv">
+<lb n="272"/>Sou frain s'en vont a esperon,
+<lb n="273"/>tant qu'il vinrent en la ferté;
+<lb n="274"/>il ont un novel baille outré,
+<lb n="275"/>clos de fossez et de paliz.
+<lb n="276"/>Li sire avoit devant son pis
+<lb n="277"/>torné son mantel en chantel
+<lb n="278"/>et seurcot d'ermine molt bel
+<lb n="279"/>de soie en graine et d'escureus.
+<lb n="280"/>Autretel avoit chascons d'eus
+<lb n="281"/>et chemise ridee et blanche,
+<lb n="282"/>et chapel de flors et de vanche,
+<lb n="283"/>et esperons a or vermaus.
+<lb n="284"/>Je ne sai comment fussent miaus
+<lb n="285"/>plesanment vestu por l'esté.
+<lb n="286"/>Il ne sont nul leu aresté
+  <pb n="12"/>
+<lb n="287"/>jusqu'au perron devant la sale;
+<lb n="288"/>chascuns vallez encontre avale
+<lb n="289"/>as estriiers par fine reson.
+<lb n="290"/>Li seneschaus de la meson
+<lb n="291"/>les vit descendre <w rend="aggl">en</w> mi la cort;
+<lb n="292"/>d'une loge ou il ert s'en tort
+<lb n="293"/>dire sa dame la novele
+<lb n="294"/>que cil la vient veoir quë ele
+<lb n="295"/>connoissoit bien par oïr dire.
+<lb n="296"/>N'en devint pas vermeille d ire,
+<lb n="297"/>la dame, ainz en ot grant merveille.
+<lb n="298"/>Desor une coute vermeille
+<lb n="299"/>avoit esté tantost trecie;
+<lb n="300"/>elle s'est en estant drecie,
+<lb n="301"/>la dame de tres grant biauté.
+<lb n="302"/>Ses puceles li ont geté
+<lb n="303"/>au col un mantel de samit,
+<lb n="304"/>avec la grant biaute c'ot mis
+<lb n="305"/>Nature en li, si con l'en conte.
+<lb n="306"/>Que qu'ele volt aler encontre,
+<lb n="307"/>cil se hastent tant <w>de<supplied>l</supplied></w> venir
+<lb n="308"/>q'ançois qu'ele peüst venir
+<lb n="309"/>de la chambre i sont il entré.
+<lb n="310"/>Au semblant que lor a mostré
+<lb n="311"/>li est il bel de sa venue;
+<lb n="312"/>de tant pou con ele est venue
+  <pb n="13"/>
+<lb n="313"/>encontre eus, se font il molt lié.
+<lb n="314"/>Un chainse blanc et delié
+<lb n="315"/>ot vestu, la preuz, cortoise,
+<lb n="316"/>qui traïnoit plus d'une toise
+<lb n="317"/>aprés li, seur les jons menuz.
+<lb n="318"/><q>«Sire, bien soiez vos venuz,
+<lb n="319"/>et vo compaingnon ambedui!»</q>
+<lb n="320"/>dit cele qui bon jor ait hui,
+<lb n="321"/>qu'ele est bien digne de l'avoir.
+<lb n="322"/>Si conpaignon li distrent voir,
+<lb n="323"/>qu'el n'est pas dame a trespasser:
+<lb n="324"/>sa biauté les fet trespenser
+<lb n="325"/>touz troi, en lor saluz rendant.
+</ab><ab type="gv">
+<lb n="326"/>Ele prent par la main, riant,
+<lb n="327"/>le seignor, sel mainne seoir.
+<lb n="328"/>Or a auques de son voloir,
+<lb n="329"/>quant delez li se fu assis!
+<lb n="330"/>Si conpaingnon sont bien apris :
+<lb n="331"/>asis sont, ne li firent cuivre,
+<lb n="332"/>sor un coffre ferré de cuivre
+<lb n="333"/>aveques ses deus damoiseles.
+<lb n="334"/>Que qu'il se deduient a eles
+<lb n="335"/>en demandant plusors aferes,
+<lb n="336"/>lor bons sires ne pensoit gueres
+<lb n="337"/>a eus, ainz pense a son afere;
+<lb n="338"/>mes la gentil, la debonnere,
+<lb n="339"/>li set bien rendre par parole
+<lb n="340"/>reson de qanqu'il l'aparole,
+<lb n="341"/>qu'ele estoit molt cortoise et sage.
+<lb n="342"/>Cil li met adés el visage
+  <pb n="14"/>
+<lb n="343"/>les eulz por mirer sa biauté;
+<lb n="344"/>molt les a bien pris a verté
+<lb n="345"/>ses cuers, qui s'est toz en li mis;
+<lb n="346"/>que, de qanqu'il li ont promis,
+<lb n="347"/>li tesmoingnent il ore bien,
+<lb n="348"/>qu'il ne li ont menti de rien :
+<lb n="349"/>molt li plet ses vis et sa chiere.
+<lb n="350"/><q>«Bele tres douce amie chiere,
+<lb n="351"/>fet il, por qui force de cuer
+<lb n="352"/>me fet gerpir et geter puer
+<lb n="353"/>de toutes <supplied>autres</supplied> mon penser,
+<lb n="354"/>je vos sui venuz presenter
+<lb n="355"/>qanque jë ai, force et pooir;
+<lb n="356"/>si en puisse je joie avoir
+<lb n="357"/>qu'il n'est rien nule que j'aim tant
+<lb n="358"/>conme vos, se Dex repentant
+<lb n="359"/>me let venir a sa merci;
+<lb n="360"/>et por ce sui ge venuz ci,
+<lb n="361"/>que je veil que vos le sachïez
+<lb n="362"/>et que gentillece et pitiez
+<lb n="363"/>vos en praigne, qu'il est mestiers;
+<lb n="364"/>que qui en feroit as mostiers
+<lb n="365"/>oroison, si feroit il bien,
+<lb n="366"/>por ceus qui n'entendent a rien
+<lb n="367"/>s'a estre non loial ami.»</q>
+<lb n="368"/><q>«A! sire, por l'ame de mi,
+<lb n="369"/>fet ele, qu'avez vos ore dit?
+  <pb n="15"/>
+<lb n="370"/>Molt me merveil dont sifet dit?»</q>
+<lb n="371"/><q>«Dame, fet il, je vos di voir.
+<lb n="372"/>vos toute seule avez pooir
+<lb n="373"/>sor moi, plus que dame qui vive.»</q>
+<lb n="374"/>La colors l'en croit et avive
+<lb n="375"/>de ce qu'il dit qu'il est toz sens.
+<lb n="376"/>Puis li a dit par molt biau sens :
+<lb n="377"/><q>«Certes, sire, je ne croi mie
+<lb n="378"/>que si biaus hon soit sanz amie
+<lb n="379"/>con vos estes; nus nu creroit.
+<lb n="380"/>Vostre pris en abesseroit
+<lb n="381"/>et si en vaurïez molt mains -
+<lb n="382"/>si biaus hon de cors et de mains,
+<lb n="383"/>de braz et de toute autre rien!
+<lb n="384"/>Vos me savrïez ja molt bien
+<lb n="385"/>par parole par mi l'ueil trere
+<lb n="386"/>la plume, et ce c'on ne doit fere
+<lb n="387"/>fere a entendre par verté!»</q>
+</ab><ab type="gv">
+<lb n="388"/>Bien l'a en son venir hurte
+<lb n="389"/>par parole et desfet son conte -
+<lb n="390"/>si con cil qui m'aprist le conte
+<lb n="391"/>le m'a fet por voir entendant.
+<lb n="392"/>Il se sueffre a mener tendant,
+<lb n="393"/>qu'il n'estoit riens que tant amast.
+<lb n="394"/>S'uns autres le mesaamast,
+<lb n="395"/>il s'en seust bien revengier;
+<lb n="396"/>mes il ert si en son dangier
+<lb n="397"/>qu'il ne l'osoit de rien desdire,
+<lb n="398"/>Ainz li recommenca a dire;
+<lb n="399"/><q>«Ha! dame, merci, por pitié!
+  <pb n="16"/>
+<lb n="400"/>Vostre amors m'a fet sanz faintié
+<lb n="401"/>descovrir les max que je sent.
+<lb n="402"/>Molt mal s'i acorde et asent
+<lb n="403"/>vostre parole a vos biax eulz,
+<lb n="404"/>qui m'acueillirent orainz mielz
+<lb n="405"/>au venir, et plus plesanment.
+<lb n="406"/>Or sachiez bien, certainement
+<lb n="407"/>ce fu cortoisie qu'il firent;
+<lb n="408"/>car, tres l'eure qu'il primes virent,
+<lb n="409"/>ne virent nul, cë est la some,
+<lb n="410"/>qui si se vousist a vostre home
+<lb n="411"/>tenir, con je veil sanz faintise.
+<lb n="412"/>Douce dame, par gentillise,
+<lb n="413"/>car le vos plese a essaier :
+<lb n="414"/>retenez moi a chevalier
+<lb n="415"/>et, qant vos plera, a ami!
+<lb n="416"/>Car, ançois un an et demi,
+<lb n="417"/>m'avrez vos fet si preu et tel,
+<lb n="418"/>et as armes et a l'ostel
+<lb n="419"/>et tant de bien en mon cors mis
+<lb n="420"/>que li nons c'on apele “amis” -
+<lb n="421"/>se Diex plet - ne m'iert ja vëez!»</q>
+<lb n="422"/><q>«Le cuidier que vos i avez,
+<lb n="423"/>fet ele, vos en fet grant bien!
+<lb n="424"/>je n'entendoie au regart rien
+<lb n="425"/>se cortoisie non et sens;
+<lb n="426"/>mes vos l avez en autre sens
+<lb n="427"/>noté folement; si m'en poise.
+<lb n="428"/>Se ge ne fusse si cortoise,
+<lb n="429"/>il m en pesast ja durement;
+  <pb n="17"/>
+<lb n="430"/>mes il avient assez sovent,
+<lb n="431"/>quant aucune dame vaillant
+<lb n="432"/>fet aucun chevalier semblant
+<lb n="433"/>de cortoisie et d'ennor fere,
+<lb n="434"/>lors cuident tot lor autre afere
+<lb n="435"/>cil soupirant avoir trové!
+<lb n="436"/>Par vos l'ai ge bien esprouvé :
+<lb n="437"/>tout ainsi l'avez entendu.
+<lb n="438"/>Miex vos venist avoir tendu
+<lb n="439"/>la hors une roiz a colons,
+<lb n="440"/>que, se li ans estoit si lons
+<lb n="441"/>et li demis com troi entier,
+<lb n="442"/>ne savrïez tant esploitier,
+<lb n="443"/>por riens que vos seüssiez fere,
+<lb n="444"/>que je fusse aussi debonnere
+<lb n="445"/>envers vos con j'estoie orainz.
+<lb n="446"/>Li hom se doit bien garder ainz
+<lb n="447"/>qu'il se vant de chose qu'il n ait!»</q>
+</ab><ab type="gv">
+<lb n="448"/>Or ne set cil, n'en dit n'en fait,
+<lb n="449"/>qu'il puist fere ne devenir.
+<lb n="450"/><q>«Au mains n'en puis je pas venir,
+<lb n="451"/>dame, fet il, que j'ai esté.
+<lb n="452"/>Pitié et debonereté
+<lb n="453"/>a il en vos, je n'en dout mie;
+<lb n="454"/>n'onques ne failli a amie
+<lb n="455"/>nus en la fin qui bien amast,
+<lb n="456"/>Si me sui mis en mer sanz mast
+<lb n="457"/>por noier, aussi con Tristans.
+<lb n="458"/>Conment que j'aie esté lonc tens
+<lb n="459"/>sires de ma volenté fere,
+  <pb n="18"/>
+<lb n="460"/>a cë ai torne mon afere
+<lb n="461"/>que, se je n'ai merci anuit,
+<lb n="462"/>ja mes ne cuit que m'i anuit
+<lb n="463"/>nule, qant g'istrai de cesti.
+<lb n="464"/>Un tel plet m'a mes cuers basti
+<lb n="465"/>quë en vos s'est mis sanz congié.»</q>
+<lb n="466"/>En faisant un petit <choice><sic>ris : Gié</sic><corr>ditié</corr></choice>,
+<lb n="467"/>fet ele, <q>«Ainz mes tele n'oï!
+<lb n="468"/>Or puet bien demorer issi,
+<lb n="469"/>puis que voi que n'est pas a gas.
+<lb n="470"/>Encore, par Saint Nicolas!
+<lb n="471"/>cuidoie que vos gabissiez!»</q>
+<lb n="472"/><q>«Certes, dame, se vos fussiez
+<lb n="473"/>une povre garce esgaree,
+<lb n="474"/>bele douce dame anoree,
+<lb n="475"/>ne m'en seüsse je entremetre!»</q>
+</ab><ab type="gv">
+<lb n="476"/>Que qu'il puist dire me prometre,
+<lb n="477"/>a ce ne li puet rien valoir
+<lb n="478"/>qu'il en doie ja joie avoir
+<lb n="479"/>de li, si ne set quë il face.
+<lb n="480"/>Li vermaus li monte en la face
+<lb n="481"/>et les lermes du cuer as eulz,
+<lb n="482"/>si que li blans et li vermeulz
+<lb n="483"/>li moille contreval le vis.
+<lb n="484"/>Or est il bien la dame avis
+<lb n="485"/>ne li fausse pas de couvent
+  <pb n="19"/>
+<lb n="486"/>ses cuers, ainz set bien que sovent
+<lb n="487"/>l'en sovient il aillors qu'<choice><sic>ilues</sic><corr>iluec</corr></choice>.
+<lb n="488"/>Certes, s'ele plorast avec,
+<lb n="489"/>la dame molt fesist grant bien;
+<lb n="490"/>ele ne cuidast ja por rien
+<lb n="491"/>qu'il deust estre si destroiz.
+<lb n="492"/><q>«Sire, dist ele, n'est pas droiz
+<lb n="493"/>que je ainme vos në autrë home,
+<lb n="494"/>que j'ai mon seignor molt preudome,
+<lb n="495"/>qui molt me sert bien et enneure.»</q>
+<lb n="496"/><q>«Ha! dame, fet il, a bone eure!
+<lb n="497"/>De ce doit il estre molt liez!
+<lb n="498"/><choice><corr>Mes se</corr><sic>E</sic></choice> gentillece et pitiez
+<lb n="499"/>vos prenoit de moi, et franchise,
+<lb n="500"/>ja nus qui d'amors chant ne lise
+<lb n="501"/>ne vos en tenroit a pieur;
+<lb n="502"/>ainz ferïez au siecle honeur
+<lb n="503"/>se vos me volïez amer -
+<lb n="504"/>a une voie d outremer
+<lb n="505"/>porrïez l'aumosne aatir!»</q>
+<lb n="506"/><q>«Or me fetes de vos partir,
+<lb n="507"/>sire, fet ele, C'est plus let!
+<lb n="508"/>Mes cuers ne m'i sueffre ne let
+<lb n="509"/>acorder en nule maniere;
+<lb n="510"/>por ce, s'est oiseuse proiere,
+<lb n="511"/>si vos proi que vos en soufrez!»</q>
+  <pb n="20"/>
+<lb n="512"/><q>«Ha! dame, fet il, mort m'avez!
+<lb n="513"/>gardez nu <choice><sic>dites</sic><corr>festes</corr></choice> mes por rien,
+<lb n="514"/>mes fetes cortoisie et bien :
+<lb n="515"/><choice><sic>recevez</sic><corr>retenez</corr></choice> moi par un joel,
+<lb n="516"/>ou par cainture ou par anel,
+<lb n="517"/>ou vos <choice><sic>retenez</sic><corr>recevez</corr></choice> un des miens,
+<lb n="518"/>et je vos creant qu'il n'iert biens
+<lb n="519"/>que chevalier face por dame -
+<lb n="520"/>se j'en devoie perdre l'ame,
+<lb n="521"/>si m'aït Dex - que je n'en face.
+<lb n="522"/>Vo douz vis et vo clere face
+<lb n="523"/>me puent de pou ostagier;
+<lb n="524"/>ge sui toz en vostre dangier,
+<lb n="525"/>qanque jë ai, force et pooir.»</q>
+<lb n="526"/><q>«Sire, je ne veil pas avoir,
+<lb n="527"/>fet la dame, le lox sanz preu.
+<lb n="528"/>Bien sai c'on vos tient a molt preu
+<lb n="529"/>et c'est pieça chose seüe.
+<lb n="530"/>bien seroie ore deceüe,
+<lb n="531"/>se ge vos metoie en la voie
+<lb n="532"/>de m'amor, et je n'i avoie
+<lb n="533"/>le cuer : ce seroit vilenie.
+<lb n="534"/>Il est une grant cortoisie
+<lb n="535"/>d'issir hors du blasme, qui puet.»</q>
+<lb n="536"/><q>«Dire tot el vos en estuet,
+<lb n="537"/>dame, fet il, por moi garir!
+  <pb n="21"/>
+<lb n="538"/>Se vos me lessïez morir
+<lb n="539"/>sanz estre amez, ce seroit teche,
+<lb n="540"/>se cil biaus vis plains de simplece
+<lb n="541"/>estoit omecide de moi.
+<lb n="542"/>Il en covient prendre conroi
+<lb n="543"/>prochain en aucune maniere.
+<lb n="544"/>Dame de biauté et maniere
+<lb n="545"/>de toz biens: por Deu, gardez i!»</q>
+</ab><ab type="gv">
+<lb n="546"/>Cil biau mot plesant et poli
+<lb n="547"/>le font en un pensé <choice><corr>chaïr</corr><sic>chaoir</sic></choice>
+<lb n="548"/>d'endroit ce qu'ele velt oïr
+<lb n="549"/>sa requeste, et s'en ot pitié.
+<lb n="550"/>El ne le tient mie a faintie,
+<lb n="551"/>les soupirs, les lermes qu'il pleure;
+<lb n="552"/>ainz dit que force li ceurt seure
+<lb n="553"/>d'Amors, qui tot ce li fet fere,
+<lb n="554"/>ne que jamés si <choice><corr>debonnere</corr><sic>mamiere</sic></choice>
+<lb n="555"/>ami n'avra, s'el n'a cestui;
+<lb n="556"/>mes <supplied>ce</supplied> quë onques mes fors hui
+<lb n="557"/>n'en parla li vient a merveille.
+<lb n="558"/>Avec ce penser le travaille
+<lb n="559"/>Resons, qui d'autre part l'opose
+<lb n="560"/>qu ele se gart de fere chose
+<lb n="561"/>dont ele se repente au loing.
+<lb n="562"/><choice><corr>A</corr><sic>De</sic></choice> celui qui ert en grant soing
+<lb n="563"/>du penser ou ele ert entree
+  <pb n="22"/>
+<lb n="564"/>a molt bele voie mostree
+<lb n="565"/>d'une grant cortoisie fere
+<lb n="566"/>Amors, qui en tant maint afere
+<lb n="567"/>a esté voiseuse et soutille.
+<lb n="568"/>Entrus que estoit la gentille
+<lb n="569"/>ou grant penser ou ele estoit,
+<lb n="570"/>cil tret erranment de son doit
+<lb n="571"/>son anel, si l'a mis el sien;
+<lb n="572"/>puis fist aprés un greignor sen,
+<lb n="573"/>qu i li derompi son penser,
+<lb n="574"/>que ainz ne li lut apenser
+<lb n="575"/>de l'anel qu'ele avoit el doit.
+<lb n="576"/>A ce qu ele ne s'en gardoit :
+<lb n="577"/><q>«Dame, fet il, a vo congié!
+<lb n="578"/>Sachiez que mon pooir et gié
+<lb n="579"/>est tot en vo conmandement.»</q>
+</ab><ab type="gv">
+<lb n="580"/>Cil se part de li erranment,
+<lb n="581"/>et si compaingnon ambedui.
+<lb n="582"/>Nus ne set la reson, fors lui,
+<lb n="583"/>por qoi il s'en depart issis.
+<lb n="584"/>Il fu soupiranz et pensis;
+<lb n="585"/>venuz est au cheval, si monte.
+<lb n="586"/>Fet cele a qui le plus en monte
+<lb n="587"/>de lui remetre en sa leëce :
+<lb n="588"/><q>«Iroit s'en il a certes? Qu'est ce?
+<lb n="589"/>Ce ne fist onques chevaliers!
+<lb n="590"/>Je cuidasse c'uns anz entiers
+<lb n="591"/>li fust assez mains lonc d'un jor,
+  <pb n="23"/>
+<lb n="592"/>por qu'il fust o moi <choice><corr>a</corr><sic>as</sic></choice> sejor
+<lb n="593"/>et il m a ja si tost lessie!
+<lb n="594"/>Ahi! s'or m'i fusse plessie
+<lb n="595"/>vers lui de parole ou de fet!
+<lb n="596"/>Por les faus semblanz qu'il m'a fet,
+<lb n="597"/>doit on mes tot le mont <w rend="aggl">meins</w> croire.
+<lb n="598"/>Qui por plorer le vosist croire,
+<lb n="599"/>et por fere ses faus soupirs,
+<lb n="600"/>si me consaut li Sains Espirs,
+<lb n="601"/>ja por ce n'i perdist il rien!
+<lb n="602"/>Nus ne guilast ore si bien
+<lb n="603"/>ne si bel, cë est or du mains!»</q>
+<lb n="604"/>Atant envoie vers ses mains
+<lb n="605"/>un regart, si choisi l'anel.
+<lb n="606"/>Toz li sans dusqu'au doit <choice><sic>manmel</sic><corr>manel</corr></choice>
+<lb n="607"/>de son pié li esvanoï;
+<lb n="608"/>n'onques mes si ne s'esbahi
+<lb n="609"/>ne n'ot de rien si grant merveille.
+<lb n="610"/>La face qu'ele avoit vermeille
+<lb n="611"/>l'en devint trestote empalie.
+<lb n="612"/><q>«Qu'est ce? fet ele, Dex aïe!
+<lb n="613"/>je voi ci l'anel qui fu siens!
+<lb n="614"/>De tant sui je bien en mon sens
+<lb n="615"/>que je vi orains en son doit
+<lb n="616"/>cestui; ce fis mon, orendroit.
+<lb n="617"/>Et por qoi l'a il ou mien mis?
+  <pb n="24"/>
+<lb n="618"/>Ja n'est il mie mes amis,
+<lb n="619"/>et si pens je qu'il le cuide estre.
+<lb n="620"/>Or est il, par Deu! plus que mestre
+<lb n="621"/>de cest art; ne sai qui l'aprist.
+<lb n="622"/>Diex! conment est ce qu'il me mist?
+<lb n="623"/>a ce que je sui si soutise
+<lb n="624"/>que je ne m en sui garde prise
+<lb n="625"/>de l'anel qu'il m a ou doi mis?
+<lb n="626"/>Or dira que c'est mes amis:
+<lb n="627"/>ce fera mon, je n'en dout mie!
+<lb n="628"/>Dira il voir? sui je s'amie?
+<lb n="629"/>Nenil! por noient le diroit!
+<lb n="630"/>Ainz li manderé orendroit
+<lb n="631"/>quë il viengne parler a mi
+<lb n="632"/>s'il veut que le tiengne a ami,
+<lb n="633"/>si li dirai qu'il le repraingne.
+<lb n="634"/>Je ne cuit pas qu'il en mespraingne
+<lb n="635"/>vers moi, s'il ne velt que jou hace.»</q>
+</ab><ab type="gv">
+<lb n="636"/>Atant commande c'on li face
+<lb n="637"/>venir un vallet tout monté.
+<lb n="638"/>Ses puceles l ont tant hasté
+<lb n="639"/>qu'il li est venuz tout montez.
+<lb n="640"/><q>«Amis, dist ele, or tost, hurtez!
+<lb n="641"/>poingniez aprés lo chevalier!
+<lb n="642"/>Dites li, si conme il a chier
+<lb n="643"/>m'amor, qu'il ne voist en avant,
+<lb n="644"/>mes viengne arrere maintenant
+<lb n="645"/>parler a moi d'un sien afere.»</q>
+<lb n="646"/><q>«Dame, fet il, je cuit bien fere
+<lb n="647"/>vostre volenté dusqu'en son!»</q>
+  <pb n="25"/>
+<lb n="648"/>Atant s'em part a esperon,
+<lb n="649"/>aprés lo chevalier poingnant,
+<lb n="650"/>cui Amors aloit destraingnant
+<lb n="651"/>de cele qui l'envoie querre.
+<lb n="652"/>En mains d'une liue de terre
+<lb n="653"/>l'a il ataint et retorné.
+<lb n="654"/>Sachiez qu'il se tint a buer né
+<lb n="655"/>de ce c'on l'avoit remandé;
+<lb n="656"/>il n'a pas le mes demandé
+<lb n="657"/>por qoi on remandé l'avoit :
+<lb n="658"/>li aneaus qu'ele avoit ou doit
+<lb n="659"/>ert l'achoison du remander.
+<lb n="660"/>Ce li fist son oirre amender,
+<lb n="661"/>qu'il tarde cele qu'el le voie.
+<lb n="662"/>Li escuiers s est en la voie
+<lb n="663"/>du retor a lui acointiez.
+<lb n="664"/>Hé! Diex! conme il fust ore liez
+<lb n="665"/>du retorner, se por ce non
+<lb n="666"/>qu'il estoit en <w>gra<supplied>n</supplied>t</w> soupeçon
+<lb n="667"/>qu'el ne li veille l'anel rendre!
+<lb n="668"/>Il dit qu'il s iroit aincois rendre
+<lb n="669"/>a Citiaus qu'il le represist.
+<lb n="670"/><q>«Ne cuit pas qu'ele mespresist,
+<lb n="671"/>fet il, envers moi de cele oevre.»</q>
+<lb n="672"/>La joie du retor li cuevre
+<lb n="673"/>le penser dont il ert en doute.
+</ab>
+    <pb n="26"/>
+    <ab type="gv">
+<lb n="674"/><supplied>Il est venuz a tant de route</supplied>
+<lb n="675"/>conme il ot vers la forterece.
+<lb n="676"/>La dame, qui en grant destrece
+<lb n="677"/>estoit et sor li desfendant,
+<lb n="678"/>ist de la sale, descendant
+<lb n="679"/>pas por pas aval le degré.
+<lb n="680"/>Porpenseëment et de gré
+<lb n="681"/>vient en la cort por li deduire;
+<lb n="682"/>l'anelet voit en son doit luire
+<lb n="683"/>qu'ele veut rendre au chevalier.
+<lb n="684"/><q>«S'il m'en fet ja point de dangier,
+<lb n="685"/>fet ele, et il nu velt reprandre,
+<lb n="686"/>por ce ne l'iré je pas prandre
+<lb n="687"/>par ses biaus cheveus. Se je puis,
+<lb n="688"/>ainz le menré desor ce puis,
+<lb n="689"/>si parlerai illec a lui.
+<lb n="690"/>S'il nu velt prendre sanz anui,
+<lb n="691"/>je rompré molt tost la parole.
+<lb n="692"/>Conment? je n'iere pas si fole
+<lb n="693"/>que je le giete <w rend="aggl">en</w> mi la voie!
+<lb n="694"/>Ou dont? en tel leu c'on nel voie :
+<lb n="695"/>cë ert ou puis, n'est pas mençonge.
+<lb n="696"/>Ja puis n'en ert ne que de songe
+<lb n="697"/>chose dite qui me messiece.
+<lb n="698"/>Dont n'ai gë ore esté grant piece
+<lb n="699"/>o mon seignor sanz vilanie?
+  <pb n="27"/>
+<lb n="700"/>Se cist, par sa chevalerie
+<lb n="701"/>et par soupirer devant mi,
+<lb n="702"/>veut ja que ju tiengne a ami
+<lb n="703"/>a cest premerain parlement,
+<lb n="704"/>il avroit ançois durement
+<lb n="705"/>deservi, se ju devoie estre!»</q>
+</ab><ab type="gv">
+<lb n="706"/>Atant est cil entrez en l'estre
+<lb n="707"/>qui de tot ce ne se prent garde.
+<lb n="708"/>Il voit cele que molt esgarde
+<lb n="709"/>volentiers aler par la cort;
+<lb n="710"/>il descent lues et vers li cort,
+<lb n="711"/>si con chevaliers fet vers dame.
+<lb n="712"/>Si dui compaignon ne nule ame
+<lb n="713"/>de l'ostel ne lui font anui
+<lb n="714"/>Fet il : <q>«Bone aventure ait hui
+<lb n="715"/>ma dame, a qui je sui et iere»</q>!
+<lb n="716"/>Ne l'a or en autre maniere
+<lb n="717"/>ferue du poing lez l'oïe :
+<lb n="718"/>ele a hui mainte chose oïe
+<lb n="719"/>qui molt li touche pres du cuer.
+<lb n="720"/><q>«Sire, fet ele, alons la fuer
+<lb n="721"/>sëoir sor ce puis por deduire.»</q>
+<lb n="722"/>Or n'est il riens qui li puist nuire,
+<lb n="723"/>ce dit, puis qu'el l'aqueut si bel!
+<lb n="724"/>Or cuide bien par son anel
+<lb n="725"/>avoir et s'amor et sa grace.
+<lb n="726"/>Il n'est encor preu en la trace
+<lb n="727"/>por qoi il se doive esjoïr;
+<lb n="728"/>ainz qu'il peüst lez li seïr,
+<lb n="729"/>ot il chose qui li desplet.
+  <pb n="28"/>
+<lb n="730"/><q>«Sire, fet ele, s'il vos plet,
+<lb n="731"/>dites moi, la vostre merci:
+<lb n="732"/>cest vostre anel que je tien ci -
+<lb n="733"/>por qoi le me donnastes ore?»</q>
+<lb n="734"/><q>«Douce dame, fet il, encore,
+<lb n="735"/>quant m'en irai, si l'avrez vos,
+<lb n="736"/>si vos dirai, ce sachiez vos -
+<lb n="737"/>si nel tenez pas a faintie -
+<lb n="738"/>de tant vaut il miez la moitié
+<lb n="739"/>qu'il a en vostre doit esté.
+<lb n="740"/>S'il vos plesoit, en cest esté
+<lb n="741"/>le savroient mi anemi,
+<lb n="742"/>se vos m'avïez a ami
+<lb n="743"/>recut, et je vos a amie.»</q>
+<lb n="744"/><q>«En non Dieu! ce n'i a il mie,
+<lb n="745"/>fet ele, ançois i a tot el:
+<lb n="746"/>ja puis n'istré de cest ostel,
+<lb n="747"/>si m'aït Dex, se morte non,
+<lb n="748"/>que vos avroiz ne cri ne non
+<lb n="749"/>de m'amor, por rien que je voie.
+<lb n="750"/>Vos n'en estes pas en la voie,
+<lb n="751"/>ainz en estes molt forvoiez.
+<lb n="752"/>Tenez! je veil que vos l'aiez,
+<lb n="753"/>vostre anel! que je n'en voil mie.
+<lb n="754"/>Ja mar me tenrez a amie,
+<lb n="755"/>por garde que j'en aie fete!»</q>
+<lb n="756"/>Or se despoire, or se deshete
+<lb n="757"/>cil qui cuidoit avoir tot pris.
+<lb n="758"/>Fet il : <q>«Mains en vaudroit mes pris,
+<lb n="759"/>se c'ert a certes que je voi;
+  <pb n="29"/>
+<lb n="760"/>onques mes nule joie n'oi
+<lb n="761"/>qui si tost me tornast a ire.»</q>
+<lb n="762"/><q>«Conment donques, fet ele, sire,
+<lb n="763"/>avez i vos anui ne honte
+<lb n="764"/>de moi, a qui noient ne monte
+<lb n="765"/>vers vos d amors ne de lignage?
+<lb n="766"/>Je ne faz mie grant outrage
+<lb n="767"/>se ge vos voil vostre anel rendre.
+<lb n="768"/>Il n'i a, voir, fors du reprandre,
+<lb n="769"/>car je n ai droit <choice><corr>au</corr><sic>ou</sic></choice> retenir,
+<lb n="770"/>puis que je ne vos voil tenir
+<lb n="771"/>a ami, car je mesferoie.»</q>
+<lb n="772"/><q>«Diex! fet il, se ge me feroie
+<lb n="773"/>d' un coutel tres par mi la cuisse,
+<lb n="774"/>ne me feroie tel angoisse
+<lb n="775"/>conme ces paroles me font!
+<lb n="776"/>Mal fet qui destruit et confont
+<lb n="777"/>ce dont on puet estre au deseure.
+<lb n="778"/>Trop me cort force d'Amor seure
+<lb n="779"/>por vos et met en grant destrece;
+<lb n="780"/>ne ja mar <choice><sic>baerez</sic><corr>baëroit</corr></choice> a ce
+<lb n="781"/>nule du mont que jel repreingne.
+<lb n="782"/>Ja puis, a foi, Dex ne me praigne
+<lb n="783"/>a bone fin, que jel prendrai!
+<lb n="784"/>Ainz l'avrez, et si vos lerai
+<lb n="785"/>mon cuer avec, en vo servise;
+  <pb n="30"/>
+<lb n="786"/>qu'il n'est riens qui a vo devise
+<lb n="787"/>vos serve si bien ne si bel,
+<lb n="788"/>comme entre mon cuer et l'anel.»</q>
+<lb n="789"/>Fet ele : <q>«N'en parlez vos onques,
+<lb n="790"/>car vos en perdrïez adonques
+<lb n="791"/>m'acointance et ma seürté,
+<lb n="792"/>se vos, outre ma volenté,
+<lb n="793"/>me volez fere a vos m'esprendre.
+<lb n="794"/>Il le vos covient a reprendre!»</q>
+<lb n="795"/><q>«<choice><sic>Si</sic><corr>Non</corr></choice> fet!»</q> <q>«<choice><sic>Non</sic><corr>Si</corr></choice> fet! la n'a que dire:
+<lb n="796"/>ou vos estes molt plus que sire,
+<lb n="797"/>se vostre anuis a ce m'esforce
+<lb n="798"/>que vos le me voilliez par force,
+<lb n="799"/>maugré mien, fere retenir.
+<lb n="800"/>Tenez! james nu quier tenir.»</q>
+<lb n="801"/><q>«Si ferez!»</q> <q>«Je non ferai voir!
+<lb n="802"/>Volez le me vos fere avoir
+<lb n="803"/>a force?»</q> <q>«Nenil voir, amie.
+<lb n="804"/>Bien sai ce pooir n'ai ge mie:
+<lb n="805"/>ce poise moi, si m'aït Diex!
+<lb n="806"/>Ja puis vilenie ne dues
+<lb n="807"/>ne m'avenroit, c'est ma creance,
+<lb n="808"/>se vos en un poi d'esperance
+<lb n="809"/>me metïez por conforter.»</q>
+<lb n="810"/><q>«Ausi bien porrïez hurter
+<lb n="811"/>a ce perron le vostre chief,
+  <pb n="31"/>
+<lb n="812"/><supplied>que vos en venissiez a chief!</supplied>
+<lb n="813"/>si lou que vos le repreingniez.»</q>
+<lb n="814"/><q>«Il m'est vis que vos m'apreingniez,
+<lb n="815"/>fet il, a chanter de Renart.
+<lb n="816"/>Je me leroie ainz une hart
+<lb n="817"/>lacier ou col que jel preïsse!
+<lb n="818"/>Ne sai que je vos en feïsse
+<lb n="819"/>lonc plet, qu'au reprendre n'a rien.»</q>
+<lb n="820"/><q>«Sire, fet ele, or voi je bien
+<lb n="821"/>que ce vos fet fere enresdie,
+<lb n="822"/> <choice><corr>qant</corr><sic>que por</sic></choice> parole que je <supplied>vos</supplied> die,
+<lb n="823"/>ne vos puet au prandre mener.
+<lb n="824"/>Or vos veil jë aconjurer,
+<lb n="825"/>par la grant foi que me devez,
+<lb n="826"/>et proier que le reprenez,
+<lb n="827"/>si chier com vos avez m'amor.»</q>
+</ab><ab type="gv">
+<lb n="828"/>Or n'i a il, en Dieu amor,
+<lb n="829"/>tor c'un seul : qu'il ne li coviengne
+<lb n="830"/>a reprendre, ou qu'el nu tiengne
+<lb n="831"/>a desloial ou a jengleus.
+<lb n="832"/><q>«Diex! fet il, li qex de ces geus
+<lb n="833"/>partiz m est or li mains mauvais?
+<lb n="834"/>Or sai je bien, se ge li lais,
+<lb n="835"/>ele dira je ne l'aim mie.
+<lb n="836"/>Qui tant estraint croste que mie
+<lb n="837"/>en saut, ce par est trop estraint!
+  <pb n="32"/>
+<lb n="838"/>Cis sairemenz m'a si ataint
+<lb n="839"/>que li lessiers ne m'i est preuz.
+<lb n="840"/>Ançois cuit je que li miens preuz
+<lb n="841"/>et m'onors i soit au reprandre,
+<lb n="842"/>se je ne voil de molt mesprandre
+<lb n="843"/>vers ma gentil dame anoree,
+<lb n="844"/>qui s'amor m'a aconjuree
+<lb n="845"/>et la grant foi que je li doi.
+<lb n="846"/>Quant je l'avrai mis en mon doi,
+<lb n="847"/>si ert il siens, la ou il iert.
+<lb n="848"/>Se ge faz ce qu'ele me quiert,
+<lb n="849"/>je n'i puis avoir s'enor non.
+<lb n="850"/>N'est pas amis qui jusqu'en son
+<lb n="851"/>ne fet au voloir de s'amie;
+<lb n="852"/>et sachiez que cil n'ainme mie
+<lb n="853"/>qui riens qu'il puisse en lait a fere.
+<lb n="854"/>Si doi atorner mon afere
+<lb n="855"/>du tot en son conmandement,
+<lb n="856"/>car il n'en doit estre autrement,
+<lb n="857"/>s'a la seue volenté non.»</q>
+<lb n="858"/>Il na noma pas par son non
+<lb n="859"/>quant il dit : <q>«Dame, <w>je<supplied>l</supplied></w> prendrai
+<lb n="860"/>par un covent : que j'en ferai,
+<lb n="861"/>aprés la vostre volenté,
+<lb n="862"/>la moie, encor ait il esté
+<lb n="863"/>en ce doit que je voi si bel.»</q>
+  <pb n="33"/>
+<lb n="864"/><q>«Et je vos rent donques l'anel
+<lb n="865"/>par covent que vos l'en faciez.»</q>
+<lb n="866"/>N'est envielliz në esfaciez
+<lb n="867"/>li sens du vaillant chevalier.
+<lb n="868"/>Tot <choice><sic>en prenant</sic><corr>esprendanz</corr></choice> de cuer entier
+<lb n="869"/>le prist tot porpenseëment,
+<lb n="870"/>si le resgarde doucement.
+<lb n="871"/>Au reprandre dit : <q>«Grant merciz!
+<lb n="872"/>por ce n est pas li or nerciz,
+<lb n="873"/>fet il, s'il vient de vo biau doit.»</q>
+<lb n="874"/>Cele s en sozrist, qui cuidoit
+<lb n="875"/>qu'il le deüst remetre el sien;
+<lb n="876"/>mes il fist un plus greignor sen,
+<lb n="877"/>dont molt grant joie li vint puis.
+<lb n="878"/>Il s'est acoutez seur le puis,
+<lb n="879"/>qui n'estoit que toise et demie
+<lb n="880"/>parfonz, si ne meschoisi mie
+<lb n="881"/>de l'eaue, qui ert bele et clere,
+<lb n="882"/>l'ombre de la dame qui ere
+<lb n="883"/>la riens ou mont que plus amot.
+<lb n="884"/><q>«Sachiez, fet il, tout a un mot,
+<lb n="885"/>que je n'en reporterai mie,
+<lb n="886"/>ainz l'avra ja ma douce amie,
+<lb n="887"/>la riens que j'aing miex enprés vos.»</q>
+<lb n="888"/><q>«Diex! fet ele, ci n'a que nos :
+<lb n="889"/>Ou l'avrez vos si tost trovee?»</q>
+  <pb n="34"/>
+<lb n="890"/><q>«En non Deu!, ja vos ert mostree,
+<lb n="891"/>la preuz, la gentil qui l'avra.»</q>
+<lb n="892"/><q>«Ou est?»</q> <q>«En non Deu! vez la la,
+<lb n="893"/>vostre bel ombre qui l'atent!»</q>
+<lb n="894"/>L'anel a pris et si l'i tent.
+<lb n="895"/><q>«Tenez, fet il, ma douce amie:
+<lb n="896"/>puis que ma dame n'en velt mie,
+<lb n="897"/>vos le prandrez bien sanz mellee.»</q>
+<lb n="898"/>L'eaue s'est un petit troblee
+<lb n="899"/>au chëoir que li aneaus fist;
+<lb n="900"/>et, quant li ombres se desfist :
+<lb n="901"/><q>«Vez, dame! fet il, or l'a pris.
+<lb n="902"/>Molt en est amendez mes pris,
+<lb n="903"/>quant ce qui de vos est l'enporte.
+<lb n="904"/>Car n'eüst or ne huis ne porte
+<lb n="905"/>la jus! si s'en venroit par ci,
+<lb n="906"/>por dire la seue merci,
+<lb n="907"/>de l'oneur que fete m'en a.»</q>
+</ab><ab type="gv">
+<lb n="908"/>Hé! Diex! si buer i asena
+<lb n="909"/>a cele cortoisie fere !
+<lb n="910"/>C'onques mes riens de son afere
+<lb n="911"/>ne fu a la dame plesans.
+<lb n="912"/>Toz reverdis et esprenans
+<lb n="913"/>li a geté ses eulz <choice><corr>es</corr><sic>el</sic></choice> siens;
+<lb n="914"/>molt vient a honme de grant sens
+<lb n="915"/>qui fet cortoisie au besoing.
+  <pb n="35"/>
+<lb n="916"/><q>«Orainz ert de m'amor si loing
+<lb n="917"/>cil hon, et or en est si prés!
+<lb n="918"/>Onques mes, devant në aprés,
+<lb n="919"/>n'avint, puis qu'Adanz mort la pome,
+<lb n="920"/>si bele cortoisie a home !
+<lb n="921"/>Ne sai comment il l'en membra,
+<lb n="922"/>quant por m'amor a mon ombre a
+<lb n="923"/>jeté son anel enz ou puis.
+<lb n="924"/>Or ne li doi je, ne ne puis
+<lb n="925"/>plus veer le don de m'amor!
+<lb n="926"/>Ne sai por quoi je li demor,
+<lb n="927"/>c'onques hom si bien ne si bel
+<lb n="928"/>ne conquist Amor par anel,
+<lb n="929"/>ne miex ne doit avoir amie.»</q>
+<lb n="930"/>Sachiez qu'ele nu bleca mie,
+<lb n="931"/>quant ele dit : <q>«Biaus douz amis,
+<lb n="932"/>tot vostre cuer ont el mien mis
+<lb n="933"/>cil doz mot et cil plesant fet,
+<lb n="934"/>et li dons que vos avez fet
+<lb n="935"/>a mon ombre, en l'onor de moi.
+<lb n="936"/>Or metez le mien en vo doi :
+<lb n="937"/>tenez! je vos doing conme amie.
+<lb n="938"/>Je cuit vos ne <choice><sic>l'amerez</sic><corr>l'avrez</corr></choice> mie
+<lb n="939"/>mains du vostre, encor soit il pire.»</q>
+<lb n="940"/><q>«De l'onor, fet il, de l'Empire
+<lb n="941"/>ne me fesist on pas si lié!»</q>
+</ab>
+    <pb n="36"/>
+    <ab type="gv">
+<lb n="942"/>Molt se sont andui envoisié
+<lb n="943"/>sor le puis de tant conme il peurent.
+<lb n="944"/>Des besiers dont il s'entrepeurent
+<lb n="945"/>va chascun la douçor au cuer.
+<lb n="946"/>Lor bel oel n'en gietent pas puer
+<lb n="947"/>la parole, cë est du mains!
+<lb n="948"/>De tel geu comme on fet des mains
+<lb n="949"/>estoit ele dame et il mestre,
+<lb n="950"/>fors de celui qui ne puet estre,
+<lb n="951"/>dont il lor covendra molt bien !
+</ab><ab type="gv">
+<lb n="952"/>N'i covient mes penser <choice><sic>a</sic><corr>de</corr></choice> rien
+<lb n="953"/>Jehan Renart a lor afere!
+<lb n="954"/>S'il a nule autre chose a fere,
+<lb n="955"/>bien puet son penser metre aillors,
+<lb n="956"/>que puis que lor sens et Amors
+<lb n="957"/>ont mis andeus lor cuers ensenble,
+<lb n="958"/>du geu qui remaint, ce me senble,
+<lb n="959"/>venront il bien a chief andui;
+<lb n="960"/>et or s'en taise atant meshui!
+<lb n="961"/>Ici fenist li Lais de l'Ombre :
+<lb n="962"/>contez, vos qui savez de nombre !
+</ab>
+  </div>
+</body>
+</text>
+</TEI>

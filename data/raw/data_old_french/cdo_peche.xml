@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="fr">
+  <fileDesc>
+    <titleStmt>
+      <title type="main">Livre contre tout péché</title>
+      <title type="formal">cdo_peche</title>
+      <title type="reference">cdo_peche</title>
+      <title type="DEAF">CharlD'OrlC</title>
+      <title type="FRANTEXT">5423</title>
+      <title type="gmd">transcription électronique</title>
+      <author xml:id="COrleans" key="Orléans, Charles d' (1394-1465)" ref="http://www.idref.fr/028466861">Charles d'Orléans</author>
+      <editor>Équipe de la Base de français médiéval - ENS de Lyon / UMR 5317 IHRIM</editor>
+      <funder>Laboratoire IHRIM</funder>
+    </titleStmt>
+    <editionStmt>
+      <edition>transcripion électronique</edition>
+      <respStmt xml:id="encoderDD">
+        <resp>balisage du discours direct</resp>
+        <name xml:id="AL">Alexei Lavrentiev</name>
+      </respStmt>
+      <respStmt xml:id="encoder1">
+        <resp>numérisation</resp>
+        <name xml:id="ATILF">ATILF</name>
+      </respStmt>
+      <respStmt xml:id="encoder2">
+        <resp>rétroconversion automatique d'un texte du corpus FRANTEXT, base DMF, au format TEI P4</resp>
+        <name xml:id="GSouvay">Gilles Souvay (ATILF)</name>
+      </respStmt>
+    </editionStmt>
+    <extent>- Numéros de pages saisies : de 545 à 550 ;
+            - Nombre de mots d'après la base des descripteurs : <num xml:id="nb_mots_given">819</num> ;
+            - Nombre de tokens (mots et ponctuations) d'après la base des descripteurs : <num xml:id="nb_tokens_given">932</num>.
+    </extent>
+    <publicationStmt>
+      <publisher><name>Projet BFM, ENS de Lyon / UMR 5317 IHRIM</name></publisher>
+      <address>
+        <addrLine>15, parvis René Descartes</addrLine>
+        <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+        <addrLine>Tél : 04 37 37 63 10</addrLine>
+        <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+        <addrLine>http://bfm.ens-lyon.fr</addrLine>
+      </address>
+      <idno type="bfm">http://catalog.bfm-corpus.org/cdo_peche</idno>
+      <idno type="doi">10.34847/nkl.0e110prw</idno>
+      <availability status="free">
+        <licence target="https://www.etalab.gouv.fr/licence-ouverte-open-licence">
+          <ab type="availability_bfm" subtype="libre_1c">Les Conditions générales d'utilisation de la Base de Français Médiéval (http://txm.bfm-corpus.org/bfm/files/CGU.pdf), 
+            et notamment son Article 5 « PROPRIETE INTELLECTUELLE », s'appliquent à tous les textes de la BFM.</ab>
+          <ab type="how_to_cite">
+            <label>Comment citer ce texte :</label>
+            <bibl>Charles d'Orléans, Livre contre tout péché, édité par Pierre Champion, Paris, 1927. 
+              Publié en ligne par la Base de français médiéval, http://catalog.bfm-corpus.org/cdo_peche.
+              Dernière révision le 2012-11-02.</bibl>
+            D'autres formules de citation de la BFM sont proposées sur la page web suivante :
+            http://bfm.ens-lyon.fr/article.php3?id_article=281.</ab>
+          <ab type="availability_file">
+            <label>Conditions d'utilisation de ce fichier :</label>
+              Ce fichier numérique est composé du corps de texte médiéval et des suppléments numériques : balisage XML-TEI, métadonnées (teiHeader). Le texte et les suppléments numériques sont libres de droit et peuvent à ce titre être téléchargés et réutilisés librement.
+            </ab>
+            <ab type="availability_txmweb" subtype="illimité">
+              <label>Conditions d'utilisation par le portail BFM :</label>
+              Pas de limitation dans l'usage des fonctionnalités. Téléchargement autorisé.</ab>
+        </licence>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>Poésies. II, Rondeaux / Appendice : Le livre contre tout péché</title>
+          <author>Charles d'Orléans</author>
+          <respStmt>
+            <resp xml:id="editor">Éditeur scientifique</resp>
+            <name type="person">Pierre Champion</name>
+          </respStmt>
+        </titleStmt>
+          <extent>6 page(s)
+        </extent>
+        <publicationStmt>
+          <publisher>Champion</publisher>
+          <pubPlace>Paris</pubPlace>
+          <date>1927</date>
+          <idno type="sigle_DEAF">CharlD'OrlC</idno>
+          <idno type="cote_FRANTEXT">5423</idno>
+          <idno type="cote_biblio">BIU : Litt. 840.900 2 ORL</idno>
+        </publicationStmt>
+      </biblFull>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p>Projet :<name type="project">BFM - Base de français médiéval</name>
+        Resp. : <name type="person">Céline Guillot-Barbance</name>
+        Équipe : Base de français médiéval
+        Laboratoire : UMR 5317 IHRIM
+        Institution : ENS de Lyon
+        <address>
+          <addrLine>15, parvis René Descartes</addrLine>
+          <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+          <addrLine>Tél : 04 37 37 63 10</addrLine>
+          <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+          <addrLine>http://bfm.ens-lyon.fr</addrLine>
+        </address>
+      </p>
+      <p>Ce texte provient de la Base textuelle du <name type="project">Dictionnaire du Moyen Français</name>
+        et fait partie de la base <name type="project">FRANTEXT</name>.
+        <address>
+          <addrLine>ATILF UMR 7118 CNRS - Université de Lorraine</addrLine>
+          <addrLine>44, avenue de la Libération</addrLine>
+          <addrLine>BP 30687</addrLine>
+          <addrLine>54063 NANCY CEDEX</addrLine>
+          <addrLine>Tél : 03 54 50 53 00</addrLine>
+          <addrLine>Fax : 03 83 97 24 56</addrLine>
+          <addrLine>Courriel : contact@atilf.fr</addrLine>
+          <addrLine>http://www.atilf.fr</addrLine>
+          <addrLine>http://www.frantext.fr</addrLine>
+          <addrLine>http://www.atilf.fr/dmf</addrLine>
+        </address>
+      </p>
+    </projectDesc>
+    <editorialDecl>
+      <p>Voir le <ref target="http://bfm.ens-lyon.fr/IMG/pdf/Manuel_Encodage_TEI.pdf">Manuel d'encodage XML-TEI de la BFM</ref>
+        et les <ref target="http://bfm.ens-lyon.fr/IMG/pdf/Consignes_BFM.pdf">Consignes aux relecteurs de la BFM</ref>.</p>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="ab" occurs="12"/>
+        <tagUsage gi="body" occurs="1"/>
+        <tagUsage gi="div" occurs="8"/>
+        <tagUsage gi="foreign" occurs="1"/>
+        <tagUsage gi="gap" occurs="1"/>
+        <tagUsage gi="head" occurs="7"/>
+        <tagUsage gi="lb" occurs="150"/>
+        <tagUsage gi="num" occurs="3"/>
+        <tagUsage gi="pb" occurs="6"/>
+        <tagUsage gi="text" occurs="1"/>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <creation>
+      <name type="author">Charles d'Orléans</name>
+      <title>Livre contre tout péché</title>
+      <date type="compo" when="1404-01-01" notBefore="1404-01-01" notAfter="1404-12-31" n="15">1404</date>
+      <date type="compo_periode">moyen</date>
+      <date type="compo_sous_siecle" n="15_1">début</date>
+      <date type="ms" when="1440-01-01" notBefore="1435-01-01" notAfter="1444-12-31">ca. 1440</date>
+      <idno type="msIdentifier">Paris, BnF, fr. 25458</idno>
+      <region type="dialecte_auteur">orléanais</region>
+    </creation>
+    <langUsage>
+      <language ident="fro" usage="100">Le texte est entièrement écrit en vers en moyen français.</language>
+    </langUsage>
+    <textDesc>
+      <channel mode="w">print</channel>
+      <constitution type="single"/>
+      <derivation type="original"/>
+      <domain type="littéraire"/>
+    <factuality type="inapplicable"/>
+      <interaction type="none"/>
+      <preparedness type="prepared"/>
+      <purpose type="narrative"/></textDesc>
+    <textClass>
+      <keywords scheme="http://authorities.bfm-corpus.org">
+        <term type="domaine">littéraire</term>
+        <term type="genre">lyrique</term>
+        <term type="forme">vers</term>
+        <term type="relation">original</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change who="#ATILF" when="2005-03-30">numérisation</change>
+    <change who="#GSouvay" when="2005-03-30">rétroconversion automatique d'un texte du corpus FRANTEXT, base DMF, au format TEI P4</change>
+    <change who="#AL" when="2012-05-02">adaptation du balisage aux normes BFM TEI P5</change>
+    <change who="#AL" when="2012-11-02">balisage du discours direct</change>
+    <change when="2012-11-02">Dernière modification du texte</change>
+    <change when="2022-11-04">Création de cet entête</change>
+  </revisionDesc>
+</teiHeader>
+<text>
+<body>
+<div>
+<pb n="545"/>
+<ab type="gv">
+<lb n="1"/> Qui veult a grant honneur venir, 
+<lb n="2"/> Il doit l'amour Dieu acquerir ; 
+<lb n="3"/> Car sans icelle moiennent, 
+<lb n="4"/> Nul ne peut faire bonnement 
+<lb n="5"/> Aucune morale euvre, 
+<lb n="6"/> Se la grace de Dieu n'y euvre. 
+<lb n="7"/> Pour ce pri la trinité 
+<lb n="8"/> Et la dame d'umilité 
+<lb n="9"/> Qu'ilz me vueillent tel sens donner 
+<lb n="10"/> Qu'un livre puisse composer 
+<lb n="11"/> Qui soit d'aucune utilité, 
+<lb n="12"/> Pourfitant a humanité, 
+<lb n="13"/> En l'onneur de Dieu et prouffit 
+<lb n="14"/> De celui qui ce livre fit : 
+<lb n="15"/> Lequel livre est appellé 
+<lb n="16"/> Le livre contre tout peché. 
+</ab>
+</div>
+<div>
+<head rend="ital">Du pechié d'orgueil.</head>
+<ab type="gv"> 
+<lb n="17"/> Cil qui se vueult enorgueillir, 
+<lb n="18"/> Il peut bien exemple querir 
+<lb n="19"/> Au mauvais ange Lucifer, 
+<lb n="20"/> Qui fut depuis deable d'enfer, 
+<lb n="21"/> Lequel, par oultrecuidance, 
+<lb n="22"/> Cuida plus avoir puissance 
+<pb n="546"/>
+<lb n="23"/> Que celui qui nous tous fourma 
+<lb n="24"/> Et le monde de neant crea. 
+<lb n="25"/> Et par lui Dieu nous demonstra 
+<lb n="26"/> Que celui qui orgueil aura, 
+<lb n="27"/> Ne sera pas de lui amé, 
+<lb n="28"/> Mais en enfer sera dampné. 
+<lb n="29"/> Car cil qui orgueil en lui a, 
+<lb n="30"/> Tousjours les vices il aura. 
+<lb n="31"/> Premiers sont ire et envie, 
+<lb n="32"/> Avarice et gloutonnie, 
+<lb n="33"/> Peresse, toute luxure ; 
+<lb n="34"/> Adonc laisse la nature 
+<lb n="35"/> Des hommes, et vie des bestes 
+<lb n="36"/> Prendra, qui sont deshonnestes. 
+</ab>
+</div>
+<div>
+<head rend="ital">Du pechié d'avarice.</head>
+<ab type="gv"> 
+<lb n="37"/> Puis que j'ai parlé d'orgueil, 
+<lb n="38"/> Maintenant parler je vueil 
+<lb n="39"/> D'un tres deshonneste peché 
+<lb n="40"/> Qui avarice est appellé. 
+<lb n="41"/> Lequel pechié si atise 
+<lb n="42"/> Les cuers des gens et avise 
+<lb n="43"/> Comment il pourra en enfer 
+<lb n="44"/> Les ames des gens amener 
+<lb n="45"/> Par son art, par sa cordelle, 
+<lb n="46"/> Et par sa mauvaise querelle. 
+<lb n="47"/> Mais se nous avons bien regart 
+<lb n="48"/> A l'enseignement Saint Bernart, 
+<lb n="49"/> Je croi que nous laisserions 
+<lb n="50"/> L'avarice, et l'autre prendrions. 
+<lb n="51"/> Car tout l'argent et tout l'avoir 
+<lb n="52"/> Ne sont fors que enfer avoir. 
+<pb n="547"/>
+<lb n="53"/> Toutesfoiz, je ne dy mie 
+<lb n="54"/> Qu'on ne doie amer pour sa vie 
+<lb n="55"/> Soustenir l'or, aussi l'argent, 
+<lb n="56"/> Aux povres en distribuant. 
+</ab>
+</div>
+<div>
+<head rend="ital">De luxure.</head>
+<ab type="gv"> 
+<lb n="57"/> Luxure si est deshonneste 
+<lb n="58"/> Peché, car la vie de beste 
+<lb n="59"/> Prendre souvent fait, et laissier 
+<lb n="60"/> La nature et abaissier 
+<lb n="61"/> De l'amour de Dieu, dont souvent 
+<lb n="62"/> Aucuns meurent vilainnement. 
+<lb n="63"/> Car par l'enseignement Cathon 
+<lb n="64"/> Bonne renommée en pert on, 
+<lb n="65"/> Et aussi toute bonne vie 
+<lb n="66"/> On laisse, et en la baillie 
+<lb n="67"/> De l'ennemi pour son plaisir 
+<lb n="68"/> On se met, et pour son desir. 
+</ab>
+</div>
+<div>
+<head rend="ital">De envie.</head>
+<ab type="gv"> 
+<lb n="69"/> Cil qui vueult bonté ensuir, 
+<lb n="70"/> Il doit envie moult fuir ; 
+<lb n="71"/> Car Alain si nous enseigne 
+<lb n="72"/> Que, tout ainsi que la montaigne 
+<lb n="73"/> Qui est Ethna appelée 
+<lb n="74"/> Est tousjours de feu embrasée, 
+<lb n="75"/> Ainsi l'envieux tousjours art 
+<lb n="76"/> Du feu d'envie de toute part. 
+<lb n="77"/> Pour ce appert que desplaisant 
+<lb n="78"/> Est a Dieu et moult ennuiant. 
+</ab>
+<pb n="548"/>
+</div>
+<div>
+<head rend="ital">Du pechié de gloutonnie.</head>
+<ab type="gv"> 
+<lb n="79"/> Par gloutonnie tout pechié 
+<lb n="80"/> S'ensuit et toute mauvaistié, 
+<lb n="81"/> Et pour ce, un chascun fuir 
+<lb n="82"/> La doit, et non pas ensuir ; 
+<lb n="83"/> Mais regarder on doit souvent 
+<lb n="84"/> De Godeffroy l'enseignement, 
+<lb n="85"/> Par lequel il vitupere 
+<lb n="86"/> Les glous et les acompere 
+<lb n="87"/> A l'ours, au chien et a la truie. 
+<lb n="88"/> Pour ce appert que gloutonnie 
+<lb n="89"/> Est un pechié que on doit fuir, 
+<lb n="90"/> Car mauvaistié fait ensuir, 
+<lb n="91"/> Et en pert on sens et memoire, 
+<lb n="92"/> Aussi la souverainne gloire. 
+</ab>
+</div>
+<div>
+<head rend="ital">Du pechié d'ire.</head>
+<ab type="gv"> 
+<lb n="93"/> Pour ensuir tousjours mes diz, 
+<lb n="94"/> Dire vueil, parler, et si diz, 
+<lb n="95"/> Qu'un chascun qui du pechié d'ire 
+<lb n="96"/> Est plain ne peut faire ne dire 
+<lb n="97"/> Aucun bien a lui pourfitant, 
+<lb n="98"/> Tant est ce pechié empeschant. 
+<lb n="99"/> Et Alain en son livre dit 
+<lb n="100"/> Que, ainsi comme jour et nuyt, 
+<lb n="101"/> Les rivieres, aussi les flues, 
+<lb n="102"/> Par les rives sont tenues, 
+<lb n="103"/> Ainsi attrempance si tient 
+<lb n="104"/> L'ire des gens quant elle vient. 
+</ab>
+<pb n="549"/>
+</div>
+<div>
+<head rend="ital">De peresse.</head>
+<ab type="gv"> 
+<lb n="105"/> Chascun doit fuir peresse 
+<lb n="106"/> Tant qu'il peut en sa jeunesse. 
+<lb n="107"/> Car c'est chose tres mal seant 
+<lb n="108"/> Maiement a un jeune enffant, 
+<lb n="109"/> Et par Alain est demonstré. 
+<lb n="110"/> Car tout ainsi que en esté 
+<lb n="111"/> Le formy fait sa garnison 
+<lb n="112"/> Pour vivre toute la saison, 
+<lb n="113"/> Ainsi chascun doit entendre, 
+<lb n="114"/> Retenir et aussi aprendre 
+<lb n="115"/> Aucun bien des sa jeunesse ; 
+<lb n="116"/> Car on ne peut en viellesse 
+<lb n="117"/> Aprendre, car l'engin du vieux 
+<lb n="118"/> Est troublé par tous les lieux 
+<lb n="119"/> Du corps ; a l'exemple du chien 
+<lb n="120"/> Lequel on ne peut duire bien 
+<lb n="121"/> A mener tousjours en lesse, 
+<lb n="122"/> S'il n'y est aprins en jeunesse. 
+<lb n="123"/> Cy define maintenant 
+<lb n="124"/> Ce livret lequel, Dieu donnant, 
+<lb n="125"/> Je, nommé <gap/> d'OrléanS 
+<lb n="126"/> Fiz quant je eus acompli <num>.X.</num> ans. 
+<lb n="127"/> Pour ce mercie humblement 
+<lb n="128"/> Celui qui fist le firmament 
+<lb n="129"/> De ce qu'il m'a voulu aidier 
+<lb n="130"/> A ce livret cy composer, 
+<lb n="131"/> Et la Vierge debonnaire 
+<pb n="550"/>
+<lb n="132"/> Qui demeure lassus en gloire, 
+<lb n="133"/> En priant tous ceulz qui orront 
+<lb n="134"/> Ou ce livret present liront, 
+<lb n="135"/> Qu'ilz vueillent prendre tous en gré 
+<lb n="136"/> Ce que j'ay ycy raconté, 
+<lb n="137"/> Et me pardonnent, je leur pry, 
+<lb n="138"/> En cecy se j'ay point failly. 
+<lb n="139"/> Car je n'estoie pas si saige, 
+<lb n="140"/> Pour ce qu'estoie jeune d'age, 
+<lb n="141"/> Que je peusse faire traitté 
+<lb n="142"/> Qui fust de grant moralité. 
+<lb n="143"/> Et prie Dieu de Paradiz 
+<lb n="144"/> Que pourfiter puissent mes diz 
+<lb n="145"/> A ceulx qui vouldront escouter, 
+<lb n="146"/> Et qu'ilz puissent meurs acquester 
+<lb n="147"/> Et a la gloire parvenir 
+<lb n="148"/> Qui durra toujours, sans faillir ! 
+<lb n="149"/> Amen. 
+<lb n="150"/> <foreign xml:lang="la" rend="ital">Explicit</foreign>. 
+</ab>
+</div>
+</body>
+</text>
+</TEI>

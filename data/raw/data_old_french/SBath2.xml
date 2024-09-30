@@ -1,0 +1,1330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="fr">
+  <fileDesc>
+    <titleStmt>
+      <title type="main">Vie de sainte Bathilde (Version II)</title>
+      <title type="formal">SBath2</title>
+      <title type="reference">SBath2</title>
+      <title type="DEAF">SBath2B</title>
+      <title type="gmd">transcription électronique</title>
+      <author xml:id="anonyme">anonyme</author>
+      <editor>Équipe de la Base de français médiéval - ENS de Lyon / UMR 5317 IHRIM</editor>
+      <funder>Laboratoire IHRIM</funder>
+      <funder>HumaNum (consortium CAHIER)</funder>
+    </titleStmt>
+    <editionStmt>
+      <edition>transcripion électronique</edition>
+      <respStmt xml:id="encoder2">
+        <resp>vérification et validation du balisage</resp>
+        <name xml:id="AL">Alexei Lavrentiev</name>
+      </respStmt>
+      <respStmt xml:id="encoder1">
+        <resp>conversion en XML TEI et balisage manuel</resp>
+        <name xml:id="LD">Lydie Danjean</name>
+      </respStmt>
+    </editionStmt>
+    <extent>- Numéros de pages saisies : de 49 à 94 ;
+            - Nombre de mots d'après la base des descripteurs : <num xml:id="nb_mots_given">11682</num> ;
+            - Nombre de tokens (mots et ponctuations) d'après la base des descripteurs : <num xml:id="nb_tokens_given">12955</num>.
+    </extent>
+    <publicationStmt>
+      <publisher><name>Projet BFM, ENS de Lyon / UMR 5317 IHRIM</name></publisher>
+      <address>
+        <addrLine>15, parvis René Descartes</addrLine>
+        <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+        <addrLine>Tél : 04 37 37 63 10</addrLine>
+        <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+        <addrLine>http://bfm.ens-lyon.fr</addrLine>
+      </address>
+      <idno type="bfm">http://catalog.bfm-corpus.org/SBath2</idno>
+      <idno type="doi">10.34847/nkl.7af4r7nv</idno>
+      <availability status="free">
+        <licence target="https://www.etalab.gouv.fr/licence-ouverte-open-licence">
+          <ab type="availability_bfm" subtype="libre_1b">Les Conditions générales d'utilisation de la Base de Français Médiéval (http://txm.bfm-corpus.org/bfm/files/CGU.pdf), 
+            et notamment son Article 5 « PROPRIETE INTELLECTUELLE », s'appliquent à tous les textes de la BFM.</ab>
+          <ab type="how_to_cite">
+            <label>Comment citer ce texte :</label>
+            <bibl>Vie de sainte Bathilde (Version II), édité par Anders Bengtsson, Lund, 1996. 
+              Publié en ligne par la Base de français médiéval, http://catalog.bfm-corpus.org/SBath2.
+              Dernière révision le 2013-07-29.</bibl>
+            D'autres formules de citation de la BFM sont proposées sur la page web suivante :
+            http://bfm.ens-lyon.fr/article.php3?id_article=281.</ab>
+          <ab type="availability_file">
+            <label>Conditions d'utilisation de ce fichier :</label>
+              Ce fichier numérique est composé du corps de texte médiéval et des suppléments numériques : balisage XML-TEI, métadonnées (teiHeader), balisage du discours direct. Le texte et les suppléments numériques sont libres de droit et peuvent à ce titre être téléchargés et réutilisés librement.
+            </ab>
+            <ab type="availability_txmweb" subtype="illimité">
+              <label>Conditions d'utilisation par le portail BFM :</label>
+              Pas de limitation dans l'usage des fonctionnalités. Téléchargement autorisé.</ab>
+        </licence>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>La vie de sainte Bathilde / Version II - ms. B. N. fr. 2453</title>
+          <respStmt>
+            <resp xml:id="editor">Éditeur scientifique</resp>
+            <name type="person">Anders Bengtsson</name>
+          </respStmt>
+        </titleStmt>
+          <extent>46 page(s), soit 49-94
+        </extent>
+        <publicationStmt>
+          <publisher>Lund University Press</publisher>
+          <pubPlace>Lund</pubPlace>
+          <date>1996</date>
+          <idno type="isbn">91-7966-373-7</idno>
+          <idno type="sigle_DEAF">SBath2B</idno>
+          <idno type="cote_biblio">BFM perso : R179</idno>
+        </publicationStmt><seriesStmt><title>Études romanes de Lund</title></seriesStmt>
+      </biblFull>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p>Projet :<name type="project">BFM - Base de français médiéval</name>
+        Resp. : <name type="person">Céline Guillot-Barbance</name>
+        Équipe : Base de français médiéval
+        Laboratoire : UMR 5317 IHRIM
+        Institution : ENS de Lyon
+        <address>
+          <addrLine>15, parvis René Descartes</addrLine>
+          <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+          <addrLine>Tél : 04 37 37 63 10</addrLine>
+          <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+          <addrLine>http://bfm.ens-lyon.fr</addrLine>
+        </address>
+      </p>
+    </projectDesc>
+    <editorialDecl>
+      <p>Voir le <ref target="http://bfm.ens-lyon.fr/IMG/pdf/Manuel_Encodage_TEI.pdf">Manuel d'encodage XML-TEI de la BFM</ref>
+        et les <ref target="http://bfm.ens-lyon.fr/IMG/pdf/Consignes_BFM.pdf">Consignes aux relecteurs de la BFM</ref>.</p>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="body" occurs="1"/>
+        <tagUsage gi="div" occurs="2"/>
+        <tagUsage gi="head" occurs="1"/>
+        <tagUsage gi="lb" occurs="985"/>
+        <tagUsage gi="milestone" occurs="70"/>
+        <tagUsage gi="p" occurs="65"/>
+        <tagUsage gi="pb" occurs="46"/>
+        <tagUsage gi="q" occurs="30"/>
+        <tagUsage gi="text" occurs="1"/>
+        <tagUsage gi="w" occurs="2"/>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <creation>
+      <name type="author">anonyme</name>
+      <title>Vie de sainte Bathilde (Version II)</title>
+      <date type="compo" when="1450-01-01" notBefore="1400-01-01" notAfter="1499-01-01" n="15">15e s.</date>
+      <date type="compo_periode">moyen</date>
+      <date type="compo_sous_siecle" n="15_2">milieu</date>
+      <date type="ms" when="1450-01-01" notBefore="1400-01-01" notAfter="1499-12-31">15e s.</date>
+      <idno type="msIdentifier">Paris, BnF, fr. 2453</idno>
+      <region type="dialecte_auteur">non défini</region>
+    </creation>
+    <langUsage>
+      <language ident="fro" usage="100">Le texte est entièrement écrit en prose en moyen français.</language>
+    </langUsage>
+    <textDesc>
+      <channel mode="w">print</channel>
+      <constitution type="single"/>
+      <derivation type="original"/>
+      <domain type="religieux"/>
+    <factuality type="inapplicable"/>
+      <interaction type="none"/>
+      <preparedness type="prepared"/>
+      <purpose type="narrative"/></textDesc>
+    <textClass>
+      <keywords scheme="http://authorities.bfm-corpus.org">
+        <term type="domaine">religieux</term>
+        <term type="genre">hagiographie</term>
+        <term type="forme">prose</term>
+        <term type="relation">original</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change who="#LD" when="2012-06-28">conversion en XML TEI et balisage manuel</change>
+    <change who="#AL" when="2013-07-29">vérification et validation du balisage</change>
+    <change who="#AL" when="2013-07-29">balisage du discours direct</change>
+    <change when="2013-07-29">Dernière modification du texte</change>
+    <change when="2022-11-04">Création de cet entête</change>
+  </revisionDesc>
+</teiHeader>
+<text>
+      <body>
+         <div>
+            
+            <pb n="49"/>
+<p>
+<lb/>S'ensuyt la vie de madame saincte Bauptheur, royne de France.</p>
+<p>
+<lb/>Benoist soit Nostre Seigneur qui veult tous hommes saulver et
+<lb/>que ung chacung vienne a cougnoissance de verité. Son non doibt estre
+<lb/>glorifié et magniffié en toutes choses <milestone unit="folio" n="114v°"/> quant des petilz il
+<lb/>faict grans ainssi come nous congnoissons en ceste venerable dame
+<lb/>madame saincte Bauptheur de laquelle nous celebrons au jour d'uy la
+<lb/>feste en grant exultacion.</p>
+<p>
+<lb/>Ceste dame descendit du noble sang des ductz de Saxone. Ung jour 
+<lb/>ainssi qu'elle fuct saillye de la cité et que elle ce spacioit au pres de la
+<lb/>mer, les Sarrazins d'oultre mer la prindrent et la menerent aulx partiez
+<lb/>de Sirie, mais aprés aulcung temps fuct racheptee a force d'argent et
+<lb/>ramenee en France par le gouverneur du palays imperial nommé
+<lb/>Archenoald, ou elle ce maintint cy honnestement que elle plaisoit tant
+<lb/>audict prince que a tous ses mynistres. Elle estoit debonnayre de
+<lb/>courage, humble, sage, pudicque, sobre, ne voullant mal a nul.</p>
+<p>
+<lb/>Elle n'estoit pas legiere en parolle ne presumptueuse, mais
+<lb/>moderoit <milestone unit="folio" n="115r°"/> toutes sez oeuvres par honneste engin
+<lb/>demonstrant bien en toutes choses estre descendue de la noble lignee 
+
+<pb n="50"/>
+<lb/>royalle, car elle estoit fille de Florida, roy de Colongne. Elle estoit
+<lb/>belle a merveilles, ayant tousjours le visaige joyeulx, pesante et grave
+<lb/>en cheminant. Elle fuct cy agreable au devantdict prince par ses bonnes
+<lb/>oeuvres que il l'ayma plus et prisa que toutes lez aultres gentilz fames
+<lb/>qui estoient entour luy. Pourquoy il luy establit que chacune nuyt,
+<lb/>quant il se coucheroit, elle le servit de vin, ce qu'elle fict moult
+<lb/>proprement come tres honneste bouteilliere, de laquelle dignité ne s'en
+<lb/>esleva nullement mais plus en fuct humble, obediante et amyable a
+<lb/>toutes ses compaignes. Elle portoit a toutes ses esneez telle reverance
+<lb/>que elle mesme lez deschosoit <milestone unit="folio" n="115v°"/> et nectoyoit leurs soulliers a
+<lb/>ces mains et leur aportoyt de l'eaue et leur lavoit leurs piedz et
+<lb/>nectoyoit leurs robes et tout ce faisoit de bon coeur sans murmure.</p>
+<p>
+<lb/>Par sa noble conversacion toutes ses compaignes la louoyent et
+<lb/>aymoient et tant acreut sa bonne renommee que, quant la femme du
+<lb/>devantdict Archenoald fuct trespacee de ce ciecle, il voullut joindre a
+<lb/>luy l'honneste vierge Bauptheur par mariage. Laquelle, enlumynee de
+<lb/>la grace divine, ce retira sougneusement de ces regardz et ce cacha
+<lb/>secrettement come saige pucelle en ung anglet de la maison et mist sur
+<lb/>elle de vielz drappeaulx tellement que nul n'ust cuydé que aulcung ce
+<lb/>peust la reposer. Et puis par aulcungs ans s'en alla en ung armytage,
+<lb/>car come prudente <milestone unit="folio" n="116r°"/> vierge fuyoit les vainctz honneurs et
+<lb/>aymoyt humilité et chasteté et desiroit tousjours eschever humain delict 
+
+<pb n="51"/>
+<lb/>ad ce que servit parvenir a son espoulx celeste. Et elle quise ne fut
+<lb/>trouvee jusquez ad ce que une aultre fut conjoincte audict prince par
+<lb/>mariage. On peult croyre que tout ce fut faict par la voulenté divine
+<lb/>qui vouloit qu'elle qui avoit eschevé les nopces du prince print en
+<lb/>mariage Clovys, filz du bon roy Dangobert, ad ce que de celle qui
+<lb/>estoit extraicte de royalle lignee que royalle lignee en yssit.</p>
+<p>
+<lb/>Elle obtint si grant grace de Dieu que nul n'avoit riens affaire a
+<lb/>elle qui ne l'aymast de tout son coeur. Elle obeyssoit au roy come a son
+<lb/>seigneur, aulx princes ce monstroit comme mere, aulx prebstres come
+<lb/>fille, <milestone unit="folio" n="116v°"/> aux jeunes et adolescens come piteuse norrice. Elle
+<lb/>estoit amyable a tous en aymant les prebstres come sez peres, lez
+<lb/>moynes come sez freres, lez povres come ses domestiques, lez pelerins
+<lb/>come sez enfant pensant que elle mesmes avoyt esté estrange. Elle
+<lb/>soustenoit lez veufves et orphelins et aydoit a tous indigens. Elle portoit
+<lb/>honneur aulx princes et obtemperoit voulentiers a leur conseil. Et
+<lb/>tousjours estoit en prieres vers le roy pour lez eglises et pour lez
+<lb/>povres, car, combien qu'elle fut en habit seculier, desiroit de tout son
+<lb/>coeur servir a Dieu. Et ce recommandoit continuellement avecquez
+<lb/>lermes a Jhesu Crist, roy celeste, lequel selon sa foy et devocion luy
+<lb/>bailla ung sainct abbé, nommé Genesius, pour luy ayder a parfaire ce
+<lb/>que avoit consceu <milestone unit="folio" n="117r°"/> en sa pancee, lequel estoit demourant en
+<lb/>la court, puys aprés fut ordonné evesque de Lyon. Par lez mains de ce
+<lb/>sainct abbé paissoit lez povres, vestoit de vestemens lez nudz et 
+
+<pb n="52"/>
+<lb/>ordonnoit sougneusement de ensepvelir lez mors. Elle envoyoit par
+<lb/>yceluy aux abbayez de religieulx et vierges sacreez grant cantité d'or et
+<lb/>d'argent.</p>
+<p>
+<lb/>Advint que le roy Clovys et la royne furent tant ensemble qu'ilz
+<lb/>eurent deulx enfans. Si vint en voulenté au roy d'aller en pelerinage en
+<lb/>la terre d'oultre mer et cela sa pancee a la royne tant que elle mesmes
+<lb/>s'aparceut qu'il estoit tourmenté en son coeur d'aulcune chose secrette
+<lb/>qu'elle ne savoit. Advint ung jour qu'elle ce mist a le arresonner par
+<lb/>telles parolles : <q> « Tres cher amy, avez vous point ouy une parolle que
+<lb/>saige Salon dict que <milestone unit="folio" n="117v°"/> tant que le coeur de l'espoulx se fie en
+<lb/>sa loyalle espouse, de tant sera plus ayse, ne de riens n'aura souffrette.
+<lb/>Sire, vous me deussiez avoir piessa descouvert la chose dont je vous
+<lb/>voix si pensif et si tourmenté en vostre coeur. Tres cher sire,
+<lb/>descouvrés le moy tout surement, car sachés certaynement que, ce c'est
+<lb/>bien, je le parferay et y adjouteray a mon povoir aulcune chose de
+<lb/>bonté. » </q> Quant le debonnayre roy Clovys eust ouy le bon
+<lb/>admonnestement de la saincte royne, en eut grant joye en son coeur et
+<lb/>luy descouvrit tout en apart le proposement du devantdit pelerinage et
+<lb/>quant il eut tout descouvert son conseil, elle tendit lez mains vers le ciel
+<lb/>et dict : <q> « Sire Dieu, vostre non soit benoist. Ceulx et celles qui ont
+<lb/><milestone unit="folio" n="118r°"/> bone esperance en vous et perceverent viennent a
+<lb/>perfection. Sire, vous plaise par vostre misericorde octroyer a vostre
+<lb/>serviteur perseverance en son bon propoz et qu'il puisse mectre en
+<lb/>effect ce qu'il a encommencé en sa pancee. » </q> 
+ 
+</p>
+<pb n="53"/>
+<p>
+<lb/>Ne demoura guieres aprés ses choses que le roy par le conseil de
+<lb/>la saincte royne sa fame fist assembler tous lez princes et lez barons de
+<lb/>sa terre pour disposer au regime et gouvernement du royaulme de
+<lb/>France tant qu'il fust revenu de son pelerinage. Lez barons regarderent
+<lb/>et considererent la fragilité de humaine nature et doubtoient moult qu'il
+<lb/>ne revint jamés et vindrent tous ensamble au roy et luy prierent moult
+<lb/>doulcement qu'il couronnast son <milestone unit="folio" n="118v°"/> aisné filz a roy affin qu'il
+<lb/>gardast la terre et le royaulme par le bon conseil de la royne sa mere.
+<lb/>Le roy vit bien que tout le commung consentement estoit ad ce accordé,
+<lb/>si en fit toute leur voulenté a leur priere, puys ne demoura guieres
+<lb/>qu'il ne ce mist en la voye et entreprint le hault pelerinage qu'il avoit
+<lb/>tant desiré. Quant la royne eust son tres cher seigneur convoyé et prins
+<lb/>congé de luy en plorant, elle recommanda a Dieu son ame et son corps.
+<lb/>Puis s'en retourna avecquez sez enfans et ce recommanda en la garde
+<lb/>de Nostre Seigneur et demoura royne. Et abandonna son coeur et son
+<lb/>corps et sa substance en aulmosnes, en jeusnes et en oraysons vers
+<lb/>Nostre Seigneur et faisoit prieres pour la paix du royaulme et pour la
+<lb/>stabilité de saincte esglise et pour le salut de son mary et de tous ses
+<lb/>enfans.</p>
+<p>
+<lb/>Le jeusne roy son filz, <milestone unit="folio" n="119r°"/> duquel le non est mys en
+<lb/>oubly, regna ainssi grant piesse et tint moult en paix le royaulme par le
+<lb/>conseil de la bone et saincte royne madame saincte Bauptheur sa mere,
+<lb/>de laquelle il faisoit la voulenté. Et la saincte royne avoit moult grant 
+
+<pb n="54"/>
+<lb/>joye en son coeur de la paix du royaulme et de la prosperité de sez
+<lb/>enfans. Mais il n'avyent pas souvant en ce monde que grande prosperité
+<lb/>dure longuement que aulcune tristesse ne c'y entremesle. Ainssi avint
+<lb/>que, par l'amonnestement de nostre encien ennemy, son encien filz qui
+<lb/>tenoit le royaulme cheut en si grant orgueil que le conseil de sa saincte
+<lb/>mere la royne qu'il avoit par avant creu et gardé il desprisa en telle
+<lb/>maniere que, toutes les choses qu'elle disposoit estre faictes, il faisoit le
+<lb/>contraire et tant admonnesta son frere myneur qui encores ce te<milestone unit="folio" n="119v°"/>
+<lb/>noit au conseil de sa mere qu'il le fict accorder a sa voulenté.
+<lb/>Aprés ces choses fuct la royne departie du conseil du royaulme et du
+<lb/>conseil de sez enfans semblablement, si estoit elle tousjours
+<lb/>continuellement en orayson, prieres et aulmosmes et prioit Nostre
+<lb/>Seigneur pour la paix du royaulme et pour le salut de sez enffans et
+<lb/>pour la revenue du roy son seigneur et sur toutes aultres choses pour la
+<lb/>stabilité de nostre mere saincte esglise.</p>
+<p>
+<lb/>Le bon roy Clovys, pour acomplir la sentence de l'evangille qui
+<lb/>dict : <q> « Qui ne prant la croix et ne me ensuyt, il ne peult estre mon
+<lb/>disciple » </q>, il habandonna son royaulme temporel. Et fict tant par ses
+<lb/>journees qu'il vint en la terre de promission et fict son pelerinage au
+<lb/>sainct sepulcre en moult grant devocion et puys demoura en la terre et
+<lb/>ce mist a son povoir au sainct servyce de Nostre Seigneur. Ung jour
+<lb/>advint que la noble <milestone unit="folio" n="120r°"/> chevallerie du roy luy parla du
+<lb/>gouvernement du royaulme de France, lequel il avoit laissé, et avec ce 
+ 
+
+<pb n="55"/>
+<lb/>le bon roy eut souvenance de la royne sa femme et de ces enfans et de
+<lb/>ce eut grant pitié au coeur. Et ainssi qu'il pensoit et deliberoit en son
+<lb/>entendement quelle chose il feroit : ou se il demoureroit la ou il estoit
+<lb/>au servyce de Nostre Seigneur ou ce il retourneroit en son royaulme,
+<lb/>vint a luy ung Françoys qui venoit tout droit de France qui luy dict tout
+<lb/>par ordre comment sez enfans estoient rebellez a la royne sa fame.
+<lb/>Quant il eut sa rayson contee devant le roy et devant lez aultres
+<lb/>Francoys qui la estoient, si en fuct le roy moult durement couroucé et
+<lb/>troublé en son courage et tous ceulx qui estoient avecques luy. En aprés
+<lb/>a l'occasion desdictes nouvelles, le bon roy Clovys ce separa de sa
+<lb/>chevallerie et de sez gens <milestone unit="folio" n="120v°"/> et entra en ung lieu solitaire et
+<lb/>commença a gemir et plorer a l'occasion de la dureté et tribulacion
+<lb/>qu'il pensoit bien que la bonne royne sa femme souffroit, aussi a cause
+<lb/>de la follie de sez enfans, si delibera et advisa en son entendement que,
+<lb/>avecquez l'ayde de Dieu, il retourneroit en France tant pour
+<lb/>reconforter la royne que aussi pour corriger l'erreur de sez enfans. Et
+<lb/>tout ce il signiffia a sez chevaliers et subjectz et commenda preparer
+<lb/>pour retourner. Mais pour ce qu'il ne vouloit pas que ceulx du pays, la
+<lb/>ou il estoit, eussent soupeçon sur luy qu'i s'en allast pour et a cause
+<lb/>d'aulcune maulvaise chose, fist assembler tous lez plus grandz signeurs
+<lb/>de la terre et leur compta tout ce qui estoit advenu en son pays et en
+<lb/>son royaulme depuys qu'il estoit parti. Et alors, quant ilz ouyrent le
+<lb/>meschef qui estoit advenu en son royaulme, le prierent tous ensemble 
+
+<pb n="56"/>
+<lb/>qu'il s'en retournast au plus tost <milestone unit="folio" n="121r°"/> qu'il pourroit pour oster
+<lb/>sa fame de tristesse et de langueur et pour oster sez enfans de l'erreur
+<lb/>ou ilz estoient et de la desloyauté, car ilz doubtoient, ce il ne retournoit
+<lb/>hastivement, que la malice de sez enfans ne multipliast tant qu'ilz
+<lb/>prochassacent en aulcune maniere secours ou ayde des mescreans qui
+<lb/>estoient entour le royaulme.</p>
+<p>
+<lb/>Quant le roy fut en telle maniere enseigné, admonnesté et deprié
+<lb/>des grans et saiges de la terre, visita le plus hastivement qu'il peut lez
+<lb/>sainctz lieulx et pelerinages que Nostre Seigneur avoit sanctifié pour la
+<lb/>presence de son humanité et y donna de moult riches dons et ce mist a
+<lb/>retourner a son royaulme, luy et ceulx qui estoient avecquez luy. Et
+<lb/>renommee et nouvellez qui tost coururent furent a sez enfans que leur
+<lb/>pere le roy revenoit de son pelerinage. Et quant ilz ouyrent et sceurent
+<lb/>vrayement qu'il aprochoit, ilz ce pourpencerent qu'ilz yroyent au
+<lb/>devant de luy <milestone unit="folio" n="121v°"/> et que ilz luy cryeroient mercy de ce qu'ilz
+<lb/>avoient mesprins envers luy et envers leur mere ou ilz luy
+<lb/>deffendroient l'entree dedans le royaulme. De sez deulx, ilz eslurent le
+<lb/>maulvaix par l'admonnestement du diable qui en telle maniere lez avoit
+<lb/>gouvernez et mys en si grant orgueil jusquez a vouloir contredire a
+<lb/>leur pere l'entree de sa terre. Lors assemblerent tous lez gens d'armes
+<lb/>qu'ilz peurent et garnirent lez citez et les chateaulx. Les Françoys 
+ 
+
+<pb n="57"/>
+<lb/>furent tous avecquez eulx : les ungs a force, lez aultres pour lez grans
+<lb/>dons qu'ilz leur dounoyent. Quant ilz eurent assemblé a leur povoir
+<lb/>tous ceulx de France et leurs voysins et tous lez estranges qu'ilz
+<lb/>povoient assembler, si allerent contre leur pere et emplirent tout le
+<lb/>pays par lequel ilz pensoient qu'il deust venir.</p>
+<p>
+<lb/>Quant la royne Bauptheur eut ouy vrayes nouvelles de la venue
+<lb/>de son seigneur, en rendit graces a Nostre Seigneur et en eut grant joye
+<lb/>et <w>mesme<milestone unit="folio" n="122r°"/>ment</w> pour ce qu'elle croyoit bien que, avecquez
+<lb/>l'ayde de Dieu, elle mectroyt le royaulme en paix, lequel estoit si
+<lb/>troublé. Lors print messagiers certains et lez envoya vers son seigneur
+<lb/>et luy manda en briefves parolles coumant sez enffans ce estoient
+<lb/>maintenuz et gouvernez et aussi comment ilz avoient assemblé grant
+<lb/>armee de gens d'armes pour luy contredire l'entree en son royaulme et
+<lb/>en sa terre.</p>
+<p>
+<lb/>Adonc le roy receut moult joyeusement lez messagiers de sa fame
+<lb/>la royne Bauptheur et moult enquist diligemment l'estat de la royne et
+<lb/>de sez enffans et du royaulme. Et puys, quant il eut consideré en luy
+<lb/>mesmes l'orgueil de sez enffans et comment ilz avoient mys gens
+<lb/>d'armes es citez, villez et chasteaulx et comme avoient commandé que
+<lb/>portz et passages fussent gardez et deffendus, si en fuct le roy moult
+<lb/>desplaisant et tormenté en <milestone unit="folio" n="122v°"/> son courage et appela tout son
+<lb/>conseil et demanda quelle chose estoit bonne de faire. Le conseil du roy 
+
+<pb n="58"/>
+<lb/>ensemblé delibera par bone et saige deliberacion l'orgueil et
+<lb/>presumption desdictz enffans et aussi le grant trouble et division du
+<lb/>royaulme. Lesdictez choses considerees, ledict conseil dict au roy qu'il
+<lb/>mist tout en la main de Nostre Seigneur et que c'est celuy qui ne fault
+<lb/>jamés a ceulx qui ont toute leur esperance en luy. Le roy ce tint en leur
+<lb/>conseil et mist toute son esperance au roy dez roys et creut
+<lb/>certainement qu'il recouvreroit tout son royaulme par la puissance de
+<lb/>Dieu seullement et si eut moult grant confidence es oraysons de la bone
+<lb/>royne, madame saincte Bauptheur sa fame, et qu'ilz luy ayderoient
+<lb/>moult a parvenir a ce que son coeur desiroit.</p>
+<p>
+<lb/>Et pour ce qu'il ne semblast qu'il vousit sez enffans vaincre par
+<lb/>orgueil et par bobance, envoya a sez enffans messagiers et leur manda
+<lb/>moult debonnayrement que pour la pitié et amour que enffans doibvent
+<lb/>avoir a pere et a mere et aussi <milestone unit="folio" n="123r°"/> semblablement pour ce
+<lb/>qu'ilz en pourroient avoir reprouche a tousjours qu'ilz se repantissent
+<lb/>de leur follie et qu'ilz le receussent en son royaulme come enfans
+<lb/>doibvent recepvoir leur pere. Et affin qu'ilz n'eussent paour de venir
+<lb/>luy cryer mercy, leur manda que ce n'est pas merveille ce on se
+<lb/>mesprant, mais c'est merveilles quant de son meffaict on ne ce veult
+<lb/>repentir.</p>
+<p>
+<lb/>Quant lez messagiers eurent faict leur message aux enffans du
+<lb/>roy, tout ainssi que le serpent estoupe sez oreillez que l'enchanteur ne 
+
+<pb n="59"/>
+<lb/>le puisse enchanter, aussi estouperent ilz leurs oreillez et leur c'ur
+<lb/>contre le debonnayre mandement et humble priere de leur pere et
+<lb/>respondirent soudainement et tout sans conseil que ilz n'avoient point
+<lb/>de pere et que ja la couronne ne leur seroit tollue ne ostee, se par force
+<lb/>ou armes n'estoit. Nulle aultre amour ne nulle bonté lez messagiers ne
+<lb/>peurent trouver es <milestone unit="folio" n="123v°"/> enfans. Touteffoys au departir lesdictz
+<lb/>messagiers demanderent auxdictz enfans quelle responce ilz pourroient
+<lb/>faire et dire a leur pere le roy. Pour conclusion ilz n'en vouloient ouyr
+<lb/>parler, mais a grant paine ce departirent et a grant peril et dangier de
+<lb/>leurs vies sans quelque esperance de paix et quant le roy ceut la venue
+<lb/>d'iceulx messagiers, vint a l'encontre d'eulx et leur pria que ilz ne
+<lb/>celassent riens de la responce que leur avoient faicte lez enfans et ce ilz
+<lb/>le laisseroient entrer en son royaulme. Les messagiers respondirent que
+<lb/>ilz ne cuydoient pas que en tous lez gens du monde y eut si grant
+<lb/>orgueil come ilz avoient trouvé en sez enfans la et que il ne s'en faillict
+<lb/>guieres qu'ilz ne lez fissent destruyre de corps et luy dirent qu'ilz
+<lb/>avoient grande armee que, pour quelque puissance qu'il pult avoir, il
+<lb/>ne lez pourroit mectre en subjection et que nulle paix ne misericorde
+<lb/>ne pourroit trouver en eulx, se Nostre Seigneur <milestone unit="folio" n="124r°"/> ne faisoit
+<lb/>evident miracle.</p>
+<p>
+<lb/>Quant le roy Clovis ouyt sez choses, appella tous ceulx de son
+<lb/>conseil et leur dict : <q> « Il me semble que tout nostre secours et ayde gist 
+
+<pb n="60"/>
+<lb/>en la main de Nostre Seigneur. Or soyons doncquez tous assurez et
+<lb/>mectons nostre esperance en luy et n'ayons nulle fiance en nous
+<lb/>mesmes, car puis que nostre entreprinse est droicte et juste et nous la
+<lb/>mectons du tout sur luy qui est tout puissant et droit. Il ne fict aulcung
+<lb/>tort a nully, il nous donnera sans doubte nostre droict. Or lez allons
+<lb/>doncquez tout seurement assaillir et combaptre et sachés tout
+<lb/>certainement que vous varrés que ce ilz estoient assez plus de gens que
+<lb/>nous qu'ilz ne pourroient resister a Nostre Seigneur qui bataillera
+<lb/>contre eulx et sera pour nous et gaignera la bataille. » </q> Ceulx qui
+<lb/>estoient avecquez le roy n'oserent oncquez desdire son conseil, mais ce
+<lb/>seignerent tous du signe de la croix au saulveur du monde et s'en
+<lb/>armerent et ce mirent avecquez le roy Clovis et allerent en bataille
+<lb/>contre leurs ennemys, mais premierement le roy envoya messagiers
+<lb/>vers la royne sa femme et luy fist assavoir le jour de la bataille et luy
+<lb/>manda et pria tant qu'il peult <milestone unit="folio" n="124v°"/> qu'elle lez secoureut ad ce
+<lb/>jour de tous ceulx qu'elle pourroit prouchasser. Et sur toutes chosez
+<lb/>luy prioit humblement qu'elle fist larges aulmosnes et qu'elle priast
+<lb/>Nostre Seigneur qu'i luy pleut de sa grace disposer du discort qui estoit
+<lb/>entre le pere et les enfans que ce fuct au bien de l'ugne et de l'aultre
+<lb/>partie soubz la grande misericorde de Dieu. La bonne royne Bauptheur
+<lb/>obeist du tout en tout aux prieres de son mary. 
+ 
+</p>
+<pb n="61"/>
+<p>
+<lb/>Le roy aprocha pres du lieu ou estoient ses enfans et entra en son
+<lb/>royaulme et en sa terre et ordonna ung chastel estre faict en une partie
+<lb/>de son royaulme. Les enfans qui sez choses ouyrent assemblerent a leur
+<lb/>povoir tous ceulx qu'ilz purent et firent ung grant cry et une grant
+<lb/>noise et vindrent moult orguilleusement contre leur pere et l'asaillirent
+<lb/>et ceulx qui estoient en son ayde. Le roy qui moult estoit humble en
+<lb/>coeur tres asprement ce mist en armes et batailla si vertueusement et de
+<lb/>si grant coeur et nonobstant que ilz ne fussent que une petite cantité de
+<lb/>gens au regart dez aultres, ilz mirent lez plus vaillans en fuytte.</p>
+<p>
+<lb/>Quant lez enfans virent que ceulx <milestone unit="folio" n="125r°"/> en qui avoient leur
+<lb/>fience s'en estoient fouys, si eurent grant paour et craignoient qu'ilz ne
+<lb/>cheussent aux mains de leur pere et en sez liens. Touteffoys ne
+<lb/>demeurerent guieres qu'ilz ne fussent prins et quant la bataille fut
+<lb/>partie et on eut admené lez deulx enfans devant leur pere, le roy
+<lb/>commanda qu'ilz fussent liez. Et puys le roy se departit de ce lieu et
+<lb/>s'en vint en France et par tout ou il venoit on luy rendoit lez clefz dez
+<lb/>citéz, des villes et des chasteaulx a sa voulenté, lesquellez on avoit
+<lb/>garniez pour resister contre luy. Nul ne pourroit raconter la grant joye
+<lb/>que avoit la saincte royne Bauptheur, quant elle sceut les nouvelles.
+<lb/>Elle se mist a venir a l'encontre de son mary et qui pouroit racompter
+<lb/>la grant joye que le roy et la royne eurent, quant ilz virent l'ung
+<lb/>l'autre ? 
+ 
+</p>
+            <pb n="62"/>
+<p>
+<lb/>Le roy ne sejourna guieres qu'il ne demandast lez sages de son
+<lb/>royaulme pour juger sez enfans pour ce qu'ilz avoient commys selon ce
+<lb/>que dict l'escripture : <q> « Filz des hommes, jugés droit » </q>, et leur
+<lb/>demanda quel conseil ilz donneroient. Ceulx furent moult esbays et ne
+<lb/>savoient que respondre au roy fors qu'ilz dirent pour soy excuser <milestone unit="folio" n="125v°"/>
+<lb/> que lez plus grans barons et lez plus grans de France n'y
+<lb/>estoient pas et que sans eulx n'en feroient pas jugement. Quant le roy
+<lb/>qui moult desiroit ouyr le jugement et la responce des saiges de son
+<lb/>royaulme vit qu'ilz ne vouloient faire jugement de sez enfans, fist
+<lb/>assembler tout le menu conseil de France et leur dict tout ce qu'il avoit
+<lb/>faict aulx aultres. Si furent moult longuement a conseil ensemble et a la
+<lb/>fin s'accorderent et dirent : <q> « Comment mectrons nous jugement sur
+<lb/>royalle lignee et condampnerions. Cela jamés ne nous adviengne ! » </q>
+<lb/>Adoncques vindrent devant le roy et la royne et dirent : <q> « Saulve la
+<lb/>grace du roy et son commendement, nous ne presumons pas de asseoir
+<lb/>jugement sur royalle lignee ne sur noz seigneurs mesmes. Homme
+<lb/>mortel ne peult ne ne doibt juger de ce, sinon vous mesmes deulx
+<lb/>seullement. » </q></p>
+<p>
+<lb/>Quant la saincte royne ouyt que lez barons et seigneurs n'en
+<lb/>voullurent juger, si dict devant tous ceulx qui y estoient : <q> « Il couvient
+<lb/>que chacung porte la paine de son peché, soit en ce monde cy ou en
+<lb/>l'autre. Et pour ce que les paines de ce monde sont plus petites que
+<lb/>cellez de l'autre et aussy affin que lez aultres filz de roy y prenent <milestone unit="folio" n="126r°"/>
+ 
+<pb n="63"/>
+<lb/>exemple et ce chastient de vouloir entreprandre si grant crime
+<lb/>contre pere et mere, moy mesmes feray le jugement de mes enfans.
+<lb/>Pour ce qu'ilz vouloient tenir le royaulme a force contre leur pere et
+<lb/>mere et pour ce mesmes qu'ilz renioient leur pere, oyans tous, moy
+<lb/>juge, ilz perdront a tousjours l'eritage tel comme ilz debvroient avoir
+<lb/>au royaulme et pour ce qu'ilz porterent armes contre leur pere, je juge
+<lb/>qu'ilz perdront la force et la vertu du corps. » </q> Le roy Clovis s'accorda
+<lb/>au jugement de la saincte royne. La royne fict tantost admener devant
+<lb/>elle ses deulz enfans et leur fict cuyre les jarretz devant tous ceulx qui
+<lb/>la estoient. Les Françoys qui veoient ces choses dirent les ungs aux
+<lb/>aultres par grande admiracion : <q> « He ! Que le coeur du roy Nostre Sire
+<lb/>est endurcy depuys qu'il ce partit de nostre <milestone unit="folio" n="126v°"/> pays ! Comme
+<lb/>peult il endurer que ses filz soient ainssi pugnys durement devant
+<lb/>luy ? » </q> Puys en aprés fut le roy si redoubté en France que oncquez
+<lb/>puys nul ne fut si hardy qui de riens osast mesprandre vers luy.</p>
+<p>
+<lb/>Les enfans qui eurent receu celle sentence par le jugement de
+<lb/>leur mere la royne la soustindrent en bonne passience et regarderent et
+<lb/>considererent qu'ilz l'avoient bien desservy, car il ne tint pas a eulx
+<lb/>qu'ilz n'avoient leur pere faict mourir et occis. Ilz prierent Nostre
+<lb/>Seigneur moult devostement que, a cause de ce peché, ilz ne fussent pas
+<lb/>dampnés eternellement et abandonnerent leur coeur et leur corps au
+<lb/>service de leur createur en vigilles, en oraisons, en aulmosnes et en
+<lb/>moult de manieres de abstinences de leur corps. En telle maniere
+<lb/>demeurerent en la maison de leur pere. 
+</p>
+<pb n="64"/>
+<p>
+<lb/>Le roy qui regardoit ses enfans que nulle foys ne se levoient mais
+<lb/>tousjours se seoient en eut pitié au coeur. Et ung jour vint a la royne
+<lb/>
+<milestone unit="folio" n="127r°"/> et luy descouvrit en disant : <q> « Haa ! Dame, comment
+<lb/>pourrions nous veoir toute nostre vie ne endurer la tribulacion de noz
+<lb/>enfans ? Et d'aultre part comment endurerons nous que nous les
+<lb/>separons et ostons d'avecquez nous et que nous ne les voyons jamés ? » </q>
+<lb/>Quant la royne eut aperceu la bonté et pitié de son seigneur et la
+<lb/>naturelle amour dont il aymoit ses enfans, commensa a le reconforter
+<lb/>et dict : <q> « Benoist soit Nostre Seigneur, le Dieu d'Israel, qui visita et
+<lb/>rachepta son peuple et que le grant orgueil de noz enfans a mys a si
+<lb/>grand humilité et leur a donné coeur et voulenté de le servyr. Tres
+<lb/>doulx sire, confortés vous de voz enfans, car sachés certainement que
+<lb/>ne demourerons guieres que Nostre Seigneur ne nous demonstre ce qui
+<lb/>luy plaist qu'il en soit faict. » </q></p>
+<p>
+<lb/>Aprés ses choses fut celle saincte royne en continuelle orayson
+<lb/>envers Nostre Seigneur que par sa saincte misericorde il leur
+<lb/>demonstrast quelle chose il luy plairoit qu'ilz fissent de leurs enfans.
+<lb/>Ne demoura guieres aprés ces choses <milestone unit="folio" n="127v°"/> que la royne ne vint a
+<lb/>ses enfans et parla a eulx en ceste maniere : <q> « Haa ! Comme est doulx le 
+
+<pb n="65"/>
+<lb/>Dieu d'Israel a ceulx qui ont le coeur droict et bon envers luy. Sa
+<lb/>sapience et bonté est infinie et ne pourroit estre nombree. Mes enfans,
+<lb/>vous voyés et cougnoissés que l'orgueil desmesuré, la follie et
+<lb/>presumption que avés eue contre vostre pere et mere est cheutte en
+<lb/>humilité par sa grand sapience et misericorde et debvez savoir que
+<lb/>Nostre Seigneur tousjours juge droit. Et sachés que il ne vous a pas
+<lb/>donné ce jugement pour vostre mal, mais pour le salut de voz ames.
+<lb/>Reconfortés vous et mectés vostre esperance en Dieu qui dict en ceste
+<lb/>maniere : <q>? Je ne suys pas venu en ce monde pour apeller les justes a
+<lb/>penitence, mais pour les pecheurs. ?</q> » </q></p>
+<p>
+<lb/>Quant les enfans ouyrent le debonnaire admonnestement de leur
+<lb/>mere, voyant et considerant qu'ilz avoient si griefvement failly, si
+<lb/>s'enclinerent vers Nostre Seigneur et de bon coeur <milestone unit="folio" n="128r°"/> par
+<lb/>elevation d'entendement et de pancee luy prierent doulcement qu'i luy
+<lb/>plust pardonner le peché qu'ilz avoient commys et perpetré contre luy,
+<lb/>contre leur pere et leur mere. Et en priant Dieu esleverent leurs mains
+<lb/>vers le ciel en disant : <q> « Sire Dieu qui estes destructeur des orgueilleux
+<lb/>et eslevez les humbles et confortés les povres, conseillés les
+<lb/>desconfortez et estes pere de pitié et misericorde, vostre non soit
+<lb/>benoist par tous les siecles des siecles. Nous croyons certainement que
+<lb/>pour ce vous nous avez osté la force et vertu du corps affin que les
+<lb/>ames vous puissent servir a leur voulenté, car myeulx nous vault aller
+<lb/>humblez en paradis sans estre tourmentés que estre orgueilleux et
+<lb/>finablement estre en enfer dampnés. » </q> 
+</p>
+<pb n="66"/>
+<p>
+<lb/>Et quant les enfans eurent aperceu par les parolles de la royne
+<lb/>que le roy avoit eu compassion de eulx, en furent moult couroucés en
+<lb/>leur coeur et moult desiroient estre eslongnés de leur pere <milestone unit="folio" n="128v°"/>
+<lb/>affin qu'il ne eust pas si grant pitié et compassion de eulx. Lors
+<lb/>prierent moult leur saincte mere pour l'amour de Jhesu Christ que elle
+<lb/>ne print pas garde a leur follie, mais les conseillast qu'ilz fussent mys
+<lb/>en religion loing de leur pere ou ilz pussent faire aulcune penitence de
+<lb/>leurs pechés pour estre dignes et plaisans a Nostre Seigneur. Quant la
+<lb/>royne ouyt la repantence de ses enffans tant louable a Dieu et aux
+<lb/>hommes, si en rendit graces a Nostre Seigneur et dict : <q> « Sire Dieu, je
+<lb/>vous rens graces et mercys que n'avez desprisé mes prieres et que avez
+<lb/>tourné mon couroulx en joye. » </q> Adoncques s'en retourna vers ses
+<lb/>enfans et leur dict : <q> « Mes enfans, confortés vous en Nostre Seigneur et
+<lb/>luy donnés voz coeurs et voz corps en vigilles, oraisons et aultres
+<lb/>oeuvres de penitence affin que puissiez avoir le bien et heritage que
+<lb/>Dieu a preparé a ses amys. Il dict : <milestone unit="folio" n="129r°"/> <q>? Je suys commencement
+<lb/>et fin ?,</q> et pour tant le bien qu'il a commencé en vous par sa sainte
+<lb/>grace, le veille parfaire. » </q> Aprés ce partit la saincte royne de ses
+<lb/>enffans et vint moult joyeusement au roy Clovys son seigneur et luy
+<lb/>compta tout par ordre ce qu'elle avoit trouvé en ses enfans.
+ 
+</p>
+<pb n="67"/>
+<p>
+<lb/>Quant le roy sceut la loyalle repentence que les enfans avoient,
+<lb/>dict : <q> « Tout ce est avenu par la grace et misericorde de Dieu. Il est
+<lb/>droict que nous obeissions a leur voulenté. Regardons et advisons ung
+<lb/>lieu convenable ou ilz puissent resider et demeurer et la ou ilz puissent
+<lb/>rendre a Dieu ce qu'ilz ont voué et promys. » </q> La royne qui moult
+<lb/>estoit prompte d'acomplir les commendemens du roy luy respondit et
+<lb/>dict : <q> « Le lieu de leur habitation n'est mye a eulx a querir, mais
+<lb/>apartient seullement a la providence Nostre Seigneur, lequel leur a
+<lb/>donné coeur et corps pour le servir et pour ce a luy est de leur
+<lb/>pourveoir de lieu. Pour ce, <milestone unit="folio" n="129v°"/> tres cher sire, il seroit
+<lb/>convenable que leur fissiés faire une nef en Sayne si bone et si grande
+<lb/>que leur vivre et leur vesture puisse estre avecquez eulx et puys les
+<lb/>deulx enfans ce mectront dedans et ung servyteur qui les servyra. Et
+<lb/>quant Nostre Seigneur les avra conduys ou son plaisir sera, le serviteur
+<lb/>reviendra et nous dira le pays et le lieu de leur habitacion. » </q></p>
+<p>
+<lb/>Quant le roy ouyt le conseil de sa femme, luy respondit et dict : <q> « 
+<lb/>Saincte royne, j'entens bien et voy que ce conseil ne vient point de
+<lb/>vous, mais de l'ordonnance et pourveance de Dieu qui dict par la
+<lb/>bouche du prophette : <q>? Ouvre la bouche et je parleray. ?</q> Et en aultre
+<lb/>lieu il est escript que toute sapience vient de Dieu. Pourtant je més
+<lb/>d'ores enn avant toute l'affaire de noz enfans en ta main et t'en baille la 
+ 
+
+<pb n="68"/>
+<lb/>disposicion du tout en tout et que tu en ordonnes au conseil et a la 
+<lb/>voulenté de Dieu ce que verras qui apartiendra au salut <milestone unit="folio" n="130r°"/> de
+<lb/>leurs ames. » </q> Si tost que la saincte royne eut le congé, manda les
+<lb/>ouvriers et leur devisa la nef et ilz la firent incontinent ainssi que la
+<lb/>royne l'avoit devisee et y firent chambrettes et habitacions telles
+<lb/>comme ilz leur couvenoient pour eulx et pour leur choses.</p>
+<p>
+<lb/>Quant la nef fuct toute preste et appareillee et les enfans y durent
+<lb/>entrer, regarderent vers le ciel par elevation de cueur et de pancee et
+<lb/>dirent : <q> « Sire, toutes voz voyes sont verité et misericorde, vostre
+<lb/>chemin est en l'eaue comme en terre. » </q> Et ainssi entrerent en la nef
+<lb/>sans aultre compagnie fors seullement d'ung serviteur que la royne leur
+<lb/>avoit baillé pour les servyr. Il y avoit illecquez moult de peuple
+<lb/>assemblé pour regarder ses choses et quant ilz virent que les enfans
+<lb/>faisoient si joyeuse chere en entrant en la nef, commencerent tous a
+<lb/>pleurer de pitié et dirent : <q> « Nul ne doibt doubter que ses choses ne
+<lb/>viennent de Nostre Seigneur. Car comment ce pourroit faire que ses
+<lb/>enfans s'en <milestone unit="folio" n="130v°"/> allassent hors du royaulme leur pere et
+<lb/>delaissassent tous leurs parens, se Nostre Seigneur ne leur faisoit faire ?
+<lb/>Mais sans faulte ilz obeissent du tout a la sentence de l'evangille qui
+<lb/>dict : <q>? Qui ne delesse son pere et sa mere et tout ce qu'il a pour
+<lb/>l'amour de moy ne peult estre mon disciple. ?</q> » </q>
+ 
+</p>
+<pb n="69"/>
+<p>
+<lb/>En ceste maniere delesserent le royaulme de France et s'en
+<lb/>allerent contreval Sayne, non mye a force d'avirons et non mye par le
+<lb/>conduit de nully qui les conduysast fors que Nostre Seigneur tant
+<lb/>seullement qui en peu de temps leur fist la terre tant eslongner qu'ilz
+<lb/>vindrent en Normendie et illecques prindrent port par la voulenté de
+<lb/>Nostre Seigneur en ung lieu qui estoit environné de grandes montaignes
+<lb/>plaines de fosses et de roches. Pres de la ou la nef estoit et la ou elle
+<lb/>avoit prins port, avoit ung lieu que ceulx du pays appelloient Gemme,
+<lb/>ou ung sainct homme demouroit qui avoit non Phillebert et tenoit
+<lb/>illecques l'ordre et la reigle, luy et ung aultre moyne.</p>
+<p>
+<lb/>Il advint que ce sainct homme vint vers le fleuve de Sayne et
+<lb/>quant ilz l'eurent aperceu, ce esmerveillerent moult <milestone unit="folio" n="131r°"/>
+<lb/>commant ilz habitoient illecques en cy saulvage lieu. Et quant le sainct
+<lb/>homme ce fuct aproché de la nef et il eust aperceu qu'elle n'estoit
+<lb/>arrivee en ce lieu par aulcung moyen sinon par la grace de Dieu et eut
+<lb/>veu les enfans qui si richement estoient habillez, il pença bien qu'ilz
+<lb/>estoient de moult hault lieu et de grant lignage et que Nostre Seigneur
+<lb/>les avoit illecques admenez et que il les vouloit avoir en son service.
+<lb/>Adoncquez s'aprocha des enfans et les salua moult honorablement et
+<lb/>debonnairement et les enquist de quelle terre ilz estoient. Les enfans
+<lb/>virent et aparceurent qu'il parloit moult doulcement et religieusement 
+ 
+
+<pb n="70"/>
+<lb/>et estoit de moult belle contenance, luy descouvrirent l'aventure de
+<lb/>toutes leurs choses qu'il leur avoit enquises et puys luy prierent pour
+<lb/>l'amour de Dieu qu'il leur donnast conseil sur les choses qu'il avoit
+<lb/>ouyes qui fuct a l'honneur de Dieu et au salut de leurs ames.
+<lb/>Adoncquez les mena le sainct homme en son habitacion ou il y avoit
+<lb/>ung moustier de monseigneur sainct Pierre, le prince des apostres et
+<lb/>leur dict : <q> « Nostre Seigneur a au jour d'huy rejouy mon coeur de
+<lb/>vostre venue. <milestone unit="folio" n="131v°"/> Or vous rejouyssez avecquez moy en la
+<lb/>craincte et amour de Nostre Seigneur ! Car l'escripture dict que ceulx
+<lb/>qui doubtent Nostre Seigneur et l'ayment en bonne verité, ilz n'ont
+<lb/>deffaulte de quelque chose. » </q></p>
+<p>
+<lb/>Les enfans demourerent avecquez le sainct homme a qui obeyrent
+<lb/>toute leur vie come a pere en vraye humilité et en vraye subjection au
+<lb/>service et en l'amour de celuy mesmes qui dict : <q> « Mon service est
+<lb/>souef et ma charge est legere. » </q> Les enfans envoyerent leur serviteur
+<lb/>au roy Clovis leur pere et a la royne leur mere qui leur racompta
+<lb/>toutes les choses par ordre, lesquellez par la providence divine estoient
+<lb/>advenues a leurs enfans depuys leur departement. Quant le roy et la
+<lb/>royne ouyrent la grand passience et aussi la bone voulenté, laquelle ilz
+<lb/>avoient a bien parseverer, eurent grant joye en leur cueur et en
+<lb/>rendirent graces a Nostre Seigneur et dirent : <q> « Sire Dieu, vostre non 
+
+<pb n="71"/>
+<lb/>soit honoré que nulle foys ne mectés les vostres povres en oubly ne ne
+<lb/>laissés leur esperance perir et dictes que bien eureulx sont les povres
+<lb/>d'esperit, <milestone unit="folio" n="132r°"/> car le royaulme du ciel est leur. » </q> Ne demoura
+<lb/>guieres aprés ses choses que le roy et la royne vindrent au lieu ou
+<lb/>estoient leurs enfans pour visiter ledict lieu. Et pour ce qu'il estoit
+<lb/>petit, le firent moult richement ediffier au non de sainct Pierre, en
+<lb/>l'honneur duquel le lieu estoit ediffié premierement. Et quant ilz y
+<lb/>eurent mys grant multitude de moynes, enrichirent le lieu et donnerent
+<lb/>de grans terres et de grans rentes a l'honneur de Dieu, de leurs enfans
+<lb/>et du royaulme de France, duquel ilz estoient par la maniere que dessus
+<lb/>est dicte. Aprés ses choses s'en retournerent le roy et la royne et s'en
+<lb/>revindrent en France, louant et gloriffiant Dieu. Et les deulx enffans
+<lb/>demourerent illecquez et percevererent en leur bon propoz et firent en
+<lb/>ladicte habitacion bien eureulx service jusquez en la fin de leurs jours
+<lb/>qu'ilz trespasserent de ce siecle et que Nostre Seigneur receut les ames
+<lb/>en son paradis.</p>
+<p>
+<lb/>Puys la revenue du roy Clovis <milestone unit="folio" n="132r°"/> d'oubtre mer, il
+<lb/>engendra en la royne sa femme troys filz dont le premier fuct apellé
+<lb/>Clotaire, le segond Childeric et le tiers Thaolderich. Et puys par la
+<lb/>voulenté de Nostre Seigneur entra en la commugne voye de humaine
+<lb/>nature et trespassa de ce siecle le xviije an de son regne. Aprés la mort
+<lb/>du roy Clovys demeurerent les enfans avecquez la saincte royne leur
+<lb/>mere et fuct Clotaire couronné roy et receu au royaulme et le tint 
+ 
+
+<pb n="72"/>
+<lb/>mout en bone paix par l'ayde et conseil de sa saincte mere, la royne
+<lb/>Bauptheur, et aussi par le conseil de plusieurs preudhommes du
+<lb/>royaulme comme estoit Chrodebert evesque de Paris et le mareschal de
+<lb/>France. En ce temps advint par le pourchas de la royne Bauptheur que
+<lb/>ceulx d'Ostraise furent accordés aux Françoys en telle maniere que
+<lb/>Childeric, le frere de Clotaire, fut receu a roy en Astraise. Puys en
+<lb/>avant furent les Françoys et les Bourguignons ainssi comme tout ung.
+<lb/>Et nous croyons que ses troys terres furent accordees - Austraise,
+<lb/>France et <milestone unit="folio" n="133r°"/> Bourgongne - par les merites et intercessions
+<lb/>madame saincte Bauptheur.</p>
+<p>
+<lb/>En ce temps estoit bien encores abaissee nostre mere saincte
+<lb/>esglise a cause de heresie, car a paine povoit avoir aulcun bienfice, se il
+<lb/>ne l'achetoit, mais celle maulvaise coustume fut abatue en yceluy temps
+<lb/>par le moyen de madame saincte Bauptheur et des prelatz de saincte
+<lb/>esglise et fuct deffendu en general que nul ne fuct si hardy de prandre
+<lb/>ne donner aulcune chose pour avoir bienfice en saincte esglise. On ne
+<lb/>pourroit raconter les dons qu'elle faisoit aux religions ; elle leur
+<lb/>donnoit les maisons, rentes et usaiges en ses forectz pour ardoir et pour
+<lb/>faire les maisons et estoit son courage si desirant de donner que chose
+<lb/>qu'elle donnast ne luy povoit souffire, mais luy estoit advis que tout ce
+<lb/>qu'elle faisoit luy estoit come neant, si elle mesmes ne fondoit les
+<lb/>maisons de religion, dont il advint que elle fonda une abbaye de
+<lb/>religieuses que on appelle Chelles saincte Bauptheur en l'evesché de
+<lb/>Paris et est celle abbaye environnee de la riviere de Marne ou elle 
+
+<pb n="73"/>
+<lb/>donna <milestone unit="folio" n="133v°"/> plusieurs bones villes, les nons desquellez ne sont pas
+<lb/>icy nommez affin qu'il ne ennuye a ceulx qui orront et liront la vie.
+<lb/>Une chose ordonna en ycelle abbaye, laquelle est moult a redoubter et a
+<lb/>craindre a ceulx qui la gardent et gouvernent. Elle fist faire une
+<lb/>chartre, laquelle fut scellee des ceaulx de tous ses enfans, en laquelle
+<lb/>elle deffent et conjure au non de la trinité et par la paour du
+<lb/>redoubtable jour du jugement que nul qui l'abbaye garderoit que de
+<lb/>riens que elle y eust lessé et donné en la substantacion des religieuses
+<lb/>ne osast aulcune chose oster ne tollir, et ce on le faisoit que on en fut
+<lb/>tormenté en enfer avecquez Judas le traictre. Qui ceste chartre
+<lb/>querroit, on la trouveroit encores au tresor de Chelles saincte
+<lb/>Bauptheur.</p>
+<p>
+<lb/>La premiere abbesse qui fut a Chelles, ce fut une noble et
+<lb/>vertueuse religieuse qui avoit non Bertille que la royne Bauptheur
+<lb/>prochassa de Jouerre. La bone royne avoit moult grand affection <milestone unit="folio" n="134r°"/>
+<lb/> de y resider et demourer come religieuse toute sa vie et
+<lb/>plusieurs grans biens elle fist dont elle ne ce vantoit pas, car les biens
+<lb/>que le sainct esperit donne a la personne, on les doibt celler et ne s'en
+<lb/>doibt on pas vanter ainssi qu'il est escript, car tous ceulx et celles qui
+<lb/>proposent a bien faire, Dieu leur ayde. Je raconteray encores ung
+<lb/>aultre bien que Nostre Seigneur fict par la saincte royne. Ce fut
+<lb/>l'abbaye de Corbie qu'elle fonda en l'evesché d'Amiens et y establit une
+<lb/>saincte compagnie de moynes et y mist ung abbé moult sainct homme,
+<lb/>nommé Gaudefroy, qu'elle prochassa en l'esglise de Lymoges. Et ainssi
+<lb/>come celle royne avoit ceste esglise faicte et fondee du sien, aussi elle la 
+
+<pb n="74"/>
+<lb/>fict riche de villes et de rentes et de tout ce qu'il convenoit a ceulx qui
+<lb/>servoient Dieu et servyront tant et si longuement que l'esglise durera.
+<lb/>Et oultre plus y donna ung moult precieulx reliquere et tous les biens
+<lb/>qu'elle faisoit, elle faisoit de bon cueur et joyeusement jouxte
+<lb/>l'escripture qui dict que Nostre Seigneur ayme celuy qui donne <milestone unit="folio" n="134v°"/>
+<lb/> de bon coeur et joyeusement.</p>
+<p>
+<lb/>En telle maniere acroissoit chacum jour celle precieuse royne ses
+<lb/>richesses, et de ses biens temporelz elle acqueroit les spirituelz, lesquelz
+<lb/>les larrons ne povoient embler. Oultre plus, elle ne oublya pas la
+<lb/>maison de Fontenelle, mais fict illec moult de biens et en l'esglise de
+<lb/>Lymoges elle donna grans dons et es esglises de Bourgongne
+<lb/>semblablement. Aussi elle donna et envoya plusieurs nobles joyaulx et
+<lb/>riches choses a l'esglise de Joerre ou elle avoit prinse l'abbesse Bertille
+<lb/>et les aultres vierges qu'elle avoit mises a Chelles. Elle donna la Ville
+<lb/>Neufve en Vermandoys et aultres rentes moult grandes a l'eglise
+<lb/>madame saincte Fare. Elle donna une yle avecquez les aultres biens
+<lb/>qu'elle faisoit souvant. Toutes les esglises des religieulx et religieuses
+<lb/>de la cité de Paris elle enrichit et donna plusieurs rentes et revenues,
+<lb/>plusieurs villes et plusieurs pocessions selon ce qu'elle veoit estre le
+<lb/>plus couvenable. On ne saroit bonnement reciter en particulier les biens
+<lb/>qu'elle faisoit aulx esglises de religion et ailleurs.
+</p>
+<pb n="75"/>
+<p>
+<lb/>Oultre <milestone unit="folio" n="135r°"/> plus, ceste saincte roine faisoit une chose qui
+<lb/>ne doibt pas estre oublyee, car a tous les abbez et abbesses, evesquez et
+<lb/>a tous aultres seigneurs de saincte esglise qui en son pouvoir estoient,
+<lb/>elle prioit et mandoit souvant par lettres qu'ilz missent paine a bien
+<lb/>vivre selon Dieu et chastement et qu'ilz vousissent contraindre leurs
+<lb/>subjectz semblablement ung chacun selon l'ordre qu'il estoit et qu'ilz
+<lb/>vesquissent justement, sainctement et en bone humilité et obedience sans
+<lb/>murmure a leurs souverains et prelatz. Et affin que les prelactz fussent
+<lb/>plus enclins de ce faire et de observer et garder son commandement,
+<lb/>elle leur donnoit de grans dons et leur faisoit confermer leurs grans
+<lb/>privileges scelez de ces sceaulx et de ceulx de ses enfans.</p>
+<p>
+<lb/>Et encores je reciteray une chose dont elle desservit moult grand
+<lb/>loyer envers Nostre Seigneur, car elle deffendit que aulcun crestien ne
+<lb/>vendit l'autre ne que nul du royaulme de France fut si hardy qu'il <milestone unit="folio" n="135v°"/>
+<lb/> envoyast aulcun crestien hors du royaulme ne en aultre pays. Et
+<lb/>elle mesmes en rachepta assés, et les ungs en laissa aller franctz et les
+<lb/>aultres fist entrer en religion en leur priant et exortans qu'ilz
+<lb/>vousissent vivre religieusement. Et recommandoit sur toutes choses aux
+<lb/>prieres d'iceulx l'ame de son seigneur et de ses enfans et la scienne
+<lb/>mesmes et aussi recommandoit la paix du royaulme et si instruisoit et 
+
+<pb n="76"/>
+<lb/>donnoit bone doctrine et bons enseignemens et aussi conseilloit a fuir
+<lb/>vaine gloire, car les biens que on faict en ce monde come aumosnes,
+<lb/>jeusnes, oraisons, bons enseignemens et bone doctrine donner et bone
+<lb/>exemple, bone vie mener et religieuse sans murmure, tout ce on doibt
+<lb/>faire pour l'amour de Dieu et non pas pour acquerir la vaine gloire du
+<lb/>monde come plusieurs font, lesquelz n'auront point retribution de
+<lb/>Dieu, car en ce monde ilz ont voullu avoir leur remuneration, c'est
+<lb/>assavoir la louenge du monde. <milestone unit="folio" n="136r°"/> Madame saincte Bauptheur
+<lb/>ne faisoit pas ainssi, mais pour l'amour de Nostre Seigneur, et
+<lb/>admounestoit sez subjectz a ainssi faire affin qu'elle fut parsonniere de
+<lb/>la clarté de laquelle l'ange parla a Daniel, le prophette, en disant que
+<lb/>ceulx qui enseignent lez aultres a bien faire resplendiront plus cler que
+<lb/>les estoilles. Encores donna la saincte royne aux esglises monseigneur
+<lb/>sainct Pierre et sainct Pol a Rome moult riches dons et honorables pour
+<lb/>l'amour des deulx apostres et semblablement aux reclus et aux aultres
+<lb/>povres elle envoyoit souvant larges aumosnes.</p>
+<p>
+<lb/>Car sa devocion croissoit chacun jour et tousjours prioit Nostre
+<lb/>Seigneur qu'i luy envoyast lieu et temps que elle peust estre religieuse
+<lb/>en la devantdicte abbaye que elle mesmes avoit fondee. Mais les plus
+<lb/>puissans et ceulx qui estoient premiers au royaulme de France la
+<lb/>retindrent moult longuement de ce sainct propoz mesmement pour ce
+<lb/>qu'ilz veoient que les religieulx estoient ainssi comme <milestone unit="folio" n="136v°"/>
+<lb/>gouvernés et soustenuz par son tres sainct conseil et pour ce mesmes 
+
+<pb n="77"/>
+<lb/>que tous l'aymoient de grand amour a cause de sa saincte conversacion.
+<lb/>A grant paine luy eussent ilz souffert entrer en religion se n'eust esté
+<lb/>par le moyen d'ung evesque, lequel avoit non Singnevraulx que lez
+<lb/>Françoys occirent par leur orgueil. Mais pour ce que les barons eurent
+<lb/>paour que la royne ne lez eut en indignacion et qu'elle ne vousist celle
+<lb/>desloyaulté venger, octroyerent ce que par devant n'avoient pas voullu
+<lb/>par amour. Et sans faulte, ilz ne l'octroyerent mye par bon courage,
+<lb/>mais pour eschever temporel dommage. La saincte royne ne prenoit
+<lb/>pas garde a leur intencion, car elle conduisoit sa voulenté selon Dieu et
+<lb/>non pas selon le conseil de ceulx de ce monde.</p>
+<p>
+<lb/>Et ne demoura guieres aprés ses choses qu'elle fut amenee par les
+<lb/>barons et seigneurs a Chelles, auquel lieu les religieuses la receurent, si
+<lb/>comme rayson estoit, moult honorablement. Et elle rendoit graces a
+<lb/>Nostre Seigneur, lequel l'avoit admenee a port de <milestone unit="folio" n="137r°"/> salut.
+<lb/>Mais l'ennemy de humaine nature qui tousjours est marry du bien et
+<lb/>joyeulx du mal prochassa que, quant elle eut esté ung petit en l'abbaye,
+<lb/>lez religieuses de leans qu'elle avoit doulcement nourries et instruictes
+<lb/>la commencerent a avoir contrecueur et ce efforcerent de luy rendre
+<lb/>mal pour bien. Mais si tost que celle saincte dame s'en apperceut, en
+<lb/>print tout le tort sur elle et vint a eulx et leur crya moult humblement 
+ 
+
+<pb n="78"/>
+<lb/>mercy de leur forfaict mesmes et par telle humilité elle accorda et mist
+<lb/>en paix et en amour toutes les seurs.</p>
+<p>
+<lb/>Elle donna si grant exemple de humilité a toutes les aultres que
+<lb/>elle mesmes servoit souvant pour sez seurs en la cuysine et faisoit
+<lb/>plusieurs services necessaires. Telle margueritte precieuse qu'elle
+<lb/>estoit, nectoyoit lez chambres aysees et en ostoit les ordures a ses
+<lb/>propres mains et tout ce faisoit a chere joyeuse et de bon courage pour
+<lb/>l'amour de celuy qui dict : <q> « Je ne suys pas venu pour estre servy, mes
+<lb/>pour servir. » </q> Aulcungs <milestone unit="folio" n="137v°"/> ne pourroient croyre que cy haulte
+<lb/>dame, si noble et si puissante, ce abandonnast a faire cy vil service, se
+<lb/>la tres grant amour de Nostre Seigneur ne l'eust incitee ad ce faire.
+<lb/>Elle estoit continuellement en oraison, en pleurs et gemissemens et
+<lb/>estoit tellement en cherité abandonnee que elle pleuroit avecquez ceulx
+<lb/>qui pleuroient et ce esjouyssoit avecquez ceulx qui se esjouyssoient et
+<lb/>mesmement elle prenoit la cure de visiter les povres mallades et lez
+<lb/>confortoit. Et aprés ce qu'elle les avoit sustentez et reconfortés de bons
+<lb/>enseignemens pour parvenir a la gloire de paradis, elle lez
+<lb/>refectionnoit de la viende corporelle en leur distribuant et donnant
+<lb/>leurs necessitez par le consentement de l'abbesse, laquelle tres
+<lb/>voulentiers obeissoit a ses prieres, car ellez avoient une mesmes cherité
+<lb/>et une mesmes amour en Nostre Seigneur et estoient comme ung corps
+<lb/>et une ame.
+ 
+</p>
+<pb n="79"/>
+<p>
+<lb/>En aprés commença madame saincte Bauptheur a estre mallade
+<lb/>de une maniere de malladie que on appelle tranchesons dedans le corps
+<lb/>que lez phisiciens appellent yloas. <milestone unit="folio" n="138r°"/> Si en fut cy griefvement
+<lb/>mallade que, ce n'eust esté l'ayde des phisiciens, elle n'eust pas duré
+<lb/>longuement en vie. Nonobstant elle avoit toute son esperance en Dieu,
+<lb/>auquel continuellement elle rendoit graces et mercy dez malladiez et
+<lb/>tribulacions qu'il luy donnoit. Elle ce reconfortoit en Dieu et que,
+<lb/>aprés lez tribulacions de ce monde, elle avroit le vray repoz eternel de
+<lb/>paradis et estoit toute son estude et entante de donner a ses seurs
+<lb/>exemple de pitié, vraye amour de humilité et obedience sans murmure.
+<lb/>Et admounestoit souvant l'abbesse qu'elle tint le roy et lez princes et
+<lb/>barons en amour et qu'elle leur escripvit souvant affin que la maison
+<lb/>fut gardee et soustenue par leur ayde et conseil et qu'elle ne perdit la
+<lb/>bone renommee qu'elle avoit eue. Oultre plus, luy prioit sur tout rien
+<lb/>qu'elle eust pitié des povres et des hostes qui leans demouroient, car
+<lb/>come dict l'escripture : <q> « Ce que vous faictes en ce monde au plus <milestone unit="folio" n="138v°"/>
+               <lb/> petit, vous le faictes a Dieu. » </q> L'abbesse Bertille obeist
+<lb/>voulentiers a ses commandemens et a sez saincts admounestemens, non
+<lb/>mye tant seullement a la vie saincte Bauptheur, mais tant qu'elle vesquit
+<lb/>et tant estoit fichee son amour et son cueur en Nostre Seigneur que la
+<lb/>renommee en fut par tout les siecles des siecles.
+</p>
+<pb n="80"/>
+<p>
+<lb/>Quant la fin de madame saincte Bauptheur aprocha, luy fut en
+<lb/>une nuyt une vision demonstree en dormant moult belle et moult
+<lb/>couvenable en guerdon de sa desserte, car il luy fut advis qu'elle veoit
+<lb/>en ung moustier devant l'hostel Nostre Dame une eschelle dressee dont
+<lb/>la haultesse touchoit jusquez au ciel, et si luy fuct advis que elle mesmes
+<lb/>montoit par celle eschelle en la compagnie des anges Nostre Seigneur
+<lb/>qui a moult grand joye la conduysoient vers le ciel. L'eschelle qui en
+<lb/>vision luy fut monstree, c'est l'eschelle que elle mesmes avoit dressee
+<lb/>au ciel par les bonnes oeuvres qu'elle avoit faictes en <milestone unit="folio" n="139r°"/> ceste
+<lb/>vie mortelle. En ceste eschelle estoient eschellons de sept manieres dont
+<lb/>la sinifience est moult prouffitable a tous ceulx qui veulent monter au
+<lb/>ciel. La premiere maniere d'eschellons signiffie le premier
+<lb/>commandement de bien faire que checung et chescune doibt avoir que
+<lb/>on ne perde le royaulme de paradis et acquiere enfer. La segonde
+<lb/>maniere signiffie la doulleur que ung chacun doibt avoir de ses pechez
+<lb/>et des pechés d'aultruy. La tierce maniere est cougnoissance de bien et
+<lb/>de mal. La quarte est force que on doibt avoir a resister contre peché
+<lb/>de peur que on ne soit vaincu. La quinte est bon conseil, lequel on doibt
+<lb/>querir et demander en toutes ses affaires a bones et sainctez gens. La
+<lb/>vje est entendement, c'est assavoir entendre ce le conseil est bon ou
+<lb/>maulvaix. La vije est sapience, seureté et bone saveur de savoir bien
+<lb/>faire. Telz eschellons avoit ceste saincte dame bien euree faictz toute sa
+<lb/>vie et ceste <milestone unit="folio" n="139v°"/> eschelle qui vers la fin luy fut monstree et ce 
+
+<pb n="81"/>
+<lb/>qui luy fut advis qu'elle fut menee et conduicte contremont l'eschelle
+<lb/>par lez anges Nostre Seigneur, ce fut a bon droict, car l'eschelle
+<lb/>laquelle estoit fichee et les eschellons, ce signifioit passience et humilité
+<lb/>qu'elle avoit eu toute sa vie.</p>
+<p>
+<lb/>Quant elle fut esveillee et elle eut en son cueur recordee la vision
+<lb/>que elle avoit veue, sceut vrayement que elle trespasseroit de ce siecle
+<lb/>et descouvrit la vision a aulcunes de ses seurs, mais elle leur deffendit
+<lb/>qu'elles n'en dissent riens a l'abbesse ne aux aultres seurs tant qu'elle
+<lb/>fut trespassee pour ce qu'elle ne vouloit pas qu'ellez fussent tristes et
+<lb/>couroucees de sa mort. Puys de la en avant fut plaine de grant joye et
+<lb/>plus abandonnee a diverses manieres de penitence que n'avoit oncquez
+<lb/>esté et seloit la malladie de son corps a l'abbesse et aux aultres seurs et
+<lb/>faisoit semblant qu'elle ne sentoit nul mal. Et quant elle s'aper<milestone unit="folio" n="140r°"/>
+<lb/>ceut que son corps abessoit et que sa vie temporelle abregoit,
+<lb/>esleva son cueur, sa pencee et son entendement vers le ciel en priant
+<lb/>devostement a Dieu le createur qu'il vousist de sa grace recepvoir son
+<lb/>ame, laquelle il avoit cree, et aussi qu'il vousist garder la saincte
+<lb/>compagnie laquelle estoit en la maison assemblé des deceptions de
+<lb/>l'ennemy d'enfer.</p>
+<p>
+<lb/>En l'abbaye estoit ung enfant que madame saincte Bauptheur
+<lb/>avoit levee sur fons lequel estoit mallade, si pria Nostre Seigneur 
+
+<pb n="82"/>
+<lb/>qu'elle peust veoir le corps de l'enfant enterrer devant qu'elle finast ses
+<lb/>jours et que il luy plut de sa grace recepvoir l'ame. Et ainssi que
+<lb/>l'enfant rendit l'esperit, la glorieuse royne vit les anges qui
+<lb/>l'enportoient en paradis. Puys aprés, ce recommanda a Dieu, se seigna
+<lb/>du signe de la croix et rendit son ame a Dieu. Laquelle separee du
+<lb/>corps, aparut une grant lumiere et splandeur divine sur son corps et 
+<lb/>
+<milestone unit="folio" n="140v°"/> tous les assistans virent grand multitude d'anges chantans et
+<lb/>jubillans venir au devant d'elle et avecquez yceulx son parfaict, entier
+<lb/>et singulier amy Genesius evesquez.</p>
+<p>
+<lb/>Les seurs qui savoient lez segretz divins celerent une grand piesse
+<lb/>les choses dessusdictes, excepté qu'ilz le descouvrirent aux prebstres de
+<lb/>leans qui incontinant recommanderent l'ame a Nostre Seigneur qui ja
+<lb/>l'avoit receue en son royaulme. Mais si tost que l'abbesse et les aultres
+<lb/>seurs sceurent ses choses, si acoureurent tous illecquez en larmes et
+<lb/>pleurs et moult furent tourmentez en leurs courages de ce qu'ilz
+<lb/>n'avoient point esté au trespassement de leur grande et spirituelle
+<lb/>nourrisse. Et quant ilz parvindrent jusquez au corps, ilz menerent si
+<lb/>grand dueil que a paine nul ne le saroit raconter. Elles ce coucherent
+<lb/>toutes en terre en lermes et en gemissemens et prierent moult
+<lb/>devostement Nostre Seigneur qu'il receust celle <milestone unit="folio" n="141r°"/> bien euree
+<lb/>ame en la compagnie de sa doulce mere et de tous les sainctz et
+<lb/>sainctez. Quant le service et l'obit de celle saincte dame fut faict et fini,
+<lb/>porterent son corps en l'eglise Saincte Croix que elle mesmes avoit 
+ 
+
+<pb n="83"/>
+<lb/>fondee, et illecquez fut enterree moult honorablement comme raison
+<lb/>estoit. L'abbesse envoya parmy le royaulme aux prelatz de saincte
+<lb/>esglise pour faire son service qui jusquez au jour d'huy est faict en
+<lb/>moult de lieux.</p>
+<p>
+<lb/>Et pour ce que Nostre Seigneur voullut demonstrer au monde une
+<lb/>partie du merite que celle saincte royne avoit pourchassé par son
+<lb/>humilité, sapience et debonnaireté et grand charité et affin que le corps
+<lb/>fut honoré en terre dont l'ame estoit devant luy en paradis, fist a son
+<lb/>sepulcre tant de miracles que merveilles, car tous mallades qui y
+<lb/>venoient, quelque malladie qu'ilz eussent, ilz recepvoient santé. Et pour
+<lb/>ce que je ne pourroys souffire a raconter toutes <milestone unit="folio" n="141v°"/> les
+<lb/>miracles que Nostre Seigneur a faict a la requeste d'icelle, nous en
+<lb/>raconterons ung entre les aultres - Il advint que, ainssi come ung
+<lb/>evesque qui avoit non Laudegengiis qui estoit moult grant amy et
+<lb/>famillier de l'eglise, venoit visiter le sepulcre madame saincte
+<lb/>Bauptheur, l'ennemy entra au corps de l'ung de sez serviteurs et le
+<lb/>tourmenta si cruellement que a paine le povoit on tenir, car il ferissoit
+<lb/>si durement des poins et mordoit tous ceulx qu'il povoit trouver, et ce
+<lb/>on ne l'eust tres serrement tenu et lyé, aulcung ne povoit converser
+<lb/>pres de luy. Mais quant on l'eust porté tout lyé au sepulcre, il cheut
+<lb/>devant a terre ainssi comme s'il fut demy mort, car l'ennemy qui en
+<lb/>luy estoit avoit telle paour de la vertu Nostre Seigneur et du corps 
+
+<pb n="84"/>
+<lb/>mesmes de madame saincte Bauptheur dont il se sentoit aprocher qu'il
+<lb/>ne se osa mouvoir ne mot dire, mais yssit incontinant du corps ou il
+<lb/>estoit par <milestone unit="folio" n="142r°"/> la priere madame saincte Bauptheur en telle
+<lb/>maniere que, quant le serviteur fut levé et eut rendu graces a Dieu et a
+<lb/>madame saincte Bauptheur de sa delivrance, vint a ses compagnons et
+<lb/>come par grand amitié a ceulx qu'il vouloit ung peu devant mordre et
+<lb/>ferir par sa forcenerie demanda pardon et estoit d'entendement
+<lb/>paisible.</p>
+<p>
+<lb/>Devant madame saincte Bauptheur avoient regné en France
+<lb/>plusieurs sainctes dames et religieuses dont l'une eut non Clotilde qui
+<lb/>fut nee du roy Gothebault et fame du roy Clovis qui estoit payen,
+<lb/>lequel elle admounesta tant et enseigna de divins enseignemens que elle
+<lb/>luy fict recepvoir baptesme de l'archevesquez de Rains et fut celuy le
+<lb/>premier roy crestien qui oncquez fut en France et non mye seullement
+<lb/>luy mais plusieurs d'aultres barons et haulx hommes convertit celle
+<lb/>royne a la loy crestienne. Et institua a Paris une abbaye de moy<milestone unit="folio" n="142v°"/>
+<lb/>nes en l'honneur de monseigneur sainct Pierre, qui maintenant
+<lb/>est apellee Saincte Geneviefve, et estably en la ville de Chelles une
+<lb/>abbaye de religieuses en l'honneur de monseigneur sainct George, mais
+<lb/>pour ce que la maison estoit petite et estroicte, madame saincte
+<lb/>Bauptheur depuys la fist abaptre et la fict faire plus riche et plus
+<lb/>grande qu'elle n'avoit esté devant et fonda le grand hostel en l'honneur 
+ 
+
+<pb n="85"/> 
+<lb/>de Saincte Croix. En la destre partie de ladicte esglise, en refist ung
+<lb/>aultre de monseigneur sainct George et en l'autre partie de
+<lb/>monseigneur saint Estienne, premier martyr.</p>
+<p>
+<lb/>Il y eut une aultre royne en France qui fut femme du roy
+<lb/>Childebert, laquelle fut moult bone et saincte dame, abandonnee aux
+<lb/>oeuvres de misericorde, car elle nourrissoit les orphelins et confortoit
+<lb/>les dolens, elle soustenoit les povres et les mesaisés, elle aydoit a son
+<lb/>povoir a ceulx qu'elle veoit qui avoient necessité de ayde et mesme<milestone unit="folio" n="143r°"/>
+<lb/>ment aux religieulx et religieusez qui vivoient chastement et
+<lb/>sainctement et deuement servoient a Nostre Seigneur jour et nuyt.
+<lb/>Encores eut il en France une aultre royne qui fut nommee Radegonde
+<lb/>et fut femme au premier roy Clotaire. La saincte fut si fort myse en
+<lb/>l'amour de Dieu que, aprés les biens qu'elle fict en sa vie, elle laissa le
+<lb/>roy Clotaire son seigneur et devint religieuse a Poytiers.</p>
+<p>
+<lb/>Nous avons plus recité de la vie madame saincte Bauptheur que
+<lb/>des aultres sainctes roynes que avons nommees. La cause est pour ce
+<lb/>qu'elle fut plus a nostre temps et que plus nous avons veu et ouy de ses
+<lb/>oeuvres que des aultres. Nonpourtant ne les tenons mye petites en
+<lb/>desserte vers Nostre Seigneur ne plus basses des aultres. Aprés ce que
+<lb/>madame saincte Bauptheur eust vescu en ceste mortelle vie et aprés la
+<lb/>bone vie religieuse qu'elle mena et les bones <milestone unit="folio" n="143v°"/> operations
+<lb/>vertueuses qu'elle fict, vint a la perfection de l'evangille pour despriser 
+
+<pb n="86"/>
+<lb/>le monde et sa convoytise pour vaincre le diable et ses deceptions et
+<lb/>pour servir a Jhesu Christ en faisant et acomplissant ses
+<lb/>commandemens. Finist sa vie come vraye religieuse entree en religion,
+<lb/>trespassa la tierce kalende de febvrier et fut son ame receue avecquez
+<lb/>Nostre Seigneur Jhesu Christ en paradis qui vit et regne
+<lb/>pardurablement, et repose le corps madame saincte Bauptheur, ainssi
+<lb/>que avez ouy, en l'esglise de Chelles.</p>
+<p>
+<lb/>Or prions tous la saincte dame qu'elle prie Nostre Seigneur pour
+<lb/>nous qu'il nous veille recepvoir au regne celestiel qui vit et regne
+<lb/>pardurablement par tous les siecles des siecles.</p>
+<p>
+<lb/>Amen. 
+</p>
+</div>
+<pb n="87"/>
+<div>
+<head>
+<lb/>S'enssuit la translacion de madame saincte Bauptheur, royne de
+<lb/>France.</head>
+<p>
+<lb/>On doibt regarder et considerer par toute esglise la bone odeur de
+<lb/>vertus et lez faictz sainctz et vertueulx des sainctz hommes et des
+<lb/>sainctes religieuses et est couvenable chose assavoir ausquelz loyaulx il
+<lb/>apartient a l'honneur de Dieu les monstrer et declarer. Si vous ferons
+<lb/>savoir en quelle maniere le corps de madame saincte Bauptheur fut osté
+<lb/>du lieu ou elle fut premierement enterree et mys au lieu ou il est
+<lb/>maintenant honoré avecquez grand reverence.</p>
+<p>
+<lb/>En l'huitiesme an du temps Louys, le tres debonnaire roy de
+<lb/>France advint au moustier de Chelles, ou l'honoree abbesse Hegilvith
+<lb/>l'empereur vivoit et avoit agreables les religieuses et tres bien lez
+<lb/>aymoit, car le roy Louys commanda a enquerre en yceluy <milestone unit="folio" n="156r°"/>
+<lb/>temps la condicion et lez faictz madame saincte Bauptheur par grant
+<lb/>desir et par grande reverence et commanda que on luy en contast toute
+<lb/>la verité, laquelle chose il trouva a grand merveille, quant il sceut la
+<lb/>saincte conversation de sa vie. Adonquez il fut touché et emprins de
+<lb/>l'amour madame saincte Bauptheur et de l'abbesse Hegilvith. Et le
+<lb/>huitiesme an qu'elle gouvernoit ce sainct lieu benignement et
+<lb/>sainctement, le roy commanda a son conseil que le sainct corps de
+<lb/>madame saincte Bauptheur fut osté du lieu ou il gisoit et aporté en
+<lb/>l'esglise Nostre Dame, auquel lieu y avoit moult de sainctes vierges qui 
+ 
+
+<pb n="88"/>
+<lb/>rendoient graces et louenges a Nostre Seigneur jour et nuyt en telle
+<lb/>maniere que la saincte dame eust partie des graces et louenges que on
+<lb/>faisoit a l'esglise, laquelle il ayma tant qu'il vesquit.</p>
+<p>
+<lb/>Ycelle abbesse obeist au commandement du roy si tost qu'elle
+<lb/>peut avoir opportunité. En la quarte kallende qui fut le quart jour de la
+<lb/>sepmaine alla la saincte abbesse ainssy arrousee de la grace Nostre
+<lb/>Seigneur et de son ayde et assembla lez sainctes personnes, les clers, les
+<lb/>sainctes <milestone unit="folio" n="156v°"/> vierges et lez chastes veufves et leur conta ce qui
+<lb/>luy estoit commandé de l'empereur Louys, roy de France, et ilz
+<lb/>s'accorderent tous et toutes a son voulloir, dont rendit graces a Nostre
+<lb/>Seigneur. Et adoncquez fut admonnestee ceste saincte abbesse qu'elle ce
+<lb/>hatast, laquelle par l'ayde de madame saincte Bauptheur parfist ce
+<lb/>qu'elle avoit en voullenté et print grand compagnie, et a grant devocion
+<lb/>et reverence vindrent en l'esglise de Saincte Croix, laquelle esglise
+<lb/>ycelle saincte Baupheur avoit faict faire et fondee, auquel lieu son
+<lb/>sainct corps reposoit et selebrerent sollempnellement la messe a grand
+<lb/>devocion. Et ycelle saincte abbesse admonnesta tout le clergé, hommes
+<lb/>et fames, qu'ilz vousissent prier devostement et humblement Nostre
+<lb/>Seigneur qu'ilz pussent deffouyr le sainct corps de la ou il estoit
+<lb/>enterré et que ilz le pussent atoucher de leurs propres mains et porter
+<lb/>du lieu ou il estoit en ung aultre lyeu. 
+</p>
+<pb n="89"/>
+<p>
+<lb/>Quant la sollempnité de la messe fut celebree a sains sonnans et a
+<lb/>grand letanie, <milestone unit="folio" n="157r°"/> vindrent au tumbeau d'icelle saincte mere. Et
+<lb/>l'abbesse avecquez toute la compagnie ce mirent en terre en oraysons et
+<lb/>prieres envers Nostre Seigneur qui oyt tous ceulx qui de bon cueur le
+<lb/>prient que il les fist dignes de parfaire ce qu'ilz avoient encommencé et
+<lb/>que il leur donnast grace qu'ilz pussent remuer le sainct corps.
+<lb/>L'abbesse, laquelle resplendissoit toute de la grace de Dieu, commanda
+<lb/>a descouvrir le tumbeau ou le sainct corps de madame saincte
+<lb/>Bauptheur gisoit. Et yceulx, ayans grand paour en aprochant du
+<lb/>tonbeau, commencerent a deffouyr et quant ilz eurent la terre gectee de
+<lb/>la fosse, ilz trouverent ung serqueul ou son sainct corps gisoit. Si firent
+<lb/>tant qu'ilz le leverent en hault sur la terre et le tirerent hors de la fosse.
+<lb/>Aprés ce que il fut tiré, ycelle saincte abbesse et tous ceulx qui la
+<lb/>estoient rendirent graces a Dieu et souffrit que tous les assistans vissent
+<lb/>celuy tresor tant desiré et que ilz l'adorassent avecquez grand
+<lb/>reverence. Et quant ilz l'eurent adoré, tendirent les mains au <milestone unit="folio" n="157v°"/>
+<lb/> ciel et a grand joye batoyent leur coulpe en retournant au lieu
+<lb/>dont ilz estoient venus, louant et glorifiant Nostre Seigneur qui
+<lb/>guerdonne lez justes et donne remuneration et loyer selon ce qu'ilz ont
+<lb/>desservy et qui ce deigne magniffier en terre par la demonstration de 
+
+<pb n="90"/>
+<lb/>sez signes. La bonne abbesse, ainssi acompagnee de plusieurs bones
+<lb/>pucelles religieuses avecquez les prebstres et clergé estant en prieres et
+<lb/>oraysons continuellement, en chantant louenges jour et nuyt devant le
+<lb/>precieulx corps madame saincte Bauptheur, fist assavoir a l'evesquez de
+<lb/>Paris toutes sez choses, lequel en eut moult grand joye et de la grand
+<lb/>joye qu'il en eut luy fut advys que luy seul translatoit le sainct corps en
+<lb/>une aultre esglise.</p>
+<p>
+<lb/>La bone abbesse voullut demonstrer a ceulx qui illecquez
+<lb/>venoient combien madame saincte Bauptheur avoit de merite en la
+<lb/>compagnie des sainctz a cause qu'elle resista aux temptacions de
+<lb/>l'ennemy d'enfer et aussy a la chair et au monde. En ycelle abbaye
+<lb/>avoit une saincte <w>reli<milestone unit="folio" n="158r°"/>gieuse</w> laquelle servoit Dieu
+<lb/>devottement. Il advint qu'elle fut tres griefvement mallade et avoit esté
+<lb/>en telle perplexité par long temps tellement qu'elle ne ce povoit ayder
+<lb/>de nultz de sez membres et convenoit qu'elle fust portee par aultry,
+<lb/>c'elle voulloit en aulcung lieu aller. Icelle fut portee par l'ayde dez
+<lb/>seurs en l'esglise ou le corps madame saincte Bauptheur reposoit,
+<lb/>laquelle ce mist la moult longuement en orayson, et pria Nostre
+<lb/>Seigneur en plorant, et quant elle eut finé son orayson, elle ce leva
+<lb/>toute sayne. En telle maniere receut sancté celle religieuse par lez
+<lb/>meritez et intercessions de madame saincte Bauptheur. 
+ 
+</p>
+<pb n="91"/>
+<p>
+<lb/>Ung floybe homme estoit qui avoit non Bauldrat, lequel estoit
+<lb/>moult deffectueulx et impotent et tout contrefaict de ses membres
+<lb/>tellement que lez tallons luy tenoient pres le siege. Il pria qu'il fut
+<lb/>porté devant le corps madame saincte Bauptheur, si que par la pitié de
+<lb/>Nostre Seigneur luy voulsist departir de sa grace et misericorde par les
+<lb/>prieres et intercessions de sa glorieuse amye madame saincte
+<lb/>Bauptheur. Le povre <milestone unit="folio" n="158v°"/> mallade deffectueulx et contrefaict de
+<lb/>membres recouvra santé et chemina droictement et sez membres furent
+<lb/>situez et remys, dont Dieu soit loué et madame saincte Bauptheur.
+<lb/>Adonc s'en retourna le povre homme en sa maison magniffiant et
+<lb/>gloriffiant le sainct non de Dieu et en rendant graces a madame saincte
+<lb/>Bauptheur en disant : <q> « Saincte dame, quant tu estois en terre, tu
+<lb/>norrissois et soustenois les povres et maintenant que tu regnes au ciel
+<lb/>avecquez Dieu, nostre createur, tu donnes aux mallades santé et
+<lb/>garison. Tu les norrissois en terre de viandes corporelles, maintenant
+<lb/>tu lez confortes espirituellement et donnes santé a ceulx qui te
+<lb/>requierent et ont devocion a toy. Hee, vraye benoiste, bien euree, ta
+<lb/>haultesse pardurable donne grace a ceulx qui demeurent au service
+<lb/>Nostre Seigneur. » </q></p>
+<p>
+<lb/>Ceulx qui estoient illecquez ce rejouyssoient de sez miracles et
+<lb/>le magnifestoient a tous ; xvij jours dura le pelerinage en ce sainct lieu. 
+ 
+
+<pb n="92"/>
+<lb/>
+<milestone unit="folio" n="159r°"/> Les sainctz miracles furent manifestés et declarés au tres
+<lb/>debonnayre roy Louys de France. Et dedans son palays a ses princes et
+<lb/>a tous ceulx qui chevochoient avecquez luy furent manifestés les
+<lb/>miracles ; si en furent moult joyeulx et en rendirent graces et louenges
+<lb/>a Nostre Seigneur. Iceluy roy Louys, desirant avoir la grace madame
+<lb/>saincte Bauptheur et estre aydé par sez merites et intercessions, luy
+<lb/>donna une ville que on apelle Coullons et toutes sez apartenances et ce
+<lb/>fut le jour de la translacion de son corps en telle maniere que ceulx qui
+<lb/>servoient en celle abbaye en eussent ayde a leur soustenances en priant
+<lb/>le roy du ciel pour l'estat de l'empire, pour la paix, pour la santé de
+<lb/>luy, de sa fame et de sez enfans.</p>
+<p>
+<lb/>Le xlviije jour puys que le corps sainct fut deffouy de terre selon
+<lb/>la priere de la saincte abbesse, le sainct evesque qui estoit apellé
+<lb/>Eubrach, qui en yceluy temps gouvernoit le siege de la cité de Paris,
+<lb/>vint illec a grand compagnie de clers, et fut receu de celle saincte
+<lb/>abbesse et luy requist amyablement <milestone unit="folio" n="159v°"/> - ja çoyt ce qu'il avoit
+<lb/>ouy par avant - la multitude des miracles que Nostre Seigneur faisoit
+<lb/>par madame saincte Bauptheur. Le sainct evesque ce mist devant le
+<lb/>sainct corps et regarda les miracles de Dieu en ceulx qui avoient leur 
+
+<pb n="93"/>
+<lb/>santé restoree et en rendit graces a Dieu le tout puissant. Or voyés
+<lb/>combien grand merite avront au ciel ceulx qui tousjours l'aymeront de
+<lb/>cueur pur et nect et qui garderont ses commandemens!</p>
+<p>
+<lb/>Lors vint le sainct evesque avec tout l'ordre des clers et des
+<lb/>sainctes vierges devant le sainct corps et ce mist en orayson, et aussi
+<lb/>firent tous et toutes, et leur dict qu'ilz priassent Dieu que il leur fut en
+<lb/>ayde et qu'il leur octroyast qu'ilz peussent porter d'illec le sainct corps
+<lb/>de sa tres loyalle servante. Quant ilz eurent finé leur orayson, vindrent
+<lb/>au sainct corps en grand crainte et l'aporterent a grandz louenges a
+<lb/>l'eglise Nostre Dame, laquelle esglise dame Gille parfist et la <milestone unit="folio" n="160r°"/>
+<lb/>myrent dignement derriere le grand hostel, ou Nostre Seigneur
+<lb/>par le merite de madame saincte Bauptheur faict tous les jours grandz
+<lb/>miracles. Lez aveugles recouvrent veue, les sours oyent, lez
+<lb/>contrefaictz vont droict et ceulx qui sont traveillez de diverses
+<lb/>malladies reçoyvent santé, ceulx qui sont plains de l'ennemy et hors du
+<lb/>sens sont curez et finablement, quicunquez la prie pour aulcune
+<lb/>necessité, sachés vrayement qu'ilz ont ce qu'ilz demandent.</p>
+<p>
+<lb/>Quant l'evesque de Paris s'en fut retourné a grand joye a son
+<lb/>siege, la saincte abbesse print conseil par la grace de Nostre Seigneur
+<lb/>que, puys que la mere estoit d'illec ostee, que la fille, nommee
+<lb/>Radegonde, dust estre illec mise, laquelle trespassa de ce siecle au vije
+<lb/>an de son aage ; pour laquelle, si comme nous trouvons en sa 
+
+<pb n="94"/>
+<lb/>saincte vie, pria Nostre Seigneur devant l'heure de sa <milestone unit="folio" n="160v°"/> mort
+<lb/>qu'i luy plust l'oster de ce monde, car elle preveoyt les maulx du siecle
+<lb/>et pour ce prioit qu'elle ne fust enlacee des maulx d'iceluy, mais ainssi
+<lb/>qu'il luy avoit donné petit corps et ame necte, la print pure sans tache
+<lb/>de peché et qui la mist avec la conpagnie des sainctez vierges a
+<lb/>demourer sans fin. A bon droict est a louer en ses choses la saincte
+<lb/>abbesse Hegilvych et doibt estre tenue en grand honneur et louee de
+<lb/>tous ceulx qui lisent sez choses, quant par la grace de Dieu fut inspiree
+<lb/>que ne lessast plus longuement telle marguerite mussee et couverte en
+<lb/>terre, mais ostee de terre, la montrast a tous et la mist en tel lieu ou
+<lb/>eust louange a tousjours.</p>
+<p>
+<lb/>Le jour de la translacion madame saincte Bauptheur est celebree au
+<lb/>vje jour des kallandes d'avril. Laquelle se esjouyt avec Nostre Seigneur
+<lb/>Jhesu Christ et tous les benois sainctz au royaulme <milestone unit="folio" n="161r°"/> celeste
+<lb/>sans fin.</p>
+<p>
+<lb/>Amen. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

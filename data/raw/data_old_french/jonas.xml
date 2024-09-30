@@ -1,0 +1,1871 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="fr">
+  <fileDesc>
+    <titleStmt>
+      <title type="main">Sermon sur Jonas</title>
+      <title type="formal">jonas</title>
+      <title type="reference">jonas</title>
+      <title type="DEAF">JonasP</title>
+      <title type="gmd">transcription électronique</title>
+      <author xml:id="anonyme">anonyme</author>
+      <editor>Équipe de la Base de français médiéval - ENS de Lyon / UMR 5317 IHRIM</editor>
+      <funder>Laboratoire IHRIM</funder>
+    </titleStmt>
+    <editionStmt>
+      <edition>transcripion électronique</edition>
+      <respStmt xml:id="proofreader2">
+        <resp>deuxième relecture et vérification du balisage</resp>
+        <name xml:id="AL">Alexei Lavrentiev</name>
+      </respStmt>
+      <respStmt xml:id="proofreader1">
+        <resp>première relecture</resp>
+        <name xml:id="CG">Céline Guillot-Barbance</name>
+      </respStmt>
+      <respStmt xml:id="encoder1">
+        <resp>préparation à la relecture 1</resp>
+        <name xml:id="inconnu">inconnu</name>
+      </respStmt>
+    </editionStmt>
+    <extent>- Numéros de pages saisies : de 42 à 45 ;
+            - Nombre de mots d'après la base des descripteurs : <num xml:id="nb_mots_given">815</num> ;
+            - Nombre de tokens (mots et ponctuations) d'après la base des descripteurs : <num xml:id="nb_tokens_given">906</num>.
+    </extent>
+    <publicationStmt>
+      <publisher><name>Projet BFM, ENS de Lyon / UMR 5317 IHRIM</name></publisher>
+      <address>
+        <addrLine>15, parvis René Descartes</addrLine>
+        <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+        <addrLine>Tél : 04 37 37 63 10</addrLine>
+        <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+        <addrLine>http://bfm.ens-lyon.fr</addrLine>
+      </address>
+      <idno type="bfm">http://catalog.bfm-corpus.org/jonas</idno>
+      <idno type="doi">10.34847/nkl.faeebcnf</idno>
+      <availability status="free">
+        <licence target="https://www.etalab.gouv.fr/licence-ouverte-open-licence">
+          <ab type="availability_bfm" subtype="libre_1d">Les Conditions générales d'utilisation de la Base de Français Médiéval (http://txm.bfm-corpus.org/bfm/files/CGU.pdf), 
+            et notamment son Article 5 « PROPRIETE INTELLECTUELLE », s'appliquent à tous les textes de la BFM.</ab>
+          <ab type="how_to_cite">
+            <label>Comment citer ce texte :</label>
+            <bibl>Sermon sur Jonas, édité par Guy de Poerck, Gent, 1956. 
+              Publié en ligne par la Base de français médiéval, http://catalog.bfm-corpus.org/jonas.
+              Dernière révision le 2009-06-19.</bibl>
+            D'autres formules de citation de la BFM sont proposées sur la page web suivante :
+            http://bfm.ens-lyon.fr/article.php3?id_article=281.</ab>
+          <ab type="availability_file">
+            <label>Conditions d'utilisation de ce fichier :</label>
+              Ce fichier numérique est composé du corps de texte médiéval et des suppléments numériques : balisage XML-TEI, métadonnées (teiHeader). Le texte et les suppléments numériques sont libres de droit et peuvent à ce titre être téléchargés et réutilisés librement.
+            </ab>
+            <ab type="availability_txmweb" subtype="illimité">
+              <label>Conditions d'utilisation par le portail BFM :</label>
+              Pas de limitation dans l'usage des fonctionnalités. Téléchargement autorisé.</ab>
+        </licence>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>Le sermon bilingue sur Jonas du ms. Valenciennes 521 (475)</title>
+          <respStmt>
+            <resp xml:id="editor">Éditeur scientifique</resp>
+            <name type="person">Guy de Poerck</name>
+          </respStmt>
+        </titleStmt>
+          <extent>4 page(s), soit 42-45
+        </extent>
+        <publicationStmt>
+          <publisher>Romanica Gandensia</publisher>
+          <pubPlace>Gent</pubPlace>
+          <date>1956</date>
+          <idno type="sigle_DEAF">JonasP</idno>
+          <idno type="cote_biblio">ENC : 8Q263</idno>
+        </publicationStmt>
+      </biblFull>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p>Projet :<name type="project">BFM - Base de français médiéval</name>
+        Resp. : <name type="person">Céline Guillot-Barbance</name>
+        Équipe : Base de français médiéval
+        Laboratoire : UMR 5317 IHRIM
+        Institution : ENS de Lyon
+        <address>
+          <addrLine>15, parvis René Descartes</addrLine>
+          <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+          <addrLine>Tél : 04 37 37 63 10</addrLine>
+          <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+          <addrLine>http://bfm.ens-lyon.fr</addrLine>
+        </address>
+      </p>
+    </projectDesc>
+    <editorialDecl>
+      <p>Voir le <ref target="http://bfm.ens-lyon.fr/IMG/pdf/Manuel_Encodage_TEI.pdf">Manuel d'encodage XML-TEI de la BFM</ref>
+        et les <ref target="http://bfm.ens-lyon.fr/IMG/pdf/Consignes_BFM.pdf">Consignes aux relecteurs de la BFM</ref>.</p>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="add" occurs="2"/>
+        <tagUsage gi="body" occurs="1"/>
+        <tagUsage gi="div" occurs="1"/>
+        <tagUsage gi="gap" occurs="18"/>
+        <tagUsage gi="hi" occurs="192"/>
+        <tagUsage gi="lb" occurs="111"/>
+        <tagUsage gi="milestone" occurs="39"/>
+        <tagUsage gi="orig" occurs="27"/>
+        <tagUsage gi="p" occurs="3"/>
+        <tagUsage gi="pb" occurs="4"/>
+        <tagUsage gi="s" occurs="64"/>
+        <tagUsage gi="supplied" occurs="50"/>
+        <tagUsage gi="text" occurs="1"/>
+        <tagUsage gi="w" occurs="906"/>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <creation>
+      <name type="author">anonyme</name>
+      <title>Sermon sur Jonas</title>
+      <date type="compo" when="0945-01-01" notBefore="0938-01-01" notAfter="0952-01-01" n="10">prob. entre 938 et 952</date>
+      <date type="compo_periode">ancien</date>
+      <date type="compo_sous_siecle" n="10_2">milieu</date>
+      <date type="ms" when="0945-01-01" notBefore="0938-01-01" notAfter="0952-01-01">2e q. 10e s.</date>
+      <idno type="msIdentifier">Valenciennes, BM, 521(475)</idno>
+      <region type="dialecte_auteur">flandre</region>
+    </creation>
+    <langUsage>
+      <language ident="fro" usage="100">Le texte est entièrement écrit en prose en ancien français.</language>
+    </langUsage>
+    <textDesc>
+      <channel mode="w">print</channel>
+      <constitution type="single"/>
+      <derivation type="original"/>
+      <domain type="religieux"/>
+    <factuality type="inapplicable"/>
+      <interaction type="none"/>
+      <preparedness type="prepared"/>
+      <purpose type="narrative"/></textDesc>
+    <textClass>
+      <keywords scheme="http://authorities.bfm-corpus.org">
+        <term type="domaine">religieux</term>
+        <term type="genre">sermon</term>
+        <term type="forme">prose</term>
+        <term type="relation">original</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change who="#inconnu" when="1999-01-01">préparation à la relecture 1</change>
+    <change who="#inconnu" when="1999-01-01">océrisation</change>
+    <change who="#AL" when="2009-01-28">création du descripteur</change>
+    <change who="#CG" when="2009-06-05">première relecture</change>
+    <change who="#AL" when="2009-06-18">conversion en XML et balisage automatique</change>
+    <change who="#AL" when="2009-06-19">deuxième relecture et vérification du balisage</change>
+    <change when="2009-06-19">Dernière modification du texte</change>
+    <change when="2022-11-04">Création de cet entête</change>
+  </revisionDesc>
+</teiHeader>
+<text> 
+<pb n="42"/>
+<body> 
+<div> 
+<p>
+<milestone unit="folio" n="npv"/> 
+<gap reason="illegible" unit="lines" quantity="2"/> 
+<lb n="115"/> 
+<milestone unit="ms_line" n="1"/> 
+<gap/> 
+<s n="1">
+<w n="1">inde</w>
+<w n="2">habuit</w>
+<w n="3">misericordias</w>
+<w n="4">si</w>
+<w n="5">cum</w>
+<lb n="116"/> 
+<hi rend="en_clair">
+<w n="6">IL</w>
+</hi>
+<w n="7">semper</w>
+<hi rend="en_clair">
+<w n="8">SOLT</w>
+<w n="9">HAVEIR</w>
+</hi>
+<w n="10">de</w>
+<w n="11">peccatore</w>
+<orig>
+<w type="pon" n="12">.</w>
+</orig>
+</s>
+<s n="2">
+<hi rend="en_clair">
+<w n="13">E</w>
+</hi>
+<w n="14">sic</w>
+<w n="15">liberatur</w>
+<lb n="117"/> 
+<w n="16">de</w>
+<hi rend="en_clair">
+<w n="17">CERE<gap reason="illegible" unit="chars" quantity="3"/></w>
+<w n="18">E</w>
+</hi>
+<gap/> 
+<lb n="118"/> 
+<milestone unit="ms_line" n="2"/> 
+<supplied>
+<w n="19">qet</w>
+<w n="20">il</w>
+<w n="21">habebat</w>
+<w n="22">discretum</w>
+</supplied>
+<hi rend="en_clair">
+<w n="23">QE</w>
+</hi>
+<w n="24">super</w>
+<hi rend="en_clair">
+<w n="25">ELS</w>
+<w n="26">METREIET</w>
+</hi>
+<w type="pon" n="27">.</w>
+<lb n="119"/> 
+<w n="28">
+<hi rend="lettrine">E</hi>t</w>
+</s>
+<s n="3">
+<hi rend="en_clair">
+<w n="29">AFFLICTUS</w>
+<w n="30">EST</w>
+</hi>
+<w n="31">Ionas</w>
+<hi rend="en_clair">
+<w n="32">AFFLICTIONE</w>
+</hi>
+<w n="33">magna</w>
+<orig>
+<w type="pon" n="34">.</w>
+</orig>
+</s>
+<s n="4">
+<w n="35">et</w>
+<lb n="120"/> 
+<w n="36">iratus</w>
+<w n="37">est</w>
+<w n="38">et</w>
+<w n="39">orauit</w>
+<w n="40">ad</w>
+<w n="41">Dominum</w>
+<w n="42">et</w>
+<w n="43">dixit</w>
+<lb n="121"/> 
+<milestone unit="ms_line" n="3"/> 
+<supplied>
+<w n="44">Domine</w>
+<w n="45">tolle</w>
+<w n="46">queso</w>
+<w n="47">a</w>
+<w n="48">me</w>
+<w n="49">animam</w>
+</supplied>
+<w n="50"><supplied rend="word_part">me</supplied>am</w>
+<w n="51">quia</w>
+<w n="52">melior</w>
+<w n="53">est</w>
+<lb n="122"/> 
+<w n="54">mihi</w>
+<hi rend="en_clair">
+<w n="55">MORS</w>
+</hi>
+<w n="56">quam</w>
+<w n="57">uita</w>
+<orig>
+<w type="pon" n="58">.</w>
+</orig>
+</s>
+<s n="5">
+<hi rend="en_clair">
+<w n="59">DUNC</w>
+</hi>
+<w n="60">co</w>
+<w n="61">dixit</w>
+<w n="62">si</w>
+<hi rend="en_clair">
+<w n="63">FUT</w>
+</hi>
+<w n="64">Ionas</w>
+<lb n="123"/> 
+<w n="65">propheta</w>
+<hi rend="en_clair">
+<w n="66">MULT</w>
+<w n="67">CORRECIOUS</w>
+<w n="68">E</w>
+<w n="69">MULT</w>
+<w n="70">IRETST</w>
+</hi>
+<w type="pon" n="71">.</w>
+<lb n="124"/> 
+<milestone unit="ms_line" n="4"/> 
+</s>
+<s n="6">
+<supplied>
+<w n="72">quia</w>
+<w n="73">Deus</w>
+<w n="74">de</w>
+<w n="75">Niniuitis</w>
+</supplied>
+<w n="76">misericordias</w>
+<w n="77">habuit</w>
+<hi rend="en_clair">
+<w n="78">E</w>
+<w n="79">LOR</w>
+</hi>
+<w n="80">peccatum</w>
+<lb n="125"/> 
+<hi rend="en_clair">
+<w n="81">LOR</w>
+</hi>
+<w n="82">dimisit</w>
+<orig>
+<w type="pon" n="83">.</w>
+</orig>
+</s>
+<s n="7">
+<hi rend="en_clair">
+<w n="84">SAVEIET</w>
+</hi>
+<w n="85">co</w>
+<hi rend="en_clair">
+<w n="86">QE</w>
+<w n="87">LI</w>
+<w n="88">CELOR</w>
+</hi>
+<w n="89">salus</w>
+<orig>
+<w type="pon" n="90">.</w>
+</orig>
+</s>
+<s n="8">
+<w n="91">co</w>
+<lb n="126"/> 
+<hi rend="en_clair">
+<w n="92">ASTREIET</w>
+<w n="93">RUINA</w>
+</hi>
+<w n="94">Iudeorum</w>
+<orig>
+<w type="pon" n="95">.</w>
+</orig>
+</s>
+<s n="9">
+<hi rend="en_clair">
+<w n="96">E</w>
+<w n="97">NE</w>
+<w n="98">DOLEIET</w>
+</hi>
+<lb n="127"/> 
+<milestone unit="ms_line" n="5"/> 
+<supplied>
+<w n="99">tant</w>
+<gap/> 
+<w n="100">de</w>
+</supplied>
+<hi rend="en_clair">
+<w n="101"><supplied rend="word_part">L</supplied>UR</w>
+<w n="102">SALUT</w>
+</hi>
+<w type="pon" n="103">.</w>
+</s>
+<s n="10">
+<w n="104">cum</w>
+<hi rend="en_clair">
+<w n="105">IL</w>
+</hi>
+<w n="106">faciebat</w>
+<w n="107">de</w>
+<lb n="128"/> 
+<w n="108">perditione</w>
+<w n="109">Iudeorum</w>
+<w type="pon" n="110">.</w>
+</s>
+<s n="11">
+<hi rend="souligne">
+<w n="111">nessi</w>
+<w n="112">cum</w>
+<w n="113">legimus</w>
+<hi rend="en_clair">
+<w n="114">E</w>
+<w n="115">LE</w>
+</hi>
+<w n="116">euangelio</w>
+<w type="pon" n="117">.</w>
+</hi>
+</s>
+<hi rend="souligne;multi_s">
+<s n="12">
+<hi rend="en_clair">
+<w n="118">QE</w>
+</hi>
+<lb n="129"/> 
+<w n="119">Dominus</w>
+<w n="120">noster</w>
+<w n="121">fleuit</w>
+<w n="122">super</w>
+<w n="123">Hierusalem</w>
+<orig>
+<w type="pon" n="124">.</w>
+</orig>
+</s>
+<s n="13">
+<w n="125">et</w>
+<w n="126">noluit</w>
+<w n="127">tollere</w>
+<lb n="130"/> 
+<milestone unit="ms_line" n="6"/> 
+<supplied>
+<w n="128">panem</w>
+<w n="129">filiorum</w>
+<w n="130">et</w>
+<w n="131">dare</w>
+<w n="132">eum</w>
+</supplied>
+<hi rend="en_clair">
+<w n="133"><supplied rend="word_part">CANI</supplied>BUS</w>
+</hi>
+<w type="pon" n="134">.</w>
+</s>
+<s n="14">
+<w n="135">Paulus</w>
+<w n="136">apostolus</w>
+<lb n="131"/> 
+<w n="137">etiam</w>
+<orig>
+<w type="pon" n="138">.</w>
+</orig>
+</s>
+<s n="15">
+<w n="139">optabat</w>
+<hi rend="en_clair">
+<w n="140">ANATHEMA</w>
+<w n="141">ESSE</w>
+</hi>
+<w n="142">pro</w>
+<w n="143">fratribus</w>
+<w n="144">suis</w>
+<w n="145">qui</w>
+<w n="146">sunt</w>
+<lb n="132"/> 
+<w n="147">Israelite</w>
+<w type="pon" n="148">.</w>
+</s>
+</hi>
+<s n="16"><w n="149"><hi rend="lettrine">E</hi>t</w>
+<hi rend="en_clair">
+<w n="150">EGRESSUS</w>
+</hi>
+<w n="151">est</w>
+<w n="152">Ionas</w>
+<w n="153">de</w>
+<w n="154">ciuitate</w>
+<w n="155">et</w>
+<w n="156">sedit</w>
+<lb n="133"/> 
+<milestone unit="ms_line" n="7"/> 
+<supplied>
+<w n="157">contra</w>
+<w n="158">orientem</w>
+<w n="159">ciuitatis</w>
+</supplied>
+<w n="160"><supplied rend="word_part">done</supplied>c</w>
+<w n="161">uideret</w>
+<w n="162">quid</w>
+<hi rend="en_clair">
+<w n="163">ACCIDERET</w>
+</hi>
+<lb n="134"/> 
+<w n="164">ciuitati</w>
+<w type="pon" n="165">.</w>
+</s>
+<s n="17">
+<hi rend="en_clair">
+<w n="166">DUNC</w>
+</hi>
+<w n="167">co</w>
+<w n="168">dicit</w>
+<w n="169">cum</w>
+<w n="170">Ionas</w>
+<w n="171">propheta</w>
+<hi rend="en_clair">
+<w n="172">CEL</w>
+</hi>
+<w n="173">populum</w>
+<lb n="135"/> 
+<w n="174">habuit</w>
+<hi rend="en_clair">
+<w n="175">PRETIET</w>
+<w n="176">E</w>
+<w n="177">CONVERS</w>
+</hi>
+<w type="pon" n="178">.</w>
+</s>
+<s n="18">
+<w n="179">et</w>
+<w n="180">en</w>
+<hi rend="en_clair">
+<w n="181">CELE</w>
+</hi>
+<lb n="136"/> 
+<milestone unit="ms_line" n="8"/> 
+<supplied>
+<w n="182">civitate</w>
+<gap/> 
+<w n="183">habuit</w>
+</supplied>
+<hi rend="en_clair">
+<w n="184"><supplied rend="word_part">DEMO</supplied>RET</w>
+</hi>
+<w type="pon" n="185">.</w>
+</s>
+<s n="19">
+<w n="186">si</w>
+<hi rend="en_clair">
+<w n="187">ESCIT</w>
+<w n="188">FOERS</w>
+</hi>
+<w n="189">de</w>
+<lb n="137"/> 
+<hi rend="en_clair">
+<w n="190">LA</w>
+</hi>
+<w n="191">ciuitate</w>
+<w type="pon" n="192">.</w>
+</s>
+<s n="20">
+<hi rend="en_clair">
+<w n="193">E</w>
+</hi>
+<w n="194">si</w>
+<hi rend="en_clair">
+<w n="195">SIST</w>
+</hi>
+<w n="196">contra</w>
+<hi rend="en_clair">
+<w n="197">ORIENTEM</w>
+</hi>
+<w n="198">ciuitatis</w>
+<w type="pon" n="199">.</w>
+</s>
+<s n="21">
+<hi rend="en_clair">
+<w n="200">E</w>
+</hi>
+<w n="201">si</w>
+<lb n="138"/> 
+<hi rend="en_clair">
+<w n="202">AUARDEVET</w>
+</hi>
+<w n="203">cum</w>
+<w n="204">Deus</w>
+<hi rend="en_clair">
+<w n="205">PARFEREIET</w>
+</hi>
+<lb n="139"/> 
+<milestone unit="ms_line" n="9"/> 
+<supplied>
+<w n="206">sa</w>
+<w n="207">promesse</w>
+<orig>
+<w type="pon" n="208">.</w>
+</orig>
+<w n="209">se</w>
+<w n="210">Ninive</w>
+<w n="211">destruite</w>
+</supplied>
+<hi rend="en_clair">
+<w n="212">ASTREIET</w>
+<w n="213">U</w>
+</hi>
+<w n="214">ne</w>
+<hi rend="en_clair">
+<w n="215">FEREIET</w>
+</hi>
+<w type="pon" n="216">.</w>
+<lb n="140"/> 
+<w n="217">
+<hi rend="lettrine">E</hi>t</w>
+</s>
+<s n="22">
+<w n="218">preparauit</w>
+<w n="219">Dominus</w>
+<hi rend="en_clair">
+<w n="220">EDERAM</w>
+</hi>
+<w n="221">super</w>
+<w n="222">caput</w>
+<w n="223">Ione</w>
+<lb n="141"/> 
+<w n="224">ut</w>
+<w n="225">faceret</w>
+<w n="226">ei</w>
+<w n="227">umbram</w>
+<w type="pon" n="228">.</w>
+</s>
+<s n="23">
+<w n="229">laborauerat</w>
+<pb n="43"/> 
+<lb n="142"/> 
+<milestone unit="ms_line" n="10"/> 
+<hi rend="en_clair">
+<w n="230">enim</w>
+<w n="231">dunc</w>
+</hi>
+<w n="232">Ionas</w>
+<w n="233">propheta</w>
+<w n="234">habebat</w>
+<hi rend="en_clair">
+<w n="235">MULT</w>
+<w n="236">LABORET</w>
+<w n="237">E</w>
+<lb n="143"/> 
+<w n="238">MULT</w>
+<w n="239">PENET</w>
+<w n="240">A</w>
+<w n="241">CEL</w>
+</hi>
+<w n="242">populum</w>
+<w n="243">co</w>
+<w n="244">dicit</w>
+<w type="pon" n="245">.</w>
+</s>
+<s n="24">
+<hi rend="en_clair">
+<w n="246">E</w>
+</hi>
+<w n="247">faciebat</w>
+<hi rend="en_clair">
+<w n="248">GRANT</w>
+<lb n="144"/> 
+<w n="249">JHOLT</w>
+</hi>
+<w type="pon" n="250">.</w>
+</s>
+<s n="25">
+<w n="251">et</w>
+<hi rend="en_clair">
+<w n="252">ERET</w>
+<w n="253">MULT</w>
+<w n="254">LAS</w>
+</hi>
+<lb n="145"/> 
+<milestone unit="ms_line" n="11"/> 
+<supplied>
+<w n="255">et</w>
+<w n="256">preparauit</w>
+<w n="257">Dominus</w>
+</supplied>
+<hi rend="en_clair">
+<w n="258">UN</w>
+<w n="259">EDRE</w>
+<w n="260">SORE</w>
+<w n="261">SEN</w>
+<w n="262">CHEVE</w>
+<lb n="146"/> 
+<w n="263">QET</w>
+<w n="264">UMBRE</w>
+<w n="265">LI</w>
+<w n="266">FESIST</w>
+<orig>
+<w type="pon" n="267">.</w>
+</orig>
+</hi>
+  </s>
+<s n="26">
+<hi rend="en_clair">
+<w n="268">E</w>
+</hi>
+<w n="269">re<hi rend="en_clair">PAUSER</hi></w>
+<hi rend="en_clair">
+<w n="270">SI</w>
+<w n="271">PODIST</w>
+</hi>
+<w type="pon" n="272">.</w>
+<lb n="147"/> 
+<w n="273">
+<hi rend="lettrine">E</hi>t</w>
+</s>
+<s n="27">
+<w n="274">letatus</w>
+<w n="275">est</w>
+<w n="276">Ionas</w>
+<w n="277">super</w>
+<hi rend="en_clair">
+<w n="278">EDERA</w>
+</hi>
+<lb n="148"/> 
+<milestone unit="ms_line" n="12"/> 
+<supplied>
+<w n="279">letitia</w>
+<w n="280">magna</w>
+<orig>
+<w type="pon" n="281">.</w>
+</orig>
+<w n="282">dunc</w>
+<w n="283">fut</w>
+<w n="284">Jonas</w>
+</supplied>
+<hi rend="en_clair">
+<w n="285"><supplied rend="word_part">M</supplied>ULT</w>
+</hi>
+<w n="286">letus</w>
+<w n="287">co</w>
+<w n="288">dicit</w>
+<w type="pon" n="289">.</w>
+</s>
+<s n="28">
+<hi rend="en_clair">
+<w n="290">POR</w>
+<lb n="149"/> 
+<w n="291">QE</w>
+</hi>
+<w n="292">Deus</w>
+<hi rend="en_clair">
+<w n="293">CEL</w>
+<w n="294">EDRE</w>
+<w n="295">LI</w>
+</hi>
+<w n="296">donat</w>
+<hi rend="en_clair">
+<w n="297">A</w>
+<w n="298">SUN</w>
+<w n="299">SOUEV</w>
+</hi>
+<w type="pon" n="300">.</w>
+</s>
+<s n="29">
+<w n="301">et</w>
+<hi rend="en_clair">
+<w n="302">A</w>
+<w n="303">SUN</w>
+</hi>
+<lb n="150"/> 
+<w n="304">re<hi rend="en_clair">PAU</hi>sement</w>
+<w type="pon" n="305">.</w>
+<w n="306">
+<hi rend="lettrine">E</hi>t</w>
+<w n="307">
+<hi rend="en_clair">PRECEP</hi>it</w>
+</s>
+<s n="30">
+<w n="308">Dominus</w>
+<lb n="151"/> 
+<milestone unit="ms_line" n="13"/> 
+<supplied>
+<w n="309">uermi</w>
+<w n="310">ut</w>
+<w n="311">percuteret</w>
+<w n="312">ederam</w>
+</supplied>
+<w n="313">et</w>
+<hi rend="en_clair">
+<w n="314">EXARUIT</w>
+</hi>
+<w type="pon" n="315">.</w>
+</s>
+<s n="31">
+<w n="316">et</w>
+<w n="317">parauit</w>
+<lb n="152"/> 
+<w n="318">Deus</w>
+<w n="319">uentum</w>
+<w n="320">calidum</w>
+<w n="321">super</w>
+<w n="322">caput</w>
+<w n="323">Ione</w>
+<w n="324">et</w>
+<w n="325">dixit</w>
+<orig>
+<w type="pon" n="326">.</w>
+</orig>
+</s>
+<s n="32">
+<w n="327">melius</w>
+<w n="328">est</w>
+<lb n="153"/> 
+<w n="329">mihi</w>
+<w n="330">mori</w>
+<w n="331">quam</w>
+<w n="332">uiuere</w>
+<w type="pon" n="333">.</w>
+<lb n="154"/> 
+<milestone unit="ms_line" n="14"/> 
+</s>
+<s n="33">
+<supplied>
+<gap/> 
+</supplied>
+<gap/> 
+<hi rend="en_clair">
+<w n="334">SURREDE</w>
+<w n="335">DUNC</w>
+</hi>
+<w n="336">co</w>
+<w n="337">dicit</w>
+<lb n="155"/> 
+<w n="338">si</w>
+<w n="339">rogat</w>
+<w n="340">Deus</w>
+<hi rend="en_clair">
+<w n="341">AD</w>
+<w n="342">UN</w>
+<w n="343">VERME</w>
+</hi>
+<orig>
+<w type="pon" n="344">.</w>
+</orig>
+</s>
+<s n="34">
+<hi rend="en_clair">
+<w n="345">QE</w>
+<w n="346">PERCUSSIST</w>
+<w n="347">CEL</w>
+<lb n="156"/> 
+<w n="348">EDRE</w>
+<w n="349">SOST</w>
+<w n="350">QE</w>
+<w n="351">CIL</w>
+</hi>
+<w n="352">sedebat</w>
+<hi rend="en_clair">
+<w n="353">EC</w>
+</hi>
+<lb n="157"/> 
+<milestone unit="ms_line" n="15"/> 
+<supplied>
+<gap/> 
+</supplied>
+<hi rend="en_clair">
+<w n="354">CILGE</w>
+<w n="355">EDRE</w>
+<w n="356">FU</w>
+<w n="357">SECHE</w>
+</hi>
+<lb n="158"/> 
+<w n="358">si</w>
+<hi rend="en_clair">
+<w n="359">VINT</w>
+</hi>
+<w n="360">
+<hi rend="en_clair">GRANCES</hi>mes</w>
+<hi rend="en_clair">
+<w n="361">JHOLT</w>
+<w n="362">LA</w>
+</hi>
+<w n="363">super</w>
+<w n="364">caput</w>
+<lb n="159"/> 
+<w n="365">Ione</w>
+<w n="366">et</w>
+<w n="367">dixit</w>
+<w type="pon" n="368">.</w>
+<w n="369">melius</w>
+<w n="370">est</w>
+<w n="371">mihi</w>
+<w n="372">mori</w>
+<w n="373">quam</w>
+<w n="374">uiuere</w>
+<w n="375">
+<hi rend="lettrine">E</hi>t</w>
+<w n="376">dixit</w>
+<w n="377">Dominus</w>
+<lb n="160"/> 
+
+
+<lb n="161"/> 
+<milestone unit="ms_line" n="16"/> 
+<supplied>
+<w n="378">ad</w>
+<w n="379">Ionam</w>
+<w n="380">Putasne</w>
+<w n="381">bene</w>
+</supplied>
+<hi rend="en_clair">
+<w n="382"><supplied resp="word_part">I</supplied>RASCERIS</w>
+</hi>
+<w n="383">tu</w>
+<w n="384">super</w>
+<hi rend="en_clair">
+<w n="385">EDERA</w>
+</hi>
+<w type="pon" n="386">?</w>
+<lb n="162"/> 
+<w n="387">et</w>
+<w n="388">dixit</w>
+<orig>
+<w type="pon" n="389">.</w>
+</orig>
+<w n="390">bene</w>
+<hi rend="en_clair">
+<w n="391">IRASCOR</w>
+<w n="392">EGO</w>
+</hi>
+<w n="393">usque</w>
+<w n="394">ad</w>
+<w n="395">mortem</w>
+<orig>
+<w type="pon" n="396">.</w>
+</orig>
+<w n="397">Postea</w>
+<w n="398">per</w>
+<lb n="163"/> 
+<hi rend="en_clair">
+<w n="399">CEL</w>
+<w n="400">EDRE</w>
+<w n="401">DUNT</w>
+<w n="402">CIL</w>
+<w n="403">TEL</w>
+</hi>
+<lb n="164"/> 
+<milestone unit="ms_line" n="17a"/> 
+<supplied>
+<w n="404">dolor</w>
+</supplied>
+<hi rend="en_clair">
+<supplied>
+<w n="405">AVE</w>
+</supplied>
+<w n="406">IET</w>
+</hi>
+<orig>
+<w type="pon" n="407">.</w>
+</orig>
+<w n="408">si</w>
+<w n="409">debetis</w>
+<w n="410">intelligere</w>
+<w n="411">les</w>
+<w n="412">Iudeos</w>
+<w type="pon" n="413">.</w>
+</s>
+<s n="35">
+<hi rend="en_clair">
+<w n="414">CHI</w>
+<w n="415">SICCI</w>
+</hi>
+<lb n="165"/> 
+<w n="416">et</w>
+<hi rend="en_clair">
+<w n="417">ARIDI</w>
+</hi>
+<w n="418">permanent</w>
+<w type="pon" n="419">.</w>
+<w n="420">
+<hi rend="en_clair">NEGAN</hi>tes</w>
+<w n="421">filium</w>
+<w n="422">Dei</w>
+<w type="pon" n="423">.</w>
+</s>
+<s n="36">
+<add place="page-bottom">
+<lb n="166"/> 
+<milestone unit="ms_line" n="36"/> 
+<w n="424">les</w>
+<w n="425">Iudeos</w>
+<hi rend="en_clair">
+<w n="426">PORQET</w>
+<w n="427">IL</w>
+<w n="428">EN</w>
+<w n="429">CELE</w>
+<w n="430">DURECIE</w>
+<w n="431">ET</w>
+<w n="432">EN</w>
+<w n="433">CELE</w>
+<lb n="167"/> 
+<w n="434">ENCREDULITET</w>
+<w n="435">PERMES</w>
+</hi>
+<w n="436">sient</w>
+<orig>
+<w type="pon" n="437">.</w>
+</orig>
+  </add>
+</s>
+<s>
+  <add>
+<w n="438">et</w>
+<w n="439">etiam</w>
+<hi rend="en_clair">
+<w n="440">PLORA</w>
+</hi>
+<w n="441">les</w>
+<w n="442">si</w>
+<lb n="168"/> 
+<w n="443">cum</w>
+<hi rend="en_clair">
+<w n="444">DIST</w>
+<w n="445">E</w>
+<w n="446">LE</w>
+</hi>
+<w n="447">euangelio</w>
+<lb n="169"/> 
+<milestone unit="ms_line" n="37"/> 
+<gap/> 
+<hi rend="en_clair">
+<w n="448">M'</w>
+<w n="449">EUM</w>
+<w n="450">EN</w>
+<w n="451">AVANT</w>
+<w n="452">DIST</w>
+</hi>
+<w type="pon" n="453">.</w>
+  </add>
+  </s>
+<lb n="170"/> 
+<milestone unit="ms_line" n="17b"/> 
+<s n="37">
+<hi rend="en_clair">
+<w n="454">E</w>
+<w n="455">POR</w>
+<w n="456">ELS</w>
+</hi>
+<pb n="44"/> 
+<lb n="171"/> 
+<milestone unit="ms_line" n="18"/> 
+<supplied>
+<w n="457">si</w>
+<w n="458">erat</w>
+<w n="459">Ionas</w>
+</supplied>
+<hi rend="en_clair">
+<w n="460"><supplied reason="word_part">PROPHET</supplied>ES</w>
+<w n="461">DOLIANTS</w>
+</hi>
+<w type="pon" n="462">.</w>
+</s>
+<s n="38">
+<hi rend="en_clair">
+<w n="463">CAR</w>
+</hi>
+<w n="464">co</w>
+<w n="465">uidebat</w>
+<lb n="172"/> 
+<w n="466">per</w>
+<w n="467">spiritum</w>
+<w n="468">prophete</w>
+<orig>
+<w type="pon" n="469">.</w>
+</orig>
+  </s>
+<s n="39">
+<hi rend="en_clair">
+<w n="470">QE</w>
+</hi>
+<w n="471">cum</w>
+<w n="472">gentes</w>
+<w n="473">uenirent</w>
+<w n="474">ad</w>
+<w n="475">fidem</w>
+<w type="pon" n="476">.</w>
+<w n="477">si</w>
+<lb n="173"/> 
+<hi rend="en_clair">
+<w n="478">ASTREI</w>
+</hi>
+<w n="479">ent</w>
+<hi rend="en_clair">
+<w n="480">LI</w>
+</hi>
+<w n="481">Iudei</w>
+<hi rend="en_clair">
+<w n="482">PERDUT</w>
+</hi>
+<w type="pon" n="483">.</w>
+<w n="484">si</w>
+<w n="485">cum</w>
+<hi rend="en_clair">
+<w n="486">IL</w>
+<w n="487">ORE</w>
+<w n="488">SUNT</w>
+</hi>
+<w type="pon" n="489">.</w>
+<w n="490">
+<hi rend="lettrine">E</hi>t</w>
+<lb n="174"/> 
+<milestone unit="ms_line" n="19"/> 
+</s>
+<s n="40">
+<supplied>
+<w n="491">dixit</w>
+<w n="492">Dominus</w>
+<w n="493">tu</w>
+</supplied>
+<w n="494">doles</w>
+<w n="495">super</w>
+<hi rend="en_clair">
+<w n="496">EDERA</w>
+<w n="497">IN</w>
+</hi>
+<w n="498">qua</w>
+<hi rend="en_clair">
+<w n="499">NON</w>
+</hi>
+<w n="500">laborasti</w>
+<lb n="175"/> 
+<w n="501">neque</w>
+<w n="502">fecisti</w>
+<w n="503">ut</w>
+<w n="504">cresceret</w>
+<orig>
+<w type="pon" n="505">.</w>
+</orig>
+</s>
+<s>
+<w n="506">et</w>
+<w n="507">ego</w>
+<hi rend="en_clair">
+<w n="508">NON</w>
+</hi>
+<w n="509">parcam</w>
+<hi rend="en_clair">
+<w n="510">NINIUE</w>
+</hi>
+<lb n="176"/> 
+<w n="511">ciuitati</w>
+<w n="512">magne</w>
+<orig>
+<w type="pon" n="513">.</w>
+</orig>
+<w n="514">in</w>
+<w n="515">qua</w>
+<w n="516">sunt</w>
+<w n="517">plus</w>
+<w n="518">quam</w>
+<lb n="177"/> 
+<milestone unit="ms_line" n="20"/> 
+<supplied>
+<w type="num" n="519">CXX</w>
+<w n="520">hominum</w>
+<hi rend="souligne">
+<w n="521">qui</w>
+<w n="522">nesciunt</w>
+<w n="523">quid</w>
+</hi>
+</supplied>
+<hi rend="souligne">
+<w n="524">sit</w>
+<w n="525">inter</w>
+<w n="526">dexteram</w>
+<w n="527">et</w>
+<w n="528">sinistram</w>
+<w type="pon" n="529">?</w>
+</hi>
+  </s>
+<s n="41">
+<hi rend="souligne">
+<lb n="178"/> 
+<hi rend="en_clair">
+<w n="530">DUNC</w>
+</hi>
+<w n="531">si</w>
+<w n="532">dicit</w>
+<w n="533">Deus</w>
+<w n="534">ad</w>
+<w n="535">Ionam</w>
+<w n="536">prophetam</w>
+<w type="pon" n="537">.</w>
+</hi>
+  </s>
+<s n="42">
+<hi rend="en clair">
+<w n="538">TU</w>
+<w n="539">DOULS</w>
+<lb n="179"/> 
+<w n="540">MULT</w>
+<w n="541">A</w>
+</hi>
+<gap/> 
+<hi rend="en clair">
+<w n="542">POR</w>
+</hi>
+<lb n="180"/> 
+<milestone unit="ms_line" n="21"/> 
+<supplied>
+<w n="543">icel</w>
+<w n="544">edre</w>
+<w n="545">es</w>
+<w n="546">mult</w>
+</supplied>
+<hi rend="en_clair">
+<w n="547"><supplied rend="word_part">IRET</supplied>ST</w>
+</hi>
+<w n="548">dixit</w>
+<w type="pon" n="549">.</w>
+<w n="550">in</w>
+<w n="551">qua</w>
+<hi rend="en_clair">
+<w n="552">NON</w>
+</hi>
+<w n="553">laborasti</w>
+<lb n="181"/> 
+<w n="554">neque</w>
+<w n="555">fecisti</w>
+<w n="556">ut</w>
+<w n="557">cresceret</w>
+<w n="558">dixit</w>
+<w type="pon" n="559">.</w>
+</s>
+<s n="43">
+<hi rend="en_clair">
+<w n="560">E</w>
+<w n="561">JO</w>
+</hi>
+<w n="562">ne</w>
+<hi rend="en_clair">
+<w n="563">DOLREIE</w>
+</hi>
+<w n="564">de</w>
+<w n="565">tanta</w>
+<lb n="182"/> 
+<w n="566">milia</w>
+<w n="567">hominum</w>
+<w n="568">si</w>
+<hi rend="en_clair">
+<w n="569">PERDUT</w>
+<w n="570">ERENT</w>
+</hi>
+<w n="571">dixit</w>
+<w type="pon" n="572">?</w>
+<lb n="183"/> 
+<milestone unit="ms_line" n="22"/> 
+</s>
+<s n="44">
+<supplied>
+<gap/> 
+</supplied>
+<hi rend="en_clair">
+<w n="573">ALAIR</w>
+</hi>
+<w n="574">dixit</w>
+<w type="pon" n="575">.</w>
+<w n="576">
+<hi rend="lettrine">P</hi>ostea</w>
+</s>
+<s n="45">
+<hi rend="en_clair">
+<w n="577">EN</w>
+<w n="578">CESTE</w>
+</hi>
+<lb n="184"/> 
+<w n="579">causa</w>
+<w n="580">potestis</w>
+<hi rend="en_clair">
+<w n="581">ORE</w>
+<w n="582">VECDEIR</w>
+</hi>
+<w type="pon" n="583">.</w>
+<w n="584">quanta</w>
+<w n="585">est</w>
+<w n="586">misericordia</w>
+<w n="587">et</w>
+<lb n="185"/> 
+<w n="588">pietas</w>
+<w n="589">Dei</w>
+<w n="590">super</w>
+<w n="591">peccatores</w>
+<w n="592">homines</w>
+<w type="pon" n="593">.</w>
+</s>
+<s n="46">
+<hi rend="en_clair">
+<w n="594">CIL</w>
+</hi>
+<w n="595">homines</w>
+<w n="596">de</w>
+<hi rend="en_clair">
+<w n="597">CELE</w>
+</hi>
+<lb n="186"/> 
+<w n="598">ciuitate</w>
+<lb n="187"/> 
+<milestone unit="ms_line" n="23"/> 
+<supplied>
+<hi rend="en_clair">
+<w n="599">TANT</w>
+<w n="600">LAVEIENT</w>
+</hi>
+</supplied>
+<hi rend="en_clair">
+<w n="601"><supplied rend="word_part">OF</supplied>FENDUT</w>
+</hi>
+<w type="pon" n="602">.</w>
+</s>
+<s n="47">
+<hi rend="en_clair">
+<w n="603">QE</w>
+<w n="604">TOST</w>
+<w n="605">LE</w>
+</hi>
+<w n="606">uolebat</w>
+<lb n="188"/> 
+<hi rend="en_clair">
+<w n="607">DELIR</w>
+</hi>
+<w type="pon" n="608">.</w>
+</s>
+<s n="48">
+<hi rend="en_clair">
+<w n="609">E</w>
+</hi>
+<w n="610">inde</w>
+<hi rend="en_clair">
+<w n="611">LA</w>
+</hi>
+<w n="612">ciuitate</w>
+<w n="613">uolebat</w>
+<hi rend="en_clair">
+<w n="614">COMBURIR</w>
+</hi>
+<w type="pon" n="615">.</w>
+<w n="616">et</w>
+<w n="617">ad</w>
+<lb n="189"/> 
+<w n="618">nihilum</w>
+<hi rend="en_clair">
+<w n="619">REDIGERE</w>
+</hi>
+<w type="pon" n="620">.</w>
+<w n="621">Postea</w>
+<hi rend="en_clair">
+<w n="622">PER</w>
+<w n="623">CEL</w>
+</hi>
+<w n="624">triduanum</w>
+<lb n="190"/> 
+<milestone unit="ms_line" n="24"/> 
+<supplied>
+<w n="625">ieiunium</w>
+<w n="626">si</w>
+</supplied>
+<hi rend="en_clair">
+<w n="627"><supplied rend="word_part">CONTRITI</supplied>ON</w>
+</hi>
+<w n="628">
+<hi rend="en_clair">FI</hi>sient</w>
+<w type="pon" n="629">.</w>
+</s>
+<s n="49">
+<hi rend="en_clair">
+<w n="630">E</w>
+</hi>
+<w n="631">si</w>
+<w n="632">corrovement</w>
+<w n="633">
+<hi rend="en_clair">FI</hi>sient</w>
+<orig>
+<w type="pon" n="634">.</w>
+</orig>
+<lb n="191"/> 
+<w n="635">si</w>
+<w n="636">
+<hi rend="en_clair">ACHE</hi>derent</w>
+<w n="637">ueniam</w>
+<w n="638">et</w>
+<w n="639">remissionem</w>
+<w n="640">peccatorum</w>
+<w n="641">suorum</w>
+<w type="pon" n="642">.</w>
+<lb n="192"/> 
+<w n="643">Deus</w>
+<w n="644">omnipotens</w>
+<w n="645">qui</w>
+<w n="646">pius</w>
+<w n="647">et</w>
+<w n="648">misericors</w>
+<w n="649">et</w>
+<w n="650">clemens</w>
+<w n="651">est</w>
+<w n="652">et</w>
+<w n="653">qui</w>
+<lb n="193"/> 
+<milestone unit="ms_line" n="25"/> 
+<supplied>
+<w n="654">uult</w>
+<w n="655">quod</w>
+<w n="656">peccatores</w>
+<w n="657">uitam</w>
+<w n="658">eternam</w>
+</supplied>
+<w n="659">mereantur</w>
+<w n="660">et</w>
+<w n="661">uiuant</w>
+<w type="pon" n="662">.</w>
+<lb n="194"/> 
+<w n="663">cum</w>
+<w n="664">co</w>
+<w n="665">uidit</w>
+<hi rend="en_clair">
+<w n="666">QET</w>
+<w n="667">IL</w>
+</hi>
+<w n="668">se</w>
+<w n="669">erent</w>
+<hi rend="en_clair">
+<w n="670">CONVERS</w>
+</hi>
+<w n="671">de</w>
+<w n="672">uia</w>
+<w n="673">sua</w>
+<w n="674">mala</w>
+<lb n="195"/> 
+<hi rend="en_clair">
+<w n="675">E</w>
+<w n="676">SIS</w>
+<w n="677">PENTEIET</w>
+<w n="678">DE</w>
+<w n="679">CEL</w>
+<w n="680">MEL</w>
+<w n="681">QE</w>
+<w n="682">FAIT</w>
+</hi>
+<w n="683">habebat</w>
+<w type="pon" n="684">.</w>
+<lb n="196"/> 
+<milestone unit="ms_line" n="26"/> 
+</s>
+<s n="50">
+<supplied>
+<gap/> 
+</supplied>
+<w n="685">liberi</w>
+<hi rend="en_clair">
+<w n="686">DE</w>
+<w n="687">CEL</w>
+<w n="688">PERIL</w>
+<w n="689">QET</w>
+<w n="690">IL</w>
+</hi>
+<lb n="197"/> 
+<w n="691">habebat</w>
+<w n="692">discretum</w>
+<hi rend="en_clair">
+<w n="693">QE</w>
+</hi>
+<w n="694">super</w>
+<hi rend="en_clair">
+<w n="695">ELS</w>
+<w n="696">METTREIET</w>
+</hi>
+<w type="pon" n="697">.</w>
+<w n="698">
+<hi rend="lettrine">C</hi>um</w>
+<w n="699">potestis</w>
+<lb n="198"/> 
+<hi rend="en_clair">
+<w n="700">ORE</w>
+</hi>
+<w n="701">uidere</w>
+<orig>
+<w type="pon" n="702">.</w>
+</orig>
+<w n="703">et</w>
+<hi rend="en_clair">
+<w n="704">ENTELGIR</w>
+</hi>
+<gap/> 
+<pb n="45"/> 
+<lb n="199"/> 
+<milestone unit="ms_line" n="27"/> 
+<supplied>
+<gap/> 
+</supplied>
+<hi rend="en_clair">
+<w n="705">CHI</w>
+<w n="706">SIL</w>
+</hi>
+<w n="707">
+<hi rend="en_clair">FE</hi>ent</w>
+<w n="708">cum</w>
+<hi rend="en_clair">
+<w n="709">FAIRE</w>
+<lb n="200"/> 
+<w n="710">LO</w>
+<w n="711">DEENT</w>
+</hi>
+<w type="pon" n="712">.</w>
+</s>
+<s n="51">
+<hi rend="en_clair">
+<w n="713">E</w>
+</hi>
+<w n="714">cum</w>
+<hi rend="en_clair">
+<w n="715">CIL</w>
+<w n="716">LO</w>
+</hi>
+<w n="717">
+<hi rend="en_clair">FI</hi>sient</w>
+<hi rend="en_clair">
+<w n="718">DUNT</w>
+<w n="719">ORE</w>
+<w n="720">AVEIST</w>
+<lb n="201"/> 
+<w n="721">ODIT</w>
+</hi>
+<w type="pon" n="722">.</w>
+<w n="723">E</w>
+<hi rend="en_clair">
+<w n="724">PORO</w>
+</hi>
+<w n="725">si</w>
+<w n="726">vos</w>
+<hi rend="en_clair">
+<w n="727">AVIENT</w>
+</hi>
+<lb n="202"/> 
+<milestone unit="ms_line" n="28"/> 
+<hi rend="en_clair">
+<supplied>
+<w n="728">QE</w>
+</supplied>
+<w n="729"><supplied rend="word_part">BIE</supplied>N</w>
+<w n="730">FACIEST</w>
+<w n="731">CEST</w>
+</hi>
+<w n="732">triduanum</w>
+<w n="733">ieiunium</w>
+<lb n="203"/> 
+<hi rend="en_clair">
+<w n="734">QET</w>
+<w n="735">OI</w>
+<w n="736">COMENCIEST</w>
+</hi>
+<w type="pon" n="737">.</w>
+</s>
+<s n="52">
+<hi rend="en_clair">
+<w n="738">NE</w>
+<w n="739">AIET</w>
+<w n="740">NIULS</w>
+<w n="741">MALE</w>
+</hi>
+<lb n="204"/> 
+<w n="742">uoluntatem</w>
+<w n="743">contra</w>
+<hi rend="en_clair">
+<w n="744">SEM</w>
+<w n="745">PEER</w>
+</hi>
+<w type="pon" n="746">.</w>
+<w n="747">ne</w>
+<w n="748">habeat</w>
+<lb n="205"/> 
+<milestone unit="ms_line" n="29"/> 
+<supplied>
+<w n="749">inimicitiam</w>
+<w type="pon" n="750">.</w>
+</supplied>
+</s>
+<s n="53">
+<supplied>
+<hi rend="en_clair">
+<w n="751">MAIS</w>
+</hi>
+</supplied>
+<hi rend="en_clair">
+<w n="752">AIEST</w>
+<w n="753">CHERTE</w>
+</hi>
+<w n="754">inter</w>
+<w n="755">uos</w>
+<orig>
+<w type="pon" n="756">.</w>
+</orig>
+<w n="757">quia</w>
+<w n="758">karitas</w>
+<lb n="206"/> 
+<hi rend="en_clair">
+<w n="759">OPERIT</w>
+</hi>
+<w n="760">multitudinem</w>
+<w n="761">peccatorum</w>
+<w type="pon" n="762">.</w>
+</s>
+<s n="54">
+<hi rend="en_clair">
+<w n="763">SEIETST</w>
+<w n="764">UNANIMES</w>
+<lb n="207"/> 
+<w n="765">IN</w>
+</hi>
+<w n="766">Dei</w>
+<w n="767">seruicio</w>
+<w type="pon" n="768">.</w>
+</s>
+<s n="55">
+<hi rend="souligne">
+<w n="769">et</w>
+<hi rend="en_clair">
+<w n="770">EN</w>
+<w n="771">TOT</w>
+</hi>
+</hi>
+<lb n="208"/> 
+<milestone unit="ms_line" n="30"/> 
+<hi rend="en_clair">
+<supplied>
+<w n="772">POR</w>
+<w n="773">EN</w>
+<w n="774">CIEL</w>
+</supplied>
+<w n="775"><supplied rend="word_part">E</supplied>STRE</w>
+</hi>
+<w n="776">remunerati</w>
+<w type="pon" n="777">.</w>
+<w n="778">
+<hi rend="en_clair">FAI</hi>tes</w>
+</s>
+<s n="56">
+<hi rend="en_clair">
+<w n="779">VOST</w>
+</hi>
+<w n="780">
+<hi rend="en_clair">ALSMOS</hi>nes</w>
+<w type="pon" n="781">.</w>
+<lb n="209"/> 
+</s>
+<s n="57">
+<hi rend="souligne">
+<w n="782">nessi</w>
+<w n="783">cum</w>
+<hi rend="en_clair">
+<w n="784">FAIRE</w>
+</hi>
+<w n="785">debetis</w>
+<hi rend="en_clair">
+<w n="786">E</w>
+<w n="787">FAITES</w>
+<w n="788">VOST</w>
+</hi>
+<w n="789">eleemosynas</w>
+</hi>
+<w type="pon" n="790">.</w>
+<lb n="210"/> 
+</s>
+<s n="58">
+<hi rend="en_clair">
+<w n="791">CERT</w>
+</hi>
+<w n="792">co</w>
+<w n="793">sapietis</w>
+<lb n="211"/> 
+<milestone unit="ms_line" n="31"/> 
+<supplied>
+<gap/> 
+</supplied>
+<hi rend="en_clair">
+<w n="794">ACHEDER</w>
+</hi>
+<w n="795">co</w>
+<hi rend="en_clair">
+<w n="796">QE</w>
+<w n="797">LI</w>
+<w n="798">PREIRETS</w>
+</hi>
+<w type="pon" n="799">.</w>
+<lb n="212"/> 
+</s>
+<s n="59">
+<hi rend="souligne">
+<hi rend="en_clair">
+<w n="800">PREIESTLI</w>
+<w n="801">QE</w>
+</hi>
+<w n="802">de</w>
+<hi rend="en_clair">
+<w n="803">CEST</w>
+</hi>
+<w n="804">pagano</w>
+<w n="805">nos</w>
+<w n="806">liberat</w>
+<hi rend="en_clair">
+<w n="807">CHI</w>
+</hi>
+<w n="808">tanta</w>
+<lb n="213"/> 
+<w n="809">mala</w>
+<w n="810">nos</w>
+<w n="811">hab<supplied rend="word_part">uit</supplied></w>
+<hi rend="en_clair">
+<w n="812">FAIT</w>
+</hi>
+</hi>
+<w type="pon" n="813">.</w>
+<lb n="214"/> 
+<milestone unit="ms_line" n="32"/> 
+</s>
+<s n="60">
+<supplied>
+<w n="814">et</w>
+<w n="815">ut</w>
+<w n="816">protegat</w>
+<w n="817">nos</w>
+</supplied>
+<w n="818">de</w>
+<w n="819">paganis</w>
+<hi rend="en_clair">
+<w n="820">E</w>
+</hi>
+<w n="821">de</w>
+<hi rend="en_clair">
+<w n="822">MALS</w>
+</hi>
+<w n="823">christianis</w>
+<w type="pon" n="824">.</w>
+<w n="825">poscite</w>
+<lb n="215"/> 
+<hi rend="en_clair">
+<w n="826">LI</w>
+<w n="827">QE</w>
+<w n="828">CEST</w>
+</hi>
+<w n="829">fructum</w>
+<hi rend="en_clair">
+<w n="830">QE</w>
+<w n="831">MOSTRET</w>
+</hi>
+<w n="832">nos</w>
+<w n="833">habet</w>
+<hi rend="en_clair">
+<w n="834">QEL</w>
+</hi>
+<lb n="216"/> 
+<w n="835">nos</w>
+<w n="836">conseruet</w>
+<orig>
+<w type="pon" n="837">.</w>
+</orig>
+<w n="838">et</w>
+<w n="839">ad</w>
+<hi rend="en_clair">
+<w n="840">MATURI<supplied rend="word_part">TATEM</supplied></w>
+</hi>
+
+<lb n="217"/> 
+<milestone unit="ms_line" n="33"/> 
+<supplied>
+<gap/> 
+</supplied>
+<hi rend="en_clair">
+<w n="841">URELO</w>
+</hi>
+<w n="842">
+<hi rend="en_clair">POSCIO</hi>mes</w>
+<hi rend="en_clair">
+<w n="843">E</w>
+<w n="844">TELS</w>
+</hi>
+<lb n="218"/> 
+<w n="845">eleemosynas</w>
+<hi rend="en_clair">
+<w n="846">ENT</w>
+</hi>
+<w n="847">possumus</w>
+<w n="848">facere</w>
+<w type="pon" n="849">.</w>
+</s>
+<s n="61">
+<hi rend="en_clair">
+<w n="850">QE</w>
+<w n="851">LUI</w>
+<w n="852">ENT</w>
+</hi>
+<w n="853">possumus</w>
+<lb n="219"/> 
+<w n="854">placere</w>
+<orig>
+<w type="pon" n="855">.</w>
+</orig>
+<w n="856">poscite</w>
+<hi rend="en_clair">
+<w n="857">LI</w>
+<w n="858">QE</w>
+</hi>
+<w n="859">remissionem</w>
+<w n="860">omnium</w>
+<w n="861">peccatorum</w>
+<w n="862">nostrorum</w>
+<lb n="220"/> 
+<w n="863">nos</w>
+<lb n="221"/> 
+<milestone unit="ms_line" n="34"/> 
+<supplied>
+<hi rend="en_clair">
+<w n="864">PREBEAT</w>
+<w n="865">ET</w>
+</hi>
+<gap/> 
+</supplied>
+<hi rend="en_clair">
+<w n="866">CER</w>
+</hi>
+<w n="867">faciat</w>
+<w n="868">nos</w>
+<w n="869">ad</w>
+<w n="870">gaudia</w>
+<w n="871">eterna</w>
+<w n="872">peruenire</w>
+<orig>
+<w type="pon" n="873">.</w>
+</orig>
+<lb n="222"/> 
+<w n="874">ibique</w>
+<w n="875">ualemus</w>
+<w n="876">gaudere</w>
+<w n="877">et</w>
+<w n="878">exsultare</w>
+<w n="879">sine</w>
+<w n="880">fine</w>
+<w n="881">cum</w>
+<w n="882">omnibus</w>
+<lb n="223"/> 
+<w n="883">sanctis</w>
+<hi rend="en_clair">
+<w n="884">PER</w>
+</hi>
+<w n="885">eterna</w>
+<w n="886">secula</w>
+<w n="887">seculorum</w>
+<orig>
+<w type="pon" n="888">.</w>
+</orig>
+  </s>
+<s n="62">
+<hi rend="souligne">
+<w n="889">quod</w>
+<w n="890">ipse</w>
+<w n="891">prospicere</w>
+<lb n="224"/> 
+<w n="892">dignetur</w>
+<w n="893">qui</w>
+<w n="894">uiuit</w>
+<lb n="225"/> 
+<milestone unit="ms_line" n="35"/> 
+<supplied>
+<w n="895">in</w>
+<w n="896">celo</w>
+<w n="897">cum</w>
+<w n="898">omnibus</w>
+</supplied>
+<w n="899">sanctis</w>
+<w n="900">gloriosus</w>
+<w n="901">Deus</w>
+<hi rend="en_clair">
+<w n="902">PER</w>
+</hi>
+<w n="903">eterna</w>
+<w n="904">secula</w>
+<w n="905">seculorum</w>
+<w type="pon" n="906">.</w>
+</hi>
+</s>
+</p> 
+</div> 
+</body> 
+</text>
+</TEI>

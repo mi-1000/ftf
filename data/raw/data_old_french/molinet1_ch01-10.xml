@@ -1,0 +1,1430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="main">Chronique</title>
+      <title type="formal">molinet</title>
+      <title type="reference">molinet1_ch01-10</title>
+      <title type="DEAF">MolinetChronD</title>
+      <title type="gmd">transcription électronique</title>
+      <author xml:id="JMolinet" key="Molinet, Jean (1435-1507)" ref="http://www.idref.fr/029572959">Jean Molinet</author>
+      <editor>Équipe de la Base de français médiéval - ENS de Lyon / UMR 5317 IHRIM</editor>
+      <funder>Laboratoire IHRIM</funder>
+    </titleStmt>
+    <editionStmt>
+      <edition>transcripion électronique</edition>
+      <respStmt xml:id="encoder1">
+        <resp>extraction des 10 premiers chapitres pour la relecture</resp>
+        <name xml:id="AL">Alexei Lavrentiev</name>
+      </respStmt>
+      <respStmt xml:id="encoderDD">
+        <resp>balisage du discours direct</resp>
+        <name xml:id="LHostrenko">Laura Hostrenko</name>
+      </respStmt>
+    </editionStmt>
+    <extent>- Numéros de pages saisies : de 25 à 65 ;
+            - Nombre de mots d'après la base des descripteurs : <num xml:id="nb_mots_given">14596</num> ;
+            - Nombre de tokens (mots et ponctuations) d'après la base des descripteurs : <num xml:id="nb_tokens_given">17786</num>.
+    </extent>
+    <publicationStmt>
+      <publisher><name>Projet BFM, ENS de Lyon / UMR 5317 IHRIM</name></publisher>
+      <address>
+        <addrLine>15, parvis René Descartes</addrLine>
+        <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+        <addrLine>Tél : 04 37 37 63 10</addrLine>
+        <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+        <addrLine>http://bfm.ens-lyon.fr</addrLine>
+      </address>
+      <idno type="bfm">http://catalog.bfm-corpus.org/molinet1_ch01-10</idno>
+      <idno type="doi">10.34847/nkl.9a81x8fq</idno>
+      <availability status="free">
+        <licence target="https://www.etalab.gouv.fr/licence-ouverte-open-licence">
+          <ab type="availability_bfm" subtype="libre_1a">Les Conditions générales d'utilisation de la Base de Français Médiéval (http://txm.bfm-corpus.org/bfm/files/CGU.pdf), 
+            et notamment son Article 5 « PROPRIETE INTELLECTUELLE », s'appliquent à tous les textes de la BFM.</ab>
+          <ab type="how_to_cite">
+            <label>Comment citer ce texte :</label>
+            <bibl>Jean Molinet, Chronique, édité par Georges Doutrepont et Omer Jodogne, Bruxelles, 1935. 
+              Publié en ligne par la Base de français médiéval, http://catalog.bfm-corpus.org/molinet1_ch01-10.
+              Dernière révision le 2022-06-08.</bibl>
+            D'autres formules de citation de la BFM sont proposées sur la page web suivante :
+            http://bfm.ens-lyon.fr/article.php3?id_article=281.</ab>
+          <ab type="availability_file">
+            <label>Conditions d'utilisation de ce fichier :</label>
+              Ce fichier numérique est composé du corps de texte médiéval et des suppléments numériques : balisage XML-TEI, métadonnées (teiHeader), balisage du discours direct. Le texte et les suppléments numériques sont libres de droit et peuvent à ce titre être téléchargés et réutilisés librement.
+            </ab>
+            <ab type="availability_txmweb" subtype="illimité">
+              <label>Conditions d'utilisation par le portail BFM :</label>
+              Pas de limitation dans l'usage des fonctionnalités. Téléchargement autorisé.</ab>
+        </licence>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>Chronique : tome 1</title>
+          <author>Jean Molinet</author>
+          <respStmt>
+            <resp xml:id="editor">Éditeur scientifique</resp>
+            <name type="person">Georges Doutrepont</name>
+            <name type="person">Omer Jodogne</name>
+          </respStmt>
+        </titleStmt>
+          <extent>41 page(s), soit 25-65
+        </extent>
+        <publicationStmt>
+          <publisher>Palais des Académies</publisher>
+          <pubPlace>Bruxelles</pubPlace>
+          <date>1935</date>
+          <idno type="sigle_DEAF">MolinetChronD</idno>
+          <idno type="cote_biblio">LIDISA : R22 CDR</idno>
+        </publicationStmt><seriesStmt><title>Collection des anciens auteurs belges</title></seriesStmt>
+      </biblFull>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p>Projet :<name type="project">BFM - Base de français médiéval</name>
+        Resp. : <name type="person">Céline Guillot-Barbance</name>
+        Équipe : Base de français médiéval
+        Laboratoire : UMR 5317 IHRIM
+        Institution : ENS de Lyon
+        <address>
+          <addrLine>15, parvis René Descartes</addrLine>
+          <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+          <addrLine>Tél : 04 37 37 63 10</addrLine>
+          <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+          <addrLine>http://bfm.ens-lyon.fr</addrLine>
+        </address>
+      </p>
+    </projectDesc>
+    <editorialDecl>
+      <p>Voir le <ref target="http://bfm.ens-lyon.fr/IMG/pdf/Manuel_Encodage_TEI.pdf">Manuel d'encodage XML-TEI de la BFM</ref>
+        et les <ref target="http://bfm.ens-lyon.fr/IMG/pdf/Consignes_BFM.pdf">Consignes aux relecteurs de la BFM</ref>.</p>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="body" occurs="1"/>
+        <tagUsage gi="div" occurs="11"/>
+        <tagUsage gi="foreign" occurs="1"/>
+        <tagUsage gi="front" occurs="1"/>
+        <tagUsage gi="head" occurs="11"/>
+        <tagUsage gi="p" occurs="83"/>
+        <tagUsage gi="pb" occurs="41"/>
+        <tagUsage gi="q" occurs="3"/>
+        <tagUsage gi="supplied" occurs="1"/>
+        <tagUsage gi="text" occurs="1"/>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <creation>
+      <name type="author">Jean Molinet</name>
+      <title>Chronique</title>
+      <date type="compo" when="1490-01-01" notBefore="1474-01-01" notAfter="1507-01-01" n="15">de 1474 à 1507</date>
+      <date type="compo_periode">moyen</date>
+      <date type="compo_sous_siecle" n="15_3">fin</date>
+      <date type="ms" when="1517-01-01" notBefore="1500-01-01" notAfter="1533-12-31">déb. 16e s.</date>
+      <idno type="msIdentifier">Bruxelles, Bibl. roy. 5438</idno>
+      <region type="dialecte_auteur">flandre</region>
+    </creation>
+    <langUsage>
+      <language ident="fro" usage="100">Le texte est entièrement écrit en prose en moyen français.</language>
+    </langUsage>
+    <textDesc>
+      <channel mode="w">print</channel>
+      <constitution type="single"/>
+      <derivation type="original"/>
+      <domain type="historique"/>
+    <factuality type="inapplicable"/>
+      <interaction type="none"/>
+      <preparedness type="prepared"/>
+      <purpose type="narrative"/></textDesc>
+    <textClass>
+      <keywords scheme="http://authorities.bfm-corpus.org">
+        <term type="domaine">historique</term>
+        <term type="genre">chronique</term>
+        <term type="forme">prose</term>
+        <term type="relation">original</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change who="#AL" when="2022-05-23">extraction des 10 premiers chapitres pour la relecture</change>
+    <change who="#LHostrenko" when="2022-06-08">première relecture</change>
+    <change who="#LHostrenko" when="2022-06-08">balisage de structure XML-TEI</change>
+    <change who="#LHostrenko" when="2022-06-08">balisage du discours direct</change>
+    <change when="2022-06-08">Dernière modification du texte</change>
+    <change when="2022-11-04">Création de cet entête</change>
+  </revisionDesc>
+</teiHeader>
+<text>
+<pb n="25"/>
+<front>
+<div type="prologue">
+	<head>PROLOGUE</head>
+	<p><foreign>Fundata est domus Domini super verticem montium.</foreign></p>
+	<p>
+		La très illustre et refulgente maison du seigneur et duc de
+		Bourgoigne est magnificquement fondée sur la sommité des montaignes. Les geans terriens, par qui sont entendus les victorieux
+		princes regens et conducteurs du bien publicque, sont comme
+		montaignes excelses où est assis le hault throne d'honneur vers
+		qui les nobles preux du siècle tournent la face et tendent bras
+		et mains. En l'altitude de i
+		tramblent et se humilient rudes rochiers, très durs perrons et
+		très forte muraille comme sont crueulx tirans, fiers satellites
+		et orgueilleux rebelles, est autenticquement située la très haulte,
+		resplendissant et opulente maison des Bourgoignons dont aujourd'huy sa renommée court par les .VII. climatz, sa clarté illumine les tenèbres du monde et sa beauté decore le quartier
+		d'occident. Tout ce provient par l'admirable vertu et strenuité
+		singulière de quattre gros et fors puissans pilers sur lesquelz elle
+		est somptueusement composée.
+	</p>
+	<p>
+		Le premier piller, sur qui fut assise ceste fabricature, yssy jadis
+		de vif estoc royal, de celui meismes où fut prins le bienheuré
+		sceptre du très cristiien roy Charles, .Ve. de ce nom, lors flourissant entre les fleurs de lis. Ce très noble et puissant piller,
+		qui donna principe et fondement à ceste maison, fut le très preu
+		et chevalereux duc Philippe le Hardy, filz du roy Jehan de Valois
+		et frère du roy Charles dessus nommé.
+	</p>
+	<p>
+		Icellui duc, à cause de ses nobles gestes et glorieuses vertus,
+		fut aherité de la très inclite et fructueuse ducé de Bourgoigne
+		sur qui la maison, paravant mise à ruyne, fut puissamment edifiiée. Et, pour ce qu'il estoit fleuron royal croissant ou jardin
+		
+		<pb n="26"/>
+		francigène, il fut conjoinct par mariage à la très noble et prudente 
+		Marguerite de Flandres, fille du comte Loys de Marle.
+		Ces deux grans personages, ensemble unis par loyen nupcial,
+		engendrèrent homme de grant estime et haulte renommée, le
+		duc Jehan de Bourgoigne, fort prompt aux armes et très expert
+		en estour de bataille, le plus redoubté et cremu qui fusist regnant
+		en son tempz ; car, par force de bras et au trenchant des espées,
+		agency, esbocha, rabota et essarta les malvais neudz et zizanieux plantages qui la clarté de l'hostel empeschoyent.
+		Le bon duc Philippe, son filz, fut le tiers piler qui ceste maison
+		esleva en honorable celsitude, l'augmenta de pluseurs chambres
+		par succession hereditaire, lui donna lumière de son fuzil reflamboyant et splendeur aureyne de la très sacrée et precieuse Thoison
+		d'Or.
+		Et le très renommé duc Charles, sa legitime geniture, est le
+		.IIIIe. piller qui ceste maison clarifiie et embellist de très admirables hystoires, qui les fiers meutins rebellans, les rebelles meutinans, les trafficqueurs seduisans, les seducteurs trafficquans
+		humilia par sa main forte, et essourt ceste maison en sy très haulte
+		spère et clarté supereminente que les ysles oultremarines en perchoyvent la relusence. C'est, par figure similitudinaire, la tour
+		de Barris, le throne de Salomon, l'arche du Testament, le palais
+		Assuère, le fort Ylion, le temple de Mars et le romain Capitole où
+		les senateurs et consules armigères tiennent parlement et consaulx pour bien regir et gouverner le bien de la chose publicque.
+		Ces quattres pilers, descendus du vergier liligère par directe
+		ligne de propagation royale, ensamble connexés et alliiéz et
+		entremelléz aveuc .IIII. redolentes Marguerites, pevent estre
+		accomparéz, selon leurs bonnes meurs et conditions loables, à
+		.IIII. vertus cardinales sans lesqueles nulle main, tant soit hault
+		accomblée, ne peut longuement prosperer sans contourner en
+		decadence.
+		Le duc Philippe le Hardy, pour l'acuité de son sens et le bon
+		conseil qu'il eubt en lui de non leissier son père, le roy Jehan de
+		France, concquis en la bataille par les Englois, lors que ses frères
+		aisnés l'abandonnèrent, et pour ce qu'il prevey aucunement la
+		très noble posterité de lignie et commodité de seignourie qui lui
+		
+		<pb n="27"/>
+		pooit sourvenir de soy alliier à la contesse de Flandres, est licitement appropriét à Prudence, vertu moult salutaire.
+		Le duc Jehan, son filz, prince sans peur, magnannime en tous
+		ses affaires, constant comme pierre de vive roche, tant enflammé
+		de hardy corage que riens ne lui sambloit ne trop chault ne trop
+		pesant, peut estre figuré, pour les qualitéz de ses merites, à Force,
+		très recommandée entre les vertus cardinales.
+		Le bon duc Philippe, très doulz, humain, fort joyeux et tant
+		bien addressiét en toutes choses ardues, dignes de grant loange,
+		que Dieu et nature n'y avoyent riens oubliiét et, pour ce que
+		Temperance est vertu de corage, refrenant en nous les mouvemens impetueux, ceste glorieuse vertu lui doibt bien estre attribuée, car pluseurs fois a mitigué son yre contre ses ennemis,
+		lesquelz il pooit vaincre par force d'armes. Il a demonstré
+		vision pacificque meismes à ceulx qui ochirent son père. Jamais
+		ne fut au monde prince nul plus bening, nul plus clement, nul
+		plus liberal, nul plus reverend. Le duc Charles, son filz, inspiré
+		de Mars, le dieu des batailles, le restor d'Ulixes, ung second Scipion, ung petit Alixandre et ung grant Hanibal, qui les provinces
+		voisines a merveilleusement resveilliét au son de ses buisines et
+		a fait plus que le possible du très chevalereux art d'armes, voeullant, par hardy emprendre, peser les quartiers occidus à sa ballance, est proprement equiparé à Justice, la royne des vertus.
+		Avec ces quattre très illustres princes descendus du champ des
+		fleurs de lis, sont quatre nobles Marguerites de meisme sorte,
+		lesqueles ont grandement ampliét, enricy et augmenté ceste
+		maison, tant de sales, chambres, clostures, vignes, hayes, jardins,
+		préz, pastures comme tenemens et aultres appendences, dont
+		elle a bruit et los par dessus touttes aultres. Et premier, Marguerite de France, fille du roy Philippe le Long, espeuse d'ung comte
+		de Flandres, le aherita des .II. comtés d'Arthois et de Bourgoigne.
+		Marguerite de Brabant, alliiée au comte Loys de Male, dont
+		dessus est fait mention, le mit en possession des ducéz et pays de
+		Lotricq, Brabant et Lembourg.
+		Marguerite de Flandres, mère du duc Jehan, y atribua la
+		
+		<pb n="28"/>
+		comté de Flandres et aultres paysages. Et Marguerite de Bavière, fille du duc Aubert, compaigne dudit duc Jehan, y ajousta
+		les comtéz de Haynau, Hollande, Zeelande et la seignourie de
+		Frise. Et, par ainsy, ceulx qui clèrement perchoyvent le edification et lucidité de ceste triumphante maison, exaltée sur les
+		haultes montaignes, pevent facilement dire, tant par l'artificiele
+		sculpture des quattres pilers que pour la speciosité des fleurs
+		et precieuses gemmes: Porte nitent margaritis. Et, pour ce que le 
+		très puissant et très redoubté duc Charles, desirant accroistre
+		sa renommée par touttes terres et provinces au decorement de 
+		ceste maison très relucente, s'est nouvelement tiré sur les frontières et limites de Germanie et a planté son siège devant la très forte ville de Nuisse, je, Jehan Molinet, loingntain immitateur des 
+		historiographes, me suis avancié par son commandement de rediger et mettre par escript les glorieuses proesses, loables gestes
+		et très nobles fais d'armes qui dorenavant se feront, tant d'ung
+		parti que d'aultre, tant en ceste maison ducale comme à l'environ d'icelle, supliant très humblement à tous orateurs, rethoriciiens et inquisiteurs des chevalereux explois perpetréz par les
+		docteurs et disciples de Mars qu'ilz leur plaise recinder ce qu'il
+		trouveront superfiu, augmenter le defectif et elucider le trop
+		obscur, affin de reduire mon oeuvre à vraye congruité et perfection de lumière, tellement quie je puisse escripre chose qui soit
+		aggreable à Dieu, honorable aux princes et salutaire à mon 
+		ame.</p>
+</div>
+</front>
+<body>
+<pb n="29"/>
+<div type="chapitre" n="1">
+<head>
+
+
+COMMENT CHARLES, LE TRÈS PUISSANT DUC DE BOURGOIGNE,
+ASSIEGA PAR TERRE LA TRÈS FORTE VILLE DE NUISSE.
+</head><p>
+
+
+	Gloire eternele se doibt rendre au souverain roy des rois qui,
+par singulière bonté, repara le humain lignage. Los immortel
+se doit attribuer à Marcus Curcius qui, pour salvation du peuple
+romain, sailly ou très cruel abisme.</p><p>
+	Nom de perpetuele memoire doit demourer au très noble duc
+Godefroy qui se desvesti de son propre heritage pour conquerir
+la sainte terre.</p><p>
+	Et guerdon salutaire doibt obtenir pour retribution le très
+hault et très puissant duc Charles qui, differant de ses propres
+quereles pour l'augmentation du bien publicque et subvenir
+à ses très nobles parens, amis et alyéz, sommièrement au bien
+de paix ecclesiasticque, exposa aux fortunes de guerre son 
+corpz, ses subgetz et sa substance, comme il appert clèrement.</p><p>
+	L'archevesque de Coulongne, qui fut de Bavière, son cousin
+et alyé et frerre au comte Palatin, debouté de sa chayère archiepiscopale et cité metropolitaine, lui remonstra sa doleance
+et comment ceulx du chapitre dudit Colongne voloyent avoir
+
+<pb n="30"/>
+à archevesque Hermant, lansgrave de Heresse, frère à Henry,
+lansgrave de Heresse, auquel favorisoient l'empereur, les archevesques de Mayence et de Trèves, Aubert, marquis de Arnembourg, le duc de Saxe, ledit Henry, lansgrave, Evrard, comte
+de Wertembercque et de Montbliart, aveuc aultres pluseurs
+grans princes et barons ensemble les cités imperiales, villes et
+communaultéz d'Alemaigne.</p><p>
+	Le duc Charles, très clement et piteable, oye la querimonieuse
+complainte de son parent, voyant que, contre droit et raison
+et oultre le gré de nostre saint père qui l'avoit confermé, il
+estoit desappointié de sa dignité que long temps avoit possessé,
+soy confiant en Nostre Seigneur et en Sainte Eglise dont il estoit
+vray champion et protecteur chevalereux, emprist la querelle
+dudit archevesque, son alyé, à l'encontre dudit empereur, ses
+adherens et favorisans et quasy de toute la puissance de Germanie.</p><p>
+	Nuisse, doncques, ville de frontière, terre d'archeveschié,
+refuge des malheureux, orgoeul d'Alemaigne et qui plus se confioit
+en sa force que nulle aultre pour ce que jamais n'avoit esté
+vaincue par siège, soustenoit en son clos la partie adverse dudit
+archevesque, car elle estoit forte à merveilles, tant d'eaue comme
+de muraille, longue de .II. bons trais d'arcq, mais estroite à
+
+<pb n="31"/>
+l'avenant plus à ung lez qu'à l'autre, adossée d'ung lez d'ung
+bras du Rin qui batoit aux murs et d'une aultre rivière qui partoit de la duché de Jullers aveuc une aultre naissant de fontaine dont mouloyent deux molins, laquelle avironnoit l'autre
+partie de laditte ville ; et touttes ensemble se rentroyent ou
+grant Rin courant assez long. Pareillement, estoit Nuysse notablement tourée de pierre de grès, puissamment murée de rice
+frumeté, haulte et espesse et renforcée de fortes brayes, subtillement composée de pierre et de bricque et, en aucuns
+lieux, touttes de terre, tournées à deffenses par mirable artifice pour repeller les assaillans ; entre lesquelles et lesdis murs,
+y avoit certains fosséz assez parfons et, de rechief, estoyent devant
+lesdittes brayes aultres grans fosséz d'extrème profondeur,
+cuvéz les aucuns et plains d'eaue à grant largesse, lesquelz
+amplectoyent la ville et ses fors jusques aux rivières courans.</p><p>
+	Quattre portes principales de pareille sorte ensemble et aucunes posternes et saillyes embellissoient et fortifioyent grandement laditte closture, car chescune d'elles avoit en front son
+bolvart à manière de bastillon, grant, fort et deffensable, garny
+de tous instrumens de guerre et souverainement de trait à
+pouldre à plenté. Dedens Nuisse, entre les aultres edifices, estoit
+une très belle eglise de dames, haulte, eslevée et de grant
+monstre, où reposoit le corpz saint Quirin, leur patron, auquel
+les bourgois et manans avoyent très singulière et fervente devotion, esperans salut en son suffrage et garantise de tous mes
+
+<pb n="32"/>
+chiefz. Et, aveuc leur nouvel archevesque, compediteur au vray
+pasteur, s'estoyent premunis de gens très experimentéz de la
+guerre et avoyent la fleur, le bruit et le chois de la chevalerie
+d'Alemaigne ensemble et les gentilz rustres et fins routiers concoeillis en diverses marches, non pas seullement pour la tuition
+de leur ville, mais aussy pour donner repulse et rompre la pointe
+au duc Charles qui tournoit la bride vers Colongne pour monstrer
+visaige à l'empire.</p><p>
+	De ceste aspre et mal amoureuse compaignie estoit principal et
+conducteur ung très vaillant capitaine, subtil et entreprenant,
+nommé Musebacq, qui, tout engressié de horions et de soustenir sièges endurcis, plus se delitoit en tonnoires de dures bombardes que en chansons de doulces pucelles et plus prenoit
+appetit en cuisses de vielz chevaulx qu'en pastéz de jones
+poullès et desiroit tousjours de soy aherdre et hurter à l'oost
+du duc de Bourgoigne pour taster la pesanteur du faix dont
+tout le monde faisoit sy grant estime.</p><p>
+	Jehan de Herprode et Rembault Keyebisch, hommes de grant
+conduite, astutz et cauteleux, alors bourgmaistres, avoyent
+les regimes et policie de la ville et regard ententif sur le peuple
+qui estoit comme demy gent d'arme, nourry en feu, en fer,
+en sang, en souffre et en salpètre, berchié au cry des armes
+et endormy au son impetueux de serpentines, culeuvrines et hacquebuses dont il estoit sy juste et amesuré que, à deux dois
+de descouvert, il rendoit mortelle attainte.</p><p>
+
+<pb n="33"/>
+	Grant amas de vivres aveuc le annuele provision se faisoit
+dedens Nuisse, laquelle, de sa propre nature, estoit hutineuse,
+arrogante, espineuse et adonnée à la guerre ; et, pour ce qu'elle
+amoit le mestier, elle avoit d'ancyenneté deux molins à chevaulx
+fors et raddes pour soy aydier en pestilence de siège et diversité
+de bastons deffensoires et d'artillerie pour saluer les passans
+et bienvegnier ses voisins, desquelz elle attendoit la très espoentable et soudaine venue. Charles, très auguste duc de Bourgoigne,
+à qui nul hideux effort ne donnoit admiration, sentant l'adversaire capital de son cousin dessusdit envolepé en la force de
+Nuisse soubz les esles de Germanie et de son aigle imperial
+qui le deffendoit au pied et à l'ongle, se delibera, pour ceste cause
+et aultres qui à ce le mouvoyent, d'assieger laditte ville, merveilleusement forte et quasy inexpugnable. Sy ordonna ses batailles,
+fit approchier ses engins et, environ l'yssue du mois de jullet,
+l'an mil. IIIIc .LXXIIII., comme le plus preu des preux et le superexcellent de tous aultres, ficha son estandart et planta puissam
+ment son siège droit au front des Alemans qui le prindrent en
+grant argu ; et, de prime face, à ung trait d'arcq près de Nuisse
+et devant la maistresse porte, saisy une grosse abbaye de chanoines rigléz de l'Ordre de saint Augustin, où il trouva partie
+des religieux habandonnéz des aultres qui s'estoyent retrais
+en la ville. A ceste approche, ceulx de Nuisse ne mirent quelque
+obstacle de deffense ne de saillye, jassoit ce qu'ilz pensoyent bien
+que le duc y prenroit logeis ; car, à ceste cause, trois jours paravant sa venue, l'avoyent volu brusler, et le feu ne s'y volu
+esprendre sy demoura saine et entière, et furent les religieux
+très joyeux d'avoir ung sy bon hoste, car ilz y proffitèrent assez.
+Le comte de Campebasse, noble chevalier neapolitain, très
+
+<pb n="34"/>
+vaillant et experimenté en armes autant que nul de son temps, fut
+envoyé par le duc aveuc pluseurs haulx barons, prudens, ingenieux et de vif penetrant entendement, pour impectorer les
+fors, et ymaginer par quel moyen, à moins de perte et plus de gaigne, le siège porroit prendre pied ferme et fondement durable.
+Et, par l'ordonnance du duc, ledit comte, acompagnié de .IIIIc.
+lances ytaliennes bien en point, à chevaulx bardéz, ensemble et
+leurs enfans de pié, assiegea une porte auprèz d'une chapelle
+de saint Barbe, tirant au long du Rin pour aller en Gheldres
+devant laquelle estoit ung bolvart grant et puissant ; et là
+furent assises .II. grosses bombardes, une bombardele, pluseurs
+courtaulx et serpentines. Devant l'autre porte ensievant
+qui donne chemin pour aller à Nostre-Dame d'Aix, où estoit ung
+merveilleux bolvart, se loga, aveuc .IIc. lances ytaliennes et leurs
+enfans de pié, Jacques Galyot, ung très renommé et prudent
+conducteur de gens d'armes, acompaignié de .IIc. archiers d'Engleterre, et, joindant ce quartier, fut logiét ung noble escuyer
+piemontain, nommé Jacques de Wauperghes, ayant charge de
+chinquante hommes d'armes piemontains, lesquelz estoient de la
+societé dudit comte. A l'endroit de laditte porte, y avoit bombarde et bombardele, sieute de courtaulx et serpentines;
+parfons trenchis et spacieux furent fais devant la muraille affin
+que ceulx d'ung quartier peussent secourre à l'autre. Et, ensieuvant ceste closture, fut logiét sire Bernard de Ravestain, capitaine
+
+<pb n="35"/>
+de .C. lances, de .IIIc. archiers et de .IIIc. pietons, si l'accompaignoit ung chevalier, nommé Broquehuse, lequel avoit assamblé
+environ .IIc. culeuvriniers du pays de Gheldres. Et, en front
+de la porte où se prent le chemin pour aller en la duché de Julers,
+tint son siège sire Bauduin de Lannoy, chief et conducteur honnourable de .IIIc. lances ordinaires, de .IIIc. archiers et de .IIIc.
+hommes de pié ; et contenoit son entrepresure du logeis dudit
+sire Bernard jusques au chemin de laditte porte. Et Lancelot
+de Berlaymont, noble escuyer du pays de Haynau, ayant charge
+de .L. lances et de .IIc. archiers, parclooit le demourant jusques
+au logis du duc, parmi le bailli de Brabant Rommant et d'ung
+escuyer, nommé Marbais, qui ensemble lui furent bailliéz pour
+renfort ; et avoyent .IIIIc. pietons, picquenaires, culeuvriniers
+et arbalestriers du pays de Brabant, de Namur et de Liège,
+lesquelz, à ung petit pont de pierre, coppèrent une rivière, où
+ilz trouvèrent largesse de poissons, et là tournèrent vers le bois.
+Consequamment, devant une grosse porte à fachon de chasteau
+qui directement tire vers Coloigne, furent logiéz ung très chevalereux et expert conducteur, messire Philippe de Poitiers, seigneur de la Freté, et messire Ferri de Clisance, seigneur de Beauvoir ; et avoit chescun d'eulx .C. lances des ordonnances et IIIc.
+archiers, et estoyent leurs hommes d'armes de Bourgoigne et
+leurs archiers de Picquardie et de Haynau. Là fut assise une grosse
+bombarde ensemble pluseurs sieutes de courtaulz et de serpentines et s'estendoit ce quartier jusques à la rivière dessusditte,
+venant de la ducé de Julers, passant devant l'abbaye, emprès
+laquelle le duc fit lever sa maison portative et tendre ès jardins
+à l'environ ses pavillons très ricement armoyéz de ses armes,
+où il se loga de sa personne et ceulx de son hostel, lesquelz contiennent grant nombre de nobles gens, se logèrent entre le grant
+chemin et la rivière.</p><p>
+
+<pb n="36"/>
+	Il y a coustumièrement, en la maison et famille du duc de Bourgoigne, .XL. chevaliers tousjours comptéz et .XL. hommes d'armes
+conduis par quattre nobles chevaliers, sans aultres chevaliers en
+grant quantité, comptéz par termes d'anchien ordinaire, et .XX.
+escuyers de chambre. II y aussy .L. panetiers, .L. essansons, .L.
+escuyers trenchans, .L. escuyers d'escuyerie et chescun d'eulx 
+a son coustillier ; et sont conduis par quattre chiefz d'escadres.
+Et puis y .L. archiers de corps et deux chevaliers, leurs conducteurs. D'aultre part, fut logie son artillerie et sa garde, laquelle
+contient .VIxx. et .X. hommes d'armes et autant de coustilliers
+arméz et .VIxx. et X archiers qui tous ensemble sont conduis
+par ung chevalier très preu et excercité en armes et par quattre
+escuyers chief d'escadres.</p><p>
+	Pareillement furent logiéz ou quartier du duc princes, barons
+et honorables seigneurs, ses pensionnaires qui lors l'accompaignèrent à grant multitude de serviteurs et asscavoir: Jehan,
+monseigneur, aisné filz du duc de Clèves, le comte de Marle,
+chevalier de la Thoison, le comte de Meghe, chevalier de la Thoison, messire Jacques de Luxembourg, chevalier de la Thoison,
+le comte de Chimay, chevalier de la Thoison, le comte de Joingny, le filz du comte de Rotelin, le nepveu du duc de Gheldres,
+le comte d'Araine, Escochois, et messire Jehan Mileton, chevalier de l'hostel du roy d'Engleterre, dont partie d'iceulx et
+aultrez qui survinrent se logèrent ou dortoir des moysnes,
+lesquelz firent places aux religieux de Mars qui sont d'aultre
+proffesion. Car, par l'abus du monde et mutation de fortune de
+guerre, les chambres de devotion furent changies en derision ; là
+où l'en soloit estudier enseignemens beaulx et notables, on tenoit
+escole de jeux de déz et de tables ; où les repentans plouroyent
+grosses larmes, les hardis combatans crioyent à l'assault et aux
+armes ; là où l'en soloit pendre aumuces et chappes blanches,
+pendoyent salades et blans harnas et fers de lances et ceulx qui
+se levoyent au son de la cloche du moustier furent resveilliéz au
+son de la bombarde et du mortier.</p><p>
+	Ainsy fut la ville de Nuysse puissamment assiegie par terre
+
+<pb n="37"/>
+et fut le siège clos de trenchis, les engins assis et les approches
+faittes bien et chevalereusement, ausqueles il y eubt perte d'Italyens et d'aultres mors et navréz du trait à pouldre qui estoit
+durement aspre et continu.
+
+
+
+
+
+
+</p></div><div type="chapitre" n="2"><head>
+
+
+COMMENT, PAR PROUESCE CHEVALEREUSE, LES YSLES DEVANT
+NUYSSE FURENT CONCQUISES ET FUT DU TOUT ASSIEGIÉE PAR
+TERRE ET PAR EAUE.
+</head><p>
+
+	Pour ce que la grande rivière du Rin couroit assez loing de
+Nuisse et que ung membre d'icelle se presentoit devant la muraille aveuc aultres ruisseaux et fontaines qui ensemble se rentroyent ou grant cours, il y avoit une ysle environ d'une lieue
+franchoise en rondeur qui fortiffioit la ville merveilleusement.
+Et, pour ce que dudit membre decouroit une vaine qui tantost
+se reintegroit aveuc le tout, une aultre ysle s'engendroit non pas
+sy plentiveuse que l'autre d'ung tiers.</p><p>
+	En ces ysles avironnées de fleuves courans gisoit l'espoir
+total des assiegéz, la rachine de leur corne orgueilleuse, la potence
+de leur bras furieux et le baston de leur fière manace ; car, en
+XIII. sièges qu'ilz avoyent soustenus anciennement, prince nul,
+tant fusist doé d'extrème hardiesse, ne se ingera d'en taster
+le fons. Meismes, comme ilz disoyent, Charles le Grant n'y
+sceut mettre le pied, mais son mendre, non pas en qualité de
+meurs, de proesce ne de glorieuse emprise mais en qualité de
+corps et de puissance seulement, l'oza bien attemter et envayr
+et, par subtillité et vaillance chevalereuse, le concquist glorieusement, non pas sans meschief ne dommage. Dedens ces ysles
+et en aucuns trenchis fais au long de la rivière, se tenoyent des
+rustes de Nuisse et certains culeuvriniers qui portoyent grant
+prejudice à l'oost, souverainement à ceulx qui puisoyent l'eaue
+
+<pb n="38"/>
+et qui abeuvroyent leurs chevaulx. Pour quoy, le comte de
+Campebasse, logiét assez près, fit amener ung bacquet sur
+ung chariot et noer ung homme oultre le bras du Rin et arriver
+en la grande ysle. Et, quand vint le point du jour, d'une corde
+qu'il avoit, tira oultre pluseurs bacquetées d'Italyens et de Picquars, arbalestriers et culeuvriniers et lesdis rustres, qui ce
+regardoyent, plus par faintise que par paour, comme ilz monstrèrent depuis, se retrayrent en la ville.</p><p>
+	Quant les dessusdis Ytaliens et Piequars furent passéz au
+bacq environ .VIxx., la corde rompy par mescheance, qui parpas
+soit le demourant et la guarnison de Nuisse ; environ .III. hommes
+bien en point, tous preaviséz de leur fait, saillirent sur eulx
+et les envayrent de grant corage ; et les aultres, veans que nul
+secours ne pooyent avoir et ne scavoyent quelque lieu de refuge,
+se deffendirent merveilleusement et, de sy pou de gens que ilz
+avoyent, soustinrent le faix à force de bras. Là tirèrent et
+chargèrent par grant radeur et fut la meslée très aspre et mortele.
+Finablement, Ytaliiens et Picquars furent enangléz en ung destroit de l'isle où ilz furent merveilleusement rompus et desconfis. Les ungs, pour eulx sauver, sailloyent ou Rin où ilz se noyoient et les aultrez en eschappoyent. Les rustres en rappellèrent
+aucuns et leur promirent sceureté de vie et iceulx, parvenus à
+port, esperans trouver fidelité en Alemans, churent en la face
+de leurs glaves sy furent detrenchiéz et occis piteusement.</p><p>
+	A ceste oultrageuse occision, ung grant morienne, nommé Cristofle, très vaillant homme d'armes de la societé des Ytaliens,
+fut ce jour pluseurs fois abatu sur le champ et tousjours se remettoit sus piedz et reversoit par terre tout ce qu'il pooit attaindre.
+Il fut pris par les sattrappes qui le menèrent en la ville, où chescun le regardoit tant pour la crudelité du personage comme
+pour l'admiration de ses oeuvres, sy disoyent entre eulx que
+c'estoit l'ennemy d'enfer et, de fait, le volrent assommer. Et,
+combien qu'il fut navré, se deffendi puissamment et fut bouté
+prisonnier en la tour du molin à vent sur les murs. Puis trouva
+fachon, par mines que lui et aultres firent, que il wyda, lui
+
+<pb n="39"/>
+.XIe., et, en saillant oultre les fosséz, il lui souvint que l'ung de
+ses compaignons estoit demouré derrière, si retourna franchement
+et le ramena sain et sauf comme les aultres : de quoy ceulx de
+Nuisse furent grandement esbahis. Le comte de Campebasse,
+frustré de son ymagination, voyant la doloreuse perte des siens
+et que les ysles lui estoyent plus loing que en aultre, quasy
+inagressibles et hors de son commandement, conchupt grant
+anoy en son coeur. Mais le duc, à qui n'estoit riens impossible,
+y laboura d'une aultre taille et, par main armée trop plus roide
+et seigneureuse, il fit preparer certains navires èsquelz il fit entrer
+trois notables conducteurs des ordonnances, chescun de .C.
+lances et de .IIIc. archiers . L'ung fut sire Josse de Lalaing,
+souverain de Flandres, en qui proesce flourissoit haultement et
+honnouroit la chevalereuse maison dont il avoit pris sa naissance. Le second fut Loys, vyconte de Soissons, homme très
+noble et vertueux corage, et le tiers fut ung très vaillant chief
+de guerre, sire Jacques de Rebreuves, seigneur de Montforet.
+Ces trois menèrent .Vc. pietons desdittes ordonnances, desquelz
+estoyent capitaines Rousetart, Pierre Perilleux et aultres. De
+hault volloir, par grant hardiesse et en très bel arroy, passèrent ung bras du Rin, en spectaele de leurs ennemis et à la
+pointe de l'espée. Comme jadis Brutus et Corineus concquirent
+l'isle d'Albion sur les geans, ilz gaignèrent l'isle de Nuisse sur
+les Alemans et n'y eubt sy hardy qui s'ozast monstrer en barbe
+pour donner resistence à leur très fier et redoubté effort, synon
+de trait à pouldre assez hideux et aspre.</p><p>
+	Ainsy se logèrent ces .III. valereux champions et touttes leurs
+sequeles, c'est asscavoir: ledit sire Josse et le vicomte en la grande
+ysle et ledit sire Jacques en la petitte ysle. Là fut fait ung grant
+trenchis ; l'en y assist une grosse bombarde, une bombardele,
+pluseurs courtaulx, serpentines et aultre grosse artillerie, laquelle
+adommagoit très fort la ville, car elle tiroit au long des murs et
+brisoit les archures de la porte sus la rivière, dessoubz lesquelles
+se tenoyent secrètement les assiegéz qui, voyant ce perilleux fouldre, se sauvèrent en leur fort par moynnetz et certains pertruis
+perciéz en la muraille et eslevèrent haultes terrées pour contre
+<pb n="40"/>
+garde. Entre les ysles et ladicte abbaye, avoit ung grant parcq
+à manière de pastis et, assez près d'une fournaise, prindrent
+logeis cent lances et .XVIC. archiers d'Engleterre, desquelz estoit
+capitaine sire Jean Mileton dessusdit.</p><p>
+	Et, affin que l'ung siège peust secourir à l'autre, le duc fit faire
+deux merveilleux pons de tonneaux et de aisselles, dont l'ung traversoit le bras du Rin pour aller vers son quartier, où passoyent
+chariotz, gens et chevaulx, auquel il ordonna .IIIc. pietons qui
+gardoyent là jour et nuit ; et l'autre traversoit ledit bras pour
+aller des ysles au quartier des Ytaliens ; et fit venir de ses pays
+de Gheldres et de Hollande environ .L. navires que conduisoit
+Martin Fonce sur la grande rivière du Rin, adfin d'en obtenir
+la maistrise et possesse. Ainsy fut Nuisse assiegie par terre et
+par eaue, de sy près close et serrée que ame n'y pooit avoir
+entrée ne yssue, synon à grant peril et dangereux encombre.
+
+
+
+
+</p></div><div type="chapitre" n="3"><head>
+
+
+COMMENT LE DUC DE BOURGOIGNE, PAR SUBTILITÉ ET LABEUR,
+TOLLY LE RIN A CEULX DE NUYSSE ET AULTRES RIVIÈRES
+COURANS DEVANT LA MURAILLE DE LA VILLE.
+</head><p>
+
+
+	Germaniens, sachans par leurs explorateurs que Nuisse estoit
+assiegée de tous poins et que les ysles estoyent gaignies par forte
+main chevalereuse, paour et crainte les assaillirent. Coloigne
+fremist, Mayence s'esmaye, Trèves tramble, Saxonne s'esmoeut,
+courant aux armes, et n'y mendre tumulte en Alemaigne que
+il y avoit en Romme quant Hanibal avoit passé les Alpes. Grant
+subside et provision de tous biens donnoit cotidianement Coloigne
+à Nuisse, comme sa domesticque nourrice, par le Rhin où elle
+tiroit sa mamelle, car tous vivres lui affluoyent par grans bateaulx devant sa face. Mais ce criminel restraintif, cest interpos
+et obstacle de pons nouveaux, aveuc les gardes pugilaires qui y
+prestoyent astut escout, l'eslongèrent de sa nutrition maternelle
+et n'y povoit donner approche. Ainsy, la fille familleuse aspiroit
+
+<pb n="41"/>
+aprèz sa mère, comme orphenine et espanie de tout delicieux
+mengier. Coloniens, toutevoyes, recoeillèrent leurs esperis et,
+par ung soutil temptament, assayèrent leurs forces. Pensans
+extirper cest inconvenient prejudicial, prindrent ung viel vaisseau grant et large, placquié de terre par dedens, remply de fagos,
+de poye et d'uyle et, en temps nocturnal que le soleil et la lune
+ont rapellé leurs raix de la terre, le conduirent tacitement dessoubz l'ung desdis ponts fait de tonneaulx, sur intention de le
+bruler totalement ; et grans flottes de navires garnies de tous
+biens necessaires sievoit de long pour entrer en la ville ; mais
+les guettes du duc, plus clervoyans que Argus qui avoit cent
+yeulx, perchurent celle folle emprinse sy ne sorty nul effect
+et les facteurs retournèrent amont le Rin, tous attediéz de leur
+faulte. Dont, pour obvier à telles ou semblables cautelles et affin
+que nul secours ne venist à ceulx de Nuisse par ung bras du Rin
+qui defluoit devant leur ville, où ilz concervoyent leur salubre
+esperance, le duc Charles, non jamais fatiguié de mediter
+glorieuse oeuvre pour le mener à fin loable, proposa coper ledit
+bras et l'estanchier par dicquages et donna charge à Jehan de
+Boustue de conduire ceste besoigne.</p><p>
+	Vieulx bateaulx, estaches, cloyes, fiens, paille et aultres
+materiaulx furent preparéz à grant plenté pour commencier
+et furent aucunes compaignies de l'oost ordonnées pour le demener à execution. Ung jour, labouroyent pyonniers et vivendiers,
+ung aultre, gentilzhommes et pages et ung aultre, lavendières,
+gouges et aultres femmes sieuvant la court ; jour aprèz l'autre,
+chescun s'employoit selon sa vocation et possibilité.</p><p>
+	Ce temps pendant, ceulx de Coloigne s'amonstrèrent delà le
+Rin, à grant armée qui de gros engins à pouldre revidoyent
+ceulx qui continuelement s'enforchoyent de besongnier. Ceulx
+de Nuisse pareillement ne se faindoyent pas ; mais le duc, qui là
+estoit en personne, fit drecier sus bout les fus des grosses pippes
+de Rin, plaines de terre, par quoy lesdis ouvriers furent preservéz
+de tous perilz. La dicque se commencha de bihays à l'emboucquement
+<pb n="42"/>
+ du Rin ; et avoit la rivière en ce lieu environ .VIIIc.
+piedz de long et estoit tant rade, impetueuse et de telle profondité que une lance n'y povoit tenir fons. Laditte dicque avoit
+de .XXX. piedz de large et fut paracomplie au jour que les femmes,
+environ de .XVI. à .XVIIIc ., y labouroyent, dont la gloire s'en
+debvoit attribuer au sexe femenin. Et, certes, ce fut une somptueuse emprise et de haulte efficace et de qui le comte sera de
+dure creance en temps futur.</p><p>
+	Chose trop plus admirable et de pareille sorte, laquelle fut
+de rechief perpetrée par puissance ducale: une aultre grande
+rivière venant de la duché de Jullers, passant devant l'abbaye,
+comme dit est, fut estanchie par les souspiraulz et archures
+d'ung pont et fut tournée contremont ; et est son cours sy rade
+et parfond que il semble estre nayf et de perpetuité et, de fait,
+a rompu dicques et rives haultes et extrèmes, tellement que gros
+navires y passent quant besoing est, et chiet en la grande rivière
+du Rin, bien arrière de Nuisse où l'en passe quasy à piedz secz son
+primerain cours. Pareillement, oultre la porte de la rivière où
+le bras du Rin, membres et vaines de fleuves se rencorporoyent
+en leur tout, fut faicte une dicque forte et puissante pour prohiber entrée aux navires querans port devant Nuysse.
+
+
+
+
+</p></div><div type="chapitre" n="4"><head>
+COMMENT LE DUC CHARLES FIT DONNER L'ASSAULT AU GRANT
+BOLVART DE LA VILLE DE NUYSSE.
+</head><p>
+
+
+	Nuysse assiegie à tous lez, les rivières retrenchies et tout
+espoir de secours exteriore adnichilé, debvoit concepvoir grant
+paour et hyde ; mais, comme toute asseurée et endurcie en son
+malaise, se baingnoit en appetit de nouvel hutin et monstra
+tousjours face rubiconde, ayreuse et furibonde ne, pour grant
+appareil de criminel assault ne pour perdition de membres deffensoires ne pour austerité de mortele famine, ne volt mitiguer
+son corage ne sa couleur appalir. Se proesce chevalereuse trouva
+
+<pb n="43"/>
+oncques residence en ville sur terre, elle avoit en Nuysse glorieuse habitation ; nulle plus stilée aux armes, nulle plus aspre
+aux escarmuces, nulle plus fière en sumptueux emprendre et,
+s'elle se metoit en jeu, elle avoit bien qui lui monstroit barbe. </p><p>
+	Le duc Charles, filz de Mars, alors et du tout adonné à la guerre,
+estoit très joyeux d'avoir trouvé son passe tempz, plus pour
+excerciter son ost en durté yvernale et en la querele de son alyé
+que pour ambition de propre gloire. Sy queroit pluseurs moyens
+pour parvenir à ses fins et, par l'advis du comte de Campebasse,
+il fit faire de grans chesnes ung gros bastillon à demy rond,
+environ de XXX. piedz de hault, où il y avoit certains estages
+pour descouvrir sus ses ennemis et le fit dreschier ou quartier
+des Ytaliiens, à XXV. piedz prèz du grant bolvart de la ville,
+et le garny de culeuvriniers et arbalestriers qui tiroyent incessament. Et, pour donner l'assault audit bolvart, il commanda
+que chescun conducteur de son armée lui envoyast certaine quantité de gens et comparussent audit quartier à deux heures aprèz
+disner.</p><p>
+	Lors, diverses cohortes et compaignies de diverses cavesnes
+et domiciles, à tout divers guidons et enseignes, s'amonstrèrent
+sur les rengz et, par voyes subternées, concavées, parfondes
+et trenchis artificielz, approchèrent le bastillon dudit comte
+où se faisoit l'assamblée.</p><p>
+	Et, comme les geans acumulèrent jadis grandes montaignes
+les unes sur les aultres pour envayr les dieux du ciel, les assaillans assembloient eschielles, pavais et grant nombre de instrumens propres ad ce, pour parachever leur emprise. Le duc,
+pour animer et rafreschir les compaignons, habandonna deux
+queues de vin que il fit effondrer, puis fit donner l'assault qui
+dura deux grosses heures.</p><p>
+	Les gens du comte de Campebasse, desquelz ung prudent
+homme d'armes, nommé Barnabo, portoit son ensaigne, assaillirent premiers, les Englès ensieuvant et les aultres, hardis
+champions, chescun selon son degré et vocation, monstrèrent
+leur proesce et vaillance. L'assault fut aspre et merveilleux,
+mais pou y proffitèrent les assaillans ; leurs eschieles furent trop
+courtes de .X. piedz et ceulx de la ville se deffendoyent poissam
+<pb n="44"/>
+ment, qui jectoyent sur eulx huyle boulant, eaue chaulde et
+fagos aluméz et en occirent et navrèrent grante plenté de trait
+à pouldre, par ce que leurs canonnières estoyent de touttes
+haulteurs, jusques à demie aune près de terre.</p><p>
+	Ainsy, par figure poeticque, trouvèrent les geans dessudis
+Jupiter qui les fulmina et embrasa d'esclistre et de tonnoirre.</p><p>
+	Quand ceulx de la ville qui gardoyent la muraille oyrent
+l'effroy et congneurent que l'assault estoit donné au grant bolvart, ilz tirèrent leur force celle part comme pour renfort ; et
+ceulx du siège tiroyent sur eulx serpentines, courtaux et aultres
+manières d'engins, entre lesquelz une grosse bombarde, affustée en l'isle, faisoit tant bon debvoir qu'elle fit voler en l'air,
+comme on perchevoit clèrement, les testes, bras, mains et aultres
+membres des deffendans, autant qu'elle en povoit attaindre,
+qui estoit horrible chose à veoir. Et y demourèrent mors environ
+.IIIC. ou plus et autant des assaillans, entre lesquelz y fut occis
+le comte Oursele, Ytalien, très noble et bien recommandé en
+armes, ung très vaillant capitaine des Englois, Jacques d'Averonne et pluseurs aultres dont les noms me sont incongneus.
+
+
+
+</p></div><div type="chapitre" n="5"><head>
+
+COMMENT AUCUNS ENGINS FURENT FAIS SUR INTENTION DE
+COMBATRE CEULX DE NUYSSE MAIN A MAIN.
+</head><p>
+
+
+	Vegèce et aultres venerables acteurs très recommandéz et
+auctorisiéz en art militant, traittans de proesee chevalereuse
+mettent avant aucuns engins, machines et instrumens comme
+tours de bois, vignes, sambucques, bricoles, espringalles, martinès, moutons, leups, chatz, truyes et grues, desquelz on usoit
+ancyennement pour rompre et abattre murailles, pour envayr
+ses ennemis et les combatre main à main. Dont, en ensievant
+la mode ancyenne, la doctrine des docteurs, le vrai patron et
+vif exemplaire desdis instrumens, ung noble chevalier espaignart
+
+<pb n="45"/>
+du royaume de Castille, lequel on extimoit estre de très subtille
+et clère invention, s'approcha du duc et lui monstra en ung
+papier la figure et samblance d'ung grant engin hault et eslevé,
+appellé une grue, lequel il voloit composer en intention de le
+roler jusques aux murs, de parler à ceulx de Nuysse barbe à
+barbe et de les accoler du trenchant de leurs espées. L'exemplaire ensemble et le maistre, tout garny de belles parolles,
+compleurent au duc ; lequel, incontinent, commanda que touttes
+matères necessaires et tous ouvriers mecanicques très expers et
+ingenieux lui fussent bailliéz à sa plaisance pour achever ceste
+besoigne. Long tempz labourèrent à parfaire cest engin, lequel
+finablement fut dreschiét ou quartier des Ytaliens sur quattre
+roes. Il estoit de .XX. piez de long et de .XX. piez de large et
+povoit on logier .IIIc. hommes dedens. Il y avoit une eschiele
+à demy droite de .LX. piez de hault, laquelle s'avaloit comme ung
+pont leviz et estoit ordonnée pour monter sus la muraille Force
+de gens entrèrent ens qui la boutèrent avant et l'approcèrent
+de la ville environ demy trait d'arcq, mais sy grant habondance
+d'eaue survint qu'il ne sorty nul effect. Pareillement fut fait ou
+quartier Jacques Galiot, par les charpentiers de l'ost, ung aultre
+engin, à manière d'ung chastel de bois, qui portoit sus .XXIIII.
+roes et l'appelloyent ung chat ; mais, quant on le cuida conduire
+pour mettre à execution finale, l'ung desdis roets rompy et
+fut de nulle valeur. Ainsy, ne la grue ne le chat, qui furent fais
+par grans et sumptueux despens, ne portèrent quelque grief
+aux adversaires, ains leur donnèrent, pour la faulte, matère
+de grandes risées.</p><p>
+	Depuis le temps que le feu, le plus actif des quattre elemens,
+s'est adjoint aveuc le souffre pour repugner au salpestre,
+son contraire incompatible, et que le très horrible esclistre et espoentable tonnoire artificiel sont ordonnéz pour estre sacrefice ou temple
+de Mars, encensé de pouldre de canon, telz engins et samblables
+beffrois de bois, aptez et susceptibles de combustion vehemente,
+sont hors de usage maintenant, par subtillité de artillerye qui se
+multiplie chescun jour.</p><p>
+	Que proffitèrent les quattres chats assis en quattre bateaulx
+au siège de Aguillon ? llz furent brusléz de quattre martinès
+
+<pb n="46"/>
+qui reversèrent les conducteurs en l'eaue. Ung aultre chat
+pareillement, devant Breteul, fut embrasé de feu gregois.
+
+
+
+
+</p></div><div type="chapitre" n="6"><head>
+
+COMMENT CEULX DE NUISSE FIRENT PLUSEURS SAILLIES ET
+EMPRISES SUR L'ARMÉE DU DUC DE BOURGOIGNE.
+</head><p>
+
+
+Il loist à le fois en armes autant user de prudence que de
+prouesce. Plus concquirent les Romains de provinces par engin
+que par espée ; autant proffita aux Gregois, devant Troye, la
+langue Ulixes que la lance Achiles. Sens et advis coronnent
+souvent les champions qui estudient le livre d'experience,
+les falaces et subtilitéz de la guerre.</p><p>
+	Quant ceulx de Nuisse eurent soustenu le très aspre et rigoureux assault qui leur fut donné au bolvart, comme dit est, ilz
+le fortiffièrent puissamment de grans et parfons fosséz, sy que
+nul eschielis, approche ne touche manuele n'y pooyent attaindre.</p><p>
+	Le comte de Campebasse, d'aultre costé, appercevant ceste
+fortification deffensive, ne tint pas les pyonniers en huyseuse,
+mais pourvey à nouvelle emprise invasive et fit faire grandes
+rives, hurées couvertes et merveilleuses mines, donnans approches
+ausdis fosséz et pour obtenir par labeur et art ce qu'on ne povoit
+acquerre par vaillance et à force de bras. Ces mines, grandes et
+parfondes et de chier coust, furent revelées à ceulx de la ville
+par ung Liegois fuitif qui subtillement y entra. Sy contreminèrent à l'encontre et donnèrent remède à leur soudain meschief apparant ; et ainsy se causoyent, par dedens terre, de durs
+et horribles rencontres d'une partie et d'aultre, où se perissoyent
+fors et puissans hommes, dont c'estoit pité et dommage. Nonobstant ce, le comte fit faire encoire deux bastillons, en approchant
+ses ennemis de plus en plus. Ce temps pendant, ung chief de
+guerre de la ville s'amonstra aux deffenses et dit en alemant
+
+<pb n="47"/>
+que il voloit parlementer au capitaine des Ytaliiens. Barnabo,
+lieutenant du comte, qui estoit assez prèz, lui respondi que il
+ne povoit parler à lui sans transgresser le commandement du
+duc, mais, esperant que ce fust pour quelque grant bien pacificque ou salubre appointement, il lui promist que il yroit
+vers son prince et lui scaroit adire son bon plaisir. Lendemain,
+à .IX. heures en la nuit, Barnabo, non voeullant estre fracteur
+de l'edict du souverain, notifia verbalement la requeste du chevalier de Nuisse au duc ; et le duc y delegua certains barons
+et haulx seigneurs très expers du langaige ensemble et le comte
+de Campebasse, lesquelz, parvenus au lieu et à l'heure assignée,
+trouvèrent ledit chevalier qui, de prime face, leur pria très instamment de dilation jusques à lendemain à une heure aprèz
+disner, certiffiant que la matère estoit de grant poix et que, pour
+le bien discerner et meurement contourner à efficace, le conseil
+de la ville en estoit lors bien empeschié.</p><p>
+	Le delay accepté, asseurances furent promises et furent
+trèves accordées pour le jour sequent durer une heure, lors que
+le parlement se devoit faire. Ceste heure estoit fort desirée de
+pluseurs compaignons volages, trop fatiguiéz de porter armes,
+attedyéz de longue cession, qui proposoyent en fin de parlement avoir soudain departement L'heure venue, abstinence de
+trait, d'assault, de saillye, d'envaye et de voye de fait tinrent
+serré ung petit. Les deputéz commencèrent à entrer en devises
+auprès du grant bolvart ; mais, à cop, ceulx de la ville, secrètement, par quelque pertruis, wydèrent hors en très grant nombre
+et grosse puissance et, comme gent barbare, tygres animéz
+ou loups famis querans leurs proyes, sans observer paction,
+asseurance ne compromis, chargèrent sur leurs adversaires, qui
+de riens ne s'en doubtoyent sy les abatoyent à tous leez, pilloyent, roboyent et embrasoyent pluseurs logis de l'armée. Le
+comte meismes fut saisy de main mise et soudainement rescoux
+par .II. de ses gens, dont l'ung fut pris et l'autre occis sur la
+place. Le cry impetueux s'esleva parmy l'oost et le feu très horrible, qui tout consommoit, portoit tesmoingnage de ceste criminele emprise. Adonc, chescun mit main aux armes, Bourguegnons, Englès, Brabanchons, Flamens, Picquars, Haynuyers,
+
+<pb n="48"/>
+Lombars, Namurois et Lyegois ; lesquelz, en très noble arroy,
+fors et fiers comme petis lyons, donnèrent repugnance à ceste
+severité et, par grant corage et hardement, reboutèrent leurs ennemis dedens la ville, qui emmenoyent serpentines et gros engins.
+Et lors, une grosse bombarde chargye et affustée contre eulx,
+sentant la chaleur des prochains logeis qui bruloyent, s'eschauffa
+tellement que, seule et sans ayde de quelque ame, tira à l'aventure et fit ung grant abatis sur les assiegéz, donnant hideux
+espoantement à leurs complices, qui furent tous joyeux de rentrer
+en leur fort. Le noble duc, oyant ce terrible effroy, y arriva incontinent et congnut le barat precogité de ceulx de Nuisse
+qui, soubz umbre de parlement et en l'attente de concorde,
+esmeurent cauteleusement discention, guerre et discorde. Le
+dommage fut piteux et lamentable, car pluseurs vaillans hommes,
+par inadvertence de leur pernicieuse et proterve ferocité, furent
+souspris et y perdirent la vie ; entre lesquelz, y demoura ung
+noble Ytalien, nommé Roisinsacq.</p><p>
+	Ceste oultrageuse et terrificque crudelité desplut grandement
+au duc, qui fit deffendre sur la hart que nul ne donnast escout
+à leurs parolles, mais les reputast comme desleaux et maculéz
+de trayson. Pluseurs saillies, devant et aprèz ceste hydeuse impieté, faisoyent en divers lieux et quartiers ceulx de dedens sur
+ceulx de dehors, très souvent et le plus à leur avantage.</p><p>
+	Long temps se continuèrent ces chevalereuses escarmuces
+où haulx et glorieux fais d'armes se perpetroyent d'une part
+et d'aultre ; mais oncques homme de l'oost ne sceut ymaginer
+de prendre en vie quelque ung de la ville. Le duc, très desirant
+de scavoir de leur estat et conduite, fit denoncier avant l'armée
+que quiconcques poroit prendre prisonnier, ce jour partant, de
+Nuysse, il lui donroit rice guerdon. Ne demoura guaires que ilz
+wydèrent à grant effort, selon leur mode accoustumée, et saillirent en l'artillerye, où ilz ravirent ung gros engin à pouldre
+que ilz emmenoyent sur ung chariot. Adoncques, chescun se mit
+en paine d'acomplir le bon volloir de son prince sy que les Namurois rescouyrent ledit engin et, entre les autres, prindrent ung
+très bel et gracieux escuyer, gent entre mile, que l'on disoit
+estre filz du burgmaistre ; et fut livré au prevost des mares
+<pb n="49"/>
+cheaulx pour diligentement l'examiner, mais il eschapa de ses
+mains et ne scet on quand ne comment.</p><p>
+	Ung jour sequent, ung grant vent et horrible tempeste se esleva,
+durant lequel ung fèvre de l'oost s'avancha de ruer aucunes fusées
+dedens la ville, qui tantost alumèrent pluseurs maisons et granges
+garnyes de fourrages. Lors s'effroyèrent oultre mesure les femmes,
+les enfans petis et gens de mulièbre corage, faisans angoisseux
+cris, piteux regrès et querimonieuses lamentations, comme ceulx
+qui cuidoyent estre cruciéz par combustion et livréz à leur derrenier supplice.</p><p>
+	Le feu, toutesvoyes, par gens non effeminéz, mais de viril
+et asseuré corage, fut rescoux à grant diligence et encoire n'estoit il pas parestaint quand eulx meismes boutèrent le feu au
+plus bel du quartier des Ytaliens et brulèrent, à moins d'une
+heure, plus de .Vc. logeis ; chevaulx, harnas, bastons, armures,
+vivres, provisions et utensiles de guerre furent commuées en
+cendre.</p><p>
+	Adonc, ung très grant alarme s'espandi par les carrefours,
+qui esmut toutte l'excercite ; chescun se tira à son guet ; Lombars habandonnèrent domiciles, logeis et biens au feu, qui
+faisoit grant devoir. Les trenchis furent gardéz, l'artillerie fut
+preservée, nouveaux logeis furent refais et les approches tant
+voisines que l'on povoit jetter une pomme tout à l'ayse dedens
+la ville.
+
+
+
+
+</p></div><div type="chapitre" n="7"><head>
+
+DU NOTABLE REGiME QUE LE DUC INSTITUA
+ SUR LES FOURRAGEURS DE SON OOST.
+</head><p>
+
+
+	Environ le mois de novembre, temps de fertilité, de plenitude
+et de opulence, ouquel dame Cerès a fait produire à la terre la
+saturité de son germe et remplir les granges de uberté, feconde
+en affluence de biens l'annuele provision ès marches circonjacentes, l'ost du duc se diminuoit grandement par multitude de
+
+<pb n="50"/>
+gens d'armes, telement que fourrages commencèrent à deffaillir.
+Dont, pluseurs compaignons aventureux, voyans ceste indigence,
+s'espardoyent en divers lieux pour fourragier ; lesquelz, durement
+rencontréz de paysans rebelles, par subtilz aguetz et cauteleuses
+embuches, estoyent souvent occis et piteusement mutiléz. Le
+duc, voyant pululer l'infection de ceste pestilence, desirant preserver en sanité corporele les menus membres de son excercite,
+ordonna .II. puissans bras sagitaires, aornéz de prouesce, fortifiéz
+de mains armées, pour envayr les invadeurs et rebouter les deboutans ; l'ung de ces .II. bras vigoureux, souverain, fut messire
+Olivier de la Marche, très preu et hardy chevalier de la nation
+de Bourgoigne, homme de petitte estature, mais de très grant
+prudence, cler en vertu, rice de eloquence et de vif penetrant
+entendement, conducteur superiore de la garde ; et l'autre fut
+Jacques Galiot dessus nommé. Eulx, acompaigniéz chescun de
+cent lances, furent ordonnéz, par la bouche ducale, gardiiens
+et protecteurs des fourragiers, ausquelz proesse administroit le
+hardement de pourchassier leur adventure ; et iceulx très honnorablement s'en acquittèrent.</p><p>
+	Ung jour advint que ilz se trouvèrent ensemble .IIII. de
+touttes sortes et, par valereuse monition qui les incita, deliberèrent aller jusques auprès de Coloigne, la cité, sy vinrent à chief
+de leur intention et, là, se chargèrent de tous fourrages à grande
+habondance. Ceulx de Coloigne, grans de corps et de corages,
+voyans leurs adversaires fourrer et fouler leurs mansions prochaines, comme ceulx qui riens ne les amiroyent, conchurent
+grant orgoeul en leur ventre, dont ilz furent fort enfléz ; car, par
+felonnye qui les attisa, wydèrent de leur cité aveuc grant nombre
+de rustres, environ de .VI. à .VII. , en très belle ordonnance,
+cuidans rescourre leurs proyes et chargier sur lesdis fourrageurs.
+Là, se trouvèrent barbe à barbe, les ungs contre les aultres. Messire Olivier de la Marche, tout embrasé de prouesce chevalereuse, voyant object victorieux irradier devant sa face, volloit
+assaillir les saillans et rembarer les accourans, mais Jacques
+Galiot lui brisa le hault voloir de son emprise, disant que mieulx
+valoit garder lesdis fourragiers par le commandement du duc
+que de les mettre en aventure par ung hazart de bataille. En ce
+propos se fermèrent ensemble et, en la plus notable conduite
+
+<pb n="51"/>
+de jamais, par grant sens et advis, se retrayrent honorablement.
+Toutesvoyes, Coloniens et rustres les poursievyrent par telle
+radeur qu'ilz tinrent prisonniers Campanel et Rondelet, nepveux dudit Jacques Galiot, lesquelz il eust rescoux s'il eust
+volut ; mais, lui, tout experimenté de la guerre, vray immitateur
+de discipline de chevalerie, choisy de .II. maulx le mendre
+si conclud que mieulx valoit .II. hommes pris que .IIIIm. en
+grans perilz. Le duc n'avoit souffert jusques à ceste heure
+fourragier la ducé des Mons, delà le Rin, appartenant au duc
+de Jullers ; et, toutesvoyes, ceulx de ces mètes avoyent largesse
+de tous biens et ne lui en presentoyent ne par amour ne aultrement.</p><p>
+	Pluseurs compaignons de l'ost, oppresséz de indigence,
+voyans leurs voisins sy plentiveusement garnis, estoyent comme
+Tantalus qui perissoit de fain auprès de la pomme pendant
+devant sa bouce sans y povoyr donner attainte ; si en firent
+remonstrance au duc de Bourgoigne, lequel par quelque ung
+manda que, se ilz ne lui livroyent vivres et fourrages par
+amour et à pris raisonnable, il trouveroit fachon d'en avoir
+par force et sans coustance et que, jusques à ce jour, les avoit
+espargniés, esperant trouver en eulx prestance amiable et attendoit que d'eulx meismes lui eussent offert liberalement ce
+qu'il requeroit par commandement. Ceulx, presséz d'une sy forte
+main comme celle du duc le plus grant de la terre, doubtans
+choir en son indignation, obtemperèrent à son command, mais
+se excusèrent sur les pillars qui les traittoyent durement. Le
+duc leur promist d'y remedier par justice, du tout à leur appaisement. Et lors, fit une chose loable et de memoire perpetuele;
+car, aprèz que le lieu du marchiét fut ordonné sur la rivière du
+Rin tenant la dicque, le plus convenable que faire se povoit à
+l'aise des marchans, il fit eslever une haulte croix ou milieu de
+la place, à laquelle pendoit ung gantelet et une espée toutte
+nue, pour signifyer à tous que, se nul du monde se presumoit
+de dire quelque injure ou vilonnie ausdis paysans marchans,
+il fourfaisoit le poing et, se il estoit sy mal advisé que de ouvrer
+de main mise, il forfaisoit la vye. Adoncques, arrivèrent, traversans le Rin, bateaulx chargiéz de toutes manières de vivres
+
+<pb n="52"/>
+et de fourrages à grant plenté et furent les vendeurs paisiblement traittiéz des acheteurs, qui refrenèrent leurs rapacitéz
+par le miroir juridicque qui s'apparoit devant leurs yeulx :
+de quoy, l'armée, pour une espace, fut assez consolée. Mais lesdis
+vivres et fourrages montèrent en chierté ; Nothus descharga
+ses undées pluvieuses, Boreas mit en bruit ses ventileux souspirs et la froidure yvernale multiplia ses forces tellement que les
+chevaulx des povres saudars perissoyent par morfonture et
+les coursiers des haulx barons sejournoyent ès bonnes villes
+voisines, à grant coust et chière despense.</p><p>
+	Vers la chapelle de saint Ladre, sur la grosse rivière du Rin,
+estoit une très belle et grande forest, toutte de alemarche, qui
+venoit bien à point à faire logeis, bolvars et bastillons, aveuc ce
+que l'on povoit ravir ès villes champestres, bourgades et hameaulx ; car toutes mananderies, arbres, hayes et buissons
+prochains estoyent despoulliéz et mis au net, reservéz les gardinages d'une abbaye de dames fondée de la glorieuse Vierge.
+Petis compaignons, traveilliéz de longues veilles, mal stipendiéz, assaillis de la bise, despourveus d'habis, de vivres et d'argent, aloyent et venoyent .V. ou .VI. fois le jour en ladicte forest à tous habandonnée et se chargoyent de faisseaulx de bois,
+lesquelz ilz vendoyent les ungs aulx aultres pour subvenir à
+leur necessitéz et avoir honneste entretenance. Ainsy, ceste
+belle riche forest, de long temps precieusement gardée, fut en
+briefz jours, par fortune de guerre, totalement gastée.
+
+
+</p></div><div type="chapitre" n="8"><head>
+
+
+COMMENT .VC. HOMMES, POUR RAFFRESCHIR LES ASSIEGIÉZ,
+ENTRÈRENT SECRÈTEMENT DEDENS LA VILLE DE NUYSSE.
+</head><p>
+
+	En ces approches faisant, haultes et chevalereuses, et par le
+plus hardy et magnificque emprendre de quoy l'on puist escripre en hystoire nouvelle, consideré le criminel obstacle et repugnante
+<pb n="53"/>
+et perilleuse deffense que les assiegéz monstroyent par
+multitude d'engins affuttéz, pierreux et pulvereux, plus espoentables que les hideux et horribles cops de tonnoire, ceulx de
+Nuisse soustindrent le faix sy puissamment, sans espargnier
+leur artillerye, tant que ilz se trouvèrent depopuléz de gens
+d'armes et comme tous desgarnis de provision deffensoire ; et
+lors, tous, simples, confus et amenris de puissance et de trait,
+comme gens sans bras et sans bastons, prindrent espoir contre
+desconfort et aventureuse audace contre pusilanime desespoir
+si proposèrent eulx rafreschir de nouvelles gens et amasser
+plenté de pouldre pour recouvrer leurs dures pertes. Dont,
+pour mettre ce fait à finale execution, Jehan de Herperode,
+astut et très abileté routier de guerre, choisy une nuit nubileuse et assez obscure entre la Toussains et la Saint-Martin
+et tout secrètement s'avala èz fosséz ; et, par le quartier
+où moins y avoit de regard des assiegans, où les mal songneux
+estoyent, eschappa de ce dangereux peril. Sy parvint en la ducé
+de Jullers et limitez circonjacentes, où il coeully .Vc. hommes
+de fait, fors et raddes et bien en point, ausquelz ceulx de Coulongne distribuèrent à chescun d'eulz une maille de Rin et les
+furnirent de sacqueaulx plains de salepestre et de certaines mixtions propices au trait des hacquebuses, dont la necessité estoit
+grande ; et s'assemblèrent à une liewe près de l'ost, ou chasteau
+de Lideberch où ilz séjournèrent, prestolant l'obscurité de la
+nuit. Puis, quand tenèbres furent espandues sur la face de la
+terre, ilz se fourrèrent en l'ost et approchèrent une place wyde
+où les fievéz furent depuis logiéz. Les signes donnéz aux assie
+géz, tacitement rentrèrent en leur fort. Et, à celle heure, les
+rustres de la ville firent diverses saillies et en divers quartiers,
+pour empeschier l'armée, affin que ces nouveaulx saudars parvenissent plus sainement à chief de leur emprise. L'ung d'eulx,
+toutesfois, qui ne sceut tenir route, se fourvoya par male adventure, tellement que il chupt ès mains de ses adversaires sy fut
+prins, saisy de pouldre et de salpestre et, aprèz qu'il eut desvolepé tout le secret, il rechupt son mortel payement selon sa
+desserte.</p><p>
+	Grans festoyemens, grans chières et grans signes de joye monstrèrent ceulx de Nuysse à la reception de ces nouveaulx entrans ;
+
+<pb n="54"/>
+car, comme tous renovéz de force et radoubéz de feable asseurance, bateloyent leurs cloches, sonnoyent instrumens musicaulx
+et louoyent Dieu et les sains de leur felicité et bienheurée aventure.</p><p>
+	Le duc, informé de ces nouvelles, fut grandement esbahy, tant
+pour le grant nombre de gens dont Nuysse estoit munye couvertement comme pour la negligence des siens, qui lachement dormoient en pareceux sommeil ; car, au voir dire, Nuysse commenchoit à bransler et ne povoit guères tenir pié ferme, se ce secours
+de peuple et de pouldre ne l'eust corroborée et soustenue.
+O meschans gens, sours, negligens, maculéz de fetardie, sans
+soing, sans curieux aguet, de lours, pesans et laches corages, en
+qui pend l'honneur de vostre duc et le salut de tant vaillans nobles
+hommes qui, par vostre nonchaloir sommeilleux, ont lamentablement perdu leurs vyes, que songiez vous sur vostre fait ?
+Que ne donnez vous ententif escout en vostre quartier ? Vous
+estes cause de ce grant meschief. La querele de ceste piteuse
+guerre estoit terminée sans plus cop ferir ; Nuisse toutte mate,
+chargie de horions, deschirée de copz d'engins, bersaudée de
+cruel trait, se rendoit triste et lasse en la mercy de vostre souverain prince, se vostre diligent regard se fust employé à son
+appartenir.</p><p>
+	Pour contrevenge de ceste mesceance, Bourguegnons, Picquars, Englois et aultres compaignons de l'ost se arroutèrent
+vers le chasteau de Lideberch, où ledit Herperode avoit fait
+son amas et trouvèrent une grosse barrière fortifiée de grans et
+parfons fosséz plains d'eaue et multitude de paysans qui les deffendirent puissamment. Si ochirent et navrèrent de prime venue,
+pluseurs desdis compaignons, lesquelz, voyans ce dur rencontre,
+prindrent leur chemin plus loings et passèrent à grant traveil
+parmy trenchis, fosséz et hayes ; si gaignèrent laditte barrière
+par force d'armes et mirent à desconfiture .IIIc. desdis paysans
+qui demourèrent mors sur la place, et les aultres tournèrent les
+<supplied>doz</supplied>, qui firent pavaix de leur fortresse pour sceureté de
+leurs corps. Les victeurs pillèrent pluseurs villages à l'environ,
+lesquelz ilz mirent aux sacquemans, et retournèrent en l'oost,
+assez joyeulx de leurs proyes.</p><p>
+
+<pb n="55"/>
+	Le duc, voyant que la ville n'estoit pas totalement assiegie
+à sa volenté et que pluseurs saillyes occultes et magnifestes se
+faisoyent de nuit et de jour au très grant prejudice et dommage
+de son pourchas chevalereux et glorieuse pretente, appella par
+commandement exprès les nobles fievéz de ses pays de Brabant,
+Flandres, Arthois et Haynau et sy concoeulli en pluseurs de ses
+bonnes villes certaine quantité de gens mecanicques, dont
+il fut honorablement servi. Monseigneur de Fiennes fut conducteur superiore des nobles fievéz ensemble monseigneur du
+Ruez et le bailli de Brabant ; et aultres capitaines eurent
+precept et precipu regard sur le demourant ensemble presentèrent les gens en très bel et notable arroy à leur très excellent
+prince et seigneur naturel, lequel les rechupt agreablement et
+les mena sur le bort des fosséz, en certains lieux où la necessité
+expetoit le plus, tant ou quartier des Lombars comme ailleurs,
+où ilz firent trenchis et logeis convenables à leur salubre protection ; et le seigneur de Fiennes, acompaigniét des nobles fievéz,
+tint siège en la place vague par où les .Vc. dessus memoriéz s'estoyent esconséz en la ville, laquelle fut lors entièrement parclose
+et avironnée de touttes parts.</p><p>
+	Ces bons pelerins alemans, nouvellement arrivéz à Saint-Quirin pour monstrer la fervente devotion qu'ilz avoyent à
+Mars, le dieu de bataille, livroient pluseurs castilles à leurs
+voisins nouveaulx venus et les servoyent de fruit à pierre
+et de pluseurs estranges mès dont le goust estoit trop mortel ;
+et iceulx voisins nouveaulx venus des bonnes villes et pays du
+duc leur rendoyent des amères poires d'angoisses, confites en
+poulre de canon ; entre lesquelz, ceulx de Malines obtinrent le
+bruit et la renommée, car ilz estoyent .VIxx. très vaillans hommes, bien en point, promps aux armes, premiers aux deffenses,
+prochains aux horions, prests et apparilliéz à faire grant chière.
+llz avoyent chescun .VI. patars pour jour, aux despens de la
+ville et des mestiers, lesquelz ilz despendoyent gracieusement
+aveuc gens qui le valoyent et tinrent court ouverte et estat très
+honneste, selon leur possibilité liberale.
+
+<pb n="56"/>
+</p></div><div type="chapitre" n="9"><head>
+
+LA MAGNIFICENCE AU SIÈGE DE NUYSSE.
+</head><p>
+
+	Chose admirable et la plus somptueuse qui jamnais avoit esté
+veue de nostre temps estoit du siège de Nuisse. Sens artificiel,
+bastie experience et precogitée deliberation avoyent tant labouré, en sa magnificque ordonnance que ne les ancyens docteurs moult recommandéz en la chose militaire ne les modernes
+ducteurs experimentéz au très noble art sagitaire n'y scaroyent
+trouver ligne retrograde ne point derogant à vraye et juste edification amesurée. Bien consideré le lieu, la saison, les visages
+des deffendeurs et les fors bras des invadeurs, les quartiers, les
+trenchis, les mestiers, les logeis estoyent tant bien assis, proportionnéement diviséz à la commodité, subside et tuycion des assiegans, au très grant dommage, detriement et repulse des assiegiéz que, pour convoitier ne pour souhaidier, on ne porroit mieulx. </p><p>
+	L'ost estoit puissamment fermé de beaux, spacieux et parfons
+trenchis ensemble de pons levis et de fortes barrières qui donnoyent aux paysans entrées très bien gardées, jour et de nuit,
+contre falacieuse cautele et pestiferant hostilité.</p><p>
+	Le bourg plaisant et precise formosité de l'armée estoit au
+costé vers Coloigne et ensievoit le quartier du duc, comme les
+estoilles reflamboyant pour recepvoir clarté relucente. Et,
+entre les rues foraines et aultres petites ruelles traversaires, dont
+il y avoit grant nombre bien compassée par geometrie, y avoit
+ung grant et ample marchié où toutes marchandises et vivres
+arrivoyent à grant plenté. Ung apothicaire y amena pour
+une fois .V. chariotz chargiéz de denrées et dressa son bouticle
+aussy estofféement comme en Bruges ou en Gand. Là estoyent
+tous ouvriers mechanicques, grossiers, drapiers, poissonniers,
+especiers, parmentiers, chaussetiers, cordoanniers, chappelliers, barbiers, charpentiers, couteliers, pyonniers, cuveliers, vivendiers, 
+<pb n="57"/> 
+manouvriers, lantreniers, candreliers et chavetiers et
+recouvrier de toutte chose necessaire à corpz humain, à pris
+raisonnable et aussy plantiveusement comme en la meilleure
+ville de ce pays. Là tenoit son estat le prevost des marissaux
+pour administrer justice et dreschier, en voye directe et riglée,
+la policie de l'excercite. Il y avoit pareillement ung aultre marchiét ou quartier des Ytaliens, où n'estoit deffaulte de quelque
+riens, et chescun desdis marchiés avoit sa boucherie et son
+marchiét particulier au feure et à l'avaine. Au regard des
+edifices et logeis telz que en ce cas appertient, il estoyent tant
+rices et plaisans que merveilles. Chescun, selon sa vocation et
+faculté, y avoit fait ou fait faire habitation condigne aveuc belles
+tentes et riches pavillons, entrelachiéz et semméz chà et là, qui
+moult decoroyent ce somptueux fabricque ; desquelz, le duc en y
+avoit fait mener .IXc. à ses propres despens. Il y avoit mansions de diverses fachons et pompeuses coustances, composées
+par mirable et solide artifice comme pour y demourer à perpetuité, les unes, eslevées par plaisance à manière de dongons,
+ayans galeries et prayeries à l'environ et les aultres, tournées à
+deffense, à pons levis et parfons fosséz à l'entour.</p><p>
+	Les unes, machonnées et paintes à beaulx fenestrages et
+cassis de voirre et les mendres, à fachon de cavennes fossées en
+terre, portans sur grandes fourches, ayans salles et cuisines,
+et le plus, cheminées de bricques. Il y avoit fours et molins à
+eaue, à vent et à bras, jeux de paulme, bourloires et bersaulx pour recreer les compaignons, et gibet grant et fort
+pour executer les malfaicteurs. Il y avoit forges, tavernes,
+cabarès, baingneries, hostelleryes et brasseries. Les sacremens
+de Sainte Eglise y estoyent administréz à tous ceulx qui
+necessitéz en avoyent. Enfans y estoyent rechuptz en baptesme ; traictiéz de mariages s'y accordoyent et solennisoyent
+aussy ricement qu'en ville close. Les uns adestroient l'espousée à grant lyesse, monstrans signe de joye au resveil des
+menestreux cornans melodieuses chansons ; et les aultres
+acompaignoyent leurs amis mors et mis en bière en grant anoy,
+entre gens monstrans signe de doeul, chargiéz de larmes, faisans piteuses lamentations. Les ungs, haittiéz de corpz, me
+<pb n="58"/>
+noyent grant chière et esbatemens en privé lieu, et les aultres,
+navréz et demy mors, menoyent piteux regrets et gemissemens
+en attendant l'heure de Dieu. L'ung cryoit : <q>« Le roy boit en 
+feste de royaume ! » </q>L'autre crioyt:<q> « Jhesus te soit vray conducteur à l'ame ! » </q>Tel se reputoit estre mieulx asseuré que ès bras
+de ses amis, qui tantot tresbuchoit ès las de ses ennemis. Là
+povoit on appercevoir la folle abusion du monde et comment 
+divers coeurs, incorporéz en ung seul ost, avoyent passions
+contraires, l'une de solas, l'autre de tristresse. C'estoit ung deduit
+desplaisant, ung desplaisir esjoyssant, une joye plaine de cris,
+une clameur confite en ris, une risée très piteuse et une pité
+très joyeuse.</p><p>
+	Sons melodieux, tubes, tamburs, trompes, clarons, flutes,
+musettes et chalemeles sonnoyent en l'aer et engendroyent armonie tant delitable que ilz effachoyent toutte merancolie, suscitoyent joye nouvelle et eslevoyent tous coeurs anoyeux ou
+thronne de parfaite lyesse. Souverainement ou quartier du duc,
+aux heures limitées, en estoit la très doulce noise tant plaisante à
+oyr que ce sambloit ung parradis terrestre et chose plus divine
+que humaine ; et, comme Orpheus debrisa les portes d'enfer au
+son de sa harpe, la modulation de ces instrumens musicaux
+mitiguoit l'amer des ruddes coeurs saxonnois et endormoit
+les ennemis par son amène consonance.</p><p>
+	Le duc Charles, l'honneur d'occident et le plus redoubté de
+la terre, se maintint vertueusement en ce siège, precogitant
+son prouffit salutaire, car, avant toute oeuvre, chescun jour
+après son lever, posposant toutte cure temporele, comme vray
+champion de Sainte Eglise, ouoit ses messes acoustumées et,
+soy confiant en la main de Dieu, seul colateur des victoires, ne
+volut casser ses devotions pour quelque impetueux encombre.
+Son fait tout recommandé au celeste gubernateur, se metoit en
+ses diligences de soliciter ses affaires pour tirer fruit de sa labeur
+cotidiane. Oncques duc de plus aigre soing ne fut soubz la chappe
+du ciel ; nul de plus glorieuse emprise ; nul plus asseuré en son
+fait ; nul plus laborieux aux champs. Il avoit seul le hault volloir de Alixandre, la prudence de Cesar et la diligence de Semiramis estoit en lui renouvelée ; car, il se trouvoit de quartier en
+aultre quasy en ung moment ; une heure, avanchoit les dicquages,
+
+<pb n="59"/>
+une aultre, se trouvoit ès mines. Il devisoit les pillotis, il expedioit les trenchis, il employoit les Hollandois, il donnoit conseil
+aux Lombars, il reconfortoit les Englois, il boutoit avant les
+Picquars, il commandoit aux ordonnances, il ordonnoit ceulx
+de la garde, il gardoit nobles et fievéz et ceulx de son hostel
+faisoit sy souvent resveillier que ilz n'avoyent loisir de longuement sommeillier, car lui mesmes ne dormoit que à demy et, le
+plus du temps, aux yeulx ouvers, en ensievant la très haulte et
+noble proprieté du lyon dont il estoit renommé par le monde univers. Il ne tenoit pas le terme d'aucuns ancyens princes, comme
+David et aultres, qui delegoyent leurs connestables assaillir
+citéz et villes et ne s'y trouvoyent jusques à la prinse, pour avoir
+gloire de la concqueste ; mais, comme cler miroir d'honneur,
+exemple d'excellente prouesce, bersail patent aux fors archiers
+et bute à leurs fières sayettes, se metoit en front d'assault,
+premier à l'estour, derrenier au retour, non pas par presumption
+oultrageuse, mais pour animer les siens à chose ardue, terrible
+et merveilleuse. Pour ce, dit on que la presence du bon prince
+vault .X. aultres de sa province.</p><p>
+	Gedeon, juge d'Israel, verge de Dieu, poing redoubté et
+flagelleur de Madiam, disoit à son peuple simple et non instruit
+en armes : <q> « Faitez ce que vous me verrez faire. » </q> Le duc Charles,
+prince sans paour, per sans per et patron des preux, semblablement en sa personne preparoit ses batailles, enseignoit ses
+conducteurs et marchoit aussy avant que le plus hardy de ses
+vassaulx.</p><p>
+	Arrestez vous, vous, les explorateurs des merveilles du
+monde, qui eslisiez les grans chevalereux hommes des ancyennes
+hystoires pour les reduire à fresche memore, arrestez vous par
+admiration, pensez, pesez, contrepensez et compassez se le
+très cler vertueux duc n'est pas digne d'avoir magnificque siège,
+entre les plus haulx de ce siècle. Vous mettez en compte vos
+difformez monstres et horribles geans qui se confyoient en la
+grandeur de leur corps, en la ferocité de leurs bras et en crudelité de leurs bastons ; mais, s'ilz eussent ouyz en leur tempz
+les espoentables tonnoires tempestans et sentu les hydeuses
+pierres fouldroyans dont le duc et les siens ont esté pluseurs
+fois servis et rencontréz en divers orages, ilz se fussent trouvéz
+
+<pb n="60"/>
+perplex, confus et sur le point de renoncier aux armes. Force
+de corps ne les porroit aydier, fleur de prouesse en eulx seroit
+extainte, tant plus sont hault et tant plus ont d'attainte.</p><p>
+	Vous parlez du très puissant roy Xercès qui dessechoit
+les fleuves par multitude des chevaulx, de son ost qui les beuvoyent ; parlez maintenant de nostre duc très puissant qui,
+par labeur manuele, transmue les eaues de leur cours naturel,
+dessèche les terres portans les grans fleuves, en arouse d'aultres
+où jamais ruisseau ne s'est apparu et leur donne cours de telle
+profondité que il semble estre nayf et sans quelque artifice.</p><p>
+Que diray je plus ? Il a estanchié rivière courant impetueusement de .V. à .VIc. piez de large et de lance et demye de parfont.
+	Vous donnez title de grant vaillance à Hanibal, duc de Cartage, le prosterneur des triumphans Romains, pour ce qu'il passa
+les Alpes non jamais hantées et trespercha les roches par merveilleuse incision ; donnez title de grant puissance à Charles, duc
+de Bourgoigne, le extermineur de orgueilleux rebelles, lequel
+submet toutte chose elementaire à son indition, essourt la pesanteur des pierres contre le ciel, humilie la sublimité des montaignes,
+exalte la profondité des valées, adjoinct le feu à son incompatible,
+percute l'aer par fraction vehemente, recoppe l'eaue par dicquages repugnans, penètre la terre par mines secrètes où il
+s'esconse personelement et se troeuve à le fois soubz les piez
+de ses ennemis.</p><p>
+	Vous pellifiyez d'honneur, et non pas sans merite, le très sacré imperateur Constantin pour ce que, sur la rivière de la Dunoe,
+par le signe de la croix en qui Dieu souffry passion, subjuga
+Maxence, le felon tirant, associé des prophanes barbarins infidèles ; couronnez de laurier ce très fort et corageux lyon qui,
+sur la rivière du Rin, ou nom de Dieu et de saint George et par
+la vertu de la croix saint Andrieu dont il estoit consigné et premuny, à petit nombre des siens et à pou de perte, a vaincu,
+par bataille rengye et proesce miraculeuse, le très hault et
+seigneureux aigle imperial adestré de toutte la puissance de
+Germanie, comme il appert en l'hystoire sequente.</p><p>
+	Non seulement en gloire transitoire, caducque, terrestre et de
+prosperant fortune, sintiloit l'irradiant lume de sa haulte serenité, mais en affluence de dons precieux et saintismes pour
+
+<pb n="61"/>
+parattaindre felicité sommière. C'estoit le germe de salut incomparable, la plante d'honneur inestimable, l'estoc de grace bieneurée et l'arbre de vertu coulourée, redolente, fructueuse et de
+grande altitude et de qui la fleur, le fruit et la foeulle portoyent
+saveur de celeste beatitude. Et, revolvant en son ymaginative
+pluseurs volumes des anciiens hystoriographes dont il avoit
+imprimé les lectures en sa memoire, voyans beaucop de puissans
+règnez tresbuchiéz aveuc les regnans en miserable ruyne, tous
+enervéz de royal majesté par trop amplecter les plaisans et
+folz delices du femenin sexe, et congnoissant que le fort Sanson
+en estoit affoibly, le saint prophète David soullyé et maculé,
+le sapient Salomon ydiot et rassoté, abrenoncia à toutte volupté
+charnelle et embracha castimonie supernele ; et n'estoit trop mondain ne trop solitaire, mais humain et tout salutaire, non enclin
+à dormition, mais à soing et devotion, non à vaine mondanité,
+mais à saine mondicité, non à lubre concupiscence, mais à salubre continence, non à nocive ebrieté, mais à nette sobrieté, car
+le vin friant non moderé engendre delectation, delectation consentement, consentement pechiét et pechiét la mort. Ainsy,
+par force de corps et de ame, par vigeur exteriore et par vertu
+interiore, prelioit et prosternoit ses ennemis visibles et invisibles,
+ce très cler et vertueux duc scipionicque, lequel, après grans
+veilles, travaulx durs et angoisseux, retournoit en son logeis
+champestre et là, en estat magnanime, à portion legitime, prenoit reffection corporele. Pluseurs petis compaignons, povres
+mendians, nudz et deschaulx et qui ne usoyent point d'argent
+par ce que nul ne leur en donnoit, faysoient pareillement grande
+abstinence, non pas voluntaire, mais necessaire et, contre l'auctorité de Plutarcus, disant que la famine se combat aux chevaliers diseteux qui deffaillent souvent au seigneur, lequel leur
+destraint leur nourreture, nonobstant, ilz s'acquitoyent leaument aux assaulx et aux escarmuces et jamais ne tournoyent
+en fuite.</p><p>
+	Vegèce conseille aux princes que mieulx vault enseignier ses
+propres chevaliers au très noble mestier d'armes que prendre
+estrangiers à sauldées. Et le duc, parpayant ses deniers, estoit
+servi de Lombars et d'Englois qui grandement s'employèrent ;
+mais, pour ce qu'il estoit cremu et redoubté de touttes nations
+
+<pb n="62"/>
+et que le ciel et la terre lui favorisoyent plus que à nul aultre,
+il avoit ce previlège de trespasser les commandemens des philozophes.</p><p>
+	Après la refection du corps, donnoit refection à l'ame et employoit ses jours, non pas en fole vanité ou mondain spectacle,
+mais en saintes escriptures, hystoires approuvées et de haulte
+recommandation, souverainement en l'art de musicque dont il
+estoit tant amoureux que nul plus, et pas sans cause car
+musicque est la resonance des ciels, la voix des angelz, la joye
+de paradis, l'esperit de l'aer, l'organe de l'Eglise, le chant des
+oyselets, la persecution des deables et la recreation de tous coeurs
+tristes et desoléz. Et, comme le roy Charlemaine avoit honnouré
+celle science en son temps, lors qu'il avoit mandé les expers musiciens de Rome pour enseignier ceulx de France en vraye modulation, le duc Charles recoeilloit les plus faméz chantres du monde
+et entretenoit une chapelle estoffée de voix tant armonieuses
+et delitables que, aprèz la gloire celeste, n'estoit aultre leesse.
+Que vollez vous plus du siège de Nuisse ? La magnificence en estoit
+de sy haulte estime que ma rude plume ne porroit souffire à
+descripre sa rutilant splendeur. Supplications y furent oyes,
+benefices y furent impetréz, et par le ray de la precieuse gemme
+ducale qui s'apparoit par tous climats, cler comme estoille de
+Epiphane, les glorieux princes de la terre s'y rendoyent personnelement ou envoyoient ambassades honnorables lui offrir coeur,
+corps et chevance. Le roy Danemarce et de Noirewegue, accompaignié de son frère, en simple estat de pelerin, y fut ossy plentiveusement rechupt que en Bruges ou en Gand. Le duc, à sa
+venue, fit drechier très rices tentes et pavillons de drap d'or
+et de veloux et le fit honorablement festoyer, lui et les siens,
+par le comte de Chimay, très eloquent, doé de rice faconde, et
+par aultres grans barons et mignons de court qui bien le scavoyent faire.</p><p>
+	Ce roy Danemarce, voyant le different du duc et des Alemans ensemble le eminent peril pitoyable et dommageux qui en
+povoit ensievir, s'enforcha de pacifier les parties et se tint long
+
+<pb n="63"/>
+temps à Listreby, une petitte ville oultre le Rin, à .II. lieues
+de Nuysse, où monseigneur le chancellier et le comte de Meghe,
+seigneur de Humbercourt, aloyent souvent devers lui et ensemble ouvroyent aucuns traittiéz de paix qui ne peurent sortir
+effect.</p><p>
+	Monseigneur le bastard de Bourgoigne vint pareillement audit
+siège lequel il visita de bout en aultre et, par son advis, furent
+affuttées .II. serpentines, en tel lieu assises qu'elles traveillèrent
+grandement la ville ; puis, print congié à son frerre, le duc, et s'en
+alla au royaume de Naples.</p><p>
+	Le roy de Hongrie envoya lors son venerable orateur vers
+le duc, lui priant qu'il fut arbitre du different qu'il avoit au
+roy de Polenne pour le royaume de Boesme.</p><p>
+	Aultres ambassades loingtaines et prochaines, de France et
+d'Engleterre, y arrivèrent, desquelles le compte se fera cy après.
+
+
+
+
+</p></div><div type="chapitre" n="10"><head>
+
+COMMENT LES BASTILLONS DE NUISSE
+FURENT ASSAILLIS PAR FORCE CHEVALEREUSE.
+
+</head><p>
+
+	Chose prolixe, trop traveillant les entendemens des auditeurs
+me seroit de reciter au long tous les voyages, destrousses, saillyes, aguets, courses, bescousses, escarmuces, rencontres, assaulz,
+prinses et glorieuses emprises qui continuelement se causoyent
+d'une part et d'aultre durant ce siège, il me souffit seullement
+touchier en brief aucuns fais admirables, dignes de collaudace
+et de haulte recommandation.</p><p>
+	Ung jour, se prindrent environ .LX. gentilz compaignons de
+la garde, bien en point, querans leurs aventures en pays, sy
+se trouvèrent devant Zone, une petite ville entre Nuisse et Coloigne. Les rustres qui la gardoyent, montéz sur fleur de chevaulx,
+saillirent sur eulx, environ cent ensemble .C. et .L. pietons ;
+
+<pb n="64"/>
+mais ilz furent radement reboutéz en leur ville et y demourèrent .XX. de leurs gens mors sur la place, .X. prisonniers et pluseurs bleciéz, entre lesquelz, le filz du seigneur de Sombre et le
+filz du comte de Warnambourg furent cruelement navréz. Puis,
+lesdis compaignons despoullèrent les mors en face de leurs ennemis ; sy accoeillèrent .Vc. moutons et, sans quelque perte, retournèrent au siège, très joyeux de leur proye.</p><p>
+	Ceulx de Nuisse se tenoyent moult orgueilleux et fiers de leur
+gros et puissant bastillin fortiffyé de trenchis, seant à la porte
+de l'abbaye, duquel ilz portoyent sy grant dommage aux assiegans que riens plus, tant par leurs envayes et curieux aguets
+comme par l'horrible espoentable trait de pouldre dont ilz resveilloyent leurs voisins. Mais messire Philippe de Poitiers, seigneur de la Freté, noble de sang et de proesce, très vaillant conducteur de guerre, acompaignié de pluseurs fors et hardis chevaliers, leur donna l'assault tant aspre, hideux et terrible que,
+par force et puissance, ilz en furent expulséz vigoreusement
+de leur fort et de leur trenchis sy furent leurs molins à l'eaue
+deschiréz de tous poins et ruéz par terre.</p><p>
+	L'assault fut aspre et merveilleux ; pluseurs glorieux fais
+d'armes resplendirent en cest estour. Le seigneur de la Freté
+s'y conduisy honnourablement et firent tant ses gens et sy bon
+devoir qu'ilz gaignèrent lesdis trenchis autour du bastillon. Mais
+tant multiplia le trait des assiegéz que les assaillans perdirent lesdis trenchis ; et y finèrent leurs vyes chevalereusement pluseurs
+nobles hommes qui, desirans honneur concquerre, furent pris
+au las de la guerre. Ceulx de Nuysse avoyent ung aultre bastillon grant et fort ou quartier des Lombars, comme leur refuge
+singulier, espoir total et garant salutaire, car ilz faisoyent leurs
+armées et monstroyent leurs puissances trop plus que aultre
+part, tant pour resister aux assaulx traversaires que pour assaillir les vassaulx adversaires mais il fut reversé en bas, abatu
+par terre, aterré en fons, fondefyé et porté jus par main robuste.</p><p>
+	Le duc de Bourgoigne avoit de coustume tousjours au nouvel
+an de renouveler les capitaines de ses ordonnances. Sy advint
+que Amé de Vaulperghe, ung très expert conducteur, eubt la
+charge de .C. lances que avoit paravant messire Josse de Lalaing,
+
+<pb n="65"/>
+lesquelz furent translatéz de la grant ysle audit quartier. Luy,
+acompaignié de pluseurs nobles entreprenans bachelers, couvers
+de pavais, planches et instrumens invasifz, approcèrent ledit bastillon par telle audace et ferocité de hardiesse, en coppant les
+gros rudes chesnes dont il estoit composé, que, nonobstant les
+terrées grandes et espesses, ilz le desmembrèrent, rompirent et
+debrisèrent sy au vif qu'ilz trouvèrent la muraille et porte de la
+ville enfouyes dedens, qui tantot furent descouvertes non pas
+sans grant labeur et perte. Maistre Simon, ung bombardeur,
+Pierot et aultres y furent tuéz de leurs bombarde meismes et
+Amé de Vaulperghe dessus nommé, qui notablement s'y maintint, y fut blecié en la joe d'ung billon de courtault.</p><p>
+	Ceulx de Nuysse, trop durement aguillonnéz, voyans ce hideux reboutement, mortel peril et cruele renverse, firent ung
+aultre bastillon plus arrière en reculant dedens la ville, placqué
+par mirable artifice de terre et d'estrain, tant proprement qu'il
+sembloit chose faite par plaisance et non par constrainte, car
+ung festu ne passoit l'autre et estoit estoffé de canonnières belles
+et gentes et aultres deffenses terribles.</p><p>
+	Le duc, regardant ce nouvel bastillon sy promptement edifié,
+proposa de le destruire comme il avoit fait l'autre, non pas par
+hastif assault, mais par secrète continue labeur, et commanda à
+faire deux mines, l'une au guet des Lombars, à la destre main,
+emprès l'eaue des fosséz, et l'autre au quartier des Picquars, sur
+la rivière, au touquet de la ville, où les murs estoient abatus de
+bombardes et de canons. La Bregière fut approcye et subtillement affutée, laquelle avoit sieute de pluseurs courtaulx.
+Pyons pyonnoyent, manouvriers ouvrèrent, fossiers fossoyent
+et mineurs minèrent par telle diligence, en approchant la ville,
+que ceulx de dedens furent en adventure de perdre leurs brayes
+et firent ung contrefort de travers pour les preserver. Mais, finablement, après double crainte et paour inestimable, il gaignèrent
+ladite mine du costé des Lombars, comme il sera declairé plus
+avant en l'histoire.
+
+				</p>
+</div>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="fr">
+  <fileDesc>
+    <titleStmt>
+      <title type="main">Règle de saint Benoît</title>
+      <title type="formal">RegleSBenCotton</title>
+      <title type="reference">RegleSBenCotton</title>
+      <title type="DEAF">RègleSBenCottonH</title>
+      <title type="gmd">transcription électronique</title>
+      <author xml:id="anonyme">anonyme (traducteur)</author>
+      <editor>Équipe de la Base de français médiéval - ENS de Lyon / UMR 5317 IHRIM</editor>
+      <funder>Laboratoire IHRIM</funder>
+      <funder>ANR (projet CoRPTeF)</funder>
+    </titleStmt>
+    <editionStmt>
+      <edition>transcripion électronique</edition>
+      <respStmt xml:id="encoder2">
+        <resp>conversion en XML et balisage automatique</resp>
+        <name xml:id="AL">Alexei Lavrentiev</name>
+      </respStmt>
+      <respStmt xml:id="digitizer2">
+        <resp>océrisation</resp>
+        <name xml:id="CICL">CICL</name>
+      </respStmt>
+      <respStmt xml:id="proofreader1">
+        <resp>première relecture</resp>
+        <name xml:id="PK">Paul-Adrien Kompanietz</name>
+      </respStmt>
+    </editionStmt>
+    <extent>- Numéros de pages saisies : de 28 à 28 ;
+            - Nombre de mots d'après la base des descripteurs : <num xml:id="nb_mots_given">461</num> ;
+            - Nombre de tokens (mots et ponctuations) d'après la base des descripteurs : <num xml:id="nb_tokens_given">506</num>.
+    </extent>
+    <publicationStmt>
+      <publisher><name>Projet BFM, ENS de Lyon / UMR 5317 IHRIM</name></publisher>
+      <address>
+        <addrLine>15, parvis René Descartes</addrLine>
+        <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+        <addrLine>Tél : 04 37 37 63 10</addrLine>
+        <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+        <addrLine>http://bfm.ens-lyon.fr</addrLine>
+      </address>
+      <idno type="bfm">http://catalog.bfm-corpus.org/RegleSBenCotton</idno>
+      <idno type="doi">10.34847/nkl.879d4s17</idno>
+      <availability status="free">
+        <licence target="https://www.etalab.gouv.fr/licence-ouverte-open-licence">
+          <ab type="availability_bfm" subtype="restreint_4">Les Conditions générales d'utilisation de la Base de Français Médiéval (http://txm.bfm-corpus.org/bfm/files/CGU.pdf), 
+            et notamment son Article 5 « PROPRIETE INTELLECTUELLE », s'appliquent à tous les textes de la BFM.</ab>
+          <ab type="how_to_cite">
+            <label>Comment citer ce texte :</label>
+            <bibl>Règle de saint Benoît, édité par Tony Hunt, Cambridge, 1991. 
+              Publié en ligne par la Base de français médiéval, http://catalog.bfm-corpus.org/RegleSBenCotton.
+              Dernière révision le 2009-02-20.</bibl>
+            D'autres formules de citation de la BFM sont proposées sur la page web suivante :
+            http://bfm.ens-lyon.fr/article.php3?id_article=281.</ab>
+          <ab type="availability_file">
+            <label>Conditions d'utilisation de ce fichier :</label>
+              Ce fichier numérique est composé du corps de texte médiéval et des suppléments numériques : balisage XML-TEI, métadonnées (teiHeader). Le texte et les suppléments numériques sont libres de droit et peuvent à ce titre être téléchargés et réutilisés librement.
+            </ab>
+            <ab type="availability_txmweb" subtype="illimité">
+              <label>Conditions d'utilisation par le portail BFM :</label>
+              Accès réservé aux membres de l'équipe BFM et des projets associés.</ab>
+        </licence>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>Teaching and learning Latin in thirteenth-century England / [Anglo-Norman version of the Rule of St Benedict]</title>
+          <respStmt>
+            <resp xml:id="editor">Éditeur scientifique</resp>
+            <name type="person">Tony Hunt</name>
+          </respStmt>
+        </titleStmt>
+          <extent>1 page(s), soit 28
+        </extent>
+        <publicationStmt>
+          <publisher>Brewer</publisher>
+          <pubPlace>Cambridge</pubPlace>
+          <date>1991</date>
+          <idno type="isbn">059913376</idno>
+          <idno type="sigle_DEAF">RègleSBenCottonH</idno>
+          <idno type="cote_biblio">ENC : 8J945(1)</idno>
+        </publicationStmt>
+      </biblFull>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p>Projet :<name type="project">BFM - Base de français médiéval</name>
+        Resp. : <name type="person">Céline Guillot-Barbance</name>
+        Équipe : Base de français médiéval
+        Laboratoire : UMR 5317 IHRIM
+        Institution : ENS de Lyon
+        <address>
+          <addrLine>15, parvis René Descartes</addrLine>
+          <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+          <addrLine>Tél : 04 37 37 63 10</addrLine>
+          <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+          <addrLine>http://bfm.ens-lyon.fr</addrLine>
+        </address>
+      </p>
+    </projectDesc>
+    <editorialDecl>
+      <p>Voir le <ref target="http://bfm.ens-lyon.fr/IMG/pdf/Manuel_Encodage_TEI.pdf">Manuel d'encodage XML-TEI de la BFM</ref>
+        et les <ref target="http://bfm.ens-lyon.fr/IMG/pdf/Consignes_BFM.pdf">Consignes aux relecteurs de la BFM</ref>.</p>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="body" occurs="1"/>
+        <tagUsage gi="div" occurs="2"/>
+        <tagUsage gi="milestone" occurs="6"/>
+        <tagUsage gi="p" occurs="4"/>
+        <tagUsage gi="pb" occurs="1"/>
+        <tagUsage gi="text" occurs="1"/>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <creation>
+      <name type="author">anonyme (traducteur)</name>
+      <title>Règle de saint Benoît</title>
+      <date type="compo" when="1183-01-01" notBefore="1167-01-01" notAfter="1199-01-01" n="12">3e tiers 12e s.</date>
+      <date type="compo_periode">ancien</date>
+      <date type="compo_sous_siecle" n="12_3">fin</date>
+      <date type="ms" when="1183-01-01" notBefore="1175-01-01" notAfter="1199-01-01">3e t. 2e s.</date>
+      <idno type="msIdentifier">BL Cotton Titus A.IV</idno>
+      <region type="dialecte_auteur">anglo-normand</region>
+    </creation>
+    <langUsage>
+      <language ident="fro" usage="100">Le texte est entièrement écrit en prose en ancien français.</language>
+    </langUsage>
+    <textDesc>
+      <channel mode="w">print</channel>
+      <constitution type="single"/>
+      <derivation type="traduction">Regulae de saint Benoît</derivation>
+      <domain type="religieux"/>
+    <factuality type="inapplicable"/>
+      <interaction type="none"/>
+      <preparedness type="prepared"/>
+      <purpose type="narrative"/></textDesc>
+    <textClass>
+      <keywords scheme="http://authorities.bfm-corpus.org">
+        <term type="domaine">religieux</term>
+        <term type="genre">règle</term>
+        <term type="forme">prose</term>
+        <term type="relation">traduction</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change who="#CICL" when="2008-09-02">océrisation</change>
+    <change who="#CICL" when="2008-09-02">scannage</change>
+    <change who="#AL" when="2008-09-04">préparation à la relecture 1</change>
+    <change who="#AL" when="2009-01-14">création du descripteur</change>
+    <change who="#PK" when="2009-02-02">première relecture</change>
+    <change who="#AL" when="2009-02-20">conversion en XML et balisage automatique</change>
+    <change when="2009-02-20">Dernière modification du texte</change>
+    <change when="2022-11-04">Création de cet entête</change>
+  </revisionDesc>
+</teiHeader>
+<text>
+		
+		<body>
+			<div type="chapter" n="49">
+<pb n="28"/>
+<p><milestone unit="folio" n="121r"/> Ja seit iceo ke vie de moine en tuz tens deive aver observance de quaralme, nekedent, pur iceo ke poi unt iceste vertu, amonestum nus icés jurz de quaralme en tute purté lur vie garder e tutes les negligences des altres tens en icés seinz jurz laver e adrescier. La quel chose idunk dignement iert feite si nus recreum de tuz vices e dunum entente od plurs a ureisun, a lesçun, a cumpunctiun <milestone unit="folio" n="121v"/> de queor e a abstinence. Aoitun nus idunk aukune chose a nostre acustumé e usuel curs de nostre servise, ureisuns speciales, abstinence de mangiers e de beivres, ke chescun, sur la mesure ke li est enjuinte, acune chose de sa propre volenté offre a Deu od la joie del seint esperit, iceo est a dire ke chescun sustraie a sun cors de viande, de beivre, de dormir, de parler, de enveisure, e od joie de spiritel desire entende la seinte Pasche. <milestone unit="folio" n="122r"/> Nepurquant, iceo ke chescun offre a Deu le face entendre a sun abbé, e od la sue ureisun e volenté seit feit, kar quanke est feit sanz la volenté del pere esperitel est turné a presumptiun e a veine glorie, e ne mie a loer. E pur iceo tutes choses funt a fere od la volenté del abbé.</p>
+			</div>
+			<div n="48">
+<p> As jurs de quaresme del matin jesque haute tierce entendent tuit li frere a lur lesçun e puis jesque a la disme ure pleine facent <milestone unit="folio" n="122v"/> ceo ke lur est enjuint; en quels jurz de quaresme receivent tuit chescun le sun livre del libraire e les lisent par ordre e enterinement, les quels livres sunt a livrer al comencement de quaresme. Devant tutes choses seit aturné un des einz-nez u dous, ki avirunent le mustier as ures ke li freres entendent as lesçuns e veient ke par aventure n'i seit trové frere pareçus ki atende a usdives choses u a fables e n'est ententif a leçun <milestone unit="folio" n="123r"/> e ne mie sulement est a sei meismes nunprofitables, mes enteimes forstrait les autres. Itel si par aventure, ke ja n'avienge, seit trové, seit repris une fiede e autre. Se il ne s'amende, seit suzmis a regulere discipline e en tel maniere ke li altre en aient pour. Nul frere ne s'acoste a altre a ures incompetentes. Al jur de diemeine tuit atendent a lesçun, estre icels ki sunt aturnez a divers mestiers. Si alkuns est issi <milestone unit="folio" n="123v"/> negligent e pareçus ke il ne voille u ne puisse estudier ne lire, autre oefre li seit enjuint k'il face e ne seit usdif. As freres malades u delicius tel oefre u art seit enjuint, k'il ne seent usdifs ne par la violence de travail si grevez k'il seent eschacé. La maladie des quels del abbé est a garder.</p>
+			</div>
+		</body>
+	</text>
+</TEI>

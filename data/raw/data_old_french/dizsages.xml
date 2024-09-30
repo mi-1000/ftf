@@ -1,0 +1,1850 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="fr">
+  <fileDesc>
+    <titleStmt>
+      <title type="main">Diz et proverbes des sages</title>
+      <title type="formal">dizsages</title>
+      <title type="reference">dizsages</title>
+      <title type="DEAF">DizSagesM*</title>
+      <title type="gmd">transcription électronique</title>
+      <author xml:id="anonyme">anonyme</author>
+      <editor>Équipe de la Base de français médiéval - ENS de Lyon / UMR 5317 IHRIM</editor>
+      <funder>Laboratoire IHRIM</funder>
+      <funder>ANR (projet ELICO)</funder>
+    </titleStmt>
+    <editionStmt>
+      <edition>transcripion électronique</edition>
+      <respStmt xml:id="encoder4">
+        <resp>adaptation du balisage aux normes BFM TEI P5</resp>
+        <name xml:id="AL">Alexei Lavrentiev</name>
+      </respStmt>
+      <respStmt xml:id="proofreader2">
+        <resp>deuxième relecture et vérification du balisage</resp>
+        <name xml:id="BS">Bérénice Stoll</name>
+      </respStmt>
+      <respStmt xml:id="digitizer2">
+        <resp>océrisation</resp>
+        <name xml:id="KM">Khadija Mahfoud</name>
+      </respStmt>
+      <respStmt xml:id="proofreader1">
+        <resp>première relecture</resp>
+        <name xml:id="SL">Sofia Lodén</name>
+      </respStmt>
+      <respStmt xml:id="encoder2">
+        <resp>validation finale</resp>
+        <name xml:id="VO">Vanessa Obry</name>
+      </respStmt>
+    </editionStmt>
+    <extent>- Numéros de pages saisies : de 3 à 81 ;
+            - Nombre de mots d'après la base des descripteurs : <num xml:id="nb_mots_given">6636</num> ;
+            - Nombre de tokens (mots et ponctuations) d'après la base des descripteurs : <num xml:id="nb_tokens_given">7507</num>.
+    </extent>
+    <publicationStmt>
+      <publisher><name>Projet BFM, ENS de Lyon / UMR 5317 IHRIM</name></publisher>
+      <address>
+        <addrLine>15, parvis René Descartes</addrLine>
+        <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+        <addrLine>Tél : 04 37 37 63 10</addrLine>
+        <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+        <addrLine>http://bfm.ens-lyon.fr</addrLine>
+      </address>
+      <idno type="bfm">http://catalog.bfm-corpus.org/dizsages</idno>
+      <idno type="doi">10.34847/nkl.e2d7rwl6</idno>
+      <availability status="free">
+        <licence target="https://www.etalab.gouv.fr/licence-ouverte-open-licence">
+          <ab type="availability_bfm" subtype="libre_1a">Les Conditions générales d'utilisation de la Base de Français Médiéval (http://txm.bfm-corpus.org/bfm/files/CGU.pdf), 
+            et notamment son Article 5 « PROPRIETE INTELLECTUELLE », s'appliquent à tous les textes de la BFM.</ab>
+          <ab type="how_to_cite">
+            <label>Comment citer ce texte :</label>
+            <bibl>Diz et proverbes des sages, édité par Joseph Morawski, Paris, 1924. 
+              Publié en ligne par la Base de français médiéval, http://catalog.bfm-corpus.org/dizsages.
+              Dernière révision le 2012-05-02.</bibl>
+            D'autres formules de citation de la BFM sont proposées sur la page web suivante :
+            http://bfm.ens-lyon.fr/article.php3?id_article=281.</ab>
+          <ab type="availability_file">
+            <label>Conditions d'utilisation de ce fichier :</label>
+              Ce fichier numérique est composé du corps de texte médiéval et des suppléments numériques : balisage XML-TEI, métadonnées (teiHeader), balisage du discours direct. Le texte et les suppléments numériques sont libres de droit et peuvent à ce titre être téléchargés et réutilisés librement.
+            </ab>
+            <ab type="availability_txmweb" subtype="illimité">
+              <label>Conditions d'utilisation par le portail BFM :</label>
+              Pas de limitation dans l'usage des fonctionnalités. Téléchargement autorisé.</ab>
+        </licence>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>Les Diz et proverbes des sages (Proverbes as philosophes)</title>
+          <respStmt>
+            <resp xml:id="editor">Éditeur scientifique</resp>
+            <name type="person">Joseph Morawski</name>
+          </respStmt>
+        </titleStmt>
+          <extent>67 page(s), soit 3-16; 29-81
+        </extent>
+        <publicationStmt>
+          <publisher>PUF</publisher>
+          <pubPlace>Paris</pubPlace>
+          <date>1924</date>
+          <idno type="sigle_DEAF">DizSagesM*</idno>
+          <idno type="cote_biblio">BIU : Mag 2. 067755</idno>
+        </publicationStmt>
+      </biblFull>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p>Projet :<name type="project">BFM - Base de français médiéval</name>
+        Resp. : <name type="person">Céline Guillot-Barbance</name>
+        Équipe : Base de français médiéval
+        Laboratoire : UMR 5317 IHRIM
+        Institution : ENS de Lyon
+        <address>
+          <addrLine>15, parvis René Descartes</addrLine>
+          <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+          <addrLine>Tél : 04 37 37 63 10</addrLine>
+          <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+          <addrLine>http://bfm.ens-lyon.fr</addrLine>
+        </address>
+      </p>
+    </projectDesc>
+    <editorialDecl>
+      <p>Voir le <ref target="http://bfm.ens-lyon.fr/IMG/pdf/Manuel_Encodage_TEI.pdf">Manuel d'encodage XML-TEI de la BFM</ref>
+        et les <ref target="http://bfm.ens-lyon.fr/IMG/pdf/Consignes_BFM.pdf">Consignes aux relecteurs de la BFM</ref>.</p>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="ab" occurs="268"/>
+        <tagUsage gi="body" occurs="1"/>
+        <tagUsage gi="choice" occurs="20"/>
+        <tagUsage gi="corr" occurs="20"/>
+        <tagUsage gi="div" occurs="266"/>
+        <tagUsage gi="foreign" occurs="1"/>
+        <tagUsage gi="gap" occurs="1"/>
+        <tagUsage gi="head" occurs="56"/>
+        <tagUsage gi="hi" occurs="2"/>
+        <tagUsage gi="lb" occurs="1051"/>
+        <tagUsage gi="note" occurs="5"/>
+        <tagUsage gi="num" occurs="3"/>
+        <tagUsage gi="pb" occurs="67"/>
+        <tagUsage gi="q" occurs="3"/>
+        <tagUsage gi="sic" occurs="20"/>
+        <tagUsage gi="supplied" occurs="33"/>
+        <tagUsage gi="surplus" occurs="29"/>
+        <tagUsage gi="text" occurs="1"/>
+        <tagUsage gi="w" occurs="29"/>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <creation>
+      <name type="author">anonyme</name>
+      <title>Diz et proverbes des sages</title>
+      <date type="compo" when="1400-01-01" notBefore="1300-01-01" notAfter="1499-12-31" n="15">14 et 15e s.</date>
+      <date type="compo_periode">moyen</date>
+      <date type="compo_sous_siecle" n="15_1">début</date>
+      <date type="ms" when="1400-01-01" notBefore="1300-01-01" notAfter="1499-12-31">14 et 15e s.</date>
+      <idno type="msIdentifier">[manuscrits multiples]</idno>
+      <region type="dialecte_auteur">non défini</region>
+    </creation>
+    <langUsage>
+      <language ident="fro" usage="100">Le texte est entièrement écrit en vers en moyen français.</language>
+    </langUsage>
+    <textDesc>
+      <channel mode="w">print</channel>
+      <constitution type="single"/>
+      <derivation type="original"/>
+      <domain type="didactique"/>
+    <factuality type="inapplicable"/>
+      <interaction type="none"/>
+      <preparedness type="prepared"/>
+      <purpose type="narrative"/></textDesc>
+    <textClass>
+      <keywords scheme="http://authorities.bfm-corpus.org">
+        <term type="domaine">didactique</term>
+        <term type="genre">précepte</term>
+        <term type="forme">vers</term>
+        <term type="relation">original</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change who="#KM" when="2007-07-31">scannage</change>
+    <change who="#VO" when="2008-02-14">préparation à la relecture 1</change>
+    <change who="#SL" when="2008-05-14">première relecture</change>
+    <change who="#VO" when="2008-05-15">conversion en XML et balisage automatique</change>
+    <change who="#KM" when="2008-07-31">océrisation</change>
+    <change who="#BS" when="2008-09-01">deuxième relecture et vérification du balisage</change>
+    <change who="#VO" when="2008-09-15">validation finale</change>
+    <change who="#AL" when="2008-10-21">création du descripteur</change>
+    <change who="#AL" when="2012-05-02">adaptation du balisage aux normes BFM TEI P5</change>
+    <change when="2012-05-02">Dernière modification du texte</change>
+    <change when="2022-11-04">Création de cet entête</change>
+  </revisionDesc>
+</teiHeader>
+<text>
+		
+		
+
+<body>
+<pb n="3"/>
+<div type="section" n="1">
+<head>Les diz et proverbes des Sages</head>
+<div type="proverbe" n="1">
+<head>CHATONS</head>
+<ab type="gv"><lb n="1"/>N'est pas sires de son païs
+<lb n="2"/>Qui de ses hommes est haÿs ;
+<lb n="3"/>Bien doit estre sires clamés
+<lb n="4"/>Qui de ses hommes est amés.</ab></div>
+    
+    <div type="proverbe" n="2">
+<head>VIRGILLES</head>
+<ab type="gv">Ou monde n'a si grant dommaige
+<lb n="1"/>Com grant seigneur a fol couraige ;
+<lb n="2"/>Par seigneur de fol escient
+<lb n="3"/>Ont le leur perdu mainte gent.</ab></div>
+        
+    <div type="proverbe" n="3">
+<head>CATHONS</head>
+<ab type="gv"><lb n="1"/>Qui le bien voit et le mal prent
+<lb n="2"/>Il se fouloye a escient ;
+<lb n="3"/>L'en doit tenir pour fol cellui
+<lb n="4"/>Qui pourchace le sien ennuy.</ab></div>
+<pb n="4"/>
+    <div type="proverbe" n="4">
+<head>SALEMONS</head>
+<ab type="proverbe"><lb n="1"/>Par deffaute de bon seigneur
+<lb n="2"/>Porte on a maint fol grant honneur ;
+<lb n="3"/>Et pour fol tenir compaignie
+<lb n="4"/>Est mainte amour descompaignie.</ab></div>
+<div type="proverbe" n="5">
+<head>TULLES</head>
+<ab type="gv"><lb n="1"/>Homs qui despent plus qu'il ne doit
+<lb n="2"/>En povreté mourir se voit,
+<lb n="3"/>Et cil qui despent par raison
+<lb n="4"/>Monteplie en bien, ce voit on.</ab></div>
+    <div type="proverbe" n="6">
+<head>SENEQUES</head>
+<ab type="gv"><lb n="1"/>Ne dois ton ami essaier
+<lb n="2"/>De la chose dont n'as mestier ;
+<lb n="3"/>Cil n'ayme pas souffisamment
+<lb n="4"/>Qui aime pour avoir argent.</ab></div>
+        <div type="proverbe" n="7">
+<head>JULLES</head>
+<ab type="gv"><lb n="1"/>Doulce parole fraint grant ire,
+<lb n="2"/>Durs parlers felon cueur empire ;
+<lb n="3"/>Le bon <choice><corr resp="#editor" rend="parentheses">aparle</corr><sic><w>aparle<surplus>s</surplus></w></sic></choice> doulcement
+<lb n="4"/>Et le felon harougement.</ab></div>
+<pb n="5"/>
+    <div type="proverbe" n="8">
+<head>PLATONS</head>
+<ab type="gv"><lb n="1"/>Qui d'autrui duel a lié couraige
+<lb n="2"/>Souvent est prés de son dommage,
+<lb n="3"/>Et nulz ne doit amer cellui
+<lb n="4"/>Qui est joyans d'autrui ennuy.</ab></div>
+        <div type="proverbe" n="9">
+<head>BOECES</head>
+<ab type="gv"><lb n="1"/>Homs en aprenant desaprant
+<lb n="2"/>Quant il voit qu'amour le sourprant,
+<lb n="3"/>Car amour fait pour fol clamer
+<lb n="4"/>Celui qui s'en laist surmonter.</ab></div>
+            <div type="proverbe" n="10">
+<head>SALEMON</head>
+<ab type="gv"><lb n="1"/>Il te couvient par estouvoir,
+<lb n="2"/>Se tu veuls bon service avoir,
+<lb n="3"/>Laissier toute ta voulenté
+    <lb n="4"/>Pour ton seigneur servir a gré.</ab></div>
+                <div type="proverbe" n="11">
+<head>THOBIE</head>
+<ab type="gv"><lb n="1"/>Qui de son serf fait son seigneur
+<lb n="2"/>Ne peut vivre sans deshonneur ;
+<lb n="3"/>Qui gette ce qu'a ses mains tient
+<lb n="4"/>A ses piez, pour fol se contient.</ab></div>
+<pb n="6"/>
+                    <div type="proverbe" n="12">
+<head>OVIDE</head>
+<ab type="gv"><lb n="1"/>Folz est cilz qui se laist seurprandre
+<lb n="2"/>De ce dont autrui veult reprandre ;
+<lb n="3"/>Sens ne peut estre de grant pris
+<lb n="4"/>Dont le maistre remaint surpris.</ab></div>
+    <div type="proverbe" n="13">
+<head>ORACES</head>
+<ab type="gv"><lb n="1"/>Grans dons font maint juge avugler
+<lb n="2"/>El droit, et maint tort eslever ;
+<lb n="3"/>Qui plus couvoite qu'il ne doit,
+<lb n="4"/>Sa couvoitise le deçoit.</ab></div>
+    <div type="proverbe" n="14">
+<head>MARCOUX</head>
+<ab type="gv"><lb n="1"/>Qui trop en son cuidier se fie
+<lb n="2"/>Deceüs s'en treuve a la fie ;
+<lb n="3"/>Il avient bien que li homs mort
+<lb n="4"/>Tel morcel qui le maine a mort.</ab></div>
+    <div type="proverbe" n="15">
+<head>SALEMONS</head>
+<ab type="gv"><lb n="1"/>Qui respont avant qu'il n'entent,
+<lb n="2"/>Sa folie chiet en present ;
+<lb n="3"/>Mieulx vault qui despont sa folie
+<lb n="4"/>Que cilz qui cele sa clergie.</ab></div>
+<pb n="7"/>
+<div type="proverbe" n="16">
+<head>ARISTOTE</head>
+<ab type="gv"><lb n="1"/>Il vient mieulx oïr et aprandre
+<lb n="2"/>Que ne fait lire sans entendre ;
+<lb n="3"/>Autant vault qui oit et n'entent
+<lb n="4"/>Com cilz qui chace et riens ne prent.</ab></div>
+    <div type="proverbe" n="17">
+<head>YSIDOIRE</head>
+<ab type="gv"><lb n="1"/>Qui ce souffist que Dieux lui donne
+<lb n="2"/>Plus a que tel porte couronne ;
+<lb n="3"/>Folz est qui couvoite autrui terre
+<lb n="4"/>Pour tousjours demorer en guerre.</ab></div>
+    <div type="proverbe" n="18">
+<head>MACER</head>
+<ab type="gv"><lb n="1"/>Qui trop est serfs a son avoir
+<lb n="2"/>Paix ne honneur ne peut avoir ;
+<lb n="3"/>Trop est la richesce mauvaise
+<lb n="4"/>Dont li sires n'a preu ne aise.</ab></div>
+    <div type="proverbe" n="19">
+<head>THOBIE</head>
+<ab type="gv"><lb n="1"/>Ne peut servir fiablement
+<lb n="2"/>Qui recroit amoureusement ;
+<lb n="3"/>Au service voit l'en l'amour,
+<lb n="4"/>De ce ne suis point en cremour.</ab></div>
+<pb n="8"/>
+    <div type="proverbe" n="20">
+<head>YSIDOIRE</head>
+<ab type="gv"><lb n="1"/>Pis vault compaings, s'il n'est loyaux,
+<lb n="2"/>Que plaie dont on voit boyaux ;
+<lb n="3"/>Car a plus grant peine est sanee
+<lb n="4"/>Plaie de langue que d'espee.</ab></div>
+    <div type="proverbe" n="21">
+<head>YPOCRAS</head>
+<ab type="gv"><lb n="1"/>L'en doit moult haïr le soulas
+<lb n="2"/>Dont en la fin on dist : <q> « helas ! » </q>
+<lb n="3"/>Cilz est folz, ce vueil tesmoingnier,
+<lb n="4"/>Qui devant son sens prent moullier.</ab></div>
+    <div type="proverbe" n="22">
+<head>SENEQUE</head>
+<ab type="gv"><lb n="1"/>Tant vault amour comme argent dure :
+<lb n="2"/>Quant argent fault, amour est nulle ;
+<lb n="3"/>Qui le sien despent folement,
+<lb n="4"/>Il n'est amé de nulle gent.</ab></div>
+    <div type="proverbe" n="23">
+<head>JULLES</head>
+<ab type="gv"><lb n="1"/>Il fait bon eschever l'ennuy
+<lb n="2"/>Dont nul bien ne vient a nulli ;
+<lb n="3"/>Qui maintient fole compaignie
+<lb n="4"/>Souvent en pert honneur et vie.</ab></div>
+<pb n="9"/>
+    <div type="proverbe" n="24">
+<head>MACER</head>
+<ab type="gv"><lb n="1"/>Folz est qui tant est abstinens
+<lb n="2"/>Qu'il en pert sa force et son sens ;
+<lb n="3"/>Mieulx vault mengier courtoisement
+<lb n="4"/>Que faire vilain testament.</ab></div>
+    <div type="proverbe" n="25">
+<head>VIRGILLES</head>
+
+<ab type="gv"><lb n="1"/>Grant folie est de tant amer
+<lb n="2"/>C'on face de son doulx amer ;
+<lb n="3"/>Amer, haïr trop cruelment
+<lb n="4"/>Fait faire maint faulx jugement.</ab></div>
+    <div type="proverbe" n="26">
+<head>CATHONS</head>
+<ab type="gv"><lb n="1"/>Ou mont n'a traÿson si grant
+<lb n="2"/>Com celle c'on fait en samblant
+<lb n="3"/>De servir amoureusement
+<lb n="4"/>Et d'eschever vrai jugement.</ab></div>
+        <div type="proverbe" n="27">
+<head>SALEMONS</head>
+<ab type="gv"><lb n="1"/>Oste ains de ton oeil hors l'estel
+<lb n="2"/>Qu'en l'autrui voyes festucel ;
+<lb n="3"/>Folz est qui ne congnoist en lui
+<lb n="4"/>Ce qu'il veult jugier en autrui.</ab></div>
+<pb n="10"/>
+    <div type="proverbe" n="28">
+<head>TULLES</head>
+<ab type="gv"><lb n="1"/>Qui donner veult ne doit attendre
+<lb n="2"/>Qu'on lui ruist : son don en fait mendre ;
+<lb n="3"/>A son ami, com bien c'on l'aimt,
+<lb n="4"/>Reuve assez qui se complaint.</ab></div>
+    <div type="proverbe" n="29">
+<head>SENEQUE</head>
+<ab type="gv"><lb n="1"/>De ce que tu peus faire au main
+<lb n="2"/>N'atens le soir ne l'andemain ;
+<lb n="3"/>Telz maine au matin grant boubant
+<lb n="4"/>Que ains le vespre est mius dolent.</ab></div>
+    <div type="proverbe" n="30">
+<head>JULLES</head>
+<ab type="gv"><lb n="1"/>Qui riens commence, il doit sentir
+<lb n="2"/>La fin ou il en peut venir ;
+<lb n="3"/>Homs ne doit dire qu'ait riens fait
+<lb n="4"/>De l'oeuvre, ains que parfaitte l'ait.</ab></div>
+    <div type="proverbe" n="31">
+<head>CATHONS</head>
+<ab type="gv"><lb n="1"/>A la foiz avient que li hom
+<lb n="2"/>Bat le chien devant le lyon ;
+<lb n="3"/>Belle doctrine met en lui
+<lb n="4"/>Qui se chastie par autrui.</ab></div>
+<pb n="11"/>
+    <div type="proverbe" n="32">
+<head>MACER</head>
+<ab type="gv"><lb n="1"/>Ne doit a son ami promettre
+<lb n="2"/>Qui le don present y peut mettre ;
+<lb n="3"/>Qui tarde a donner longuement
+<lb n="4"/>Assez fait escondit present.</ab></div>
+    <div type="proverbe" n="33">
+<head>CATHON</head>
+<ab type="gv"><lb n="1"/>Qui son pouoir veult essaucier
+<lb n="2"/>Aimt ses amis et tiengne chier ;
+<lb n="3"/>Souvent sont plus fors deux amis
+<lb n="4"/>Que ne soient quatre anemis.</ab></div>
+        <div type="proverbe" n="34">
+<head>SALEMON</head>
+<ab type="gv"><lb n="1"/>Qui compaignie au saige tient
+<lb n="2"/>Par raison plus saige devient,
+<lb n="3"/>Et qui d'amours au fol s'assamble
+<lb n="4"/>Il couvient que le fol resamble.</ab></div>
+            <div type="proverbe" n="35">
+<head>BOECE</head>
+<ab type="gv"><lb n="1"/>Folz est qui ne se veult servir
+<lb n="2"/>Qui n'a dont sergent puist tenir ;
+<lb n="3"/>Malement penseroit d'autrui
+<lb n="4"/>Cilz qui ne veult penser de lui.</ab></div>
+<pb n="12"/>
+                <div type="proverbe" n="36">
+<head>THOBIE</head>
+<ab type="gv"><lb n="1"/>Reviaux qui ne scet maintenir
+<lb n="2"/>Fait maint homme pour fol tenir ;
+<lb n="3"/>Mieulx vault du sien faire raison
+<lb n="4"/>Que oultraige en autrui maison.</ab></div>
+    <div type="proverbe" n="37">
+<head>YSIDOIRE</head>
+<ab type="gv"><lb n="1"/>Il vault mieulx tarder de mesprandre
+<lb n="2"/>Que trop grant folie entreprandre ;
+<lb n="3"/>L'en ne peut plus bel amender
+<lb n="4"/>Le meffait, que de l'eschiver.</ab></div>
+    <div type="proverbe" n="38">
+<head>JUVENAL</head>
+<ab type="gv"><lb n="1"/>Trestoute en souëf nourriture
+<lb n="2"/>Ne gist mie bonne aventure ;
+<lb n="3"/>Petit vault li acoustumance
+<lb n="4"/>Qui deçoivre du corps la mance.</ab></div>
+    <div type="proverbe" n="39">
+<head>LUCANS</head>
+<ab type="gv"><lb n="1"/>Homs qui veult jugier loyaument
+<lb n="2"/>Doit garder au commencement
+<lb n="3"/>Qu'il ne soit trop d'amours sourpris
+<lb n="4"/>Ne de grant haïne entrepris.</ab></div>
+<pb n="13"/>
+    <div type="proverbe" n="40">
+<head>DOCTRINAL</head>
+<ab type="gv"><lb n="1"/>Homs monte par humilité,
+<lb n="2"/>Mesure le tient en chierté,
+<lb n="3"/>Orgueil fait homme trebuchier,
+<lb n="4"/>Paresce le fait mendier.</ab></div>
+    <div type="proverbe" n="41">
+<head>YPOCRAS</head>
+<ab type="gv"><lb n="1"/>Par seulement boire et mengier
+<lb n="2"/>Se peut l'en bien adommaigier ;
+<lb n="3"/>Folz est cilz, telz est mes recors,
+<lb n="4"/>Qui pour sa langue pert son corps.</ab></div>
+    <div type="proverbe" n="42">
+<head>JULLES</head>
+<ab type="gv"><lb n="1"/>Uns povres en franc tenement
+<lb n="2"/>Vault mieulx qu'uns sers a grant argent ;
+<lb n="3"/>Or ne argent ne vault ou monde
+<lb n="4"/>Riens vers grace, quant Dieus l'abonde.</ab></div>
+    <div type="proverbe" n="43">
+<head>EUSEBES</head>
+<ab type="gv"><lb n="1"/>Qui auques vit et souffrir peut,
+<lb n="2"/>Il voit auques de ce qu'il veult ;
+<lb n="3"/>Souffrir est bons, quant l'en ne peut :
+<lb n="4"/>Grant chose a en « faire l'estuet ».</ab></div>
+<pb n="14"/>
+    <div type="proverbe" n="44">
+<head>MINOR</head>
+<ab type="gv"><lb n="1"/>Bon fait et congnoistre et user
+<lb n="2"/>Dont l'en peut le mal eschiver ;
+<lb n="3"/>Au venin couvient le triacle,
+<lb n="4"/>Et au grant mehaing le miracle.</ab></div>
+    <div type="proverbe" n="45">
+<head>DOCTRINAL</head>
+<ab type="gv"><lb n="1"/>En homme n'est riens tant honteuse
+<lb n="2"/>Que c'est de maintenir oyseuse ;
+<lb n="3"/>Par engin est li homs moult saiges,
+<lb n="4"/>Et si le fait moult li usaiges.</ab></div>
+    <div type="proverbe" n="46">
+<head>LUCAN</head>
+<ab type="gv"><lb n="1"/>Qui son don pleure aprés et plaint,
+<lb n="2"/>La grace de son don estaint ;
+<lb n="3"/>Mieulx vault un don de lié couraige
+<lb n="4"/>Que ne font quatre par haussaige.</ab></div>
+    <div type="proverbe" n="47">
+<head>SYLO</head>
+<ab type="gv"><lb n="1"/>Cilz qui son cueur veult garder d'ire
+<lb n="2"/>Croire ne doit quanqu'il oyt dire ;
+<lb n="3"/>Car qui fait de s'oreille nasse
+<lb n="4"/>Grant tourment a son cueur amasse.</ab></div>
+<pb n="15"/>
+    <div type="proverbe" n="48">
+<head>VIRGILLES</head>
+<ab type="gv"><lb n="1"/>Pour bel parler ne pour savoir
+<lb n="2"/>N'est nulz prisiez, s'il n'a avoir ;
+<lb n="3"/>Car pour avoir est l'en amés,
+<lb n="4"/>Et pour avoir deshonnourés.</ab></div>
+    <div type="proverbe" n="49">
+<head>MACER</head>
+<ab type="gv"><lb n="1"/>Qui plus despent qu'a lui n'affiert
+<lb n="2"/>Sans coup ferir a mort se fiert ;
+<lb n="3"/>C'est trop folement despendu
+<lb n="4"/>Quant pour despendre on est pendu.</ab></div>
+    <div type="proverbe" n="50">
+<head>SENEQUES</head>
+<ab type="gv"><lb n="1"/>L'en doit saige felon cremir,
+<lb n="2"/>Et sot felon fait bon haïr,
+<lb n="3"/>Sot debonnaire deporter,
+<lb n="4"/>Et saige debonnaire amer.</ab></div>
+    <div type="proverbe" n="51">
+<head>VIRGILLES</head>
+<ab type="gv"><lb n="1"/>Qui tous ses bons veult acomplir
+<lb n="2"/>A nul bon chief n'en peut venir,
+<lb n="3"/>Ne ja n'iert de douleur gettés
+<lb n="4"/>Qu'acomplir veult ses voulentés.</ab></div>
+<pb n="16"/>
+    <div type="proverbe" n="52">
+<head>JULLES</head>
+<ab type="gv"><lb n="1"/>Li homs qui riens ne scet et aprandre ne veult
+<lb n="2"/>Et qui n'a qui le serve et servir ne se veult
+<lb n="3"/>Et cellui qui riens n'a et gaaignier ne veult,
+<lb n="4"/>Il n'est pas de merveille se Povreté l'aqueult.</ab></div>
+    <div type="proverbe" n="53">
+<head><hi rend="ital">Chatons dist</hi></head>
+<ab type="gv"><lb n="1"/>Nuls ne puet amer sans dobter,
+<lb n="2"/>L'en ne puet doubter sans amer.
+<lb n="3"/>Fortune tourne en petit d'eure :
+<lb n="4"/>Tel rit au main qui au soir pleure.</ab></div>
+    <div type="proverbe" n="54">
+<head><hi rend="ital">Chatons dist</hi></head>
+<ab type="gv"><lb n="1"/>Qui son cuer croit plus qu'il ne doit
+<lb n="2"/>Soi meisme folement deçoit ;
+<lb n="3"/>Et qui boit tant qu'il <supplied resp="#editor">en</supplied> est yvres,
+<lb n="4"/>De cens et d'avis est delivres.</ab></div></div>
+<note>Section 2 omise, car texte en latin</note>
+<pb n="29"/>
+				    <div type="section" n="3">
+<head>Quatrains apocryphes.</head>
+<div type="proverbe" n="55">
+<ab type="gv"><lb n="1"/>Assez vault mieulx amis en voye
+<lb n="2"/>Que ne font deniers en courroye ;
+<lb n="3"/>Qui de prandre est amenevis
+<lb n="4"/>De donner doit estre hardis.</ab></div>
+<div type="proverbe" n="56">
+<ab type="gv"><lb n="1"/>Qui de felon fait son portier,
+<lb n="2"/>De traïtteur son conseillier,
+<lb n="3"/>De fole femme sa moullier,
+<lb n="4"/>Mourir ne peut sans encombrier.</ab></div>
+<pb n="30"/>
+				        
+<div type="proverbe" n="57">
+<ab type="gv"><lb n="1"/>Deux choses sont que pas ne quier :
+<lb n="2"/>C'est jeune femme et esprevier ;
+<lb n="3"/>Car il fault pour eulx trop veillier,
+<lb n="4"/>Et si les pert on de legier.</ab></div>
+				        
+<div type="proverbe" n="58"><ab type="gv"><lb n="1"/>On ne peut faire par raison
+<lb n="2"/>De viel mesrien neufve maison,
+<lb n="3"/>Mais l'en fait bien tost par usaige
+<lb n="4"/>De deux vielz culz neuf mariaige.</ab></div>
+				        
+<div type="proverbe" n="59">
+<ab type="gv"><lb n="1"/>Saiges est qui l'omme deporte,
+<lb n="2"/>Qui ire et mautalant souporte :
+<lb n="3"/>Je ne say chose qui tant plaise,
+<lb n="4"/>C'on die bien ou qu'on se taise.</ab></div>
+				        
+<div type="proverbe" n="60">
+<ab type="gv"><lb n="1"/>Assez avoir et pou devoir
+<lb n="2"/>Et faire au monde son devoir
+<lb n="3"/>Et en bon estat remanoir,
+<lb n="4"/>Il y couvient grant sens avoir.</ab></div>
+<pb n="31"/>
+				        
+<div type="proverbe" n="61">
+<ab type="gv"><lb n="1"/>Qui du tout met son cuer en Dieu,
+<lb n="2"/>Il a son cuer et si a Dieu ;
+<lb n="3"/>Et qui le met en autre lieu,
+<lb n="4"/>Il pert son cuer et si pert Dieu.</ab></div>
+				        
+<div type="proverbe" n="62">
+<ab type="gv"><lb n="1"/>An mesdire d'autrui le pechié est trop grans,
+<lb n="2"/>Mieulx vault ung lierre, certes, ne fait un mesdisans :
+<lb n="3"/><supplied resp="#editor">Le</supplied> lierre puet <supplied resp="#editor">bien</supplied> rendre l'autrui en aucun temps,
+<lb n="4"/>Mais qui tost autrui grace, perdue est a tous temps.</ab></div>
+				        
+<div type="proverbe" n="63">
+<ab type="gv"><lb n="1"/>Personne servant, quel qu'il soit,
+<lb n="2"/>Ne doit couvoitier ce qu'il voit,
+<lb n="3"/>Autrui chose, grant ne petit,
+<lb n="4"/>S'il veult venir a bon prouffit.</ab></div>
+				        
+<div type="proverbe" n="64">
+<ab type="gv"><lb n="1"/>Avoir de clerc, toison de chien
+<lb n="2"/>Ne doivent pas venir a bien ;
+<lb n="3"/>Tous procureurs et advocas
+<lb n="4"/>Prennent tousjours sans estre las.</ab></div>
+				        
+<div type="proverbe" n="65">
+<ab type="gv"><lb n="1"/>Tout sens en grant barbe n'est mie :
+<lb n="2"/>Tel grant barbe a, qui sens n'a mie.
+<pb n="32"/>
+<lb n="3"/>Riche menteur, povre orguilleux
+<lb n="4"/>Hait Dieu, et viel luxurieux.</ab></div>
+				        
+<div type="proverbe" n="66">
+<ab type="gv"><lb n="1"/>Li homs qui vit plus de cent ans
+<lb n="2"/>A passé le plus de son temps ;
+<lb n="3"/>Il doit penser en sa jeunesse,
+<lb n="4"/>S'il vit, qu'il cherra en viellesse.</ab></div>
+				        
+<div type="proverbe" n="67">
+<ab type="gv"><lb n="1"/>Nul ne voulroit viel devenir
+<lb n="2"/>Ne nul ne veult jeune mourir ;
+<lb n="3"/>Mais Nature ne puet soufrir
+<lb n="4"/>Que l'en vive sans enviellir.</ab></div>
+				        
+<div type="proverbe" n="68">
+<ab type="gv"><lb n="1"/>Garde bien devant qui tu dis :
+<lb n="2"/>Tu ne scez ou tu as amis ;
+<lb n="3"/>En tel peuz tu avoir fiance
+<lb n="4"/>Qui desire ta mescheance.</ab></div>
+<pb n="33"/>
+				        
+<div type="proverbe" n="69">
+<ab type="gv"><lb n="1"/>Ou tost, ou tard, ou prés, ou loing,
+<lb n="2"/>A le fort du foible besoing ;
+<lb n="3"/>Povre homme saige est hors bouttez,
+<lb n="4"/>Et sot riches est appellez.</ab></div>
+				        
+<div type="proverbe" n="70">
+<ab type="gv"><lb n="1"/>Qui autrui mal va pourchaçant,
+<lb n="2"/>Le sien pourchace par avant ;
+<lb n="3"/>Personne ne face a autrui
+<lb n="4"/>Ce qu'il ne veult qu'on face a lui.</ab></div>
+				        
+<div type="proverbe" n="71">
+<ab type="gv"><lb n="1"/>Qui bien se mire, bien se voit ;
+<lb n="2"/>Qui bien se voit, bien se congnoit ;
+<lb n="3"/>Qui bien se congnoist, poy se prise,
+<lb n="4"/>S'a son jugement bien s'avise.</ab></div>
+<pb n="34"/>
+<div type="proverbe" n="72">
+    <ab type="gv"><lb n="1"/>Homs tant plus vit et plus aprent
+<lb n="2"/>Et plus scet de gouvernement ;
+<lb n="3"/>Pour ce doit on a son enffant
+<lb n="4"/>Monstrer le bien tant qu'il soit grant.</ab></div>
+				        
+<div type="proverbe" n="73">
+<ab type="gv"><lb n="1"/>Qui contre l'aguillon estrive,
+<lb n="2"/>Par deux fois se point et empire ;
+<lb n="3"/>Et cil refait grande folie
+<lb n="4"/>Qui son seigneur recontralie.</ab></div>
+				        
+<div type="proverbe" n="74">
+<ab type="gv"><lb n="1"/>Nostre vie n'est pas estable,
+<lb n="2"/>Ce savons nous chascun sans fable ;
+<lb n="3"/>Pour ce vous lo de l'amender :
+<lb n="4"/>La mort ne vous fait que traittier<note resp="#editor"> (?)</note>.</ab></div>
+				        
+<div type="proverbe" n="75">
+<ab type="gv"><lb n="1"/>Moult est fol qui a fol se mire
+<lb n="2"/>Et fol est qui a fol atire ;
+<lb n="3"/>Et qui a fol donne sa fille,
+<lb n="4"/>Bien la pert et si ra sa fille.</ab></div>
+<pb n="35"/>
+				        
+<div type="proverbe" n="76">
+<ab type="gv"><lb n="1"/>Par beau parler et par souffrir
+<lb n="2"/>Peut on a grant honneur venir ;
+<lb n="3"/>Par parler acquiert on amis
+<lb n="4"/>Et par trop parler ennemis.</ab></div>
+				        
+<div type="proverbe" n="77">
+<ab type="gv"><lb n="1"/>Peuple qui n'a gouvernement
+<lb n="2"/>Va a declin villainement ;
+<lb n="3"/>Et cil acquiert son sauvement
+<lb n="4"/>Qui bon conseil requiert souvent.</ab></div>
+				        
+<div type="proverbe" n="78">
+<ab type="gv"><lb n="1"/>Qui plus despent qu'il ne gaaingne
+<lb n="2"/>A la folie s'acompaigne ;
+<lb n="3"/>Bon fait despendre par raison :
+<lb n="4"/>Dieu et le monde aiment raison.</ab></div>
+				        
+<div type="proverbe" n="79">
+<ab type="gv"><lb n="1"/>Qui a des pois en sa maison,
+<lb n="2"/>Du pain fetiz et du boillon,
+<lb n="3"/>De grant folie se demente
+<lb n="4"/>De mielx avoir, s'il n'a grant rente.</ab></div>
+<pb n="36"/>
+				        
+<div type="proverbe" n="80">
+<ab type="gv"><lb n="1"/>Le monde se merveilleroit
+<lb n="2"/>Du grant sens que homme aroit
+<lb n="3"/>S'il ne croioit jamais conseil
+<lb n="4"/>De femme ne de son pareil.</ab></div>
+				        
+<div type="proverbe" n="81">
+<ab type="gv"><lb n="1"/>Cil est bien fol qui met s'entente
+<lb n="2"/>En cent n'en cinq ne en cinquante.
+<lb n="3"/>Qui trop se fie en fole femme,
+<lb n="4"/>IL pert le corps et si pert l'ame.</ab></div>
+				        
+<div type="proverbe" n="82">
+<ab type="gv"><lb n="1"/>Ne t'aprouche de fole femme :
+<lb n="2"/>Tout y pert on, et corps et ame ;
+<lb n="3"/>La femme bel semblant fera
+<lb n="4"/>A cil qui plus argent avra.</ab></div>
+<pb n="37"/>
+				        
+<div type="proverbe" n="83">
+<ab type="gv"><lb n="1"/>Femme qui prent, elle se vent,
+<lb n="2"/>Femme qui donne, s'abandonne ;
+<lb n="3"/>Femme qui veult s'onneur garder
+<lb n="4"/>Ne doit ne prendre ne donner.</ab></div>
+				        
+<div type="proverbe" n="84">
+<ab type="gv"><lb n="1"/>Droit dist, si en sommes certains,
+<lb n="2"/>Que le maintenir de putains
+<lb n="3"/>Vault pis de serpent et de vuivre
+<lb n="4"/>Ne d'omme qui tous jours est yvre.</ab></div>
+				        
+<div type="proverbe" n="85">
+<ab type="gv"><lb n="1"/>Putain fait tant par ses deux mains
+<lb n="2"/>Et despent tout et soir et mains,
+<lb n="3"/>Tant comme a qui argent ly livre :
+<lb n="4"/>De quant que tient tost est delivre.</ab></div>
+				        
+<div type="proverbe" n="86">
+<ab type="gv"><lb n="1"/>Qui croit putain et dé carré
+<lb n="2"/>Ne mourra ja sans povreté ;
+<pb n="38"/>
+<lb n="3"/>Putain si est de tel maniere :
+<lb n="4"/>Tant lui est devant com derrere.</ab></div>
+				        
+<div type="proverbe" n="87">
+<ab type="gv"><lb n="1"/>Ce que tu fais, fay saigement
+<lb n="2"/>Et si pren garde adés avant ;
+<lb n="3"/>Homs trop hardiz est effraiez
+<lb n="4"/>Quant de conseil n'est dottrinez.</ab></div>
+				        
+<div type="proverbe" n="88">
+<ab type="gv"><lb n="1"/>Nulz homs pour grant possession
+<lb n="2"/>Ne se <w>pue<supplied resp="#editor">t</supplied></w> vivre richement
+<lb n="3"/>S'il n'a sens et discrettion
+<lb n="4"/>Pour soy gouverner saigement.</ab></div>
+				        
+<div type="proverbe" n="88B">
+<ab type="gv"><lb n="1"/>Car par sens on puet largement
+<lb n="2"/>Despendre, donner et acquerre ;
+<lb n="3"/>Pour ce dit on communement :
+<lb n="4"/> <q> « Tant vault homme, tant vault sa terre ». </q> </ab></div>
+				        
+<div type="proverbe" n="89">
+<ab type="gv"><lb n="1"/>Clers parlent de benifices,
+<lb n="2"/>Ribaus de faus et de niches,
+<lb n="3"/>Chevaliers d'armes, et villains
+<lb n="4"/>De jumens et de leur porlains.</ab></div>
+<pb n="39"/>
+				        
+<div type="proverbe" n="90">
+<ab type="gv"><lb n="1"/>En amor de riche homme,
+<lb n="2"/>En santé de viel homme,
+<lb n="3"/>Et en beau temps d'iver,
+<lb n="4"/>Nul ne s'i doit fier.</ab></div>
+				        
+<div type="proverbe" n="91">
+<ab type="gv"><lb n="1"/>Tel a lez oils ors et vilainz
+<lb n="2"/>Qui lez eüst et beauz et sainz
+<lb n="3"/>Se tant de senz en li il eust
+<lb n="4"/>Qu'enprez mengier laver lez seust.</ab></div>
+				        
+<div type="proverbe" n="92">
+<ab type="gv"><lb n="1"/>Vous qui avez le vent a gré
+<lb n="2"/>Et estez par bien de la court,
+<lb n="3"/>Gardez vous du pas du degré,
+<lb n="4"/>Que le descent n'en soit trop court.</ab></div>
+				        
+<div type="proverbe" n="93">
+<ab type="gv"><lb n="1"/>O tu, entent a moy, diva :
+<lb n="2"/>Se tu pledez, tout y va.
+<pb n="40"/>
+<lb n="3"/>La pes, la pez - y n'i a tel -
+<lb n="4"/>Sauve l'ame, corps et chatel.</ab></div>
+				        
+<div type="proverbe" n="94">
+<ab type="gv"><lb n="1"/>Ne puis dormir se ne sui yvre,
+<lb n="2"/>Et se ne dorm, je ne puis vivre ;
+<lb n="3"/>Or escouvient, se je veul vivre,
+<lb n="4"/>Que je soie touz les jours yvre.</ab></div>
+				        
+<div type="proverbe" n="95">
+<ab type="gv"><lb n="1"/>Qui plus despent qu'a lui n'apent,
+<lb n="2"/>Souvent avient que nen le pent ;
+<lb n="3"/>Or est donquez <supplied resp="#editor">cil</supplied> mal vendu
+<lb n="4"/>Qui pour sez despens est pendu</ab></div>
+				        
+<div type="proverbe" n="96">
+<ab type="gv"><lb n="1"/>Se tout le sens de cest monde savoiez
+<lb n="2"/>Au temps present, et point d'argent n'avoiez,
+<lb n="3"/>Et tu fussez aussy bon <choice><corr resp="#editor">com</corr><sic><w>com<surplus>e</surplus></w></sic></choice> saint Pol,
+<lb n="4"/>Se tu n'as riens, on te tendra pour fol.</ab></div>
+				        
+<div type="proverbe" n="97">
+<ab type="gv"><lb n="1"/>Selon le tour du temps qui est,
+<lb n="2"/>Nul n'est proisié qui flateur n'est,
+<lb n="3"/>Et sy peust bien par tout aller
+<lb n="4"/>Qui <foreign rend="ital">placebo </foreign>soit demener.</ab></div>
+<pb n="41"/>
+				        
+<div type="proverbe" n="98">
+<ab type="gv"><lb n="1"/>Qui est flateur, il a le temps,
+<lb n="2"/>Et qui dit voir, il a fort temps ;
+<lb n="3"/>Mais encore vendra le temps
+<lb n="4"/>Que <supplied resp="#editor">li</supplied> flateurs avront mau temps.</ab></div>
+				        
+<div type="proverbe" n="99">
+<ab type="gv"><lb n="1"/>Se tu ne mez reson en toy,
+<lb n="2"/>Elle c'y mectra maugré toy ;
+<lb n="3"/>C'elle c'y met, tu es honnis,
+<lb n="4"/>Se tu l'i més, tu es garis.</ab></div>
+				        
+<div type="proverbe" n="100">
+<ab type="gv"><lb n="1"/>Ce n'estoit point de Dieu pour bien guerredonner
+<lb n="2"/>Et n'estoit point d'enfer pour amez tourmenter,
+<lb n="3"/>Si est pechié tant vil et tant fait a doubter
+<lb n="4"/>Que nul ne le <choice><corr resp="#editor">devrait</corr><sic><w>d<surplus>r</surplus>evrait</w></sic></choice> ne faire ne pencer.</ab></div>
+				        
+<div type="proverbe" n="101">
+<ab type="gv"><lb n="1"/>Qui de folie s'entremet,
+<lb n="2"/>N'est pas merveille s'il i met
+<pb n="42"/>
+<lb n="3"/>De son chastel aucune fois ;
+<lb n="4"/>Mieux li vaudroit tenir tout cois.</ab></div>
+				        
+<div type="proverbe" n="102">
+<ab type="gv"><lb n="1"/>A fame <supplied resp="#editor">bien</supplied> servir et a son gré respondre
+<lb n="2"/>Afiert plus de <choice><corr resp="#editor">metail</corr><sic><w>me<surplus>s</surplus>tail</w></sic></choice> qu'a une cloche fondre.
+<lb n="3"/>De tant ressamble fame a pluie :
+<lb n="4"/>Moult desiree, tost ennuie.</ab></div>
+				        
+<div type="proverbe" n="103">
+<ab type="gv"><lb n="1"/>Quant uns preudons povres devient,
+<lb n="2"/>A nulli de luy ne souvient ;
+<lb n="3"/>Et quant Fortune l'a haut mis,
+<lb n="4"/>Chascun veult estre sez amis.</ab></div>
+				        
+<div type="proverbe" n="104">
+<ab type="gv"><lb n="1"/>Bon est boire de vin, qui par raison le prent :
+<lb n="2"/>Qui le prent par raison, a parler lui aprent,
+<lb n="3"/>Et cil qui tant en boit que le vin le souprent,
+<lb n="4"/>Il se gieste en la boue, et s'en moque la gent.</ab></div>
+<pb n="43"/>
+				        
+<div type="proverbe" n="105">
+<ab type="gv"><lb n="1"/>Qui povres est et mau <w>ve<supplied resp="#editor">s</supplied>tus</w>,
+<lb n="2"/>Il n'est nulle part bien venus ;
+<lb n="3"/>Et qui est <choice><corr resp="#editor">riche</corr><sic><w>riche<surplus>s</surplus></w></sic></choice> et bien garnis,
+<lb n="4"/>Bien venus est de ses amis.</ab></div>
+				        
+<div type="proverbe" n="106">
+<ab type="gv"><lb n="1"/>Onc geline n'ama chapon,
+<lb n="2"/>N'aussi putain n'ama preudon,
+<lb n="3"/>Si ce n'est pour le sien avoir ;
+<lb n="4"/>On s'en peut bien appercevoir.</ab></div>
+				        
+<div type="proverbe" n="107">
+<ab type="gv"><lb n="1"/>De tant ressamble femme a pluye :
+<lb n="2"/>Desiree est, mais tost ennuye ;
+<lb n="3"/>Qui son cuer mect en folle femme,
+<lb n="4"/>Il pert avoir et corps et ame. </ab></div>
+				            
+<div type="proverbe" n="108">
+<ab type="gv"><lb n="1"/>Quant ung compaings d'argent n'a point
+<lb n="2"/>Et la saveur du vin le point,
+<pb n="44"/>
+<lb n="3"/>Je ne m'<supplied resp="#editor">en</supplied> esmerveille point
+<lb n="4"/>S'il mect en gaige son pourpoint.</ab></div>
+				        
+<div type="proverbe" n="109">
+<ab type="gv"><lb n="1"/>De legier met tout en despense
+<lb n="2"/>Qui nuit et jour a sa mort pense ;
+<lb n="3"/>De legier toute rien despit
+<lb n="4"/>Qui pense qu'a mort n'ait respit.</ab></div>
+				        
+<div type="proverbe" n="110">
+<ab type="gv"><lb n="1"/>La femme est de trop prés hastee
+<lb n="2"/>Qui de mentir n'est avisee ;
+<lb n="3"/>Il ne sot onc si bon temps estre
+<lb n="4"/>Qu'on ne perdist a putain paistre.</ab></div>
+				        
+<div type="proverbe" n="111">
+<ab type="gv"><lb n="1"/>Beauz filz, ce dit Chaton, aprens,
+<lb n="2"/>Qu'il n'est avoir qui vaille sens :
+<lb n="3"/>On te puet toulir ton avoir,
+    <lb n="4"/><supplied resp="#editor">Ce ne</supplied> puet on pas le <supplied resp="#editor">savoir</supplied>.</ab></div>
+				        
+<div type="proverbe" n="112">
+<ab type="gv"><lb n="1"/>Sapience au commencement
+<lb n="2"/>Doit donner homme entendement
+<pb n="45"/>
+<lb n="3"/>De Dieu servir et bien amer,
+<lb n="4"/>Mais li fol n'y veullent penser .</ab></div>
+				        
+<div type="proverbe" n="113">
+<ab type="gv"><lb n="1"/>Je pris plus un petit avoir,
+<lb n="2"/>Dont on puet paix et Dieu avoir,
+<lb n="3"/>C'un tresor par yre acquesté,
+<lb n="4"/>Dont on ait enfer achaté.</ab></div>
+				        
+<div type="proverbe" n="114">
+<ab type="gv"><lb n="1"/>Se Fortune t'a mis sur roye,
+<lb n="2"/>Par bons fais te dois alever ;
+<lb n="3"/>Si gart que point ne t'en desvoye :
+<lb n="4"/>Peine seroit du relever.</ab></div>
+				        
+<div type="proverbe" n="115">
+<ab type="gv"><lb n="1"/>Merveille est que Dieu ne confont
+<lb n="2"/>Les lieux et ceulx qu'i contrefont
+<lb n="3"/>Qu'ilz aient en eulx vraie raison,
+<lb n="4"/>Et si n'y a que traïson.</ab></div>
+				        
+<div type="proverbe" n="116">
+<ab type="gv"><lb n="1"/>Qui blandist homme par devant
+<lb n="2"/>Et darrier le va decevant,
+<pb n="46"/>
+<lb n="3"/>Il point pis, a m'entencion,
+<lb n="4"/>Que la queue de scorpion.</ab></div>
+				        
+<div type="proverbe" n="117">
+<ab type="gv"><lb n="1"/>Je lo a tout homme et ennorte
+<lb n="2"/>Que de bons fais prenne sa sorte,
+<lb n="3"/>Soustiengne droit et raison face ;
+<lb n="4"/>Par ce verra Dieu en la face.</ab></div>
+				        
+<div type="proverbe" n="118">
+<ab type="gv"><lb n="1"/>Li homs qui a noble richesse
+<lb n="2"/>Maintiengne a point doulce largesse,
+<lb n="3"/>Amoderé contenement,
+<lb n="4"/>Et si se tiengne nettement.</ab></div>
+				        
+<div type="proverbe" n="119">
+<ab type="gv"><lb n="1"/>Aime ton Dieu et son service,
+<lb n="2"/>Par ce pourras eschiver vice ;
+<lb n="3"/>Soyes garni d'umilité,
+<lb n="4"/>Pren compassion et pitié.</ab></div>
+				        
+<div type="proverbe" n="120">
+<ab type="gv"><lb n="1"/>Quant ta jeunesce vois florir,
+<lb n="2"/><choice><corr resp="#editor">Pense</corr><sic><w>Pense<surplus>s</surplus></w></sic></choice> qu'il te convient morir,
+<lb n="3"/>Laissier parens, biens, heritage ;
+<lb n="4"/>Avoir n'y pues autre avantage.</ab></div>
+<pb n="47"/>
+				        
+<div type="proverbe" n="121">
+<ab type="gv"><lb n="1"/>Pour <surplus resp="#editor">ta</surplus> conscience avoir delivre
+<lb n="2"/>Je te deffens de l'autrui vivre ;
+<lb n="3"/>Soyes a Patience offrans,
+<lb n="4"/>Vis de ton pain : tu seras frans.</ab></div>
+				        
+<div type="proverbe" n="122">
+<ab type="gv"><lb n="1"/>Hours, lyon, chat, singe et chien,
+<lb n="2"/>Ces <num>.v.</num> bestes aprent on bien ;
+<lb n="3"/>Mais on ne puet par nul engien
+<lb n="4"/>Mauvaise femme aprenre bien.</ab></div>
+				        
+<div type="proverbe" n="123">
+<ab type="gv"><lb n="1"/>Il est bien fol qui entreprent
+<lb n="2"/>Chose dont aprés se repent ;
+<lb n="3"/>Mieulx vault au mal non consentir
+<lb n="4"/>Qu'aprés le fait lui repentir.</ab></div>
+				        
+<div type="proverbe" n="124">
+<ab type="gv"><lb n="1"/>On a amis par grant avoir,
+<lb n="2"/>Povres homs n'en puet nulz avoir ;
+<lb n="3"/>Qui le sien despent folement,
+<lb n="4"/>Il n'est prisiés de nulle gent.</ab></div>
+<pb n="48"/>
+				        
+<div type="proverbe" n="125">
+<ab type="gv"><lb n="1"/>Droit jugez doit estre loyaulx,
+<lb n="2"/>N'est pas droit juge qui est faulx ;
+<lb n="3"/>Loyal juge<choice><corr resp="#editor">recevroit</corr><sic><w>recev<surplus>e</surplus>roit</w></sic></choice>mort
+<lb n="4"/>Se il jugeoit du droit le tort.</ab></div>
+				        
+<div type="proverbe" n="126">
+<ab type="gv"><lb n="1"/>Ou monde n'a rien qui tant griefve
+<lb n="2"/>Quon ly humbles quant il s'eslieve,
+<lb n="3"/>Et si n'est plus cruel dommaige
+<lb n="4"/>Qu'en petit cueur mauvais courage.</ab></div>
+				        
+<div type="proverbe" n="127">
+<ab type="gv"><lb n="1"/>Assez jeunés, assez veillés,
+<lb n="2"/>Et de mal faire vous gardés ;
+<lb n="3"/>Adés soiez en oraisons
+<lb n="4"/>A genoulx, en afflictions.</ab></div>
+				        
+<div type="proverbe" n="127B">
+<ab type="gv"><lb n="1"/>Et paiez quant que vous devez
+<lb n="2"/>Et donnez quant que vous avez.
+<lb n="3"/>Se Dieu n'aymez de tout vo cueur,
+<lb n="4"/>Trestous ses biens sont gettez fuer.</ab></div>
+				        
+<div type="proverbe" n="128">
+<ab type="gv"><lb n="1"/>Celuy est fol qui a fol boute
+<lb n="2"/>Et si est fol qui <surplus resp="#editor">le</surplus> fol escoute ;
+<pb n="49"/>
+<lb n="3"/>Et qui a fol donne sa fille,
+<lb n="4"/>Bien la pert et si ra sa fille.</ab></div>
+				        
+<div type="proverbe" n="129">
+<ab type="gv"><lb n="1"/>Ostés voz truffes et voz gatz,
+<lb n="2"/>Car tel est ores beaulx et gras
+<lb n="3"/>Qui jamais ne verra demain :
+<lb n="4"/>La mort ne dort point, pour certain.</ab></div>
+				        
+<div type="proverbe" n="130">
+<ab type="gv"><lb n="1"/>Apren tousjours, tant que tu peulx,
+<lb n="2"/>Et point ne soyez envieux
+<lb n="3"/>Ne couvoiteux d'avoir d'aultruy :
+<lb n="4"/>Riche seras, je te l'affy.</ab></div>
+				        
+<div type="proverbe" n="131">
+<ab type="gv"><lb n="1"/>Laide chose est, a faire a deux
+<lb n="2"/>Ce que on peult faire tout seulx ;
+<lb n="3"/>Car ce n'est pas toute evangille
+<lb n="4"/>Quant que l'en dit parmy la ville.</ab></div>
+				        
+<div type="proverbe" n="132">
+<ab type="gv"><lb n="1"/>Bon fait tousjours qui peult gaigner,
+<lb n="2"/>Bon fait par raison espargner ;
+<pb n="50"/>
+<lb n="3"/>Car tousjours est temps de despendre,
+<lb n="4"/>Qui en veult la droicte heure attendre.</ab></div>
+				        
+<div type="proverbe" n="133">
+<ab type="gv"><lb n="1"/>Qui d'aultruy mesdire vouldra,
+<lb n="2"/>Regarde soy : il se taira ;
+<lb n="3"/>Car cil se doit bien sentir net
+<lb n="4"/>Qui de mesdire s'entremet.</ab></div>
+    
+<div type="proverbe" n="134">
+<ab type="gv"><lb n="1"/>Qui mesdit de femme est vilain,
+<lb n="2"/>Et saches pas de cuer ne l'aim ;
+<lb n="3"/>Car nous sommes tous nez de femme
+<lb n="4"/>Pour ce partons a leur diffame.</ab></div>
+    
+<div type="proverbe" n="135">
+<ab type="gv"><lb n="1"/>Je ne tien pas celui pour saige
+<lb n="2"/>Qui monstre a chascun son couraige ;
+<lb n="3"/>Car sil qui ton conseil savra
+<lb n="4"/>En sa prison il te tiendra.</ab></div>
+<pb n="51"/>
+    
+<div type="proverbe" n="136">
+<ab type="gv"><lb n="1"/>Petit dom donné voulentiers
+<lb n="2"/>Si doit valoir deux dons entiers,
+<lb n="3"/>Et grant dom par trop attendu
+<lb n="4"/>N'est pas donné, ains est vendu.</ab></div>
+    
+<div type="proverbe" n="137">
+<ab type="gv"><lb n="1"/>Salemon sy dist que tant est
+<lb n="2"/>Le fol saige comme il se test ;
+<lb n="3"/>Et quant en parler se deslie,
+<lb n="4"/>Si fait congnoistre sa folie.</ab></div>
+    
+<div type="proverbe" n="138">
+<ab type="gv"><lb n="1"/>Qui contre raison veult ouvrer,
+<lb n="2"/>En la fin lui couvient trouver
+<lb n="3"/>Le guerredon de sa folie ;
+<lb n="4"/>Si est saige qui s'umilie.</ab></div>
+    
+<div type="proverbe" n="139">
+<ab type="gv"><lb n="1"/>Mauvais chatel si a tel teche
+<lb n="2"/>Que tous les jours dechiet et seche
+<lb n="3"/>Si qu'a nul bien faire ne vault
+<lb n="4"/>Pour la bonté qui en lui fault.</ab></div>
+<pb n="52"/>
+    
+<div type="proverbe" n="140">
+<ab type="gv"><lb n="1"/>Qui d'autrui descouvrir se peine,
+<lb n="2"/>Bien souvent advient que la peine
+<lb n="3"/>Du mal qu'il quiert sur lui revient,
+<lb n="4"/>Si comme droit a droit revient.</ab></div>
+
+				        
+<div type="proverbe" n="141">
+<ab type="gv"><lb n="1"/>Erraument, sans contremander,
+<lb n="2"/>Doit cil qui mesprent amander,
+<lb n="3"/>Car preudomme, quant il mesprent,
+<lb n="4"/>Tantost a l'amander se prent.</ab></div>
+    
+<div type="proverbe" n="142">
+<ab type="gv"><lb n="1"/>Qui le bien oit et nel retient,
+<lb n="2"/>Celui ressemble qui revient
+<lb n="3"/>Mourant de soif de la fontaine ;
+<lb n="4"/>Ainsi pert le maistre sa paine.</ab></div>
+    
+<div type="proverbe" n="143">
+<ab type="gv"><lb n="1"/>Bien treuve qui au bien se tient,
+<lb n="2"/>Car cil qui au mal se maintient,
+<lb n="3"/>Ou tost, ou tart, vueille ou ne vueille,
+<lb n="4"/>Couvient il que du mal se dueille.</ab></div>
+<pb n="53"/>
+    
+<div type="proverbe" n="144">
+<ab type="gv"><lb n="1"/>Qui a bien venir veult entendre,
+<lb n="2"/>Selon son aise doit despendre ;
+<lb n="3"/>Saches qu'entre fol et avoir
+<lb n="4"/>Ne peut longue demeure avoir.</ab></div>
+    
+<div type="proverbe" n="145">
+<ab type="gv"><lb n="1"/>Amis de bouche vous fauldront
+<lb n="2"/>N'a nul besoing ne vous vauldront ;
+<lb n="3"/>A la mer espuisier entent
+<lb n="4"/>Cil qui a telz amis s'attent.</ab></div>
+    
+<div type="proverbe" n="146">
+<ab type="gv"><lb n="1"/>Autant vault argent sans amy
+<lb n="2"/>Comme fait avoir d'ennemy ;
+<lb n="3"/>Bien peut estre povre clamé
+<lb n="4"/>Qui deniers a, et n'est amé.</ab></div>
+    
+<div type="proverbe" n="147">
+<ab type="gv"><lb n="1"/>Voz grans deniers si vous fauldront
+<lb n="2"/>La ou voz amis vous vauldront,
+<lb n="3"/>Si devez plus querre et avoir
+<lb n="4"/>Bons amis que planté d'avoir.</ab></div>
+<pb n="54"/>
+    
+<div type="proverbe" n="148">
+<ab type="gv"><lb n="1"/>Le sain qui malade devient
+<lb n="2"/>Scet bien qu'au malade couvient.
+<lb n="3"/>Musart est cil qui tant s'endebte
+<lb n="4"/>Que il ne peut paier sa debte.</ab></div>
+    
+<div type="proverbe" n="149">
+<ab type="gv"><lb n="1"/>Nulz ne peut oster, ne droit n'est,
+<lb n="2"/>De son sac fors ce qui y est ;
+<lb n="3"/>A grant paine et a grant grevance
+<lb n="4"/>Peut on laissier acoustumance.</ab></div>
+    
+<div type="proverbe" n="150">
+<ab type="gv"><lb n="1"/>Telz est moult petite personne
+<lb n="2"/>Qui moult de fois bon conseil donne.
+<lb n="3"/>Tu pues faire de ton amy
+<lb n="4"/>Par trop parler ton ennemy.</ab></div>
+    
+<div type="proverbe" n="151">
+<ab type="gv"><lb n="1"/>Promesse qui n'est tost rendue
+<lb n="2"/>Fait tenir gens en fafelue.
+<lb n="3"/>Ce siecle si n'est q'un trespas :
+<lb n="4"/>Telz est huy qui demain n'est pas.</ab></div>
+<pb n="55"/>
+    
+<div type="proverbe" n="152">
+<ab type="gv"><lb n="1"/>Largesce fay pour tes amis,
+<lb n="2"/>S'en toy a Dieu point de sens mis ;
+<lb n="3"/>Non pourquant ne t'oublie mie,
+<lb n="4"/>Ne pour amy, ne pour amie.</ab></div>
+    
+<div type="proverbe" n="153">
+<ab type="gv"><lb n="1"/>Se Dieu te donne enfans avoir,
+<lb n="2"/>Se tu n'as pas assez avoir,
+<lb n="3"/>Fay leur apprendre tel mestier
+<lb n="4"/>Qui a vivre leur ait mestier.</ab></div>
+    
+<div type="proverbe" n="154">
+<ab type="gv"><lb n="1"/>Richesse va, richesse vient,
+<lb n="2"/>Le mestier a l'omme se tient ;
+<lb n="3"/>Temps est du scien habandonner,
+<lb n="4"/>Et lieu est qu'on le doit garder.</ab></div>
+    
+<div type="proverbe" n="155">
+<ab type="gv"><lb n="1"/>Telz fait son preu qui puis s'en deult ;
+<lb n="2"/>Pas n'y requeuvre quant il veult.
+<lb n="3"/>Saiges est et de bonne vie
+<lb n="4"/>Qui par exemple se chastie.</ab></div>
+    
+<div type="proverbe" n="156">
+<ab type="gv"><lb n="1"/>Qui le grain voit et prent la paille
+<lb n="2"/>Et ne veult que le grain lui vaille,
+<pb n="56"/>
+<lb n="3"/>Par raison le mal le confont ;
+<lb n="4"/>Avuglez sont ceulx qui ce font.</ab></div>
+    
+<div type="proverbe" n="157">
+<ab type="gv"><lb n="1"/>Nous devons eschever la voye
+<lb n="2"/>Qui de Dieu veoir nous desvoye,
+<lb n="3"/>Et la voye devons tenir
+<lb n="4"/>Qui es cieulx nous fera venir.</ab></div>
+    
+<div type="proverbe" n="158">
+<ab type="gv"><lb n="1"/>Au preudomme ses biens foisonne,
+<lb n="2"/>Car plus en a quant plus en donne.
+<lb n="3"/>Tout aussi comme la fontaine
+<lb n="4"/>Qui s'espent et tousjours est plaine.</ab></div>
+    
+<div type="proverbe" n="159">
+<ab type="gv"><lb n="1"/>Qui se garde de plaidoyer,
+<lb n="2"/>Du jeu des dez et du tablier,
+<lb n="3"/>Et de l'ostel au tavernier,
+<lb n="4"/>Il aura du pain a mengier.</ab></div>
+    
+<div type="proverbe" n="160">
+<ab type="gv"><lb n="1"/>Ne puez plain pié passer le sueil
+<lb n="2"/>Que la mort ne te saille a l'ueil.
+<pb n="57"/>
+<lb n="3"/>Garde que ne se puist clamer
+<lb n="4"/>De toy cil qui te doit amer.</ab></div>
+    
+<div type="proverbe" n="161">
+<ab type="gv"><lb n="1"/>A bon droit son service pert
+<lb n="2"/>Qui de son gré mauvais hom sert.
+<lb n="3"/>Quant femme est un pou embeüe,
+<lb n="4"/>Legierement est deceüe.</ab></div>
+    
+<div type="proverbe" n="162">
+<ab type="gv"><lb n="1"/>Qui aver est de beau parler,
+<lb n="2"/>En nul bon lieu ne doit aler.
+<gap resp="#editor" rend="points"/></ab></div>
+    
+<div type="proverbe" n="163">
+<ab type="gv"><lb n="1"/>Li homs est fol, ce m'est advis,
+<lb n="2"/>Quant il est hors de son paÿs,
+<lb n="3"/>De se vanter plus qu'il ne doibt ;
+<lb n="4"/>Mont grant honte souvent en voit.</ab></div>
+<pb n="58"/>
+    
+<div type="proverbe" n="164">
+<ab type="gv"><lb n="1"/>A grant besoin veoir puet on
+<lb n="2"/>Qui est son amy et qui non ;
+<lb n="3"/>Tel fait semblant de bien amer
+<lb n="4"/>Qui a le cuer faulx et amer.</ab></div>
+    
+<div type="proverbe" n="165">
+<ab type="gv"><lb n="1"/>Quant bon compains n'a de l'argent
+<lb n="2"/>Et la fleur de bon <supplied resp="#editor">sain</supplied> vin sent,
+<lb n="3"/>C'est merveille, par saint Vincent,
+<lb n="4"/>Que le baulevre ne li fent.</ab></div>
+    
+<div type="proverbe" n="166">
+<ab type="gv"><lb n="1"/>Bon fait a son proffit entendre,
+<lb n="2"/>Car pou sont d'amys que pour prendre.
+    <lb n="3"/><supplied resp="#editor">De prommesse vous servira
+    Cil qui au besoing vous fauldra</supplied>.</ab></div>
+    
+<div type="proverbe" n="167">
+<ab type="gv"><lb n="1"/>Le tavernier n'a d'oste cure
+<lb n="2"/>Qui ne puet paier sa droicture.
+    <lb n="3"/><supplied resp="#editor">Qui riens n'a et scet bel parler
+        Peut bien en plusieurs lieux aler</supplied>.</ab></div>
+<pb n="59"/>
+    
+<div type="proverbe" n="168">
+<ab type="gv"><lb n="1"/>Qui m'aime bien, a tart m'oublie,
+<lb n="2"/>Et qui du cuer ne m'aime mie,
+<lb n="3"/>Ja a mon besoing ne vendra
+<lb n="4"/>Ne de moy ne lui souvendra.</ab></div>
+    
+<div type="proverbe" n="169">
+<ab type="gv"><lb n="1"/>Bien est li avoirs emploiez
+<lb n="2"/>Qui pour les bons est desploiez ;
+<lb n="3"/>Un bon amy, a dire voir,
+<lb n="4"/>Vault mielx que plain un val d'avoir.</ab></div>
+    
+<div type="proverbe" n="170">
+<ab type="gv"><lb n="1"/>N'est pas merveille se l'en ment,
+<lb n="2"/>Mais qui par coustume s'i prent,
+<lb n="3"/>Bien se puet pour musart tenir,
+<lb n="4"/>Qu'a nul bon chief n'en puet venir.</ab></div>
+    
+<div type="proverbe" n="171">
+<ab type="gv"><lb n="1"/>Honneure ton pere et ta mere
+<lb n="2"/>Pour eschever la mort amere,
+<lb n="3"/>Si vivras longuement sur terre ;
+<lb n="4"/>Chacun doit longue vie aquerre.</ab></div>
+<pb n="60"/>
+    
+<div type="proverbe" n="172">
+<ab type="gv"><lb n="1"/>Le villain souvent nourrist l'oë
+<lb n="2"/>Dont ja n'en mettra en sa moë ;
+<lb n="3"/>Et pour ce se doit on garder
+<lb n="4"/>Que on ne perde a trop garder.</ab></div>
+    
+<div type="proverbe" n="173">
+<ab type="gv"><lb n="1"/>Morir convient, c'est chose dure,
+<lb n="2"/>Souvent advient selon nature,
+<lb n="3"/>Nul ne revient de pourriture,
+<lb n="4"/>Et n'en souvient a creature.</ab></div>
+    
+<div type="proverbe" n="174">
+<ab type="gv"><lb n="1"/>Mieulx vault assez congnoistre soy
+<lb n="2"/>Qu'estre pape, empereur ou roy
+<lb n="3"/>Et toutes sciences sçavoir
+<lb n="4"/>Et tout l'avoir du monde avoir.</ab></div>
+<pb n="61"/>
+    
+<div type="proverbe" n="175">
+<ab type="gv"><lb n="1"/>Trop cuider et peu sçavoir,
+<lb n="2"/>Trop soy priser et peu valoir,
+<lb n="3"/>Trop parler sanç dire voir,
+<lb n="4"/>Sont trois poins de ne riens valoir.</ab></div>
+    
+<div type="proverbe" n="176">
+<ab type="gv"><lb n="1"/>Bon fait sçavoir aucun mestier
+<lb n="2"/>Pour soy aider, s'il est mestier.
+<lb n="3"/>Ou quelque science honnorable
+<lb n="4"/>Contre Fortune variable.</ab></div>
+    
+<div type="proverbe" n="177">
+<ab type="gv"><lb n="1"/>Plourons tous de bon cuer parran
+<lb n="2"/>Devant Dieu, le quel nous a fait
+<lb n="3"/>Et qui pour nostre sauvement
+<lb n="4"/>A souffert mort et grief torment.</ab></div>
+    
+<div type="proverbe" n="178">
+<ab type="gv"><lb n="1"/>Bien doit tenir nette sa bouche
+<lb n="2"/>Cil qui le corps Jhesucrist touche ;
+<lb n="3"/>Bonne voulenté et bien faire
+<lb n="4"/><supplied resp="#editor">Nous</supplied> fait l'amour de Dieu attraire.</ab></div>
+    
+<div type="proverbe" n="179">
+<ab type="gv"><lb n="1"/>Oïr messe ne destourbe homme,
+<lb n="2"/>Donner pour Dieu n'appovrist homme,
+<pb n="62"/>
+<lb n="3"/>Prendre l'autrui n'enrichist homme,
+<lb n="4"/>Servir a Dieu fait regner l'homme.</ab></div>
+    
+<div type="proverbe" n="180">
+<ab type="gv"><lb n="1"/>En quelque honneur que homme habonde,
+<lb n="2"/>Il n'a que sa vie en ce monde ;
+<lb n="3"/>Quant il a vescu tout son temps,
+<lb n="4"/>Il n'a gaingné que ses despens.</ab></div>
+    
+<div type="proverbe" n="181">
+<ab type="gv"><lb n="1"/>Le pïeur morseau de la beste
+<lb n="2"/>Se treuve au plus prés de la teste :
+<lb n="3"/>C'est la langue, dont tout mal vient,
+<lb n="4"/>Qui fort subgecte ne la tient.</ab></div>
+    
+<div type="proverbe" n="182">
+<ab type="gv"><lb n="1"/>L'omme qui a grant bien pretend
+<lb n="2"/>Doit par raison faire content
+<pb n="63"/>
+<lb n="3"/>Ung chascun, selon son affaire,
+<lb n="4"/>Par bien parler ou par soy taire.</ab></div>
+    
+<div type="proverbe" n="183">
+<ab type="gv"><lb n="1"/>Pour bien parler ne pour sçavoir
+<lb n="2"/>Nul n'est prisié s'il n'a avoir ;
+<lb n="3"/>L'avoir monte l'homme a honneur
+<lb n="4"/>Et le trebuche en deshonneur.</ab></div>
+    
+<div type="proverbe" n="184">
+<ab type="gv"><lb n="1"/>Doulce parolle est en saison
+<lb n="2"/>En tous temps de division ;
+<lb n="3"/>Car parler amyablement
+<lb n="4"/>Peult chascun couvenablement,</ab></div>
+    
+<div type="proverbe" n="185">
+<ab type="gv"><lb n="1"/>Ou monde n'a tresor si grant
+<lb n="2"/>Qu'est honneur ; qui le va querant
+<lb n="3"/>Ne peut faillir, je vous affye,
+<lb n="4"/>D'avoir la pardurable vie.</ab></div>
+    
+<div type="proverbe" n="186">
+<ab type="gv"><lb n="1"/>Nulle trahison n'est si grant
+<lb n="2"/>Que celle faicte par samblant.
+<lb n="3"/>Fol est qui ne congnoist en luy
+<lb n="4"/>Ce qu'il veult noter en autruy.</ab></div>
+<pb n="64"/>
+    
+<div type="proverbe" n="187">
+<ab type="gv"><lb n="1"/>Taire te dois quant aucun parlera,
+<lb n="2"/>La parolle d'autrui t'enseignera
+<lb n="3"/>A congnoistre leurs meurs et leurs couraiges,
+<lb n="4"/>Leurs voulentés sçavras par leurs langaiges.</ab></div>
+    
+<div type="proverbe" n="188">
+<ab type="gv"><lb n="1"/>Attrempe toy quant tu seras a table,
+<lb n="2"/>Ne parles trop, soit verité ou fable ;
+<lb n="3"/>Car pour jangleur seroies renommé,
+<lb n="4"/>Puis que courtois tu veulz estre nommé.</ab></div>
+    
+<div type="proverbe" n="189">
+<ab type="gv"><lb n="1"/>Attrempe toy en faisant ta despense ;
+<lb n="2"/>Quant elle croist, <supplied resp="#editor">si</supplied> considere et pense
+<lb n="3"/>Qu'en bref temps est ta chose despendue
+<lb n="4"/>Qui longuement a esté actendue.</ab></div>
+    
+<div type="proverbe" n="190">
+<ab type="gv"><lb n="1"/>Ne te meslez de raconter parolles
+<lb n="2"/>Qu'on ne die que les contreuves folles,
+<lb n="3"/>Car le taire ne peult a nulluy nuyre,
+<lb n="4"/>Mais trop parler peult bien homme destruire.</ab></div>
+    
+<div type="proverbe" n="191">
+<ab type="gv"><lb n="1"/>Tout nud fuz nez de ta propre nature,
+<lb n="2"/>Riens n'apportas : tout gist en adventure.
+<pb n="65"/>
+<lb n="3"/>Soyes preudhons de bonne conscience ;
+<lb n="4"/>Ta pouvreté dois prendre en pacience.</ab></div>
+    
+<div type="proverbe" n="192"><ab type="gv">
+<lb n="1"/>Jamais nul jour, tant que le temps te dure,
+<lb n="2"/>Ne te fauldront les proffis de nature ;
+<lb n="3"/>De ta fortune tu dois estre contens
+<lb n="4"/>Et prendre en gré sans murmure ou contemps.
+</ab></div>
+
+				        
+<div type="proverbe" n="193">
+<ab type="gv"><lb n="1"/>Celui qui son sens veult garder
+<lb n="2"/>Ne doit croire a tout parler ;
+<lb n="3"/>Qui croire vouldra tout rapport,
+<lb n="4"/>A nul ne peult avoir accort.</ab></div>
+    
+<div type="proverbe" n="194">
+<ab type="gv"><lb n="1"/>Se fol <supplied resp="#editor">tu</supplied> es, et <supplied resp="#editor">que</supplied>mal te gouvernes,
+    <lb n="2"/>Suivans bourdeaux, jeuz <supplied resp="#editor">de dez</supplied> et tavernes,
+<lb n="3"/>S'il te meschiet, ne dy pas, comme bugle,
+<lb n="4"/>Que Fortune, qui bien voit, soit aveugle.</ab></div>
+    
+<div type="proverbe" n="195">
+<ab type="gv"><lb n="1"/>Tes garnisons dois faire de saison
+<lb n="2"/>Et tes choses despendre par raison,
+<lb n="3"/>Sans abuser ; ceulx sont folz qui se hastent :
+<lb n="4"/>Deffault en ont aprés, quant ilz les gastent.</ab></div>
+<pb n="66"/>
+    
+<div type="proverbe" n="196">
+<ab type="gv"><lb n="1"/>Veiller est bon, oyseuse est chose nice ;
+<lb n="2"/>En long repoz se nourrit divers vice :
+<lb n="3"/>Luxure y maint, gloutonnie et yvresse
+<lb n="4"/>Et accide, qu'on appelle paresse.</ab></div>
+    
+<div type="proverbe" n="197">
+<ab type="gv"><lb n="1"/>Se Fortune vous est propice,
+<lb n="2"/>Ne servez point tant a nul vice ;
+<lb n="3"/>Fuiez les, soiés vertueux
+<lb n="4"/>Et querez honneur en tous lieux.</ab></div>
+    
+<div type="proverbe" n="198">
+<ab type="gv"><lb n="1"/>Qui son argent preste a usure
+<lb n="2"/>Et maintient vie de luxure
+<lb n="3"/>Et joue aux dez et au godet,
+<lb n="4"/>Il est tantost du sien tout net.</ab></div>
+    
+<div type="proverbe" n="199">
+<ab type="gv"><lb n="1"/><choice><corr resp="#editor">Qui</corr><sic><w>Qui<surplus>l</surplus></w></sic></choice>ne paye ce qu'il accroit,
+<lb n="2"/>Selon raison et selon droit
+    <lb n="3"/>Ne doit trouver nul <choice><corr resp="#editor">qui</corr><sic><w>qui<surplus>l</surplus></w></sic></choice> luy preste ;
+<lb n="4"/>A ceste sentence t'areste.</ab></div>
+    
+<div type="proverbe" n="200">
+<ab type="gv"><lb n="1"/>Quant en honneur tu monteras
+<lb n="2"/>Et fortune propice auras,
+<pb n="67"/>
+<lb n="3"/>Prens pour ta guide humilité,
+<lb n="4"/>Car telz montent en hault degré.</ab></div>
+    
+<div type="proverbe" n="201">
+<ab type="gv"><lb n="1"/>Se <surplus resp="#editor">tu</surplus> trebuches en pouvreté
+<lb n="2"/>Ou en aucune adversité,
+<lb n="3"/>Monstre toy homme de science
+<lb n="4"/>Et prens avec toy pacience.</ab></div>
+    
+<div type="proverbe" n="202">
+<ab type="gv"><lb n="1"/>Ne veuilles nulluy despriser
+<lb n="2"/>Pour toy vouloir gloriffier :
+<lb n="3"/>Tu en pourrois acquerre blasme,
+<lb n="4"/>Plustost que bon renom et fame</ab></div>
+    
+<div type="proverbe" n="203">
+<ab type="gv"><lb n="1"/>Soyes doulz, humble et debonnaire
+<lb n="2"/>Et ne fais a nulluy contraire,
+<lb n="3"/>Soyes juste, en faiz et en diz :
+<lb n="4"/>Par ce obtiendras paradis.</ab></div>
+    
+<div type="proverbe" n="204">
+<ab type="gv"><lb n="1"/>Qui sans donner a fol prommet,
+<lb n="2"/>De neant en joye le mect ;
+<lb n="3"/>Car prommettre et <supplied resp="#editor">ne</supplied> riens tenir
+<lb n="4"/>Fait le fol joyeux maintenir.</ab></div>
+<pb n="68"/>
+    
+<div type="proverbe" n="205">
+<ab type="gv"><lb n="1"/>En pou de temps est oublyé
+<lb n="2"/>Qui perdu est ou devié ;
+<lb n="3"/>Ainsi se portent, ce m'est vis,
+<lb n="4"/>Les mors quant au regard des vifz.</ab></div>
+    
+<div type="proverbe" n="206">
+<ab type="gv"><lb n="1"/>Nul homme n'a si dur couraige
+<lb n="2"/>Que faim n'amollist en peu d'<choice><corr resp="#editor">age</corr><sic><w><surplus>e</surplus>age</w></sic></choice>.
+<lb n="3"/>Ung chascun prenne en sa memoire
+<lb n="4"/>Que maint mal advient par trop boire.</ab></div>
+    
+<div type="proverbe" n="207">
+<ab type="gv"><lb n="1"/>En gens coys tricherie habunde :
+<lb n="2"/>L'eaue coye est la plus parfonde ;
+<lb n="3"/>Ne vous fiez en grans taisans,
+<lb n="4"/>Car moult en y a de nuysans.</ab></div>
+    
+<div type="proverbe" n="208">
+<ab type="gv"><lb n="1"/>A femme servir et respondre
+<lb n="2"/>Plus grans sens a qu'a cloches fondre ;
+<lb n="3"/>Trop est femme de prés hastee
+<lb n="4"/>Quant de mentir est esgaree.</ab></div>
+    
+<div type="proverbe" n="209">
+<ab type="gv"><lb n="1"/>N'aies pas si foible couraige,
+<lb n="2"/>Se d'aucunes riens as dommaige,
+<pb n="69"/>
+<lb n="3"/>Que d'avoir mieulx n'aye esperance
+<lb n="4"/>Envers Dieu qui les siens advance.</ab></div>
+    
+<div type="proverbe" n="210">
+<ab type="gv"><lb n="1"/>Le bon vin et bonne viande
+<lb n="2"/>Le soulas de la char demande ;
+<lb n="3"/>Car vous sçavez qu'en ventre vuit
+<lb n="4"/>N'a grant soulas ne grant deduit.</ab></div>
+    
+<div type="proverbe" n="211">
+<ab type="gv"><lb n="1"/>Nulz homs ne doit hanter taverne
+<lb n="2"/>Se sa bourse ne le gouverne.
+<lb n="3"/>Qui veult ung bon ami trouver,
+<lb n="4"/>Il le fault avant esprouver.</ab></div>
+    
+<div type="proverbe" n="212">
+<ab type="gv"><lb n="1"/>Se vous trouvez leale amye,
+<lb n="2"/>Reffuser ne la devez mye ;
+<lb n="3"/>Mais quant telle la trouverez,
+<lb n="4"/>Le soubtil des soubtilz serez.</ab></div>
+    
+<div type="proverbe" n="213">
+<ab type="gv"><lb n="1"/>Le cuer qui ayme par amour,
+<lb n="2"/>N'a pas de legier fait son tour.
+<lb n="3"/>Celui est fol qui clost sa porte
+<lb n="4"/>A celui qui present luy porte.</ab></div>
+<pb n="70"/>
+    
+<div type="proverbe" n="214">
+<ab type="gv"><lb n="1"/>Faiz du bien tant que tu pourras,
+<lb n="2"/>Car tu ne sçais quant tu morras ;
+<lb n="3"/>La mort n'espargne roy ne pape :
+<lb n="4"/>Chascun est subgect a sa trappe.</ab></div>
+    
+<div type="proverbe" n="215">
+<ab type="gv"><lb n="1"/>Homme qui est pouvre tenu
+<lb n="2"/>Est par coustume mal venu.
+<lb n="3"/>Cil qui despent oultre raison,
+<lb n="4"/>Tost trouve vuide sa maison.</ab></div>
+    
+<div type="proverbe" n="216">
+<ab type="gv"><lb n="1"/>En peril maintes fois se voit
+<lb n="2"/>Qui de legier sa femme croit ;
+<lb n="3"/>Son service pert et sa peine
+<lb n="4"/>Qui du mauvais servir se peine.</ab></div>
+    
+<div type="proverbe" n="217">
+<ab type="gv"><lb n="1"/>Mauvais est qui ne reguerdonne
+<lb n="2"/>Ou dessert le bien qu'on luy donne ;
+<lb n="3"/>Ingratitude est ung grief vice,
+<lb n="4"/>Car a nul bien il n'est propice.</ab></div>
+    
+<div type="proverbe" n="218">
+<ab type="gv"><lb n="1"/>Celui qui sur autruy murmure
+<lb n="2"/>Et qui de bien dire n'a cure,
+<pb n="71"/>
+<lb n="3"/>On lui devroit la langue traire ;
+<lb n="4"/>Mal fait dire ce qu'on doit taire.</ab></div>
+    
+<div type="proverbe" n="219">
+<ab type="gv"><lb n="1"/>Beau filz, de pouvreté te garde,
+<lb n="2"/>Et souvent a ta fin regarde ;
+<lb n="3"/>Mieulx vault en ce monde terrestre
+<lb n="4"/>Jeune morir, que viel pouvre estre.</ab></div>
+    
+<div type="proverbe" n="219B">
+<ab type="gv"><lb n="1"/>Ceulx qui en povreté vivront,
+<lb n="2"/>Leurs freres mesmes les <choice><corr resp="#editor">harront</corr><sic><w>ha<surplus>i</surplus>rront</w></sic></choice> ;
+<lb n="3"/>L'omme qui est et pouvre et nud
+<lb n="4"/>De tout le monde est confondu.</ab></div>
+    
+<div type="proverbe" n="220">
+<ab type="gv"><lb n="1"/>Trop mieulx vault bonne renommee
+<lb n="2"/>Que d'or avoir grant assemblee.
+<lb n="3"/>Nul ne doit son oreille tendre
+<lb n="4"/>Pour le meffait d'autruy entendre.</ab></div>
+    <div type="proverbe" n="221">
+<ab type="gv"><lb n="1"/>Se la parolle est de valeur,
+<lb n="2"/>Ne te chaille moult de l'acteur ;
+<pb n="72"/>
+<lb n="3"/>La parolle de luy prouffite,
+<lb n="4"/>Non pas pour celluy qui l'a dicte.</ab></div>
+    
+<div type="proverbe" n="222">
+<ab type="gv"><lb n="1"/>Trop despendre et peu avoir,
+<lb n="2"/>Trop se venter et peu savoir,
+<lb n="3"/>Et trop parler sans dire <choice><corr resp="#editor">voir</corr><sic><w>v<surplus>e</surplus>oir</w></sic></choice>
+<lb n="4"/>Sont trois signes de rien valoir.</ab></div>
+    
+<div type="proverbe" n="223">
+<ab type="gv"><lb n="1"/>De legier quancques est despis
+<lb n="2"/>Et pense qu'a mort n'a respis ;
+<lb n="3"/>La mort viendra, quoy qu'il demeure,
+<lb n="4"/>Mais nul homs ne peut savoir l'eure.</ab></div>
+    
+<div type="proverbe" n="224">
+<ab type="gv"><lb n="1"/>N'aiez d<supplied resp="#editor">e l'</supplied>aultruy couvoitise,
+<lb n="2"/>Car elle est de telle guise
+<lb n="3"/>Que qui plus a <supplied resp="#editor">et</supplied> plus couvoicte :
+<lb n="4"/>Couvoicteux a tousjours souffrete.</ab></div>
+<pb n="73"/>
+    
+<div type="proverbe" n="225">
+<ab type="gv"><lb n="1"/>Voulentiers et raison sera <note resp="#editor">(?)</note><lb n="2"/>D'aymer celluy qui t'aymera ;
+<lb n="3"/>Car amor a honte se part
+<lb n="4"/>Quant elle vient tout d'une part.</ab></div>
+        
+<div type="proverbe" n="226">
+<ab type="gv"><lb n="1"/>Conseille a droit et voulentiers
+<lb n="2"/>Les pouvres quant avront mestiers ;
+<lb n="3"/>Car cil qui Dieu donne savoir
+<lb n="4"/>Pitié des pouvres doit avoir.</ab></div>
+            
+<div type="proverbe" n="227">
+<ab type="gv"><lb n="1"/>Amour de guerre pas ne vient,
+<lb n="2"/>Ne paix de plait ; pour ce convient,
+<lb n="3"/>Qui veult paix et amour acquerre,
+<lb n="4"/>Que se gart de plait et de guerre.</ab></div>
+    
+<div type="proverbe" n="228">
+<ab type="gv"><lb n="1"/>Oncques maistres ne me pleust
+<lb n="2"/>N'oncques nulz homs, tant de sens eust,
+<lb n="3"/>S'il a grans gens a mestriser,
+<lb n="4"/>Que bien tout ne luy est mestier.</ab></div>
+    
+<div type="proverbe" n="229">
+<ab type="gv"><lb n="1"/>Onc d'omme trop vindicatif
+<lb n="2"/>Ne a vengence trop <w>ha<supplied resp="#editor">s</supplied>tif</w>
+<pb n="74"/>
+<lb n="3"/>Ne <choice><corr resp="#editor">fust</corr><sic><w>f<surplus>e</surplus>ust</w></sic></choice> bonne chançon chantee :
+<lb n="4"/>Vengence est a Dieu reservee.</ab></div>
+    
+<div type="proverbe" n="230">
+<ab type="gv"><lb n="1"/>Estre a soy et avoir chevance
+<lb n="2"/>Et non vouloir <surplus resp="#editor">a</surplus> aultruy grevance,
+<lb n="3"/>Qu'il y suffist la sienne chose,
+<lb n="4"/>Fol est qui plus demander ose.</ab></div>
+    
+<div type="proverbe" n="231">
+<ab type="gv"><lb n="1"/>Ne quiers autrui sermon ne cresme,
+<lb n="2"/>Sers bien ton Dieu, ame ton presme,
+<lb n="3"/>Et te gart que jour de ta vie
+<lb n="4"/>Ta voulenté ne te mestrie.</ab></div>
+    
+<div type="proverbe" n="232">
+<ab type="gv"><lb n="1"/>Garde la loy a ton pouoir
+<lb n="2"/>Et si la renseigne a ton hoir
+<lb n="3"/>Et luy apren a maintenir
+<lb n="4"/>Le bien dont es cieulx peut venir.</ab></div>
+    
+<div type="proverbe" n="233">
+<ab type="gv"><lb n="1"/>Tu dois ton amy assaier
+<lb n="2"/>Ainz qu'en aies trop grand mestier ;
+<pb n="75"/>
+<lb n="3"/>Car de t'aymer flateurs se feignent
+<lb n="4"/>Qui a ton <choice><corr resp="#editor">bousoign</corr><sic><w>bousoign<surplus>e</surplus></w></sic></choice> plus tost faillent. </ab></div>
+    
+<div type="proverbe" n="234">
+<ab type="gv"><lb n="1"/>Fay de bien tant <choice><corr resp="#editor">com</corr><sic><w>com<surplus>e</surplus></w></sic></choice>tu vivras,
+<lb n="2"/>Car tu ne sçais quant tu <choice><corr resp="#editor">mourras</corr><sic><w>mour<surplus>e</surplus>ras</w></sic></choice>.
+<lb n="3"/>Mauvais est qui ne guesredonne
+<lb n="4"/>Ne depart ce que on luy donne.</ab></div>
+    
+<div type="proverbe" n="235">
+<ab type="gv"><lb n="1"/>Loialté dort et Raison est mort
+<lb n="2"/>Et Verité ront le coul a celluy qui la port ;
+<lb n="3"/>Pour ce <choice><corr resp="#editor">guiere</corr><sic><w>guiere<surplus>s</surplus></w></sic></choice>et a paine montent en paradis
+<lb n="4"/>Si les en enfer trebouche leur vicis <note resp="#editor" rend="ital">(sic).</note></ab></div>
+    
+<div type="proverbe" n="236">
+<ab type="gv"><lb n="1"/>J'endure et endurer me fault,
+<lb n="2"/>Mal  endurant  ne  peut  durer,
+<lb n="3"/>Au bon endurant rien ne fault,
+<lb n="4"/>Qui vuilt vivre, il faut <w>endure<supplied resp="#editor">r</supplied></w>.</ab></div>
+<pb n="76"/>
+    
+<div type="proverbe" n="237">
+<ab type="gv"><lb n="1"/>Trop a la conscience dure
+<lb n="2"/>Qui met son alme en ardure
+    <lb n="3"/>Et qui de cest <choice><corr resp="#editor">mond</corr><sic><w>mond<surplus>e</surplus></w></sic></choice> pour l'ordure
+<lb n="4"/>Pert paradis qui tousjours dure.</ab></div>
+    
+<div type="proverbe" n="238">
+<ab type="gv"><lb n="1"/>Je vous <choice><corr resp="#editor">envoi</corr><sic><w>envoi<surplus>e</surplus></w></sic></choice>le papegaut :
+<lb n="2"/>De bien aymer il ne m'en chault,
+<lb n="3"/>Quar l'en voit bien apertement
+<lb n="4"/>Le cuer que ayme loialment.</ab></div>
+    
+<div type="proverbe" n="239">
+<ab type="gv"><lb n="1"/>Nulle chose ne greve tant
+<lb n="2"/>Que faulce amour en bel semblant ;
+<lb n="3"/>Haro, helas ! que <supplied resp="#editor">en</supplied> ce monde
+<lb n="4"/>Tant de tielles choses habonde !</ab></div>
+<pb n="77"/>
+    
+<div type="proverbe" n="240">
+<ab type="gv"><lb n="1"/>En bien tu <w>soi<supplied resp="#editor">e</supplied>s</w> te gardant
+<lb n="2"/>Avant que tu ne sois poisant ;
+<lb n="3"/>Car bieneüré est celluy
+<lb n="4"/>Qui tousjours fait ainsi <note resp="#editor" rend="ital">(sic).</note></ab></div>
+    
+<div type="proverbe" n="241">
+<ab type="gv"><lb n="1"/>Amour de femme et <supplied resp="#editor">ris</supplied>du chien
+<lb n="2"/>N'est pas <choice><corr resp="#editor">perdu</corr><sic><w>perdu<surplus>e</surplus></w></sic></choice> pour dire <q> « tien » </q> ;
+<lb n="3"/>Amour de femme et vent de cul
+<lb n="4"/>Et feu d'estoupes est tout un.</ab></div>
+    
+<div type="proverbe" n="242">
+<ab type="gv"><lb n="1"/>Tres chosses dois en pez garder :
+<lb n="2"/>Ton lit, ta table et le mostier,
+<lb n="3"/>Quar qui en ceux leus tence ou noisse,
+<lb n="4"/>Dieu ne l'aime, ne il n'est aise.</ab></div>
+    
+<div type="proverbe" n="242B">
+<ab type="gv"><lb n="1"/>L'en doit en son lit reposeir,
+    <lb n="2"/><surplus resp="#editor">Et</surplus> a table l'un <surplus resp="#editor">et</surplus> l'autre honorer,
+<lb n="3"/>Au moutier estre en oraison
+<lb n="4"/>Vers Dieu et en devocion.</ab></div>
+    
+<div type="proverbe" n="243">
+<ab type="gv"><lb n="1"/>Pour poy de chosse <supplied resp="#editor">ne</supplied>prens plait,
+<lb n="2"/>Et ausi si tu n'as bon droit ;
+<pb n="78"/>
+<lb n="3"/>Raison est que son droit li faille
+<lb n="4"/>Qui meit dener por querre maille.</ab></div>
+    
+<div type="proverbe" n="244">
+<ab type="gv"><lb n="1"/>Quant pleder ozes ta raison,
+<lb n="2"/>Pran raison si l'an la te done ;
+    <lb n="3"/>Mieulx vaut leser <surplus resp="#editor">un</surplus> poy de son droit
+<lb n="4"/>Que perdre plus par <w>bouge<supplied resp="#editor">r</supplied></w> plait.</ab></div>
+    
+<div type="proverbe" n="245">
+<ab type="gv"><lb n="1"/>Ne croy pas rubaut pour jurer
+<lb n="2"/>Ne jamés famme pour plorer,
+<lb n="3"/>Quar rubaut toz jourz jurer veut,
+<lb n="4"/>Et famme plore quant el veut.</ab></div>
+    
+<div type="proverbe" n="246">
+<ab type="gv"><lb n="1"/>Nul ne doit <surplus resp="#editor">le</surplus> veus chemin lesser,
+<lb n="2"/>En bois ne aillors, pour santier ;
+<lb n="3"/>Quar pour lesser le veuz chemin
+<lb n="4"/>Maint pert le sien et prant sa fin.</ab></div>
+    
+<div type="proverbe" n="247">
+<ab type="gv"><lb n="1"/>Chiés jeune famme et veuz <w>prodom<supplied resp="#editor">e</supplied></w>
+<lb n="2"/>Ne pren ostel ne ne t'achome,
+<lb n="3"/>Quar sovent sont tieus ostelers
+<lb n="4"/>Larrons, mutrers, ribaus, houliers.</ab></div>
+<pb n="79"/>
+    
+<div type="proverbe" n="248">
+<ab type="gv"><lb n="1"/>Quant en un ostel entreras,
+<lb n="2"/>Salue les gens que troveras,
+<lb n="3"/>Et au departir pran congié
+    <lb n="4"/>Et ton oste <surplus resp="#editor">si</surplus> comande a Dé.</ab></div>
+    
+<div type="proverbe" n="249">
+<ab type="gv"><lb n="1"/>Oy et voy et parle poy,
+<lb n="2"/>Et se tu <w>parle<supplied resp="#editor">s</supplied></w>, saices quoy ;
+<lb n="3"/>Ly parole est moult bien eslite,
+<lb n="4"/>S'el ne vault mielx teute que dite.</ab></div>
+    
+<div type="proverbe" n="250">
+<ab type="gv"><lb n="1"/>Nulz ne doit dire de nulluy
+<lb n="2"/>Qu'il ne voet c'on die de luy.
+<lb n="3"/>Qui d'aultruy mesdire vaulra,
+<lb n="4"/>Regarde soy : il se taira.</ab></div>
+    
+<div type="proverbe" n="251">
+<ab type="gv"><lb n="1"/>Cilz qui tard juge et tost entent
+<lb n="2"/>Par raison fait boin jugement ;
+<lb n="3"/>Car boins et bien seur est le juge
+<lb n="4"/>Qui bien entend ains que il juge.</ab></div>
+    
+<div type="proverbe" n="252">
+<ab type="gv"><lb n="1"/>Grant science est d'acquerre amis
+<lb n="2"/>Et de les garder, ce m'est vis ;
+<pb n="80"/>
+<lb n="3"/>Et mielx vault uns amis en voie
+<lb n="4"/>Que ne font denier en coroie.</ab></div>
+    
+<div type="proverbe" n="253">
+<ab type="gv"><lb n="1"/>Des biens que Dieus t'avra presté
+<lb n="2"/>Pour luy en donne en carité ;
+<lb n="3"/>Boin fait donner, ce poes savoir,
+<lb n="4"/>Petit don pour plus grant avoir.</ab></div>
+    
+<div type="proverbe" n="254">
+<ab type="gv"><lb n="1"/>Ly maistres pert se paine toute
+<lb n="2"/>Se li disciples qui l'escoute
+<lb n="3"/>Ne met paine du retenir
+    <lb n="4"/>Si qu'il <supplied resp="#editor">l'</supplied>en puist bien souvenir.</ab></div>
+    
+<div type="proverbe" n="255">
+<ab type="gv"><lb n="1"/>Li saiges homs sa langue garde :
+<lb n="2"/>Ce ne savrait mie soz faire ;
+<lb n="3"/>Et <w>saige<supplied resp="#editor">s</supplied></w> est cilz qui se paine
+<lb n="4"/>Ad ce que se langue refraigne.</ab></div>
+    
+<div type="proverbe" n="256">
+<ab type="gv"><lb n="1"/>Il vault trop mielx que on se taise
+<lb n="2"/>Que dire parole malvaise ;
+<lb n="3"/>Et cilx qui volontiers l'escoute
+<lb n="4"/>N'est point prudons, ne Dieu ne doute.</ab></div>
+<pb n="81"/>
+    
+<div type="proverbe" n="257">
+<ab type="gv"><lb n="1"/>Souffissance fait riqueté
+<lb n="2"/>Et convoitise povreté ;
+<lb n="3"/>Soit rois, ou n'ait vaillant deux mices,
+<lb n="4"/>Qui plus convoite, mains est rices.</ab></div>
+    
+<div type="proverbe" n="258">
+<ab type="gv"><lb n="1"/>Saiciez que nuls homs n'est gentieus
+<lb n="2"/>S'il n'est a bien faire ententieus ;
+<lb n="3"/>Nulz n'est vilains fors par ses vices
+<lb n="4"/>Dont il est outrageux ou nyces.</ab></div>
+    
+<div type="proverbe" n="259">
+<ab type="gv"><lb n="1"/>Tel cuide vivre longuement
+<lb n="2"/>Que Mort surprent soudainnement ;
+<lb n="3"/>Pour ce se doit tout homs lasser
+<lb n="4"/>De tout bienfait et bien user.</ab></div>
+    
+<div type="proverbe" n="260">
+<ab type="gv"><lb n="1"/>De ce mail ci ou de plus grant
+<lb n="2"/>Soit cilz ferus ou front devant
+<lb n="3"/>Qui tant donra a son enfant
+<lb n="4"/>Que puis aprés voise querant.	</ab></div>
+			
+</div>
+</body>
+</text>
+</TEI>

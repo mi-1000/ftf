@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="main">Vidimus</title>
+      <title type="formal">VidPierrePetit</title>
+      <title type="reference">VidPierrePetit</title>
+      <title type="DEAF">VidPierrePetit*</title>
+      <title type="FRANTEXT">8211</title>
+      <title type="gmd">transcription électronique</title>
+      <author xml:id="PPetit" key="Pierre Petit">Pierre Petit</author>
+      <editor>Équipe de la Base de français médiéval - ENS de Lyon / UMR 5317 IHRIM</editor>
+      <funder>Laboratoire IHRIM</funder>
+    </titleStmt>
+    <editionStmt>
+      <edition>transcripion électronique</edition>
+      <respStmt xml:id="encoder4">
+        <resp>adaptation du balisage aux normes de la BFM, validation finale</resp>
+        <name xml:id="AL">Alexei Lavrentiev</name>
+      </respStmt>
+      <respStmt xml:id="digitizer2">
+        <resp>océrisation</resp>
+        <name xml:id="ES">Ekaterina Shcherbina</name>
+      </respStmt>
+      <respStmt xml:id="encoder2">
+        <resp>relecture, normalisation Frantext</resp>
+        <name xml:id="GSouvay">Gilles Souvay (ATILF)</name>
+      </respStmt>
+      <respStmt xml:id="proofreader2">
+        <resp>deuxième relecture et vérification du balisage</resp>
+        <name xml:id="MAndronache">Marta Andronache</name>
+      </respStmt>
+      <respStmt xml:id="encoder3">
+        <resp>relecture, normalisation Frantext</resp>
+        <name xml:id="MDelabarre">Matthieu Delabarre</name>
+      </respStmt>
+      <respStmt xml:id="proofreader1">
+        <resp>première relecture</resp>
+        <name xml:id="NB">Natalia Bercea</name>
+      </respStmt>
+    </editionStmt>
+    <extent>- Numéros de pages saisies : de 347 à 349 ;
+            - Nombre de mots d'après la base des descripteurs : <num xml:id="nb_mots_given">1163</num> ;
+            - Nombre de tokens (mots et ponctuations) d'après la base des descripteurs : <num xml:id="nb_tokens_given">1323</num>.
+    </extent>
+    <publicationStmt>
+      <publisher><name>Projet BFM, ENS de Lyon / UMR 5317 IHRIM</name></publisher>
+      <address>
+        <addrLine>15, parvis René Descartes</addrLine>
+        <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+        <addrLine>Tél : 04 37 37 63 10</addrLine>
+        <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+        <addrLine>http://bfm.ens-lyon.fr</addrLine>
+      </address>
+      <idno type="bfm">http://catalog.bfm-corpus.org/VidPierrePetit</idno>
+      <idno type="doi">10.34847/nkl.751a1469</idno>
+      <availability status="free">
+        <licence target="https://www.etalab.gouv.fr/licence-ouverte-open-licence">
+          <ab type="availability_bfm" subtype="libre_1b">Les Conditions générales d'utilisation de la Base de Français Médiéval (http://txm.bfm-corpus.org/bfm/files/CGU.pdf), 
+            et notamment son Article 5 « PROPRIETE INTELLECTUELLE », s'appliquent à tous les textes de la BFM.</ab>
+          <ab type="how_to_cite">
+            <label>Comment citer ce texte :</label>
+            <bibl>Pierre Petit, Vidimus, édité par Alain Roquelet, Rouen, 1984. 
+              Publié en ligne par la Base de français médiéval, http://catalog.bfm-corpus.org/VidPierrePetit.
+              Dernière révision le 2016-05-01.</bibl>
+            D'autres formules de citation de la BFM sont proposées sur la page web suivante :
+            http://bfm.ens-lyon.fr/article.php3?id_article=281.</ab>
+          <ab type="availability_file">
+            <label>Conditions d'utilisation de ce fichier :</label>
+              Ce fichier numérique est composé du corps de texte médiéval et des suppléments numériques : balisage XML-TEI, métadonnées (teiHeader). Le texte et les suppléments numériques sont libres de droit et peuvent à ce titre être téléchargés et réutilisés librement.
+            </ab>
+            <ab type="availability_txmweb" subtype="illimité">
+              <label>Conditions d'utilisation par le portail BFM :</label>
+              Pas de limitation dans l'usage des fonctionnalités. Téléchargement autorisé.</ab>
+        </licence>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>LA VIE DE LA FORÊT NORMANDE A LA FIN DU MOYEN ÂGE / Annexe. Vidimus</title>
+          <author>Pierre Petit</author>
+          <respStmt>
+            <resp xml:id="editor">Éditeur scientifique</resp>
+            <name type="person">Alain Roquelet</name>
+          </respStmt>
+        </titleStmt>
+          <extent>3 page(s), soit 347-349
+        </extent>
+        <publicationStmt>
+          <publisher>Société de l'Histoire de Normandie</publisher>
+          <pubPlace>Rouen</pubPlace>
+          <date>1984</date>
+          <idno type="sigle_DEAF">VidPierrePetit*</idno>
+          <idno type="cote_FRANTEXT">8211</idno>
+          <idno type="cote_biblio">ENS Lyon : Mag. 2 024200</idno>
+        </publicationStmt><seriesStmt><title>Collection de la Société de l'histoire de Normandie</title><idno type="collection">62</idno></seriesStmt>
+      </biblFull>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p>Projet :<name type="project">BFM - Base de français médiéval</name>
+        Resp. : <name type="person">Céline Guillot-Barbance</name>
+        Équipe : Base de français médiéval
+        Laboratoire : UMR 5317 IHRIM
+        Institution : ENS de Lyon
+        <address>
+          <addrLine>15, parvis René Descartes</addrLine>
+          <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+          <addrLine>Tél : 04 37 37 63 10</addrLine>
+          <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+          <addrLine>http://bfm.ens-lyon.fr</addrLine>
+        </address>
+      </p>
+    </projectDesc>
+    <editorialDecl>
+      <p>Voir le <ref target="http://bfm.ens-lyon.fr/IMG/pdf/Manuel_Encodage_TEI.pdf">Manuel d'encodage XML-TEI de la BFM</ref>
+        et les <ref target="http://bfm.ens-lyon.fr/IMG/pdf/Consignes_BFM.pdf">Consignes aux relecteurs de la BFM</ref>.</p>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="body" occurs="1"/>
+        <tagUsage gi="div" occurs="1"/>
+        <tagUsage gi="gap" occurs="2"/>
+        <tagUsage gi="hi" occurs="4"/>
+        <tagUsage gi="p" occurs="25"/>
+        <tagUsage gi="pb" occurs="3"/>
+        <tagUsage gi="supplied" occurs="2"/>
+        <tagUsage gi="text" occurs="1"/>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <creation>
+      <name type="author">Pierre Petit</name>
+      <title>Vidimus</title>
+      <date type="compo" when="1444-12-26" notBefore="1444-01-01" notAfter="1444-12-31" n="15">1444</date>
+      <date type="compo_periode">moyen</date>
+      <date type="compo_sous_siecle" n="15_2">milieu</date>
+      <date type="ms" when="1444-12-26" notBefore="1444-01-01" notAfter="1444-01-01">1444</date>
+      <idno type="msIdentifier">Rouen, Arch. Dép. de la Seine Maritime, 13 H 65</idno>
+      <region type="dialecte_auteur">normand</region>
+    </creation>
+    <langUsage>
+      <language ident="fro" usage="100">Le texte est entièrement écrit en prose en moyen français.</language>
+    </langUsage>
+    <textDesc>
+      <channel mode="w">print</channel>
+      <constitution type="single"/>
+      <derivation type="original"/>
+      <domain type="juridique"/>
+    <factuality type="inapplicable"/>
+      <interaction type="none"/>
+      <preparedness type="prepared"/>
+      <purpose type="narrative"/></textDesc>
+    <textClass>
+      <keywords scheme="http://authorities.bfm-corpus.org">
+        <term type="domaine">juridique</term>
+        <term type="genre">vidimus</term>
+        <term type="forme">prose</term>
+        <term type="relation">original</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change who="#ES" when="2007-02-28">océrisation</change>
+    <change who="#ES" when="2007-02-28">scannage</change>
+    <change who="#NB" when="2007-03-31">première relecture</change>
+    <change who="#AL" when="2007-06-01">préparation à la relecture 1</change>
+    <change who="#MAndronache" when="2007-08-31">deuxième relecture et vérification du balisage</change>
+    <change who="#MDelabarre" when="2016-05-01">relecture, normalisation Frantext</change>
+    <change who="#GSouvay" when="2016-05-01">relecture, normalisation Frantext</change>
+    <change who="#AL" when="2016-06-21">création du descripteur</change>
+    <change who="#AL" when="2016-07-05">adaptation du balisage aux normes de la BFM, validation finale</change>
+    <change when="2016-05-01">Dernière modification du texte</change>
+    <change when="2022-11-04">Création de cet entête</change>
+  </revisionDesc>
+</teiHeader>
+    <text>
+<body>
+    <pb n="347"/>
+<div>
+    <p>Les parroissiens commun et habitans de Saint Martin de Quevillon, de Saint Pierre de Manneville, de Hottot, de Saint Jehan du Val de la Haie, de Desville, de Maromme, de Monteigny, de Henouville, de Varenguierville, de la Vauspailliere, de Saint Thomas de la Gauchié, de Rommare, de Villers en portion, de Saint Jehan du Cardonnay en portion dient avoir  <supplied>des</supplied> droictures en icelle forest <supplied>et montrent</supplied> une cedulle de papier, avecquez plusieurs lettres de delivrances et desclarations à eulx autreffois fecte, données en l'an mil IIII<hi rend="sup">C</hi> et deux, le V<hi rend="sup">e</hi> de septembre, es jours et enquestes seans à Couronne, pour la visitation d'icelle forest, tenus par Jehan de Garenchieres, chevalier, lors maistre et enquesteur desdictes eaues et forests :</p>
+    <p>Ilz ont droit d'avoir en ladicte forest le hestre par entrée en païant cinq solz pour la charette, qui est appelle vert et sec, et au dessus du pié de l'arbre eulx ilz pevent en batre le pas de la hache tout en sec; item, quant il est vert, ilz en paient douze solz et si n'ont pas l'arbre; item, du quesne par entrée, dix solz, vert et sec, et quant il est tout vert, ilz en paient vingt solz et si n'ont point l'arbre, mais est vendu au prouffit du roy.</p>
+    <p>Item, semblablement, les fourques et ongles de hestre en païant cinq solz pour la charecte; et ce que ilz appellent fourques sont trois arbres en une chouque, et n'en doivent prendre que le mendre; et ce que l'en appelle ongles, se sont deux hestres ou deux quesnes qui s'entretiennent ensembles. Item, les fourquez et ongles de quesne se prennent semblablement, mais l'en en paie dix solz tournois pour la charecte, de la charecte d'un cheval deux solz tournois, d'un festz à homme douze deniers.</p>
+    <p>Et si ont la branche du hestre et du quesne au dessoubz de dix sept piés sans païer amende, et se ilz passent les dix set piés, ilz en paient amende au pris de six solz tournois du hestre st du quesne dix solz tournois pour la charectée.</p>
+    <p>Item, pour le mort boys, cinq solz tournois pour charectée, et de la somme d'un cheval deux solz tournois, et d'un festz à homme douze deniers tournois.</p>
+    <p>Item, le hestre et le quesne tout sec pevent emporter sans amende quant ilz sont mendres d'une charectée, et quant il chiet par vent, soit vert ou sec, ilz le pevent prendre s'ilz le pevent tout emporter à une charectée sans amende, et se il est plus <pb n="348"/> de charectée, ilz lez pevent prendre jusquez ad ce que il soit merqué du sergent.</p>
+    <p>Et si ont boul hors boulloie et le tremble semblablement le marsaulx aussi, et le carme semblablement, mes que l'en en voye sept d'une veue, et se l'en en voit sept, ilz paient au pris du mort boys.</p>
+    <p>Et si pevent prendre le genest et l'espine noire, la genoivre, la fouyer, et la feulle, hors deffens, sans amende.</p>
+    <p>Item, pour leurs bestes, vaches et chevaulx, quant les sergens les trouvent en deffens, ilz paient pour chacune beste douze deniers tournois, et pour pors quant ilz sont trouvés, quatre deniers pour chacun, mes se ilz sont trouvéz trois fois entre deux ples, ilz sont tenus pour forfaictes et acquises au roy notre sire.</p>
+    <p>Item, se ilz trouvent les remenans de loups, ilz les pevent emporter à descouvers et non autrement.</p>
+    <p>Item, ilz ont, quant il est pasnage en ladicte forest, chacun porc pour six deniers, et quant le pasnage n'est vendu, les exfruis sont à coustumiers sans riens païer.</p>
+    <p>Item, l'argille et le sablon, sans malfaire aux arbres, et la maille et le caillou, ilz les pevent prendre sans amende par le congé du verdier.</p>
+    <p>Item, ilz pevent avoir et descrouer ung arbre quant il est encroué sur ung autre, sans malfaire a cellui sur quoy il est encroué, s'il n'est trouvé par les sergens des guardes; les demourans sont aux coustumiers quant ilz sont d'une charecte ou de moins sans amende.</p>
+    <p>Item, quant une vente de vif bois est en l'aage de douze ans, elle doit estre rendue aux coustumiers, et une vente de mort boys à sept ans, et leur doivent estre rendues par le verdier quant les coustumiers le requierent, pourveu que le vif boys soit deffensable.</p>
+    <p>Item, ilz pevent tendre res aux vitecos et pipper en la forest, hors deffens, pour païer de chacune res quatre deniers par an.</p>
+    <p>Item, ilz pevent escoypeler ung arbre vert et sec sans abiter au vert, et se il chiet, lesdis coustumiers le pevent emporter se il n'est rescoux du sergent.</p>
+    <p>Item, quant ung homme fait sa maison qui est coustumiere, il doibt avoir ung arbre pour festage par la livrée du verdier ou son lieutenant.</p>
+    <p>Item, ilz pevent prendre les jeugnes branches sans amende.</p>
+    <p>Item, pour toutes leurs bestes generalement, ilz ont pasturage par toute ladicte forest, hors deffens, excepté pour chievres <pb n="349"/> et pors qui n'y vont point en mois de may, d'aoust et de septembre jusquez à la saint Michiel, et dont aucuns paient les deniers d'une rente nommée les « sept livres » qui est une rente particuliere deue au roy et se cueult par le fermier d'une ferme nommée le « droit de la maistrise de Roumare » qui se baille par le viconte de Rouen.</p>
+    <p>Item, il en y a aucuns qui prennent boys livré par le verdier et par le commandement et ordonnance de monsieur le maistre des eaues et forestz; et est icelle livrée appellée ou nommée guerbages, parquages, telages et caruages, et pour cause de ce paient au roy plusieurs devoirs, c'est assavoir guerbes, deniers, tourteaux; et qui a charue une journée de charue par an, et se font et paient lesdits drois et devoirs au fermier quil tient la ferme de ladicte maistrie de Roumare pour le roy.</p>
+    <p>Item, lesdits coustumiers pevent vendre les ungs aux autres leurs maisons et tout autre bosc et tieulle par le congé du j,verdier, pourveu que ce soit et demeure es mectes de la coustume, et n'en pevent riens transporter dehors. Et de ce sont tenus païer e e au roy le XIII<hi rend="sup">e</hi> denier, lequel XIII <hi rend="sup">e</hi> denier se cueult par le fermier de la ferme de ladicte maistrie de Roumare.</p>
+    <p>Item, quant pasnage est mis en ladicte forest, il doit estre jugé par les frans jugeurs d'icelle, c'est assavoir le prieur de l'Ostel Dieu de Rouen, le seigneur de la Heuze au droit de son hostel du Grant Quevilli, le seigneur de Gouy sur le Port Saint Ouen, le geollier des prisons du roy notredit sire en ses prisons de la ville de Rouen.</p>
+    <p>Veu <gap/>, avons donné et donnons congé ausdits coustumiers et a leurs semblables d'en joïr bien et deuement, sans exces ou abus, par bonne moderation <gap/>.</p></div>
+</body></text></TEI>

@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="main">Donait françois</title>
+      <title type="formal">donait</title>
+      <title type="reference">donait</title>
+      <title type="DEAF">DonatOxfSw*</title>
+      <title type="gmd">transcription électronique</title>
+      <author xml:id="JBarton" key="John Barton" ref="http://www.idref.fr/123643678">John Barton</author>
+      <editor>Équipe de la Base de français médiéval - ENS de Lyon / UMR 5317 IHRIM</editor>
+      <funder>Laboratoire IHRIM</funder>
+    </titleStmt>
+    <editionStmt>
+      <edition>transcripion électronique</edition>
+      <respStmt xml:id="encoderDD">
+        <resp>balisage du discours direct</resp>
+        <name xml:id="Acollignon">Alain Collignon</name>
+      </respStmt>
+      <respStmt xml:id="encoder0">
+        <resp>création du descripteur</resp>
+        <name xml:id="AL">Alexei Lavrentiev</name>
+      </respStmt>
+      <respStmt xml:id="proofreader1">
+        <resp>révision de tout le texte</resp>
+        <name xml:id="BF">Benjamin Fagard</name>
+      </respStmt>
+      <respStmt xml:id="proofreader2">
+        <resp>révision de tout le texte</resp>
+        <name xml:id="BS">Bérénice Stoll</name>
+      </respStmt>
+      <respStmt xml:id="digitizer">
+        <resp>scannage et océrisation</resp>
+        <name xml:id="ES">Ekaterina Shcherbina</name>
+      </respStmt>
+      <respStmt xml:id="encoder2">
+        <resp>vérification finale</resp>
+        <name xml:id="VO">Vanessa Obry</name>
+      </respStmt>
+    </editionStmt>
+    <extent>- Numéros de pages saisies : de  à 251 ;
+            - Nombre de mots d'après la base des descripteurs : <num xml:id="nb_mots_given">8635</num> ;
+            - Nombre de tokens (mots et ponctuations) d'après la base des descripteurs : <num xml:id="nb_tokens_given">11266</num>.
+    </extent>
+    <publicationStmt>
+      <publisher><name>Projet BFM, ENS de Lyon / UMR 5317 IHRIM</name></publisher>
+      <address>
+        <addrLine>15, parvis René Descartes</addrLine>
+        <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+        <addrLine>Tél : 04 37 37 63 10</addrLine>
+        <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+        <addrLine>http://bfm.ens-lyon.fr</addrLine>
+      </address>
+      <idno type="bfm">http://catalog.bfm-corpus.org/donait</idno>
+      <idno type="doi">10.34847/nkl.059a3pnh</idno>
+      <availability status="free">
+        <licence target="https://www.etalab.gouv.fr/licence-ouverte-open-licence">
+          <ab type="availability_bfm" subtype="libre_1a">Les Conditions générales d'utilisation de la Base de Français Médiéval (http://txm.bfm-corpus.org/bfm/files/CGU.pdf), 
+            et notamment son Article 5 « PROPRIETE INTELLECTUELLE », s'appliquent à tous les textes de la BFM.</ab>
+          <ab type="how_to_cite">
+            <label>Comment citer ce texte :</label>
+            <bibl>John Barton, Donait françois, édité par Pierre Swiggers, Montpellier, 1985. 
+              Publié en ligne par la Base de français médiéval, http://catalog.bfm-corpus.org/donait.
+              Dernière révision le 2021-01-27.</bibl>
+            D'autres formules de citation de la BFM sont proposées sur la page web suivante :
+            http://bfm.ens-lyon.fr/article.php3?id_article=281.</ab>
+          <ab type="availability_file">
+            <label>Conditions d'utilisation de ce fichier :</label>
+              Ce fichier numérique est composé du corps de texte médiéval et des suppléments numériques : balisage XML-TEI, métadonnées (teiHeader), balisage du discours direct. Le texte et les suppléments numériques sont libres de droit et peuvent à ce titre être téléchargés et réutilisés librement.
+            </ab>
+            <ab type="availability_txmweb" subtype="illimité">
+              <label>Conditions d'utilisation par le portail BFM :</label>
+              Pas de limitation dans l'usage des fonctionnalités. Téléchargement autorisé.</ab>
+        </licence>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>Le Donait françois : La plus ancienne grammaire du français</title>
+          <author>John Barton</author>
+          <respStmt>
+            <resp xml:id="editor">Éditeur scientifique</resp>
+            <name type="person">Pierre Swiggers</name>
+          </respStmt>
+        </titleStmt>
+          <extent>13 page(s), soit 240-251
+        </extent>
+        <publicationStmt>
+          <publisher>Presses universitaires de la Méditerranée</publisher>
+          <pubPlace>Montpellier</pubPlace>
+          <date>1985</date>
+          <idno type="sigle_DEAF">DonatOxfSw*</idno>
+        </publicationStmt>
+      </biblFull>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p>Projet :<name type="project">BFM - Base de français médiéval</name>
+        Resp. : <name type="person">Céline Guillot-Barbance</name>
+        Équipe : Base de français médiéval
+        Laboratoire : UMR 5317 IHRIM
+        Institution : ENS de Lyon
+        <address>
+          <addrLine>15, parvis René Descartes</addrLine>
+          <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+          <addrLine>Tél : 04 37 37 63 10</addrLine>
+          <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+          <addrLine>http://bfm.ens-lyon.fr</addrLine>
+        </address>
+      </p>
+    </projectDesc>
+    <editorialDecl>
+      <p>Voir le <ref target="http://bfm.ens-lyon.fr/IMG/pdf/Manuel_Encodage_TEI.pdf">Manuel d'encodage XML-TEI de la BFM</ref>
+        et les <ref target="http://bfm.ens-lyon.fr/IMG/pdf/Consignes_BFM.pdf">Consignes aux relecteurs de la BFM</ref>.</p>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="body" occurs="1"/>
+        <tagUsage gi="div" occurs="1"/>
+        <tagUsage gi="ex" occurs="509"/>
+        <tagUsage gi="front" occurs="1"/>
+        <tagUsage gi="hi" occurs="1"/>
+        <tagUsage gi="milestone" occurs="22"/>
+        <tagUsage gi="p" occurs="9"/>
+        <tagUsage gi="pb" occurs="13"/>
+        <tagUsage gi="q" occurs="139"/>
+        <tagUsage gi="text" occurs="1"/>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <creation>
+      <name type="author">John Barton</name>
+      <title>Donait françois</title>
+      <date type="compo" when="1405-01-01" notBefore="1400-01-01" notAfter="1410-01-01" n="15">tout déb. 15e s.</date>
+      <date type="compo_periode">moyen</date>
+      <date type="compo_sous_siecle" n="15_1">début</date>
+      <date type="ms" when="1415-01-01" notBefore="1412-01-01" notAfter="1418-12-31">après 1412</date>
+      <idno type="msIdentifier">Oxford, All Souls Coll. 182</idno>
+      <region type="dialecte_auteur">anglo-normand</region>
+    </creation>
+    <langUsage>
+      <language ident="fro" usage="100">Le texte est entièrement écrit en mixte en moyen français.</language>
+    </langUsage>
+    <textDesc>
+      <channel mode="w">print</channel>
+      <constitution type="single"/>
+      <derivation type="original"/>
+      <domain type="didactique"/>
+    <factuality type="inapplicable"/>
+      <interaction type="none"/>
+      <preparedness type="prepared"/>
+      <purpose type="narrative"/></textDesc>
+    <textClass>
+      <keywords scheme="http://authorities.bfm-corpus.org">
+        <term type="domaine">didactique</term>
+        <term type="genre">manuel</term>
+        <term type="forme">mixte</term>
+        <term type="relation">original</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change who="#ES" when="2006-11-30">scannage et océrisation</change>
+    <change who="#BF" when="2006-12-31">révision de tout le texte</change>
+    <change who="#VO" when="2008-05-01">balisage automatique et vérifications</change>
+    <change who="#BS" when="2008-06-01">révision de tout le texte</change>
+    <change who="#VO" when="2008-06-25">vérification finale</change>
+    <change who="#AL" when="2008-11-21">création du descripteur</change>
+    <change who="#Acollignon" when="2021-01-27">balisage du discours direct</change>
+    <change who="#Acollignon" when="2021-01-27">balisage de structure</change>
+    <change when="2021-01-27">Dernière modification du texte</change>
+    <change when="2022-11-04">Création de cet entête</change>
+  </revisionDesc>
+</teiHeader>
+ <text>
+  <pb/>
+  <front/>
+  <body>
+   <div>
+    <pb n="240"/>
+    <p>            <milestone unit="folio" n="316rb"/> <q>Pour ceo <ex>que</ex> les bones gens du roiaume d'Engleterre sont enbraséz a sçavoir lire <ex>et</ex> escrire, entendre <ex>et</ex> parler droit françois a fin qu'ils puissent entrecomuner bonement ové leur voisins, c'est a dire les bones gens du roiaume de France ; et ainsi po<ex>ur</ex>  ce q<ex>ue</ex> les leys d'Engleterre pour le graigneur partie, <ex>et</ex> aussi beaucoup de bones choses sont misez en françois, <ex>et</ex> aussi bien pres touz les <ex>seigneurs et</ex> toutes les dames en mesme roiaume d'Engliterre volentiers s'entrescrivent en romance, t<ex>re</ex>s nécessaire je cuide estre aus Englois de sçavoir la droite nature de françois. A le honneur de Dieu <ex>et</ex> de sa tres doulce miere et toutz les saintez de paradis, je Johan Barton, escolier de Paris, nee et nourie toutez voiez d'Engleterre en la conté de Cestre, j'ey baillé aus avant diz Anglois un Donait françois pur les briefment ent<ex>re</ex>duyr en la droit language du Paris <ex>et</ex> de païs la d'entour, laquelle language en Englit<ex>er</ex>re on appelle doulce France. Et cest Donait je le fis la fair a mes despenses <ex>et</ex> t<ex>re</ex>s grande peine par pluseurs bons clercs du language av<ex>a</ex>nt d<ex>i</ex>te. Pur ce, mes chiers enfants <ex>et</ex> tres doulcez puselles, que avez fam d'apprendre cest Donait, sçachéz qu'il est divisé en belcoup de chapiters, sicome il apperera cy avale.</q></p>
+    <p>            <q>Quantez lettres est il ?  </q><q>- Vint.  </q><q>- Quellez ?  - Cinq voielx et quinse <milestone unit="folio" n="316va "/>consonantez.</q><q>  -  Quelx sont les voielx <ex>et</ex> ou seront ils sonnés ?</q><q>  -  Le premier vouyel est « a », <ex>et</ex> serra sonné en la poetrine. Le seconde est « e », et serra sonné en la gorge. Le tiers est « i », <ex>et</ex> serra sonné entre les joues. Le quart est « o », <ex>et</ex> serra sonné au palat de la bouche. Le quint est « u », <ex>et</ex> serra sonné entre les levres. Et toutes les autres l<ex>ett</ex>res sont appelléz consonantz.</q><q>  - Quantez manieres est il de consonantz ? </q><q> - Deux.</q><q/></p>
+    <p> <q>-  Quelx ?</q><q>  -  Semivouyel ou mute, qar sicome chescun vouyel comence de lui mesmes <ex>et</ex> fin a lui mesmes sicome « 1 », « m », et doncques il est appellé un semivouyel ; ou il come<ex>n</ex>ce de lui mesmes et fine en un vouyel sicome « b », « c », et doncques il est appellé une mute.  -  <ex>Qu</ex>antez semivouyelx sont ils doncques ?</q><q> -  Six.</q><q>  -  Qelx ?</q><q>  -  « 1 », « m », « n », « r », « s », « x ».  -  Et quantez mutez sont ils ?  -  Neuf.  -  Quelx ?  -  « b », « c », « d », « f », « g », « h », « p », « q », « t », mais « h » n'est pas lett<ex>re</ex>, mes elle est un
+     <pb n="241"/>
+     signe de alaine ; «y» et «z» sont l<ex>ett</ex>res gregoisez. </q><q> - Ditez, n'est il plus que quinse consonantz ?</q><q>  -  Nemy, mais il avient <ex>que</ex> « i » et « u » se tournent ascun foitz en guise <ex>et</ex> en force des consonantz.</q><q>  - Ditez doncques quant il avient. </q><q> - Q<ex>ua</ex>nt ils sont misez en un mesmes selabe devant un vouyel, soit il au comencement, ou au milieu de un mote, en quelle language q<ex>ue</ex> ce soit, ils se tournent en guise <ex>et</ex> en force des consonantz.</q><q>  -  Bailléz nous exemple. </q><q> - Veéz lacy, sicome es ces quater mos : « Johannes », « vates », « cuius », « audivit ». Et ap<ex>ré</ex>s « g » <ex>et</ex>  ap<ex>ré</ex>s « q » <ex>et</ex>  aprés « s » en la mesmes selabe « u » ne serra guieres sonné, sicomme <milestone unit="folio" n="316vb"/> es ces trois mos : « lingua », « quis », « suavis ». Derechef, q<ex>ua</ex>nt il est deux consonantz en milieu du mot, sicome en cest mot « letters », le p<ex>re</ex>mier ne s<ex>er</ex>ra guiers sonné, fors il y a deux « 11 », qar ils s<ex>er</ex>rent toutez deux fort sonnéz, come en ceste mot « quelles ». Derechief, q<ex>ua</ex>nt « n » s'ensuyt « a » ou « o », doncques « u » serra en milieu de eux, come es ces deux mos : « quant », « sont ». Ci endroit il fault sçavoir belcoup de bones rieulis, dequelles la p<ex>ri</ex>mier est cestuy : q<ex>ua</ex>nt un mot fine en un vouyel <ex>et</ex> le mot suyant comence p<ex>ar</ex> un autre vouyel, donques le primier vouyel serra p<ex>er</ex>du en p<ex>ar</ex>lant, sicome es cestes exemples : « ma amye », « sa amo<ex>ur</ex> », fors q<ex>ue</ex> quant le entendement s<ex>er</ex>roit ainsi perdu : « Jehan p<ex>ar</ex> la a Adam » ; et aussi quant cel mot fine en « i », sicomme « je ouÿ Adam », ou en « o », sicome « Pharao ala » ; pour ce doncques entre eux il fault la alaine traiter. La seconde regle est cestuy que quant un mot fine en une consonant <ex>et</ex>le mot suiant comence <ex>par</ex> un autre, doncq<ex>ue</ex>s le p<ex>ri</ex>mier consona<ex>n</ex>t sera pou sonné ou nient, sicome en cest exemple : « Jehan parla », fors quant cel p<ex>ri</ex>mier mot fine en « b », sicome « Oreb », ou en « m », sicome « Abraham », ou en « n », sicome « raison », ou en « r », sicome « Putiphar » ; qar doncques tu sonneras fort, qar aultrement l'entendement s<ex>er</ex>roit p<ex>er</ex>du. La trois regle est cestuy <ex>que</ex> quant un mot fine en un vouyel, <ex>et</ex> le mot s'ensuiant comence p<ex>ar</ex> un consonant ou a contraire, c'est a sçavoir, q<ex>ua</ex>nt un mot fine p<ex>ar</ex> un consonant <ex>et</ex> le mot co<ex>m</ex>mence p<ex>ar</ex> un vouyel, doncques toutz<milestone unit="folio" n="317ra"/> deux serront fort sonnés, sico<ex>m</ex>me es cestes exemples : « la grace de Dieu », « veult aymer », « peut estre ». La quatre regle est cestuy que q<ex>ua</ex>nt un semivouyel, més mesmemant « n », s'ensuit cest vouyel « e », doncqes cel « e » serra bien pres sonné come il fust un « a », sicome « bellement », « bonnement ». Et aussi q<ex>ua</ex>nt aprés ceste l<ex>ett</ex>re « n » vient ceste <ex>lettre</ex> « 1 », doncques ceste l<ex>ett</ex>re « n » serra sonné come ceste l<ex>ett</ex>re « 1 », sicome «en la fois », « en la ville ». La cinq regle est cestuy q<ex>ue</ex> q<ex>ua</ex>nt un mot fine en ceste l<ex>ett</ex>re « 1 », <ex>et</ex> le mot s'ensuiant comence par un consona<ex>n</ex>t,
+     <pb n="242"/>
+     doncques ceste l<ex>ett</ex>re <ex>« l »</ex> serra sonné co<ex>m</ex>me « u », sicome « bel pere », « bel filz » ; mais a contraire q<ex>ua</ex>nt un mot fine en « 1 » <ex>et</ex> le mot s'ensuiant comence p<ex>ar</ex>un vouyel, doncques « 1 » s<ex>er</ex>ra fort sonné sicome es cestez exemplez : « bel uncle », « bel amy ». Et ceste mesmes regle tient aussi bien en milieu du mot, sicome es cestez exemples : « vielx », « tielx », « alaine », « eîeine ». La sisme regle est cestuy q<ex>ue</ex>, q<ex>ua</ex>nt un mot signifie chose qu'est masle, se vo<ex>us</ex>pouvez cognoistre a le oil, don<ex>qu</ex>es il s<ex>er</ex>ra sonné co<ex>m</ex>munément sanz « e » au bout, sicome « un cheval », « un chevalier », se ne soit sa nature de avoir un « e » au bout, sicome « pere », « frere » ; mais quant il y a un mot que signifie chose femelle, doncques il s<ex>er</ex>ra communément sonné on « e » a bout, sicome « dame », « femme », <ex>et</ex> tielz semblables. Mais cy endroit il fault entendre q<ex>ue</ex>, q<ex>ua</ex>nt l'en ne peut cognoistre au le oil de ascu<ex>n</ex> mot se il signifie chose masle ou femmelle, doncques il fault ascouter le p<ex>ar</ex>ler de eux que mieulx sonnent, qar il y a grande foison <milestone unit="folio" n="317rb"/> des tielx mos que en leur nature sont femelles, <ex>et</ex> pour tant toutez vois ils s<ex>er</ex>ront sonnéz come s'ils s<ex>er</ex>roient maslez sanz « e » a bout, sicome « la fojson », « a maison », « ta raison », « sa seison ». Oultre sçachéz icy tres bien <ex>et</ex> gardez vous mesouen que «e» soit sonné fort au bout du mot, quant ascun mot fine en « e » ; <ex>et</ex> se il ne fine pas ainsin <ex>que</ex> vous la ne le sonné mie.</q></p>
+    <p>           <q> Aprés le chapitre des l<ex>ett</ex>res il nous fault dire des accidens p<ex>ri</ex>mierement pour ce. Q<ex>ua</ex>nt especies sont ils des mos ?  - Deux.</q><q>
+     -  Quelles ?</q><q>  -  La primitive <ex>et</ex> la dirivative. Qar quant un mot ne vient que de lui mesmes, doncques nous l'appellons de la p<ex>ri</ex>mitive espece, sicome « un jour », « un maille », « un denier », « un blanc » ; mais q<ex>ua</ex>nt un mot descent de un autre, doncques nous l'appellons de la dirivative espece, sicome « une journee », « une maillee », « une denieree », « une blanchee ».  -  Q<ex>ua</ex>ntez figures est-il des mos ?</q><q>  - Trois.</q><q>  - Quelles ?</q><q>  - La simple <ex>et</ex> la compost <ex>et</ex> la decompost. Qar quant un mot ne peut estre devisé en deux mos <ex>et</ex> chescun par soy entendible, doncqes nous le appellons de la simple figure, sicome cest mot « fait » ; mais q<ex>ua</ex>nt un mot peut estre devisé en deux mos <ex>et</ex> chescun p<ex>ar</ex>soy entendible, doncques nous l'appellons de la co<ex>m</ex>poste figure, sicome cest mot «parfait»; et q<ex>ua</ex>nt un mot descent d'un aultre qui est compost, doncques nous l'appellons de la decomposte figure, sicome cest mot « p<ex>ar</ex>faitement ».  - Q<ex>ua</ex>ntez nombrez sont <milestone unit="folio" n="317va"/> ils ? </q><q> - Deux.</q><q>  - Quelx ?</q><q>  - Le singuler <ex>et</ex> le pulier.</q><q>
+     -  Que est le singuler ?</q><q>  - Cestuy que p<ex>ar</ex>le d'une chose seulement,
+     <pb n="243"/>
+     sicome « un home », « une femme » ; mais le puliere est cil que parle des pluseurs choses ensemble, sicome « les homes », « les femmes ». Cy endroit il fault sçavoir que ceste mot en françois, pour la graigneur partie, que est singulier <ex>et</ex> aussi pulier se il y a un « s » plus a bout, sicome « home, homes », « femme, femmes ». Et ceste regle est vray fors que es verbes, dequelx on dira en leur chapitre cy aval. Pour ceo gardez vous que vous ne mittéz pas le singuler pour le pulier, ne a contraire, sicome font les sots. Mais pour tant toutez vois <ex>com</ex> il y a belcoup des mos françoiss q<ex>ue</ex> sont les mesmes en pulier come y sont en singuler, <ex>et</ex> non plus ne meins, sicome « temps », « nois », « françois », mesmes « englois », « escos », desquielx tous il ne me en souvient pas faire une regle q<ex>ua</ex>nt a p<ex>re</ex>sent, mais ils se finent volenters en «s». </q><q> - Q<ex>ua</ex>ntez personnes est il ?</q><q>  - Trois.</q><q>  -  Quelles ?</q><q>  -  La primier, la deusiesme, la troisiesme, sicome « je », « tu », « cil » en singuler, « nous », « vous », « ceulx » en pulier.  - Quel mot est p<ex>ri</ex>mier p<ex>er</ex>sonne ? </q><q> - Celuy que p<ex>ar</ex>le de luy mesmes, sicome « je », « no<ex>us</ex> ». Et la seconde est de celuy a quel parler est fait, sico<ex>m</ex>me « tu » et « vous ». Et la tierce est celuy du quel le parler est fait entre la p<ex>ri</ex>mier et la seconde, sicome « cil » <ex>et</ex>  « ceux ». Et tous les nouns <ex>et</ex> tous les pronouns <ex>et</ex> tous les participres so<ex>n</ex>t la tierce p<ex>er</ex>sonne, fors q<ex>ue</ex>  « je », « tu », « nous » <milestone unit="folio" n="317vb"/> <ex>et</ex> « vous » <ex>et</ex> leurs obliques <ex>et</ex> le vocatif case. Cy endroit il fault prendre garde qu'en p<ex>ar</ex>lant françois on ne mette pas une p<ex>er</ex>sone pour une aultre, sicome font les sottez gens disantz ainsi : « je ferra » pour « je ferrey », «cil ferray» pour «cil ferra», <ex>et</ex> tielez semblables.  - Q<ex>ua</ex>ntez geners est il ?</q><q>  - Cinq.</q><q>  - Quelx ?</q><q>  - Le masculin, le femenyn, le neutre, le comun de deux, le comun de trois. </q><q> - Quel mot est masculin genre ? </q><q> -  Cil que p<ex>ar</ex>le de chose masle, c'est a dire resemblant p<ex>ar</ex> nature a un home, sicome « un enfant », « un cog », « un cheval », <ex>et</ex> ainsi des aultres.  -  Et quel mot est femenyn genre ?  -  Cil que p<ex>ar</ex>le de chose femmelle, c'est a dire resemblant p<ex>ar</ex> nature a une fe<ex>m</ex>me, sicome « une pucelle », « une geline », « une vache », <ex>et</ex> ainsi des aultres. Ci endroit il fault prendre garde q'en parlant françois, qu'on ne mette pas masle pour fe<ex>m</ex>melle ne a cont<ex>ra</ex>ire, sicome « le » pour « la », « mon » po<ex>ur</ex> « ma », « ton » po<ex>ur</ex> « ta », « son » pour « sa », <ex>et</ex> ainsi des autres, sicome « ma pere », « mon mere » ; qar on doit dire : « mon p<ex>er</ex>e», « ma mere ».</q><q>  - Et quel mot est neutre genre ?</q><q>  - Cil que
+     <pb n="244"/>
+     p<ex>ar</ex>le de chose que p<ex>ar</ex>nature ne ressemble mye ne a masle n'a femmelle, sicome « un bank », « un huis », « une scelle », « un cuilier », « un cene », <ex>et</ex> ainsi des autres. Mais icy sçachéz que chescun mot que par nature est neutre genre, non obstant ce toutez vois est parlé en françois come il fust un masculin ou femenyn, selonc ce que leur usage demande, come il apert aux exemples avant ditz. <milestone unit="folio" n="318va"/> </q><q> - Quel mot est comun de deux geners ?</q><q>  - Cy que une foiz ap<ex>ar</ex>tient aux maslez <ex>et</ex> une aultre foiz aux fe<ex>m</ex>melles. Mais q<ex>ua</ex>nt il ap<ex>ar</ex>tient au femenyn, un « e » plus s<ex>er</ex>ra mise au bout, ait il un « e » en masculyn ou non, sicome « un, une », « bel, belle », « bon, bonne », « né, nee », « engendré, engendree », « enflé, enflee », <ex>et</ex> tielx mos, po<ex>ur</ex> la greigneur p<ex>ar</ex>tie, sont appeléz nouns adjectifs.</q><q>  -  La qualité des nouns en quoy est elle devisé ?</q><q>  -  En deux.</q><q>  -  Coment ?</q><q>  -  Ou le nom de quelle que chose que tu veulx, quant il fust p<ex>ri</ex>mirement trouvé, fust ordiné a signifier une chose seulement, <ex>et</ex> pour ce est il appellé un p<ex>ro</ex>pre noun, sicome « Londres », « Tamis », « Jehan », « Eleyn » ; ou le nom de quelle que chose que tu veulx, quant il fust primierement trouvé, fust ordeiné a signifier en comun toutez de sa nature especiale, <ex>et</ex> pour ce les gramoriens le appellent un nom appellatif, sicome « une citee », « un fluve », « un home », « une femme ».</q><q>  -  Quantez cases est il ?</q><q>  -  Six.</q><q>  -  Quelx ?</q><q>  -  No<ex>m</ex>i<ex>n</ex>atif, genitif, datif, accusatif, vocatif, ablatif, <ex>et</ex> ils sont cognuz p<ex>ar</ex> leurs signez.</q><q>  - Qui sont ils ?</q><q>  - Ces trois : «le», «du», «au» : «le» est signe du no<ex>m</ex>i<ex>n</ex>atif ou du accusatif ; « du » est signe de le génitif ou de l'ablatif, <ex>et</ex> « au » est signe du datif ; mais le vocatif ne a point de signe, qar chescun mot que est appellé d'un altre est vocatif case, sicome « mon amy, va te en », « meistre, ensaigne nous».</q><q>  - Ditez quant ce <milestone unit="folio" n="318rb"/> seigne «le» est seigne du no<ex>m</ex>i<ex>n</ex>atif case <ex>et</ex> quant de le accusatif.</q><q>  - Q<ex>ua</ex>nt le mot devant le quel cest seigne « le » vient, fait ou seuffre, doncques se mesmes mot no<ex>m</ex>i<ex>n</ex>atif case, sicome « le meistre nous ayme ». « le maistre est amé de nous » ; mais quant le mot devant le quel cest seigne « le » vient, receipt ascun fait devant alant, doncques ce mot est accusatif case, sicome « je ayme le maistre ». Et ce mot que signifie fair ou seuffre est appellé un verbe, sicome « je ayme », <ex>«</ex> je suys amé ».</q><q>  -  Ditez quant cest seigne « du » est seigne de le genitif case <ex>et</ex>qua<ex>n</ex>t de l'ablatif case. Quant le mot devant lequel cest seigne « du » vie<ex>n</ex>t, ensuyt un nom, doncques ce mesmes mot s<ex>er</ex>ra genitif case, sicome « je ayme le filz du maistre » ; mais quant le mot devant le quel cest seigne « du » vient, ensuit un verbe ou un p<ex>ar</ex>ticiple, doncqes ce mesmes mot s<ex>er</ex>ra ablatif case, sicome « je suis ensaigné du maistre ».</q><q>  -  Baillez moy exemple des touz les cases.</q><q>  - No<ex>m</ex>i<ex>n</ex>atif : « le maistre » ; génitif : « du
+     <pb n="245"/>
+     maistre » ; datif : « au maistre » ; accusatif : « le maistre » ; vocatif : « maistre » ; ablatif : « du maistre ». Et en pulier, no<ex>m</ex>i<ex>n</ex>atif :  « les maistres » ; genitif : « des maistres » ; datif : « aux maistres » ; accusatif : « les maistres » ; vocatif : « maistres » ; ablatif : « des maistres ». </q><q> - Quantz degrés de comparison est il ?</q><q> -  Trois.</q><q>  - Quelx ?</q><q>  - Le positif, sicome «bon», « mauveis », « bel », « lait », « haut », «bas », <ex>et</ex> ainsi des aultres ; le comp<ex>ar</ex>atif, sicome « plus bon », « plus mauveis », « plus hault », « plus bas », <ex>et</ex> <milestone unit="folio" n="318va"/> ainsi des aultres ; le suppellatif, sicome « tres bon », « tres mauvais », et ainsi des autres. Ci endroit il fault sçavoir que le comp<ex>ar</ex>atif en françois est le mesmes mot que est son positif, ovecq<ex>ue</ex> cest mot «plus», sicome «plus bon», «plus mauveis». Et le suppellatif est le mesmes mot que est son positif ovec cest mot « tres », sicome « tres bon », « t<ex>re</ex>s mauveis » ; mais quant on veult fair un excellent suppellatif, donque l'en adjoint cest mot « plus » ovec cest mot « tres » ou le positif, sicome « tres plus bon », « tres plus mauveis ». </q><q> -  Quantz meufs est il ?</q><q>  -  Cinq.</q><q>
+     -  Quelx ? </q><q> -  Le indicatif, ce est que demonstre vray ou fauls, sicome « Je ayme » ; le imp<ex>er</ex>atif, c'est que co<ex>m</ex>mande chose a estre faite sicome « aymes tu », « ayme cil » ; le optatif, c'est que desire chose a faire, sicome « je aymeroie », le co<ex>n</ex>junctif, c'est que joint a luy un aultre raison, sicome « quant je ayme, tu s<ex>er</ex>ras amé » ; le infinitif, c'est un verbe que n'est pas certain de luy mesmes <ex>et</ex> pour ce apent il d'un aultre verbe, sicome « je desire aymer ». Et icy il fault prendre garde q<ex>ue</ex> vous ne mettez pas un meuf ne un temps pour un aultre, sicome font les ydios disans ainsi : « je prie a Dieu que je ay bonne aventure », qar ils diroient la « que je aye bonne aventure » <ex>et</ex> non pas « que je ay », po<ex>ur</ex> ce que « je ay » est le présent du indicatif <ex>et</ex> « je aye » est le future de l'optatif. Se vous veulliéz estre plus garni <milestone unit="folio" n="318vb"/>de la div<ex>er</ex>sité des cinq meufs <ex>et</ex> leur temps, sçachés bien doncques le chapitre des verbes que icy av<ex>va</ex>nt est escript.
+     -  Quans temps est il ?</q><q>  -  Trois.</q><q>  -  Quelx ?</q><q>  -  Le temps qu'est maintenant <ex>et</ex> est appellé present, sicome « je ayme » ; le temps qu'est passé <ex>et</ex>  est appellé le pretert, sicome « je aymey » ; le temps qu'est a venir <ex>et</ex> est appellé le future, sicome « je aymerey ».</q><q>
+     -  Q<ex>ua</ex>ntz maniers est il de temps passé ? </q><q> -  Trois.</q><q>  -  Quelx ?</q><q>
+     -  Temps qu'est passé, mais toutez vois non pas tout fait, et est appellé le pretert inp<ex>ar</ex>fait, sicome « je aymoie » ; temps qu'est passé <ex>et</ex> aussi tout fait, <ex>et</ex> est appellé pretert parfait, sicome « je aymey » ; temps qu'est passé <ex>et</ex> aussi plus que tout fait, <ex>et</ex> est appellé p<ex>re</ex>tert plus que p<ex>ar</ex>fait, sicome « je avoie amé ».</q><q>
+     -  Quantz geners est il des verbes ? </q><q> -  Trois.</q><q>  -  Qelx ?</q><q>  -  Le actif, c'est a dire faisant, come « je ayme » ; le passif, c'est a dire
+     <pb n="246"/>
+     seuffrant, come « je suys amé » ; le neutre, c'est a dire ne le un ne l'autre cl<ex>er</ex>ement, sicome « je dois ».</q></p>
+    <p>            <q>Quantez partiez est il de oraison ? </q><q> -  Huyt.</q><q>  -  Quellez ?</q><q>
+     -  Quatre que sont declinéz <ex>et</ex> quatre que ne se déclinent mie.</q><q>
+     -  Lequelles quatre sont que se declinent ? </q><q> - Nom, p<ex>ro</ex>nom, verbe, <ex>et</ex> participle.</q><q>  - <ex>Et</ex> quellez sont les quatre que ne se declinent mie ?</q><q>  - Adverbe, conjunction, p<ex>re</ex>posicion, int<ex>er</ex>jection.</q><q>  - Quelle chose est decliner ? </q><q> - Tenier le comencement du mot <ex>et</ex> changer le fyn.</q><q>  - Baillez moy exemple.</q><q> <milestone unit="folio" n="219ra"/>  - Sicome « ay, as, a, avons, avéz, ont », <ex>et</ex> aussi des aultres.</q><q>  -  En quantz maniers peut un mot estre p<ex>ar</ex>ler ?</q><q>  -  En deux. </q><q> -  En quelx ? </q><q> -  En un manier, mat<ex>er</ex>ialment, c'est a dire q<ex>ua</ex>nt le mot ne mouste pas sa signification, mais sa voix seulement, sicome cest mot « ou » belcoup des entendemens ; et en un autre manier, p<ex>er</ex>sonelement c'est a dire q<ex>ua</ex>nt un mot ne parle pas de sa voix seulement, mais de son entendement, sicome « ou alez vous » ? Et sçachés que q<ex>ua</ex>nt un mot est tenu mat<ex>er</ex>ialment, il s<ex>er</ex>ra tenu nomnellement, neutrelment, indeclinablement, substantivalment <ex>et</ex> en la force de la troisiesme personne. </q><q> -  Comment cognoistrey je de celle p<ex>ar</ex>tie de oraison qu'est appellé nom ? </q><q> - Chescun mot que porte le </q><q>nom de une chose par soy mesmes ou pendant d'un aultre est appellé nom. </q><q> -  Pour quoy ditez vo<ex>us</ex>« p<ex>ar</ex> soy mesmes »?</q><q>  -  Po<ex>ur</ex> ces noms que sont appellés substantifs, sicome « une femme », « un home ».</q><q>  -  Et pour quoy ditez vous « pendant d'un aultre »?</q><q>  -  Pour les noms que sont appellés adjectifs, que ne poue<ex>n</ex>t pas estre p<ex>ar</ex> eulx, mais il leur fault tous jours ou estre aveq<ex>ue</ex> leurs substantifs ou les avoir entenduz, sicome « bon », « bel ».</q><q>  -  Coment sont ils aveq<ex>ue</ex>s leur substantifs ? </q><q> -   Sicome « bel home », « belle femme ». </q><q> -  Et coment entendent ils leurs substantifs ?</q><q>  -  Sicome « bon fait cognoistre », c'est a dire <milestone unit="folio" n="319rb"/> «bonne chose fait a cognoistre». </q><q> - En quantz accidens accordra le adjectif ovesq<ex>ue</ex> son substantif ? </q><q> -  En trois.</q><q>
+     -  En quielx ?</q><q> -  En case, genre <ex>et</ex> nombre, sicome « bel sire », «belle dame».</q><q>  - Quantz maniers est il de ces noms que sont appelléz substantifs ? </q><q> - Six.</q><q>  - Quielx ?</q><q>  - Univoque, sicome «un home » ; equivoque, sicome cest mot « ou » ; collectif, sicome « peuple » ; complectif, sicome « miel a enbeure » ; absolut, sicome « dieu ».</q><q>  -  Quant pairez est il de relatifs ?</q><q>  -  Deux. </q><q> - Quielx ?</q><q>  -  Relatif de logi <ex>et</ex> relatif de gramoire. Et sçachéz q<ex>ue</ex>ces mos « qui » <ex>et «</ex> quel » sont masculins singuliers, <ex>et</ex> « quielx » leur pulier ; et ces mots « que » et « quelle » sont femenyns singuliers, et « quelles » leur pulier. </q><q> -  Qua<ex>n</ex>tz maniers est il des adjectifs ? </q><q> -  Six.</q><q>  -  Quielx ?</q><q>  - Int<ex>er</ex>ogatif, sicome « co<ex>m</ex>bien » ; demonstratif, sicome « bon » ; distributif, sicome « chescun » ; 
+     <pb n="247"/>
+     partitif, sicome « aucun » ; infinitif, sicome « quelq<ex>ue</ex> » ; negatif, sicome « nul ». Mais cy endroit il fault sçavoir q<ex>ue</ex>chescun adjectif de femenyn genre doit finir ou en un « e », <ex>et</ex> c'est q<ex>ua</ex>nt son masculin fine en « e », donques son femenyn finera en deux « ee », sicome « couroucé, couroucee » ; <ex>et</ex> en leur pulier s<ex>er</ex>a mis un « s » a bout, sicome « bon, bons, bonne, bonnes ».</q></p>
+    <p>           <q> Coment cognoistrey je un pronom ?  - Chescun mot que est mis en lieu d'un nom <ex>et</ex> oveques ce seignifie certeine p<ex>er</ex>sonne, est appellé un pronom. </q><q> -  Combien a il des pronoms ?</q><q>  - Quinze.</q><q>  - Quielx ?</q><q>  - «Je», <milestone unit="folio" n="319va"/>«tu», « soy », «il», «le», «cil», « cest », « cel », « mesmes », <ex>et</ex> ces neuf sont primitifs ; « mon », « ton », « son », « nostre », « vostre », « leur », <ex>et</ex> ces six sont derivatifs. Et sçachéz que en la p<ex>ri</ex>mier p<ex>er</ex>sonne <ex>et</ex> singulier nombre nous avons « je » en nominatif case, <ex>et</ex> « moy » ou « me » es aultres obliques ; <ex>et</ex> leur pulier s<ex>er</ex>ra tous jours « nous ». Et en la seconde p<ex>er</ex>sonne nous avons « tu » en no<ex>m</ex>i<ex>n</ex>atif, <ex>et «</ex> toy » ou « te » es aultres obliques, <ex>et</ex> leur pulier « vous ». Mais en la tierce p<ex>er</ex>sonne nous avons six pronoms, c'est assavoir : « ce », « il », « le », « cil », « cest », « cel ». Mais cest pronom « se » ou « soy », lequel que tu vouldras es toutz cases, genres <ex>et</ex> nombres fors que en no<ex>m</ex>i<ex>n</ex>atif, est un pronom receproc, c'est a dire que celuy mesmes reçoipt, sicome « Janyn se ayme ». <ex>Et</ex> cest mot « leur » peut estre leur pulier, sicome « Janyn <ex>et</ex> Gelemyn se entreayment », ou ainsi « Janyn <ex>et</ex> Guillemyn leur entreayment », qar l'un est aussi bon corne l'aultre. Derechief sçachéz q<ex>ue</ex>cest mot « il » est un p<ex>ro</ex>nom relatif, sicome « je ayme le meistre, qar il me a donné cause ». Mais cest mot « le » est un article, c'est a dire un seigne enforcant les autres mos, sicome « je ayme le meistre lequel me ayme ». Et ascun foiz cest mot « le » est un pronom demonstratif <ex>et</ex> infinit, sicome « je le ayme lequel me ayme » ; et ascun foiz relatif, sicome « le meistre vient <ex>et</ex> je le ayme », ou ainsi « le meistre vient ; le ayme tu point ? ». Mais ces trois mos « cil », « cest », « cel » sont pronoms demonstratifs, mais « cel » moustre de long, <ex>et</ex> « cil » et « cest » <milestone unit="folio" n="319vb"/> de p<ex>re</ex>s. Et unqore « cest » moustre plus pres que ne fait « cil », sicome « cest home icy et cil home illeoques et cel home la au mort s'entrehayent ». Maintenant il nous fault dire des ces pr<ex>o</ex>n<ex>o</ex>ms coment ils s<ex>er</ex>ront declinéz. Pour ce sçachéz q<ex>ue</ex>cest mot « il » est no<ex>m</ex>i<ex>n</ex>atif masculin, <ex>et «</ex> elle » femenyn, <ex>et</ex> leurs obliques « leur ». De cest mot « le » nous avons avant dit en chapitre des accidens. <ex>Et</ex> cest mot « cil » est no<ex>m</ex>i<ex>n</ex>atif masculin, <ex>et</ex> « celle » femenyn, <ex>et</ex>  « luy » es leurs obliques ; <ex>et</ex> en pulier, « cils » en masculin, <ex>et</ex> « celles » en femenyn, <ex>et</ex> leurs obliques « leur ». Derechief cest mot « cest » est no<ex>m</ex>i<ex>n</ex>atif masculyn <ex>et</ex> « cestes » en femenyn en toutz cases. Derechief
+     <pb n="248"/>
+     cest mot « cel » ou « ycel » est no<ex>m</ex>i<ex>n</ex>atif masculin ; <ex>et</ex> « celles » ou « ycelle » femenyn, <ex>et</ex> es leurs obliques « ycelly », <ex>et</ex> en pulier « ceulx » ou « yceulx » en masculin, <ex>et</ex> « celles » ou « icelles » en femenyn sont en toutz cases. Mais sçachéz icy q<ex>ue</ex>, ja soit ce cest mot « cel » sans « y » devant soit demonstratif de bien loing, toutez vois quant il y a « y » devant, sicome « ycel », doncques il est affirmatif de la chose avant d<ex>i</ex>te, ou demonstratif de bien p<ex>r</ex>es que n'est cest mot « cest », sicome en cestz exemples : Que brait ainsi ?» </q><q> - «Cil ho<ex>m</ex>me illoques.» </q><q> - «Ne mie, ce est cest ho<ex>m</ex>me icy !» </q><q> -  « Salve vo<ex>st</ex>re grace, ce est cel ho<ex>m</ex>me la !» </q><q> -  « Salve la v<ex>ost</ex>re, ce est icel ycy ! » </q><q> -  « P<ex>ar</ex> Dieu, voir, ce est icel icy non plus ne mains ! ». Cy endroit il fault sçavoir que ces mos « moy », « toy », « soy », « luy », « cestuy », « celly », « icelly » <milestone unit="folio" n="320ra"/>sont obliques <ex>et</ex> doivent doncques estre parléz ovecques les seignes des cases <ex>et</ex> ovecques toutz p<ex>er</ex>posicions, forz que avecques cest seigne « le », sicome « de moy », au « moy », ainsi des aultres. Aussi respondant ils doivent estre parlés pour leurs no<ex>m</ex>i<ex>n</ex>atifs, sicome en ceste exemple : « Janyn, que fais tu ?» ; il doit respondre « Que, moy ? », <ex>et</ex> non pas « je » ; <ex>et</ex> le aultre luy doit dire « Voire, toy ! », <ex>et</ex> non pas « tu », <ex>et</ex> ainsi des aultres. Derechief ces trois mos « cil », « cest », « cel » en leurs femenyns, aussi bien en pulier corne en singuler, peuent estre p<ex>ar</ex>lez pour leurs obliques, sicome « Je ay le chaperon de celle femme laquelle p<ex>ar</ex>la yer a cest home ». Oultre sçachéz <ex>que</ex>, ja soit ce gramoire pa<ex>ar</ex> nature demande que le accusatif case doit s'ensuir son verbe, toutez vois po<ex>ur</ex>tant la guise de droit françois met tous jours ces quatre mos « moy », « toy », « soy », « luy », <ex>et</ex>les p<ex>ro</ex>noms des leurs puliers entre le verbe <ex>et</ex> son no<ex>m</ex>i<ex>n</ex>atif case, sicome « je me force » <ex>et</ex>  « je luy ai dit q<ex>ue</ex>nous vous gratons » <ex>et</ex> « vous vous forcez ». Maintenant il nous fault dire de déclinaison <ex>et</ex> aussi de nature des p<ex>ro</ex>noms derivatifs, que sont ces six : « mon », « ton », « son », « n<ex>ost</ex>re », « v<ex>ost</ex>re », « leur ». <ex>Et</ex> pour ce sçachéz que « mon » est derivé de « moy », « ton » de « toy », « son » de « soy », « n<ex>ost</ex>re » de « no<ex>us</ex> », « v<ex>ost</ex>re » de « vous », <ex>et</ex> « leur » de « luy ». Mais « mon » est masculin, <ex>et</ex> « ma » femenyn, <ex>et</ex> « mes » leur pulier, en toutz deux genres <ex>et</ex> en toutz cases, sicome « mon pere », « ma mere », « mes freres » <ex>et</ex> « mes seures ». <ex>Et</ex> de la vient « mien » en masculin, <ex>et</ex> en pulier « miens », « mienne » en femenyn, <ex>et</ex> en pulier <milestone unit="folio" n="320rb"/> « miennes ». Derechief « ton » est masculin, « ta » femenyn, <ex>et</ex> en pulier « tes » ; <ex>et</ex> de la vient « tien », « tiens » masculins, <ex>et</ex> « tienne » <ex>et</ex> « tiennes » femenyns. Et en semblable maniere « son », « sa », « ses » ; <ex>et</ex> de la vient « sien », « siens », « sienne », « siennes ». Autre « n<ex>ost</ex>re » en masculin, <ex>et</ex>  « n<ex>ost</ex>re » en femenyn, <ex>et</ex> en pulier « noz » ; <ex>et</ex> en semblable
+     <pb n="249"/>
+     maniere « v<ex>ost</ex>re » <ex>et</ex> «vostre», <ex>et</ex> en pulier « voz ». Mais
+     cest pronom «leur» est aucun foiz p<ex>r</ex>imitif, aucun foiz derivatif,
+     mais quant il est primitif il est tous jours en pulier nombre <ex>et</ex>
+     est p<ex>ar</ex>lé sanz substantif, <ex>et</ex> tant il entent comme « les », sicome
+     «je leur ayme» po<ex>ur</ex> «je les ayme». Et q<ex>ua</ex>nt il est derivatif,
+     il peut estre en tous deux no<ex>m</ex>bres, mais en pulier finant en
+     « s », tous jous avec un substantif, <ex>et</ex> doncques il resemble bien
+     pres a cest pronom « son » ; bien pres, je die, pour ce q<ex>ue</ex> cest
+     p<ex>ro</ex>nom «son» p<ex>ar</ex>le de une chose seulement, <ex>et</ex> cest pronom
+     «leur» de pluseurs ensemble, sicome «le meistre vient, <ex>et</ex> son
+     filz, <ex>et</ex> leur chival, oveques leurs den<ex>re</ex>es».</q><q> Que est la differrence
+     entre « mon » <ex>et</ex> « mien » ? </q><q> - « Mon » s<ex>er</ex>ra p<ex>ar</ex>lé tous jours
+     avec un substantif, sicome «mon pere», «ma mere », <ex>et</ex> « mien »
+     <ex>et</ex> «mienne» tous jours sanz aucun substa<ex>n</ex>tif, et tous jours en
+     respondant, sicome en ceste exemple : « A qui est celle belle
+     femme la ? », tu dois respondre : « Elle est mienne, <ex>et</ex> non pas
+     « Elle est ma ». Et sachéz que, quant on demande aucune chose ,
+     le p<ex>ro</ex>nom que est no<ex>m</ex>i<ex>n</ex>atif case, s<ex>er</ex>ra mis ap<ex>ré</ex>s son verbe,
+     sicome « Dis je bien ? », «Le as tu ? ». <milestone unit="folio" n="320va"/> <ex>Et</ex> aussi respondant
+     a la chose ava<ex>n</ex>t d<ex>i</ex>te, sicome « Faitez bonne chere ? », tu 
+     dois respondre « Si fois je » ; aussi : « Non vous desplese ? », <ex>et</ex>
+     tu dois respondre « Non fait-il » <ex>et</ex> non pas « Il non fait ». Deraynement
+     sçachéz que cest pronom « mesme » est <ex>et</ex> demonstratif
+     ensemble, sicome « du mesmes Jehan ». Et aussi l'en le met volentiers
+     ap<ex>ré</ex>s le pronom pour faire plus certaigneté, sicome « moy
+     mesmes », « le mesmes Jean » ; mais il ne peut pas estre oveques
+     cest pronom « je » ne « tu » ne « cil », qar il ne est en a dire je 
+     mesmes le enseignerey», mais c est bien dit: « Je l'enseignerey
+     moy mesmes », <ex>et</ex> aussi des aultres.</q></p>
+    <p>            <q>Coment cognoisterey je celle p<ex>ar</ex>tie de oraison qu'on appelle
+     verbe ? </q><q> -  Chescun mot que, oveques temps <ex>et</ex> sanz case, signifie
+     fair ou seuffre, est un verbe, sicome « je ayme ». Et sçachez que
+     q<ex>ua</ex>nt nous voulons enforcier la significacion de aucun verbe,
+     donques nous luy adjomterons cest mot « en » ou cest mot « y »,
+     sicome « je vous prie », c'est plus fort a dire: je vous en prie »
+     ou « je vous y prie ». Outre sçachéz que cest mot « en » peut estre
+     devant le verbe ou aprés en belcoup des verbes sicome « en aléz
+     vous » ou « aléz vous en ».  -  Quantz maniers a il des v<ex>er</ex>bes?
+     </q><q>-  Deux. </q><q> - Quielx ? </q><q> - Verbe p<ex>er</ex>sonel, c'est a dire, que se accordra ové son no<ex>m</ex>i<ex>n</ex>atif case en nombre <ex>et</ex> en personne,sicome « je
+     ayme». Et l'autre maniere est appellé verbe imp<ex>er</ex>sonel, pour ce
+     <milestone unit="folio" n="320vb"/> quil na point de no<ex>m</ex>i<ex>n</ex>atif case du quel il prendroit
+     nombre <hi rend="ital">et p<ex>er</ex>sonne.</hi> Et sçachéz qu'il y a deux paires de verbes,
+     <pb n="250"/>
+     c'est assçavoir actif et passif. Mais le actif aura dev<ex>va</ex>nt luy ou aprés un de ces deux seignes « l'en » ou « on», sicome « l'en dit », « on dit » ; ou ainsi : « dit l'en », « dit on ». Et le passif imp<ex>er</ex>sonel aura devant luy ou aprés cest seigne « il », sicome « il est dit », ou ainsi « est il dit ». Aussi cest seigne « il » peut estre actif, sicome « Il fait sçavoir que il y a g<ex>ra</ex>nde joie en p<ex>ar</ex>adis », <ex>et</ex> ainsi « fait » <ex>et</ex> « a » sont devant mis pour cest v<ex>er</ex>be « est ». <ex>Et</ex> ainsi a l'en trois seignes des verbes imp<ex>er</ex>sonelz, c'est a sçavoir « l'en », « on », « il », <ex>et</ex> deux seignes de toutz man<ex>er</ex>es de verbes, c'est a sçavoir « en » <ex>et</ex>  « y ». <ex>Et</ex> aussi un verbe imp<ex>er</ex>sonel peut avoir deux seignez a un foiz, l'un que est le sien <ex>et</ex> l'aultre que est le enforçant, sicome en cest exemple ainsi : « En <ex>et</ex> a l'en usé ». Et sçachéz q<ex>ue</ex> quant vous auréz voulu de faire du v<ex>er</ex>be imp<ex>er</ex>sonel, donqe vous prendréz la tierce p<ex>er</ex>sonne de quelq<ex>ue</ex> temps que vous vouldréz <ex>et</ex> luy adjointrez un de ces trois seignes <ex>et</ex> doncques il est fait, sicome « l'en dit », « on dit », « il est dit », <ex>et</ex> ainsi des aultres. Oultre sçachéz que q<ex>ua</ex>nt vous vouldréz onier ce que un aultre a dit, donc il vo<ex>us</ex> fault escouter que est son verbe, se il soit cest verbe « je suis » ou cest verbe « je ay » ou un aultre, quelq<ex>ue</ex> il soit; car s'il soit cest verbe « je suis», ou « je ay », tu respondras p<ex>ar</ex> le mesmes verbe. Mais <milestone unit="folio" n="321ra"/> s'il soit un aultre verbe, donques tu respondras p<ex>ar</ex>cest verbe « je fois », « tu fois ». Et tousjours tu mettras devant le verbe cest mot « ce » <ex>et</ex> ap<ex>ré</ex>s le verbe cest mot « mon », sicome es cestz exemples : « Le meistre est en la escolle » ; tu respondras, attroiant : «Ce est mon », ou nient : « Ce n'est mon ». Aussi « Les desciples sont ové le meistre » ; tu respondras : « Ce sont mon » ou « Ce ne sont mon ». Aussi «Le meistre a belcoup d'argent ; tu respondra : « Ce a mon » ou « ce ne a mon ». Aussi « Nous avons bonnes regles » ; tu respondras : « Ce avez mon » ou « Ce ne avez mon ». Aussi « Le meistre nous ensaigne bien » ; tu respondras : « Ce fait mon » ou « Ce ne fait mon ». Aussi « Mes compaignons apreinnent bien » ; tu respondras : « Ce font mon », ou « Ce ne font mon », <ex>et</ex>aussi p<ex>ar</ex> toutz les autres verbes. Derechief, q<ex>ua</ex>nt vous estez esbaÿ ou en doute de ce que aultre a dit, donques vous luy demandrez par un de ces trois verbes . « je suis » ou « je ay » ou « je fois », sicome es cestz exemples : « Le meistre est courous » ; tu respondras ainsi demandant : « Est ? ». Aussi « Le meistre a bonne cause d'estre marry » ; tu respondras : « A ? ». Aussi « Le meistre p<ex>ar</ex>courous bat fort ses disciples » ; tu respondras : « Fait ? ». Et se tu auras voulu de le nyer, donques tu respondras : « Ce n'est mon », « Ce ne a mon », « Ce ne fait mon », come
+     <pb n="251"/>
+     devant, ou ainsi : « Non est », « Non a », « Non fait », lequel q<ex>ue</ex>tu vouldras. Oultre sçachéz que cest verbe « je ay » est volentiers mis pour cest verbe « je suys », sicome ainsi : « Q<ex>ua</ex>ntez lieues est il de Londres juques a Paris ? ». Aussi la troisiesme p<ex>er</ex>sonne singuler de cest verbe « je suys » est volentiers mys pour la troisiesme<milestone unit="folio" n="321rb"/> p<ex>er</ex>sonne pulier, sicome « Q<ex>ua</ex>ntez heures est il ? » pour « Quantez heures sont ils ? ». Aussi la troisiesme personne singuler de cest verbe « je suis » ou la seconde p<ex>er</ex>sonne pulier de cest verbe « je fois » est volentiers mise en demandant pour la seconde p<ex>er</ex>sonne pulier de cest verbe « je vaulx », sicome « Coment vous est il ?» ou « Coment le faitez vous ? » pour « Coment valéz vo<ex>us</ex> ? ». Oultre sçachéz que q<ex>ua</ex>nt cest mot « entre » est adjoint au un verbe, doncques cel verbe signifie div<ex>er</ex>ses p<ex>er</ex>sonnes faisantez a eulx mesmes, sicome « Nous nous entreymons », c'est a dire que chescun de nous ayme l'un l'autre. Maintenant come il est dit en chapitre des accidens, il fault sçavoir qu'il y a cinq meufs des verbes. Maintenant il fault sçavoir q<ex>ue</ex>en toutz verbes françois il y a huyt temps <ex>et</ex> chescun de eulx n'est qu'un seul mot decliné, c'est a sçavoir le p<ex>re</ex>sent, le pret<ex>er</ex>t inp<ex>ar</ex>fait, <ex>le</ex> pretert p<ex>ar</ex>fait, le future de l'indicatif, <ex>et</ex> toutz lez trois temps de l'optatif, <ex>et</ex> le présent de l'infinitif. Ces sont les huyt, mais toutz les aultre temps, en quelq<ex>ue</ex> meuf que ils soient trouvéz, sont fais des deux ou des trois mots ensemble declinéz, c'est a sçavoir ou de cest verbe « je ay », ou de cest verbe « je suis », <ex>et</ex> du participre pretert de mesmes le verbe, sicome on dira cy avant. Mais primierement il fait bon aprendre a decliner ces deux verbes « je ay » <ex>et</ex> « je suys ». Le epilogue, c'est a dire le brief reacenter ou decliner de cestuy est cest : « je ay, je avoie, je eu, je aurey, je auroie, je eusse, je aye, avoir, ayant, eu ». Oultre sçachéz que le <milestone unit="folio" n="321va"/> future de l'indicatif <ex>et</ex> le present de l'optatif en belcoup des verbes françois peuent estre sincopés, c'est à dire coupés en moienne selabre, sicome « je arey » pour « aurey », « je aroie » pour « auroie » ; <ex>et</ex> c'est la plus belle language de ainsi couper q<ex>ue</ex>de parler tout entier. Oultre sçachéz q<ex>ue</ex> q<ex>ua</ex>nt il y a « n » <ex>et</ex> « s », <ex>et</ex> ap<ex>ré</ex>s « o » en la primiere p<ex>er</ex>sonne pulier, doncques cel « s » ne s<ex>er</ex>ra pas sonné, sicome « nous avons », <ex>et</ex> ainsi des aultres. Aussi sçachéz q<ex>ue</ex> quant « n » est entre « e » <ex>et</ex> « t » en la tierce p<ex>er</ex>sonne pulier, doncques cel « n » ne s<ex>er</ex>ra pas sonné, <ex>et</ex> cel « e » s<ex>er</ex>ra sonné soubtilement come il fust un « i », sicome es ces mots : « enurent », « furent ».</q></p>
+   </div>
+  </body>
+ </text>
+</TEI>

@@ -1,0 +1,4008 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="fr">
+  <fileDesc>
+    <titleStmt>
+      <title type="main">Chansons de Conon de Béthune</title>
+      <title type="formal">cobe</title>
+      <title type="reference">cobe</title>
+      <title type="DEAF">ConBethW2</title>
+      <title type="gmd">transcription électronique</title>
+      <author xml:id="CBethune" key="Conon de Béthune (115.?-1219?)" ref="http://www.idref.fr/030312310">Conon de Béthune</author>
+      <editor>Équipe de la Base de français médiéval - ENS de Lyon / UMR 5317 IHRIM</editor>
+      <funder>Laboratoire IHRIM</funder>
+    </titleStmt>
+    <editionStmt>
+      <edition>transcripion électronique</edition>
+      <respStmt xml:id="encoderDD">
+        <resp>balisage du discours direct</resp>
+        <name xml:id="AL">Alexei Lavrentiev</name>
+      </respStmt>
+      <respStmt xml:id="encoder2">
+        <resp>balisage, numérotation et vérifications finales</resp>
+        <name xml:id="CG">Céline Guillot-Barbance</name>
+      </respStmt>
+      <respStmt xml:id="encoder1">
+        <resp>balisage, numérotation et vérifications finales</resp>
+        <name xml:id="SLH">Serge Heiden</name>
+      </respStmt>
+    </editionStmt>
+    <extent>- Numéros de pages saisies : de 1 à 18 ;
+            - Nombre de mots d'après la base des descripteurs : <num xml:id="nb_mots_given">2606</num> ;
+            - Nombre de tokens (mots et ponctuations) d'après la base des descripteurs : <num xml:id="nb_tokens_given">3026</num>.
+    </extent>
+    <publicationStmt>
+      <publisher><name>Projet BFM, ENS de Lyon / UMR 5317 IHRIM</name></publisher>
+      <address>
+        <addrLine>15, parvis René Descartes</addrLine>
+        <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+        <addrLine>Tél : 04 37 37 63 10</addrLine>
+        <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+        <addrLine>http://bfm.ens-lyon.fr</addrLine>
+      </address>
+      <idno type="bfm">http://catalog.bfm-corpus.org/cobe</idno>
+      <idno type="doi">10.34847/nkl.fca5848n</idno>
+      <availability status="free">
+        <licence target="https://www.etalab.gouv.fr/licence-ouverte-open-licence">
+          <ab type="availability_bfm" subtype="libre_1a">Les Conditions générales d'utilisation de la Base de Français Médiéval (http://txm.bfm-corpus.org/bfm/files/CGU.pdf), 
+            et notamment son Article 5 « PROPRIETE INTELLECTUELLE », s'appliquent à tous les textes de la BFM.</ab>
+          <ab type="how_to_cite">
+            <label>Comment citer ce texte :</label>
+            <bibl>Conon de Béthune, Chansons de Conon de Béthune, édité par Axel Gabriel Wallensköld, Paris, 1921. 
+              Publié en ligne par la Base de français médiéval, http://catalog.bfm-corpus.org/cobe.
+              Dernière révision le 2013-05-22.</bibl>
+            D'autres formules de citation de la BFM sont proposées sur la page web suivante :
+            http://bfm.ens-lyon.fr/article.php3?id_article=281.</ab>
+          <ab type="availability_file">
+            <label>Conditions d'utilisation de ce fichier :</label>
+              Ce fichier numérique est composé du corps de texte médiéval et des suppléments numériques : balisage XML-TEI, métadonnées (teiHeader), balisage du discours direct. Le texte et les suppléments numériques sont libres de droit et peuvent à ce titre être téléchargés et réutilisés librement.
+            </ab>
+            <ab type="availability_txmweb" subtype="illimité">
+              <label>Conditions d'utilisation par le portail BFM :</label>
+              Pas de limitation dans l'usage des fonctionnalités. Téléchargement autorisé.</ab>
+        </licence>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>Les chansons de Conon de Béthune</title>
+          <author>Conon de Béthune</author>
+          <respStmt>
+            <resp xml:id="editor">Éditeur scientifique</resp>
+            <name type="person">Axel Gabriel Wallensköld</name>
+          </respStmt>
+        </titleStmt>
+        <editionStmt>
+            <edition>2e éd.</edition>
+          </editionStmt>
+          <extent>18 page(s), soit 18 pages
+        </extent>
+        <publicationStmt>
+          <publisher>Champion</publisher>
+          <pubPlace>Paris</pubPlace>
+          <date>1921</date>
+          <idno type="sigle_DEAF">ConBethW2</idno>
+          <idno type="cote_biblio">D4.019 : COR3-CON</idno>
+        </publicationStmt><seriesStmt><title>CFMA</title><idno type="collection">24</idno></seriesStmt>
+      </biblFull>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p>Projet :<name type="project">BFM - Base de français médiéval</name>
+        Resp. : <name type="person">Céline Guillot-Barbance</name>
+        Équipe : Base de français médiéval
+        Laboratoire : UMR 5317 IHRIM
+        Institution : ENS de Lyon
+        <address>
+          <addrLine>15, parvis René Descartes</addrLine>
+          <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+          <addrLine>Tél : 04 37 37 63 10</addrLine>
+          <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+          <addrLine>http://bfm.ens-lyon.fr</addrLine>
+        </address>
+      </p>
+    </projectDesc>
+    <editorialDecl>
+      <p>Voir le <ref target="http://bfm.ens-lyon.fr/IMG/pdf/Manuel_Encodage_TEI.pdf">Manuel d'encodage XML-TEI de la BFM</ref>
+        et les <ref target="http://bfm.ens-lyon.fr/IMG/pdf/Consignes_BFM.pdf">Consignes aux relecteurs de la BFM</ref>.</p>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="ab" occurs="53"/>
+        <tagUsage gi="body" occurs="1"/>
+        <tagUsage gi="div" occurs="11"/>
+        <tagUsage gi="front" occurs="1"/>
+        <tagUsage gi="head" occurs="10"/>
+        <tagUsage gi="lb" occurs="382"/>
+        <tagUsage gi="p" occurs="3"/>
+        <tagUsage gi="pb" occurs="18"/>
+        <tagUsage gi="q" occurs="6"/>
+        <tagUsage gi="s" occurs="126"/>
+        <tagUsage gi="text" occurs="1"/>
+        <tagUsage gi="w" occurs="3022"/>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <creation>
+      <name type="author">Conon de Béthune</name>
+      <title>Chansons de Conon de Béthune</title>
+      <date type="compo" when="1185-01-01" notBefore="1180-01-01" notAfter="1190-01-01" n="12">ca. 1180-1190</date>
+      <date type="compo_periode">ancien</date>
+      <date type="compo_sous_siecle" n="12_3">fin</date>
+      <date type="ms" when="1287-01-01" notBefore="1275-01-01" notAfter="1299-12-31">4e q. 13e s.</date>
+      <idno type="msIdentifier">Paris, BnF, fr. 12615 [corrigé par l'éditeur]</idno>
+      <region type="dialecte_auteur">picard</region>
+    </creation>
+    <langUsage>
+      <language ident="fro" usage="100">Le texte est entièrement écrit en vers en ancien français.</language>
+    </langUsage>
+    <textDesc>
+      <channel mode="w">print</channel>
+      <constitution type="single"/>
+      <derivation type="original"/>
+      <domain type="littéraire"/>
+    <factuality type="fiction"/>
+      <interaction type="none"/>
+      <preparedness type="prepared"/>
+      <purpose type="narrative"/></textDesc>
+    <textClass>
+      <keywords scheme="http://authorities.bfm-corpus.org">
+        <term type="domaine">littéraire</term>
+        <term type="genre">lyrique</term>
+        <term type="forme">vers</term>
+        <term type="relation">original</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change who="#CG" when="2002-04-30">révision de tout le texte</change>
+    <change who="#CG" when="2002-05-31">balisage, numérotation et vérifications finales</change>
+    <change who="#SLH" when="2002-05-31">balisage, numérotation et vérifications finales</change>
+    <change who="#AL" when="2003-02-28">balisage, numérotation et vérifications finales</change>
+    <change who="#AL" when="2013-05-22">balisage du discours direct</change>
+    <change when="2013-05-22">Dernière modification du texte</change>
+    <change when="2022-11-04">Création de cet entête</change>
+  </revisionDesc>
+</teiHeader>
+<text>
+<pb n="1"/>
+<front>
+<div type="titre">
+<p>
+<s n="1" xml:id="s_1">
+<w>LES</w>
+<w>CHANSONS</w>
+<w>DE</w>
+<w>CONON</w>
+<w>DE</w>
+<w>BÉTHUNE</w>
+</s>
+</p>
+</div>
+</front>
+<body>
+<div n="1" type="chanson">
+<head>
+<s n="2" xml:id="s_2">
+<w>CHANÇON</w>
+<w>LEGIERE</w>
+<w>A</w>
+<w>ENTENDRE</w>
+<w type="pon">.</w>
+</s>
+</head>
+<ab n="1" type="strophe">
+<lb n="1"/>
+<s n="3" xml:id="s_3">
+<w>Chançon</w>
+<w>legiere</w>
+<w>a</w>
+<w>entendre</w>
+<lb n="2"/>
+<w>Ferai</w>
+<w type="pon">,</w>
+<w>car</w>
+<w>bien</w>
+<w>m'</w>
+<w>est</w>
+<w>mestiers</w>
+<lb n="3"/>
+<w>Ke</w>
+<w>chascuns</w>
+<w>le</w>
+<w>puist</w>
+<w>aprendre</w>
+<lb n="4"/>
+<w>Et</w>
+<w>c'</w>
+<w>on</w>
+<w>le</w>
+<w>chant</w>
+<w>volentiers</w>
+<w type="pon">;</w>
+<lb n="5"/>
+<w>Ne</w>
+<w>par</w>
+<w>autres</w>
+<w>messaigiers</w>
+<lb n="6"/>
+<w>N'</w>
+<w>iert</w>
+<w>ja</w>
+<w>ma</w>
+<w>dolors</w>
+<w>mostree</w>
+<lb n="7"/>
+<w>A</w>
+<w>la</w>
+<w>millor</w>
+<w>ki</w>
+<w>soit</w>
+<w>nee</w>
+<w type="pon">.</w>
+</s>
+</ab>
+<ab n="2" type="strophe">
+<lb n="8"/>
+<s n="4" xml:id="s_4">
+<w>Tant</w>
+<w>est</w>
+<w>sa</w>
+<w>valors</w>
+<w>doblee</w>
+<lb n="9"/>
+<w>C'</w>
+<w>orgeus</w>
+<w>et</w>
+<w>hardemens</w>
+<w>fiers</w>
+<lb n="10"/>
+<w>Seroit</w>
+<w type="pon">,</w>
+<w>se</w>
+<w>je</w>
+<w>ma</w>
+<w>pensee</w>
+<lb n="11"/>
+<w>Li</w>
+<w>descovroie</w>
+<w>premiers</w>
+<w type="pon">;</w>
+<lb n="12"/>
+<w>Mais</w>
+<w>besoins</w>
+<w>et</w>
+<w>desiriers</w>
+<lb n="13"/>
+<w>Et</w>
+<w>çou</w>
+<w>c'</w>
+<w>on</w>
+<w>ne</w>
+<w>puet</w>
+<w>atendre</w>
+<lb n="14"/>
+<w>Fait</w>
+<w>maint</w>
+<w>hardement</w>
+<w>emprendre</w>
+<w type="pon">.</w>
+</s>
+</ab>
+<ab n="3" type="strophe">
+<lb n="15"/>
+<s n="5" xml:id="s_5">
+<w>Tant</w>
+<w>ai</w>
+<w>celé</w>
+<w>mon</w>
+<w>martire</w>
+<lb n="16"/>
+<w>Tos</w>
+<w>jors</w>
+<w>a</w>
+<w>tote</w>
+<w>la</w>
+<w>gent</w>
+<lb n="17"/>
+<w>Ke</w>
+<w>bien</w>
+<w>le</w>
+<w>devroie</w>
+<w>dire</w>
+<lb n="18"/>
+<w>A</w>
+<w>ma</w>
+<w>Dame</w>
+<w>solement</w>
+<w type="pon">,</w>
+<pb n="2"/>
+<lb n="19"/>
+<w>K'</w>
+<w>Amors</w>
+<w>ne</w>
+<w>li</w>
+<w>dit</w>
+<w>noient</w>
+<w type="pon">;</w>
+<lb n="20"/>
+<w>Ne</w>
+<w>por</w>
+<w>quant</w>
+<w type="pon">,</w>
+<w>s'</w>
+<w>ele</w>
+<w>m'</w>
+<w>oblie</w>
+<w type="pon">,</w>
+<lb n="21"/>
+<w>Ne</w>
+<w>l'</w>
+<w>oublierai</w>
+<w>je</w>
+<w>mie</w>
+<w type="pon">.</w>
+</s>
+</ab>
+<ab n="4" type="strophe">
+<lb n="22"/>
+<s n="6" xml:id="s_6">
+<w>Por</w>
+<w>quant</w>
+<w type="pon">,</w>
+<w>se</w>
+<w>je</w>
+<w>n'</w>
+<w>ai</w>
+<w>aïe</w>
+<lb n="23"/>
+<w>De</w>
+<w>li</w>
+<w>et</w>
+<w>retenement</w>
+<w type="pon">,</w>
+<lb n="24"/>
+<w>Bien</w>
+<w>fera</w>
+<w>et</w>
+<w>cortoisie</w>
+<lb n="25"/>
+<w>S'</w>
+<w>aucune</w>
+<w>pitiés</w>
+<w>l'</w>
+<w>em</w>
+<w>prent</w>
+<w type="pon">.</w>
+</s>
+<lb n="26"/>
+<s n="7" xml:id="s_7">
+<w>Au</w>
+<w>descovrir</w>
+<w>mon</w>
+<w>talent</w>
+<lb n="27"/>
+<w>Se</w>
+<w>gart</w>
+<w>bien</w>
+<w>de</w>
+<w>l'</w>
+<w>escondire</w>
+<w type="pon">,</w>
+<lb n="28"/>
+<w>S'</w>
+<w>ele</w>
+<w>ne</w>
+<w>me</w>
+<w>velt</w>
+<w>ochirre</w>
+<w type="pon">.</w>
+</s>
+</ab>
+<ab n="5" type="strophe">
+<lb n="29"/>
+<s n="8" xml:id="s_8">
+<w>Fols</w>
+<w>sui</w>
+<w>ki</w>
+<w>ne</w>
+<w>li</w>
+<w>ai</w>
+<w>dite</w>
+<lb n="30"/>
+<w>Ma</w>
+<w>dolor</w>
+<w type="pon">,</w>
+<w>ki</w>
+<w>est</w>
+<w>si</w>
+<w>grans</w>
+<w type="pon">.</w>
+</s>
+<lb n="31"/>
+<s n="9" xml:id="s_9">
+<w>Bien</w>
+<w>deüst</w>
+<w>estre</w>
+<w>petite</w>
+<lb n="32"/>
+<w>Par</w>
+<w>droit</w>
+<w type="pon">,</w>
+<w>tant</w>
+<w>sui</w>
+<w>fins</w>
+<w>amans</w>
+<w type="pon">;</w>
+<lb n="33"/>
+<w>Mais</w>
+<w>je</w>
+<w>sui</w>
+<w>si</w>
+<w>meschaans</w>
+<lb n="34"/>
+<w>Ke</w>
+<w>quanques</w>
+<w>drois</w>
+<w>m'</w>
+<w>i</w>
+<w>avance</w>
+<lb n="35"/>
+<w>Me</w>
+<w>retaut</w>
+<w>ma</w>
+<w>mescheance</w>
+<w type="pon">.</w>
+</s>
+</ab>
+<ab n="6" type="strophe">
+<lb n="36"/>
+<s n="10" xml:id="s_10">
+<w>Tous</w>
+<w>i</w>
+<w>morrai</w>
+<w>en</w>
+<w>soffrance</w>
+<w type="pon">,</w>
+<lb n="37"/>
+<w>Mais</w>
+<w>sa</w>
+<w>beautés</w>
+<w>m'</w>
+<w>est</w>
+<w>garans</w>
+<w type="pon">,</w>
+<lb n="38"/>
+<w>De</w>
+<w>ma</w>
+<w>Dame</w>
+<w type="pon">,</w>
+<w>et</w>
+<w>la</w>
+<w>samblance</w>
+<lb n="39"/>
+<w>Ki</w>
+<w>tos</w>
+<w>mes</w>
+<w>maus</w>
+<w>fait</w>
+<w>plaisans</w>
+<w type="pon">,</w>
+<lb n="40"/>
+<w>Si</w>
+<w>ke</w>
+<w>je</w>
+<w>muir</w>
+<w>tous</w>
+<w>joians</w>
+<w type="pon">;</w>
+<lb n="41"/>
+<w>Ke</w>
+<w>tant</w>
+<w>desir</w>
+<w>sa</w>
+<w>merite</w>
+<lb n="42"/>
+<w>Ke</w>
+<w>ceste</w>
+<w>mors</w>
+<w>me</w>
+<w>delite</w>
+<w type="pon">.</w>
+</s>
+</ab>
+<ab n="7" type="strophe">
+<lb n="43"/>
+<s n="11" xml:id="s_11">
+<w>Noblet</w>
+<w type="pon">,</w>
+<w>je</w>
+<w>sui</w>
+<w>fins</w>
+<w>amans</w>
+<w type="pon">,</w>
+<lb n="44"/>
+<w>Si</w>
+<w>aim</w>
+<w>la</w>
+<w>millor</w>
+<w>eslite</w>
+<lb n="45"/>
+<w>Dont</w>
+<w>onques</w>
+<w>cançons</w>
+<w>fust</w>
+<w>dite</w>
+<w type="pon">.</w>
+</s>
+</ab>
+</div>
+<pb n="3"/>
+<div n="2" type="chanson">
+<head>
+<s n="12" xml:id="s_12">
+<w>SI</w>
+<w>VOIREMANT</w>
+<w>CON</w>
+<w>CELE</w>
+<w>DON</w>
+<w>JE</w>
+<w>CHANT</w>
+<w type="pon">.</w>
+</s>
+</head>
+<ab n="1" type="strophe">
+<lb n="1"/>
+<s n="13" xml:id="s_13">
+<w>Si</w>
+<w>voiremant</w>
+<w>con</w>
+<w>cele</w>
+<w>don</w>
+<w>je</w>
+<w>chant</w>
+<lb n="2"/>
+<w>Valt</w>
+<w>melz</w>
+<w>que</w>
+<w>totes</w>
+<w>les</w>
+<w>bones</w>
+<w>qui</w>
+<w>sont</w>
+<w type="pon">,</w>
+<lb n="3"/>
+<w>Et</w>
+<w>je</w>
+<w>l'</w>
+<w>aim</w>
+<w>plus</w>
+<w>que</w>
+<w>rien</w>
+<w>qui</w>
+<w>soit</w>
+<w>el</w>
+<w>mont</w>
+<w type="pon">,</w>
+<lb n="4"/>
+<w>Si</w>
+<w>me</w>
+<w>doint</w>
+<w>Deus</w>
+<w>s'</w>
+<w>amor</w>
+<w>senz</w>
+<w>decevoir</w>
+<w type="pon">;</w>
+<lb n="5"/>
+<w>Que</w>
+<w>tel</w>
+<w>desir</w>
+<w>en</w>
+<w>ai</w>
+<w>et</w>
+<w>tel</w>
+<w>voloir</w>
+<w type="pon">,</w>
+<lb n="6"/>
+<w>Ou</w>
+<w>tant</w>
+<w>ou</w>
+<w>plus</w>
+<w type="pon">,</w>
+<w>Deus</w>
+<w>en</w>
+<w>seit</w>
+<w>la</w>
+<w>verté</w>
+<w type="pon">,</w>
+<lb n="7"/>
+<w>Si</w>
+<w>con</w>
+<w>malades</w>
+<w>desirre</w>
+<w>santé</w>
+<w type="pon">,</w>
+<lb n="8"/>
+<w>Desir</w>
+<w>je</w>
+<w>li</w>
+<w>et</w>
+<w>s'</w>
+<w>amor</w>
+<w>a</w>
+<w>avoir</w>
+<w type="pon">.</w>
+</s>
+</ab>
+<ab n="2" type="strophe">
+<lb n="9"/>
+<s n="14" xml:id="s_14">
+<w>Or</w>
+<w>sai</w>
+<w>je</w>
+<w>bien</w>
+<w>que</w>
+<w>riens</w>
+<w>ne</w>
+<w>puet</w>
+<w>valoir</w>
+<lb n="10"/>
+<w>Tant</w>
+<w>con</w>
+<w>celi</w>
+<w>de</w>
+<w>cui</w>
+<w>j'</w>
+<w>ai</w>
+<w>tant</w>
+<w>chanté</w>
+<w type="pon">,</w>
+<lb n="11"/>
+<w>C'</w>
+<w>or</w>
+<w>ai</w>
+<w>veü</w>
+<w>et</w>
+<w>li</w>
+<w>et</w>
+<w>sa</w>
+<w>bealté</w>
+<lb n="12"/>
+<w>Et</w>
+<w>si</w>
+<w>sai</w>
+<w>bien</w>
+<w>que</w>
+<w>tant</w>
+<w>a</w>
+<w>de</w>
+<w>valor</w>
+<lb n="13"/>
+<w>Que</w>
+<w>je</w>
+<w>doi</w>
+<w>faire</w>
+<w>et</w>
+<w>outrage</w>
+<w>et</w>
+<w>folor</w>
+<lb n="14"/>
+<w>D'</w>
+<w>amer</w>
+<w>plus</w>
+<w>halt</w>
+<w>que</w>
+<w>ne</w>
+<w>m'</w>
+<w>avroit</w>
+<w>mestier</w>
+<w type="pon">;</w>
+<lb n="15"/>
+<w>Et</w>
+<w>non</w>
+<w>por</w>
+<w>cant</w>
+<w>maint</w>
+<w>povre</w>
+<w>chevalier</w>
+<lb n="16"/>
+<w>Fait</w>
+<w>riches</w>
+<w>cuers</w>
+<w>venir</w>
+<w>a</w>
+<w>halte</w>
+<w>honor</w>
+<w type="pon">.</w>
+</s>
+</ab>
+<ab n="3" type="strophe">
+<lb n="17"/>
+<s n="15" xml:id="s_15">
+<w>Ainz</w>
+<w>que</w>
+<w>fusse</w>
+<w>sospris</w>
+<w>de</w>
+<w>ceste</w>
+<w>amor</w>
+<w type="pon">,</w>
+<lb n="18"/>
+<w>Savoie</w>
+<w>je</w>
+<w>autre</w>
+<w>jent</w>
+<w>conseillier</w>
+<w type="pon">,</w>
+<lb n="19"/>
+<w>Et</w>
+<w>or</w>
+<w>sai</w>
+<w>bien</w>
+<w>d'</w>
+<w>altrui</w>
+<w>geu</w>
+<w>enseignier</w>
+<lb n="20"/>
+<w>Et</w>
+<w>si</w>
+<w>ne</w>
+<w>sai</w>
+<w>mie</w>
+<w>lo</w>
+<w>mien</w>
+<w>juër</w>
+<w type="pon">;</w>
+<lb n="21"/>
+<w>Si</w>
+<w>sui</w>
+<w>con</w>
+<w>cil</w>
+<w>qui</w>
+<w>as</w>
+<w>eschas</w>
+<w>voit</w>
+<w>cler</w>
+<lb n="22"/>
+<w>Et</w>
+<w>qui</w>
+<w>tres</w>
+<w>bien</w>
+<w>ensengne</w>
+<w>as</w>
+<w>autres</w>
+<w>gens</w>
+<w type="pon">,</w>
+<lb n="23"/>
+<w>Et</w>
+<w>kant</w>
+<w>il</w>
+<w>jue</w>
+<w type="pon">,</w>
+<w>si</w>
+<w>pert</w>
+<w>si</w>
+<w>son</w>
+<w>sens</w>
+<lb n="24"/>
+<w>Qu'</w>
+<w>il</w>
+<w>ne</w>
+<w>se</w>
+<w>seit</w>
+<w>escore</w>
+<w>de</w>
+<w>mater</w>
+<w type="pon">.</w>
+</s>
+</ab>
+<ab n="4" type="strophe">
+<lb n="25"/>
+<s n="16" xml:id="s_16">
+<w>Hé</w>
+<w type="pon">!</w>
+</s>
+<s n="17" xml:id="s_17">
+<w>las</w>
+<w type="pon">,</w>
+<w>dolanz</w>
+<w type="pon">,</w>
+<w>je</w>
+<w>ne</w>
+<w>sai</w>
+<w>tant</w>
+<w>chanter</w>
+<lb n="26"/>
+<w>Que</w>
+<w>ma</w>
+<w>Dame</w>
+<w>parçoive</w>
+<w>mes</w>
+<w>tormenz</w>
+<w type="pon">,</w>
+<lb n="27"/>
+<w>N'</w>
+<w>encor</w>
+<w>n'</w>
+<w>est</w>
+<w>pas</w>
+<w>si</w>
+<w>granz</w>
+<w>mes</w>
+<w>hardemanz</w>
+<pb n="4"/>
+<lb n="28"/>
+<w>Ke</w>
+<w>je</w>
+<w>li</w>
+<w>os</w>
+<w>dire</w>
+<w>les</w>
+<w>mals</w>
+<w>que</w>
+<w>trai</w>
+<w type="pon">,</w>
+<lb n="29"/>
+<w>Ne</w>
+<w>devant</w>
+<w>li</w>
+<w>n'</w>
+<w>en</w>
+<w>os</w>
+<w>parler</w>
+<w>ne</w>
+<w>sai</w>
+<w type="pon">;</w>
+<lb n="30"/>
+<w>Et</w>
+<w>kant</w>
+<w>je</w>
+<w>sui</w>
+<w>aillors</w>
+<w>devant</w>
+<w>autrui</w>
+<w type="pon">,</w>
+<lb n="31"/>
+<w>Lors</w>
+<w>i</w>
+<w>parol</w>
+<w type="pon">,</w>
+<w>mais</w>
+<w>si</w>
+<w>pou</w>
+<w>m'</w>
+<w>i</w>
+<w>dedui</w>
+<lb n="32"/>
+<w>K'</w>
+<w>un</w>
+<w>anui</w>
+<w>valt</w>
+<w>li</w>
+<w>deduiz</w>
+<w>que</w>
+<w>j'</w>
+<w>en</w>
+<w>ai</w>
+<w type="pon">.</w>
+</s>
+</ab>
+<ab n="5" type="strophe">
+<lb n="33"/>
+<s n="18" xml:id="s_18">
+<w>Encor</w>
+<w>devis</w>
+<w>comment</w>
+<w>je</w>
+<w>li</w>
+<w>dirai</w>
+<lb n="34"/>
+<w>La</w>
+<w>grant</w>
+<w>dolor</w>
+<w>que</w>
+<w>j'</w>
+<w>en</w>
+<w>trais</w>
+<w>senz</w>
+<w>anui</w>
+<w type="pon">,</w>
+<lb n="35"/>
+<w>Ke</w>
+<w>tant</w>
+<w>l'</w>
+<w>ador</w>
+<w>et</w>
+<w>desir</w>
+<w type="pon">,</w>
+<w>kant</w>
+<w>g'</w>
+<w>i</w>
+<w>sui</w>
+<w type="pon">,</w>
+<lb n="36"/>
+<w>Que</w>
+<w>ne</w>
+<w>li</w>
+<w>os</w>
+<w>descovrir</w>
+<w>ma</w>
+<w>raison</w>
+<w type="pon">;</w>
+<lb n="37"/>
+<w>Si</w>
+<w>va</w>
+<w>de</w>
+<w>moi</w>
+<w>con</w>
+<w>fait</w>
+<w>del</w>
+<w>champion</w>
+<lb n="38"/>
+<w>Qui</w>
+<w>de</w>
+<w>lon</w>
+<w>tens</w>
+<w>aprent</w>
+<w>a</w>
+<w>escremir</w>
+<w type="pon">,</w>
+<lb n="39"/>
+<w>Et</w>
+<w>kant</w>
+<w>il</w>
+<w>vient</w>
+<w>ou</w>
+<w>champ</w>
+<w>as</w>
+<w>cous</w>
+<w>ferir</w>
+<w type="pon">,</w>
+<lb n="40"/>
+<w>Si</w>
+<w>ne</w>
+<w>seit</w>
+<w>rien</w>
+<w>d'</w>
+<w>escu</w>
+<w>ne</w>
+<w>de</w>
+<w>baston</w>
+<w type="pon">.</w>
+</s>
+</ab>
+</div>
+<pb n="5"/>
+<div n="3" type="chanson">
+<head>
+<s n="19" xml:id="s_19">
+<w>MOUT</w>
+<w>ME</w>
+<w>SEMONT</w>
+<w>AMORS</w>
+<w>QUE</w>
+<w>JE</w>
+<w>M'</w>
+<w>ENVOISE</w>
+<w type="pon">.</w>
+</s>
+</head>
+<ab n="1" type="strophe">
+<lb n="1"/>
+<s n="20" xml:id="s_20">
+<w>Mout</w>
+<w>me</w>
+<w>semont</w>
+<w>Amors</w>
+<w>ke</w>
+<w>je</w>
+<w>m'</w>
+<w>envoise</w>
+<w type="pon">,</w>
+<lb n="2"/>
+<w>Quant</w>
+<w>je</w>
+<w>plus</w>
+<w>doi</w>
+<w>de</w>
+<w>chanter</w>
+<w>estre</w>
+<w>cois</w>
+<w type="pon">;</w>
+<lb n="3"/>
+<w>Mais</w>
+<w>j'</w>
+<w>ai</w>
+<w>plus</w>
+<w>grant</w>
+<w>talent</w>
+<w>ke</w>
+<w>je</w>
+<w>me</w>
+<w>coise</w>
+<w type="pon">,</w>
+<lb n="4"/>
+<w>Por</w>
+<w>çou</w>
+<w>s'</w>
+<w>ai</w>
+<w>mis</w>
+<w>mon</w>
+<w>chanter</w>
+<w>en</w>
+<w>defois</w>
+<w type="pon">;</w>
+<lb n="5"/>
+<w>Ke</w>
+<w>mon</w>
+<w>langaige</w>
+<w>ont</w>
+<w>blasmé</w>
+<w>li</w>
+<w>François</w>
+<lb n="6"/>
+<w>Et</w>
+<w>mes</w>
+<w>cançons</w>
+<w type="pon">,</w>
+<w>oiant</w>
+<w>les</w>
+<w>Champenois</w>
+<lb n="7"/>
+<w>Et</w>
+<w>la</w>
+<w>Contesse</w>
+<w>encoir</w>
+<w type="pon">,</w>
+<w>dont</w>
+<w>plus</w>
+<w>me</w>
+<w>poise</w>
+<w type="pon">.</w>
+</s>
+</ab>
+<ab n="2" type="strophe">
+<lb n="8"/>
+<s n="21" xml:id="s_21">
+<w>La</w>
+<w>Roïne</w>
+<w>n'</w>
+<w>a</w>
+<w>pas</w>
+<w>fait</w>
+<w>ke</w>
+<w>cortoise</w>
+<w type="pon">,</w>
+<lb n="9"/>
+<w>Ki</w>
+<w>me</w>
+<w>reprist</w>
+<w type="pon">,</w>
+<w>ele</w>
+<w>et</w>
+<w>ses</w>
+<w>fieus</w>
+<w type="pon">,</w>
+<w>li</w>
+<w>Rois</w>
+<w type="pon">.</w>
+</s>
+<lb n="10"/>
+<s n="22" xml:id="s_22">
+<w>Encoir</w>
+<w>ne</w>
+<w>soit</w>
+<w>ma</w>
+<w>parole</w>
+<w>franchoise</w>
+<w type="pon">,</w>
+<lb n="11"/>
+<w>Si</w>
+<w>la</w>
+<w>puet</w>
+<w>on</w>
+<w>bien</w>
+<w>entendre</w>
+<w>en</w>
+<w>franchois</w>
+<w type="pon">;</w>
+<lb n="12"/>
+<w>Ne</w>
+<w>chil</w>
+<w>ne</w>
+<w>sont</w>
+<w>bien</w>
+<w>apris</w>
+<w>ne</w>
+<w>cortois</w>
+<w type="pon">,</w>
+<lb n="13"/>
+<w>S'</w>
+<w>il</w>
+<w>m'</w>
+<w>ont</w>
+<w>repris</w>
+<w>se</w>
+<w>j'</w>
+<w>ai</w>
+<w>dit</w>
+<w>mos</w>
+<w>d'</w>
+<w>Artois</w>
+<w type="pon">,</w>
+<lb n="14"/>
+<w>Car</w>
+<w>je</w>
+<w>ne</w>
+<w>fui</w>
+<w>pas</w>
+<w>norris</w>
+<w>a</w>
+<w>Pontoise</w>
+<w type="pon">.</w>
+</s>
+</ab>
+<ab n="3" type="strophe">
+<lb n="15"/>
+<s n="23" xml:id="s_23">
+<w>Dieus</w>
+<w type="pon">!</w>
+</s>
+<s n="24" xml:id="s_24">
+<w>ke</w>
+<w>ferai</w>
+<w type="pon">?</w>
+</s>
+<s n="25" xml:id="s_25">
+<w>Dirai</w>
+<w>li</w>
+<w>mon</w>
+<w>coraige</w>
+<w type="pon">?</w>
+</s>
+<lb n="16"/>
+<s n="26" xml:id="s_26">
+<w>Li</w>
+<w>irai</w>
+<w>je</w>
+<w>dont</w>
+<w>s'</w>
+<w>amor</w>
+<w>demander</w>
+<w type="pon">?</w>
+</s>
+<lb n="17"/>
+<s n="27" xml:id="s_27">
+<w>Oïl</w>
+<w type="pon">,</w>
+<w>par</w>
+<w>Dieu</w>
+<w type="pon">!</w>
+</s>
+<s n="28" xml:id="s_28">
+<w>car</w>
+<w>tel</w>
+<w>sont</w>
+<w>li</w>
+<w>usaige</w>
+<lb n="18"/>
+<w>C'</w>
+<w>on</w>
+<w>n'</w>
+<w>i</w>
+<w>puet</w>
+<w>mais</w>
+<w>sans</w>
+<w>demant</w>
+<w>riens</w>
+<w>trover</w>
+<w type="pon">;</w>
+<lb n="19"/>
+<w>Et</w>
+<w>se</w>
+<w>jo</w>
+<w>sui</w>
+<w>outraigeus</w>
+<w>del</w>
+<w>trover</w>
+<w type="pon">,</w>
+<lb n="20"/>
+<w>Se</w>
+<w>n'</w>
+<w>en</w>
+<w>doit</w>
+<w>pas</w>
+<w>ma</w>
+<w>Dame</w>
+<w>a</w>
+<w>moi</w>
+<w>irer</w>
+<w type="pon">,</w>
+<lb n="21"/>
+<w>Mais</w>
+<w>vers</w>
+<w>Amors</w>
+<w type="pon">,</w>
+<w>ki</w>
+<w>me</w>
+<w>font</w>
+<w>dire</w>
+<w>outraige</w>
+<w type="pon">.</w>
+</s>
+</ab>
+</div>
+<pb n="6"/>
+<div n="4" type="chanson">
+<head>
+<s n="29" xml:id="s_29">
+<w>AHI</w>
+<w type="pon">!</w>
+</s>
+<s n="30" xml:id="s_30">
+<w>AMORS</w>
+<w type="pon">,</w>
+<w>COM</w>
+<w>DURE</w>
+<w>DEPARTIE</w>
+<w type="pon">.</w>
+</s>
+</head>
+<ab n="1" type="strophe">
+<lb n="1"/>
+<s n="31" xml:id="s_31">
+<w>Ahi</w>
+<w type="pon">!</w>
+</s>
+<s n="32" xml:id="s_32">
+<w>Amors</w>
+<w type="pon">,</w>
+<w>com</w>
+<w>dure</w>
+<w>departie</w>
+<lb n="2"/>
+<w>Me</w>
+<w>convenra</w>
+<w>faire</w>
+<w>de</w>
+<w>la</w>
+<w>millor</w>
+<lb n="3"/>
+<w>Ki</w>
+<w>onques</w>
+<w>fust</w>
+<w>amee</w>
+<w>ne</w>
+<w>servie</w>
+<w type="pon">!</w>
+</s>
+<lb n="4"/>
+<s n="33" xml:id="s_33">
+<w>Dieus</w>
+<w>me</w>
+<w>ramaint</w>
+<w>a</w>
+<w>li</w>
+<w>par</w>
+<w>sa</w>
+<w>douçour</w>
+<w type="pon">,</w>
+<lb n="5"/>
+<w>Si</w>
+<w>voirement</w>
+<w>con</w>
+<w>j'</w>
+<w>en</w>
+<w>part</w>
+<w>a</w>
+<w>dolor</w>
+<w type="pon">!</w>
+</s>
+<lb n="6"/>
+<s n="34" xml:id="s_34">
+<w>Las</w>
+<w type="pon">!</w>
+</s>
+<s n="35" xml:id="s_35">
+<w>k'</w>
+<w>ai</w>
+<w>je</w>
+<w>dit</w>
+<w type="pon">?</w>
+</s>
+<s n="36" xml:id="s_36">
+<w>Ja</w>
+<w>ne</w>
+<w>m'</w>
+<w>en</w>
+<w>part</w>
+<w>je</w>
+<w>mie</w>
+<w type="pon">!</w>
+</s>
+<lb n="7"/>
+<s n="37" xml:id="s_37">
+<w>Se</w>
+<w>li</w>
+<w>cors</w>
+<w>va</w>
+<w>servir</w>
+<w>Nostre</w>
+<w>Signor</w>
+<w type="pon">,</w>
+<lb n="8"/>
+<w>Mes</w>
+<w>cuers</w>
+<w>remaint</w>
+<w>del</w>
+<w>tot</w>
+<w>en</w>
+<w>sa</w>
+<w>baillie</w>
+<w type="pon">.</w>
+</s>
+</ab>
+<ab n="2" type="strophe">
+<lb n="9"/>
+<s n="38" xml:id="s_38">
+<w>Por</w>
+<w>li</w>
+<w>m'</w>
+<w>en</w>
+<w>vois</w>
+<w>sospirant</w>
+<w>en</w>
+<w>Surie</w>
+<w type="pon">,</w>
+<lb n="10"/>
+<w>Car</w>
+<w>je</w>
+<w>ne</w>
+<w>doi</w>
+<w>faillir</w>
+<w>mon</w>
+<w>Creator</w>
+<w type="pon">.</w>
+</s>
+<lb n="11"/>
+<s n="39" xml:id="s_39">
+<w>Ki</w>
+<w>li</w>
+<w>faura</w>
+<w>a</w>
+<w>cest</w>
+<w>besoig</w>
+<w>d'</w>
+<w>aïe</w>
+<w type="pon">,</w>
+<lb n="12"/>
+<w>Saiciés</w>
+<w>ke</w>
+<w>il</w>
+<w>li</w>
+<w>faura</w>
+<w>a</w>
+<w>grignor</w>
+<w type="pon">;</w>
+<lb n="13"/>
+<w>Et</w>
+<w>saicent</w>
+<w>bien</w>
+<w>li</w>
+<w>grant</w>
+<w>et</w>
+<w>li</w>
+<w>menor</w>
+<lb n="14"/>
+<w>Ke</w>
+<w>la</w>
+<w>doit</w>
+<w>on</w>
+<w>faire</w>
+<w>chevallerie</w>
+<lb n="15"/>
+<w>Ou</w>
+<w>on</w>
+<w>conquiert</w>
+<w>Paradis</w>
+<w>et</w>
+<w>honor</w>
+<lb n="16"/>
+<w>Et</w>
+<w>pris</w>
+<w>et</w>
+<w>los</w>
+<w>et</w>
+<w>l'</w>
+<w>amor</w>
+<w>de</w>
+<w>s'</w>
+<w>amie</w>
+<w type="pon">.</w>
+</s>
+</ab>
+<ab n="3" type="strophe">
+<lb n="17"/>
+<s n="40" xml:id="s_40">
+<w>Dieus</w>
+<w>est</w>
+<w>assis</w>
+<w>en</w>
+<w>son</w>
+<w>saint</w>
+<w>iretaige</w>
+<w type="pon">;</w>
+<lb n="18"/>
+<w>Ore</w>
+<w>i</w>
+<w>parra</w>
+<w>con</w>
+<w>cil</w>
+<w>le</w>
+<w>secorront</w>
+<lb n="19"/>
+<w>Cui</w>
+<w>il</w>
+<w>jeta</w>
+<w>de</w>
+<w>la</w>
+<w>prison</w>
+<w>ombraje</w>
+<w type="pon">,</w>
+<lb n="20"/>
+<w>Quant</w>
+<w>il</w>
+<w>fu</w>
+<w>mis</w>
+<w>ens</w>
+<w>la</w>
+<w>crois</w>
+<w>ke</w>
+<w>Turc</w>
+<w>ont</w>
+<w type="pon">.</w>
+</s>
+<lb n="21"/>
+<s n="41" xml:id="s_41">
+<w>Honi</w>
+<w>soient</w>
+<w>tot</w>
+<w>chil</w>
+<w>ki</w>
+<w>remanront</w>
+<w type="pon">,</w>
+<lb n="22"/>
+<w>S'</w>
+<w>il</w>
+<w>n'</w>
+<w>ont</w>
+<w>poverte</w>
+<w>ou</w>
+<w>viellece</w>
+<w>ou</w>
+<w>malaige</w>
+<w type="pon">!</w>
+</s>
+<lb n="23"/>
+<s n="42" xml:id="s_42">
+<w>Et</w>
+<w>cil</w>
+<w>ki</w>
+<w>sain</w>
+<w>et</w>
+<w>jone</w>
+<w>et</w>
+<w>riche</w>
+<w>sont</w>
+<lb n="24"/>
+<w>Ne</w>
+<w>poevent</w>
+<w>pas</w>
+<w>demorer</w>
+<w>sans</w>
+<w>hontaige</w>
+<w type="pon">.</w>
+</s>
+</ab>
+<ab n="4" type="strophe">
+<lb n="25"/>
+<s n="43" xml:id="s_43">
+<w>Tot</w>
+<w>li</w>
+<w>clergié</w>
+<w>et</w>
+<w>li</w>
+<w>home</w>
+<w>d'</w>
+<w>eaige</w>
+<lb n="26"/>
+<w>Qui</w>
+<w>ens</w>
+<w>ausmogne</w>
+<w>et</w>
+<w>ens</w>
+<w>biens</w>
+<w>fais</w>
+<w>manront</w>
+<lb n="27"/>
+<w>Partiront</w>
+<w>tot</w>
+<w>a</w>
+<w>cest</w>
+<w>pelerinaige</w>
+<w type="pon">,</w>
+<pb n="7"/>
+<lb n="28"/>
+<w>Et</w>
+<w>les</w>
+<w>dames</w>
+<w>ki</w>
+<w>chastement</w>
+<w>vivront</w>
+<lb n="29"/>
+<w>Et</w>
+<w>loiauté</w>
+<w>feront</w>
+<w>ceaus</w>
+<w>ki</w>
+<w>iront</w>
+<w type="pon">;</w>
+<lb n="30"/>
+<w>Et</w>
+<w>s'</w>
+<w>eles</w>
+<w>font</w>
+<w>par</w>
+<w>mal</w>
+<w>consel</w>
+<w>folaige</w>
+<w type="pon">,</w>
+<lb n="31"/>
+<w>A</w>
+<w>lasques</w>
+<w>gens</w>
+<w>mauvaises</w>
+<w>le</w>
+<w>feront</w>
+<w type="pon">,</w>
+<lb n="32"/>
+<w>Car</w>
+<w>tot</w>
+<w>li</w>
+<w>boin</w>
+<w>iront</w>
+<w>en</w>
+<w>cest</w>
+<w>voiaige</w>
+<w type="pon">.</w>
+</s>
+</ab>
+<ab n="5" type="strophe">
+<lb n="33"/>
+<s n="44" xml:id="s_44">
+<w>Ki</w>
+<w>chi</w>
+<w>ne</w>
+<w>velt</w>
+<w>avoir</w>
+<w>vie</w>
+<w>anuieuse</w>
+<lb n="34"/>
+<w>Si</w>
+<w>voist</w>
+<w>por</w>
+<w>Dieu</w>
+<w>morir</w>
+<w>liés</w>
+<w>et</w>
+<w>joieus</w>
+<w type="pon">,</w>
+<lb n="35"/>
+<w>Car</w>
+<w>cele</w>
+<w>mors</w>
+<w>est</w>
+<w>douce</w>
+<w>et</w>
+<w>savereuse</w>
+<lb n="36"/>
+<w>Dont</w>
+<w>on</w>
+<w>conquiert</w>
+<w>le</w>
+<w>resne</w>
+<w>presïeus</w>
+<w type="pon">,</w>
+<lb n="37"/>
+<w>Ne</w>
+<w>ja</w>
+<w>de</w>
+<w>mort</w>
+<w>n'</w>
+<w>en</w>
+<w>i</w>
+<w>morra</w>
+<w>uns</w>
+<w>sels</w>
+<w type="pon">,</w>
+<lb n="38"/>
+<w>Ains</w>
+<w>naistront</w>
+<w>tot</w>
+<w>en</w>
+<w>vie</w>
+<w>glorïeuse</w>
+<w type="pon">;</w>
+<lb n="39"/>
+<w>Et</w>
+<w>saiciés</w>
+<w>bien</w>
+<w type="pon">,</w>
+<w>ki</w>
+<w>ne</w>
+<w>fust</w>
+<w>amereus</w>
+<w type="pon">,</w>
+<lb n="40"/>
+<w>Mout</w>
+<w>fust</w>
+<w>la</w>
+<w>voie</w>
+<w>et</w>
+<w>boine</w>
+<w>et</w>
+<w>deliteuse</w>
+<w type="pon">.</w>
+</s>
+</ab>
+<ab n="6" type="strophe">
+<lb n="41"/>
+<s n="45" xml:id="s_45">
+<w>Dieus</w>
+<w type="pon">!</w>
+</s>
+<s n="46" xml:id="s_46">
+<w>tant</w>
+<w>avons</w>
+<w>esté</w>
+<w>preus</w>
+<w>par</w>
+<w>huiseuse</w>
+<w type="pon">,</w>
+<lb n="42"/>
+<w>Or</w>
+<w>i</w>
+<w>parra</w>
+<w>ki</w>
+<w>a</w>
+<w>certes</w>
+<w>iert</w>
+<w>preus</w>
+<w type="pon">;</w>
+<lb n="43"/>
+<w>S'</w>
+<w>irons</w>
+<w>vengier</w>
+<w>la</w>
+<w>honte</w>
+<w>dolereuse</w>
+<lb n="44"/>
+<w>Dont</w>
+<w>chascuns</w>
+<w>doit</w>
+<w>estre</w>
+<w>iriés</w>
+<w>et</w>
+<w>honteus</w>
+<w type="pon">;</w>
+<lb n="45"/>
+<w>Car</w>
+<w>a</w>
+<w>no</w>
+<w>tans</w>
+<w>est</w>
+<w>perdus</w>
+<w>li</w>
+<w>sains</w>
+<w>lieus</w>
+<lb n="46"/>
+<w>Ou</w>
+<w>Dieus</w>
+<w>soffri</w>
+<w>por</w>
+<w>nos</w>
+<w>mort</w>
+<w>angoisseuse</w>
+<w type="pon">.</w>
+</s>
+<lb n="47"/>
+<s n="47" xml:id="s_47">
+<w>S'</w>
+<w>or</w>
+<w>i</w>
+<w>laissons</w>
+<w>nos</w>
+<w>anemis</w>
+<w>morteus</w>
+<w type="pon">,</w>
+<lb n="48"/>
+<w>A</w>
+<w>tos</w>
+<w>jors</w>
+<w>mais</w>
+<w>iert</w>
+<w>no</w>
+<w>vie</w>
+<w>honteuse</w>
+<w type="pon">.</w>
+</s>
+</ab>
+</div>
+<pb n="8"/>
+<div n="5" type="chanson">
+<head>
+<s n="48" xml:id="s_48">
+<w>Bien</w>
+<w>me</w>
+<w>deüsse</w>
+<w>targier</w>
+</s>
+</head>
+<ab n="1" type="strophe">
+<lb n="1"/>
+<s n="49" xml:id="s_49">
+<w>Bien</w>
+<w>me</w>
+<w>deüsse</w>
+<w>targier</w>
+<lb n="2"/>
+<w>De</w>
+<w>chançon</w>
+<w>faire</w>
+<w>et</w>
+<w>de</w>
+<w>mos</w>
+<w>et</w>
+<w>de</w>
+<w>chans</w>
+<w type="pon">,</w>
+<lb n="3"/>
+<w>Quant</w>
+<w>me</w>
+<w>convient</w>
+<w>eslongier</w>
+<lb n="4"/>
+<w>De</w>
+<w>la</w>
+<w>millor</w>
+<w>de</w>
+<w>totes</w>
+<w>les</w>
+<w>vaillans</w>
+<w type="pon">,</w>
+<lb n="5"/>
+<w>Si</w>
+<w>em</w>
+<w>puis</w>
+<w>bien</w>
+<w>faire</w>
+<w>voire</w>
+<w>vantance</w>
+<w type="pon">,</w>
+<lb n="6"/>
+<w>Ke</w>
+<w>je</w>
+<w>fas</w>
+<w>plus</w>
+<w>por</w>
+<w>Dieu</w>
+<w>ke</w>
+<w>nus</w>
+<w>amans</w>
+<w type="pon">,</w>
+<lb n="7"/>
+<w>Si</w>
+<w>en</w>
+<w>sui</w>
+<w>mout</w>
+<w>endroit</w>
+<w>l'</w>
+<w>ame</w>
+<w>joians</w>
+<w type="pon">,</w>
+<lb n="8"/>
+<w>Mais</w>
+<w>del</w>
+<w>cors</w>
+<w>ai</w>
+<w>et</w>
+<w>pitié</w>
+<w>et</w>
+<w>pesance</w>
+<w type="pon">.</w>
+</s>
+</ab>
+<ab n="2" type="strophe">
+<lb n="9"/>
+<s n="50" xml:id="s_50">
+<w>On</w>
+<w>se</w>
+<w>doit</w>
+<w>bien</w>
+<w>efforchier</w>
+<lb n="10"/>
+<w>De</w>
+<w>Dieu</w>
+<w>servir</w>
+<w type="pon">,</w>
+<w>ja</w>
+<w>n'</w>
+<w>i</w>
+<w>soit</w>
+<w>li</w>
+<w>talans</w>
+<w type="pon">,</w>
+<lb n="11"/>
+<w>Et</w>
+<w>la</w>
+<w>char</w>
+<w>vaintre</w>
+<w>et</w>
+<w>plaissier</w>
+<w type="pon">,</w>
+<lb n="12"/>
+<w>Ki</w>
+<w>tos</w>
+<w>jors</w>
+<w>est</w>
+<w>de</w>
+<w>pechier</w>
+<w>desirans</w>
+<w type="pon">;</w>
+<lb n="13"/>
+<w>Adont</w>
+<w>voit</w>
+<w>Dieus</w>
+<w>la</w>
+<w>doble</w>
+<w>penitance</w>
+<w type="pon">.</w>
+</s>
+<lb n="14"/>
+<s n="51" xml:id="s_51">
+<w>Hé</w>
+<w type="pon">!</w>
+</s>
+<s n="52" xml:id="s_52">
+<w>las</w>
+<w type="pon">,</w>
+<w>se</w>
+<w>nus</w>
+<w>se</w>
+<w>doit</w>
+<w>sauver</w>
+<w>dolans</w>
+<w type="pon">,</w>
+<lb n="15"/>
+<w>Dont</w>
+<w>doit</w>
+<w>par</w>
+<w>droit</w>
+<w>ma</w>
+<w>merite</w>
+<w>estre</w>
+<w>grans</w>
+<w type="pon">,</w>
+<lb n="16"/>
+<w>Car</w>
+<w>plus</w>
+<w>dolans</w>
+<w>ne</w>
+<w>se</w>
+<w>part</w>
+<w>nus</w>
+<w>de</w>
+<w>France</w>
+<w type="pon">.</w>
+</s>
+</ab>
+<ab n="3" type="strophe">
+<lb n="17"/>
+<s n="53" xml:id="s_53">
+<w>Vous</w>
+<w>ki</w>
+<w>dismés</w>
+<w>les</w>
+<w>croisiés</w>
+<w type="pon">,</w>
+<lb n="18"/>
+<w>Ne</w>
+<w>despendés</w>
+<w>mie</w>
+<w>l'</w>
+<w>avoir</w>
+<w>ensi</w>
+<w type="pon">;</w>
+<lb n="19"/>
+<w>Anemi</w>
+<w>Dieu</w>
+<w>en</w>
+<w>seriés</w>
+<w type="pon">.</w>
+</s>
+<lb n="20"/>
+<s n="54" xml:id="s_54">
+<w>Dieus</w>
+<w type="pon">!</w>
+</s>
+<s n="55" xml:id="s_55">
+<w>ke</w>
+<w>porront</w>
+<w>faire</w>
+<w>si</w>
+<w>anemi</w>
+<w type="pon">,</w>
+<lb n="21"/>
+<w>Quant</w>
+<w>tot</w>
+<w>li</w>
+<w>saint</w>
+<w>trambleront</w>
+<w>de</w>
+<w>dotance</w>
+<lb n="22"/>
+<w>Devant</w>
+<w>Celui</w>
+<w>ki</w>
+<w>onques</w>
+<w>ne</w>
+<w>menti</w>
+<w type="pon">!</w>
+</s>
+<lb n="23"/>
+<s n="56" xml:id="s_56">
+<w>Adont</w>
+<w>seront</w>
+<w>pecheor</w>
+<w>mal</w>
+<w>bailli</w>
+<w type="pon">,</w>
+<lb n="24"/>
+<w>Se</w>
+<w>sa</w>
+<w>pitiés</w>
+<w>ne</w>
+<w>cuevre</w>
+<w>sa</w>
+<w>poissance</w>
+<w type="pon">.</w>
+</s>
+</ab>
+<ab n="4" type="strophe">
+<lb n="25"/>
+<s n="57" xml:id="s_57">
+<w>Ne</w>
+<w>ja</w>
+<w>por</w>
+<w>nul</w>
+<w>desirier</w>
+<lb n="26"/>
+<w>Ne</w>
+<w>remanrai</w>
+<w>chi</w>
+<w>avoc</w>
+<w>ces</w>
+<w>tirans</w>
+<w type="pon">,</w>
+<lb n="27"/>
+<w>Ki</w>
+<w>sont</w>
+<w>croisiet</w>
+<w>a</w>
+<w>loier</w>
+<pb n="9"/>
+<lb n="28"/>
+<w>Por</w>
+<w>dismer</w>
+<w>clers</w>
+<w>et</w>
+<w>borgois</w>
+<w>et</w>
+<w>serjans</w>
+<w type="pon">;</w>
+<lb n="29"/>
+<w>Plus</w>
+<w>en</w>
+<w>croisa</w>
+<w>covoitiés</w>
+<w>ke</w>
+<w>creance</w>
+<w type="pon">.</w>
+</s>
+<lb n="30"/>
+<s n="58" xml:id="s_58">
+<w>Et</w>
+<w>quant</w>
+<w>la</w>
+<w>crois</w>
+<w>n'</w>
+<w>en</w>
+<w>puet</w>
+<w>estre</w>
+<w>garans</w>
+<w type="pon">,</w>
+<lb n="31"/>
+<w>A</w>
+<w>teus</w>
+<w>croisiés</w>
+<w>sera</w>
+<w>Dieus</w>
+<w>mout</w>
+<w>soffrans</w>
+<w type="pon">,</w>
+<lb n="32"/>
+<w>Se</w>
+<w>ne</w>
+<w>s'</w>
+<w>en</w>
+<w>venge</w>
+<w>a</w>
+<w>peu</w>
+<w>de</w>
+<w>demorance</w>
+<w type="pon">.</w>
+</s>
+</ab>
+<ab n="5" type="strophe">
+<lb n="33"/>
+<s n="59" xml:id="s_59">
+<w>Li</w>
+<w>Quens</w>
+<w>s'</w>
+<w>en</w>
+<w>est</w>
+<w>ja</w>
+<w>vangiés</w>
+<w type="pon">,</w>
+<lb n="34"/>
+<w>Des</w>
+<w>haus</w>
+<w>barons</w>
+<w type="pon">,</w>
+<w>qui</w>
+<w>or</w>
+<w>li</w>
+<w>sont</w>
+<w>faillit</w>
+<w type="pon">.</w>
+</s>
+<lb n="35"/>
+<s n="60" xml:id="s_60">
+<w>C'</w>
+<w>or</w>
+<w>les</w>
+<w>eüst</w>
+<w>anpiriés</w>
+<w type="pon">,</w>
+<lb n="36"/>
+<w>Qui</w>
+<w>sont</w>
+<w>plus</w>
+<w>vil</w>
+<w>que</w>
+<w>onques</w>
+<w>mais</w>
+<w>ne</w>
+<w>vi</w>
+<w type="pon">!</w>
+</s>
+<lb n="37"/>
+<s n="61" xml:id="s_61">
+<w>Dehait</w>
+<w>li</w>
+<w>bers</w>
+<w>qui</w>
+<w>est</w>
+<w>de</w>
+<w>tel</w>
+<w>sanblance</w>
+<lb n="38"/>
+<w>Con</w>
+<w>li</w>
+<w>oixel</w>
+<w>qui</w>
+<w>conchïet</w>
+<w>son</w>
+<w>nit</w>
+<w type="pon">!</w>
+</s>
+<lb n="39"/>
+<s n="62" xml:id="s_62">
+<w>Po</w>
+<w>en</w>
+<w>i</w>
+<w>a</w>
+<w>n'</w>
+<w>ait</w>
+<w>son</w>
+<w>renne</w>
+<w>honi</w>
+<w type="pon">,</w>
+<lb n="40"/>
+<w>Por</w>
+<w>tant</w>
+<w>qu'</w>
+<w>il</w>
+<w>ait</w>
+<w>sor</w>
+<w>ses</w>
+<w>homes</w>
+<w>possance</w>
+<w type="pon">.</w>
+</s>
+</ab>
+<ab n="6" type="strophe">
+<lb n="41"/>
+<s n="63" xml:id="s_63">
+<w>Qui</w>
+<w>ces</w>
+<w>barons</w>
+<w>empiriés</w>
+<lb n="42"/>
+<w>Sert</w>
+<w>sans</w>
+<w>eür</w>
+<w type="pon">,</w>
+<w>ja</w>
+<w>n'</w>
+<w>ara</w>
+<w>tant</w>
+<w>servi</w>
+<lb n="43"/>
+<w>K'</w>
+<w>il</w>
+<w>lor</w>
+<w>em</w>
+<w>prenge</w>
+<w>pitiés</w>
+<w type="pon">;</w>
+<lb n="44"/>
+<w>Pour</w>
+<w>çou</w>
+<w>fait</w>
+<w>boin</w>
+<w>Dieu</w>
+<w>servir</w>
+<w type="pon">,</w>
+<w>ke</w>
+<w>je</w>
+<w>di</w>
+<lb n="45"/>
+<w>Qu'</w>
+<w>en</w>
+<w>lui</w>
+<w>n'</w>
+<w>afiert</w>
+<w>ne</w>
+<w>eür</w>
+<w>ne</w>
+<w>kaance</w>
+<w type="pon">;</w>
+<lb n="46"/>
+<w>Mais</w>
+<w>ki</w>
+<w>mieus</w>
+<w>sert</w>
+<w type="pon">,</w>
+<w>et</w>
+<w>mieus</w>
+<w>li</w>
+<w>est</w>
+<w>meri</w>
+<w type="pon">.</w>
+</s>
+<lb n="47"/>
+<s n="64" xml:id="s_64">
+<w>Pleüst</w>
+<w>a</w>
+<w>Dieu</w>
+<w>k'</w>
+<w>Amors</w>
+<w>fesist</w>
+<w>ausi</w>
+<lb n="48"/>
+<w>Ensvers</w>
+<w>tos</w>
+<w>ceaus</w>
+<w>qui</w>
+<w>ens</w>
+<w>li</w>
+<w>ont</w>
+<w>fiance</w>
+<w type="pon">.</w>
+</s>
+</ab>
+<ab n="7" type="strophe">
+<lb n="49"/>
+<s n="65" xml:id="s_65">
+<w>Or</w>
+<w>vos</w>
+<w>ai</w>
+<w>dit</w>
+<w>des</w>
+<w>barons</w>
+<w>ma</w>
+<w>sanblance</w>
+<w type="pon">;</w>
+<lb n="50"/>
+<w>Si</w>
+<w>lor</w>
+<w>an</w>
+<w>poise</w>
+<w>de</w>
+<w>ceu</w>
+<w>que</w>
+<w>je</w>
+<w>di</w>
+<w type="pon">,</w>
+<lb n="51"/>
+<w>Si</w>
+<w>s'</w>
+<w>an</w>
+<w>praingnent</w>
+<w>a</w>
+<w>mon</w>
+<w>mastre</w>
+<w>d'</w>
+<w>Oissi</w>
+<w type="pon">,</w>
+<lb n="52"/>
+<w>Qui</w>
+<w>m'</w>
+<w>at</w>
+<w>apris</w>
+<w>a</w>
+<w>chanter</w>
+<w>tres</w>
+<w>m'</w>
+<w>anfance</w>
+<w type="pon">.</w>
+</s>
+</ab>
+</div>
+<pb n="10"/>
+<div n="6" type="chanson">
+<head>
+<s n="66" xml:id="s_66">
+<w>SE</w>
+<w>RAIGE</w>
+<w>ET</w>
+<w>DERVERIE</w>
+<w type="pon">.</w>
+</s>
+</head>
+<ab n="1" type="strophe">
+<lb n="1"/>
+<s n="67" xml:id="s_67">
+<w>Se</w>
+<w>raige</w>
+<w>et</w>
+<w>derverie</w>
+<lb n="2"/>
+<w>Et</w>
+<w>destrece</w>
+<w>d'</w>
+<w>amer</w>
+<lb n="3"/>
+<w>M'</w>
+<w>a</w>
+<w>fait</w>
+<w>dire</w>
+<w>folie</w>
+<lb n="4"/>
+<w>Et</w>
+<w>d'</w>
+<w>amors</w>
+<w>mesparler</w>
+<w type="pon">,</w>
+<lb n="5"/>
+<w>Nus</w>
+<w>ne</w>
+<w>m'</w>
+<w>en</w>
+<w>doit</w>
+<w>blasmer</w>
+<w type="pon">.</w>
+</s>
+<lb n="6"/>
+<s n="68" xml:id="s_68">
+<w>S'</w>
+<w>ele</w>
+<w>a</w>
+<w>tort</w>
+<w>m'</w>
+<w>i</w>
+<w>fausnie</w>
+<w type="pon">,</w>
+<lb n="7"/>
+<w>Amors</w>
+<w type="pon">,</w>
+<w>qui</w>
+<w>j'</w>
+<w>ai</w>
+<w>servie</w>
+<w type="pon">,</w>
+<lb n="8"/>
+<w>Ne</w>
+<w>me</w>
+<w>sai</w>
+<w>ou</w>
+<w>fïer</w>
+<w type="pon">.</w>
+</s>
+</ab>
+<ab n="2" type="strophe">
+<lb n="9"/>
+<s n="69" xml:id="s_69">
+<w>Amors</w>
+<w type="pon">,</w>
+<w>de</w>
+<w>felonie</w>
+<lb n="10"/>
+<w>Vous</w>
+<w>vaurai</w>
+<w>esprover</w>
+<w type="pon">;</w>
+<lb n="11"/>
+<w>Tolu</w>
+<w>m'</w>
+<w>avés</w>
+<w>la</w>
+<w>vie</w>
+<lb n="12"/>
+<w>Et</w>
+<w>mort</w>
+<w>sans</w>
+<w>deffïer</w>
+<w type="pon">.</w>
+</s>
+<lb n="13"/>
+<s n="70" xml:id="s_70">
+<w>La</w>
+<w>m'</w>
+<w>avés</w>
+<w>fait</w>
+<w>penser</w>
+<lb n="14"/>
+<w>Ou</w>
+<w>ma</w>
+<w>joie</w>
+<w>est</w>
+<w>perie</w>
+<w type="pon">;</w>
+<lb n="15"/>
+<w>Cele</w>
+<w>qui</w>
+<w>jou</w>
+<w>em</w>
+<w>prie</w>
+<lb n="16"/>
+<w>Me</w>
+<w>fait</w>
+<w>d'</w>
+<w>autre</w>
+<w>esperer</w>
+<w type="pon">.</w>
+</s>
+</ab>
+<ab n="3" type="strophe">
+<lb n="17"/>
+<s n="71" xml:id="s_71">
+<w>Plus</w>
+<w>est</w>
+<w>belle</w>
+<w>k'</w>
+<w>imaige</w>
+<lb n="18"/>
+<w>Cele</w>
+<w>ke</w>
+<w>je</w>
+<w>vos</w>
+<w>di</w>
+<w type="pon">,</w>
+<lb n="19"/>
+<w>Mais</w>
+<w>tant</w>
+<w>a</w>
+<w>vil</w>
+<w>coraige</w>
+<w type="pon">,</w>
+<lb n="20"/>
+<w>Anuieus</w>
+<w>et</w>
+<w>failli</w>
+<w type="pon">,</w>
+<lb n="21"/>
+<w>K'</w>
+<w>ele</w>
+<w>fait</w>
+<w>tot</w>
+<w>ausi</w>
+<lb n="22"/>
+<w>Com</w>
+<w>la</w>
+<w>leuve</w>
+<w>sauvaige</w>
+<lb n="23"/>
+<w>Ki</w>
+<w>des</w>
+<w>leus</w>
+<w>d'</w>
+<w>un</w>
+<w>boskaige</w>
+<lb n="24"/>
+<w>Trait</w>
+<w>le</w>
+<w>pieur</w>
+<w>a</w>
+<w>li</w>
+<w type="pon">.</w>
+</s>
+</ab>
+<ab n="4" type="strophe">
+<lb n="25"/>
+<s n="72" xml:id="s_72">
+<w>N'</w>
+<w>a</w>
+<w>pas</w>
+<w>grant</w>
+<w>vasselaige</w>
+<lb n="26"/>
+<w>Fait</w>
+<w type="pon">,</w>
+<w>s'</w>
+<w>ele</w>
+<w>m'</w>
+<w>a</w>
+<w>traï</w>
+<w type="pon">;</w>
+<lb n="27"/>
+<w>Nus</w>
+<w>ne</w>
+<w>l'</w>
+<w>en</w>
+<w>tient</w>
+<w>por</w>
+<w>saige</w>
+<pb n="11"/>
+<lb n="28"/>
+<w>Ki</w>
+<w>son</w>
+<w>estre</w>
+<w>ait</w>
+<w>oï</w>
+<w type="pon">;</w>
+<lb n="29"/>
+<w>Mais</w>
+<w>puis</w>
+<w>k'</w>
+<w>il</w>
+<w>est</w>
+<w>ensi</w>
+<lb n="30"/>
+<w>K'</w>
+<w>ele</w>
+<w>a</w>
+<w>tort</w>
+<w>m'</w>
+<w>i</w>
+<w>desgaige</w>
+<w type="pon">,</w>
+<lb n="31"/>
+<w>Je</w>
+<w>li</w>
+<w>renc</w>
+<w>son</w>
+<w>homaige</w>
+<lb n="32"/>
+<w>Et</w>
+<w>si</w>
+<w>me</w>
+<w>part</w>
+<w>de</w>
+<w>li</w>
+<w type="pon">.</w>
+</s>
+</ab>
+<ab n="5" type="strophe">
+<lb n="33"/>
+<s n="73" xml:id="s_73">
+<w>Mout</w>
+<w>est</w>
+<w>la</w>
+<w>terre</w>
+<w>dure</w>
+<w type="pon">,</w>
+<lb n="34"/>
+<w>Sans</w>
+<w>eve</w>
+<w>et</w>
+<w>sans</w>
+<w>humor</w>
+<lb n="35"/>
+<w>Ou</w>
+<w>j'</w>
+<w>ai</w>
+<w>mise</w>
+<w>ma</w>
+<w>cure</w>
+<w type="pon">,</w>
+<lb n="36"/>
+<w>Mais</w>
+<w>n'</w>
+<w>i</w>
+<w>keudrai</w>
+<w>nul</w>
+<w>jor</w>
+<lb n="37"/>
+<w>Fruit</w>
+<w>ne</w>
+<w>foille</w>
+<w>ne</w>
+<w>flor</w>
+<w type="pon">,</w>
+<lb n="38"/>
+<w>S'</w>
+<w>est</w>
+<w>bien</w>
+<w>tans</w>
+<w>et</w>
+<w>mesure</w>
+<lb n="39"/>
+<w>Et</w>
+<w>raisons</w>
+<w>et</w>
+<w>droiture</w>
+<lb n="40"/>
+<w>Ke</w>
+<w>li</w>
+<w>rende</w>
+<w>s'</w>
+<w>amor</w>
+<w type="pon">.</w>
+</s>
+</ab>
+</div>
+<pb n="12"/>
+<div n="7" type="chanson">
+<head>
+<s n="74" xml:id="s_74">
+<w>Belle</w>
+<w>doce</w>
+<w>Dame</w>
+<w>chiere</w>
+</s>
+</head>
+<ab n="1" type="strophe">
+<lb n="1"/>
+<s n="75" xml:id="s_75">
+<w>Belle</w>
+<w>doce</w>
+<w>Dame</w>
+<w>chiere</w>
+<w type="pon">,</w>
+<lb n="2"/>
+<w>Vostre</w>
+<w>grans</w>
+<w>beautés</w>
+<w>entiere</w>
+<lb n="3"/>
+<w>M'</w>
+<w>a</w>
+<w>si</w>
+<w>pris</w>
+<lb n="4"/>
+<w>Ke</w>
+<w type="pon">,</w>
+<w>se</w>
+<w>iere</w>
+<w>em</w>
+<w>Paradis</w>
+<w type="pon">,</w>
+<lb n="5"/>
+<w>Si</w>
+<w>revenroie</w>
+<w>je</w>
+<w>arriere</w>
+<w type="pon">,</w>
+<lb n="6"/>
+<w>Por</w>
+<w>convent</w>
+<w>ke</w>
+<w>ma</w>
+<w>proiere</w>
+<lb n="7"/>
+<w>M'</w>
+<w>eüst</w>
+<w>mis</w>
+<lb n="8"/>
+<w>La</w>
+<w>ou</w>
+<w>fuisse</w>
+<w>vostre</w>
+<w>amis</w>
+<lb n="9"/>
+<w>Ne</w>
+<w>vers</w>
+<w>moi</w>
+<w>ne</w>
+<w>fuissiés</w>
+<w>fiere</w>
+<w type="pon">,</w>
+<lb n="10"/>
+<w>Car</w>
+<w>ainc</w>
+<w>ens</w>
+<w>nule</w>
+<w>maniere</w>
+<lb n="11"/>
+<w>Ne</w>
+<w>forfis</w>
+<lb n="12"/>
+<w>Par</w>
+<w>coi</w>
+<w>fuissiés</w>
+<w>ma</w>
+<w>guerriere</w>
+<w type="pon">.</w>
+</s>
+</ab>
+<ab n="2" type="strophe">
+<lb n="13"/>
+<s n="76" xml:id="s_76">
+<w>Ne</w>
+<w>lairai</w>
+<w>ke</w>
+<w>je</w>
+<w>ne</w>
+<w>die</w>
+<lb n="14"/>
+<w>De</w>
+<w>mes</w>
+<w>maus</w>
+<w>une</w>
+<w>partie</w>
+<lb n="15"/>
+<w>Come</w>
+<w>irous</w>
+<w type="pon">.</w>
+</s>
+<lb n="16"/>
+<s n="77" xml:id="s_77">
+<w>Dehaiz</w>
+<w>ait</w>
+<w>cuers</w>
+<w>covoitos</w>
+<w type="pon">,</w>
+<lb n="17"/>
+<w>Fausse</w>
+<w type="pon">,</w>
+<w>plus</w>
+<w>vaire</w>
+<w>ke</w>
+<w>pie</w>
+<w type="pon">,</w>
+<lb n="18"/>
+<w>Ki</w>
+<w>m'</w>
+<w>envoia</w>
+<w>en</w>
+<w>Surie</w>
+<w type="pon">!</w>
+</s>
+<lb n="19"/>
+<s n="78" xml:id="s_78">
+<w>Ja</w>
+<w>por</w>
+<w>vous</w>
+<lb n="20"/>
+<w>N'</w>
+<w>avrai</w>
+<w>mais</w>
+<w>les</w>
+<w>ieus</w>
+<w>plorous</w>
+<w type="pon">.</w>
+</s>
+<lb n="21"/>
+<s n="79" xml:id="s_79">
+<w>Fous</w>
+<w>est</w>
+<w>ki</w>
+<w>en</w>
+<w>vous</w>
+<w>se</w>
+<w>fie</w>
+<w type="pon">,</w>
+<lb n="22"/>
+<w>Ke</w>
+<w>vos</w>
+<w>estes</w>
+<w>l'</w>
+<w>Abeïe</w>
+<lb n="23"/>
+<w>As</w>
+<w>Soffraitous</w>
+<w type="pon">,</w>
+<lb n="24"/>
+<w>Si</w>
+<w>ne</w>
+<w>vous</w>
+<w>amerai</w>
+<w>mie</w>
+<w type="pon">.</w>
+</s>
+</ab>
+</div>
+<pb n="13"/>
+<div n="8" type="chanson">
+<head>
+<s n="80" xml:id="s_80">
+<w>TANT</w>
+<w>AI</w>
+<w>AMÉ</w>
+<w>C'</w>
+<w>OR</w>
+<w>ME</w>
+<w>CONVIENT</w>
+<w>HAÏR</w>
+<w type="pon">.</w>
+</s>
+</head>
+<ab n="1" type="strophe">
+<lb n="1"/>
+<s n="81" xml:id="s_81">
+<w>Tant</w>
+<w>ai</w>
+<w>amé</w>
+<w>c'</w>
+<w>or</w>
+<w>me</w>
+<w>convient</w>
+<w>haïr</w>
+<lb n="2"/>
+<w>Et</w>
+<w>si</w>
+<w>ne</w>
+<w>quier</w>
+<w>mais</w>
+<w>amer</w>
+<w type="pon">,</w>
+<lb n="3"/>
+<w>S'</w>
+<w>en</w>
+<w>tel</w>
+<w>lieu</w>
+<w>n'</w>
+<w>est</w>
+<w>c'</w>
+<w>on</w>
+<w>ne</w>
+<w>saice</w>
+<w>traïr</w>
+<lb n="4"/>
+<w>Ne</w>
+<w>dechevoir</w>
+<w>ne</w>
+<w>fausser</w>
+<w type="pon">.</w>
+</s>
+<lb n="5"/>
+<s n="82" xml:id="s_82">
+<w>Trop</w>
+<w>longement</w>
+<w>m'</w>
+<w>a</w>
+<w>duré</w>
+<w>ceste</w>
+<w>paine</w>
+<lb n="6"/>
+<w>K'</w>
+<w>Amors</w>
+<w>m'</w>
+<w>a</w>
+<w>fait</w>
+<w>endurer</w>
+<w type="pon">;</w>
+<lb n="7"/>
+<w>Et</w>
+<w>non</w>
+<w>por</w>
+<w>quant</w>
+<w>loial</w>
+<w>amor</w>
+<w>certaine</w>
+<lb n="8"/>
+<w>Vaurai</w>
+<w>encoir</w>
+<w>recovrer</w>
+<w type="pon">.</w>
+</s>
+</ab>
+<ab n="2" type="strophe">
+<lb n="9"/>
+<s n="83" xml:id="s_83">
+<w>Ki</w>
+<w>or</w>
+<w>vauroit</w>
+<w>loial</w>
+<w>amor</w>
+<w>trover</w>
+<lb n="10"/>
+<w>Si</w>
+<w>viegne</w>
+<w>a</w>
+<w>moi</w>
+<w>por</w>
+<w>coisir</w>
+<w type="pon">!</w>
+</s>
+<lb n="11"/>
+<s n="84" xml:id="s_84">
+<w>Mais</w>
+<w>bien</w>
+<w>se</w>
+<w>doit</w>
+<w>belle</w>
+<w>dame</w>
+<w>garder</w>
+<lb n="12"/>
+<w>K'</w>
+<w>ele</w>
+<w>ne</w>
+<w>m'</w>
+<w>aint</w>
+<w>pour</w>
+<w>traïr</w>
+<w type="pon">,</w>
+<lb n="13"/>
+<w>K'</w>
+<w>ele</w>
+<w>feroit</w>
+<w>ke</w>
+<w>fole</w>
+<w>et</w>
+<w>ke</w>
+<w>vilaine</w>
+<w type="pon">,</w>
+<lb n="14"/>
+<w>S'</w>
+<w>em</w>
+<w>porroit</w>
+<w>tost</w>
+<w>mal</w>
+<w>oïr</w>
+<w type="pon">,</w>
+<lb n="15"/>
+<w>Ausi</w>
+<w>com</w>
+<w>fist</w>
+<w>la</w>
+<w>fause</w>
+<w>Chapelaine</w>
+<w type="pon">,</w>
+<lb n="16"/>
+<w>Cui</w>
+<w>tos</w>
+<w>li</w>
+<w>mons</w>
+<w>doit</w>
+<w>haïr</w>
+<w type="pon">.</w>
+</s>
+</ab>
+<ab n="3" type="strophe">
+<lb n="17"/>
+<s n="85" xml:id="s_85">
+<w>Assés</w>
+<w>i</w>
+<w>a</w>
+<w>de</w>
+<w>celes</w>
+<w>et</w>
+<w>de</w>
+<w>ceaus</w>
+<lb n="18"/>
+<w>Ki</w>
+<w>dient</w>
+<w>ke</w>
+<w>j'</w>
+<w>ai</w>
+<w>mespris</w>
+<lb n="19"/>
+<w>De</w>
+<w>çou</w>
+<w>ke</w>
+<w>fis</w>
+<w>covreture</w>
+<w>de</w>
+<w>saus</w>
+<w type="pon">,</w>
+<lb n="20"/>
+<w>Mais</w>
+<w>mout</w>
+<w>a</w>
+<w>boin</w>
+<w>droit</w>
+<w>le</w>
+<w>fis</w>
+<w type="pon">,</w>
+<lb n="21"/>
+<w>Et</w>
+<w>de</w>
+<w>l'</w>
+<w>anel</w>
+<w>ki</w>
+<w>fu</w>
+<w>mis</w>
+<w>en</w>
+<w>traïne</w>
+<w type="pon">,</w>
+<lb n="22"/>
+<w>Mais</w>
+<w>a</w>
+<w>boin</w>
+<w>droit</w>
+<w>i</w>
+<w>fu</w>
+<w>mis</w>
+<w type="pon">,</w>
+<lb n="23"/>
+<w>Car</w>
+<w>par</w>
+<w>l'</w>
+<w>anel</w>
+<w>fu</w>
+<w>faite</w>
+<w>la</w>
+<w>saisine</w>
+<lb n="24"/>
+<w>Dont</w>
+<w>je</w>
+<w>sui</w>
+<w>mors</w>
+<w>et</w>
+<w>traïs</w>
+<w type="pon">.</w>
+</s>
+</ab>
+<ab n="4" type="strophe">
+<lb n="25"/>
+<s n="86" xml:id="s_86">
+<w>A</w>
+<w>moult</w>
+<w>boen</w>
+<w>droit</w>
+<w>en</w>
+<w>fix</w>
+<w>ceu</w>
+<w>ke</w>
+<w>j'</w>
+<w>en</w>
+<w>fix</w>
+<w type="pon">,</w>
+<lb n="26"/>
+<w>Se</w>
+<w>Deus</w>
+<w>me</w>
+<w>doinst</w>
+<w>boens</w>
+<w>chevals</w>
+<w type="pon">!</w>
+</s>
+<lb n="27"/>
+<s n="87" xml:id="s_87">
+<w>Et</w>
+<w>cil</w>
+<w>ki</w>
+<w>dient</w>
+<w>ke</w>
+<w>i</w>
+<w>ai</w>
+<w>mespris</w>
+<pb n="14"/>
+<lb n="28"/>
+<w>Sont</w>
+<w>perjuré</w>
+<w>et</w>
+<w>tuit</w>
+<w>fauls</w>
+<w type="pon">.</w>
+</s>
+<lb n="29"/>
+<s n="88" xml:id="s_88">
+<w>Por</w>
+<w>ceu</w>
+<w>dechiet</w>
+<w>bone</w>
+<w>amor</w>
+<w>et</w>
+<w>descline</w>
+<lb n="30"/>
+<w>Que</w>
+<w>on</w>
+<w>lor</w>
+<w>souffre</w>
+<w>les</w>
+<w>mals</w>
+<w type="pon">,</w>
+<lb n="31"/>
+<w>Et</w>
+<w>cil</w>
+<w>ki</w>
+<w>cellent</w>
+<w>lor</w>
+<w>faulse</w>
+<w>covine</w>
+<lb n="32"/>
+<w>Font</w>
+<w>les</w>
+<w>pluxors</w>
+<w>deloiauls</w>
+<w type="pon">.</w>
+</s>
+</ab>
+</div>
+<pb n="15"/>
+<div n="9" type="chanson">
+<head>
+<s n="89" xml:id="s_89">
+<w>L'</w>
+<w>AUTRIER</w>
+<w>UN</w>
+<w>JOR</w>
+<w>APRÉS</w>
+<w>LA</w>
+<w>SAINT</w>
+<w>DENISE</w>
+<w type="pon">.</w>
+</s>
+</head>
+<ab n="1" type="strophe">
+<lb n="1"/>
+<s n="90" xml:id="s_90">
+<w>L'</w>
+<w>autrier</w>
+<w>un</w>
+<w>jor</w>
+<w>aprés</w>
+<w>la</w>
+<w>Saint</w>
+<w>Denise</w>
+<lb n="2"/>
+<w>Fui</w>
+<w>a</w>
+<w>Betune</w>
+<w type="pon">,</w>
+<w>ou</w>
+<w>j'</w>
+<w>ai</w>
+<w>esté</w>
+<w>sovent</w>
+<w type="pon">.</w>
+</s>
+<lb n="3"/>
+<s n="91" xml:id="s_91">
+<w>La</w>
+<w>me</w>
+<w>sosvint</w>
+<w>de</w>
+<w>gent</w>
+<w>de</w>
+<w>male</w>
+<w>guise</w>
+<lb n="4"/>
+<w>Ki</w>
+<w>m'</w>
+<w>ont</w>
+<w>mis</w>
+<w>sus</w>
+<w>mençoigne</w>
+<w>a</w>
+<w>entïent</w>
+<w type="pon">:</w>
+<lb n="5"/>
+<w>Ke</w>
+<w>j'</w>
+<w>ai</w>
+<w>chanté</w>
+<w>des</w>
+<w>dames</w>
+<w>laidement</w>
+<w type="pon">;</w>
+<lb n="6"/>
+<w>Mais</w>
+<w>il</w>
+<w>n'</w>
+<w>ont</w>
+<w>pas</w>
+<w>ma</w>
+<w>chançon</w>
+<w>bien</w>
+<w>aprise</w>
+<w type="pon">:</w>
+<lb n="7"/>
+<w>Je</w>
+<w>n'</w>
+<w>en</w>
+<w>chantai</w>
+<w>fors</w>
+<w>d'</w>
+<w>une</w>
+<w>solement</w>
+<w type="pon">,</w>
+<lb n="8"/>
+<w>Qui</w>
+<w>bien</w>
+<w>forfist</w>
+<w>ke</w>
+<w>venjance</w>
+<w>en</w>
+<w>fu</w>
+<w>prise</w>
+<w type="pon">.</w>
+</s>
+</ab>
+<ab n="2" type="strophe">
+<lb n="9"/>
+<s n="92" xml:id="s_92">
+<w>Si</w>
+<w>n'</w>
+<w>est</w>
+<w>pas</w>
+<w>drois</w>
+<w>ke</w>
+<w>on</w>
+<w>me</w>
+<w>desconfise</w>
+<w type="pon">,</w>
+<lb n="10"/>
+<w>Et</w>
+<w>vous</w>
+<w>dirai</w>
+<w>bien</w>
+<w>par</w>
+<w>raison</w>
+<w>coment</w>
+<w type="pon">:</w>
+<lb n="11"/>
+<w>Car</w>
+<w>se</w>
+<w>on</w>
+<w>fait</w>
+<w>d'</w>
+<w>un</w>
+<w>fort</w>
+<w>larron</w>
+<w>justise</w>
+<w type="pon">,</w>
+<lb n="12"/>
+<w>Doit</w>
+<w>il</w>
+<w>desplaire</w>
+<w>as</w>
+<w>loiaus</w>
+<w>de</w>
+<w>noient</w>
+<w type="pon">?</w>
+</s>
+<lb n="13"/>
+<s n="93" xml:id="s_93">
+<w>Nenil</w>
+<w type="pon">,</w>
+<w>par</w>
+<w>Diu</w>
+<w type="pon">!</w>
+</s>
+<s n="94" xml:id="s_94">
+<w>qui</w>
+<w>raison</w>
+<w>i</w>
+<w>entent</w>
+<w type="pon">;</w>
+<lb n="14"/>
+<w>Mais</w>
+<w>la</w>
+<w>raisons</w>
+<w>est</w>
+<w>si</w>
+<w>arriere</w>
+<w>mise</w>
+<lb n="15"/>
+<w>Ke</w>
+<w>çou</w>
+<w>c'</w>
+<w>on</w>
+<w>doit</w>
+<w>loer</w>
+<w>blasment</w>
+<w>la</w>
+<w>gent</w>
+<lb n="16"/>
+<w>Et</w>
+<w>loent</w>
+<w>çou</w>
+<w>que</w>
+<w>nus</w>
+<w>autres</w>
+<w>ne</w>
+<w>prise</w>
+<w type="pon">.</w>
+</s>
+</ab>
+<ab n="3" type="strophe">
+<lb n="17"/>
+<s n="95" xml:id="s_95">
+<w>Dame</w>
+<w type="pon">,</w>
+<w>lonc</w>
+<w>tans</w>
+<w>ai</w>
+<w>fait</w>
+<w>vostre</w>
+<w>servise</w>
+<w type="pon">,</w>
+<lb n="18"/>
+<w>La</w>
+<w>merci</w>
+<w>Deu</w>
+<w type="pon">!</w>
+</s>
+<s n="96" xml:id="s_96">
+<w>c'</w>
+<w>or</w>
+<w>n'</w>
+<w>en</w>
+<w>ai</w>
+<w>mais</w>
+<w>talant</w>
+<w type="pon">,</w>
+<lb n="19"/>
+<w>Que</w>
+<w>m'</w>
+<w>est</w>
+<w>ou</w>
+<w>cuer</w>
+<w>une</w>
+<w>autre</w>
+<w>amor</w>
+<w>assise</w>
+<lb n="20"/>
+<w>Que</w>
+<w>me</w>
+<w>requiert</w>
+<w>et</w>
+<w>alume</w>
+<w>et</w>
+<w>esprant</w>
+<lb n="21"/>
+<w>Et</w>
+<w>me</w>
+<w>semont</w>
+<w>d'</w>
+<w>amer</w>
+<w>si</w>
+<w>hatement</w>
+<w type="pon">,</w>
+<lb n="22"/>
+<w>C'</w>
+<w>an</w>
+<w>li</w>
+<w>n'</w>
+<w>en</w>
+<w>a</w>
+<w>ne</w>
+<w>orgoil</w>
+<w>ne</w>
+<w>faintise</w>
+<w type="pon">;</w>
+<lb n="23"/>
+<w>Et</w>
+<w>jel</w>
+<w>ferai</w>
+<w type="pon">,</w>
+<w>ne</w>
+<w>puet</w>
+<w>estre</w>
+<w>autrement</w>
+<w type="pon">,</w>
+<lb n="24"/>
+<w>Si</w>
+<w>me</w>
+<w>metrai</w>
+<w>dou</w>
+<w>tout</w>
+<w>an</w>
+<w>sa</w>
+<w>franchise</w>
+<w type="pon">.</w>
+</s>
+</ab>
+<ab n="4" type="strophe">
+<lb n="25"/>
+<s n="97" xml:id="s_97">
+<w>A</w>
+<w>la</w>
+<w>millor</w>
+<w>del</w>
+<w>roiaume</w>
+<w>de</w>
+<w>France</w>
+<w type="pon">,</w>
+<lb n="26"/>
+<w>Voire</w>
+<w>del</w>
+<w>mont</w>
+<w type="pon">,</w>
+<w>ai</w>
+<w>mon</w>
+<w>cuer</w>
+<w>atorné</w>
+<w type="pon">,</w>
+<pb n="16"/>
+<lb n="27"/>
+<w>Et</w>
+<w>non</w>
+<w>por</w>
+<w>quant</w>
+<w>pavor</w>
+<w>ai</w>
+<w>et</w>
+<w>dotance</w>
+<lb n="28"/>
+<w>Ke</w>
+<w>sa</w>
+<w>valors</w>
+<w>ne</w>
+<w>me</w>
+<w>tiegne</w>
+<w>en</w>
+<w>vilté</w>
+<w type="pon">,</w>
+<lb n="29"/>
+<w>Car</w>
+<w>tant</w>
+<w>redoc</w>
+<w>orgelleuse</w>
+<w>beauté</w>
+<w type="pon">;</w>
+<lb n="30"/>
+<w>Et</w>
+<w>Dieus</w>
+<w>m'</w>
+<w>en</w>
+<w>doinst</w>
+<w>trover</w>
+<w>bone</w>
+<w>esperance</w>
+<w type="pon">,</w>
+<lb n="31"/>
+<w>K'</w>
+<w>en</w>
+<w>tot</w>
+<w>le</w>
+<w>mont</w>
+<w>n'</w>
+<w>a</w>
+<w>orgoill</w>
+<w>ne</w>
+<w>fierté</w>
+<lb n="32"/>
+<w>K'</w>
+<w>Amors</w>
+<w>ne</w>
+<w>puist</w>
+<w>plaissier</w>
+<w>par</w>
+<w>sa</w>
+<w>poissance</w>
+<w type="pon">.</w>
+</s>
+</ab>
+</div>
+<pb n="17"/>
+<div n="10" type="chanson">
+<head>
+<s n="98" xml:id="s_98">
+<w>L'</w>
+<w>AUTRIER</w>
+<w>AVINT</w>
+<w>EN</w>
+<w>CEL</w>
+<w>AUTRE</w>
+<w>PAÏS</w>
+<w type="pon">.</w>
+</s>
+</head>
+<ab n="1" type="strophe">
+<lb n="1"/>
+<s n="99" xml:id="s_99">
+<w>L'</w>
+<w>autrier</w>
+<w>avint</w>
+<w>en</w>
+<w>cel</w>
+<w>autre</w>
+<w>païs</w>
+<lb n="2"/>
+<w>C'</w>
+<w>uns</w>
+<w>chevaliers</w>
+<w>eut</w>
+<w>une</w>
+<w>dame</w>
+<w>amee</w>
+<w type="pon">.</w>
+</s>
+<lb n="3"/>
+<s n="100" xml:id="s_100">
+<w>Tant</w>
+<w>com</w>
+<w>la</w>
+<w>dame</w>
+<w>fu</w>
+<w>en</w>
+<w>son</w>
+<w>bon</w>
+<w>pris</w>
+<w type="pon">,</w>
+<lb n="4"/>
+<w>Li</w>
+<w>a</w>
+<w>s'</w>
+<w>amor</w>
+<w>escondite</w>
+<w>et</w>
+<w>veee</w>
+<w type="pon">.</w>
+</s>
+<lb n="5"/>
+<s n="101" xml:id="s_101">
+<w>Puis</w>
+<w>fu</w>
+<w>un</w>
+<w>jors</w>
+<w>k'</w>
+<w>ele</w>
+<w>li</w>
+<w>dist</w>
+<w type="pon">:</w>
+</s>
+<q n="1" xml:id="q_1">
+<s n="102" xml:id="s_102">
+<w type="pon">«</w>
+<w>Amis</w>
+<w type="pon">,</w>
+<lb n="6"/>
+<w>Mené</w>
+<w>vous</w>
+<w>ai</w>
+<w>par</w>
+<w>parole</w>
+<w>mains</w>
+<w>dis</w>
+<w type="pon">;</w>
+<lb n="7"/>
+<w>Ore</w>
+<w>est</w>
+<w>l'</w>
+<w>amors</w>
+<w>coneüe</w>
+<w>et</w>
+<w>provee</w>
+<w type="pon">.</w>
+</s>
+<lb n="8"/>
+<s n="103" xml:id="s_103">
+<w>Des</w>
+<w>or</w>
+<w>mais</w>
+<w>sui</w>
+<w>tot</w>
+<w>a</w>
+<w>vostre</w>
+<w>devis</w>
+<w type="pon">.</w>
+<w type="pon">»</w>
+</s>
+</q>
+</ab>
+<ab n="2" type="strophe">
+<lb n="9"/>
+<s n="104" xml:id="s_104">
+<w>Li</w>
+<w>chevalliers</w>
+<w>le</w>
+<w>regarda</w>
+<w>el</w>
+<w>vis</w>
+<w type="pon">,</w>
+<lb n="10"/>
+<w>Si</w>
+<w>la</w>
+<w>vit</w>
+<w>mout</w>
+<w>pale</w>
+<w>et</w>
+<w>descoulouree</w>
+<w type="pon">.</w>
+</s>
+<lb n="11"/>
+<q n="3" xml:id="q_3">
+<w type="pon">«</w>
+<s n="105" xml:id="s_105">
+<w>Dame</w>
+<!--<w type="pon">"</w>-->
+</s>
+<s n="106" xml:id="s_106">
+<w type="pon">,</w>
+<w>fait</w>
+<w>il</w>
+<w type="pon">,</w>
+</s>
+<s n="107" xml:id="s_107">
+<!--<w type="pon">"</w>-->
+<w>certes</w>
+<w>mal</w>
+<w>sui</w>
+<w>baillis</w>
+<lb n="12"/>
+<w>Ke</w>
+<w>n'</w>
+<w>eüstes</w>
+<w>piech'</w>
+<w>a</w>
+<w>ceste</w>
+<w>pensee</w>
+<w type="pon">.</w>
+</s>
+<lb n="13"/>
+<s n="108" xml:id="s_108">
+<w>Vostres</w>
+<w>cler</w>
+<w>vis</w>
+<w type="pon">,</w>
+<w>ki</w>
+<w>sambloit</w>
+<w>flors</w>
+<w>de</w>
+<w>lis</w>
+<w type="pon">,</w>
+<lb n="14"/>
+<w>Est</w>
+<w>si</w>
+<w>alés</w>
+<w type="pon">,</w>
+<w>dame</w>
+<w type="pon">,</w>
+<w>de</w>
+<w>mal</w>
+<w>em</w>
+<w>pis</w>
+<lb n="15"/>
+<w>K'</w>
+<w>il</w>
+<w>m'</w>
+<w>est</w>
+<w>a</w>
+<w>vis</w>
+<w>ke</w>
+<w>me</w>
+<w>soiés</w>
+<w>emblee</w>
+<w type="pon">.</w>
+</s>
+<lb n="16"/>
+<s n="109" xml:id="s_109">
+<w>A</w>
+<w>tart</w>
+<w>avés</w>
+<w type="pon">,</w>
+<w>dame</w>
+<w type="pon">,</w>
+<w>cest</w>
+<w>consell</w>
+<w>pris</w>
+<w type="pon">.</w>
+<w type="pon">»</w>
+</s>
+</q>
+</ab>
+<ab n="3" type="strophe">
+<lb n="17"/>
+<s n="110" xml:id="s_110">
+<w>Quant</w>
+<w>la</w>
+<w>dame</w>
+<w>s'</w>
+<w>oï</w>
+<w>si</w>
+<w>ramprosner</w>
+<w type="pon">,</w>
+<lb n="18"/>
+<w>Grant</w>
+<w>honte</w>
+<w>en</w>
+<w>ot</w>
+<w type="pon">,</w>
+<w>si</w>
+<w>dist</w>
+<w>par</w>
+<w>sa</w>
+<w>folie</w>
+<w type="pon">:</w>
+<lb n="19"/>
+</s>
+<q n="5" xml:id="q_5">
+<s n="111" xml:id="s_111">
+<w type="pon">«</w>
+<w>Par</w>
+<w>Dieu</w>
+<w type="pon">,</w>
+<w>vassal</w>
+<w type="pon">,</w>
+<w>jel</w>
+<w>dis</w>
+<w>por</w>
+<w>vos</w>
+<w>gaber</w>
+<w type="pon">.</w>
+</s>
+<lb n="20"/>
+<s n="112" xml:id="s_112">
+<w>Quidiés</w>
+<w>vos</w>
+<w>dont</w>
+<w>k'</w>
+<w>a</w>
+<w>chertes</w>
+<w>le</w>
+<w>vos</w>
+<w>die</w>
+<w type="pon">?</w>
+</s>
+<lb n="21"/>
+<s n="113" xml:id="s_113">
+<w>Onques</w>
+<w>nul</w>
+<w>jor</w>
+<w>ne</w>
+<w>me</w>
+<w>vint</w>
+<w>em</w>
+<w>penser</w>
+<w type="pon">.</w>
+</s>
+<lb n="22"/>
+<s n="114" xml:id="s_114">
+<w>Sariés</w>
+<w>vos</w>
+<w>dont</w>
+<w>dame</w>
+<w>de</w>
+<w>pris</w>
+<w>amer</w>
+<w type="pon">?</w>
+</s>
+<lb n="23"/>
+<s n="115" xml:id="s_115">
+<w>Nenil</w>
+<w type="pon">,</w>
+<w>par</w>
+<w>Dieu</w>
+<w type="pon">!</w>
+</s>
+<s n="116" xml:id="s_116">
+<w>ains</w>
+<w>vos</w>
+<w>prendroit</w>
+<w>envie</w>
+<lb n="24"/>
+<w>D'</w>
+<w>un</w>
+<w>bel</w>
+<w>vallet</w>
+<w>baisier</w>
+<w>et</w>
+<w>acoler</w>
+<w type="pon">.</w>
+<w type="pon">»</w>
+</s>
+</q>
+</ab>
+<ab n="4" type="strophe">
+<lb n="25"/>
+<q n="6" xml:id="q_6">
+<s n="117" xml:id="s_117">
+<w type="pon">-</w>
+<w type="pon">«</w>
+<w>Dame</w>
+<!--<w type="pon">"</w>-->
+</s>
+<s n="118" xml:id="s_118">
+<w type="pon">,</w>
+<w>fait</w>
+<w>il</w>
+<w type="pon">,</w>
+</s>
+<s n="119" xml:id="s_119">
+<!--<w type="pon">"</w>-->
+<w>j'</w>
+<w>ai</w>
+<w>bien</w>
+<w>oï</w>
+<w>parler</w>
+<lb n="26"/>
+<w>De</w>
+<w>vostre</w>
+<w>pris</w>
+<w type="pon">,</w>
+<w>mais</w>
+<w>ce</w>
+<w>n'</w>
+<w>est</w>
+<w>ore</w>
+<w>mie</w>
+<w type="pon">;</w>
+<lb n="27"/>
+<w>Et</w>
+<w>de</w>
+<w>Troie</w>
+<w>rai</w>
+<w>jou</w>
+<w>oï</w>
+<w>conter</w>
+<pb n="18"/>
+<lb n="28"/>
+<w>K'</w>
+<w>ele</w>
+<w>fu</w>
+<w>ja</w>
+<w>de</w>
+<w>mout</w>
+<w>grant</w>
+<w>signorie</w>
+<w type="pon">;</w>
+<lb n="29"/>
+<w>Or</w>
+<w>n'</w>
+<w>i</w>
+<w>puet</w>
+<w>on</w>
+<w>fors</w>
+<w>les</w>
+<w>plaices</w>
+<w>trover</w>
+<w type="pon">.</w>
+</s>
+<lb n="30"/>
+<s n="120" xml:id="s_120">
+<w>Et</w>
+<w>si</w>
+<w>vous</w>
+<w>lo</w>
+<w>ensi</w>
+<w>a</w>
+<w>escuser</w>
+<lb n="31"/>
+<w>Ke</w>
+<w>cil</w>
+<w>soient</w>
+<w>reté</w>
+<w>de</w>
+<w>l'</w>
+<w>iresie</w>
+<lb n="32"/>
+<w>Qui</w>
+<w>des</w>
+<w>or</w>
+<w>mais</w>
+<w>ne</w>
+<w>vous</w>
+<w>vauront</w>
+<w>amer</w>
+<w type="pon">.</w>
+<w type="pon">»</w>
+</s>
+</q>
+</ab>
+<ab n="5" type="strophe">
+<lb n="33"/>
+<q n="8" xml:id="q_8">
+<s n="121" xml:id="s_121">
+<w type="pon">-</w>
+<w type="pon">«</w>
+<w>Par</w>
+<w>Dieu</w>
+<w type="pon">,</w>
+<w>vassal</w>
+<w type="pon">,</w>
+<w>mout</w>
+<w>avés</w>
+<w>fol</w>
+<w>pensé</w>
+<w type="pon">,</w>
+<lb n="34"/>
+<w>Quant</w>
+<w>vous</w>
+<w>m'</w>
+<w>avés</w>
+<w>reprové</w>
+<w>mon</w>
+<w>eaige</w>
+<w type="pon">.</w>
+</s>
+<lb n="35"/>
+<s n="122" xml:id="s_122">
+<w>Se</w>
+<w>j'</w>
+<w>avoie</w>
+<w>tot</w>
+<w>mon</w>
+<w>jovent</w>
+<w>usé</w>
+<w type="pon">,</w>
+<lb n="36"/>
+<w>Si</w>
+<w>sui</w>
+<w>jou</w>
+<w>riche</w>
+<w>et</w>
+<w>de</w>
+<w>si</w>
+<w>haut</w>
+<w>paraige</w>
+<lb n="37"/>
+<w>C'</w>
+<w>om</w>
+<w>m'</w>
+<w>ameroit</w>
+<w>a</w>
+<w>petit</w>
+<w>de</w>
+<w>beauté</w>
+<w type="pon">.</w>
+</s>
+<lb n="38"/>
+<s n="123" xml:id="s_123">
+<w>Encoir</w>
+<w>n'</w>
+<w>a</w>
+<w>pas</w>
+<w>un</w>
+<w>mois</w>
+<w>entir</w>
+<w>passé</w>
+<lb n="39"/>
+<w>Ke</w>
+<w>li</w>
+<w>Marchis</w>
+<w>m'</w>
+<w>envoia</w>
+<w>son</w>
+<w>messaige</w>
+<w type="pon">,</w>
+<lb n="40"/>
+<w>Et</w>
+<w>li</w>
+<w>Barrois</w>
+<w>a</w>
+<w>por</w>
+<w>m'</w>
+<w>amor</w>
+<w>josté</w>
+<w type="pon">.</w>
+<w type="pon">»</w>
+</s>
+</q>
+</ab>
+<ab n="6" type="strophe">
+<lb n="41"/>
+<q n="9" xml:id="q_9">
+<s n="124" xml:id="s_124">
+<w type="pon">-</w>
+<w type="pon">«</w>
+<w>Par</w>
+<w>Dieu</w>
+<w type="pon">,</w>
+<w>dame</w>
+<w type="pon">,</w>
+<w>ce</w>
+<w>vos</w>
+<w>a</w>
+<w>mout</w>
+<w>grevé</w>
+<lb n="42"/>
+<w>Ke</w>
+<w>vos</w>
+<w>fïés</w>
+<w>tos</w>
+<w>jors</w>
+<w>ens</w>
+<w>signoraige</w>
+<w type="pon">;</w>
+<lb n="43"/>
+<w>Mais</w>
+<w>tel</w>
+<w>set</w>
+<w>ont</w>
+<w>ja</w>
+<w>por</w>
+<w>vos</w>
+<w>sospiré</w>
+<w type="pon">,</w>
+<lb n="44"/>
+<w>Se</w>
+<w>vos</w>
+<w>estiés</w>
+<w>fille</w>
+<w>au</w>
+<w>Roi</w>
+<w>de</w>
+<w>Cartaige</w>
+<w type="pon">,</w>
+<lb n="45"/>
+<w>Ki</w>
+<w>ja</w>
+<w>mais</w>
+<w>jor</w>
+<w>n'</w>
+<w>en</w>
+<w>aront</w>
+<w>volenté</w>
+<w type="pon">.</w>
+</s>
+<lb n="46"/>
+<s n="125" xml:id="s_125">
+<w>On</w>
+<w>n'</w>
+<w>aime</w>
+<w>pas</w>
+<w>dame</w>
+<w>por</w>
+<w>parenté</w>
+<w type="pon">,</w>
+<lb n="47"/>
+<w>Mais</w>
+<w>quant</w>
+<w>ele</w>
+<w>est</w>
+<w>belle</w>
+<w>et</w>
+<w>cortoise</w>
+<w>et</w>
+<w>saige</w>
+<w type="pon">.</w>
+</s>
+<lb n="48"/>
+<s n="126" xml:id="s_126">
+<w>Vos</w>
+<w>en</w>
+<w>savrés</w>
+<w>par</w>
+<w>tans</w>
+<w>la</w>
+<w>verité</w>
+<w type="pon">.</w>
+<w type="pon">»</w>
+</s>
+</q>
+</ab>
+</div>
+</body>
+</text>
+</TEI>

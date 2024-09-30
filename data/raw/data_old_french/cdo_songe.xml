@@ -1,0 +1,814 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="fr">
+  <fileDesc>
+    <titleStmt>
+      <title type="main">Songe en complainte</title>
+      <title type="formal">cdo_songe</title>
+      <title type="reference">cdo_songe</title>
+      <title type="DEAF">CharlD'OrlC</title>
+      <title type="FRANTEXT">5418</title>
+      <title type="gmd">transcription électronique</title>
+      <author xml:id="COrleans" key="Orléans, Charles d' (1394-1465)" ref="http://www.idref.fr/028466861">Charles d'Orléans</author>
+      <editor>Équipe de la Base de français médiéval - ENS de Lyon / UMR 5317 IHRIM</editor>
+      <funder>Laboratoire IHRIM</funder>
+    </titleStmt>
+    <editionStmt>
+      <edition>transcripion électronique</edition>
+      <respStmt xml:id="encoderDD">
+        <resp>balisage du discours direct</resp>
+        <name xml:id="AL">Alexei Lavrentiev</name>
+      </respStmt>
+      <respStmt xml:id="encoder1">
+        <resp>numérisation</resp>
+        <name xml:id="ATILF">ATILF</name>
+      </respStmt>
+      <respStmt xml:id="encoder2">
+        <resp>rétroconversion automatique d'un texte du corpus FRANTEXT, base DMF, au format TEI P4</resp>
+        <name xml:id="GSouvay">Gilles Souvay (ATILF)</name>
+      </respStmt>
+    </editionStmt>
+    <extent>- Numéros de pages saisies : de 99 à 118 ;
+            - Nombre de mots d'après la base des descripteurs : <num xml:id="nb_mots_given">3217</num> ;
+            - Nombre de tokens (mots et ponctuations) d'après la base des descripteurs : <num xml:id="nb_tokens_given">3778</num>.
+    </extent>
+    <publicationStmt>
+      <publisher><name>Projet BFM, ENS de Lyon / UMR 5317 IHRIM</name></publisher>
+      <address>
+        <addrLine>15, parvis René Descartes</addrLine>
+        <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+        <addrLine>Tél : 04 37 37 63 10</addrLine>
+        <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+        <addrLine>http://bfm.ens-lyon.fr</addrLine>
+      </address>
+      <idno type="bfm">http://catalog.bfm-corpus.org/cdo_songe</idno>
+      <idno type="doi">10.34847/nkl.a8178r8j</idno>
+      <availability status="free">
+        <licence target="https://www.etalab.gouv.fr/licence-ouverte-open-licence">
+          <ab type="availability_bfm" subtype="libre_1c">Les Conditions générales d'utilisation de la Base de Français Médiéval (http://txm.bfm-corpus.org/bfm/files/CGU.pdf), 
+            et notamment son Article 5 « PROPRIETE INTELLECTUELLE », s'appliquent à tous les textes de la BFM.</ab>
+          <ab type="how_to_cite">
+            <label>Comment citer ce texte :</label>
+            <bibl>Charles d'Orléans, Songe en complainte, édité par Pierre Champion, Paris, 1923. 
+              Publié en ligne par la Base de français médiéval, http://catalog.bfm-corpus.org/cdo_songe.
+              Dernière révision le 2012-11-02.</bibl>
+            D'autres formules de citation de la BFM sont proposées sur la page web suivante :
+            http://bfm.ens-lyon.fr/article.php3?id_article=281.</ab>
+          <ab type="availability_file">
+            <label>Conditions d'utilisation de ce fichier :</label>
+              Ce fichier numérique est composé du corps de texte médiéval et des suppléments numériques : balisage XML-TEI, métadonnées (teiHeader), balisage du discours direct. Le texte et les suppléments numériques sont libres de droit et peuvent à ce titre être téléchargés et réutilisés librement.
+            </ab>
+            <ab type="availability_txmweb" subtype="illimité">
+              <label>Conditions d'utilisation par le portail BFM :</label>
+              Pas de limitation dans l'usage des fonctionnalités. Téléchargement autorisé.</ab>
+        </licence>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>Poésies. I, La retenue d'amours. Ballades, chansons, complaintes et caroles / Songe en complainte</title>
+          <author>Charles d'Orléans</author>
+          <respStmt>
+            <resp xml:id="editor">Éditeur scientifique</resp>
+            <name type="person">Pierre Champion</name>
+          </respStmt>
+        </titleStmt>
+          <extent>20 page(s)
+        </extent>
+        <publicationStmt>
+          <publisher>Champion</publisher>
+          <pubPlace>Paris</pubPlace>
+          <date>1923</date>
+          <idno type="sigle_DEAF">CharlD'OrlC</idno>
+          <idno type="cote_FRANTEXT">5418</idno>
+          <idno type="cote_biblio">BIU : Litt. 840.900 2 ORL</idno>
+        </publicationStmt>
+      </biblFull>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p>Projet :<name type="project">BFM - Base de français médiéval</name>
+        Resp. : <name type="person">Céline Guillot-Barbance</name>
+        Équipe : Base de français médiéval
+        Laboratoire : UMR 5317 IHRIM
+        Institution : ENS de Lyon
+        <address>
+          <addrLine>15, parvis René Descartes</addrLine>
+          <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+          <addrLine>Tél : 04 37 37 63 10</addrLine>
+          <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+          <addrLine>http://bfm.ens-lyon.fr</addrLine>
+        </address>
+      </p>
+      <p>Ce texte provient de la Base textuelle du <name type="project">Dictionnaire du Moyen Français</name>
+        et fait partie de la base <name type="project">FRANTEXT</name>.
+        <address>
+          <addrLine>ATILF UMR 7118 CNRS - Université de Lorraine</addrLine>
+          <addrLine>44, avenue de la Libération</addrLine>
+          <addrLine>BP 30687</addrLine>
+          <addrLine>54063 NANCY CEDEX</addrLine>
+          <addrLine>Tél : 03 54 50 53 00</addrLine>
+          <addrLine>Fax : 03 83 97 24 56</addrLine>
+          <addrLine>Courriel : contact@atilf.fr</addrLine>
+          <addrLine>http://www.atilf.fr</addrLine>
+          <addrLine>http://www.frantext.fr</addrLine>
+          <addrLine>http://www.atilf.fr/dmf</addrLine>
+        </address>
+      </p>
+    </projectDesc>
+    <editorialDecl>
+      <p>Voir le <ref target="http://bfm.ens-lyon.fr/IMG/pdf/Manuel_Encodage_TEI.pdf">Manuel d'encodage XML-TEI de la BFM</ref>
+        et les <ref target="http://bfm.ens-lyon.fr/IMG/pdf/Consignes_BFM.pdf">Consignes aux relecteurs de la BFM</ref>.</p>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="ab" occurs="15"/>
+        <tagUsage gi="body" occurs="1"/>
+        <tagUsage gi="div" occurs="10"/>
+        <tagUsage gi="head" occurs="2"/>
+        <tagUsage gi="lb" occurs="550"/>
+        <tagUsage gi="pb" occurs="20"/>
+        <tagUsage gi="q" occurs="7"/>
+        <tagUsage gi="text" occurs="1"/>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <creation>
+      <name type="author">Charles d'Orléans</name>
+      <title>Songe en complainte</title>
+      <date type="compo" when="1437-01-01" notBefore="1437-01-01" notAfter="1437-12-31" n="15">1437</date>
+      <date type="compo_periode">moyen</date>
+      <date type="compo_sous_siecle" n="15_2">milieu</date>
+      <date type="ms" when="1440-01-01" notBefore="1435-01-01" notAfter="1444-12-31">ca. 1440</date>
+      <idno type="msIdentifier">Paris, BnF, fr. 25458</idno>
+      <region type="dialecte_auteur">orléanais</region>
+    </creation>
+    <langUsage>
+      <language ident="fro" usage="100">Le texte est entièrement écrit en vers en moyen français.</language>
+    </langUsage>
+    <textDesc>
+      <channel mode="w">print</channel>
+      <constitution type="single"/>
+      <derivation type="original"/>
+      <domain type="littéraire"/>
+    <factuality type="inapplicable"/>
+      <interaction type="none"/>
+      <preparedness type="prepared"/>
+      <purpose type="narrative"/></textDesc>
+    <textClass>
+      <keywords scheme="http://authorities.bfm-corpus.org">
+        <term type="domaine">littéraire</term>
+        <term type="genre">lyrique</term>
+        <term type="forme">vers</term>
+        <term type="relation">original</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change who="#GSouvay" when="2005-03-30">rétroconversion automatique d'un texte du corpus FRANTEXT, base DMF, au format TEI P4</change>
+    <change who="#ATILF" when="2005-03-30">numérisation</change>
+    <change who="#AL" when="2012-05-02">adaptation du balisage aux normes BFM TEI P5</change>
+    <change who="#AL" when="2012-11-02">balisage du discours direct</change>
+    <change when="2012-11-02">Dernière modification du texte</change>
+    <change when="2022-11-04">Création de cet entête</change>
+  </revisionDesc>
+</teiHeader>
+<text>
+<body>
+<div type="prologue">
+  <pb n="99"/>
+<ab type="gv">
+<lb n="1"/> Aprés le jour qui est fait pour traveil 
+<lb n="2"/> Ensuit la nuit pour repos ordonnee. 
+<lb n="3"/> Pour ce, m'avint que chargié de sommeil 
+<lb n="4"/> Je me trouvay moult fort, une vespree, 
+<lb n="5"/> Pour la peine que j'avoye portee 
+<lb n="6"/> Le jour devant : si fis mon appareil 
+<lb n="7"/> De me couschier, sitost que le souleil 
+<lb n="8"/> Je vy retrait et sa clarté mussee. 
+<lb n="9"/> Quant couschié fu, de legier m'endormy, 
+<lb n="10"/> Et en dormant, ainsi que je songoye, 
+<lb n="11"/> Advis me fu que devant moy je vy 
+<lb n="12"/> Ung vieil homme que point ne congnoissoye ; 
+<lb n="13"/> Et non pour tant, autresfoiz veu l'avoye, 
+<lb n="14"/> Ce me sembla : si me trouvay marry 
+<lb n="15"/> Que j'avoye son nom mis en oubly, 
+<lb n="16"/> Et, pour honte, parler a lui n'osoye. 
+<lb n="17"/> Un peu se teut, et puis m'araisonna, 
+<lb n="18"/> Disant : <q> « Amy, n'avez vous de moy cure ? 
+<lb n="19"/> Je suis Aage qui lettres apporta 
+<lb n="20"/> A Enfance, de par Dame Nature, 
+<lb n="21"/> Quant lui chargeay que plus la nourriture 
+<pb n="100"/>
+
+<lb n="22"/> N'auroit de vous ; alors vous delivra 
+<lb n="23"/> A Jeunesse, qui gouverné vous a 
+<lb n="24"/> Moult longuement, sans raison et mesure. 
+<lb n="25"/> Or est ainsi que Raison, qui sus tous 
+<lb n="26"/> Doit gouverner, a fait tresgrant complainte 
+<lb n="27"/> A Nature de Jeunesse et de vous, 
+<lb n="28"/> Disant qu'avez tous deux fait faulte mainte. 
+<lb n="29"/> Avisez vous, ce n'est pas chose fainte ; 
+<lb n="30"/> Car Vieillesse, la mere de courrous, 
+<lb n="31"/> Qui tout abat et amaine au dessoubz, 
+<lb n="32"/> Vous donnera dedens brief une atainte. 
+<lb n="33"/> Au derrenier, ne la povez fuir. 
+<lb n="34"/> Si vous vault mieulx, tantdis qu'avez Jennesse, 
+<lb n="35"/> A vostre honneur de Folie partir, 
+<lb n="36"/> Vous eslongnant de l'amoureuse adresse ; 
+<lb n="37"/> Car en descort sont Amours et Vieillesse : 
+<lb n="38"/> Nul ne les peut a leur gré bien servir. 
+<lb n="39"/> Amour vous doit pour escusé tenir, 
+<lb n="40"/> Puisque la Mort a prins vostre maistresse. 
+<lb n="41"/> Et tout ainsi qu'assés est avenant 
+<lb n="42"/> A jeunes gens en l'amoureuse voye 
+<lb n="43"/> De temps passer, c'est aussi mal seant 
+<lb n="44"/> Quant en amours un vieil homme folloye ; 
+<lb n="45"/> Chascun s'en rit, disant : Dieu quelle joye ! 
+<lb n="46"/> Ce foul vieillart veult devenir enfant ! 
+<lb n="47"/> Jeunes et vieulx du doy le vont moustrant, 
+<lb n="48"/> Moquerie par tous lieux le convoye. 
+<lb n="49"/> A vostre honneur povez Amours laissier 
+<lb n="50"/> En jeune temps, comme par nonchalance ; 
+<pb n="101"/>
+
+<lb n="51"/> Lors ne pourra nul de vous raconter, 
+<lb n="52"/> Que l'ayez fait par faulte de puissance ; 
+<lb n="53"/> Et dira l'en que c'est par desplaisance 
+<lb n="54"/> Que ne voulés en autre lieu amer, 
+<lb n="55"/> Puisqu'est morte vostre Dame sans per, 
+<lb n="56"/> Dont loyaument gardez la souvenance. 
+<lb n="57"/> Au Dieu d'amours requerez humblement 
+<lb n="58"/> Qu'il lui plaise de reprandre l'ommage 
+<lb n="59"/> Que lui feistes, par son commandement, 
+<lb n="60"/> Vous rebaillant vostre cueur qu'a en gage : 
+<lb n="61"/> Merciez le des biens qu'en son servage 
+<lb n="62"/> Avez receuz ; lors gracieusement 
+<lb n="63"/> Departirés de son gouvernement, 
+<lb n="64"/> A grant honneur, comme loyal et sage. 
+<lb n="65"/> Puis requerés a tous les amoureux 
+<lb n="66"/> Que chascun d'eulx tout ouvertement die 
+<lb n="67"/> Se vous avez riens failly envers eulx, 
+<lb n="68"/> Tant que suivy avez leur compaignie, 
+<lb n="69"/> Et que par eulx soit la faulte punie, 
+<lb n="70"/> Leur requerant pardon de cueur piteux : 
+<lb n="71"/> Car de servir estiés desireux 
+<lb n="72"/> Amours, et tous ceulx de sa seigneurie. 
+<lb n="73"/> Ainsi pourrez departir du povair 
+<lb n="74"/> Du Dieu d'Amours, sans avoir charge aucune. 
+<lb n="75"/> C'est mon conseil : faittes vostre vouloir. 
+<lb n="76"/> Mais gardez vous que ne croyez Fortune 
+<lb n="77"/> Qui de flater est a chascun commune ; 
+<lb n="78"/> Car tousjours dit qu'on doit avoir espoir 
+<lb n="79"/> De mieulx avoir : mais c'est pour decevoir. 
+<lb n="80"/> Je ne congnois plus faulse soubz la lune ! 
+<pb n="102"/>
+
+<lb n="81"/> Je sçay trop bien, s'escouter la voulez, 
+<lb n="82"/> Et son conseil plus que le mien eslire, 
+<lb n="83"/> Elle dira que, s'Amours delaissiez, 
+<lb n="84"/> Vous ne povez mieulx vostre cueur destruire ; 
+<lb n="85"/> Car vous n'aurés lors a quoy vous deduire, 
+<lb n="86"/> Et tout plaisir a nonchaloir mettrés, 
+<lb n="87"/> Ainsi le temps en grant ennuy perdrés, 
+<lb n="88"/> Qui pis vauldra que l'amoureux martire. 
+<lb n="89"/> Et puis aprés, pour vous donner confort, 
+<lb n="90"/> Vous promettra que recevrez amende 
+<lb n="91"/> De tous les maulx qu'avez souffers a tort, 
+<lb n="92"/> Et que c'est droit qu'aucun guerdon vous rende ; 
+<lb n="93"/> Mais il n'est nul qui a elle s'atende, 
+<lb n="94"/> Qui tost ou tart ne soit, je m'en fais fort, 
+<lb n="95"/> Deceu d'elle : a vous je m'en raport ; 
+<lb n="96"/> Si pry a Dieu que d'elle vous deffende.» </q> 
+<lb n="97"/> En tressaillant, sur ce point m'esveillay, 
+<lb n="98"/> Tremblant ainsi que sur l'arbre la fueille, 
+<lb n="99"/> Disant : Helas ! oncques mais ne songay 
+<lb n="100"/> Chose dont tant mon povre cueur se dueille. 
+<lb n="101"/> Car, s'il est vray que Nature me vueille 
+<lb n="102"/> Abandonner, je ne sçay que feray ; 
+<lb n="103"/> A Vieillesse tenir pié ne pourray, 
+<lb n="104"/> Mais couvendra que tout ennuy m'acueille. 
+<lb n="105"/> Et non pour tant, le vieil homme qu'ay veu 
+<lb n="106"/> En mon dormant, lequel Aage s'apelle, 
+<lb n="107"/> Si m'a dit vray ; car j'ay bien aperceu 
+<lb n="108"/> Que Vieillesse veult emprandre querelle 
+<lb n="109"/> Encontre moy ; ce m'est dure nouvelle 
+<pb n="103"/>
+
+<lb n="110"/> Et ja soit ce qu'a present suy pourveu 
+<lb n="111"/> De jeunesse, sans me trouver recreu, 
+<lb n="112"/> Ce n'est que sens de me pourvoir contr'elle. 
+<lb n="113"/> A celle fin que quant vendra vers moy, 
+<lb n="114"/> Je ne soye despourveu comme nice ; 
+<lb n="115"/> C'est pour le mieulx, s'avant je me pourvoy, 
+<lb n="116"/> Et trouveray Vieillesse plus propice, 
+<lb n="117"/> Quant congnoistra qu'ay laissié tout office 
+<lb n="118"/> Pour la suir ; alors, en bonne foy 
+<lb n="119"/> Recommandé  m'aura, comme je croy, 
+<lb n="120"/> Et moins soussy auray en son service. 
+<lb n="121"/> Si suis content, sans changier desormais ; 
+<lb n="122"/> Et pour tousjours entierement propose 
+<lb n="123"/> De renoncer a tous amoureux fais ; 
+<lb n="124"/> Car il est temps que mon cueur se repose. 
+<lb n="125"/> Mes yeulx cligniez et mon oreille close 
+<lb n="126"/> Tendray, afin que n'y entrent jamais, 
+<lb n="127"/> Par Plaisance, les amoureux atrais : 
+<lb n="128"/> Tant les congnois qu'en eulx fier ne m'ose ! 
+<lb n="129"/> Qui bien se veult garder d'amoureux tours, 
+<lb n="130"/> Quant en repos sent que son cueur sommeille, 
+<lb n="131"/> Garde ses yeulx emprisonnez tousjours ; 
+<lb n="132"/> S'ilz eschappent, ilz crient en l'oreille 
+<lb n="133"/> Du cueur qui dort, tant qu'il fault qu'il s'esveille, 
+<lb n="134"/> Et ne cessent de lui parler d'Amours, 
+<lb n="135"/> Disans qu'ilz ont souvent hanté ses cours, 
+<lb n="136"/> Ou ilz ont veu plaisance nompareille. 
+<lb n="137"/> Je sçay par cueur ce mestier bien a plain, 
+<lb n="138"/> Et m'a longtemps esté si agreable 
+<pb n="104"/>
+
+<lb n="139"/> Qu'il me sembloit qu'il n'estoit bien mondain 
+<lb n="140"/> Fors en Amours, ne riens si honnorable. 
+<lb n="141"/> Je trouvoye, par maint conte notable, 
+<lb n="142"/> Comment Amour, par son povair haultain, 
+<lb n="143"/> A avancié, comme roy souverain, 
+<lb n="144"/> Ses serviteurs en estat prouffitable. 
+<lb n="145"/> Mais en ce temps, ne congnoissoye pas 
+<lb n="146"/> La grant doleur qu'il couvient que soustiengne 
+<lb n="147"/> Un povre cueur pris es amoureux las ; 
+<lb n="148"/> Depuis l'ay sceu : bien sçay a quoy m'en tiengne. 
+<lb n="149"/> J'ay grant cause que tousjours m'en souviengne. 
+<lb n="150"/> Or en suis hors, mon cueur en est tout las. 
+<lb n="151"/> Il ne veult plus d'Amours passer le pas, 
+<lb n="152"/> Pour bien ou mal que jamais lui adviengne. 
+<lb n="153"/> Pour ce tantost, sans plus prandre respit, 
+<lb n="154"/> Escrire vueil, en forme de requeste, 
+<lb n="155"/> Tout mon estat, comme devant est dit ; 
+<lb n="156"/> Et quant j'auray fait ma cedule preste, 
+<lb n="157"/> Porter la vueil a la premiere feste 
+<lb n="158"/> Qu'Amours tendra, lui moustrant par escript 
+<lb n="159"/> Les maulx qu'ay euz et le peu de prouffit 
+<lb n="160"/> En poursuivant l'amoureuse conqueste. 
+<lb n="161"/> Ainsi d'Amours, devant tous les amans, 
+<lb n="162"/> Prandray congié en honneste maniere, 
+<lb n="163"/> En estouppant la bouche aux mesdisans 
+<lb n="164"/> Qui ont langue pour mesdire legiere, 
+<lb n="165"/> Et requerray, par treshumble priere, 
+<lb n="166"/> Qu'il me quitte de tous les couvenans 
+<lb n="167"/> Que je luy fis, quant l'un de ses servans 
+<lb n="168"/> Devins pieça de voulenté entiere. 
+<pb n="105"/>
+
+<lb n="169"/> Et reprendray hors de ses mains mon cueur, 
+<lb n="170"/> Que j'engagay par obligacion 
+<lb n="171"/> Pour plus seurté d'estre son serviteur, 
+<lb n="172"/> Sans faintise, ou excusacion, 
+<lb n="173"/> Et puis, aprés recommandacion, 
+<lb n="174"/> Je delairay, a mon tresgrant honneur, 
+<lb n="175"/> A jennes gens qui sont en leur verdeur 
+<lb n="176"/> Tous fais d'Amours par resignacion. 
+</ab></div>
+<div type="requête">
+<head>LA REQUESTE.</head>
+<ab type="gv"> 
+<lb n="177"/> Aux excellens et puissans en noblesse, 
+<lb n="178"/> Dieu Cupido et Venus la deesse.
+  </ab>
+  <ab type="gv">
+<lb n="179"/> Supplie presentement, 
+<lb n="180"/> Humblement, 
+<lb n="181"/> Charles, le duc d'Orlians, 
+<lb n="182"/> Qui a esté longuement, 
+<lb n="183"/> Ligement, 
+<lb n="184"/> L'un de voz obeissans, 
+<lb n="185"/> Et entre les vrais amans, 
+<lb n="186"/> Voz servans, 
+<lb n="187"/> A despendu largement 
+<lb n="188"/> Le temps de ses jeunes ans 
+<lb n="189"/> Tresplaisans 
+<lb n="190"/> A vous servir loyaument, 
+<lb n="191"/> Qu'il vous plaise regarder 
+<lb n="192"/> Et passer 
+<lb n="193"/> Ceste requeste presente, 
+<pb n="106"/>
+
+<lb n="194"/> Sans la vouloir refuser ; 
+<lb n="195"/> Mais penser 
+<lb n="196"/> Que d'umble vueil la presente 
+<lb n="197"/> A vous, par loyalle entente, 
+<lb n="198"/> En attente 
+<lb n="199"/> De vostre grace trouver, 
+<lb n="200"/> Car sa fortune dolente 
+<lb n="201"/> Le tourmente 
+<lb n="202"/> Et le contraint de parler. 
+<lb n="203"/> Comme ainsi soit que la Mort, 
+<lb n="204"/> A grant tort, 
+<lb n="205"/> En droicte fleur de jeunesse 
+<lb n="206"/> Lui ait osté son deport, 
+<lb n="207"/> Son ressort, 
+<lb n="208"/> Sa seule Dame et liesse, 
+<lb n="209"/> Dont a fait veu et promesse, 
+<lb n="210"/> Par destresse, 
+<lb n="211"/> Desespoir et desconfort, 
+<lb n="212"/> Que jamais n'aura Princesse 
+<lb n="213"/> Ne maistresse, 
+<lb n="214"/> Car son cueur en est d'accort ; 
+<lb n="215"/> Et pour ce que ja pieça 
+<lb n="216"/> Vous jura 
+<lb n="217"/> De vous loyaument servir, 
+<lb n="218"/> Et en gage vous laissa 
+<lb n="219"/> Et donna 
+<lb n="220"/> Son cueur par leal desir, 
+<lb n="221"/> Il vient pour vous requerir 
+<lb n="222"/> Que tenir 
+<lb n="223"/> Le vueilliez, tant qu'il vivra, 
+<pb n="107"/>
+
+<lb n="224"/> Escusé ; car sans faillir, 
+<lb n="225"/> Pour mourir, 
+<lb n="226"/> Plus amoureux ne sera. 
+<lb n="227"/> Et lui vueilliez doulcement, 
+<lb n="228"/> Franchement, 
+<lb n="229"/> Rebaillier son povre cueur, 
+<lb n="230"/> En lui quittant son serment, 
+<lb n="231"/> Tellement 
+<lb n="232"/> Qu'il se parte, a son honneur, 
+<lb n="233"/> De vous, car bon serviteur, 
+<lb n="234"/> Sans couleur, 
+<lb n="235"/> Vous a esté vrayement ; 
+<lb n="236"/> Moustrez lui quelque faveur, 
+<lb n="237"/> En doulceur, 
+<lb n="238"/> Au meins a son partement. 
+<lb n="239"/> A Bonne Foy que tenez 
+<lb n="240"/> Et nommez 
+<lb n="241"/> Vostre principal notaire, 
+<lb n="242"/> Estroictement ordonnez 
+<lb n="243"/> Et mandez, 
+<lb n="244"/> Sur peine de vous desplaire, 
+<lb n="245"/> Qu'il vueille, sans delay traire, 
+<lb n="246"/> Lettre faire, 
+<lb n="247"/> En laquelle affermerez 
+<lb n="248"/> Que congié de soy retraire, 
+<lb n="249"/> Sans forfaire, 
+<lb n="250"/> Audit cueur donné avez ; 
+<lb n="251"/> Afin que le suppliant, 
+<lb n="252"/> Cy devant 
+<pb n="108"/>
+
+<lb n="253"/> Nommé, la puisse garder 
+<lb n="254"/> Pour sa descharge et garant, 
+<lb n="255"/> En moustrant 
+<lb n="256"/> Que nul ne le doit blasmer, 
+<lb n="257"/> S'amours a voulu laissier ; 
+<lb n="258"/> Car d'amer 
+<lb n="259"/> N'eut oncque puis son talant, 
+<lb n="260"/> Que Mort lui voulu oster 
+<lb n="261"/> La nomper 
+<lb n="262"/> Qui fust ou monde vivant. 
+<lb n="263"/> Et s'il vous plaist faire ainsi 
+<lb n="264"/> Que je dy, 
+<lb n="265"/> Ledit suppliant sera 
+<lb n="266"/> Allegié de son soussy, 
+<lb n="267"/> Et ennuy 
+<lb n="268"/> D'avec son cueur bannira ; 
+<lb n="269"/> Et aprés, tant que vivra, 
+<lb n="270"/> Priera 
+<lb n="271"/> Pour vous, sans mettre en oubly 
+<lb n="272"/> La grace qu'il recevra 
+<lb n="273"/> Et aura, 
+<lb n="274"/> Par vostre bonne mercy. 
+</ab>
+</div>
+<div type="ballade" n="I">
+<head>LA DEPARTIE D'AMOURS EN BALLADES</head>
+<ab type="gv"> 
+<lb n="275"/> Quant vint a la prochaine feste 
+<lb n="276"/> Qu'Amours tenoit son Parlement, 
+<lb n="277"/> Je lui presentay ma requeste 
+<pb n="109"/>
+
+<lb n="278"/> Laquelle leut tresdoulcement, 
+<lb n="279"/> Et puis me dist : <q> « Je suy dolent 
+<lb n="280"/> Du mal qui vous est avenu, 
+<lb n="281"/> Mais il n'a nul recouvrement, 
+<lb n="282"/> Quant la Mort a son cop feru. 
+<lb n="283"/> Eslongnez hors de vostre teste 
+<lb n="284"/> Vostre douloreux pensement, 
+<lb n="285"/> Moustrez vous homme, non pas beste, 
+<lb n="286"/> Faictes que, sans empeschement, 
+<lb n="287"/> Ait en vous le gouvernement 
+<lb n="288"/> Raison, qui souvent a pourveu 
+<lb n="289"/> En maint meschief tressagement, 
+<lb n="290"/> Quant la Mort a son cop feru. 
+<lb n="291"/> Reprenez nouvelle conqueste, 
+<lb n="292"/> Je vous aideray tellement 
+<lb n="293"/> Que vous trouverés dame preste 
+<lb n="294"/> De vous amer tresloyaument, 
+<lb n="295"/> Qui de biens aura largement ; 
+<lb n="296"/> D'elle serez amy tenu : 
+<lb n="297"/> Je n'y voy autre amendement, 
+<lb n="298"/> Quant la Mort a son cop feru.» </q> 
+</ab>
+</div>
+  <div type="ballade" n="II">
+<ab type="gv"> 
+<lb n="299"/> <q> « Helas ! sire, pardonnez moy, 
+<lb n="300"/> Se dis je, car toute ma vie, 
+<lb n="301"/> Je vous asseure par ma foy, 
+<lb n="302"/> Jamais n'auray dame n'amie. 
+<lb n="303"/> Plaisance s'est de moy partie 
+<lb n="304"/> Qui m'a de Liesse forclos. 
+<pb n="110"/>
+
+<lb n="305"/> N'en parlez plus, je vous supplie, 
+<lb n="306"/> Je suis bien loings de ce pourpos. 
+<lb n="307"/> Quant ces parolles de vous oy, 
+<lb n="308"/> Vous m'essaiés, (ne faittes mye), 
+<lb n="309"/> A vous dire vray, je le croy ; 
+<lb n="310"/> Ou ce n'est dit qu'en moquerie. 
+<lb n="311"/> Ce me seroit trop grant folie, 
+<lb n="312"/> Quant demourer puis en repos, 
+<lb n="313"/> De reprandre merencolie : 
+<lb n="314"/> Je suis bien loings de ce pourpos. 
+<lb n="315"/> Acquittié me sui, comme doy, 
+<lb n="316"/> Vers vous et vostre seigneurie, 
+<lb n="317"/> Desormais me vueil tenir coy. 
+<lb n="318"/> Pour ce, de vostre courtoisie, 
+<lb n="319"/> Accordez moy, je vous en prie, 
+<lb n="320"/> Ma requeste ; car a briefs mos, 
+<lb n="321"/> De plus amer, quoy que nul dye, 
+<lb n="322"/> Je suis bien loings de ce pourpos.» </q> 
+</ab>
+</div>
+  <div type="ballade" n="III">
+<ab type="gv"> 
+<lb n="323"/> Amour congnu bien que j'estoye 
+<lb n="324"/> En ce pourpos, sans changement. 
+<lb n="325"/> Pour ce respondy : <q> « Je vouldroye, 
+<lb n="326"/> Que voulsissiez faire autrement, 
+<lb n="327"/> Et me servir plus longuement, 
+<lb n="328"/> Mais je voy bien que ne voulés, 
+<lb n="329"/> Si vous accorde franchement 
+<lb n="330"/> La requeste que faicte avés. 
+<pb n="111"/>
+
+<lb n="331"/> Escondire ne vous pourroye, 
+<lb n="332"/> Car servy m'avez loyaument, 
+<lb n="333"/> N'onques ne vous trouvay en voye, 
+<lb n="334"/> N'en voulenté aucunement 
+<lb n="335"/> De rompre le loyal serement 
+<lb n="336"/> Que me feistes, comme savés ; 
+<lb n="337"/> Ainsi le compte largement 
+<lb n="338"/> La requeste que faicte avés. 
+<lb n="339"/> Et afin que tout chascun voye 
+<lb n="340"/> Que de vous je suis trescontent, 
+<lb n="341"/> Une quittance vous octroye, 
+<lb n="342"/> Passee par mon Parlement, 
+<lb n="343"/> Qui relaissera plainement 
+<lb n="344"/> L'ommage que vous me devés, 
+<lb n="345"/> Comme contient ouvertement 
+<lb n="346"/> La requeste que faicte avés.» </q> 
+</ab>
+</div>
+  <div type="ballade" n="IV">
+<ab type="gv"> 
+<lb n="347"/> Tantost Amour, en grant arroy, 
+<lb n="348"/> Fist assembler son Parlement. 
+<lb n="349"/> En plain conseil mon fait contay, 
+<lb n="350"/> Par congié et commandement ; 
+<lb n="351"/> La fut passee plainement 
+<lb n="352"/> La quitance que demandoye, 
+<lb n="353"/> Baillee me fut franchement, 
+<lb n="354"/> Pour en faire ce que vouldroye. 
+<lb n="355"/> Oultre plus, mon cueur demanday 
+<lb n="356"/> Qu'Amour avoit eu longuement, 
+<pb n="112"/>
+
+<lb n="357"/> Car en gage le lui baillay, 
+<lb n="358"/> Quant je me mis premierement 
+<lb n="359"/> En son service ligement ; 
+<lb n="360"/> Il me dist que je le r'auroye, 
+<lb n="361"/> Sans refuser aucunement, 
+<lb n="362"/> Pour en faire ce que vouldroye, 
+<lb n="363"/> A deux genoulz m'agenoillay, 
+<lb n="364"/> Merciant Amour humblement 
+<lb n="365"/> Qui tira mon cueur, sans delay, 
+<lb n="366"/> Hors d'un escrin priveement, 
+<lb n="367"/> Le me baillant courtoisement, 
+<lb n="368"/> Lyé en un noir drap de soye ; 
+<lb n="369"/> En mon sain le mist doulcement, 
+<lb n="370"/> Pour en faire ce que vouldroye. 
+</ab>
+</div>
+  <div type="quittance">
+<ab type="gv"> 
+<lb n="371"/> Sachent presens et avenir, 
+<lb n="372"/> Que nous, Amours, par Franc Desir 
+<lb n="373"/> Conseilliez, sans nulle contrainte, 
+<lb n="374"/> Aprés qu'avons oy la plainte 
+<lb n="375"/> De Charles, le duc d'Orlians, 
+<lb n="376"/> Qui a esté par plusieurs ans 
+<lb n="377"/> Nostre vray loyal serviteur, 
+<lb n="378"/> Rebaillié lui avons son cueur 
+<lb n="379"/> Qu'il nous bailla pieça en gage, 
+<lb n="380"/> Et le serement, foy et hommage 
+<lb n="381"/> Qu'il nous devoit, quittié avons 
+<lb n="382"/> Et par ces presentes quittons. 
+<pb n="113"/>
+
+<lb n="383"/> Oultre plus, faisons assavoir, 
+<lb n="384"/> Et certiffions, pour tout voir, 
+<lb n="385"/> Pour estoupper aux mesdisans 
+<lb n="386"/> La bouche, qui trop sont nuisans, 
+<lb n="387"/> Qu'il ne part de nostre service 
+<lb n="388"/> Par deffaulte, forfait ou vice, 
+<lb n="389"/> Mais seulement la cause est telle : 
+<lb n="390"/> Vray est que la Mort trop cruelle 
+<lb n="391"/> A tort lui est venu oster 
+<lb n="392"/> Celle que tant souloit amer, 
+<lb n="393"/> Qui estoit sa Dame et maistresse, 
+<lb n="394"/> S'amie, son bien, sa leesse. 
+<lb n="395"/> Et pour sa loyauté garder, 
+<lb n="396"/> Il veult desormais ressembler 
+<lb n="397"/> A la loyalle turturelle 
+<lb n="398"/> Qui seule se tient a par elle, 
+<lb n="399"/> Aprés qu'elle a perdu son per. 
+<lb n="400"/> Si lui avons voulu donner 
+<lb n="401"/> Congié du tout de soy retraire 
+<lb n="402"/> Hors de nostre court, sans forfaire. 
+<lb n="403"/> Fait par bon conseil et advis 
+<lb n="404"/> De noz subgiez et vrais amis, 
+<lb n="405"/> En nostre present Parlement 
+<lb n="406"/> Que nous tenons nouvellement. 
+<lb n="407"/> En tesmoing de ce avons mis 
+<lb n="408"/> Nostre seel, plaqué et assis 
+<lb n="409"/> En ceste presente quittance, 
+<lb n="410"/> Escripte par nostre ordonnance. 
+<lb n="411"/> Presens mains notables recors, 
+<lb n="412"/> Le jour de la Feste des Mors, 
+<lb n="413"/> L'an mil quatre cent trente et sept, 
+<lb n="414"/> Ou chastel de Plaisant Recept. 
+</ab>
+<pb n="114"/>
+</div>
+  <div type="ballade" n="V">
+<ab type="gv"> 
+<lb n="415"/> Quant j'euz mon cueur et ma quittance, 
+<lb n="416"/> Ma voulenté fu assouvie, 
+<lb n="417"/> Et non pour tant, pour l'acointance 
+<lb n="418"/> Qu'avoye de la seigneurie 
+<lb n="419"/> D'Amour et de sa compaignie, 
+<lb n="420"/> Quant vins a congié demander, 
+<lb n="421"/> Trop mal me fist la departie 
+<lb n="422"/> Et ne cessoye de pleurer. 
+<lb n="423"/> Amour vit bien ma contenance, 
+<lb n="424"/> Si me dist : <q> « Amy, je vous prie, 
+<lb n="425"/> S'il est riens dessoubz ma puissance 
+<lb n="426"/> Que vueilliez, ne l'espargniez mie.» </q> 
+<lb n="427"/> Tant plain fu de merencolie, 
+<lb n="428"/> Que je ne peuz a lui parler 
+<lb n="429"/> Une parolle ne demye 
+<lb n="430"/> Et ne cessoye de pleurer. 
+<lb n="431"/> Ainsi party en desplaisance 
+<lb n="432"/> D'Amour, faisant chiere marrie, 
+<lb n="433"/> Et, comme tout ravy en transse, 
+<lb n="434"/> Prins congié, sans que plus mot dye. 
+<lb n="435"/> A Confort dist qu'il me conduye, 
+<lb n="436"/> Car je ne m'en savoye aler : 
+<lb n="437"/> J'avoye la veue esbluye 
+<lb n="438"/> Et ne cessoye de pleurer. 
+</ab>
+</div>
+  <div type="ballade" n="VI">
+<ab type="gv"> 
+<lb n="439"/> Confort, me prenant par la main, 
+<lb n="440"/> Hors de la porte me convoye ; 
+<pb n="115"/>
+
+<lb n="441"/> Car Amour, le roy souverain, 
+<lb n="442"/> Luy chargea moy moustrer la voye 
+<lb n="443"/> Pour aler ou je desiroye ; 
+<lb n="444"/> C'estoit vers l'ancien manoir 
+<lb n="445"/> Ou en enffance demouroye, 
+<lb n="446"/> Que l'en appelle Nonchaloir. 
+<lb n="447"/> A Confort dis : <q> « Jusqu'a demain 
+<lb n="448"/> Ne me laissiez, car je pourroye 
+<lb n="449"/> Me forvoier, pour tout certain, 
+<lb n="450"/> Par desplaisir, vers la saussoye 
+<lb n="451"/> Ou est Vieillesse rabat joye ; 
+<lb n="452"/> Se nous travaillons fort ce soir, 
+<lb n="453"/> Tost serons au lieu que vouldroye, 
+<lb n="454"/> Que l'en appelle Nonchaloir.» </q> 
+<lb n="455"/> Tant cheminasmes qu'au derrain 
+<lb n="456"/> Veismes la place que queroye ; 
+<lb n="457"/> Quant de la porte fu prouchain, 
+<lb n="458"/> Le portier qu'assez congnoissoye, 
+<lb n="459"/> Si tost comme je l'appelloye 
+<lb n="460"/> Nous receu, disant que pour voir 
+<lb n="461"/> Ou dit lieu bien venu estoye, 
+<lb n="462"/> Que l'en appelle Nonchaloir. 
+</ab>
+</div>
+  <div type="ballade" n="VII">
+<ab type="gv"> 
+<lb n="463"/> Le gouverneur de la maison, 
+<lb n="464"/> Qui Passe Temps se fait nommer, 
+<lb n="465"/> Me dist : <q> « Amy, ceste saison 
+<lb n="466"/> Vous plaist il ceans sejourner ?» </q> 
+<lb n="467"/> Je respondy qu'a brief parler, 
+<pb n="116"/>
+
+<lb n="468"/> Se lui plaisoit ma compaignie, 
+<lb n="469"/> Content estoie de passer 
+<lb n="470"/> Avecques lui toute ma vie. 
+<lb n="471"/> Et lui racontay l'achoison 
+<lb n="472"/> Qui me fist Amour delaissier ; 
+<lb n="473"/> Il me dist qu'avoye raison, 
+<lb n="474"/> Quant eut veu ma quittance au cler 
+<lb n="475"/> Que je lui baillay a garder ; 
+<lb n="476"/> Aussi de ce me remercie 
+<lb n="477"/> Que je vouloie demourer 
+<lb n="478"/> Avecques lui toute ma vie. 
+<lb n="479"/> Le lendemain, lettres foison 
+<lb n="480"/> A Confort baillay a porter 
+<lb n="481"/> D'umble recommandacion, 
+<lb n="482"/> Et le renvoiay sans tarder 
+<lb n="483"/> Vers Amour, pour lui raconter 
+<lb n="484"/> Que Passe Temps, a chiere lye, 
+<lb n="485"/> M'avoit receu pour reposer 
+<lb n="486"/> Avecques luy toute ma vie. 
+<lb n="487"/> A tresnoble, hault et puissant seigneur 
+<lb n="488"/> Amour, Prince de mondaine doulceur. 
+<lb n="489"/> Tresexcellent, treshault et noble prince, 
+<lb n="490"/> Trespuissant roy en chascune province, 
+<lb n="491"/> Si humblement que se peut serviteur 
+<lb n="492"/> Recommander a son maistre et seigneur, 
+<lb n="493"/> Me recommande a vous, tant que je puis, 
+<lb n="494"/> Et vous plaise savoir que tousjours suis 
+<lb n="495"/> Tresdesirant oïr souvent nouvelles 
+<pb n="117"/>
+
+<lb n="496"/> De vostre estat, que Dieu doint estre telles 
+<lb n="497"/> Et si bonnes comme je le desire, 
+<lb n="498"/> Plus que ne sçay raconter ou escrire ; 
+<lb n="499"/> Dont vous supli que me faictes sentir 
+<lb n="500"/> Par tous venans, s'il vous vient a plaisir ; 
+<lb n="501"/> Car d'en oïr en bien et en honneur, 
+<lb n="502"/> Ce me sera parfaitte joye au cueur. 
+<lb n="503"/> Et s'il plaisoit a votre seigneurie 
+<lb n="504"/> Vouloir oïr, par sa grant courtoisie, 
+<lb n="505"/> De mon estat, je suis en tresbon point, 
+<lb n="506"/> Joyeux de cueur, car soussy n'ay je point ; 
+<lb n="507"/> Et Passe Temps, ou lieu de Nonchaloir, 
+<lb n="508"/> M'a retenu pour avec lui manoir 
+<lb n="509"/> Et sejourner, tant comme me plaira, 
+<lb n="510"/> Jusques a tant que Vieillesse vendra ; 
+<lb n="511"/> Car lors fauldra qu'avec elle m'en voise 
+<lb n="512"/> Finer mes jours. Ce penser fort me poise 
+<lb n="513"/> Dessus le cueur, quant j'en ay souvenance ; 
+<lb n="514"/> Mais, Dieu mercy, loing suis de sa puissance, 
+<lb n="515"/> Presentement je ne la crains en riens, 
+<lb n="516"/> N'en son dangier aucunement me tiens ! 
+<lb n="517"/> En oultre plus, sachiés que vous renvoye 
+<lb n="518"/> Confort, qui m'a conduit la droite voye 
+<lb n="519"/> Vers Nonchaloir, dont je vous remercie 
+<lb n="520"/> De sa bonne joyeuse compaignie ; 
+<lb n="521"/> En ce fait a vostre commandement, 
+<lb n="522"/> De bon vouloir et tressoingneusement ; 
+<lb n="523"/> Auquel vueilliez donner foy et fiance 
+<lb n="524"/> En ce que lui ay chargié en creance 
+<lb n="525"/> De vous dire plus plainnement de bouche, 
+<lb n="526"/> Vous suppliant qu'en tout ce qui me touche, 
+<lb n="527"/> Bien a loisir, le vueilliez escouter, 
+<lb n="528"/> Et vous plaise me vouloir pardonner 
+<pb n="118"/>
+
+<lb n="529"/> Se je n'escris devers Vostre Excellence, 
+<lb n="530"/> Comme je doy, en telle reverence 
+<lb n="531"/> Qu'il appartient, car c'est par Non Savoir 
+<lb n="532"/> Qui destourbe d'acomplir mon vouloir. 
+<lb n="533"/> En oultre plus, vous requerant mercy, 
+<lb n="534"/> Je congnois bien que grandement failly, 
+<lb n="535"/> Quant me parti derrainement de vous, 
+<lb n="536"/> Car j'estoye si raempli de courrous 
+<lb n="537"/> Que je ne peu un mot a vous parler, 
+<lb n="538"/> Ne mon congié, au partir, demander. 
+<lb n="539"/> Avecques ce, humblement vous mercie 
+<lb n="540"/> Des biens qu'ay euz soubz vostre seigneurie. 
+<lb n="541"/> Autre chose n'escris, quant a present, 
+<lb n="542"/> Fors que je pry a Dieu, le Tout Puissant, 
+<lb n="543"/> Qu'il vous ottroit honneur et longue vie, 
+<lb n="544"/> Et que puissiez tousjours la compaignie 
+<lb n="545"/> De faulx Dangier surmonter et deffaire, 
+<lb n="546"/> Qui en tous temps vous a esté contraire. 
+<lb n="547"/> Escript ce jour troisiesme, vers le soir, 
+<lb n="548"/> En novembre, ou lieu de Nonchaloir. 
+<lb n="549"/> Le bien vostre, Charles, duc d'Orlians, 
+<lb n="550"/> Qui jadis fut l'un de voz vrais servans. 
+</ab>
+</div>
+</body>
+</text>
+</TEI>

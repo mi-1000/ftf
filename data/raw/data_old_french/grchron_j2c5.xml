@@ -1,0 +1,1243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="fr">
+  <fileDesc>
+    <titleStmt>
+      <title type="main">Chroniques des règnes de Jean II et de Charles V (1364-1380)</title>
+      <title type="formal">grchron_j2c5</title>
+      <title type="reference">grchron_j2c5</title>
+      <title type="DEAF">GrChronD</title>
+      <title type="gmd">transcription électronique</title>
+      <author xml:id="anonyme">anonyme</author>
+      <editor>Équipe de la Base de français médiéval - ENS de Lyon / UMR 5317 IHRIM</editor>
+      <funder>Laboratoire IHRIM</funder>
+      <funder>ANR (projet ELICO)</funder>
+    </titleStmt>
+    <editionStmt>
+      <edition>transcripion électronique</edition>
+      <respStmt xml:id="encoderDD">
+        <resp>balisage des citations "quote"</resp>
+        <name xml:id="AL">Alexei Lavrentiev</name>
+      </respStmt>
+      <respStmt xml:id="proofreader2">
+        <resp>révision de tout le texte</resp>
+        <name xml:id="BF">Benjamin Fagard</name>
+      </respStmt>
+      <respStmt xml:id="proofreader1">
+        <resp>révision de tout le texte</resp>
+        <name xml:id="BS">Bérénice Stoll</name>
+      </respStmt>
+      <respStmt xml:id="digitizer">
+        <resp>scannage et océrisation</resp>
+        <name xml:id="KM">Khadija Mahfoud</name>
+      </respStmt>
+      <respStmt xml:id="annotator1">
+        <resp>vérification de l'étiquetage morpho-syntaxique et de la lemmatisation (partielle)</resp>
+        <name xml:id="NKanaoka">Naomi Kanaoka</name>
+      </respStmt>
+      <respStmt xml:id="encoder2">
+        <resp>validation finale et vérifications</resp>
+        <name xml:id="VO">Vanessa Obry</name>
+      </respStmt>
+    </editionStmt>
+    <extent>- Numéros de pages saisies : de 1 à 76 ;
+            - Nombre de mots d'après la base des descripteurs : <num xml:id="nb_mots_given">12653</num> ;
+            - Nombre de tokens (mots et ponctuations) d'après la base des descripteurs : <num xml:id="nb_tokens_given">14415</num>.
+    </extent>
+    <publicationStmt>
+      <publisher><name>Projet BFM, ENS de Lyon / UMR 5317 IHRIM</name></publisher>
+      <address>
+        <addrLine>15, parvis René Descartes</addrLine>
+        <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+        <addrLine>Tél : 04 37 37 63 10</addrLine>
+        <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+        <addrLine>http://bfm.ens-lyon.fr</addrLine>
+      </address>
+      <idno type="bfm">http://catalog.bfm-corpus.org/grchron_j2c5</idno>
+      <idno type="doi">10.34847/nkl.3cc47izc</idno>
+      <availability status="free">
+        <licence target="https://www.etalab.gouv.fr/licence-ouverte-open-licence">
+          <ab type="availability_bfm" subtype="libre_1a">Les Conditions générales d'utilisation de la Base de Français Médiéval (http://txm.bfm-corpus.org/bfm/files/CGU.pdf), 
+            et notamment son Article 5 « PROPRIETE INTELLECTUELLE », s'appliquent à tous les textes de la BFM.</ab>
+          <ab type="how_to_cite">
+            <label>Comment citer ce texte :</label>
+            <bibl>Chroniques des règnes de Jean II et de Charles V (1364-1380), édité par Roland Delachenal, Paris, 1916. 
+              Publié en ligne par la Base de français médiéval, http://catalog.bfm-corpus.org/grchron_j2c5.
+              Dernière révision le 2021-11-08.</bibl>
+            D'autres formules de citation de la BFM sont proposées sur la page web suivante :
+            http://bfm.ens-lyon.fr/article.php3?id_article=281.</ab>
+          <ab type="availability_file">
+            <label>Conditions d'utilisation de ce fichier :</label>
+              Ce fichier numérique est composé du corps de texte médiéval et des suppléments numériques : balisage XML-TEI, métadonnées (teiHeader), étiquetage morpho-syntaxique, lemmatisation. Le texte et les suppléments numériques sont libres de droit et peuvent à ce titre être téléchargés et réutilisés librement.
+            </ab>
+            <ab type="availability_txmweb" subtype="illimité">
+              <label>Conditions d'utilisation par le portail BFM :</label>
+              Pas de limitation dans l'usage des fonctionnalités. Téléchargement autorisé.</ab>
+        </licence>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>Chroniques des règnes de Jean II et Charles V. Tome deuxième. 1364-1380</title>
+          <respStmt>
+            <resp xml:id="editor">Éditeur scientifique</resp>
+            <name type="person">Roland Delachenal</name>
+          </respStmt>
+        </titleStmt>
+          <extent>76 page(s), soit 1-76
+        </extent>
+        <publicationStmt>
+          <publisher>H. Laurens</publisher>
+          <pubPlace>Paris</pubPlace>
+          <date>1916</date>
+          <idno type="sigle_DEAF">GrChronD</idno>
+          <idno type="cote_biblio">ENS-LSH : Mag 4. GII 895 2</idno>
+          <availability>
+            <p>Lien éditeur : <ref target="http://gallica.bnf.fr/ark:/12148/bpt6k57221199">Copie Gallica</ref></p></availability>
+        </publicationStmt>
+      </biblFull>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p>Projet :<name type="project">BFM - Base de français médiéval</name>
+        Resp. : <name type="person">Céline Guillot-Barbance</name>
+        Équipe : Base de français médiéval
+        Laboratoire : UMR 5317 IHRIM
+        Institution : ENS de Lyon
+        <address>
+          <addrLine>15, parvis René Descartes</addrLine>
+          <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+          <addrLine>Tél : 04 37 37 63 10</addrLine>
+          <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+          <addrLine>http://bfm.ens-lyon.fr</addrLine>
+        </address>
+      </p>
+    </projectDesc>
+    <editorialDecl>
+      <p>Voir le <ref target="http://bfm.ens-lyon.fr/IMG/pdf/Manuel_Encodage_TEI.pdf">Manuel d'encodage XML-TEI de la BFM</ref>
+        et les <ref target="http://bfm.ens-lyon.fr/IMG/pdf/Consignes_BFM.pdf">Consignes aux relecteurs de la BFM</ref>.</p>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="body" occurs="1"/>
+        <tagUsage gi="div" occurs="20"/>
+        <tagUsage gi="foreign" occurs="1"/>
+        <tagUsage gi="front" occurs="1"/>
+        <tagUsage gi="head" occurs="19"/>
+        <tagUsage gi="hi" occurs="69"/>
+        <tagUsage gi="note" occurs="5"/>
+        <tagUsage gi="p" occurs="57"/>
+        <tagUsage gi="pb" occurs="76"/>
+        <tagUsage gi="quote" occurs="4"/>
+        <tagUsage gi="supplied" occurs="27"/>
+        <tagUsage gi="text" occurs="1"/>
+        <tagUsage gi="w" occurs="43"/>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <creation>
+      <name type="author">anonyme</name>
+      <title>Chroniques des règnes de Jean II et de Charles V (1364-1380)</title>
+      <date type="compo" when="1381-01-01" notBefore="1380-01-01" notAfter="1382-12-31" n="14">ca. 1381</date>
+      <date type="compo_periode">moyen</date>
+      <date type="compo_sous_siecle" n="14_3">fin</date>
+      <date type="ms" when="1381-01-01" notBefore="1376-01-01" notAfter="1385-12-31">ca. 1381</date>
+      <idno type="msIdentifier">Paris, BnF, fr. 2813 (anc. 8395)</idno>
+      <region type="dialecte_auteur">non défini</region>
+    </creation>
+    <langUsage>
+      <language ident="fro" usage="100">Le texte est entièrement écrit en prose en moyen français.</language>
+    </langUsage>
+    <textDesc>
+      <channel mode="w">print</channel>
+      <constitution type="single"/>
+      <derivation type="original"/>
+      <domain type="historique"/>
+    <factuality type="inapplicable"/>
+      <interaction type="none"/>
+      <preparedness type="prepared"/>
+      <purpose type="narrative"/></textDesc>
+    <textClass>
+      <keywords scheme="http://authorities.bfm-corpus.org">
+        <term type="domaine">historique</term>
+        <term type="genre">chronique</term>
+        <term type="forme">prose</term>
+        <term type="relation">original</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change who="#KM" when="2007-09-01">scannage et océrisation</change>
+    <change who="#BS" when="2007-10-01">révision de tout le texte</change>
+    <change who="#VO" when="2007-11-22">balisage automatique et vérification</change>
+    <change who="#BF" when="2008-02-01">révision de tout le texte</change>
+    <change who="#VO" when="2008-05-07">validation finale et vérifications</change>
+    <change who="#AL" when="2008-10-21">création du descripteur</change>
+    <change who="#AL" when="2012-05-02">adaptation du balisage aux normes BFM TEI P5</change>
+    <change who="#AL" when="2013-05-23">balisage des citations "quote"</change>
+    <change who="#NKanaoka" when="2021-11-08">vérification de l'étiquetage morpho-syntaxique et de la lemmatisation (partielle)</change>
+    <change when="2021-11-08">Dernière modification du texte</change>
+    <change when="2022-11-04">Création de cet entête</change>
+  </revisionDesc>
+</teiHeader>
+<text>
+<pb n="1"/>
+<front>
+<div type="titre">
+<p>LES GRANDES CHRONIQUES DE FRANCE </p>
+<p>CHRONIQUE 
+DES RÈGNES 
+DE JEAN II ET DE CHARLES V</p>
+</div>
+</front>
+<body>
+<div type="chapitre">
+<head rend="ital">
+Comment Charles, ainsné filz du roy Jehan, qui trespassa en
+Angleterre, fu sacré et enoint à roy de France, en l'eglise de Reims, et
+aussi fu la Royne sa femme.
+</head>
+<p>L'an de grace mil CCC LX et quatre, le dymenche jour de la Trinité, qui fu le
+<w type="num">XIX<hi rend="sup">e</hi></w>  jour du mois de may, furent le dit roy Charles et
+madame Jehanne de Bourbon, <pb n="2"/> sa femme, sacrez à Reims par monseigneur
+Jehan de Craon, lors arcevesque du dit lieu. Et furent au dit sacre les evesques
+de Laon, de Beauvais, lors chancelier de France, de Langres et de Noyon, pers de
+France, et pluseurs autres prelas, qui n'estoient pas pers, et barons : Loys,
+duc d'Anjou, et Phelippe, duc de Touraine, et la contesse de Flandres, contesse
+d'Artois, pers de France, le roy de Chipre, <pb n="3"/> le duc de Breban, frere
+de l'Empereur et oncle du dit roy de France ; le duc de Lorraine, le duc de Bar,
+et pluseurs autres barons qui n'estoient pas pers. <hi rend="ital">Item,</hi> le
+mardi XX et <w type="num">VIII<hi rend="sup">e</hi></w>  jour du dit mois de may, les diz roy et
+royne de France, qui retournoient de leur sacre, entrerent à Paris, c'est
+assavoir le dit Roy environ heure de midy, et ala droit à Nostre-Dame et de là
+retourna au Palais ; et environ nonne, la Royne entra à Paris et ala droit au
+Palais. Et avecques la Royne estoient à cheval la duchesse d'Orliens, femme de
+Phelippe, duc d'Orliens, oncle du dit Roy, la duchesse d'Anjou, femme du dit
+Loys, duc d'Anjou, et madame Marie, suer d'icelui Roy, la quelle n'avoit onques
+esté mariée, et de puis fu femme du duc de Bar. Et menoit la dite Royne, par le
+frain du cheval, <pb n="4"/> monseigneur de Touraine, qui aloit de pié, le quel
+monseigneur de Touraine estoit frere du dit Roy. Et monseigneur le conte de
+Eu semblablement menoit madame d'Orliens ; monseigneur d'Estampes menoit madame
+d'Anjou, et monseigneur Loys de Chalon et le seigneur de Beaugieu menerent la
+dite madame Marie. Et fist l'en celui jour grant disner au Palais, là où furent
+tous les prelas qui estoient à Paris. Et après disner, qui fu environ nonne, ot
+grans joustes en la court du Palais, et l'endemain aussi, et à tous les deux
+jours jousta le roy de Chipre, et pluseurs autres dux, contes et barons. 
+<hi rend="ital">Item,</hi> le vendredy, derrenier jour du
+dit mois de may l'an mil CCC LXIIII dessus dit, le dit roy Charles octroia à
+Monseigneur Phelippe, son plus jeune frere, la duchié de Bourgoigne, la quelle
+avoit esté requise par avant au roy Jehan, et l'en reçupt celi jour en sa foy et
+en son homaige. Et ycelui monseigneur Phelippe laissa au Roy, <pb n="5"/> son
+frere, la duchié de Touraine, que le roy Jehan, son pere, li avoit donnée l'an
+mil CCC LX.</p>
+</div>
+<div type="chapitre">
+<head rend="ital">De la mort de Charles de Blois et desconfiture de ses genz par
+monseigneur Jehan de Montfort.
+</head>
+<p>Le dymenche jour de la Saint-Michiel mil CCC LXIIII dessus dit, se combatirent
+devant le chastel d'Aurroy, près de la cité de Nantes, monseigneur Charles de
+Blois, lors duc de Bretaigne de l'eritage de sa femme, <pb n="6"/> d'une part,
+et monseigneur Jehan de Montfort, d'autre part. Et avoit le dit monseigneur
+Charles, en sa compaignie, grant foison de François et de Bretons, qui avoient
+tenu et tenoient la partie du roy de France. Et le dit monseigneur Jehan de
+Montfort avoit Anglois et autres Bretons, qui avoient tenu la partie du roy
+d'Angleterre. Et fu le dit monseigneur Charles mort en la dicte bataille, et
+ceuls, qui en sa compaignie estoient, furent desconfis, et la plus grant partie
+mors ou pris. Et de puis la dicte bataille, le dit monseigneur Jehan de Montfort
+ne trouva, ou dit pays de Bretaigne, qui luy resistast ou feist aucune guerre,
+jasoit ce que la duchesce, femme du dit monseigneur Charles, et du quel costé la
+dicte duchié li estoit escheue par la mort du duc Jehan, feust demourée en vie
+et estoit ou pays.</p>
+</div>
+<pb n="7"/>
+<div type="chapitre">
+<head rend="ital">Du traictié qui fu entre monseigneur Jehan de Montfort et la
+duchesse, pour la duchié de Bretaigne.
+</head>
+<p>L'an mil CCC <w>LX<supplied resp="#editor">I</supplied>V</w>, 
+le <w type="num">XII<hi rend="sup">e</hi></w>  jour du mois d'avril, monseigneur Jehan
+de Craon, lors arcevesque de Reims, et monseigneur Jehan le Maingre, dit
+Bouciquaut, lors mareschal de France, les quels le roy de France, Charles, avoit
+envoiez ou dit païs de Bretaingne, pour traictier entre la dicte duchesce et le
+dit monseigneur Jehan de Montfort, furent et traictierent accort entre les dites
+parties par la maniere qui s'ensuyt, c'est assavoir que la dite duchié de
+Bretaingne, du quel <note resp="#editor" rend="parenthèses-ital">sic</note>,
+XX ans par avant ou environ, la
+possession et l'estat avoit esté adjugié par le roy Phelippe et par arrest au
+dit monseigneur Charles de Blois, à cause de sa dite femme, demourroit en
+heritage perpetuel <pb n="8"/> au dit monseigneur Jehan de Montfort, et la dicte
+duchesce auroit pour li et pour ses hoirs la contée de Pantevre, qui avoit esté
+propre heritage de monseigneur Guy de Bretaigne, son pere. Et si devoit avoir
+par le dit traictié la vicontée de Lymoges. Et jasoit ce que la dite duchesse ne
+se consentist point en sa personne, mais seulement le sire de Beaumanoir et
+aucuns autres qu'elle avoit instituez procureurs pour traictier, neent moins fu
+tantost et sanz delay la possession du dit duchié, et des villes, chasteaux et
+forteresses d'icelui bailliée et delivrée, realment et de fait, au dit
+monseigneur Jehan de Montfort, dont moult de gens s'esmerveillierent, car le dit
+duchié avoit esté delivré par arrest à la dicte duchesse, comme dessus est dit,
+contre le pere du dit monseigneur Jehan de Montfort.</p>
+<pb n="9"/>
+<p><hi rend="ital">Item</hi>, en celi an, ou mois de juing, fu fait et passé un accort
+du roy de France, d'une part, et du roy de Navarre, d'autre, de la guerre que
+ilz ravoient commenciée, et pour la quelle le dit roy de France avoit fait
+prendre Mante et Meullent et la contée de Longueville. Par 
+<w>leque<supplied resp="#editor">l</supplied></w> 
+accort le captal de Buech, qui de la ditte guerre avoit esté pris,
+comme dessus est dit, fu du tout delivré, et par le dit accort devoient demourer
+perpetuelment au roy de France les dites villes de Mante et de Meullent et la
+dite contée de Longueville, la quelle le dit roy de France avoit jà donnée à
+messire Bertran du Guesclin, pour la raençon du dit captal, le quel avoit esté
+prison du dit messire Bertran, si comme dessus est dit. Et le roy de Navarre dot
+<pb n="10"/> avoir la ville et la baronnie de Montpellier, et par ce fu paix
+criée et publiée entre les diz roys.</p>
+</div>
+<div type="chapitre">
+<head rend="ital">Comment messire Bertran du Guesclin mena hors de France pluseurs
+gens d'armes et pristrent la ville de Burgs en Espaigne.
+</head>
+<p>En celui temps, assez tost après, le dit monseigneur Bertran du Guesclin traicta
+avecques pluseurs gens de compaigne, Anglois, Gascoings, Bretons, Normans et
+d'autres nacions, qui estoient ou royaume de France et <pb n="11"/> y tenoient
+pluseurs forteresses, aucunes dès le temps de la guerre du roy d'Angleterre, et
+les autres qui avoient esté occupées par les dictes compaignes de puis la paix
+faicte entre les roys de France et d'Angleterre ; et moult avoient domaigié et
+domagoient chascun jour le dit royaume de France. Et fist et pourchaça tant le
+dit messire Bertrand que ilz laissierent toutes les forteresses, que ilz
+tenoient, et li accorderent et promistrent que ilz yroient avecques luy contre
+les Sarrazins. Et pour celle cause, le pape Urbain fist grant ayde au dit
+messire Bertran, tant de florins que il li bailla comme de deux X<hi rend="sup">mes</hi> que il li octroia. Et partirent <pb n="12"/> assez tost après le
+dit messire Bertran et pluseurs des dictes compaignes, et alerent ou royaume
+d'Arragon, en l'ayde du dit roy d'Arragon contre le roy de Castelle. Et assez
+tost après entrerent ou dit royaume de Castelle, et sanz aucune resistence
+chevauchierent par le dit royaume, et pristrent villes, citez, chasteaulx et
+forteresses, sanz ce que le roy Pierre de Castelle, qui lors en estoit roy, y
+meist aucune resistance. Et toutes voies estoit le dit roy Pierre tenuz un des
+plus puissans roys des Crestiens, tant de puissance de gens comme de grans
+tresors ; car il avoit esté et estoit moult crueux et moult doubté, tant <pb n="13"/> de ses subgiez comme d'autres, et pour ce avoit assemblez grans
+tresors, tant des aydes qu'il avoit eues de ses subgiez, comme des conquestes et
+finances qu'il avoit eues des roys de Garnade et de Bellemarine, les quelz il
+avoit subjuguez et mis en son obeissance, et par especial avoit tant fait que le
+roy de Garnade, qui estoit Sarrazin, estoit son homme et tenoit son royaume de
+luy ; et neant moins, il ne resistoit point à ceuls qui, ainsy comme dit est,
+conqueroient son pays. Et tant chevauchierent par le dit païz de Castelle que
+ilz furent, la sepmainne peneuse l'an mil CCC LXV dessus dit, devant la cité de
+Burgues, de la quelle se estoit tantost partis le dit roy Pierre que il avoit
+oyes les nouvelles de la venue des dictes gens d'armes et s'en estoit alé vers
+Tolette, si comme l'en disoit. Et tantost se rendirent les habitans de la dicte
+ville de Burgues à ceuls de la dicte compaignie, des quelz les noms s'ensuyvent
+: monseigneur le conte de la Marche, appellé <pb n="14"/> monseigneur Jehan de
+Bourbon, Henry d'Espaigne, conte de Tristemare, lequel estoit frere de pere non
+legitime du dit roy Pierre de Castelle, et avoit yceli Henry esté banniz et
+exilliez du dit royaume de Castelle ; et à son tiltre aloient tous avecques luy
+messire <pb n="15"/> Bertran du Guesclin, dont dessus est faite mencion,
+monseigneur Ernoul, seigneur d'Odenehan, mareschal de France, monseigneur Hue de
+Carvele, Anglois, monseigneur Maurice de Tresiguidy, et plusieurs autres
+François, Bretons, Normans, Angloys, Gascoings, Arragonnoys, et autres de
+pluseurs nacions jusques au nombre de X mile hommes d'armes de fait ou de plus,
+si comme l'en disoit ; les quelz entrerent en la dicte ville de Burgues et y
+tuerent aucuns Juyfz et Sarrazins, mais ilz ne meffirent point aus corps des
+Crestiens.</p>
+</div>
+<pb n="16"/>
+<div type="chapitre">
+<head rend="ital">
+Du coronnement de Henry, roy d'Espaigne, et des messages
+que Jehan de Montfort envoia au roy de France, et de la mort de
+messire Arnault de Cervole, dit Arceprestre.
+</head>
+<p>L'an de grace mil CCC LXVI, le jour de Pasques, qui furent le <w type="num">V<hi rend="sup">e</hi></w>  jour d'avril, fu en la dicte ville de Burgues coronné en roy de Castelle
+le dit Henry, frere du dit roy Pierre, de l'accort et consentement des autres
+seigneurs et capitains des dites gens d'armes. Et après son coronnement, il
+donna au dit monseigneur Bertran la contée de Tristemare, que il tenoit avant
+que il feust exilliez du pays, et le fist duc tant de Tristemare comme de la
+terre d'Esture.</p>
+<pb n="17"/>
+<p><hi rend="ital">Item,</hi> environ le dit temps de Pasques, l'an dessus dit,
+monseigneur Jehan de Montfort, lors duc de Bretaigne, par le traictié que avoit
+fait l'arcevesque de Reims, dont dessus est faicte mencion, envoya à Paris,
+devers le roy de France Charles, messaiges, c'est assavoir le seigneur de
+Cliçon, Breton, et monseigneur Guillaume le Latimier, Anglois, afin que le Roy
+vousist confermer le dit traictié, fait par le dit arcevesque, et aussi que le
+Roy li prorogast le temps, que autrefoiz li avoit donné pour venir faire son
+homaige au dit roy de France. Et fu accordé aus diz messages que ilz aroient
+confirmacion du dit traictié, et l'orent en une chartre. Mès elle leur fu
+bailliée close, et promistrent que elle ne seroit ouverte jusques ad ce que le
+dit duc feust venuz devers le Roy faire son hommaige, tant du dit duchié comme
+de la contée de Montfort et des autres terres qu'il devoit tenir du Roy. Et li
+fu donné terme ès personnes des diz de Cliçon et Latimier, ses procureurs,
+jusques à la Saint-Michiel ensuyvant pour venir faire son dit hommaige devers le
+Roy.</p>
+<pb n="18"/>
+<p><hi rend="ital">Item,</hi> en celi an, environ la Trinité, messire Arnault de
+Cervole, dit l'Arceprestre, chevalier, qui tenoit grans compaignes ou royaume de
+France, fu mis à mort par ceulz des dictes compaignes qui estoient avecques li,
+dont moult de genz furent joyeux et liez ; car il avoit esté au Roy, et encor
+estoit son homme, de pluseurs grandes et notables villes, chasteaux, terres et
+forteresses, que il tenoit de l'eritage de la dame de Chasteauvillain, sa femme,
+et de ses enfans, et aussi de l'eritage <pb n="19"/> du seigneur de Levroux,
+après la mort du quel le dit Arceprestre avoit espousée sa femme, et après la
+mort de la dicte femme il n'avoit voulu rendre les dictes terres et forteresses
+aus heritiers, asquelx elles appartenoient, jà soit ce que à aucuns d'iceulx
+partie en eust esté adjugiée par arrest de Parlement. Et encore, avecques tout
+ce, il et ses dites gens gastoyent tout le pays où ilz aloient, roboient,
+tuoient et prenoient à raençon toutes gens, et si li avoit le Roy par pluseurs
+foiz fait baillier pluseurs et grans sommes de florins, et le Pape aussi, pour
+faire wydier les dictes compaignes hors du dit royaume ; et par pluseurs foiz
+l'avoit promis et juré et <pb n="20"/> si n'en avoit riens fait. Si ne fu pas
+merveilles se l'en fu liez de sa mort. Et neantmoins tousjours demouroient les
+dictes compaignes ou royaume, et y faisoient tous les maulx que ennemis pevent
+faire, et y en avoient presque en toutes les parties du royaume, excepté le pays
+de Picardie. Et aucune foiz prenoient des forteresses et puis les rendoient, par
+grans sommes de florins que l'en leur donnoit, et tantost en prenoient des
+autres, et ainsi l'avoient tousjours fait depuis l'an mil CCC LXI, que ilz
+commencierent à damagier ainsi le dit royaume de France par maniere de
+compaignes, et faisoient encor, non obstant que le pape Urbain eust données
+sentences d'escommeniement contre tous ceulz qui faisoient teles compaignies et
+contre leur aidans et confortans.</p>
+</div>
+<div type="chapitre">
+<head rend="ital">De la naissance de madame Jehanne, fille du roy de France, et de
+la victoire du roy Henry, et de la fuite du roy Pierre d'Espaigne.
+</head>
+<p>Le dymenche <w type="num">VII<hi rend="sup">e</hi></w>  jour de juing, entre tierce et midy, l'an
+mil CCC LXVI dessus dit, la royne de France, appellée Jehanne, fille du duc de
+Bourbon qui avoit esté mort en la bataille de Poitiers, et femme du <pb n="21"/>
+roy Charles qui lors estoit, ot une fille au Bois de Vinciennes, la quelle fu
+baptisiée en la chapelle du dit Bois de Vinciennes, le jueudy ensuyvant, <w type="num">XI<hi rend="sup">e</hi></w>  jour du dit mois, et fu appellée Jehanne ; et fu parrein
+monseigneur Jehan, duc de Berry et d'Auvergne, frere du dit Roy, et marraines
+les roynes Jehanne d'Evreux, qui avoit esté femme du roy Charles, qui fu mort
+l'an M CCC XXVII, et Blanche de Navarre, qui avoit esté femme du roy Phelippe,
+qui mourut l'an mil CCC L, en la ville de Nogent-le-Roy, et Marguerite,
+contesse d'Artoys, mere du conte des Flandres Loys. Et si y furent grant foison
+de prelaz qui estoient à Paris.</p>
+<p><hi rend="ital">Item,</hi> environ la Nativité saint Jehan-Baptiste, ou dit an
+mil CCC LXVI, vindrent nouvelles en France que le dit roy Henry de Castelle
+avoit conquesté tout le royaume de Castele et toute la terre, <note resp="#proofreader2" type="internal">retirer la virgule?</note>que avoit tenue le
+roy Pierre du dit royaume, et que ycelui roy Pierre s'en estoit fouiz, l'en ne
+savoit quel part, et avoit laissié tout son pays, le quel pays estoit tout en
+l'obeissance du dit roy Henry, et ce fu chose tenue à moult grant merveille. Car
+le dit roy Pierre estoit tenus, avant que les dictes compaignes entrassent en
+son pays, le plus puissant roy des Crestiens, de terres, de subgiez et de <pb n="22"/> grans tresors, et toutesvoies avoit esté tout son pays conquesté en
+mains de troys mois, sanz ce que il y eust nulz qui mis y eust aucune resistance
+; et si estoit le dit roy Pierre tenuz le plus hardy et le plus crueulz roy des
+Crestiens. Si disoit l'en communelment que ces choses li estoient avenues par
+venjance de Dieu, car il avoit fait moult de maulx et avoit gouverné par
+tyrannie, si n'estoit point amez de ses subgiez. Et entre ses autres mauvais
+faiz, il avoit mauvaisement fait murtrir sa femme espousée, tres bonne et tres
+loyal creature, la quelle avoit esté fille du duc de Bourbon, qui mourut en la
+bataille de Poitiers, là où le roy Jehan fu pris, et estoit suer de la royne de
+France qui lors estoit. Et pour ce que il savoit bien que ses subgiez le
+heoient, il ne se osa combatre ; si perdi tout et s'en <pb n="23"/> ala, si
+comme aucuns disoient lors, en terres de Sarrazins. Les autres disoient qu'il
+estoit alez vers le roy d'Angleterre et vers le prince de Galles et d'Aquitaine,
+filz du dit roy d'Angleterre, pour avoir ayde et secours d'euls. Et assez tost
+après sot l'en certainement en France que le dit roy Pierre estoit avecques le
+prince en Gascoigne, et fist aliances avecques li, et donna au dit prince grant
+foison d'or et de riches joyaux, et par ce ycelui prince li promist que il li
+aideroit à recouvrer son pays, et fist ycelui prince grant semonce de genz
+d'armes pour mener en Castelle, avecques le dit roy Pierre, et par pluseurs foiz
+les contremanda.</p>
+</div>
+<pb n="24"/>
+<div type="chapitre">
+<head rend="ital">De l'omage que Jehan de Montfort fist au roy de France du duché
+de Bretaigne, et comment la femme du dit Charles y renonça.
+</head>
+<p>L'an dessus dit mil CCC LXVI, ou mois de decembre, c'est asavoir le <w type="num">XIII<hi rend="sup">e</hi></w>  jour, le dit messire Jehan de Montfort, lors duc de
+Bretaingne, par le traictié dont dessus est faicte mencion, fist homaige lige à
+Paris, au roy de France Charles, du duchié de Bretaigne et de toutes les autres
+terres que il tenoit ou royaume de France. Et se parti du Roy en bonne grace et
+amour <pb n="25"/> que l'un avoit à l'autre, si comme il sembloit ; et si li
+fist le Roy de beaux dons de joyaux et de chevaux. Et en celui mesmes temps la
+duchesse, femme du duc mort en la bataille dessus dicte, rattefia, en sa
+personne, au dit duc de Bretaigne, en la presence du Roy et de son conseil, le
+traictié fait par le sire de Beaumanoir et les autres ses procureurs dessus
+escrips, en renonçant au dit duchié par la maniere que il avoit esté traictié,
+en requerant au Roy que ainsi le confermast et pronunçast, en force et vertu
+d'arrest. Et ainsi fu fait et pronuncié en la presence du Roy et des deux
+parties, par messire Jehan de Dormans, lors evesque de Beauvés et chancellier de
+France.</p>
+<p><hi rend="ital">Item,</hi> le lundy <w type="num">XXI<hi rend="sup">e</hi></w>  jour du dit mois de decembre, madame
+Jehanne, fille du dit roy de France Charles, mourut à Paris en l'ostel de la
+Conciergerie de l'ostel du Roy, le quel hostel est près de Saint-Pol. Et le
+mardi ensuyvant fu enterrée en l'eglise Saint-Denis en France.</p>
+<p><hi rend="ital">Item,</hi> ou mois de fevrier ensuyvant, l'an mil CCC LXVI dessus
+dit, furent apportées nouvelles à Paris, par devers le Roy de France Charles,
+que un sien chambellan, appellé messire Jehan de la Riviere, le quel estoit <pb n="26"/> alé oultre mer environ la Nativité saint Jehan precedent, estoit
+trespassez de ce siecle, à Fomagoste ou royaume de Chipre, environ la feste de
+Toussains precedent ; de la quelle mort le Roy fu moult dolent, car il l'amoit
+moult. Et fu le corps enterré en la ville de Coste, en la quelle l'en dit que
+sainte Katherine fu née, et pour ce li fist faire ses obseques, moult solennels
+et notables, en l'eglise Sainte-Katherine-du-Val-des-Escoliers, <pb n="27"/>  à
+Paris, le merquedy <w type="num">XVII<hi rend="sup">e</hi></w>  jour du dit mois de fevrier les
+vigiles, et le jeudy ensuyvant, la messe ; et y fu le dit Roy present, et tous
+les prelaz et officiers du Roy estanz à Paris. Et en celui meismes mois de
+fevrier furent apportées nouvelles en France que, le <w type="num">V<hi rend="sup">e</hi></w>  jour
+du mois de decembre precedent, le roy de Chipre et pluseurs crestiens en sa
+compaignie avoient seconde foiz prise la cité d'Alixandre et la tenoient ; car
+l'autre foiz que le dit roy de Chipre l'avoit prise l'an precedent, il l'avoit
+tantost laissiée, pour ce que il n'avoit pas assez gens pour la tenir. Et toutes
+voies ne fut ce pas vray, car jasoit ce que le dit roy de Chipre feist moult
+grant armée et que avecques lui feussent grant quantité de crestiens de diverses
+nacions, il ne se traist puis vers la dite ville d'Alixandre, mais fut fait un
+traictié entre lui et le Soudan, par le quel ilz orent unes longues treves par
+certaine somme de florins, que le dit soudan en donna au dit roy de Chippre, si
+comme l'en disoit.</p>
+<p><hi rend="ital">Item,</hi> en ce dit mois de fevrier mil CCC
+LXVI dessus dit, le prince de Galles qui, si comme l'en disoit, avoit receu
+grant somme de florins du dit roy Pierre de Castelle pour luy aidier, passa par
+le royaume de Navarre, acompaignié de grant nombre de gens d'armes, archiers et
+autres gens de pié, par traictié que il fist avecques le dit roy de Navarre,
+pour aler en Castelle contre le dit <pb n="28"/> roy Henry. Et toutesvoies
+cuidoit le dit Henry que ycelui roy de Navarre feust alié avecques li et pour ce
+li avoit donné grant somme de florins. Mais pour ce que le dit prince lui en
+donna aussi, il se consenti que le dit prince passast par son pays, et ainsi le
+fist et <pb n="29"/> le dit roy Pierre avecques lui, et entra en Castelle, dont
+le roy de Navarre acquist grant blasme et deshonneur.</p>
+</div>
+<div type="chapitre">
+<head rend="ital">
+Comment le roy de Navarre se fist prendre par cautelle.
+</head>
+<p><hi rend="ital">Item,</hi> le <w type="num">XIII<hi rend="sup">e</hi></w>  jour du mois de mars
+ensuyvant, un chevalier breton, appellé mons. Olivier de Mauny, prist le dit roy
+de Navarre assez près de Tudelle, et l'en mena prisonnier ou royaume d'Arragon,
+et se fist le dit roy de Navarre prendre par fraude, afin, si comme l'en disoit,
+que il ne passast avecques le dit prince en Castelle. Et assez tost après,
+pluseurs Anglois <pb n="30"/> et autres des gens du dit prince, qui estoient
+passez en Castelle avecques lui, <supplied resp="#editor">entrerent</supplied>
+ou royaume d'Arragon, pour ce que le roy d'Arragon estoit aliez du dit
+roy Henry, mais assez tost après que ilz y furent entrez, les Arragonnois leur
+coururent sus et les desconfirent, et y fu mort un chevalier anglois, appellé
+messire Guillaume de Feleton, et pluseurs autres jusques au nombre de cinq cens
+et plus.</p>
+</div>
+<div type="chapitre">
+<head rend="ital">
+De la prise messire Bertrand du Guesclin et de pluseurs autres
+par les Anglois, etc.
+</head>
+<p>En celuy an mil CCC LXVI dessus dit, le samedi <w type="num">III<hi rend="sup">e</hi></w>  jour du mois d'avril devant
+Pacques, et fu la veille du dymenche que l'en chante <foreign rend="ital">Judica
+</foreign>, les diz prince et roy Henry et leurs batailles se rencontrerent assez près
+<pb n="31"/> de Saint-Dominge et se combatirent, et là fu le dit roy Henry
+desconfit et s'en parti de la bataille, et la plus grant partie des Castellains
+avecques lui. Et là furent pris messire Bertran du Guesclin, monseigneur Ernoul
+d'Odenehan, mareschal de France, le Beigue de Villaines et aucuns autres
+François et Bretons et aussi aucuns autres Arragonnoys. Et assez tost après se
+traistrent les diz prince et roy Pierre vers Burgues, et par traictié se
+rendyrent ceuls de dedenz et se mistrent en l'obeissance du dit roy Pierre.</p>
+<p><hi rend="ital">Item,</hi> en celui temps, le dit roy de Navarre, qui avoit esté
+pris, comme dit est, par messire Olivier de Mauny, fu delivré, et il bailla par
+ficcion son fil en ostaige et trois chevaliers.</p>
+</div>
+<pb n="32"/>
+<div type="chapitre">
+<head rend="ital">
+Comment le pape Urbain entra en mer pour aler à Romme, et de la
+dissencion de ceulz de Viterbe contre ses gens, et de la bataille qui y
+fu.
+</head>
+<p>L'an de grace mil CCC LXVII, le derrenier jour d'avril, dont Pasques furent le
+<w type="num">XVIII<hi rend="sup">e</hi></w>  jour du dit mois, pape Urbain parti d'Avignon
+pour aler à Romme, au tres grant desplaisir de tous les cardinaulx ; et en
+demourerent V, qui n'alerent pas lors avecques luy, mais il ne leur laissa ne
+donna aucune puissance, et ala à Marseille pour là entrer en mer, et y trouva
+pluseurs galées de Venise, de Jannes, de Cesille et autres, moult honorablement
+aournées de gens et paremens. Et entra sa <pb n="33"/> personne en celle de
+Venise et ala droit à Viterbe, là où il demoura et tint sa cour environ IIII
+mois ; et par le temps que il estoit en la dicte ville de Viterbe, c'est assavoir
+le <supplied resp="#editor"><w type="num">V<hi rend="sup">e</hi></w> jour de septembre</supplied> l'an mil CCC LXVII dessus dit, se
+mut une rumeur entre aucuns habitans d'ycelle ville et aucuns familiers de
+cardinaulx pour ce, si comme l'en disoit, que yceuls familiers lavoient leur
+mains en la fontaine de la dicte ville. Et fu tele la dicte <pb n="34"/> rumeur
+que ceuls de la dite ville s'armerent et coururent sus aux cardinaulx et à leurs
+gens, et convint que aucunz des diz cardinalx se rendissent et baillassent le
+chappel rouge à aucuns des diz habitans, pour leur sauver la vie. Et si allerent
+devant le chastel de la dicte ville ou quel estoit le Pape, mais ilz n'i porent
+entrer. Et pour ce, le Pape manda genz d'armes, et dedenz trois jours en ot en
+la dicte ville si largement, que le Pape ot la seigneurie et puissance de fait ;
+si en fist prendre pluseurs et proceda à la pugnicion du dit fait, et en furent
+pluseurs mis à mort.</p>
+<pb n="35"/>
+<p><hi rend="ital">Item,</hi> ou mois d'aoust ensuyvant, l'an dessus dit, le prince
+de Galles, qui estoit alez en Castelle, et le duc de Lencastre, son frere, qui
+pou orent exploitié fors seulement du fait de la bataille, dont dessus est faite
+mencion ou chapitre precedent, s'en retournerent à Bordeaux et laissierent le
+dit roy Pierre en Castelle, lequel n'avoit pas fait son devoir vers le dit
+prince. Car jasoit ce que iceli prince feust là alez, pour aidier au dit Pierre
+et pour le remettre ou pays dont il avoit esté chassié, il se parti après la
+bataille, en la quelle le dit prince et ses gens avoient eu victoire, et ne le
+vit puis le dit prince, si comme l'en disoit, et demoura le dit Pierre en moult
+grant debte devers le prince pour cause des gaiges des gens d'armes, que ycelui
+prince avoit menez avecques luy. Et tantost que le roy Henry, qui estoit venuz
+ou royaume de France, après ce que il ot esté desconfiz, comme dit est dessus,
+et avoit demouré ou pays de Carcassoys, et sa femme et pou <pb n="36"/> de gens
+avecques lui, sot que le dit prince s'estoit partis de Castelle, et les
+compaignes que il avoit menées avecques lui, et aussi que icelui Henri ot sceu
+que la plus grant partie des gens du dit royaume de Castelle le recevroient
+volontiers, se il y aloit, il se mist en chemin pour y aler et prist le chemin
+par les montaignes de Foiez ; et jasoit ce que il eust pluseurs empeschemenz, il
+entra ou dit pays de Castelle, le <w type="num">XXVII<hi rend="sup">e</hi></w>  jour du mois de
+septembre mil CCC LXVII desus dit, et premierement en la cité de Calehorre, et
+de là ala à Burgues, et fu receu ou dit pays de Castelle de toutes gens moult
+honnorablement, et luy fist l'en toute obeissance <pb n="37"/> comme à
+seigneur ; et ainsi le dit royaume de Castelle fu gaignié par Henry, et recouvré
+par Pierre, et regaignié par Henry, tout en un an et demy ou environ. Et depuis
+demourerent les dictes compaignes en Guyenne, ou pays du dit prince, jusques ou
+mois de decembre ensuyvant, que elles entrerent en Auvergne et en Berry. Et en
+l'entree du mois de fevrier ensuyvant, passerent la riviere de Loire vers
+Marsigny-les-Nonnains, les uns à gué, les autres sur un pont, et demourerent en
+Masconnois par aucun temps. Et de puis entrerent ou duchié de Bourgoingne et le
+passerent moult hastivement, car il trouvoient pou de vivres, pour ce que l'en
+avoit fait retraire tout es forteresses, les quelles estoient tres bien gardées
+par la bonne ordenance, que messire Phelippe, filz du roy de France Jehan, et
+frere du roy Charles, lors duc de <pb n="38"/> Bourgoingne y avoit mise, tant de
+genz d'armes comme autrement. Et ne demourerent ou dit pays de Bourgoigne que VI
+ou VII jours, sanz y prendre aucun fort ; et alerent en Aucerrois et pristrent
+les moustiers de Cravent et de Vermenton, là où ilz trouverent grant foison
+vivres et autres biens ; et il leur estoit bien mestier, car la plus grande
+partie avoient esté sanz mengier pain longuement et estoient sanz soulers. Et
+quant ilz furent raffreschis, ilz se deviserent et passerent aucuns la riviere
+de Yonne à Cravent, et entrerent en Gastinois environ VIII<hi rend="sup">c</hi>
+hommes d'armes anglois, mais ilz estoient bien X<hi rend="sup">M</hi> personnes
+ou plus ; et les autres alerent vers Troyes, qui estoient trop plus grant
+nombre, car ilz estoient plus de IIII<hi rend="sup">M</hi> combatans et de XX<hi rend="sup">M</hi> pillars et femmes ; et passerent la riviere de Saine vers
+<pb n="39"/> Saint-Sepulcre et à Mery, et apres la riviere d'Aube, et
+alerent vers Esparnay et assaillirent l'eglise de la dicte ville d'Esparnay, qui
+estoit fort, en la quelle estoient rectrais les gens de la ville ; et pour ce
+qu'il ne la porent avoir par assault, ilz la minerent, et ceulz qui estoient
+dedenz sentirent que l'en minoit la dicte eglise, ilz contreminerent, et en
+cuidant ardoir la mine des ennemis, ilz ardirent leur contremyne. Et convint que
+ilz se retraisissent en une tour. Et après parlementerent aus dictes compaignes
+et raençonnerent leurs corps et la ville d'ardoir, par my deux mile frans que
+ilz leur baillierent. Et demourerent aucuns des dictes compaignes en la dicte
+ville d'Esparnay, et les autres passerent oultre en diverses routes, les uns à
+Fimes, les autres à Coincy-l'Abbaie et les autres à Ay ; et assaillirent le
+moustier d'Ay, qui estoit fort, ou quel estoient les genz de la dicte ville, et
+ou quel moustier se bouterent environ XX hommes d'armes pour secourir les bonnes
+gens qui estoient dedenz. Et pour ce que les dites compaignes virent que ilz ne
+povoient avoir le dit moustier par assault, ilz le minerent et demourerent
+longuement <note resp="#encoder4" type="internal">Segmentation corrigée : "longue ment" dans l'édition</note> devant. Et ce pendant le Roy faisoit toujours son mandement de genz
+pour les combatre ; et ceulz qui avoient passé la riviere de Yonne à Cravent,
+quant ilz orent esté bien avant ou Gastinois, la rapasserent à <pb n="40"/>
+Pons-sur-Yonne, et alerent passer Saine a Nogent-sur-Saine, et se traistrent
+vers les autres à Esparnay.</p>
+</div>
+<div type="chapitre">
+<head rend="ital">Comment messire Lyonnel, filz du roy d'Angleterre, vint à Paris,
+et de l'onneur que le roy de France et les barons li firent.
+</head>
+<p>L'an de grace mil CCC LXVIII, le dymenche jour de Quasimodo, <w type="num">XVI<hi rend="sup">e</hi></w>  jour d'avril, dont Pasques furent celui an le <w type="num">IX<hi rend="sup">e</hi></w> 
+jour du dit mois, messire Lyonnel, duc de Clarence, secont filz du roy
+d'Angleterre, entra à Paris et venoit d'Angleterre, et aloit à Milan espouser la
+fille messire Galiache, l'un des seigneurs de Milan. Et alerent jusques à
+Saint-Denys en France encontre le dit Lyonnel monseigneur Jehan, duc de Berry,
+et messire Phelippe, duc de Bourgoingne, freres germains du roy de France, et le
+menerent descendre droit au Louvre, où le dit Roy estoit, et laienz fut receu du
+dit Roy moult honorablement. Et ot laienz sa chambre, moult bien parée et
+aournée ; et disna celuy jour et souppa ou <pb n="41"/> chastel du Louvre
+avecques le roy de France, qui aussi y estoit lors logié. Et le lendemain, jour
+de lundy, le dit Lyonnel disna avecques la Royne, en l'ostel du Roy, près de
+Saint-Pol, là où elle estoit lors logiée, et y fist l'en tres grant feste. Et
+après disner, quant l'en ot dancié et joué, le dit Lyonnel et les diz deux
+freres du Roy, qui tousjours le compaignoient, s'en retournerent au dit Louvre
+devers le Roy et soupperent avecques lui, et tousjours coucha le dit Lyonnel au
+Louvre. Et le mardy ensuyvant, <w type="num">XVIII<hi rend="sup">e</hi></w>  jour du mois d'avril
+dessus dit, les diz dux de Berry et de Bourgoigne donnerent à disner et à souper
+au dit Lyonnel et à ses chevaliers, et autres gens qui y vouldrent estre, en
+l'ostel d'Artoys, à Paris ; et alerent au gesir au Louvre. Et le merquedy
+ensuyvant, le dit Lyonnel disna et souppa avecques le Roy et luy fist le Roy
+moult de grans dons et à ses genz aussi, qui valoient, si comme l'en estimoit,
+XX<hi rend="sup">M</hi> florins et plus.</p>
+<p><hi rend="ital">Item,</hi> le juedy ensuyvant, le dit Lyonnel se parti de Paris,
+et le fist le Roy convoier par le conte de Tanquarville jusques à Sens, et par
+autres chevaliers jusques hors du royaume.</p>
+<pb n="42"/>
+<p>Et assez tost après, ceuls qui estoient dedenz le moustier d'Ay se rendirent et
+furent pris à raençon, car ilz n'avoient plus de vivres dedenz le dit moustier.
+Et demourerent les dictes compaignes ou Meucien en divers logeys, c'est asavoir
+à Lysi, à Acy, à Fontaines-les-Nonnains et environ, jusques au venredy <w type="num">XII<hi rend="sup">e</hi></w>  jour de may, l'an mil CCC LXVIII dessus dit, le quel jour
+se deslogierent et s'en alerent vers Chaalons, vers Vitry en Partois et en celle
+marche, et y firent moult de maulx, come d'ardoir maisons, tuer gens, efforcier
+femmes et pluseurs autres maulx. Et en celle marche demourerent jusques environ
+le commencement du mois de juing, et parla l'en à euls par pluseurs foiz, à fin
+que ilz partisissent du royaume ; mais ilz demandoient si grandes sommes de
+florins, c'est assavoir au moins XIIII cens mile frans d'or, que l'en n'y voult
+point entendre pour le Roy, et par tout celui temps avoit le Roy grant nombre de
+gens d'armes en pluseurs bonnes villes, comme Sens, Troyes, Chaalons, Provins et
+autres, ès quelles villes les dictes genz d'armes faisoient tant de excez et de
+maulx que ce estoit pitiez.</p>
+<p><hi rend="ital">Item,</hi> le vendredi <w type="num">IX<hi rend="sup">e</hi></w>  jour de juing mil
+CCC LXVIII dessus dit, les dictes compaignes, qui s'estoient deslogiés de devers
+Vitry, passerent par assez près de Troyes, <pb n="43"/> et se alerent logier
+vers Marigny et ou pays environ. Et lors estoit à Troyes le duc de Bourgoigne,
+mais il n'avoit pas genz pour combatre à eulz, et s'en alerent passer la riviere
+d'Yonne vers Aucerre, et alerent vers Chasteillon-sur-Louen, devant Montargis,
+et partout le Gastinois, droit vers Estampes. Mais ilz sejournerent tant en
+Gastinois que il fu avant le <w type="num">IIII<hi rend="sup">e</hi></w>  jour de juillet que ilz
+feussent environ Estampes ; et bouterent les feux en pluseurs lieux et villes en
+leur chemin. Et pour ce que l'en disoit communelment que ilz venoient devant
+Paris, le Roy manda genz d'armes à Paris. Et en celui an meismes, la derreniere
+sepmaine de juin, le Roy fist II mareschaux nouveaux, c'est asavoir messire Loys
+de Sancerre et messire Mouton de Blainville, car le mareschal Bouciquaut estoit
+mort, et messire Ernoul d'Odenehan avoit renoncié à l'office et le Roy li avoit
+baillié l'oriflame. Et environ XV jours devant, le Roy <pb n="44"/> avoit fait
+admirail de la mer messire François de Perilleux et en avoit osté le Baudrin de
+la Heuse.</p>
+<p><hi rend="ital">Item,</hi> le mardi quart jour de juillet, les dites compaignes
+se logierent à Estampes et à Estrichi. Et y demourerent jusques au dymenche
+ensuyvant, <w type="num">IX<hi rend="sup">e</hi></w>  jour du dit mois, que se deslogierent les
+Gascoings qui, si comme l'en disoit, se deffioient des Anglois, et les Anglois
+d'euls, et s'en alerent à Baugency-sur-Loire, et les Anglois alerent en
+Normandie et pristrent la ville de Vyre ; et y entrerent de jours 
+<note resp="#editor" rend="parenthèses-ital">sic</note>, comme bons hommes de ville, armez dessouz leurs
+grosses robes, premierement environ XL ou LX, et quant ilz orent gaaigniée la
+porte, leurs grosses routes vindrent après, mais ilz ne <pb n="45"/> pristrent
+pas le chastel, car pluseurs de la dicte ville se retraistrent dedenz, qui bien
+le deffendirent et garderent ; et aussi fu il assez tost après raffraischi de
+genz d'armes. Et environ XV jours après, une partie des diz Anglois de
+compaigne, environ IIII cens ou V cenz s'en alerent en Anjou et pristrent la
+ville de Chasteau-Gontier, par la maniere qu'ilz avoient prise Vyre. Et les diz
+Gascoings se tindrent bien trois sepmaines ou un moys en la dicte ville de
+Baugency, et pluseurs fois ala le seigneur de Lebret, de par le roy de France,
+par devers eulz pour traictier, comme ilz widassent le royaume de France ; et en
+esperance de certain traictié, pourparlé et non passé entre eulx, les diz
+Gascoings passerent la riviere de Loire par devers la Sauloigne ; et crut tant
+la riviere, assez tost après, que ilz ne la porent rappasser sanz pont, et ainsi
+demourerent une piece en attendant la response du dit traictié, que le seigneur
+de Lebret avoit porté devers le Roy.</p>
+</div>
+<div type="chapitre">
+<head rend="ital">Des appellacions que le conte d'Armignac et autres nobles firent
+contre le prince de Galles en France.
+</head>
+<p>Environ celui temps, le conte d'Armignac, le seigneur de Lebret, le conte de
+Pierregort et pluseurs autres barons et nobles du duchié de Guyenne appellerent
+du prince de Galles, duc de Guyenne, pour pluseurs <pb n="46"/> griefz que il
+leur avoit faiz, et se traistrent devers le roi de France, afin que il receust
+leur appellacions et donnast adjournemens en cas d'appel. Et sur ce ot le dit
+Roy grant deliberacion ; et par le conseil que il ot il leur octroia les diz
+adjournemens, car il n'avoit <pb n="47"/> encores faites aucunes renonciacions
+aus ressors et souverainnetez des terres, par luy bailliées au dit roy
+d'Angleterre, jasoit ce que les termes feussent passez, dedenz les quelz
+devoient estre faictes les dictes renonciacions. Car le roy d'Angleterre avoit
+esté reffusans et delayans de faire aucunes renonciacions, que il devoit faire,
+les quelles se devoient faire lors et par la maniere que contenu est es lettres,
+des quelles la teneur est cy après encorporée. Et toutesvoies, jusques ad ce que
+les dictes renonciacions feussent faites, les diz ressors et souverainnetez
+demourroient au roy de France, par la maniere que il les avoit avant le dit
+traictié ; més il devoit surseoir de en user jusques à certain temps, si comme
+es dites lettres est contenu, des quelles la teneur ensuyt :</p>
+</div>
+<div type="chapitre">
+<head rend="ital">
+Ci s'ensuit le contenu des lectres des renonciacions que le roy
+d'Angleterre et le prince son filz devoient faire des terres, qu'il
+tenoient, ci nommées.
+</head>
+<p><quote>« Edouard, par la grace de Dieu roy d'Angleterre, seigneur d'Irlande et
+d'Acquitaine, a tous ceuls qui ces presentes lettres verront, salut. Comme pour
+les discencions, <pb n="48"/> debaz et descors, meuz et esperez à mouvoir entre
+nous et nostre tres chier frere le roy de France, certains traicteurs et
+procureurs de nous et de nostre tres chier ainsné filz Edouard, prince de
+Galles, aians ad ce souffisant povoir et auctorité pour nous, et pour lui et
+nostre royaume, d'une part, et certains autres traicteurs et procureurs de
+nostre dit frere et de nostre tres chier neveu Charles, duc de Normandie et
+dalphin de Viennois, filz ainsné de nostre dit frere de France, ayant povoir et
+auctorité de son dit pere en ceste partie, pour son dit pere et pour luy, se
+feussent assemblez à Bretigny près de Chartres, ou quel lieu fu parlé, traictié
+et accordé final paix, et accordé le <w type="num">VIII<hi rend="sup">e</hi></w>  jour de may
+derrenierement passé, des traicteurs et procureurs de l'une et de l'autre
+partie, sur les discencions, debaz, guerres et descors devant diz ; les quiex
+traictié et paix les procureurs de nous et de nostre dit filz, pour nous et pour
+luy, <supplied resp="#editor">et les procureurs de nostre dit frere et de nostre dit neveu, pour son
+pere et pour luy,</supplied> jurerent aus sains euvangiles tenir et garder, et après ce le
+jurerent <supplied resp="#editor">solempnelment</supplied> 
+noz diz filz et neveu, ou nom que dessus, et depuis, nous et nostre
+dit frere l'avons confermé et juré solempnelment ; par my le quel accort, entre
+les autres choses, nostre frere et son filz devant diz sont tenuz et ont promis
+baillier, <pb n="49"/> delivrer et delaissier à nous, nos hoirs et successeurs à
+tousjours, les citez, contez, villes, chasteaux, forteresses, terres, 
+<supplied resp="#editor">isles</supplied>, rentes, revenues et autres choses qui
+s'ensuyvent, avec ce que nous tenons en Guyenne et en Gascoingne, à tenir et
+posseder perpetuelment, à nous et à noz hoirs et successeurs, ce que en demaine
+en demaine et ce que en fié en fié, et par le temps et maniere cy après
+esclarciz ; la cité, le chastel et la conté de Poitiers, et toute la terre et le
+pays de Poitou, ensemble le fieu de Thouart et la terre de Belleville ; la cité
+et le chastel de Xaintes, et toute la terre et le pays de Xaintonge, par deçà et
+par delà la Charente, avec la ville, chastel et forteresse de la Rochelle, et
+leur appartenances et appendances ; la cité <supplied resp="#editor">et</supplied>
+le chastel d'Agen, et la terre et le payz d'Agenoiz ; la cité, le
+chastel et toute la conté de Pierregort, et la terre et le pays de Pierreguis ;
+la cité et le chastel de Lymoges, et la terre et le pays de Lymosin ; la cité et
+le chastel de Caours, et la terre et le pays de Caoursin ; la cité et le chastel
+et le pays de Tarbe, et la terre et le pays et la conté de Bigorre ; la conté,
+la terre et le pays de Gaure ; la conté et le chastel d'Engoulesme, et la conté
+et la terre et le pays d'Angoulesmois ; la cité et le chastel de Rodès et la
+terre et le payz de Rouergue ; et, s'il y a aucuns seigneurs, comme le conte de
+Foeiz, le conte d'Armignac, le conte de L'Ille, le conte de Pierregort, le
+viconte de Lymoges ou autres, qui tiennent aucunes terres ou lieux dedenz les
+mectes des diz lieux, ilz en feront homaige à nous et tous autres services et
+devoirs, deuz à cause <pb n="50"/> de leurs terres et lieux, en la maniere
+qu'ilz les ont faiz ou temps passé ; et tout ce que nous, ou aucuns des roys
+d'Angleterre anciennement tindrent en la ville de Monstereul-sur-la-mer et es
+appartenances ; toute la conté de Pontieu tout entierement, sauf et excepté que,
+se aucunes choses ont esté alienées par les roys d'Angleterre, qui ont esté pour
+le temps, de la dite conté et appartenances, et à autres personnes que aux roys
+de France, nostre dit frere, ni ses successeurs, ne seront pas tenuz de les
+rendre à nous, et, se les dictes alienacions ont esté faites aux roys de France,
+qui ont esté par le temps, sanz aucun moyen, et nostre dit frere 
+<w>le<supplied resp="#editor">s</supplied></w> tiengne à present en sa main, 
+il les laissera à nous entierement,
+excepté que, se les roys de France les ont <w>eu<supplied resp="#editor">es</supplied></w>
+ par eschange à autres terres, nous delivrerons ce que l'en en a eu par
+eschange, ou nous laisserons à nostre dit frere les choses ainsi alienées ;
+mais, se les roys d'Angleterre, qui ont esté par le temps, en avoient aliené ou
+transporté aucunes choses en autres personnes que es roys de France, et depuis
+ilz <note resp="#editor" rend="parenthèses-ital">sic</note> soient venuz es mains de nostre dit frere, ou
+aussi par partage, nostre dit frere ne sera pas tenuz de les rendre ; et aussi
+se les choses dessus dites doivent hommaiges, nostre dit frere les baillera à
+autres qui en feront hommaige à nous, et, s'il ne doivent hommaige, il nous
+baillera un tenant, qui nous en fera le devoir, dedenz un an prochain après ce
+que nostre dit frere sera partiz de Calais ; le chastel et la ville de Calais, le
+chastel, la ville et seigneurie de Merk, les villes, chasteaux et seigneuries de
+Sangate, Coulongne, Hammes, Wale et Oye, avec terres, bois, marez, rivieres,
+seigneuries, advoesons d'eglises et toutes <pb n="51"/> autres appartenances et
+lieux, entregisanz dedenz les mectes et bondes qui s'ensuivent : c'est asavoir
+de Calays jusques au fil de la riviere par devant Gravelingues, et aussi par le
+fil de mesme la riviere tout entour l'Angle, et aussi par la riviere qui va par
+delà Poil, et par meisme la riviere, qui chiet ou grant lay de Guynes, jusques à
+Fretin, et d'ilec par la valée entour la montaigne <supplied resp="#editor">de</supplied>
+Calkuli, encloant mesmes la montaigne, et aussi jusques à la mer, avec
+Sangate et toutes les appartenances ; le chastel et la ville et tout entierement
+la conté de Guynes, avec toutes les terres, villes, chasteaux, forteresses,
+lieux, hommes, hommaiges, <supplied resp="#editor">seigneuries,</supplied> 
+bois, forestz, droitures d'icelles, aussi entierement comme le conte
+de Guynes, derrain mort, les tint au temps qu'il ala de vie a trespassement ; et
+obeiront les eglises et les bonnes gens, estans dedenz les limitacions du dit
+conté de Guynes, de Calais et de Merk et des autres lieux dessus diz, à nous,
+aussi comme ilz obeissoient à nostre dit frere et au conte de Guynes, qui fu
+pour le temps ; toutes les quelles choses, comprises en ce present article et en
+l'article prochain precedent de Merk et de Calais, nous tendrons en demaine,
+excepté les heritages des eglises, qui demourront aux dictes eglises
+entierement, quelque part qu'ilz soient assis, et aussi
+excepté les heritages des autres genz des pays de Merk et de Calais, assis hors
+de la ville de Calais, jusques à la value de cent livrées de terre par an, de la
+monnoie courant au pays et au dessoubz, les quiex heritages leur demourront
+jusques à la value dessus dite et au dessoubz ; mais <supplied resp="#editor">les</supplied>
+<pb n="52"/>
+habitacions et heritages assis en la dicte ville de Calais, avec leurs
+appartenances, demourront en demaine à nous pour <supplied resp="#editor">en</supplied>
+ordener à nostre volenté, et aussi demourront aus habitans, en la
+terre, ville et conté de Guynes, toutes leurs demaines entierement et revendront
+plainement, sauf ce que est dit par avant des confrontacions, mectes et bondes
+dessus dites, en l'article de Calais, et toutes les isles adjacens aux villes,
+pays et lieux avant nommez, ensemble avec toutes les autres isles, les quelles
+nous tenrons ou temps du dit tractié ; </quote></p>
+<p><quote><!--«--> Et eust esté pourparlé que nostre dit frere et son ainsné filz renonçassent as
+ressors et souverainetez et à tout droit qu'ilz pourroient avoir en toutes les
+choses dessus dites, et que nous les tenissons comme voisin, sanz ressort et
+souveraineté de nostre dit frere, ou dit royaume de France, et que tout le droit
+que nostre dit frere avoit es choses dessus dites, il nous cedast et
+transportast perpetuelment et à tousjours ; et aussi eust esté pourparlé que
+semblablement nous et nostre dit filz renoncissons expressement à toutes les
+choses qui ne doivent estre bailliées ou demourer à nous par le dit traictié, et
+par especial ou nom et au droit de la couronne et du royaume de France, à
+hommaige, souveraineté et demaine du duchié de Normandie, du duchié de Touraine,
+des contez d'Anjou et du Maine, et souveraineté et homage du duchié de
+Bretaigne, à la souverainneté et hommaige du conté et pays de Flandres, et à
+toutes autres demandes que nouz faisons et faire pourrions pour quelque cause
+que ce soit, excepté <pb n="53"/> les choses dessus dites, qui doivent demourer
+et estre bailliées à nous et à noz hoirs, et que nous leur transportissions,
+cessissons et delaississions tout le droit que nous pourrions avoir en toutes
+les choses, qui à nous <supplied resp="#editor">ne</supplied>
+doivent estre bailliées. </quote></p>
+<p><quote><!--«--> Sur les quelles choses, après pluseurs altercations eues sur ce, et par
+especial pour ce que les dictes renonciacions ne se font pas de present, avons
+finablement accordé avec nostre dit frere, par la maniere qui s'ensuit :</quote></p>
+<p><quote><!--«--> C'est assavoir que nous et nostre dit ainsné filz renoncerons, et ferons et
+avons promis à faire les renonciacions, transpors, cessions et delaissemens
+dessus diz, quant et si tost que nostre dit frere aura baillié à nous ou à noz
+gens, especialment de par nous deputez, la cité et le chastel de Poitiers, et
+toute la terre et le pays de Poitou, ensemble le fyé de Thouart et la terre de
+Belleville ; la cité et le chastel d'Agen, et toute la terre et le pays d'Agenois
+; la cité et le chastel de Pierregort et toute la terre et le pays de Pierreguis
+; la cité et le chastel de Caours et toute la terre et le pays de Caoursin ; la
+cité et le chastel de Lymoges et toute la terre et le pays de Lymosin ; et toute
+la conté de Gaure. Les quelles choses nostre dit frere nous a promis à baillier
+ou à noz especiaulx deputez dedenz la feste de la Nativité Saint-Jehan-Baptiste
+<supplied resp="#editor">prochain</supplied>, <pb n="54"/> se il puet ; et 
+tantost après ce, devant certaines
+personnes, que nostre dit frere deputera, nous et nostre dit ainsné filz ferons,
+en nostre royaume, ycelles renonciacions, transpors, cessions et delaissemens,
+par foy et sairement, solempnelment, et d'icelles ferons bonnes lettres
+ouvertes, seellées de nostre grant seel, par la maniere et forme comprise en noz
+autres lettres sur ce faites et que compris est ou dit traictié, les quelles
+nous envoierons, à la feste de l'Assumpcion Nostre-Dame prochaine ensuyvant, en
+l'eglise des Augustins à Bruges ; et les ferons baillier à ceuls que nostre dit
+frere y envoiera lors pour les recevoir. Et, se dedenz la dicte feste
+Saint-Jehan-Baptiste nostre dit frere ne povoit baillier les citez, 
+<supplied resp="#editor">contées</supplied>, chasteaux, villes, terres, pays, 
+isles et lieux dessus prouchainement
+nommez, il les doit baillier dedenz la feste de Toussains prochaine venant en un
+an ; et, ycelles bailliées, ferons nous et nostre dit fils les dictes
+renonciations, transpors, cessions et delaissemens, par devant les gens qui
+seront deputez par nostre dit frere, comme dit est, et en ferons lettres teles
+et par la maniere dessus dicte, et les ferons baillier à ses genz au jour de la
+feste Saint-Andryeu lors ensuyvant, en la dicte eglise des Augustins, à Bruges,
+par la maniere dessus dite. Et aussi nous a promis nostre dit frere que il et
+son ainsné filz renonceront et feront semblablement, lors et par la maniere
+dessus dicte, les renonciacions, transpors, cessions et delaissemens accordez
+par le dit traictié à faire de sa partie, si comme dessus est dit ; et envoiera
+ses lettres patentes seellées de son grant seel aux diz <pb n="55"/> lieux et
+termes, pour les baillier aus genz qui de par nous y seront deputez
+semblablement, comme dit est. Et aussi nous a promis et accordé nostre dit frere
+que lui et ses hoirs surserront, jusques aus termes des dictes renonciacions
+dessus esclarciz, de user de souverainnetez et ressors en toutes les citez,
+contez, chasteaux, villes, terres, pays, isles et lieux que nous tenions ou
+temps du dit traictié, les quelles nous doivent demourer par le dit traictié, et
+es autres qui, à cause des dites renonciacions et du dit traictié, nous seront
+bailliées et doivent demourer à nous et à noz hoirs, sanz ce que nostre dit
+frere ou ses hoirs ou autres à cause de la coronne de France, jusques aux termes
+dessus esclarciz et yceulz durans, puissent user d'aucuns services ou
+souverainetez, ne demander subjeccion sur nous, noz hoirs, noz subgiez
+d'icelles, presenz et avenir, ne querelles ou appeaulx en leur court recevoir,
+ne rescrire à <w>ycelle<supplied resp="#editor">s</supplied></w>, ne de 
+jusridicion aucune user à cause des citez, contez, chasteaulx,
+villes, terres, pays, isles et lieux prochains nommez. Et nous a aussi accordé
+nostre dit frere que nous, ne noz hoirs, ne aucuns de noz subgiez, à cause des
+dites citez, <supplied resp="#editor">contées</supplied>, chasteaux, villes, 
+terres, pays, isles et lieux
+prouchains avant diz, comme dit est, soient tenuz ne obligiez de le recognoistre
+nostre souverain, ne de faire aucune subjeccion, service ne devoir à lui, ne à
+ses hoirs, ne à la coronne de France, jusques aus termes des renonciacions
+devant dites. Et aussi accordons et promettons à nostre dit frere que nous et
+noz hoirs surserrons de nous appeller et porter roys de France <pb n="56"/> par
+lectres, ne autrement, jusques aus termes dessus nommez et yceulz durans. Et
+combien que es articles du dit accort et traictié de la paix en ces presentes
+lectres, ou autres dependens des diz articles ou de ces presentes, ou autres
+quelconques que elles soient, <supplied resp="#editor">soient</supplied>
+ou feussent aucunes paroles ou fait aucun, que nous ou nostre dit
+frere deissions ou feissions, qui sentissent 
+<w>translacion<supplied resp="#editor">s</supplied></w>
+ou renonciacions taisibles ou expresses des ressors ou souverainetez,
+est l'entencion de nous et de nostre dit frere que les avant diz souverainetez
+et ressors, que nostre dit frere se dit avoir es dictes terres qui nous seront
+bailliées, comme dit est, demourront en l'estat ou quel elles sont à present,
+mais toutesfoiz qu'il surserra de en user et de demander subjeccion par la
+maniere dessus dicte jusques aus termes dessus esclarciz. Et aussi voulons et
+accordons à nostre dit frere que, après ce qu'il aura baillié les dictes citez,
+contez, chasteaux, villes, terres, pays, isles et lieux qu'il nous doit baillier
+par my sa delivrance et renonciacions dessus dites, et les dites renonciacions,
+transpors et cessions, qui sont à faire de sa partie par luy et par son ainsné
+filz, faites, et envoiées aux diz jour et lieu à Bruges les dictes lettres et
+bailliées aux deputez de par nous, que la renonciacion, transport, cession et
+delaissement à faire de nostre partie soient tenues pour faites ; et par
+habondant, <pb n="57"/> nous renonçons dès lors par expres au nom et au droit de
+la couronne <supplied resp="#editor">et</supplied>
+du royaume de France et à toutes les choses que nous devons renoncier
+par force du dit traité, si avant comme proffiter pourra à nostre dit frere et à
+ses hoirs. Et voulons et accordons que, par ces presentes, le dit traictié de
+paix et accort fait entre nous et nostre dit frere, les subgiez, aliez et
+adherens d'une partie et d'autre, ne soit, quant aus autres choses contenues en
+ycelui, empiré ou affebli en aucune maniere ; mais voulons et nous plaist qu'il
+soient et demeurent en leur plainne force et vertu. Toutes les quelles choses,
+en ces presentes lettres escriptes, nous, roy d'Angleterre dessus dit, voulons,
+octroions et promectons loialment et en bonne foy, et par nostre sairement, fait
+sur le corps Dieu es saintes Euvangiles, tenir, garder, enteriner et acomplir
+sanz fraude et sanz mal enging de nostre partie ; et ad ce et pour ce faire,
+obligons à nostre dit frere de France, nous, noz hoirs et tous noz biens presens
+et avenir, en quelque lieu qu'ilz soient, renonçans par nostre dite foy et
+serement, à toutes excepcions de fraude, decevance, de croiz 
+<w>pris<supplied resp="#editor">e</supplied></w>
+et à prendre, et à empetrer dispensacion de pape ou d'autre au
+contraire ; la quelle, se empetrée estoit, nous voulons estre nulle et de nulle
+valeur, et que nous ne nous en puissions aidier, et aus droiz disanz que royaume
+ne pourra estre devisé et general renonciacion non valoir fors en certaine
+maniere, et à tout ce que nous pourrions <supplied resp="#editor">dire ou</supplied> 
+opposer au contraire, en
+jugement ou dehors. En <pb n="58"/> tesmoingnance des quelles choses nous avons
+fait mettre nostre grand seel à ces presentes 
+<supplied resp="#editor" rend="crochets">lettres</supplied>. Donné à nostre 
+ville de Calais soubz nostre grand seel le <w type="num">XXIIII<hi rend="sup">e</hi></w>  
+jour d'octobre l'an de grace mil CCC LX. » </quote></p>
+</div>
+<div type="chapitre">
+<head rend="ital">
+Comment le Roy ala à Tournay, pour parler au conte de Flandres
+du mariage de sa fille et de Phelippe, duc de Bourgongne, frere du dit Roy,
+et de VIII cardinalx que le Pape fist.
+</head>
+<p>En l'entrée du mois de septembre ensuyvant, le Roy parti de Paris pour aler à
+Tournay, là où il avoit mandé le conte de Flandres, le duc de Braiban et le
+conte de Henaut, en esperance de parfaire le mariage de messire Phelippe, duc de
+Bourgoigne, frere du dit Roy, et de Marguerite, fille du dit conte de Flandres,
+la quelle avoit par avant esté mariée à messire Phelippe, duc de Bourgoigne,
+derrenier trespassé. Mais le dit conte de Flandres ne fu point à Tournay, à la
+journée que le Roy avoit entencion que il y feust, et se envoya <pb n="59"/>
+excuser pour cause de maladie ; et pour ce s'en retourna le Roy à Paris, sanz
+autre chose faire du dit mariage. Mais madame Marguerite, contesse d'
+<w>Artoy<supplied resp="#editor">s</supplied></w>
+et mere du dit conte de Flandres, qui estoit alée à Tournay pour celle
+cause, et qui moult vouloit et desiroit le dit mariage estre fait, ala par
+devers son dit filz à Malines, en poursivant tousjours la perfeccion et
+acomplissement du dit mariage.</p>
+<p><hi rend="ital">Item,</hi> le venredy, <w type="num">XXII<hi rend="sup">e</hi></w>  jour du mois de
+septembre dessus dit, mil CCC LX VIII, le pape Urbain, qui estoit à Monflacon,
+fist VIII cardinaulx, c'est asavoir : le patriarche de Jherusalem, le patriarche
+d'Alexandrie, l'arcevesque de Cantorbire, Anglois, l'arcevesque de <pb n="60"/>
+Naples, messire Jehan de Dormans, evesque de Beauvez et chancellier de France,
+né de Dormans sur la riviere de Marne, monseigneur Estienne de Paris, evesque de
+Paris, né de Vitry empres Paris, sur la riviere de Saine, l'evesque de Castres
+et le prieur de Saint-Pierre de Romme. Et en vindrent les nouvelles certaines à
+Paris et les lettres de pluseurs cardinaulx, le <w type="num">VI<hi rend="sup">e</hi></w>  jour du
+mois d'octobre ensuyvant.</p>
+<p><hi rend="ital">Item,</hi> en la fin du dit mois de septembre, les Anglois de
+compaigne, qui estoient en la ville de Chasteau-de-Vire, se partirent, par
+certainne somme de florins que l'en leur donna, et s'en alerent à
+Chasteau-Gontier par devers leur compaignons, qui là estoient, et pristrent
+pluseurs forteresses environ, pour ce qu'ilz ne povoient tous estre logiez en la
+dicte ville de Chasteau-Gontier.</p>
+<p><hi rend="ital">Item,</hi> en celui temps, les diz Gascoings de compaigne, qui
+avoient passé la riviere de Loire, comme dit est, alerent en Touraine, et grant
+foison de gens d'armes du royaume de France, tant aux gaiges du Roy comme sanz
+gaiges, alerent après, en esperance de les combatre, jusques à une ville que
+l'en appelle Faye-les-Vigneuses, en la quelle se estoient retraiz les diz
+Gascoings ; et se tindrent les dites genz d'armes devant la dicte ville par
+aucuns jours, cuidans que yceuls Gascoings <pb n="61"/> deussent issir de la
+dicte ville pour combatre ; mais riens n'en firent, et pour ce se retraistrent
+les dictes genz d'armes de France en la ville de Lodun, et assez tost après se
+departirent, et les diz Gascoings demourerent en la dicte ville de Faye.</p>
+<p><hi rend="ital">Item,</hi> le juedy <w type="num">XXIII<hi rend="sup">e</hi></w>  jour du mois de
+novembre ensuyvant, aucuns chevaliers et escuiers de la duchié de Bourgoingne,
+jusques au nombre de L combatans ou environ, se combatirent à gens de compaigne,
+qui estoient partiz de la forteresse de Lez en Beaujeulaiz, et avoient
+chevauchié par la duchié de Bourgoingne jusques à Cravent, et s'en retournoient
+par la conté de Nevers ; et les dessus diz de Bourgoigne les suyrent jusques à
+une ville appellée Semelay, et là se combatirent à eulx et les desconfirent. Et
+furent des diz de compaigne mors jusques au nombre de XI ou de XII, et environ
+XL pris, et les autres s'en fouyrent ; et si furent rescoux grant foison de
+prisonniers, que les diz de compaigne avoient pris.</p>
+</div>
+<pb n="62"/>
+<div type="chapitre">
+<head rend="ital">De la nativité de Charles, premier filz de Charles le Quint, roy
+de France.
+</head>
+<p>Le dymenche, tiers jour du mois de decembre, l'an mil CCC LXVIII dessus dit,
+premier jour de l'Avent Nostre Seigneur, en la tierce heure après mienuit, la
+royne Jehanne, femme du roy Charles, lors roy de France, ot son premier filz, en
+l'ostel de emprès Saint-Pol de Paris ; et estoit la lune ou signe de la Vierge
+en la seconde face du dit signe, et avoit la lune XXIII jours. Du quel
+enfantement le dit Roy et tout le peuple de France orent tres grant joie, et non
+pas sanz cause, car onques le dit Roy n'avoit eu aucun enfant masle. Si en rendy
+le dit Roy graces à Dieu et à la Vierge Marie, et celui jour ala à Nostre-Dame
+de Paris, et fist chanter devant l'ymage de Nostre Dame, à l'entrée du cuer, une
+belle messe de Nostre Dame ; et l'endemain, ou jour de lundy, ala à Saint-Denys
+en France, en pelerinage, et fist donner aus ordres de Paris grant foison de
+florins, jusques au nombre de trois mile florins et de plus.</p>
+<p><hi rend="ital">Item,</hi> celui jour de dymenche, messire Aymeri de Maignac,
+nouvel evesque de Paris, entra à Paris et fu apporté de sainte Genevieve à
+Nostre-Dame, si comme il est acoustumé : et lui fist le Roy sa feste et donna
+<pb n="63"/> à disner au Louvre au dit evesque et à tous ceuls qui le
+acompaignierent.</p>
+</div>
+<div type="chapitre">
+<head rend="ital">De la solempnité du baptisement de Charles, filz du roy Charles
+le Quint de ce nom.
+</head>
+<p>Le merquedy ensuyvant, <w type="num">VI<hi rend="sup">e</hi></w>  jour de decembre, l'an M CCC LX
+VIII dessus dit, le dit filz du Roy fu crestienné en l'eglise de Saint-Pol de
+Paris, environ heure de prime, par la maniere qui ensuit. Et dès le jour de
+devant furent faites lices de marrien en la rue, devant la dicte eglise et aussi
+dedenz la dite eglise environ les fons, pour mieulx garder qu'il n'y eust trop
+presse de gens.</p>
+<p>Premierement, devant le dit enfant ot deux cens varlés, qui portoient deux cens
+torches, qui tous demourerent en la dicte rue, tenans les dites torches ardans,
+excepté seulement XXV qui entrerent dedenz <pb n="64"/> le dit moustier. Et
+après estoit messire Hue de Chasteillon, seigneur de Dampierre, maistre des
+arbalestiers, qui portoit un cierge en sa main, et le conte de Tanquarville si
+portoit une couppe, en la quelle estoit le sel, et avoit une touaille en son
+col, dont le dit sel estoit couvert. Et après estoit la royne Jehanne d'Evreux,
+qui portoit le dit enfant sur ses bras ; et monseigneur Charles, seigneur de
+Montmorenci, et monseigneur Charles, conte de Dampmartin, estoient de costé lui
+; et ainsi issirent du dit hostel du Roy de Saint-Pol, par la porte qui est au
+plus près de la dite eglise. Et tantost après le dit enfant estoient le duc
+d'Orliens, oncle du Roy, le duc de Berry, le duc de Bourgoingne, freres du dit
+Roy, le duc de Bourbon, frere de la Royne, et pluseurs autres grans seigneurs et
+dames, la royne Jehanne, la duchesse d'Orliens, sa fille, la contesse de
+Harecourt et la dame de Lebret, suers de la Royne, les quelles estoient bien
+parées en couronnes et en joyaux ; et après pluseurs autres dames et damoiselles,
+bien parées et bien aournées. Et ainsi fu apporté le dit enfant jusques à la
+grant porte de la dicte eglise de Saint-Pol, à la quelle porte estoient, qui
+attendoient le dit enfant, le cardinal de Beauvés, chancellier de <pb n="65"/>
+France, qui le dit enfant crestienna, et le cardinal de Paris, en sa chappe de
+drap sanz autres aournemens, et les arcevesques de Lyon et de Sens, et les
+evesques d'Evreux, de Coustances, de Troyes, d'Arras, de Meaulx, de Beauvés, de
+Noyon et de Paris ; et les abbez de Saint-Denis, de Saint-Germain-des-Prez, de
+Sainte-Genevieve, de Saint-Victor, de Saint-Magloire, tous en mictres et en
+crosses, et tous furent au crestiennement.</p>
+<p>Et le tint sur les fons le dit seigneur de Montmorency, et fu appelé Charles pour
+les diz seigneur de Montmorenci et conte de Dampmartin, qui ce meismes <pb n="66"/> nom avoient. Et après fu reporté le dit enfant ou dit hostel de
+Saint-Pol, par le cymetiere de la ditte eglise et par un huys par le quel l'en
+entroit ou dit hostel, pour la presse qui estoit devant la dicte eglise. Et
+celui jour, fist le Roy faire une donnée, en la couture Sainte-Katherine, de
+VIII parisis à chascune personne qui voult aler à la dicte donnée, et y ot si
+grant presse que pluseurs femmes furent mortes en la dicte presse.</p>
+<p><hi rend="ital">Item,</hi> celui merquedy après vespres, le dit cardinal de Paris
+parti de la dicte ville pour aler à Romme, devers le Pape, et prist congié du
+Roy au Louvre, et le convoierent jusques hors de Paris les dux de Berry et de
+Bourgoingne, freres du Roy, et aussi fist le cardinal de Beauvés et pluseurs
+autres prelas, qui estoient en la dite ville de Paris, et s'en ala au giste à
+Charenton.</p>
+<p><hi rend="ital">Item,</hi> le venredy, jour de la Purificacion Nostre-Dame, ou
+dit an M CCC LX VIII, messire Guillaume de Meleun, lors arcevesque de Sens, par
+bulles du Pape à li sur ce envoiées, presenta et bailla au dit cardinal de
+Beauvés, chancellier de France, le chappel rouge, ou chastel du Louvre emprès
+Paris, en la presence du roy Charles, après la messe, emprès l'autel de la
+chappelle du dit chastel.</p>
+<p><hi rend="ital">Item,</hi> le dymenche ensuyvant, <w type="num">IIII<hi rend="sup">e</hi></w>  jour
+du mois de fevrier, l'an dessus dit, la Royne releva de sa gesine de son dit
+filz, au quel le Roy avoit donné le Dalphiné de Viennois, et pour ce estoit
+appellé monseigneur le dalphin. Et ot grant feste aus dictes relevailles, à <pb n="67"/> disner et après disner, de dancier et d'autres esbatemens.</p>
+<p><hi rend="ital">Item,</hi> en celui temps, en divers jours, se rendirent aus gens
+du roy de France pluseurs villes et forteresses du duchié de Guyenne, qui par
+avant estoient subgiez du roy d'Angleterre ; et se aerdirent aus appellacions que
+avoient faites le conte d'Armygnac, le conte de Pierregort, le seigneur de
+Lebret et pluseurs autres du pays de Guyenne, contre le prince de Galles, ainsné
+filz du roy d'Angleterre et duc de Guyenne. Et en ce temps le dit prince acoucha
+malade d'une moult grieve maladie et devint ytropite. Et pour les causes devant
+dites, le roy d'Angleterre envoia des Anglois de son pays et un sien autre filz,
+appellé monseigneur Hemon, <pb n="68"/> ou pays de Guyenne. Car pour occasion
+des dictes appellacions, se ensivit guerre entre les diz roy et ses enfans
+contre les diz appellans.</p>
+</div>
+<div type="chapitre">
+<head rend="ital">De la desconfiture de la bataille du roy Pierre d'Espaigne et
+comment il mourut.
+</head>
+<p>En l'an dessus dit mil CCC LXVIII, le <w type="num">XIIII<hi rend="sup">e</hi></w>  jour du mois de
+mars, le roy Henry et le roy Pierre de Castelle, des quelz chascun tenoit grant
+partie du royaume de Castelle, se combatirent assez près de Sebille la <pb n="69"/>
+</p>
+<p>Grant, et estoient avec le dit Henry pluseurs François et Bretons tenanz la
+partie du roy de France, et avecques le dit Pierre estoient pluseurs Castellains
+et Sarrazins. Et fu ycelui Pierre desconfit et tres grant foison de ses gens
+mors. Et il s'enfouy en ung chastel, qui estoit assez pres du lieu de la
+bataille, et fu suyvi par le roy Henry et par ses gens, qui se mistrent entour
+le chastel. Et ycelui Pierre, cuidant eschapper, traicta à aucuns de ceuls de la
+partie de Henry, qui estoient hors du dit chastel, à une grande somme de
+florins, pour le conduire seurement hors du dit chastel, les quelz le revelerent
+au dit Henry.</p>
+<p>Et fu ycelui Henry à l'encontre du dit Pierre, ou ses gens pour li, et pristrent
+le dit Pierre au partir du <pb n="70"/> dit chastel, et li fist le dit Henry
+couper la teste, le <w type="num">XXII<hi rend="sup">e</hi></w>  jour du dit mois. Si fu l'en liez
+en France de ceste aventure, car le dit Henry avoit tousjours tenu et encores
+tenoit la partie de France et le roy Pierre estoit aliez aus Anglois.
+Toutesvoies estoient freres les diz Henry et Pierre, mais Pierre estoit
+legitime, et Henry non, si comme l'en disoit. Si demoura le royaume tout enterin
+au dit Henry, et certainement moult de gens tenoient que ce feust advenu au dit
+Pierre, pour ce que il estoit tres mauvais homme et avoit murtri mauvaisement et
+trayteusement sa bonne femme espousée, fille du duc de Bourbon et suer de la
+royne de France.</p>
+</div>
+<div type="chapitre">
+<head rend="ital">
+De la confirmation du mariage de messire Phelippe, duc de
+Bourgongne, et de la fille au conte de Flandres, et comment Abbeville en
+Pontieu et pluseurs autres villes se rendirent au roy de France.
+</head>
+<p>L'an de grace mil CCC LXIX, le samedi après Pasques, qui fu le <w type="num">VII<hi rend="sup">e</hi></w>  jour d'avril, car Pasques furent celi an le <pb n="71"/> premier
+jour d'avril, le mariage qui longuement avoit esté traictié de messire Phelippe,
+frere du roy de France Charles, et duc de Bourgoigne, et de Marguerite, fille de
+messire Loys, conte de Flandres, fu passé et accordé par certaines manieres et
+condicions, dont mencion sera faite ci après, après ce que la cronique fera
+mencion de la solempnisacion du dit mariage en Sainte Eglise.</p>
+<p><hi rend="ital">Item,</hi> le dymenche <w type="num">XXIX<hi rend="sup">e</hi></w>  jour du dit mois
+d'avril l'an dessus dit, la ville d'Abbeville en Pontieu se rendy aus gens du
+roy de France, c'est assavoir à messire Hue de Chasteillon, maistre des
+arbalestiers du dit Roy, pour et ou nom du dit Roy, comme à leur souverain
+seigneur. Et celi jour se rendi la ville de Rue. Et celle sepmaine se rendirent
+pareillement toutes les villes, chasteaux et forteresses de la conté de Pontieu
+que le roy d'Angleterre tenoit, par tele maniere que le dit roy de France ot par
+ses gens la possession de la dite conté, en X jours après ce que la dite ville
+d'Abbeville se fu rendue, excepté une forteresse appelée Noielle, la quelle
+n'estoit pas du demaine de la dite conté, mais en estoit tenue en fief, et le
+demaine estoit à la contesse d'Aubemarle, à la quelle contesse les gens du roy
+d'Angleterre l'avoient ostée, et la tindrent messire Nicole Stamworth et autres
+Anglois qui estoient <pb n="72"/> dedenz. Et les causes pour les quelles le roy
+de France fist prendre la dite conté, et les autres terres assises en Guyenne,
+qui se mistrent en l'obeissance du roy de France et par avant estoient au roy
+d'Angleterre, seront ci après escriptes.</p>
+<p><hi rend="ital">Item,</hi> le secont jour de may, l'an dessus dit, se
+presenterent en parlement contre Edouart, prince de Galles et duc de Guyenne, le
+conte d'Armignac, messire Jehan d'Armignac, le seigneur de Lebret et pluseurs
+autres nobles, consulz, consulaz et communautez du duchié de Guyenne, les quels
+avoient appellé du dit duc de Guyenne.</p>
+</div>
+<div type="chapitre">
+<head rend="ital">Du parlement que le Roy tint sur le fait des appellacions, dont
+mencion est faite.
+</head>
+<p>Le merquedi <w type="num">IX<hi rend="sup">e</hi></w>  jour du dit mois de may, veille de
+l'Ascencion l'an dessus dit, le roy de France Charles <pb n="73"/> fu en la
+chambre de Parlement, en la maniere que le roy de France y a acoustumé de estre,
+et la royne Jehanne assise de costé le Roy, et le cardinal de Beauvés,
+chancelier de France, au dessous, ou lieu ou quel siet le premier president. Et
+de ce renc seoient les arcevesques de Reins, de Sens et de Tours, et pluseurs
+evesques jusques au nombre de XV, et pluseurs abbez <pb n="74"/> et autres gens
+d'eglise, envoiez à cele convocacion, seoient es bas bans et par terre. Et ou
+renc, où sieent les lays de Parlement, seoient les dux d'Orliens et de
+Bourgoigne, le conte d'Alençon, le conte d'Eu et le conte d'Estampes, tous des
+Fleurs de lis, et pluseurs autres nobles ; et aussi avoit en la dite chambre gens
+des bonnes villes envoiez à la dite assemblée, et autres 
+<supplied resp="#editor">en</supplied> 
+si grant nombre que toute la chambre estoit plaine. Et là fist dire et
+exposer le Roy par le dit cardinal, et après par messire Guillaume de Dormans,
+frere du dit cardinal, comment il avoit esté requis par les diz appellans du
+duchié de Guyenne, de recevoir leurs appellacions, dont dessus est faite
+mencion, et comment il avoit esté conseillié de les recevoir, et que il ne les
+povoit ne devoit reffuser, et pour ce les avoit receues, et donné adjournemens
+aus appellans contre le dit prince ; comment, pour celle cause et pour autres, le
+roy d'Angleterre avoit envoié par devers le roy de France, et comment le roy de
+France avoit envoié en Angleterre les contes de Tanquarville, de Salebruche,
+messire Guillaume de Dormans et le doyen de Paris. Et fist dire le Roy par ledit
+messire Guillaume de Dormans les responses que il avoit faites au dit roy
+d'Angleterre sur les dites requestes, <pb n="75"/> et aussi les requestes que il
+li avoient faites pour le roy de France, et la response que avoit fait sur tout
+le Conseil du roy d'Angleterre, tout en la forme et maniere que escript sera ci
+après. Et fu dit par la bouche du Roy à tous que, se ilz veoint que il eust fait
+chose que il ne deust, que ilz le deissent et il corrigeroit ce que il avoit
+fait, car il n'y avoit faite chose qui bien ne se peust adrecier, se deffaut ou
+trop avoit fait ; et fu dit à tous, tant par le Roy comme par le dit cardinal,
+que chascun y pensast et que le venredy ensuyvant refeussent bien matin en la
+dite chambre, pour dire leur avis sur ce.</p>
+<p><hi rend="ital">Item,</hi> le juedy ensuyvant, jour de l'Ascencion, à relevée, le
+Roy, la royne Jehanne et grant nombre des conseilliers du Roy, tous les prelas
+et les nobles refurent assemblez en la dite chambre de Parlement, et dist le Roy
+et fist dire par le cardinal et par messire Guillaume de Dormans, son frere, les
+causes pour les quelles il avoit receu les appeaulx, faiz du prince et de ses
+officiers, par les diz conte d'Armignac, seigneur de Lebret, et leurs adherens.
+Et dist lors le Roy que il vouloit avoir leur conseil et avis, se il avoit en
+aucune chose failli ou erré ; les quelz tous d'un accort, chascun par sa bouche,
+respondirent que le Roy avoit raisonnablement fait ce que il avoit fait, et ne
+le devoit, ne povoit reffuser, et que, se le roy d'Angleterre faisoit guerre
+pour cele cause, indeuement la feroit et sanz raison.</p>
+<p><hi rend="ital">Item,</hi> le venredi matin ensuyvant, <w type="num">XI<hi rend="sup">e</hi></w> 
+jour du dit mois de may, le Roy, la dite Royne, les prelas, les nobles, les
+bonnes villes refurent assemblez en la dite chambre de Parlement, et furent tous
+d'accort, par la <pb n="76"/> maniere que avoient esté les autres le jour
+precedent, à relevée ; et après furent leues les responses, qui avoient esté
+avisees à faire au roy d'Angleterre, sur la bille ou cedule, qui avoit esté
+bailliée as genz du roy de France en Angleterre, les quelles responses furent
+approuvées de tous ceuls de la dite assemblée. Et si fu ordené que le Roy les
+envoieroit en Angleterre au Conseil du roy d'Angleterre, et ainsi fu fait.</p>
+</div>
+</body>
+</text>
+</TEI>

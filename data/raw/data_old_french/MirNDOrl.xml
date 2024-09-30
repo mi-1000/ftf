@@ -1,0 +1,1784 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="fr">
+  <fileDesc>
+    <titleStmt>
+      <title type="main">Quatre fragments de miracles de la Vierge</title>
+      <title type="formal">MirNDOrl</title>
+      <title type="reference">MirNDOrl</title>
+      <title type="DEAF">MirNDOrlM</title>
+      <title type="gmd">transcription électronique</title>
+      <author xml:id="anonyme">anonyme</author>
+      <editor>Équipe de la Base de français médiéval - ENS de Lyon / UMR 5317 IHRIM</editor>
+      <funder>Laboratoire IHRIM</funder>
+      <funder>ANR (projet CoRPTeF)</funder>
+    </titleStmt>
+    <editionStmt>
+      <edition>transcripion électronique</edition>
+      <respStmt xml:id="encoder2">
+        <resp>conversion en XML et balisage automatique</resp>
+        <name xml:id="AL">Alexei Lavrentiev</name>
+      </respStmt>
+      <respStmt xml:id="proofreader2">
+        <resp>deuxième relecture et vérification du balisage</resp>
+        <name xml:id="BS">Bérénice Stoll</name>
+      </respStmt>
+      <respStmt xml:id="proofreader1">
+        <resp>première relecture</resp>
+        <name xml:id="DS">Dana Sleiman</name>
+      </respStmt>
+      <respStmt xml:id="encoder3">
+        <resp>validation finale</resp>
+        <name xml:id="LB">Lauranne Bertrand</name>
+      </respStmt>
+      <respStmt xml:id="digitizer2">
+        <resp>océrisation</resp>
+        <name xml:id="MAm">Marianne Amare</name>
+      </respStmt>
+    </editionStmt>
+    <extent>- Numéros de pages saisies : de 47 à 53 ;
+            - Nombre de mots d'après la base des descripteurs : <num xml:id="nb_mots_given">985</num> ;
+            - Nombre de tokens (mots et ponctuations) d'après la base des descripteurs : <num xml:id="nb_tokens_given">1153</num>.
+    </extent>
+    <publicationStmt>
+      <publisher><name>Projet BFM, ENS de Lyon / UMR 5317 IHRIM</name></publisher>
+      <address>
+        <addrLine>15, parvis René Descartes</addrLine>
+        <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+        <addrLine>Tél : 04 37 37 63 10</addrLine>
+        <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+        <addrLine>http://bfm.ens-lyon.fr</addrLine>
+      </address>
+      <idno type="bfm">http://catalog.bfm-corpus.org/MirNDOrl</idno>
+      <idno type="doi">10.34847/nkl.32fd0ho5</idno>
+      <availability status="free">
+        <licence target="https://www.etalab.gouv.fr/licence-ouverte-open-licence">
+          <ab type="availability_bfm" subtype="libre_1a">Les Conditions générales d'utilisation de la Base de Français Médiéval (http://txm.bfm-corpus.org/bfm/files/CGU.pdf), 
+            et notamment son Article 5 « PROPRIETE INTELLECTUELLE », s'appliquent à tous les textes de la BFM.</ab>
+          <ab type="how_to_cite">
+            <label>Comment citer ce texte :</label>
+            <bibl>Quatre fragments de miracles de la Vierge, édité par Paul Meyer, Paris, 1893. 
+              Publié en ligne par la Base de français médiéval, http://catalog.bfm-corpus.org/MirNDOrl.
+              Dernière révision le 2010-08-10.</bibl>
+            D'autres formules de citation de la BFM sont proposées sur la page web suivante :
+            http://bfm.ens-lyon.fr/article.php3?id_article=281.</ab>
+          <ab type="availability_file">
+            <label>Conditions d'utilisation de ce fichier :</label>
+              Ce fichier numérique est composé du corps de texte médiéval et des suppléments numériques : balisage XML-TEI, métadonnées (teiHeader), balisage du discours direct. Le texte et les suppléments numériques sont libres de droit et peuvent à ce titre être téléchargés et réutilisés librement.
+            </ab>
+            <ab type="availability_txmweb" subtype="illimité">
+              <label>Conditions d'utilisation par le portail BFM :</label>
+              Pas de limitation dans l'usage des fonctionnalités. Téléchargement autorisé.</ab>
+        </licence>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>Notice sur un manuscrit d'Orléans contenant d'anciens miracles de la Vierge en vers français</title>
+          <respStmt>
+            <resp xml:id="editor">Éditeur scientifique</resp>
+            <name type="person">Paul Meyer</name>
+          </respStmt>
+        </titleStmt>
+          <extent>7 page(s), soit 47-53
+        </extent>
+        <publicationStmt>
+          <publisher>Imprimerie Nationale</publisher>
+          <pubPlace>Paris</pubPlace>
+          <date>1893</date>
+          <idno type="sigle_DEAF">MirNDOrlM</idno>
+          <idno type="cote_biblio">ENC : 4Q4</idno>
+        </publicationStmt>
+      </biblFull>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p>Projet :<name type="project">BFM - Base de français médiéval</name>
+        Resp. : <name type="person">Céline Guillot-Barbance</name>
+        Équipe : Base de français médiéval
+        Laboratoire : UMR 5317 IHRIM
+        Institution : ENS de Lyon
+        <address>
+          <addrLine>15, parvis René Descartes</addrLine>
+          <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+          <addrLine>Tél : 04 37 37 63 10</addrLine>
+          <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+          <addrLine>http://bfm.ens-lyon.fr</addrLine>
+        </address>
+      </p>
+    </projectDesc>
+    <editorialDecl>
+      <p>Voir le <ref target="http://bfm.ens-lyon.fr/IMG/pdf/Manuel_Encodage_TEI.pdf">Manuel d'encodage XML-TEI de la BFM</ref>
+        et les <ref target="http://bfm.ens-lyon.fr/IMG/pdf/Consignes_BFM.pdf">Consignes aux relecteurs de la BFM</ref>.</p>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="ab" occurs="8"/>
+        <tagUsage gi="body" occurs="1"/>
+        <tagUsage gi="div" occurs="4"/>
+        <tagUsage gi="ex" occurs="1"/>
+        <tagUsage gi="expan" occurs="27"/>
+        <tagUsage gi="gap" occurs="11"/>
+        <tagUsage gi="head" occurs="3"/>
+        <tagUsage gi="hi" occurs="3"/>
+        <tagUsage gi="lb" occurs="174"/>
+        <tagUsage gi="milestone" occurs="8"/>
+        <tagUsage gi="note" occurs="1"/>
+        <tagUsage gi="pb" occurs="7"/>
+        <tagUsage gi="q" occurs="5"/>
+        <tagUsage gi="s" occurs="52"/>
+        <tagUsage gi="supplied" occurs="74"/>
+        <tagUsage gi="text" occurs="1"/>
+        <tagUsage gi="unclear" occurs="2"/>
+        <tagUsage gi="w" occurs="1125"/>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <creation>
+      <name type="author">anonyme</name>
+      <title>Quatre fragments de miracles de la Vierge</title>
+      <date type="compo" when="1175-01-01" notBefore="1150-01-01" notAfter="1199-01-01" n="12">2e m. 12e s.</date>
+      <date type="compo_periode">ancien</date>
+      <date type="compo_sous_siecle" n="12_3">fin</date>
+      <date type="ms" when="1175-01-01" notBefore="1150-01-01" notAfter="1199-01-01">2e m. 12e s.</date>
+      <idno type="msIdentifier">Orléans, BM, 1462</idno>
+      <region type="dialecte_auteur">anglo-normand</region>
+    </creation>
+    <langUsage>
+      <language ident="fro" usage="100">Le texte est entièrement écrit en vers en ancien français.</language>
+    </langUsage>
+    <textDesc>
+      <channel mode="w">print</channel>
+      <constitution type="single"/>
+      <derivation type="original"/>
+      <domain type="religieux"/>
+    <factuality type="inapplicable"/>
+      <interaction type="none"/>
+      <preparedness type="prepared"/>
+      <purpose type="narrative"/></textDesc>
+    <textClass>
+      <keywords scheme="http://authorities.bfm-corpus.org">
+        <term type="domaine">religieux</term>
+        <term type="genre">miracle</term>
+        <term type="forme">vers</term>
+        <term type="relation">original</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change who="#AL" when="2009-01-14">création du descripteur</change>
+    <change who="#MAm" when="2009-03-26">scannage</change>
+    <change who="#MAm" when="2009-06-19">océrisation</change>
+    <change who="#AL" when="2009-12-10">préparation à la relecture 1</change>
+    <change who="#DS" when="2009-12-13">première relecture</change>
+    <change who="#AL" when="2010-04-22">conversion en XML et balisage automatique</change>
+    <change who="#BS" when="2010-06-19">deuxième relecture et vérification du balisage</change>
+    <change who="#LB" when="2010-08-10">validation finale</change>
+    <change when="2010-08-10">Dernière modification du texte</change>
+    <change when="2022-11-04">Création de cet entête</change>
+  </revisionDesc>
+</teiHeader>
+<text> 
+<pb n="47"/> 
+ 
+<body> 
+<div type="miracle" n="I"> 
+<ab type="gv"> 
+<gap rend="points"/> 
+<milestone unit="folio" n="1r"/> 
+<lb n="1"/> 
+<q> 
+<s n="1">
+<w type="pon" n="1">«</w>
+<w n="2">Se</w>
+<w n="3">pre<supplied resp="#editor" rend="word_part;crochets">n</supplied>z</w>
+<w n="4">od</w>
+<w n="5">tei</w>
+<w n="6">les</w>
+<w n="7">treis</w>
+<w n="8">enfanz</w>
+<lb n="2" rend="alinea"/> 
+<w n="9">Ne</w>
+<w n="10">te</w>
+<w n="11">serrad</w>
+<w n="12">li</w>
+<w n="13">fais</w>
+<w n="14">pesanz</w>
+<w type="pon" n="15">.</w>
+<w type="pon" n="16">»</w>
+</s>
+</q> 
+<lb n="3"/> 
+<s n="2">
+<w n="17">Trestot</w>
+<w n="18">l'</w>
+<w n="19">engin</w>
+<w n="20">li</w>
+<w n="21">ad</w>
+<w n="22">mostréd</w>
+<lb n="4" rend="alinea"/> 
+<w n="23">E</w>
+<w n="24">par</w>
+<w n="25">parole</w>
+<w n="26">devisét</w>
+<w type="pon" n="27">,</w>
+<lb n="5"/> 
+<w n="28">E</w>
+<w n="29">al</w>
+<w n="30">partyr</w>
+<w n="31">si</w>
+<w n="32">li</w>
+<w n="33">recorde</w>
+<lb n="6" rend="alinea"/> 
+<w n="34">Com</w>
+<w n="35">fermer</w>
+<w n="36">deit</w>
+<w n="37">chascune</w>
+<w n="38">corde</w>
+<w type="pon" n="39">.</w>
+<lb n="7"/> 
+</s>
+<s n="3">
+<w n="40">Quant</w>
+<w n="41">l'</w>
+<w n="42">albe</w>
+<w n="43">pert</w>
+<expan> 
+<w n="44">et</w>
+</expan> 
+<w n="45">cil</w>
+<w n="46">s'</w>
+<w n="47">esveille</w>
+<w type="pon" n="48">,</w>
+<lb n="8" rend="alinea"/> 
+<w n="49">Vient</w>
+<w n="50">al</w>
+<w n="51">enging</w>
+<w type="pon" n="52">,</w>
+<w n="53">sil</w>
+<w n="54">appareille</w>
+<w type="pon" n="55">;</w>
+<lb n="9"/> 
+<w n="56">Comencier</w>
+<w n="57">vait</w>
+<w n="58">a</w>
+<w n="59">grant</w>
+<w n="60">esspleit</w>
+<lb n="10" rend="alinea"/> 
+<w n="61">Ceo</w>
+<w n="62">que</w>
+<w n="63">comandét</w>
+<w n="64">li</w>
+<w n="65">esteit</w>
+<w type="pon" n="66">:</w>
+<lb n="11"/> 
+<w n="67">Les</w>
+<w n="68">cordes</w>
+<w n="69">freme</w>
+<expan> 
+<w n="70">et</w>
+</expan> 
+<w n="71">les</w>
+<w n="72">fuz</w>
+<w n="73">dole</w>
+<w type="pon" n="74">,</w>
+<lb n="12" rend="alinea"/> 
+<w n="75">Puis</w>
+<w n="76">prent</w>
+<w n="77">treis</w>
+<w n="78">clergonez</w>
+<w n="79">d'</w>
+<w n="80">escole</w>
+<w type="pon" n="81">,</w>
+<lb n="13"/> 
+<w n="82">As</w>
+<w n="83">granz</w>
+<w n="84">columbes</w>
+<w n="85">les</w>
+<w n="86">ajoste</w>
+<lb n="14" rend="alinea"/> 
+<w n="87">Dont</w>
+<w n="88">la</w>
+<w n="89">pesors</w>
+<w n="90">point</w>
+<w n="91">ne</w>
+<w n="92">lor</w>
+<w n="93">coste</w>
+<w type="pon" n="94">.</w>
+<lb n="15"/> 
+</s>
+<s n="4">
+<w n="95">Il</w>
+<w n="96">sachent</w>
+<w n="97">sus</w>
+<w n="98">la</w>
+<w n="99">pesantume</w>
+<w type="pon" n="100">:</w>
+<lb n="16" rend="alinea"/> 
+<w n="101">Ne</w>
+<w n="102">lor</w>
+<w n="103">costat</w>
+<w n="104">que</w>
+<w n="105">une</w>
+<w n="106">plume</w>
+<w type="pon" n="107">.</w>
+<lb n="17"/> 
+</s>
+<s n="5">
+<w n="108">Les</w>
+<w n="109">pilers</w>
+<w n="110">mettent</w>
+<w n="111">en</w>
+<w n="112">estant</w>
+<lb n="18" rend="alinea"/> 
+<w n="113">Ki</w>
+<w n="114">sunt</w>
+<w n="115">de</w>
+<w n="116">marbre</w>
+<w n="117">ahoege</w>
+<expan> 
+<w n="118">et</w>
+</expan> 
+<w n="119">grant</w>
+<w type="pon" n="120">.</w>
+<lb n="19"/> 
+</s>
+<s n="6">
+<w n="121">Com</w>
+<w n="122">qu'</w>
+<w n="123">il</w>
+<w n="124">seient</w>
+<expan> 
+<w n="125">et</w>
+</expan> 
+<w n="126">lonc</w>
+<expan> 
+<w n="127">et</w>
+</expan> 
+<w n="128">gros</w>
+<w type="pon" n="129">,</w>
+<lb n="20" rend="alinea"/> 
+<w n="130">Ne</w>
+<w n="131">lor</w>
+<w n="132">en</w>
+<w n="133">dolent</w>
+<w n="134">nerf</w>
+<w n="135">net</w>
+<w n="136">os</w>
+<w type="pon" n="137">;</w>
+<lb n="21"/> 
+<w n="138">Li</w>
+<w n="139">quatre</w>
+<w n="140">font</w>
+<w type="pon" n="141">,</w>
+<w n="142">sanz</w>
+<w n="143">eols</w>
+<w n="144">grever</w>
+<w type="pon" n="145">,</w>
+<lb n="22"/> 
+<gap rend="points"/> 
+<milestone unit="folio" n="1v"/> 
+<lb n="23"/> 
+<w n="146"><supplied resp="#editor" rend="word_part;ital">Nu</supplied>ls</w>
+<w n="147">oem</w>
+<w n="148">nel</w>
+<w n="149">out</w>
+<w n="150">ne</w>
+<w n="151">s'</w>
+<w n="152">i</w>
+<w n="153">esmove</w>
+<lb n="24" rend="alinea"/> 
+<w n="154">Et</w>
+<w n="155">le</w>
+<w n="156">miracle</w>
+<w n="157">a</w>
+<w n="158">veir</w>
+<w n="159">n'</w>
+<w n="160">esproeve</w>
+<w type="pon" n="161">.</w>
+<lb n="25"/> 
+</s>
+<s n="7">
+<w n="162"><supplied resp="#editor" rend="word_part;ital">C</supplied>hascuns</w>
+<w n="163">ki'</w>
+<w n="164">n</w>
+<w n="165">oït</w>
+<w n="166">noveler</w>
+<lb n="26" rend="alinea"/> 
+<w n="167"><supplied resp="#editor" rend="word_part;ital">V</supplied>int</w>
+<w n="168">la</w>
+<w n="169">merveille</w>
+<w n="170">sormirer</w>
+<w type="pon" n="171">,</w>
+<pb n="48"/> 
+<lb n="27"/> 
+<w n="172"><supplied resp="#editor" rend="word_part;ital">Tui</supplied>t</w>
+<w n="173">cil</w>
+<w n="174">d'</w>
+<w n="175">oltre</w>
+<w n="176">lo</w>
+<w n="177">Braz</w>
+<w n="178">Saint</w>
+<w n="179">Jorie</w>
+<lb n="28" rend="alinea"/> 
+<gap rend="points"/> 
+<w n="180">uirent</w>
+<w n="181">la</w>
+<w n="182">la</w>
+<w n="183">victorie</w>
+<w type="pon" n="184">,</w>
+<lb n="29"/> 
+<supplied resp="#editor" rend="ital">
+<w n="185">A</w>
+<w n="186">la</w>
+</supplied>
+<w n="187">pulcele</w>
+<w n="188">ki</w>
+<w n="189">ceo</w>
+<w n="190">fist</w>
+<w type="pon" n="191">,</w>
+<lb n="30" rend="alinea"/> 
+<supplied resp="#editor" rend="ital">
+<w n="192">E</w>
+</supplied>
+<w n="193">a</w>
+<w n="194">son</w>
+<w n="195">fiz</w>
+<w n="196">Deu</w>
+<w n="197">Jhesu</w>
+<expan> 
+<w n="198"><ex>Chr</ex>ist</w>
+</expan> 
+<lb n="31"/> 
+<supplied resp="#editor" rend="ital">
+<w n="199">En</w>
+</supplied>
+<w n="200">dirent</w>
+<w n="201">glorie</w>
+<w type="pon" n="202">,</w>
+<w n="203">grace</w>
+<w type="pon" n="204">,</w>
+<w n="205">onors</w>
+<lb n="32" rend="alinea"/> 
+<supplied resp="#editor" rend="ital">
+<w n="206">Qu'</w>
+</supplied>
+<w n="207">il</w>
+<w n="208">toz</w>
+<w n="209">tens</w>
+<w n="210">aient</w>
+<w n="211">sanz</w>
+<w n="212">decors</w>
+<w type="pon" n="213">,</w>
+<lb n="33"/> 
+<supplied resp="#editor" rend="ital">
+<w n="214">Et</w>
+</supplied>
+<w n="215">nos</w>
+<w n="216">en</w>
+<w n="217">facent</w>
+<w n="218">parçoniers</w>
+<lb n="34" rend="alinea"/> 
+<supplied resp="#editor" rend="ital">
+<w n="219">La</w>
+</supplied>
+<w n="220">u</w>
+<w n="221">li</w>
+<w n="222">biens</w>
+<w n="223">est</w>
+<w n="224">plus</w>
+<w n="225">pleniers</w>
+<w type="pon" n="226">.</w>
+</s>
+<s n="8">
+<hi rend="pmaj">
+<w n="227">Amen</w>
+</hi>
+<w type="pon" n="228">.</w>
+</s>
+</ab> 
+</div> 
+<div type="miracle" n="II"> 
+<head xml:lang="la"> 
+<s n="9">
+<w n="229">DE</w>
+<w n="230">MONACHIS</w>
+<w n="231">FAME</w>
+<w n="232">PERICLITANTIBUS</w>
+<w n="233">APUD</w>
+<w n="234">JEROSOLIMAM</w>
+<w type="pon" n="235">.</w>
+</s>
+</head> 
+<ab type="gv"> 
+<lb n="1"/> 
+<s n="10">
+<supplied resp="#editor" rend="ital">
+<w n="236">Il</w>
+</supplied>
+<w n="237">ad</w>
+<w n="238">dedenz</w>
+<w n="239">Jerusalem</w>
+<lb n="2" rend="alinea"/> 
+<supplied resp="#editor" rend="ital">
+<w n="240">Ki</w>
+</supplied>
+<w n="241">siet</w>
+<w n="242">dejuste</w>
+<w n="243">Belle<supplied resp="#editor" rend="word_part;crochets">e</supplied>m</w>
+<w type="pon" n="244">,</w>
+<lb n="3"/> 
+<supplied resp="#editor" rend="ital">
+<w n="245">En</w>
+</supplied>
+<w n="246"><supplied resp="#editor" rend="word_part;ital">l</supplied>a</w>
+<w n="247">citéd</w>
+<w n="248">u</w>
+<w n="249">Deus</w>
+<w n="250">por</w>
+<w n="251">nos</w>
+<lb n="4" rend="alinea"/> 
+<w n="252"><supplied resp="#editor" rend="word_part;ital">Su</supplied>frit</w>
+<w n="253">martirie<supplied resp="#editor" rend="word_part;crochets">s</supplied></w>
+<expan> 
+<w n="254">et</w>
+</expan> 
+<w n="255">dolors</w>
+<w type="pon" n="256">,</w>
+<lb n="5"/> 
+<supplied resp="#editor" rend="ital">
+<w n="257">De</w>
+</supplied>
+<w n="258"><supplied resp="#editor" rend="word_part;ital">Nost</supplied>re</w>
+<w n="259">Dame</w>
+<w n="260">une</w>
+<w n="261">abbeïe</w>
+<lb n="6" rend="alinea"/> 
+<supplied resp="#editor" rend="ital">
+<w n="262">Ki</w>
+</supplied>
+<w n="263">al</w>
+<w n="264">son</w>
+<w n="265">nom</w>
+<w n="266">fud</w>
+<w n="267">establie</w>
+<w type="pon" n="268">;</w>
+<lb n="7"/> 
+<supplied resp="#editor" rend="ital">
+<w n="269">L'</w>
+</supplied>
+<w n="270"><supplied resp="#editor" rend="word_part;ital">eg</supplied>lise</w>
+<w n="271">claime<supplied resp="#editor" rend="word_part;crochets">n</supplied>t</w>
+<w n="272">la</w>
+<w n="273">latine</w>
+<lb n="8" rend="alinea"/> 
+<supplied resp="#editor" rend="ital">
+<w n="274">Li</w>
+</supplied>
+<w n="275">Surïan</w>
+<expan> 
+<w n="276">et</w>
+</expan> 
+<w n="277">li</w>
+<w n="278">Ermine</w>
+<w type="pon" n="279">;</w>
+<lb n="9"/> 
+<gap rend="points"/> 
+<milestone unit="folio" n="2r"/> 
+<lb n="10" rend="alinea"/> 
+<w n="280">De</w>
+<w n="281">plusurs</w>
+<w n="282">omes</w>
+<w n="283">de</w>
+<w n="284">parage</w>
+<w type="pon" n="285">.</w>
+<lb n="11"/> 
+</s>
+<s n="11">
+<w n="286">De</w>
+<w n="287">vielz</w>
+<w type="pon" n="288">,</w>
+<w n="289">de</w>
+<w n="290">jofnes</w>
+<w n="291">en</w>
+<w n="292">i</w>
+<w n="293">ad</w>
+<w type="pon" n="294">,</w>
+<lb n="12" rend="alinea"/> 
+<w n="295">Selonc</w>
+<w n="296">que</w>
+<w n="297">Deus</w>
+<w n="298">les</w>
+<w n="299">aspirat</w>
+<w type="pon" n="300">.</w>
+<lb n="13"/> 
+</s>
+<s n="12">
+<w n="301">Granz</w>
+<w n="302">est</w>
+<w n="303">la</w>
+<w n="304">congregations</w>
+<lb n="14" rend="alinea"/> 
+<w n="305">Qui</w>
+<w n="306">la</w>
+<w n="307">meintient</w>
+<w n="308">devocions</w>
+<w type="pon" n="309">.</w>
+<lb n="15"/> 
+</s>
+<s n="13">
+<w n="310">Li</w>
+<w n="311">leus</w>
+<w n="312">de</w>
+<w n="313">la</w>
+<w n="314">gent</w>
+<w n="315">monïal</w>
+<lb n="16" rend="alinea"/> 
+<w n="316">N'</w>
+<w n="317">est</w>
+<w n="318">guaires</w>
+<w n="319">loing</w>
+<w n="320">del</w>
+<w n="321">Ospital</w>
+<w type="pon" n="322">:</w>
+<lb n="17"/> 
+<w n="323">Endreit</w>
+<w n="324">la</w>
+<w n="325">rue</w>
+<w n="326">est</w>
+<w n="327">del</w>
+<w n="328">Sepulchre</w>
+<lb n="18" rend="alinea"/> 
+<w n="329">U</w>
+<w n="330">Surïan</w>
+<w n="331">vendent</w>
+<w n="332">lu</w>
+<w n="333">czucre</w>
+<w type="pon" n="334">,</w>
+<pb n="49"/> 
+<lb n="19"/> 
+<w n="335">Peivre</w>
+<w type="pon" n="336">,</w>
+<w n="337">girofle</w>
+<expan> 
+<w n="338">et</w>
+</expan> 
+<w n="339">gidoal</w>
+<w type="pon" n="340">,</w>
+<lb n="20" rend="alinea"/> 
+<w n="341">Comin</w>
+<w type="pon" n="342">,</w>
+<w n="343">kanele</w>
+<expan> 
+<w n="344">et</w>
+</expan> 
+<w n="345">galingal</w>
+<lb n="21"/> 
+<w n="346">E</w>
+<w n="347">tumiame</w>
+<expan> 
+<w n="348">et</w>
+</expan> 
+<w n="349">licorice</w>
+<lb n="22" rend="alinea"/> 
+<w n="350">Et</w>
+<w n="351">scamonie</w>
+<w type="pon" n="352">,</w>
+<w n="353">estrange</w>
+<w n="354">esspice</w>
+<w type="pon" n="355">,</w>
+<lb n="23"/> 
+<w n="356">Gengibre</w>
+<w type="pon" n="357">,</w>
+<w n="358">encens</w>
+<w type="pon" n="359">,</w>
+<w n="360">basme</w>
+<expan> 
+<w n="361">et</w>
+</expan> 
+<w n="362">triacle</w>
+<lb n="24" rend="alinea"/> 
+<w n="363">Fait</w>
+<w n="364">de</w>
+<w n="365">un</w>
+<w n="366">serpen</w>
+<w n="367">par</w>
+<w n="368">grant</w>
+<w n="369">miracle</w>
+<w type="pon" n="370">,</w>
+<lb n="25"/> 
+<w n="371">Paletre</w>
+<w type="pon" n="372">,</w>
+<w n="373">mirre</w>
+<expan> 
+<w n="374">et</w>
+</expan> 
+<w n="375">aromat</w>
+<w type="pon" n="376">,</w>
+<lb n="26" rend="alinea"/> 
+<w n="377">Et</w>
+<w n="378">aloein</w>
+<w type="pon" n="379">,</w>
+<w n="380">musgheliat</w>
+<w type="pon" n="381">,</w>
+<lb n="27"/> 
+<w n="382">Azzor</w>
+<w n="383">grezzeis</w>
+<expan> 
+<w n="384">et</w>
+</expan> 
+<w n="385">orpiment</w>
+<w type="pon" n="386">,</w>
+<lb n="28" rend="alinea"/> 
+<w n="387">Vert</w>
+<w type="pon" n="388">,</w>
+<w n="389">vermeillon</w>
+<w type="pon" n="390">,</w>
+<w n="391">entoskement</w>
+<w type="pon" n="392">,</w>
+<lb n="29"/> 
+<w n="393">Esmaragdes</w>
+<w type="pon" n="394">,</w>
+<w n="395">jagonces</w>
+<w type="pon" n="396">,</w>
+<w n="397">jasspes</w>
+<w type="pon" n="398">,</w>
+<lb n="30" rend="alinea"/> 
+<w n="399">Katablatis</w>
+<w type="pon" n="400">,</w>
+<w n="401">boffuz</w>
+<w type="pon" n="402">,</w>
+<w n="403">dïaspes</w>
+<w type="pon" n="404">,</w>
+<lb n="31"/> 
+<unclear resp="#editor" reason="lettres_rognées">
+<w n="405">Palies</w>
+<hi rend="parentheses">
+<w type="pon" n="406">?</w>
+</hi>
+</unclear>
+</s>
+<gap rend="points"/> 
+<milestone unit="folio" n="2v"/> 
+<lb n="32" rend="alinea"/> 
+<s n="14">
+<w n="407">P</w>
+<gap rend="points"/> 
+<expan> 
+<w n="408">et</w>
+</expan> 
+<unclear resp="#editor" reason="lettres_rognées">
+<w n="409">gonfanom</w>
+<hi rend="parentheses">
+<w type="pon" n="410">?</w>
+</hi>
+</unclear>
+</s>
+<s n="15">
+<w type="pon" n="411">.</w>
+<lb n="33"/> 
+<w n="412">Molt</w>
+<w n="413">est</w>
+<w n="414">diverse</w>
+<w n="415">la</w>
+<w n="416">divice</w>
+<lb n="34" rend="alinea"/> 
+<w n="417">Qu'</w>
+<w n="418">oem</w>
+<w n="419">vent</w>
+<w n="420">en</w>
+<w n="421">la</w>
+<w n="422">rue</w>
+<w n="423">voltice</w>
+<w type="pon" n="424">.</w>
+<lb n="35"/> 
+</s>
+<s n="16">
+<w n="425">L'</w>
+<w n="426">abeïe</w>
+<w n="427">est</w>
+<w n="428">d'</w>
+<w n="429">antiquitét</w>
+<lb n="36" rend="alinea"/> 
+<w n="430">U</w>
+<w n="431">maignent</w>
+<w n="432">li</w>
+<w n="433">bono<supplied resp="#editor" rend="word_part;crochets">ü</supplied>rét</w>
+<lb n="37"/> 
+<w n="434"><supplied resp="#editor" rend="word_part;ital">A</supplied>Nostre</w>
+<w n="435">Dame</w>
+<w n="436">obeïssant</w>
+<lb n="38" rend="alinea"/> 
+<w n="437">En</w>
+<w n="438">fait</w>
+<w type="pon" n="439">,</w>
+<w n="440">en</w>
+<w n="441">dit</w>
+<expan> 
+<w n="442">et</w>
+</expan> 
+<w n="443">en</w>
+<w n="444">semblant</w>
+<w type="pon" n="445">.</w>
+<lb n="39"/> 
+</s>
+<s n="17">
+<w n="446">Sainz</w>
+<w n="447">est</w>
+<w n="448">li</w>
+<w n="449">ordres</w>
+<w n="450">del</w>
+<w n="451">mostier</w>
+<lb n="40" rend="alinea"/> 
+<w n="452">U</w>
+<w n="453">sont</w>
+<w n="454">li</w>
+<w n="455">Deu</w>
+<w n="456">gomfanonier</w>
+<w type="pon" n="457">;</w>
+<lb n="41"/> 
+<w n="458">Genz</w>
+<w n="459">est</w>
+<w n="460">del</w>
+<w n="461">poeple</w>
+<w n="462">li</w>
+<w n="463">aporz</w>
+<lb n="42" rend="alinea"/> 
+<w n="464">Et</w>
+<w n="465">por</w>
+<w n="466">les</w>
+<w n="467">vis</w>
+<expan> 
+<w n="468">et</w>
+</expan> 
+<w n="469">por</w>
+<w n="470">les</w>
+<w n="471">morz</w>
+<w type="pon" n="472">,</w>
+<lb n="43"/> 
+<w n="473">La</w>
+<w n="474">chose</w>
+<w n="475">granz</w>
+<w type="pon" n="476">,</w>
+<w n="477">ki</w>
+<w n="478">la</w>
+<w n="479">devise</w>
+<w type="pon" n="480">,</w>
+<lb n="44" rend="alinea"/> 
+<w n="481">Ki</w>
+<w n="482">en</w>
+<w n="483">almosne</w>
+<w n="484">i</w>
+<w n="485">est</w>
+<w n="486">asise</w>
+<w type="pon" n="487">.</w>
+<lb n="45"/> 
+</s>
+<s n="18">
+<w n="488">Ore</w>
+<w n="489">avint</w>
+<w n="490">si</w>
+<w n="491">qu'</w>
+<w n="492">a</w>
+<w n="493">un</w>
+<w n="494">termine</w>
+<lb n="46" rend="alinea"/> 
+<w n="495">Orent</w>
+<w n="496">li</w>
+<w n="497">moine</w>
+<w n="498">grant</w>
+<w n="499">famine</w>
+<w type="pon" n="500">,</w>
+<lb n="47"/> 
+<w n="501">E</w>
+<w n="502">lur</w>
+<w n="503">faillit</w>
+<w n="504">frumenz</w>
+<expan> 
+<w n="505">et</w>
+</expan> 
+<w n="506">vins</w>
+<w type="pon" n="507">,</w>
+<lb n="48" rend="alinea"/> 
+<w n="508">Oelies</w>
+<expan> 
+<w n="509">et</w>
+</expan> 
+<w n="510">fruiz</w>
+<w type="pon" n="511">,</w>
+<w n="512">peisons</w>
+<w n="513">marins</w>
+<w type="pon" n="514">.</w>
+<lb n="49"/> 
+</s>
+<s n="19">
+<w n="515">Il</w>
+<w n="516">nen</w>
+<w n="517">orent</w>
+<w n="518">dunt</w>
+<w n="519">achater</w>
+<lb n="50" rend="alinea"/> 
+<w n="520">Ne</w>
+<w n="521">le</w>
+<w n="522">digner</w>
+<w n="523">ne</w>
+<w n="524">le</w>
+<w n="525">soper</w>
+<w type="pon" n="526">.</w>
+<pb n="50"/> 
+<lb n="51"/> 
+</s>
+<s n="20">
+<w n="527">Dous</w>
+<w n="528">jorz</w>
+<w n="529">tuz</w>
+<w n="530">pleins</w>
+<w n="531">s'</w>
+<w n="532">en</w>
+<w n="533">consirerent</w>
+<w type="pon" n="534">,</w>
+<lb n="52" rend="alinea"/> 
+<w n="535">Qu'</w>
+<w n="536">onques</w>
+<w n="537">des</w>
+<w n="538">boches</w>
+<w n="539">n'</w>
+<w n="540">en</w>
+<w n="541">gosterent</w>
+<w type="pon" n="542">;</w>
+<lb n="53"/> 
+<w n="543">A</w>
+<w n="544">la</w>
+<w n="545">vïande</w>
+<gap rend="points"/> 
+</s>
+</ab> 
+</div> 
+<div type="miracle" n="III"> 
+<head xml:lang="frm"> 
+<s n="21">
+<w n="546">FIN</w>
+<w n="547">D'</w>
+<w n="548">UN</w>
+<w n="549">MIRACLE</w>
+<w n="550">DONT</w>
+<w n="551">LE</w>
+<w n="552">SUJET</w>
+<w n="553">NE</w>
+<w n="554">PEUT</w>
+<w n="555">ÊTRE</w>
+<w n="556">DÉTERMINÉ</w>
+<w type="pon" n="557">.</w>
+</s>
+</head> 
+<ab type="gv"> 
+<lb n="1"/> 
+<gap rend="points"/> 
+<milestone unit="folio" n="3r"/> 
+<lb n="2" rend="alinea"/> 
+<s n="22">
+<w n="558">Les</w>
+<w n="559">soens</w>
+<w n="560">eshalcet</w>
+<expan> 
+<w n="561">et</w>
+</expan> 
+<w n="562">reclaime</w>
+<w type="pon" n="563">.</w>
+<lb n="3"/> 
+</s>
+<s n="23">
+<w n="564">Deus</w>
+<w n="565">ki</w>
+<w n="566">en</w>
+<w n="567">li</w>
+<w n="568">prist</w>
+<w n="569">carnelment</w>
+<lb n="4" rend="alinea"/> 
+<w n="570">Humanitéd</w>
+<w n="571">por</w>
+<w n="572">salver</w>
+<w n="573">gent</w>
+<w type="pon" n="574">,</w>
+<lb n="5"/> 
+<w n="575">Quant</w>
+<w n="576">el'</w>
+<w n="577">en</w>
+<w n="578">fist</w>
+<w n="579">conception</w>
+<lb n="6" rend="alinea"/> 
+<w n="580">Pulcele</w>
+<w type="pon" n="581">,</w>
+<w n="582">en</w>
+<w n="583">digne</w>
+<w n="584">oblation</w>
+<w type="pon" n="585">,</w>
+<lb n="7"/> 
+<w n="586">S'</w>
+<w n="587">amor</w>
+<w n="588">nos</w>
+<w n="589">laist</w>
+<w n="590">si</w>
+<w n="591">deservir</w>
+<lb n="8" rend="alinea"/> 
+<w n="592">Que</w>
+<w n="593">ne</w>
+<w n="594">nos</w>
+<w n="595">poisse</w>
+<w n="596">fous</w>
+<w n="597">bruïr</w>
+<w type="pon" n="598">,</w>
+<lb n="9"/> 
+<w n="599">Ne</w>
+<w n="600">faims</w>
+<w n="601">del</w>
+<w n="602">secle</w>
+<w n="603">desorter</w>
+<w type="pon" n="604">,</w>
+<lb n="10" rend="alinea"/> 
+<w n="605">Ne</w>
+<w n="606">seiz</w>
+<w n="607">confundre</w>
+<w n="608">n'</w>
+<w n="609">acorer</w>
+<w type="pon" n="610">,</w>
+<lb n="11"/> 
+<w n="611">Qu'</w>
+<w n="612">od</w>
+<w n="613">li</w>
+<w n="614">poissoms</w>
+<w type="pon" n="615">,</w>
+<w n="616">com</w>
+<w n="617">geol</w>
+<w n="618">devis</w>
+<w type="pon" n="619">,</w>
+<lb n="12" rend="alinea"/> 
+<w n="620">La</w>
+<w n="621">glorie</w>
+<w n="622">user</w>
+<w n="623">en</w>
+<w n="624">cel</w>
+<w n="625">païs</w>
+<lb n="13"/> 
+<w n="626">U</w>
+<w n="627">ja</w>
+<w n="628">n'</w>
+<w n="629">avrat</w>
+<w type="pon" n="630">,</w>
+<w n="631">si</w>
+<w n="632">com</w>
+<w n="633">geo</w>
+<w n="634">crei</w>
+<w type="pon" n="635">,</w>
+<lb n="14" rend="alinea"/> 
+<w n="636">Mal</w>
+<w n="637">ne</w>
+<w n="638">dolor</w>
+<w n="639">ne</w>
+<w n="640">faim</w>
+<w n="641">ne</w>
+<w n="642">sei</w>
+<w type="pon" n="643">.</w>
+</s>
+</ab> 
+</div> 
+<div type="miracle" n="IV"> 
+<head xml:lang="la"> 
+<s n="24">
+<w n="644">DE</w>
+<w n="645">SANCTO</w>
+<w n="646">BASILIO</w>
+<w n="647">EPISCOPO</w>
+<w n="648">ET</w>
+<w n="649">JULIANO</w>
+<w n="650">APOST<supplied resp="#editor" rend="word_part;ital">ATA</supplied></w>
+<w type="pon" n="651">.</w>
+</s>
+</head> 
+<ab type="gv"> 
+<lb n="1"/> 
+<s n="25">
+<w n="652">Un</w>
+<w n="653">eve<supplied resp="#editor" rend="word_part;crochets">s</supplied>que</w>
+<w n="654">out</w>
+<w n="655">en</w>
+<w n="656">Cappadoce</w>
+<w type="pon" n="657">,</w>
+<lb n="2" rend="alinea"/> 
+<w n="658">Digne</w>
+<w n="659">prelat</w>
+<w n="660">de</w>
+<w n="661">evesqual</w>
+<w n="662">croce</w>
+<w type="pon" n="663">,</w>
+<lb n="3"/> 
+<w n="664">Selong</w>
+<w n="665">l'</w>
+<w n="666">esscrit</w>
+<w n="667">par</w>
+<w n="668">nom</w>
+<w n="669">B<supplied resp="#editor" rend="word_part;ital">asile</supplied></w>
+<w type="pon" n="670">,</w>
+<lb n="4" rend="alinea"/> 
+<w n="671">Ki</w>
+<w n="672">molt</w>
+<w n="673">ot</w>
+<w n="674">ceste</w>
+<w n="675">vie</w>
+<w n="676">vile</w>
+<w type="pon" n="677">.</w>
+<lb n="5"/> 
+</s>
+<s n="26">
+<w n="678">Molt</w>
+<w n="679">amat</w>
+<w n="680">Deu</w>
+<expan>
+<w n="681">et</w>
+</expan>
+<note resp="#AL" type="internal">abréviation perluète</note>
+<w n="682">or</w>
+<w n="683">le</w>
+<w n="684">trove</w>
+<w type="pon" n="685">,</w>
+<lb n="6" rend="alinea"/> 
+<w n="686">Car</w>
+<w n="687">tot</w>
+<w n="688">li</w>
+<w n="689">fait</w>
+<w n="690">quancqu'</w>
+<w n="691">il</w>
+<w n="692">li</w>
+<w n="693">rove</w>
+<w type="pon" n="694">.</w>
+<pb n="51"/> 
+<lb n="7"/> 
+</s>
+<s n="27">
+<w n="695">De</w>
+<w n="696">sa</w>
+<w n="697">deserte</w>
+<w n="698">ad</w>
+<w n="699">son</w>
+<w n="700">loier</w>
+<lb n="8" rend="alinea"/> 
+<w n="701">En</w>
+<w n="702">pareïs</w>
+<w n="703">sanz</w>
+<w n="704">termeier</w>
+<w type="pon" n="705">,</w>
+<lb n="9"/> 
+<supplied resp="#editor" rend="ital">
+<w n="706">Por</w>
+</supplied>
+<w n="707"><supplied resp="#editor" rend="word_part;ital">t</supplied>oz</w>
+<w n="708">tens</w>
+<w n="709">maindre</w>
+<w n="710">en</w>
+<w n="711">veritét</w>
+<milestone unit="folio" n="3v"/> 
+<lb n="10" rend="alinea"/> 
+<supplied resp="#editor" rend="ital">
+<w n="712">E</w>
+</supplied>
+<w n="713">en</w>
+<w n="714">parfaite</w>
+<w n="715">caritéd</w>
+<w type="pon" n="716">.</w>
+<lb n="11"/> 
+</s>
+<s n="28">
+<supplied resp="#editor" rend="ital">
+<w n="717">Dit</w>
+</supplied>
+<w n="718">est</w>
+<w n="719">es</w>
+<w n="720">Deu</w>
+<w n="721">commandemenz</w>
+<lb n="12" rend="alinea"/> 
+<supplied resp="#editor" rend="ital">
+<w n="722">E</w>
+</supplied>
+<w n="723">fait</w>
+<w n="724">en</w>
+<w n="725">est</w>
+<w n="726">devisemenz</w>
+<w type="pon" n="727">.</w>
+<lb n="13"/> 
+</s>
+<s n="29">
+<supplied resp="#editor" rend="ital">
+<w n="728">Un</w>
+</supplied>
+<w n="729"><supplied resp="#editor" rend="word_part;ital">jo</supplied>r</w>
+<w n="730">errot</w>
+<w n="731">li</w>
+<w n="732">cristïens</w>
+<lb n="14" rend="alinea"/> 
+<supplied resp="#editor" rend="ital">
+<w n="733">A</w>
+</supplied>
+<w n="734"><supplied resp="#editor" rend="word_part;ital">i</supplied>cel</w>
+<w n="735">tens</w>
+<w n="736">que</w>
+<w n="737">Julïens</w>
+<w type="pon" n="738">,</w>
+<lb n="15"/> 
+<supplied resp="#editor" rend="ital">
+<w n="739">Li</w>
+</supplied>
+<w n="740"><supplied resp="#editor" rend="word_part;ital">em</supplied>pereres</w>
+<w type="pon" n="741">,</w>
+<w n="742">li</w>
+<w n="743">tiranz</w>
+<w type="pon" n="744">,</w>
+<lb n="16" rend="alinea"/> 
+<supplied resp="#editor" rend="ital">
+<w n="745">Li</w>
+</supplied>
+<w n="746">adversaries</w>
+<w n="747">soduianz</w>
+<w type="pon" n="748">,</w>
+<lb n="17"/> 
+<supplied resp="#editor" rend="ital">
+<w n="749">Qui</w>
+<w n="750">Deu</w>
+</supplied>
+<w n="751">guerpist</w>
+<w n="752">por</w>
+<w n="753">aveir</w>
+<w n="754">Rome</w>
+<w type="pon" n="755">,</w>
+<lb n="18" rend="alinea"/> 
+<supplied resp="#editor" rend="ital">
+<w n="756">Com</w>
+</supplied>
+<w n="757">l'</w>
+<w n="758">escripture</w>
+<w n="759">le</w>
+<w n="760">renome</w>
+<w type="pon" n="761">,</w>
+<lb n="19"/> 
+<supplied resp="#editor" rend="ital">
+<w n="762">Alat</w>
+</supplied>
+<w n="763">destruire</w>
+<w n="764">cels</w>
+<w n="765">de</w>
+<w n="766">Perse</w>
+<w type="pon" n="767">,</w>
+<lb n="20" rend="alinea"/> 
+<w n="768"><supplied resp="#editor" rend="word_part;ital">Icel</supplied>e</w>
+<w n="769">pute</w>
+<w n="770">gent</w>
+<w n="771">adverse</w>
+<w type="pon" n="772">.</w>
+<lb n="21"/> 
+</s>
+<s n="30">
+<w n="773"><supplied resp="#editor" rend="word_part;ital">Jus</supplied>qu'</w>
+<w n="774">as</w>
+<w n="775">parties</w>
+<w n="776">de</w>
+<w n="777">Cesarie</w>
+<lb n="22" rend="alinea"/> 
+<w n="778"><supplied resp="#editor" rend="word_part;ital">Che</supplied>valchat</w>
+<w n="779">l'</w>
+<w n="780">ost</w>
+<w n="781">al</w>
+<w n="782">adversarie</w>
+<w type="pon" n="783">.</w>
+<lb n="23"/> 
+</s>
+<s n="31">
+<supplied resp="#editor" rend="ital">
+<w n="784">Li</w>
+</supplied>
+<w n="785"><supplied resp="#editor" rend="word_part;ital">bue</supplied>nz</w>
+<w n="786">evesques</w>
+<w n="787">l'</w>
+<w n="788">encontrat</w>
+<w type="pon" n="789">,</w>
+<lb n="24" rend="alinea"/> 
+<supplied resp="#editor" rend="ital">
+<w n="790">Sil</w>
+</supplied>
+<w n="791">reconut</w>
+<expan> 
+<w n="792">et</w>
+</expan> 
+<w n="793">saluat</w>
+<w type="pon" n="794">,</w>
+<lb n="25"/> 
+<supplied resp="#editor" rend="ital">
+<w n="795">Lui</w>
+</supplied>
+<expan> 
+<w n="796">et</w>
+</expan> 
+<w n="797">sa</w>
+<w n="798">compaignie</w>
+<w n="799">tote</w>
+<lb n="26" rend="alinea"/> 
+<supplied resp="#editor" rend="ital">
+<w n="800">Qui</w>
+</supplied>
+<w n="801"><supplied resp="#editor" rend="word_part;ital">o</supplied>d</w>
+<w n="802">lui</w>
+<w n="803">erent</w>
+<w n="804">en</w>
+<w n="805">la</w>
+<w n="806">rote</w>
+<w type="pon" n="807">.</w>
+<lb n="27"/> 
+</s>
+<s n="32">
+<supplied resp="#editor" rend="ital">
+<w n="808">Li</w>
+</supplied>
+<w n="809"><supplied resp="#editor" rend="word_part;ital">rei</supplied>s</w>
+<w n="810">conut</w>
+<w n="811">l'</w>
+<w n="812">evesque</w>
+<w n="813">aseiz</w>
+<w type="pon" n="814">,</w>
+<lb n="28" rend="alinea"/> 
+<w n="815"><supplied resp="#editor" rend="word_part;ital">Res</supplied>pont</w>
+<w n="816">contraries</w>
+<expan> 
+<w n="817">et</w>
+</expan> 
+<w n="818">afez</w>
+<w type="pon" n="819">:</w>
+<lb n="29"/> 
+</s>
+<q> 
+<s n="33">
+<w type="pon" n="820">«</w>
+<w n="821"><supplied resp="#editor" rend="word_part;ital">Basili</supplied>e</w>
+<w type="pon" n="822">,</w>
+<w n="823">jeo</w>
+<w n="824">t'</w>
+<w n="825">ai</w>
+<w n="826">sormontét</w>
+<lb n="30" rend="alinea"/> 
+<supplied resp="#editor" rend="ital">
+<w n="827">De</w>
+</supplied>
+<w n="828"><supplied resp="#editor" rend="word_part;ital">bie</supplied>n</w>
+<w type="pon" n="829">,</w>
+<w n="830">d'</w>
+<w n="831">enors</w>
+<expan> 
+<w n="832">et</w>
+</expan> 
+<w n="833">de</w>
+<w n="834">bontét</w>
+<w type="pon" n="835">.</w>
+<lb n="31"/> 
+</s>
+<s n="34">
+<w n="836">-</w>
+<w n="837">Mon</w>
+<w n="838">voel</w>
+<w n="839">m'</w>
+<w n="840">oüses</w>
+<w n="841">tu</w>
+<w n="842">vencuz</w>
+<w type="pon" n="843">,</w>
+<milestone unit="folio" n="4r"/> 
+<lb n="32" rend="alinea"/> 
+<w n="844">Si</w>
+<w n="845">que</w>
+<w n="846">cerz</w>
+<w n="847">fuses</w>
+<w n="848">de</w>
+<w n="849">saluz</w>
+<w type="pon" n="850">.</w>
+<w type="pon" n="851">»</w>
+</s>
+</q> 
+<lb n="33"/> 
+<s n="35">
+<w n="852">E</w>
+<w n="853">pur</w>
+<w n="854">chertét</w>
+<expan> 
+<w n="855">et</w>
+</expan> 
+<w n="856">pur</w>
+<w n="857">amor</w>
+<lb n="34" rend="alinea"/> 
+<w n="858">Treis</w>
+<w n="859">pains</w>
+<w n="860">presente</w>
+<w n="861">al</w>
+<w n="862">boiseor</w>
+<w type="pon" n="863">.</w>
+<lb n="35"/> 
+</s>
+<s n="36">
+<w n="864">D'</w>
+<w n="865">orge</w>
+<w n="866">esteient</w>
+<w n="867">li</w>
+<w n="868">pain</w>
+<w n="869">tuit</w>
+<w n="870">trai</w>
+<lb n="36" rend="alinea"/> 
+<w n="871">Qu'</w>
+<w n="872">offert</w>
+<w n="873">li</w>
+<w n="874">ad</w>
+<w n="875">par</w>
+<w n="876">bone</w>
+<w n="877">fei</w>
+<w type="pon" n="878">,</w>
+<pb n="52"/> 
+<lb n="37"/> 
+<w n="879">N'</w>
+<w n="880">aveit</w>
+<w n="881">nuls</w>
+<w n="882">altres</w>
+<w n="883">simeneals</w>
+<lb n="38" rend="alinea"/> 
+<w n="884">N'</w>
+<w n="885">autre</w>
+<w n="886">de</w>
+<w n="887">u</w>
+<gap rend="susp"/> 
+<w n="888">guasteal</w>
+<w type="pon" n="889">.</w>
+<lb n="39"/> 
+</s>
+<s n="37">
+<w n="890">Li</w>
+<w n="891">empereres</w>
+<w n="892">ere</w>
+<w n="893">fiers</w>
+<w type="pon" n="894">;</w>
+<lb n="40" rend="alinea"/> 
+<w n="895">Si</w>
+<w n="896">apelat</w>
+<w n="897">ses</w>
+<w n="898">despensiers</w>
+<w type="pon" n="899">:</w>
+<lb n="41"/> 
+</s>
+<q> 
+<s n="38">
+<w type="pon" n="900">«</w>
+<w n="901">Pernez</w>
+<w type="pon" n="902">,</w>
+<w n="903">ceo</w>
+<w n="904">dist</w>
+<w type="pon" n="905">,</w>
+<w n="906">cest</w>
+<w n="907">pain</w>
+<w n="908">orgin</w>
+<w type="pon" n="909">.</w>
+<lb n="42" rend="alinea"/> 
+</s>
+<s n="39">
+<w n="910">Fols</w>
+<w n="911">m'</w>
+<w n="912">aportat</w>
+<w n="913">lo</w>
+<w n="914">bléd</w>
+<w n="915">asnin</w>
+<w type="pon" n="916">.</w>
+<lb n="43"/> 
+</s>
+<s n="40">
+<w n="917">Czo</w>
+<w n="918">est</w>
+<w n="919">vïande</w>
+<w n="920">jumentels</w>
+<w type="pon" n="921">;</w>
+<lb n="44" rend="alinea"/> 
+<w n="922">En</w>
+<w n="923">vivre</w>
+<w n="924">nos</w>
+<w n="925">ad</w>
+<w n="926">fait</w>
+<w n="927">oëls</w>
+<w type="pon" n="928">;</w>
+<lb n="45"/> 
+<w n="929">Mais</w>
+<w n="930">neporquant</w>
+<w n="931">pernez</w>
+<w n="932">lo</w>
+<w n="933">pain</w>
+<w type="pon" n="934">,</w>
+<lb n="46" rend="alinea"/> 
+<w n="935">Si</w>
+<w n="936">li</w>
+<w n="937">donez</w>
+<w n="938">encontre</w>
+<w n="939">fain</w>
+<w type="pon" n="940">.</w>
+<lb n="47"/> 
+</s>
+<s n="41">
+<w n="941">Ore</w>
+<w n="942">li</w>
+<w n="943">rendez</w>
+<w n="944">fein</w>
+<w n="945">por</w>
+<w n="946">l'</w>
+<w n="947">anone</w>
+<w type="pon" n="948">;</w>
+<lb n="48" rend="alinea"/> 
+<w n="949">Ne</w>
+<w n="950">queil</w>
+<w n="951">en</w>
+<w n="952">grét</w>
+<w n="953">ceo</w>
+<w n="954">qu'</w>
+<w n="955">il</w>
+<w n="956">me</w>
+<w n="957">done</w>
+<w type="pon" n="958">.</w>
+<w type="pon" n="959">»</w>
+</s>
+</q> 
+<lb n="49"/> 
+<s n="42">
+<w n="960">Cil</w>
+<w n="961">prent</w>
+<w n="962">lo</w>
+<w n="963">fain</w>
+<w n="964">entre</w>
+<w n="965">ses</w>
+<w n="966">mains</w>
+<lb n="50" rend="alinea"/> 
+<w n="967">En</w>
+<w n="968">leu</w>
+<w n="969">de</w>
+<w n="970">guerredon</w>
+<w n="971">des</w>
+<w n="972">pains</w>
+<w type="pon" n="973">,</w>
+<lb n="51"/> 
+<w n="974">E</w>
+<w n="975">dit</w>
+<w type="pon" n="976">:</w>
+</s>
+<q> 
+<s n="43">
+<w type="pon" n="977">«</w>
+<w n="978">Reis</w>
+<w n="979">riches</w>
+<w type="pon" n="980">,</w>
+<w n="981">tu</w>
+<w n="982">mesfais</w>
+<w type="pon" n="983">;</w>
+<lb n="52" rend="alinea"/> 
+<gap rend="points"/> 
+<milestone unit="folio" n="4v"/> 
+<lb n="53"/> 
+<w n="984"><supplied resp="#editor" rend="word_part;ital">Qua</supplied>nt</w>
+<w n="985">tu</w>
+<w n="986">norris</w>
+<w n="987">tes</w>
+<w n="988">bestes</w>
+<w n="989">mues</w>
+<lb n="54" rend="alinea"/> 
+<w n="990"><supplied resp="#editor" rend="word_part;ital">S</supplied>i'</w>
+<w n="991">n</w>
+<w n="992">fais</w>
+<w n="993">a</w>
+<w n="994">Deu</w>
+<w n="995">descomvenues</w>
+<w type="pon" n="996">.</w>
+<lb n="55"/> 
+</s>
+<s n="44">
+<supplied resp="#editor" rend="ital">
+<w n="997">A</w>
+</supplied>
+<w n="998">tun</w>
+<w n="999">grét</w>
+<w n="1000">sai</w>
+<w n="1001">que</w>
+<w n="1002">m'</w>
+<w n="1003">esscarnis</w>
+<w type="pon" n="1004">.</w>
+<lb n="56" rend="alinea"/> 
+</s>
+<s n="45">
+<w n="1005"><supplied resp="#editor" rend="word_part;ital">C</supplied>eo</w>
+<w n="1006">m'</w>
+<w n="1007">as</w>
+<w n="1008">donét</w>
+<w n="1009">que</w>
+<w n="1010">ne</w>
+<w n="1011">fesis</w>
+<w type="pon" n="1012">.</w>
+<w type="pon" n="1013">»</w>
+</s>
+</q> 
+<lb n="57"/> 
+<s n="46">
+<w n="1014"><supplied resp="#editor" rend="word_part;ital">En</supplied>tent</w>
+<w n="1015">Julïens</w>
+<w n="1016">lo</w>
+<w n="1017">regret</w>
+<w type="pon" n="1018">:</w>
+<lb n="58" rend="alinea"/> 
+<w n="1019">Por</w>
+<w n="1020">poi</w>
+<w n="1021">li</w>
+<w n="1022">queors</w>
+<w n="1023">ne</w>
+<w n="1024">li</w>
+<w n="1025">remet</w>
+<w type="pon" n="1026">.</w>
+<lb n="59"/> 
+</s>
+<s n="47">
+<supplied resp="#editor" rend="ital">
+<w n="1027">Li</w>
+</supplied>
+<w n="1028">sancs</w>
+<w n="1029">li</w>
+<w n="1030">montet</w>
+<w n="1031">sus</w>
+<w n="1032">el</w>
+<w n="1033">vis</w>
+<w type="pon" n="1034">;</w>
+<lb n="60" rend="alinea"/> 
+<w n="1035"><supplied resp="#editor" rend="word_part;ital">Re</supplied>spont</w>
+<w type="pon" n="1036">:</w>
+</s>
+<q> 
+<s n="48">
+<w type="pon" n="1037">«</w>
+<w n="1038">Vassal</w>
+<w type="pon" n="1039">,</w>
+<w n="1040">mar</w>
+<w n="1041">le</w>
+<w n="1042">desis</w>
+<w type="pon" n="1043">!</w>
+<lb n="61"/> 
+</s>
+<s n="49">
+<w n="1044"><supplied resp="#editor" rend="word_part;ital">S</supplied>e</w>
+<w n="1045">pois</w>
+<w n="1046">de</w>
+<w n="1047">Perse</w>
+<w n="1048">revenir</w>
+<w type="pon" n="1049">,</w>
+<lb n="62" rend="alinea"/> 
+<w n="1050">Geo</w>
+<w n="1051">t'</w>
+<w n="1052">en</w>
+<w n="1053">quit</w>
+<w n="1054">faire</w>
+<w n="1055">repentir</w>
+<w type="pon" n="1056">.</w>
+<lb n="63"/> 
+</s>
+<s n="50">
+<w n="1057"><supplied resp="#editor" rend="word_part;ital">E</supplied>n</w>
+<w n="1058">leu</w>
+<w n="1059">de</w>
+<w n="1060">pain</w>
+<w n="1061">serras</w>
+<w n="1062">poüz</w>
+<lb n="64" rend="alinea"/> 
+<w n="1063">De</w>
+<w n="1064">fein</w>
+<w n="1065">qui</w>
+<w n="1066">ert</w>
+<w n="1067">en</w>
+<w n="1068">prét</w>
+<w n="1069">creüz</w>
+<w type="pon" n="1070">;</w>
+<lb n="65"/> 
+<supplied resp="#editor" rend="ital">
+<w n="1071">N'</w>
+</supplied>
+<!--<w type="pon" n="1072">'</w>-->
+<w n="1073">avras</w>
+<w n="1074">nule</w>
+<w n="1075">altre</w>
+<w n="1076">guarison</w>
+<w type="pon" n="1077">,</w>
+<pb n="53"/> 
+<lb n="66" rend="alinea"/> 
+<w n="1078">Mais</w>
+<w n="1079">de</w>
+<w n="1080">cel</w>
+<w n="1081">povre</w>
+<w n="1082">livreison</w>
+<lb n="67"/> 
+<w n="1083"><supplied resp="#editor" rend="word_part;ital">G</supplied>eo</w>
+<w n="1084">te</w>
+<w n="1085">f<supplied resp="#editor" rend="word_part;crochets">e</supplied>rai</w>
+<w type="pon" n="1086">,</w>
+<w n="1087">saches</w>
+<w n="1088">por</w>
+<w n="1089">veir</w>
+<w type="pon" n="1090">,</w>
+<lb n="68" rend="alinea"/> 
+<w n="1091">El</w>
+<w n="1092">siecle</w>
+<w n="1093">vivre</w>
+<expan> 
+<w n="1094">et</w>
+</expan> 
+<w n="1095">non</w>
+<w n="1096">valeir</w>
+<w type="pon" n="1097">.</w>
+<lb n="69"/> 
+</s>
+<s n="51">
+<w n="1098">Ta</w>
+<w n="1099">citét</w>
+<w n="1100">ert</w>
+<w n="1101">tote</w>
+<w n="1102">destruite</w>
+<lb n="70" rend="alinea"/> 
+<w n="1103">Et</w>
+<w n="1104">a</w>
+<w n="1105">grant</w>
+<w n="1106">doel</w>
+<w n="1107">ta</w>
+<w n="1108">gent</w>
+<w n="1109">deduite</w>
+<w type="pon" n="1110">.</w>
+<lb n="71"/> 
+</s>
+<s n="52">
+<supplied resp="#editor" rend="ital">
+<w n="1111">Ne</w>
+</supplied>
+<w n="1112">plaindrat</w>
+<w n="1113">mere</w>
+<w n="1114">porteüre</w>
+<lb n="72" rend="alinea"/> 
+<w n="1115">Ne</w>
+<w n="1116">peres</w>
+<w n="1117">nuls</w>
+<w n="1118">s'</w>
+<w n="1119">engendreüre</w>
+<w type="pon" n="1120">;</w>
+<lb n="73"/> 
+<w n="1121"><supplied resp="#editor" rend="word_part;ital">M</supplied>ere</w>
+<w n="1122">ne</w>
+<w n="1123">plorrat</w>
+<w n="1124">ses</w>
+<w n="1125">enfanz</w>
+<gap rend="points"/> 
+<w type="pon" n="1126">»</w>
+</s>
+</q> 
+</ab> 
+</div> 
+</body> 
+</text>
+</TEI>

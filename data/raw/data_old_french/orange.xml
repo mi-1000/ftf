@@ -1,0 +1,2190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="main">Prise d'Orange</title>
+      <title type="formal">orange</title>
+      <title type="reference">orange</title>
+      <title type="DEAF">PriseOrabR2</title>
+      <title type="gmd">transcription électronique</title>
+      <author xml:id="anonyme">anonyme</author>
+      <editor>Équipe de la Base de français médiéval - ENS de Lyon / UMR 5317 IHRIM</editor>
+      <funder>Laboratoire IHRIM</funder>
+    </titleStmt>
+    <editionStmt>
+      <edition>transcripion électronique</edition>
+      <respStmt xml:id="encoderDD">
+        <resp>balisage du discours direct</resp>
+        <name xml:id="Acollignon">Alain Collignon</name>
+      </respStmt>
+      <respStmt xml:id="encoder3">
+        <resp>correction de la numérotation des vers et vérification finale</resp>
+        <name xml:id="AL">Alexei Lavrentiev</name>
+      </respStmt>
+      <respStmt xml:id="digitizer1">
+        <resp>numérisation et relecture initiale</resp>
+        <name xml:id="inconnu">inconnu</name>
+      </respStmt>
+    </editionStmt>
+    <extent>- Numéros de pages saisies : de 43 à 121 ;
+            - Nombre de mots d'après la base des descripteurs : <num xml:id="nb_mots_given">13526</num> ;
+            - Nombre de tokens (mots et ponctuations) d'après la base des descripteurs : <num xml:id="nb_tokens_given">16153</num>.
+    </extent>
+    <publicationStmt>
+      <publisher><name>Projet BFM, ENS de Lyon / UMR 5317 IHRIM</name></publisher>
+      <address>
+        <addrLine>15, parvis René Descartes</addrLine>
+        <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+        <addrLine>Tél : 04 37 37 63 10</addrLine>
+        <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+        <addrLine>http://bfm.ens-lyon.fr</addrLine>
+      </address>
+      <idno type="bfm">http://catalog.bfm-corpus.org/orange</idno>
+      <idno type="doi">10.34847/nkl.cafd4j60</idno>
+      <availability status="free">
+        <licence target="https://www.etalab.gouv.fr/licence-ouverte-open-licence">
+          <ab type="availability_bfm" subtype="libre_1a">Les Conditions générales d'utilisation de la Base de Français Médiéval (http://txm.bfm-corpus.org/bfm/files/CGU.pdf), 
+            et notamment son Article 5 « PROPRIETE INTELLECTUELLE », s'appliquent à tous les textes de la BFM.</ab>
+          <ab type="how_to_cite">
+            <label>Comment citer ce texte :</label>
+            <bibl>Prise d'Orange, édité par C. Regnier, Paris, 1967. 
+              Publié en ligne par la Base de français médiéval, http://catalog.bfm-corpus.org/orange.
+              Dernière révision le 2021-07-07.</bibl>
+            D'autres formules de citation de la BFM sont proposées sur la page web suivante :
+            http://bfm.ens-lyon.fr/article.php3?id_article=281.</ab>
+          <ab type="availability_file">
+            <label>Conditions d'utilisation de ce fichier :</label>
+              Ce fichier numérique est composé du corps de texte médiéval et des suppléments numériques : balisage XML-TEI, métadonnées (teiHeader), balisage du discours direct. Le texte et les suppléments numériques sont libres de droit et peuvent à ce titre être téléchargés et réutilisés librement.
+            </ab>
+            <ab type="availability_txmweb" subtype="illimité">
+              <label>Conditions d'utilisation par le portail BFM :</label>
+              Pas de limitation dans l'usage des fonctionnalités. Téléchargement autorisé.</ab>
+        </licence>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>La Prise d'Orange. Chanson de geste de la fin du XIIe siècle.  Éditée d'après la rédaction AB avec introduction, notes et glossaire</title>
+          <respStmt>
+            <resp xml:id="editor">Éditeur scientifique</resp>
+            <name type="person">C. Regnier</name>
+          </respStmt>
+        </titleStmt>
+          <extent>79 page(s), soit 43-121
+        </extent>
+        <publicationStmt>
+          <publisher>Klincksieck</publisher>
+          <pubPlace>Paris</pubPlace>
+          <date>1967</date>
+          <idno type="sigle_DEAF">PriseOrabR2</idno>
+          <idno type="cote_biblio">BIU : Lettres 840.900 1 GUILo</idno>
+        </publicationStmt><seriesStmt><title>Bibliothèque française et romane ; Série B. Editions critiques de textes</title><idno type="collection">5</idno></seriesStmt>
+      </biblFull>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p>Projet :<name type="project">BFM - Base de français médiéval</name>
+        Resp. : <name type="person">Céline Guillot-Barbance</name>
+        Équipe : Base de français médiéval
+        Laboratoire : UMR 5317 IHRIM
+        Institution : ENS de Lyon
+        <address>
+          <addrLine>15, parvis René Descartes</addrLine>
+          <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+          <addrLine>Tél : 04 37 37 63 10</addrLine>
+          <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+          <addrLine>http://bfm.ens-lyon.fr</addrLine>
+        </address>
+      </p>
+    </projectDesc>
+    <editorialDecl>
+      <p>Voir le <ref target="http://bfm.ens-lyon.fr/IMG/pdf/Manuel_Encodage_TEI.pdf">Manuel d'encodage XML-TEI de la BFM</ref>
+        et les <ref target="http://bfm.ens-lyon.fr/IMG/pdf/Consignes_BFM.pdf">Consignes aux relecteurs de la BFM</ref>.</p>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="ab" occurs="65"/>
+        <tagUsage gi="body" occurs="1"/>
+        <tagUsage gi="div" occurs="1"/>
+        <tagUsage gi="lb" occurs="1888"/>
+        <tagUsage gi="milestone" occurs="48"/>
+        <tagUsage gi="note" occurs="1"/>
+        <tagUsage gi="num" occurs="69"/>
+        <tagUsage gi="pb" occurs="79"/>
+        <tagUsage gi="q" occurs="144"/>
+        <tagUsage gi="text" occurs="1"/>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <creation>
+      <name type="author">anonyme</name>
+      <title>Prise d'Orange</title>
+      <date type="compo" when="1183-01-01" notBefore="1167-01-01" notAfter="1199-01-01" n="12">fin 12e s.</date>
+      <date type="compo_periode">ancien</date>
+      <date type="compo_sous_siecle" n="12_3">fin</date>
+      <date type="ms" when="1287-01-01" notBefore="1275-01-01" notAfter="1299-01-01">3e q. 13e s.</date>
+      <idno type="msIdentifier">BN fr. 774</idno>
+      <region type="dialecte_auteur">Nord-Est</region>
+    </creation>
+    <langUsage>
+      <language ident="fro" usage="100">Le texte est entièrement écrit en vers en ancien français.</language>
+    </langUsage>
+    <textDesc>
+      <channel mode="w">print</channel>
+      <constitution type="single"/>
+      <derivation type="original"/>
+      <domain type="littéraire"/>
+    <factuality type="fiction"/>
+      <interaction type="none"/>
+      <preparedness type="prepared"/>
+      <purpose type="narrative"/></textDesc>
+    <textClass>
+      <keywords scheme="http://authorities.bfm-corpus.org">
+        <term type="domaine">littéraire</term>
+        <term type="genre">épique</term>
+        <term type="forme">vers</term>
+        <term type="relation">original</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change who="#inconnu" when="1996-01-01">numérisation et relecture initiale</change>
+    <change who="#AL" when="2006-01-01">création du descripteur</change>
+    <change who="#AL" when="2006-01-01">conversion en XML-TEI, balisage minimal</change>
+    <change who="#Acollignon" when="2020-10-20">balisage du discours direct</change>
+    <change who="#Acollignon" when="2020-10-20">balisage de structure XML-TEI</change>
+    <change who="#AL" when="2021-07-07">correction de la numérotation des vers et vérification finale</change>
+    <change when="2021-07-07">Dernière modification du texte</change>
+    <change when="2022-11-04">Création de cet entête</change>
+  </revisionDesc>
+</teiHeader>
+<text>
+  <pb n="43"/>
+<body>
+<div part="N">
+<ab type="gv" n="1">
+ <lb n="1"/>Oëz, seignor, que Dex vos beneïe,  <milestone unit="ms-column" n="41d"/>
+<lb n="2"/>Li glorïeus, li filz sainte Marie,
+<lb n="3"/>Bone chançon que ge vos vorrai dire! 
+<lb n="4"/>Ceste n'est mie d'orgueill ne de folie, 
+<lb n="5"/>Ne de mençonge estrete ne emprise, 
+<lb n="6"/>Mes de preudomes qui Espaigne conquistrent. 
+<lb n="7"/>Icil le sevent qui en vont a Saint Gile,
+<lb n="8"/>Qui les ensaignes en ont veü a Bride: 
+<lb n="9"/>L'escu Guillelme et la targe florie,
+<lb n="10"/>Et le Bertran, son neveu, le nobile.
+<lb n="11"/>Ge ne cuit mie que ja clers m'en desdie
+<lb n="12"/>Ne escripture qu'en ait trové en livre.
+<lb n="13"/>Tuit ont chanté de la cité de Nyme:
+<lb n="14"/>Guillelmes l'a en la seue baillie,
+<lb n="15"/>Les murs hautains et les sales perrines
+<lb n="16"/>Et le palés et les chasteleries;
+<lb n="17"/>Et Dex! Orenge nen ot encore mie. 
+<lb n="18"/>Pou est des homes qui verité en die,
+<lb n="19"/>Mes g'en dirai, que de loing l'ai aprise,
+<lb n="20"/>Si com Orenge fu brisiee et malmise;
+<lb n="21"/>Ce fist Guillelmes a la chiere hardie,
+<lb n="22"/>Qui en gita les paiens d'Aumarie
+<pb n="44"/>
+  <lb n="23"/> Et ceus d'Eüsce et celz de Pincernie,
+<lb n="24"/>Ceus de Baudas et ceus de Tabarie;
+<lb n="25"/>Prist a moillier Orable la roïne;
+<lb n="26"/>Cele fu nee de la gent paienie
+<lb n="27"/>Et si fu feme le roi Tiebaut d'Aufrique,
+<lb n="28"/>Puis crut en Deu, le filz sainte Marie,
+<lb n="29"/>Et estora moustiers et abaïes.
+  <lb n="30"/>De ceus est poi qui ceste vos deïssent. </ab>
+<ab type="gv" n="2">
+  <lb n="31"/>Oëz, seignor, franc chevalier honeste!
+<lb n="32"/>Plest vos oïr chançon de bone geste: <milestone unit="ms-column" n="42a"/>
+<lb n="33"/>Si comme Orenge brisa li cuens Guillelmes?
+<lb n="34"/>Prist a moillier dame Orable la saige;
+<lb n="35"/>Cele fu feme le roi Tiebaut de Perse;
+<lb n="36"/>Ainz qu'il l'eüst a ses amors atrete,
+<lb n="37"/>En ot por voir mainte paine sofferte,
+  <lb n="38"/>Maint jor jeuné et veillié mainte vespre. </ab>
+<ab type="gv" n="3"> 
+  <lb n="39"/>Ce fu en mai el novel tens d'esté;
+<lb n="40"/>Florissent bois et verdissent cil pré,
+<lb n="41"/>Ces douces eves retraient en canel,
+<lb n="42"/>Cil oisel chantent doucement et soëf.
+<lb n="43"/>Li cuens Guillelmes s'est par matin levez,
+<lb n="44"/>Au moustier vet le servise escouter,
+<pb n="45"/>
+  <lb n="45"/> Puis s'en issi quant il fu definez
+<lb n="46"/>Et monta el palés Otran le deffaé,
+<lb n="47"/>Qu'il ot conquis par sa ruiste fierté.
+<lb n="48"/>A granz fenestres s'est alez acouter;
+<lb n="49"/>Il regarda contreval le regné, 
+<lb n="50"/>Voit l'erbe fresche et les rosiers plantez,
+<lb n="51"/>La mauviz ot et le melle chanter. 
+<lb n="52"/>Lors li remembre de grant joliveté
+<lb n="53"/>Que il soloit en France demener;
+<lb n="54"/>Bertran apele: <q>« Sire niés, ça venez.
+<lb n="55"/>De France issimes par mout grant povreté,
+<lb n="56"/>N'en amenames harpeor ne jugler
+<lb n="57"/>Ne damoisele por noz cors deporter.
+<lb n="58"/>Assez avons bons destriers sejornez
+<lb n="59"/>Et buens hauberz et bons elmes dorez,
+<lb n="60"/>Tranchanz espees et bons escuz boclez
+<lb n="61"/>Et buens espiez dont li fer sont quarrez
+<lb n="62"/>Et pain et vin et char salee et blez; 
+<lb n="63"/>Et Dex confonde Sarrazins et Esclers,
+<lb n="64"/>Qui tant nos lessent dormir et reposer,
+<lb n="65"/>Quant par efforz n'ont passee la mer 
+<lb n="66"/>Si que chascuns s'i peüst esprover!
+<lb n="67"/>Que trop m'enuist ici a sejorner; 
+<lb n="68"/>Ensement somes ça dedenz enserré
+  <lb n="69"/>Comme li hom qui est enprisonné.»</q>
+<lb n="70"/>De grant folie s'est ore dementez:
+<lb n="71"/>Ja ainz n'iert vespre ne soleill esconsez 
+<lb n="72"/>Que il orra une novele tel  <milestone unit="ms-column" n="42b"/>
+<lb n="73"/>Dont il iert mout corrocié et iré.</ab>
+  <pb n="46"/>
+<ab type="gv" n="4">
+<lb n="74"/>Or fu Guillelmes as fenestres au vent
+<lb n="75"/>Et de François tiex <num>.lx.</num> en estant 
+<lb n="76"/>N'i a celui n'ait fres hermine blanc,
+<lb n="77"/>Chauces de soie, sollers de cordoan;
+<lb n="78"/>Li plusor tienent lor fauconceaus au vent.
+<lb n="79"/>Li cuens Guillelmes ot mout le cuer joiant; 
+<lb n="80"/>Regarde aval par mi un desrubant;
+<lb n="81"/>Voit l'erbe vert, le rosier florissant
+<lb n="82"/>Et l'orïol et le melle chantant.
+<lb n="83"/>Il en apele Guïelin et Bertran,
+<lb n="84"/>Ses <num>.ii.</num> neveus que il pot amer tant: 
+<lb n="85"/><q>« Entendez moi, franc chevalier vaillant.
+<lb n="86"/>De France issimes il n'a mie lonc tens;
+<lb n="87"/>S'eüssons ore .m. puceles ceanz, 
+<lb n="88"/>De ceus de France, as genz cors avenanz, 
+<lb n="89"/>Si s'i alassent cist baron deportant 
+<lb n="90"/>Et ge meïsmes alasse donoiant, 
+<lb n="91"/>Icele chose me venist a talant. 
+<lb n="92"/>Assez avons beaus destriers auferranz
+<lb n="93"/>Et bons hauberz et bons elmes luisanz,
+<lb n="94"/>Tranchanz espiez et bons escuz pesanz,
+<lb n="95"/>Bones espees dont li heut sont d'argent
+<lb n="96"/>Et pain et vin, char salee et froment;
+<lb n="97"/>Et Dex confonde Sarrazins et Persant,
+<lb n="98"/>Quant mer ne passent par lor efforcement!
+<lb n="99"/>Des or m'anuie le sejorner ceanz,
+<lb n="100"/>Quant ge ne puis prover mon hardement.»</q>
+<lb n="101"/>De grant folie se vet or dementant:
+<pb n="47"/>
+    <lb n="102"/> Ja ainz n'iert vespre ne le soleil cochant
+<lb n="103"/>Que il orra une novele grant
+<lb n="104"/>Dont mout sera corrocié et dolant.</ab>
+ <ab type="gv" n="5">
+   <lb n="105"/>Or fu Guillelmes as fenestres del mur,
+<lb n="106"/>Et des François ot o lui <num>.c.</num> et plus,
+<lb n="107"/>N'i a celui n'ait hermine vestu.
+<lb n="108"/>Regarde aval si com li Rones bruit, 
+<lb n="109"/>Vers orïent si com le chemin fu;
+<lb n="110"/>Vit un chetif qui est de l'eve issu:
+<lb n="111"/>C'est Gillebert de la cit de Lenu.
+<lb n="112"/>Pris fu el Rosne sor un pont a un hu;  <milestone unit="ms-column" n="42c"/>
+<lb n="113"/>Dedenz Orenge l'en menerent li Tur.
+<lb n="114"/><num>.iii.</num> anz l'i ont et gardé et tenu,
+<lb n="115"/>Trusqu'a un main que jor fu aparu
+<lb n="116"/>Qu'a Deu plot bien que il en fu issu.
+<lb n="117"/>Uns Sarrazins le deslia par lui,
+<lb n="118"/>Puis l'a forment ledengié et batu.
+<lb n="119"/>Au ber en poise que tant i ot geü;
+<lb n="120"/>Par le toupet l'a sesi, sel tret jus, 
+<lb n="121"/>De son gros poing l'a si el col feru
+<lb n="122"/>Que il li brise et l'eschine et le bu,
+<lb n="123"/>Que a ses piez l'a jus mort abatu.
+<lb n="124"/>Par la fenestre s'en avale ça jus; 
+<pb n="48"/><lb n="125"/> Puis ne pot estre ne bailliez ne tenuz;
+<lb n="126"/>Desi a Nymes ne s'est aresteüz.
+<lb n="127"/>Icil dira tiex noveles encui
+<lb n="128"/>A noz barons qui parolent de bruit 
+<lb n="129"/>Que plus torra Guillelmë a anui
+<lb n="130"/>Que a deduit de dames nu a nu.</ab>
+ <ab type="gv" n="6">
+<lb n="131"/>Or fu Guillelmes as fenestres le ber;
+<lb n="132"/>Et li chetis ot le Rosne passé,
+<lb n="133"/>Monte les tertres, s'a les vaux avalé,
+<lb n="134"/>Desi a Nymes ne s'i est aresté. 
+<lb n="135"/>Par la porte entre en la bone cité;
+<lb n="136"/>Trueve Guillelme desoz le pin ramé,
+<lb n="137"/>En sa compaigne maint chevalier menbré.
+<lb n="138"/>Desoz le pin lor chantoit uns jugler
+<lb n="139"/>Vielle chançon de grant antiquité;
+<lb n="140"/>Mout par fu bone, au conte vint a gré.
+<lb n="141"/>Et Gillebert en monte le degré;
+<lb n="142"/>Voit le Guillelmes, sel prist a regarder;
+<lb n="143"/>Il le vit noir, taint et descoloré,
+<lb n="144"/>Et megre et pale, velu et descharné;
+<lb n="145"/>Cuida que fust Sarrazin ou Escler
+<lb n="146"/>Qui par efforz eüst passee mer
+<lb n="147"/>Por ses noveles noncier et escouter, 
+<lb n="148"/>Quant li chetis le prent a salüer: 
+   <lb n="149"/><q>« Cil Damedex qui fist et vin et blé,
+<lb n="150"/>Del ciel nos done et lumiere et clarté,
+<pb n="49"/>
+   <lb n="151"/> Et home et feme fet aler et parler,
+<lb n="152"/>Il saut Guillelme le marchis au cort nes, <milestone unit="ms-column" n="42d"/>
+<lb n="153"/>La flor de France et le noble barné,
+<lb n="154"/>Les poingneors que ci voi assenblé!
+<lb n="155"/>- Amis, beau frere, toi beneïe Dé!
+<lb n="156"/>Mes or nos dites, gardez nel me celez,
+<lb n="157"/>Icest Guillelme qui t'aprist a nommer?
+<lb n="158"/>- Sire, dist il, ja orroiz verité:
+<lb n="159"/>Dedenz Orenge ou ai grant piece esté;
+<lb n="160"/>Ainz ne lor poi par efforz eschaper
+<lb n="161"/>Trusqu'a un main que il fu ajorné
+<lb n="162"/>Qu'a Jhesu plot que je fui delivré. »</q>
+<lb n="163"/>Et dist Guillelmes: <q>« Dex en soit aoré!
+<lb n="164"/>Mes or me di, garde ne me celer,
+<lb n="165"/>Comment as non et de quel terre es nez?
+<lb n="166"/>- Sire, dist il, ja orroiz verité; 
+<lb n="167"/>Mes je sui mout traveilliez et penez
+<lb n="168"/>De nuiz veillier et de jorz jeüner,
+<lb n="169"/>Ge ne menjai <num>.iiii.</num> jorz a passez. »</q>
+<lb n="170"/>Et dist Guillelmes: <q>« Tu en avras assez.»</q>
+<lb n="171"/>Son chambellenc a li cuens apelé:
+<lb n="172"/><q>« Aporte li a mengier a planté
+<lb n="173"/>Et pain et vin et piment et claré,
+<lb n="174"/>Grües et jantes et poons en pevré. » </q>
+<lb n="175"/>Et cil si fist, quant i l'ot commandé.
+<lb n="176"/>Quant il se fu richement conraé,
+<pb n="50"/><lb n="177"/> As piez le conte s'asist tot de son gré,
+<lb n="178"/>Si li commence noveles a conter.</ab>
+  <ab type="gv" n="7">
+<lb n="179"/>Guillelmes vit le mesagier estrange;
+<lb n="180"/>Il l'en apele et puis si li demande:
+<lb n="181"/> <q>« Dom es tu nez, amis, et de quel regne?
+<lb n="182"/>Comment as non et ou estas en France? » </q>
+<lb n="183"/>Dist Gilleberz, qui fu de grant vaillance:
+<lb n="184"/><q>« Filz sui Guion, le duc qui tint Ardane,
+<lb n="185"/>Artois et Vermendois ot il en sa poissance.
+<lb n="186"/>Par la Borgoigne venoie d'Alemaigne,
+<lb n="187"/>Si m'en alai par l'eve de Losanne.
+<lb n="188"/>Uns venz me prist et une grant tormente,
+<lb n="189"/>Si me mena au port par devant Gene;
+<lb n="190"/>Paiens me pristrent a Lïons sor le Rosne, 
+<lb n="191"/>Si m'en menerent au port desoz Orenge. 
+<lb n="192"/>Tel forteresce n'a trusqu'au flun Jordane, <milestone unit="ms-column" n="43a"/>
+<lb n="193"/>Hauz sont les murs et la tor grant et ample,
+<lb n="194"/>Et le palés et les reconoissances. 
+<lb n="195"/>La dedenz a <num>.xx.m.</num> paiens a lances 
+<lb n="196"/>Et <num>.vii.xx.</num> Turs qui ont chieres ensaignes, 
+<lb n="197"/>Qui mout bien gardent cele cité d'Orenge,
+<lb n="198"/>Que mout redoutent Looÿs ne la praigne
+<lb n="199"/>Et vos, beau sire, et les barons de France;
+<pb n="51"/>
+    <lb n="200"/> Et Arragons, uns riches rois aufaigne,
+<lb n="201"/>Filz est Tiebaut de la terre d'Espaigne;
+<lb n="202"/>Et dame Orable, une roïne gente,
+<lb n="203"/>Il n'a si bele desi en Orïente,
+<lb n="204"/>Bel a le cors, eschevie est et gente,
+<lb n="205"/>Blanche la char comme la flor en l'ente.
+<lb n="206"/>Dex! mar i fu ses cors et sa jovente,
+<lb n="207"/>Quant Dex ne croit, le pere omnipotente! 
+<lb n="208"/>- Voir, dit Guillelmes, mout est de grant poissance;
+<lb n="209"/>Mes, par celui en cui j'ai ma fiance,
+<lb n="210"/>Or ne quier mes porter escu ne lance
+      <lb n="211"/>Se ge par tens n'i port ma connoissance. »</q></ab>
+  <ab type="gv" n="8"> 
+   <lb n="212"/>Li cuens Guillelmes entendi le baron;
+<lb n="213"/>Dejoste lui s'asist sor un perron,
+<lb n="214"/>Il l'en apele, si li dist par amor: 
+    <lb n="215"/><q>« Amis, beaus frere, mout as bone reson;
+<lb n="216"/>Te tindrent onques Sarrazin en prison?
+<lb n="217"/>- Oïl voir, sire, <num>.iii.</num> anz et <num>.xv.</num> jorz,
+<lb n="218"/>Que ne m'en poi eschaper par estor,
+<lb n="219"/>Trusqu'a un main que Dex dona le jor 
+<lb n="220"/>C'uns Sarrazins felon et orgueillox
+<lb n="221"/>Me voloit batre com fesoit chascun jor;
+<lb n="222"/>Et gel sesi par le toupet del front, 
+<lb n="223"/>Tel li donai sor le col de mon poing
+<pb n="52"/>
+    <lb n="224"/> L'os de la gueule li esmiai trestot.
+<lb n="225"/>Par la fenestre m'en eschapai tot sol
+<lb n="226"/>C'onques ne fu perceüz de nul d'ous.
+<lb n="227"/>Ving a Beaucaire, au port soz Oriflor... 
+<lb n="228"/>[...]
+<lb n="229"/>Tur et Persant et li rois d'Arragon, 
+<lb n="230"/>Li ainznez filz a Tiebaut l'Esclavon; 
+<lb n="231"/>Granz est et gros et parcreüz et lons, 
+<lb n="232"/>Lee la teste et enbarré le front 
+<lb n="233"/>Et granz les ongles et agües en son;  <milestone unit="ms-column" n="43b"/>
+<lb n="234"/>N'a tel tirant soz la chape del mont, 
+<lb n="235"/>Noz crestïens nos ocit et confont. 
+<lb n="236"/>Qui avroit ja la cité et la tor 
+<lb n="237"/>Et avroit mort cel felon traïtor 
+    <lb n="238"/>Mout avroit bien enploié son labor. » </q></ab>
+  <ab type="gv" n="9">
+    <lb n="239"/> <q><q>« Amis, beau frere, dit Guillelmes le ber,
+    <lb n="240"/>Est tele Orenge comme tu as conté? »</q>
+    <lb n="241"/>Dist Gillebert: « Ainz est meillor assez.
+<lb n="242"/>Se voiez ore le palés principel
+<lb n="243"/>Comme il est hauz et tot entor fermé!
+<lb n="244"/>Encontremont a il que regarder.
+<pb n="53"/><lb n="245"/> S'i estïez le premier jor d'esté,
+<lb n="246"/>Lors orrïez les oseillons chanter,
+<lb n="247"/>Crïer faucons et cez ostoirs müez,
+<lb n="248"/>Chevaus hennir et cez muls rechaner,
+<lb n="249"/>Ces Sarrazins deduire et deporter;
+<lb n="250"/>Ces douces herbes i flerent mout soëf,
+<lb n="251"/>Pitre et quanele, dom il i a planté.
+<lb n="252"/>La porrïez dame Orable aviser,
+<lb n="253"/>Ce est la feme a dant Tiebaut l'Escler;
+<lb n="254"/>Il n'a si bele en la crestïenté
+<lb n="255"/>N'en paienie qu'en i sache trover:
+<lb n="256"/>Bel a le cors, eschevi et mollé,
+<lb n="257"/>Et vairs les eulz comme faucon müé.
+<lb n="258"/>Tant mar i fu la seue grant beauté,
+<lb n="259"/>Quant Deu ne croit et la seue bonté!
+<lb n="260"/>Uns gentils hom s'en peüst deporter;
+    <lb n="261"/>Bien i fust sauve sel vosist creanter.»</q> 
+    <lb n="262"/>Et dist Guillelmes: <q>« Foi que doi saint Omer,
+<lb n="263"/>Amis, beau frere, bien la savez loër;
+<lb n="264"/>Mes, par celui qui tot a a sauver,
+<lb n="265"/>Ja ne quier mes lance n'escu porter
+    <lb n="266"/>Se ge nen ai la dame et la cité. »</q></ab>
+  <ab type="gv" n="10"> 
+    <lb n="267"/>«<q> Amis, beau frere, est Orenge si riche? »</q>
+    <lb n="268"/>Dist li chetis: <q>« Si m'aïst Dex, beau sire,
+<lb n="269"/>Se veïez le palés de la vile
+<lb n="270"/>Qui toz est fez a voltes et a lices! 
+<pb n="54"/>
+        <lb n="271"/> Si l'estora Grifonnez d'Aumarice,
+<lb n="272"/>Uns Sarrazins de mout merveillex vice;
+<lb n="273"/>Il ne croist fleur desi que en Pavie  <milestone unit="ms-column" n="43c"/>
+<lb n="274"/>Qui n'i soit painte a or et par mestrie.
+<lb n="275"/>La dedenz est Orable la roïne,
+<lb n="276"/>Ce est la feme au roi Tiebaut d'Aufrique;
+<lb n="277"/>Il n'a si bele en tote paienie,
+<lb n="278"/>Bel a le col, s'est gresle et eschevie,
+<lb n="279"/>Blanche a la char comme est la flor d'espine,
+<lb n="280"/>Vairs eulz et clers qui tot adés li rïent.
+<lb n="281"/>Tant mar i fu la seue gaillardie,
+<lb n="282"/>Quant Deu ne croit, le filz sainte Marie!
+<lb n="283"/>- Voir, dit Guillelmes, en grant pris l'as or mise;
+<lb n="284"/>Mes, par la foi que je doi a m'amie,
+<lb n="285"/>Ne mengerai de pain fet de ferine
+<lb n="286"/>Ne char salee, ne bevrai vin sor lie,
+<lb n="287"/>S'avrai veü com Orenge est assise;
+<lb n="288"/>Et si verrai icele tor marbrine
+<lb n="289"/>Et dame Orable, la cortoise roïne.
+<lb n="290"/>La seue amor me destreint et justise
+<lb n="291"/>Que nel porroie ne penser ne descrire;
+    <lb n="292"/>Se ge ne l'ai, par tens perdrai la vie.»</q>
+    <lb n="293"/>Dist li chetis: <q>« Vos pensez grant folie.
+<lb n="294"/>S'estïez ore el palés de la vile 
+<lb n="295"/>Et veïssiez cele gent sarrazine, 
+<pb n="55"/><lb n="296"/> Dex me confonde se cuidïez tant vivre 
+<lb n="297"/>Que ça dehors venissiez a complie! 
+    <lb n="298"/>Lessiez ester, pensé avez folie. »</q></ab>
+  <ab type="gv" n="11"> 
+ <lb n="299"/>Guillelmes ot la parole effraee 
+<lb n="300"/>Que li chetis li a dite et contee;
+<lb n="301"/>Il en apele la gent de sa contree:
+    <lb n="302"/>«<q> Conseilliez moi, franche gent hennoree.
+<lb n="303"/>Cil chetis m'a cele cité loee;
+<lb n="304"/>Ge n'i fui onques ne ne sai la contree,
+<lb n="305"/>Ci cort le Rosne, une eve desrubee;
+    <lb n="306"/>Se ce ne fust, ge l'eüsse effraee. »</q>
+    <lb n="307"/>Dist li chetis: <q>« Folie avez pensee.
+<lb n="308"/>S'estïez ore <num>.c.m.</num> as espees, 
+<lb n="309"/>A beles armes et a targes dorees,
+<lb n="310"/>Et vosissiez commencier la mellee,
+<lb n="311"/>N'i eüst eve ne nulle destornee, 
+<lb n="312"/>Ainz qu'eüssiez es granz portes l'entree,
+<lb n="313"/>I avroit il feru <num>.m.</num> cops d'espee, <milestone unit="ms-column" n="43d"/>
+<lb n="314"/>Tant cengles routes, tantes targes troees,
+<lb n="315"/>Et tant baron abatu par l'estree!
+    <lb n="316"/>Lessiez ester, folie avez pensee. »</q></ab>
+  <pb n="56"/>
+ <ab type="gv" n="12">
+   <lb n="317"/><q>« Voir, dit Guillelmes, tu m'as mis en effrois,
+<lb n="318"/>De la cité me contes orendroit
+<lb n="319"/>Que tele n'a nule ne cuens ne rois,
+<lb n="320"/>Et tu me blasmes que ne l'aille veoir!
+<lb n="321"/>Par saint Morise qu'en quiert en Aminois,
+<lb n="322"/>Ge te semoing, tu venras avec moi;
+<lb n="323"/>Mes n'i merron cheval ne palefroi
+<lb n="324"/>Ne blanc hauberc ne heaume d'Aminois
+<lb n="325"/>N'escu ne lance n'espié poitevinois,
+<lb n="326"/>Mes esclavines com chetis tapinois; 
+<lb n="327"/>Tu as el regne assez parlé turquois 
+   <lb n="328"/>Et aufriquant, bedoïn et basclois. »</q>
+<lb n="329"/>Li chetis l'ot; cuidiez que ne li poist?
+<lb n="330"/>Lors vosist estre a Chartres ou a Blois
+<lb n="331"/>Ou a Paris, en la terre le roi,
+<lb n="332"/>Quar or ne set de lui prendre conroi.</ab>
+  <ab type="gv" n="13"> 
+    <lb n="333"/>Or fu Guillelmes corrociez et plains d'ire;
+<lb n="334"/>Ses niés Bertran li commença a dire:
+    <lb n="335"/><q>« Oncle, fet il, lessiez vostre folie.
+<lb n="336"/>S'estïez ore el palés de la vile
+<lb n="337"/>Et veïssiez cele gent sarrazine,
+<lb n="338"/>Connoistront vos a la boce et au rire,
+<lb n="339"/>Si savront bien que vos estes espie.
+<lb n="340"/>Et lors, espoir, vos menront en Persie;
+<pb n="57"/><lb n="341"/> Mengeront vos sanz pain et sanz farine, 
+<lb n="342"/>Ne targeront que il ne vos ocïent,
+<lb n="343"/>Giteront vos en lor chartre perrine, 
+<lb n="344"/>N'en istroiz mes a nul jor de vo vie
+<lb n="345"/>Tant que venra le roi Tiebauz d'Aufrique
+<lb n="346"/>Et Desramez et Gollïas de Bile,
+<lb n="347"/>A lor talant feront de vos justise.
+<lb n="348"/>Se por amors estes mis a joïse,
+<lb n="349"/>Dont porra dire la gent de vostre empire
+<lb n="350"/>Que mar veïstes Orable la roïne.
+<lb n="351"/>- Voir, dit Guillelmes, ce ne redot ge mie;
+<lb n="352"/>Que, par l'apostre qu'en requiert en Galice,
+<lb n="353"/>Mielz voil morir et a perdre la vie  <milestone unit="ms-column" n="44a"/>
+<lb n="354"/>Que je menjuce de pain fet de farine,
+<lb n="355"/>De char salee ne de vin viez sor lie,
+<lb n="356"/>Einçois verrai comme Orenge est asise 
+<lb n="357"/>Et Glorïete, cele tor marberine,
+<lb n="358"/>Et dame Orable, la cortoise roïne.
+<lb n="359"/>La seue amor me destraint et jostise;
+    <lb n="360"/>Home qui aime est plains de desverie. » </q></ab>
+  <ab type="gv" n="14"> 
+  <lb n="361"/>Or fu Guillelmes por Orenge esmaiez;
+<lb n="362"/>Ses niés Bertran l'en prist a chastoier:
+    <lb n="363"/><q>« Oncle, dist il, tu te veus vergoignier
+<lb n="364"/>Et toi honnir et les membres tranchier.
+<lb n="365"/>- Voir, dit li cuens, ce ne dote ge rien;
+<lb n="366"/>Hom qui bien aime est trestoz enragiez.
+<lb n="367"/>Ge ne leroie, por les membres tranchier
+<pb n="58"/><lb n="368"/> Ne por nul home qui m'en seüst proier,
+<lb n="369"/>N'aille veoir comment Orenge siet
+<lb n="370"/>Et dame Orable qui tant fet a proisier.
+<lb n="371"/>La seue amor m'a si fort jostisié 
+<lb n="372"/>Ne puis dormir par nuit ne someillier 
+<lb n="373"/>Ne si ne puis ne boivre ne mengier 
+<lb n="374"/>Ne porter armes ne monter sor destrier 
+    <lb n="375"/>N'aler a messe ne entrer en moustier. »</q> 
+<lb n="376"/>Arrement fist tribler en un mortier
+<lb n="377"/>Et autres herbes que connoissoit li ber,
+<lb n="378"/>Et Gillebert, qui ne l'ose lessier; 
+<lb n="379"/>Lor cors en taignent et devant et derrier
+<lb n="380"/>Et les visaiges, la poitrine et les piez;
+<lb n="381"/>Tres bien resemblent deable et aversier.
+    <lb n="382"/>Dist Guïelin : <q>« Par le cors saint Richier,
+<lb n="383"/>A grant merveille estes andui changié;
+<lb n="384"/>Or poëz bien tot le monde cerchier,
+<lb n="385"/>Ne seroiz ja par nul home entercié.
+<lb n="386"/>Mes, par l'apostre qu'en a Rome requiert,
+<lb n="387"/>Ge ne leroie, por les membres tranchier,
+    <lb n="388"/>N'aille avec vos, si verrai comment iert. »</q>
+<lb n="389"/>De l'oignement s'est et taint et torchié.
+<lb n="390"/>Ez les mout bien toz trois apareilliez;
+<pb n="59"/>
+    <lb n="391"/> De la vile issent, si ont pris le congié.
+    <lb n="392"/><q>« Dex, dist Bertran, beau pere droiturier,
+<lb n="393"/>Com somes ore traï et engignié! <milestone unit="ms-column" n="44b"/>
+<lb n="394"/>Par quel folie est cest plet commencié
+<lb n="395"/>Dont nos serons honi et vergoignié,
+    <lb n="396"/>Se Dex n'en pense, qui tot a a jugier! »</q></ab>
+ <ab type="gv" n="15"> 
+   <lb n="397"/>Vet s'en Guillelmes le marchis au vis fier
+<lb n="398"/>Et Gillebert et Guïelin le fier.
+<lb n="399"/>Li cuens Bertrans est retornez arrier,
+<lb n="400"/>Et cil s'en tornent, n'i ont plus delaié.
+<lb n="401"/>Desoz Beaucaire ont le Rosne trové
+<lb n="402"/>Et a doutance l'ont il outre passé,
+<lb n="403"/>A l'aviron se nagierent soëf;
+<lb n="404"/>Puis passent Sorge sanz chalant et sanz nef,
+<lb n="405"/>Par Arragon s'en sont outre passé, 
+<lb n="406"/>Droit vers Orenge, les murs et les fossez, 
+<lb n="407"/>Les hautes sales et le palés listé
+<lb n="408"/>Et les pomeaus et les aigles dorez.
+<lb n="409"/>La dedenz oënt les oiseillons chanter,
+<lb n="410"/>Crïer faucons et cez ostoirs müez,
+<lb n="411"/>Destriers henir et cez muls recaner,
+<lb n="412"/>Cez Sarrazins en la tor deporter;
+<pb n="60"/>
+   <lb n="413"/> Pitre et quanele qui fleroient soëf, 
+<lb n="414"/>Ces douces herbes dont orent a planté.
+   <lb n="415"/><q>« Dex, dist Guillelmes, qui me feïstes né,
+<lb n="416"/>Mout a or ci tres mirable cité!
+   <lb n="417"/>Tant par est riches qui l'a a gouverner! »</q>
+<lb n="418"/>Trusqu'a la porte ne se sont aresté.
+<lb n="419"/>Gilebert a le portier apelé,
+<lb n="420"/>En son langaige l'a cortois aparlé:
+   <lb n="421"/><q>« Oevre, portier, lai nos leanz entrer;
+<lb n="422"/>Drugement somes d'Aufrique et d'outre mer,
+   <lb n="423"/>Si somes home le roi Tiebaut l'Escler. »</q>
+   <lb n="424"/>Dist le portier: <q>« Onques mes n'oï tel!
+<lb n="425"/>Vos quel gent estes qui la hors m'apelez?
+<lb n="426"/>Encor n'est mie rois Arragons levez
+<lb n="427"/>Ne ge n'os pas la porte deffermer,
+<lb n="428"/>Tant redoutons Guillelmë au cort nes
+<lb n="429"/>Qui a pris Nymes par sa ruiste fierté.
+<lb n="430"/>Estez iluec, au roi irai conter;
+<lb n="431"/>S'il le commande, enz vos lerai entrer.
+<lb n="432"/>- Alez dont tost, dist Guillelmes le ber,
+   <lb n="433"/>Isnelement, gardez ne demorez. »</q><milestone unit="ms-column" n="44c"/>
+<lb n="434"/>Et cil s'en torne sanz plus de l'arester;
+<lb n="435"/>Del palés monte les marberins degrez;
+<lb n="436"/>Arragon trueve seant lez un piler,
+<pb n="61"/>
+   <lb n="437"/> Environ lui Sarrazins et Esclers. 
+<lb n="438"/>Cortoisement l'en a araisoné:
+   <lb n="439"/><q>« Sire, dist il, envers moi entendez.
+<lb n="440"/>A cele porte a trois Turs hennorez,
+<lb n="441"/>Dïent qu'ils vienent d'Aufrique et d'outre mer.
+<lb n="442"/>- Va donc, beau frere, lai les ceanz entrer;
+<lb n="443"/>Ge lor vorroie noveles demander,
+   <lb n="444"/>Que fet mes sires, mout avra demoré. »</q> 
+<lb n="445"/>Et cil lor cort la porte deffermer.
+<lb n="446"/>Or est Guillelmes dedenz Orenge entrez
+<lb n="447"/>Et Gillebert et Guïelin le ber;
+<lb n="448"/>Mes n'en istront, si l'avront desirré; 
+<lb n="449"/>Ainz avront il paine et ahan assez. </ab>
+  <ab type="gv" n="16"> 
+    <lb n="450"/>Or fu Guillelmes en Orenge leanz
+<lb n="451"/>Et Guïelin et Gilleberz li frans.
+<lb n="452"/>Fardoillié furent d'alun et d'arrement, 
+<lb n="453"/>Tres bien resenblent Sarrazin ou tirant.
+<lb n="454"/>El palés truevent <num>.ii.</num> Sarrazins estant; 
+<lb n="455"/>Et s'entrapelent et dïent lor romant,
+    <lb n="456"/>Dist l'un a l'autre: <q>« Cist vienent d'Aufriquant;
+    <lb n="457"/>Encui orrons noveles avenanz. »</q> 
+<lb n="458"/>Li cuens Guillelmes vet tote voie avant
+<lb n="459"/>Trusqu'au palés roi Tiebaut le Persant. 
+<lb n="460"/>De marbre sont li piler et li pan
+<lb n="461"/>Et les fenestres entaillies d'argent
+<lb n="462"/>Et l'aigle d'or qui reluist et resplent; 
+<lb n="463"/>Soleil n'i luist, n'i cort goute de vent.
+    <lb n="464"/><q>« Dex, dist Guillelmes, beau pere roi amant, 
+<pb n="62"/>
+    <lb n="465"/> Qui ainz mes vit palés si bien seant?
+<lb n="466"/>Tant par est riches li sires de ceanz!
+<lb n="467"/>Que pleüst Deu, qui forma tote gent, 
+<lb n="468"/>Que ci fust ore le palazin Bertran
+<lb n="469"/>O tot <num>.x.m.</num> de François combatant!
+<lb n="470"/>Hui enterroient Sarrazin en mal an,
+    <lb n="471"/>G'en ocirroie ainz midi plus de <num>.c.</num> »</q>
+<lb n="472"/>Arragon trueve lez un piler seant,
+<lb n="473"/>Entor lui ot <num>.xv.m.</num> Persanz. <milestone unit="ms-column" n="44d"/>
+<lb n="474"/>Morz est Guillelmes se de tot ne lor ment;
+<lb n="475"/>Or orroiz ja com il lor vet disant:
+    <lb n="476"/><q>« Amirauz, sire, franc chevalier vaillant,
+    <lb n="477"/>Mahom te saut et le deu Tervagant! »</q>
+    <lb n="478"/>Dist l'amirauz: <q>« Baron, venez avant.
+<lb n="479"/>Dont venez vos? - Del regné Aufriquant,
+<lb n="480"/>De vostre pere, le roi Tiebaut poissant.
+<lb n="481"/>Hier matinet, endroit prime sonant,
+<lb n="482"/>Fumes a Nymes, la fort cité vaillant.
+<lb n="483"/>Trover cuidames le riche roi Otran
+<lb n="484"/>Et Synagon et Harpin le tirant;
+<lb n="485"/>Mort l'a Guillelmes au barnage des Frans,
+<lb n="486"/>Ocis noz homes, detranchiez et sanglanz. 
+<lb n="487"/>Nos trois ot il en sa prison leanz,
+<pb n="63"/>
+    <lb n="488"/> Mes tant est riches d'amis et de parenz
+<lb n="489"/>Que nos lessa eschaper par itant:
+    <lb n="490"/>Ne sai comment, a maufé le comment! »</q>
+    <lb n="491"/>Dist Arragon: <q>« Tant sui ge plus dolant. 
+<lb n="492"/>Par Mahomet, en cui je sui creant,
+<lb n="493"/>Se ge tenoie Guillelme ci dedenz,
+<lb n="494"/>Tost seroit morz et livrez a torment,
+    <lb n="495"/>L'os et la poldre en venteroie au vent. »</q>
+<lb n="496"/>Guillelmes l'ot, si se vet enbronchant,
+<lb n="497"/>Mielz vosist estre a Paris ou a Sanz;
+<lb n="498"/>Dex reclama, le pere, escordement:
+    <lb n="499"/><q>« Glorïeus Sire, qui formas tote gent
+<lb n="500"/>Et de la Virge fus nez en Belleant
+<lb n="501"/>Quant li troi roi vos aloient querant,
+<lb n="502"/>Et en la croiz vos penerent tirant,
+<lb n="503"/>Et de la lance fus feruz enz el flanc,
+<lb n="504"/>Ce fist Longis qui estoit non voiant,
+<lb n="505"/>Que sanc et eve l'en vint as poinz corant,
+<lb n="506"/>Tert a ses eulz, si ot alumement,
+<lb n="507"/>Si com c'est voirs que ge vois devisant,
+<lb n="508"/>Gardez noz cors de mort et de torment,
+    <lb n="509"/>Ne nos ocïent Sarrazin et Persant. »</q></ab>
+  <ab type="gv" n="17"> 
+    <lb n="510"/>Or fu Guillelmes el palés sor la tor; 
+<lb n="511"/>Il en apele ses autres compaignons
+<lb n="512"/>Bassetement por la gent paienor:
+<pb n="64"/>
+    <lb n="513"/> <q>« Seignor, dist il, nos somes en prison, <milestone unit="ms-column" n="45a"/>
+<lb n="514"/>Se Dex n'en pense par son saintisme non.
+<lb n="515"/>- Oncle Guillelmes, Guïelin li respont,
+<lb n="516"/>Gentix hom, sire, vos querïez amor;
+<lb n="517"/>Vez Glorïete, le palés et la tor,
+<lb n="518"/>Quar demandez ou les dames en sont!
+    <lb n="519"/>Bien vos poëz engaigier por bricon. »</q>
+    <lb n="520"/>Et dist li cuens: <q>« Tu dis voir, valleton. »</q>
+<lb n="521"/>Rois Arragon l'en a mis a reson:
+    <lb n="522"/><q>« Dedenz Aufrique quant fustes vos, baron?
+<lb n="523"/>- Beau sire chiers, <num>.ii.</num> mois a et plus non.
+<lb n="524"/>- Voïstes vos roi Tiebaut l'Arragon?
+<lb n="525"/>- Oïl, beau sire, a la cit de Vaudon.
+<lb n="526"/>Il nos besa, si vos mande par nos
+<lb n="527"/>Que vos gardez sa cité et s'onor.
+<lb n="528"/>Ou est sa feme? la nos mosterez vos?
+<lb n="529"/>- Oïl, seignor, dist li rois Arragon,
+<lb n="530"/>Il n'a plus bele trusqu'as nues d'amont.
+<lb n="531"/>Baron, dist il, de mon pere ai besoing:
+<lb n="532"/>François nos tolent noz palés et noz tors;
+<lb n="533"/>Ç'a fet Guillelmes, il et si dui nevou;
+<lb n="534"/>Mes, foi que doi Tervagan et Mahom,
+<lb n="535"/>Se ge tenoie Guillelme en ma prison,
+<pb n="65"/>
+    <lb n="536"/> Tost seroit ars en feu et en charbon,
+    <lb n="537"/>L'os et la poldre ventee par enson. »</q>
+<lb n="538"/>Guillelmes l'ot, si tint le chief enbron, 
+<lb n="539"/>Lors vosist estre a Rains ou a Loon;
+<lb n="540"/>Deu reclama et son glorïeus non:
+    <lb n="541"/><q>« Glorïeus peres, qui formas Lazaron
+<lb n="542"/>Et en la Virge preïs anoncïon,
+<lb n="543"/>Garis mon cors de mort et de prison,
+    <lb n="544"/>Ne nos ocïent cist Sarrazin felon. »</q></ab>
+  <ab type="gv" n="18">
+    <lb n="545"/>Or fu Guillelmes el palés seignori.
+<lb n="546"/>L'eve demandent paien et Sarrazin,
+<lb n="547"/>Metent les tables, au mengier sont assis.
+<lb n="548"/>Guillelme i sist et ses niés Guïelin;
+<lb n="549"/>Parolent bas, tienent lor chiés enclin,
+<lb n="550"/>Forment redoutent que il ne soient pris.
+<lb n="551"/>Rois Arragon les fist mout bien servir:
+<lb n="552"/>A mengier orent assez et pain et vin,
+<lb n="553"/>Grues et gentes et bons poons rostiz; <milestone unit="ms-column" n="45b"/>
+<lb n="554"/>Des autres mes ne sai que vos devis,
+<lb n="555"/>Tant en i ot com lor vint a plesir.
+<lb n="556"/>Quant ont mengié et beü a loisir,
+<lb n="557"/>Cil eschançon vont les napes tolir.
+<lb n="558"/>As eschés jeuent paien et Sarrazin;
+<lb n="559"/>Guillelmes ot le palés retentir, 
+<lb n="560"/>Qu'est entailliez de vert marbre et de bis,
+<lb n="561"/>Vit les oiseaus et les lïons escris.
+    <lb n="562"/><q>« Dex, dist li cuens, qui en la croiz fus mis,
+<lb n="563"/>Qui onques vit palés si bien seïr?
+<pb n="66"/>
+    <lb n="564"/> Quar pleüst Deu, qui onques ne menti, 
+<lb n="565"/>Que or fust ci Bertran le palazin
+<lb n="566"/>O tot <num>.xx.m.</num> de François fervesti!
+<lb n="567"/>Encui trairoient paien mout male fin,
+    <lb n="568"/>G'en ocirroie, par mon chief, <num>.iiii.xx.</num> »</q></ab>
+  <ab type="gv" n="19"> 
+    <lb n="569"/>Rois Arragon a Guillelme apelé;
+<lb n="570"/>Dejoste lui l'assiet lez un piler,
+<lb n="571"/>Enz en l'oreille li conseilla soëf:
+    <lb n="572"/><q>« Frans Turs, dist il, or m'en di verité;
+<lb n="573"/>Quieus hom est dont Guillelmes au cort nes,
+<lb n="574"/>Qui a pris Nymes par sa ruiste fierté,
+<lb n="575"/>Le roi Harpin et son frere a tüé?
+    <lb n="576"/>Ja vos ot il en sa prison rüé? »</q>
+    <lb n="577"/>Et dit Guillelmes: <q>« Ja orroiz verité.
+<lb n="578"/>Tant par est riche, menanz et assazé
+<lb n="579"/>Que il n'a cure d'or fin ne d'argent cler;
+<lb n="580"/>Ainz nos lessa por neant eschaper,
+<lb n="581"/>Mes sor noz lois nos fist il afïer, 
+<lb n="582"/>Il le te mande, nel te devon celer,
+<lb n="583"/>Que tu t'en fuies en Aufrique outre mer.
+<pb n="67"/>
+    <lb n="584"/> Ja ne verras le mois de moi passer
+<lb n="585"/>Qu'il te sivra a <num>.xx.m.</num> ferarmez; 
+<lb n="586"/>Ne te garront les tors ne li piler,
+<lb n="587"/>Les amples sales ne li parfont fossé;
+<lb n="588"/>A maus de fer te seront estroé.
+<lb n="589"/>S'il te puet prendre, a martire es livré,
+    <lb n="590"/>Penduz as forches et au vent encroé. »</q>
+    <lb n="591"/>Dist Arragon: <q>« De folie parlez.
+<lb n="592"/>Or manderai en Aufrique outre mer;
+<lb n="593"/>Venra mon pere et ses riches barnez <milestone unit="ms-column" n="45c"/>
+<lb n="594"/>Et Golïas et li rois Desramez,
+<lb n="595"/>Corsolt de Mables et son frere Aceré
+<lb n="596"/>Et Clarïaus et li rois Atriblez
+<lb n="597"/>Et Quinzepaumes et li rois Sorgalez,
+<lb n="598"/>Li rois d'Egyte et li rois Codroëz
+<lb n="599"/>Et rois Moranz et li rois Anublez
+<lb n="600"/>Et l'aufarains de Sorgremont sor mer,
+<lb n="601"/>Borreaus mes oncles et ses filz toz armez,
+<lb n="602"/>Li <num>.xxx.</num> roi qui d'Espaigne sont né;
+<lb n="603"/>Chascuns menra <num>.xx.m.</num> d'adobez,
+<lb n="604"/>Ses assaudrons as murs et as fossez.
+<lb n="605"/>Morz iert Guillelmes et a sa fin alez
+    <lb n="606"/>Et ses neveuz a forches encroëz. »</q>
+<lb n="607"/>Guillelmes l'ot, le sens cuide desver;
+<pb n="68"/>
+    <lb n="608"/> Entre ses denz a respondu soëf:
+    <lb n="609"/><q>« Par Deu, fet il, danz gloz, vos i mentez;
+<lb n="610"/>Einz en seront troi <num>.m.</num> Turs tüez 
+    <lb n="611"/>Soiez de Nymes ne princes ne chasez. » </q>
+<lb n="612"/>S'il eüst armes por son cors conraer,
+<lb n="613"/>Ja fussent tuit el palés effraez,
+<lb n="614"/>Que ja son sens nel peüst atemprer.</ab>
+<ab type="gv" n="20">
+  <lb n="615"/> Or fu Guillelmes en la sale perrine.
+  <lb n="616"/><q>« Rois Arragon, li commença a dire, 
+<lb n="617"/>Sire, dist il, monstrez moi la roïne
+  <lb n="618"/>Que si par aime l'emperere d'Aufrique. »</q>
+  <lb n="619"/>Dist Arragon: <q>« Il fet mout grant folie,
+<lb n="620"/>Quar il est vielz, s'a la barbe florie,
+<lb n="621"/>Et ceste est bele et juenete meschine,
+<lb n="622"/>Il n'a tant bele en tote paiennie.
+<lb n="623"/>En Glorïete mainne ses drüeries;
+<lb n="624"/>Mielz ameroit... Sorbant de Venice, 
+<lb n="625"/>Un bacheler juene de barbe prime,
+<lb n="626"/>Qui de deport et d'armes set bien vivre, 
+<lb n="627"/>Qu'el ne feroit Tiebaut d'Esclavonie.
+<pb n="69"/>
+  <lb n="628"/> Trop par est fox vielz hom qu'aime meschine,
+  <lb n="629"/>Tost en est cous et tornez a folie. » </q>
+<lb n="630"/>Ot le Guillelmes, si commença a rire:
+  <lb n="631"/><q>« Voir, dit Guillelmes, or ne l'amez vos mie?
+<lb n="632"/>- Ge non, por voir, Damedex la maudie! 
+<lb n="633"/>Ge vorroie ore qu'ele fust en Aufrique <milestone unit="ms-column" n="45d"/>
+  <lb n="634"/>Ou a Baudas, el regne d'Aumarie. »</q></ab>
+    <ab type="gv" n="21"> 
+    <lb n="635"/>El palés est dans Guillelmes li frans 
+<lb n="636"/>Et Gillebert, Guïelin li poissanz.
+<lb n="637"/>Par mi la sale s'en vont outre passant,
+<lb n="638"/>Si les conduit uns paiens, Malcuidant,
+<lb n="639"/>A la roïne que li rois aime tant.
+<lb n="640"/>Mielz lor venist qu'arriers retornissant 
+<lb n="641"/>Outre le Rosne envers Nymes la grant;
+<lb n="642"/>Ja ainz n'iert vespre ne le soleil cochant,
+<lb n="643"/>Se Dex n'en pense par son digne commant,
+<lb n="644"/>Que il orront dont il seront dolant.
+<lb n="645"/>En Glorïete en sont venu a tant.
+<lb n="646"/>De marbre sont li piler et li pan,
+<lb n="647"/>Et les fenestres entaillies d'argent;
+<lb n="648"/>Et l'aigle d'or si reluist et resplent;
+<lb n="649"/>Soleil n'i luist ne n'i cort point de vent;
+<lb n="650"/>Bien fu paree, mout par fu avenant.
+<pb n="70"/>
+    <lb n="651"/> A une part de la chambre leanz
+<lb n="652"/>Avoit un pin par tel esperiment
+<lb n="653"/>Com vos orroiz se vos vient a talent:
+<lb n="654"/>Longue est la branche et la fueille en est grant;
+<lb n="655"/>La flor qu'en ist par est si avenant,
+<lb n="656"/>Blanche est et inde et si est vermeillant.
+<lb n="657"/>(Ilueques est li carroiges sovent.) 
+<lb n="658"/>Pitre et canele, garingal et encens
+<lb n="659"/>Flere soëf et ysope et piment.
+<lb n="660"/>La sist Orable, la dame d'Aufriquant;
+<lb n="661"/>Ele ot vestu un paile escarinant, 
+<lb n="662"/>Estroit lacié par le cors qu'ele ot gent
+<lb n="663"/>De riche soie cousue par les pans;
+<lb n="664"/>Et Rosiane, la niece Rubiant,
+<lb n="665"/>Le vent li fist a un platel d'argent.
+<lb n="666"/>Ele est plus blanche que la noif qui resplent
+<lb n="667"/>Et plus vermeille que la rose flerant.
+<lb n="668"/>Voit la Guillelmes, tot li mua le sanc.
+<lb n="669"/>Il la salüe bel et cortoisement:
+      <lb n="670"/><q>« Cil Dex vos saut, en cui somes creant! »</q>
+      <lb n="671"/>Dist la roïne: <q>« Baron, venez avant.
+      <lb n="672"/>Mahom vos saut, a cui le mont apent. »</q>
+<lb n="673"/>Dejoste lui les assist sor un banc,  <milestone unit="ms-column" n="46a"/>
+<lb n="674"/>Qu'iert entailliez a or et a argent;
+<lb n="675"/>Or pueent dire auques de lor talent.
+<pb n="71"/>
+      <lb n="676"/> <q>« Dex, dist Guillelmes, Paradis est ceanz! »</q>
+      <lb n="677"/>Dist Guïelin: <q>« Onques ne vi tant gent.
+<lb n="678"/>Ge vorroie estre ici tot mon vivant;
+      <lb n="679"/>Ne m'en querroie movoir ne tant ne quant. »</q></ab>
+  <ab type="gv" n="22"> 
+    <lb n="680"/>Or fu Guillelmes en Glorïete assis
+<lb n="681"/>Et Gillebert et li preuz Guïelins,
+<lb n="682"/>Lez les puceles desoz l'ombre del pin.
+<lb n="683"/>La sist Orable, la dame o le cler vis;
+<lb n="684"/>Ele est vestue d'un peliçon hermin 
+<lb n="685"/>Et par desoz, d'un bliaut de samit, 
+<lb n="686"/>Estroit a laz par le cors qui bien sist. 
+<lb n="687"/>Voit la Guillelmes, tot le cors li fremist.
+    <lb n="688"/><q>« Dex, dist Guillelmes, ceanz est Paradis!
+<lb n="689"/>- Se Dex m'aïst, ce respont Guïelins,
+<lb n="690"/>Ge esseroie toz jorz volentiers ci;
+    <lb n="691"/>Ja n'i querroie ne mengier ne dormir. »</q>
+<lb n="692"/>La gentil dame les a a reson mis:
+    <lb n="693"/><q>« Dont estes vos, franc chevalier gentill?
+<lb n="694"/>- Dame, nos somes del regne de Persis,
+<lb n="695"/>De cele terre Tiebaut vostre mari.
+<lb n="696"/>Hier matinet, quand jor fu esclarci,
+<lb n="697"/>Fumes a Nymes, cele mirable cit.
+<pb n="72"/><lb n="698"/> Trover cuidames la gent de nostre lin,
+<lb n="699"/>Roi Synagon et Otran et Harpin;
+<lb n="700"/>Mes Fierebrace les a toz trois ocis.
+<lb n="701"/>François nos pristrent as portes de la cit,
+<lb n="702"/>Si nos menerent devant le palasin.
+<lb n="703"/>Mes tant est riches et enforciez d'amis
+<lb n="704"/>Que il n'a cure ne d'argent ne d'or fin;
+<lb n="705"/>Ainz nos lessa eschaper par einsi:
+<lb n="706"/>Desor noz lois nos convint a plevir, 
+<lb n="707"/>Il le vos mande, ge sui qui le vos di,
+<lb n="708"/>Que tu t'en fuies el regne de Persis;
+<lb n="709"/>Qu'ainz ne verras passer le mois d'avrill
+<lb n="710"/>Que te sivra a <num>.xx.m.</num> fervestiz; 
+<lb n="711"/>Ne te tendront li mur ne li paliz,
+<lb n="712"/>Les amples sales ne li forz roilleïz;
+<lb n="713"/>A maus de fer vos seront desconfit. <milestone unit="ms-column" n="46b"/>
+<lb n="714"/>Se il puet prendre Arragon l'Arrabi,
+<lb n="715"/>Vostre fillastre que vos amez einsi,
+<lb n="716"/>Il le fera de male mort morir,
+    <lb n="717"/>Pendre ou ardoir et en flambe broïr. »</q>
+<lb n="718"/>La dame l'ot, si gita un soupir.</ab>
+  <ab type="gv" n="23">
+    <lb n="719"/>La dame entent les estranges mesaiges;
+<lb n="720"/>Lors les apele, de noiant ne se targe:
+    <lb n="721"/><q>« Seignor baron, bien sai vostre langaige. 
+<pb n="73"/>
+    <lb n="722"/> Quiex hom est dont Guillelmes Fierebrace
+<lb n="723"/>Qui a pris Nymes, le palés et les sales,
+<lb n="724"/>Et mort mes homes et encor me menace?
+<lb n="725"/>- Voir, dit li cuens, mout a fier le corage
+<lb n="726"/>Et gros les poinz et merveilleuse brace.
+<lb n="727"/>N'a si grant home desi que en Arabe,
+<lb n="728"/>Se il le fiert de l'espee qui taille,
+<lb n="729"/>Que ne li tranche tot le cors et les armes:
+<lb n="730"/>Desi en terre cort l'espee qui taille.
+<lb n="731"/>- Voir, dist la dame, ce est mout grant damaige!
+<lb n="732"/>Par Mahomet, il doit bien tenir marche; 
+    <lb n="733"/>Liee est la dame en cui est son coraige. »</q>
+<lb n="734"/>Felon paien vienent iluec a masse;
+<lb n="735"/>Encui orra Guillelmes tel contraire
+<lb n="736"/>Qu'ainz n'oï tel en trestot son aage.
+<lb n="737"/>Dex le deffende de perte et de damage!</ab>
+  <ab type="gv" n="24"> 
+    <lb n="738"/>Or est Guillelmes dedenz la tor monté
+<lb n="739"/>Et Gillebert et Guïelin le ber,
+<lb n="740"/>Lez les puceles desoz le pin ramé;
+<lb n="741"/>A la roïne se desresna soëf.
+<lb n="742"/>Felon paien i furent amassé
+<lb n="743"/>Por les barons veoir et esgarder;
+<pb n="74"/>
+    <lb n="744"/> Se Dex n'en pense qui en croiz fu pené,
+<lb n="745"/>Encui sera Guillelmes mal mené.
+<lb n="746"/>A tant ez vos un paien, Salatré;
+<lb n="747"/>Cil le confonde qui tot a a sauver!
+<lb n="748"/>Li cuens l'ot pris a Nymes la cité;
+<lb n="749"/>Une vespree fu li gloz eschapé,
+<lb n="750"/>Si s'en torna fuiant tot un fossé
+<lb n="751"/>Qu'il ne pot estre ne baillié ne trové. 
+<lb n="752"/>Cil a Guillelme si mauvés plet mené
+<lb n="753"/>Com vos orroiz ici avant conter. <milestone unit="ms-column" n="46c"/>
+<lb n="754"/>Lez Arragon s'en est venuz ester, 
+<lb n="755"/>Enz en l'oreille li conseilla assez:
+    <lb n="756"/><q>« Par Mahom, sire, barnaiges vos apert;
+<lb n="757"/>Ja iert vendue la fiere cruiauté
+<lb n="758"/>Qu'en me volt fere a Nymes la cité.
+<lb n="759"/>Veez vos ore cel parcreü monté?
+<lb n="760"/>Ce est Guillelmes, le marchis au cort nes;
+<lb n="761"/>Et cil, ses niés, cel autre bacheler;
+<lb n="762"/>Et cil aprés qui tient cel fust quarré,
+<lb n="763"/>C'est li marchis qui de ci fu torné.
+<lb n="764"/>Por vos traïr se sont atapiné,
+    <lb n="765"/>Qu'il cuident prendre ceste bone cité. »</q>
+    <lb n="766"/>Dist Arragons: <q>« Diz me tu verité?
+<lb n="767"/>- Sire, dist il, ja mar le mescreez. 
+<lb n="768"/>Vez la Guillelme qui m'ot enprisonné,
+<lb n="769"/>Si me volt pendre et au vent encroër
+<pb n="75"/>
+    <lb n="770"/> Se Mahomez ne m'en eüst tensé.
+    <lb n="771"/>Hui est le jor qu'il iert guerredoné. »</q>
+<lb n="772"/>Or oëz ore, franc baron naturé, 
+<lb n="773"/>Por l'amor Deu, qui en croiz fu pené,
+<lb n="774"/>Del pautonnier comment il a ovré.
+<lb n="775"/>Prist une cote, Guillelme en a hurté, 
+<lb n="776"/>Qui tote estoit de fin or esmeré;
+<lb n="777"/>Fiert en Guillelme el front desus le nes;
+<lb n="778"/>Lors se descuevre et la color li pert: 
+<lb n="779"/>Blanche ot la char comme flor en esté.
+<lb n="780"/>Voit le Guillelmes, le sens cuide desver,
+<lb n="781"/>Trestot le sanc del cors li est müé;
+<lb n="782"/>Deu reclama, le roi de majesté:
+    <lb n="783"/><q>« Glorïeus peres, qui tot as a sauver
+<lb n="784"/>Et en la Virge te deignas aonbrer,
+<lb n="785"/>Tot por le pueple que tu vosis sauver,
+<lb n="786"/>Lessas ton cors traveillier et pener
+<lb n="787"/>Et en la croiz et ferir et navrer,
+<lb n="788"/>Si com c'est voirs, par la teue bonté,
+<lb n="789"/>Garis mon cors de mort et d'afoler,
+    <lb n="790"/>Ne nos ocïent Sarrazin et Escler. »</q></ab>
+  <ab type="gv" n="25"> 
+    <lb n="791"/>Quant Arragon entendi l'Esclavon 
+<lb n="792"/>Que il connut toz trois les compaignons,
+<lb n="793"/>En piez se dresce, ses a mis a reson: <milestone unit="ms-column" n="46d"/>
+<pb n="76"/>
+    <lb n="794"/> <q>« Sire Guillelmes, l'en set bien vostre non.
+<lb n="795"/>Mar i passastes le Rosne, par Mahom!
+<lb n="796"/>Tuit seroiz mort a grant destructïon,
+<lb n="797"/>L'os et la poldre venterons par le mont;
+<lb n="798"/>Ge n'en prendroie d'or fin plain cest donjon
+    <lb n="799"/>Ne soiez mort et ars tot en charbon. »</q>
+<lb n="800"/>Guillelmes l'ot, si taint comme charbon;
+<lb n="801"/>Dont vosist estre a Rains ou a Loon.
+<lb n="802"/>Guïelins voit que ne se celeront;
+<lb n="803"/>Detort ses poinz et ses cheveus deront.
+    <lb n="804"/><q>« Dex, dist Guillelmes, par ton saintisme non, 
+<lb n="805"/>Glorïeus pere, qui formas Lazaron
+<lb n="806"/>Et en la Virge preïs anoncïon,
+<lb n="807"/>Jonas garis el ventre del poisson
+<lb n="808"/>Et Danïel en la fosse au lïon,
+<lb n="809"/>La Madaleine feïstes le pardon,
+<lb n="810"/>Le cors saint Pere meïs en Pré Noiron
+<lb n="811"/>Et convertis saint Pol son compaignon,
+<lb n="812"/>Qui en cel tens estoit mout cruiex hom,
+<lb n="813"/>Puis refu il des creanz compaignons,
+<lb n="814"/>Ensemble o els sivi processïon, 
+<lb n="815"/>Si com c'est voir, Sirë, et le creon,
+<lb n="816"/>Deffendez nos de mort et de prison,
+    <lb n="817"/>Ne nos occïent cist Sarrazin felon. »</q>
+<lb n="818"/>Un bordon ot, grant et forni et lonc;
+<lb n="819"/>A ses <num>.ii.</num> mains le leva contremont
+<pb n="77"/>
+    <lb n="820"/> Et si en fiert Salatré le gloton,
+<lb n="821"/>Qui l'encusa vers le roi Arragon,
+<lb n="822"/>Par mi le chief, mout grant cop del baston
+<lb n="823"/>Que la cervele en vola contremont.
+    <lb n="824"/><q>« Monjoie! escrie, ferez avant, baron! »</q> </ab>
+  <ab type="gv" n="26">
+    <lb n="825"/>Guillelmes a le palés effraé, 
+<lb n="826"/>Devant le roi a le paien tüé.
+<lb n="827"/>Li cuens Guillelmes ra choisi un tinel
+<lb n="828"/>Qui por feu fere i estoit aporté;
+<lb n="829"/>Cele part vient poignant et tressüé, 
+<lb n="830"/>As poinz le prent, contremont l'a levé;
+<lb n="831"/>Baitaime vet ferir, le desreé,
+<lb n="832"/>Par mi le chief, ruiste cop del tinel
+<lb n="833"/>Que le cervel li fet del chief voler; <milestone unit="ms-column" n="47a"/>
+<lb n="834"/>Devant le roi l'a mort acravanté.
+<lb n="835"/>Et Gilebert rala ferir Quarré,
+<lb n="836"/>De son baston l'a el ventre bouté,
+<lb n="837"/>C'une grant piece l'a fet outre passer;
+<lb n="838"/>Mort le trestorne devant lui au piler.
+    <lb n="839"/><q>« Monjoie! escrie, baron, avant venez!
+<lb n="840"/>Puis qu'ainsi est qu'a mort somes livrez,
+    <lb n="841"/>Vendons nos bien tant com porrons durer! »</q>
+<pb n="78"/>
+    <lb n="842"/> Ot l'Arragon, le sens cuide desver,
+    <lb n="843"/>A voiz s'escrie: <q>« Baron, quar les prenez!
+<lb n="844"/>Par Mahomet, ja seront afolé
+<lb n="845"/>Et enz el Rosne balancié et gité
+    <lb n="846"/>Ou ars en feu et la poldre venté. » </q>
+    <lb n="847"/>Dist Guïelin: <q>« Baron, ensus estez!
+<lb n="848"/>Que, par l'apostre qu'en quiert en Noiron Prez,
+    <lb n="849"/>Ainz que m'aiez sera chier comparé.»</q>
+<lb n="850"/>Par maltalent en a son fust crollé;
+<lb n="851"/>Li cuens Guillelmes i fiert de son tinel
+<lb n="852"/>Et Gillebert de son bordon ferré.
+<lb n="853"/>Granz cops i donent li baron naturel;
+<lb n="854"/><num>.xiiii.</num> Turs lor i ont mort gitez 
+<lb n="855"/>Et toz les autres i ont si effraez
+<lb n="856"/>Par mi les huis les ont ferant menez;
+<lb n="857"/>Font les torouz verroillier et fermer, 
+<lb n="858"/>A granz chaienes ont le pont sus levé.
+<lb n="859"/>Or en penst Dex, qui en croiz fu pené!
+<lb n="860"/>Qu'or est Guillelmes en perilleus hostel
+<lb n="861"/>Et Gillebert et Guïelin le ber,
+<lb n="862"/>En Glorïete ou il sont enserré;
+<lb n="863"/>Et Sarrazin, li cuvert forsené,
+<lb n="864"/>Bien les assaillent qu'il n'i ont demoré.</ab>
+  <ab type="gv" n="27"><lb n="865"/>Li Sarrazin sont orgueilleus et fier;
+<lb n="866"/>Bien les assaillent a <num>.c.</num> et a milliers,
+<lb n="867"/>Lancent lor lances et dars tranchanz d'acier.
+<pb n="79"/>
+    <lb n="868"/> Cil se deffendent com gentill chevalier; 
+<lb n="869"/>Ces gloutons versent es fossez et es biez,
+<lb n="870"/>Plus de <num>.xiiii.</num> en i ont trebuchié,
+<lb n="871"/>Li plus halegres ot le col peçoié.
+<lb n="872"/>Voit l'Arragon, a pou n'est enragié,
+<lb n="873"/>De duel et d'ire a pou n'est forvoié; <milestone unit="ms-column" n="47b"/>
+<lb n="874"/>A sa voiz clere commença a huichier:
+    <lb n="875"/><q>« Es tu lassus, Guillelmes au vis fier? »</q>
+    <lb n="876"/>Et dist li cuens: <q>« Voirement i sui gié,
+<lb n="877"/>Par ma proesce [l. proësce] i sui ge herbergié;
+    <lb n="878"/>Dex m'en aïst, qui en croiz fu drecié! »</q></ab>
+  <ab type="gv" n="28"><lb n="879"/>Or fu Guillelmes en Glorïete entré;
+<lb n="880"/>As Sarrazins commença a parler:
+    <lb n="881"/><q>« Mal dahé ait por vos se quiert celer! 
+<lb n="882"/>En ceste vile entrai por espïer;
+<lb n="883"/>Or vos ai tant mené et losangié
+<lb n="884"/>De Glorïete vos ai ge fors chacié.
+<lb n="885"/>Des or seroiz de ceste tor bergier;
+    <lb n="886"/>Gardez la bien, s'en avroiz bon loier. »</q>
+<lb n="887"/>Arragons l'ot, le sens cuide changier;
+<lb n="888"/>Il en apele Sarrazins et paiens:
+    <lb n="889"/><q>« Or tost as armes, nobile chevalier!
+<pb n="80"/>
+    <lb n="890"/> Par force soit li assauz commenciez!
+<lb n="891"/>Qui me prendra Guillelme le guerrier
+<lb n="892"/>De mon rëaume sera confanonnier;
+    <lb n="893"/>Toz mes tresorz li ert apareilliez.»</q>
+<lb n="894"/>Quant cil l'entendent, si sont joiant et lié;
+<lb n="895"/>As armes corent li cuvert losangier,
+<lb n="896"/>Guillelme assaillent et devant et derrier.
+<lb n="897"/>Voit le li cuens, le sens cuide changier;
+<lb n="898"/>Deu reclama, le verai justisier.</ab>
+  <ab type="gv" n="29">
+    <lb n="899"/>Or fu Guillelmes corrocié et dolant
+<lb n="900"/>Et Guïelin et Gillebert le franc
+<lb n="901"/>En Glorïete ou il sont la dedenz.
+<lb n="902"/>Bien les requistrent cele paiene gent,
+<lb n="903"/>Lancent lor lances et dars d'acier tranchanz.
+<lb n="904"/>Voit le Guillelmes, a pou ne pert le sens.
+    <lb n="905"/><q>« Niés Guïelin, qu'alons nos atendant?
+<lb n="906"/>Jamés en France ne serons reperant;
+<lb n="907"/>Se Dex n'en pense par son commandement,
+    <lb n="908"/>Ne reverrons ne cosin ne parent. »</q>
+<lb n="909"/>Dist Guïelin o le cors avenant:
+    <lb n="910"/><q>« Oncle Guillelmes, vos parlez de neant.
+<lb n="911"/>Par amistiez entrastes vos ceanz;
+<lb n="912"/>Vez la Orable, la dame d'Aufriquant,
+<lb n="913"/>Il n'a si bele en cest siecle vivant; <milestone unit="ms-column" n="47c"/>
+<pb n="81"/><lb n="914"/> Alez seoir delez li sor cel banc,
+<lb n="915"/>Endeus vos braz li lanciez par les flans 
+<lb n="916"/>Ne de besier ne soiez mie lenz;
+<lb n="917"/>Que, par l'apostre que quierent peneant,
+<lb n="918"/>Ja n'en avrons del besier le vaillant 
+<lb n="919"/>Qui ne nos cost <num>.xx.m.</num> mars d'argent,
+<lb n="920"/>A grant martire a trestoz noz parenz. 
+<lb n="921"/>- Dex, dist Guillelmes, tu m'avras gabé tant 
+    <lb n="922"/>Que par un pou que ge ne pert le sen.» </q></ab>
+  <ab type="gv" n="30">
+    <lb n="923"/> Or fu Guillelmes correciez et irez
+<lb n="924"/>Et Gillebert et Guïelin le ber,
+<lb n="925"/>En Glorïete ou il sont enserré.
+<lb n="926"/>Bien les requierent Sarrazin deffaé;
+<lb n="927"/>Cil se deffendent com chevalier membré,
+<lb n="928"/>Gietent lor perches et les granz fuz quarré.
+<lb n="929"/>Et la roïne les en a apelez:
+    <lb n="930"/><q>« Baron, dist ele, François, quar vos rendez!
+<lb n="931"/>Felon paien vos ont cueilli en hez;
+<lb n="932"/>Ja les verroiz par les degrez monter,
+    <lb n="933"/>Tuit seroiz mort, ocis et desmenbrez. »</q>
+<lb n="934"/>Ot le Guillelmes, le sens cuide desver;
+<lb n="935"/>Cort en la chambre desoz le pin ramé,
+<lb n="936"/>A la roïne se prist a dementer:
+<pb n="82"/>
+    <lb n="937"/> <q>« Dame, dist il, garnemenz me donez,
+<lb n="938"/>Por l'amor Deu, qui en croiz fu penez;
+<lb n="939"/>Que, par saint Pere, se ge vif par aé,
+    <lb n="940"/>Mout richement vos iert guerredoné. »</q>
+<lb n="941"/>La dame l'ot, s'a de pitié ploré;
+<lb n="942"/>Cort en sa chambre, n'i a plus demoré,
+<lb n="943"/>A un escrin que ele a deffermé;
+<lb n="944"/>En a tret hors un bon hauberc saffré
+<lb n="945"/>Et un vert heaume, qui est a or gemé; 
+<lb n="946"/>Guillelme encontre le corut aporter.
+<lb n="947"/>Et cil le prist, qui tant l'ot desirré;
+<lb n="948"/>Il vest l'auberc, si a l'eaume lacié;
+<lb n="949"/>Et dame Orable li ceint l'espee au lé,
+<lb n="950"/>Qui fu Tiebaut son seignor, a l'Escler. 
+<lb n="951"/>Ainz ne la volt a nul home doner, 
+<lb n="952"/>Nes Arragon, qui tant l'ot desirré,
+<lb n="953"/>Qui ert ses filz de moillier espousé.  <milestone unit="ms-column" n="47d"/>
+<lb n="954"/>Au col li pent un fort escu listé
+<lb n="955"/>A un lïon qui d'or fu coroné.
+<lb n="956"/>El poing li baille un fort espié quarré,
+<lb n="957"/>A <num>.v.</num> clos d'or le confanon fermé.
+    <lb n="958"/><q>« Dex, dist Guillelmes, comme or sui bien armé!
+    <lb n="959"/>Por Deu vos pri que des autres pensez. »</q></ab>
+<pb n="83"/>
+  <ab type="gv" n="31"><lb n="960"/>Quant Guïelin vit adoubé son oncle,
+<lb n="961"/>Cort en la chanbre a la dame seconde; 
+<lb n="962"/>I l'en apele, doucement l'aresonne:
+    <lb n="963"/><q>« Dame, dist il, por saint Pere de Rome,
+<lb n="964"/>Donez moi armes por le besoing qu'abonde.
+<lb n="965"/>- Enfes, dist ele, mout es juene personne;
+<lb n="966"/>Se tu vesquisses, tu fusses mout preudome.
+    <lb n="967"/>De mort te heent li Vavar et li Hongre. »</q>
+<lb n="968"/>Vint en la chambre, s'en a tret une broigne; 
+<lb n="969"/>Cele forja Ysac de Barceloigne,
+<lb n="970"/>Onques espee n'en pot maille derompre;
+<lb n="971"/>El dos li vest, mout en fu liez li oncles.
+<lb n="972"/>L'eaume li lace Aufar de Babiloine,
+<lb n="973"/>Au premier roi qui la cité fu onques; 
+<lb n="974"/>Onc nule espee nel pot gaires confondre,
+<lb n="975"/>Abatre pierre ne flor de l'escharbocle.
+<lb n="976"/>Ceint li l'espee Tornemont de Valsone,
+<lb n="977"/>Que li embla li lierres de Valdonne,
+<lb n="978"/>Puis la vendi Tiebaut a Voireconbe,
+<lb n="979"/>Si l'en dona <num>.m.</num> besanz et <num>.m.</num> onces,
+<lb n="980"/>Qu'il en cuida son fill livrer coronne; 
+<pb n="84"/>
+    <lb n="981"/> Au flanc li ceint, dont les renges sont longues.
+<lb n="982"/>Au col li met une targe roonde.
+<lb n="983"/>L'espié li baille Madame de Valronne; 
+<lb n="984"/>Grosse est la hante et l'alemele longue.
+<lb n="985"/>Bien fu armez, et Gilleberz adonques.
+<lb n="986"/>Huimés avra Glorïete chalonge.</ab>
+  <ab type="gv" n="32">
+    <lb n="987"/> Bien fu armez Guillelmes et ses niés
+<lb n="988"/>Et Gillebert, dont sont joiant et lié.
+<lb n="989"/>El dos li vestent un fort hauberc doublier;
+<lb n="990"/>El chief li lacent un vert heaume vergié;
+<lb n="991"/>Puis li ont ceint une espee d'acier;
+<lb n="992"/>Au col li pendent un escu de quartier.
+<lb n="993"/>Ainz qu'il eüst le bon tranchant espié, <milestone unit="ms-column" n="48a"/>
+<lb n="994"/>Felon paien orent tant esploitié
+<lb n="995"/>Que les degrez en monterent a pié.
+<lb n="996"/>Li cuens Guillelmes vet ferir Haucebier;
+<lb n="997"/>Et Gillebert, Maretant le portier;
+<lb n="998"/>Et Guïelin revet ferir Turfier;
+<lb n="999"/>Cil troi ne furent de la mort espargnié.
+<lb n="1000"/>Brisent les lances des noielez espiez
+<lb n="1001"/>Que les esclices en volent vers le ciel;
+<lb n="1002"/>A lor espees lor convint repairier,
+<lb n="1003"/>Ja se vorront prover et essaier.
+<pb n="85"/>
+    <lb n="1004"/> Li cuens Guillelmes tret l'espee d'acier;
+<lb n="1005"/>Fiert un paien en travers par derrier,
+<lb n="1006"/>Ausi le cope comme un rain d'olivier;
+<lb n="1007"/>Sus el palés en chieent les moitiez.
+<lb n="1008"/>Et Gillebert revet ferir Gaifier,
+<lb n="1009"/>Sus el palés en fist voler le chief.
+<lb n="1010"/>Et Guïelin ne fu pas esmaié;
+<lb n="1011"/>Il tint l'espee, s'a l'escu enbracié;
+<lb n="1012"/>Cui il consuit tot est a mort jugié.
+<lb n="1013"/>Paien le voient, si se sont tret arrier;
+<lb n="1014"/>En fuie tornent li cuvert losangier,
+<lb n="1015"/>Franc les enchaucent, li nobile guerrier;
+<lb n="1016"/>Plus de <num>.xiiii.</num> en i ont detranchiez,
+<lb n="1017"/>Que toz les autres en ont si esmaiez
+<lb n="1018"/>Par mi les huis les en ont hors gitiez.
+<lb n="1019"/>François les corent fremer et verroillier;
+<lb n="1020"/>As granz chaennes ont le pont sus saichié,
+<lb n="1021"/>A la tor furent fermé et atachié. 
+<lb n="1022"/>Or en penst Dex qui tot a a jugier!
+<lb n="1023"/>Voit l'Arragon, le sens cuide changier.</ab>
+  <ab type="gv" n="33">
+    <lb n="1024"/> Or fu Guillelmes dolant et correços
+<lb n="1025"/>Et Gillebert et Guïelin li proz;
+<lb n="1026"/>Mout les destraignent cele gent paiennor,
+<pb n="86"/>
+    <lb n="1027"/> Lancent lor lances et dars ovrez a tor,
+<lb n="1028"/>A maux de fer toz les murs lor deffont.
+<lb n="1029"/>Voit le Guillelmes, a pou d'ire ne font.
+    <lb n="1030"/><q>« Niés Guïelin, dist il, quel la ferons? 
+<lb n="1031"/>Jamés en France, ce cuit, ne revenrons
+<lb n="1032"/>Ne ja neveu, parent ne beserons.
+<lb n="1033"/>- Oncle Guillelmes, vos parlez en pardon; <milestone unit="ms-column" n="48b"/>
+<lb n="1034"/>Que, par l'apostre qu'en quiert en Pré Noiron,
+    <lb n="1035"/>Ge me cuit vendre ainz que nos descendon. »</q>
+<lb n="1036"/>Il avalerent les degrez de la tor; 
+<lb n="1037"/>Cez paiens fierent sor cez heaumes reonz;
+<lb n="1038"/>Toz lor detranchent les piz et les mentons,
+<lb n="1039"/>Tel <num>.xvii.</num> en gisent el sablon 
+<lb n="1040"/>Li plus halegres ot copé le pomon.
+<lb n="1041"/>Paien le voient, s'en ont au cuer friçon;
+<lb n="1042"/>A voiz escrïent le fort roi Arragon:
+    <lb n="1043"/><q>« Quar prenez trives, que ja n'i enterron! »</q>
+<lb n="1044"/>Arragon l'ot, a pou d'ire ne font;
+<lb n="1045"/>Mahomet jure que il le comparront.</ab>
+  <ab type="gv" n="34">
+    <lb n="1046"/>Arragons voit les paiens qui se targent;
+<lb n="1047"/>Il les apele belement et aresne:
+    <lb n="1048"/><q>« Fill a putain, gloton, mar i entrastes! 
+<pb n="87"/>
+    <lb n="1049"/> Jamés de moi ne tendrez fié ne marches;
+    <lb n="1050"/>Requerez les as plus fieres batailles! »</q>
+<lb n="1051"/>Et il si firent, li gloton mescreable;
+<lb n="1052"/>Gietent lor dars et lances miserables, 
+<lb n="1053"/>A maus de fer toz les murs lor deffacent.
+<lb n="1054"/>Voit le Guillelmes, a pou d'ire n'enraige.
+    <lb n="1055"/><q>« Niés Guïelin, comment le porrons fere?
+<lb n="1056"/>Tuit somes mort et livré a damaige.
+<lb n="1057"/>- Oncle Guillelmes, vos parlez de folaige;
+<lb n="1058"/>Que, par l'apostre que l'en requiert en l'arche, 
+    <lb n="1059"/>Chier me vendrai ainz que paien me baillent. »</q>
+<lb n="1060"/>De lor espiez furent les pointes fraites;
+<lb n="1061"/>Chascuns d'els trois recovra une haiche
+<lb n="1062"/>Que lor bailla la gentil dame Orable.
+<lb n="1063"/>Fors s'en issirent adoubé de lor armes; 
+<lb n="1064"/>Cez paiens fierent sor ces vermeilles targes;
+<lb n="1065"/>Toz lor detranchent les piz et les visaiges,
+<lb n="1066"/>Plus de <num>.xiiii.</num> en gisent sor le marbre
+<lb n="1067"/>Qui furent mort et li autre se pasment;
+<lb n="1068"/>Ainz par trois homes ne fu fet tel domage.
+<lb n="1069"/>Voit l'Arragon, a pou d'ire n'enrage.
+<lb n="1070"/>§35 Quant Arragon voit tormenter sa gent,
+<lb n="1071"/>Lors a tel duel a pou d'ire ne fent.
+<pb n="88"/>
+    <lb n="1072"/> A clere voiz s'escria hautement:
+    <lb n="1073"/><q>« Es tu lassus, Guillelmes au cors gent, <milestone unit="ms-column" n="48c"/>
+<lb n="1074"/>Filz Aymeri de Nerbone la grant?
+<lb n="1075"/>Fai une chose qui me vient a talant:
+<lb n="1076"/>Lai Glorïete, le palés, en estant,
+<lb n="1077"/>Et si t'en va et sain et sauf, vivant,
+<lb n="1078"/>Ainz que tu perdes tes membres et ton sanc.
+<lb n="1079"/>S'einsi nel fez, mout t'iert mal covenant;
+<lb n="1080"/>Par Mahomet en cui je sui creant,
+<lb n="1081"/>En ceste place feron un ré si grant
+    <lb n="1082"/>Tuit seroiz ars et graïllié leanz. »</q>
+    <lb n="1083"/>Et dist Guillelmes: <q>« Vos parlez de neant.
+<lb n="1084"/>Assez avrons pain et vin et froment
+<lb n="1085"/>Et char salee et claré et piment,
+<lb n="1086"/>Et blans hauberz et vers heaumes luisanz,
+<lb n="1087"/>Bones espees dont li pont sont d'argent,
+<lb n="1088"/>Tranchanz espiez et bons escuz pesanz,
+<lb n="1089"/>Et beles dames por esbanoiement.
+<lb n="1090"/>N'en partirai nul jor de mon vivant,
+<lb n="1091"/>Ainz le savra rois Looÿs li frans,
+<lb n="1092"/>Bernarz mes freres, li chenuz et li blans,
+<lb n="1093"/>Et d'Anseüne Garin le combatant,
+<lb n="1094"/>De Commarchis dux Bueves le poissant,
+<lb n="1095"/>Bertran mes niés, qui est preuz et vaillant,
+<lb n="1096"/>Que nos lessames a Nymes ça devant.
+<lb n="1097"/>Chascuns de cels, quant il en a talant,
+<lb n="1098"/>Puet bien mander <num>.xx.m.</num> combatant.
+<lb n="1099"/>Quant les noveles en savront voirement
+<lb n="1100"/>Que assis somes ceanz si faitement,
+<pb n="89"/>
+    <lb n="1101"/> Secorront nos bel et cortoisement,
+<lb n="1102"/>A tant comme il porront avoir de gent.
+<lb n="1103"/>Ja voir cez murs ne vos avront garant
+<lb n="1104"/>Ne cest palés ou l'or luist et resplant;
+<lb n="1105"/>Tot le verroiz depecier en mil sens.
+<lb n="1106"/>Se il te prennent, mout t'iert mal convenant;
+    <lb n="1107"/>Penduz seras et encroëz au vent. »</q>
+    <lb n="1108"/>Dist Arragons: <q>« Tant serons plus dolant. » </q>
+<lb n="1109"/>Dist Pharaons, li rois de Bonivent:
+    <lb n="1110"/><q>« Amirauz, sire, tu ne vaus pas un gant.
+<lb n="1111"/>Par Mahomet, mout as povre escïent:
+<lb n="1112"/>Tes peres fu mout preuz et mout vaillant, 
+<lb n="1113"/>Qui te lessa ceste vile gardant  <milestone unit="ms-column" n="48d"/>
+<lb n="1114"/>Et Glorïete, le palés, ensement; 
+<lb n="1115"/>Cil troi gloton le te vont chalenjant,
+<lb n="1116"/>Si ont occis tes homes et ta gent;
+<lb n="1117"/>Par Mahomet, ne vaus ne tant ne quant
+    <lb n="1118"/>Quant tu nes ars en feu grezois puant. »</q></ab>
+  <ab type="gv" n="36">
+    <lb n="1119"/><q>« Faraon, sire, dist li rois Arragon,
+<lb n="1120"/>Car me donez bon conseil, por Mahom.
+<lb n="1121"/>Vez Glorïete, le palés et la tor,
+<lb n="1122"/>Le fondement en est fet trusqu'en son;
+<lb n="1123"/>Trestuit li home deci a Moncontor
+<lb n="1124"/>Pas n'i feroient un pertuis contremont.
+<pb n="90"/>
+    <lb n="1125"/> Ou, vis deables, se prendroit le charbon?
+<lb n="1126"/>Il n'i a broche de fust ne de baston.
+<lb n="1127"/>Par lor orgueill i sont cil troi gloton,
+    <lb n="1128"/>Devant <num>.vii.</num> anz n'en istront il par nos. »</q></ab>
+  <ab type="gv" n="37">
+    <lb n="1129"/> <q>« Faraon, sire, dit Arragon li rois,
+<lb n="1130"/>Por Mahomet, de qui tenons noz lois, 
+<lb n="1131"/>Car me donez bon conseil orendroit.
+<lb n="1132"/>Vez Glorïete, le palés majorois,
+<lb n="1133"/>Li fondemenz en est fez a rochois;
+<lb n="1134"/>Trestuit li home trusqu'as porz de Vanquois
+<lb n="1135"/>Si n'i feroient un pertuis en un mois.
+<lb n="1136"/>A quex deables li charbons se prendroit,
+<lb n="1137"/>Quant n'i a broche de fust ne de lorois?
+<lb n="1138"/>Par lor orgueill i sont entré cil troi,
+    <lb n="1139"/>Devant <num>.vii.</num> anz n'en istront il par moi. »</q>
+<lb n="1140"/>A tant ez vos un paien, Orquanois;
+<lb n="1141"/>Noire ot la barbe, si ot chanu le poil
+<lb n="1142"/>Et blans sorcils, si lor juge lor droiz.
+<lb n="1143"/>A sa voiz clere s'est escrïez <num>.iii.</num> foiz:
+    <lb n="1144"/><q>« Amirauz, sire, entendez envers moi.
+<lb n="1145"/>Car me di ore se de mielz m'en seroit
+<lb n="1146"/>Se te rendoie Guillelme le François
+<pb n="91"/>
+    <lb n="1147"/> Qu'en ta prison le peüsses avoir. »</q>
+    <lb n="1148"/>Dist Arragon: <q>« Oïl, en moie foi.
+<lb n="1149"/><num>.x.</num> muls chargiez de fin or espanois
+    <lb n="1150"/>En liverroie, mes qu'en me deïst voir. »</q>
+    <lb n="1151"/>Dist Orquanois: <q>« Entendez envers moi;
+<lb n="1152"/>Se la promesse me rendez orendroit, 
+    <lb n="1153"/>G'en penserai, moi ne chaut que en soit. »</q> <milestone unit="ms-column" n="49a"/>
+    <lb n="1154"/>Dist Arragon: <q>« Einsi le vos otroi;
+<lb n="1155"/>Et vos affi loiaument orendroit
+    <lb n="1156"/>Qu'a vo plesir vos bailleroi l'avoir. »</q>
+    <lb n="1157"/>Dist li paiens: <q>« Et ge le vos otroi. »</q></ab>
+  <ab type="gv" n="38">
+    <lb n="1158"/>Dist Orquanois: <q>« Par Mahomet, beau sire,
+<lb n="1159"/>Or vos dirai comment l'avroiz par guile.
+<lb n="1160"/>Vez Glorïete, icele tor mabrine,
+<lb n="1161"/>Le fondement est assis en principle;
+<lb n="1162"/>Si l'estora Grifaigne d'Aumarie,
+<lb n="1163"/>Uns Sarrazins de mout tres grant voidie.
+<lb n="1164"/>Ne savez mie quel enging il i firent:
+<lb n="1165"/>Par desoz terre une volte soltive,
+<lb n="1166"/>En ton palés est porte coleïce.
+<lb n="1167"/>Prenez <num>.m.</num> Turs, s'i alez vos meïsmes;
+<lb n="1168"/>Par de devant lor fetes assaillie
+<lb n="1169"/>Et par derriers merveilleuse envaïe.
+    <lb n="1170"/>Morz iert Guillelmes et livrez a martire. »</q>
+<pb n="92"/>
+    <lb n="1171"/> Dit Arragon: <q>« Par Mahomet, voir dites;
+    <lb n="1172"/>Preu i avroiz, par Apolin mon sire. »</q></ab>
+  <ab type="gv" n="39">
+    <lb n="1173"/>Quant Arragon entendi la novele
+<lb n="1174"/>Que la bove est desoz lui en la terre,
+<lb n="1175"/>Lors a tel joie que le cuer li sautele.
+<lb n="1176"/>Il prent <num>.m.</num> Turs, qui ont lacié les elmes,
+<lb n="1177"/>Et mil en lesse par devant en la place
+<lb n="1178"/>Qui assaillirent Guïelin et Guillelme.
+<lb n="1179"/>Cil s'en tornerent, ne finent ne arrestent, 
+<lb n="1180"/>Trusqu'a la croute ne s'aresterent gaires;
+<lb n="1181"/>Avec els portent et cierges et lanternes;
+<lb n="1182"/>Enz s'en entrerent la pute gent averse.
+<lb n="1183"/>N'en sorent mot li chevalier honeste
+<lb n="1184"/>Desi qu'il furent enz el palés as estres;
+<lb n="1185"/>Premierement les aperçut Guillelmes.
+    <lb n="1186"/><q>« Dex, dist li cuens, beaus glorïeus celestre,
+    <lb n="1187"/>Tuit somes mort et livré a maltrere! »</q>
+    <lb n="1188"/>Dist Guïelin: <q>« Par le cors saint Hylaire,
+<lb n="1189"/>Se Dex m'aïst, traï nos a Orable;
+    <lb n="1190"/>Et Dex confonde la sarrazine geste! »</q></ab>
+  <ab type="gv" n="40">
+    <lb n="1191"/>Li cuens Guillelmes vit le palés emplir
+<lb n="1192"/>De Sarrazins qui vienent par aïr,
+<pb n="93"/>
+    <lb n="1193"/> Vit les hauberz et les heaumes luisir. <milestone unit="ms-column" n="49b"/>
+    <lb n="1194"/><q>« Dex, dist li cuens, qui onques ne menti, 
+<lb n="1195"/>Com somes mort et livré a essill!
+<lb n="1196"/>- Par foi, beau sire, ce respont Guïelin,
+<lb n="1197"/>Traï nos a Orablë au cler vis;
+<lb n="1198"/>Et Dex confonde paiens et Sarrazins!
+<lb n="1199"/>Hui est li jorz qu'il nos convient fenir;
+<lb n="1200"/>Aidons nos bien tant comme avons loisir,
+    <lb n="1201"/>Nos n'i avons ne parenz ne amis. »</q>
+<lb n="1202"/>Li cuens Guillelmes tint le brant acerin;
+<lb n="1203"/>Par mautalent vet un paien ferir
+<lb n="1204"/>Arriere main qu'il le cope par mi. 
+<lb n="1205"/>De celui cop sont paien esbahi,
+<lb n="1206"/>Seure li corent irié et engrami.
+<lb n="1207"/>Il se deffendent com chevalier hardi,
+<lb n="1208"/>Granz cops i donent li conte palazin.
+<lb n="1209"/>Grant fu l'assaut et grant le chapleïz,
+<lb n="1210"/>Ainz ne fina si furent desconfit; 
+<lb n="1211"/>Onc nul estor ne fu si bien feni: 
+<lb n="1212"/>Sus els deffendre ont <num>.xxx.</num> Turs ocis.
+<lb n="1213"/>Cui chaut de ce? que ja n'i metront fin!
+<lb n="1214"/>As mains les prennent paien et Sarrazin,
+<lb n="1215"/>Tur et Persant et li Amoravi
+<lb n="1216"/>Et Acopart, Esclamor, Bedouin.
+<lb n="1217"/>Mahomet jurent que venjance en iert pris; 
+<lb n="1218"/>Hui vengeront la mort de lor amis.</ab>
+<pb n="94"/>
+    <ab type="gv" n="41">
+      <lb n="1219"/> Pris fu Guillelmes par mortel traïson
+<lb n="1220"/>Et Gillebert et Guïelin li proz.
+<lb n="1221"/>As poinz les tienent li Sarrazin felon;
+<lb n="1222"/>Mahomet jurent que venjance en prendront.
+<lb n="1223"/>En la cité manderent <num>.xx.</num> garçons;
+<lb n="1224"/>Un grant fossé font croser en parfont;
+<lb n="1225"/>Assez i metent asteles et bastons,
+<lb n="1226"/>Qu'il i voloient graïllier noz barons.
+<lb n="1227"/>Orable vint a la clere façon,
+<lb n="1228"/>Elle en apele son fillastre Arragon:
+      <lb n="1229"/><q>« Amis, dist ele, rendez moi ces prisons,
+<lb n="1230"/>Si les metrai en ma chartre en parfont;
+<lb n="1231"/>Boz i a et coluevres qui toz les mengeront
+<lb n="1232"/>Et serpentines qui les devoreront. 
+<lb n="1233"/>- Dame roïne, dist li rois Arragon, <milestone unit="ms-column" n="49c"/>
+<lb n="1234"/>Tot cest contrere nos est venu par vos,
+<lb n="1235"/>Que la deseure armastes ces glotons.
+      <lb n="1236"/>Ques vos rendra, Mahomez mal li dont! »</q>
+<lb n="1237"/>La dame l'ot, a pou d'ire ne font. 
+      <lb n="1238"/><q>« Mal le pensastes, filz a putain, gloton! 
+<lb n="1239"/>Par Mahomet qui ge pri et aor,
+<lb n="1240"/>Ne m'estoit ore por cez autres barons, 
+<lb n="1241"/>Ge vos dorroie sor le nes de mon poing.
+<pb n="95"/>
+      <lb n="1242"/> Isnelement issez hors de la tor! 
+      <lb n="1243"/>Ja plus ceanz mar seroiz a sejor. »</q>
+<lb n="1244"/>Ele en apele le feilon traïtor:
+<lb n="1245"/><q>« Lerres, dist ele, mes les en ta prison,
+<lb n="1246"/>Tant que Tiebauz revieigne de Valdon
+<lb n="1247"/>Et Desramez et Golïas li blonz;
+<lb n="1248"/>A lor talent en prendront venjoison.
+      <lb n="1249"/>- Ge l'otroi, dame. »</q> dist le roi Arragon.
+<lb n="1250"/>Guillelme gietent en la chartre parfont
+<lb n="1251"/>Et Guïelin et Gillebert le prou.
+<lb n="1252"/>Or vos lerons ester de noz barons;
+<lb n="1253"/>Quant leux en iert, assez i revenrons;
+<lb n="1254"/>Si chanterons de la gent paiennor.</ab>
+      
+  <ab type="gv" n="42">
+    <lb n="1255"/> Rois Arragons ne s'aseüra mie;
+<lb n="1256"/>I prent ses mes, outre mer les envie.
+<lb n="1257"/>Et cil s'en tornent, ne cessent ne ne finent,
+<lb n="1258"/>Desi au Rosne ne s'aresterent mie;
+<lb n="1259"/>D'iluec avant entrent en lor galie,
+<lb n="1260"/>Dedenz la nef Maudoine de Nubie.
+<lb n="1261"/>Couverte fu de soie par mestrie,
+<lb n="1262"/>Ele ne dote ne orage ne bise.
+<lb n="1263"/>Traient lor ancre, si drecierent lor sigle,
+<lb n="1264"/>En mer s'empaignent, s'ont la vile esloignie,
+<pb n="96"/>
+    <lb n="1265"/> Nagent et traient et gouvernent et siglent; 
+<lb n="1266"/>Bon oré orent, qui droitement les guie.
+<lb n="1267"/>Il ariverent au port soz Amurdrie; 
+<lb n="1268"/>Gietent lor ancre, s'ont lor voile beisie.
+<lb n="1269"/>Es chevaus montent, ne s'aresterent mie,
+<lb n="1270"/>De chevauchier ne cessent ne ne finent
+<lb n="1271"/>Tant que il vinrent en la cité d'Aufrique.
+<lb n="1272"/>Il descendirent en l'ombre soz l'olive
+<lb n="1273"/>Et en monterent en la sale perrine. <milestone unit="ms-column" n="49d"/>
+<lb n="1274"/>Tiebaut troverent et sa gent paiennime;
+<lb n="1275"/>Il le salüent en la loi sarrazine:
+    <lb n="1276"/><q>« Cil Mahomez, qui tot a en baillie,
+<lb n="1277"/>Il saut le roi Tiebaut d'Esclavonie!
+<lb n="1278"/>Tes filz te mande, a la chierre hardie,
+<lb n="1279"/>Que le secores o ta chevalerie.
+<lb n="1280"/>Pris a Guillelme, ne tel celerai mie, 
+<lb n="1281"/>Filz Aymeri de Nerbone la riche,
+<lb n="1282"/>Dedenz Orenge, cele cité garnie.
+<lb n="1283"/>Par tapinaige fu entrez en la vile,
+<lb n="1284"/>Cuida la prendre si comme il ot fet Nymes,
+<lb n="1285"/>Et dame Orable volt avoir a amie;
+<lb n="1286"/>Mes il ne porent tant fere deablie.
+<lb n="1287"/>De Glorïete nos fist male partie,
+<lb n="1288"/>Que o lui l'ot <num>.vii.</num> jorz en sa baillie; 
+<lb n="1289"/>Ne fust la bove qui soz terre est bastie,
+<lb n="1290"/>Dont la pierre est sus el palés assise,
+<lb n="1291"/>Jamés Orable n'eüssiez en baillie,
+<pb n="97"/>
+    <lb n="1292"/> Vostre moillier qui tant est seignorie.
+<lb n="1293"/>Mes Mahomez vos en fu en aïe,
+<lb n="1294"/>Que nos l'avons en la chartre enhermie
+<lb n="1295"/>Dont il n'istra jamés jor de sa vie;
+    <lb n="1296"/>A vo talant en iert venjance prise. »</q>
+<lb n="1297"/>Ot le Tiebauz, si commença a rire;
+<lb n="1298"/>Il en apele la gent de son enpire:
+    <lb n="1299"/><q>« Or tost as armes, franc chevalier nobile! »</q>
+<lb n="1300"/>Et il si font, que il ne targent mie;
+<lb n="1301"/>Es chevaus montent de Puille et de Rossie.
+<lb n="1302"/>Quant Tiebauz ist de la cité d'Aufrique,
+<lb n="1303"/>O lui en mainne les paiens d'Aumarie
+<lb n="1304"/>Et cels de Suite et ceus d'Esclavonie;
+<lb n="1305"/>El chief devant furent <num>.lx.</num> mile.
+<lb n="1306"/>Trusqu'a la mer ne cessent ne ne finent;
+<lb n="1307"/>En petit d'eure furent les nes garnies
+<lb n="1308"/>De vin, de char, de bescuit, de ferine.
+<lb n="1309"/>Enz s'en entrerent cele gent sarrazine,
+<lb n="1310"/>Traient lor ancres, si drecierent lor sigle;
+<lb n="1311"/>Li venz s'i fiert, qui droitement les guie,
+<lb n="1312"/>Entrent en mer, s'ont lor voie acueillie. 
+<lb n="1313"/>Lors oïsiez tant cor, tante buisine, <milestone unit="ms-column" n="50a"/>
+<lb n="1314"/>Braient cil ors et cil viautre glatissent,
+<lb n="1315"/>Cil mul rechanent et cil destrier rechinent,
+<lb n="1316"/>Cil espervier desus cez perches crïent,
+<pb n="98"/>
+    <lb n="1317"/> Bien les puet l'en oïr d'une grant liue.
+<lb n="1318"/><num>.viii.</num> jorz nagierent tant qu'au nuevieme vinrent.
+<lb n="1319"/>Mes ainz qu'il viegnent a Orenge la riche,
+<lb n="1320"/>Avra Tiebauz tel duel et si grant ire
+<lb n="1321"/>C'onques n'ot tel a nul jor de sa vie;
+<lb n="1322"/>Quar il perdra sa fort cité garnie
+<lb n="1323"/>Et sa moillier, Orable l'eschevie.</ab>
+  <ab type="gv" n="43">
+    <lb n="1324"/>Guillelmes fu en la chartre leanz,
+<lb n="1325"/>Et Gilleberz et Guïelins li frans.
+    <lb n="1326"/><q>« Dex, dist li cuens, beau pere roi amans,
+<lb n="1327"/>Com somes mort et livré a torment!
+<lb n="1328"/>Dex! qu'or nel set rois Looÿs le franc, 
+<lb n="1329"/>Bernart mon frere, le chanu et le blanc,
+<lb n="1330"/>Et d'Anseüne dan Garin le poissant,
+<lb n="1331"/>De Commarchis Bueves le combatant,
+<lb n="1332"/>Bertran mes niez, le preu et le vaillant,
+<lb n="1333"/>Que nos lessasmes a Nymes ça devant,
+<lb n="1334"/>A tot <num>.xx.m.</num> de François combatant.
+    <lb n="1335"/>De lor secors avrïons mestier grant. »</q>
+<lb n="1336"/>Dist Guïelin au gent cors avenant:
+    <lb n="1337"/><q>« Oncle Guillelmes, vos parlez de neant.
+<lb n="1338"/>Mandez Orable, la dame d'Aufriquant,
+<lb n="1339"/>Qu'ele secore par amors son amant.
+<lb n="1340"/>- Dex, dist Guillelmes, tu m'avras gabé tant
+    <lb n="1341"/>Par un petit que le cuer ne me fent. »</q></ab>
+<pb n="99"/>
+    <ab type="gv" n="44">
+      <lb n="1342"/> Or fu Guillelmes correciez et marriz,
+<lb n="1343"/>Et Gillebert et li preuz Guïelins,
+<lb n="1344"/>Dedenz la chartre ou il font male fin. 
+<lb n="1345"/>Endementieres qu'il se dementent si,
+<lb n="1346"/>Ez vos Orable qui a la chartre vint;
+<lb n="1347"/>Ou voit les contes, ses a a reson mis:
+      <lb n="1348"/><q>« Entendez moi, franc chevalier gentil.
+<lb n="1349"/>De mort vos heent paien et Sarrazin;
+<lb n="1350"/>Il vos pendront anuit ou le matin.
+<lb n="1351"/>- N'en poons mes, dame, dist Guïelin.
+<lb n="1352"/>Quar en pensez, franche dame gentill, <milestone unit="ms-column" n="50b"/>
+<lb n="1353"/>De ceste chartre que en fusson hors mis!
+<lb n="1354"/>Vostre hom seroie et jurez et pleviz,
+<lb n="1355"/>Mout volentiers en rendrai le servis,
+<lb n="1356"/>Quant vos plera; gentill dame, merci!
+<lb n="1357"/>- Voir, dist Guillelmes, ele nos a traï,
+      <lb n="1358"/>Que par lui somes en ceste chartre mis. »</q>
+<lb n="1359"/>La dame l'ot, si gita un soupir.</ab>
+  <ab type="gv" n="45">
+    <lb n="1360"/> <q>« Seignor baron, dist la cortoise Orable,
+<lb n="1361"/>Par Mahomet, a tort me metez blame:
+<lb n="1362"/>En cele tor vos donai ge les armes.
+<lb n="1363"/>S'en cel palés vos peüssiez combatre
+<pb n="100"/>
+    <lb n="1364"/> Tant quel seüst Looÿs li filz Challe 
+<lb n="1365"/>Et danz Bernarz de Breban et li autre 
+<lb n="1366"/>Et Aymeris et vo riche lignage, 
+<lb n="1367"/>Ne le seüssent li glouton mescreable 
+<lb n="1368"/>Tant que il fussent en ceste tor mirable,
+<lb n="1369"/>Einsi peüssent aquiter ceste marche
+    <lb n="1370"/>Et les destroiz, les guez et les passaiges. »</q>
+    <lb n="1371"/>Dist Guïelin: <q>« Dame, bien en parlastes;
+<lb n="1372"/>Se estïons mis hors de ceste chartre,
+<lb n="1373"/>Vostre hom seroie a trestot mon aaige.
+<lb n="1374"/>- En moie foi, dist la roïne Orable,
+<lb n="1375"/>Se ge cuidoie que ma paine i fust sauve,
+<lb n="1376"/>Que me preïst Guillelmes Fierebrace,
+<lb n="1377"/>Ge vos metroie toz trois hors de la chartre,
+    <lb n="1378"/>Si me feroie crestïenner a haste. »</q>
+<lb n="1379"/>Ot le Guillelmes, tot le cuer li esclaire.
+    <lb n="1380"/><q>« Dame, dist il, ge vos en doing mon gaige:
+<lb n="1381"/>Ge vos plevis sor Deu et sor saint Jaque
+<lb n="1382"/>Et sor l'apostre que l'en requiert en l'arche.
+    <lb n="1383"/>- Voir, dist la dame, ge n'en quier autre gaige. »</q>
+<lb n="1384"/>Ele defferme toz les huis de la chartre,
+<lb n="1385"/>Et cil s'en issent, qui tant ont vasselaige;
+<lb n="1386"/>Mout par fu liez chascun en son corage.</ab>
+<pb n="101"/>
+  <ab type="gv" n="46">
+    <lb n="1387"/> Or ot la dame les contes afïez;
+<lb n="1388"/>Ele les a de la chartre gitez,
+<lb n="1389"/>En Glorïete et conduiz et guïez.
+<lb n="1390"/>Sus el palés sont assis au digner;
+<lb n="1391"/>Quant il se furent richement conraé,
+<lb n="1392"/>La gentill dame les en a apelez: <milestone unit="ms-column" n="50c"/>
+    <lb n="1393"/><q>« Seignor baron, envers moi entendez.
+<lb n="1394"/>Or vos ai ge de la prison gitez,
+<lb n="1395"/>Sus el palés conduiz et amenez;
+<lb n="1396"/>Or ne sai ge comment ert d'eschaper;
+<lb n="1397"/>Ce que ge pens vos doi ge bien conter:
+<lb n="1398"/>Par desoz nos a une bove tel
+<lb n="1399"/>Nel set nus hom qui de mere soit nez,
+<lb n="1400"/>Fors mes aieus qui la fist enz chever; 
+<lb n="1401"/>Desi qu'au Rosne fist la bove percier.
+<lb n="1402"/>S'eüssiez or un messaige envoié 
+<lb n="1403"/>Bertran le conte et a l'autre barné, 
+<lb n="1404"/>Par desoz terre venist a vos parler, 
+<lb n="1405"/>Ne le seüssent li paien deffaé 
+<lb n="1406"/>Tant que il fussent sus el palés pavé 
+<lb n="1407"/>Et il ferissent des espees des lez, 
+<lb n="1408"/>Einsi porroient la cité aquiter 
+    <lb n="1409"/>Et les destroiz et les porz et les guez. »</q>
+    <lb n="1410"/>Et dit Guillelmes: <q>« Dame, c'est veritez;
+    <lb n="1411"/>Mes ge ne sai ou le mes soit trovez. »</q></ab>
+<pb n="102"/>
+  <ab type="gv" n="47">
+    <lb n="1412"/><q>« Niés Guïelin, ce dit li cuens Guillelmes, 
+<lb n="1413"/>Desi a Nymes ne fines ne ne cesses; 
+<lb n="1414"/>Bertran ton frere me diras cez noveles
+<lb n="1415"/>Qu'il me secore o la gent de sa terre.
+<lb n="1416"/>- Oncle Guillelmes, dist Guïelins, chaeles!
+<lb n="1417"/>Si m'aïst Dex, vos parlés de granz beffes;
+<lb n="1418"/>Que, par la foi que doi a saint Estiene,
+<lb n="1419"/>Mielz voil morir en iceste tor bele
+      <lb n="1420"/>Qu'en douce France ne a Es la Chapele. »</q></ab>
+  <ab type="gv" n="48">
+    <lb n="1421"/><q>« Niés Guïelin, dist Guillelmes li frans,
+<lb n="1422"/>Tu enterras en la bove leanz,
+<lb n="1423"/>Desi a Nymes ne t'iras arestant,
+<lb n="1424"/>Si me diras le palazin Bertran
+<lb n="1425"/>Qu'il me secore tost et isnelement.
+<lb n="1426"/>- Oncle Guillelmes, vos parlez de neant.
+<lb n="1427"/>Ne vos leroie por les membres perdant;
+<lb n="1428"/>Mielz vueill morir en ceste tor ceanz
+<lb n="1429"/>Qu'en douce France ne entor mes parenz.
+<lb n="1430"/>Envoiez i Gillebert le Flamenc.
+    <lb n="1431"/>- Iras i, frere? </q>» dit Guillelmes le franc;
+    <lb n="1432"/>Et dist li bers: <q>« Ge irai voirement <milestone unit="ms-column" n="50d"/>
+<lb n="1433"/>Et le mesaige vos ferai lealment.
+<lb n="1434"/>- Va dont, beau frere, a Jhesu te commant;
+<pb n="103"/>
+    <lb n="1435"/> Si me diras le palasin Bertran
+<lb n="1436"/>Qu'il me secore, ne voist ja atardant;
+<lb n="1437"/>Ou se ce non, par Deu le roi amant,
+    <lb n="1438"/>Ne verra mes Guillelme son parent. »</q></ab>
+  <ab type="gv" n="49">
+    <lb n="1439"/>Quant li mes ot qu'il li convient aler,
+<lb n="1440"/>Adont se prent forment a dementer
+<lb n="1441"/>Comment il puisse de leanz eschaper:
+    <lb n="1442"/><q>« Quar n'i fui onques ne ne sai ou torner. »</q>
+    <lb n="1443"/>Et dit la dame: <q>« Ge te cuit bien guïer;
+<lb n="1444"/>Ne douteras home de mere né
+    <lb n="1445"/>Fors seulement Jhesu de majesté. »</q>
+<lb n="1446"/>Lez un piler fist un carrel bouter,
+<lb n="1447"/>Une grant toise ot de lonc et de lé.
+    <lb n="1448"/><q>« Frere, dist ele, par ci poëz entrer;
+<lb n="1449"/>El chief de la troveras <num>.iii.</num> pilers,
+    <lb n="1450"/>A ars voluz furent fet et ovré. » </q>
+<lb n="1451"/>Et cil s'en torne, si commence a errer,
+<lb n="1452"/>Il ne sout ou, par desoz la cité.
+<lb n="1453"/>Li cuens Guillelmes le convoia assez
+<lb n="1454"/>Et dame Orable et Guïelin le ber;
+<lb n="1455"/>Onc ne finerent desi as <num>.iii.</num> pilers.
+<lb n="1456"/>Par le moien s'en est outre passez, 
+<lb n="1457"/>Et vient au Rosne, s'a un batel trové;
+<lb n="1458"/>A l'aviron se naige outre soëf.
+<lb n="1459"/>Li cuens Guillelmes est arriers retorné 
+<lb n="1460"/>Et Guïelin et Orable au vis cler; 
+<pb n="104"/>
+    <lb n="1461"/> En Glorïete en sont tuit troi entré.
+<lb n="1462"/>Mielz lor venist qu'il s'en fussent torné,
+<lb n="1463"/>Enz en la chartre descendu, avalé,
+<lb n="1464"/>Qu'il n'ont fet chose ne dit ne devisé
+<lb n="1465"/>C'uns Sarrazins n'ait trestot escouté;
+<lb n="1466"/>Roi Arragon le vet dire et conter.</ab>
+  <ab type="gv" n="50">
+    <lb n="1467"/> Li Sarrazins fut mout mal vezïez,
+<lb n="1468"/>Roi Arragon le vet dire et noncier.
+<lb n="1469"/>Quant il le vit, si l'en a aresnié:
+    <lb n="1470"/><q>« Amirauz, sire, fetes pes, si oiez
+<lb n="1471"/>De vo marrastre comment a esploitié 
+<lb n="1472"/>Vers les chetis qu'en prison avïez: <milestone unit="ms-column" n="51a"/>
+<lb n="1473"/>Ele les a de la chartre gitiez,
+<lb n="1474"/>Sus el palés et conduiz et guïez;
+    <lb n="1475"/>En Glorïete sont assis au mengier. »</q>
+    <lb n="1476"/>Dist Arragon: <q>« Dis tu voir, mesaigier?
+<lb n="1477"/>- Sire, dist il, ne sui pas mençongier.
+<lb n="1478"/>Ge les i vi a estrait conseillier 
+<lb n="1479"/>Et un et un acoler et besier.
+<lb n="1480"/>Plus les aime ele, et Guillelme au couchier,
+    <lb n="1481"/>Que vostre pere ne le roi Haucebier. »</q>
+<lb n="1482"/>Arragons l'ot, le sens cuide changier;
+<lb n="1483"/>Il en apele Sarrazins et Escler:
+<pb n="105"/>
+    <lb n="1484"/> <q>« Baron, dist il, sor ce me conseilliez
+<lb n="1485"/>Com faitement ge porrai esploitier
+<lb n="1486"/>De ma marrastre qui tant m'a avillié,
+    <lb n="1487"/>Moi a honni, mon pere vergoignié.»</q> </ab>
+  <ab type="gv" n="51">
+    <lb n="1488"/> Dist Arragon: <q>« Franc chevalier membré,
+<lb n="1489"/>Por Mahomet, vos armes tost prenez!
+<lb n="1490"/>Qui sera ore as garnemenz livrer, 
+    <lb n="1491"/>Ainz ques aions sera chier comparé.» </q>
+    <lb n="1492"/>Et cil responent: <q>« Si com vos commandez.»</q>
+<lb n="1493"/><num>.xv.m.</num> home s'en corent adouber.
+<lb n="1494"/>Dex! quel damage quant Guillelmes nel set
+<lb n="1495"/>Et dame Orable et Guïelin le ber;
+<lb n="1496"/>En Glorïete ou furent a celé,
+<lb n="1497"/>As eschés jeuent, tuit sont asseüré;
+<lb n="1498"/>N'en sorent mot li conte naturel
+<lb n="1499"/>Quant sor els vinrent Sarrazin et Escler.</ab>
+  <ab type="gv" n="52">
+    <lb n="1500"/> Arragon trueve Guillelme soz le pin
+<lb n="1501"/>Et dame Orable et le preu Guïelin;
+<lb n="1502"/>N'en sorent mot li conte palasin
+<lb n="1503"/>Qu'as poinz les prennent paien et Sarrazin,
+<lb n="1504"/>Tur et Persant et felon Bedoïn.
+<lb n="1505"/>Mahomet jurent venjance en sera pris;
+<pb n="106"/>
+    <lb n="1506"/> Dist Faraons, qui se fet li plus fins: 
+    <lb n="1507"/><q>« Enmirauz, sire, entendez envers mi.
+<lb n="1508"/>Tiebauz tes peres si est preuz et gentis,
+<lb n="1509"/>Qui te lessa ceste vile a tenir
+<lb n="1510"/>Et Glorïete, le palés seignori;
+<lb n="1511"/>Icist glouton i ont chalonge mis,
+<lb n="1512"/>Morz ont tes homes, detranchiez et ocis; <milestone unit="ms-column" n="51b"/>
+<lb n="1513"/>Par Mahomet, ne vaus un romoisin
+<lb n="1514"/>Se ne lor fez toz les menbres tolir;
+<lb n="1515"/>Et ta marrastre, qui si nos a honi,
+    <lb n="1516"/>Refai ardoir et en un feu broïr. »</q>
+<lb n="1517"/>Dist Esquanors, li velz chenuz floriz:
+    <lb n="1518"/><q>« Rois Faraon, n'avez mie bien dit. »</q></ab>
+  <ab type="gv" n="53">
+    <lb n="1519"/> Dist Esquanor, li chenuz et li vielz:
+    <lb n="1520"/><q>« Roi Faraon, n'avez pas bien jugié.
+<lb n="1521"/>Ne devez mie folie commencier;
+<lb n="1522"/>Tiex la commence ne la puet abessier.
+<lb n="1523"/>Amirauz, sire, fetes pes, si m'oiez.
+<lb n="1524"/>Tiebauz tes peres est mout bien afetiez,
+<lb n="1525"/>Qui te lessa ceste vile a garder
+<lb n="1526"/>Et Glorïete, le palés et le fié;
+<lb n="1527"/>S'einsi estoit qu'ardissiez sa moillier,
+<lb n="1528"/>Tost s'en seroit envers vos correciez.
+<lb n="1529"/>Mes fai cez contes en ta prison gitier
+<lb n="1530"/>Et dame Orable avec els trebuchier;
+<lb n="1531"/>Prenez vo mes, outre mer l'envoiez.
+<pb n="107"/>
+    <lb n="1532"/> Venra tes peres et li rois Haucebier,
+    <lb n="1533"/>A lor talent se seront tost vengié. »</q>
+    <lb n="1534"/>Dist Arragon: <q>« Mout avez bien jugié;
+<lb n="1535"/>Preu i avroiz que de riens n'i faudrez.
+<lb n="1536"/>Mes le mesaige ai ge ja envoié
+<lb n="1537"/>Au roi mon pere qu'Aufrique a a baillier;
+    <lb n="1538"/>Trusqu'a <num>.viii.</num> jorz resera ci arrier. »</q>
+<lb n="1539"/>Guillelme font en la chartre gitier
+<lb n="1540"/>Et Guïelin, qui preuz fu et legier,
+<lb n="1541"/>Et dame Orable avec els trebuchier.
+<lb n="1542"/>Or en penst Deu qui tot a a jugier!</ab>
+  <ab type="gv" n="54">
+    <lb n="1543"/> Or fu Guillelmes trebuchiez en la chartre
+<lb n="1544"/>Et Guïelin et la cortoise Orable;
+<lb n="1545"/>Sovent se claime maleüreuse lasse:
+    <lb n="1546"/><q>« Dex, dist la dame, beau pere esperitable,
+<lb n="1547"/>Que n'a baptesme receü ceste lasse?
+<lb n="1548"/>Gel cuidai prendre et estre en Deu creable.
+<lb n="1549"/>Sire Guillelmes, mar vi vostre barnage,
+<lb n="1550"/>Vostre gent cors et vostre vasselaige,
+<lb n="1551"/>Quant por vos sui gitee en ceste chartre,
+    <lb n="1552"/>A tele angoisse comme fust par putage. »</q> <milestone unit="ms-column" n="51c"/>
+    <lb n="1553"/>Dist Guïelins: <q>« Vos parlez par folage.
+<lb n="1554"/>Vos et mes oncles estes ore en grant ese;
+    <lb n="1555"/>Par grant amor devez or cest mal trere. »</q>
+<lb n="1556"/>Ot le Guillelmes, a pou d'ire n'enrage,
+<lb n="1557"/>Par maltalent en a juré saint Jaque.
+<pb n="108"/>
+    <lb n="1558"/> <q>« Se n'estoit or por honte et por viltage,
+    <lb n="1559"/>Ge te dorroie une colee large. »</q>
+    <lb n="1560"/>Dist Guïelins: <q>« Vos ferïez folage.
+<lb n="1561"/>Huimés dirai, ne me chaut qui le sache,
+<lb n="1562"/>L'en soloit dire Guillelme Fierebrace,
+<lb n="1563"/>Or dira l'en Guillelme l'Amïable:
+    <lb n="1564"/>En ceste vile par amistié entrastes. »</q>
+<lb n="1565"/>Ot le li cuens, s'enbronche le visage.</ab>
+  <ab type="gv" n="55">
+    <lb n="1566"/> Or fu Guillelmes dolanz et correciez
+<lb n="1567"/>Et dame Orable et Guïelin ses niés
+<lb n="1568"/>Dedenz la chartre ou il sont trebuchié.
+    <lb n="1569"/><q>« Dex, dist li cuens, glorïeus rois del ciel,
+<lb n="1570"/>Com somes mort, traï et engignié!
+<lb n="1571"/>Par quel folie fu cist plez commenciez
+<lb n="1572"/>De quoi nos somes honi et vergoignié,
+<lb n="1573"/>Se cil n'en pense qui tot a a jugier!
+<lb n="1574"/>Las! qu'or nel set rois Looÿs le fier,
+<lb n="1575"/>Bernarz mes freres, li chanuz et li velz,
+<lb n="1576"/>Et d'Anseüne dans Garins li proisiez,
+<lb n="1577"/>Et dedenz Nymes Bertran li enforciez;
+<lb n="1578"/>De lor secors avrïons nos mestier.
+<lb n="1579"/>- Oncle Guillelmes, dist Guïelin le fier,
+<lb n="1580"/>Lessiez ester, que ice n'a mestier.
+<lb n="1581"/>Vez ci Orable, la cortoise moillier;
+<pb n="109"/>
+    <lb n="1582"/> Bien la poëz acoler et besier,
+<lb n="1583"/>Plus bele dame ne demant ne ne quier.
+    <lb n="1584"/>- Dex, dist li cuens, ja serai enragiez! »</q>;
+<lb n="1585"/>Paien les oënt en la chartre tancier,
+<lb n="1586"/>Plus de <num>.xl.</num> s'en i sont eslessié 
+<lb n="1587"/>Qui les <num>.ii.</num> ont de la chartre gitié;
+<lb n="1588"/>Orable i lessent, la cortoisse moillier.
+<lb n="1589"/>El palés mainent et l'onclë et le niés.
+<lb n="1590"/>Dist Pharaons, qui se fesoit plus fier:
+    <lb n="1591"/><q>« Amirauz, sire, faites pes, si m'oiez.
+<lb n="1592"/>Tiebauz tes peres si fet mout a proisier, <milestone unit="ms-column" n="51d"/>
+<lb n="1593"/>Qui te lessa ceste vile a baillier
+<lb n="1594"/>Et Glorïete, le palés et le fié;
+<lb n="1595"/>Vez cel glouton, cel juesne bacheler,
+<lb n="1596"/>Riens que tu dies ne prise un seul denier.
+<lb n="1597"/>Par Mahomet, ne vaus pas un berchier
+<lb n="1598"/>Se ne li fez toz les menbres tranchier,
+    <lb n="1599"/>Lui et Guillelme son oncle, le guerrier. »</q>
+<lb n="1600"/>Guïelins l'ot, le sens cuide changier;
+<lb n="1601"/>Les denz rechine, s'a les eulz reoillié; 
+<lb n="1602"/>Et passe avant quant se fu rebracié,
+<lb n="1603"/>Le poing senestre li a mellé el chief,
+<lb n="1604"/>Hauce le destre, enz el col li asiet,
+<lb n="1605"/>L'os de la gueule li a par mi brisié,
+<lb n="1606"/>Mort le trebuche devant lui a ses piez.
+<lb n="1607"/>Voit le Guillelmes, s'en est joianz et liez.
+    <lb n="1608"/><q>« Dex, dist li cuens, qui tot as a jugier,
+    <lb n="1609"/>Com somes mort et a essil baillié! »</q></ab>
+<pb n="110"/>
+  <ab type="gv" n="56">
+    <lb n="1610"/> Guillelmes vit Pharaon qui chaï.
+    <lb n="1611"/><q>« Dex, dist li cuens, beaus rois de Paradis,
+<lb n="1612"/>Com somes mort et livré a essill!
+<lb n="1613"/>- Ne t'esmaier, oncles, dist Guïelin,
+<lb n="1614"/>En cest palés n'estes pas sanz amis.
+    <lb n="1615"/>- Voir, dist Guillelmes, il en i a petit. »</q>
+<lb n="1616"/>Dont se regarde li enfes Guïelin,
+<lb n="1617"/>Une grant hache lez un piler choisi;
+<lb n="1618"/>Il passe avant, a <num>.ii.</num> mains la sesi,
+<lb n="1619"/>Et vet ferir un paien barbarin,
+<lb n="1620"/>Tot le porfent entresi que el piz.
+<lb n="1621"/>Voit l'Arragon, le sens cuide marrir;
+    <lb n="1622"/>A voiz s'escrie: <q>« Prenez les, Sarrazin!
+<lb n="1623"/>Par Mahomet, il seront malbailli,
+    <lb n="1624"/>Et enz el Rosne et balancié et mis. »</q>
+    <lb n="1625"/>Dist Guïelin: <q>« Glouton, tornez de ci!
+<lb n="1626"/>Vos nos avez hors de la chartre mis,
+<lb n="1627"/>Sus el palés aconduis et aquis;
+<lb n="1628"/>Mes, par l'apostre qu'a Rome est beneïz,
+<lb n="1629"/>Tiex compaignons i avez acueilliz
+    <lb n="1630"/>Qui vos feront correciez et marriz. »</q>
+<lb n="1631"/>A ces paroles ez vos <num>.ii.</num> Sarrazins;
+<lb n="1632"/>Une portee aportoient de vin, <milestone unit="ms-column" n="52a"/>
+<lb n="1633"/>Sus el palés en voloient servir;
+<lb n="1634"/>Mes quant il virent les ruistes cops ferir,
+<lb n="1635"/>En fuie tornent, si lessent tot chaïr.
+<lb n="1636"/>Li cuens Guillelmes vet le tinel sesir,
+<pb n="111"/>
+    <lb n="1637"/> Isnelement o les <num>.ii.</num> mains le prist,
+<lb n="1638"/>Granz cops en done paien et Sarrazins,
+<lb n="1639"/>Cui il consuit ne puet de lui joïr. </ab>
+  <ab type="gv" n="57">
+    <lb n="1640"/> Or fu Guillelmes enz el palés pavé
+<lb n="1641"/>Et Guïelin ses niés, li alosez.
+<lb n="1642"/>L'un tint la hache, l'autre tint le tinel;
+<lb n="1643"/>Granz cops en donent li vassal naturel.
+<lb n="1644"/><num>.xiiii.</num> Turs lor i ont morz gité 
+<lb n="1645"/>Et toz les autres lor ont si effraé
+<lb n="1646"/>Par mi les huis les en ont hors gité;
+<lb n="1647"/>Puis les corurent verroillier et serrer,
+<lb n="1648"/>A granz chaenes ont le pont sus levé.
+<lb n="1649"/>Voit l'Arragon, le sens cuide desver;
+<lb n="1650"/>Il en apele Sarrazins et Escler:
+<lb n="1651"/>« Conseilliez moi, por Mahomet mon dé!
+<lb n="1652"/>Icil Guillelmes malement m'a mené,
+<lb n="1653"/>Qui m'a tolu mon palés principé.
+<lb n="1654"/>Or ne voi ge mes neant de l'entrer! »
+<lb n="1655"/>Ci vos lerons des Sarrazins ester;
+<lb n="1656"/>De Guillebert devons huimés chanter,
+<lb n="1657"/>Le mesagier qui le Rosne a passé.
+<lb n="1658"/>Monte les tertres, s'a les vaux avalé,
+<lb n="1659"/>Desi a Nymes ne s'est mie arresté.
+<pb n="112"/>
+    <lb n="1660"/> Li cuens Bertran s'est par matin levé,
+<lb n="1661"/>Monte el palés Otran le deffaé
+<lb n="1662"/>Qu'il ot conquis par sa ruiste fierté.
+<lb n="1663"/>As granz fenestres s'est li cuens acoté;
+<lb n="1664"/>Il regarda contreval le regné;
+<lb n="1665"/>Vit l'erbe vert et le rosier planté,
+<lb n="1666"/>Et l'orïol et le melle chanter.
+<lb n="1667"/>Lors li remenbre de Guillelme au cort nes,
+<lb n="1668"/>De Guïelin son frere, l'alosé;
+<lb n="1669"/>Mout tendrement commença a plorer,
+<lb n="1670"/>Or les regrete com ja oïr porrez:
+    <lb n="1671"/><q>« Oncle Guillelmes, tant feïs foletez,
+<lb n="1672"/>Quant en Orenge alas por regarder, <milestone unit="ms-column" n="52b"/>
+<lb n="1673"/>Com pautonnier einsi atapiné;
+<lb n="1674"/>Guïelin frere, com vos estïez ber!
+<lb n="1675"/>Or vos ont mort Sarrazin et Escler.
+<lb n="1676"/>Ge sui toz seus en cest païs remés,
+<lb n="1677"/>Si n'i voi home de mon grant parenté
+<lb n="1678"/>A cui je puisse bon conseill demander.
+<lb n="1679"/>Or revenront ceste part li Escler
+<lb n="1680"/>Et Goulïas et li rois Desramez
+<lb n="1681"/>Et Clarïaus et son frere Acerez
+<lb n="1682"/>Et Aguisanz et li rois Giboëz
+<lb n="1683"/>Et li aufins de Rëaumont sor mer,
+<lb n="1684"/>Li rois Eubrons et Borreaus et Lorrez
+<lb n="1685"/>Et Quinzepaumes et ses freres Gondrez,
+<lb n="1686"/>Li <num>.xxx.</num> roi qui d'Espaigne sont né.
+<pb n="113"/>
+    <lb n="1687"/> Chascuns avra <num>.xxx.m.</num> adoubé;
+<lb n="1688"/>Si m'assaudront a Nymes la cité,
+<lb n="1689"/>Si me prendront par vive poësté;
+<lb n="1690"/>Ge serai mort, ocis ou afolé.
+<lb n="1691"/>Mes d'une chose me sui ge porpensé:
+<lb n="1692"/>Ge ne leroie por l'or de <num>.x.</num> citez
+<lb n="1693"/>Que je ne voise el regne dont fui nez, 
+<lb n="1694"/>Si remenrai avec moi mon barné
+<lb n="1695"/>Que amena Guillelmes au cort nes.
+<lb n="1696"/>Quant ge venrai a Paris la cité,
+<lb n="1697"/>Ge descendrai au perron noielé;
+<lb n="1698"/>Venront encontre serjant et bacheler,
+<lb n="1699"/>Qui de Guillelme me vorront demander,
+<lb n="1700"/>De Guïelin mon frere, qui est ber.
+<lb n="1701"/>Hé! las, dolent, n'en savrai que conter,
+    <lb n="1702"/>Mes qu'en Orenge les ont paien tüez.»</q>
+<lb n="1703"/><num>.ii.</num> foiz se pasme sor le mabrin degré,
+<lb n="1704"/>Quant le barnage le corut relever.</ab>
+  <ab type="gv" n="58">
+    <lb n="1705"/> Li cuens Bertrans fu mout grains et dolanz
+<lb n="1706"/>Por Guïelin et Guillelme le franc;
+<lb n="1707"/>Il les regrete bel et cortoisement:
+    <lb n="1708"/><q>« Oncle Guillelmes, tant feïs folement,
+<lb n="1709"/>Quant en Orenge alas si faitement,
+<lb n="1710"/>Com pautonnier en atapinement;
+<lb n="1711"/>Guïelin frere, com vos estïez franc!
+<lb n="1712"/>Or vos ont mort Sarrazin et Persant. <milestone unit="ms-column" n="52c"/>
+<pb n="114"/>
+    <lb n="1713"/> Ge sui toz seus el regne des paiens,
+<lb n="1714"/>N'ai ovec moi ne cosin ne parent.
+<lb n="1715"/>Or revenra rois Tiebauz d'Aufriquant
+<lb n="1716"/>Et Desramez et Goulïas le grant,
+<lb n="1717"/>Li <num>.xxx.</num> roi o lor efforcement;
+<lb n="1718"/>Si m'assaudront a Nymes ci devant,
+<lb n="1719"/>Ge serai morz et livrez a torment.
+<lb n="1720"/>Mes, par l'apostre que quierent peneant,
+<lb n="1721"/>Ge ne leroie por les menbres perdant
+<lb n="1722"/>Que ge n'en aille a Orenge la grant,
+<lb n="1723"/>Si vengerai le duel et le torment
+<lb n="1724"/>Que Sarrazin ont fet de noz parenz.
+<lb n="1725"/>Hé! las, chetis, que vois ge atendant
+    <lb n="1726"/>Que ge mon cors ne lor met en present? »</q></ab>
+  <ab type="gv" n="59">
+    <lb n="1727"/> Li cuens Bertrans fu dolanz et plains d'ire.
+<lb n="1728"/>Endementiers que il pleure et sopire,
+<lb n="1729"/>Ez Gillebert qui entra en la vile,
+<lb n="1730"/>Les degrez monte de la sale perrine.
+<lb n="1731"/>Voit le Bertrans, si commença a rire;
+<lb n="1732"/>A sa voiz clere hautement li escrie:
+    <lb n="1733"/><q>« Bien vieigniez vos, franc chevalier nobile!
+<pb n="115"/>
+    <lb n="1734"/> Ou est mes oncles a la chiere hardie?
+    <lb n="1735"/>Et Guïelin? nel me celer tu mie. »</q>
+<lb n="1736"/>Et cil respont com chevalier nobile:
+    <lb n="1737"/><q>« Dedenz Orenge, cele cité garnie,
+<lb n="1738"/>En Glorïete, cele tor marberine;
+<lb n="1739"/>Felon paien les tienent et justisent,
+<lb n="1740"/>Ge ne gart l'eure que endeus les ocïent.
+<lb n="1741"/>Guillelmes mande, nel te celerai mie,
+<lb n="1742"/>Que le secores o ta chevalerie
+    <lb n="1743"/>Isnelement, que ne te targes mie. »</q>
+<lb n="1744"/>Ot le Bertran, si commença a rire;
+<lb n="1745"/>Oiant trestoz, apela son empire:
+    <lb n="1746"/><q>« Or tost as armes, franc chevalier nobile! » </q>
+<lb n="1747"/>Et cil si font, qu'il ne se targent mie;
+<lb n="1748"/>Es chevaus montent d'Espaigne et de Sulie.
+<lb n="1749"/>Quant Bertrans ist de la cité de Nymes,
+<lb n="1750"/>O lui en maine la gent de son empire;
+<lb n="1751"/>El chief devant sont plus de <num>.xv.m.</num>;
+<lb n="1752"/>Desi au Rosne ne cessent ne ne finent; <milestone unit="ms-column" n="52d"/>
+<lb n="1753"/>Tuit s'en entrerent es nes et es galies,
+<lb n="1754"/>Naigent François et governent et siglent.
+<lb n="1755"/>Desoz Orenge, en la grant praarie,
+<lb n="1756"/>La arriverent les fieres compaignies,
+<pb n="116"/>
+    <lb n="1757"/> Tendent lor tres et paveillons i fichent.
+<lb n="1758"/>Li cuens Bertrans ne s'i atarge mie;
+<lb n="1759"/>Ou voit le mes, si li commence a dire: 
+    <lb n="1760"/><q>« Gilebert, sire, ne me mentir tu mie,
+<lb n="1761"/>Assaudrons nos Orenge ceste vile?
+    <lb n="1762"/>Fendrons cez murs et cez sales perrines? »</q>
+    <lb n="1763"/>Dist Gilebert: <q>« Vos parlez de folie,
+<lb n="1764"/>Qu'ele ne doute de France tot l'empire;
+    <lb n="1765"/>Ne la prendrez a nul jor de vo vie. »</q>
+<lb n="1766"/>Ot le Bertran, a pou n'enrage d'ire.</ab>  
+  <ab type="gv" n="60">
+    <lb n="1767"/> <q>« Gillebert, frere, ce dit li cuens Bertran,
+<lb n="1768"/>Assaudrons nos Orenge la vaillant?
+    <lb n="1769"/>Fraindrons cez murs et cez hauz mandemenz? »</q>
+    <lb n="1770"/>Dist Gilebert: <q>« Vos parlez de neant;
+    <lb n="1771"/>Ne la prendrez a jor de vo vivant. »</q>
+<lb n="1772"/>De cele chose se correça Bertran,
+<lb n="1773"/>Quant le message le vet reconfortant:
+    <lb n="1774"/><q>« Sire, fet il, entendez mon senblant;
+<lb n="1775"/>En la cité vos metrai de tel sens
+<lb n="1776"/>Ja nel savront Sarrazin ne Persant.
+    <lb n="1777"/>- Va dont, beau frere, a Jhesu te commant! »</q>
+<lb n="1778"/>Et cil s'en torne, qui set le convenant,
+<lb n="1779"/>A <num>.xiii.m.</num> de François combatanz;
+<lb n="1780"/>Les autres lessent as tres et as brehanz,
+<pb n="117"/>
+    <lb n="1781"/> Trusqu'a la croute ne se vont arrestant;
+<lb n="1782"/>Par les pilers s'en entrerent dedenz,
+<lb n="1783"/>Il n'orent cierges ne chandoiles ardanz,
+<lb n="1784"/>L'un avant l'autre, l'ocurté i fu granz. 
+<lb n="1785"/>De cele chose s'esmaia mout Bertran;
+<lb n="1786"/>Le mes apele, si li dit en oiant:
+    <lb n="1787"/><q>« Gilebert, frere, nel me celer neant,
+<lb n="1788"/>Morz est mes oncles, par le mien escïent;
+    <lb n="1789"/>Venduz nos as a la gent mescreant. »</q>
+    <lb n="1790"/>Dist Gileberz: <q>« Vos parlez folement;
+<lb n="1791"/>Ge nel feroie por les menbres perdant.
+<lb n="1792"/>En Glorïete venroiz ja ci dedenz; <note resp="#AL">Dernier vers du manuscrit A1 (Paris, BnF fr. 774), la suite provient du manuscrit Paris, BnF, fr. 368</note><milestone unit="ms-column" n="173a"/>
+<lb n="1793"/>Por Dieu vos pri, fetes le gentement.
+    <lb n="1794"/>- Va dont, beau frere, a Dieu commandement! »</q>
+<lb n="1795"/>Endementiers qu'il vont einsi parlant,
+<lb n="1796"/>En Glorïete en sont venu a tant.
+<lb n="1797"/>Li cuens Guillelmes les aperçut avant.
+    <lb n="1798"/><q>« Diex, dist li cuens, beau pere roi amant,
+    <lb n="1799"/>Or voi la voie que j'ai desirré tant! »</q>
+<lb n="1800"/>Lor eaumes ostent li chevalier vaillant,
+<lb n="1801"/>Puis s'entrebesent, de joie vont plorant.
+<lb n="1802"/>Li cuens Bertran l'en apelë avant:
+    <lb n="1803"/><q>« Comment t'est, oncles? nel me celer neant.
+<lb n="1804"/>- Mout bien, biau niés, la merci Deu le grant!
+<lb n="1805"/>Mout ai soffert grant paine et grant ahan;
+<lb n="1806"/>Ne vos cuidai veoir en mon vivant,
+<pb n="118"/>
+    <lb n="1807"/> Tel duel m'ont fet Sarrazin et Persant.
+    <lb n="1808"/>- Oncle Guillelmes, vengiez seroiz par tens. »</q>
+<lb n="1809"/>Sus el palés sonent un olifant;
+<lb n="1810"/>Cil dehors s'arment as tres et as brehans.
+<lb n="1811"/>Li cuens Guillelmes qui fu preuz et vaillanz! 
+<lb n="1812"/>Les ponz avalent, si descendent a tant, 
+<lb n="1813"/>Vienent as portes de la cité vaillant, 
+<lb n="1814"/>Si les ovrirent tost et delivrement;
+<lb n="1815"/>Et cil dehors vont par dedenz entrant;
+<lb n="1816"/>Monjoie escrïent et derrier et devant. 
+<lb n="1817"/>De cele joie sont paien esmaiant; 
+<lb n="1818"/>As armes corent li cuvert souduant,
+<lb n="1819"/>De lor hostieus issent de maintenant,
+<lb n="1820"/>Por eaus deffendre garni furent errant;
+<lb n="1821"/>Mes ne lor vaut la montance d'un gant,
+<lb n="1822"/>Que trop i ot de la françoise gent;
+<lb n="1823"/>Tote la vile a porprise Bertrans 
+<lb n="1824"/>Por gaagnier la fort cité vaillant. 
+<lb n="1825"/>La veïssiez un estor si pesant,
+<lb n="1826"/>Tant hante fraindre et tant escu croissant,
+<lb n="1827"/>Et desmaillier tant haubers jazerant,
+<lb n="1828"/>Tant Sarrazin trebuchier mort sanglant!
+<lb n="1829"/>Quant Arragon voit ocirre sa gent,
+<lb n="1830"/>Lors a tel duel a pou ne pert le senz;
+<lb n="1831"/>Saut en la selle del destrier auferrant,
+<lb n="1832"/>Prist un escu qu'il tolli a un Franc,
+<pb n="119"/>
+    <lb n="1833"/> Garde a la terre, voit un espié tranchant,
+<lb n="1834"/>Il s'abessa, a ses <num>.ii.</num> mains le prent;
+<lb n="1835"/>Le cheval broche des esperons tranchanz,
+<lb n="1836"/>Fiert s'en la presse de la bataille grant;
+<lb n="1837"/>La noz a mort Foucher de Meliant <milestone unit="ms-column" n="173b"/>
+<lb n="1838"/>Et puis un autre et le tierz ausiment.
+<lb n="1839"/>Voit le Bertran, a pou ne pert le sen;
+<lb n="1840"/>Il tret l'espee dont bien tranche le brant,
+<lb n="1841"/>Fiert Arragon, nel vet mie esparnant;
+<lb n="1842"/>Un cop li done par si fier maltalant
+<lb n="1843"/>Tot le porfent desi el piz devant,
+<lb n="1844"/>Mort l'abati del destrier auferrant.
+<lb n="1845"/>Paien en perdent et force et hardement.
+<lb n="1846"/>Que vos iroie le plet plus aloignant?
+<lb n="1847"/>Mal soit de cel qui en soit eschapant, 
+<lb n="1848"/>Desus la terre en cort le ru del sanc.
+<lb n="1849"/>Li cuens Guillelmes ne se vet atarjant,
+<lb n="1850"/>Vient a la chartre tost et isnelement,
+<lb n="1851"/>S'en tret Orable, la dame au cors vaillant.
+<lb n="1852"/>Bertran apele, si li dit en oiant:
+    <lb n="1853"/><q>« Beau niés, dist il, entendez mon semblant
+<lb n="1854"/>De ceste dame au gent cors avenant
+<lb n="1855"/>Qui m'a gari de la mort voiremant;
+<lb n="1856"/>La moie foi li plevi loiaument
+    <lb n="1857"/>Que la prendrai a moillier voirement. »</q>
+    <lb n="1858"/>Et dit Bertran: <q>« Qu'alez vos atarjant?
+<lb n="1859"/>Tenez li bien tot le suen convenant,
+<pb n="120"/>
+    <lb n="1860"/> Si l'espousez a joie lïemant.
+    <lb n="1861"/>- Niés, dist Guillelmes, tot a vostre comment. »</q></ab>
+  <ab type="gv" n="61">
+    <lb n="1862"/> Li cuens Guillelmes fu mout gentiz et ber.
+<lb n="1863"/>Quant ot par force conquisse la cité,
+<lb n="1864"/>Une grant cuve avoit fet aprester;
+<lb n="1865"/>De l'eve clere firent dedenz giter.
+<lb n="1866"/>La fu l'evesque de Nymes la cité;
+<lb n="1867"/>Orable firent de ses dras desnüer,
+<lb n="1868"/>Il la baptisent en l'enor Damedé,
+<lb n="1869"/>Le non li otent de la paieneté;
+<lb n="1870"/>Bertran la tint et Guïelin li ber
+<lb n="1871"/>Et Guilebert, le preuz et le sené;
+<lb n="1872"/>A nostre loi la font Guibor nomer.
+<lb n="1873"/>A un mostier qu'eurent fet dedïer,
+<lb n="1874"/>La ou Mahom fu devant reclamé,
+<lb n="1875"/>L'ala li cuens Guillelmes espouser,
+<lb n="1876"/>Messe lor chante li evesque Guimer.
+<lb n="1877"/>Aprés la messe sont del mostier torné,
+<lb n="1878"/>En Glorïete font la dame monter;
+<lb n="1879"/>Granz sont les noces sus el palés pavé.
+<lb n="1880"/>Li cuens Bertrans les servit au digner
+<lb n="1881"/>Et Guilebert et Guïelin le ber.
+<lb n="1882"/><num>.viii.</num> jorz durerent a joie et a barné;
+<lb n="1883"/>Assez i orent harpeor et jugler
+<pb n="121"/>
+    <lb n="1884"/> Et dras de soie et hermins engoulez
+<lb n="1885"/>Et muls d'Espaigne et destrier sejornez.</ab>
+  <ab type="gv" n="62">
+    <lb n="1886"/> Li cuens Guillelmes ot espousé la dame;
+<lb n="1887"/>Puis estut il tiex <num>.xxx.</num> anz en Orenge <milestone unit="ms-column" n="173c"/>
+<lb n="1888"/>C'onques un jor n'i estut sanz chalenge.
+				</ab>
+</div>
+</body>
+</text>
+</TEI>

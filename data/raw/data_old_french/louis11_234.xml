@@ -1,0 +1,4366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="fr">
+  <fileDesc>
+    <titleStmt>
+      <title type="main">Lettres de Louis XI, roi de France</title>
+      <title type="formal">louis11_234</title>
+      <title type="reference">louis11_234</title>
+      <title type="DEAF">LetLouis11V3*</title>
+      <title type="gmd">transcription électronique</title>
+      <author xml:id="LouisXI" key="Louis XI (roi de France ; 1423-1483)" ref="http://www.idref.fr/029459435">Louis XI</author>
+      <editor>Équipe de la Base de français médiéval - ENS de Lyon / UMR 5317 IHRIM</editor>
+      <funder>Laboratoire IHRIM</funder>
+    </titleStmt>
+    <editionStmt>
+      <edition>transcripion électronique</edition>
+      <respStmt xml:id="encoder2">
+        <resp>balisage de structure en XML-TEI</resp>
+        <name xml:id="Acollignon">Alain Collignon</name>
+      </respStmt>
+      <respStmt xml:id="encoder0">
+        <resp>ajout de métadonnées</resp>
+        <name xml:id="AL">Alexei Lavrentiev</name>
+      </respStmt>
+    </editionStmt>
+    <extent>- Numéros de pages saisies : de 37 à 347 ;
+            - Nombre de mots d'après la base des descripteurs : <num xml:id="nb_mots_given">3228</num> ;
+            - Nombre de tokens (mots et ponctuations) d'après la base des descripteurs : <num xml:id="nb_tokens_given">3553</num>.
+    </extent>
+    <publicationStmt>
+      <publisher><name>Projet BFM, ENS de Lyon / UMR 5317 IHRIM</name></publisher>
+      <address>
+        <addrLine>15, parvis René Descartes</addrLine>
+        <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+        <addrLine>Tél : 04 37 37 63 10</addrLine>
+        <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+        <addrLine>http://bfm.ens-lyon.fr</addrLine>
+      </address>
+      <idno type="bfm">http://catalog.bfm-corpus.org/louis11_234</idno>
+      <idno type="doi">10.34847/nkl.b5db83g8</idno>
+      <availability status="free">
+        <licence target="https://www.etalab.gouv.fr/licence-ouverte-open-licence">
+          <ab type="availability_bfm" subtype="">Les Conditions générales d'utilisation de la Base de Français Médiéval (http://txm.bfm-corpus.org/bfm/files/CGU.pdf), 
+            et notamment son Article 5 « PROPRIETE INTELLECTUELLE », s'appliquent à tous les textes de la BFM.</ab>
+          <ab type="how_to_cite">
+            <label>Comment citer ce texte :</label>
+            <bibl>Louis XI, Lettres de Louis XI, roi de France, édité par Joseph Vaesen et Etienne Charavay, Paris, 1887. 
+              Publié en ligne par la Base de français médiéval, http://catalog.bfm-corpus.org/louis11_234.
+              Dernière révision le 2021-02-04.</bibl>
+            D'autres formules de citation de la BFM sont proposées sur la page web suivante :
+            http://bfm.ens-lyon.fr/article.php3?id_article=281.</ab>
+          <ab type="availability_file">
+            <label>Conditions d'utilisation de ce fichier :</label>
+              Ce fichier numérique est composé du corps de texte médiéval et des suppléments numériques : balisage XML-TEI, métadonnées (teiHeader). Le texte et les suppléments numériques sont libres de droit et peuvent à ce titre être téléchargés et réutilisés librement.
+            </ab>
+            <ab type="availability_txmweb" subtype="illimité">
+              <label>Conditions d'utilisation par le portail BFM :</label>
+              Accès réservé aux membres de l'équipe BFM et des projets associés.</ab>
+        </licence>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>Lettres de Louis XI, roi de France : Lettres de Louis XI 1465-1469 (Tome 3)</title>
+          <author>Louis XI</author>
+          <respStmt>
+            <resp xml:id="editor">Éditeur scientifique</resp>
+            <name type="person">Joseph Vaesen</name>
+            <name type="person">Etienne Charavay</name>
+          </respStmt>
+        </titleStmt>
+          <extent>33 page(s), soit 37-347 (extraits)
+        </extent>
+        <publicationStmt>
+          <publisher>Librairie Renouard</publisher>
+          <pubPlace>Paris</pubPlace>
+          <date>1887</date>
+          <idno type="sigle_DEAF">LetLouis11V3*</idno>
+          <idno type="cote_biblio">BIU : Mag 2. 012345(3)</idno>
+          <availability>
+            <p>Lien éditeur : <ref target="http://penelope.upmf-grenoble.fr/numerisation/384212101_54527_46_003.pdf">Copie en ligne</ref></p></availability>
+        </publicationStmt><seriesStmt><title>Société de l'histoire de France</title><idno type="collection">234</idno></seriesStmt>
+      </biblFull>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p>Projet :<name type="project">BFM - Base de français médiéval</name>
+        Resp. : <name type="person">Céline Guillot-Barbance</name>
+        Équipe : Base de français médiéval
+        Laboratoire : UMR 5317 IHRIM
+        Institution : ENS de Lyon
+        <address>
+          <addrLine>15, parvis René Descartes</addrLine>
+          <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+          <addrLine>Tél : 04 37 37 63 10</addrLine>
+          <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+          <addrLine>http://bfm.ens-lyon.fr</addrLine>
+        </address>
+      </p>
+    </projectDesc>
+    <editorialDecl>
+      <p>Voir le <ref target="http://bfm.ens-lyon.fr/IMG/pdf/Manuel_Encodage_TEI.pdf">Manuel d'encodage XML-TEI de la BFM</ref>
+        et les <ref target="http://bfm.ens-lyon.fr/IMG/pdf/Consignes_BFM.pdf">Consignes aux relecteurs de la BFM</ref>.</p>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="body" occurs="1"/>
+        <tagUsage gi="date" occurs="19"/>
+        <tagUsage gi="div" occurs="14"/>
+        <tagUsage gi="foreign" occurs="1"/>
+        <tagUsage gi="gap" occurs="1"/>
+        <tagUsage gi="head" occurs="14"/>
+        <tagUsage gi="hi" occurs="56"/>
+        <tagUsage gi="idno" occurs="20"/>
+        <tagUsage gi="note" occurs="14"/>
+        <tagUsage gi="p" occurs="64"/>
+        <tagUsage gi="pb" occurs="33"/>
+        <tagUsage gi="placeName" occurs="12"/>
+        <tagUsage gi="s" occurs="129"/>
+        <tagUsage gi="sic" occurs="1"/>
+        <tagUsage gi="supplied" occurs="1"/>
+        <tagUsage gi="text" occurs="1"/>
+        <tagUsage gi="title" occurs="9"/>
+        <tagUsage gi="w" occurs="3553"/>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <creation>
+      <name type="author">Louis XI</name>
+      <title>Lettres de Louis XI, roi de France</title>
+      <date type="compo" when="1467-01-01" notBefore="1465-01-01" notAfter="1469-01-01" n="15">1465-1469</date>
+      <date type="compo_periode">moyen</date>
+      <date type="compo_sous_siecle" n="15_3">fin</date>
+      <date type="ms" when="1467-01-01" notBefore="1465-01-01" notAfter="1469-12-31">1465-1469</date>
+      <idno type="msIdentifier">[Manuscrits multiples]</idno>
+      <region type="dialecte_auteur">parisien</region>
+    </creation>
+    <langUsage>
+      <language ident="fro" usage="100">Le texte est entièrement écrit en prose en moyen français.</language>
+    </langUsage>
+    <textDesc>
+      <channel mode="w">print</channel>
+      <constitution type="single"/>
+      <derivation type="original"/>
+      <domain type="politique"/>
+    <factuality type="inapplicable"/>
+      <interaction type="none"/>
+      <preparedness type="prepared"/>
+      <purpose type="narrative"/></textDesc>
+    <textClass>
+      <keywords scheme="http://authorities.bfm-corpus.org">
+        <term type="domaine">politique</term>
+        <term type="genre">lettre</term>
+        <term type="forme">prose</term>
+        <term type="relation">original</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change who="#AL" when="2011-09-12">adaptation au format TEI BFM</change>
+    <change who="#Acollignon" when="2021-02-04">balisage de structure en XML-TEI</change>
+    <change who="#AL" when="2021-05-11">ajout de métadonnées</change>
+    <change when="2021-02-04">Dernière modification du texte</change>
+    <change when="2022-11-04">Création de cet entête</change>
+  </revisionDesc>
+</teiHeader>
+<text> 
+<body> 
+<div type="letter" n="239"> 
+<pb n="37"/> 
+<head xml:lang="fr"> 
+
+<s n="1">
+<hi rend="gras">
+<w n="1">A</w>
+<w n="2">LA</w>
+<w n="3">DUCHESSE</w>
+<w n="4">DE</w>
+<w n="5">MILAN</w>
+<w type="pon" n="6">(</w>
+<w type="abbr" n="7">V.</w>
+<w type="pon" n="8">)</w>
+<w type="pon" n="9">.</w>
+</hi>
+</s>
+
+</head> 
+  <note type="inline">   <placeName>Orléans</placeName>, <date when="1466-03-23">23 mars 1466</date>.<idno type="sourceDesc">Orig. BibI. nat., F. ital., 1591 (Archivio Sforzesco), fol. 309.  </idno></note>
+<p> 
+<s n="2">
+<w n="10">Trés</w>
+<w n="11">chiere</w>
+<w n="12">et</w>
+<w n="13">trés</w>
+<w n="14">amée</w>
+<w n="15">tante</w>
+<w type="pon" n="16">,</w>
+<w n="17">j'</w>
+<w n="18">ay</w>
+<w n="19">sceu</w>
+<w n="20">qu'</w>
+<w n="21">il</w>
+<w n="22">a</w>
+<w n="23">pleu</w>
+<w n="24">à</w>
+<w n="25">Dieu</w>
+<w n="26">faire</w>
+<w n="27">son</w>
+<w n="28">commandement</w>
+<w n="29">de</w>
+<w n="30">feu</w>
+<w n="31">mon</w>
+<w n="32">bel</w>
+<w n="33">oncle</w>
+<w n="34">le</w>
+<w n="35">duc</w>
+<w n="36">de</w>
+<w n="37">Millan</w>
+<w type="pon" n="38">,</w>
+<w n="39">à</w>
+<w n="40">qui</w>
+<w n="41">Dieu</w>
+<w n="42">par</w>
+<w n="43">sa</w>
+<w n="44">grace</w>
+<w n="45">vueille</w>
+<w n="46">pardonner</w>
+<w type="pon" n="47">.</w>
+</s>
+<s n="3">
+<w n="48">Je</w>
+<w n="49">vous</w>
+<w n="50">prie</w>
+<w n="51">que</w>
+<w n="52">de</w>
+<w n="53">ce</w>
+<w n="54">vous</w>
+<w n="55">vueillez</w>
+<w n="56">conforter</w>
+<w type="pon" n="57">.</w>
+</s>
+<s n="4">
+<w n="58">Et</w>
+<w n="59">au</w>
+<w n="60">regard</w>
+<w n="61">de</w>
+<w n="62">l'</w>
+<w n="63">empeschement</w>
+<w n="64">que</w>
+<w n="65">en</w>
+<w n="66">Savoye</w>
+<pb n="38"/> 
+<w n="67">l'</w>
+<w n="68">on</w>
+<w n="69">a</w>
+<w n="70">donné</w>
+<w n="71">à</w>
+<w n="72">mon</w>
+<w n="73">frere</w>
+<w n="74">et</w>
+<w n="75">cousin</w>
+<w type="pon" n="76">,</w>
+<w n="77">vostre</w>
+<w n="78">filz</w>
+<w type="pon" n="79">,</w>
+<w n="80">en</w>
+<w n="81">soy</w>
+<w n="82">en</w>
+<w n="83">alant</w>
+<w n="84">devers</w>
+<w n="85">vous</w>
+<w type="pon" n="86">,</w>
+<w n="87">je</w>
+<w n="88">vous</w>
+<w n="89">certiffie</w>
+<w n="90">que</w>
+<w n="91">ce</w>
+<w n="92">m'</w>
+<w n="93">a</w>
+<w n="94">esté</w>
+<w n="95">le</w>
+<w n="96">plus</w>
+<w n="97">grant</w>
+<w n="98">desplaisir</w>
+<w n="99">que</w>
+<w n="100">de</w>
+<w n="101">chose</w>
+<w n="102">qui</w>
+<w n="103">jamais</w>
+<w n="104">me</w>
+<w n="105">soit</w>
+<w n="106">advenue</w>
+<w type="pon" n="107">.</w>
+</s>
+<s n="5">
+<w n="108">Mais</w>
+<w n="109">de</w>
+<w n="110">ce</w>
+<w n="111">ne</w>
+<w n="112">vous</w>
+<w n="113">vueillez</w>
+<w n="114">troubler</w>
+<w type="pon" n="115">,</w>
+<w n="116">car</w>
+<w n="117">je</w>
+<w n="118">suis</w>
+<w n="119">deliberé</w>
+<w n="120">de</w>
+<w n="121">mectre</w>
+<w n="122">ma</w>
+<w n="123">personne</w>
+<w n="124">et</w>
+<w n="125">employer</w>
+<w n="126">toute</w>
+<w n="127">ma</w>
+<w n="128">puissance</w>
+<w type="pon" n="129">,</w>
+<w n="130">tant</w>
+<w n="131">pour</w>
+<w n="132">delivrer</w>
+<w n="133">mon</w>
+<w n="134">dit</w>
+<w n="135">cousin</w>
+<w type="pon" n="136">,</w>
+<w n="137">vostre</w>
+<w n="138">filz</w>
+<w type="pon" n="139">,</w>
+<w n="140">que</w>
+<w n="141">pour</w>
+<w n="142">maintenir</w>
+<w n="143">et</w>
+<w n="144">garder</w>
+<w n="145">vostre</w>
+<w n="146">estat</w>
+<w n="147">et</w>
+<w n="148">seigneurie</w>
+<w type="pon" n="149">,</w>
+<w n="150">ainsi</w>
+<w n="151">que</w>
+<w n="152">je</w>
+<w n="153">vouldroye</w>
+<w n="154">faire</w>
+<w n="155">pour</w>
+<w n="156">mon</w>
+<w n="157">propre</w>
+<w n="158">fait</w>
+<w type="pon" n="159">.</w>
+</s>
+<s n="6">
+<w n="160">Et</w>
+<w n="161">me</w>
+<w n="162">escripvez</w>
+<w n="163">souvent</w>
+<w n="164">de</w>
+<w n="165">voz</w>
+<w n="166">nouvelles</w>
+<w type="pon" n="167">,</w>
+<w n="168">et</w>
+<w n="169">comme</w>
+<w n="170">voz</w>
+<w n="171">faiz</w>
+<w n="172">de</w>
+<w n="173">par</w>
+<w n="174">delà</w>
+<w n="175">se</w>
+<w n="176">porteront</w>
+<w type="pon" n="177">,</w>
+<w n="178">et</w>
+<w n="179">ce</w>
+<w n="180">que</w>
+<w n="181">vous</w>
+<w n="182">vouldrez</w>
+<w n="183">que</w>
+<w n="184">je</w>
+<w n="185">face</w>
+<w n="186">pour</w>
+<w n="187">le</w>
+<w n="188">bien</w>
+<w n="189">d'</w>
+<w n="190">iceulx</w>
+<w type="pon" n="191">,</w>
+<w n="192">et</w>
+<w n="193">je</w>
+<w n="194">le</w>
+<w n="195">feray</w>
+<w n="196">de</w>
+<w n="197">trés</w>
+<w n="198">bon</w>
+<w n="199">cuer</w>
+<w type="pon" n="200">.</w>
+</s>
+<s n="7">
+<w n="201">Trés</w>
+<w n="202">chiere</w>
+<w n="203">et</w>
+<w n="204">trés</w>
+<w n="205">amée</w>
+<w n="206">tante</w>
+<w type="pon" n="207">,</w>
+<w n="208">Nostre</w>
+<w n="209">Seigneur</w>
+<w n="210">vous</w>
+<w n="211">ayt</w>
+<w n="212">en</w>
+<w n="213">sa</w>
+<w n="214">saincte</w>
+<w n="215">garde</w>
+<w type="pon" n="216">.</w>
+</s>
+<s n="8">
+<w n="217">Escript</w>
+<w n="218">à</w>
+<w n="219">Orleans</w>
+<w type="pon" n="220">,</w>
+<w n="221">le</w>
+<w n="222">XXIII</w>
+<hi rend="exp">
+<w n="223">e</w>
+</hi>
+<w n="224">jour</w>
+<w n="225">de</w>
+<w n="226">mars</w>
+<w type="pon" n="227">.</w>
+</s>
+</p> 
+<p> 
+<s n="9">
+<hi rend="ital">
+<w n="228">Belle</w>
+<w n="229">tante</w>
+<w n="230">tenez</w>
+<w n="231">vous</w>
+<w n="232">seure</w>
+<w n="233">que</w>
+<w n="234">je</w>
+<w n="235">ne</w>
+<w n="236">vous</w>
+<w n="237">faudré</w>
+<w n="238">de</w>
+<w n="239">ryen</w>
+<w type="pon" n="240">.</w>
+<w n="241">Ecryt</w>
+<w n="242">de</w>
+<w n="243">ma</w>
+<w n="244">main</w>
+<w type="pon" n="245">.</w>
+</hi>
+</s>
+</p> 
+<p> 
+<s n="10">
+<hi rend="pmaj">
+<w n="246">Loys</w>
+<w type="pon" n="247">.</w>
+</hi>
+</s>
+</p> 
+<p> 
+<s n="11">
+<hi rend="pmaj">
+<w n="248">Leroux</w>
+</hi>
+</s>
+</p> 
+<p> 
+<s n="12">
+<w n="249">A</w>
+<w n="250">ma</w>
+<w n="251">trés</w>
+<w n="252">chiere</w>
+<w n="253">et</w>
+<w n="254">trés</w>
+<w n="255">amée</w>
+<w n="256">tante</w>
+<w n="257">la</w>
+<w n="258">duchesse</w>
+<w n="259">de</w>
+<w n="260">Millan</w>
+<w type="pon" n="261">.</w>
+</s>
+</p> 
+</div> 
+  <pb n="46"/> 
+<div type="letter" n="244"> 
+
+<head xml:lang="fr"> 
+
+<s n="13">
+<hi rend="gras">
+<w n="262">AU</w>
+<w n="263">DUC</w>
+<w n="264">DE</w>
+<w n="265">MILAN</w>
+<w type="pon" n="266">(</w>
+<w type="abbr" n="267">V.</w>
+<w type="pon" n="268">)</w>
+<w type="pon" n="269">.</w>
+</hi>
+</s>
+</head> 
+  <note type="inline">  <placeName>Jargeau</placeName>, <date when="1466-04-04">4 avril 1466</date>.<idno type="sourceDesc">Orig. Arch. de Milan.</idno></note>
+<p> 
+<s n="14">
+<w n="270">De</w>
+<w n="271">par</w>
+<w n="272">le</w>
+<w n="273">roy</w>
+<w type="pon" n="274">.</w>
+</s>
+</p> 
+<p> 
+<s n="15">
+<w n="275">Trés</w>
+<w n="276">chier</w>
+<w n="277">et</w>
+<w n="278">trés</w>
+<w n="279">amé</w>
+<w n="280">frere</w>
+<w n="281">et</w>
+<w n="282">cousin</w>
+<w type="pon" n="283">,</w>
+<w n="284">nostre</w>
+<w n="285">bien</w>
+<w n="286">amé</w>
+<w n="287">George</w>
+<w n="288">d'</w>
+<w n="289">Amancy</w>
+<w type="pon" n="290">,</w>
+<w n="291">escuier</w>
+<w type="pon" n="292">,</w>
+<w n="293">nous</w>
+<w n="294">a</w>
+<w n="295">fait</w>
+<w n="296">dire</w>
+<w n="297">et</w>
+<w n="298">remonstrer</w>
+<w n="299">qu'</w>
+<w n="300">il</w>
+<w n="301">a</w>
+<w n="302">esté</w>
+<w n="303">autresfoiz</w>
+<w n="304">es</w>
+<w n="305">Ytales</w>
+<w n="306">avec</w>
+<w n="307">feu</w>
+<w n="308">Jehan</w>
+<w n="309">d'</w>
+<w n="310">Amanci</w>
+<w type="pon" n="311">,</w>
+<w n="312">son</w>
+<w n="313">oncle</w>
+<w type="pon" n="314">,</w>
+<w n="315">lequel</w>
+<w n="316">estoit</w>
+<w n="317">conseillier</w>
+<pb n="47"/> 
+<w n="318">de</w>
+<w n="319">feu</w>
+<w n="320">nostre</w>
+<w n="321">trés</w>
+<w n="322">chier</w>
+<w n="323">seigneur</w>
+<w n="324">et</w>
+<w n="325">pere</w>
+<w type="pon" n="326">,</w>
+<w n="327">que</w>
+<w n="328">Dieu</w>
+<w n="329">absoille</w>
+<w type="pon" n="330">.</w>
+</s>
+<s n="16">
+<w n="331">Et</w>
+<w n="332">à</w>
+<w n="333">ceste</w>
+<w n="334">cause</w>
+<w n="335">a</w>
+<w n="336">grant</w>
+<w n="337">vouloir</w>
+<w n="338">et</w>
+<w n="339">affection</w>
+<w n="340">d'</w>
+<w n="341">aler</w>
+<w n="342">demourer</w>
+<w n="343">par</w>
+<w n="344">delà</w>
+<w type="pon" n="345">,</w>
+<w n="346">et</w>
+<w n="347">vous</w>
+<w n="348">desireroit</w>
+<w n="349">plus</w>
+<w n="350">servir</w>
+<w n="351">que</w>
+<w n="352">nul</w>
+<w n="353">des</w>
+<w n="354">autres</w>
+<w n="355">princes</w>
+<w n="356">estans</w>
+<w n="357">oultre</w>
+<w n="358">les</w>
+<w n="359">mons</w>
+<w type="pon" n="360">,</w>
+<w n="361">et</w>
+<w n="362">est</w>
+<w n="363">de</w>
+<w n="364">tout</w>
+<w n="365">deliberé</w>
+<w n="366">de</w>
+<w n="367">s'</w>
+<w n="368">en</w>
+<w n="369">aler</w>
+<w n="370">par</w>
+<w n="371">devers</w>
+<w n="372">vous</w>
+<w type="pon" n="373">.</w>
+</s>
+<s n="17">
+<w n="374">Et</w>
+<w n="375">pour</w>
+<w n="376">ce</w>
+<w n="377">que</w>
+<w n="378">nous</w>
+<w n="379">desirons</w>
+<w n="380">fort</w>
+<w n="381">son</w>
+<w n="382">bien</w>
+<w n="383">et</w>
+<w n="384">avancement</w>
+<w type="pon" n="385">,</w>
+<w n="386">tant</w>
+<w n="387">pour</w>
+<w n="388">les</w>
+<w n="389">bonnes</w>
+<w n="390">meurs</w>
+<w n="391">et</w>
+<w n="392">vertuz</w>
+<w n="393">de</w>
+<w n="394">sa</w>
+<w n="395">personne</w>
+<w type="pon" n="396">,</w>
+<w n="397">que</w>
+<w n="398">en</w>
+<w n="399">faveur</w>
+<w n="400">des</w>
+<w n="401">bons</w>
+<w n="402">et</w>
+<w n="403">agreables</w>
+<w n="404">services</w>
+<w n="405">que</w>
+<w n="406">sondit</w>
+<w n="407">feu</w>
+<w n="408">oncle</w>
+<w n="409">a</w>
+<w n="410">faiz</w>
+<w n="411">à</w>
+<w n="412">nostredit</w>
+<w n="413">feu</w>
+<w n="414">seigneur</w>
+<w n="415">et</w>
+<w n="416">pere</w>
+<w n="417">et</w>
+<w n="418">à</w>
+<w n="419">nous</w>
+<w type="pon" n="420">,</w>
+<w n="421">nous</w>
+<w n="422">vous</w>
+<w n="423">prions</w>
+<w n="424">bien</w>
+<w n="425">affectueusement</w>
+<w n="426">que</w>
+<w type="pon" n="427">,</w>
+<w n="428">en</w>
+<w n="429">faveur</w>
+<w n="430">et</w>
+<w n="431">contemplacion</w>
+<w n="432">de</w>
+<w n="433">nous</w>
+<w type="pon" n="434">,</w>
+<w n="435">le</w>
+<w n="436">vueillez</w>
+<w n="437">recevoir</w>
+<w n="438">et</w>
+<w n="439">retenir</w>
+<w n="440">vostre</w>
+<w n="441">serviteur</w>
+<w n="442">et</w>
+<w n="443">l'</w>
+<w n="444">entretenir</w>
+<w n="445">comme</w>
+<w n="446">l'</w>
+<w n="447">un</w>
+<w n="448">des</w>
+<w n="449">autres</w>
+<w n="450">gentilzhommes</w>
+<w n="451">de</w>
+<w n="452">vostre</w>
+<w n="453">maison</w>
+<w type="pon" n="454">,</w>
+<w n="455">et</w>
+<w type="pon" n="456">,</w>
+<w n="457">en</w>
+<w n="458">ce</w>
+<w n="459">faisant</w>
+<w type="pon" n="460">,</w>
+<w n="461">vous</w>
+<w n="462">nous</w>
+<w n="463">ferez</w>
+<w n="464">bien</w>
+<w n="465">singullier</w>
+<w n="466">et</w>
+<w n="467">agreable</w>
+<w n="468">plaisir</w>
+<w type="pon" n="469">.</w>
+</s>
+<s n="18">
+<w n="470">Donné</w>
+<w n="471">à</w>
+<w n="472">Jargueau</w>
+<w type="pon" n="473">,</w>
+<w n="474">le</w>
+<w n="475">IIII</w>
+<hi rend="exp">
+<w n="476">e</w>
+</hi>
+<w n="477">jour</w>
+<w n="478">d'</w>
+<w n="479">avril</w>
+<w type="pon" n="480">.</w>
+</s>
+</p> 
+<p> 
+<s n="19">
+<hi rend="pmaj">
+<w n="481">Loys</w>
+<w type="pon" n="482">.</w>
+</hi>
+</s>
+</p> 
+<p> 
+<s n="20">
+<hi rend="pmaj">
+<w n="483">Meurin</w>
+<w type="pon" n="484">.</w>
+</hi>
+</s>
+</p> 
+<p> 
+<s n="21">
+<w n="485">A</w>
+<w n="486">nostre</w>
+<w n="487">trés</w>
+<w n="488">chier</w>
+<w n="489">et</w>
+<w n="490">trés</w>
+<w n="491">amé</w>
+<w n="492">frere</w>
+<w n="493">et</w>
+<w n="494">cousin</w>
+<w n="495">le</w>
+<w n="496">duc</w>
+<w n="497">de</w>
+<w n="498">Millan</w>
+<w type="pon" n="499">.</w>
+</s>
+</p> 
+</div> 
+  <pb n="92"/> 
+<div type="letter" n="274"> 
+
+<head xml:lang="fra"> 
+
+<s n="22">
+<hi rend="gras">
+<w n="500">AU</w>
+<w n="501">CHANCELIER</w>
+<w type="pon" n="502">(</w>
+<w type="abbr" n="503">D.</w>
+<w type="pon" n="504">)</w>
+<w type="pon" n="505">.</w>
+</hi>
+</s>
+</head> 
+  <note type="inline">  <placeName>La Motte [d'Egry]</placeName>, <date when="1466-09-09">9 septembre 1466</date>.<idno type="sourceDesc">Orig. BibI. nat., Fr. 2811, fol. 89.</idno></note>
+<p> 
+<s n="23">
+<w n="506">Chancellier</w>
+<w type="pon" n="507">,</w>
+<w n="508">j'</w>
+<w n="509">envoie</w>
+<w n="510">le</w>
+<w n="511">sire</w>
+<w n="512">de</w>
+<w n="513">Sarcelles</w>
+<w n="514">à</w>
+<w n="515">Mellun</w>
+<w type="pon" n="516">,</w>
+<pb n="93"/> 
+<w n="517">pour</w>
+<w n="518">mettre</w>
+<w n="519">en</w>
+<w n="520">possession</w>
+<w n="521">mon</w>
+<w n="522">nepveu</w>
+<w n="523">du</w>
+<w n="524">Gaure</w>
+<w n="525">de</w>
+<w n="526">la</w>
+<w n="527">capitainerie</w>
+<w n="528">dudit</w>
+<w n="529">lieu</w>
+<w type="pon" n="530">,</w>
+<w n="531">et</w>
+<w n="532">aussi</w>
+<w n="533">pour</w>
+<w n="534">en</w>
+<w n="535">mettre</w>
+<w n="536">en</w>
+<w n="537">possession</w>
+<w n="538">le</w>
+<w n="539">sire</w>
+<w n="540">de</w>
+<w n="541">Combronde</w>
+<w n="542">du</w>
+<w n="543">Boys</w>
+<w n="544">de</w>
+<w n="545">Vincennes</w>
+<w type="pon" n="546">.</w>
+</s>
+<s n="24">
+<w n="547">Et</w>
+<w n="548">pour</w>
+<w n="549">ce</w>
+<w n="550">sellez</w>
+<w n="551">en</w>
+<w n="552">les</w>
+<w n="553">commissions</w>
+<w n="554">incontinent</w>
+<w n="555">et</w>
+<w n="556">n'</w>
+<w n="557">y</w>
+<w n="558">faictes</w>
+<w n="559">faulte</w>
+<w type="pon" n="560">.</w>
+</s>
+<s n="25">
+<w n="561">Donné</w>
+<w n="562">à</w>
+<w n="563">la</w>
+<w n="564">Mote</w>
+<w type="pon" n="565">,</w>
+<w n="566">le</w>
+<w n="567">IX</w>
+<hi rend="exp">
+<w n="568">e</w>
+</hi>
+<w n="569">jour</w>
+<w n="570">de</w>
+<w n="571">septembre</w>
+<w type="pon" n="572">.</w>
+</s>
+</p> 
+<p> 
+<s n="26">
+<hi rend="pmaj">
+<w n="573">Loys</w>
+<w type="pon" n="574">.</w>
+</hi>
+</s>
+</p> 
+<p> 
+<s n="27">
+<hi rend="pmaj">
+<w n="575">Toustain</w>
+</hi>
+</s>
+</p> 
+<p> 
+<s n="28">
+<w n="576">Au</w>
+<w n="577">chancellier</w>
+<w type="pon" n="578">.</w>
+</s>
+</p> 
+<p> 
+<s n="29">
+<w n="579">Du</w>
+<w n="580">IX</w>
+<hi rend="exp">
+<w n="581">e</w>
+</hi>
+<w n="582">de</w>
+<w n="583">septembre</w>
+<w type="pon" n="584">,</w>
+<w n="585">pour</w>
+<w n="586">les</w>
+<w n="587">lettres</w>
+<w n="588">de</w>
+<w n="589">monseigneur</w>
+<w n="590">de</w>
+<w n="591">Gaure</w>
+<w type="pon" n="592">.</w>
+</s>
+</p> 
+</div> 
+  <pb n="126"/> 
+<div type="letter" n="293"> 
+
+<head xml:lang="fr"> 
+
+<s n="30">
+<hi rend="gras">
+<w n="593">AU</w>
+<w n="594">SEIGNEUR</w>
+<w n="595">DE</w>
+<w n="596">CHATILLON</w>
+<w type="pon" n="597">(</w>
+<w type="abbr" n="598">V.</w>
+<w type="pon" n="599">)</w>
+<w type="pon" n="600">.</w>
+</hi>
+</s>
+</head> 
+  <note type="inline">  <date>1466</date><idno type="sourceDesc">Minute. BibI. nat. Fr. 20486, fol. 175.</idno></note>
+<p> 
+<s n="31">
+<w n="601">Monseigneur</w>
+<w n="602">de</w>
+<w n="603">Chastillon</w>
+<w type="pon" n="604">,</w>
+<w n="605">j'</w>
+<w n="606">envoye</w>
+<w n="607">à</w>
+<w n="608">vous</w>
+<w type="pon" n="609">,</w>
+<w n="610">à</w>
+<w n="611">Monseigneur</w>
+<w n="612">de</w>
+<w n="613">Torcy</w>
+<w n="614">et</w>
+<w n="615">au</w>
+<w n="616">prevost</w>
+<w n="617">de</w>
+<w n="618">Paris</w>
+<w n="619">le</w>
+<w n="620">double</w>
+<w n="621">d'</w>
+<w n="622">aucunes</w>
+<w n="623">lettres</w>
+<w n="624">qui</w>
+<w n="625">m'</w>
+<w n="626">ont</w>
+<w n="627">esté</w>
+<w n="628">aportées</w>
+<w type="pon" n="629">,</w>
+<w n="630">et</w>
+<pb n="127"/> 
+<w n="631">en</w>
+<w n="632">y</w>
+<w n="633">a</w>
+<w n="634">unes</w>
+<w n="635">de</w>
+<w n="636">messire</w>
+<w n="637">Jehan</w>
+<w n="638">de</w>
+<w n="639">la</w>
+<w n="640">Reaulté</w>
+<w type="pon" n="641">,</w>
+<w n="642">conseiller</w>
+<w n="643">en</w>
+<w n="644">Parlement</w>
+<w type="pon" n="645">,</w>
+<w n="646">qui</w>
+<w n="647">sont</w>
+<w n="648">fort</w>
+<w n="649">suspeczonneuses</w>
+<w type="pon" n="650">,</w>
+<w n="651">et</w>
+<w n="652">me</w>
+<w n="653">doubte</w>
+<w n="654">qu'</w>
+<w n="655">il</w>
+<w n="656">s'</w>
+<w n="657">en</w>
+<w n="658">velt</w>
+<w n="659">aller</w>
+<w n="660">après</w>
+<w n="661">Morvillier</w>
+<w type="pon" n="662">.</w>
+</s>
+<s n="32">
+<w n="663">Vous</w>
+<w n="664">les</w>
+<w n="665">verrez</w>
+<w type="pon" n="666">,</w>
+<w n="667">et</w>
+<w n="668">les</w>
+<w n="669">vous</w>
+<w n="670">faictes</w>
+<w n="671">exposer</w>
+<w n="672">par</w>
+<w n="673">ung</w>
+<w n="674">clerc</w>
+<w n="675">qui</w>
+<w n="676">vous</w>
+<w n="677">soit</w>
+<w n="678">bien</w>
+<w n="679">feable</w>
+<w type="pon" n="680">,</w>
+<w n="681">et</w>
+<w n="682">incontinent</w>
+<w n="683">me</w>
+<w n="684">faictes</w>
+<w n="685">amener</w>
+<w n="686">ledit</w>
+<w n="687">de</w>
+<w n="688">la</w>
+<w n="689">Reaulté</w>
+<w n="690">honnestement</w>
+<w type="pon" n="691">,</w>
+<w n="692">pour</w>
+<w n="693">ce</w>
+<w n="694">qu'</w>
+<w n="695">il</w>
+<w n="696">est</w>
+<w n="697">homme</w>
+<w n="698">d'</w>
+<w n="699">esglise</w>
+<w type="pon" n="700">;</w>
+<w n="701">faictes</w>
+<w n="702">le</w>
+<w n="703">prandre</w>
+<w n="704">et</w>
+<w n="705">ung</w>
+<w n="706">de</w>
+<w n="707">ses</w>
+<w n="708">serviteurs</w>
+<w type="pon" n="709">,</w>
+<w n="710">nommé</w>
+<w n="711">en</w>
+<w n="712">l'</w>
+<w n="713">une</w>
+<w n="714">desdictes</w>
+<w n="715">lettres</w>
+<w type="pon" n="716">,</w>
+<w n="717">et</w>
+<w n="718">l'</w>
+<w n="719">examinez</w>
+<w n="720">sur</w>
+<w n="721">ce</w>
+<w type="pon" n="722">,</w>
+<w n="723">et</w>
+<w n="724">le</w>
+<w n="725">m'</w>
+<w n="726">envoiez</w>
+<w n="727">sans</w>
+<w n="728">qu'</w>
+<w n="729">il</w>
+<w n="730">parle</w>
+<w n="731">plus</w>
+<w n="732">à</w>
+<w n="733">son</w>
+<w n="734">maistre</w>
+<w type="pon" n="735">.</w>
+</s>
+<s n="33">
+<w n="736">Au</w>
+<w n="737">sourplus</w>
+<w type="pon" n="738">,</w>
+<w n="739">j'</w>
+<w n="740">escry</w>
+<w n="741">à</w>
+<w n="742">Monseigneur</w>
+<w n="743">de</w>
+<w n="744">Torcy</w>
+<w n="745">que</w>
+<w n="746">incontinent</w>
+<w n="747">il</w>
+<w n="748">s'</w>
+<w n="749">en</w>
+<w n="750">viengne</w>
+<w n="751">devers</w>
+<w n="752">moy</w>
+<w n="753">hastivement</w>
+<w type="pon" n="754">,</w>
+<w n="755">quelque</w>
+<w n="756">part</w>
+<w n="757">que</w>
+<w n="758">je</w>
+<w n="759">sois</w>
+<w type="pon" n="760">,</w>
+<w n="761">pour</w>
+<w n="762">ce</w>
+<w n="763">que</w>
+<w n="764">j'</w>
+<w n="765">ay</w>
+<w n="766">neccessairement</w>
+<w n="767">à</w>
+<w n="768">besongner</w>
+<w n="769">de</w>
+<w n="770">lui</w>
+<w type="pon" n="771">.</w>
+</s>
+<s n="34">
+<w n="772">Et</w>
+<w type="pon" n="773">,</w>
+<w n="774">au</w>
+<w n="775">regart</w>
+<w n="776">de</w>
+<w n="777">vous</w>
+<w type="pon" n="778">,</w>
+<w n="779">faictes</w>
+<w n="780">amener</w>
+<w n="781">à</w>
+<w n="782">Orleans</w>
+<w n="783">tous</w>
+<w n="784">les</w>
+<w n="785">Bougueilz</w>
+<w type="pon" n="786">,</w>
+<w n="787">les</w>
+<w n="788">Boucher</w>
+<w n="789">et</w>
+<w n="790">autres</w>
+<w n="791">qui</w>
+<w n="792">sont</w>
+<w n="793">de</w>
+<w n="794">la</w>
+<w n="795">sequelle</w>
+<w n="796">de</w>
+<w n="797">Morvillier</w>
+<w type="pon" n="798">,</w>
+<w n="799">et</w>
+<w n="800">si</w>
+<w n="801">tost</w>
+<w n="802">que</w>
+<w n="803">vous</w>
+<w n="804">et</w>
+<w n="805">eulx</w>
+<w n="806">y</w>
+<w n="807">seriez</w>
+<w type="pon" n="808">,</w>
+<w n="809">faictes</w>
+<w n="810">le</w>
+<w n="811">moy</w>
+<pb n="128"/> 
+<w n="812">savoir</w>
+<w type="pon" n="813">,</w>
+<w n="814">et</w>
+<w n="815">je</w>
+<w n="816">vous</w>
+<w n="817">manderé</w>
+<w n="818">ce</w>
+<w n="819">que</w>
+<w n="820">aiez</w>
+<w n="821">à</w>
+<w n="822">faire</w>
+<w type="pon" n="823">.</w>
+</s>
+<s n="35">
+<w n="824">Donnée</w>
+<gap rend="points"/>
+</s>
+</p> 
+<p> 
+<s n="36">
+<w n="825">Unes</w>
+<w n="826">autres</w>
+<w n="827">à</w>
+<w n="828">messeigneurs</w>
+<w n="829">de</w>
+<w n="830">Torcy</w>
+<w n="831">et</w>
+<w n="832">prevost</w>
+<w n="833">de</w>
+<w n="834">Paris</w>
+<w type="pon" n="835">,</w>
+<foreign>
+<w n="836">in</w>
+<w n="837">eadem</w>
+<w n="838">substantia</w>
+<w type="pon" n="839">,</w>
+<w n="840">mutatis</w>
+<w n="841">mutandis</w>
+<w type="pon" n="842">.</w>
+</foreign>
+</s>
+</p> 
+</div> 
+  <pb n="154"/> 
+<div type="letter" n="310"> 
+
+<head xml:lang="fr"> 
+<title rend="multi_s">
+<s n="37">
+<hi rend="gras">
+<w n="843">AUX</w>
+<w n="844">LYONNAIS</w>
+<w type="pon" n="845">(</w>
+<w type="abbr" n="846">V.</w>
+<w type="pon" n="847">)</w>
+<w type="pon" n="848">.</w>
+</hi>
+</s>
+</title>
+
+</head> 
+  
+  <note type="bibl">   <placeName>Chartres</placeName>, <date when="1467-06-24">24 juin 1467</date>.<idno type="sourceDesc">Orig. Arch. de Lyon, AA 20, no 47.</idno></note>
+<p> 
+<s n="38">
+<w n="849">De</w>
+<w n="850">par</w>
+<w n="851">le</w>
+<w n="852">roy</w>
+<w type="pon" n="853">.</w>
+</s>
+</p> 
+<p> 
+<s n="39">
+<w n="854">Chers</w>
+<w n="855">et</w>
+<w n="856">bien</w>
+<w n="857">amez</w>
+<w type="pon" n="858">,</w>
+<w n="859">nous</w>
+<w n="860">vous</w>
+<w n="861">avons</w>
+<w n="862">nagueres</w>
+<w n="863">escript</w>
+<w n="864">touchant</w>
+<w n="865">ce</w>
+<w n="866">que</w>
+<w n="867">nostre</w>
+<w n="868">cousin</w>
+<w n="869">le</w>
+<w n="870">conte</w>
+<w n="871">de</w>
+<w n="872">Varvic</w>
+<w type="pon" n="873">,</w>
+<w n="874">par</w>
+<w n="875">le</w>
+<w n="876">congié</w>
+<w n="877">et</w>
+<w n="878">commandement</w>
+<w n="879">du</w>
+<w n="880">roy</w>
+<w n="881">d'</w>
+<w n="882">Angleterre</w>
+<w type="pon" n="883">,</w>
+<w n="884">devoit</w>
+<w n="885">venir</w>
+<w n="886">devers</w>
+<w n="887">nous</w>
+<w n="888">en</w>
+<w n="889">nostre</w>
+<w n="890">ville</w>
+<w n="891">de</w>
+<w n="892">Rouen</w>
+<w type="pon" n="893">,</w>
+<w n="894">principalement</w>
+<w n="895">pour</w>
+<w n="896">l'</w>
+<w n="897">ouverture</w>
+<w n="898">faicte</w>
+<w n="899">de</w>
+<w n="900">la</w>
+<w n="901">prolongation</w>
+<w n="902">des</w>
+<w n="903">tresves</w>
+<w n="904">nagueres</w>
+<w n="905">prinses</w>
+<w n="906">entre</w>
+<w n="907">nous</w>
+<w n="908">et</w>
+<w n="909">ledit</w>
+<w n="910">roy</w>
+<w n="911">d'</w>
+<w n="912">Angleterre</w>
+<w type="pon" n="913">,</w>
+<w n="914">qui</w>
+<w n="915">encores</w>
+<w n="916">durent</w>
+<w type="pon" n="917">,</w>
+<w n="918">afin</w>
+<w n="919">que</w>
+<w n="920">pendant</w>
+<w n="921">icelles</w>
+<w n="922">se</w>
+<w n="923">puissent</w>
+<w n="924">traictier</w>
+<w n="925">les</w>
+<w n="926">moiens</w>
+<w n="927">pour</w>
+<w n="928">parvenir</w>
+<w n="929">au</w>
+<w n="930">bien</w>
+<w n="931">de</w>
+<w n="932">paix</w>
+<w n="933">final</w>
+<w type="pon" n="934">,</w>
+<w n="935">ou</w>
+<w n="936">quoy</w>
+<w n="937">que</w>
+<w n="938">soit</w>
+<w type="pon" n="939">,</w>
+<w n="940">à</w>
+<w n="941">telle</w>
+<w n="942">forme</w>
+<w n="943">et</w>
+<w n="944">conduite</w>
+<w n="945">entre</w>
+<w n="946">les</w>
+<w n="947">royaumes</w>
+<w n="948">de</w>
+<w n="949">France</w>
+<w n="950">et</w>
+<w n="951">d'</w>
+<w n="952">Angleterre</w>
+<w n="953">que</w>
+<w type="pon" n="954">,</w>
+<w n="955">d'</w>
+<w n="956">une</w>
+<w n="957">part</w>
+<w n="958">et</w>
+<w n="959">d'</w>
+<w n="960">autre</w>
+<w type="pon" n="961">,</w>
+<w n="962">le</w>
+<w n="963">fait</w>
+<w n="964">de</w>
+<w n="965">la</w>
+<w n="966">marchandise</w>
+<w n="967">par</w>
+<w n="968">mer</w>
+<w n="969">et</w>
+<w n="970">par</w>
+<w n="971">terre</w>
+<w n="972">se</w>
+<w n="973">puisse</w>
+<w n="974">mieux</w>
+<w n="975">entretenir</w>
+<w type="pon" n="976">,</w>
+<w n="977">noz</w>
+<w n="978">subgetz</w>
+<w n="979">demourer</w>
+<w n="980">en</w>
+<w n="981">plus</w>
+<w n="982">grant</w>
+<w n="983">repoux</w>
+<w n="984">et</w>
+<w n="985">transquilité</w>
+<w type="pon" n="986">,</w>
+<w n="987">et</w>
+<w n="988">chascun</w>
+<w n="989">en</w>
+<w n="990">son</w>
+<w n="991">excercice</w>
+<w n="992">proufiter</w>
+<w n="993">selon</w>
+<w n="994">son</w>
+<w n="995">estat</w>
+<w n="996">et</w>
+<w n="997">vocacion</w>
+<w n="998">soubz</w>
+<w n="999">nous</w>
+<w n="1000">et</w>
+<w n="1001">en</w>
+<w n="1002">nostre</w>
+<w n="1003">obeissance</w>
+<w type="pon" n="1004">.</w>
+</s>
+<s n="40">
+<w n="1005">Lequel</w>
+<w n="1006">conte</w>
+<w n="1007">de</w>
+<w n="1008">Varvic</w>
+<w type="pon" n="1009">,</w>
+<w n="1010">en</w>
+<w n="1011">ensuivant</w>
+<w n="1012">ce</w>
+<w n="1013">qu'</w>
+<w n="1014">il</w>
+<w n="1015">nous</w>
+<w n="1016">avoit</w>
+<w n="1017">fait</w>
+<w n="1018">savoir</w>
+<w type="pon" n="1019">,</w>
+<w n="1020">est</w>
+<w n="1021">depuis</w>
+<w n="1022">venu</w>
+<w n="1023">par</w>
+<w n="1024">devers</w>
+<w n="1025">nous</w>
+<w n="1026">au</w>
+<w n="1027">dit</w>
+<w n="1028">lieu</w>
+<w n="1029">de</w>
+<w n="1030">Rouen</w>
+<w type="pon" n="1031">,</w>
+<w n="1032">ouquel</w>
+<w n="1033">l'</w>
+<w n="1034">avons</w>
+<w n="1035">oy</w>
+<w type="pon" n="1036">,</w>
+<w n="1037">communiqué</w>
+<w n="1038">et</w>
+<w n="1039">fait</w>
+<w n="1040">communiquer</w>
+<w n="1041">avec</w>
+<w n="1042">lui</w>
+<w n="1043">sur</w>
+<w n="1044">lesdictes</w>
+<pb n="155"/> 
+<w n="1045">matieres</w>
+<w type="pon" n="1046">.</w>
+</s>
+<s n="41">
+<w n="1047">Pour</w>
+<w n="1048">lesquelles</w>
+<w type="pon" n="1049">,</w>
+<w n="1050">actendu</w>
+<w n="1051">mesmement</w>
+<w n="1052">que</w>
+<w n="1053">ledit</w>
+<w n="1054">roy</w>
+<w n="1055">d'</w>
+<w n="1056">Angleterre</w>
+<w n="1057">avoit</w>
+<w n="1058">envoié</w>
+<w n="1059">devers</w>
+<w n="1060">nous</w>
+<w n="1061">ledit</w>
+<w n="1062">conte</w>
+<w n="1063">de</w>
+<w n="1064">Varvic</w>
+<w type="pon" n="1065">,</w>
+<w n="1066">qui</w>
+<w n="1067">est</w>
+<w n="1068">après</w>
+<w n="1069">lui</w>
+<w n="1070">le</w>
+<w n="1071">plus</w>
+<w n="1072">grant</w>
+<w n="1073">et</w>
+<w n="1074">puissant</w>
+<w n="1075">seigneur</w>
+<w n="1076">dudit</w>
+<w n="1077">royaume</w>
+<w n="1078">d'</w>
+<w n="1079">Angleterre</w>
+<w type="pon" n="1080">,</w>
+<w n="1081">a</w>
+<w n="1082">semblé</w>
+<w n="1083">à</w>
+<w n="1084">pluseurs</w>
+<w n="1085">seigneurs</w>
+<w n="1086">de</w>
+<w n="1087">nostre</w>
+<w n="1088">sang</w>
+<w n="1089">et</w>
+<w n="1090">gens</w>
+<w n="1091">de</w>
+<w n="1092">nostre</w>
+<w n="1093">grant</w>
+<w n="1094">conseil</w>
+<w n="1095">que</w>
+<w n="1096">devions</w>
+<w n="1097">pareillement</w>
+<w n="1098">de</w>
+<w n="1099">nostre</w>
+<w n="1100">part</w>
+<w n="1101">envoier</w>
+<w n="1102">par</w>
+<w n="1103">delà</w>
+<w n="1104">grande</w>
+<w n="1105">et</w>
+<w n="1106">notable</w>
+<w n="1107">ambaxade</w>
+<w n="1108">devers</w>
+<w n="1109">lui</w>
+<w type="pon" n="1110">,</w>
+<w n="1111">tant</w>
+<w n="1112">pour</w>
+<w n="1113">besongner</w>
+<w n="1114">sur</w>
+<w n="1115">lesdictes</w>
+<w n="1116">matieres</w>
+<w type="pon" n="1117">,</w>
+<w n="1118">que</w>
+<w n="1119">pour</w>
+<w n="1120">obvier</w>
+<w n="1121">aux</w>
+<w n="1122">dangiers</w>
+<w n="1123">et</w>
+<w n="1124">inconveniens</w>
+<w n="1125">qui</w>
+<w n="1126">pourroient</w>
+<w n="1127">avenir</w>
+<w n="1128">à</w>
+<w n="1129">cause</w>
+<w n="1130">du</w>
+<w n="1131">mariaige</w>
+<w n="1132">que</w>
+<w n="1133">nostre</w>
+<w n="1134">beau</w>
+<w n="1135">frere</w>
+<w n="1136">et</w>
+<w n="1137">cousin</w>
+<w n="1138">le</w>
+<w n="1139">conte</w>
+<w n="1140">de</w>
+<w n="1141">Charrolois</w>
+<w n="1142">tend</w>
+<w n="1143">à</w>
+<w n="1144">faire</w>
+<w n="1145">entre</w>
+<w n="1146">lui</w>
+<w n="1147">et</w>
+<w n="1148">la</w>
+<w n="1149">seur</w>
+<w n="1150">dudit</w>
+<w n="1151">roy</w>
+<w n="1152">d'</w>
+<w n="1153">Angleterre</w>
+<w type="pon" n="1154">,</w>
+<w n="1155">et</w>
+<w n="1156">pour</w>
+<w n="1157">laquelle</w>
+<w n="1158">matiere</w>
+<w n="1159">il</w>
+<w n="1160">a</w>
+<w n="1161">trouvé</w>
+<w n="1162">moïens</w>
+<w n="1163">de</w>
+<w n="1164">faire</w>
+<w n="1165">venir</w>
+<w n="1166">devers</w>
+<w n="1167">lui</w>
+<w n="1168">l'</w>
+<w n="1169">evesque</w>
+<w n="1170">de</w>
+<w n="1171">Salbry</w>
+<w n="1172">et</w>
+<w n="1173">autres</w>
+<w n="1174">du</w>
+<w n="1175">conseil</w>
+<w n="1176">dudit</w>
+<w n="1177">roy</w>
+<w n="1178">d'</w>
+<w n="1179">Angleterre</w>
+<w type="pon" n="1180">.</w>
+</s>
+<s n="42">
+<w n="1181">Et</w>
+<w n="1182">en</w>
+<w n="1183">ce</w>
+<w n="1184">faisant</w>
+<w n="1185">veult</w>
+<w n="1186">traictier</w>
+<w n="1187">aliance</w>
+<w n="1188">avec</w>
+<w n="1189">les</w>
+<w n="1190">Anglois</w>
+<w type="pon" n="1191">,</w>
+<w n="1192">noz</w>
+<w n="1193">anciens</w>
+<w n="1194">ennemys</w>
+<w type="pon" n="1195">;</w>
+<w n="1196">ce</w>
+<w n="1197">que</w>
+<w n="1198">toutesfoiz</w>
+<w n="1199">il</w>
+<w n="1200">ne</w>
+<w n="1201">peut</w>
+<w n="1202">ne</w>
+<w n="1203">doit</w>
+<w n="1204">faire</w>
+<w n="1205">sans</w>
+<w n="1206">grandement</w>
+<w n="1207">mesprendre</w>
+<w type="pon" n="1208">,</w>
+<w n="1209">veu</w>
+<w n="1210">qu'</w>
+<w n="1211">il</w>
+<w n="1212">est</w>
+<w n="1213">notre</w>
+<w n="1214">subget</w>
+<w n="1215">et</w>
+<w n="1216">prouchain</w>
+<w n="1217">parent</w>
+<w type="pon" n="1218">,</w>
+<w n="1219">et</w>
+<w n="1220">ainsi</w>
+<w n="1221">tenu</w>
+<w n="1222">envers</w>
+<w n="1223">nous</w>
+<w n="1224">et</w>
+<w n="1225">la</w>
+<w n="1226">couronne</w>
+<w n="1227">que</w>
+<w n="1228">chascun</w>
+<w n="1229">scet</w>
+<w type="pon" n="1230">,</w>
+<w n="1231">et</w>
+<w n="1232">mesmement</w>
+<w n="1233">que</w>
+<w type="pon" n="1234">,</w>
+<w n="1235">en</w>
+<w n="1236">faisant</w>
+<w n="1237">lesdictes</w>
+<w n="1238">alliances</w>
+<w type="pon" n="1239">,</w>
+<w n="1240">il</w>
+<w n="1241">romproit</w>
+<w n="1242">le</w>
+<w n="1243">traictié</w>
+<w n="1244">de</w>
+<w n="1245">paix</w>
+<w n="1246">fait</w>
+<w n="1247">à</w>
+<w n="1248">Arras</w>
+<w type="pon" n="1249">,</w>
+<w n="1250">laquelle</w>
+<w n="1251">nostre</w>
+<w n="1252">dit</w>
+<w n="1253">frere</w>
+<w n="1254">et</w>
+<w n="1255">cousin</w>
+<w n="1256">jura</w>
+<w n="1257">publiquement</w>
+<w type="pon" n="1258">,</w>
+<w n="1259">quant</w>
+<w n="1260">estions</w>
+<w n="1261">à</w>
+<w n="1262">Saint</w>
+<w n="1263">Thierri</w>
+<w n="1264">lez</w>
+<w n="1265">Reims</w>
+<w type="pon" n="1266">,</w>
+<w n="1267">après</w>
+<w n="1268">nostre</w>
+<w n="1269">sacre</w>
+<w type="pon" n="1270">,</w>
+<pb n="156"/> 
+<w n="1271">à</w>
+<w n="1272">l'</w>
+<w n="1273">eure</w>
+<w n="1274">que</w>
+<w n="1275">receusmes</w>
+<w n="1276">à</w>
+<w n="1277">hommaige</w>
+<w n="1278">nostre</w>
+<w n="1279">bel</w>
+<w n="1280">oncle</w>
+<w n="1281">de</w>
+<w n="1282">Bourgongne</w>
+<w type="pon" n="1283">,</w>
+<w n="1284">son</w>
+<w n="1285">pere</w>
+<w type="pon" n="1286">;</w>
+<w n="1287">et</w>
+<w n="1288">lequel</w>
+<w n="1289">traictié</w>
+<w n="1290">est</w>
+<w n="1291">fait</w>
+<w n="1292">et</w>
+<w n="1293">passé</w>
+<w n="1294">soubz</w>
+<w n="1295">les</w>
+<w n="1296">censures</w>
+<w n="1297">ecclesiastiques</w>
+<w n="1298">ou</w>
+<w n="1299">apostolicques</w>
+<w type="pon" n="1300">,</w>
+<w n="1301">et</w>
+<w n="1302">si</w>
+<w n="1303">exprès</w>
+<w n="1304">et</w>
+<w n="1305">astraint</w>
+<w n="1306">que</w>
+<w n="1307">plus</w>
+<w n="1308">grandes</w>
+<w n="1309">et</w>
+<w n="1310">estroictes</w>
+<w n="1311">submissions</w>
+<w n="1312">ne</w>
+<w n="1313">se</w>
+<w n="1314">pevent</w>
+<w n="1315">jamais</w>
+<w n="1316">trouver</w>
+<w n="1317">en</w>
+<w n="1318">quelque</w>
+<w n="1319">traictié</w>
+<w type="pon" n="1320">,</w>
+<w n="1321">selon</w>
+<w n="1322">nostre</w>
+<w n="1323">foy</w>
+<w type="pon" n="1324">.</w>
+</s>
+<s n="43">
+<w n="1325">Et</w>
+<w n="1326">en</w>
+<w n="1327">rompant</w>
+<w n="1328">lequel</w>
+<w n="1329">traictié</w>
+<w n="1330">de</w>
+<w n="1331">paix</w>
+<w n="1332">seroit</w>
+<w n="1333">metre</w>
+<w n="1334">nostre</w>
+<w n="1335">dit</w>
+<w n="1336">royaume</w>
+<w n="1337">en</w>
+<w n="1338">guerre</w>
+<w type="pon" n="1339">,</w>
+<w n="1340">dont</w>
+<w n="1341">serions</w>
+<w n="1342">desplaisans</w>
+<w n="1343">de</w>
+<w n="1344">tout</w>
+<w n="1345">nostre</w>
+<w n="1346">cueur</w>
+<w type="pon" n="1347">,</w>
+<w n="1348">tant</w>
+<w n="1349">pour</w>
+<w n="1350">les</w>
+<w n="1351">maulx</w>
+<w n="1352">qui</w>
+<w n="1353">en</w>
+<w n="1354">pevent</w>
+<w n="1355">avenir</w>
+<w type="pon" n="1356">,</w>
+<w n="1357">que</w>
+<w n="1358">aussi</w>
+<w n="1359">pour</w>
+<w n="1360">ce</w>
+<w n="1361">que</w>
+<w n="1362">tousjours</w>
+<w n="1363">desirons</w>
+<w n="1364">entretenir</w>
+<w n="1365">l'</w>
+<w n="1366">amour</w>
+<w n="1367">de</w>
+<w n="1368">noz</w>
+<w n="1369">parens</w>
+<w n="1370">et</w>
+<w n="1371">subgetz</w>
+<w type="pon" n="1372">,</w>
+<w n="1373">ainsi</w>
+<w n="1374">qu'</w>
+<w n="1375">on</w>
+<w n="1376">l'</w>
+<w n="1377">a</w>
+<w n="1378">peu</w>
+<w n="1379">congnoistre</w>
+<w type="pon" n="1380">,</w>
+<w n="1381">tant</w>
+<w n="1382">parce</w>
+<w n="1383">que</w>
+<w n="1384">n'</w>
+<w n="1385">avons</w>
+<w n="1386">point</w>
+<w n="1387">voulu</w>
+<w n="1388">commancer</w>
+<w n="1389">de</w>
+<w n="1390">rigueur</w>
+<w type="pon" n="1391">,</w>
+<w n="1392">quelques</w>
+<w n="1393">entreprises</w>
+<w n="1394">que</w>
+<w n="1395">nostredit</w>
+<w n="1396">frere</w>
+<w n="1397">et</w>
+<w n="1398">cousin</w>
+<w n="1399">de</w>
+<w n="1400">Charrolois</w>
+<w n="1401">ait</w>
+<w n="1402">faictes</w>
+<w n="1403">sur</w>
+<w n="1404">noz</w>
+<w n="1405">prevostez</w>
+<w n="1406">de</w>
+<w n="1407">Beauvoisiz</w>
+<w n="1408">et</w>
+<w n="1409">de</w>
+<w n="1410">Vimeu</w>
+<w type="pon" n="1411">,</w>
+<w n="1412">et</w>
+<w n="1413">sur</w>
+<w n="1414">les</w>
+<w n="1415">places</w>
+<w n="1416">et</w>
+<w n="1417">terres</w>
+<w n="1418">de</w>
+<w n="1419">Neelle</w>
+<w n="1420">et</w>
+<w n="1421">de</w>
+<w n="1422">Beaulieu</w>
+<w type="pon" n="1423">,</w>
+<w n="1424">ne</w>
+<w n="1425">autrement</w>
+<w type="pon" n="1426">.</w>
+</s>
+<s n="44">
+<w n="1427">Et</w>
+<w n="1428">pour</w>
+<w n="1429">icelles</w>
+<w n="1430">causes</w>
+<w type="pon" n="1431">,</w>
+<w n="1432">et</w>
+<w n="1433">en</w>
+<w n="1434">ensuivant</w>
+<w n="1435">l'</w>
+<w n="1436">advis</w>
+<w n="1437">et</w>
+<w n="1438">oppinion</w>
+<w n="1439">desdiz</w>
+<w n="1440">seigneurs</w>
+<w n="1441">de</w>
+<w n="1442">nostre</w>
+<w n="1443">sang</w>
+<w n="1444">et</w>
+<w n="1445">gens</w>
+<w n="1446">de</w>
+<w n="1447">nostre</w>
+<w n="1448">grant</w>
+<w n="1449">conseil</w>
+<w type="pon" n="1450">,</w>
+<w n="1451">nous</w>
+<w n="1452">avons</w>
+<w n="1453">envoié</w>
+<w n="1454">oudit</w>
+<w n="1455">royaume</w>
+<w n="1456">d'</w>
+<w n="1457">Angleterre</w>
+<w n="1458">noz</w>
+<w n="1459">chers</w>
+<w n="1460">et</w>
+<w n="1461">feaulx</w>
+<w n="1462">cousins</w>
+<w n="1463">l'</w>
+<w n="1464">arcevesque</w>
+<w n="1465">de</w>
+<w n="1466">Narbonne</w>
+<w type="pon" n="1467">,</w>
+<w n="1468">le</w>
+<w n="1469">conte</w>
+<w n="1470">de</w>
+<w n="1471">Roussilhon</w>
+<w type="pon" n="1472">,</w>
+<w n="1473">admiral</w>
+<w n="1474">de</w>
+<w n="1475">France</w>
+<w type="pon" n="1476">,</w>
+<w n="1477">et</w>
+<w n="1478">en</w>
+<w n="1479">la</w>
+<w n="1480">compaignie</w>
+<w n="1481">de</w>
+<w n="1482">nos</w>
+<w n="1483">amez</w>
+<w n="1484">et</w>
+<w n="1485">feaulx</w>
+<w n="1486">conseilliers</w>
+<w n="1487">le</w>
+<w n="1488">sire</w>
+<pb n="157"/> 
+<w n="1489">de</w>
+<w n="1490">Concressault</w>
+<w type="pon" n="1491">,</w>
+<w n="1492">chevalier</w>
+<w type="pon" n="1493">,</w>
+<w n="1494">nostre</w>
+<w n="1495">chambellain</w>
+<w type="pon" n="1496">,</w>
+<w n="1497">maistres</w>
+<w n="1498">Jehan</w>
+<w n="1499">de</w>
+<w n="1500">Pourpincourt</w>
+<w type="pon" n="1501">,</w>
+<w n="1502">président</w>
+<w type="pon" n="1503">,</w>
+<w n="1504">et</w>
+<w n="1505">Olivier</w>
+<pb n="158"/> 
+<w n="1506">Le</w>
+<w n="1507">Roux</w>
+<w type="pon" n="1508">,</w>
+<w n="1509">maistre</w>
+<w n="1510">de</w>
+<w n="1511">noz</w>
+<w n="1512">comptes</w>
+<w type="pon" n="1513">,</w>
+<w n="1514">et</w>
+<w n="1515">Alixandre</w>
+<w n="1516">Sexte</w>
+<w type="pon" n="1517">,</w>
+<w n="1518">nostre</w>
+<w n="1519">argentier</w>
+<w type="pon" n="1520">,</w>
+<w n="1521">ausquelz</w>
+<w n="1522">nous</w>
+<w n="1523">avons</w>
+<w n="1524">donné</w>
+<w n="1525">charge</w>
+<pb n="159"/> 
+<w n="1526">de</w>
+<w n="1527">besongner</w>
+<w n="1528">sur</w>
+<w n="1529">la</w>
+<w n="1530">praticque</w>
+<w n="1531">et</w>
+<w n="1532">conduite</w>
+<w n="1533">desdictes</w>
+<w n="1534">matieres</w>
+<w type="pon" n="1535">,</w>
+<w n="1536">et</w>
+<w n="1537">nous</w>
+<w n="1538">raporter</w>
+<w n="1539">tout</w>
+<w n="1540">ce</w>
+<w n="1541">qu'</w>
+<w n="1542">ilz</w>
+<w n="1543">auront</w>
+<w n="1544">trouvé</w>
+<w n="1545">par</w>
+<w n="1546">delà</w>
+<w n="1547">touchant</w>
+<w n="1548">les</w>
+<w n="1549">charges</w>
+<w n="1550">que</w>
+<w n="1551">leur</w>
+<w n="1552">avons</w>
+<w n="1553">baillées</w>
+<w type="pon" n="1554">,</w>
+<w n="1555">afin</w>
+<w n="1556">de</w>
+<w n="1557">prendre</w>
+<w n="1558">sur</w>
+<w n="1559">ce</w>
+<w n="1560">la</w>
+<w n="1561">conclusion</w>
+<w n="1562">qui</w>
+<w n="1563">semblera</w>
+<w n="1564">estre</w>
+<w n="1565">meilleur</w>
+<w n="1566">et</w>
+<w n="1567">plus</w>
+<w n="1568">proufitable</w>
+<w n="1569">au</w>
+<w n="1570">bien</w>
+<w n="1571">de</w>
+<w n="1572">nous</w>
+<w n="1573">et</w>
+<w n="1574">de</w>
+<w n="1575">nosdiz</w>
+<w n="1576">royaumes</w>
+<w n="1577">et</w>
+<w n="1578">subgetz</w>
+<w type="pon" n="1579">.</w>
+</s>
+<s n="45">
+<w n="1580">Si</w>
+<w n="1581">vous</w>
+<w n="1582">avons</w>
+<w n="1583">bien</w>
+<w n="1584">voulu</w>
+<w n="1585">escripre</w>
+<w n="1586">des</w>
+<w n="1587">choses</w>
+<w n="1588">dessus</w>
+<w n="1589">dictes</w>
+<w n="1590">et</w>
+<w n="1591">vous</w>
+<w n="1592">advertir</w>
+<w n="1593">de</w>
+<w n="1594">nostre</w>
+<w n="1595">vouloir</w>
+<w n="1596">et</w>
+<w n="1597">entencion</w>
+<w type="pon" n="1598">,</w>
+<w n="1599">comme</w>
+<w n="1600">ceulx</w>
+<w n="1601">que</w>
+<w n="1602">tenons</w>
+<w n="1603">et</w>
+<w n="1604">reputons</w>
+<w n="1605">pour</w>
+<w n="1606">noz</w>
+<w n="1607">bons</w>
+<w n="1608">et</w>
+<w n="1609">loiaux</w>
+<w n="1610">subgetz</w>
+<w type="pon" n="1611">.</w>
+</s>
+<s n="46">
+<w n="1612">Donné</w>
+<w n="1613">à</w>
+<w n="1614">Chartres</w>
+<w type="pon" n="1615">,</w>
+<w n="1616">le</w>
+<w n="1617">XXIIII</w>
+<hi rend="exp">
+<w n="1618">e</w>
+</hi>
+<w n="1619">jour</w>
+<w n="1620">de</w>
+<w n="1621">juing</w>
+<w type="pon" n="1622">.</w>
+</s>
+</p> 
+<p> 
+<s n="47">
+<hi rend="pmaj">
+<w n="1623">Loys</w>
+<w type="pon" n="1624">.</w>
+</hi>
+</s>
+</p> 
+<p> 
+<s n="48">
+<hi rend="pmaj">
+<w n="1625">De</w>
+<w n="1626">la</w>
+<w n="1627">Loere</w>
+<w type="pon" n="1628">.</w>
+</hi>
+</s>
+</p> 
+<p> 
+<s n="49">
+<w n="1629">A</w>
+<w n="1630">noz</w>
+<w n="1631">chiers</w>
+<w n="1632">et</w>
+<w n="1633">bien</w>
+<w n="1634">amez</w>
+<w n="1635">les</w>
+<w n="1636">conseilliers</w>
+<w type="pon" n="1637">,</w>
+<w n="1638">bourgeois</w>
+<w n="1639">et</w>
+<w n="1640">habitans</w>
+<w n="1641">de</w>
+<w n="1642">nostre</w>
+<w n="1643">ville</w>
+<w n="1644">de</w>
+<w n="1645">Lyon</w>
+<w type="pon" n="1646">.</w>
+</s>
+</p> 
+</div> 
+  <pb n="162"/> 
+<div type="letter" n="313"> 
+
+<head xml:lang="fr"> 
+
+<s n="50">
+<hi rend="gras">
+<w n="1647">AU</w>
+<w n="1648">CHANCELIER</w>
+<w type="pon" n="1649">(</w>
+<w type="abbr" n="1650">V.</w>
+<w type="pon" n="1651">)</w>
+<w type="pon" n="1652">.</w>
+</hi>
+</s>
+</head> 
+  <note type="inline">  <placeName>Meslay</placeName>, <date when="1467-07-06">6 juillet 1467</date>. <idno type="sourceDesc">Orig. commun. par M. Ét. Charavay.</idno></note>
+<p> 
+<s n="51">
+<w n="1653">De</w>
+<w n="1654">par</w>
+<w n="1655">le</w>
+<w n="1656">roy</w>
+<w type="pon" n="1657">.</w>
+</s>
+</p> 
+<p> 
+<s n="52">
+<w n="1658">Nostre</w>
+<w n="1659">amé</w>
+<w n="1660">et</w>
+<w n="1661">feal</w>
+<w type="pon" n="1662">,</w>
+<w n="1663">pour</w>
+<w n="1664">les</w>
+<w n="1665">causes</w>
+<w n="1666">que</w>
+<w n="1667">savez</w>
+<w n="1668">dont</w>
+<w n="1669">Jehan</w>
+<w n="1670">de</w>
+<w n="1671">Beauvau</w>
+<w type="pon" n="1672">,</w>
+<w n="1673">nagueres</w>
+<w n="1674">evesque</w>
+<w n="1675">d'</w>
+<w n="1676">Angiers</w>
+<w type="pon" n="1677">,</w>
+<w n="1678">a</w>
+<pb n="163"/> 
+<w n="1679">esté</w>
+<w n="1680">acusé</w>
+<w type="pon" n="1681">,</w>
+<w n="1682">qui</w>
+<w n="1683">touchent</w>
+<w n="1684">nostre</w>
+<w n="1685">personne</w>
+<w type="pon" n="1686">,</w>
+<w n="1687">et</w>
+<w n="1688">aussi</w>
+<w n="1689">pour</w>
+<w n="1690">ce</w>
+<w n="1691">que</w>
+<w n="1692">nous</w>
+<w n="1693">avons</w>
+<w n="1694">esté</w>
+<w n="1695">advertiz</w>
+<w n="1696">que</w>
+<w n="1697">nostre</w>
+<w n="1698">oncle</w>
+<w n="1699">le</w>
+<w n="1700">roy</w>
+<w n="1701">de</w>
+<w n="1702">Sicille</w>
+<w n="1703">a</w>
+<w n="1704">fait</w>
+<w n="1705">prandre</w>
+<w n="1706">ung</w>
+<w n="1707">des</w>
+<w n="1708">serviteurs</w>
+<w n="1709">dudit</w>
+<w n="1710">de</w>
+<w n="1711">Beauvau</w>
+<w type="pon" n="1712">,</w>
+<w n="1713">lequel</w>
+<w n="1714">estoit</w>
+<w n="1715">acusé</w>
+<w n="1716">avecques</w>
+<w n="1717">autres</w>
+<w n="1718">desdiz</w>
+<w n="1719">cas</w>
+<w type="pon" n="1720">;</w>
+<w n="1721">et</w>
+<w n="1722">pour</w>
+<w n="1723">ce</w>
+<w n="1724">que</w>
+<w n="1725">la</w>
+<w n="1726">matiere</w>
+<w n="1727">nous</w>
+<w n="1728">touche</w>
+<w n="1729">et</w>
+<w n="1730">qu'</w>
+<w n="1731">il</w>
+<w n="1732">est</w>
+<w n="1733">question</w>
+<w n="1734">de</w>
+<w n="1735">grans</w>
+<w n="1736">cas</w>
+<w type="pon" n="1737">,</w>
+<w n="1738">nous</w>
+<w n="1739">avons</w>
+<w n="1740">ordonné</w>
+<w n="1741">certains</w>
+<w n="1742">serviteurs</w>
+<w n="1743">dudit</w>
+<w n="1744">de</w>
+<w n="1745">Beauvau</w>
+<w n="1746">estre</w>
+<w n="1747">prins</w>
+<w n="1748">au</w>
+<w n="1749">corps</w>
+<w n="1750">pour</w>
+<w n="1751">savoir</w>
+<w n="1752">et</w>
+<w n="1753">ataindre</w>
+<w n="1754">la</w>
+<w n="1755">verité</w>
+<w type="pon" n="1756">;</w>
+<w n="1757">si</w>
+<w n="1758">voulons</w>
+<w n="1759">et</w>
+<w n="1760">vous</w>
+<w n="1761">mandons</w>
+<w n="1762">que</w>
+<w n="1763">incontinant</w>
+<w n="1764">vous</w>
+<w n="1765">faites</w>
+<w n="1766">partir</w>
+<w n="1767">maistre</w>
+<w n="1768">Jehan</w>
+<w n="1769">de</w>
+<w n="1770">Langlée</w>
+<w n="1771">pour</w>
+<w n="1772">aler</w>
+<w n="1773">prandre</w>
+<w n="1774">et</w>
+<w n="1775">saisir</w>
+<w n="1776">au</w>
+<w n="1777">corps</w>
+<w n="1778">ceulx</w>
+<w n="1779">qui</w>
+<w n="1780">sont</w>
+<w n="1781">nommez</w>
+<w n="1782">en</w>
+<w n="1783">la</w>
+<w n="1784">commission</w>
+<w n="1785">que</w>
+<w n="1786">vous</w>
+<w n="1787">envoyons</w>
+<w type="pon" n="1788">;</w>
+<w n="1789">et</w>
+<w n="1790">qu'</w>
+<w n="1791">il</w>
+<w n="1792">les</w>
+<w n="1793">amenne</w>
+<w n="1794">prisonniers</w>
+<w n="1795">par</w>
+<w n="1796">devers</w>
+<w n="1797">nous</w>
+<w type="pon" n="1798">.</w>
+</s>
+<s n="53">
+<w n="1799">Et</w>
+<w n="1800">avecques</w>
+<w n="1801">ce</w>
+<w n="1802">qu'</w>
+<w n="1803">il</w>
+<w n="1804">preigne</w>
+<w n="1805">le</w>
+<w n="1806">double</w>
+<w n="1807">des</w>
+<w n="1808">articles</w>
+<w n="1809">et</w>
+<w n="1810">du</w>
+<w n="1811">procès</w>
+<w n="1812">que</w>
+<w n="1813">nostredit</w>
+<w n="1814">oncle</w>
+<w n="1815">a</w>
+<w n="1816">fait</w>
+<w n="1817">faire</w>
+<w n="1818">contre</w>
+<w n="1819">celluy</w>
+<w n="1820">qu'</w>
+<w n="1821">il</w>
+<w n="1822">detient</w>
+<w n="1823">prisonnier</w>
+<w type="pon" n="1824">;</w>
+<w n="1825">aussi</w>
+<w n="1826">qu'</w>
+<w n="1827">il</w>
+<w n="1828">preingne</w>
+<w n="1829">la</w>
+<w n="1830">depposicion</w>
+<w n="1831">de</w>
+<w n="1832">Loys</w>
+<w n="1833">de</w>
+<w n="1834">la</w>
+<w n="1835">Chapelle</w>
+<w type="pon" n="1836">,</w>
+<w n="1837">laquelle</w>
+<w n="1838">a</w>
+<w n="1839">maistre</w>
+<w n="1840">Maturin</w>
+<w n="1841">Beaudet</w>
+<w type="pon" n="1842">,</w>
+<w n="1843">et</w>
+<w n="1844">luy</w>
+<w n="1845">chargez</w>
+<w n="1846">bien</w>
+<w n="1847">qu'</w>
+<w n="1848">il</w>
+<w n="1849">y</w>
+<w n="1850">face</w>
+<w n="1851">bon</w>
+<w n="1852">devoir</w>
+<w type="pon" n="1853">;</w>
+<w n="1854">et</w>
+<w n="1855">gardés</w>
+<w n="1856">bien</w>
+<w n="1857">qu'</w>
+<w n="1858">il</w>
+<w n="1859">n'</w>
+<w n="1860">y</w>
+<w n="1861">ait</w>
+<w n="1862">faulte</w>
+<w type="pon" n="1863">.</w>
+</s>
+<s n="54">
+<w n="1864">Donné</w>
+<w n="1865">à</w>
+<w n="1866">Melay</w>
+<w type="pon" n="1867">,</w>
+<w n="1868">le</w>
+<w n="1869">VI</w>
+<hi rend="exp">
+<w n="1870">e</w>
+</hi>
+<w n="1871">jour</w>
+<w n="1872">de</w>
+<w n="1873">juillet</w>
+<w type="pon" n="1874">.</w>
+</s>
+</p> 
+<p> 
+<s n="55">
+<hi rend="pmaj">
+<w n="1875">Loys</w>
+<w type="pon" n="1876">.</w>
+</hi>
+</s>
+</p> 
+<p> 
+<s n="56">
+<hi rend="pmaj">
+<w n="1877">Toustain</w>
+<w type="pon" n="1878">.</w>
+</hi>
+</s>
+</p> 
+<p> 
+<s n="57">
+<w n="1879">A</w>
+<w n="1880">nostre</w>
+<w n="1881">amé</w>
+<w n="1882">et</w>
+<w n="1883">feal</w>
+<w n="1884">chancellier</w>
+<w type="pon" n="1885">.</w>
+</s>
+</p> 
+<p> 
+<s n="58">
+<w n="1886">Receue</w>
+<w n="1887">le</w>
+<w n="1888">VII</w>
+<hi rend="exp">
+<w n="1889">e</w>
+</hi>
+<w n="1890">de</w>
+<w n="1891">juing</w>
+<sic/>
+<w n="1892">à</w>
+<w n="1893">Chartres</w>
+<w type="pon" n="1894">,</w>
+<w n="1895">touchant</w>
+<w n="1896">monseigneur</w>
+<w n="1897">d'</w>
+<w n="1898">Angiers</w>
+<w type="pon" n="1899">.</w>
+</s>
+</p> 
+</div> 
+  <pb n="170"/> 
+<div type="letter" n="319"> 
+
+<head xml:lang="fr"> 
+
+<s n="59">
+<hi rend="gras">
+<w n="1900">AU</w>
+<w n="1901">DUC</w>
+<w n="1902">DE</w>
+<w n="1903">MILAN</w>
+<w type="pon" n="1904">(</w>
+<w type="abbr" n="1905">V.</w>
+<w type="pon" n="1906">)</w>
+<w type="pon" n="1907">.</w>
+</hi>
+</s>
+</head> 
+  <note type="inline">  <placeName>Paris</placeName>, <date when="1467-09-29">29 septembre 1467</date>. <idno type="sourceDesc">Orig. Arch. de Milan.</idno></note>
+<p> 
+<s n="60">
+<w n="1908">De</w>
+<w n="1909">par</w>
+<w n="1910">le</w>
+<w n="1911">roy</w>
+<w type="pon" n="1912">.</w>
+</s>
+</p> 
+<p> 
+<s n="61">
+<w n="1913">Trés</w>
+<w n="1914">chier</w>
+<w n="1915">et</w>
+<w n="1916">trés</w>
+<w n="1917">amé</w>
+<w n="1918">frere</w>
+<w n="1919">et</w>
+<w n="1920">cousin</w>
+<w type="pon" n="1921">,</w>
+<w n="1922">nous</w>
+<w n="1923">avons</w>
+<w n="1924">esté</w>
+<w n="1925">advertiz</w>
+<w n="1926">que</w>
+<w n="1927">on</w>
+<w n="1928">vous</w>
+<w n="1929">a</w>
+<w n="1930">dit</w>
+<w n="1931">et</w>
+<w n="1932">rapporté</w>
+<w n="1933">certains</w>
+<w n="1934">langaiges</w>
+<w type="pon" n="1935">,</w>
+<w n="1936">et</w>
+<w n="1937">aussy</w>
+<w n="1938">à</w>
+<w n="1939">nostre</w>
+<w n="1940">belle</w>
+<w n="1941">tante</w>
+<w n="1942">la</w>
+<w n="1943">duchesse</w>
+<w type="pon" n="1944">,</w>
+<w n="1945">dont</w>
+<w n="1946">sommes</w>
+<w n="1947">bien</w>
+<w n="1948">esbahiz</w>
+<w type="pon" n="1949">,</w>
+<w n="1950">car</w>
+<w n="1951">jamais</w>
+<w n="1952">ne</w>
+<w n="1953">feusmes</w>
+<w n="1954">en</w>
+<w n="1955">intencion</w>
+<w n="1956">et</w>
+<w n="1957">voulenté</w>
+<w n="1958">de</w>
+<w n="1959">les</w>
+<w n="1960">dire</w>
+<w n="1961">et</w>
+<w n="1962">pratiquer</w>
+<w type="pon" n="1963">.</w>
+</s>
+<s n="62">
+<w n="1964">Et</w>
+<w n="1965">pour</w>
+<w n="1966">ceste</w>
+<w n="1967">cause</w>
+<w n="1968">en</w>
+<w n="1969">avons</w>
+<w n="1970">parlé</w>
+<w n="1971">à</w>
+<w n="1972">Jehan</w>
+<w n="1973">Pierre</w>
+<w type="pon" n="1974">,</w>
+<w n="1975">vostre</w>
+<w n="1976">ambaxadeur</w>
+<w type="pon" n="1977">,</w>
+<w n="1978">et</w>
+<w n="1979">lui</w>
+<w n="1980">avons</w>
+<w n="1981">ordonné</w>
+<w n="1982">vous</w>
+<w n="1983">escripre</w>
+<w n="1984">la</w>
+<w n="1985">verité</w>
+<w n="1986">de</w>
+<w n="1987">la</w>
+<w n="1988">chose</w>
+<w n="1989">et</w>
+<w n="1990">l'</w>
+<w n="1991">effect</w>
+<w n="1992">de</w>
+<w n="1993">nostre</w>
+<w n="1994">vouloir</w>
+<w n="1995">et</w>
+<w n="1996">intencion</w>
+<w n="1997">sur</w>
+<w n="1998">ce</w>
+<w type="pon" n="1999">.</w>
+</s>
+<s n="63">
+<w n="2000">Si</w>
+<w n="2001">vueillez</w>
+<w n="2002">adjouster</w>
+<w n="2003">foy</w>
+<w n="2004">à</w>
+<w n="2005">ce</w>
+<w n="2006">que</w>
+<w n="2007">de</w>
+<w n="2008">ceste</w>
+<w n="2009">matiere</w>
+<w n="2010">il</w>
+<w n="2011">vous</w>
+<w n="2012">escripra</w>
+<w type="pon" n="2013">,</w>
+<w n="2014">car</w>
+<w n="2015">seurement</w>
+<w n="2016">nous</w>
+<w n="2017">lui</w>
+<w n="2018">en</w>
+<w n="2019">avons</w>
+<w n="2020">dit</w>
+<w n="2021">la</w>
+<w n="2022">verité</w>
+<w n="2023">et</w>
+<w n="2024">ce</w>
+<w n="2025">qui</w>
+<w n="2026">en</w>
+<w n="2027">est</w>
+<w type="pon" n="2028">,</w>
+<w n="2029">et</w>
+<w n="2030">de</w>
+<w n="2031">ce</w>
+<w n="2032">ne</w>
+<w n="2033">faictes</w>
+<w n="2034">point</w>
+<w n="2035">de</w>
+<w n="2036">doubte</w>
+<w type="pon" n="2037">;</w>
+<w n="2038">et</w>
+<w n="2039">quant</w>
+<w n="2040">à</w>
+<w n="2041">nous</w>
+<w type="pon" n="2042">,</w>
+<w n="2043">nous</w>
+<w n="2044">serons</w>
+<w n="2045">tousjours</w>
+<w n="2046">envers</w>
+<w n="2047">vous</w>
+<w n="2048">tel</w>
+<w n="2049">que</w>
+<w n="2050">avons</w>
+<w n="2051">esté</w>
+<w type="pon" n="2052">,</w>
+<w n="2053">sans</w>
+<w n="2054">nulle</w>
+<w n="2055">dissimulacion</w>
+<w type="pon" n="2056">.</w>
+</s>
+<s n="64">
+<w n="2057">Donné</w>
+<w n="2058">à</w>
+<w n="2059">Paris</w>
+<w type="pon" n="2060">,</w>
+<w n="2061">le</w>
+<w n="2062">penultime</w>
+<w n="2063">jour</w>
+<w n="2064">de</w>
+<w n="2065">septembre</w>
+<w type="pon" n="2066">.</w>
+</s>
+</p> 
+<p> 
+<s n="65">
+<hi rend="pmaj">
+<w n="2067">Loys</w>
+<w type="pon" n="2068">.</w>
+</hi>
+</s>
+</p> 
+<p> 
+<s n="66">
+<hi rend="pmaj">
+<w n="2069">Meurin</w>
+<w type="pon" n="2070">.</w>
+</hi>
+</s>
+</p> 
+<pb n="171"/> 
+<p> 
+<s n="67">
+<w n="2071">A</w>
+<w n="2072">nostre</w>
+<w n="2073">trés</w>
+<w n="2074">cher</w>
+<w n="2075">et</w>
+<w n="2076">trés</w>
+<w n="2077">amé</w>
+<w n="2078">frere</w>
+<w n="2079">le</w>
+<w n="2080">duc</w>
+<w n="2081">de</w>
+<w n="2082">Millan</w>
+<w type="pon" n="2083">.</w>
+</s>
+</p> 
+</div> 
+  <pb n="180"/> 
+<div type="letter" n="326"> 
+
+<head xml:lang="fr"> 
+
+<s n="68">
+<hi rend="gras">
+<w n="2084">AU</w>
+<w n="2085">CHANCELIER</w>
+<w type="pon" n="2086">(</w>
+<w type="abbr" n="2087">D.</w>
+<w type="pon" n="2088">)</w>
+<w type="pon" n="2089">.</w>
+</hi>
+</s>
+</head> 
+  
+  <note type="inline">  <placeName>Vernon</placeName>, <date when="1467-10-27">27 octobre 1467</date>.<idno type="sourceDesc">Orig. BibI. nat., Fr. 15537, fol. 105.</idno></note>
+<p> 
+<s n="69">
+<w n="2090">Chancellier</w>
+<w type="pon" n="2091">,</w>
+<w n="2092">nous</w>
+<w n="2093">vous</w>
+<w n="2094">envoyons</w>
+<w n="2095">deux</w>
+<w n="2096">blancs</w>
+<w n="2097">signez</w>
+<pb n="181"/> 
+<w n="2098">de</w>
+<w n="2099">nostre</w>
+<w n="2100">amé</w>
+<w n="2101">et</w>
+<w n="2102">feal</w>
+<w n="2103">notaire</w>
+<w n="2104">et</w>
+<w n="2105">secretaire</w>
+<w n="2106">maistre</w>
+<w n="2107">Baudes</w>
+<w n="2108">Meurin</w>
+<w type="pon" n="2109">,</w>
+<w n="2110">et</w>
+<w n="2111">deux</w>
+<w n="2112">autres</w>
+<w n="2113">lettres</w>
+<w n="2114">signées</w>
+<w n="2115">de</w>
+<w n="2116">sa</w>
+<w n="2117">main</w>
+<w type="pon" n="2118">,</w>
+<w n="2119">l'</w>
+<w n="2120">une</w>
+<w n="2121">pour</w>
+<w n="2122">lever</w>
+<w n="2123">nostre</w>
+<w n="2124">main</w>
+<w n="2125">mise</w>
+<w n="2126">ès</w>
+<w n="2127">terres</w>
+<w n="2128">des</w>
+<w n="2129">serviteurs</w>
+<w n="2130">de</w>
+<w n="2131">nostre</w>
+<w n="2132">beau</w>
+<w n="2133">frere</w>
+<w n="2134">de</w>
+<w n="2135">Bourgongne</w>
+<w type="pon" n="2136">,</w>
+<w n="2137">et</w>
+<w n="2138">l'</w>
+<w n="2139">autre</w>
+<w n="2140">pour</w>
+<w n="2141">pareillement</w>
+<w n="2142">lever</w>
+<w n="2143">nostre</w>
+<w n="2144">dicte</w>
+<w n="2145">main</w>
+<w n="2146">mise</w>
+<w n="2147">des</w>
+<w n="2148">terres</w>
+<w n="2149">des</w>
+<w n="2150">serviteurs</w>
+<w n="2151">de</w>
+<w n="2152">nostre</w>
+<w n="2153">beau</w>
+<w n="2154">frere</w>
+<w n="2155">le</w>
+<w n="2156">connestable</w>
+<w type="pon" n="2157">.</w>
+</s>
+<s n="70">
+<w n="2158">Si</w>
+<w n="2159">les</w>
+<w n="2160">vueillez</w>
+<w n="2161">incontinens</w>
+<w n="2162">faire</w>
+<w n="2163">sceller</w>
+<w n="2164">sans</w>
+<w n="2165">y</w>
+<w n="2166">faire</w>
+<w n="2167">difficulté</w>
+<w type="pon" n="2168">.</w>
+</s>
+<s n="71">
+<w n="2169">Donné</w>
+<w n="2170">à</w>
+<w n="2171">Vernon</w>
+<w type="pon" n="2172">,</w>
+<w n="2173">le</w>
+<hi rend="pmaj">
+<w n="2174">XXVII</w>
+</hi>
+<hi rend="exp">
+<w n="2175">e</w>
+</hi>
+<w n="2176">jour</w>
+<w n="2177">d'</w>
+<w n="2178">octobre</w>
+<w type="pon" n="2179">.</w>
+</s>
+</p> 
+<p> 
+<s n="72">
+<hi rend="pmaj">
+<w n="2180">Loys</w>
+<w type="pon" n="2181">.</w>
+</hi>
+</s>
+</p> 
+<p> 
+<s n="73">
+<hi rend="pmaj">
+<w n="2182">B</w>
+<w type="pon" n="2183">.</w>
+<w n="2184">Meurin</w>
+<w type="pon" n="2185">.</w>
+</hi>
+</s>
+</p> 
+<p> 
+<s n="74">
+<w n="2186">A</w>
+<w n="2187">nostre</w>
+<w n="2188">amé</w>
+<w n="2189">et</w>
+<w n="2190">feal</w>
+<w n="2191">chancellier</w>
+<w type="pon" n="2192">.</w>
+</s>
+</p> 
+<p> 
+<s n="75">
+<w n="2193">Du</w>
+<w n="2194">roy</w>
+<w type="pon" n="2195">,</w>
+<w n="2196">receue</w>
+<w n="2197">le</w>
+<hi rend="pmaj">
+<w n="2198">XXVIII</w>
+</hi>
+<w n="2199">d'</w>
+<w n="2200">octobre</w>
+<w n="2201">LXVII</w>
+<w type="pon" n="2202">,</w>
+<w n="2203">à</w>
+<w n="2204">Chartres</w>
+<w type="pon" n="2205">.</w>
+</s>
+</p> 
+</div> 
+  <pb n="196"/> 
+<div type="letter" n="337"> 
+
+<head xml:lang="fr"> 
+
+<s n="76">
+<hi rend="gras">
+<w n="2206">AU</w>
+<w n="2207">DUC</w>
+<w n="2208">DE</w>
+<w n="2209">MILAN</w>
+<w type="pon" n="2210">(</w>
+<w type="abbr" n="2211">V.</w>
+<w type="pon" n="2212">)</w>
+<w type="pon" n="2213">.</w>
+</hi>
+</s>
+
+
+</head> 
+  
+  <note type="inline">  <placeName>Montils-lès-Tours</placeName>, <date when="1468-02-07">7 février 1468</date>. <idno type="sourceDesc">Orig. Arch. de Milan.</idno></note>
+<p> 
+<s n="77">
+<w n="2214">Mon</w>
+<w n="2215">frere</w>
+<w type="pon" n="2216">,</w>
+<w n="2217">j'</w>
+<w n="2218">ay</w>
+<w n="2219">sceu</w>
+<w n="2220">ce</w>
+<w n="2221">que</w>
+<w n="2222">vous</w>
+<w n="2223">aviez</w>
+<w n="2224">mandé</w>
+<w n="2225">me</w>
+<w n="2226">dire</w>
+<w n="2227">à</w>
+<w n="2228">Jehan</w>
+<w n="2229">Pierre</w>
+<w n="2230">de</w>
+<w n="2231">Panigrolle</w>
+<w type="pon" n="2232">,</w>
+<w n="2233">vostre</w>
+<w n="2234">ambaxadeur</w>
+<w type="pon" n="2235">,</w>
+<w n="2236">touchant</w>
+<w n="2237">le</w>
+<w n="2238">mariage</w>
+<w n="2239">de</w>
+<w n="2240">vous</w>
+<w n="2241">et</w>
+<w n="2242">de</w>
+<w n="2243">ma</w>
+<w n="2244">seur</w>
+<w n="2245">Bonne</w>
+<w type="pon" n="2246">.</w>
+</s>
+<s n="78">
+<w n="2247">Et</w>
+<w n="2248">pour</w>
+<w n="2249">ce</w>
+<w n="2250">que</w>
+<w n="2251">sur</w>
+<w n="2252">toutes</w>
+<w n="2253">choses</w>
+<w n="2254">je</w>
+<w n="2255">desire</w>
+<w n="2256">vostre</w>
+<w n="2257">bien</w>
+<w n="2258">et</w>
+<w n="2259">l'</w>
+<w n="2260">onneur</w>
+<w type="pon" n="2261">,</w>
+<w n="2262">entretenement</w>
+<w n="2263">et</w>
+<w n="2264">augmentacion</w>
+<w n="2265">de</w>
+<w n="2266">vous</w>
+<w n="2267">et</w>
+<w n="2268">de</w>
+<w n="2269">vostre</w>
+<w n="2270">maison</w>
+<w type="pon" n="2271">,</w>
+<w n="2272">et</w>
+<w n="2273">ne</w>
+<w n="2274">vouldroie</w>
+<w n="2275">pour</w>
+<w n="2276">riens</w>
+<w n="2277">qu'</w>
+<w n="2278">il</w>
+<w n="2279">tensist</w>
+<w n="2280">à</w>
+<w n="2281">moy</w>
+<w n="2282">que</w>
+<w n="2283">voz</w>
+<w n="2284">besongnes</w>
+<w n="2285">et</w>
+<w n="2286">affaires</w>
+<w n="2287">ne</w>
+<w n="2288">feussent</w>
+<w n="2289">asseurez</w>
+<w type="pon" n="2290">,</w>
+<w n="2291">et</w>
+<w n="2292">que</w>
+<w n="2293">je</w>
+<w n="2294">ne</w>
+<w n="2295">vous</w>
+<w n="2296">tensisse</w>
+<w n="2297">ce</w>
+<w n="2298">que</w>
+<w n="2299">je</w>
+<w n="2300">vous</w>
+<w n="2301">ay</w>
+<w n="2302">promis</w>
+<w type="pon" n="2303">,</w>
+<w n="2304">je</w>
+<w n="2305">vous</w>
+<w n="2306">ay</w>
+<w n="2307">bien</w>
+<w n="2308">voulu</w>
+<w n="2309">rescrire</w>
+<w n="2310">sur</w>
+<w n="2311">ce</w>
+<w n="2312">mon</w>
+<pb n="197"/> 
+<w n="2313">advis</w>
+<w type="pon" n="2314">,</w>
+<w n="2315">et</w>
+<w n="2316">me</w>
+<w n="2317">semble</w>
+<w n="2318">que</w>
+<w n="2319">le</w>
+<w n="2320">plus</w>
+<w n="2321">brief</w>
+<w n="2322">qui</w>
+<w n="2323">vous</w>
+<w n="2324">sera</w>
+<w n="2325">possible</w>
+<w n="2326">vous</w>
+<w n="2327">devez</w>
+<w n="2328">envoier</w>
+<w n="2329">querir</w>
+<w n="2330">madicte</w>
+<w n="2331">seur</w>
+<w type="pon" n="2332">.</w>
+</s>
+<s n="79">
+<w n="2333">Et</w>
+<w n="2334">quant</w>
+<w n="2335">est</w>
+<w n="2336">à</w>
+<w n="2337">moy</w>
+<w type="pon" n="2338">,</w>
+<w n="2339">incontinent</w>
+<w n="2340">que</w>
+<w n="2341">ceulx</w>
+<w n="2342">que</w>
+<w n="2343">me</w>
+<w n="2344">devez</w>
+<w n="2345">envoier</w>
+<w n="2346">pour</w>
+<w n="2347">ceste</w>
+<w n="2348">cause</w>
+<w n="2349">seront</w>
+<w n="2350">par</w>
+<w n="2351">deçà</w>
+<w type="pon" n="2352">,</w>
+<w n="2353">et</w>
+<w n="2354">qu'</w>
+<w n="2355">ilz</w>
+<w n="2356">auront</w>
+<w n="2357">besongné</w>
+<w n="2358">touchant</w>
+<w n="2359">le</w>
+<w n="2360">point</w>
+<w n="2361">que</w>
+<w n="2362">par</w>
+<w n="2363">ledit</w>
+<w n="2364">Panigrolle</w>
+<w n="2365">vous</w>
+<w n="2366">ay</w>
+<w n="2367">fait</w>
+<w n="2368">savoir</w>
+<w type="pon" n="2369">,</w>
+<w n="2370">je</w>
+<w n="2371">la</w>
+<w n="2372">vous</w>
+<w n="2373">envoieray</w>
+<w n="2374">en</w>
+<w n="2375">Ast</w>
+<w n="2376">ou</w>
+<w n="2377">ailleurs</w>
+<w type="pon" n="2378">,</w>
+<w n="2379">où</w>
+<w n="2380">vous</w>
+<w n="2381">vouldrez</w>
+<w type="pon" n="2382">,</w>
+<w n="2383">et</w>
+<w n="2384">ne</w>
+<w n="2385">sera</w>
+<w n="2386">la</w>
+<w n="2387">chose</w>
+<w n="2388">par</w>
+<w n="2389">moy</w>
+<w n="2390">aucunement</w>
+<w n="2391">retardée</w>
+<w type="pon" n="2392">,</w>
+<w n="2393">mais</w>
+<w n="2394">se</w>
+<w n="2395">fera</w>
+<w n="2396">tout</w>
+<w n="2397">ce</w>
+<w n="2398">que</w>
+<w n="2399">vous</w>
+<w n="2400">en</w>
+<w n="2401">ordonnerez</w>
+<w type="pon" n="2402">;</w>
+<w n="2403">car</w>
+<w n="2404">jusques</w>
+<w n="2405">ycy</w>
+<w n="2406">j'</w>
+<w n="2407">ay</w>
+<w n="2408">tousiours</w>
+<w n="2409">gardée</w>
+<w n="2410">madicte</w>
+<w n="2411">seur</w>
+<w n="2412">pour</w>
+<w n="2413">vous</w>
+<w type="pon" n="2414">,</w>
+<w n="2415">et</w>
+<w n="2416">pour</w>
+<w n="2417">vostre</w>
+<w n="2418">bien</w>
+<w type="pon" n="2419">,</w>
+<w n="2420">et</w>
+<w n="2421">si</w>
+<w n="2422">vous</w>
+<w n="2423">ne</w>
+<w n="2424">l'</w>
+<w n="2425">avez</w>
+<w type="pon" n="2426">,</w>
+<w n="2427">il</w>
+<w n="2428">ne</w>
+<w n="2429">tiendra</w>
+<w n="2430">que</w>
+<w n="2431">à</w>
+<w n="2432">vous</w>
+<w type="pon" n="2433">.</w>
+</s>
+<s n="80">
+<w n="2434">Et</w>
+<w n="2435">vous</w>
+<w n="2436">tenez</w>
+<w n="2437">seur</w>
+<w n="2438">que</w>
+<w n="2439">en</w>
+<w n="2440">cecy</w>
+<w n="2441">et</w>
+<w n="2442">en</w>
+<w n="2443">toutes</w>
+<w n="2444">autres</w>
+<w n="2445">choses</w>
+<w n="2446">je</w>
+<w n="2447">m'</w>
+<w n="2448">emploieray</w>
+<w n="2449">tousjours</w>
+<w n="2450">pour</w>
+<w n="2451">vous</w>
+<w n="2452">le</w>
+<w n="2453">mieulx</w>
+<w n="2454">que</w>
+<w n="2455">possible</w>
+<w n="2456">me</w>
+<w n="2457">sera</w>
+<w type="pon" n="2458">.</w>
+</s>
+<s n="81">
+<w n="2459">Au</w>
+<w n="2460">surplus</w>
+<w n="2461">j'</w>
+<w n="2462">ay</w>
+<w n="2463">chargé</w>
+<w n="2464">audit</w>
+<w n="2465">Panigrolle</w>
+<w n="2466">vous</w>
+<w n="2467">escrire</w>
+<w n="2468">aucunes</w>
+<w n="2469">choses</w>
+<w type="pon" n="2470">;</w>
+<w n="2471">si</w>
+<w n="2472">vous</w>
+<w n="2473">prie</w>
+<w n="2474">que</w>
+<w n="2475">vueillez</w>
+<w n="2476">adjouster</w>
+<w n="2477">foy</w>
+<w n="2478">en</w>
+<w n="2479">ce</w>
+<w n="2480">qu'</w>
+<w n="2481">il</w>
+<w n="2482">vous</w>
+<w n="2483">rescrira</w>
+<w type="pon" n="2484">,</w>
+<w n="2485">et</w>
+<w n="2486">vous</w>
+<w n="2487">y</w>
+<w n="2488">emploiez</w>
+<w n="2489">ainsi</w>
+<w n="2490">que</w>
+<w n="2491">j'</w>
+<w n="2492">en</w>
+<w n="2493">ay</w>
+<w n="2494">en</w>
+<w n="2495">vous</w>
+<w n="2496">fiance</w>
+<w type="pon" n="2497">.</w>
+</s>
+<s n="82">
+<w n="2498">Et</w>
+<w n="2499">adieu</w>
+<w type="pon" n="2500">,</w>
+<w n="2501">mon</w>
+<w n="2502">frere</w>
+<w type="pon" n="2503">.</w>
+</s>
+<s n="83">
+<w n="2504">Escript</w>
+<w n="2505">aux</w>
+<w n="2506">Montilz</w>
+<w n="2507">lez</w>
+<w n="2508">Tours</w>
+<w type="pon" n="2509">,</w>
+<w n="2510">le</w>
+<w n="2511">VII</w>
+<hi rend="exp">
+<w n="2512">e</w>
+</hi>
+<w n="2513">jour</w>
+<w n="2514">de</w>
+<w n="2515">feuvrier</w>
+<w type="pon" n="2516">.</w>
+</s>
+</p> 
+<p> 
+<s n="84">
+<hi rend="pmaj">
+<w n="2517">Loys</w>
+<w type="pon" n="2518">.</w>
+</hi>
+</s>
+</p> 
+<p> 
+<s n="85">
+<hi rend="pmaj">
+<w n="2519">Leprevost</w>
+<w type="pon" n="2520">.</w>
+</hi>
+</s>
+</p> 
+<p> 
+<s n="86">
+<w n="2521">A</w>
+<w n="2522">mon</w>
+<w n="2523">beau</w>
+<w n="2524">frere</w>
+<w n="2525">le</w>
+<w n="2526">duc</w>
+<w n="2527">de</w>
+<w n="2528">Millan</w>
+<w type="pon" n="2529">.</w>
+</s>
+</p> 
+</div> 
+  <pb n="208"/> 
+<div type="letter" n="346"> 
+
+<head xml:lang="fr"> 
+
+<s n="87">
+<hi rend="gras">
+<w n="2530">AU</w>
+<w n="2531">DUC</w>
+<w n="2532">DE</w>
+<w n="2533">MILAN</w>
+<w type="pon" n="2534">(</w>
+<w type="abbr" n="2535">V.</w>
+<w type="pon" n="2536">)</w>
+<w type="pon" n="2537">.</w>
+</hi>
+</s>
+</head> 
+  <note type="inline">  <placeName>Amboise</placeName>, <date when="1468-03-27">27 mars 1468</date>. <idno type="sourceDesc">Orig. Arch. de Milan.</idno></note>
+<p> 
+<s n="88">
+<w n="2538">De</w>
+<w n="2539">par</w>
+<w n="2540">le</w>
+<w n="2541">roy</w>
+<w type="pon" n="2542">.</w>
+</s>
+</p> 
+<p> 
+<s n="89">
+<w n="2543">Trés</w>
+<w n="2544">cher</w>
+<w n="2545">et</w>
+<w n="2546">trés</w>
+<w n="2547">amé</w>
+<w n="2548">frere</w>
+<w n="2549">et</w>
+<w n="2550">cousin</w>
+<w type="pon" n="2551">,</w>
+<w n="2552">nostre</w>
+<w n="2553">chier</w>
+<w n="2554">et</w>
+<w n="2555">bien</w>
+<w n="2556">amé</w>
+<w n="2557">Jehan</w>
+<w n="2558">Dozenac</w>
+<w type="pon" n="2559">,</w>
+<w n="2560">homme</w>
+<w n="2561">d'</w>
+<w n="2562">armes</w>
+<w n="2563">de</w>
+<w n="2564">nostre</w>
+<w n="2565">ordonnance</w>
+<w type="pon" n="2566">,</w>
+<w n="2567">nous</w>
+<w n="2568">a</w>
+<w n="2569">fait</w>
+<w n="2570">monstrer</w>
+<w n="2571">que</w>
+<w n="2572">aucunes</w>
+<w n="2573">gens</w>
+<w n="2574">voz</w>
+<w n="2575">subgetz</w>
+<w n="2576">ont</w>
+<w n="2577">detenu</w>
+<w n="2578">et</w>
+<w n="2579">detiennent</w>
+<w n="2580">de</w>
+<w n="2581">present</w>
+<w n="2582">pluseurs</w>
+<w n="2583">terres</w>
+<w type="pon" n="2584">,</w>
+<w n="2585">maisons</w>
+<w n="2586">et</w>
+<w n="2587">autres</w>
+<w n="2588">biens</w>
+<w n="2589">à</w>
+<w n="2590">luy</w>
+<w n="2591">appartenans</w>
+<w n="2592">ou</w>
+<w n="2593">territoire</w>
+<w n="2594">de</w>
+<w n="2595">Charmiz</w>
+<w type="pon" n="2596">(</w>
+<w type="pon" n="2597">?</w>
+<w type="pon" n="2598">)</w>
+<w type="pon" n="2599">,</w>
+</s>
+<s n="90">
+<w n="2600">sans</w>
+<w n="2601">les</w>
+<w n="2602">lui</w>
+<w n="2603">vouloir</w>
+<w n="2604">rendre</w>
+<w n="2605">ne</w>
+<w n="2606">restituer</w>
+<w type="pon" n="2607">;</w>
+<w n="2608">et</w>
+<w n="2609">à</w>
+<w n="2610">ceste</w>
+<w n="2611">cause</w>
+<w n="2612">nous</w>
+<w n="2613">a</w>
+<w n="2614">requiz</w>
+<w n="2615">que</w>
+<w n="2616">sur</w>
+<w n="2617">ce</w>
+<w n="2618">vous</w>
+<w n="2619">voulsissons</w>
+<w n="2620">escripre</w>
+<w n="2621">en</w>
+<w n="2622">sa</w>
+<w n="2623">faveur</w>
+<w type="pon" n="2624">.</w>
+</s>
+<s n="91">
+<w n="2625">Et</w>
+<w n="2626">pour</w>
+<w n="2627">ce</w>
+<w n="2628">que</w>
+<w n="2629">desirons</w>
+<w n="2630">les</w>
+<w n="2631">faiz</w>
+<w n="2632">et</w>
+<w n="2633">affaires</w>
+<w n="2634">dudit</w>
+<w n="2635">Jehan</w>
+<w n="2636">Dozenac</w>
+<w n="2637">estre</w>
+<w n="2638">favorablement</w>
+<w n="2639">traictiez</w>
+<w n="2640">en</w>
+<w n="2641">faveur</w>
+<w n="2642">d'</w>
+<w n="2643">aucuns</w>
+<w n="2644">noz</w>
+<w n="2645">principaulx</w>
+<w n="2646">serviteurs</w>
+<w type="pon" n="2647">,</w>
+<w n="2648">ses</w>
+<w n="2649">parens</w>
+<w n="2650">et</w>
+<w n="2651">amys</w>
+<w type="pon" n="2652">,</w>
+<w n="2653">et</w>
+<w n="2654">des</w>
+<w n="2655">grans</w>
+<w n="2656">et</w>
+<w n="2657">louables</w>
+<w n="2658">services</w>
+<w n="2659">qu'</w>
+<w n="2660">il</w>
+<w n="2661">nous</w>
+<w n="2662">a</w>
+<w n="2663">faiz</w>
+<w n="2664">et</w>
+<w n="2665">fait</w>
+<w n="2666">chascun</w>
+<w n="2667">jour</w>
+<w n="2668">en</w>
+<w n="2669">maintes</w>
+<w n="2670">manieres</w>
+<w type="pon" n="2671">,</w>
+<w n="2672">nous</w>
+<w n="2673">vous</w>
+<w n="2674">prions</w>
+<w n="2675">le</w>
+<w n="2676">plus</w>
+<w n="2677">affectueusement</w>
+<w n="2678">que</w>
+<w n="2679">faire</w>
+<w n="2680">povons</w>
+<w n="2681">que</w>
+<w type="pon" n="2682">,</w>
+<w n="2683">en</w>
+<w n="2684">faveur</w>
+<w n="2685">et</w>
+<w n="2686">contemplacion</w>
+<w n="2687">de</w>
+<w n="2688">nous</w>
+<w type="pon" n="2689">,</w>
+<w n="2690">vous</w>
+<w n="2691">vueillez</w>
+<w n="2692">faire</w>
+<w n="2693">rendre</w>
+<w n="2694">et</w>
+<w n="2695">restituer</w>
+<w n="2696">audit</w>
+<w n="2697">Dozenac</w>
+<w n="2698">tous</w>
+<w n="2699">les</w>
+<w n="2700">heritaiges</w>
+<w type="pon" n="2701">,</w>
+<w n="2702">maisons</w>
+<w n="2703">et</w>
+<pb n="209"/> 
+<w n="2704">autres</w>
+<w n="2705">biens</w>
+<w n="2706">qui</w>
+<w n="2707">par</w>
+<w n="2708">lectres</w>
+<w type="pon" n="2709">,</w>
+<w n="2710">tesmoings</w>
+<w n="2711">ou</w>
+<w n="2712">autrement</w>
+<w n="2713">apperront</w>
+<w n="2714">appartenir</w>
+<w n="2715">audit</w>
+<w n="2716">Dozenac</w>
+<w type="pon" n="2717">,</w>
+<w n="2718">par</w>
+<w n="2719">ceulx</w>
+<w n="2720">qui</w>
+<w n="2721">les</w>
+<w n="2722">detiennent</w>
+<w n="2723">oudit</w>
+<w n="2724">territoire</w>
+<w n="2725">de</w>
+<w n="2726">Charmiz</w>
+<w type="pon" n="2727">,</w>
+<w n="2728">et</w>
+<w n="2729">incontinent</w>
+<w n="2730">les</w>
+<w n="2731">lui</w>
+<w n="2732">faire</w>
+<w n="2733">mectre</w>
+<w n="2734">à</w>
+<w n="2735">plaine</w>
+<w n="2736">delivrance</w>
+<w type="pon" n="2737">.</w>
+</s>
+<s n="92">
+<w n="2738">Et</w>
+<w n="2739">vous</w>
+<w n="2740">nous</w>
+<w n="2741">ferez</w>
+<w n="2742">très</w>
+<w n="2743">agreable</w>
+<w n="2744">plaisir</w>
+<w type="pon" n="2745">.</w>
+</s>
+<s n="93">
+<w n="2746">Donné</w>
+<w n="2747">à</w>
+<w n="2748">Amboise</w>
+<w type="pon" n="2749">,</w>
+<w n="2750">le</w>
+<w n="2751">XXVII</w>
+<hi rend="exp">
+<w n="2752">e</w>
+</hi>
+<w n="2753">jour</w>
+<w n="2754">de</w>
+<w n="2755">mars</w>
+<w type="pon" n="2756">.</w>
+</s>
+</p> 
+<p> 
+<s n="94">
+<hi rend="pmaj">
+<w n="2757">Loys</w>
+<w type="pon" n="2758">.</w>
+</hi>
+</s>
+</p> 
+<p> 
+<s n="95">
+<hi rend="pmaj">
+<w n="2759">Meurin</w>
+<w type="pon" n="2760">.</w>
+</hi>
+</s>
+</p> 
+<p> 
+<s n="96">
+<w n="2761">A</w>
+<w n="2762">nostre</w>
+<w n="2763">trés</w>
+<w n="2764">cher</w>
+<w n="2765">et</w>
+<w n="2766">trés</w>
+<w n="2767">amé</w>
+<w n="2768">frere</w>
+<w n="2769">et</w>
+<w n="2770">cousin</w>
+<w n="2771">le</w>
+<w n="2772">duc</w>
+<w n="2773">de</w>
+<w n="2774">Millan</w>
+<w type="pon" n="2775">.</w>
+</s>
+</p> 
+</div> 
+  <pb n="248"/> 
+<div type="letter" n="372"> 
+
+<head xml:lang="fr"> 
+
+<s n="97">
+<hi rend="gras">
+<w n="2776">AU</w>
+<w n="2777">SIRE</w>
+<w n="2778">DE</w>
+<w n="2779">CRAON</w>
+<w n="2780">ET</w>
+<w n="2781">A</w>
+<w n="2782">L'</w>
+<w n="2783">AMIRAL</w>
+<w type="pon" n="2784">(</w>
+<w type="abbr" n="2785">V.</w>
+<w type="pon" n="2786">)</w>
+<w type="pon" n="2787">.</w>
+</hi>
+</s>
+</head> 
+  <note type="inline">  <date to="1468-07">Fin de juillet 1468</date>.<idno type="sourceDesc">Minute. BibI. nat., Fr. 20489, fol. 25.</idno></note>
+<p> 
+<s n="98">
+<w n="2788">Chier</w>
+<w n="2789">et</w>
+<w n="2790">feal</w>
+<w n="2791">cousin</w>
+<w type="pon" n="2792">,</w>
+<w n="2793">presentement</w>
+<w n="2794">avons</w>
+<w n="2795">receu</w>
+<w n="2796">lettres</w>
+<w n="2797">de</w>
+<w n="2798">telz</w>
+<w type="pon" n="2799">,</w>
+<w n="2800">etc</w>
+<w type="pon" n="2801">.</w>
+<w type="pon" n="2802">,</w>
+</s>
+<s n="99">
+<w n="2803">et</w>
+<w n="2804">aussi</w>
+<w n="2805">beau</w>
+<w n="2806">frere</w>
+<w n="2807">le</w>
+<w n="2808">connestable</w>
+<pb n="249"/> 
+<w n="2809">a</w>
+<w n="2810">escript</w>
+<w n="2811">à</w>
+<w n="2812">beau</w>
+<w n="2813">frere</w>
+<w n="2814">de</w>
+<w n="2815">Bourbon</w>
+<w type="pon" n="2816">.</w>
+</s>
+<s n="100">
+<w n="2817">Nous</w>
+<w n="2818">vous</w>
+<w n="2819">envoyons</w>
+<w n="2820">le</w>
+<w n="2821">double</w>
+<w n="2822">de</w>
+<w n="2823">tout</w>
+<w type="pon" n="2824">,</w>
+<w n="2825">affin</w>
+<w n="2826">que</w>
+<w n="2827">congnoissés</w>
+<w n="2828">et</w>
+<w n="2829">soiés</w>
+<w n="2830">pourveu</w>
+<w n="2831">pour</w>
+<w n="2832">les</w>
+<w n="2833">choses</w>
+<w n="2834">qui</w>
+<w n="2835">pourront</w>
+<w n="2836">avenir</w>
+<w type="pon" n="2837">.</w>
+</s>
+<s n="101">
+<w n="2838">Si</w>
+<w n="2839">vous</w>
+<w n="2840">prions</w>
+<w n="2841">que</w>
+<w n="2842">vous</w>
+<w n="2843">vueillés</w>
+<w n="2844">tenir</w>
+<w n="2845">tout</w>
+<w n="2846">prest</w>
+<w type="pon" n="2847">,</w>
+<w n="2848">et</w>
+<w n="2849">vos</w>
+<w n="2850">gens</w>
+<w n="2851">en</w>
+<w n="2852">voz</w>
+<w n="2853">garnisons</w>
+<w type="pon" n="2854">,</w>
+<w n="2855">pour</w>
+<w n="2856">faire</w>
+<w n="2857">ce</w>
+<w n="2858">qui</w>
+<w n="2859">sera</w>
+<w n="2860">à</w>
+<w n="2861">faire</w>
+<w type="pon" n="2862">,</w>
+<w n="2863">car</w>
+<w n="2864">vous</w>
+<w n="2865">savés</w>
+<w n="2866">que</w>
+<w n="2867">il</w>
+<w n="2868">ne</w>
+<w n="2869">y</w>
+<w n="2870">a</w>
+<w n="2871">plus</w>
+<w n="2872">de</w>
+<w n="2873">la</w>
+<w n="2874">treve</w>
+<w n="2875">que</w>
+<w n="2876">d'</w>
+<w n="2877">icy</w>
+<w n="2878">à</w>
+<w n="2879">leundi</w>
+<w type="pon" n="2880">,</w>
+<w n="2881">et</w>
+<w n="2882">ou</w>
+<w n="2883">cas</w>
+<w n="2884">qu'</w>
+<w n="2885">elle</w>
+<w n="2886">sera</w>
+<w n="2887">ralongée</w>
+<w type="pon" n="2888">,</w>
+<w n="2889">incontinent</w>
+<w n="2890">que</w>
+<w n="2891">nouvelles</w>
+<w n="2892">nous</w>
+<w n="2893">en</w>
+<w n="2894">viendront</w>
+<w type="pon" n="2895">,</w>
+<w n="2896">le</w>
+<w n="2897">vous</w>
+<w n="2898">ferons</w>
+<w n="2899">savoir</w>
+<w type="pon" n="2900">,</w>
+<w n="2901">ensemble</w>
+<w n="2902">de</w>
+<w n="2903">tout</w>
+<w n="2904">ce</w>
+<w n="2905">qui</w>
+<w n="2906">nous</w>
+<w n="2907">sera</w>
+<w n="2908">survenu</w>
+<w type="pon" n="2909">.</w>
+</s>
+<s n="102">
+<w n="2910">Si</w>
+<w n="2911">nous</w>
+<w n="2912">vueillés</w>
+<w n="2913">fere</w>
+<w n="2914">savoir</w>
+<w n="2915">et</w>
+<w n="2916">advertir</w>
+<w n="2917">de</w>
+<w n="2918">ce</w>
+<w n="2919">que</w>
+<w n="2920">pourrés</w>
+<w n="2921">savoir</w>
+<w n="2922">de</w>
+<w n="2923">vostre</w>
+<w n="2924">part</w>
+<w type="pon" n="2925">.</w>
+</s>
+<s n="103">
+<w n="2926">Et</w>
+<w n="2927">pour</w>
+<w n="2928">ce</w>
+<w n="2929">qu'</w>
+<w n="2930">il</w>
+<w n="2931">y</w>
+<w n="2932">a</w>
+<w n="2933">plus</w>
+<w n="2934">apparance</w>
+<w n="2935">de</w>
+<w n="2936">guerre</w>
+<w n="2937">que</w>
+<w n="2938">autre</w>
+<w n="2939">chose</w>
+<w type="pon" n="2940">,</w>
+<w n="2941">nous</w>
+<w n="2942">vous</w>
+<w n="2943">prions</w>
+<w type="pon" n="2944">,</w>
+<w n="2945">se</w>
+<w n="2946">vous</w>
+<w n="2947">avez</w>
+<w n="2948">aucunes</w>
+<w n="2949">entreprinses</w>
+<w type="pon" n="2950">,</w>
+<w n="2951">que</w>
+<w n="2952">vous</w>
+<w n="2953">soiez</w>
+<w n="2954">tous</w>
+<w n="2955">prestz</w>
+<w n="2956">pour</w>
+<w n="2957">les</w>
+<w n="2958">povoir</w>
+<w n="2959">executer</w>
+<w type="pon" n="2960">,</w>
+<w n="2961">si</w>
+<w n="2962">tost</w>
+<w n="2963">que</w>
+<w n="2964">le</w>
+<w n="2965">vous</w>
+<w n="2966">ferons</w>
+<w n="2967">savoir</w>
+<w type="pon" n="2968">.</w>
+</s>
+</p> 
+</div> 
+  <pb n="268"/> 
+<div type="letter" n="383"> 
+
+<head xml:lang="fr"> 
+
+<s n="104">
+<hi rend="gras">
+<w n="2969">A</w>
+<w n="2970">BOURRÉ</w>
+<w type="pon" n="2971">(</w>
+<w type="abbr" n="2972">D.</w>
+<w type="pon" n="2973">)</w>
+<w type="pon" n="2974">.</w>
+</hi>
+</s>
+
+
+
+</head> 
+  <note type="inline">  <placeName>Senlis</placeName>, <date when="1468-08-21">21 août 1468</date>. <idno type="sourceDesc">Orig. BibI. nat., Fr. 20427, fol. 50.</idno></note>
+<p> 
+<s n="105">
+<w n="2975">Bourré</w>
+<w type="pon" n="2976">,</w>
+<w n="2977">j'</w>
+<w n="2978">envoye</w>
+<w n="2979">par</w>
+<w n="2980">dela</w>
+<w n="2981">monseigneur</w>
+<w n="2982">de</w>
+<w n="2983">Calabre</w>
+<w n="2984">pour</w>
+<w n="2985">les</w>
+<w n="2986">causes</w>
+<w n="2987">que</w>
+<w n="2988">verrez</w>
+<w n="2989">par</w>
+<w n="2990">le</w>
+<w n="2991">double</w>
+<w n="2992">que</w>
+<w n="2993">je</w>
+<w n="2994">vous</w>
+<w n="2995">envoie</w>
+<w n="2996">cy</w>
+<w n="2997">encloz</w>
+<w n="2998">des</w>
+<w n="2999">lettres</w>
+<w n="3000">que</w>
+<w n="3001">je</w>
+<w n="3002">escrips</w>
+<w n="3003">à</w>
+<w n="3004">monseigneur</w>
+<w n="3005">de</w>
+<w n="3006">la</w>
+<w n="3007">Forest</w>
+<w type="pon" n="3008">,</w>
+<w n="3009">monseigneur</w>
+<w n="3010">de</w>
+<w n="3011">Cran</w>
+<w type="pon" n="3012">,</w>
+<w n="3013">monseigneur</w>
+<w n="3014">de</w>
+<w n="3015">Bueil</w>
+<w n="3016">et</w>
+<w n="3017">le</w>
+<w n="3018">seneschal</w>
+<w n="3019">de</w>
+<w n="3020">Poictou</w>
+<w type="pon" n="3021">.</w>
+</s>
+<s n="106">
+<w n="3022">J'</w>
+<w n="3023">ay</w>
+<w n="3024">baillé</w>
+<w n="3025">à</w>
+<w n="3026">mon</w>
+<pb n="269"/> 
+<w n="3027">dit</w>
+<w n="3028">seigneur</w>
+<w n="3029">de</w>
+<w n="3030">Calabre</w>
+<w n="3031">ung</w>
+<w n="3032">povoir</w>
+<w n="3033">pour</w>
+<w n="3034">besongner</w>
+<w n="3035">ès</w>
+<w n="3036">matieres</w>
+<w n="3037">avec</w>
+<w n="3038">ung</w>
+<w n="3039">blanc</w>
+<w n="3040">pour</w>
+<w n="3041">faire</w>
+<w n="3042">ung</w>
+<w n="3043">autre</w>
+<w n="3044">povoir</w>
+<w type="pon" n="3045">,</w>
+<w n="3046">s'</w>
+<w n="3047">il</w>
+<w n="3048">en</w>
+<w n="3049">est</w>
+<w n="3050">besoing</w>
+<w type="pon" n="3051">,</w>
+<w n="3052">lequel</w>
+<w n="3053">blanc</w>
+<w n="3054">vous</w>
+<w n="3055">emplirez</w>
+<w n="3056">ainsi</w>
+<w n="3057">que</w>
+<w n="3058">par</w>
+<w n="3059">mondit</w>
+<w n="3060">seigneur</w>
+<w n="3061">de</w>
+<w n="3062">Calabre</w>
+<w n="3063">sera</w>
+<w n="3064">advisé</w>
+<w type="pon" n="3065">.</w>
+</s>
+<s n="107">
+<w n="3066">Et</w>
+<w n="3067">se</w>
+<w n="3068">ilz</w>
+<w n="3069">ont</w>
+<w n="3070">à</w>
+<w n="3071">besongner</w>
+<w n="3072">de</w>
+<w n="3073">lettres</w>
+<w n="3074">closes</w>
+<w n="3075">de</w>
+<w n="3076">moy</w>
+<w n="3077">ou</w>
+<w n="3078">de</w>
+<w n="3079">blancs</w>
+<w n="3080">signez</w>
+<w n="3081">pour</w>
+<w n="3082">en</w>
+<w n="3083">faire</w>
+<w type="pon" n="3084">,</w>
+<w n="3085">fournissez</w>
+<w n="3086">les</w>
+<w n="3087">en</w>
+<w type="pon" n="3088">,</w>
+<w n="3089">et</w>
+<w n="3090">me</w>
+<w n="3091">faictes</w>
+<w n="3092">souvent</w>
+<w n="3093">savoir</w>
+<w n="3094">des</w>
+<w n="3095">nouvelles</w>
+<w type="pon" n="3096">.</w>
+</s>
+<s n="108">
+<w n="3097">Donné</w>
+<w n="3098">à</w>
+<w n="3099">Senlis</w>
+<w type="pon" n="3100">,</w>
+<w n="3101">le</w>
+<w n="3102">XXI</w>
+<hi rend="exp">
+<w n="3103">e</w>
+</hi>
+<w n="3104">jour</w>
+<w n="3105">d'</w>
+<w n="3106">aoust</w>
+<w type="pon" n="3107">.</w>
+</s>
+</p> 
+<p> 
+<s n="109">
+<hi rend="pmaj">
+<w n="3108">Loys</w>
+<w type="pon" n="3109">.</w>
+</hi>
+</s>
+</p> 
+<p> 
+<s n="110">
+<hi rend="pmaj">
+<w n="3110">Demoulins</w>
+<w type="pon" n="3111">.</w>
+</hi>
+</s>
+</p> 
+<p> 
+<s n="111">
+<w n="3112">A</w>
+<w n="3113">nostre</w>
+<w n="3114">amé</w>
+<w n="3115">et</w>
+<w n="3116">feal</w>
+<w n="3117">conseiller</w>
+<w n="3118">et</w>
+<w n="3119">maistre</w>
+<w n="3120">de</w>
+<w n="3121">noz</w>
+<w n="3122">comptes</w>
+<w type="pon" n="3123">,</w>
+<w n="3124">maistre</w>
+<w n="3125">Jehan</w>
+<w n="3126">Bourré</w>
+<w type="pon" n="3127">.</w>
+</s>
+</p> 
+</div> 
+  <pb n="332"/> 
+<div type="letter" n="427"> 
+
+<head xml:lang="fr"> 
+
+<s n="112">
+<hi rend="gras">
+<w n="3128">A</w>
+<w n="3129">LA</w>
+<w n="3130">CHAMBRE</w>
+<w n="3131">DES</w>
+<w n="3132">COMPTES</w>
+<w type="pon" n="3133">(</w>
+<w type="abbr" n="3134">P.</w>
+<w type="pon" n="3135">)</w>
+<w type="pon" n="3136">.</w>
+</hi>
+</s>
+</head> 
+  <note type="inlne">  <placeName>Amboise</placeName>, <date when="1469-03-19">19 mars 1469</date>. <idno type="sourceDesc">Orig. BibI. nat., Pièces orig., vol. 213, dossier 4810, Batarnay, no  19. Copie, Clairambault, 1060, fol. 135.</idno></note>
+<p> 
+<s n="113">
+<w n="3137">De</w>
+<w n="3138">par</w>
+<w n="3139">le</w>
+<w n="3140">roy</w>
+<w type="pon" n="3141">.</w>
+</s>
+</p> 
+<p> 
+<s n="114">
+<w n="3142">Noz</w>
+<w n="3143">amez</w>
+<w n="3144">et</w>
+<w n="3145">feaulx</w>
+<w type="pon" n="3146">,</w>
+<w n="3147">nous</w>
+<w n="3148">avons</w>
+<w type="pon" n="3149">,</w>
+<w n="3150">par</w>
+<w n="3151">noz</w>
+<w n="3152">lectres</w>
+<w n="3153">patentes</w>
+<w n="3154">et</w>
+<w n="3155">pour</w>
+<w n="3156">les</w>
+<w n="3157">causes</w>
+<w n="3158">en</w>
+<w n="3159">icelles</w>
+<w n="3160">contenues</w>
+<w type="pon" n="3161">,</w>
+<w n="3162">donné</w>
+<w n="3163">à</w>
+<w n="3164">nostre</w>
+<w n="3165">chier</w>
+<w n="3166">et</w>
+<w n="3167">bien</w>
+<w n="3168">amé</w>
+<w n="3169">eschançon</w>
+<w n="3170">Anthoine</w>
+<w n="3171">de</w>
+<w n="3172">Batarnay</w>
+<w type="pon" n="3173">,</w>
+<w n="3174">seigneur</w>
+<w n="3175">de</w>
+<w n="3176">Vaulgris</w>
+<w type="pon" n="3177">,</w>
+<w n="3178">la</w>
+<w n="3179">somme</w>
+<w n="3180">de</w>
+<w n="3181">VI</w>
+<hi rend="exp">
+<w n="3182">m</w>
+</hi>
+<w n="3183">escuz</w>
+<w type="pon" n="3184">,</w>
+<pb n="333"/> 
+<w n="3185">en</w>
+<w n="3186">faveur</w>
+<w n="3187">du</w>
+<w n="3188">mariage</w>
+<w n="3189">de</w>
+<w n="3190">lui</w>
+<w n="3191">et</w>
+<w n="3192">de</w>
+<w n="3193">la</w>
+<w n="3194">fille</w>
+<w n="3195">de</w>
+<w n="3196">nostre</w>
+<w n="3197">amé</w>
+<w n="3198">et</w>
+<w n="3199">feal</w>
+<w n="3200">conseillier</w>
+<w n="3201">et</w>
+<w n="3202">chambellan</w>
+<w n="3203">May</w>
+<w n="3204">de</w>
+<w n="3205">Houllefort</w>
+<w type="pon" n="3206">,</w>
+<w n="3207">sire</w>
+<w n="3208">de</w>
+<w n="3209">Hamars</w>
+<w type="pon" n="3210">,</w>
+<w n="3211">nostre</w>
+<w n="3212">bailli</w>
+<w n="3213">de</w>
+<w n="3214">Caen</w>
+<w type="pon" n="3215">;</w>
+<w n="3216">pour</w>
+<w n="3217">l'</w>
+<w n="3218">asseurement</w>
+<w n="3219">du</w>
+<w n="3220">paiement</w>
+<w n="3221">de</w>
+<w n="3222">laquelle</w>
+<w n="3223">somme</w>
+<w type="pon" n="3224">,</w>
+<w n="3225">pour</w>
+<w n="3226">ce</w>
+<w n="3227">que</w>
+<w n="3228">nous</w>
+<w n="3229">ne</w>
+<w n="3230">la</w>
+<w n="3231">luy</w>
+<w n="3232">povons</w>
+<w n="3233">à</w>
+<w n="3234">present</w>
+<w n="3235">paier</w>
+<w type="pon" n="3236">,</w>
+<w n="3237">nous</w>
+<w n="3238">lui</w>
+<w n="3239">avons</w>
+<w n="3240">baillé</w>
+<w n="3241">et</w>
+<w n="3242">transporté</w>
+<w n="3243">nostre</w>
+<w n="3244">chastellenie</w>
+<w type="pon" n="3245">,</w>
+<w n="3246">viconté</w>
+<w type="pon" n="3247">,</w>
+<w n="3248">terre</w>
+<w n="3249">et</w>
+<w n="3250">seigneurie</w>
+<w n="3251">d'</w>
+<w n="3252">Evrecy</w>
+<w type="pon" n="3253">,</w>
+<w n="3254">assise</w>
+<w n="3255">en</w>
+<w n="3256">noz</w>
+<w n="3257">bailliage</w>
+<w n="3258">et</w>
+<w n="3259">viconté</w>
+<w n="3260">de</w>
+<w n="3261">Caen</w>
+<w type="pon" n="3262">,</w>
+<w n="3263">jusqu'</w>
+<w n="3264">à</w>
+<w n="3265">ce</w>
+<w n="3266">que</w>
+<w n="3267">nous</w>
+<w n="3268">ou</w>
+<w n="3269">noz</w>
+<w n="3270">successeurs</w>
+<w n="3271">nous</w>
+<w n="3272">ayons</w>
+<w n="3273">paié</w>
+<w n="3274">ladicte</w>
+<w n="3275">somme</w>
+<w type="pon" n="3276">,</w>
+<w n="3277">ainsi</w>
+<w n="3278">que</w>
+<w n="3279">pourrez</w>
+<w n="3280">veoir</w>
+<w n="3281">par</w>
+<w n="3282">nosdictes</w>
+<w n="3283">lettres</w>
+<w type="pon" n="3284">.</w>
+</s>
+<s n="115">
+<w n="3285">Et</w>
+<w n="3286">pour</w>
+<w n="3287">ce</w>
+<w n="3288">que</w>
+<w n="3289">nous</w>
+<w n="3290">voulons</w>
+<w n="3291">que</w>
+<w n="3292">nostredit</w>
+<w n="3293">eschançon</w>
+<w n="3294">joisse</w>
+<w n="3295">de</w>
+<w n="3296">nostredit</w>
+<w n="3297">don</w>
+<w n="3298">et</w>
+<w n="3299">transport</w>
+<w n="3300">selon</w>
+<w n="3301">le</w>
+<w n="3302">contenu</w>
+<w n="3303">de</w>
+<w n="3304">nosdictes</w>
+<w n="3305">lectres</w>
+<w type="pon" n="3306">,</w>
+<w n="3307">nous</w>
+<w n="3308">vous</w>
+<w n="3309">mandons</w>
+<w n="3310">et</w>
+<w n="3311">commandons</w>
+<w n="3312">que</w>
+<w n="3313">vous</w>
+<w n="3314">luy</w>
+<w n="3315">veriffiez</w>
+<w n="3316">et</w>
+<w n="3317">expediez</w>
+<w n="3318">nosdictes</w>
+<w n="3319">lectres</w>
+<w n="3320">de</w>
+<w n="3321">point</w>
+<w n="3322">en</w>
+<w n="3323">point</w>
+<w n="3324">selon</w>
+<w n="3325">leur</w>
+<w n="3326">forme</w>
+<w n="3327">et</w>
+<w n="3328">teneur</w>
+<w type="pon" n="3329">.</w>
+</s>
+<s n="116">
+<w n="3330">Et</w>
+<w n="3331">gardez</w>
+<w n="3332">que</w>
+<w n="3333">en</w>
+<w n="3334">ce</w>
+<w n="3335">n'</w>
+<w n="3336">ait</w>
+<w n="3337">faulte</w>
+<w type="pon" n="3338">,</w>
+<w n="3339">et</w>
+<w n="3340">qu'</w>
+<w n="3341">il</w>
+<w n="3342">ne</w>
+<w n="3343">nous</w>
+<w n="3344">soit</w>
+<w n="3345">besoing</w>
+<w n="3346">de</w>
+<w n="3347">plus</w>
+<w n="3348">vous</w>
+<w n="3349">en</w>
+<w n="3350">escripre</w>
+<w type="pon" n="3351">.</w>
+</s>
+<s n="117">
+<w n="3352">Donné</w>
+<w n="3353">à</w>
+<w n="3354">Amboise</w>
+<w type="pon" n="3355">,</w>
+<w n="3356">le</w>
+<w n="3357">XIX</w>
+<hi rend="exp">
+<w n="3358">e</w>
+</hi>
+<w n="3359">jour</w>
+<w n="3360">de</w>
+<w n="3361">mars</w>
+<w type="pon" n="3362">.</w>
+</s>
+</p> 
+<p> 
+<s n="118">
+<hi rend="pmaj">
+<w n="3363">Loys</w>
+<w type="pon" n="3364">.</w>
+</hi>
+</s>
+</p> 
+<p> 
+<s n="119">
+<hi rend="pmaj">
+<w n="3365">Leprevost</w>
+<w type="pon" n="3366">.</w>
+</hi>
+</s>
+</p> 
+<p> 
+<s n="120">
+<hi rend="ital">
+<w n="3367">Apportées</w>
+<w n="3368">le</w>
+<w n="3369">XXIIII</w>
+<hi rend="exp">
+<w n="3370">e</w>
+</hi>
+<w n="3371">jour</w>
+<w n="3372">de</w>
+<w n="3373">mars</w>
+<w n="3374">l'</w>
+<w n="3375">an</w>
+<w n="3376">M</w>
+<w n="3377">CCCC</w>
+<w n="3378">LXVIII</w>
+<w type="pon" n="3379">.</w>
+</hi>
+</s>
+</p> 
+</div> 
+  <pb n="346"/> 
+<div type="letter" n="434"> 
+
+<head xml:lang="fr"> 
+
+<s n="121">
+<hi rend="gras">
+<w n="3380">AU</w>
+<w n="3381">GRAND</w>
+<w n="3382">MAITRE</w>
+<w type="pon" n="3383">(</w>
+<w type="abbr" n="3384">D.</w>
+<w type="pon" n="3385">)</w>
+<w type="pon" n="3386">.</w>
+</hi>
+</s>
+</head> 
+  <note type="inline">  <placeName>Vaujours</placeName>, <date when="1469-06-03">3 juin 1469</date>.<idno type="sourceDesc">Orig. BibI. nat., Fr. 2898, fol. 51.</idno></note>
+<p> 
+<s n="122">
+<w n="3387">Monseigneur</w>
+<w n="3388">le</w>
+<w n="3389">grant</w>
+<w n="3390">maistre</w>
+<w type="pon" n="3391">,</w>
+<w n="3392">j'</w>
+<w n="3393">ay</w>
+<w n="3394">veu</w>
+<w n="3395">ce</w>
+<w n="3396">que</w>
+<w n="3397">m'</w>
+<w n="3398">avez</w>
+<w n="3399">escript</w>
+<w n="3400">touchant</w>
+<w n="3401">pluseurs</w>
+<w n="3402">poins</w>
+<w type="pon" n="3403">.</w>
+</s>
+<s n="123">
+<w n="3404">En</w>
+<w n="3405">tant</w>
+<w n="3406">que</w>
+<w n="3407">touchent</w>
+<w n="3408">les</w>
+<w n="3409">francs</w>
+<w n="3410">archiers</w>
+<w type="pon" n="3411">,</w>
+<w n="3412">faictes</w>
+<w n="3413">en</w>
+<w n="3414">faire</w>
+<w n="3415">de</w>
+<w n="3416">trois</w>
+<w n="3417">ou</w>
+<w n="3418">de</w>
+<w n="3419">quatre</w>
+<w n="3420">des</w>
+<w n="3421">plus</w>
+<w n="3422">coulpables</w>
+<w n="3423">telle</w>
+<w n="3424">pugnicion</w>
+<w n="3425">que</w>
+<w n="3426">verrez</w>
+<w n="3427">estre</w>
+<w n="3428">à</w>
+<w n="3429">faire</w>
+<w type="pon" n="3430">,</w>
+<w n="3431">et</w>
+<w n="3432">le</w>
+<w n="3433">surplus</w>
+<w n="3434">faites</w>
+<w n="3435">les</w>
+<w n="3436">tirer</w>
+<w n="3437">avant</w>
+<w n="3438">après</w>
+<w n="3439">mon</w>
+<w n="3440">frere</w>
+<w n="3441">de</w>
+<w n="3442">Dunoys</w>
+<w type="pon" n="3443">.</w>
+</s>
+<s n="124">
+<w n="3444">Au</w>
+<w n="3445">regart</w>
+<w n="3446">des</w>
+<w n="3447">villes</w>
+<w n="3448">de</w>
+<w n="3449">monseigneur</w>
+<w n="3450">d'</w>
+<w n="3451">Armignac</w>
+<w n="3452">et</w>
+<w n="3453">de</w>
+<w n="3454">celles</w>
+<w n="3455">qui</w>
+<w n="3456">sont</w>
+<w n="3457">du</w>
+<w n="3458">partaige</w>
+<w n="3459">de</w>
+<w n="3460">mon</w>
+<w n="3461">frere</w>
+<w type="pon" n="3462">,</w>
+<w n="3463">n'</w>
+<w n="3464">y</w>
+<w n="3465">touchez</w>
+<w n="3466">pour</w>
+<w n="3467">ceste</w>
+<w n="3468">heure</w>
+<w type="pon" n="3469">;</w>
+<w n="3470">et</w>
+<w n="3471">de</w>
+<w n="3472">celles</w>
+<w n="3473">qui</w>
+<pb n="347"/> 
+<w n="3474">sont</w>
+<w n="3475">demourées</w>
+<w n="3476">sans</w>
+<w n="3477">estre</w>
+<w n="3478">en</w>
+<w n="3479">partaige</w>
+<w n="3480">de</w>
+<w n="3481">mon</w>
+<w n="3482">dit</w>
+<w n="3483">frere</w>
+<w type="pon" n="3484">,</w>
+<w n="3485">faites</w>
+<w n="3486">en</w>
+<w n="3487">faire</w>
+<w n="3488">telle</w>
+<w n="3489">pugnicion</w>
+<w n="3490">que</w>
+<w n="3491">vous</w>
+<w n="3492">verrez</w>
+<w n="3493">estre</w>
+<w n="3494">à</w>
+<w n="3495">faire</w>
+<w type="pon" n="3496">.</w>
+</s>
+<s n="125">
+<w n="3497">Et</w>
+<w n="3498">pourvoiez</w>
+<w n="3499">bien</w>
+<w n="3500">à</w>
+<w n="3501">tout</w>
+<w type="pon" n="3502">,</w>
+<w n="3503">et</w>
+<w n="3504">vous</w>
+<w n="3505">en</w>
+<w n="3506">venez</w>
+<w type="pon" n="3507">,</w>
+<w n="3508">ainsi</w>
+<w n="3509">que</w>
+<w n="3510">vous</w>
+<w n="3511">ay</w>
+<w n="3512">fait</w>
+<w n="3513">savoir</w>
+<w type="pon" n="3514">,</w>
+<w n="3515">car</w>
+<w n="3516">j'</w>
+<w n="3517">ay</w>
+<w n="3518">grant</w>
+<w n="3519">desir</w>
+<w n="3520">de</w>
+<w n="3521">vous</w>
+<w n="3522">veoir</w>
+<w type="pon" n="3523">,</w>
+<w n="3524">et</w>
+<w n="3525">adieu</w>
+<w type="pon" n="3526">.</w>
+</s>
+<s n="126">
+<w n="3527">Escript</w>
+<w n="3528">à</w>
+<w n="3529">Vaugours</w>
+<w type="pon" n="3530">,</w>
+<w n="3531">le</w>
+<w n="3532">tiers</w>
+<w n="3533">jour</w>
+<w n="3534">de</w>
+<w n="3535">juing</w>
+<w type="pon" n="3536">.</w>
+</s>
+</p> 
+<p> 
+<s n="127">
+<hi rend="pmaj">
+<w n="3537">Loys</w>
+<w type="pon" n="3538">.</w>
+</hi>
+</s>
+</p> 
+<p> 
+<s n="128">
+<hi rend="pmaj">
+<w n="3539">Toustain</w>
+</hi>
+</s>
+</p> 
+<p> 
+<s n="129">
+<supplied resp="#editor" rend="crochets">
+<w n="3540">A</w>
+<w n="3541">monseigneur</w>
+</supplied>
+<w n="3542">le</w>
+<w n="3543">conte</w>
+<w n="3544">de</w>
+<w n="3545">Dampmartin</w>
+<w type="pon" n="3546">,</w>
+<w n="3547">grant</w>
+<w n="3548">maistre</w>
+<w n="3549">d'</w>
+<w n="3550">ostel</w>
+<w n="3551">de</w>
+<w n="3552">France</w>
+<w type="pon" n="3553">.</w>
+</s>
+</p> 
+</div> 
+</body> 
+</text> 
+</TEI>

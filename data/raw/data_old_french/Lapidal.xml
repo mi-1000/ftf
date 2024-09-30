@@ -1,0 +1,2348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="fr">
+  <fileDesc>
+    <titleStmt>
+      <title type="main">Lapidaire alphabétique</title>
+      <title type="formal">Lapidal</title>
+      <title type="reference">Lapidal</title>
+      <title type="DEAF">LapidalS</title>
+      <title type="gmd">transcription électronique</title>
+      <author xml:id="PThaon" key="Philippe de Thaon" ref="http://www.idref.fr/02791190X">Philippe de Thaon (probable)</author>
+      <editor>Équipe de la Base de français médiéval - ENS de Lyon / UMR 5317 IHRIM</editor>
+      <funder>Laboratoire IHRIM</funder>
+    </titleStmt>
+    <editionStmt>
+      <edition>transcripion électronique</edition>
+      <respStmt xml:id="encoder2">
+        <resp>conversion en XML et balisage automatique</resp>
+        <name xml:id="AL">Alexei Lavrentiev</name>
+      </respStmt>
+      <respStmt xml:id="proofreader2">
+        <resp>deuxième relecture et vérification du balisage</resp>
+        <name xml:id="BF">Benjamin Fagard</name>
+      </respStmt>
+      <respStmt xml:id="digitizer2">
+        <resp>océrisation</resp>
+        <name xml:id="CICL">CICL</name>
+      </respStmt>
+      <respStmt xml:id="proofreader1">
+        <resp>première relecture</resp>
+        <name xml:id="PK">Paul-Adrien Kompanietz</name>
+      </respStmt>
+    </editionStmt>
+    <extent>- Numéros de pages saisies : de 204 à 259 ;
+            - Nombre de mots d'après la base des descripteurs : <num xml:id="nb_mots_given">9347</num> ;
+            - Nombre de tokens (mots et ponctuations) d'après la base des descripteurs : <num xml:id="nb_tokens_given">10706</num>.
+    </extent>
+    <publicationStmt>
+      <publisher><name>Projet BFM, ENS de Lyon / UMR 5317 IHRIM</name></publisher>
+      <address>
+        <addrLine>15, parvis René Descartes</addrLine>
+        <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+        <addrLine>Tél : 04 37 37 63 10</addrLine>
+        <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+        <addrLine>http://bfm.ens-lyon.fr</addrLine>
+      </address>
+      <idno type="bfm">http://catalog.bfm-corpus.org/Lapidal</idno>
+      <idno type="doi">10.34847/nkl.f4fby86r</idno>
+      <availability status="free">
+        <licence target="https://www.etalab.gouv.fr/licence-ouverte-open-licence">
+          <ab type="availability_bfm" subtype="libre_1d">Les Conditions générales d'utilisation de la Base de Français Médiéval (http://txm.bfm-corpus.org/bfm/files/CGU.pdf), 
+            et notamment son Article 5 « PROPRIETE INTELLECTUELLE », s'appliquent à tous les textes de la BFM.</ab>
+          <ab type="how_to_cite">
+            <label>Comment citer ce texte :</label>
+            <bibl>Philippe de Thaon (probable), Lapidaire alphabétique, édité par Paul Studer et Joan Evans, Paris, 1924. 
+              Publié en ligne par la Base de français médiéval, http://catalog.bfm-corpus.org/Lapidal.
+              Dernière révision le 2009-10-21.</bibl>
+            D'autres formules de citation de la BFM sont proposées sur la page web suivante :
+            http://bfm.ens-lyon.fr/article.php3?id_article=281.</ab>
+          <ab type="availability_file">
+            <label>Conditions d'utilisation de ce fichier :</label>
+              Ce fichier numérique est composé du corps de texte médiéval et des suppléments numériques : balisage XML-TEI, métadonnées (teiHeader), balisage du discours direct. Le texte et les suppléments numériques sont libres de droit et peuvent à ce titre être téléchargés et réutilisés librement.
+            </ab>
+            <ab type="availability_txmweb" subtype="illimité">
+              <label>Conditions d'utilisation par le portail BFM :</label>
+              Pas de limitation dans l'usage des fonctionnalités. Téléchargement autorisé.</ab>
+        </licence>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>Anglo-Norman lapidaries / The alphabetical lapidary</title>
+          <author>Philippe de Thaon (probable)</author>
+          <respStmt>
+            <resp xml:id="editor">Éditeur scientifique</resp>
+            <name type="person">Paul Studer</name>
+            <name type="person">Joan Evans</name>
+          </respStmt>
+        </titleStmt>
+          <extent>56 page(s), soit 204-259
+        </extent>
+        <publicationStmt>
+          <publisher>Champion</publisher>
+          <pubPlace>Paris</pubPlace>
+          <date>1924</date>
+          <idno type="sigle_DEAF">LapidalS</idno>
+          <idno type="cote_biblio">D4.019 : COR3 STU</idno>
+        </publicationStmt>
+      </biblFull>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p>Projet :<name type="project">BFM - Base de français médiéval</name>
+        Resp. : <name type="person">Céline Guillot-Barbance</name>
+        Équipe : Base de français médiéval
+        Laboratoire : UMR 5317 IHRIM
+        Institution : ENS de Lyon
+        <address>
+          <addrLine>15, parvis René Descartes</addrLine>
+          <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+          <addrLine>Tél : 04 37 37 63 10</addrLine>
+          <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+          <addrLine>http://bfm.ens-lyon.fr</addrLine>
+        </address>
+      </p>
+    </projectDesc>
+    <editorialDecl>
+      <p>Voir le <ref target="http://bfm.ens-lyon.fr/IMG/pdf/Manuel_Encodage_TEI.pdf">Manuel d'encodage XML-TEI de la BFM</ref>
+        et les <ref target="http://bfm.ens-lyon.fr/IMG/pdf/Consignes_BFM.pdf">Consignes aux relecteurs de la BFM</ref>.</p>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="ab" occurs="82"/>
+        <tagUsage gi="body" occurs="1"/>
+        <tagUsage gi="div" occurs="80"/>
+        <tagUsage gi="foreign" occurs="10"/>
+        <tagUsage gi="front" occurs="1"/>
+        <tagUsage gi="gap" occurs="2"/>
+        <tagUsage gi="head" occurs="78"/>
+        <tagUsage gi="hi" occurs="32"/>
+        <tagUsage gi="lb" occurs="1712"/>
+        <tagUsage gi="note" occurs="4"/>
+        <tagUsage gi="p" occurs="4"/>
+        <tagUsage gi="pb" occurs="56"/>
+        <tagUsage gi="q" occurs="2"/>
+        <tagUsage gi="supplied" occurs="105"/>
+        <tagUsage gi="text" occurs="1"/>
+        <tagUsage gi="w" occurs="63"/>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <creation>
+      <name type="author">Philippe de Thaon (probable)</name>
+      <title>Lapidaire alphabétique</title>
+      <date type="compo" when="1117-01-01" notBefore="1100-01-01" notAfter="1133-01-01" n="12">1er tiers 12e s.</date>
+      <date type="compo_periode">ancien</date>
+      <date type="compo_sous_siecle" n="12_1">début</date>
+      <date type="ms" when="1200-01-01" notBefore="1199-01-01" notAfter="1201-01-01">ca. 1200</date>
+      <idno type="msIdentifier">Cambridge, Jesus Coll., Q.D.2</idno>
+      <region type="dialecte_auteur">anglo-normand</region>
+    </creation>
+    <langUsage>
+      <language ident="fro" usage="100">Le texte est entièrement écrit en vers en ancien français.</language>
+    </langUsage>
+    <textDesc>
+      <channel mode="w">print</channel>
+      <constitution type="single"/>
+      <derivation type="reprise">Isidore et Damigeron</derivation>
+      <domain type="didactique"/>
+    <factuality type="inapplicable"/>
+      <interaction type="none"/>
+      <preparedness type="prepared"/>
+      <purpose type="narrative"/></textDesc>
+    <textClass>
+      <keywords scheme="http://authorities.bfm-corpus.org">
+        <term type="domaine">didactique</term>
+        <term type="genre">lapidaire</term>
+        <term type="forme">vers</term>
+        <term type="relation">reprise</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change who="#CICL" when="2008-09-02">océrisation</change>
+    <change who="#CICL" when="2008-09-02">scannage</change>
+    <change who="#AL" when="2008-12-12">préparation à la relecture 1</change>
+    <change who="#AL" when="2009-01-14">création du descripteur</change>
+    <change who="#PK" when="2009-02-02">première relecture</change>
+    <change who="#AL" when="2009-02-16">conversion en XML et balisage automatique</change>
+    <change who="#BF" when="2009-10-21">deuxième relecture et vérification du balisage</change>
+    <change when="2009-10-21">Dernière modification du texte</change>
+    <change when="2022-11-04">Création de cet entête</change>
+  </revisionDesc>
+</teiHeader>
+<text>
+<pb n="204"/>
+<front>
+<div part="N" type="titre" xml:lang="en">
+<p>THE ALPHABETICAL LAPIDARY</p>
+</div>
+<div part="N" type="titre" xml:lang="la">
+<p>Liber de natura lapidum.</p>
+</div>
+</front>
+<body>
+<div part="N" n="I">
+<head xml:lang="la">Adamas.</head>
+<ab part="N" type="gv">
+<lb n="1"/>Ço nus demustre l'aïmant :
+<lb n="2"/>Deus ot en tere itel semblant
+<lb n="3"/>Ki en la nuit done luur,
+<lb n="4"/>Ço est en nostre tenebrur.
+<lb n="5"/>Adamas ad de fer culur
+<lb n="6"/>Et de cristal la resplendur,
+<lb n="7"/>Demustrance del Creatur
+<lb n="8"/>Qu'il nus traist d'enfern a luur :
+<lb n="9"/>Si cum la pere trait le fer,
+<lb n="10"/>E Jhesu Crist nus traist d'enfer.
+<lb n="11"/>E Daniel en sun sermun
+<lb n="12"/>Dit qu'il vit vestu un barun
+<lb n="13"/>D'un vestement qu'ot num baldin,
+<lb n="14"/>E ço est vestement de lin.
+<lb n="15"/>De terre naist tel vestement,
+<lb n="16"/>Et iço fait entendement
+<lb n="17"/>Que Deus prist incarnation
+<lb n="18"/>Pur la nostre redemption.
+<lb n="19"/>E ço que l'en trove adamant
+<lb n="20"/>De desur le munt d'Oriant,
+<pb n="205"/>
+<lb n="21"/>Li monz demustre majesté
+<lb n="22"/>U Jhesu Crist serrat trové,
+<lb n="23"/>E Deus qui est e pere et filz
+<lb n="24"/>E Deus qui nos est Saint Espirz,
+<lb n="25"/>Il seit de nos maintenement
+<lb n="26"/>E il seit de nos fundament ;
+<lb n="27"/>C'est de adamas senefiance,
+<lb n="28"/>Ben voil qu'en aiez remenbrance.
+<lb n="29"/>De li ne voil or plus traiter,
+<lb n="30"/>D'autre pere voil comencer.
+				</ab>
+</div>
+<div part="N" n="II">
+<head xml:lang="la">Achates.</head>
+<ab part="N" type="gv">
+<lb n="31"/>Agathen est num d'une pere
+<lb n="32"/>Et si sacez qu'ele est mut chere,
+<lb n="33"/>Et de tel colur la trovum
+<lb n="34"/>Si cum est la pel del lion.
+<lb n="35"/>Iceste pere ad vertu grant
+<lb n="36"/>Si cum trovum Evax disant,
+<lb n="37"/>Ke, qui sur sei la porterat,
+<lb n="38"/>De puinture le defendrat
+<lb n="39"/>De scorpion et de serpent,
+<lb n="40"/>Par ceste est medicinement.
+<lb n="41"/>En estupes l'envolupez
+<lb n="42"/>Et pus en ewe le mettez,
+<lb n="43"/>E quant ele serra moillee,
+<lb n="44"/>Ferm seit sur la plaie liee,
+<lb n="45"/>E le venim tot en trairat
+<lb n="46"/>Et la dolur que i serrat.
+<lb n="47"/>E, si vus volez autrement
+<lb n="48"/>Faire le medicinement,
+<lb n="49"/>Triblez la ben e menusez
+<lb n="50"/>E puis a beivre li donez,
+<lb n="51"/>U vus en vin la sorderez
+<lb n="52"/>E sur la plaie la liez
+<pb n="206"/>
+<lb n="53"/>A icelui qui puint serra ;
+<lb n="54"/>En ceste manere garra.
+<lb n="55"/>Ki ceste piere portera,
+<lb n="56"/>Ja rien nuisir ne li purra.
+<lb n="57"/>Ben ert parlables e puissant,
+<lb n="58"/>Aceptables, amonestant,
+<lb n="59"/>Vertuos et ben colorez,
+<lb n="60"/>De Deu et d'omes ben amez.
+<lb n="61"/>En ceste piere agathen
+<lb n="62"/>Totes ces vertuz trove l'en ;
+<lb n="63"/>Deus les i mist verraiement
+<lb n="64"/>Pur la salu de tote gent.
+<lb n="65"/>Ne voil or pluis de lu parler,
+<lb n="66"/>D'un'altretele voil conter.
+		 </ab>
+</div>
+<div part="N" n="III">
+<head xml:lang="la">Achates II.</head>
+<ab part="N" type="gv">
+<lb n="67"/>Agapis, Agathes, deus nons,
+<lb n="68"/>Une piere si apelons,
+<lb n="69"/>E ceste pere ad tel colur
+<lb n="70"/>E trestut autretel valur
+<lb n="71"/>Cume l'altre dunt ai parlé
+<lb n="72"/>Ici desus et demostré.
+<lb n="73"/>D'iceste plus ne conterai,
+<lb n="74"/>Mais d'une altre comencerai.
+		 </ab>
+</div>
+<div part="N" n="IV">
+<head xml:lang="la">Alectorias.</head>
+<ab part="N" type="gv">
+<lb n="75"/>Alectoires est une piere,
+<lb n="76"/>Si est trovee en tel manere :
+<lb n="77"/>En gesir de coc la trovum
+<lb n="78"/>U el ventre de viel chapun
+<lb n="79"/>Quant il sunt de si grant eé
+<lb n="80"/>Que il aient seth anz passé.
+<lb n="81"/>La grossur que la pere avra
+<lb n="82"/>Del grant d'une feve serra,
+<pb n="207"/>
+<lb n="83"/>E s'ad semblance de cristax,
+<lb n="84"/>Issi cum dit li reis Evax,
+<lb n="85"/>U de gutte d'ewe ad semblance ;
+<lb n="86"/>Retenez le pur remenbrance
+<lb n="87"/>Ki ceste piere portera,
+<lb n="88"/>Ja nuls hom mal ne li fera ;
+<lb n="89"/>E ki en sa buche l'avrad,
+<lb n="90"/>Ja nule sei ne li prendra ;
+<lb n="91"/>E hom ki od vin la bevra,
+<lb n="92"/>Se il la pere ad, si guarra ;
+<lb n="93"/>E homes fait forz et hardiz
+<lb n="94"/>E poanz sur lur enemis.
+<lb n="95"/>Ki la pere avrad en son elme,
+<lb n="96"/>Sin puet conquere un realme.
+<lb n="97"/>De quancque il comencera
+<lb n="98"/>Ses volentez acomplira.
+<lb n="99"/>Ele fait homes amerus
+<lb n="100"/>E de luxurie vertuus.
+<lb n="101"/>Seit hom u femme, ben plarra
+<lb n="102"/>Qui ceste pere portera.
+<lb n="103"/>A messagers ert hardemenz,
+<lb n="104"/>Fait les parler apertement :
+<lb n="105"/>De tute rien les fait plaisir
+<lb n="106"/>Del respundre e del oïr.
+<lb n="107"/>Tel vertu ad alectorés,
+<lb n="108"/>Si cum dit Crotoniatés
+<lb n="109"/>Qui suvente feiz l'esprovad
+<lb n="110"/>En batailles u la portad.
+<lb n="111"/>Atant suffist de ceste pere,
+<lb n="112"/>Ore oez d'altre manere.
+		 </ab>
+</div>
+<pb n="208"/>
+<div part="N" n="V">
+<head xml:lang="la">Assius lapis.</head>
+<ab part="N" type="gv">
+<lb n="113"/>Asius est piere esprovee,
+<lb n="114"/>En Alixandre est trovee.
+<lb n="115"/>A medicine ad grant valur,
+<lb n="116"/>E si est de blanche culur
+<lb n="117"/>E legiere est cumme puncete :
+<lb n="118"/>As mains aert cume pudrette,
+<lb n="119"/>E neires teches ad en sum ;
+<lb n="120"/>Escherdos est cumme peissun.
+<lb n="121"/>E si la volez essaier
+<lb n="122"/>E od vostre langue leccher,
+<lb n="123"/>Vus en avrez de seil savur ;
+<lb n="124"/>El recevra blanche colur.
+<lb n="125"/>Iceste pere ad vertu grant,
+<lb n="126"/>Si cum trovum Evax disant.
+<lb n="127"/>La gutefestre nen avrad,
+<lb n="128"/>Ne poacre ne li prendra,
+<lb n="129"/>E a mutes autres dolurs
+<lb n="130"/>Ad ceste pere grant valur.
+<lb n="131"/>E, se el est tres bien molue
+<lb n="132"/>E ele seit od vin beüe,
+<lb n="133"/>Ja n'ert si grande l'enferté
+<lb n="134"/>Que hom n'en vienge a santé.
+<lb n="135"/>Itel vertu ad ceste pere,
+<lb n="136"/>Or escutez d'autre manere.
+		 </ab>
+</div>
+<div part="N" n="VI">
+<head xml:lang="la">Alabastron.</head>
+<ab part="N" type="gv">
+<lb n="137"/>Alabaustre est une pere,
+<lb n="138"/>Si est de mult tendre manere.
+<lb n="139"/>Qui od aisil la sorderat
+<lb n="140"/>E puis a beivre la durrad,
+<lb n="141"/>Del mal del piz senes guarra
+<lb n="142"/>U d'un'altre enferté, si l'ad.
+<pb n="209"/>
+<lb n="143"/>Ne voil or plus de li traiter,
+<lb n="144"/>D'autre pere voil cumencer.
+		 </ab>
+</div>
+<div part="N" n="VII">
+<head xml:lang="la">Amistunte.</head>
+<ab part="N" type="gv">
+<lb n="145"/>Amistunte est une piere,
+<lb n="146"/>Si est de mult dure manere.
+<lb n="147"/>Ki od fusil desur ferra,
+<lb n="148"/>E fu e flambe en volera
+<lb n="149"/>E estupes en esprendra
+<lb n="150"/>U secche tundre, se il l'a.
+<lb n="151"/>D'iceste pere suffist itant,
+<lb n="152"/>Or oez d'un altre semblant.
+</ab>
+</div>
+<div part="N" n="VIII">
+<head xml:lang="la">Asterites.</head>
+<ab part="N" type="gv">
+<lb n="153"/>Alerites est une piere,
+<lb n="154"/>Enclos ad en sei sa lumere ;
+<lb n="155"/>Si est faite cume ço fust
+<lb n="156"/>Estelle qui en li corust.
+<lb n="157"/>Ja n'ert soleil ensi troblé
+<lb n="158"/>Que sur li ne gette clarté ;
+<lb n="159"/>Si tost cum il la parcevra
+<lb n="160"/>Sur ceste piere raiera :
+<lb n="161"/>Tut le mund enluminera,
+<lb n="162"/>Pur ceste pere, qui l'avra.
+<lb n="163"/>Asez ad en li de vertuz,
+<lb n="164"/>Si cume dist Tiberius.
+<lb n="165"/>D'iceste ne voil plus traiter,
+<lb n="166"/>D'altre pere voil comencer.
+</ab>
+</div>
+<div part="N" n="IX">
+<head xml:lang="la">Astrion.</head>
+<ab part="N" type="gv">
+<lb n="167"/>Astrion est, ço dist Evax,
+<lb n="168"/>Piere semblable a cristax,
+<pb n="210"/>
+<lb n="169"/>E astrion est apelee
+<lb n="170"/>Pur esteiles dum est nomee.
+<lb n="171"/>Des esteiles prent sa luur
+<lb n="172"/>Et sa clarté e sa culur ;
+<lb n="173"/>Itel vertu ad ceste pere,
+<lb n="174"/>Or dirrai d'un'autre manere.
+</ab>
+</div>
+<div part="N" n="X">
+<head xml:lang="la">Anthracitis.</head>
+<ab part="N" type="gv">
+<lb n="175"/>Arachites est piere dure ;
+<lb n="176"/>E si est de tele nature
+<lb n="177"/>Qu'el resplendist cum fu ardant
+<lb n="178"/>U cum escharbucle lusant ;
+<lb n="179"/>E blanches veines en li ad,
+<lb n="180"/>Meis, qui en fu la geterad,
+<lb n="181"/>Altresi pale devendra
+<lb n="182"/>Cum chose que morte serrad ;
+<lb n="183"/>Meis qui ceste piere prendra,
+<lb n="184"/>En sa main nue la tendra,
+<lb n="185"/>Sacez si forment s'en quira
+<lb n="186"/>Que avis unques en guarra ;
+<lb n="187"/>Itant est ceste pere fere.
+ <lb n="188"/>Or oez d'un'altre manere.<note anchored="true" resp="#proofreader2" type="internal">espace avant le point dans l'édition</note>
+</ab>
+</div>
+<div part="N" n="XI">
+<head xml:lang="la">Alabandica.</head>
+<ab part="N" type="gv">
+<lb n="189"/>Alemandina est vaillante,
+<lb n="190"/>Forment chaude et resplendisante.
+<lb n="191"/>Ja n'ert ewe tant engelee,
+<lb n="192"/>S'ele i est, ne seit eschaufee ;
+<lb n="193"/>E qui lungement la i larra,
+<lb n="194"/>Senz autre fu l'ewe buildra.
+<lb n="195"/>D'iceste pere suffist itant,
+<lb n="196"/>Or oez d'un autre semblant.
+<pb n="211"/>
+</ab>
+</div>
+<div part="N" n="XII">
+<head xml:lang="la">Androdamas.</head>
+<ab part="N" type="gv">
+<lb n="197"/>Aramanda veirement
+<lb n="198"/>Pere est itele cum argent,
+<lb n="199"/>Iceste nest en Ruge Mer ;
+<lb n="200"/>E s'um la volt sur sei porter,
+<lb n="201"/>Ja mal corage nen avra
+<lb n="202"/>E tote ire surmuntera.
+<lb n="203"/>Itant suffist d'iceste pere,
+<lb n="204"/>Or oez d'un'altre manere.
+</ab>
+</div>
+<div part="N" n="XIII">
+<head xml:lang="la">Anancitis.</head>
+<ab part="N" type="gv">
+<lb n="205"/>Anatida est une pere
+<lb n="206"/>E si est de mole manere.
+<lb n="207"/>A ceus qui ceste pere avrunt
+<lb n="208"/>Diable sovent apparrunt,
+<lb n="209"/>Mais ja nuisir ne lur purrunt
+<lb n="210"/>Et pur nïent les succriendrunt,
+<lb n="211"/>Ke li diable tot ferunt
+<lb n="212"/>Quanque il lur comanderunt.
+<lb n="213"/>Lur ovre n'ert ja lungement :
+<lb n="214"/>Tel ert cume enchantement.
+<lb n="215"/>E ben saciez sur ceste piere
+<lb n="216"/>U sur autre d'itel manere
+<lb n="217"/>Que li diables se seeit
+<lb n="218"/>Quant Jhesu Crist tempter voleit.
+<lb n="219"/>Ne voil or plus de li traiter,
+<lb n="220"/>D'altres peres voil comencer.
+<lb n="221"/>Or finent les peres par A,
+<lb n="222"/>L'altre par B comencera.
+</ab>
+</div>
+<div part="N" n="XIV">
+<head xml:lang="la">Beryllus I.</head>
+<ab part="N" type="gv">
+<lb n="223"/>Berillus est num d'une pere
+<lb n="224"/>Que est de diverse manere.
+<pb n="212"/>
+<lb n="225"/>Tel vertu ad la pere en sei
+<lb n="226"/>Le rai del soleil trait a sei.
+<lb n="227"/>E li rais est d'itel nature
+<lb n="228"/>Qu'il la tresperce sanz fraiture,
+<lb n="229"/>E si est chaut de altre part,
+<lb n="230"/>Que il esprent e bruille e art
+<lb n="231"/>Estupes, tundre, drapelez,
+<lb n="232"/>Seches choses et estramés.
+<lb n="233"/>Seignurs, aiez en remenbrance :
+<lb n="234"/>Ceste pere ad senefiance.
+<lb n="235"/>Iceste pere senefie
+<lb n="236"/>Sainte Iglise u sainte Marie.
+<lb n="237"/>Par le soleil Deu entendum
+<lb n="238"/>Et par le rai sun fil par nom,
+<lb n="239"/>Ker, si cum li rais del soleil
+<lb n="240"/>A ceste piere est feel,
+<lb n="241"/>Qu'il la tresperce sanz fraiture
+<lb n="242"/>Ne qu'ele ne pert sa nature,
+<lb n="243"/>Sachez que issi franchement
+<lb n="244"/>Que Jhesu Crist veraiement
+<lb n="245"/>Si passa la Virge entresei
+<lb n="246"/>Cum par mi la pere li rai.
+<lb n="247"/>Virge conçut, virge enfanta,
+<lb n="248"/>Virge parmist e parmaindra,
+<lb n="249"/>Ne la Virge ne li fist lai
+<lb n="250"/>Plus que la pere fait al rai.
+<lb n="251"/>Si fut Jhesu Crist filz et pere,
+<lb n="252"/>Sainte Marie fille e mere.
+<lb n="253"/>Pur filz ne perdi nom de pere,
+<lb n="254"/>N'ele pur fille nom de mere.
+<lb n="255"/>Il la formad, el conçut lui
+<lb n="256"/>Et si fud pere e fil amdui ;
+<lb n="257"/>Issi fud Deus e fiz e pere,
+<lb n="258"/>E la Virge fille e mere.
+<lb n="259"/>Ne hom ne deit nïent duter,
+<lb n="260"/>Se il ne se volt forsener,
+<pb n="213"/>
+<lb n="261"/>Qu'il n'ait en sei itel nature
+<lb n="262"/>Cum ad par lui sa creature,
+<lb n="263"/>Ço est a dire qu'il est bonté
+<lb n="264"/>Cum bons homes bons sunt par Deu
+<lb n="265"/>E ne fait mie a merveiler,
+<lb n="266"/>Quant nus poüm ço deraisner
+<lb n="267"/>Que la pere ad tel nature
+<lb n="268"/>Qu'el ne le rai nen ad leisure,
+<lb n="269"/>Se Deus puet estre e filz et pere,
+<lb n="270"/>Sainte Marie fille e mere,
+<lb n="271"/>Quant Deus poet estre par raisun,
+<lb n="272"/>Qu'il n'ot en li corruptiun.
+<lb n="273"/>De ço vunt Jueu mescreant
+<lb n="274"/>Par tel mençunge affermant
+<lb n="275"/>Se Deus fud filz e il fut pere,
+<lb n="276"/>Marie fud fille e sa mere,
+<lb n="277"/>Tant par sunt yvre de folie
+<lb n="278"/>Qu'il dient ço fud herisie :
+<lb n="279"/>Taisent s'en li mastin glutun,
+<lb n="280"/>Ker il n'unt nïent de raisun ;
+<lb n="281"/>Ke cest essample que j'ai doné,
+<lb n="282"/>Qui est prové e esprové
+<lb n="283"/>Lur puet doner entendement,
+<lb n="284"/>Se Deus le volt, apertement,
+<lb n="285"/>Qu'il n'at nient plus feble manere
+<lb n="286"/>Que ad li soleil e la pere.
+<lb n="287"/>E iço est tel argument
+<lb n="288"/>Que deivent saver tute gent :
+<lb n="289"/>Ço que li rai, de l'autre part
+<lb n="290"/>De la pere, esprent e art,
+<lb n="291"/>Senefie que Damnedeu,
+<lb n="292"/>Puis que de la Virge fud né,
+<lb n="293"/>Destruit nostre fragilité
+<lb n="294"/>E nos confermat en bonté.
+<lb n="295"/>Sainte est la pere e esprovee ;
+<lb n="296"/>Atant est sa raisun finee.
+<pb n="214"/>
+</ab>
+</div>
+<div part="N" n="XV">
+<head xml:lang="la">Beryllus II.</head>
+<ab part="N" type="gv">
+<lb n="297"/>Berillus est pere onorose
+<lb n="298"/>E luisable e vertuose,
+<lb n="299"/>E si trait un poi a verdor
+<lb n="300"/>E semblant est a uile entor,
+<lb n="301"/>U aüsterole de mer
+<lb n="302"/>Est painte en li pur demustrer,
+<lb n="303"/>E desuz ses piez une beste,
+ <lb n="304"/><foreign xml:lang="la">Cornicula</foreign> puet tres ben estre.
+<lb n="305"/>Se vus metez iceste pere
+<lb n="306"/>En un anel, qui tant est chere,
+<lb n="307"/>Desuz les genulz de la beste
+<lb n="308"/>Un poi de savine doit estre ;
+<lb n="309"/>E savine est d'une herbe num ;
+<lb n="310"/>En plusurs lius la trovet um.
+<lb n="311"/>Or entendét a quei vaudra :
+<lb n="312"/>Qui ceste pere portera,
+<lb n="313"/>Seit hom u femme qui l'avra,
+<lb n="314"/>As esposailles que il fera :
+<lb n="315"/>Jamais entre els ire n'avra.
+<lb n="316"/>Tant cum ceste peie durra
+<lb n="317"/>L'un d'eus l'altre si amera
+<lb n="318"/>Cume la vie que il ad ;
+<lb n="319"/>E tuz homes surmunterat
+<lb n="320"/>Qui ceste pere porterat.
+<lb n="321"/>Se hom ad les oilz chacios
+<lb n="322"/>E pur sanc seient doleros,
+<lb n="323"/>U d'une autre enferté
+<lb n="324"/>Dum il se sente agravé,
+<lb n="325"/>Enz en l'ewe la deit tribler,
+<lb n="326"/>E od cele se deit laveir :
+<lb n="327"/>Senes guarrat del mal defors ;
+<lb n="328"/>U beive la pur mal del cors,
+<lb n="329"/>Ke ja nen avrat enferté,
+<lb n="330"/>U ele tost ne seit sané.
+<pb n="215"/>
+<lb n="331"/>E, s'il la beit, si ruttera
+<lb n="332"/>E de tute enferté guarra.
+<lb n="333"/>Itel vertu ad ceste pere,
+<lb n="334"/>Or voil dire d'altre manere.
+</ab>
+</div>
+<div part="N" n="XVI">
+<head xml:lang="la">Herillicus.</head>
+<ab part="N" type="gv">
+<lb n="335"/>Berilica est une piere
+<lb n="336"/>De freide et de seche manere ;
+<lb n="337"/>E cil qui le corpus avra,
+<lb n="338"/>Se il la beit, senes guarra ;
+<lb n="339"/>E se il ad mal en la teste,
+<lb n="340"/>Que ses chevols ne pussent crestre,
+<lb n="341"/>Od ewe la deit l'en tribler
+<lb n="342"/>Et d'icele sun chef laver :
+<lb n="343"/>Ja puis dolur en chef n'avra,
+<lb n="344"/>Ne ja puis peil ne li charra.
+<lb n="345"/>Ne voil or plus de li parler,
+<lb n="346"/>D'autre pere voil demustrer.
+</ab>
+</div>
+<div part="N" n="XVII">
+<head xml:lang="la">Beli oculus.</head>
+<ab part="N" type="gv">
+<lb n="347"/>Belloculus est une pere,
+<lb n="348"/>Si trait a blanchur sa manere.
+<lb n="349"/>Une purnele en li est,
+<lb n="350"/>Entur cele un neir cerne est :
+<lb n="351"/>A or resemble la resplendur
+<lb n="352"/>Qui ad en ceste pere entur.
+<lb n="353"/><foreign xml:lang="la">Belliculus</foreign> pur ço ad num
+<lb n="354"/>Ke en bataille esprove l'um.
+<lb n="355"/>Ja nule rien ne lui nuira
+<lb n="356"/>Qui ceste pere portera :
+<lb n="357"/>Itel vertu ad ceste pere.
+<lb n="358"/>Oez avant d'altre manere.
+<lb n="359"/>Or finent les peres del B,
+<lb n="360"/>Si comencent celes del C.
+<pb n="216"/>
+</ab>
+</div>
+<div part="N" n="XVIII">
+<head xml:lang="la">Coralium.</head>
+<ab part="N" type="gv">
+<lb n="361"/>Corallus est pere durable
+<lb n="362"/>E mut ad vertu acceptable.
+<lb n="363"/>Ele destruit enchantement,
+<lb n="364"/>Sunge e escharnissement ;
+<lb n="365"/>Ja hom ire vers lui n'avrad
+<lb n="366"/>Qui ceste pere portera.
+<lb n="367"/>En li ad cest num enbrevé :
+<lb n="368"/><foreign xml:lang="la">Noctiluca</foreign>, ço est Achaté ;
+<lb n="369"/>En li est painte veirement
+<lb n="370"/>Gorgon, qui fud une serpent.
+<lb n="371"/>Ki de ceste pere est garni,
+<lb n="372"/>Ja nel suzprendra enemi,
+<lb n="373"/>Ne ja fuildre nel tocherad
+<lb n="374"/>Qui ceste pere portera ;
+<lb n="375"/>Ja n'ert vencuz, ja n'ert navrez,
+<lb n="376"/>Totes fera ses volentez.
+<lb n="377"/>En bataille e en estur
+<lb n="378"/>Ja pur ren n'avra cis poür.
+<lb n="379"/>E estre iço vertu ad grant,
+<lb n="380"/>Si cum trovum Evax disant :
+<lb n="381"/>Se ele est ben menu triblee
+<lb n="382"/>Puis seit od semence mellee,
+<lb n="383"/>N'i remaindrat neif ne gelee,
+<lb n="384"/>Ne tempeste n'i ert getee.
+<lb n="385"/>S'el est semee entre olivers,
+<lb n="386"/>En vignes u entre pumers,
+<lb n="387"/>Venz ne fuildre mal n'i fera,
+<lb n="388"/>Ne ja tempeste n'i carra,
+<lb n="389"/>Ne ja encumbrer n'i vendra
+<lb n="390"/>En la maison u el serra.
+<lb n="391"/>Itels vertuz, ités valurs
+<lb n="392"/>Ad ceste pere nuiz et jors,
+<lb n="393"/>Que Deus i mist veraiement
+<lb n="394"/>Pur la salu de tote gent.
+<pb n="217"/>
+<lb n="395"/>Ne voil or plus de li traiter,
+<lb n="396"/>D'autre pere voil comencer.
+</ab>
+</div>
+<div part="N" n="XIX">
+<head xml:lang="la">Capnitis.</head>
+<ab part="N" type="gv">
+<lb n="397"/>Caprates est nom d'une pere,
+<lb n="398"/>Isi est d'un'itel manere
+<lb n="399"/>Cume se ele fust cristal,
+<lb n="400"/>Mais mut est diverse a cristal.
+<lb n="401"/>Qui ceste pere portera
+<lb n="402"/>A Deu e as homes plaira,
+<lb n="403"/>E si li ert defendement
+<lb n="404"/>Encuntre tut enchantement,
+<lb n="405"/>Et parlables et bel serra,
+<lb n="406"/>Ne ja hom mal ne li voldra.
+<lb n="407"/>En ceste pere ad vertu plus,
+<lb n="408"/>Ke, si hom est ydropicus -
+<lb n="409"/>Iço est un mal que hom ad,
+<lb n="410"/>Cum il plus beit et plus sei ad -
+<lb n="411"/>E al senestre braz la lit,
+<lb n="412"/>Senes garra, cum Evax dit.
+<lb n="413"/>Itel vertu ad ceste pere,
+<lb n="414"/>Mais or dirrai d'autre manere.
+</ab>
+</div>
+<div part="N" n="XX">
+<head xml:lang="la">Ceraunius.</head>
+<ab part="N" type="gv">
+<lb n="415"/>Ceraunius est une pere
+<lb n="416"/>Si est faite en tel manere :
+<lb n="417"/>Quant il tone majestement
+<lb n="418"/>E pluie se melle od le vent,
+<lb n="419"/>Li vent funt la pluie endurcir
+<lb n="420"/>E en galeste devenir
+<lb n="421"/>Auques trenchante et quarree,
+<lb n="422"/>Cume saiete barbelee.
+<lb n="423"/>Iceste neist al firmament
+<pb n="218"/>
+<lb n="424"/>La u se cumbatent li vent.
+<lb n="425"/>Par grant vertu d'iloc descent :
+<lb n="426"/>Ço qu'ele conseut art e fent ;
+<lb n="427"/>E s'est hom que la voille querre,
+<lb n="428"/>Nef pez la poet trover en tere.
+<lb n="429"/>Ceste pere est fuldre apelee ;
+<lb n="430"/>D'iloc a neof jurz ert trovee
+<lb n="431"/>Que ele chet del firmament,
+<lb n="432"/>Issi cum dient mainte gent ;
+<lb n="433"/>E hom qui ceste pere avra
+<lb n="434"/>E chastement la portera,
+<lb n="435"/>Ja fudre mal ne li fera
+<lb n="436"/>N'a la maisun u il serra,
+<lb n="437"/>Ne ja en mer nen ert dampnez
+<lb n="438"/>Par fudre ne par tempestez ;
+<lb n="439"/>Vertuz de peres e tençons
+<lb n="440"/>Surmunterat et achaisuns,
+<lb n="441"/>E li songes qu'il sungera
+<lb n="442"/>Trestut a ben li turnera,
+<lb n="443"/>Ne ja ne li mesavendra
+<lb n="444"/>Qui ceste pere portera.
+<lb n="445"/>Tel vertu ad ceraunius,
+<lb n="446"/>Issi cum dit Tyberius.
+</ab>
+</div>
+<div part="N" n="XXI">
+<head xml:lang="la">Chelonitis.</head>
+<ab part="N" type="gv">
+<lb n="447"/>Ceronites est une pere,
+<lb n="448"/>Si est de divine manere ;
+<lb n="449"/>E quant hom la deit manier,
+<lb n="450"/>Laver se deit, ses mains seccher,
+<lb n="451"/>E sa buche deit ben laver,
+<lb n="452"/>Suz la langue la deit poser :
+<pb n="219"/>
+<lb n="453"/>Itant lunges cum i serra,
+<lb n="454"/>Trestut ert veir que il dirra.
+<lb n="455"/>Quant la lune reprent lumere,
+<lb n="456"/>Tut cel jur ad vertu la pere,
+<lb n="457"/>Ço est quant l'en dit qu'est novele,
+<lb n="458"/>Quant l'en la veit petite et bele ;
+<lb n="459"/>E as autres jurz del creissant,
+<lb n="460"/>Des l'ore del soleil levant
+<lb n="461"/>Tresque la siste hore del jur,
+<lb n="462"/>Ad la pere ceste valur ;
+<lb n="463"/>E quant la lune ad quinze jorz
+<lb n="464"/>Trestut cel jor rat tel valur.
+<lb n="465"/>Mais quant la lune est en decurs,
+<lb n="466"/>N'ad nïent de vertu le jor,
+<lb n="467"/>Ne mais de l'albe apparissant
+<lb n="468"/>Entresque al soleil levant.
+<lb n="469"/>E ceste piere est trovee
+<lb n="470"/>En Inde, en icele contree,
+<lb n="471"/>Enz es ollez des limaçons ;
+<lb n="472"/>D'icele terre les pernuns.
+<lb n="473"/>E n'en alez nïent dutant,
+<lb n="474"/>En ceste pere ad vertu grant :
+<lb n="475"/>Se vus la volez essaier,
+<lb n="476"/>Metez la en un encenser
+<lb n="477"/>Ki tut seit plain de fu ardant,
+<lb n="478"/>Ja n'en muera sun semblant,
+<lb n="479"/>Ne ja de ren ne malmettra.
+<lb n="480"/>Itel vertu ceste pere ad.
+</ab>
+</div>
+<div part="N" n="XXII">
+<head xml:lang="la">Chelidonius.</head>
+<ab part="N" type="gv">
+<lb n="481"/>Chelidonius est un num
+<lb n="482"/>De une pere que nus trovum
+<lb n="483"/>As arundels en lur gesir ;
+<lb n="484"/>E mut par fait ben a plaisir.
+<pb n="220"/>
+<lb n="485"/>De dous maneres est la pere,
+<lb n="486"/>Et ben saciez que mut est chere ;
+<lb n="487"/>L'une est neire, l'autre est russe.
+<lb n="488"/>E tel vertu ad en la russe :
+<lb n="489"/>A langoros done sancté,
+<lb n="490"/>A lunager e forsené.
+<lb n="491"/>En un net linge drapelet
+<lb n="492"/>Iluoc la liet l'en e met.
+<lb n="493"/>Quant l'en la lie tres ben ferm
+<lb n="494"/>Al senestre braz de l'enferm,
+<lb n="495"/>De la dolur senes garra
+<lb n="496"/>Par la vertu que la pere ad.
+<lb n="497"/>Cil qui la porte est bien parlable
+<lb n="498"/>E amoros e covenable.
+<lb n="499"/>Tel vertu ad la russe pere,
+<lb n="500"/>E la neire ad autre manere :
+<lb n="501"/>El ad tutes celes vertuz,
+<lb n="502"/>E ensurquetut asez plus,
+<lb n="503"/>Ker ki sur sei la portera
+<lb n="504"/>A tote gent tres bien plairat,
+<lb n="505"/>Ses volentez acomplirat
+<lb n="506"/>De quanque il comencera.
+<lb n="507"/>S'hom ad as oilz enfermeté,
+<lb n="508"/>Par ceste pere avrat santé.
+<lb n="509"/>Si ele est bien menu triblee
+<lb n="510"/>E puis od ewe seit mellee,
+<lb n="511"/>Qui d'icele se lavera,
+<lb n="512"/>Del mal des oilz senes garra.
+<lb n="513"/>Se hom ad fevre tercenal
+<lb n="514"/>U seconde u chascunjornal,
+<lb n="515"/>E ait la pere net e bel,
+<lb n="516"/>En un vermeil linge drapel,
+<pb n="221"/>
+<lb n="517"/>Par la vertu que la pere ad
+<lb n="518"/>De fievre e des humurs garra.
+<lb n="519"/>E si devez tres bien saveir,
+<lb n="520"/>Verraiement creire pur veir,
+<lb n="521"/>Femme qui de son ventre vad
+<lb n="522"/>Et sur sei ceste pere avra,
+<lb n="523"/>Ignelepas deliverat,
+<lb n="524"/>S'ele a deliverer en ad.
+<lb n="525"/>E qui les arundels prendra,
+<lb n="526"/>Que pere e mere nel savra,
+<lb n="527"/>Asez vertuz avrunt les peres
+<lb n="528"/>De mut autres plusurs maneres ;
+<lb n="529"/>E si sachez, ben voil nuncier,
+<lb n="530"/>Terre ne deivent atocher
+<lb n="531"/>Li arundel en verité
+<lb n="532"/>Devant ço que seient tué
+<lb n="533"/>U qu'en seient prises les peres.
+<lb n="534"/>Atant suffist de lur maneres.
+</ab>
+</div>
+<div part="N" n="XXIII">
+<head xml:lang="la">Chrysolithus.</head>
+<ab part="N" type="gv">
+<lb n="535"/>Crisolitus est nom de pere
+<lb n="536"/>De mut reluisante manere ;
+<lb n="537"/>Semblable est a or la purnele,
+<lb n="538"/>Issi cum ce fust estencele,
+<lb n="539"/>E pur reliques est tenue
+<lb n="540"/>La u el'est ben coneüe,
+<lb n="541"/>Ker ceste pere ad valur
+<lb n="542"/>Encuntre nocturnel poür.
+<lb n="543"/>Qui ceste pere portera,
+<lb n="544"/>Ja fantosme ne li nuira ;
+<lb n="545"/>E si ceste pere est perciee
+<lb n="546"/>E al senestre braz liee,
+<pb n="222"/>
+<lb n="547"/>E il i ait seies d'asnon
+<lb n="548"/>Mises entur e envirun,
+<lb n="549"/>Tut les diables veinterat ;
+<lb n="550"/>Itel vertu ceste pere ad.
+</ab>
+</div>
+<div part="N" n="XXIV">
+<head xml:lang="la">Corneolus.</head>
+<ab part="N" type="gv">
+<lb n="551"/>Cornil est pere covenable
+<lb n="552"/>E mut ad vertu acceptable.
+<lb n="553"/>Tel colur ad la pere dure
+<lb n="554"/>Cum est de charn la laveüre.
+<lb n="555"/>Qui a sun col pendue l'ad
+<lb n="556"/>U en sun dei la porterat,
+<lb n="557"/>Trestute ire refrenerat,
+<lb n="558"/>Totes tençons surmunterad,
+<lb n="559"/>E sancfuison estanchera
+<lb n="560"/>En quel membre que il serra.
+<lb n="561"/>A la femme maïsmement
+<lb n="562"/>Sera il pur estanchement.
+<lb n="563"/>Itant suffist d'iceste piere,
+<lb n="564"/>Or dirrai d'un'autre manere.
+</ab>
+</div>
+<div part="N" n="XXV">
+<head xml:lang="la">Crystallus.</head>
+<ab part="N" type="gv">
+<lb n="565"/>Cristallus est de piere nom
+<lb n="566"/>U nos tel vertu entendum,
+<lb n="567"/>Ke, s'ele est tres ben molue
+<lb n="568"/>E ele seit od mel beüe,
+<lb n="569"/>Mut grant plenté de lait avra
+<lb n="570"/>La feme qui la bevera.
+<lb n="571"/>Pur ço qu'ele ait foüné
+<lb n="572"/>Senes avra de lait plenté.
+<lb n="573"/>Tel vertu ad iceste pere,
+<lb n="574"/>Or dirrai d'un'autre manere.
+<pb n="223"/>
+</ab>
+</div>
+<div part="N" n="XXVI">
+<head xml:lang="la">Coralium II.</head>
+<ab part="N" type="gv">
+<lb n="575"/>Corallus est nom d'une pere
+<lb n="576"/>E si est d'une autre manere
+<lb n="577"/>Que cele dunt jo ai traitét
+<lb n="578"/>La desus e esclariét,
+<lb n="579"/>E, issi cum dit Galienus,
+<lb n="580"/>Iceste pere corallus
+<lb n="581"/>Garist des oilz tote dolur
+<lb n="582"/>E si chace la tenebrur.
+<lb n="583"/>E si hom ad la dent dolur,
+<lb n="584"/>Par ceste pere avrat valur ;
+<lb n="585"/>E se il ad les denz purries
+<lb n="586"/>U se eles sunt enruissies,
+<lb n="587"/>Quele qu'il ait enfermeté,
+<lb n="588"/>Par ceste pere avra santé.
+<lb n="589"/>Se il la volt tres bien bruiller
+<lb n="590"/>E ensemble od vin meller,
+<lb n="591"/>Se il en volt ses denz froter
+<lb n="592"/>U od ewe ses oilz laver,
+<lb n="593"/>Ja puis mal as denz nen avra
+<lb n="594"/>N'as oilz dolur ne li prendra ;
+<lb n="595"/>Et femme qui ceste bevra,
+<lb n="596"/>De <foreign xml:lang="la">fluxu sanguinis</foreign> guarra ;
+<lb n="597"/>Ço est mut grant enfermeté,
+<lb n="598"/>Dunt Deus guarist par sa bunté
+<lb n="599"/>Une femme verraiement
+<lb n="600"/>Qui atochat sun vestement ;
+<lb n="601"/>Par la creance que ele ot
+<lb n="602"/>Senes garist si cum li plot.
+<lb n="603"/>E ceste pere corallus
+<lb n="604"/>Encor ad en sei vertu plus :
+<pb n="224"/>
+<lb n="605"/>S'hom ad plaie qui volt seigner
+<lb n="606"/>Que l'en ne puisse estancher,
+<lb n="607"/>Ja gute de sanc n'en istrat
+<lb n="608"/>Si tost cum i atocherat.
+<lb n="609"/>E si ceste pere est percee
+<lb n="610"/>E hom l'ait a son col liee,
+<lb n="611"/>Ja le corpuls icil n'avra
+<lb n="612"/>Tant lunges cum la portera.
+<lb n="613"/>Ne voil or plus de li traiter,
+<lb n="614"/>D'autre pere voil comencer.
+</ab>
+</div>
+<div part="N" n="XXVII">
+<head xml:lang="la">Ambra.</head>
+<ab part="N" type="gv">
+<lb n="615"/>Cymbra est d'une pere num,
+<lb n="616"/>E si est d'un marin peissun,
+<lb n="617"/>U ele naist as funz de mer,
+<lb n="618"/>Quant flot retrait l'em poet trover,
+<lb n="619"/>U ele naist de la balaine,
+<lb n="620"/>E par la vertu de s'alaine.
+<lb n="621"/>Blanche est e seche ceste pere
+<lb n="622"/>E si est de sainte manere :
+<lb n="623"/>Le ventrail conferme del cors,
+<lb n="624"/>Les menbres dedenz et defors,
+<lb n="625"/>Le sens aferme en bonté,
+<lb n="626"/>De tute ren le fait sané ;
+<lb n="627"/>Les homes fait rejovener
+<lb n="628"/>E eschaufer e eslecer.
+<lb n="629"/>Ja nuls hom ne enviellira
+<lb n="630"/>Qui ceste pere portera,
+<lb n="631"/>Ne ja freidur ne li prendra
+<lb n="632"/>Ne ire ne mal nen avra ;
+<lb n="633"/>E toz jurs joie od sei avra
+<lb n="634"/>Qui ceste pere portera.
+<pb n="225"/>
+<lb n="635"/>D'itel vertu est ceste pere,
+<lb n="636"/>Mais or dirrai d'autre manere.
+</ab>
+</div>
+<div part="N" n="XXVIII">
+<head xml:lang="la">Cinaedia.</head>
+<ab part="N" type="gv">
+<lb n="637"/>Chimedia est de pere nom ;
+<lb n="638"/>Trovee est en chef de peisson.
+<lb n="639"/>Quele manere qu'el serra
+<lb n="640"/>Un poi lunge la trovera ;
+<lb n="641"/>Ki en sa buche la tendra,
+<lb n="642"/>Ço qu'il voldra divinera,
+<lb n="643"/>Ne ja tempeste n'avendra
+<lb n="644"/>U iceste pere serra,
+<lb n="645"/>Ne ja ne li mesavendra
+<lb n="646"/>Ne ja desconfés ne murra.
+<lb n="647"/>Pur sainte pere la tenum.
+<lb n="648"/>Atant fine ceste raison.
+</ab>
+</div>
+<div part="N" n="XXIX">
+<head xml:lang="la">Camaeus.</head>
+<ab part="N" type="gv">
+<lb n="649"/>Cachmahief est de pere nom :
+<lb n="650"/>Blanche est en mi, bleue envirun.
+<lb n="651"/>Qui ceste pere portera,
+<lb n="652"/>Mut forment tencer n'osera ;
+<lb n="653"/>En bataille tost ert honi,
+<lb n="654"/>Pur ço di hom en seit garni.
+</ab>
+</div>
+<div part="N" n="XXX">
+<head xml:lang="la">Calchedonius.</head>
+<ab part="N" type="gv">
+<lb n="655"/>Calcedoine est percie en l'ur ;
+<lb n="656"/>De cristal manere ad colur.
+<lb n="657"/>Tute achaisun surmuntera
+<lb n="658"/>Qui ceste pere portera,
+<lb n="659"/>Nen ardrat ne ne neiera,
+<lb n="660"/>Ne ja pur arme ne murra
+<pb n="226"/>
+<lb n="661"/>Ne enpuisuné ne sera
+<lb n="662"/>Ne tempeste ne li nuira.
+<lb n="663"/>Tels vertuz avra veirement
+<lb n="664"/>Qui la portera chastement.
+</ab>
+</div>
+<div part="N" n="XXXI">
+<head xml:lang="la">Collyria.</head>
+<ab part="N" type="gv">
+<lb n="665"/>Collire est nom d'une pere
+<lb n="666"/>E si est d'une tel manere :
+<lb n="667"/>Ke iceste pere collire
+<lb n="668"/>El est semblable a saphire,
+<lb n="669"/>E si est blanche en luur,
+<lb n="670"/>Tel ad cumme de mer colur ;
+<lb n="671"/>E qui iceste pere avra
+<lb n="672"/>E a sun col la portera,
+<lb n="673"/>Ja de seignur maugré n'avra
+<lb n="674"/>Ne nuile rien ne li nuira,
+<lb n="675"/>Ses volentez acomplira
+<lb n="676"/>De quancque il commencera.
+<lb n="677"/>Tel vertu unt pieres de C,
+<lb n="678"/>Ore cumencent pieres del D.
+</ab>
+</div>
+<div part="N" n="XXXII">
+<head xml:lang="la">Diadochos.</head>
+<ab part="N" type="gv">
+<lb n="679"/>Diadocos ço est un num
+<lb n="680"/>D'une pere de tel façun
+<lb n="681"/>Cumme beril, en verité ;
+<lb n="682"/>Mut par est el de grant bonté.
+<lb n="683"/>Nule pere n'est tant vaillante
+<lb n="684"/>Ne tant bone ne tant puissante
+<lb n="685"/>Pur devinales deviner
+<lb n="686"/>Ne pur fantosmes demustrer.
+<pb n="227"/>
+<lb n="687"/>Qui en sa buche la tendra,
+<lb n="688"/>Tant cum i ert devinera,
+<lb n="689"/>Mais ewe freide i ad mester
+<lb n="690"/>Pur ceste pere refreider.
+<lb n="691"/>Soventefeiz en deit supeir
+<lb n="692"/>E escopir e resupeir,
+<lb n="693"/>Kar autrement eschaufereit
+<lb n="694"/>La pere e sa buche ardreit.
+<lb n="695"/>Encor a tel vertu la pere
+<lb n="696"/>E si ad si forte manere,
+<lb n="697"/>Ja ne voldra cel nom nomer
+<lb n="698"/>De diable ne apeler
+<lb n="699"/>Qu'il nel face d'enfer issir
+<lb n="700"/>E tresque devant lui venir.
+<lb n="701"/>Si tost cum il le numera
+<lb n="702"/>Devant lui lues s'aparira
+<lb n="703"/>E ses cumandemenz fera,
+<lb n="704"/>Si que ja mal ne li fera.
+<lb n="705"/>E si vus voil tres ben nuncier :
+<lb n="706"/>A mort hume ne doit tucher,
+<lb n="707"/>Ker, s'ele i tuche, li mort levera,
+<lb n="708"/>Par sei meïsme estera ;
+<lb n="709"/>Mais il ne purra nent aler
+<lb n="710"/>Ne nient veer ne nent parler ;
+<lb n="711"/>E, si tost cum s'esluingnera
+<lb n="712"/>Li hom qui ceste pere avra,
+<lb n="713"/>Li morz hom dunt trebucherat
+<lb n="714"/>Quant la pere luing lui serra.
+<lb n="715"/>E si sacez pur verité
+<lb n="716"/>Que ceste pere ad grant bonté.
+<lb n="717"/>Ke ja hom murir ne purra
+<lb n="718"/>Tant cum sur sei la porterat,
+<lb n="719"/>Mais il purrat itant languir
+<lb n="720"/>Que meuz li vendreit a murir.
+<lb n="721"/>Quant hom voldra del secle aler,
+<lb n="722"/>A sun ami la deit doner,
+<pb n="228"/>
+<lb n="723"/>Qu'il l'ait salve en tutes maneres,
+<lb n="724"/>En oreisuns e en preieres ;
+<lb n="725"/>Kar tel vertu la pere avra
+<lb n="726"/>Tant cum ele unques durra.
+<lb n="727"/>Chastement la deit hom porter
+<lb n="728"/>E mut nettement conreer,
+<lb n="729"/>Ker mut est sainte ceste pere ;
+<lb n="730"/>Itant suffist de sa manere.
+</ab>
+</div>
+<div part="N" n="XXXIII">
+<head xml:lang="la">Dapheion.</head>
+<ab part="N" type="gv">
+<lb n="731"/>Daphinion est pere divine,
+<lb n="732"/>Si est vaillant a medicine.
+<lb n="733"/>Ne ja d'ewe nul mal n'avra
+<lb n="734"/>Qui ceste pere portera ;
+<lb n="735"/>Ja diable ne li nuira
+<lb n="736"/>Ne <foreign xml:lang="la">fluxum sanguinis</foreign> n'avra ;
+<lb n="737"/>Ja ydropicus ne sera
+<lb n="738"/>Qui ceste pere portera.
+<lb n="739"/>Sainte la pere est esprovee ;
+<lb n="740"/>Atant est sa raison finee.
+</ab>
+</div>
+<div part="N" n="XXXIV">
+<head xml:lang="la">Dionysias.</head>
+<ab part="N" type="gv">
+<lb n="741"/>Dionisia est un nom
+<lb n="742"/>D'une pere que nos trovum.
+<lb n="743"/>Ceste pere est neire trovee,
+<lb n="744"/>De russes teches et meillee.
+<lb n="745"/>S'el est en ewe ben triblee
+<lb n="746"/>Et ele seit od vin mellee,
+<lb n="747"/>Li vins avra meillor savor
+<lb n="748"/>Et si avra mut bon'odor.
+<lb n="749"/>Sain ert le vin et bon serra,
+<lb n="750"/>Ne ja home n'enivrera.
+<pb n="229"/>
+<lb n="751"/>Itant suffist d'iceste pere,
+<lb n="752"/>Or oez d'un'altre manere.
+</ab>
+</div>
+<div part="N" n="XXXV">
+<head xml:lang="la">Dracontites.</head>
+<ab part="N" type="gv">
+<lb n="753"/>Draconitides ço est un nom
+<lb n="754"/>De pere qui vient de dragon ;
+<lb n="755"/>Draconitides est nomee
+<lb n="756"/>Pur le dragon dunt est trovee ;
+<lb n="757"/>Escharboucle ad nom en franceis,
+<lb n="758"/>Pur sa clarté l'aiment li rais.
+<lb n="759"/>Enchanteürs, par lur reisuns,
+<lb n="760"/>Issi enchantent les draguns,
+<lb n="761"/>Que il les funt ben endormir,
+<lb n="762"/>Puis lur vunt lur testes tolir.
+<lb n="763"/>Quant les testes lur unt trenchees
+<lb n="764"/>Dunc unt les peres desraisnees.
+<lb n="765"/>Pur sa clarté fait a preiser ;
+<lb n="766"/>A plusurs reis la vendent cher.
+<lb n="767"/>Tel vertu unt peres del <hi rend="ital">D</hi>,
+ <lb n="768"/>Ore commencent peres par <hi rend="ital">E</hi>.
+</ab>
+</div>
+<div part="N" n="XXXVI">
+<head xml:lang="la">Aetites.</head>
+<ab part="N" type="gv">
+<lb n="769"/>Etites est nom d'une pere
+<lb n="770"/>Que mult est preciose et chere,
+<lb n="771"/>Que Deus ad fet verraiement
+<lb n="772"/>Pur grace, pur salut de gent.
+<lb n="773"/>Si est de merveille manere,
+<lb n="774"/>Et si est d'asprece lumere.
+<lb n="775"/>Un'autre pere en est deceinte
+<lb n="776"/>Cume se ele fust ençainte.
+<lb n="777"/>Etites est escrit cest nom
+<lb n="778"/>En li, pur ço ensi ad num.
+<pb n="230"/>
+<lb n="779"/>L'aigle l'ad trové en Orient,
+<lb n="780"/>Mangé l'ad pur defendement,
+<lb n="781"/>Kar ja ne li mesavendra
+<lb n="782"/>Tant cume en sun cors l'avra :
+<lb n="783"/>E chascun an qu'il feit son ni,
+<lb n="784"/>Dedenz la met, qu'il seit garni :
+<lb n="785"/>A son ni est defendement
+<lb n="786"/>D'autres oiseas verraiement.
+<lb n="787"/>Ceste pere li ad tel oes,
+<lb n="788"/>Ses oiseus garde e ses oes,
+<lb n="789"/>D'iço sert l'egle veirement.
+<lb n="790"/>E tel mester ad a la gent :
+<lb n="791"/>Qui ceste pere portera,
+<lb n="792"/>A Deu e a homes plaira,
+<lb n="793"/>Ses volentez acomplira
+<lb n="794"/>Si que ja rien ne li nuira,
+<lb n="795"/>E estre iço liéd le ferad
+<lb n="796"/>E sa richeise li crestrat.
+<lb n="797"/>Seit hom u femme qui l'avra
+<lb n="798"/>E sorcerie succrendra,
+<lb n="799"/>S'il la succrient en son manger
+<lb n="800"/>Que l'en le voille enginner,
+<lb n="801"/>Mette la pere en son manger,
+<lb n="802"/>Face le a celui manger
+<lb n="803"/>Ki le manger li porterat :
+<lb n="804"/>Se il le het, senes verrat
+<lb n="805"/>Qu'il ne purrat le col passer,
+<lb n="806"/>Ja tant ne s'en voldrat pener ;
+<lb n="807"/>E si il puet le col passer,
+<lb n="808"/>Seürement le pot user.
+<lb n="809"/>Encor ad en li tel vertu,
+<lb n="810"/>Si cume il est ben coneü :
+<pb n="231"/>
+<lb n="811"/>Ja ire de seignor n'avra
+<lb n="812"/>Qui ceste pere portera,
+<lb n="813"/>E feme qui del ventre vat,
+<lb n="814"/>Se l'ad, senes delivrerad.
+<lb n="815"/>Qui al senestre braz l'avrad,
+<lb n="816"/>Ja sis enfes ne perirat ;
+<lb n="817"/>E s'autre femme le volt perir,
+<lb n="818"/>Issi hom la purra garir :
+<lb n="819"/>Sur la femme la deit lier,
+<lb n="820"/>A sa quisse e sur son iller ;
+<lb n="821"/>E issi faitement garra
+<lb n="822"/>Par la vertu que la pere ad.
+<lb n="823"/>Ço dit Evax en sun sermun ;
+<lb n="824"/>Atant fine ceste raisun.
+</ab>
+</div>
+<div part="N" n="XXXVII">
+<head xml:lang="la">Heliotropium.</head>
+<ab part="N" type="gv">
+<lb n="825"/>Eleütropius est nom
+<lb n="826"/>D'une pere de tel façon :
+<lb n="827"/>Cum esmaraude est <supplied resp="#editor" rend="crochets">sa</supplied> façon,
+<lb n="828"/>Sanglentes veines i trovum.
+<lb n="829"/>Ele est trovee en Egipte,
+<lb n="830"/>U en Libie u en Cypre,
+<lb n="831"/>E mult est sainte e esprovee.
+<lb n="832"/>Al chef de l'asne est formee,
+<lb n="833"/>E quant la pere ert parcreüe,
+<lb n="834"/>E l'asne perdra sa <w>v<supplied resp="#editor" rend="crochets">e</supplied>üe</w>,
+<lb n="835"/>Ke cumme la pere creistrat,
+<lb n="836"/>E sa veüe enpirerat.
+<lb n="837"/>Ki la pere beneïstra,
+<lb n="838"/>E de part Deu la <w>conjur<supplied resp="#editor" rend="crochets">r</supplied>a</w>,
+<lb n="839"/>Iceste pere ad vertu grant,
+<lb n="840"/>Si cum trovum Evax disant :
+<pb n="232"/>
+<lb n="841"/>Kin voldra faire esperiment,
+<lb n="842"/>Mette la en bacin d'argent
+<lb n="843"/>Ki ben seit d'ewe plain rasé,
+<lb n="844"/>Al rai del soleil seit posé.
+<lb n="845"/>Li rais ki desur li luirat
+<lb n="846"/>Arere li resortirat
+<lb n="847"/>E sanglente colur prendra ;
+<lb n="848"/>De tut en tut s'oscurerat.
+<lb n="849"/>Un tel miracle <supplied resp="#editor" rend="crochets">i</supplied> verra
+<lb n="850"/>Que le bacin escumerad
+<lb n="851"/>E l'ewe truble s'en istrat
+<lb n="852"/>E desus l'<w>ew<supplied resp="#editor" rend="crochets">e</supplied></w> tunnerat,
+<lb n="853"/>Soventefeiz esclairira,
+<lb n="854"/>Pluies et tempestes fera.
+<lb n="855"/>Cil qui iluec entur serront
+<lb n="856"/>Mult grant poür <supplied resp="#editor" rend="crochets">lors ?</supplied> en avront
+<lb n="857"/>Mult forment s'esmerveilleront
+<lb n="858"/>Des miracles <w>qu<supplied resp="#editor" rend="crochets">e</supplied></w> il verront.
+<lb n="859"/>Qui ceste pere portera,
+<lb n="860"/>Soventefeiz divinera
+<lb n="861"/>Et sa veüe esclairera,
+<lb n="862"/>Ne ja sun cors n'engrotera.
+<lb n="863"/>E de <w>galniz<supplied resp="#editor" rend="crochets">e</supplied></w> en garra
+<lb n="864"/>Qui la laveüre bevrad.
+<lb n="865"/>Femme enceinte delivrera
+<lb n="866"/>E les dolurs oblierat,
+<lb n="867"/>Ne ja venim ne li nuirat,
+<lb n="868"/>Ne ja enginét ne serra.
+<lb n="869"/>Qui de par Deu la conjurra
+<lb n="870"/>Ses volentez acomplira,
+<lb n="871"/>Que nïent veable sera,
+<lb n="872"/>Ne ja nuls hom nel conuistra.
+<lb n="873"/>De tant lunges cum il voldra,
+<lb n="874"/>A nul home ne se parra.
+<lb n="875"/>Et ço <supplied resp="#editor" rend="crochets">nus</supplied> dit Tyberius
+<lb n="876"/>Ke ceste pere ad vertu plus :
+<pb n="233"/>
+ <lb n="877"/>El(e)<note anchored="true" resp="#proofreader2" type="internal">emploi de la parenthèse à signaler?</note> fait pluver e esclairer
+<lb n="878"/>E le soleil sovent raier.
+<lb n="879"/>Itel vertu ad ceste pere,
+<lb n="880"/>Mais or oez d'un'autre chere.
+</ab>
+</div>
+<div part="N" n="XXXVIII">
+<head xml:lang="la">Hephaestitis.</head>
+<ab part="N" type="gv">
+<lb n="881"/>Epitites est une pere,
+<lb n="882"/>Luisante est de ruge manere.
+<lb n="883"/>Al temple Damnedeu est trovee,
+<lb n="884"/>A Corinthe en la contree.
+<lb n="885"/>En ceste pere ad vertu grant,
+<lb n="886"/>Si cum trovum Evax disant.
+<lb n="887"/>S'el est mise en ewe buillante,
+<lb n="888"/>Refreidirat senz demorance :
+<lb n="889"/>Ja pur venim mal <w>n<supplied resp="#editor" rend="crochets">en</supplied></w> avrad
+<lb n="890"/>Ki ceste pere porterat.
+<lb n="891"/>Se l'en la met sur forsené,
+<lb n="892"/>Ignelepas avrad santé.
+<lb n="893"/>Si hom ne poet a femme gesir
+<lb n="894"/>Ne ses volentez aconplir,
+<lb n="895"/>Qui sur les reins la liera
+<lb n="896"/>Ses volentez aemplira ;
+<lb n="897"/>E femme qui sur sei l'avra,
+<lb n="898"/>Quant ele de sun ventre ira,
+<lb n="899"/>Ignelepas delivrerat,
+<lb n="900"/>Si ele a deliverer en ad ;
+<lb n="901"/>Ne ja tempeste ne carra
+<lb n="902"/>U iceste pere serat.
+<lb n="903"/>Aüsteroles e vermine
+<lb n="904"/>Destruit, tel est sa medicine.
+<lb n="905"/>Si hom la tient en sa main destre -
+<lb n="906"/>Qu'il ne la deit od la senestre -
+<lb n="907"/>Encuntre le rai del soleil,
+<lb n="908"/>Rais eisir en purrat <w>v<supplied resp="#editor" rend="crochets">e</supplied>eir</w>
+<pb n="234"/>
+<lb n="909"/>Si que fu en degutera.
+<lb n="910"/>Qui ço verrad poür avrad.
+<lb n="911"/>Ki al senestre braz l'avra,
+<lb n="912"/>Ja nule ren ne li nuira.
+<lb n="913"/>Tel vertu ad la sainte pere,
+<lb n="914"/>Or voil dire d'autre manere.
+</ab>
+</div>
+<div part="N" n="XXXIX">
+<head xml:lang="la">Exebenus.</head>
+<ab part="N" type="gv">
+<lb n="915"/>Exebenius est un nom
+<lb n="916"/>D'une pere que nus trovum.
+<lb n="917"/>Blanche est la pere, espiritable,
+<lb n="918"/>E mult ad vertu cuvenable.
+<lb n="919"/>Li orfevres en lur mester
+<lb n="920"/>Od l'or la funt pur esclairer.
+<lb n="921"/>La pere est sainte e divine ;
+<lb n="922"/>Mut par est bone medicine.
+<lb n="923"/>S'el est en ewe ben triblee
+<lb n="924"/>U ben menu od vin soldee,
+<lb n="925"/>E puis a beivre seit donee
+<lb n="926"/>A femme qui seit forsenee,
+<lb n="927"/>Tantost vendrat en sa santé
+<lb n="928"/>Cum le col li avra passé.
+<lb n="929"/>Ne voil or plus de li traiter,
+<lb n="930"/>D'autre pere voil comencer.
+</ab>
+</div>
+<div part="N" n="XL">
+<head xml:lang="la">Haematitis.</head>
+<ab part="N" type="gv">
+<lb n="931"/>Ematites pere est divine,
+<lb n="932"/>Granz vertuz ad <supplied resp="#editor" rend="crochets">a</supplied> medicine.
+<lb n="933"/>Deus les i mist veraiement
+<lb n="934"/>Pur la salu de tute gent.
+<lb n="935"/>Neire est cum fer e oscure,
+<lb n="936"/>Veines ad en li <supplied resp="#editor" rend="crochets">com</supplied> purpure.
+<lb n="937"/>Qui ceste pere portera,
+<lb n="938"/>Mult grant aïe li fera :
+<pb n="235"/>
+<lb n="939"/>Halegre sera de sun cors
+<lb n="940"/>A tuz jurz dedenz e defors.
+<lb n="941"/>Se est triblee ceste gemme
+<lb n="942"/>E ben la beive od lait de femme,
+<lb n="943"/>Del primer enfant qu'ele avra -
+<lb n="944"/>Ensurquetut malle sera -
+<lb n="945"/>Ja n'avra si grant enferté
+<lb n="946"/>Que il ne turge a santé,
+<lb n="947"/>E de la piere <supplied resp="#editor" rend="crochets" cert="low">ben ?</supplied> garra,
+<lb n="948"/>E de l'urine, se il l'ad.
+<lb n="949"/>U que unques dolur avra,
+<lb n="950"/>Ki od le lait se lavera,
+<lb n="951"/>Senes la dolur s'en ira,
+<lb n="952"/>E sa santé repairera
+<lb n="953"/>E la puinture del serpent
+<lb n="954"/>Guarra par son eslavement ;
+<lb n="955"/>E <w>s<supplied resp="#editor" rend="crochets">e</supplied></w> <w>el<supplied resp="#editor" rend="crochets">e</supplied></w> est od miel triblee
+<lb n="956"/>E sur la plaie seit posee
+<lb n="957"/>Qu'aspis fera, cel verm pullent,
+<lb n="958"/>Ço ert <supplied resp="#editor" rend="crochets">bon</supplied> medicinement ;
+<lb n="959"/>Senes guarra de la puinture :
+<lb n="960"/>Ceste pere est de tel nature.
+<lb n="961"/>En Ethiope est trovee,
+<lb n="962"/>U en Aufriche la contree.
+<lb n="963"/>Les peres de <hi rend="ital">E</hi> finent senz bef,
+<lb n="964"/>Or comencent les peres de <hi rend="ital">F</hi>.
+</ab>
+</div>
+<div part="N" n="XLI">
+<head xml:lang="la">Phrygius lapis.</head>
+<ab part="N" type="gv">
+<lb n="965"/>Frigius est num d'<w>un<supplied resp="#editor" rend="crochets">e</supplied></w> pere,
+<lb n="966"/>E si est de neire manere.
+<lb n="967"/>Vaines <supplied resp="#editor" rend="crochets">i</supplied> ad d'autres colurs ;
+<lb n="968"/>A medicine ad valurs.
+<lb n="969"/>Ki od savine la bevra,
+<lb n="970"/>De la gutefestre garra ;
+<pb n="236"/>
+<lb n="971"/>Ne ja poacre nen avra
+<lb n="972"/>Ki ceste pere portera.
+<lb n="973"/>Itel vertu ad ceste pere.
+<lb n="974"/><w>Or<supplied resp="#editor" rend="crochets">e</supplied></w> dirrai d'autre manere.
+</ab>
+</div>
+<div part="N" n="XLII">
+<head xml:lang="la">Phoenicitis.</head>
+<ab part="N" type="gv">
+<lb n="975"/>Fenicites est une pere,
+<lb n="976"/>Si est de merveille manere.
+<lb n="977"/>Ki en la senestre main l'ad -
+<lb n="978"/>Itel vertu la piere avrad -
+<lb n="979"/>Dolur ne ire <w>n<supplied resp="#editor" rend="crochets">en</supplied></w> avra,
+<lb n="980"/>Ne ja mal'ovre ne fera.
+<lb n="981"/>Ne voil or plus de li traiter,
+<lb n="982"/>D'autre pere voil comencer.
+</ab>
+</div>
+<div part="N" n="XLIII">
+<head xml:lang="la">Memnonius.</head>
+<ab part="N" type="gv">
+<lb n="983"/>Fumonius est une pere
+<lb n="984"/>Qui mult est de sainte manere.
+<lb n="985"/>Mut par ad en li grant vertuz,
+<lb n="986"/>Issi cum dit Tyberius.
+<lb n="987"/>Ki ceste pere portera,
+<lb n="988"/>Ja venim mal ne li fera,
+<lb n="989"/>Langur ne crieme nen avra ;
+<lb n="990"/>Ja nule rien ne li nuira ;
+<lb n="991"/>Ses volentez ademplira
+<lb n="992"/>Del bien que il comencera,
+<lb n="993"/>Ne ja en mer ne <w>nei<supplied resp="#editor" rend="crochets">e</supplied>ra</w>,
+<lb n="994"/>Ne ire de seignur n'avra,
+<lb n="995"/>Ne ja pur nul fu nen ardra,
+<lb n="996"/>Ne ja plaie ne recevrat.
+<lb n="997"/>Tel vertu ad fumonius,
+<lb n="998"/>Issi cum dit Tyberius.
+</ab>
+</div>
+<div part="N" n="XLIV">
+<head xml:lang="la">Medus.</head>
+<ab part="N" type="gv">
+<lb n="999"/>Fedus <supplied resp="#editor" rend="crochets">ço</supplied> est pere divine ;
+<lb n="1000"/>Mult est bone a medicine.
+<pb n="237"/>
+<lb n="1001"/>Ki ceste pere triblera
+<lb n="1002"/>E come pudre la fera,
+<lb n="1003"/>Od lait de feme la bevra,
+<lb n="1004"/>Del primer malle qu'ele avra,
+<lb n="1005"/>Se hom est des oilz avoeglez
+<lb n="1006"/>E puis seit od iço lavez,
+<lb n="1007"/>Sa veüe repairera
+<lb n="1008"/>Si tost cumme il s'en lavera.
+<lb n="1009"/>E <w>s<supplied resp="#editor" rend="crochets">e</supplied></w> il ad le mal del piz,
+<lb n="1010"/>Beive la od lait de berbiz
+<lb n="1011"/>Ke seit del primerain aignel
+<lb n="1012"/>Ki masle seit, de blanche pel.
+<lb n="1013"/>S'il poacre ad si garra,
+<lb n="1014"/>O d'autre enfermeté si l'ad.
+<lb n="1015"/>Petit et petit en deit beivre,
+<lb n="1016"/>Que sis pumuns ne s'en deseivre.
+<lb n="1017"/>Se par mesure n'en beveit,
+<lb n="1018"/>Senes sun pumon vomireit.
+<lb n="1019"/>Un fluvie est d'autre cuntree
+<lb n="1020"/>U ceste pere est trovee,
+ <lb n="1021"/>Issi cum dient Sazarin <note anchored="true" resp="#editor" rend="parentheses">sic</note> ;
+<lb n="1022"/>Icist fluvies ad nun Fasin.
+<lb n="1023"/>Mires la tienent pur mescine.
+<lb n="1024"/>Atant <w>icest<supplied resp="#editor" rend="crochets">e</supplied></w> raison fine.
+<lb n="1025"/>Or fenisent les peres de <hi rend="ital">F</hi>.
+<lb n="1026"/>Et cumencent de <hi rend="ital">G</hi> senz bef.
+</ab>
+</div>
+<div part="N" n="XLV">
+<head xml:lang="la">Gagatromaeus.</head>
+<ab part="N" type="gv">
+<lb n="1027"/>Gagatromeos ceste pere
+<lb n="1028"/>Ele est tute de tel manere
+<lb n="1029"/>Cume chevroil, issi cum dit
+<lb n="1030"/>Li reis Evax en sun escrit.
+<lb n="1031"/>Ki ceste pere ad pur escut
+<lb n="1032"/>Ja pur hume <w>n<supplied resp="#editor" rend="crochets">en</supplied></w> iert vencut.
+<lb n="1033"/>Ceste pere Hercules porta ;
+<lb n="1034"/>Pur ço tute gent surmunta.
+<pb n="238"/>
+<lb n="1035"/>Atant fine ceste raison,
+<lb n="1036"/>D'autre pere cumencerum.
+</ab>
+</div>
+<div part="N" n="XLVI">
+<head xml:lang="la">Galactites.</head>
+<ab part="N" type="gv">
+<lb n="1037"/>Galatides ço est une pere
+<lb n="1038"/>Nuns ad de diverse manere.
+<lb n="1039"/>Alquant l'apelent mantiten
+<lb n="1040"/>E alquant legraciten,
+<lb n="1041"/><supplied resp="#editor" rend="crochets">Li</supplied> Egipcien smaragon,
+<lb n="1042"/>Esi l'apelent par raison ;
+<lb n="1043"/>Solonc alquant galbanicen,
+<lb n="1044"/>Solunc plusurs senechiten.
+<lb n="1045"/>Ço dit Sistodenes li maistre,
+<lb n="1046"/>Unc meillor pere ne pot naistre ;
+<lb n="1047"/>Icist l'apela litargun
+<lb n="1048"/>Que nus obliance apelum,
+<lb n="1049"/>Kar trestut mal obliera
+<lb n="1050"/>Qui ceste pere portera.
+<lb n="1051"/>Ses volentez aemplirat
+<lb n="1052"/>De quanque il faire voldrat.
+<lb n="1053"/>Nule pere n'at vertu plus,
+<lb n="1054"/>Issi cum dit Tyberius.
+<lb n="1055"/>Sur tutes peres la loerent
+<lb n="1056"/>Philosophe quant la troverent.
+<lb n="1057"/>Ki ceste pere lecherat,
+<lb n="1058"/>Savor de miel concevra ;
+<lb n="1059"/>E ki la pere triblera,
+<lb n="1060"/>Blanche cume lait devendra ;
+<lb n="1061"/>E la femme ki la bevra,
+<lb n="1062"/>Puis qu'ele bainee serra,
+<lb n="1063"/>Tant grant plenté de lait avra
+<lb n="1064"/>Que la mamele l'en corrat.
+<lb n="1065"/>Beivre la deit aprés son baing,
+<lb n="1066"/>Od ewe vive <supplied resp="#editor" rend="crochets">e</supplied> senz pain ;
+<lb n="1067"/>E si ceste pere est perciee
+<lb n="1068"/>E femme l'ait al col liee
+<pb n="239"/>
+<lb n="1069"/>En un fil de laine <w>deugie<supplied resp="#editor" rend="crochets">e</supplied></w>
+<lb n="1070"/>De berbiz que seit enpregniee,
+<lb n="1071"/>Ignelepas enfanterat
+<lb n="1072"/>E ses dolurs oblierat ;
+<lb n="1073"/>E autretel ben li ferat
+<lb n="1074"/>Cum a celui qui la bevra.
+<lb n="1075"/>E si ses berbiz sunt sechees,
+<lb n="1076"/>U ruinnoses u empirees,
+<lb n="1077"/>Si tost cum la pere bevrunt,
+<lb n="1078"/><supplied resp="#editor" rend="crochets" cert="low">Lor ?</supplied> lait senes recovrerunt.
+<lb n="1079"/>Et ki les berbiz lavera
+<lb n="1080"/>Ainz que li soleil levera,
+<lb n="1081"/>Senes de la ruinne garrunt,
+<lb n="1082"/>Del lireclouc se il l'unt ;
+<lb n="1083"/>E si ringen i est escrit,
+<lb n="1084"/>Issi cum li reis Evax dit,
+<lb n="1085"/>De Damnedeu amé serra
+<lb n="1086"/>Et de tute gent, qui l'avra ;
+<lb n="1087"/>Ja ire de signur n'avra,
+<lb n="1088"/>Ses volentez aemplira ;
+<lb n="1089"/>E ki as denz la tuchera,
+<lb n="1090"/>Jamais <supplied resp="#editor" rend="crochets">la</supplied> dent dolur n'avra,
+<lb n="1091"/>Envire mal ne li fera,
+<lb n="1092"/>Ne en bataille ne murra,
+<lb n="1093"/>Ne ja enfant ne megrira
+<lb n="1094"/>Qui a son col la portera,
+<lb n="1095"/>Ne ja poür ne li prendra :
+<lb n="1096"/>Liez et joius tut tens sera.
+<lb n="1097"/>Femme que enfanter ne puisse,
+<lb n="1098"/>Lit la a la senestre quisse
+<lb n="1099"/>Od un fil de laine <w>delgie<supplied resp="#editor" rend="crochets">e</supplied></w>
+<lb n="1100"/>De berbiz que seit enpreignee :
+<lb n="1101"/>Ignelepas delivrerad
+<lb n="1102"/>E ses dolurs oblierad.
+<lb n="1103"/>E si est un fluvie Nilus
+<lb n="1104"/>E un autre Acaleüs
+<pb n="240"/>
+<lb n="1105"/>U ceste pere est trovee.
+<lb n="1106"/>Atant est sa raisun finee.
+</ab>
+</div>
+<div part="N" n="XLVII">
+<head xml:lang="la">Gagates.</head>
+<ab part="N" type="gv">
+<lb n="1107"/>Gagates est nom d'une pere,
+<lb n="1108"/>Color ad de neire manere ;
+<lb n="1109"/>Et ben sachez de ceste pere
+<lb n="1110"/><w>Qu<supplied resp="#editor" rend="crochets">e</supplied></w> el est seche et legiere.
+<lb n="1111"/>Ceste pere ad plusurs vertuz,
+<lb n="1112"/>Issi cum dit Tiberius.
+<lb n="1113"/>Si les denz locent a la gent,
+<lb n="1114"/>Garrunt par cest enseignement :
+<lb n="1115"/>Ceste pere menu triblez
+<lb n="1116"/>Od ewe, <supplied resp="#editor" rend="crochets">e</supplied> vos denz lavez,
+<lb n="1117"/>Senes tutes s'afermerunt,
+<lb n="1118"/>Ja puis dolur ne sentirunt.
+<lb n="1119"/>E se femme est <foreign xml:lang="la">menstruata</foreign>,
+<lb n="1120"/><w>Ç<supplied resp="#editor" rend="crochets">o</supplied></w> est un mal que ele ad,
+<lb n="1121"/>Par iceste piere garrat
+<lb n="1122"/>Si que puis dolur <w>n<supplied resp="#editor" rend="crochets">en</supplied></w> avra.
+<lb n="1123"/>Se la pere est sur carbuns mise
+<lb n="1124"/>E ele seit tres bien esprise,
+<lb n="1125"/>De la <w>fum<supplied resp="#editor" rend="crochets">e</supplied>e</w> kin istrat
+<lb n="1126"/>E qui al cors li entrera,
+<lb n="1127"/>S'el est de dras acovetee,
+<lb n="1128"/>Sa santéd avra recovree.
+<lb n="1129"/>Si la deit l'en mediciner
+<lb n="1130"/>Cum hom qui se voille estuver.
+<lb n="1131"/>E se hom veot serf achater
+<lb n="1132"/>Si le puet ben espermenter,
+<lb n="1133"/>Se il est lunages u guttus,
+<lb n="1134"/>U se il est palazinus :
+<lb n="1135"/>Si tost cum le fum sentira,
+<lb n="1136"/>Ignelepas trebuchera,
+<lb n="1137"/>E, s'il chet, ben poez plevir
+<lb n="1138"/>Que il n'est pruz a retenir.
+<pb n="241"/>
+<lb n="1139"/>Ja dedenz le cors freit n'avra
+<lb n="1140"/>Ki la fumee sentira,
+<lb n="1141"/>Ne ja serpent n'apresmera
+<lb n="1142"/>U <w><supplied resp="#editor" rend="crochets">i</supplied>ceste</w> pere sera.
+<lb n="1143"/>Si ceste pere est eschaufee
+<lb n="1144"/>Et puis en ewe seit getee,
+<lb n="1145"/>E ki pus cele ewe prendra
+<lb n="1146"/>E treis jurz a jeün bevra,
+<lb n="1147"/>Femme qui ençainte sera,
+<lb n="1148"/>Ignelepas delivrera.
+<lb n="1149"/>S'el est pucele qui bevra,
+<lb n="1150"/>Altre signe <w>demustr<supplied resp="#editor" rend="crochets">er</supplied>a</w>.
+<lb n="1151"/>U que <w>cest<supplied resp="#editor" rend="crochets">e</supplied></w> pere serra,
+<lb n="1152"/>Ja diable mal n'i fera,
+<lb n="1153"/>E estre iço enchantement
+<lb n="1154"/>Tut destruira apertement;
+<lb n="1155"/>Ne ja n'iert si fort <w>ser<supplied resp="#editor" rend="crochets">e</supplied>üre</w>
+<lb n="1156"/>Ne nule si fort lieüre
+<lb n="1157"/>Que il ne puisse defermer,
+<lb n="1158"/>Buies fruissir e desserer
+<lb n="1159"/>Od une herbe que i metum.
+<lb n="1160"/>Atant fine ceste raison.
+</ab>
+</div>
+<div part="N" n="XLVIII">
+<head xml:lang="la">Chalazias.</head>
+<ab part="N" type="gv">
+<lb n="1161"/>Galacias est une pere
+<lb n="1162"/>Cume gresille est sa manere.
+<lb n="1163"/>Si est dure galatias
+<lb n="1164"/>Cume si ço fust adamas,
+<lb n="1165"/>Que tant est freide e engelee
+<lb n="1166"/>Que ja pur fu n'iert eschaufee.
+<lb n="1167"/>Autre vertu i puet aveir,
+<lb n="1168"/>Mais jo n'en sai dire le veir.
+<lb n="1169"/>Les peres de <hi rend="ital">G</hi> finissum.
+<lb n="1170"/>E celes de <hi rend="ital">H</hi> cumencerum.
+<pb n="242"/>
+</ab>
+</div>
+<div part="N" n="XLIX">
+<head xml:lang="la">Hyaenia.</head>
+<ab part="N" type="gv">
+<lb n="1171"/>Hyenia ço est une pere
+<lb n="1172"/>Ki est trovee en tel manere,
+<lb n="1173"/>E dedenz les oilz la trovum
+<lb n="1174"/>D'une beste, hyenie ad num.
+<lb n="1175"/>S'ele est en buche a home mise
+<lb n="1176"/>Et desuz sa langue asise,
+<lb n="1177"/>Ignelepas pronuncera
+<lb n="1178"/>Iço que a venir serra.
+<lb n="1179"/>Ja rien ne li ert demandé
+<lb n="1180"/>Que il n'en die verité,
+<lb n="1181"/>Tant est ceste pere divine.
+<lb n="1182"/>Atant iceste raisun fine.
+</ab>
+</div>
+<div part="N" n="L">
+<head xml:lang="la">Herinaceus lapis.</head>
+<ab part="N" type="gv">
+<lb n="1183"/>Herimachius ço est un nom
+<lb n="1184"/>D'une pere que nus trovum.
+<lb n="1185"/>E si ad <supplied resp="#editor" rend="crochets">en</supplied> sei tel colur
+<lb n="1186"/>Cum est la maile del ostur.
+<lb n="1187"/>En li puet aver grant bonté,
+<lb n="1188"/>Mais jo n'en sai la verité.
+<lb n="1189"/>Atant fine ceste raisun
+<lb n="1190"/>Des peres de <hi rend="ital">H</hi> que nus trovun.
+<lb n="1191"/>Atant lur resun fine ici,
+<lb n="1192"/>Or cumencent les peres de <hi rend="ital">I</hi>.
+</ab>
+</div>
+<div part="N" n="LI">
+<head xml:lang="la">Jaspis.</head>
+<ab part="N" type="gv">
+<lb n="1193"/>Jaspis est pere esprovee,
+<lb n="1194"/>E si est en mainte contree.
+<lb n="1195"/>Seze maneres en trovum
+<lb n="1196"/>Que nus tutes jaspes numum,
+<lb n="1197"/>E si sunt de mutes colurs,
+<lb n="1198"/>E en sei ad mut grant valurs :
+<pb n="243"/>
+<lb n="1199"/>S'eles sunt chastement portees,
+<lb n="1200"/><w>Ben<supplied resp="#editor" rend="crochets">e</supplied>eites</w> et consegrees,
+<lb n="1201"/>Ja la fevre ne li prendra
+<lb n="1202"/>Ki veire creance avra.
+<lb n="1203"/>Jaspis, quant est verte trovee,
+<lb n="1204"/>Calcedone est <w>apele<supplied resp="#editor" rend="crochets">e</supplied></w>.
+<lb n="1205"/>Ki saintement la portera,
+<lb n="1206"/>Ja d'ewe nuite mal n'avra.
+<lb n="1207"/>Estre iço, si ad esprovance,
+<lb n="1208"/>Se hom la porte de sa enfance,
+<lb n="1209"/>En nule ewe ne <w>nei<supplied resp="#editor" rend="crochets">e</supplied>ra</w>
+<lb n="1210"/>Ne fantosme ne li nuira.
+<lb n="1211"/>Bels ert, de fei <w>poest<supplied>e</supplied>ïs</w>,
+<lb n="1212"/>Et poant sur ses enemis.
+<lb n="1213"/>En la pere deit l'en tailler.
+<lb n="1214"/>Un tres bien armé chevaler,
+<lb n="1215"/>En guise del deu de bataille
+<lb n="1216"/>Ki Mars ot nom senz controvaille,
+<lb n="1217"/><supplied resp="#editor" rend="crochets">E</supplied> une virgine bien vestue,
+<lb n="1218"/>Od une stole al col pendue,
+<lb n="1219"/>En sa main tinge un oliver ;
+<lb n="1220"/>Ço deit l'en en li entailler.
+<lb n="1221"/>S'el est issi en verité,
+<lb n="1222"/>Pardurable i ert <w>saint<supplied resp="#editor" rend="crochets">e</supplied>é</w>.
+<lb n="1223"/>E or oez de <foreign xml:lang="la">jaspide</foreign>
+<lb n="1224"/>Pur quei cest nom li fud duné :
+<lb n="1225"/><foreign xml:lang="la">Yas</foreign> en griu, c'est vert en franceis,
+<lb n="1226"/>E <foreign xml:lang="la">pinasun</foreign> geme est a reis ;
+<lb n="1227"/>Iço que jaspis apelum
+<lb n="1228"/>Verte gemme en franceis ad num.
+<lb n="1229"/>Ne voil or plus de li traiter,
+<lb n="1230"/>D'autre pere voil comencer.
+</ab>
+</div>
+<div part="N" n="LII">
+<head xml:lang="la">Hyacinthus I.</head>
+<ab part="N" type="gv">
+<lb n="1231"/>Jacinctus est de pere nom,
+<lb n="1232"/>De treis maneres la trovum :
+<pb n="244"/>
+<lb n="1233"/>Grain ad en l'une, en l'autre vaines,
+<lb n="1234"/>E la tierce manere est plaine.
+<lb n="1235"/>E cele qui ad les techetes
+<lb n="1236"/><w>Ç<supplied resp="#editor" rend="crochets">o</supplied></w> est la mieldre des peretes,
+<lb n="1237"/>Kar ki juste fu la mettra
+<lb n="1238"/>Et puis desur <supplied resp="#editor" rend="crochets">li</supplied> sufflera,
+<lb n="1239"/>Cum plusurs feiz i sufflera,
+<lb n="1240"/>La pere plus enrugira.
+<lb n="1241"/>S'alcune chose i est peinte
+<lb n="1242"/>La flambe del fu seit esteinte,
+<lb n="1243"/>E la pere eschaufera
+<lb n="1244"/>E le fu i <w>desteind<supplied resp="#editor" rend="crochets">e</supplied>ra</w>.
+<lb n="1245"/>Les vainoses e plaines peres
+<lb n="1246"/>Ne sunt mie de tels maneres :
+<lb n="1247"/>Els ne poent nent fu suffrir
+<lb n="1248"/>Ne gaires chalur retenir,
+<lb n="1249"/>Mais en la techee est chalur
+<lb n="1250"/>E en la veinose est freidur
+<lb n="1251"/>E <supplied resp="#editor" rend="crochets">en</supplied> la plaine veirement
+<lb n="1252"/><gap unit="lines" quantity="1" rend="points"/>
+<lb n="1253"/>E Aristotle dit pur veir
+<lb n="1254"/>Que ces peres poent valeir
+<lb n="1255"/>Pur destruire ire et felun
+<lb n="1256"/>E pur estancher sancfusun.
+<lb n="1257"/>Percee l'ait al col pendue
+<lb n="1258"/>U liee a sa char nue ;
+<lb n="1259"/>Ja pur tempeste mal n'avra
+<lb n="1260"/>Tant cum la pere portera.
+<lb n="1261"/>Itel vertu ad ceste pere,
+<lb n="1262"/>Or voil dire d'autre manere.
+</ab>
+</div>
+<div part="N" n="LIII">
+<head xml:lang="la">Hyacinthus II.</head>
+<ab part="N" type="gv">
+<lb n="1263"/>Jacinctus <supplied resp="#editor" rend="crochets">ço</supplied> est une pere
+<lb n="1264"/>E si est de bloie manere.
+<lb n="1265"/>Pur espeisse n'est obscuree ;
+<lb n="1266"/><w>Cum<supplied resp="#editor" rend="crochets">e</supplied></w> purpre est coluree.
+<pb n="245"/>
+<lb n="1267"/>N'est pas clere üelement :
+<lb n="1268"/>Quant l'en l'esgarde apertement,
+<lb n="1269"/>Devant les oilz vait tresvasant,
+<lb n="1270"/>Si se mue en divers semblant.
+<lb n="1271"/>Ki en sa buche la metra
+<lb n="1272"/>Cum plus i ert <w>refreid<supplied resp="#editor" rend="crochets">i</supplied>ra</w>.
+<lb n="1273"/>Mut par est dure a entailler,
+<lb n="1274"/>E Adam i fud peint premer.
+<lb n="1275"/>En li puet aver grant bonté,
+<lb n="1276"/>Mais jo n'en sai la verité.
+<lb n="1277"/>Atant fine ceste raisun,
+<lb n="1278"/>D'un'autre pere començum.
+</ab>
+</div>
+<div part="N" n="LIV">
+<head xml:lang="la">Iris.</head>
+<ab part="N" type="gv">
+<lb n="1279"/>Iris est pere esprovee
+<lb n="1280"/>Ke l'en trove en Mer <w>Bete<supplied resp="#editor" rend="crochets">e</supplied></w>.
+<lb n="1281"/>Yrim l'arc del cel apelom
+<lb n="1282"/>Que nus contre pluie veum ;
+<lb n="1283"/>Pur ço ad num yris la pere
+<lb n="1284"/>Qu'el ad en sai itel manere :
+<lb n="1285"/>Quant li soleilz raie sur lie
+<lb n="1286"/>Une <w><supplied resp="#editor" rend="crochets">re</supplied>splendur</w> ist de lie
+<lb n="1287"/>Cum de l'arc del cel par rasun,
+<lb n="1288"/>Et pur ço Yris ad <supplied resp="#editor" rend="crochets">a</supplied> num.
+<lb n="1289"/>En li puet aveir medicine,
+<lb n="1290"/>Mais je ne sai cum el define ;
+<lb n="1291"/>Pur ço n'<w>e<supplied resp="#editor" rend="crochets">n</supplied></w> voil or plus traiter,
+<lb n="1292"/>D'autre pere voil comencer.
+</ab>
+</div>
+<div part="N" n="LV">
+<head xml:lang="la">Hyacinthizon.</head>
+<ab part="N" type="gv">
+<lb n="1293"/>Jacinctizonta est un nom
+<lb n="1294"/>D'une pere que nus trovum,
+<lb n="1295"/>Ke est semblable a cristax,
+<lb n="1296"/>Si <w>cum<supplied resp="#editor" rend="crochets">e</supplied></w> dit li reis Evax.
+<pb n="246"/>
+<lb n="1297"/>Ceste pere devient oscure
+<lb n="1298"/>Quant ele tuche a chevelure.
+<lb n="1299"/>Vertu i ad, mais <supplied resp="#editor" rend="crochets">jeo</supplied> nel sai.
+<lb n="1300"/>Atant ceste raisun larrai.
+<lb n="1301"/>Atant peres del <hi rend="ital">I</hi> finum,
+<lb n="1302"/>E <w>cel<supplied resp="#editor" rend="crochets">e</supplied>s</w> de <hi rend="ital">L</hi> cumencerum.
+<lb n="1303"/>En <hi rend="ital">K</hi> ne puis nule trover,
+<lb n="1304"/>Ad <hi rend="ital">L</hi> m'estuet trespasser.
+</ab>
+</div>
+<div part="N" n="LVI">
+<head xml:lang="la">Lychnites.</head>
+<ab part="N" type="gv">
+<lb n="1305"/>Letites est pere divine ;
+<lb n="1306"/>Tel colur ad cume verine.
+<lb n="1307"/><w>Est<supplied resp="#editor" rend="crochets">r</supplied>ie</w> mal ne li fera
+<lb n="1308"/>Ki a sun col la portera,
+<lb n="1309"/>Ne ja tristesce nen avra.
+<lb n="1310"/>Qui a sun col la portera,
+<lb n="1311"/>Soventefeiz devinera ;
+<lb n="1312"/>Se malade est, ne resvera.
+<lb n="1313"/>Et si femme ad le sancfuisun,
+<lb n="1314"/>Eisi <supplied resp="#editor" rend="crochets" cert="low">en ?</supplied> garra par raisun :
+<lb n="1315"/>En un net linge drapelet
+<lb n="1316"/>Al vot la lie l'en e met,
+<lb n="1317"/>U al nu frunt la deit lier
+<lb n="1318"/>De la femme pur estancher.
+<lb n="1319"/>Ki ceste pere portera,
+<lb n="1320"/>Ja langurus ne devendra,
+<lb n="1321"/>Ne vermine ne remandra
+<lb n="1322"/>En liu u ele atochera ;
+<lb n="1323"/>E se alcune vile art
+<lb n="1324"/>E hom qui l'ait alt cele part,
+<lb n="1325"/>Cum plus del fu aprismera
+<lb n="1326"/>Petit et petit desteindra,
+<lb n="1327"/>Ke ja fu ardeir ne purra
+<lb n="1328"/>La u ceste pere serra,
+<lb n="1329"/>Tant grant vertu ad ceste pere.
+<lb n="1330"/>Or voil dire d'autre manere.
+<pb n="247"/>
+</ab>
+</div>
+<div part="N" n="LVII">
+<head xml:lang="la">Lyncurium I.</head>
+<ab part="N" type="gv">
+<lb n="1331"/>Liguros pere est veirement,
+<lb n="1332"/>A maison est defendement.
+<lb n="1333"/>Tant cum ceste pere i serra
+<lb n="1334"/>Nule rien n'i mesavendra,
+<lb n="1335"/>E femme ki del ventre ira
+<lb n="1336"/>Ignelepas delivrera ;
+<lb n="1337"/>E qui le mal le rei avra,
+<lb n="1338"/>Se od vin la beit, si en garra.
+<lb n="1339"/>Ne voil or plus de li traiter,
+<lb n="1340"/>D'autre pere voil comencer.
+</ab>
+</div>
+<div part="N" n="LVIII">
+<head xml:lang="la">Lyncurium II.</head>
+<ab part="N" type="gv">
+<lb n="1341"/>Lincis ço est num d'une pere :
+<lb n="1342"/>De date est de luve cervere ;
+<lb n="1343"/>E ki ceste pere bevrat,
+<lb n="1344"/>Del mal del ventre si garrat.
+<lb n="1345"/>Se hom ad en sei la cursun,
+<lb n="1346"/>Si en garra par tel raisun.
+<lb n="1347"/>Itant suffist de ceste pere,
+<lb n="1348"/>Ore voil dire d'autre manere.
+</ab>
+</div>
+<div part="N" n="LIX">
+<head xml:lang="la">Lithargyrum.</head>
+<ab part="N" type="gv">
+<lb n="1349"/>Litigerus est une pere,
+<lb n="1350"/>Si est faite en tel manere :
+<lb n="1351"/>D'escume de plum et d'argent,
+<lb n="1352"/>Si est faite ensi faitement.
+<lb n="1353"/>Ceste pere ad freide nature,
+<lb n="1354"/>Tres bien guarist sursaneüre.
+<lb n="1355"/>Ki a plaie la liera,
+<lb n="1356"/>Ignelepas si <supplied resp="#editor" rend="crochets">s'en</supplied> quira
+<lb n="1357"/>Ne ja frunce n'i remaindra
+<lb n="1358"/>Ne purreture n'i serra.
+<pb n="248"/>
+<lb n="1359"/>Si est ceste pere provee ;
+<lb n="1360"/>Atant est sa raisun finee.
+</ab>
+</div>
+<div part="N" n="LX">
+<head xml:lang="la">Lupi dens (Odontelicius)<note anchored="true" resp="#proofreader2" type="internal">entre parenthèses = ajout de l'éditeur ?</note>.</head>
+<ab part="N" type="gv">
+<lb n="1361"/>Lantelius est une pere
+<lb n="1362"/>Ki a en sei forte manere.
+<lb n="1363"/>Profitable est a porter
+<lb n="1364"/>As homes qui volent rober,
+<lb n="1365"/>E bone est a oiselurs
+<lb n="1366"/>E profitable a veneürs.
+<lb n="1367"/>Atant fine ceste raisun,
+<lb n="1368"/>D'un'autre pere començum.
+</ab>
+</div>
+<div part="N" n="LXI">
+<head xml:lang="la">Lapis lazuli.</head>
+<ab part="N" type="gv">
+<lb n="1369"/>Lasulius est pere de Frise,
+<lb n="1370"/>E si est de mut tendre guise.
+<lb n="1371"/>S'el est mise od uignement,
+<lb n="1372"/>El ert pur medicinement.
+<lb n="1373"/>Ki la bevra od le copel
+<lb n="1374"/>De la rose, qui mult est bel,
+<lb n="1375"/>De quartaine fevre garra
+<lb n="1376"/>U de fadur de cuer, s'il l'ad.
+<lb n="1377"/>Les peres de <hi rend="ital">L</hi> finissum
+<lb n="1378"/>E celes de <hi rend="ital">M</hi> començum.
+</ab>
+</div>
+<div part="N" n="LXII">
+<head xml:lang="la">Magnes.</head>
+<ab part="N" type="gv">
+<lb n="1379"/>Magnes est pere esprovee,
+<lb n="1380"/>En le flum Jordan est trovee,
+<lb n="1381"/>E tel colur ad cume fer,
+<lb n="1382"/>E ensemble od sei trait le fer.
+<lb n="1383"/>Ki ceste pere poet trover,
+<lb n="1384"/>Sa femme en purra esprover,
+<lb n="1385"/>S'ele ad nule druerie
+<lb n="1386"/>U si ele ad feit folie.
+<pb n="249"/>
+<lb n="1387"/>Ki desur le chef li metra
+<lb n="1388"/>Endementers qu'el dormira,
+<lb n="1389"/>Ignelepas demonstrera
+<lb n="1390"/>La contenance qu'el fait ad :
+<lb n="1391"/>As denz lores se turnerat,
+<lb n="1392"/>S'<w>el<supplied resp="#editor" rend="crochets">e</supplied></w> chaste vie menat ;
+<lb n="1393"/>S'ele ad puterie menee,
+<lb n="1394"/>Ignelepas s'iert enversee.
+<lb n="1395"/>Tel cuntenance demerra
+<lb n="1396"/>Endementers qu'el dormira.
+<lb n="1397"/>Ja mari qui la portera
+<lb n="1398"/>A sa femme mal ne voldra
+<lb n="1399"/>Tant cum el fei li portera
+<lb n="1400"/>E el chastement errera,
+<lb n="1401"/>N'el <supplied resp="#editor" rend="crochets">n'</supplied> avra ire a sum mari,
+<lb n="1402"/>Mais tuz tens serrunt bon ami.
+<lb n="1403"/>Encor ad ele autre bonté :
+<lb n="1404"/><gap unit="lines" quantity="1" reason="points"/>
+<lb n="1405"/>Homes fait parlables e guerris,
+<lb n="1406"/>Vertuos sur lur enemis.
+<lb n="1407"/>Ydropicus qui la bevra,
+<lb n="1408"/>Ignelepas <supplied resp="#editor" rend="crochets">si</supplied> en garra,
+<lb n="1409"/>E del felun tot ensement
+<lb n="1410"/>Garrat par cest enseignement.
+<lb n="1411"/>E ki par treiz feiz la bevra,
+<lb n="1412"/>Ses genitaires pissera.
+<lb n="1413"/>Femme baraine devendra
+<lb n="1414"/>Magnete qui treiz feiz bevra.
+<lb n="1415"/>E se leires la puet aveir,
+<lb n="1416"/>Iço sacez que ço est veir,
+<lb n="1417"/>Il en purra gent enginner,
+<lb n="1418"/>Lur maisuns rober e bruiser.
+<lb n="1419"/>S'il met la pere en vis carbuns
+<lb n="1420"/>De quatre pars de lur maisuns,
+<lb n="1421"/>Cil qui de la maisun serra
+<lb n="1422"/>E sur les carbuns gardera,
+<pb n="250"/>
+<lb n="1423"/>Il s'escriera tut premer
+<lb n="1424"/>Que la maisun volt trebucher ;
+<lb n="1425"/>A ses compaignons criera :
+ <lb n="1426"/><q>« Fuions, fuions, ker ja carra ! »</q>
+<lb n="1427"/>Itant erent espoünté,
+<lb n="1428"/><w>Tu<supplied resp="#editor" rend="crochets">i</supplied>t</w> s'en fuirunt cume desvé,
+<lb n="1429"/>Et li lerres aprof vendra
+<lb n="1430"/>Ki lur maisun lur robera
+<lb n="1431"/>Par solement ceste achaisun.
+<lb n="1432"/>Atant fine ceste raisun.
+</ab>
+</div>
+<div part="N" n="LXIII">
+<head xml:lang="la">Melas.</head>
+<ab part="N" type="gv">
+<lb n="1433"/>Melas pere est de grant vertu,
+<lb n="1434"/>Issi cum il est coneü.
+<lb n="1435"/>Od beneïçun mult valdrat.
+<lb n="1436"/>Qui ceste pere porterad,
+<lb n="1437"/>Ses volentez aemplirad
+<lb n="1438"/>Del bien <w>qu<supplied resp="#editor" rend="crochets">e</supplied></w> il comencerat ;
+<lb n="1439"/>De tute rien paisif serrad ;
+<lb n="1440"/>De diables le defendrat ;
+<lb n="1441"/>Nule manere d'enferté
+<lb n="1442"/>N'avrat en sun cors poesté.
+<lb n="1443"/>Et quant la lune est en decurs
+<lb n="1444"/>Dunt a la pere tels vertuz,
+<lb n="1445"/>E quant la lune est en creissant
+<lb n="1446"/>Dunt n'en ad el ne tant ne quant.
+<lb n="1447"/>Itant suffist de ceste pere,
+<lb n="1448"/>Or voil dire d'autre manere.
+</ab>
+</div>
+<div part="N" n="LXIV">
+<head xml:lang="la">Macedonius lapis.</head>
+<ab part="N" type="gv">
+<lb n="1449"/>Macedonius ço est un nom
+<lb n="1450"/>D'une pere que nus trovum.
+<lb n="1451"/>Tel vertu ad la pere en sei
+<lb n="1452"/>Qu'une autre pere naist de sei.
+<pb n="251"/>
+<lb n="1453"/>Ja femme ne travillera
+<lb n="1454"/>De sun ventre qui ceste avra.
+<lb n="1455"/>Or finissent les peres de <hi rend="ital">M</hi>,
+<lb n="1456"/>E les peres comencent de <hi rend="ital">N</hi>.
+</ab>
+</div>
+<div part="N" n="LXV">
+<head xml:lang="la">Hieracitis.</head>
+<ab part="N" type="gv">
+<lb n="1457"/>Niger est d'une pere nom
+<lb n="1458"/>Que alquant nument <foreign xml:lang="la">gelaticum</foreign>.
+<lb n="1459"/>Mult est bone pur diviner.
+<lb n="1460"/>Qui si se voldra conreer,
+<lb n="1461"/>Sa buche deit ben conreer
+<lb n="1462"/>E desus sa langue poser,
+<lb n="1463"/>En cire od miel envoluper,
+<lb n="1464"/>E dunc s'irad tut deviner
+<lb n="1465"/>Iço que hom purpensera
+<lb n="1466"/>Ki a lui mal faire voldra,
+<lb n="1467"/>Ne ja escundit ne sera
+<lb n="1468"/>De rien que il demanderat.
+<lb n="1469"/>Amurus est hom qui la porte
+<lb n="1470"/>E mult li fait sa vertu <w>fort<supplied resp="#editor" rend="crochets">e</supplied></w>.
+<lb n="1471"/>E si hom la volt essaier,
+<lb n="1472"/>Desur ses reins la deit lier,
+<lb n="1473"/>Ne ja femme n'escondira
+<lb n="1474"/>Chose <w>qu<supplied resp="#editor" rend="crochets">e</supplied></w> il <w>demand<supplied resp="#editor" rend="crochets">e</supplied>ra</w> ;
+<lb n="1475"/>Ki a sa char nue l'avra,
+<lb n="1476"/>Pollucion en getera,
+<lb n="1477"/>E tantes feiz cum il voldra
+<lb n="1478"/>Od sa femme gesir purra,
+<lb n="1479"/>E tantes feiz i puet joer
+<lb n="1480"/><w>Qu<supplied resp="#editor" rend="crochets">e</supplied></w> il rendrat le sanc <supplied resp="#editor" rend="crochets">tut</supplied> cler.
+<lb n="1481"/>E si vulez faire autrement
+<lb n="1482"/>De ceste pere esprovement,
+<lb n="1483"/>Lait e mel ensemble mellez
+<lb n="1484"/>E icel home bien en luez,
+<lb n="1485"/>Ki ceste pere portera :
+<lb n="1486"/>Ja musche sur lui ne serra.
+<pb n="252"/>
+<lb n="1487"/>La pere de <hi rend="ital">N</hi> fenissum
+<lb n="1488"/>E les peres de <hi rend="ital">O</hi> cumençum.
+</ab>
+</div>
+<div part="N" n="LXVI">
+<head xml:lang="la">Oritis.</head>
+<ab part="N" type="gv">
+<lb n="1489"/>Oristes est <supplied resp="#editor" rend="crochets">pere</supplied> esprovee ;
+<lb n="1490"/>De treis maneres est trovee :
+<lb n="1491"/>Une est neire, l'autre est verte ;
+<lb n="1492"/>Neires tecches ad en la verte.
+<lb n="1493"/>Ki ceste pere portera,
+<lb n="1494"/>Ja pur beste mal <supplied resp="#editor" rend="crochets">n<supplied>en</supplied></supplied> avra,
+<lb n="1495"/>Tutes bestes surmuntera,
+<lb n="1496"/>Puinture mal ne li fera.
+<lb n="1497"/>Ki ceste pere volt prover,
+<lb n="1498"/>En fu ardant la deit getter ;
+<lb n="1499"/>Ensemble od lui s'i gete peres
+<lb n="1500"/>De mut autres dures maneres :
+<lb n="1501"/>Les peres arses trovera
+<lb n="1502"/>E oristes mal <w>n<supplied resp="#editor" rend="crochets">en</supplied></w> avra.
+<lb n="1503"/>Ki itel pere puet trover,
+<lb n="1504"/>Mult forment la deit honorer,
+<lb n="1505"/>Ker ja, tant cum sur lui l'avra,
+<lb n="1506"/>En nuil peril ne perira,
+<lb n="1507"/>Ne ja poür ne li prendra
+<lb n="1508"/>Pur nule rien que il verra.
+<lb n="1509"/>Encor ad la tierce manere,
+<lb n="1510"/>Que l'en trove en ceste pere :
+<lb n="1511"/>Cum <w>a<supplied resp="#editor" rend="crochets">le</supplied>mele</w> est sa manere,
+<lb n="1512"/>De l'une part plaine et legiere,
+<lb n="1513"/>De l'autre part ad brozimez,
+<lb n="1514"/>Cume ço fuissent <supplied resp="#editor" rend="crochets">clo</supplied> cloez.
+<lb n="1515"/>Ja nul enfant n'<w>engendr<supplied resp="#editor" rend="crochets">er</supplied>a</w>
+<lb n="1516"/>Qui ceste pere portera,
+<lb n="1517"/>Ne ja femme ne concevra,
+<lb n="1518"/>Se ceste pere sur sei ad.
+<lb n="1519"/>Se femme ençainte sur sei l'ad,
+<lb n="1520"/>Voille u nun, l'enfant larra,
+<pb n="253"/>
+<lb n="1521"/>Tant barhaine <supplied resp="#editor" rend="crochets">est</supplied> iceste pere.
+<lb n="1522"/>Itant suffist de sa manere.
+</ab>
+</div>
+<div part="N" n="LXVII">
+<head xml:lang="la">Opalus.</head>
+<ab part="N" type="gv">
+<lb n="1523"/>Optalius ço est un num
+<lb n="1524"/>De pere de bone façon,
+<lb n="1525"/>Ke ja mal as oilz nen avra
+<lb n="1526"/>Ki ceste pere portera,
+<lb n="1527"/>Ne ja nen ert prové larun
+<lb n="1528"/>Ki la pere ad a cumpaignun.
+<lb n="1529"/>Ja nel purrat lien tenir,
+<lb n="1530"/>De tuz fera a sun plaisir.
+<lb n="1531"/>D'iceste pere atant laisum,
+<lb n="1532"/>D'un'autre pere començum.
+</ab>
+</div>
+<div part="N" n="LXVIII">
+<head xml:lang="la">Obsianus.</head>
+<ab part="N" type="gv">
+<lb n="1533"/>Obsianus ço est une pere,
+<lb n="1534"/>Mult ad vertuose manere.
+<lb n="1535"/>Ki ceste pere portera,
+<lb n="1536"/>Ja sunge mal ne li fera :
+<lb n="1537"/>Ignelepas que il l'orra,
+<lb n="1538"/>Senz mençunge si l'espondra ;
+<lb n="1539"/>Ne <supplied resp="#editor" rend="crochets">nus</supplied> hom que il maldira
+<lb n="1540"/>Ja lungement puis ne vivra.
+<lb n="1541"/>Ki le soleil i enz peindra
+<lb n="1542"/>U la lune i entaillera,
+<lb n="1543"/>Ja de male mort ne murra ;
+<lb n="1544"/>Itant suffist de li ki l'ad.
+</ab>
+</div>
+<div part="N" n="LXIX">
+<head xml:lang="la">Onyx.</head>
+<ab part="N" type="gv">
+<lb n="1545"/>Onix c'est <supplied resp="#editor" rend="crochets">d'une</supplied> pere nom ;
+<lb n="1546"/>De cinc maneres le trovum :
+<lb n="1547"/>Faite cume ungle de main
+<lb n="1548"/>U cume pulcer de vilain.
+<pb n="254"/>
+<lb n="1549"/>En Inde ad d'ewe colur
+<lb n="1550"/>E blanches tecches ad en l'or.
+<lb n="1551"/>En Arabie est neire trovee,
+<lb n="1552"/>De blanches teches mes listee,
+<lb n="1553"/>E blanche en mi, bleuie envirun ;
+<lb n="1554"/>Mainte en est de tel façon.
+<lb n="1555"/>Ki ceste pere portera,
+<lb n="1556"/>Mult forment tençonos sera,
+<lb n="1557"/>E li premers nafré sera
+<lb n="1558"/>En la bataille u il serat.
+<lb n="1559"/>Pur ço di n'est pruz a porter.
+<lb n="1560"/>Atant voil ma raison finer.
+</ab>
+</div>
+<div part="N" n="LXX">
+<head xml:lang="la">Onichinus.</head>
+<ab part="N" type="gv">
+<lb n="1561"/>Onchinius est une pere
+<lb n="1562"/>Qui est de mut forte manere.
+<lb n="1563"/>Totes merveilles songera
+<lb n="1564"/>Qui ceste pere portera,
+<lb n="1565"/>E tençonus tuz tens serra,
+<lb n="1566"/><supplied resp="#editor" rend="crochets">Ne</supplied> ja leesce nen avra.
+<lb n="1567"/>Si cumme pudre est triblee
+<lb n="1568"/>Et en buche a chen seit getee,
+<lb n="1569"/>Issi forment escumera
+<lb n="1570"/>Cum un ver qui combatud s'at.
+<lb n="1571"/>Atant les peres de <hi rend="ital">O</hi> finum
+<lb n="1572"/>Et <w>cel<supplied>e</supplied>s</w> de <hi rend="ital">P</hi> cumençum.
+</ab>
+</div>
+<div part="N" n="LXXI">
+<head xml:lang="la">Pantheros.</head>
+<ab part="N" type="gv">
+<lb n="1573"/>Panteros est de pere nom
+<lb n="1574"/>E d'une beste que nus trovum ;
+<lb n="1575"/>E ben sacez que ceste pere
+<lb n="1576"/>Ad colur de mute manere ;
+<lb n="1577"/>Pur la beste est issi nomee
+<lb n="1578"/>Ki od plusurs colurs est nee.
+<pb n="255"/>
+<lb n="1579"/>Bon est a veer par matin
+<lb n="1580"/>Pur surmunter malveis veisin.
+<lb n="1581"/>Tel <w>sant<supplied resp="#editor" rend="crochets">e</supplied>é</w> en la pere ad :
+<lb n="1582"/>N'ert vencu qui la portera.
+<lb n="1583"/>Itant suffist de ceste pere,
+<lb n="1584"/>Or voil dire d'autre manere.
+</ab>
+</div>
+<div part="N" n="LXXII">
+<head xml:lang="la">Pyrites I.</head>
+<ab part="N" type="gv">
+<lb n="1585"/>Pyrites est de pere nom,
+<lb n="1586"/>Pur medicine la tenum.
+<lb n="1587"/>Ki ceste pere triblera
+<lb n="1588"/>E od ewe la mellerat
+<lb n="1589"/>E puis ses oilz en lavera,
+<lb n="1590"/>S'il i ad mal, senes garra.
+<lb n="1591"/>Se hom la beit qui ait la corance,
+<lb n="1592"/>Senes garra senz demurance.
+<lb n="1593"/>D'<w>icest<supplied resp="#editor" rend="crochets">e</supplied></w> pere atant finum,
+<lb n="1594"/>D'un'autre pere començum.
+</ab>
+</div>
+<div part="N" n="LXXIII">
+<head xml:lang="la">Pyrites II.</head>
+<ab part="N" type="gv">
+<lb n="1595"/>Pyrites est num d'une pere
+<lb n="1596"/>Ki ad en sei itel manere :
+<lb n="1597"/>Ki od sun dei la froterat,
+<lb n="1598"/><w>Cum<supplied resp="#editor" rend="crochets">e</supplied></w> de fu si s'en ardrat.
+<lb n="1599"/>Piere de gaiet l'apelum,
+<lb n="1600"/>Sulunc asquanz issi ad num ;
+<lb n="1601"/>E quant est froté li gaiet,
+<lb n="1602"/>Si trait <supplied resp="#editor" rend="crochets">a</supplied> sei straim et paillet.
+</ab>
+</div>
+<div part="N" n="LXXIV">
+<head xml:lang="la">Drosolithus.</head>
+<ab part="N" type="gv">
+<lb n="1603"/>Proselitus <supplied resp="#editor" rend="crochets">ço</supplied> est un num
+<lb n="1604"/>De une pere que nus trovum.
+<lb n="1605"/>Ki encontre fu la tendra,
+<lb n="1606"/>Ignelepas tressuiera.
+<pb n="256"/>
+<lb n="1607"/>En li autre vertu ne sai,
+<lb n="1608"/>Pur ço ceste raison lairrai.
+<lb n="1609"/>Les peres de <hi rend="ital">P</hi> fenissum,
+<lb n="1610"/>Celes de <hi rend="ital">S</hi> comencerum,
+<lb n="1611"/>Mais deus lettres i tressallum,
+<lb n="1612"/><hi rend="ital">Q</hi> et <hi rend="ital">R</hi>, par tel raisun
+<lb n="1613"/>Que jo ne puis pere tant querre
+<lb n="1614"/>Que comence par <hi rend="ital">Q</hi> ne <hi rend="ital">R</hi>.
+</ab>
+</div>
+<div part="N" n="LXXV">
+<head xml:lang="la">Selenitis.</head>
+<ab part="N" type="gv">
+<lb n="1615"/>Silenites pere est divine
+<lb n="1616"/>Ki ad en sei grant medicine.
+<lb n="1617"/>Langur ne gute nen avra
+<lb n="1618"/>Qui ceste pere portera.
+<lb n="1619"/>Ceste pere, quant est trovee,
+<lb n="1620"/><w>Cum<supplied resp="#editor" rend="crochets">e</supplied></w> yaspe est culuree.
+<lb n="1621"/><w>E<supplied resp="#editor" rend="crochets">n</supplied></w> ceste pere ad vertu grant,
+<lb n="1622"/>Si cum trovum Evax disant.
+<lb n="1623"/><w>Cest<supplied resp="#editor" rend="crochets">e</supplied></w> pere creist et descreist
+<lb n="1624"/><w>Quan<supplied resp="#editor" rend="crochets">t</supplied></w> la lune creist et descreist,
+<lb n="1625"/>Itant est sainte ceste pere.
+<lb n="1626"/>Or voil dire d'autre manere.
+</ab>
+</div>
+<div part="N" n="LXXVI">
+<head xml:lang="la">Sapphirus.</head>
+<ab part="N" type="gv">
+<lb n="1627"/>Saphirus est de pere nom,
+<lb n="1628"/>Sulunc asquanz sirtem a num ;
+<lb n="1629"/>En Libie naist en la contree
+<lb n="1630"/>Entre granz roches est trovee.
+<lb n="1631"/>Illuec la gette funz de mer ;
+<lb n="1632"/>Quant il retrait la puet trover.
+<lb n="1633"/>Ceste pere est defendement
+<lb n="1634"/>Encuntre tut encumbrement.
+<lb n="1635"/>Ki chastement la portera
+<lb n="1636"/>Pur prophete tenu serra.
+<pb n="257"/>
+<lb n="1637"/>Ki ceste pere ad a baillir,
+<lb n="1638"/>Ja prisun nel purrad tenir.
+<lb n="1639"/>Ja n'ert si forte sereüre
+<lb n="1640"/>Ne chaaine ne lieüre
+<lb n="1641"/>Que il ne pusse depecer,
+<lb n="1642"/>Se il i volt ben atocher.
+<lb n="1643"/>Ja hom ne li purra nuisir
+<lb n="1644"/>Ne ultre sun peis retenir,
+<lb n="1645"/>E par amistez <supplied resp="#editor" rend="crochets">il</supplied> fera
+<lb n="1646"/>Tut ço que il faire voldra.
+<lb n="1647"/>Les peres de <hi rend="ital">S</hi> fenissum,
+<lb n="1648"/>Celes de <hi rend="ital">T</hi> comencerum.
+</ab>
+</div>
+<div part="N" n="LXXVII">
+<head xml:lang="la">Tecolithus.</head>
+<ab part="N" type="gv">
+<lb n="1649"/>Tegolitus ço est un num
+<lb n="1650"/>D'une pere de tel façun
+<lb n="1651"/>Cume grain d'olive en verté,
+<lb n="1652"/>Et si est de mult grant bonté.
+<lb n="1653"/>Ki od ewe ceste bevra,
+<lb n="1654"/>Del mal des rains <supplied resp="#editor" rend="crochets">senes</supplied> garra.
+<lb n="1655"/>Ja n'ert tant greve l'enferté
+<lb n="1656"/>Dun il ne turge a santé,
+<lb n="1657"/>E s'il ad mal en la vessie,
+<lb n="1658"/>Senes garra par tel baillie.
+<lb n="1659"/>Atant fine ceste raisun,
+<lb n="1660"/><w>D'</w><w>un'</w>autre piere començom.
+</ab>
+</div>
+<div part="N" n="LXXVIII">
+<head xml:lang="la">Chrysitis.</head>
+<ab part="N" type="gv">
+<lb n="1661"/>Trisites est nun d'une pere,
+<lb n="1662"/>Cum l'arc del cel est sa manere :
+<lb n="1663"/>Ruge est e verte e inde e blanche ;
+<lb n="1664"/>Grant vertu <supplied resp="#editor" rend="crochets">i</supplied> ad senz dutance :
+<lb n="1665"/>Ki en sun dei la portera,
+<lb n="1666"/>Ja ire mal ne li fera.
+<pb n="258"/>
+<lb n="1667"/>Autres vertuz i puet aveir,
+<lb n="1668"/>Mais jo n'<w>e<supplied resp="#editor" rend="crochets">n</supplied></w> sai dire le veir,
+<lb n="1669"/>Ne mais iço que ai trové
+<lb n="1670"/>E essaiét et demustré,
+<lb n="1671"/>E autretant <supplied resp="#editor" rend="crochets">cum</supplied> Evax dit,
+<lb n="1672"/>Li reis d'Arrabe en sun escrit.
+ <lb rend="space-above"/>
+<lb n="1673"/>Or finent les peres de <hi rend="ital">T</hi>,
+<lb n="1674"/>Ensurquetut nostre <hi rend="ital">ABC</hi>.
+<lb n="1675"/>Nepurquant l'um puet trover peres
+<lb n="1676"/>De mut <w>autre<supplied resp="#editor" rend="crochets">s</supplied></w> plusurs maneres
+<lb n="1677"/>Dun jo n'ai <supplied resp="#editor" rend="crochets">pas</supplied> ici parlé,
+<lb n="1678"/>Ke jo n'en sai la verité ;
+<lb n="1679"/>Mais icestes unt vertu grant,
+<lb n="1680"/>D'iço trai Evax a garant ;
+<lb n="1681"/>S'eles sunt chastement portees,
+<lb n="1682"/>Beneïttes e consegrees.
+ <lb rend="space-above"/>
+<lb n="1683"/>Dirrunt cil qui nes conuistrunt :
+ <lb n="1684"/><q>« Puet cel estre que fables sunt ? »</q>
+<lb n="1685"/>Ne que avreie dunt penser
+<lb n="1686"/>Quant jo les vei desespereir ?
+<lb n="1687"/>Mais, s'il se volunt purpenser
+<lb n="1688"/>Et les peres espermenter,
+<lb n="1689"/>Lur creatur aürerunt
+<lb n="1690"/>Pur les miracles qu'il verrunt,
+<lb n="1691"/>Que il posa pur tote gent
+<lb n="1692"/>As peres medicinement ;
+<lb n="1693"/>Ensurquetut quatre maneres
+<lb n="1694"/>Mustrat medicine des peres :
+<lb n="1695"/>Pur le tocher, pur le porter,
+<lb n="1696"/>Pur le beivre, pur l'esguarder.
+<lb n="1697"/>Ces quatre maneres posad
+<lb n="1698"/>Deus, grant signifiance <supplied resp="#editor" rend="crochets">i</supplied> ad ;
+<lb n="1699"/>E ço dirrai en l'autre livre,
+<lb n="1700"/>Se Jhesu Christ me leisse vivre,
+<pb n="259"/>
+<lb n="1701"/>Kar ço ert tut allegorie
+<lb n="1702"/>De Jhesu Crist le fiz Marie.
+<lb n="1703"/>Tut ço serra divinité
+<lb n="1704"/>Qu'en l'autre livre ert demustré ;
+<lb n="1705"/>E al prologe musterum
+<lb n="1706"/>De qui auctorité traitum.
+<lb n="1707"/>E Deus m'aït al comencer
+<lb n="1708"/>E al finer et al traiter !
+<lb n="1709"/>Ci fine li livre terrestre
+<lb n="1710"/>E <supplied resp="#editor" rend="crochets">si</supplied> comence li celestre.
+				</ab>
+</div>
+</body>
+</text>
+</TEI>
