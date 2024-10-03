@@ -26,6 +26,7 @@
                             </xs:annotation>
                             <xs:simpleType>
                                 <xs:restriction base="xs:string">
+                                    <xs:enumeration value="french" />
                                     <xs:enumeration value="old-french" />
                                     <xs:enumeration value="ancient-greek" />
                                     <xs:enumeration value="latin" />
