@@ -2601,4 +2601,6 @@
     <item link="https://bibleglot.com/pair/Vulgate/FreSegond/Rev.21" language="latin" bilingual="true" filename="data/raw/data_latin/pair_Vulgate_FreSegond_Rev.21_la.txt" date="" place="" />
     <item link="https://bibleglot.com/pair/Vulgate/FreSegond/Rev.22" language="french" bilingual="true" filename="data/raw/data_latin/pair_Vulgate_FreSegond_Rev.22_fr.txt" date="" place="" />
     <item link="https://bibleglot.com/pair/Vulgate/FreSegond/Rev.22" language="latin" bilingual="true" filename="data/raw/data_latin/pair_Vulgate_FreSegond_Rev.22_la.txt" date="" place="" />
+    <item link="https://www.ohchr.org/en/human-rights/universal-declaration/translations/french" language="french" bilingual="true" filename="data/raw/data_latin/udhr_fr.txt" date="" place="" />
+    <item link="https://www.ohchr.org/en/human-rights/universal-declaration/translations/latin-latina" language="latin" bilingual="true" filename="data/raw/data_latin/udhr_la.txt" date="" place="" />
 </items>
