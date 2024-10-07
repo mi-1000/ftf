@@ -3,7 +3,6 @@
 <items>
     <item link="https://huggingface.co/datasets/grosenthal/latin_english_translation/viewer/default/train" language="latin" bilingual="true" filename="data/raw/data_latin/latin_english_translation.json" date="" place="" />
     <item link="https://syntacticus.org/source/proiel:20180408:greek-nt" language="ancient-greek" filename="data/raw/data_ancient_greek/greek-nt.xml" date="100" place="" />
-    <item link="https://www.frantext.fr" frantext-id="E174" language="old-french" filename="data/raw/data_old_french/La_Chanson_de_Roland.xml" date="1100" place="Normandy" />
     <item link="https://nakala.fr/10.34847/nkl.422d4qq6" language="old-french" filename="data/raw/data_old_french/mirsnicjuif.xml" date="" place="" />
     <item link="https://nakala.fr/10.34847/nkl.953cu90o" language="old-french" filename="data/raw/data_old_french/bestiaire.xml" date="1128" place="" />
     <item link="https://nakala.fr/10.34847/nkl.af360929" language="old-french" filename="data/raw/data_old_french/fauvel.xml" date="1310" place="" />
@@ -2603,4 +2602,35 @@
     <item link="https://bibleglot.com/pair/Vulgate/FreSegond/Rev.22" language="latin" bilingual="true" filename="data/raw/data_latin/pair_Vulgate_FreSegond_Rev.22_la.txt" date="" place="" />
     <item link="https://www.ohchr.org/en/human-rights/universal-declaration/translations/french" language="french" bilingual="true" filename="data/raw/data_latin/udhr_fr.txt" date="" place="" />
     <item link="https://www.ohchr.org/en/human-rights/universal-declaration/translations/latin-latina" language="latin" bilingual="true" filename="data/raw/data_latin/udhr_la.txt" date="" place="" />
+    <item link="https://www.frantext.fr" frantext-id="E174" language="old-french" filename="data/raw/data_old_french/La_Chanson_de_Roland.xml" date="1125" place="" />
+    <item link="https://www.frantext.fr" frantext-id="A015" language="old-french" filename="data/raw/data_old_french/Gormont_et_Isembart.xml" date="1130" place="" />
+    <item link="https://www.frantext.fr" frantext-id="A104" language="old-french" filename="data/raw/data_old_french/Moniage_Guillaume._Premiere_redaction.xml" date="1150" place="" />
+    <item link="https://www.frantext.fr" frantext-id="A114" language="old-french" filename="data/raw/data_old_french/Le_Roman_de_Brut.xml" date="1155" place="" />
+    <item link="https://www.frantext.fr" frantext-id="A012" language="old-french" filename="data/raw/data_old_french/ENEAS_:_Roman_du_XIIe_siecle_:_Tome_I.xml" date="1155" place="" />
+    <item link="https://www.frantext.fr" frantext-id="A013" language="old-french" filename="data/raw/data_old_french/ENEAS_:_Roman_du_XIIe_siecle_:_Tome_II.xml" date="1155" place="" />
+    <item link="https://www.frantext.fr" frantext-id="A004" language="old-french" filename="data/raw/data_old_french/Le_roman_d'Eneas.xml" date="1160" place="" />
+    <item link="https://www.frantext.fr" frantext-id="A006" language="old-french" filename="data/raw/data_old_french/Erec.xml" date="1170" place="" />
+    <item link="https://www.frantext.fr" frantext-id="A028" language="old-french" filename="data/raw/data_old_french/La_Vie_de_saint_Thomas_Becket.xml" date="1173" place="" />
+    <item link="https://www.frantext.fr" frantext-id="A118" language="old-french" filename="data/raw/data_old_french/Li_Quatre_Livre_des_Reis.xml" date="1175" place="" />
+    <item link="https://www.frantext.fr" frantext-id="A000" language="old-french" filename="data/raw/data_old_french/Cliges.xml" date="1176" place="" />
+    <item link="https://www.frantext.fr" frantext-id="A002" language="old-french" filename="data/raw/data_old_french/Yvain_ou_Le_Chevalier_au_Lion.xml" date="1177" place="" />
+    <item link="https://www.frantext.fr" frantext-id="A001" language="old-french" filename="data/raw/data_old_french/Lancelot_ou_Le_Chevalier_a_la_Charrette.xml" date="1177" place="" />
+    <item link="https://www.frantext.fr" frantext-id="A111" language="old-french" filename="data/raw/data_old_french/Roman_d_Alexandre,_branche_3.xml" date="1180" place="" />
+    <item link="https://www.frantext.fr" frantext-id="A105" language="old-french" filename="data/raw/data_old_french/Moniage_Guillaume._Seconde_Redaction.xml" date="1180" place="" />
+    <item link="https://www.frantext.fr" frantext-id="A112" language="old-french" filename="data/raw/data_old_french/Roman_d_Alexandre,_branche_4.xml" date="1180" place="" />
+    <item link="https://www.frantext.fr" frantext-id="A110" language="old-french" filename="data/raw/data_old_french/Roman_d_Alexandre,_branche_2.xml" date="1180" place="" />
+    <item link="https://www.frantext.fr" frantext-id="A109" language="old-french" filename="data/raw/data_old_french/Roman_d_Alexandre,_branche_1.xml" date="1180" place="" />
+    <item link="https://www.frantext.fr" frantext-id="A003" language="old-french" filename="data/raw/data_old_french/Perceval.xml" date="1181" place="" />
+    <item link="https://www.frantext.fr" frantext-id="A026" language="old-french" filename="data/raw/data_old_french/Les_chansons_de_Conon_de_Bethune.xml" date="1185" place="" />
+    <item link="https://www.frantext.fr" frantext-id="A107" language="old-french" filename="data/raw/data_old_french/Folie_Tristan_d_Oxford.xml" date="1190" place="" />
+    <item link="https://www.frantext.fr" frantext-id="A113" language="old-french" filename="data/raw/data_old_french/Le_Roman_de_l_Estoire_dou_Graal.xml" date="1199" place="" />
+    <item link="https://www.frantext.fr" frantext-id="R101" language="old-french" filename="data/raw/data_old_french/Le_jeu_de_saint_Nicolas.xml" date="1200" place="" />
+    <item link="https://www.frantext.fr" frantext-id="A108" language="old-french" filename="data/raw/data_old_french/Folie_Tristan_de_Berne.xml" date="1200" place="" />
+    <item link="https://www.frantext.fr" frantext-id="A031" language="old-french" filename="data/raw/data_old_french/La_conquete_de_Constantinople.xml" date="1205" place="" />
+    <item link="https://www.frantext.fr" frantext-id="A030" language="old-french" filename="data/raw/data_old_french/Le_Bel_Inconnu.xml" date="1214" place="" />
+    <item link="https://www.frantext.fr" frantext-id="R010" language="old-french" filename="data/raw/data_old_french/Œuvres_completes.xml" date="1249" place="" />
+    <item link="https://www.frantext.fr" frantext-id="A023" language="old-french" filename="data/raw/data_old_french/La_Chatelaine_de_Vergy.xml" date="1250" place="" />
+    <item link="https://www.frantext.fr" frantext-id="A007" language="old-french" filename="data/raw/data_old_french/Actes_de_Ferry_III,_duc_de_Lorraine.xml" date="1251" place="" />
+    <item link="https://www.frantext.fr" frantext-id="R099" language="old-french" filename="data/raw/data_old_french/Le_jeu_de_la_feuillee.xml" date="1276" place="" />
+    <item link="https://www.frantext.fr" frantext-id="R100" language="old-french" filename="data/raw/data_old_french/Le_jeu_de_Robin_et_Marion.xml" date="1285" place="" />
 </items>
