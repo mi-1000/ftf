@@ -28,6 +28,7 @@
                                 <xs:restriction base="xs:string">
                                     <xs:enumeration value="french" />
                                     <xs:enumeration value="old-french" />
+                                    <xs:enumeration value="middle-french" />
                                     <xs:enumeration value="ancient-greek" />
                                     <xs:enumeration value="latin" />
                                     <xs:enumeration value="egyptian" />
@@ -63,7 +64,7 @@
                             <xs:simpleType>
                                 <xs:restriction base="xs:anyURI">
                                     <xs:pattern
-                                        value="data\/raw\/data_(old_french|latin|ancient_greek)\/.*\.(xml|json|txt)" />
+                                        value="data\/raw\/data_(old_french|middle_french|latin|ancient_greek)\/.*\.(xml|json|txt)" />
                                 </xs:restriction>
                             </xs:simpleType>
                         </xs:attribute>
