@@ -138,4 +138,4 @@ if __name__ == "__main__":
     bible = compute_size_bible_latin()
     bfm = compute_size_bfm_old_french()
     frantext = compute_size_frantext_old_and_middle_french()
-    print(bible, bfm, frantext)
+    print(bible, bfm, frantext, sep='\n')
