@@ -2602,7 +2602,7 @@
     <item link="https://bibleglot.com/pair/Vulgate/FreSegond/Rev.22" language="latin" bilingual="true" filename="data/raw/data_latin/pair_Vulgate_FreSegond_Rev.22_la.txt" date="" place="" />
     <item link="https://www.ohchr.org/en/human-rights/universal-declaration/translations/french" language="french" bilingual="true" filename="data/raw/data_latin/udhr_fr.txt" date="" place="" />
     <item link="https://www.ohchr.org/en/human-rights/universal-declaration/translations/latin-latina" language="latin" bilingual="true" filename="data/raw/data_latin/udhr_la.txt" date="" place="" />
-    <item link="https://www.frantext.fr" frantext-id="E174" language="old-french" filename="data/raw/data_old_french/La_Chanson_de_Roland.xml" date="1125" place="" />
+    <item link="https://www.frantext.fr" frantext-id="E174" language="old-french" bilingual="true" filename="data/raw/data_old_french/La_Chanson_de_Roland.xml" date="1125" place="" />
     <item link="https://www.frantext.fr" frantext-id="A015" language="old-french" filename="data/raw/data_old_french/Gormont_et_Isembart.xml" date="1130" place="" />
     <item link="https://www.frantext.fr" frantext-id="A104" language="old-french" filename="data/raw/data_old_french/Moniage_Guillaume._Premiere_redaction.xml" date="1150" place="" />
     <item link="https://www.frantext.fr" frantext-id="A114" language="old-french" filename="data/raw/data_old_french/Le_Roman_de_Brut.xml" date="1155" place="" />
