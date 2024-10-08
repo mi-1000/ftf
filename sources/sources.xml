@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <?xml-model href="sources.xsd"?>
 <items>
+    <item link="https://fr.wikisource.org/wiki/La_Chanson_de_Roland/Joseph_B%C3%A9dier/La_Chanson_de_Roland/Bilingue/001-050" language="french" bilingual="true" filename="data/raw/data_latin/La_Chancon_de_Roland.txt" date="11" place="" />
     <item link="https://huggingface.co/datasets/grosenthal/latin_english_translation/viewer/default/train" language="latin" bilingual="true" filename="data/raw/data_latin/latin_english_translation.json" date="" place="" />
     <item link="https://syntacticus.org/source/proiel:20180408:greek-nt" language="ancient-greek" filename="data/raw/data_ancient_greek/greek-nt.xml" date="100" place="" />
     <item link="https://nakala.fr/10.34847/nkl.422d4qq6" language="old-french" filename="data/raw/data_old_french/mirsnicjuif.xml" date="" place="" />
