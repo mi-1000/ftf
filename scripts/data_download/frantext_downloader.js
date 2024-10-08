@@ -36,6 +36,7 @@ function downloadLegalTexts() {
     });
 
     // Generate XML string for all downloaded items
+    /** TODO: Change the XML string based on your actual data **/
     let xmlString = "";
     downloadedItems.forEach(item => {
         xmlString += `<item link="https://www.frantext.fr" frantext-id="${item.frantextId}" language="old-french" `;
