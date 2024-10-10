@@ -1,6 +1,5 @@
 from bs4 import BeautifulSoup
 
-from itertools import chain
 from os import listdir
 from os.path import isfile, join
 
@@ -131,7 +130,7 @@ def compute_size_frantext_old_and_middle_french():
     res += f" Total: {nb_files_old + nb_files_middle} files - {words_old + words_middle} words - {chars_old + chars_middle} characters ".center(_WIDTH, '=') + '\n'
     res += f" Old French: {nb_files_old} files - {words_old} words - {chars_old} characters ".center(_WIDTH, '=') + '\n'
     res += f" Middle French: {nb_files_middle} files - {words_middle} words - {chars_middle} characters ".center(_WIDTH, '=') + '\n'
-    res += "".center(_WIDTH, '=') + '\n\n'
+    res += "".center(_WIDTH, '=') + '\n'
     return res
 
 if __name__ == "__main__":
