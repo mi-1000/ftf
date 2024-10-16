@@ -2786,5 +2786,6 @@
     <item link="https://wortschatz.uni-leipzig.de/en/download/Latin" language="latin" filename="data/raw/data_latin/lat_wikipedia_latin.txt" date="" place="" />
     <item link="https://wortschatz.uni-leipzig.de/en/download/Latin" language="latin" filename="data/raw/data_latin/lat_wikipedia_2016_100K-sentences.txt" date="" place="" />
     <item link="https://wortschatz.uni-leipzig.de/en/download/Latin" language="latin" filename="data/raw/data_latin/lat_wikipedia_2018_100K-sentences.txt" date="" place="" />
+    <item link="https://wortschatz.uni-leipzig.de/en/download/Latin" language="latin" filename="data/raw/data_latin/lat_wikipedia_2021_100K-sentences" date="" place="" />
 
 </items>
