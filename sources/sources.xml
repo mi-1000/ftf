@@ -2783,4 +2783,6 @@
     <item link="https://gitlab.huma-num.fr/fabliaux/public/fabliaux-textes-diffusion/-/blob/main/TEI-TXM/VilainMire_Berlin-257.xml" language="old-french" filename="data/raw/data_old_french/VilainMire_Berlin-257.xml" date="1283" place="" />
     <item link="https://gitlab.huma-num.fr/fabliaux/public/fabliaux-textes-diffusion/-/blob/main/TEI-TXM/VilainOstelSire_Lyon-5495.xml" language="old-french" filename="data/raw/data_old_french/VilainOstelSire_Lyon-5495.xml" date="1300" place="" />
     <item link="https://gitlab.huma-num.fr/fabliaux/public/fabliaux-textes-diffusion/-/blob/main/TEI-TXM/VilainParadis_Nott-6.xml" language="old-french" filename="data/raw/data_old_french/VilainParadis_Nott-6.xml" date="1283" place="" />
+    <item link="https://wortschatz.uni-leipzig.de/en/download/Latin" language="latin" filename="data/raw/data_latin/lat_wikipedia_latin.txt" date="2014" place="" />
+
 </items>
