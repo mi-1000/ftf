@@ -6,6 +6,101 @@ import numpy as np
 from scipy.spatial.distance import cosine
 import Levenshtein as lev
 
+# Define model paths
+en_romance = "Helsinki-NLP/opus-mt-en-ROMANCE"
+romance_en = "Helsinki-NLP/opus-mt-ROMANCE-en"
+
+# Load tokenizers and models
+def load_model_and_tokenizer(model_name):
+    tokenizer = MarianTokenizer.from_pretrained(model_name)
+    model = MarianMTModel.from_pretrained(model_name)
+    return tokenizer, model
+
+# Translation function
+def translate_text(tokenizer, model, text, lang_token=">>fr<<"):
+    inputs = tokenizer(text, return_tensors="pt", padding=True)
+    translated = model.generate(**inputs)
+    return [tokenizer.decode(t, skip_special_tokens=True) for t in translated]
+
+# BLEU score function
+def compute_bleu_score(translated_text, reference_text):
+    bleu = sacrebleu.corpus_bleu(translated_text, [reference_text])
+    return bleu.score
+
+# chrF score function
+def compute_chrf_score(translated_text, reference_text):
+    chrf = sacrebleu.corpus_chrf(translated_text, [reference_text])
+    return chrf.score
+
+# BERTScore function
+def compute_bertscore(translated_text, reference_text, lang="fr"):
+    scorer = BERTScorer(lang=lang, rescale_with_baseline=True)
+    P, R, F1 = scorer.score(translated_text, reference_text)
+    return {
+        "precision": P.mean().item(),
+        "recall": R.mean().item(),
+        "f1": F1.mean().item(),
+    }
+
+# ROUGE score function
+def compute_rouge_score(translated_text, reference_text):
+    scorer = rouge_scorer.RougeScorer(['rouge1', 'rouge2', 'rougeL'], use_stemmer=True)
+    scores = [scorer.score(ref, pred) for ref, pred in zip(reference_text, translated_text)]
+    rouge_1 = np.mean([score['rouge1'].fmeasure for score in scores])
+    rouge_2 = np.mean([score['rouge2'].fmeasure for score in scores])
+    rouge_L = np.mean([score['rougeL'].fmeasure for score in scores])
+    return {"rouge1": rouge_1, "rouge2": rouge_2, "rougeL": rouge_L}
+
+# Cosine Similarity function
+def compute_cosine_similarity(embedding1, embedding2):
+    return 1 - cosine(embedding1, embedding2)
+
+# Levenshtein distance function
+def compute_levenshtein_distance(translated_text, reference_text):
+    distances = [lev.distance(pred, ref) for pred, ref in zip(translated_text, reference_text)]
+    return np.mean(distances)
+
+# Main pipeline function
+def evaluate_translation_pipeline(src_text, expected_text):
+    # Load models and tokenizers
+    tokenizer1, model1 = load_model_and_tokenizer(romance_en)  # Latin to French
+    tokenizer2, model2 = load_model_and_tokenizer(en_romance)  # French to English
+
+    # First translation: Latin to French
+    french_translation = translate_text(tokenizer1, model1, src_text)
+
+    # Add French token for the next step
+    french_translation_with_token = [f">>fr<< {sentence}" for sentence in french_translation]
+
+    # Second translation: French to English
+    english_translation = translate_text(tokenizer2, model2, french_translation_with_token)
+
+    # Compute BLEU
+    bleu_score = compute_bleu_score(english_translation, expected_text)
+    print(f"BLEU score: {bleu_score:.2f}")
+
+    # Compute chrF
+    chrf_score = compute_chrf_score(english_translation, expected_text)
+    print(f"chrF score: {chrf_score:.2f}")
+
+    # Compute BERTScore
+    bertscore = compute_bertscore(english_translation, expected_text)
+    print(f"BERTScore: Precision: {bertscore['precision']:.2f}, Recall: {bertscore['recall']:.2f}, F1: {bertscore['f1']:.2f}")
+
+    # Compute ROUGE
+    rouge_scores = compute_rouge_score(english_translation, expected_text)
+    print(f"ROUGE-1: {rouge_scores['rouge1']:.2f}, ROUGE-2: {rouge_scores['rouge2']:.2f}, ROUGE-L: {rouge_scores['rougeL']:.2f}")
+
+    # Cosine Similarity (dummy example, replace with real embeddings)
+    dummy_embedding1 = np.random.rand(768)
+    dummy_embedding2 = np.random.rand(768)
+    cosine_similarity = compute_cosine_similarity(dummy_embedding1, dummy_embedding2)
+    print(f"Cosine Similarity: {cosine_similarity:.2f}")
+
+    # Levenshtein distance
+    avg_levenshtein = compute_levenshtein_distance(english_translation, expected_text)
+    print(f"Average Levenshtein Distance: {avg_levenshtein:.2f}")
+
 # Source and target texts
 src_text = [
     ">>la<< Philisthim autem pugnabant contra Israhel fugeruntque viri Israhel Palestinos et ceciderunt vulnerati in monte Gelboe",
@@ -41,63 +136,5 @@ expected_text = [
     "Il ne consulta point l'Eternel; alors l'Eternel le fit mourir, et transféra la royauté à David, fils d'Isaï.",
 ]
 
-# Define model paths
-en_romance = "Helsinki-NLP/opus-mt-en-ROMANCE"
-romance_en = "Helsinki-NLP/opus-mt-ROMANCE-en"
-
-# Load tokenizers and models
-tokenizer1 = MarianTokenizer.from_pretrained(romance_en)
-model1 = MarianMTModel.from_pretrained(romance_en)
-tokenizer2 = MarianTokenizer.from_pretrained(en_romance)
-model2 = MarianMTModel.from_pretrained(en_romance)
-
-# First translation: Latin to French
-inputs = tokenizer1(src_text, return_tensors="pt", padding=True)
-translated = model1.generate(**inputs)
-tgt_text = [tokenizer1.decode(t, skip_special_tokens=True) for t in translated]
-
-# Prepare the translated text with the French language token
-list2 = [f">>fr<< {sentence}" for sentence in tgt_text]
-
-# Second translation: French to English
-inputs2 = tokenizer2(list2, return_tensors="pt", padding=True)
-translated2 = model2.generate(**inputs2)
-tgt_text2 = [tokenizer2.decode(t, skip_special_tokens=True) for t in translated2]
-
-# BLEU score
-bleu = sacrebleu.corpus_bleu(tgt_text2, [expected_text])
-print(f"BLEU score: {bleu.score:.2f}")
-
-# chrF score
-chrf = sacrebleu.corpus_chrf(tgt_text2, [expected_text])
-print(f"chrF score: {chrf.score:.2f}")
-
-# BERTScore
-scorer = BERTScorer(lang="fr", rescale_with_baseline=True)
-P, R, F1 = scorer.score(tgt_text2, expected_text)
-print(f"BERTScore: Precision: {P.mean().item():.2f}, Recall: {R.mean().item():.2f}, F1: {F1.mean().item():.2f}")
-
-# ROUGE score
-rouge_scorer = rouge_scorer.RougeScorer(['rouge1', 'rouge2', 'rougeL'], use_stemmer=True)
-rouge_scores = [rouge_scorer.score(expected, predicted) for expected, predicted in zip(expected_text, tgt_text2)]
-rouge_1 = np.mean([score['rouge1'].fmeasure for score in rouge_scores])
-rouge_2 = np.mean([score['rouge2'].fmeasure for score in rouge_scores])
-rouge_L = np.mean([score['rougeL'].fmeasure for score in rouge_scores])
-print(f"ROUGE-1: {rouge_1:.2f}, ROUGE-2: {rouge_2:.2f}, ROUGE-L: {rouge_L:.2f}")
-
-# Cosine Similarity
-def compute_cosine_similarity(text1, text2):
-    # Assuming embeddings from BERT (for example)
-    # Here, we could use embeddings, but for simplicity, we will use token counts.
-    return 1 - cosine(text1, text2)  # Replace with actual embeddings
-
-# Example with dummy vectors (update with real embeddings)
-dummy_embedding1 = np.random.rand(768)
-dummy_embedding2 = np.random.rand(768)
-cosine_sim = compute_cosine_similarity(dummy_embedding1, dummy_embedding2)
-print(f"Cosine Similarity: {cosine_sim:.2f}")
-
-# Levenshtein distance
-levenshtein_distances = [lev.distance(predicted, expected) for predicted, expected in zip(tgt_text2, expected_text)]
-avg_levenshtein = np.mean(levenshtein_distances)
-print(f"Average Levenshtein Distance: {avg_levenshtein:.2f}")
+if __name__ == "__main__":
+    evaluate_translation_pipeline(src_text, expected_text)
