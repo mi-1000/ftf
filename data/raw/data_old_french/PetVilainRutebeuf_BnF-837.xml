@@ -1,0 +1,1755 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="fro">Le pet au vilain</title>
+            <author>Rutebeuf
+<idno type="URI" subtype="JONAS">http://jonas.irht.cnrs.fr/intervenant/859</idno>
+               <idno type="URI" subtype="IDREF">http://www.idref.fr/027115755/id</idno>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2024</date>
+            </edition>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="acorbellari">Alain Corbellari</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="alavrent">Alexei Lavrentiev</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="apinche">Ariane Pinche</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="blaid">Baptiste Laïd</name>
+            </respStmt>
+            <respStmt>
+               <resp>robot</resp>
+               <name xml:id="bot">bot bot</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="cguillot">Céline Guillot-Barbance</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="clachet">Claude Lachet</name>
+            </respStmt>
+            <respStmt>
+               <resp>editeur</resp>
+               <resp>traducteur</resp>
+               <resp>chef de projet</resp>
+               <name xml:id="cpierreville">Corinne Pierreville</name>
+            </respStmt>
+            <respStmt>
+               <resp>relecteur</resp>
+               <resp>relecteur-traduction</resp>
+               <resp>membre</resp>
+               <name xml:id="ggruber">Gauthier Grüber</name>
+            </respStmt>
+            <respStmt>
+               <resp>ingénieur</resp>
+               <name xml:id="jnuguet">Jules Nuguet</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="ngarnier">Nicolas Garnier</name>
+            </respStmt>
+            <respStmt>
+               <resp>Relecteur traduction</resp>
+               <name xml:id="rbellon">Roger Bellon</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="rtrachsler">Richard Trachsler</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="veugene">Valentine Eugène</name>
+            </respStmt>
+            <respStmt>
+               <resp>ingénieur</resp>
+               <name xml:id="myamagata">Moe Yamagata</name>
+            </respStmt>
+            <respStmt>
+               <resp/>
+               <name xml:id="jdocks">Justine DOCKS</name>
+            </respStmt>
+            <respStmt>
+               <resp>editeur</resp>
+               <resp>relecteur</resp>
+               <resp>traducteur</resp>
+               <resp>relecteur-traduction</resp>
+               <resp/>
+               <name> </name>
+            </respStmt>
+         </editionStmt>
+         <extent>
+            <num xml:id="nb_tokens_given">529</num>
+            <num xml:id="nb_mots_given">476</num>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <name>ENS de Lyon / UMR 5317 IHRIM, Base de français médiéval, projet Fabliaux</name>
+            </publisher>
+            <address>
+               <addrLine>15, parvis René Descartes</addrLine>
+               <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+               <addrLine>Tél : 04 37 37 63 10</addrLine>
+               <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+               <addrLine>http://bfm.ens-lyon.fr</addrLine>
+            </address>
+            <idno type="bfm">http://catalog.bfm-corpus.org/fabliaux/PetVilainRutebeuf_BnF-837</idno>
+            <idno type="doi">10.34847/nkl.b00b233n</idno>
+            <availability status="free">
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <ab type="availability_bfm">Les Conditions générales d'utilisation de la Base de Français Médiéval (http://txm.bfm-corpus.org/bfm/files/CGU.pdf), 
+                        et notamment son Article 5 « PROPRIETE INTELLECTUELLE », s'appliquent à tous les textes de la BFM.</ab>
+                  <ab type="how_to_cite">
+                     <label>Comment citer ce texte :</label>
+                     <bibl>Rutebeuf, Le pet au vilain, édité par Corinne Pierreville en collaboration avec Gauthier Grüber. Publié en ligne par l’ENS de Lyon dans la Base de français médiéval, 
+2024, http://catalog.bfm-corpus.org/fabliaux/PetVilainRutebeuf_BnF-837.</bibl>
+                        D'autres formules de citation de la BFM sont proposées sur la page web suivante :
+                        http://bfm.ens-lyon.fr/spip.php?article281.</ab>
+                  <ab type="availability_file">
+                     <label>Conditions d'utilisation de ce fichier :</label>
+                        Ce fichier numérique est composé du corps de texte médiéval (restauré par son ou ses éditeur(s) scientifique(s)), des apparats critiques (introductions, notes, glossaires, explications, du texte d'origine (ou des enrichissements) qui ont été réalisés dans le cadre de la restauration des textes par les Editeurs Scientifiques) et des suppléments numériques : balisage XML-TEI, métadonnées (teiHeader), balisage du discours direct, étiquetage morpho-syntaxique, lemmatisation. Le texte et les suppléments numériques sont libres de droit et peuvent à ce titre être téléchargés et réutilisés librement. Les apparats critiques sont soumis à une licence de type CC BY-NC-SA 3.0 FR  http://creativecommons.org/licenses/by-nc-sa/3.0/fr. Les Utilisateurs s’engagent à respecter les termes de cette licence. 
+                    </ab>
+                  <ab type="availability_txmweb" subtype="illimité">
+                     <label>Conditions d'utilisation par le portail BFM :</label>
+                        Pas de limitation dans l'usage des fonctionnalités. Téléchargement autorisé.</ab>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="main" xml:id="BnF-837">
+               <msIdentifier>
+                  <settlement>Paris</settlement>
+                  <repository>Bibliothèque nationale de France</repository>
+                  <idno>français 837</idno>
+                  <idno type="URI" subtype="Notice" n="Arlima">https://www.arlima.net/mss/france/paris/bibliotheque_nationale_de_france/francais/837.html</idno>
+                  <idno type="URI" subtype="Notice" n="Jonas">http://jonas.irht.cnrs.fr/manuscrit/45562</idno>
+                  <idno type="URI" subtype="Notice" n="Archives_et_manuscrits">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc51085n</idno>
+                  <idno type="URI" subtype="Data" n="Biblissima">
+https://data.biblissima.fr/entity/Q52505</idno>
+                  <idno type="URI" subtype="Fac-similé">https://gallica.bnf.fr/ark:/12148/btv1b55013464t</idno>
+                  <idno type="URI" subtype="Manifeste_IIIF">https://gallica.bnf.fr/iiif/ark:/12148/btv1b55013464t/manifest.json</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem xml:id="deBordeorsRibaux_BnF-837">
+                     <title>Les deux Bordeors ribaux</title>
+                  </msItem>
+                  <msItem xml:id="deChangeors_BnF-837">
+                     <locus>f. 265v-267r</locus>
+                     <title>Les deux changeors</title>
+                  </msItem>
+                  <msItem xml:id="deChevausBodel_BnF-837">
+                     <locus>f. 248va-249vb</locus>
+                     <title>Les deus chevaus</title>
+                  </msItem>
+                  <msItem xml:id="trAveuglesCortebarbe_BnF-837">
+                     <locus>f. 073va-075rb</locus>
+                     <title>Les trois Aveugles de Compiegne</title>
+                  </msItem>
+                  <msItem xml:id="trBocusDurant_BnF-837">
+                     <locus>f. 238va-240ra</locus>
+                     <title>Les trois boçus menesterels</title>
+                  </msItem>
+                  <msItem xml:id="trDamesAnel1_BnF-837">
+                     <title>Les trois Dames qui troverent l'anel I</title>
+                  </msItem>
+                  <msItem xml:id="quSohaisMartin_BnF-837">
+                     <locus>f. 189ra-190ra</locus>
+                     <title>Les quatre souhais saint Martin</title>
+                  </msItem>
+                  <msItem xml:id="Aloul_BnF-837">
+                     <locus>f. 143v-148v</locus>
+                     <title>Aloul</title>
+                  </msItem>
+                  <msItem xml:id="AristoteHenrideValenciennes_BnF-837">
+                     <locus>f. 080rb-083rb</locus>
+                     <title>Le lai d'Aristote</title>
+                  </msItem>
+                  <msItem xml:id="Auberee_BnF-837">
+                     <locus>f. 024r-027ra</locus>
+                     <title>Auberee</title>
+                  </msItem>
+                  <msItem xml:id="BaratHaimetBodel_BnF-837">
+                     <locus>f. 051rb-054ra</locus>
+                     <title>Barat et Haimet</title>
+                  </msItem>
+                  <msItem xml:id="BatailleVinsHenriAndeli_BnF-837">
+                     <locus>f. 231va-232va</locus>
+                     <title>La bataille des vins</title>
+                  </msItem>
+                  <msItem xml:id="Berangier2_BnF-837">
+                     <locus>f. 209ra-210va</locus>
+                     <title>Berangier au long cul II</title>
+                  </msItem>
+                  <msItem xml:id="Boivin_BnF-837">
+                     <locus>f. 066va-068va</locus>
+                     <title>Boivin de Provins</title>
+                  </msItem>
+                  <msItem xml:id="BorgeoiseOrliens_BnF-837">
+                     <locus>f. 163ra-164rb</locus>
+                     <title>La Borgeoise d'Orliens</title>
+                  </msItem>
+                  <msItem xml:id="BouchierAbeville_BnF-837">
+                     <locus>f. 158va-161rb</locus>
+                     <title>Le bouchier d'Abeville</title>
+                  </msItem>
+                  <msItem xml:id="BourseSens_BnF-837">
+                     <locus>f. 068v-070v</locus>
+                     <title>La plaine borse de sens</title>
+                  </msItem>
+                  <msItem xml:id="BraiesCordelier_BnF-837">
+                     <locus>f. 154va-156rb</locus>
+                     <title>Les Braies au cordelier</title>
+                  </msItem>
+                  <msItem xml:id="BrancheArmes_BnF-837">
+                     <locus>f. 222vb-223ra</locus>
+                     <title>Une branche d'armes</title>
+                  </msItem>
+                  <msItem xml:id="BrunainBodel_BnF-837">
+                     <locus>f. 229rb-229va</locus>
+                     <title>Brunain la vache au prestre</title>
+                  </msItem>
+                  <msItem xml:id="ChevalierConfesse_BnF-837">
+                     <locus>f. 199rb-200vb</locus>
+                     <title>Le chevalier qui fist sa fame confesse</title>
+                  </msItem>
+                  <msItem xml:id="ChevalierParlerCons1Guerin_BnF-837">
+                     <locus>f. 148v-149v</locus>
+                     <title>Le chevalier qui fist les cons parler I</title>
+                  </msItem>
+                  <msItem xml:id="ChevalierVermeille_BnF-837">
+                     <locus>f. 128rb-129vb</locus>
+                     <title>Le Chevalier a la robe vermeille</title>
+                  </msItem>
+                  <msItem xml:id="ChevaliersClersVilains_BnF-837">
+                     <locus>f. 249vb-250ra</locus>
+                     <title>Les chevaliers, les clers et les villains</title>
+                  </msItem>
+                  <msItem xml:id="CoilleNoire_BnF-837">
+                     <locus>f. 236rb-237ra</locus>
+                     <title>La Couille noire</title>
+                  </msItem>
+                  <msItem xml:id="ConBesche_BnF-837">
+                     <locus>f. 170ra-170va</locus>
+                     <title>Le con qui fu fez a la besche</title>
+                  </msItem>
+                  <msItem xml:id="Cons_BnF-837">
+                     <locus>f. 241rb-241va</locus>
+                     <title>Des cons</title>
+                  </msItem>
+                  <msItem xml:id="Constant_BnF-837">
+                     <locus>f. 14ra-19ra</locus>
+                     <title>Constant du Hamel</title>
+                  </msItem>
+                  <msItem xml:id="Crote_BnF-837">
+                     <locus>f. 332vb-333ra</locus>
+                     <title>La crote</title>
+                  </msItem>
+                  <msItem xml:id="Cuvier_BnF-837">
+                     <locus>f. 234ra-234vb</locus>
+                     <title>Le Cuvier</title>
+                  </msItem>
+                  <msItem xml:id="DameTorsMoustierRutebeuf_BnF-837">
+                     <locus>f. 305va-306va</locus>
+                     <title>La dame qui fist trois tors entor le moustier</title>
+                  </msItem>
+                  <msItem xml:id="DamoiseleFoutre1_BnF-837">
+                     <locus>f. 182va-183ra</locus>
+                     <title>La damoisele qui ne pooit oïr parler de foutre I</title>
+                  </msItem>
+                  <msItem xml:id="DamoiseleSonjoit_BnF-837">
+                     <locus>f. 178rb-178vb</locus>
+                     <title>La Damoiselle qui sonjoit</title>
+                  </msItem>
+                  <msItem xml:id="DebatCulCon_BnF-837">
+                     <locus>f. 183v-184r</locus>
+                     <title>Le cul et le con</title>
+                  </msItem>
+                  <msItem xml:id="Dent_BnF-837">
+                     <locus>f. 197ra-197vb</locus>
+                     <title>De la Dent</title>
+                  </msItem>
+                  <msItem xml:id="EnfantSoleil_BnF-837">
+                     <locus>f. 241va-242rb</locus>
+                     <title>L'Enfant qui fu remis au soleil</title>
+                  </msItem>
+                  <msItem xml:id="Escuiruel_BnF-837">
+                     <locus>f. 333ra-334ra</locus>
+                     <title>L'Escuiruel</title>
+                  </msItem>
+                  <msItem xml:id="EstormiHuesPiaucele_BnF-837">
+                     <locus>f. 011ra-014ra</locus>
+                     <title>Estormi</title>
+                  </msItem>
+                  <msItem xml:id="Estula_BnF-837">
+                     <locus>f. 227vb-228va</locus>
+                     <title>Estula</title>
+                  </msItem>
+                  <msItem xml:id="FevreCreeil_BnF-837">
+                     <locus>f. 230va-231va</locus>
+                     <title>Le Fevre de Creeil</title>
+                  </msItem>
+                  <msItem xml:id="FoutreFosse_BnF-837">
+                     <locus>f. 166ra-166va</locus>
+                     <title>Celle qui se fist foutre sur la fosse de son mari</title>
+                  </msItem>
+                  <msItem xml:id="FrereDeniseRutebeuf_BnF-837">
+                     <locus>f. 329va-331rb</locus>
+                     <title>Frere Denise</title>
+                  </msItem>
+                  <msItem xml:id="Gombert2ClersBodel_BnF-837">
+                     <locus>f. 210va-211va</locus>
+                     <title>Gombert et les deus clers</title>
+                  </msItem>
+                  <msItem xml:id="Grue1_BnF-837">
+                     <locus>f. 188rb-189ra</locus>
+                     <title>La Damoisele a la grue I</title>
+                  </msItem>
+                  <msItem xml:id="HoussePartie1_BnF-837">
+                     <locus>f. 150ra-152ra</locus>
+                     <title>La Housse partie I</title>
+                  </msItem>
+                  <msItem xml:id="Jouglet_BnF-837">
+                     <locus>f. 116r-118r</locus>
+                     <title>Jouglet</title>
+                  </msItem>
+                  <msItem xml:id="MaleHonte2HuonDeCambrai_BnF-837">
+                     <locus>f. 233ra-233vb</locus>
+                     <title>La Male Honte II</title>
+                  </msItem>
+                  <msItem xml:id="OustillementVillainVilain_BnF-837">
+                     <locus>f. 119v-121</locus>
+                     <title>L'Oustillement au vilain</title>
+                  </msItem>
+                  <msItem xml:id="Perdris_BnF-837">
+                     <locus>f. 169rb-170ra</locus>
+                     <title>Les Pertris</title>
+                  </msItem>
+                  <msItem xml:id="Pescheor_BnF-837">
+                     <locus>f. 184rb-185rb</locus>
+                     <title>Du Pescheor de Pont seur Saine</title>
+                  </msItem>
+                  <msItem xml:id="PetVilainRutebeuf_BnF-837">
+                     <locus>f. 315ra-315rb</locus>
+                     <title>Le pet au vilain</title>
+                  </msItem>
+                  <msItem xml:id="Prestre2Ribaus_BnF-837">
+                     <locus>f. 235ra-236rb</locus>
+                     <title>Le Prestre et les deus ribaus</title>
+                  </msItem>
+                  <msItem xml:id="PrestreCrucefie_BnF-837">
+                     <locus>f. 183r-183v</locus>
+                     <title>Le prestre crucefié</title>
+                  </msItem>
+                  <msItem xml:id="PrestreMereForce_BnF-837">
+                     <locus>f. 229va-230va</locus>
+                     <title>Le Prestre qui ot mere a force</title>
+                  </msItem>
+                  <msItem xml:id="ProvostAumuche_BnF-837">
+                     <locus>f. 176va-177rb</locus>
+                     <title>Le Provost a l'aumuche</title>
+                  </msItem>
+                  <msItem xml:id="Saineresse_BnF-837">
+                     <locus>f. 211va-212ra</locus>
+                     <title>La saineresse</title>
+                  </msItem>
+                  <msItem xml:id="SaintPierre_BnF-837">
+                     <locus>f. 019ra-021ra</locus>
+                     <title>Saint Pierre et le jongleur</title>
+                  </msItem>
+                  <msItem xml:id="SireHain_BnF-837">
+                     <locus>f. 049rb-051rb</locus>
+                     <title>Sire Hain et dame Anieuse</title>
+                  </msItem>
+                  <msItem xml:id="SotChevalierGautierLeLeu_BnF-837">
+                     <locus>f. 277ra-278va</locus>
+                     <title>Le sot chevalier</title>
+                  </msItem>
+                  <msItem xml:id="Vallet12Fames_BnF-837">
+                     <locus>f. 185rb-186ra</locus>
+                     <title>Le Vallet aus douze fames</title>
+                  </msItem>
+                  <msItem xml:id="VieilleTruande_BnF-837">
+                     <locus>f. 212rb-213ra</locus>
+                     <title>La vieille Truande</title>
+                  </msItem>
+                  <msItem xml:id="VilainBailluelBodel_BnF-837">
+                     <locus>f. 242vb-243rb</locus>
+                     <title>Le Vilain de Bailluel</title>
+                  </msItem>
+                  <msItem xml:id="VilainBuffet_BnF-837">
+                     <locus>f. 275vb-277ra</locus>
+                     <title>Le Vilain au buffet</title>
+                  </msItem>
+                  <msItem xml:id="VilainMire_BnF-837">
+                     <locus>f. 139rb-141rb</locus>
+                     <title>Le Vilain Mire</title>
+                  </msItem>
+                  <msItem xml:id="VilainParadis_BnF-837">
+                     <locus>f. 228va-229rb</locus>
+                     <title>Le vilain qui conquist paradis par plait</title>
+                  </msItem>
+                  <msItem xml:id="VitCouille_BnF-837">
+                     <locus>f. 215rb-215vb</locus>
+                     <title>Du Vit et de la couille</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin notBefore="1290-01-01" notAfter="1299-12-31">
+                     <p>fin 13e s.</p>
+                  </origin>
+               </history>
+            </msDesc>
+            <msDesc type="other" xml:id="BnF-1593">
+               <msIdentifier>
+                  <settlement>Paris</settlement>
+                  <repository>Bibliothèque nationale de France</repository>
+                  <idno>français 1593</idno>
+                  <idno type="URI" subtype="Notice" n="Arlima">https://www.arlima.net/mss/france/paris/bibliotheque_nationale_de_france/francais/1593.html</idno>
+                  <idno type="URI" subtype="Notice" n="Jonas">https://jonas.irht.cnrs.fr/manuscrit/45631</idno>
+                  <idno type="URI" subtype="Notice" n="Archives_et_manuscrits">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc46127n</idno>
+                  <idno type="URI" subtype="Data" n="Biblissima">
+https://data.biblissima.fr/entity/Q47186</idno>
+                  <idno type="URI" subtype="Fac-similé">https://gallica.bnf.fr/ark:/12148/btv1b10076547k</idno>
+                  <idno type="URI" subtype="Fac-similé">https://gallica.bnf.fr/ark:/12148/btv1b6000803p</idno>
+                  <idno type="URI" subtype="Manifeste_IIIF">https://gallica.bnf.fr/ark:/12148/btv1b10076547k/manifest.json</idno>
+                  <idno type="URI" subtype="Manifeste_IIIF">https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000803p/manifest.json</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem xml:id="trAveuglesCortebarbe_BnF-1593">
+                     <locus>f. 105-107</locus>
+                     <title>Les trois Aveugles de Compiegne</title>
+                  </msItem>
+                  <msItem xml:id="trDamesVit1_BnF-1593">
+                     <locus>f. 149vb-150va</locus>
+                     <title>Les trois Dames qui troverent un vit I</title>
+                  </msItem>
+                  <msItem xml:id="AnelRoides_BnF-1593">
+                     <locus>f. 210v-211r</locus>
+                     <title>L'annel qui faisoit les vis grans et roides</title>
+                  </msItem>
+                  <msItem xml:id="AristoteHenrideValenciennes_BnF-1593">
+                     <locus>f. 154ra-156vb</locus>
+                     <title>Le lai d'Aristote</title>
+                  </msItem>
+                  <msItem xml:id="Auberee_BnF-1593">
+                     <locus>f. 213</locus>
+                     <title>Auberee</title>
+                  </msItem>
+                  <msItem xml:id="BourseSens_BnF-1593">
+                     <locus>f. 125v-128</locus>
+                     <title>La plaine borse de sens</title>
+                  </msItem>
+                  <msItem xml:id="ChevalierParlerCons1Guerin_BnF-1593">
+                     <locus>f. 208-212r</locus>
+                     <title>Le chevalier qui fist les cons parler I</title>
+                  </msItem>
+                  <msItem xml:id="ChevalierVermeille_BnF-1593">
+                     <locus>f. 177va-177vb</locus>
+                     <title>Le Chevalier a la robe vermeille</title>
+                  </msItem>
+                  <msItem xml:id="CoilleNoire_BnF-1593">
+                     <locus>f. 181-182</locus>
+                     <title>La Couille noire</title>
+                  </msItem>
+                  <msItem xml:id="ContrarieuseMarieDeFrance_BnF-1593">
+                     <locus>f. 098r-098v</locus>
+                     <title>La contrarieuse</title>
+                  </msItem>
+                  <msItem xml:id="Crote_BnF-1593">
+                     <locus>f. 180va-180vb</locus>
+                     <title>La crote</title>
+                  </msItem>
+                  <msItem xml:id="DameEscoillee_BnF-1593">
+                     <locus>f. 173v-177v</locus>
+                     <title>La dame escoillee</title>
+                  </msItem>
+                  <msItem xml:id="DameTorsMoustierRutebeuf_BnF-1593">
+                     <locus>f. 061-062</locus>
+                     <title>La dame qui fist trois tors entor le moustier</title>
+                  </msItem>
+                  <msItem xml:id="DamoiseleFoutre1_BnF-1593">
+                     <locus>f. 182r-182v</locus>
+                     <title>La damoisele qui ne pooit oïr parler de foutre I</title>
+                  </msItem>
+                  <msItem xml:id="Espervier_BnF-1593">
+                     <title>L'Espervier</title>
+                  </msItem>
+                  <msItem xml:id="FemmePendreMarieDeFrance_BnF-1593">
+                     <locus>f. 081rb-081rb</locus>
+                     <title>La femme qui fist pendre son mari</title>
+                  </msItem>
+                  <msItem xml:id="FoutreFosse_BnF-1593">
+                     <locus>f. 183v-184</locus>
+                     <title>Celle qui se fist foutre sur la fosse de son mari</title>
+                  </msItem>
+                  <msItem xml:id="GauteronMarion_BnF-1593">
+                     <locus>f. 208-208</locus>
+                     <title>Gauteron et Marion</title>
+                  </msItem>
+                  <msItem xml:id="Grue1_BnF-1593">
+                     <locus>f. 152-153</locus>
+                     <title>La Damoisele a la grue I</title>
+                  </msItem>
+                  <msItem xml:id="MaignienDame_BnF-1593">
+                     <locus>f. 149v-150v</locus>
+                     <title>Le maignien qui foti la dame</title>
+                  </msItem>
+                  <msItem xml:id="MaleHonte1Guillaume_BnF-1593">
+                     <title>La male honte I</title>
+                  </msItem>
+                  <msItem xml:id="OustillementVillainVilain_BnF-1593">
+                     <locus>f. 212-213</locus>
+                     <title>L'Oustillement au vilain</title>
+                  </msItem>
+                  <msItem xml:id="PetVilainRutebeuf_BnF-1593">
+                     <locus>f. 071-072</locus>
+                     <title>Le pet au vilain</title>
+                  </msItem>
+                  <msItem xml:id="PovreMercier_BnF-1593">
+                     <locus>f. 150-152</locus>
+                     <title>Le povre Mercier</title>
+                  </msItem>
+                  <msItem xml:id="PrestreAbevete_BnF-1593">
+                     <locus>f. 174r-174v</locus>
+                     <title>Le prestre ki abevete</title>
+                  </msItem>
+                  <msItem xml:id="PuceleVoler_BnF-1593">
+                     <locus>f. 184-185</locus>
+                     <title>La Pucele qui voloit voler</title>
+                  </msItem>
+                  <msItem xml:id="Segretain2_BnF-1593">
+                     <title>Le Segretain moine II</title>
+                  </msItem>
+                  <msItem xml:id="Vallet12Fames_BnF-1593">
+                     <locus>f. 186v-187r</locus>
+                     <title>Le Vallet aus douze fames</title>
+                  </msItem>
+                  <msItem xml:id="VilainBuffet_BnF-1593">
+                     <locus>f. 118-120</locus>
+                     <title>Le Vilain au buffet</title>
+                  </msItem>
+                  <msItem xml:id="VilainFameDru_BnF-1593">
+                     <locus>f. 074r-098v</locus>
+                     <title>Le Vilain qui od sa fame vit aller son dru</title>
+                  </msItem>
+                  <msItem xml:id="VilainFelunesse_BnF-1593">
+                     <locus>f. 074r-098v</locus>
+                     <title>Le Vilain et la femme felunesse</title>
+                  </msItem>
+                  <msItem xml:id="VilainFolet_BnF-1593">
+                     <locus>f. 074r-098v</locus>
+                     <title>Le Vilain et le folet</title>
+                  </msItem>
+                  <msItem xml:id="VilainHomeFeme_BnF-1593">
+                     <locus>f. 074r-098v</locus>
+                     <title>Le Vilain qui vit un autre home od sa feme</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin notBefore="1290-01-01" notAfter="1299-12-31">
+                     <p>fin 13e s.</p>
+                  </origin>
+               </history>
+            </msDesc>
+            <msDesc type="other" xml:id="BnF-1635">
+               <msIdentifier>
+                  <settlement>Paris</settlement>
+                  <repository>Bibliothèque nationale de France</repository>
+                  <idno>français 1635</idno>
+                  <idno type="URI" subtype="Notice" n="Arlima">https://www.arlima.net/mss/france/paris/bibliotheque_nationale_de_france/francais/1635.html</idno>
+                  <idno type="URI" subtype="Notice" n="Jonas">https://jonas.irht.cnrs.fr/manuscrit/45638</idno>
+                  <idno type="URI" subtype="Notice" n="Archives_et_manuscrits">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc46338f</idno>
+                  <idno type="URI" subtype="Data" n="Biblissima">
+https://data.biblissima.fr/entity/Q47344</idno>
+                  <idno type="URI" subtype="Fac-similé">https://gallica.bnf.fr/ark:/12148/btv1b105253083</idno>
+                  <idno type="URI" subtype="Manifeste_IIIF">https://gallica.bnf.fr/iiif/ark:/12148/btv1b105253083/manifest.json</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem xml:id="CharlotRutebeuf_BnF-1635">
+                     <locus>f. 062rb-063rb</locus>
+                     <title>Charlot le juif qui chia en la pel dou lievre</title>
+                  </msItem>
+                  <msItem xml:id="DameTorsMoustierRutebeuf_BnF-1635">
+                     <locus>f. 14va-15vb</locus>
+                     <title>La dame qui fist trois tors entor le moustier</title>
+                  </msItem>
+                  <msItem xml:id="FrereDeniseRutebeuf_BnF-1635">
+                     <locus>f. 060ra-062rb</locus>
+                     <title>Frere Denise</title>
+                  </msItem>
+                  <msItem xml:id="PetVilainRutebeuf_BnF-1635">
+                     <locus>f. 063rb-063vb</locus>
+                     <title>Le pet au vilain</title>
+                  </msItem>
+                  <msItem xml:id="TestamentAsneRutebeuf_BnF-1635">
+                     <locus>f. 004va-005vb</locus>
+                     <title>Le Testament de l'asne</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin notBefore="1200-01-01" notAfter="1299-12-31">
+                     <p>13e s.</p>
+                  </origin>
+               </history>
+            </msDesc>
+            <msDesc type="other" xml:id="Chantilly-475">
+               <msIdentifier>
+                  <settlement>Chantilly</settlement>
+                  <repository>Bibliothèque du Château</repository>
+                  <idno>475</idno>
+                  <idno type="URI" subtype="Notice" n="Jonas">https://jonas.irht.cnrs.fr/manuscrit/14808</idno>
+                  <idno type="URI" subtype="Data" n="Biblissima">
+https://data.biblissima.fr/entity/Q206727</idno>
+                  <idno type="URI" subtype="Fac-similé">https://bvmm.irht.cnrs.fr</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem xml:id="BouchierAbeville_Chantilly-475">
+                     <title>Le bouchier d'Abeville</title>
+                  </msItem>
+                  <msItem xml:id="DameTorsMoustierRutebeuf_Chantilly-475">
+                     <title>La dame qui fist trois tors entor le moustier</title>
+                  </msItem>
+                  <msItem xml:id="EnfantSoleil_Chantilly-475">
+                     <title>L'Enfant qui fu remis au soleil</title>
+                  </msItem>
+                  <msItem xml:id="PetVilainRutebeuf_Chantilly-475">
+                     <title>Le pet au vilain</title>
+                  </msItem>
+                  <msItem xml:id="VilainBailluelBodel_Chantilly-475">
+                     <title>Le Vilain de Bailluel</title>
+                  </msItem>
+                  <msItem xml:id="VilainBuffet_Chantilly-475">
+                     <title>Le Vilain au buffet</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>                     
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <title type="main" xml:lang="fro">Le pet au vilain</title>
+            <title type="alt" key="BnF 837; BnF 1593">Le pet au vilain</title>
+            <title type="alt" key="BnF 1635">Le dit du pet au vilain</title>
+            <title type="alt" key="Chantilly 475">Le Fablel dou Pet au Vilain qui fu portés en Enfer</title>
+            <title type="modern" xml:lang="fr">Le pet du rustre
+            </title>
+            <date notBefore="1230-01-01" notAfter="1290-12-31" when="1270-12-31">13e s.</date>
+            <region type="dialecte_oeuvre">Francien</region>
+            <idno type="INV" subtype="Montaiglon-Raynaud">68</idno>
+            <idno type="INV" subtype="Bedier">2</idno>
+            <idno type="INV" subtype="Nykrog">98</idno>
+            <idno type="INV" subtype="Jodogne">98</idno>
+            <idno type="INV" subtype="Kiesow">40</idno>
+            <idno type="INV" subtype="NRCF">55</idno>
+            <idno type="URI" n="Jonas">https://jonas.irht.cnrs.fr/oeuvre/12120</idno>
+            <idno type="URI" n="Arlima">https://www.arlima.net/qt/rutebeuf/le_pet_au_villain.html</idno>
+         </creation>
+         <langUsage>
+            <language ident="fro"/>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.bfm-corpus.org">
+               <term type="domaine">littérature</term>
+               <term type="genre" cert="medium">Fabliau</term>
+               <term type="forme">vers</term>
+               <term type="relation">non renseigné</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#cpierreville" when="2024-01-17T09:42:09" n="v1.0">Utilisation du fichier PetVilainRutebeuf[BnF 837]trad-v1.0.docx</change>
+         <change who="#cpierreville" when="2024-01-17T09:42:10" n="v2.0">Utilisation du fichier PetVilainRutebeuf[BnF 837]v2.0.docx</change>
+         <change who="#bot" when="2024-01-17" n="v2.0">Transformation avec Oxgarage du fichier PetVilainRutebeuf[BnF 837]2.0.docx</change>
+         <change who="#bot" when="2024-01-17" n="v1.0">Transformation avec Oxgarage du fichier PetVilainRutebeuf[BnF 837]1.0.docx</change>
+         <change who="#cpierreville" when="2024-01-18T09:11:20" n="v1.1">Utilisation du fichier PetVilainRutebeuf[BnF 837]trad-v1.1.docx</change>
+         <change who="#cpierreville" when="2024-01-18T08:56:51" n="v2.1">Utilisation du fichier PetVilainRutebeuf[BnF 837]v2.1.docx</change>
+         <change who="#bot" when="2024-01-18" n="v2.1">Transformation avec Oxgarage du fichier PetVilainRutebeuf[BnF 837]2.1.docx</change>
+         <change who="#bot" when="2024-01-18" n="v1.1">Transformation avec Oxgarage du fichier PetVilainRutebeuf[BnF 837]1.1.docx</change>
+         <change who="#ggruber" when="2024-01-29T16:12:42" n="v2.1">Utilisation du fichier PetVilainRutebeuf[BnF 837]v2.1_reluGG29-01-24.docx</change>
+         <change who="#cpierreville" when="2024-01-29T15:18:47" n="v2.2">Utilisation du fichier PetVilainRutebeuf[BnF 837]v2.2.docx</change>
+         <change who="#bot" when="2024-01-30" n="v2.2">Transformation avec Oxgarage du fichier PetVilainRutebeuf[BnF 837]2.2.docx</change>
+         <change who="#ggruber" when="2024-01-31T10:35:52" n="v1.1">Utilisation du fichier PetVilainRutebeuf[BnF 837]trad-v1.1_reluGG30-01-24.docx</change>
+         <change who="#cpierreville" when="2024-01-31T10:03:54" n="v1.2">Utilisation du fichier PetVilainRutebeuf[BnF 837]trad-v1.2.docx</change>
+         <change who="#bot" when="2024-02-01" n="v1.2">Transformation avec Oxgarage du fichier PetVilainRutebeuf[BnF 837]1.2.docx</change>
+         <change who="#cpierreville" when="2024-06-24T05:58:04" n="v1.3">Utilisation du fichier PetVilainRutebeuf[BnF 837]trad-v1.3.docx</change>
+         <change who="#bot" when="2024-06-24" n="v1.3">Transformation avec Oxgarage du fichier PetVilainRutebeuf[BnF 837]1.3.docx</change>
+         <change who="#cpierreville" when="2024-06-27T07:44:47" n="v1.4">Utilisation du fichier PetVilainRutebeuf[BnF 837]trad-v1.4.docx</change>
+         <change who="#bot" when="2024-06-27" n="v1.4">Transformation avec Oxgarage du fichier PetVilainRutebeuf[BnF 837]1.4.docx</change>
+      </revisionDesc>
+   </teiHeader>
+   <text source="PetVilainRutebeuf_BnF-837">
+      <body>
+         <pb n="315r"
+              xml:id="pb_1"
+              facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b55013464t/f639/full/pct:50/0/native.jpg"/>
+         <cb n="315ra"/>
+         <div>
+            <head>
+               <pc xml:id="w_PetVilainRutebeuf_BnF837_1">
+                  <choice>
+                     <orig>¶</orig>
+                     <reg>¶</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_PetVilainRutebeuf_BnF837_2">Le</w>
+               <w xml:id="w_PetVilainRutebeuf_BnF837_3">pet</w>
+               <w xml:id="w_PetVilainRutebeuf_BnF837_4">au</w>
+               <w xml:id="w_PetVilainRutebeuf_BnF837_5">villain</w>
+               <note type="philologique">
+                  <p rend="footnote text">Le titre est d’une main ultérieure, du 14e ou du 15e siècle.</p>
+               </note>
+            </head>
+            <lb/>
+            <lg>
+               <l n="1">
+                  <lb n="1"/>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_6"><g type="initiale" rend="size(8) sizeAct(8) color(gold)">E</g>n</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_7">paradis</w>
+                  <lb n="2"/>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_9">l’</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_10">esperitable</w>
+               </l>
+               <l n="2">
+                  <lb n="3"/>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_11">ont</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_12">gra<ex>n</ex>t</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_13">p<ex>ar</ex>t</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_14">la</w>
+                  <lb n="4"/>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_16"><choice><orig>G</orig><reg>g</reg></choice>ent</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_17">charitable</w>
+                  <pc xml:id="w_PetVilainRutebeuf_BnF837_18">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="3">
+                  <lb n="5"/>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_19"><choice><orig>M</orig><reg>m</reg></choice>es</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_20">cil</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_21">qu’</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_22">en</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_23">aus</w>
+                  <lb n="6"/>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_25">n’</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_26">ont</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_27">charité</w>
+               </l>
+               <l n="4">
+                  <lb n="7"/>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_28">ne</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_29">sens</w>
+                  <pc xml:id="w_PetVilainRutebeuf_BnF837_30">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_31">ne</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_32">bien</w>
+                  <pc xml:id="w_PetVilainRutebeuf_BnF837_33">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <lb n="8"/>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_35">ne</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_36">verité</w>
+                  <pc xml:id="w_PetVilainRutebeuf_BnF837_37">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="5">
+                  <lb n="9"/>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_38"><choice><orig>S</orig><reg>s</reg></choice>i</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_39">ont</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_40">failli</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_41">a</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_42">cele</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_43"><choice><orig>i</orig><reg>j</reg></choice>oie</w>
+               </l>
+               <l n="6">
+                  <lb n="10"/>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_44"><choice><orig>N</orig><reg>n</reg></choice>e</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_45">ne</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_46">cuit</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_47">q<ex>ue</ex></w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_48"><choice><orig>i</orig><reg>j</reg></choice>a</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_49">nus</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_50">en</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_51"><choice><orig>i</orig><reg>j</reg></choice>oie</w>
+                  <pc xml:id="w_PetVilainRutebeuf_BnF837_52">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="7">
+                  <lb n="11"/>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_53"><choice><orig>S</orig><reg>s</reg></choice>’</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_54">il</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_55">n’</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_56">a</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_57">en</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_58">lui</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_59">pitié</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_60">humaine</w>
+                  <pc xml:id="w_PetVilainRutebeuf_BnF837_61">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="8">
+                  <lb n="12"/>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_62">Ce</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_63">di</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_64"><choice><orig>i</orig><reg>j</reg></choice>e</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_65">por</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_66">la</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_67">ge<ex>n</ex>t</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_68">vilaine</w>
+               </l>
+               <l n="9">
+                  <lb n="13"/>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_69"><ex>c</ex>’</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_70"><ex>on</ex>q<ex>ue</ex>s</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_71">n’</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_72">amerent</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_73">clerc</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_74">ne</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_75">p<ex>re</ex>stre</w>
+                  <pc xml:id="w_PetVilainRutebeuf_BnF837_76">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="10">
+                  <lb n="14"/>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_77"><choice><orig>S</orig><reg>s</reg></choice>i</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_78">ne</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_79">cuit</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_80">pas</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_81">q<ex>ue</ex></w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_82"><choice><orig>d</orig><reg>D</reg></choice>iex</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_83" join="right">lor</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_84">p<ex>re</ex>ste</w>
+               </l>
+               <l n="11">
+                  <lb n="15"/>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_85">en</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_86">p<ex>ar</ex>adis</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_87">ne</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_88">leu</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_89">ne</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_90">place</w>
+                  <pc xml:id="w_PetVilainRutebeuf_BnF837_91">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="12">
+                  <lb n="16"/>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_92"><choice><orig>o</orig><reg>O</reg></choice>nq<ex>ue</ex>s</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_93">a</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_94" join="right"><choice><orig>j</orig><reg>J</reg></choice>h<ex>es</ex>u</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_95"><choice><orig>c</orig><reg>C</reg></choice>rist</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_96">ne</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_97">place</w>
+               </l>
+               <l n="13">
+                  <lb n="17"/>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_98">q<ex>ue</ex></w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_99">vilainz</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_100">ait</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_101">h<ex>er</ex>bregerie</w>
+               </l>
+               <l n="14">
+                  <lb n="18"/>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_102">a<choice><orig>u</orig><reg>v</reg></choice>oec</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_103">le</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_104">filz</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_105">sainte</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_106"><choice><orig>m</orig><reg>M</reg></choice>arie</w>
+               </l>
+               <l n="15">
+                  <lb n="19"/>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_107">q<ex>ua</ex>r</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_108">il</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_109">n’</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_110">est</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_111">reson</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_112">ne</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_113">droiture</w>
+                  <pc xml:id="w_PetVilainRutebeuf_BnF837_114">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="16">
+                  <lb n="20"/>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_115"><choice><orig>c</orig><reg>C</reg></choice>e</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_116">tro<choice><orig>u</orig><reg>v</reg></choice>ons</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_117">nous</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_118">e<ex>n</ex></w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_119"><choice><orig>e</orig><reg>E</reg></choice>scripture</w>
+               </l>
+               <l n="17">
+                  <lb n="21"/>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_120">p<ex>ar</ex>adis</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_121">ne</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_122">pueent</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_123">a<choice><orig>u</orig><reg>v</reg></choice>oir</w>
+               </l>
+               <l n="18">
+                  <lb n="22"/>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_124">por</w>
+                  <pc xml:id="w_PetVilainRutebeuf_BnF837_125">
+                     <choice>
+                        <orig>.</orig>
+                        <reg/>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_126">d<ex>eniers</ex></w>
+                  <pc xml:id="w_PetVilainRutebeuf_BnF837_127">
+                     <choice>
+                        <orig>.</orig>
+                        <reg/>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_128">ne</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_129">por</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_130">autre</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_131">a<choice><orig>u</orig><reg>v</reg></choice>oir</w>
+                  <pc xml:id="w_PetVilainRutebeuf_BnF837_132">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="19">
+                  <lb n="23"/>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_133"><ex>et</ex></w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_134">a</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_135">enfer</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_136">ront</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_137">il</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_138">failli</w>
+                  <pc xml:id="w_PetVilainRutebeuf_BnF837_139">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="20">
+                  <lb n="24"/>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_140">do<ex>n</ex>t</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_141">li</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_142">maufé</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_143">s<ex>on</ex>t</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_144">mal</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_145">bailli</w>
+                  <pc xml:id="w_PetVilainRutebeuf_BnF837_146">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="21">
+                  <lb n="25"/>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_147" join="right"><choice><orig>S</orig><reg>s</reg></choice>i</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_148">orrez</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_149">p<ex>ar</ex></w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_150">q<ex>ue</ex>l</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_151">mesprison</w>
+               </l>
+               <l n="22">
+                  <lb n="26"/>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_152"><choice><orig>I</orig><reg>i</reg></choice>l</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_153">p<ex>er</ex>dirent</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_154">cele</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_155">prison</w>
+                  <pc xml:id="w_PetVilainRutebeuf_BnF837_156">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+            </lg>
+            <lg>
+               <l n="23">
+                  <lb n="27"/>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_157"><choice><orig><g type="initiale" rend="size(2) sizeAct(2) color(red)">I</g></orig><reg><g type="initiale" rend="size(2) sizeAct(2) color(red)">J</g></reg></choice>adis</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_158">fu</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_159"><choice><orig>v</orig><reg>u</reg></choice>ns</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_160">vilains</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_161">enfers</w>
+                  <pc xml:id="w_PetVilainRutebeuf_BnF837_162">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="24">
+                  <lb n="28"/>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_163"><choice><orig>a</orig><reg>A</reg></choice>ppareilliez</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_164">estoit</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_165">enfers</w>
+               </l>
+               <l n="25">
+                  <lb n="29"/>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_166">por</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_167">l’</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_168">ame</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_169" join="right">au</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_170">vilain</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_171">rece<choice><orig>u</orig><reg>v</reg></choice>oir</w>
+                  <pc xml:id="w_PetVilainRutebeuf_BnF837_172">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="26">
+                  <lb n="30"/>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_173"><choice><orig>I</orig><reg>i</reg></choice>ce</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_174"><choice><orig>u</orig><reg>v</reg></choice><ex>ou</ex>s</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_175">di</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_176"><choice><orig>i</orig><reg>j</reg></choice>e</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_177">bien</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_178">de</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_179">voir</w>
+                  <pc xml:id="w_PetVilainRutebeuf_BnF837_180">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+                  <cb n="315rb"/>
+               </l>
+               <l n="27">
+                  <lb n="31"/>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_181"><choice><orig>v</orig><reg>U</reg></choice>ns</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_182">deables</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_183">i</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_184" join="right">ert</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_185">venuz</w>
+               </l>
+               <l n="28">
+                  <lb n="32"/>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_186">p<ex>ar</ex></w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_187">q<ex>ui</ex></w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_188">li</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_189">droiz</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_190">ert</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_191">maintenuz</w>
+                  <pc xml:id="w_PetVilainRutebeuf_BnF837_192">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="29">
+                  <lb n="33"/>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_193">Maintenant</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_194">q<ex>ue</ex></w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_195">leenz</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_196">desce<ex>n</ex>t</w>
+                  <pc xml:id="w_PetVilainRutebeuf_BnF837_197">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="30">
+                  <lb n="34"/>
+                  <num>
+                     <w xml:id="w_PetVilainRutebeuf_BnF837_198">.<choice><orig>I</orig><reg>i</reg></choice>.</w>
+                  </num>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_199">sac</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_200">de</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_201">cuir</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_202">au</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_203">cul</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_204">li</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_205">pent</w>
+               </l>
+               <l n="31">
+                  <lb n="35"/>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_206">q<ex>ua</ex>r</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_207">li</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_208">maufez</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_209">cuide</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_210">sanz</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_211">faille</w>
+               </l>
+               <l n="32">
+                  <lb n="36"/>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_212">q<ex>ue</ex></w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_213">l’</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_214">ame</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_215">p<ex>ar</ex></w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_216">le</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_217">cul</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_218">s’</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_219">en</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_220">aille</w>
+                  <pc xml:id="w_PetVilainRutebeuf_BnF837_221">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="33">
+                  <lb n="37"/>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_222"><choice><orig>M</orig><reg>m</reg></choice>es</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_223" join="right">li</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_224">vilains</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_225">por</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_226">garison</w>
+               </l>
+               <l n="34">
+                  <lb n="38"/>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_227">a<choice><orig>u</orig><reg>v</reg></choice>oit</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_228">ce</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_229">soir</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_230">prise</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_231">poison</w>
+                  <pc xml:id="w_PetVilainRutebeuf_BnF837_232">
+                     <choice>
+                        <orig/>
+                        <reg>:</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="35">
+                  <lb n="39"/>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_233">ta<ex>n</ex>t</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_234">ot</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_235">mengié</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_236">bon</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_237">buef</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_238">as</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_239">aus</w>
+               </l>
+               <l n="36">
+                  <lb n="40"/>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_240"><ex>et</ex></w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_241">du</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_242">cras</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_243">humé</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_244">q<ex>ui</ex></w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_245">fu</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_246">chaus</w>
+               </l>
+               <l n="37">
+                  <lb n="41"/>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_247">q<ex>ue</ex></w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_248">la</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_249">pance</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_250">n’</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_251">estoit</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_252">pas</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_253">mole</w>
+                  <pc xml:id="w_PetVilainRutebeuf_BnF837_254">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="38">
+                  <lb n="42"/>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_255">ainz</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_256">li</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_257">tent</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_258"><ex>com</ex></w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_259">corde</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_260">a</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_261">citole</w>
+                  <pc xml:id="w_PetVilainRutebeuf_BnF837_262">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="39">
+                  <lb n="43"/>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_263"><choice><orig>n</orig><reg>N</reg></choice>’</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_264">a</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_265">mes</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_266">doute</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_267">q<ex>u</ex>’</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_268"><ex>i</ex>l</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_269">soit</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_270">periz</w>
+                  <pc xml:id="w_PetVilainRutebeuf_BnF837_271">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="40">
+                  <lb n="44"/>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_272">S’</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_273">or</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_274">puet</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_275">poirre</w>
+                  <pc xml:id="w_PetVilainRutebeuf_BnF837_276">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_277">si</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_278">est</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_279">gariz</w>
+                  <pc xml:id="w_PetVilainRutebeuf_BnF837_280">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="41">
+                  <lb n="45"/>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_281"><choice><orig>a</orig><reg>A</reg></choice></w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_282">cest</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_283">enfort</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_284">form<ex>en</ex>t</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_285">s’</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_286">esforce</w>
+                  <pc xml:id="w_PetVilainRutebeuf_BnF837_287">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="42">
+                  <lb n="46"/>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_288">a</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_289">cest</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_290">esfort</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_291">met</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_292">il</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_293">sa</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_294">force</w>
+                  <pc xml:id="w_PetVilainRutebeuf_BnF837_295">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="43">
+                  <lb n="47"/>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_296"><choice><orig>t</orig><reg>T</reg></choice>a<ex>n</ex>t</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_297">s’</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_298">esforce</w>
+                  <pc xml:id="w_PetVilainRutebeuf_BnF837_299">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_300">ta<ex>n</ex>t</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_301">s’</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_302">es<choice><orig>u</orig><reg>v</reg></choice>ertue</w>
+                  <pc xml:id="w_PetVilainRutebeuf_BnF837_303">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="44">
+                  <lb n="48"/>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_304">ta<ex>n</ex>t</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_305">se</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_306">torne</w>
+                  <pc xml:id="w_PetVilainRutebeuf_BnF837_307">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_308">ta<ex>n</ex>t</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_309">se</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_310">remue</w>
+                  <pc xml:id="w_PetVilainRutebeuf_BnF837_311">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="45">
+                  <lb n="49"/>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_312">c’</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_313">uns</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_314">pes</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_315">en</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_316">saut</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_317">q<ex>ui</ex></w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_318">se</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_319">desroie</w>
+                  <pc xml:id="w_PetVilainRutebeuf_BnF837_320">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="46">
+                  <lb n="50"/>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_321" join="right">li</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_322">sas</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_323">e<ex>m</ex>plit</w>
+                  <pc xml:id="w_PetVilainRutebeuf_BnF837_324">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_325"><ex>et</ex></w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_326">cil</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_327">le</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_328">loie</w>
+                  <pc xml:id="w_PetVilainRutebeuf_BnF837_329">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="47">
+                  <lb n="51"/>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_330">q<ex>ua</ex>r</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_331">li</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_332">maufez</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_333">por</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_334">penitance</w>
+               </l>
+               <l n="48">
+                  <lb n="52"/>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_335">li</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_336">ot</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_337">aus</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_338">piez</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_339">foulé</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_340">la</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_341">pance</w>
+                  <pc xml:id="w_PetVilainRutebeuf_BnF837_342">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="49">
+                  <lb n="53"/>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_343"><ex>et</ex></w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_344">l’</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_345">en</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_346">dit</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_347">bien</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_348">en</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_349">repro<choice><orig>u</orig><reg>v</reg></choice>ier</w>
+               </l>
+               <l n="50">
+                  <lb n="54"/>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_350">q<ex>ue</ex></w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_351">trop</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_352">estraindre</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_353">fet</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_354">chiier</w>
+                  <pc xml:id="w_PetVilainRutebeuf_BnF837_355">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+               </l>
+            </lg>
+            <lg>
+               <l n="51">
+                  <lb n="55"/>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_356"><g type="initiale" rend="size(2) sizeAct(2) color(red)">T</g>ant</w>
+                  <note type="philologique">
+                     <p rend="footnote text">Le <hi rend="italic">T</hi> majuscule est un peu effacé, mais encore visible.</p>
+                  </note>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_357">ala</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_358">cil</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_359">q<ex>u</ex>’</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_360"><ex>i</ex>l</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_361">vi<ex>n</ex>t</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_362">a</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_363">porte</w>
+               </l>
+               <l n="52">
+                  <lb n="56"/>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_364">a<space type="degl"/>tout</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_365">le</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_366">pet</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_367">q<ex>u</ex>’</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_368"><ex>e</ex>l</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_369">sac</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_370">enporte</w>
+                  <pc xml:id="w_PetVilainRutebeuf_BnF837_371">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="53">
+                  <lb n="57"/>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_372"><choice><orig>e</orig><reg>E</reg></choice>n</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_373">enfer</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_374">gete</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_375">sac</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_376"><ex>et</ex></w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_377">tout</w>
+                  <pc xml:id="w_PetVilainRutebeuf_BnF837_378">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="54">
+                  <lb n="58"/>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_379"><ex>et</ex></w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_380">li</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_381">pes</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_382">en</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_383">sailli</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_384">a</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_385">bout</w>
+                  <pc xml:id="w_PetVilainRutebeuf_BnF837_386">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="55">
+                  <lb n="59"/>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_387"><choice><orig>e</orig><reg>E</reg></choice>stes</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_388">v<ex>ous</ex></w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_389">chascun</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_390">des</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_391">maufez</w>
+               </l>
+               <l n="56">
+                  <lb n="60"/>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_392"><choice><orig>M</orig><reg>m</reg></choice>autalentiz</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_393"><ex>et</ex></w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_394">eschaufez</w>
+                  <pc xml:id="w_PetVilainRutebeuf_BnF837_395">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="57">
+                  <lb n="61"/>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_396"><ex>et</ex></w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_397">maudient</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_398">ame</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_399">a</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_400">vilain</w>
+                  <pc xml:id="w_PetVilainRutebeuf_BnF837_401">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="58">
+                  <lb n="62"/>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_402"><choice><orig>c</orig><reg>C</reg></choice>hapitre</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_403">tindrent</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_404">lendemain</w>
+               </l>
+               <l n="59">
+                  <lb n="63"/>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_405"><ex>et</ex></w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_406">s’</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_407">acordent</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_408">a</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_409">cel</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_410">acort</w>
+               </l>
+               <l n="60">
+                  <lb n="64"/>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_411">q<ex>ue</ex></w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_412"><choice><orig>i</orig><reg>j</reg></choice>amés</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_413">nus</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_414">ame</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_415">n’</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_416">aport</w>
+               </l>
+               <l n="61">
+                  <lb n="65"/>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_417">q<ex>ui</ex></w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_418">de</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_419">vilain</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_420">sera</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_421">issue</w>
+                  <pc xml:id="w_PetVilainRutebeuf_BnF837_422">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="62">
+                  <lb n="66"/>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_423"><choice><orig>n</orig><reg>N</reg></choice>e</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_424">puet</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_425">estre</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_426">q<ex>u</ex>’</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_427"><ex>e</ex>le</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_428">ne</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_429">pue</w>
+                  <pc xml:id="w_PetVilainRutebeuf_BnF837_430">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="63">
+                  <lb n="67"/>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_431"><choice><orig>a</orig><reg>A</reg></choice></w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_432">ce</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_433">s’</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_434">acorderent</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_435"><choice><orig>i</orig><reg>j</reg></choice>adis</w>
+               </l>
+               <l n="64">
+                  <lb n="68"/>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_436">qu’</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_437">en</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_438">enfer</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_439">ne</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_440">en</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_441">paradis</w>
+               </l>
+               <l n="65">
+                  <lb n="69"/>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_442">ne</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_443">puet</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_444">vilains</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_445">entrer</w>
+                  <pc xml:id="w_PetVilainRutebeuf_BnF837_446">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_447">sanz</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_448">doute</w>
+                  <pc xml:id="w_PetVilainRutebeuf_BnF837_449">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="66">
+                  <lb n="70"/>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_450"><choice><orig>o</orig><reg>O</reg></choice>ï</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_451">a<choice><orig>u</orig><reg>v</reg></choice>ez</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_452">la</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_453">reson</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_454">toute</w>
+                  <pc xml:id="w_PetVilainRutebeuf_BnF837_455">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="67">
+                  <lb n="71"/>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_456"><choice><orig>r</orig><reg>R</reg></choice>utebues</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_457">ne</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_458">set</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_459">entremetre</w>
+               </l>
+               <l n="68">
+                  <lb n="72"/>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_460">ou</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_461">l’</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_462">en</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_463">puisse</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_464">ame</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_465">a</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_466">vilain</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_467">metre</w>
+                  <pc xml:id="w_PetVilainRutebeuf_BnF837_468">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="69">
+                  <lb n="73"/>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_469">q<ex>u</ex>’</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_470"><ex>e</ex>le</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_471">a</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_472">failli</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_473">a</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_474">ces</w>
+                  <num>
+                     <w xml:id="w_PetVilainRutebeuf_BnF837_475">.i<choice><orig>j</orig><reg>i</reg></choice>.</w>
+                  </num>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_476">raignes</w>
+                  <pc xml:id="w_PetVilainRutebeuf_BnF837_477">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="70">
+                  <lb n="74"/>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_478"><choice><orig>o</orig><reg>O</reg></choice>r</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_479">voist</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_480">chanter</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_481">a<choice><orig>u</orig><reg>v</reg></choice>oec</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_482">les</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_483">raines</w>
+               </l>
+               <l n="71">
+                  <lb n="75"/>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_484">q<ex>ue</ex></w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_485">c’</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_486">est</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_487">li</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_488">mieudres</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_489">q<ex>u</ex>’</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_490"><ex>i</ex>l</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_491">i</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_492">voie</w>
+                  <pc xml:id="w_PetVilainRutebeuf_BnF837_493">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="72">
+                  <lb n="76"/>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_494" join="right">ou</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_495">el</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_496">tiegne</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_497">droite</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_498">la</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_499">voie</w>
+               </l>
+               <l n="73">
+                  <lb n="77"/>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_500">por</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_501">sa</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_502">penitance</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_503">alegier</w>
+               </l>
+               <l n="74">
+                  <lb n="78"/>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_504">en</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_505">la</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_506">t<ex>er</ex>re</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_507">au</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_508">pere</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_509"><choice><orig>a</orig><reg>A</reg></choice>udegier</w>
+                  <pc xml:id="w_PetVilainRutebeuf_BnF837_510">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="75">
+                  <lb n="79"/>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_511">c’</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_512">est</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_513">en</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_514">la</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_515">t<ex>er</ex>re</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_516">de</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_517"><choice><orig>c</orig><reg>C</reg></choice>ocuce</w>
+               </l>
+               <l n="76">
+                  <lb n="80"/>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_518" join="right">ou</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_519"><choice><orig>a</orig><reg>A</reg></choice>udegiers</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_520">chie</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_521" join="right">e<ex>n</ex></w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_522">s’</w>
+                  <w xml:id="w_PetVilainRutebeuf_BnF837_523">aumuce</w>
+                  <pc xml:id="w_PetVilainRutebeuf_BnF837_524">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+               </l>
+            </lg>
+            <p rend="explicit" style="font-weight: bold; ">
+               <w xml:id="w_PetVilainRutebeuf_BnF837_525">Explicit</w>
+               <w xml:id="w_PetVilainRutebeuf_BnF837_526">le</w>
+               <w xml:id="w_PetVilainRutebeuf_BnF837_527">pet</w>
+               <w xml:id="w_PetVilainRutebeuf_BnF837_528">au</w>
+               <w xml:id="w_PetVilainRutebeuf_BnF837_529">vilain</w>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

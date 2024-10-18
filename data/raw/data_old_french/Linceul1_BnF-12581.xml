@@ -1,0 +1,1731 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="fro">Le linceul I (Les fables Pierre Aufors)</title>
+            <author>Anonyme</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2023</date>
+            </edition>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="acorbellari">Alain Corbellari</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="alavrent">Alexei Lavrentiev</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="apinche">Ariane Pinche</name>
+            </respStmt>
+            <respStmt>
+               <resp>editeur</resp>
+               <resp>membre</resp>
+               <name xml:id="blaid">Baptiste Laïd</name>
+            </respStmt>
+            <respStmt>
+               <resp>robot</resp>
+               <name xml:id="bot">bot bot</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="cguillot">Céline Guillot-Barbance</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="clachet">Claude Lachet</name>
+            </respStmt>
+            <respStmt>
+               <resp>relecteur</resp>
+               <resp>traducteur</resp>
+               <resp>chef de projet</resp>
+               <name xml:id="cpierreville">Corinne Pierreville</name>
+            </respStmt>
+            <respStmt>
+               <resp>relecteur-traduction</resp>
+               <resp>membre</resp>
+               <name xml:id="ggruber">Gauthier Grüber</name>
+            </respStmt>
+            <respStmt>
+               <resp>ingénieur</resp>
+               <name xml:id="jnuguet">Jules Nuguet</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="ngarnier">Nicolas Garnier</name>
+            </respStmt>
+            <respStmt>
+               <resp>Relecteur traduction</resp>
+               <name xml:id="rbellon">Roger Bellon</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="rtrachsler">Richard Trachsler</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="veugene">Valentine Eugène</name>
+            </respStmt>
+            <respStmt>
+               <resp>ingénieur</resp>
+               <name xml:id="myamagata">Moe Yamagata</name>
+            </respStmt>
+            <respStmt>
+               <resp/>
+               <name xml:id="jdocks">Justine DOCKS</name>
+            </respStmt>
+            <respStmt>
+               <resp>editeur</resp>
+               <resp>relecteur</resp>
+               <resp>traducteur</resp>
+               <resp>relecteur-traduction</resp>
+               <resp/>
+               <name> </name>
+            </respStmt>
+         </editionStmt>
+         <extent>
+            <num xml:id="nb_tokens_given">617</num>
+            <num xml:id="nb_mots_given">493</num>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <name>ENS de Lyon / UMR 5317 IHRIM, Base de français médiéval, projet Fabliaux</name>
+            </publisher>
+            <address>
+               <addrLine>15, parvis René Descartes</addrLine>
+               <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+               <addrLine>Tél : 04 37 37 63 10</addrLine>
+               <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+               <addrLine>http://bfm.ens-lyon.fr</addrLine>
+            </address>
+            <idno type="bfm">http://catalog.bfm-corpus.org/fabliaux/Linceul1_BnF-12581</idno>
+            <idno type="doi">10.34847/nkl.e576p7iu</idno>
+            <availability status="free">
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <ab type="availability_bfm">Les Conditions générales d'utilisation de la Base de Français Médiéval (http://txm.bfm-corpus.org/bfm/files/CGU.pdf), 
+                        et notamment son Article 5 « PROPRIETE INTELLECTUELLE », s'appliquent à tous les textes de la BFM.</ab>
+                  <ab type="how_to_cite">
+                     <label>Comment citer ce texte :</label>
+                     <bibl>Le linceul I (Les fables Pierre Aufors), édité par Baptiste Laïd en collaboration avec Corinne Pierreville. Publié en ligne par l’ENS de Lyon dans la Base de français médiéval, 
+2023, http://catalog.bfm-corpus.org/fabliaux/Linceul1_BnF-12581.</bibl>
+                        D'autres formules de citation de la BFM sont proposées sur la page web suivante :
+                        http://bfm.ens-lyon.fr/spip.php?article281.</ab>
+                  <ab type="availability_file">
+                     <label>Conditions d'utilisation de ce fichier :</label>
+                        Ce fichier numérique est composé du corps de texte médiéval (restauré par son ou ses éditeur(s) scientifique(s)), des apparats critiques (introductions, notes, glossaires, explications, du texte d'origine (ou des enrichissements) qui ont été réalisés dans le cadre de la restauration des textes par les Editeurs Scientifiques) et des suppléments numériques : balisage XML-TEI, métadonnées (teiHeader), balisage du discours direct, étiquetage morpho-syntaxique, lemmatisation. Le texte et les suppléments numériques sont libres de droit et peuvent à ce titre être téléchargés et réutilisés librement. Les apparats critiques sont soumis à une licence de type CC BY-NC-SA 3.0 FR  http://creativecommons.org/licenses/by-nc-sa/3.0/fr. Les Utilisateurs s’engagent à respecter les termes de cette licence. 
+                    </ab>
+                  <ab type="availability_txmweb" subtype="illimité">
+                     <label>Conditions d'utilisation par le portail BFM :</label>
+                        Pas de limitation dans l'usage des fonctionnalités. Téléchargement autorisé.</ab>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="main" xml:id="BnF-12581">
+               <msIdentifier>
+                  <settlement>Paris</settlement>
+                  <repository>Bibliothèque nationale de France</repository>
+                  <idno>français 12581</idno>
+                  <idno type="URI" subtype="Notice" n="Arlima">https://www.arlima.net/mss/france/paris/bibliotheque_nationale_de_france/francais/12581.html</idno>
+                  <idno type="URI" subtype="Notice" n="Jonas">https://jonas.irht.cnrs.fr/manuscrit/45808</idno>
+                  <idno type="URI" subtype="Notice" n="Archives_et_manuscrits">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc43768b</idno>
+                  <idno type="URI" subtype="Data" n="Biblissima">
+https://data.biblissima.fr/entity/Q46013</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem xml:id="AmantEpee1_BnF-12581">
+                     <locus>f. 414va-415va</locus>
+                     <title>L'epee 1</title>
+                  </msItem>
+                  <msItem xml:id="Charme1_BnF-12581">
+                     <locus>f. 413vb-414ra</locus>
+                     <title>Le charme I (Les fables Pierre Aufors)</title>
+                  </msItem>
+                  <msItem xml:id="Linceul1_BnF-12581">
+                     <locus>f. 414ra-414va</locus>
+                     <title>Le linceul I (Les fables Pierre Aufors)</title>
+                  </msItem>
+                  <msItem xml:id="Puis1_BnF-12581">
+                     <locus>f. 408ra-429vb</locus>
+                     <title>Le puis I (Les fables Pierre Aufors)</title>
+                  </msItem>
+                  <msItem xml:id="Tresces1Garin_BnF-12581">
+                     <locus>f. 373vb-375ra</locus>
+                     <title>Les tresces I</title>
+                  </msItem>
+                  <msItem xml:id="VieillePetiteChienne1_BnF-12581">
+                     <locus>f. 415vb-417va</locus>
+                     <title>La Vieille qui fit pleurer une petite chienne (Les Fables Pierre Aufors DC XIII)</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin notBefore="1200-01-01" notAfter="1399-12-31">
+                     <p>13e-14e s.</p>
+                  </origin>
+               </history>
+            </msDesc>
+            <msDesc type="other" xml:id="Add-10289">
+               <msIdentifier>
+                  <settlement>Londres</settlement>
+                  <repository>British Library</repository>
+                  <idno>Additional 10289</idno>
+                  <idno type="URI" subtype="Notice" n="Arlima">https://www.arlima.net/mss/united_kingdom/london/british_library/additional/10289.html</idno>
+                  <idno type="URI" subtype="Notice" n="Jonas">https://jonas.irht.cnrs.fr/manuscrit/29650</idno>
+                  <idno type="URI" subtype="Fac-similé">https://www.bl.uk/manuscripts/Viewer.aspx?ref=add_ms_10289_fs001r</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem xml:id="AmantEpee1_Add-10289">
+                     <locus>f. 133r-172r</locus>
+                     <title>L'epee 1</title>
+                  </msItem>
+                  <msItem xml:id="Charme1_Add-10289">
+                     <locus>f. 133r-172r</locus>
+                     <title>Le charme I (Les fables Pierre Aufors)</title>
+                  </msItem>
+                  <msItem xml:id="Jouglet_Add-10289">
+                     <locus>f. 175v-178v</locus>
+                     <title>Jouglet</title>
+                  </msItem>
+                  <msItem xml:id="Linceul1_Add-10289">
+                     <locus>f. 133r-172r</locus>
+                     <title>Le linceul I (Les fables Pierre Aufors)</title>
+                  </msItem>
+                  <msItem xml:id="Puis1_Add-10289">
+                     <locus>f. 133r-172r</locus>
+                     <title>Le puis I (Les fables Pierre Aufors)</title>
+                  </msItem>
+                  <msItem xml:id="VieillePetiteChienne1_Add-10289">
+                     <locus>f. 133r-172r</locus>
+                     <title>La Vieille qui fit pleurer une petite chienne (Les Fables Pierre Aufors DC XIII)</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin notBefore="1250-01-01" notAfter="1280-12-31">
+                     <p>2e moitié du 13e s.</p>
+                  </origin>
+               </history>
+            </msDesc>
+            <msDesc type="other" xml:id="Augs-1">
+               <msIdentifier>
+                  <settlement>Augsbourg</settlement>
+                  <repository>Universitätsbibliothek</repository>
+                  <idno>I. 4. 2° 1</idno>
+                  <idno type="URI" subtype="Notice" n="Arlima">https://www.arlima.net/mss/deutschland/augsburg/universitatsbibliothek/I_4_2_1.html</idno>
+                  <idno type="URI" subtype="Notice" n="Jonas">http://jonas.irht.cnrs.fr/manuscrit/4300</idno>
+                  <idno type="URI" subtype="Data" n="Biblissima">
+https://data.biblissima.fr/entity/Q267869</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem xml:id="AmantEpee1_Augs-1">
+                     <title>L'epee 1</title>
+                  </msItem>
+                  <msItem xml:id="Charme1_Augs-1">
+                     <title>Le charme I (Les fables Pierre Aufors)</title>
+                  </msItem>
+                  <msItem xml:id="Linceul1_Augs-1">
+                     <title>Le linceul I (Les fables Pierre Aufors)</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin notBefore="1280-01-01" notAfter="1284-12-31">
+                     <p>Le scribe déclare avoir terminé son travail en février 1284 (f. 325v)</p>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <title type="main" xml:lang="fro">Le linceul I (Les fables Pierre Aufors)</title>
+            <title type="alt">Le drap 1 (dans les Fables de Pierre Aufors)
+            </title>
+            <date notBefore="1200-01-01" notAfter="1299-12-31" when="1250-01-01">13e s.</date>
+            <region type="dialecte_oeuvre">Non défini</region>
+            <idno type="URI" n="Jonas">https://jonas.irht.cnrs.fr/oeuvre/5449</idno>
+            <idno type="URI" n="Arlima">https://www.arlima.net/eh/fables_pierre_aufors.html</idno>
+         </creation>
+         <langUsage>
+            <language ident="fro"/>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.bfm-corpus.org">
+               <term type="domaine">littérature</term>
+               <term type="genre" cert="low">Fabliau</term>
+               <term type="forme">vers</term>
+               <term type="relation">non renseigné</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#cpierreville" when="2023-05-25T14:00:28" n="v1.0">Utilisation du fichier Linceul1[BnF 12581]v1 relu CP.docx</change>
+         <change who="#blaid" when="2023-01-19T08:41:58" n="v1.0">Utilisation du fichier Linceul1[BnF 12581]v1.docx</change>
+         <change who="#bot" when="2023-07-10" n="v1.0">Transformation avec Oxgarage du fichier Linceul1[BnF 12581]1.0.docx</change>
+         <change who="#blaid" when="2023-09-21T16:52:18" n="v2.0">Utilisation du fichier Linceul1[BnF 12581]v2.docx</change>
+         <change who="#bot" when="2023-09-21" n="v2.0">Transformation avec Oxgarage du fichier Linceul1[BnF 12581]2.0.docx</change>
+         <change who="#cpierreville" when="2023-12-12T14:38:57" n="v1.1">Utilisation du fichier Linceul1[BnF 12581]trad-v1.1.docx</change>
+         <change who="#cpierreville" when="2023-12-12T14:38:56" n="v3.1">Utilisation du fichier Linceul1[BnF 12581]v3.1.docx</change>
+         <change who="#bot" when="2023-12-12" n="v3.1">Transformation avec Oxgarage du fichier Linceul1[BnF 12581]3.1.docx</change>
+         <change who="#bot" when="2023-12-12" n="v1.1">Transformation avec Oxgarage du fichier Linceul1[BnF 12581]1.1.docx</change>
+         <change who="#blaid" when="2023-12-14T11:56:22" n="v3.2">Utilisation du fichier Linceul1[BnF 12581]v3.2.docx</change>
+         <change who="#bot" when="2023-12-15" n="v3.2">Transformation avec Oxgarage du fichier Linceul1[BnF 12581]3.2.docx</change>
+         <change who="#blaid" when="2023-12-19T08:28:10" n="v3.3">Utilisation du fichier Linceul1[BnF 12581]v3.3.docx</change>
+         <change who="#bot" when="2023-12-19" n="v3.3">Transformation avec Oxgarage du fichier Linceul1[BnF 12581]3.3.docx</change>
+         <change who="#alavrent" when="2023-12-21T17:35:43" n="v3.4">Utilisation du fichier Linceul1[BnF 12581]v3.4 pieds de mouche.docx</change>
+         <change who="#bot" when="2023-12-22" n="v3.4">Transformation avec Oxgarage du fichier Linceul1[BnF 12581]3.4.docx</change>
+         <change who="#ohelary" when="2024-01-04T16:10:32" n="v1.2">Utilisation du fichier Linceul1[BnF 12581]trad-v1.2.docx</change>
+         <change who="#ohelary" when="2024-01-04T12:50:39" n="v3.5">Utilisation du fichier Linceul1[BnF 12581]v3.5 saut paragraphe.docx</change>
+         <change who="#bot" when="2024-01-05" n="v3.5">Transformation avec Oxgarage du fichier Linceul1[BnF 12581]3.5.docx</change>
+         <change who="#bot" when="2024-01-05" n="v1.2">Transformation avec Oxgarage du fichier Linceul1[BnF 12581]1.2.docx</change>
+         <change who="#ggruber" when="2024-06-23T16:19:48" n="v1.2">Utilisation du fichier Linceul1[BnF 12581]trad-v1.2_reluGG.docx</change>
+         <change who="#cpierreville" when="2024-06-24T05:09:06" n="v1.3">Utilisation du fichier Linceul1[BnF 12581]trad-v1.3.docx</change>
+         <change who="#bot" when="2024-06-24" n="v1.3">Transformation avec Oxgarage du fichier Linceul1[BnF 12581]1.3.docx</change>
+         <change who="#cpierreville" when="2024-08-22T08:40:31" n="v1.4">Utilisation du fichier Linceul1[BnF 12581]trad-v1.4.docx</change>
+         <change who="#bot" when="2024-08-23" n="v1.4">Transformation avec Oxgarage du fichier Linceul1[BnF 12581]1.4.docx</change>
+      </revisionDesc>
+   </teiHeader>
+   <text source="Linceul1_BnF-12581">
+      <body>
+         <pb n="414r"
+              xml:id="pb_1"
+              facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b53000323h/f843/full/pct:50/0/native.jpg"/>
+         <cb n="414ra"/>
+         <lg>
+            <l n="1">
+               <lb n="1"/>
+               <w xml:id="w_Linceul1_BnF12581_1"><g type="initiale" rend="size(2) sizeAct(2) color(blue)">O</g>r</w>
+               <w xml:id="w_Linceul1_BnF12581_2">oiez</w>
+               <w xml:id="w_Linceul1_BnF12581_3"><choice><orig>v</orig><reg>u</reg></choice>ne</w>
+               <w xml:id="w_Linceul1_BnF12581_4">autre</w>
+               <w xml:id="w_Linceul1_BnF12581_5">cointise</w>
+               <pc xml:id="w_Linceul1_BnF12581_6">
+                  <choice>
+                     <orig>.</orig>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="2">
+               <w xml:id="w_Linceul1_BnF12581_7"><choice><orig>V</orig><reg>U</reg></choice>ns</w>
+               <w xml:id="w_Linceul1_BnF12581_8">prodo<ex>n</ex>s</w>
+               <lb n="2"/>
+               <w xml:id="w_Linceul1_BnF12581_10">a<choice><orig>u</orig><reg>v</reg></choice>oit</w>
+               <w xml:id="w_Linceul1_BnF12581_11">fame</w>
+               <w xml:id="w_Linceul1_BnF12581_12">prise</w>
+               <pc xml:id="w_Linceul1_BnF12581_13">
+                  <choice>
+                     <orig>.</orig>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="3">
+               <w xml:id="w_Linceul1_BnF12581_14">Sa</w>
+               <w xml:id="w_Linceul1_BnF12581_15">suer</w>
+               <w xml:id="w_Linceul1_BnF12581_16">a<choice><orig>u</orig><reg>v</reg></choice>ecq<ex>uë</ex></w>
+               <w xml:id="w_Linceul1_BnF12581_17">aus</w>
+               <lb n="3"/>
+               <w xml:id="w_Linceul1_BnF12581_19">menoit</w>
+               <pc xml:id="w_Linceul1_BnF12581_20">
+                  <choice>
+                     <orig>.</orig>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="4">
+               <w xml:id="w_Linceul1_BnF12581_21"><choice><orig>E</orig><reg>e</reg></choice>n</w>
+               <w xml:id="w_Linceul1_BnF12581_22">cui</w>
+               <w xml:id="w_Linceul1_BnF12581_23">se</w>
+               <w xml:id="w_Linceul1_BnF12581_24">creoit</w>
+               <w xml:id="w_Linceul1_BnF12581_25"><ex>et</ex></w>
+               <w xml:id="w_Linceul1_BnF12581_26">fïoit</w>
+               <pc xml:id="w_Linceul1_BnF12581_27">
+                  <choice>
+                     <orig>.</orig>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="5">
+               <w xml:id="w_Linceul1_BnF12581_28">Sa</w>
+               <w xml:id="w_Linceul1_BnF12581_29">fame</w>
+               <cb n="414rb" rend="hyphen(=)"/>
+               <lb n="4"/>
+               <w xml:id="w_Linceul1_BnF12581_32">a</w>
+               <w xml:id="w_Linceul1_BnF12581_33">garder</w>
+               <w xml:id="w_Linceul1_BnF12581_34">li</w>
+               <w xml:id="w_Linceul1_BnF12581_35">bailla</w>
+               <pc xml:id="w_Linceul1_BnF12581_36">
+                  <choice>
+                     <orig>.</orig>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="6">
+               <w xml:id="w_Linceul1_BnF12581_37">En</w>
+               <num>
+                  <w xml:id="w_Linceul1_BnF12581_38">.i.</w>
+               </num>
+               <w xml:id="w_Linceul1_BnF12581_39">sien</w>
+               <w xml:id="w_Linceul1_BnF12581_40">besoig</w>
+               <w xml:id="w_Linceul1_BnF12581_41">en</w>
+               <lb n="5"/>
+               <w xml:id="w_Linceul1_BnF12581_43">ala</w>
+               <pc xml:id="w_Linceul1_BnF12581_44">
+                  <choice>
+                     <orig>.</orig>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="7">
+               <hi rend="color-red">
+                  <pc xml:id="w_Linceul1_BnF12581_45">
+                     <choice>
+                        <orig>¶</orig>
+                        <reg/>
+                     </choice>
+                  </pc>
+               </hi>
+               <w xml:id="w_Linceul1_BnF12581_46">La</w>
+               <w xml:id="w_Linceul1_BnF12581_47">mechine</w>
+               <w xml:id="w_Linceul1_BnF12581_48">qui</w>
+               <w xml:id="w_Linceul1_BnF12581_49">fu</w>
+               <w xml:id="w_Linceul1_BnF12581_50">souti<choice><orig>u</orig><reg>v</reg></choice>e</w>
+               <pc xml:id="w_Linceul1_BnF12581_51">
+                  <choice>
+                     <orig>.</orig>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="8">
+               <w xml:id="w_Linceul1_BnF12581_52"><choice><orig>Q</orig><reg>q</reg></choice>ua<ex>n</ex>t</w>
+               <lb n="6"/>
+               <w xml:id="w_Linceul1_BnF12581_54" join="right">o</w>
+               <w xml:id="w_Linceul1_BnF12581_55">sa</w>
+               <w xml:id="w_Linceul1_BnF12581_56">mere</w>
+               <w xml:id="w_Linceul1_BnF12581_57">fu</w>
+               <w xml:id="w_Linceul1_BnF12581_58">seulie</w>
+               <pc xml:id="w_Linceul1_BnF12581_59">
+                  <choice>
+                     <orig>.</orig>
+                     <reg>:</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="9">
+               <pc xml:id="w_Linceul1_BnF12581_60">
+                  <choice>
+                     <orig/>
+                     <reg>«</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_Linceul1_BnF12581_61">Mere</w>
+               <pc xml:id="w_Linceul1_BnF12581_62">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_Linceul1_BnF12581_63">dit</w>
+               <w xml:id="w_Linceul1_BnF12581_64">ele</w>
+               <pc xml:id="w_Linceul1_BnF12581_65">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_Linceul1_BnF12581_66">enten<lb n="7"/>dez</w>
+               <w xml:id="w_Linceul1_BnF12581_67">ça</w>
+               <pc xml:id="w_Linceul1_BnF12581_68">
+                  <choice>
+                     <orig>.</orig>
+                     <reg>:</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="10">
+               <w xml:id="w_Linceul1_BnF12581_69"><choice><orig>P</orig><reg>p</reg></choice>or</w>
+               <w xml:id="w_Linceul1_BnF12581_70">quoi</w>
+               <w xml:id="w_Linceul1_BnF12581_71"><choice><orig>u</orig><reg>v</reg></choice>it</w>
+               <w xml:id="w_Linceul1_BnF12581_72">nus</w>
+               <w xml:id="w_Linceul1_BnF12581_73">qui</w>
+               <w xml:id="w_Linceul1_BnF12581_74">bien</w>
+               <w xml:id="w_Linceul1_BnF12581_75">n’</w>
+               <w xml:id="w_Linceul1_BnF12581_76">en</w>
+               <w xml:id="w_Linceul1_BnF12581_77">a</w>
+               <pc xml:id="w_Linceul1_BnF12581_78">
+                  <choice>
+                     <orig>.</orig>
+                     <reg>?</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="11">
+               <w xml:id="w_Linceul1_BnF12581_79">M<ex>o</ex>lt</w>
+               <lb n="8"/>
+               <w xml:id="w_Linceul1_BnF12581_81">mai<ex>n</ex>ne</w>
+               <w xml:id="w_Linceul1_BnF12581_82">cil</w>
+               <w xml:id="w_Linceul1_BnF12581_83">dolante</w>
+               <w xml:id="w_Linceul1_BnF12581_84"><choice><orig>u</orig><reg>v</reg></choice>ie</w>
+               <pc xml:id="w_Linceul1_BnF12581_85">
+                  <choice>
+                     <orig>.</orig>
+                     <reg/>
+                  </choice>
+               </pc>
+            </l>
+            <l n="12">
+               <w xml:id="w_Linceul1_BnF12581_86"><choice><orig>Q</orig><reg>q</reg></choice>ui</w>
+               <w xml:id="w_Linceul1_BnF12581_87">nule</w>
+               <w xml:id="w_Linceul1_BnF12581_88">foiz</w>
+               <w xml:id="w_Linceul1_BnF12581_89">ne</w>
+               <lb n="9"/>
+               <w xml:id="w_Linceul1_BnF12581_91">s’</w>
+               <w xml:id="w_Linceul1_BnF12581_92">asazie</w>
+               <pc xml:id="w_Linceul1_BnF12581_93">
+                  <choice>
+                     <orig>.</orig>
+                     <reg/>
+                  </choice>
+               </pc>
+            </l>
+            <l n="13">
+               <w xml:id="w_Linceul1_BnF12581_94"><choice><orig>D</orig><reg>d</reg></choice>e</w>
+               <w xml:id="w_Linceul1_BnF12581_95">rien</w>
+               <w xml:id="w_Linceul1_BnF12581_96">dont</w>
+               <w xml:id="w_Linceul1_BnF12581_97">il</w>
+               <w xml:id="w_Linceul1_BnF12581_98">ait</w>
+               <w xml:id="w_Linceul1_BnF12581_99">desirrier</w>
+               <pc xml:id="w_Linceul1_BnF12581_100">
+                  <choice>
+                     <orig>.</orig>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="14">
+               <w xml:id="w_Linceul1_BnF12581_101">M<ex>o</ex>lt</w>
+               <lb n="10"/>
+               <w xml:id="w_Linceul1_BnF12581_103">li</w>
+               <w xml:id="w_Linceul1_BnF12581_104">doit</w>
+               <w xml:id="w_Linceul1_BnF12581_105">sa</w>
+               <w xml:id="w_Linceul1_BnF12581_106"><choice><orig>u</orig><reg>v</reg></choice>ie</w>
+               <w xml:id="w_Linceul1_BnF12581_107">e<ex>n</ex>nuier</w>
+               <pc xml:id="w_Linceul1_BnF12581_108">
+                  <choice>
+                     <orig>.</orig>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="15">
+               <pc xml:id="w_Linceul1_BnF12581_109">
+                  <choice>
+                     <orig/>
+                     <reg>-</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_Linceul1_BnF12581_110">Por</w>
+               <w xml:id="w_Linceul1_BnF12581_111">quoi</w>
+               <w xml:id="w_Linceul1_BnF12581_112">dis</w>
+               <w xml:id="w_Linceul1_BnF12581_113">tu</w>
+               <pc xml:id="w_Linceul1_BnF12581_114">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_Linceul1_BnF12581_115">fille</w>
+               <pc xml:id="w_Linceul1_BnF12581_116">
+                  <choice>
+                     <orig/>
+                     <reg>?</reg>
+                  </choice>
+               </pc>
+               <lb n="11"/>
+               <pc xml:id="w_Linceul1_BnF12581_118">
+                  <choice>
+                     <orig/>
+                     <reg>-</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_Linceul1_BnF12581_119">Por</w>
+               <w xml:id="w_Linceul1_BnF12581_120">quoi</w>
+               <pc xml:id="w_Linceul1_BnF12581_121">
+                  <choice>
+                     <orig>.</orig>
+                     <reg>?</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="16">
+               <pc xml:id="w_Linceul1_BnF12581_122">
+                  <choice>
+                     <orig/>
+                     <reg>-</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_Linceul1_BnF12581_123">Ai<ex>n</ex>me<supplied>s</supplied></w>
+               <w xml:id="w_Linceul1_BnF12581_124">tu</w>
+               <w xml:id="w_Linceul1_BnF12581_125">donc</w>
+               <pc xml:id="w_Linceul1_BnF12581_126">
+                  <choice>
+                     <orig/>
+                     <reg>?</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_Linceul1_BnF12581_127">
+                  <choice>
+                     <orig/>
+                     <reg>-</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_Linceul1_BnF12581_128"><choice><orig>o</orig><reg>O</reg></choice>ïl</w>
+               <pc xml:id="w_Linceul1_BnF12581_129">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_Linceul1_BnF12581_130">par</w>
+               <w xml:id="w_Linceul1_BnF12581_131">foi</w>
+               <pc xml:id="w_Linceul1_BnF12581_132">
+                  <choice>
+                     <orig>.</orig>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="17">
+               <pc xml:id="w_Linceul1_BnF12581_133">
+                  <choice>
+                     <orig/>
+                     <reg>-</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_Linceul1_BnF12581_134">Tes</w>
+               <w xml:id="w_Linceul1_BnF12581_135">a<lb n="12"/>mis</w>
+               <w xml:id="w_Linceul1_BnF12581_136">a</w>
+               <w xml:id="w_Linceul1_BnF12581_137">il</w>
+               <w xml:id="w_Linceul1_BnF12581_138">de</w>
+               <w xml:id="w_Linceul1_BnF12581_139">toi</w>
+               <w xml:id="w_Linceul1_BnF12581_140">cure</w>
+               <pc xml:id="w_Linceul1_BnF12581_141">
+                  <choice>
+                     <orig>.</orig>
+                     <reg>?</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="18">
+               <pc xml:id="w_Linceul1_BnF12581_142">
+                  <choice>
+                     <orig/>
+                     <reg>-</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_Linceul1_BnF12581_143"><choice><orig>o</orig><reg>O</reg></choice>ïl</w>
+               <pc xml:id="w_Linceul1_BnF12581_144">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_Linceul1_BnF12581_145">il</w>
+               <w xml:id="w_Linceul1_BnF12581_146">m’</w>
+               <w xml:id="w_Linceul1_BnF12581_147">ai<ex>n</ex>me</w>
+               <w xml:id="w_Linceul1_BnF12581_148">sanz</w>
+               <lb n="13"/>
+               <w xml:id="w_Linceul1_BnF12581_150">mesure</w>
+               <pc xml:id="w_Linceul1_BnF12581_151">
+                  <choice>
+                     <orig>.</orig>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="19">
+               <pc xml:id="w_Linceul1_BnF12581_152">
+                  <choice>
+                     <orig/>
+                     <reg>-</reg>
+                  </choice>
+               </pc>
+               <hi rend="color-blue">
+                  <pc xml:id="w_Linceul1_BnF12581_153">
+                     <choice>
+                        <orig>¶</orig>
+                        <reg/>
+                     </choice>
+                  </pc>
+               </hi>
+               <w xml:id="w_Linceul1_BnF12581_154">Co<ex>m</ex>mant</w>
+               <w xml:id="w_Linceul1_BnF12581_155">le</w>
+               <w xml:id="w_Linceul1_BnF12581_156">sez</w>
+               <w xml:id="w_Linceul1_BnF12581_157">tu</w>
+               <pc xml:id="w_Linceul1_BnF12581_158">
+                  <choice>
+                     <orig/>
+                     <reg>?</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_Linceul1_BnF12581_159">
+                  <choice>
+                     <orig/>
+                     <reg>-</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_Linceul1_BnF12581_160"><choice><orig>b</orig><reg>B</reg></choice>ien</w>
+               <w xml:id="w_Linceul1_BnF12581_161">le</w>
+               <w xml:id="w_Linceul1_BnF12581_162">sai</w>
+               <pc xml:id="w_Linceul1_BnF12581_163">
+                  <choice>
+                     <orig>.</orig>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="20">
+               <pc xml:id="w_Linceul1_BnF12581_164">
+                  <choice>
+                     <orig/>
+                     <reg>-</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_Linceul1_BnF12581_165">Et</w>
+               <lb n="14"/>
+               <w xml:id="w_Linceul1_BnF12581_167">tu</w>
+               <w xml:id="w_Linceul1_BnF12581_168"><ex>com</ex>mant</w>
+               <pc xml:id="w_Linceul1_BnF12581_169">
+                  <choice>
+                     <orig>.</orig>
+                     <reg>?</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_Linceul1_BnF12581_170">
+                  <choice>
+                     <orig/>
+                     <reg>-</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_Linceul1_BnF12581_171"><choice><orig>e</orig><reg>E</reg></choice>spro<choice><orig>u</orig><reg>v</reg></choice>é</w>
+               <w xml:id="w_Linceul1_BnF12581_172">l’</w>
+               <w xml:id="w_Linceul1_BnF12581_173">ai</w>
+               <pc xml:id="w_Linceul1_BnF12581_174">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="21">
+               <w xml:id="w_Linceul1_BnF12581_175"><choice><orig>C</orig><reg>c</reg></choice>ar</w>
+               <w xml:id="w_Linceul1_BnF12581_176">n’</w>
+               <w xml:id="w_Linceul1_BnF12581_177">est</w>
+               <w xml:id="w_Linceul1_BnF12581_178">riens</w>
+               <lb n="15"/>
+               <w xml:id="w_Linceul1_BnF12581_180">plus</w>
+               <w xml:id="w_Linceul1_BnF12581_181">de</w>
+               <w xml:id="w_Linceul1_BnF12581_182">moi</w>
+               <w xml:id="w_Linceul1_BnF12581_183">li</w>
+               <w xml:id="w_Linceul1_BnF12581_184">plaise</w>
+               <pc xml:id="w_Linceul1_BnF12581_185">
+                  <choice>
+                     <orig>.</orig>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="22">
+               <pc xml:id="w_Linceul1_BnF12581_186">
+                  <choice>
+                     <orig/>
+                     <reg>-</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_Linceul1_BnF12581_187" join="right">Mande</w>
+               <w xml:id="w_Linceul1_BnF12581_188">le</w>
+               <pc xml:id="w_Linceul1_BnF12581_189">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_Linceul1_BnF12581_190" join="right"><choice><orig>i</orig><reg>j</reg></choice>e</w>
+               <w xml:id="w_Linceul1_BnF12581_191">te</w>
+               <w xml:id="w_Linceul1_BnF12581_192">ferai</w>
+               <lb n="16"/>
+               <w xml:id="w_Linceul1_BnF12581_194">aise</w>
+               <pc xml:id="w_Linceul1_BnF12581_195">
+                  <choice>
+                     <orig>.</orig>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_Linceul1_BnF12581_196">
+                  <choice>
+                     <orig/>
+                     <reg>»</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="23">
+               <w xml:id="w_Linceul1_BnF12581_197">Dont</w>
+               <w xml:id="w_Linceul1_BnF12581_198">fu</w>
+               <w xml:id="w_Linceul1_BnF12581_199">li</w>
+               <w xml:id="w_Linceul1_BnF12581_200">lechierres</w>
+               <w xml:id="w_Linceul1_BnF12581_201">ma<ex>n</ex>dez</w>
+               <pc xml:id="w_Linceul1_BnF12581_202">
+                  <choice>
+                     <orig>.</orig>
+                     <reg/>
+                  </choice>
+               </pc>
+            </l>
+            <l n="24">
+               <w xml:id="w_Linceul1_BnF12581_203"><choice><orig>E</orig><reg>e</reg></choice>t</w>
+               <w xml:id="w_Linceul1_BnF12581_204">li</w>
+               <lb n="17"/>
+               <w xml:id="w_Linceul1_BnF12581_206">ma<ex>n</ex>giers</w>
+               <w xml:id="w_Linceul1_BnF12581_207">touz</w>
+               <w xml:id="w_Linceul1_BnF12581_208">aprestez</w>
+               <pc xml:id="w_Linceul1_BnF12581_209">
+                  <choice>
+                     <orig>.</orig>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="25">
+               <w xml:id="w_Linceul1_BnF12581_210">Quant</w>
+               <w xml:id="w_Linceul1_BnF12581_211">au</w>
+               <w xml:id="w_Linceul1_BnF12581_212">ma<ex>n</ex><lb n="18"/>gier</w>
+               <w xml:id="w_Linceul1_BnF12581_213">furent</w>
+               <w xml:id="w_Linceul1_BnF12581_214">assis</w>
+               <pc xml:id="w_Linceul1_BnF12581_215">
+                  <choice>
+                     <orig>.</orig>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="26">
+               <w xml:id="w_Linceul1_BnF12581_216"><choice><orig>E</orig><reg>e</reg></choice>z</w>
+               <w xml:id="w_Linceul1_BnF12581_217">les</w>
+               <w xml:id="w_Linceul1_BnF12581_218"><choice><orig>u</orig><reg>v</reg></choice>os</w>
+               <w xml:id="w_Linceul1_BnF12581_219">malem<ex>en</ex>t</w>
+               <w xml:id="w_Linceul1_BnF12581_220">souz<lb n="19"/>pris</w>
+               <pc xml:id="w_Linceul1_BnF12581_221">
+                  <choice>
+                     <orig>.</orig>
+                     <reg/>
+                  </choice>
+               </pc>
+            </l>
+            <l n="27">
+               <w xml:id="w_Linceul1_BnF12581_222"><choice><orig>C</orig><reg>c</reg></choice>ar</w>
+               <w xml:id="w_Linceul1_BnF12581_223">li</w>
+               <w xml:id="w_Linceul1_BnF12581_224">mariz</w>
+               <w xml:id="w_Linceul1_BnF12581_225">est</w>
+               <w xml:id="w_Linceul1_BnF12581_226">repairiez</w>
+               <pc xml:id="w_Linceul1_BnF12581_227">
+                  <choice>
+                     <orig>.</orig>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="28">
+               <w xml:id="w_Linceul1_BnF12581_228"><choice><orig>V</orig><reg>u</reg></choice>n</w>
+               <w xml:id="w_Linceul1_BnF12581_229">po</w>
+               <w xml:id="w_Linceul1_BnF12581_230">ma<lb n="20"/>lades</w>
+               <w xml:id="w_Linceul1_BnF12581_231">deshaitiez</w>
+               <pc xml:id="w_Linceul1_BnF12581_232">
+                  <choice>
+                     <orig>.</orig>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="29">
+               <w xml:id="w_Linceul1_BnF12581_233">A</w>
+               <w xml:id="w_Linceul1_BnF12581_234">l’</w>
+               <w xml:id="w_Linceul1_BnF12581_235">uis</w>
+               <w xml:id="w_Linceul1_BnF12581_236">vint</w>
+               <w xml:id="w_Linceul1_BnF12581_237">sel</w>
+               <w xml:id="w_Linceul1_BnF12581_238">ro<choice><orig>u</orig><reg>v</reg></choice>a</w>
+               <w xml:id="w_Linceul1_BnF12581_239">o<choice><orig>u</orig><reg>v</reg></choice>rir</w>
+               <pc xml:id="w_Linceul1_BnF12581_240">
+                  <choice>
+                     <orig>.</orig>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="30">
+               <lb n="21"/>
+               <hi rend="color-red">
+                  <pc xml:id="w_Linceul1_BnF12581_241">
+                     <choice>
+                        <orig>¶</orig>
+                        <reg/>
+                     </choice>
+                  </pc>
+               </hi>
+               <w xml:id="w_Linceul1_BnF12581_242">Li</w>
+               <w xml:id="w_Linceul1_BnF12581_243">lechierres</w>
+               <w xml:id="w_Linceul1_BnF12581_244">s’</w>
+               <w xml:id="w_Linceul1_BnF12581_245">an</w>
+               <w xml:id="w_Linceul1_BnF12581_246"><choice><orig>u</orig><reg>v</reg></choice>ost</w>
+               <w xml:id="w_Linceul1_BnF12581_247">foïr</w>
+               <pc xml:id="w_Linceul1_BnF12581_248">
+                  <choice>
+                     <orig>.</orig>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="31">
+               <w xml:id="w_Linceul1_BnF12581_249"><choice><orig>M</orig><reg>m</reg></choice>ais</w>
+               <w xml:id="w_Linceul1_BnF12581_250">n’</w>
+               <w xml:id="w_Linceul1_BnF12581_251">ot</w>
+               <lb n="22"/>
+               <w xml:id="w_Linceul1_BnF12581_253">par</w>
+               <w xml:id="w_Linceul1_BnF12581_254">ou</w>
+               <pc xml:id="w_Linceul1_BnF12581_255">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_Linceul1_BnF12581_256"><choice><orig>c</orig><reg>C</reg></choice>eles</w>
+               <w xml:id="w_Linceul1_BnF12581_257">l’</w>
+               <w xml:id="w_Linceul1_BnF12581_258">ont</w>
+               <w xml:id="w_Linceul1_BnF12581_259">pris</w>
+               <pc xml:id="w_Linceul1_BnF12581_260">
+                  <choice>
+                     <orig>.</orig>
+                     <reg/>
+                  </choice>
+               </pc>
+            </l>
+            <l n="32">
+               <w xml:id="w_Linceul1_BnF12581_261"><choice><orig>S</orig><reg>s</reg></choice>i</w>
+               <w xml:id="w_Linceul1_BnF12581_262">l’</w>
+               <w xml:id="w_Linceul1_BnF12581_263">ont</w>
+               <w xml:id="w_Linceul1_BnF12581_264">en</w>
+               <w xml:id="w_Linceul1_BnF12581_265">une</w>
+               <lb n="23"/>
+               <w xml:id="w_Linceul1_BnF12581_267">chambre</w>
+               <w xml:id="w_Linceul1_BnF12581_268">mis</w>
+               <pc xml:id="w_Linceul1_BnF12581_269">
+                  <choice>
+                     <orig>.</orig>
+                     <reg/>
+                  </choice>
+               </pc>
+            </l>
+            <l n="33">
+               <w xml:id="w_Linceul1_BnF12581_270"><choice><orig>O</orig><reg>o</reg></choice>u</w>
+               <w xml:id="w_Linceul1_BnF12581_271">li</w>
+               <w xml:id="w_Linceul1_BnF12581_272">liz</w>
+               <w xml:id="w_Linceul1_BnF12581_273">au</w>
+               <w xml:id="w_Linceul1_BnF12581_274">seignor</w>
+               <w xml:id="w_Linceul1_BnF12581_275">estoit</w>
+               <pc xml:id="w_Linceul1_BnF12581_276">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="34">
+               <lb n="24"/>
+               <w xml:id="w_Linceul1_BnF12581_277"><choice><orig>C</orig><reg>c</reg></choice>ar</w>
+               <w xml:id="w_Linceul1_BnF12581_278">autre</w>
+               <w xml:id="w_Linceul1_BnF12581_279">refui</w>
+               <w xml:id="w_Linceul1_BnF12581_280">n’</w>
+               <w xml:id="w_Linceul1_BnF12581_281">i</w>
+               <w xml:id="w_Linceul1_BnF12581_282">a<choice><orig>u</orig><reg>v</reg></choice>oit</w>
+               <pc xml:id="w_Linceul1_BnF12581_283">
+                  <choice>
+                     <orig>.</orig>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="35">
+               <w xml:id="w_Linceul1_BnF12581_284">Quant</w>
+               <w xml:id="w_Linceul1_BnF12581_285">il</w>
+               <w xml:id="w_Linceul1_BnF12581_286">l’</w>
+               <w xml:id="w_Linceul1_BnF12581_287">o<ex>n</ex>t</w>
+               <lb n="25"/>
+               <w xml:id="w_Linceul1_BnF12581_289">respost</w>
+               <w xml:id="w_Linceul1_BnF12581_290"><ex>et</ex></w>
+               <w xml:id="w_Linceul1_BnF12581_291">co<choice><orig>u</orig><reg>v</reg></choice>ert</w>
+               <pc xml:id="w_Linceul1_BnF12581_292">
+                  <choice>
+                     <orig>.</orig>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="36">
+               <w xml:id="w_Linceul1_BnF12581_293"><choice><orig>S</orig><reg>s</reg></choice>i</w>
+               <w xml:id="w_Linceul1_BnF12581_294">ont</w>
+               <w xml:id="w_Linceul1_BnF12581_295">au</w>
+               <w xml:id="w_Linceul1_BnF12581_296">seignor</w>
+               <w xml:id="w_Linceul1_BnF12581_297">l’</w>
+               <w xml:id="w_Linceul1_BnF12581_298">uis</w>
+               <lb n="26"/>
+               <w xml:id="w_Linceul1_BnF12581_300">o<choice><orig>u</orig><reg>v</reg></choice>ert</w>
+               <pc xml:id="w_Linceul1_BnF12581_301">
+                  <choice>
+                     <orig>.</orig>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="37">
+               <pc xml:id="w_Linceul1_BnF12581_302">
+                  <choice>
+                     <orig>.</orig>
+                     <reg>«</reg>
+                  </choice>
+               </pc>
+               <hi rend="color-blue">
+                  <pc xml:id="w_Linceul1_BnF12581_303">
+                     <choice>
+                        <orig>¶</orig>
+                        <reg/>
+                     </choice>
+                  </pc>
+               </hi>
+               <w xml:id="w_Linceul1_BnF12581_304">Dame</w>
+               <pc xml:id="w_Linceul1_BnF12581_305">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_Linceul1_BnF12581_306">dit</w>
+               <w xml:id="w_Linceul1_BnF12581_307">il</w>
+               <w xml:id="w_Linceul1_BnF12581_308">a</w>
+               <w xml:id="w_Linceul1_BnF12581_309">sa</w>
+               <w xml:id="w_Linceul1_BnF12581_310">moillier</w>
+               <pc xml:id="w_Linceul1_BnF12581_311">
+                  <choice>
+                     <orig>.</orig>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="38">
+               <w xml:id="w_Linceul1_BnF12581_312"><choice><orig>F</orig><reg>f</reg></choice>aites</w>
+               <lb n="27"/>
+               <w xml:id="w_Linceul1_BnF12581_314">mo<ex>n</ex></w>
+               <w xml:id="w_Linceul1_BnF12581_315">lit</w>
+               <w xml:id="w_Linceul1_BnF12581_316">apparillier</w>
+               <pc xml:id="w_Linceul1_BnF12581_317">
+                  <choice>
+                     <orig>.</orig>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="39">
+               <w xml:id="w_Linceul1_BnF12581_318">Malades</w>
+               <w xml:id="w_Linceul1_BnF12581_319">sui</w>
+               <w xml:id="w_Linceul1_BnF12581_320"><ex>et</ex></w>
+               <w xml:id="w_Linceul1_BnF12581_321">m<ex>o</ex>lt</w>
+               <w xml:id="w_Linceul1_BnF12581_322">me</w>
+               <lb n="28"/>
+               <w xml:id="w_Linceul1_BnF12581_324">doil</w>
+               <pc xml:id="w_Linceul1_BnF12581_325">
+                  <choice>
+                     <orig>.</orig>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="40">
+               <w xml:id="w_Linceul1_BnF12581_326">En</w>
+               <w xml:id="w_Linceul1_BnF12581_327">mo<ex>n</ex></w>
+               <w xml:id="w_Linceul1_BnF12581_328">lit</w>
+               <w xml:id="w_Linceul1_BnF12581_329">resposer</w>
+               <w xml:id="w_Linceul1_BnF12581_330">me</w>
+               <w xml:id="w_Linceul1_BnF12581_331"><choice><orig>u</orig><reg>v</reg></choice>oil</w>
+               <pc xml:id="w_Linceul1_BnF12581_332">
+                  <choice>
+                     <orig>.</orig>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_Linceul1_BnF12581_333">
+                  <choice>
+                     <orig/>
+                     <reg>»</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="41">
+               <w xml:id="w_Linceul1_BnF12581_334">La</w>
+               <lb n="29"/>
+               <w xml:id="w_Linceul1_BnF12581_336">mechine</w>
+               <w xml:id="w_Linceul1_BnF12581_337">fu</w>
+               <w xml:id="w_Linceul1_BnF12581_338">effree</w>
+               <note type="philologique">
+                  <p rend="footnote text">La rime isolée prouve qu’il manque un vers dans le manuscrit. Le manuscrit British Library, Add. 10289 donne : <hi rend="italic">Si a sa mere regardee</hi>.</p>
+               </note>
+               <pc xml:id="w_Linceul1_BnF12581_339">
+                  <choice>
+                     <orig>.</orig>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="42">
+               <w xml:id="w_Linceul1_BnF12581_340">Paor</w>
+               <w xml:id="w_Linceul1_BnF12581_341">ot</w>
+               <w xml:id="w_Linceul1_BnF12581_342">s’</w>
+               <w xml:id="w_Linceul1_BnF12581_343">an</w>
+               <w xml:id="w_Linceul1_BnF12581_344">la</w>
+               <w xml:id="w_Linceul1_BnF12581_345">cham<lb n="30"/>bre</w>
+               <w xml:id="w_Linceul1_BnF12581_346">antrast</w>
+               <pc xml:id="w_Linceul1_BnF12581_347">
+                  <choice>
+                     <orig>.</orig>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="43">
+               <w xml:id="w_Linceul1_BnF12581_348"><choice><orig>Q</orig><reg>q</reg></choice>ue</w>
+               <w xml:id="w_Linceul1_BnF12581_349">le</w>
+               <w xml:id="w_Linceul1_BnF12581_350">lechëor</w>
+               <w xml:id="w_Linceul1_BnF12581_351">ne</w>
+               <w xml:id="w_Linceul1_BnF12581_352">tro<choice><orig>u</orig><reg>v</reg></choice>ast</w>
+               <pc xml:id="w_Linceul1_BnF12581_353">
+                  <choice>
+                     <orig>.</orig>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="44">
+               <lb n="31"/>
+               <hi rend="color-blue">
+                  <pc xml:id="w_Linceul1_BnF12581_354">
+                     <choice>
+                        <orig>¶</orig>
+                        <reg/>
+                     </choice>
+                  </pc>
+               </hi>
+               <w xml:id="w_Linceul1_BnF12581_355">Quant</w>
+               <w xml:id="w_Linceul1_BnF12581_356">la</w>
+               <w xml:id="w_Linceul1_BnF12581_357">mere</w>
+               <w xml:id="w_Linceul1_BnF12581_358">le</w>
+               <w xml:id="w_Linceul1_BnF12581_359"><choice><orig>u</orig><reg>v</reg></choice>it</w>
+               <w xml:id="w_Linceul1_BnF12581_360">douter</w>
+               <pc xml:id="w_Linceul1_BnF12581_361">
+                  <choice>
+                     <orig>.</orig>
+                     <reg>:</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="45">
+               <pc xml:id="w_Linceul1_BnF12581_362">
+                  <choice>
+                     <orig/>
+                     <reg>«</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_Linceul1_BnF12581_363">Fille</w>
+               <pc xml:id="w_Linceul1_BnF12581_364">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_Linceul1_BnF12581_365">dit</w>
+               <lb n="32"/>
+               <w xml:id="w_Linceul1_BnF12581_367">el</w>
+               <pc xml:id="w_Linceul1_BnF12581_368">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_Linceul1_BnF12581_369">ne</w>
+               <w xml:id="w_Linceul1_BnF12581_370">te</w>
+               <w xml:id="w_Linceul1_BnF12581_371">haster</w>
+               <pc xml:id="w_Linceul1_BnF12581_372">
+                  <choice>
+                     <orig>.</orig>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="46">
+               <w xml:id="w_Linceul1_BnF12581_373"><choice><orig>p</orig><reg>P</reg></choice>remiereme<ex>n</ex>t</w>
+               <w xml:id="w_Linceul1_BnF12581_374">li</w>
+               <w xml:id="w_Linceul1_BnF12581_375">mo<ex>n</ex>ster<lb n="33"/>ron<subst><del rend="overwrite">t</del><add place="inline">z</add></subst></w>
+               <pc xml:id="w_Linceul1_BnF12581_376">
+                  <choice>
+                     <orig>.</orig>
+                     <reg/>
+                  </choice>
+               </pc>
+            </l>
+            <l n="47">
+               <w xml:id="w_Linceul1_BnF12581_377">le</w>
+               <w xml:id="w_Linceul1_BnF12581_378">linçuel</w>
+               <w xml:id="w_Linceul1_BnF12581_379">q<ex>ue</ex></w>
+               <w xml:id="w_Linceul1_BnF12581_380">fait</w>
+               <w xml:id="w_Linceul1_BnF12581_381">li</w>
+               <w xml:id="w_Linceul1_BnF12581_382">a<choice><orig>u</orig><reg>v</reg></choice>ons</w>
+               <pc xml:id="w_Linceul1_BnF12581_383">
+                  <choice>
+                     <orig>.</orig>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_Linceul1_BnF12581_384">
+                  <choice>
+                     <orig/>
+                     <reg>»</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="48">
+               <w xml:id="w_Linceul1_BnF12581_385">Puis</w>
+               <w xml:id="w_Linceul1_BnF12581_386">ont</w>
+               <lb n="34"/>
+               <num>
+                  <w xml:id="w_Linceul1_BnF12581_388">.i.</w>
+               </num>
+               <w xml:id="w_Linceul1_BnF12581_389">linçuel</w>
+               <w xml:id="w_Linceul1_BnF12581_390">aporté</w>
+               <pc xml:id="w_Linceul1_BnF12581_391">
+                  <choice>
+                     <orig>.</orig>
+                     <reg/>
+                  </choice>
+               </pc>
+            </l>
+            <l n="49">
+               <w xml:id="w_Linceul1_BnF12581_392"><choice><orig>S</orig><reg>s</reg></choice>i</w>
+               <w xml:id="w_Linceul1_BnF12581_393" join="right">li</w>
+               <w xml:id="w_Linceul1_BnF12581_394">ont</w>
+               <w xml:id="w_Linceul1_BnF12581_395">de</w>
+               <w xml:id="w_Linceul1_BnF12581_396">de<choice><orig>u</orig><reg>v</reg></choice>ant</w>
+               <w xml:id="w_Linceul1_BnF12581_397">mo<lb n="35"/>stré</w>
+               <pc xml:id="w_Linceul1_BnF12581_398">
+                  <choice>
+                     <orig>.</orig>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="50">
+               <w xml:id="w_Linceul1_BnF12581_399">La</w>
+               <w xml:id="w_Linceul1_BnF12581_400"><choice><orig>u</orig><reg>v</reg></choice>ielle</w>
+               <num>
+                  <w xml:id="w_Linceul1_BnF12581_401">.i.</w>
+               </num>
+               <w xml:id="w_Linceul1_BnF12581_402">des</w>
+               <w xml:id="w_Linceul1_BnF12581_403">chïés</w>
+               <w xml:id="w_Linceul1_BnF12581_404">le<choice><orig>u</orig><reg>v</reg></choice>a</w>
+               <pc xml:id="w_Linceul1_BnF12581_405">
+                  <choice>
+                     <orig>.</orig>
+                     <reg/>
+                  </choice>
+               </pc>
+            </l>
+            <l n="51">
+               <w xml:id="w_Linceul1_BnF12581_406"><ex>et</ex></w>
+               <w xml:id="w_Linceul1_BnF12581_407">l’</w>
+               <w xml:id="w_Linceul1_BnF12581_408">autre</w>
+               <lb n="36"/>
+               <w xml:id="w_Linceul1_BnF12581_410">a</w>
+               <w xml:id="w_Linceul1_BnF12581_411">sa</w>
+               <w xml:id="w_Linceul1_BnF12581_412">fille</w>
+               <w xml:id="w_Linceul1_BnF12581_413">bailla</w>
+               <pc xml:id="w_Linceul1_BnF12581_414">
+                  <choice>
+                     <orig>.</orig>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="52">
+               <w xml:id="w_Linceul1_BnF12581_415">Samblant</w>
+               <w xml:id="w_Linceul1_BnF12581_416">fist</w>
+               <w xml:id="w_Linceul1_BnF12581_417">q<ex>u</ex>’</w>
+               <w xml:id="w_Linceul1_BnF12581_418"><ex>e</ex>le</w>
+               <w xml:id="w_Linceul1_BnF12581_419">le</w>
+               <w xml:id="w_Linceul1_BnF12581_420">le<lb n="37"/><choice><orig>u</orig><reg>v</reg></choice>ast</w>
+               <pc xml:id="w_Linceul1_BnF12581_421">
+                  <choice>
+                     <orig>.</orig>
+                     <reg/>
+                  </choice>
+               </pc>
+            </l>
+            <l n="53">
+               <w xml:id="w_Linceul1_BnF12581_422"><choice><orig>E</orig><reg>e</reg></choice>t</w>
+               <w xml:id="w_Linceul1_BnF12581_423">de<choice><orig>u</orig><reg>v</reg></choice>ant</w>
+               <w xml:id="w_Linceul1_BnF12581_424">son</w>
+               <w xml:id="w_Linceul1_BnF12581_425">mari</w>
+               <w xml:id="w_Linceul1_BnF12581_426">s’</w>
+               <w xml:id="w_Linceul1_BnF12581_427">estast</w>
+               <pc xml:id="w_Linceul1_BnF12581_428">
+                  <choice>
+                     <orig>.</orig>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="54">
+               <w xml:id="w_Linceul1_BnF12581_429">Cele</w>
+               <lb n="38"/>
+               <w xml:id="w_Linceul1_BnF12581_431">le</w>
+               <w xml:id="w_Linceul1_BnF12581_432">fist</w>
+               <w xml:id="w_Linceul1_BnF12581_433">tout</w>
+               <w xml:id="w_Linceul1_BnF12581_434">a</w>
+               <w xml:id="w_Linceul1_BnF12581_435">son</w>
+               <w xml:id="w_Linceul1_BnF12581_436"><choice><orig>u</orig><reg>v</reg></choice>oil</w>
+               <pc xml:id="w_Linceul1_BnF12581_437">
+                  <choice>
+                     <orig>.</orig>
+                     <reg/>
+                  </choice>
+               </pc>
+            </l>
+            <l n="55">
+               <w xml:id="w_Linceul1_BnF12581_438"><choice><orig>T</orig><reg>t</reg></choice>ant</w>
+               <w xml:id="w_Linceul1_BnF12581_439">q<ex>ue</ex></w>
+               <w xml:id="w_Linceul1_BnF12581_440">par</w>
+               <w xml:id="w_Linceul1_BnF12581_441">l’</w>
+               <w xml:id="w_Linceul1_BnF12581_442">o<ex>m</ex><lb n="39"/>bre</w>
+               <w xml:id="w_Linceul1_BnF12581_443">d’</w>
+               <w xml:id="w_Linceul1_BnF12581_444">un</w>
+               <w xml:id="w_Linceul1_BnF12581_445">linçuel</w>
+               <pc xml:id="w_Linceul1_BnF12581_446">
+                  <choice>
+                     <orig>.</orig>
+                     <reg/>
+                  </choice>
+               </pc>
+            </l>
+            <l n="56">
+               <w xml:id="w_Linceul1_BnF12581_447"><choice><orig>Q</orig><reg>q</reg></choice>ui</w>
+               <w xml:id="w_Linceul1_BnF12581_448">le<choice><orig>u</orig><reg>v</reg></choice>ez</w>
+               <w xml:id="w_Linceul1_BnF12581_449">fu</w>
+               <w xml:id="w_Linceul1_BnF12581_450"><ex>et</ex></w>
+               <w xml:id="w_Linceul1_BnF12581_451">esten<lb n="40"/>duz</w>
+               <pc xml:id="w_Linceul1_BnF12581_452">
+                  <choice>
+                     <orig>.</orig>
+                     <reg/>
+                  </choice>
+               </pc>
+            </l>
+            <l n="57">
+               <w xml:id="w_Linceul1_BnF12581_453"><choice><orig>S</orig><reg>s</reg></choice>’</w>
+               <w xml:id="w_Linceul1_BnF12581_454">an</w>
+               <w xml:id="w_Linceul1_BnF12581_455">est</w>
+               <w xml:id="w_Linceul1_BnF12581_456">li</w>
+               <surplus>
+                  <w xml:id="w_Linceul1_BnF12581_457">li</w>
+               </surplus>
+               <w xml:id="w_Linceul1_BnF12581_458">lechierres</w>
+               <w xml:id="w_Linceul1_BnF12581_459">issuz</w>
+               <pc xml:id="w_Linceul1_BnF12581_460">
+                  <choice>
+                     <orig>.</orig>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="58">
+               <w xml:id="w_Linceul1_BnF12581_461">Qua<ex>n</ex>t</w>
+               <lb n="41"/>
+               <w xml:id="w_Linceul1_BnF12581_463">il</w>
+               <w xml:id="w_Linceul1_BnF12581_464">sorent</w>
+               <w xml:id="w_Linceul1_BnF12581_465">qu’</w>
+               <w xml:id="w_Linceul1_BnF12581_466">eslongiez</w>
+               <w xml:id="w_Linceul1_BnF12581_467">fu</w>
+               <pc xml:id="w_Linceul1_BnF12581_468">
+                  <choice>
+                     <orig>.</orig>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="59">
+               <w xml:id="w_Linceul1_BnF12581_469"><choice><orig>S</orig><reg>s</reg></choice>i</w>
+               <w xml:id="w_Linceul1_BnF12581_470">ont</w>
+               <w xml:id="w_Linceul1_BnF12581_471">le</w>
+               <w xml:id="w_Linceul1_BnF12581_472">linçuel</w>
+               <pb n="414v"
+                    rend="hyphen(=)"
+                    xml:id="pb_2"
+                    facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b53000323h/f844/full/pct:50/0/native.jpg"/>
+               <cb n="414va"/>
+               <lb n="42"/>
+               <w xml:id="w_Linceul1_BnF12581_475">destendu</w>
+               <pc xml:id="w_Linceul1_BnF12581_476">
+                  <choice>
+                     <orig>.</orig>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="60">
+               <hi rend="color-red">
+                  <pc xml:id="w_Linceul1_BnF12581_477">
+                     <choice>
+                        <orig>¶</orig>
+                        <reg/>
+                     </choice>
+                  </pc>
+               </hi>
+               <pc xml:id="w_Linceul1_BnF12581_478">
+                  <choice>
+                     <orig/>
+                     <reg>«</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_Linceul1_BnF12581_479">Fille</w>
+               <pc xml:id="w_Linceul1_BnF12581_480">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_Linceul1_BnF12581_481">dit</w>
+               <w xml:id="w_Linceul1_BnF12581_482">la</w>
+               <w xml:id="w_Linceul1_BnF12581_483">mere</w>
+               <pc xml:id="w_Linceul1_BnF12581_484">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_Linceul1_BnF12581_485">or</w>
+               <w xml:id="w_Linceul1_BnF12581_486">alez</w>
+               <pc xml:id="w_Linceul1_BnF12581_487">
+                  <choice>
+                     <orig>.</orig>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="61">
+               <w xml:id="w_Linceul1_BnF12581_488">Le</w>
+               <lb n="43"/>
+               <w xml:id="w_Linceul1_BnF12581_490">lit</w>
+               <w xml:id="w_Linceul1_BnF12581_491"><choice><orig>u</orig><reg>v</reg></choice><ex>ost</ex>re</w>
+               <w xml:id="w_Linceul1_BnF12581_492">seignor</w>
+               <w xml:id="w_Linceul1_BnF12581_493">co<choice><orig>u</orig><reg>v</reg></choice>rez</w>
+               <pc xml:id="w_Linceul1_BnF12581_494">
+                  <choice>
+                     <orig>.</orig>
+                     <reg/>
+                  </choice>
+               </pc>
+            </l>
+            <l n="62">
+               <hi rend="color-blue">
+                  <pc xml:id="w_Linceul1_BnF12581_495">
+                     <choice>
+                        <orig>¶</orig>
+                        <reg/>
+                     </choice>
+                  </pc>
+               </hi>
+               <w xml:id="w_Linceul1_BnF12581_496"><choice><orig>D</orig><reg>d</reg></choice>e</w>
+               <w xml:id="w_Linceul1_BnF12581_497">cest</w>
+               <w xml:id="w_Linceul1_BnF12581_498">linçuel</w>
+               <pc xml:id="w_Linceul1_BnF12581_499">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+               <lb n="44"/>
+               <w xml:id="w_Linceul1_BnF12581_501"><choice><orig>q</orig><reg>Q</reg></choice>uant</w>
+               <w xml:id="w_Linceul1_BnF12581_502">fez</w>
+               <w xml:id="w_Linceul1_BnF12581_503">sera</w>
+               <pc xml:id="w_Linceul1_BnF12581_504">
+                  <choice>
+                     <orig>.</orig>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="63">
+               <w xml:id="w_Linceul1_BnF12581_505"><choice><orig>P</orig><reg>p</reg></choice>lus</w>
+               <w xml:id="w_Linceul1_BnF12581_506">söef</w>
+               <w xml:id="w_Linceul1_BnF12581_507">i</w>
+               <w xml:id="w_Linceul1_BnF12581_508">reposera</w>
+               <pc xml:id="w_Linceul1_BnF12581_509">
+                  <choice>
+                     <orig>.</orig>
+                     <reg/>
+                  </choice>
+               </pc>
+            </l>
+            <l n="64">
+               <w xml:id="w_Linceul1_BnF12581_510">por</w>
+               <lb n="45"/>
+               <w xml:id="w_Linceul1_BnF12581_512">ce</w>
+               <w xml:id="w_Linceul1_BnF12581_513">q<ex>u</ex>e</w>
+               <w xml:id="w_Linceul1_BnF12581_514">blans</w>
+               <w xml:id="w_Linceul1_BnF12581_515">iert</w>
+               <w xml:id="w_Linceul1_BnF12581_516"><ex>et</ex></w>
+               <w xml:id="w_Linceul1_BnF12581_517">dongiez</w>
+               <pc xml:id="w_Linceul1_BnF12581_518">
+                  <choice>
+                     <orig>.</orig>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="65">
+               <w xml:id="w_Linceul1_BnF12581_519">Alez</w>
+               <w xml:id="w_Linceul1_BnF12581_520">tost</w>
+               <w xml:id="w_Linceul1_BnF12581_521">si</w>
+               <lb n="46"/>
+               <w xml:id="w_Linceul1_BnF12581_523">l’</w>
+               <w xml:id="w_Linceul1_BnF12581_524">apareilliez</w>
+               <pc xml:id="w_Linceul1_BnF12581_525">
+                  <choice>
+                     <orig>.</orig>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_Linceul1_BnF12581_526">
+                  <choice>
+                     <orig/>
+                     <reg>»</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="66">
+               <w xml:id="w_Linceul1_BnF12581_527">Cele</w>
+               <w xml:id="w_Linceul1_BnF12581_528"><choice><orig>u</orig><reg>v</reg></choice>a</w>
+               <w xml:id="w_Linceul1_BnF12581_529">le</w>
+               <w xml:id="w_Linceul1_BnF12581_530"><del rend="dot-below">d</del></w>
+               <w xml:id="w_Linceul1_BnF12581_531">lit</w>
+               <w xml:id="w_Linceul1_BnF12581_532">aprester</w>
+               <pc xml:id="w_Linceul1_BnF12581_533">
+                  <choice>
+                     <orig>.</orig>
+                     <reg/>
+                  </choice>
+               </pc>
+            </l>
+            <l n="67">
+               <w xml:id="w_Linceul1_BnF12581_534"><choice><orig>E</orig><reg>e</reg></choice>t</w>
+               <lb n="47"/>
+               <w xml:id="w_Linceul1_BnF12581_536">cil</w>
+               <w xml:id="w_Linceul1_BnF12581_537">s’</w>
+               <w xml:id="w_Linceul1_BnF12581_538">i</w>
+               <w xml:id="w_Linceul1_BnF12581_539">ala</w>
+               <w xml:id="w_Linceul1_BnF12581_540">reposer</w>
+               <pc xml:id="w_Linceul1_BnF12581_541">
+                  <choice>
+                     <orig>.</orig>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="68">
+               <w xml:id="w_Linceul1_BnF12581_542">Par</w>
+               <w xml:id="w_Linceul1_BnF12581_543">lor</w>
+               <w xml:id="w_Linceul1_BnF12581_544">sen</w>
+               <w xml:id="w_Linceul1_BnF12581_545"><ex>et</ex></w>
+               <w xml:id="w_Linceul1_BnF12581_546">par</w>
+               <w xml:id="w_Linceul1_BnF12581_547">lor</w>
+               <w xml:id="w_Linceul1_BnF12581_548"><choice><orig>u</orig><reg>v</reg></choice>oi<lb n="48"/>die</w>
+            </l>
+            <l n="69">
+               <w xml:id="w_Linceul1_BnF12581_549"><choice><orig>L</orig><reg>l</reg></choice>e</w>
+               <w xml:id="w_Linceul1_BnF12581_550">reçurent</w>
+               <w xml:id="w_Linceul1_BnF12581_551">en</w>
+               <w xml:id="w_Linceul1_BnF12581_552">tel</w>
+               <w xml:id="w_Linceul1_BnF12581_553">baillie</w>
+               <pc xml:id="w_Linceul1_BnF12581_554">
+                  <choice>
+                     <orig>.</orig>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+               <lb n="49"/>
+            </l>
+         </lg>
+         <lg>
+            <l n="70">
+               <lb n="50"/>
+               <w xml:id="w_Linceul1_BnF12581_556"><g type="initiale" rend="size(2) sizeAct(2) color(red)">C</g>e</w>
+               <w xml:id="w_Linceul1_BnF12581_557">dit</w>
+               <w xml:id="w_Linceul1_BnF12581_558">le</w>
+               <w xml:id="w_Linceul1_BnF12581_559">filz</w>
+               <pc xml:id="w_Linceul1_BnF12581_560">
+                  <choice>
+                     <orig/>
+                     <reg>:</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_Linceul1_BnF12581_561">
+                  <choice>
+                     <orig/>
+                     <reg>«</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_Linceul1_BnF12581_562"><choice><orig>m</orig><reg>M</reg></choice>er<choice><orig>u</orig><reg>v</reg></choice>oillẹs</w>
+               <w xml:id="w_Linceul1_BnF12581_563">oi</w>
+               <pc xml:id="w_Linceul1_BnF12581_564">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="71">
+               <w xml:id="w_Linceul1_BnF12581_565"><choice><orig>E</orig><reg>e</reg></choice>t</w>
+               <w xml:id="w_Linceul1_BnF12581_566">sachiez</w>
+               <lb n="51"/>
+               <w xml:id="w_Linceul1_BnF12581_568">q<ex>ue</ex></w>
+               <w xml:id="w_Linceul1_BnF12581_569">m<ex>o</ex>lt</w>
+               <w xml:id="w_Linceul1_BnF12581_570">m’</w>
+               <w xml:id="w_Linceul1_BnF12581_571">an</w>
+               <w xml:id="w_Linceul1_BnF12581_572">es<choice><orig>i</orig><reg>j</reg></choice>oi</w>
+               <pc xml:id="w_Linceul1_BnF12581_573">
+                  <choice>
+                     <orig>.</orig>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="72">
+               <w xml:id="w_Linceul1_BnF12581_574">Por</w>
+               <w xml:id="w_Linceul1_BnF12581_575"><choice><orig>d</orig><reg>D</reg></choice>ieu</w>
+               <pc xml:id="w_Linceul1_BnF12581_576">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_Linceul1_BnF12581_577">dites</w>
+               <w xml:id="w_Linceul1_BnF12581_578">an<lb n="52"/>cor</w>
+               <w xml:id="w_Linceul1_BnF12581_579">a<choice><orig>u</orig><reg>v</reg></choice>ant</w>
+               <pc xml:id="w_Linceul1_BnF12581_580">
+                  <choice>
+                     <orig>.</orig>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="73">
+               <w xml:id="w_Linceul1_BnF12581_581"><choice><orig>N</orig><reg>n</reg></choice>e</w>
+               <w xml:id="w_Linceul1_BnF12581_582"><choice><orig>u</orig><reg>v</reg></choice>os</w>
+               <w xml:id="w_Linceul1_BnF12581_583">arestez</w>
+               <w xml:id="w_Linceul1_BnF12581_584">pas</w>
+               <w xml:id="w_Linceul1_BnF12581_585">atant</w>
+               <pc xml:id="w_Linceul1_BnF12581_586">
+                  <choice>
+                     <orig>.</orig>
+                     <reg/>
+                  </choice>
+               </pc>
+            </l>
+            <l n="74">
+               <lb n="53"/>
+               <w xml:id="w_Linceul1_BnF12581_587"><choice><orig>C</orig><reg>c</reg></choice>ar</w>
+               <w xml:id="w_Linceul1_BnF12581_588">tant</w>
+               <w xml:id="w_Linceul1_BnF12581_589"><ex>com</ex></w>
+               <w xml:id="w_Linceul1_BnF12581_590"><choice><orig>i</orig><reg>j</reg></choice>e</w>
+               <w xml:id="w_Linceul1_BnF12581_591">plus</w>
+               <w xml:id="w_Linceul1_BnF12581_592">en</w>
+               <w xml:id="w_Linceul1_BnF12581_593">orrai</w>
+               <pc xml:id="w_Linceul1_BnF12581_594">
+                  <choice>
+                     <orig>.</orig>
+                     <reg/>
+                  </choice>
+               </pc>
+            </l>
+            <l n="75">
+               <w xml:id="w_Linceul1_BnF12581_595"><choice><orig>E</orig><reg>e</reg></choice>t</w>
+               <w xml:id="w_Linceul1_BnF12581_596">grig<lb n="54"/>nor</w>
+               <w xml:id="w_Linceul1_BnF12581_597">profit</w>
+               <w xml:id="w_Linceul1_BnF12581_598">i</w>
+               <w xml:id="w_Linceul1_BnF12581_599">prendrai</w>
+               <pc xml:id="w_Linceul1_BnF12581_600">
+                  <choice>
+                     <orig>.</orig>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="76">
+               <lb n="55"/>
+               <pc xml:id="w_Linceul1_BnF12581_601">
+                  <choice>
+                     <orig/>
+                     <reg>-</reg>
+                  </choice>
+               </pc>
+               <hi rend="color-blue">
+                  <pc xml:id="w_Linceul1_BnF12581_602">
+                     <choice>
+                        <orig>¶</orig>
+                        <reg/>
+                     </choice>
+                  </pc>
+               </hi>
+               <w xml:id="w_Linceul1_BnF12581_603">Biax</w>
+               <w xml:id="w_Linceul1_BnF12581_604">filz</w>
+               <pc xml:id="w_Linceul1_BnF12581_605">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_Linceul1_BnF12581_606">le</w>
+               <w xml:id="w_Linceul1_BnF12581_607">tiers</w>
+               <lb n="56"/>
+               <w xml:id="w_Linceul1_BnF12581_609">fablel</w>
+               <w xml:id="w_Linceul1_BnF12581_610">orras</w>
+            </l>
+            <l n="77">
+               <w xml:id="w_Linceul1_BnF12581_611"><choice><orig>E</orig><reg>e</reg></choice>t</w>
+               <w xml:id="w_Linceul1_BnF12581_612" join="right">a</w>
+               <w xml:id="w_Linceul1_BnF12581_613" join="right">i</w>
+               <w xml:id="w_Linceul1_BnF12581_614">tant</w>
+               <w xml:id="w_Linceul1_BnF12581_615">me</w>
+               <w xml:id="w_Linceul1_BnF12581_616">sofferras</w>
+               <pc xml:id="w_Linceul1_BnF12581_617">
+                  <choice>
+                     <orig>.</orig>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+         </lg>
+      </body>
+   </text>
+</TEI>

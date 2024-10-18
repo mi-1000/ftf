@@ -1,0 +1,2835 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="fro">Le Testament de l'asne</title>
+            <author>Rutebeuf
+<idno type="URI" subtype="JONAS">http://jonas.irht.cnrs.fr/intervenant/859</idno>
+               <idno type="URI" subtype="IDREF">http://www.idref.fr/027115755/id</idno>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2023</date>
+            </edition>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="acorbellari">Alain Corbellari</name>
+            </respStmt>
+            <respStmt>
+               <resp>relecteur</resp>
+               <resp>membre</resp>
+               <name xml:id="alavrent">Alexei Lavrentiev</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="apinche">Ariane Pinche</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="blaid">Baptiste Laïd</name>
+            </respStmt>
+            <respStmt>
+               <resp>robot</resp>
+               <name xml:id="bot">bot bot</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="cguillot">Céline Guillot-Barbance</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="clachet">Claude Lachet</name>
+            </respStmt>
+            <respStmt>
+               <resp>editeur</resp>
+               <resp>traducteur</resp>
+               <resp>chef de projet</resp>
+               <name xml:id="cpierreville">Corinne Pierreville</name>
+            </respStmt>
+            <respStmt>
+               <resp>relecteur-traduction</resp>
+               <resp>membre</resp>
+               <name xml:id="ggruber">Gauthier Grüber</name>
+            </respStmt>
+            <respStmt>
+               <resp>ingénieur</resp>
+               <name xml:id="jnuguet">Jules Nuguet</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="ngarnier">Nicolas Garnier</name>
+            </respStmt>
+            <respStmt>
+               <resp>Relecteur traduction</resp>
+               <name xml:id="rbellon">Roger Bellon</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="rtrachsler">Richard Trachsler</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="veugene">Valentine Eugène</name>
+            </respStmt>
+            <respStmt>
+               <resp>ingénieur</resp>
+               <name xml:id="myamagata">Moe Yamagata</name>
+            </respStmt>
+            <respStmt>
+               <resp/>
+               <name xml:id="jdocks">Justine DOCKS</name>
+            </respStmt>
+            <respStmt>
+               <resp>editeur</resp>
+               <resp>relecteur</resp>
+               <resp>traducteur</resp>
+               <resp>relecteur-traduction</resp>
+               <resp/>
+               <name> </name>
+            </respStmt>
+         </editionStmt>
+         <extent>
+            <num xml:id="nb_tokens_given">1226</num>
+            <num xml:id="nb_mots_given">1067</num>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <name>ENS de Lyon / UMR 5317 IHRIM, Base de français médiéval, projet Fabliaux</name>
+            </publisher>
+            <address>
+               <addrLine>15, parvis René Descartes</addrLine>
+               <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+               <addrLine>Tél : 04 37 37 63 10</addrLine>
+               <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+               <addrLine>http://bfm.ens-lyon.fr</addrLine>
+            </address>
+            <idno type="bfm">http://catalog.bfm-corpus.org/fabliaux/TestamentAsneRutebeuf_BnF-1635</idno>
+            <idno type="doi">10.34847/nkl.bc71hi62</idno>
+            <availability status="free">
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <ab type="availability_bfm">Les Conditions générales d'utilisation de la Base de Français Médiéval (http://txm.bfm-corpus.org/bfm/files/CGU.pdf), 
+                        et notamment son Article 5 « PROPRIETE INTELLECTUELLE », s'appliquent à tous les textes de la BFM.</ab>
+                  <ab type="how_to_cite">
+                     <label>Comment citer ce texte :</label>
+                     <bibl>Rutebeuf, Le Testament de l'asne, édité par Corinne Pierreville en collaboration avec Alexei Lavrentiev. Publié en ligne par l’ENS de Lyon dans la Base de français médiéval, 
+2023, http://catalog.bfm-corpus.org/fabliaux/TestamentAsneRutebeuf_BnF-1635.</bibl>
+                        D'autres formules de citation de la BFM sont proposées sur la page web suivante :
+                        http://bfm.ens-lyon.fr/spip.php?article281.</ab>
+                  <ab type="availability_file">
+                     <label>Conditions d'utilisation de ce fichier :</label>
+                        Ce fichier numérique est composé du corps de texte médiéval (restauré par son ou ses éditeur(s) scientifique(s)), des apparats critiques (introductions, notes, glossaires, explications, du texte d'origine (ou des enrichissements) qui ont été réalisés dans le cadre de la restauration des textes par les Editeurs Scientifiques) et des suppléments numériques : balisage XML-TEI, métadonnées (teiHeader), balisage du discours direct, étiquetage morpho-syntaxique, lemmatisation. Le texte et les suppléments numériques sont libres de droit et peuvent à ce titre être téléchargés et réutilisés librement. Les apparats critiques sont soumis à une licence de type CC BY-NC-SA 3.0 FR  http://creativecommons.org/licenses/by-nc-sa/3.0/fr. Les Utilisateurs s’engagent à respecter les termes de cette licence. 
+                    </ab>
+                  <ab type="availability_txmweb" subtype="illimité">
+                     <label>Conditions d'utilisation par le portail BFM :</label>
+                        Pas de limitation dans l'usage des fonctionnalités. Téléchargement autorisé.</ab>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="main" xml:id="BnF-1635">
+               <msIdentifier>
+                  <settlement>Paris</settlement>
+                  <repository>Bibliothèque nationale de France</repository>
+                  <idno>français 1635</idno>
+                  <idno type="URI" subtype="Notice" n="Arlima">https://www.arlima.net/mss/france/paris/bibliotheque_nationale_de_france/francais/1635.html</idno>
+                  <idno type="URI" subtype="Notice" n="Jonas">https://jonas.irht.cnrs.fr/manuscrit/45638</idno>
+                  <idno type="URI" subtype="Notice" n="Archives_et_manuscrits">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc46338f</idno>
+                  <idno type="URI" subtype="Data" n="Biblissima">
+https://data.biblissima.fr/entity/Q47344</idno>
+                  <idno type="URI" subtype="Fac-similé">https://gallica.bnf.fr/ark:/12148/btv1b105253083</idno>
+                  <idno type="URI" subtype="Manifeste_IIIF">https://gallica.bnf.fr/iiif/ark:/12148/btv1b105253083/manifest.json</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem xml:id="CharlotRutebeuf_BnF-1635">
+                     <locus>f. 062rb-063rb</locus>
+                     <title>Charlot le juif qui chia en la pel dou lievre</title>
+                  </msItem>
+                  <msItem xml:id="DameTorsMoustierRutebeuf_BnF-1635">
+                     <locus>f. 14va-15vb</locus>
+                     <title>La dame qui fist trois tors entor le moustier</title>
+                  </msItem>
+                  <msItem xml:id="FrereDeniseRutebeuf_BnF-1635">
+                     <locus>f. 060ra-062rb</locus>
+                     <title>Frere Denise</title>
+                  </msItem>
+                  <msItem xml:id="PetVilainRutebeuf_BnF-1635">
+                     <locus>f. 063rb-063vb</locus>
+                     <title>Le pet au vilain</title>
+                  </msItem>
+                  <msItem xml:id="TestamentAsneRutebeuf_BnF-1635">
+                     <locus>f. 004va-005vb</locus>
+                     <title>Le Testament de l'asne</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin notBefore="1200-01-01" notAfter="1299-12-31">
+                     <p>13e s.</p>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <title type="main" xml:lang="fro">Le Testament de l'asne</title>
+            <title type="modern" xml:lang="fr">Le testament de l'âne
+            </title>
+            <date notBefore="1230-01-01" notAfter="1270-12-31" when="1253-01-01">13e s.</date>
+            <region type="dialecte_oeuvre">Francien</region>
+            <idno type="INV" subtype="Montaiglon-Raynaud">82</idno>
+            <idno type="INV" subtype="Bedier">130</idno>
+            <idno type="INV" subtype="Nykrog">139</idno>
+            <idno type="INV" subtype="Jodogne">139</idno>
+            <idno type="INV" subtype="Kiesow">57</idno>
+            <idno type="INV" subtype="NRCF">111</idno>
+            <idno type="URI" n="Jonas">https://jonas.irht.cnrs.fr/oeuvre/12129</idno>
+            <idno type="URI" n="Arlima">https://www.arlima.net/qt/rutebeuf/li_testament_de_l_asne.html</idno>
+         </creation>
+         <langUsage>
+            <language ident="fro"/>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.bfm-corpus.org">
+               <term type="domaine">littérature</term>
+               <term type="genre" cert="medium">Fabliau</term>
+               <term type="forme">vers</term>
+               <term type="relation">non renseigné</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#cpierreville" when="2023-09-12T11:07:49" n="v1.0">Utilisation du fichier TestamentAsneRutebeuf[BnF 1635]v1.docx</change>
+         <change who="#bot" when="2023-10-02" n="v1.0">Transformation avec Oxgarage du fichier TestamentAsneRutebeuf[BnF 1635]1.0.docx</change>
+         <change who="#cpierreville" when="2023-10-15T08:46:52" n="v1.0">Utilisation du fichier TestamentAsneRutebeuf[BnF 1635]trad-v1.docx</change>
+         <change who="#cpierreville" when="2023-10-15T07:48:40" n="v2.0">Utilisation du fichier TestamentAsneRutebeuf[BnF 1635]v2.docx</change>
+         <change who="#bot" when="2023-10-16" n="v2.0">Transformation avec Oxgarage du fichier TestamentAsneRutebeuf[BnF 1635]2.0.docx</change>
+         <change who="#bot" when="2023-10-16" n="v1.0">Transformation avec Oxgarage du fichier TestamentAsneRutebeuf[BnF 1635]1.0.docx</change>
+         <change who="#alavrent" when="2023-10-27T12:08:38" n="v2.1">Utilisation du fichier TestamentAsneRutebeuf[BnF 1635]v2.1 relu AL.docx</change>
+         <change who="#bot" when="2023-10-28" n="v2.1">Transformation avec Oxgarage du fichier TestamentAsneRutebeuf[BnF 1635]2.1.docx</change>
+         <change who="#cpierreville" when="2023-10-28T11:29:37" n="v3.0">Utilisation du fichier TestamentAsneRutebeuf[BnF 1635]v3.docx</change>
+         <change who="#bot" when="2023-10-29" n="v3.0">Transformation avec Oxgarage du fichier TestamentAsneRutebeuf[BnF 1635]3.0.docx</change>
+         <change who="#cpierreville" when="2023-11-29T15:32:01" n="v4.1">Utilisation du fichier TestamentAsneRutebeuf[BnF 1635]v4.1.docx</change>
+         <change who="#bot" when="2023-11-30" n="v4.1">Transformation avec Oxgarage du fichier TestamentAsneRutebeuf[BnF 1635]4.1.docx</change>
+         <change who="#cpierreville" when="2023-12-08T12:24:52" n="v2.1">Utilisation du fichier TestamentAsneRutebeuf[BnF 1635]trad-v2.1.docx</change>
+         <change who="#cpierreville" when="2023-12-08T12:24:36" n="v4.2">Utilisation du fichier TestamentAsneRutebeuf[BnF 1635]v4.2.docx</change>
+         <change who="#bot" when="2023-12-08" n="v4.2">Transformation avec Oxgarage du fichier TestamentAsneRutebeuf[BnF 1635]4.2.docx</change>
+         <change who="#bot" when="2023-12-08" n="v2.1">Transformation avec Oxgarage du fichier TestamentAsneRutebeuf[BnF 1635]2.1.docx</change>
+         <change who="#ohelary" when="2024-01-04T15:57:03" n="v4.3">Utilisation du fichier TestamentAsneRutebeuf[BnF 1635]v4.3 titre1.docx</change>
+         <change who="#bot" when="2024-01-05" n="v4.3">Transformation avec Oxgarage du fichier TestamentAsneRutebeuf[BnF 1635]4.3.docx</change>
+         <change who="#ggruber" when="2024-05-28T16:14:14" n="v2.1">Utilisation du fichier TestamentAsneRutebeuf[BnF 1635]trad-v2.1_reluGG.docx</change>
+         <change who="#cpierreville" when="2024-06-06T11:56:12" n="v2.2">Utilisation du fichier TestamentAsneRutebeuf[BnF 1635]trad-v2.2.docx</change>
+         <change who="#bot" when="2024-06-06" n="v2.2">Transformation avec Oxgarage du fichier TestamentAsneRutebeuf[BnF 1635]2.2.docx</change>
+      </revisionDesc>
+   </teiHeader>
+   <text source="TestamentAsneRutebeuf_BnF-1635">
+      <body>
+         <pb n="4v"
+              xml:id="pb_1"
+              facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b105253083/f14/full/pct:50/0/native.jpg"/>
+         <cb n="4va"/>
+         <div>
+            <head>
+               <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1">C’</w>
+               <w xml:id="w_TestamentAsneRutebeuf_BnF1635_2">est</w>
+               <w xml:id="w_TestamentAsneRutebeuf_BnF1635_3" join="right" ana="#aggl-cert_low">li</w>
+               <w xml:id="w_TestamentAsneRutebeuf_BnF1635_4">testament</w>
+               <w xml:id="w_TestamentAsneRutebeuf_BnF1635_5">de</w>
+               <w xml:id="w_TestamentAsneRutebeuf_BnF1635_6">l’</w>
+               <w xml:id="w_TestamentAsneRutebeuf_BnF1635_7">asne</w>
+            </head>
+            <lb/>
+            <lg>
+               <l n="1">
+                  <lb n="1"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_8"><g type="initiale" rend="size(4) sizeAct(4) color(red)">Q</g><choice><orig>v</orig><reg>u</reg></choice>i</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_9">wet</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_10">au</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_11">siecle</w>
+                  <lb n="2"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_13">a</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_14">honeur</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_15">vi<choice><orig>u</orig><reg>v</reg></choice>re</w>
+               </l>
+               <l n="2">
+                  <lb n="3"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_16"><ex>et</ex></w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_17">la</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_18">vie</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_19">de</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_20">seux</w>
+                  <note type="philologique">
+                     <p rend="footnote text">Le scribe a tendance à intervertir les <hi rend="italic">s</hi> et les <hi rend="italic">c</hi> qu’il paraît juger interchangeables. Jean Dufournet a systématiquement corrigé.</p>
+                  </note>
+                  <lb n="4"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_22"><choice><orig>E</orig><reg>e</reg></choice>nsuyre</w>
+               </l>
+               <l n="3">
+                  <lb n="5"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_23"><choice><orig>Q</orig><reg>q</reg></choice>ui</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_24">beent</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_25">a</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_26">a<choice><orig>u</orig><reg>v</reg></choice>oir</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_27">che<choice><orig>u</orig><reg>v</reg></choice>ance</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_28">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="4">
+                  <lb n="6"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_29"><choice><orig>M</orig><reg>m</reg></choice>out</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_30">true<choice><orig>u</orig><reg>v</reg></choice>e</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_31">au</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_32">siecle</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_33">de</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_34">nuisance</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_35">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="5">
+                  <lb n="7"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_36"><choice><orig>Q</orig><reg>q</reg></choice>u’</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_37">il</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_38">at</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_39">mesdizans</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_40">d’</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_41">a<choice><orig>u</orig><reg>v</reg></choice>antage</w>
+                  <cb n="4vb"/>
+               </l>
+               <l n="6">
+                  <lb n="8"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_42"><choice><orig>Q</orig><reg>q</reg></choice>ui</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_43">de</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_44">ligier</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_45">li</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_46">font</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_47">damage</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_48">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="7">
+                  <lb n="9"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_49"><ex>et</ex></w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_50">si</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_51">est</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_52">touz</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_53">plains</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_54">d’</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_55">envïeux</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_56">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="8">
+                  <lb n="10"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_57"><choice><orig>J</orig><reg>j</reg></choice>a</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_58">n’</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_59">iert</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_60">tant</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_61">biaux</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_62">ne</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_63">gracïeux</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_64">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="9">
+                  <lb n="11"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_65">Se</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_66">dix</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_67">en</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_68">sunt</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_69">chiez</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_70">lui</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_71">assis</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_72">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="10">
+                  <lb n="12"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_73"><choice><orig>D</orig><reg>d</reg></choice>es</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_74">mesdizans</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_75">i</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_76">a<choice><orig>u</orig><reg>v</reg></choice>ra</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_77">six</w>
+               </l>
+               <l n="11">
+                  <lb n="13"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_78"><ex>et</ex></w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_79">d’</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_80">envieux</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_81" join="right">i</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_82">a<choice><orig>u</orig><reg>v</reg></choice>ra</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_83">nuef</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_84">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="12">
+                  <lb n="14"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_85">Par</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_86">derrier</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_87">ne</w>
+                  <note type="philologique">
+                     <p rend="footnote text">Jean Dufournet corrige <hi rend="italic">ne</hi> en <hi rend="italic">nel</hi>.</p>
+                  </note>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_88">prisent</w>
+                  <num>
+                     <w xml:id="w_TestamentAsneRutebeuf_BnF1635_89">.i.</w>
+                  </num>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_90">oes</w>
+                  <note type="la">
+                     <p rend="footnote text">On note la rime imparfaite <hi rend="italic">nuef/ oes</hi>.</p>
+                  </note>
+               </l>
+               <l n="13">
+                  <lb n="15"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_91"><ex>et</ex></w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_92">par</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_93">de<choice><orig>u</orig><reg>v</reg></choice>ant</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_94">li</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_95">font</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_96">teil</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_97">feste</w>
+               </l>
+               <l n="14">
+                  <lb n="16"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_98"><choice><orig>C</orig><reg>c</reg></choice>hacuns</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_99">l’</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_100">encline</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_101">de</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_102">la</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_103">teste</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_104">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="15">
+                  <lb n="17"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_105">Coument</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_106">n’</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_107">a<choice><orig>u</orig><reg>v</reg></choice>ront</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_108">de</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_109">lui</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_110">envie</w>
+               </l>
+               <l n="16">
+                  <lb n="18"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_111"><choice><orig>C</orig><reg>c</reg></choice>il</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_112">qui</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_113">n’</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_114">amandent</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_115">de</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_116">sa</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_117">vie</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_118">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="17">
+                  <lb n="19"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_119"><choice><orig>Q</orig><reg>q</reg></choice>uant</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_120">cil</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_121">l’</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_122">ont</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_123">qui</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_124">sont</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_125">de</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_126">sa</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_127">table</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_128">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="18">
+                  <lb n="20"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_129"><choice><orig>Q</orig><reg>q</reg></choice>ui</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_130">ne</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_131">li</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_132">sont</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_133">ferm</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_134">ne</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_135">metable</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_136">
+                     <choice>
+                        <orig/>
+                        <reg>?</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="19">
+                  <lb n="21"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_137">Ce</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_138">ne</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_139">puet</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_140">estre</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_141">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_142">c’</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_143">est</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_144">la</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_145"><choice><orig>u</orig><reg>v</reg></choice>oire</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_146">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="20">
+                  <lb n="22"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_147"><choice><orig>I</orig><reg>J</reg></choice>e</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_148">le</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_149">vos</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_150">di</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_151">por</w>
+                  <num>
+                     <w xml:id="w_TestamentAsneRutebeuf_BnF1635_152">.i.</w>
+                  </num>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_153">prou<choice><orig>u</orig><reg>v</reg></choice>oire</w>
+               </l>
+               <l n="21">
+                  <lb n="23"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_154"><choice><orig>Q</orig><reg>q</reg></choice>ui</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_155">a<choice><orig>u</orig><reg>v</reg></choice>oit</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_156"><choice><orig>v</orig><reg>u</reg></choice>ne</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_157">bone</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_158">esglise</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_159">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="22">
+                  <lb n="24"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_160"><choice><orig>S</orig><reg>s</reg></choice>i</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_161">ot</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_162">toute</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_163">s’</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_164">entente</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_165">mise</w>
+               </l>
+               <l n="23">
+                  <lb n="25"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_166"><choice><orig>A</orig><reg>a</reg></choice></w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_167">lui</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_168">che<choice><orig>u</orig><reg>v</reg></choice>ir</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_169"><ex>et</ex></w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_170">faire</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_171">a<choice><orig>u</orig><reg>v</reg></choice>oir</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_172">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="24">
+                  <lb n="26"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_173">A</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_174">ce</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_175">ot</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_176">tornei</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_177">son</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_178">sa<choice><orig>u</orig><reg>v</reg></choice>oir</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_179">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="25">
+                  <lb n="27"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_180">Asseiz</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_181">ot</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_182">robes</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_183"><ex>et</ex></w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_184">deniers</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_185">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="26">
+                  <lb n="28"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_186"><ex>et</ex></w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_187">de</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_188">bleif</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_189">toz</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_190">plains</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_191">ces</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_192">greniers</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_193">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="27">
+                  <lb n="29"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_194"><choice><orig>Q</orig><reg>q</reg></choice>ue</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_195">li</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_196">prestres</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_197">sa<choice><orig>u</orig><reg>v</reg></choice>oit</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_198">bien</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_199"><choice><orig>u</orig><reg>v</reg></choice>endre</w>
+               </l>
+               <l n="28">
+                  <lb n="30"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_200"><ex>et</ex></w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_201">pour</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_202">la</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_203"><choice><orig>u</orig><reg>v</reg></choice>enduë</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_204">a<space type="degl"/>tendre</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_205">
+                     <choice>
+                        <orig>.</orig>
+                        <reg/>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="29">
+                  <lb n="31"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_206"><choice><orig>D</orig><reg>d</reg></choice>e</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_207"><choice><orig>p</orig><reg>P</reg></choice>aques</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_208">a</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_209">la</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_210"><choice><orig>s</orig><reg>S</reg></choice>aint</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_211"><choice><orig>r</orig><reg>R</reg></choice>emi</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_212">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="30">
+                  <lb n="32"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_213"><ex>et</ex></w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_214">si</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_215">n’</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_216">eüst</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_217">si</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_218">boen</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_219">ami</w>
+               </l>
+               <l n="31">
+                  <lb n="33"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_220"><choice><orig>Q</orig><reg>q</reg></choice>ui</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_221">en</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_222">peüst</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_223">riens</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_224">nee</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_225">traire</w>
+               </l>
+               <l n="32">
+                  <lb n="34"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_226"><choice><orig>S</orig><reg>s</reg></choice>’</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_227">om</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_228">ne</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_229">li</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_230">fait</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_231">a</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_232">force</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_233">faire</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_234">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+            </lg>
+            <lg>
+               <l n="33">
+                  <lb n="35"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_235"><g type="initiale" rend="size(2) sizeAct(2) color(blue)">U</g>n</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_236">asne</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_237">a<choice><orig>u</orig><reg>v</reg></choice>oit</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_238">en</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_239">sa</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_240">maison</w>
+               </l>
+               <l n="34">
+                  <lb n="36"/>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_241">
+                     <choice>
+                        <orig/>
+                        <reg>-</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_242">mais</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_243">teil</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_244">asne</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_245">ne</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_246"><choice><orig>u</orig><reg>v</reg></choice>it</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_247">mais</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_248">hom</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_249">
+                     <choice>
+                        <orig>.</orig>
+                        <reg>-</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="35">
+                  <lb n="37"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_250"><choice><orig>Q</orig><reg>q</reg></choice>ui</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_251">
+                     <choice>
+                        <orig>.</orig>
+                        <reg/>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_252">vint</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_253">ans</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_254">entiers</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_255">le</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_256">ser<choice><orig>u</orig><reg>v</reg></choice>i</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_257">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="36">
+                  <lb n="38"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_258"><choice><orig>M</orig><reg>m</reg></choice>ais</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_259">ne</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_260">sai</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_261">s’</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_262">onques</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_263">teil</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_264">serf</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_265">vi</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_266">
+                     <choice>
+                        <orig>.</orig>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="37">
+                  <lb n="39"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_267">Li</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_268">asnes</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_269">morut</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_270">de</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_271">viellesce</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_272">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="38">
+                  <lb n="40"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_273"><choice><orig>Q</orig><reg>q</reg></choice>ui</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_274">mout</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_275">aida</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_276">a</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_277">la</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_278">richesce</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_279">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="39">
+                  <lb n="41"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_280">Tant</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_281">tint</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_282" join="right" ana="#aggl-cert_low">li</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_283">prestres</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_284">son</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_285">cors</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_286">chier</w>
+               </l>
+               <l n="40">
+                  <lb n="42"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_287"><choice><orig>C</orig><reg>c</reg></choice>’</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_288">onques</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_289">nou</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_290">laissat</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_291">acorchier</w>
+               </l>
+               <l n="41">
+                  <lb n="43"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_292"><ex>et</ex></w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_293">l’</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_294">en<space type="degl-fgmt"/>foÿ</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_295">ou</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_296">semetiere</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_297">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+                  <pb n="5r"
+                       xml:id="pb_2"
+                       facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b105253083/f15/full/pct:50/0/native.jpg"/>
+                  <cb n="5ra"/>
+               </l>
+               <l n="42">
+                  <lb n="44"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_299">Ici</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_300">lairai</w>
+                  <choice>
+                     <corr>
+                        <w xml:id="w_TestamentAsneRutebeuf_BnF1635_301">ceste</w>
+                     </corr>
+                     <sic>veste</sic>
+                  </choice>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_303">matiere</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_304">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+            </lg>
+            <lg>
+               <l n="43">
+                  <lb n="45"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_305"><g type="initiale" rend="size(2) sizeAct(3) color(red)">L</g>’</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_306">e<choice><orig>u</orig><reg>v</reg></choice>esques</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_307">ert</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_308">d’</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_309">autre</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_310">maniere</w>
+               </l>
+               <l n="44">
+                  <lb n="46"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_311"><choice><orig>Q</orig><reg>q</reg></choice><ex>ue</ex></w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_312">co<choice><orig>u</orig><reg>v</reg></choice>oiteux</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_313">ne</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_314">eschars</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_315">n’</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_316">iere</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_317">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="45">
+                  <lb n="47"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_318"><choice><orig>M</orig><reg>m</reg></choice>ais</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_319">cortois</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_320"><ex>et</ex></w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_321">bien</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_322">afaitiez</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_323">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="46">
+                  <lb n="48"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_324"><choice><orig>Q</orig><reg>q</reg></choice>ue</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_325">c’</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_326">il</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_327">fust</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_328"><choice><orig>i</orig><reg>j</reg></choice>ai</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_329">bien</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_330">deshaitiez</w>
+               </l>
+               <l n="47">
+                  <lb n="49"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_331"><ex>et</ex></w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_332">veïst</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_333">preudome</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_334">venir</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_335">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="48">
+                  <lb n="50"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_336"><choice><orig>N</orig><reg>n</reg></choice>uns</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_337">nel</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_338">peüst</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_339">el</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_340">list</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_341">tenir</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_342">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="49">
+                  <lb n="51"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_343">Compeigniẹ</w>
+                  <note type="philologique">
+                     <p rend="footnote text">Jean Dufournet corrige <hi rend="italic">compeignie</hi> en <hi rend="italic">compeigne</hi> afin de conserver huit syllabes, mais il faut comprendre que le <hi rend="italic">e</hi> final de <hi rend="italic">compeignie</hi> s’élide, bien qu’il soit suivi d’un terme débutant par une consonne.</p>
+                  </note>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_344">de</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_345">boens</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_346">crestïens</w>
+               </l>
+               <l n="50">
+                  <lb n="52"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_347"><choice><orig>E</orig><reg>e</reg></choice>stoit</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_348">ces</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_349">droiz</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_350">fisicïens</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_351">
+                     <choice>
+                        <orig>.</orig>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="51">
+                  <lb n="53"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_352">Touz</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_353"><choice><orig>i</orig><reg>j</reg></choice>ors</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_354">estoit</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_355">plainne</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_356">sa</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_357">sale</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_358">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="52">
+                  <lb n="54"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_359">Sa</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_360">maignie</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_361">n’</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_362">estoit</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_363">pas</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_364">male</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_365">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="53">
+                  <lb n="55"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_366"><choice><orig>M</orig><reg>m</reg></choice>ais</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_367">quanque</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_368">li</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_369">sires</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_370">voloit</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_371">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="54">
+                  <lb n="56"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_372"><choice><orig>N</orig><reg>n</reg></choice>uns</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_373">de</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_374">ces</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_375">sers</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_376" join="right" ana="#aggl-cert_low">ne</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_377">s’</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_378">en</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_379">doloit</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_380">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="55">
+                  <lb n="57"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_381">C’</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_382">il</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_383">ot</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_384">mueble</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_385">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_386">ce</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_387">fut</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_388" join="right" ana="#aggl-cert_low">de</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_389">dete</w>
+               </l>
+               <l n="56">
+                  <lb n="58"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_390"><choice><orig>C</orig><reg>c</reg></choice>ar</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_391">qui</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_392">trop</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_393">despent</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_394">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_395">il</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_396">s’</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_397">en<space type="degl"/>dete</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_398">
+                     <choice>
+                        <orig>.</orig>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+            </lg>
+            <lg>
+               <l n="57">
+                  <lb n="59"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_399"><g type="initiale" rend="size(2) sizeAct(2) color(blue)">U</g>n</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_400"><choice><orig>i</orig><reg>j</reg></choice>our</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_401">grant</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_402">compaignie</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_403">a<choice><orig>u</orig><reg>v</reg></choice>oit</w>
+               </l>
+               <l n="58">
+                  <lb n="60"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_404">li</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_405">preudons</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_406">qui</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_407">toz</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_408">biens</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_409">sa<choice><orig>u</orig><reg>v</reg></choice>oit</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_410">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="59">
+                  <lb n="61"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_411"><choice><orig>S</orig><reg>s</reg></choice>i</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_412">parla</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_413">l’</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_414">en</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_415">de</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_416">ces</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_417">clers</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_418">riches</w>
+               </l>
+               <l n="60">
+                  <lb n="62"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_419"><ex>et</ex></w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_420">des</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_421">prestres</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_422">a<choice><orig>u</orig><reg>v</reg></choice>ers</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_423"><ex>et</ex></w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_424">chiches</w>
+               </l>
+               <l n="61">
+                  <lb n="63"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_425"><choice><orig>Q</orig><reg>q</reg></choice>ui</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_426">ne</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_427">font</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_428">bontei</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_429">ne</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_430">honour</w>
+               </l>
+               <l n="62">
+                  <lb n="64"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_431">a</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_432">e<choice><orig>u</orig><reg>v</reg></choice>esque</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_433">ne</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_434">a</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_435">seignour</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_436">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="63">
+                  <lb n="65"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_437">Cil</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_438">prestres</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_439" join="right">i</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_440">fut</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_441">emputeiz</w>
+               </l>
+               <l n="64">
+                  <lb n="66"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_442"><choice><orig>Q</orig><reg>q</reg></choice>ui</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_443">tant</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_444">fut</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_445">riches</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_446"><ex>et</ex></w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_447">monteiz</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_448">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="65">
+                  <lb n="67"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_449">Ausi</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_450">bien</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_451">fut</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_452">sa</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_453"><choice><orig>u</orig><reg>v</reg></choice>ie</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_454">dite</w>
+               </l>
+               <l n="66">
+                  <lb n="68"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_455"><choice><orig>C</orig><reg>c</reg></choice>on</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_456">c’</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_457">il</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_458">la</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_459"><choice><orig>u</orig><reg>v</reg></choice>eïssent</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_460">escrite</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_461">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="67">
+                  <lb n="69"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_462"><ex>et</ex></w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_463">li</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_464">dona</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_465">l’</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_466">en</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_467">plus</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_468">d’</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_469">a<choice><orig>u</orig><reg>v</reg></choice>oir</w>
+               </l>
+               <l n="68">
+                  <lb n="70"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_470"><choice><orig>Q</orig><reg>q</reg></choice>ue</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_471">troi</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_472">n’</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_473">em</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_474">peüssent</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_475">a<choice><orig>u</orig><reg>v</reg></choice>oir</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_476">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="69">
+                  <lb n="71"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_477"><choice><orig>C</orig><reg>c</reg></choice>ar</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_478">hom</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_479">dit</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_480">trop</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_481">plus</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_482">de</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_483">la</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_484">choze</w>
+               </l>
+               <l n="70">
+                  <lb n="72"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_485"><choice><orig>Q</orig><reg>q</reg></choice>ue</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_486">hom</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_487">n’</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_488">i</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_489" join="right">true<choice><orig>u</orig><reg>v</reg></choice>e</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_490">a</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_491">la</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_492">parcloze</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_493">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+            </lg>
+            <lg>
+               <l n="71">
+                  <lb n="73"/>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_494">
+                     <choice>
+                        <orig/>
+                        <reg>«</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_495"><g type="initiale" rend="size(2) sizeAct(2) color(red)">A</g>ncor</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_496">at</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_497">il</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_498">teil</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_499">choze</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_500">faite</w>
+               </l>
+               <l n="72">
+                  <lb n="74"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_501">dont</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_502">granz</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_503">monoie</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_504">seroit</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_505">traite</w>
+               </l>
+               <l n="73">
+                  <lb n="75"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_506"><choice><orig>S</orig><reg>s</reg></choice>’</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_507">estoit</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_508">qui</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_509">la</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_510">meïst</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_511">a<choice><orig>u</orig><reg>v</reg></choice>ant</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_512">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="74">
+                  <lb n="76"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_513"><choice><orig>F</orig><reg>f</reg></choice>ait</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_514">cil</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_515">qui</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_516">wet</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_517">ser<choice><orig>u</orig><reg>v</reg></choice>ir</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_518">de<choice><orig>u</orig><reg>v</reg></choice>ant</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_519">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="75">
+                  <lb n="77"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_520"><ex>et</ex></w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_521">c’</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_522">en</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_523">de<choice><orig>u</orig><reg>v</reg></choice>roit</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_524">grant</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_525">guerredon</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_526">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="76">
+                  <lb n="78"/>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_527">
+                     <choice>
+                        <orig/>
+                        <reg>-</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_528"><ex>Et</ex></w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_529">qu’</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_530">a</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_531">il</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_532">fait</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_533">
+                     <choice>
+                        <orig/>
+                        <reg>?</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_534">dit</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_535">li</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_536">preudom</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_537">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="77">
+                  <lb n="79"/>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_538">
+                     <choice>
+                        <orig/>
+                        <reg>-</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_539">Il</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_540">at</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_541">pis</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_542">fait</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_543">c’</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_544">un</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_545"><choice><orig>b</orig><reg>B</reg></choice>edüyn</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_546">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <cb n="5rb"/>
+               </l>
+               <l n="78">
+                  <lb n="80"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_547"><choice><orig>Q</orig><reg>q</reg></choice>u’</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_548" join="right" ana="#aggl-cert_low">il</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_549">at</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_550">son</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_551">asne</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_552">Baudüyn</w>
+               </l>
+               <l n="79">
+                  <lb n="81"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_553"><choice><orig>M</orig><reg>m</reg></choice>is</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_554">en</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_555">la</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_556">terre</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_557">beneoite</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_558">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="80">
+                  <lb n="82"/>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_559">
+                     <choice>
+                        <orig/>
+                        <reg>-</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_560">Sa</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_561">vie</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_562">soit</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_563">la</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_564">maleoite</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_565">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="81">
+                  <lb n="83"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_566"><choice><orig>F</orig><reg>f</reg></choice>ait</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_567">l’</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_568">es<choice><orig>u</orig><reg>v</reg></choice>esques</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_569">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_570">se</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_571">ce</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_572">est</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_573">voirs</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_574">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="82">
+                  <lb n="84"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_575">Honiz</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_576">soit</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_577">il</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_578"><ex>et</ex></w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_579">ces</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_580">a<choice><orig>u</orig><reg>v</reg></choice>oirs</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_581">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="83">
+                  <lb n="85"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_582">Gautier</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_583">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_584">faites</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_585">le</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_586">nos</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_587">semondre</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_588">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="84">
+                  <lb n="86"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_589"><choice><orig>S</orig><reg>s</reg></choice>i</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_590">orrons</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_591">le</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_592">prestre</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_593">respondre</w>
+               </l>
+               <l n="85">
+                  <lb n="87"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_594">a</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_595">ce</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_596">que</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_597"><choice><orig>r</orig><reg>R</reg></choice>obers</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_598">li</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_599">mest</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_600">seure</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_601">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="86">
+                  <lb n="88"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_602"><ex>Et</ex></w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_603"><choice><orig>i</orig><reg>j</reg></choice>e</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_604">di</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_605">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_606">se</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_607"><choice><orig>d</orig><reg>D</reg></choice>ex</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_608">me</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_609">secoure</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_610">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="87">
+                  <lb n="89"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_611"><choice><orig>S</orig><reg>s</reg></choice>e</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_612">c’</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_613">est</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_614"><choice><orig>u</orig><reg>v</reg></choice>oirs</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_615">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_616">j’</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_617">en</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_618">a<choice><orig>u</orig><reg>v</reg></choice>rai</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_619">l’</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_620">a<space type="degl"/>mende</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_621">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="88">
+                  <lb n="90"/>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_622">
+                     <choice>
+                        <orig/>
+                        <reg>-</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_623"><choice><orig>I</orig><reg>J</reg></choice>e</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_624">vos</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_625">otroi</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_626">que</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_627">l’</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_628">an</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_629">me</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_630">pande</w>
+               </l>
+               <l n="89">
+                  <lb n="91"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_631"><choice><orig>S</orig><reg>s</reg></choice>e</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_632">ce</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_633">n’</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_634">est</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_635"><choice><orig>u</orig><reg>v</reg></choice>oirs</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_636">que</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_637"><choice><orig>i</orig><reg>j</reg></choice>’</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_638">ai</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_639">contei</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_640">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="90">
+                  <lb n="92"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_641" join="right"><choice><orig>s</orig><reg>S</reg></choice>i</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_642">ne</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_643">vos</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_644">fist</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_645">onques</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_646">bontei</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_647">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_648">
+                     <choice>
+                        <orig/>
+                        <reg>»</reg>
+                     </choice>
+                  </pc>
+               </l>
+            </lg>
+            <lg>
+               <l n="91">
+                  <lb n="93"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_649"><g type="initiale" rend="size(2) sizeAct(2) color(blue)">I</g>I</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_650">fut</w>
+                  <note type="philologique">
+                     <p rend="footnote text">Une tâche, dans le manuscrit, donne l’impression que le <hi rend="italic">u</hi> se ferme à la manière d’un <hi rend="italic">o</hi>.</p>
+                  </note>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_651">semons</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_652">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_653"><choice><orig>l</orig><reg>L</reg></choice>i</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_654">prestres</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_655"><choice><orig>u</orig><reg>v</reg></choice>ient</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_656">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="92">
+                  <lb n="94"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_657"><choice><orig>v</orig><reg>V</reg></choice>enuz</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_658">est</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_659">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_660">respondre</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_661">couvient</w>
+               </l>
+               <l n="93">
+                  <lb n="95"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_662">a</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_663">son</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_664">e<choice><orig>u</orig><reg>v</reg></choice>esque</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_665">de</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_666">cest</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_667">quas</w>
+               </l>
+               <l n="94">
+                  <lb n="96"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_668"><choice><orig>D</orig><reg>d</reg></choice>ont</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_669">li</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_670">prestres</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_671">doit</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_672">estre</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_673">quas</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_674">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="95">
+                  <lb n="97"/>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_675">
+                     <choice>
+                        <orig/>
+                        <reg>«</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_676">Faus</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_677">desleaux</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_678">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_679"><choice><orig>d</orig><reg>D</reg></choice>eu</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_680">anemis</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_681">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="96">
+                  <lb n="98"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_682"><choice><orig>O</orig><reg>o</reg></choice>u</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_683">a<choice><orig>u</orig><reg>v</reg></choice>eiz</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_684"><choice><orig>u</orig><reg>v</reg></choice>os</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_685"><choice><orig>u</orig><reg>v</reg></choice>ostre</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_686">asne</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_687">mis</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_688">
+                     <choice>
+                        <orig/>
+                        <reg>?</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="97">
+                  <lb n="99"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_689"><choice><orig>D</orig><reg>d</reg></choice>ist</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_690">l’</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_691">es<choice><orig>u</orig><reg>v</reg></choice>esques</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_692">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_693"><choice><orig>m</orig><reg>M</reg></choice>out</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_694">a<choice><orig>u</orig><reg>v</reg></choice>eiz</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_695">fait</w>
+               </l>
+               <l n="98">
+                  <lb n="100"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_696"><choice><orig>A</orig><reg>a</reg></choice></w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_697">sainte</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_698"><choice><orig>e</orig><reg>E</reg></choice>sglise</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_699">grant</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_700">meffait</w>
+               </l>
+               <l n="99">
+                  <lb n="101"/>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_701">
+                     <choice>
+                        <orig/>
+                        <reg>-</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_702"><choice><orig>O</orig><reg>o</reg></choice>nques</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_703">mais</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_704">nuns</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_705" join="right" ana="#aggl-cert_low">si</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_706">grant</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_707">n’</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_708">oÿ</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_709">
+                     <choice>
+                        <orig/>
+                        <reg>-</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="100">
+                  <lb n="102"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_710"><choice><orig>Q</orig><reg>q</reg></choice>ui</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_711">a<choice><orig>u</orig><reg>v</reg></choice>eiz</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_712"><choice><orig>u</orig><reg>v</reg></choice>otre</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_713">asne</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_714">enfoÿ</w>
+               </l>
+               <l n="101">
+                  <lb n="103"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_715"><choice><orig>L</orig><reg>l</reg></choice>a</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_716">ou</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_717">on</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_718">met</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_719">gent</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_720">crestïenne</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_721">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="102">
+                  <lb n="104"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_722">Par</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_723"><choice><orig>m</orig><reg>M</reg></choice>arie</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_724">l’</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_725"><choice><orig>e</orig><reg>E</reg></choice>gyptïenne</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_726">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="103">
+                  <lb n="105"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_727"><choice><orig>C</orig><reg>c</reg></choice>’</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_728">il</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_729">puet</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_730">estre</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_731">choze</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_732">pro<choice><orig>u</orig><reg>v</reg></choice>ee</w>
+               </l>
+               <l n="104">
+                  <lb n="106"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_733"><choice><orig>N</orig><reg>n</reg></choice>e</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_734">par</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_735">la</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_736">bone</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_737">gent</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_738">tro<choice><orig>u</orig><reg>v</reg></choice>ee</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_739">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="105">
+                  <lb n="107"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_740"><choice><orig>J</orig><reg>j</reg></choice>e</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_741">vos</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_742">ferai</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_743">metre</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_744">en</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_745">prison</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_746">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="106">
+                  <lb n="108"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_747"><choice><orig>C</orig><reg>c</reg></choice>’</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_748">onques</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_749">n’</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_750">oÿ</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_751">teil</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_752">mesprison</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_753">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_754">
+                     <choice>
+                        <orig/>
+                        <reg>»</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="107">
+                  <lb n="109"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_755">Dit</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_756">li</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_757">prestres</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_758">
+                     <choice>
+                        <orig/>
+                        <reg>:</reg>
+                     </choice>
+                  </pc>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_759">
+                     <choice>
+                        <orig/>
+                        <reg>«</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_760"><choice><orig>b</orig><reg>B</reg></choice>iax</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_761">tres</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_762">dolz</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_763">sire</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_764">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="108">
+                  <lb n="110"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_765"><choice><orig>T</orig><reg>t</reg></choice>oute</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_766">parole</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_767">se</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_768">lait</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_769">dire</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_770">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="109">
+                  <lb n="111"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_771">Mais</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_772"><choice><orig>i</orig><reg>j</reg></choice>e</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_773">demant</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_774"><choice><orig>i</orig><reg>j</reg></choice>or</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_775">de</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_776">conseil</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_777">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="110">
+                  <lb n="112"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_778"><choice><orig>Q</orig><reg>q</reg></choice>u’</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_779">il</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_780">est</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_781">droiz</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_782">que</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_783"><choice><orig>i</orig><reg>j</reg></choice>e</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_784">me</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_785">conseil</w>
+               </l>
+               <l n="111">
+                  <lb n="113"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_786"><choice><orig>D</orig><reg>d</reg></choice>e</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_787">ceste</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_788">choze</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_789">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_790">c’</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_791">il</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_792">vos</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_793">plait</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_794">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="112">
+                  <lb n="114"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_795"><choice><orig>N</orig><reg>n</reg></choice>on</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_796">pas</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_797">que</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_798"><choice><orig>i</orig><reg>j</reg></choice>e</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_799" join="right">i</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_800">bee</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_801">en</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_802">plait</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_803">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="113">
+                  <lb n="115"/>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_804">
+                     <choice>
+                        <orig/>
+                        <reg>-</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_805"><choice><orig>I</orig><reg>J</reg></choice>e</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_806">wel</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_807">bien</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_808">le</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_809">conseil</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_810">aiez</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_811">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <pb n="5v"
+                       xml:id="pb_3"
+                       facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b105253083/f16/full/pct:50/0/native.jpg"/>
+                  <cb n="5va"/>
+               </l>
+               <l n="114">
+                  <lb n="116"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_813"><choice><orig>M</orig><reg>m</reg></choice>ais</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_814">ne</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_815">me</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_816">tieng</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_817">paz</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_818" join="right" ana="#aggl-cert_low">a</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_819">paiez</w>
+               </l>
+               <l n="115">
+                  <lb n="117"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_820">de</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_821">ceste</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_822">choze</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_823">c’</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_824">ele</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_825">est</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_826">voire</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_827">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="116">
+                  <lb n="118"/>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_828">
+                     <choice>
+                        <orig/>
+                        <reg>-</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_829">Sire</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_830">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_831">ce</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_832">ne</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_833">fait</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_834">pas</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_835">a</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_836">croire</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_837">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_838">
+                     <choice>
+                        <orig/>
+                        <reg>»</reg>
+                     </choice>
+                  </pc>
+               </l>
+            </lg>
+            <lg>
+               <l n="117">
+                  <lb n="119"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_839"><g type="initiale" rend="size(2) sizeAct(3) color(red)">L</g>ors</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_840" join="right" ana="#aggl-cert_low">se</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_841">part</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_842">li</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_843">ves<subst><del rend="overwrite">p</del><add place="inline">q</add></subst>ues</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_844" join="right">dou</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_845">p<ex>re</ex>stre</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_846">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="118">
+                  <lb n="120"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_847"><choice><orig>Q</orig><reg>q</reg></choice>ui</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_848">ne</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_849">tient</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_850">pas</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_851">le</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_852">fait</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_853">a</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_854">feste</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_855">
+                     <choice>
+                        <orig>.</orig>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="119">
+                  <lb n="121"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_856">Li</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_857">prestres</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_858">ne</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_859">s’</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_860">esmaie</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_861">mie</w>
+               </l>
+               <l n="120">
+                  <lb n="122"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_862"><choice><orig>Q</orig><reg>q</reg></choice>u’</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_863">il</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_864">seit</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_865">bien</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_866">qu’</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_867">il</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_868">at</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_869">bone</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_870">amie</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_871">
+                     <choice>
+                        <orig/>
+                        <reg>:</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="121">
+                  <lb n="123"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_872"><choice><orig>C</orig><reg>c</reg></choice>’</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_873">est</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_874">sa</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_875">borce</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_876">qui</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_877">ne</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_878">li</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_879">faut</w>
+               </l>
+               <l n="122">
+                  <lb n="124"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_880"><choice><orig>P</orig><reg>p</reg></choice>or</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_881">amende</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_882">ne</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_883">por</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_884">defaut</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_885">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+            </lg>
+            <lg>
+               <l n="123">
+                  <lb n="125"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_886"><g type="initiale" rend="size(2) sizeAct(2) color(blue)">Q</g>ue</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_887">que</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_888">foz</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_889">dort</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_890">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_891"><ex>et</ex></w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_892">termes</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_893">vient</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_894">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="124">
+                  <lb n="126"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_895"><choice><orig>l</orig><reg>L</reg></choice>i</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_896">termes</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_897">vint</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_898"><ex>et</ex></w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_899">cil</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_900">re<choice><orig>u</orig><reg>v</reg></choice>ient</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_901">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="125">
+                  <lb n="127"/>
+                  <num>
+                     <w xml:id="w_TestamentAsneRutebeuf_BnF1635_902">.XX.</w>
+                  </num>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_903">li<choice><orig>u</orig><reg>v</reg></choice>res</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_904">en</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_905"><choice><orig>v</orig><reg>u</reg></choice>ne</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_906">corroie</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_907">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="126">
+                  <lb n="128"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_908"><choice><orig>T</orig><reg>t</reg></choice>ouz</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_909">ses</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_910"><ex>et</ex></w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_911">de</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_912">bone</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_913">monoie</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_914">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="127">
+                  <lb n="129"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_915"><choice><orig>A</orig><reg>a</reg></choice>porta</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_916">li</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_917">prestres</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_918">o</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_919">soi</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_920">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="128">
+                  <lb n="130"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_921">N’</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_922">a</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_923">garde</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_924">qu’</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_925">il</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_926">ait</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_927">fain</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_928">ne</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_929">soi</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_930">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="129">
+                  <lb n="131"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_931">Q<ex>ua</ex>nt</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_932">l’</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_933">es<space type="degl" cert="low"/><choice><orig>u</orig><reg>v</reg></choice>esques</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_934">le</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_935">voit</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_936">venir</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_937">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="130">
+                  <lb n="132"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_938"><choice><orig>D</orig><reg>d</reg></choice>e</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_939">parleir</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_940">ne</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_941">se</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_942">pot</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_943">tenir</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_944">
+                     <choice>
+                        <orig/>
+                        <reg>:</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="131">
+                  <lb n="133"/>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_945">
+                     <choice>
+                        <orig/>
+                        <reg>«</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_946">Prestres</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_947">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_948">consoil</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_949">a<choice><orig>u</orig><reg>v</reg></choice>eiz</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_950">eü</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_951">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="132">
+                  <lb n="134"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_952"><choice><orig>Q</orig><reg>q</reg></choice>ui</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_953">a<choice><orig>u</orig><reg>v</reg></choice>eiz</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_954"><choice><orig>u</orig><reg>v</reg></choice>otre</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_955">senz</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_956">beü</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_957">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="133">
+                  <lb n="135"/>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_958">
+                     <choice>
+                        <orig/>
+                        <reg>-</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_959">Sire</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_960">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_961">consoil</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_962">oi</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_963">ge</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_964">cens</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_965">faille</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_966">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="134">
+                  <lb n="136"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_967"><choice><orig>M</orig><reg>m</reg></choice>ais</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_968">a</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_969">consoil</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_970">n’</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_971">a<space type="degl"/>fiert</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_972">bataille</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_973">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="135">
+                  <lb n="137"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_974">Ne</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_975">vos</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_976">en</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_977">de<choice><orig>u</orig><reg>v</reg></choice>eiz</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_978">mer<choice><orig>u</orig><reg>v</reg></choice>illier</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_979">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="136">
+                  <lb n="138"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_980"><choice><orig>Q</orig><reg>q</reg></choice>u’</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_981">a</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_982">consoil</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_983">doit</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_984">on</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_985">concillier</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_986">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="137">
+                  <lb n="139"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_987"><choice><orig>d</orig><reg>D</reg></choice>ire</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_988">vos</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_989">weul</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_990">ma</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_991">conscïence</w>
+               </l>
+               <l n="138">
+                  <lb n="140"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_992"><ex>et</ex></w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_993">c’</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_994">il</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_995">i</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_996">afiert</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_997">penitance</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_998">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="139">
+                  <lb n="141"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_999"><choice><orig>O</orig><reg>o</reg></choice>u</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1000">soit</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1001">d’</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1002">a<choice><orig>u</orig><reg>v</reg></choice>oir</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1003">ou</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1004">soit</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1005">de</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1006">cors</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_1007">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="140">
+                  <lb n="142"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1008"><choice><orig>A</orig><reg>a</reg></choice><space type="degl-fgmt" cert="low"/>dons</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1009">si</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1010">me</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1011">corrigiez</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1012">lors</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_1013">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_1014">
+                     <choice>
+                        <orig/>
+                        <reg>»</reg>
+                     </choice>
+                  </pc>
+               </l>
+            </lg>
+            <lg>
+               <l n="141">
+                  <lb n="143"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1015"><g type="initiale" rend="size(3) sizeAct(3) color(red)">L</g>’</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1016">e<choice><orig>u</orig><reg>v</reg></choice>esques</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1017">si</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1018">de</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1019">li</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1020">s’</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1021">aprouche</w>
+               </l>
+               <l n="142">
+                  <lb n="144"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1022"><choice><orig>Q</orig><reg>q</reg></choice><ex>ue</ex></w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1023">parleir</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1024" join="right"><choice><orig>j</orig><reg>i</reg></choice></w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1025">pout</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1026">bouche</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1027">a</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1028">bouche</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_1029">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="143">
+                  <lb n="145"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1030"><ex>et</ex></w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1031">li</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1032">prestres</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1033">lie<choice><orig>u</orig><reg>v</reg></choice>e</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1034">la</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1035">chiere</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_1036">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="144">
+                  <lb n="146"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1037"><choice><orig>Q</orig><reg>q</reg></choice>ui</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1038">lors</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1039">n’</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1040">out</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1041">pas</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1042" join="right" ana="#aggl-cert_low">monoie</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1043">chiere</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_1044">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="145">
+                  <lb n="147"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1045"><choice><orig>d</orig><reg>D</reg></choice>e<space type="degl" cert="low"/>soz</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1046">sa</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1047">chape</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1048">tint</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1049">l’</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1050">argent</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_1051">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="146">
+                  <lb n="148"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1052">Ne</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1053">l’</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1054">ozat</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1055">montreir</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1056">p<ex>our</ex></w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1057">la</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1058">gent</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_1059">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="147">
+                  <lb n="149"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1060">En</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1061">concillant</w>
+                  <note type="philologique">
+                     <p rend="footnote text">Jean Dufournet corrige en <hi rend="italic">conciliant</hi>.</p>
+                  </note>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1062">conta</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1063">son</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1064">conte</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_1065">
+                     <choice>
+                        <orig/>
+                        <reg>:</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="148">
+                  <lb n="150"/>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_1066">
+                     <choice>
+                        <orig/>
+                        <reg>«</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1067">Sire</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_1068">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1069">ci</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1070">n’</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1071">afiert</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1072">plus</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1073">lonc</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1074">conte</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_1075">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="149">
+                  <lb n="151"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1076">Mes</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1077">asnes</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1078">at</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1079">lonc</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1080">tans</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1081">vescu</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_1082">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="150">
+                  <lb n="152"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1083">Mout</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1084">a<choice><orig>u</orig><reg>v</reg></choice>oie</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1085">en</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1086">li</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1087">boen</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1088">escu</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_1089">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+                  <cb n="5vb"/>
+               </l>
+               <l n="151">
+                  <lb n="153"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1090">Il</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1091">m’</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1092">at</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1093"><choice><orig>S</orig><reg>s</reg></choice>er<choice><orig>u</orig><reg>v</reg></choice>i</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1094"><ex>et</ex></w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1095"><choice><orig>V</orig><reg>v</reg></choice>o<choice><orig>L</orig><reg>l</reg></choice>entiers</w>
+               </l>
+               <l n="152">
+                  <lb n="154"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1096"><choice><orig>M</orig><reg>m</reg></choice><ex>ou</ex>t</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1097">loiaument</w>
+                  <num>
+                     <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1098">.xx.</w>
+                  </num>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1099">ans</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1100">entiers</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_1101">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="153">
+                  <lb n="155"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1102">Se</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1103"><choice><orig>i</orig><reg>j</reg></choice>e</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1104">soie</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1105" join="right" ana="#aggl-cert_low">de</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1106"><choice><orig>d</orig><reg>D</reg></choice>ieu</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1107">assoux</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_1108">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="154">
+                  <lb n="156"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1109"><choice><orig>C</orig><reg>c</reg></choice>hacun</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1110">an</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1111">ga<del rend="dot-below">i</del>aingnoit</w>
+                  <num>
+                     <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1112">.xx.</w>
+                  </num>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1113">soux</w>
+               </l>
+               <l n="155">
+                  <lb n="157"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1114"><choice><orig>T</orig><reg>t</reg></choice>ant</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1115">qu’</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1116">il</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1117">at</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1118">espairgnié</w>
+                  <num>
+                     <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1119">.xx.</w>
+                  </num>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1120">li<choice><orig>u</orig><reg>v</reg></choice>res</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_1121">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="156">
+                  <lb n="158"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1122">Pour</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1123">ce</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1124">qu’</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1125">il</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1126" join="right">soit</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1127">d’</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1128">enfer</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1129">deli<choice><orig>u</orig><reg>v</reg></choice>res</w>
+               </l>
+               <l n="157">
+                  <lb n="159"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1130">les</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1131">vos</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1132">laisse</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1133">en</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1134">son</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1135">testament</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_1136">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_1137">
+                     <choice>
+                        <orig/>
+                        <reg>»</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="158">
+                  <lb n="160"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1138"><ex>Et</ex></w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1139">dist</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1140">l’</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1141">es<choice><orig>u</orig><reg>v</reg></choice>esques</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_1142">
+                     <choice>
+                        <orig/>
+                        <reg>:</reg>
+                     </choice>
+                  </pc>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_1143">
+                     <choice>
+                        <orig/>
+                        <reg>«</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1144"><choice><orig>d</orig><reg>D</reg></choice>iex</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1145">l’</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1146">ament</w>
+               </l>
+               <l n="159">
+                  <lb n="161"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1147"><ex>et</ex></w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1148">si</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1149">li</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1150">pardoint</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1151">ces</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1152">meffais</w>
+               </l>
+               <l n="160">
+                  <lb n="162"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1153"><ex>et</ex></w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1154">toz</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1155">les</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1156">pechiez</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1157">qu’</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1158">il</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1159">at</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1160">fais</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_1161">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_1162">
+                     <choice>
+                        <orig/>
+                        <reg>»</reg>
+                     </choice>
+                  </pc>
+               </l>
+            </lg>
+            <lg>
+               <l n="161">
+                  <lb n="163"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1163"><g type="initiale" rend="size(2) sizeAct(2) color(blue)">E</g>nsi</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1164">con</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1165">vos</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1166">a<choice><orig>u</orig><reg>v</reg></choice>eiz</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1167">oÿ</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_1168">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="162">
+                  <lb n="164"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1169">dou</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1170" join="right" ana="#aggl-cert_low">riche</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1171">prestre</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1172">s’</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1173">es<choice><orig>i</orig><reg>j</reg></choice>oÿ</w>
+               </l>
+               <l n="163">
+                  <lb n="165"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1174">l’</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1175">e<choice><orig>u</orig><reg>v</reg></choice>esquez</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1176" join="right" ana="#aggl-cert_low">por</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1177" join="right" ana="#aggl-cert_low">ce</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1178">qu’</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1179">il</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1180">mesprit</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_1181">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="164">
+                  <lb n="166"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1182"><choice><orig>a</orig><reg>A</reg></choice></w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1183">bontei</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1184">faire</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1185">li</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1186">aprist</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_1187">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="165">
+                  <lb n="167"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1188">Rutebués</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1189">nos</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1190">dist</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1191"><ex>et</ex></w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1192">enseigne</w>
+               </l>
+               <l n="166">
+                  <lb n="168"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1193"><choice><orig>Q</orig><reg>q</reg></choice>ui</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1194">deniers</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1195">porte</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1196">a</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1197">sa</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1198">besoingne</w>
+               </l>
+               <l n="167">
+                  <lb n="169"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1199"><choice><orig>N</orig><reg>n</reg></choice>e</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1200">doit</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1201">douteir</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1202">mauvais</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1203">lÿens</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_1204">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="168">
+                  <lb n="170"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1205"><choice><orig>l</orig><reg>L</reg></choice>i</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1206">asnes</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1207">remest</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1208">crestïens</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_1209">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="169">
+                  <lb n="171"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1210">A<space type="degl-fgmt" cert="low"/></w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1211">tant</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1212">la</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1213">rime</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1214">vos</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1215">en</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1216">lais</w>
+               </l>
+               <l n="170">
+                  <lb n="172"/>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1217"><choice><orig>Q</orig><reg>q</reg></choice>u’</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1218">il</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1219">paiat</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1220">bien</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1221"><ex>et</ex></w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1222">bel</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1223">son</w>
+                  <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1224">lais</w>
+                  <pc xml:id="w_TestamentAsneRutebeuf_BnF1635_1225">
+                     <choice>
+                        <orig>.</orig>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+               </l>
+            </lg>
+            <p rend="explicit" style="font-weight: bold; ">
+               <w xml:id="w_TestamentAsneRutebeuf_BnF1635_1226">Ex<space type="degl"/>pli<space type="degl"/>cit</w>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

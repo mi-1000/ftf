@@ -1,0 +1,2960 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="fro">La male honte I</title>
+            <author>Guillaume
+<idno type="URI" subtype="JONAS">http://jonas.irht.cnrs.fr/intervenant/3286</idno>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2024</date>
+            </edition>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="acorbellari">Alain Corbellari</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="alavrent">Alexei Lavrentiev</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="apinche">Ariane Pinche</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="blaid">Baptiste Laïd</name>
+            </respStmt>
+            <respStmt>
+               <resp>robot</resp>
+               <name xml:id="bot">bot bot</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="cguillot">Céline Guillot-Barbance</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="clachet">Claude Lachet</name>
+            </respStmt>
+            <respStmt>
+               <resp>editeur</resp>
+               <resp>traducteur</resp>
+               <resp>chef de projet</resp>
+               <name xml:id="cpierreville">Corinne Pierreville</name>
+            </respStmt>
+            <respStmt>
+               <resp>relecteur</resp>
+               <resp>relecteur-traduction</resp>
+               <resp>membre</resp>
+               <name xml:id="ggruber">Gauthier Grüber</name>
+            </respStmt>
+            <respStmt>
+               <resp>ingénieur</resp>
+               <name xml:id="jnuguet">Jules Nuguet</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="ngarnier">Nicolas Garnier</name>
+            </respStmt>
+            <respStmt>
+               <resp>Relecteur traduction</resp>
+               <name xml:id="rbellon">Roger Bellon</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="rtrachsler">Richard Trachsler</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="veugene">Valentine Eugène</name>
+            </respStmt>
+            <respStmt>
+               <resp>ingénieur</resp>
+               <name xml:id="myamagata">Moe Yamagata</name>
+            </respStmt>
+            <respStmt>
+               <resp/>
+               <name xml:id="jdocks">Justine DOCKS</name>
+            </respStmt>
+            <respStmt>
+               <resp>editeur</resp>
+               <resp>relecteur</resp>
+               <resp>traducteur</resp>
+               <resp>relecteur-traduction</resp>
+               <resp/>
+               <name> </name>
+            </respStmt>
+         </editionStmt>
+         <extent>
+            <num xml:id="nb_tokens_given">1155</num>
+            <num xml:id="nb_mots_given">986</num>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <name>ENS de Lyon / UMR 5317 IHRIM, Base de français médiéval, projet Fabliaux</name>
+            </publisher>
+            <address>
+               <addrLine>15, parvis René Descartes</addrLine>
+               <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+               <addrLine>Tél : 04 37 37 63 10</addrLine>
+               <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+               <addrLine>http://bfm.ens-lyon.fr</addrLine>
+            </address>
+            <idno type="bfm">http://catalog.bfm-corpus.org/fabliaux/MaleHonte1Guillaume_BnF-2173</idno>
+            <idno type="doi">10.34847/nkl.955f0shi</idno>
+            <availability status="free">
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <ab type="availability_bfm">Les Conditions générales d'utilisation de la Base de Français Médiéval (http://txm.bfm-corpus.org/bfm/files/CGU.pdf), 
+                        et notamment son Article 5 « PROPRIETE INTELLECTUELLE », s'appliquent à tous les textes de la BFM.</ab>
+                  <ab type="how_to_cite">
+                     <label>Comment citer ce texte :</label>
+                     <bibl>Guillaume, La male honte I, édité par Corinne Pierreville en collaboration avec Gauthier Grüber. Publié en ligne par l’ENS de Lyon dans la Base de français médiéval, 
+2024, http://catalog.bfm-corpus.org/fabliaux/MaleHonte1Guillaume_BnF-2173.</bibl>
+                        D'autres formules de citation de la BFM sont proposées sur la page web suivante :
+                        http://bfm.ens-lyon.fr/spip.php?article281.</ab>
+                  <ab type="availability_file">
+                     <label>Conditions d'utilisation de ce fichier :</label>
+                        Ce fichier numérique est composé du corps de texte médiéval (restauré par son ou ses éditeur(s) scientifique(s)), des apparats critiques (introductions, notes, glossaires, explications, du texte d'origine (ou des enrichissements) qui ont été réalisés dans le cadre de la restauration des textes par les Editeurs Scientifiques) et des suppléments numériques : balisage XML-TEI, métadonnées (teiHeader), balisage du discours direct, étiquetage morpho-syntaxique, lemmatisation. Le texte et les suppléments numériques sont libres de droit et peuvent à ce titre être téléchargés et réutilisés librement. Les apparats critiques sont soumis à une licence de type CC BY-NC-SA 3.0 FR  http://creativecommons.org/licenses/by-nc-sa/3.0/fr. Les Utilisateurs s’engagent à respecter les termes de cette licence. 
+                    </ab>
+                  <ab type="availability_txmweb" subtype="illimité">
+                     <label>Conditions d'utilisation par le portail BFM :</label>
+                        Pas de limitation dans l'usage des fonctionnalités. Téléchargement autorisé.</ab>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="main" xml:id="BnF-2173">
+               <msIdentifier>
+                  <settlement>Paris</settlement>
+                  <repository>Bibliothèque nationale de France</repository>
+                  <idno>français 2173</idno>
+                  <idno type="URI" subtype="Notice" n="Arlima">https://www.arlima.net/mss/france/paris/bibliotheque_nationale_de_france/francais/2173.html</idno>
+                  <idno type="URI" subtype="Notice" n="Jonas">https://jonas.irht.cnrs.fr/manuscrit/45673</idno>
+                  <idno type="URI" subtype="Notice" n="Archives_et_manuscrits">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc48725g</idno>
+                  <idno type="URI" subtype="Data" n="Biblissima">
+https://data.biblissima.fr/entity/Q48587</idno>
+                  <idno type="URI" subtype="Fac-similé">https://gallica.bnf.fr/ark:/12148/btv1b10022504n</idno>
+                  <idno type="URI" subtype="Manifeste_IIIF">https://gallica.bnf.fr/iiif/ark:/12148/btv1b10022504n/manifest.json</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem xml:id="BotaPierre2_BnF-2173">
+                     <locus>f. 078v-079r</locus>
+                     <title>Celui qui bota la pierre II</title>
+                  </msItem>
+                  <msItem xml:id="CoilleNoire_BnF-2173">
+                     <locus>f. 092-093</locus>
+                     <title>La Couille noire</title>
+                  </msItem>
+                  <msItem xml:id="FoutreFosse_BnF-2173">
+                     <locus>f. 095r-096r</locus>
+                     <title>Celle qui se fist foutre sur la fosse de son mari</title>
+                  </msItem>
+                  <msItem xml:id="MaleHonte1Guillaume_BnF-2173">
+                     <locus>f. 093va-094vb</locus>
+                     <title>La male honte I</title>
+                  </msItem>
+                  <msItem xml:id="PrestreCrucefie_BnF-2173">
+                     <locus>f. 096-097</locus>
+                     <title>Le prestre crucefié</title>
+                  </msItem>
+                  <msItem xml:id="VieillePalme_BnF-2173">
+                     <locus>f. 097rb-097va</locus>
+                     <title>La Vielle qui oint la palme au chevalier</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin notBefore="1250-01-01" notAfter="1275-12-31">
+                     <p>3e quart du 13e s.</p>
+                  </origin>
+               </history>
+            </msDesc>
+            <msDesc type="other" xml:id="BnF-1593">
+               <msIdentifier>
+                  <settlement>Paris</settlement>
+                  <repository>Bibliothèque nationale de France</repository>
+                  <idno>français 1593</idno>
+                  <idno type="URI" subtype="Notice" n="Arlima">https://www.arlima.net/mss/france/paris/bibliotheque_nationale_de_france/francais/1593.html</idno>
+                  <idno type="URI" subtype="Notice" n="Jonas">https://jonas.irht.cnrs.fr/manuscrit/45631</idno>
+                  <idno type="URI" subtype="Notice" n="Archives_et_manuscrits">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc46127n</idno>
+                  <idno type="URI" subtype="Data" n="Biblissima">
+https://data.biblissima.fr/entity/Q47186</idno>
+                  <idno type="URI" subtype="Fac-similé">https://gallica.bnf.fr/ark:/12148/btv1b10076547k</idno>
+                  <idno type="URI" subtype="Fac-similé">https://gallica.bnf.fr/ark:/12148/btv1b6000803p</idno>
+                  <idno type="URI" subtype="Manifeste_IIIF">https://gallica.bnf.fr/ark:/12148/btv1b10076547k/manifest.json</idno>
+                  <idno type="URI" subtype="Manifeste_IIIF">https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000803p/manifest.json</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem xml:id="trAveuglesCortebarbe_BnF-1593">
+                     <locus>f. 105-107</locus>
+                     <title>Les trois Aveugles de Compiegne</title>
+                  </msItem>
+                  <msItem xml:id="trDamesVit1_BnF-1593">
+                     <locus>f. 149vb-150va</locus>
+                     <title>Les trois Dames qui troverent un vit I</title>
+                  </msItem>
+                  <msItem xml:id="AnelRoides_BnF-1593">
+                     <locus>f. 210v-211r</locus>
+                     <title>L'annel qui faisoit les vis grans et roides</title>
+                  </msItem>
+                  <msItem xml:id="AristoteHenrideValenciennes_BnF-1593">
+                     <locus>f. 154ra-156vb</locus>
+                     <title>Le lai d'Aristote</title>
+                  </msItem>
+                  <msItem xml:id="Auberee_BnF-1593">
+                     <locus>f. 213</locus>
+                     <title>Auberee</title>
+                  </msItem>
+                  <msItem xml:id="BourseSens_BnF-1593">
+                     <locus>f. 125v-128</locus>
+                     <title>La plaine borse de sens</title>
+                  </msItem>
+                  <msItem xml:id="ChevalierParlerCons1Guerin_BnF-1593">
+                     <locus>f. 208-212r</locus>
+                     <title>Le chevalier qui fist les cons parler I</title>
+                  </msItem>
+                  <msItem xml:id="ChevalierVermeille_BnF-1593">
+                     <locus>f. 177va-177vb</locus>
+                     <title>Le Chevalier a la robe vermeille</title>
+                  </msItem>
+                  <msItem xml:id="CoilleNoire_BnF-1593">
+                     <locus>f. 181-182</locus>
+                     <title>La Couille noire</title>
+                  </msItem>
+                  <msItem xml:id="ContrarieuseMarieDeFrance_BnF-1593">
+                     <locus>f. 098r-098v</locus>
+                     <title>La contrarieuse</title>
+                  </msItem>
+                  <msItem xml:id="Crote_BnF-1593">
+                     <locus>f. 180va-180vb</locus>
+                     <title>La crote</title>
+                  </msItem>
+                  <msItem xml:id="DameEscoillee_BnF-1593">
+                     <locus>f. 173v-177v</locus>
+                     <title>La dame escoillee</title>
+                  </msItem>
+                  <msItem xml:id="DameTorsMoustierRutebeuf_BnF-1593">
+                     <locus>f. 061-062</locus>
+                     <title>La dame qui fist trois tors entor le moustier</title>
+                  </msItem>
+                  <msItem xml:id="DamoiseleFoutre1_BnF-1593">
+                     <locus>f. 182r-182v</locus>
+                     <title>La damoisele qui ne pooit oïr parler de foutre I</title>
+                  </msItem>
+                  <msItem xml:id="Espervier_BnF-1593">
+                     <title>L'Espervier</title>
+                  </msItem>
+                  <msItem xml:id="FemmePendreMarieDeFrance_BnF-1593">
+                     <locus>f. 081rb-081rb</locus>
+                     <title>La femme qui fist pendre son mari</title>
+                  </msItem>
+                  <msItem xml:id="FoutreFosse_BnF-1593">
+                     <locus>f. 183v-184</locus>
+                     <title>Celle qui se fist foutre sur la fosse de son mari</title>
+                  </msItem>
+                  <msItem xml:id="GauteronMarion_BnF-1593">
+                     <locus>f. 208-208</locus>
+                     <title>Gauteron et Marion</title>
+                  </msItem>
+                  <msItem xml:id="Grue1_BnF-1593">
+                     <locus>f. 152-153</locus>
+                     <title>La Damoisele a la grue I</title>
+                  </msItem>
+                  <msItem xml:id="MaignienDame_BnF-1593">
+                     <locus>f. 149v-150v</locus>
+                     <title>Le maignien qui foti la dame</title>
+                  </msItem>
+                  <msItem xml:id="MaleHonte1Guillaume_BnF-1593">
+                     <title>La male honte I</title>
+                  </msItem>
+                  <msItem xml:id="OustillementVillainVilain_BnF-1593">
+                     <locus>f. 212-213</locus>
+                     <title>L'Oustillement au vilain</title>
+                  </msItem>
+                  <msItem xml:id="PetVilainRutebeuf_BnF-1593">
+                     <locus>f. 071-072</locus>
+                     <title>Le pet au vilain</title>
+                  </msItem>
+                  <msItem xml:id="PovreMercier_BnF-1593">
+                     <locus>f. 150-152</locus>
+                     <title>Le povre Mercier</title>
+                  </msItem>
+                  <msItem xml:id="PrestreAbevete_BnF-1593">
+                     <locus>f. 174r-174v</locus>
+                     <title>Le prestre ki abevete</title>
+                  </msItem>
+                  <msItem xml:id="PuceleVoler_BnF-1593">
+                     <locus>f. 184-185</locus>
+                     <title>La Pucele qui voloit voler</title>
+                  </msItem>
+                  <msItem xml:id="Segretain2_BnF-1593">
+                     <title>Le Segretain moine II</title>
+                  </msItem>
+                  <msItem xml:id="Vallet12Fames_BnF-1593">
+                     <locus>f. 186v-187r</locus>
+                     <title>Le Vallet aus douze fames</title>
+                  </msItem>
+                  <msItem xml:id="VilainBuffet_BnF-1593">
+                     <locus>f. 118-120</locus>
+                     <title>Le Vilain au buffet</title>
+                  </msItem>
+                  <msItem xml:id="VilainFameDru_BnF-1593">
+                     <locus>f. 074r-098v</locus>
+                     <title>Le Vilain qui od sa fame vit aller son dru</title>
+                  </msItem>
+                  <msItem xml:id="VilainFelunesse_BnF-1593">
+                     <locus>f. 074r-098v</locus>
+                     <title>Le Vilain et la femme felunesse</title>
+                  </msItem>
+                  <msItem xml:id="VilainFolet_BnF-1593">
+                     <locus>f. 074r-098v</locus>
+                     <title>Le Vilain et le folet</title>
+                  </msItem>
+                  <msItem xml:id="VilainHomeFeme_BnF-1593">
+                     <locus>f. 074r-098v</locus>
+                     <title>Le Vilain qui vit un autre home od sa feme</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin notBefore="1290-01-01" notAfter="1299-12-31">
+                     <p>fin 13e s.</p>
+                  </origin>
+               </history>
+            </msDesc>
+            <msDesc type="other" xml:id="Gen-113">
+               <msIdentifier>
+                  <settlement>Genève</settlement>
+                  <repository>Fondation Martin Bodmer</repository>
+                  <idno>113</idno>
+                  <idno type="URI" subtype="Notice" n="Arlima">https://www.arlima.net/mss/suisse/cologny/fondation_martin_bodmer/113.html</idno>
+                  <idno type="URI" subtype="Notice" n="Jonas">https://jonas.irht.cnrs.fr/manuscrit/17529</idno>
+                  <idno type="URI" subtype="Data" n="Biblissima">
+https://data.biblissima.fr/entity/Q218768</idno>
+                  <idno type="URI" subtype="Fac-similé">https://www.e-codices.unifr.ch/fr/list/one/cb/0113</idno>
+                  <idno type="URI" subtype="Manifeste_IIIF">https://www.e-codices.unifr.ch/metadata/iiif/fmb-cb-0113/manifest.json</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem xml:id="BotaPierre2_Gen-113">
+                     <locus>f. 017va-018rb</locus>
+                     <title>Celui qui bota la pierre II</title>
+                  </msItem>
+                  <msItem xml:id="ContrarieuseMarieDeFrance_Gen-113">
+                     <locus>f. 001ra-028rb</locus>
+                     <title>La contrarieuse</title>
+                  </msItem>
+                  <msItem xml:id="FemmePendreMarieDeFrance_Gen-113">
+                     <locus>f. 001ra-028rb</locus>
+                     <title>La femme qui fist pendre son mari</title>
+                  </msItem>
+                  <msItem xml:id="FoutreFosse_Gen-113">
+                     <locus>f. 029va-030rb</locus>
+                     <title>Celle qui se fist foutre sur la fosse de son mari</title>
+                  </msItem>
+                  <msItem xml:id="MaleHonte1Guillaume_Gen-113">
+                     <title>La male honte I</title>
+                  </msItem>
+                  <msItem xml:id="PrestreCrucefie_Gen-113">
+                     <locus>f. 030rb-031ra</locus>
+                     <title>Le prestre crucefié</title>
+                  </msItem>
+                  <msItem xml:id="VieillePalme_Gen-113">
+                     <locus>f. 031ra-031rb</locus>
+                     <title>La Vielle qui oint la palme au chevalier</title>
+                  </msItem>
+                  <msItem xml:id="VilainFameDru_Gen-113">
+                     <locus>f. 001ra-028rb</locus>
+                     <title>Le Vilain qui od sa fame vit aller son dru</title>
+                  </msItem>
+                  <msItem xml:id="VilainFelunesse_Gen-113">
+                     <locus>f. 001ra-028rb</locus>
+                     <title>Le Vilain et la femme felunesse</title>
+                  </msItem>
+                  <msItem xml:id="VilainFolet_Gen-113">
+                     <locus>f. 001ra-028rb</locus>
+                     <title>Le Vilain et le folet</title>
+                  </msItem>
+                  <msItem xml:id="VilainHomeFeme_Gen-113">
+                     <locus>f. 001ra-028rb</locus>
+                     <title>Le Vilain qui vit un autre home od sa feme</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin notBefore="1400-01-01" notAfter="1499-12-31">
+                     <p>15e s.</p>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <title type="main" xml:lang="fro">La male honte I</title>
+            <title type="alt" key="BnF 19152">De la male honte</title>
+            <title type="modern" xml:lang="fr">La male honte 1
+            </title>
+            <date notBefore="1233-01-01" notAfter="1267-12-31" when="1250-07-02">milieu 13e s.</date>
+            <region type="dialecte_oeuvre">Non défini</region>
+            <idno type="INV" subtype="Montaiglon-Raynaud">90</idno>
+            <idno type="INV" subtype="Bedier">80</idno>
+            <idno type="INV" subtype="Nykrog">85</idno>
+            <idno type="INV" subtype="Jodogne">85</idno>
+            <idno type="INV" subtype="Kiesow">37</idno>
+            <idno type="INV" subtype="NRCF">43a</idno>
+            <idno type="URI" n="Jonas">https://jonas.irht.cnrs.fr/consulter/oeuvre/detail_oeuvre.php?oeuvre=8948</idno>
+            <idno type="URI" n="Arlima">https://www.arlima.net/mp/male_honte.html</idno>
+         </creation>
+         <langUsage>
+            <language ident="fro"/>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.bfm-corpus.org">
+               <term type="domaine">littérature</term>
+               <term type="genre" cert="high">Fabliau</term>
+               <term type="forme">vers</term>
+               <term type="relation">non renseigné</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#cpierreville" when="2024-01-30T14:51:36" n="v1.0">Utilisation du fichier MaleHonte1Guillaume[BnF 2173]trad-v1.0.docx</change>
+         <change who="#cpierreville" when="2024-01-30T14:51:37" n="v2.0">Utilisation du fichier MaleHonte1Guillaume[BnF 2173]v2.0.docx</change>
+         <change who="#bot" when="2024-01-31" n="v2.0">Transformation avec Oxgarage du fichier MaleHonte1Guillaume[BnF 2173]2.0.docx</change>
+         <change who="#bot" when="2024-01-31" n="v1.0">Transformation avec Oxgarage du fichier MaleHonte1Guillaume[BnF 2173]1.0.docx</change>
+         <change who="#cpierreville" when="2024-01-31T09:11:04" n="v1.1">Utilisation du fichier MaleHonte1Guillaume[BnF 2173]trad-v1.1.docx</change>
+         <change who="#bot" when="2024-02-01" n="v1.1">Transformation avec Oxgarage du fichier MaleHonte1Guillaume[BnF 2173]1.1.docx</change>
+         <change who="#cpierreville" when="2024-02-05T08:38:31" n="v2.1">Utilisation du fichier MaleHonte1Guillaume[BnF 2173]v2.1.docx</change>
+         <change who="#bot" when="2024-02-05" n="v2.1">Transformation avec Oxgarage du fichier MaleHonte1Guillaume[BnF 2173]2.1.docx</change>
+         <change who="#ggruber" when="2024-02-25T20:15:33" n="v1.1">Utilisation du fichier MaleHonte1Guillaume[BnF 2173]trad-v1.1_relu_GG_25-02-24.docx</change>
+         <change who="#ggruber" when="2024-02-25T20:15:34" n="v2.1">Utilisation du fichier MaleHonte1Guillaume[BnF 2173]v2.1_relu_GG_25-02-24.docx</change>
+         <change who="#cpierreville" when="2024-02-27T13:48:58" n="v1.2">Utilisation du fichier MaleHonte1Guillaume[BnF 2173]trad-v1.2.docx</change>
+         <change who="#cpierreville" when="2024-02-27T13:48:15" n="v2.2">Utilisation du fichier MaleHonte1Guillaume[BnF 2173]v2.2.docx</change>
+         <change who="#bot" when="2024-02-28" n="v2.2">Transformation avec Oxgarage du fichier MaleHonte1Guillaume[BnF 2173]2.2.docx</change>
+         <change who="#bot" when="2024-02-28" n="v1.2">Transformation avec Oxgarage du fichier MaleHonte1Guillaume[BnF 2173]1.2.docx</change>
+         <change who="#cpierreville" when="2024-03-04T13:05:00" n="v2.3">Utilisation du fichier MaleHonte1Guillaume[BnF 2173]v2.3.docx</change>
+         <change who="#bot" when="2024-03-04" n="v2.3">Transformation avec Oxgarage du fichier MaleHonte1Guillaume[BnF 2173]2.3.docx</change>
+      </revisionDesc>
+   </teiHeader>
+   <text source="MaleHonte1Guillaume_BnF-2173">
+      <body>
+         <pb n="93v"
+              xml:id="pb_1"
+              facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10022504n/f194/full/pct:50/0/native.jpg"/>
+         <cb n="93va"/>
+         <lg>
+            <l n="1">
+               <lb n="1"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1"><g type="initiale" rend="size(2) sizeAct(2) color(red)">S</g>eigne<ex>ur</ex></w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_2">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_3">oiez</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_4"><ex>et</ex></w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_5">es<space type="degl"/>coutez</w>
+               <note type="philologique">
+                  <p rend="footnote text">Dans la marge de gauche, d’une main ultérieure : fabliau de la male honte.</p>
+               </note>
+            </l>
+            <l n="2">
+               <lb n="2"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_6">un</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_7">fablel</w>
+               <note type="philologique">
+                  <p rend="footnote text">Le l est presque totalement effacé, mais se devine encore. </p>
+               </note>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_8">qu’</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_9">est</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_10">faiz</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_11"><ex>et</ex></w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_12">rimés</w>
+            </l>
+            <l n="3">
+               <lb n="3"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_13"><choice><orig>D</orig><reg>d</reg></choice>’</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_14">un</w>
+               <note type="philologique">
+                  <p rend="footnote text" style="text-align: justify;">Le NRCF corrige en <hi rend="italic">del</hi>. Le <hi rend="italic">un</hi> est d’une main ultérieure, qui peut avoir seulement réécrit des lettres effacées (à l’image du l du vers 2), comme c’est aussi le cas pour l’abréviation correspondant à <hi rend="italic">eur</hi> au vers 1, le <hi rend="italic">out</hi> de <hi rend="italic">tout</hi> au vers 4, le <hi rend="italic">uil estoit</hi> de <hi rend="italic">qu’il estoit</hi> au vers 5.</p>
+               </note>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_15">roi</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_16">qui</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_17"><choice><orig>e</orig><reg>E</reg></choice>ngleterre</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_18">tint</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_19">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="4">
+               <lb n="4"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_20">Tout</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_21">ce</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_22">fu</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_23"><choice><orig>u</orig><reg>v</reg></choice>oirs</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_24"><ex>et</ex></w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_25" join="right">si</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_26">a<choice><orig>u</orig><reg>v</reg></choice>int</w>
+            </l>
+            <l n="5">
+               <lb n="5"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_27"><choice><orig>E</orig><reg>e</reg></choice>n</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_28">icel</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_29">temps</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_30">qu’</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_31">il</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_32"><add place="above">estoit</add></w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_33">rois</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_34">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="6">
+               <lb n="6"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_35"><choice><orig>Q</orig><reg>q</reg></choice>u’</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_36">en</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_37"><choice><orig>e</orig><reg>E</reg></choice>nglet<ex>er</ex>re</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_38">ert</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_39">us</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_40"><ex>et</ex></w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_41">drois</w>
+            </l>
+            <l n="7">
+               <lb n="7"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_42"><choice><orig>Q</orig><reg>q</reg></choice><ex>ue</ex></w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_43">quant</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_44" join="right">li</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_45">hom</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_46">mouroit</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_47">sanz</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_48">oir</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_49">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="8">
+               <lb n="8"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_50" join="right"><choice><orig>L</orig><reg>l</reg></choice>i</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_51">rois</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_52">a<choice><orig>u</orig><reg>v</reg></choice>oit</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_53">tout</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_54">son</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_55">a<choice><orig>u</orig><reg>v</reg></choice>oir</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_56">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="9">
+               <lb n="9"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_57">Ce</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_58">tro<choice><orig>u</orig><reg>v</reg></choice>ons</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_59">no<ex>us</ex></w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_60">a<choice><orig>u</orig><reg>v</reg></choice>ant</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_61">el</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_62">conte</w>
+            </l>
+            <l n="10">
+               <lb n="10"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_63"><choice><orig>C</orig><reg>c</reg></choice>’</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_64">uns</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_65">preudons</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_66">fu</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_67">mors</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_68">q<ex>u</ex>’</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_69"><ex>o</ex>t</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_70">n<ex>om</ex></w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_71"><choice><orig>h</orig><reg>H</reg></choice>o<ex>n</ex>te</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_72">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="11">
+               <lb n="11"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_73">Honte</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_74">ert</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_75" join="right">li</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_76">preudom</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_77">apelez</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_78">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="12">
+               <lb n="12"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_79">Q<ex>ua</ex>nt</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_80"><choice><orig>u</orig><reg>v</reg></choice>int</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_81">qu’</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_82">il</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_83">fu</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_84">si</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_85">adolez</w>
+            </l>
+            <l n="13">
+               <lb n="13"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_86"><ex>et</ex></w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_87">q<ex>ue</ex></w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_88">il</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_89"><choice><orig>u</orig><reg>v</reg></choice>it</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_90">qu’</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_91">il</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_92" join="right">ne</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_93"><choice><orig>u</orig><reg>v</reg></choice>i<choice><orig>u</orig><reg>v</reg></choice>ra</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_94">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="14">
+               <lb n="14"/>
+               <num>
+                  <w xml:id="w_MaleHonte1Guillaume_BnF2173_95">.<choice><orig>I</orig><reg>i</reg></choice>.</w>
+               </num>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_96">sien</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_97">comperẹ</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_98">si</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_99">apela</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_100">
+                  <choice>
+                     <orig/>
+                     <reg>:</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="15">
+               <lb n="15"/>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_101">
+                  <choice>
+                     <orig/>
+                     <reg>«</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_102">Compere</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_103">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_104">dist</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_105"><choice><orig>h</orig><reg>H</reg></choice>onte</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_106">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_107">prenez</w>
+               <cb n="93vb"/>
+            </l>
+            <l n="16">
+               <lb n="16"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_108"><choice><orig>M</orig><reg>m</reg></choice>on</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_109">a<choice><orig>u</orig><reg>v</reg></choice>oir</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_110">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_111">si</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_112"><choice><orig>u</orig><reg>v</reg></choice>os</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_113">l’</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_114">a<choice><orig>u</orig><reg>v</reg></choice>eez</w>
+               <note type="philologique">
+                  <p rend="footnote text">Le NRCF remplace <hi rend="italic">si vos l’aveez</hi> (« et emportez-le », impératif du verbe <hi rend="italic">avoier</hi>) par<hi rend="italic"> que vos la veez</hi> (« que vous voyez là »)<hi rend="italic">.</hi>
+                  </p>
+               </note>
+            </l>
+            <l n="17">
+               <lb n="17"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_115" join="right"><choice><orig>E</orig><reg>e</reg></choice>n</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_116">cele</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_117">male</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_118">qui</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_119" join="right">la</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_120">pent</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_121">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="18">
+               <lb n="18"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_122" join="right">Por</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_123"><choice><orig>d</orig><reg>D</reg></choice>ex</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_124" join="right"><choice><orig>u</orig><reg>v</reg></choice>os</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_125">proi</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_126">omnipotent</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_127">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="19">
+               <lb n="19"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_128"><choice><orig>S</orig><reg>s</reg></choice>e</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_129" join="right">ge</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_130">muir</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_131">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_132">portés</w>
+               <sic>
+                  <w xml:id="w_MaleHonte1Guillaume_BnF2173_133">loi</w>
+               </sic>
+               <note type="philologique">
+                  <p rend="footnote text">Le NRCF remplace <hi rend="italic">loi</hi> par <hi rend="italic">le</hi>. Nous comprenons <hi rend="italic">loi</hi> comme une forme dialectale du pronom personnel atone neutre <hi rend="italic">le</hi>. Voir Zink, Morphosyntaxe du pronom personnel (non réfléchi) en Moyen français (XIVe-XVe siècles), Genève, Droz, 1997, p. 193.</p>
+               </note>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_134" join="right">lou</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_135">roi</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_136">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="20">
+               <lb n="20"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_137" join="right"><choice><orig>S</orig><reg>s</reg></choice>i</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_138">dites</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_139">que</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_140" join="right">ge</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_141" join="right">li</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_142">en<choice><orig>u</orig><reg>v</reg></choice>oi</w>
+            </l>
+            <l n="21">
+               <lb n="21"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_143"><choice><orig>C</orig><reg>c</reg></choice>ar</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_144" join="right" ana="#aggl-cert_low">ce</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_145">est</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_146">raisons</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_147"><ex>et</ex></w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_148">droiture</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_149">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_150">
+                  <choice>
+                     <orig/>
+                     <reg>»</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="22">
+               <lb n="22"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_151"><ex>Et</ex></w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_152">cil</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_153">respont</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_154"><ex>et</ex></w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_155" join="right">si</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_156" join="right">li</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_157"><choice><orig>i</orig><reg>j</reg></choice>ure</w>
+            </l>
+            <l n="23">
+               <lb n="23"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_158"><choice><orig>Q</orig><reg>q</reg></choice><ex>ue</ex></w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_159" join="right">il</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_160" join="right">li</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_161">portera</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_162">sanz</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_163">faille</w>
+            </l>
+            <l n="24">
+               <lb n="24"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_164"><choice><orig>P</orig><reg>p</reg></choice>or</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_165">ce</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_166">q<ex>ue</ex></w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_167" join="right">de</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_168">cou<choice><orig>u</orig><reg>v</reg></choice>ent</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_169">ne</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_170">faille</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_171">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+         </lg>
+         <lg>
+            <l n="25">
+               <lb n="25"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_172"><g type="initiale" rend="size(2) sizeAct(3) color(blue)">H</g>onte</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_173">mourut</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_174" join="right">de</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_175">cel</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_176">malage</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_177">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="26">
+               <lb n="26"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_178"><choice><orig>c</orig><reg>C</reg></choice>il</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_179"><choice><orig>u</orig><reg>v</reg></choice>out</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_180">garder</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_181">son</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_182">comparage</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_183">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="27">
+               <lb n="27"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_184">Maintenant</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_185">prent</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_186" join="right">la</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_187">male</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_188"><choice><orig>h</orig><reg>H</reg></choice>o<ex>n</ex>te</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_189">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="28">
+               <lb n="28"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_190" join="right"><choice><orig>D</orig><reg>d</reg></choice>e</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_191" join="right">la</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_192"><choice><orig>u</orig><reg>v</reg></choice>ile</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_193">ist</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_194">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_195" join="right">le</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_196">chemin</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_197">monte</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_198">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="29">
+               <lb n="29"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_199">Tant</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_200"><choice><orig>u</orig><reg>v</reg></choice>a</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_201">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_202">tant</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_203">quiert</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_204"><ex>et</ex></w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_205">tant</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_206">dema<ex>n</ex>de</w>
+               <note type="philologique">
+                  <p rend="footnote text" style="text-align: justify;">La rime isolée fait suspecter une lacune. Le NRCF ajoute après ce vers <hi rend="italic">Tant a erré par Inguelande</hi> (ms. BnF 19152 v. 30°.</p>
+               </note>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_207">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="30">
+               <lb n="30"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_208"><choice><orig>Q</orig><reg>q</reg></choice>u’</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_209">il</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_210" join="right">a</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_211">tro<choice><orig>u</orig><reg>v</reg></choice>é</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_212" join="right">le</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_213">roi</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_214" join="right">a</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_215"><choice><orig>l</orig><reg>L</reg></choice>ondre</w>
+            </l>
+            <l n="31">
+               <lb n="31"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_216"><choice><orig>A</orig><reg>a</reg></choice><choice><orig>u</orig><reg>v</reg></choice>al</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_217">desouz</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_218">un</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_219">pin</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_220" join="right">en</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_221">l’</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_222">onbre</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_223">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="32">
+               <lb n="32"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_224" join="right"><choice><orig>O</orig><reg>o</reg></choice></w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_225">lui</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_226">g<ex>ra</ex>nt</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_227">part</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_228">de</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_229" join="right">som</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_230">barnage</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_231">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="33">
+               <lb n="33"/>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_232">
+                  <choice>
+                     <orig/>
+                     <reg>«</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_233">Sire</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_234">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_235">fait</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_236">il</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_237" join="right">en</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_238">son</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_239">language</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_240">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="34">
+               <lb n="34"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_241" join="right"><choice><orig>L</orig><reg>l</reg></choice>a</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_242">male</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_243">honte</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_244"><choice><orig>u</orig><reg>v</reg></choice>os</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_245">aport</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_246">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="35">
+               <lb n="35"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_247" join="right">Ge</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_248" join="right">li</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_249">oi</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_250">cou<choice><orig>u</orig><reg>v</reg></choice>ent</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_251" join="right">a</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_252" join="right">la</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_253">mort</w>
+            </l>
+            <l n="36">
+               <lb n="36"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_254" join="right"><choice><orig>L</orig><reg>l</reg></choice>a</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_255">male</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_256">honte</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_257"><choice><orig>u</orig><reg>v</reg></choice>os</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_258">douroie</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_259">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="37">
+               <lb n="37"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_260">Prenez</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_261">la</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_262">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_263">qu’</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_264">il</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_265" join="right">la</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_266"><choice><orig>u</orig><reg>v</reg></choice>os</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_267">en<space type="degl-fgmt"/><choice><orig>u</orig><reg>v</reg></choice>oie</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_268">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="38">
+               <lb n="38"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_269">Sire</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_270">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_271">prenés</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_272" join="right">la</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_273">male</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_274">honte</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_275">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_276">
+                  <choice>
+                     <orig/>
+                     <reg>»</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="39">
+               <lb n="39"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_277">Q<ex>ua</ex>nt</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_278" join="right">li</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_279">rois</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_280">l’</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_281">ot</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_282">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_283" join="right">si</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_284">ot</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_285">g<ex>ra</ex>nt</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_286">honte</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_287">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="40">
+               <lb n="40"/>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_288">
+                  <choice>
+                     <orig/>
+                     <reg>«</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_289"><choice><orig>U</orig><reg>V</reg></choice>ilain</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_290">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_291" join="right">dist</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_292">il</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_293">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_294">tu</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_295" join="right">me</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_296">mes<space type="degl"/>diz</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_297">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="41">
+               <lb n="41"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_298">Mais</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_299">tu</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_300">aies</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_301">honte</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_302">touz</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_303">diz</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_304">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="42">
+               <lb n="42"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_305" join="right">De</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_306">honte</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_307">me</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_308">puist</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_309"><choice><orig>d</orig><reg>D</reg></choice>ex</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_310">desfendre</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_311">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="43">
+               <lb n="43"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_312">Prez</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_313"><choice><orig>u</orig><reg>v</reg></choice>a</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_314">que</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_315">ge</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_316" join="right">ne</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_317">te</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_318">fas</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_319">pendre</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_320">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_321">
+                  <choice>
+                     <orig/>
+                     <reg>»</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="44">
+               <lb n="44"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_322">Encor</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_323"><choice><orig>u</orig><reg>v</reg></choice>oloit</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_324" join="right">li</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_325"><choice><orig>u</orig><reg>v</reg></choice>ilains</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_326">dire</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_327">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="45">
+               <lb n="45"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_328"><choice><orig>M</orig><reg>m</reg></choice>es</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_329">cil</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_330" join="right">le</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_331">prenent</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_332" join="right">o</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_333">g<ex>ra</ex>nt</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_334">ire</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_335">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="46">
+               <lb n="46"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_336"><choice><orig>Q</orig><reg>q</reg></choice>ui</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_337">en<choice><orig>u</orig><reg>v</reg></choice>iron</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_338">le</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_339">roi</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_340">estoient</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_341">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+               <pb n="94r"
+                    xml:id="pb_2"
+                    facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10022504n/f195/full/pct:50/0/native.jpg"/>
+               <cb n="94ra"/>
+            </l>
+            <l n="47">
+               <lb n="47"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_343">Tuit</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_344" join="right">le</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_345">de<space type="degl"/>boutent</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_346" join="right"><ex>et</ex></w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_347">des<choice><orig>u</orig><reg>v</reg></choice>oient</w>
+            </l>
+            <l n="48">
+               <lb n="48"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_348"><choice><orig>Q</orig><reg>q</reg></choice><ex>ue</ex></w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_349">tart</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_350" join="right">li</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_351">est</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_352">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_353">ce</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_354">m’</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_355">est</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_356">a<choice><orig>u</orig><reg>v</reg></choice>is</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_357">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="49">
+               <lb n="49"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_358"><choice><orig>Q</orig><reg>q</reg></choice><ex>ue</ex></w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_359">il</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_360">soit</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_361">de</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_362">cort</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_363">dep<ex>ar</ex>tis</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_364">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="50">
+               <lb n="50"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_365">Bien</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_366">li</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_367">a<choice><orig>u</orig><reg>v</reg></choice>int</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_368">qu’</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_369">il</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_370" join="right">ne</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_371">l’</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_372">ont</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_373">mort</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_374">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="51">
+               <lb n="51"/>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_375">
+                  <choice>
+                     <orig/>
+                     <reg>«</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_376">Ha</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_377"> </w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_378">las</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_379">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_380">fait</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_381">il</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_382">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_383"><choice><orig>o</orig><reg>O</reg></choice>r</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_384" join="right">me</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_385">recort</w>
+            </l>
+            <l n="52">
+               <lb n="52"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_386"><choice><orig>Q</orig><reg>q</reg></choice><ex>ue</ex></w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_387">mes</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_388">comperes</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_389">me</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_390">proia</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_391">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="53">
+               <lb n="53"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_392"><choice><orig>Q</orig><reg>q</reg></choice><ex>ua</ex>nt</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_393">il</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_394">mourut</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_395"><ex>et</ex></w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_396">il</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_397">fina</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_398">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="54">
+               <lb n="54"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_399"><choice><orig>Q</orig><reg>q</reg></choice><ex>ue</ex></w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_400">cest</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_401">a<choice><orig>u</orig><reg>v</reg></choice>oir</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_402" join="right">au</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_403">roi</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_404">donasse</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_405">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="55">
+               <lb n="55"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_406"><choice><orig>U</orig><reg>V</reg></choice>olentiers</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_407">encore</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_408" join="right">i</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_409">parlasse</w>
+            </l>
+            <l n="56">
+               <lb n="56"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_410"><ex>et</ex></w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_411">douroie</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_412" join="right">la</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_413">male</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_414"><choice><orig>h</orig><reg>H</reg></choice>onte</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_415">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="57">
+               <lb n="57"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_416"><choice><orig>M</orig><reg>m</reg></choice>es</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_417">cil</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_418">ch<choice><orig><ex>eualie</ex></orig><reg><ex>evalie</ex></reg></choice>r</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_419"><ex>et</ex></w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_420">cil</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_421">conte</w>
+            </l>
+            <l n="58">
+               <lb n="58"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_422"><choice><orig>M</orig><reg>m</reg></choice>’</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_423">a<choice><orig>u</orig><reg>v</reg></choice>roient</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_424"><choice><orig>i</orig><reg>j</reg></choice>a</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_425">mort</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_426">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_427">bien</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_428" join="right">le</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_429">sai</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_430">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="59">
+               <lb n="59"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_431">Mais</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_432" join="right">or</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_433">sai</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_434">bien</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_435">q<ex>ue</ex></w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_436">ge</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_437">ferai</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_438">
+                  <choice>
+                     <orig/>
+                     <reg>:</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="60">
+               <lb n="60"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_439"><choice><orig>G</orig><reg>g</reg></choice>e</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_440">gaiterai</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_441">sempres</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_442">lou</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_443">roi</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_444">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="61">
+               <lb n="61"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_445">Q<ex>ua</ex>nt</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_446" join="right">au</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_447">moustier</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_448">ira</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_449">p<ex>ar</ex></w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_450">foi</w>
+               <note type="philologique">
+                  <p rend="footnote text" style="text-align: justify;">Le NRCF remplace <hi rend="italic">par foi</hi> « pieusement » par <hi rend="italic">par soi</hi> « de son côté, seul ». Pourtant, la suite du fabliau prouve que le roi n’est jamais seul quand il se rend à la messe et que ses gens sont toujours à proximité, puisqu’ils entendent sans difficulté les paroles du rustre et fondent sur lui dès que leur seigneur leur en donne l’ordre.</p>
+               </note>
+            </l>
+            <l n="62">
+               <lb n="62"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_451"><ex>et</ex></w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_452">il</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_453"><choice><orig>u</orig><reg>v</reg></choice>endra</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_454">de<choice><orig>u</orig><reg>v</reg></choice>ant</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_455">tretouz</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_456">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="63">
+               <lb n="63"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_457"><choice><orig>E</orig><reg>e</reg></choice>ncor</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_458" join="right">serai</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_459">ge</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_460" join="right">si</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_461">estouz</w>
+            </l>
+            <l n="64">
+               <lb n="64"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_462"><choice><orig>Q</orig><reg>q</reg></choice><ex>ue</ex></w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_463">li</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_464">dourai</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_465" join="right">la</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_466">male</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_467"><choice><orig>h</orig><reg>H</reg></choice>onte</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_468">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_469">
+                  <choice>
+                     <orig/>
+                     <reg>»</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="65">
+               <lb n="65"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_470">A</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_471">ce</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_472">qu’</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_473">il</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_474">ainsint</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_475">dit</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_476"><ex>et</ex></w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_477">conte</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_478">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="66">
+               <lb n="66"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_479"><choice><orig>V</orig><reg>v</reg></choice>oit</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_480" join="right">le</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_481">roi</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_482" join="right">au</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_483">mostier</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_484">aler</w>
+            </l>
+            <l n="67">
+               <lb n="67"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_485"><ex>et</ex></w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_486">il</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_487" join="right">le</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_488">courut</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_489">saluer</w>
+            </l>
+            <l n="68">
+               <lb n="68"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_490" join="right"><choice><orig>S</orig><reg>s</reg></choice>i</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_491">comme</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_492">il</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_493">entroit</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_494">el</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_495">mo<ex>n</ex>stier</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_496">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="69">
+               <lb n="69"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_497">La</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_498">coumence</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_499" join="right">en</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_500">haut</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_501" join="right">a</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_502">huchier</w>
+            </l>
+            <l n="70">
+               <lb n="70"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_503"><choice><orig>Q</orig><reg>q</reg></choice><ex>ue</ex></w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_504" join="right">bien</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_505">l’</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_506">oïrent</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_507">prince</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_508"><ex>et</ex></w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_509">conte</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_510">
+                  <choice>
+                     <orig/>
+                     <reg>:</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="71">
+               <lb n="71"/>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_511">
+                  <choice>
+                     <orig/>
+                     <reg>«</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_512">Sire</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_513">
+                  <choice>
+                     <orig>.</orig>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_514">sire</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_515">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_516" join="right">la</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_517">male</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_518">honte</w>
+            </l>
+            <l n="72">
+               <lb n="72"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_519"><choice><orig>V</orig><reg>v</reg></choice>os</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_520">raport</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_521">ge</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_522">encore</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_523" join="right"><ex>et</ex></w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_524">offre</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_525">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="73">
+               <lb n="73"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_526">D’</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_527">esterlins</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_528" join="right">i</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_529">a</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_530">plain</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_531">un</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_532">cofre</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_533">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_534">
+                  <choice>
+                     <orig/>
+                     <reg>»</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="74">
+               <lb n="74"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_535">Q<ex>ua</ex>nt</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_536">li</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_537">rois</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_538">l’</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_539">ot</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_540">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_541" join="right">si</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_542">ot</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_543">tel</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_544">rage</w>
+            </l>
+            <l n="75">
+               <lb n="75"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_545"><choice><orig>A</orig><reg>a</reg></choice><choice><orig>u</orig><reg>v</reg></choice>is</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_546" join="right">li</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_547">est</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_548">que</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_549">de</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_550">duel</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_551">arge</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_552">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="76">
+               <lb n="76"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_553" join="right">Ne</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_554">set</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_555">q<ex>ue</ex></w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_556">faire</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_557" join="right">ne</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_558">que</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_559">dire</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_560">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="77">
+               <lb n="77"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_561" join="right">Del</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_562"><choice><orig>u</orig><reg>v</reg></choice>ilain</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_563">a</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_564"><ex>et</ex></w>
+               <note type="philologique">
+                  <p rend="footnote text">Le NRCF replace <hi rend="italic">et</hi> par <hi rend="italic">tel</hi>, afin d’annoncer la consécutive, mais <hi rend="italic">que</hi> seul pouvait avoir un sens consécutif en ancien français.</p>
+               </note>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_565">dul</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_566"><ex>et</ex></w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_567">ire</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_568">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <cb n="94rb"/>
+            </l>
+            <l n="78">
+               <lb n="78"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_569"><choice><orig>Q</orig><reg>q</reg></choice>ui</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_570" join="right">la</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_571">male</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_572">honte</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_573" join="right">li</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_574">baille</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_575">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="79">
+               <lb n="79"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_576">q<ex>ue</ex></w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_577">il</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_578" join="right">a</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_579">dit</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_580">
+                  <choice>
+                     <orig/>
+                     <reg>:</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_581">
+                  <choice>
+                     <orig/>
+                     <reg>«</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_582" join="right"><choice><orig>o</orig><reg>O</reg></choice>u</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_583">sunt</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_584" join="right">mi</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_585">baille</w>
+            </l>
+            <l n="80">
+               <lb n="80"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_586"><ex>et</ex></w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_587">cil</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_588" join="right">qui</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_589">men<choice><orig>i</orig><reg>j</reg></choice>uent</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_590" join="right">mon</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_591">pain</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_592">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="81">
+               <lb n="81"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_593"><choice><orig>Q</orig><reg>q</reg></choice><ex>ua</ex>nt</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_594">ne</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_595" join="right">me</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_596">tuent</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_597">cel</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_598"><choice><orig>u</orig><reg>v</reg></choice>ilain</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_599">
+                  <choice>
+                     <orig/>
+                     <reg>?</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_600">
+                  <choice>
+                     <orig/>
+                     <reg>»</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="82">
+               <lb n="82"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_601">Q<ex>ua</ex>nt</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_602">il</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_603"><choice><orig>u</orig><reg>v</reg></choice>oient</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_604">irié</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_605" join="right">lou</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_606">roi</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_607">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="83">
+               <lb n="83"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_608"><choice><orig>S</orig><reg>s</reg></choice>eure</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_609" join="right">li</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_610">courent</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_611" join="right">a</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_612">desroi</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_613">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+         </lg>
+         <lg>
+            <l n="84">
+               <lb n="84"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_614" join="right"><choice><orig><g type="initiale" rend="size(3) sizeAct(3) color(red)">I</g></orig><reg><g type="initiale" rend="size(3) sizeAct(3) color(red)">J</g></reg></choice>a</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_615">fust</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_616" join="right">li</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_617">preudom</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_618">maubailliz</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_619">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="85">
+               <lb n="85"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_620">mais</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_621">il</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_622">s’</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_623">est</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_624">si</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_625">entr’</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_626">euz</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_627">tapiz</w>
+            </l>
+            <l n="86">
+               <lb n="86"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_628"><choice><orig>Q</orig><reg>q</reg></choice>u’</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_629">il</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_630" join="right">le</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_631">perdent</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_632">entre</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_633" join="right">la</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_634">gent</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_635">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="87">
+               <lb n="87"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_636" join="right">Es</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_637"><choice><orig>u</orig><reg>v</reg></choice>os</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_638">celui</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_639">forment</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_640">dolent</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_641">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="88">
+               <lb n="88"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_642"><choice><orig>Q</orig><reg>q</reg></choice>ui</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_643">preudom</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_644"><ex>et</ex></w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_645">loiaus</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_646">estoit</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_647">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="89">
+               <lb n="89"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_648" join="right"><choice><orig>D</orig><reg>d</reg></choice>ou</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_649">roi</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_650" join="right">qui</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_651"><choice><orig>u</orig><reg>v</reg></choice>ers</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_652">lui</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_653">s’</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_654">aïroit</w>
+            </l>
+            <l n="90">
+               <lb n="90"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_655"><choice><orig>Q</orig><reg>q</reg></choice><ex>ua</ex>nt</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_656">li</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_657">offre</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_658" join="right">la</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_659">male</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_660"><choice><orig>h</orig><reg>H</reg></choice>onte</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_661">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="91">
+               <lb n="91"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_662" join="right"><choice><orig>S</orig><reg>s</reg></choice>i</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_663">dist</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_664">q<ex>ue</ex></w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_665" join="right">a</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_666">lui</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_667">plus</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_668" join="right">ne</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_669">monte</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_670">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="92">
+               <lb n="92"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_671"><choice><orig>M</orig><reg>m</reg></choice>es</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_672">tierce</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_673">foiz</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_674" join="right">li</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_675">offerra</w>
+            </l>
+            <l n="93">
+               <lb n="93"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_676"><ex>et</ex></w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_677">puis</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_678">aprés</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_679" join="right">si</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_680">s’</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_681">en</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_682">ira</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_683">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="94">
+               <lb n="94"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_684">S’</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_685" join="right">or</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_686" join="right">le</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_687">de<choice><orig>u</orig><reg>v</reg></choice>oit</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_688" join="right">li</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_689">rois</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_690">ocirre</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_691">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="95">
+               <lb n="95"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_692"><choice><orig>S</orig><reg>s</reg></choice>i</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_693">l’</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_694">ira</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_695">il</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_696">encore</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_697">dire</w>
+            </l>
+            <l n="96">
+               <lb n="96"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_698"><choice><orig>T</orig><reg>t</reg></choice>ierce</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_699">foïe</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_700">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_701">car</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_702">c’</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_703">est</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_704">drois</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_705">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="97">
+               <lb n="97"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_706"><ex>Et</ex></w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_707">quant</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_708" join="right">p<ex>ar</ex></w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_709">ot</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_710">mengié</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_711" join="right">li</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_712">rois</w>
+            </l>
+            <l n="98">
+               <lb n="98"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_713"><ex>et</ex></w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_714">il</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_715">fu</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_716">auques</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_717">baus</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_718" join="right"><ex>et</ex></w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_719">liez</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_720">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="99">
+               <lb n="99"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_721" join="right"><choice><orig>L</orig><reg>l</reg></choice>i</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_722"><choice><orig>u</orig><reg>v</reg></choice>ilains</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_723">re<choice><orig>u</orig><reg>v</reg></choice>int</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_724">touz</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_725">chargiez</w>
+            </l>
+            <l n="100">
+               <lb n="100"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_726" join="right"><choice><orig>D</orig><reg>d</reg></choice>e</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_727" join="right">la</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_728">male</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_729"><choice><orig>h</orig><reg>H</reg></choice>onte</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_730">qu’</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_731">i</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_732">porte</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_733">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="101">
+               <lb n="101"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_734">A</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_735">g<ex>ra</ex>nt</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_736">peor</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_737">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_738" join="right">la</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_739">chiere</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_740">morte</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_741">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="102">
+               <lb n="102"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_742" join="right"><choice><orig>L</orig><reg>l</reg></choice>i</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_743" join="right">rehuche</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_744">en</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_745">haut</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_746"><ex>et</ex></w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_747">reconte</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_748">
+                  <choice>
+                     <orig/>
+                     <reg>:</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="103">
+               <lb n="103"/>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_749">
+                  <choice>
+                     <orig/>
+                     <reg>«</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_750">Sire</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_751">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_752">sire</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_753">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_754" join="right">la</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_755">male</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_756">honte</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_757">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="104">
+               <lb n="104"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_758"><choice><orig>F</orig><reg>f</reg></choice>ait</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_759" join="right">li</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_760">preudome</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_761">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_762">rece<choice><orig>u</orig><reg>v</reg></choice>ez</w>
+            </l>
+            <l n="105">
+               <lb n="105"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_763"><choice><orig>C</orig><reg>c</reg></choice>ar</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_764" join="right">p<ex>ar</ex></w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_765">droit</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_766">a<choice><orig>u</orig><reg>v</reg></choice>oir</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_767" join="right">la</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_768">de<choice><orig>u</orig><reg>v</reg></choice>ez</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_769">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="106">
+               <lb n="106"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_770" join="right">La</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_771">male</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_772">honte</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_773"><choice><orig>u</orig><reg>v</reg></choice>os</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_774">remaigne</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_775">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="107">
+               <lb n="107"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_776"><choice><orig>S</orig><reg>s</reg></choice>’</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_777" join="right">en</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_778">dounez</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_779" join="right">a</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_780"><choice><orig>u</orig><reg>v</reg></choice>ostre</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_781">co<ex>m</ex>paigne</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_782">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="108">
+               <lb n="108"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_783" join="right">La</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_784">male</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_785">honte</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_786">est</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_787">g<ex>ra</ex>ns</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_788"><ex>et</ex></w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_789">lee</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_790">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <pb n="94v"
+                    xml:id="pb_3"
+                    facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10022504n/f196/full/pct:50/0/native.jpg"/>
+               <cb n="94va"/>
+            </l>
+            <l n="109">
+               <lb n="109"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_792" join="right"><choice><orig>S</orig><reg>s</reg></choice>i</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_793" join="right">la</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_794"><choice><orig>u</orig><reg>v</reg></choice>os</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_795">ai</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_796">ci</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_797">aportee</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_798">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="110">
+               <lb n="110"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_799">Uns</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_800">miens</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_801">comperes</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_802">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_803">ce</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_804">sachiés</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_805">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="111">
+               <lb n="111"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_806" join="right"><choice><orig>L</orig><reg>l</reg></choice>a</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_807"><choice><orig>u</orig><reg>v</reg></choice>os</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_808">en<space type="degl-fgmt"/><choice><orig>u</orig><reg>v</reg></choice>oie</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_809"><ex>et</ex></w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_810"><choice><orig>u</orig><reg>v</reg></choice>os</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_811">l’</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_812">aiés</w>
+            </l>
+            <l n="112">
+               <lb n="112"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_813"><choice><orig>C</orig><reg>c</reg></choice>ar</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_814"><choice><orig>u</orig><reg>v</reg></choice>os</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_815">d’</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_816"><choice><orig>e</orig><reg>E</reg></choice>nglet<ex>er</ex>re</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_817">estes</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_818">rois</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_819">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="113">
+               <lb n="113"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_820" join="right">La</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_821">male</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_822">honte</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_823">aiés</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_824">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_825">c’</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_826">est</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_827">drois</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_828">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_829">
+                  <choice>
+                     <orig/>
+                     <reg>»</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="114">
+               <lb n="114"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_830">Q<ex>ua</ex>nt</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_831" join="right">li</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_832">rois</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_833">l’</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_834">ot</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_835"><ex>et</ex></w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_836">il</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_837">l’</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_838">entent</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_839">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="115">
+               <lb n="115"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_840"><choice><orig>A</orig><reg>a</reg></choice></w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_841">poi</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_842">q<ex>ue</ex></w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_843">il</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_844">d’</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_845">ire</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_846" join="right">ne</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_847">fent</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_848">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="116">
+               <lb n="116"/>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_849">
+                  <choice>
+                     <orig/>
+                     <reg>«</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_850">Seignor</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_851">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_852">fait</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_853">il</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_854">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_855">ge</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_856"><choice><orig>u</orig><reg>v</reg></choice>os</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_857">q<ex>ue</ex>mant</w>
+            </l>
+            <l n="117">
+               <lb n="117"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_858"><choice><orig>Q</orig><reg>q</reg></choice><ex>ue</ex></w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_859"><choice><orig>u</orig><reg>v</reg></choice>os</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_860">cel</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_861"><choice><orig>u</orig><reg>v</reg></choice>ilain</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_862">maintenant</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_863">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="118">
+               <lb n="118"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_864"><choice><orig>Q</orig><reg>q</reg></choice>ui</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_865">ne</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_866">me</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_867"><choice><orig>u</orig><reg>v</reg></choice><ex>e</ex>lt</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_868">laisier</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_869" join="right">en</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_870">pes</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_871">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="119">
+               <lb n="119"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_872"><choice><orig>Q</orig><reg>q</reg></choice><ex>ue</ex></w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_873">il</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_874">orendroit</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_875">soit</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_876">deffés</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_877">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_878">
+                  <choice>
+                     <orig/>
+                     <reg>»</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="120">
+               <lb n="120"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_879" join="right">Li</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_880">preudom</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_881">fust</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_882"><choice><orig>i</orig><reg>j</reg></choice>a</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_883">entrepris</w>
+            </l>
+            <l n="121">
+               <lb n="121"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_884"><choice><orig>Q</orig><reg>q</reg></choice><ex>ua</ex>nt</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_885">uns</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_886">haus</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_887">hom</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_888">s’</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_889">est</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_890">a<choice><orig>u</orig><reg>v</reg></choice>ant</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_891">mi<add place="above">s</add></w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_892">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="122">
+               <lb n="122"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_893" join="right"><choice><orig>Q</orig><reg>q</reg></choice>ui</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_894">sages</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_895">ert</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_896"><ex>et</ex></w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_897">entendans</w>
+            </l>
+            <l n="123">
+               <lb n="123"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_898"><ex>et</ex></w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_899" join="right">de</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_900">parole</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_901">m<ex>ou</ex>t</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_902">sachans</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_903">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="124">
+               <lb n="124"/>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_904">
+                  <choice>
+                     <orig/>
+                     <reg>«</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_905">Sire</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_906">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_907">fait</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_908">il</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_909">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_910"><choice><orig>u</orig><reg>v</reg></choice>os</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_911">a<choice><orig>u</orig><reg>v</reg></choice>és</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_912">tort</w>
+            </l>
+            <l n="125">
+               <lb n="125"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_913" join="right"><choice><orig>S</orig><reg>s</reg></choice>e</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_914" join="right">le</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_915"><choice><orig>u</orig><reg>v</reg></choice>ilain</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_916">a<choice><orig>u</orig><reg>v</reg></choice>ïez</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_917">mort</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_918">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="126">
+               <lb n="126"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_919">Sachiés</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_920">q<ex>ue</ex></w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_921">est</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_922" join="right">la</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_923">male</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_924">honte</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_925">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="127">
+               <lb n="127"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_926"><choice><orig>M</orig><reg>m</reg></choice>es</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_927">ençois</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_928">q<ex>ue</ex></w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_929" join="right">li</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_930">faciez</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_931">honte</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_932">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="128">
+               <lb n="128"/>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_933">
+                  <choice>
+                     <orig/>
+                     <reg>-</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_934"><choice><orig>U</orig><reg>V</reg></choice>olentiers</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_935">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_936">fait</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_937">li</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_938">rois</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_939">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_940" join="right">p<ex>ar</ex></w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_941">foi</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_942">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="129">
+               <lb n="129"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_943"><choice><orig>U</orig><reg>V</reg></choice>ilain</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_944">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_945">fait</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_946">il</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_947">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_948">entent</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_949" join="right">a</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_950">moi</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_951">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="130">
+               <lb n="130"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_952">Q<ex>ue</ex></w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_953">dis</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_954">tu</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_955">de</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_956" join="right">la</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_957">male</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_958">honte</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_959">
+                  <choice>
+                     <orig/>
+                     <reg>?</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="131">
+               <lb n="131"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_960">Tu</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_961">m’</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_962">en</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_963">a<choice><orig>u</orig><reg>v</reg></choice>ras</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_964">fait</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_965">mainte</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_966">ho<ex>n</ex>te</w>
+            </l>
+            <l n="132">
+               <lb n="132"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_967"><choice><orig>E</orig><reg>e</reg></choice>n</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_968" join="right">ma</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_969">cort</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_970"><ex>et</ex></w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_971">maint</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_972">g<ex>ra</ex>nt</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_973">ennui</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_974">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="133">
+               <lb n="133"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_975" join="right"><choice><orig>N</orig><reg>n</reg></choice>e</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_976">s<space type="degl"/>ai</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_977">quantes</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_978">foïes</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_979">hui</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_980">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_981">
+                  <choice>
+                     <orig/>
+                     <reg>»</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="134">
+               <lb n="134"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_982">Dont</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_983" join="right">li</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_984">conte</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_985">cil</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_986"><ex>et</ex></w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_987">de<choice><orig>u</orig><reg>v</reg></choice>ise</w>
+            </l>
+            <l n="135">
+               <lb n="135"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_988"><choice><orig>C</orig><reg>c</reg></choice>om</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_989" join="right">la</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_990">male</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_991"><choice><orig>h</orig><reg>H</reg></choice>onte</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_992">ot</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_993">emp<ex>ri</ex>se</w>
+            </l>
+            <l n="136">
+               <lb n="136"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_994"><ex>et</ex></w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_995">com</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_996"><choice><orig>h</orig><reg>H</reg></choice>onte</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_997">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_998">son</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_999">bon</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1000">compere</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_1001">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="137">
+               <lb n="137"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1002" join="right"><choice><orig>L</orig><reg>l</reg></choice>i</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1003" join="right">p<ex>ri</ex>a</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1004" join="right">p<ex>ar</ex></w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1005">l’</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1006">ame</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1007" join="right">sa</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1008">mere</w>
+            </l>
+            <l n="138">
+               <lb n="138"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1009"><choice><orig>Q</orig><reg>q</reg></choice><ex>uẹ</ex></w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1010">aprés</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1011" join="right">sa</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1012">mort</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1013">li</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1014">aportat</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_1015">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="139">
+               <lb n="139"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1016" join="right">Li</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1017">rois</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1018">l’</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1019">entent</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_1020">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1021" join="right">sa</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1022">cuisse</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1023" join="right">em</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1024">bat</w>
+               <cb n="94vb"/>
+            </l>
+            <l n="140">
+               <lb n="140"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1025" join="right"><choice><orig>D</orig><reg>d</reg></choice>e</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1026" join="right">la</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1027"><choice><orig>i</orig><reg>j</reg></choice>oie</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1028">qu’</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1029">il</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1030" join="right">a</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1031">eüe</w>
+            </l>
+            <l n="141">
+               <lb n="141"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1032"><choice><orig>Q</orig><reg>q</reg></choice><ex>ua</ex>nt</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1033" join="right">la</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1034">p<ex>ar</ex>ole</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1035" join="right">a</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1036">entendue</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_1037">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+         </lg>
+         <lg>
+            <l n="142">
+               <lb n="142"/>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_1038">
+                  <choice>
+                     <orig/>
+                     <reg>«</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1039"><choice><orig><g type="initiale" rend="size(2) sizeAct(2) color(blue)">U</g></orig><reg><g type="initiale" rend="size(2) sizeAct(2) color(blue)">V</g></reg></choice>ilains</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_1040">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1041">fait</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1042">il</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_1043">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1044" join="right">or</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1045">t’</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1046">ai</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1047">plus</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1048">chier</w>
+            </l>
+            <l n="143">
+               <lb n="143"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1049" join="right">car</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1050">de</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1051">noient</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1052">m’</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1053">as</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1054">fait</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1055">irier</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_1056">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="144">
+               <lb n="144"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1057">Mieus</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1058">m’</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1059">as</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1060">gabé</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1061" join="right">q<ex>ue</ex></w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1062">nul</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1063">lechierre</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_1064">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="145">
+               <lb n="145"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1065" join="right">Or</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1066">te</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1067">doins</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1068">ge</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1069" join="right">a</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1070">bele</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1071">chiere</w>
+            </l>
+            <l n="146">
+               <lb n="146"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1072" join="right"><choice><orig>L</orig><reg>l</reg></choice>a</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1073">male</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1074"><choice><orig>h</orig><reg>H</reg></choice>onte</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1075" join="right">a</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1076" join="right">ta</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1077">p<ex>ar</ex>tie</w>
+            </l>
+            <l n="147">
+               <lb n="147"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1078"><choice><orig>C</orig><reg>c</reg></choice>ar</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1079" join="right">p<ex>ar</ex></w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1080">droit</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1081">l’</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1082">as</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1083">bien</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1084">deser<choice><orig>u</orig><reg>v</reg></choice>ie</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_1085">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_1086">
+                  <choice>
+                     <orig/>
+                     <reg>»</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="148">
+               <lb n="148"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1087">Ainsint</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1088">ot</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1089">cil</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1090" join="right">la</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1091">male</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1092">honte</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_1093">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="149">
+               <lb n="149"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1094" join="right">Ce</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1095">dist</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1096"><choice><orig>g</orig><reg>G</reg></choice>uill<ex>aumes</ex></w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1097">en</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1098" join="right">son</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1099">conte</w>
+            </l>
+            <l n="150">
+               <lb n="150"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1100"><choice><orig>Q</orig><reg>q</reg></choice><ex>ue</ex></w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1101" join="right">li</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1102"><choice><orig>u</orig><reg>v</reg></choice>ilains</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1103">en</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1104" join="right">a</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1105">portee</w>
+            </l>
+            <l n="151">
+               <lb n="151"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1106" join="right"><choice><orig>L</orig><reg>l</reg></choice>a</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1107">male</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1108">honte</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1109">en</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1110">sa</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1111">contree</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_1112">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="152">
+               <lb n="152"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1113" join="right"><choice><orig>S</orig><reg>s</reg></choice>i</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1114">l’</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1115">a</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1116">aus</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1117"><choice><orig>e</orig><reg>E</reg></choice>nglés</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1118">dep<ex>ar</ex>tie</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_1119">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="153">
+               <lb n="153"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1120">Encore</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1121" join="right">en</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1122">o<supplied>n</supplied>t</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1123">il</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1124">g<ex>ra</ex>nt</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1125">p<ex>ar</ex>tie</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_1126">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="154">
+               <lb n="154"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1127">Sans</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1128">la</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1129">male</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1130">ont</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1131">il</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1132">asez</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1133">honte</w>
+            </l>
+            <l n="155">
+               <lb n="155"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1134"><ex>et</ex></w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1135">chascun</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1136"><choice><orig>i</orig><reg>j</reg></choice>or</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1137">lor</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1138">croist</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1139"><ex>et</ex></w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1140">monte</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_1141">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="156">
+               <lb n="156"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1142">P<ex>ar</ex></w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1143">ma<choice><orig>u</orig><reg>v</reg></choice>és</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1144">seignor</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1145"><ex>et</ex></w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1146" join="right">p<ex>ar</ex></w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1147">lache</w>
+            </l>
+            <l n="157">
+               <lb n="157"/>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1148"><choice><orig>L</orig><reg>l</reg></choice>es</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1149" join="right">a</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1150" join="right">la</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1151">honte</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1152">pris</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1153" join="right">en</w>
+               <w xml:id="w_MaleHonte1Guillaume_BnF2173_1154">tache</w>
+               <pc xml:id="w_MaleHonte1Guillaume_BnF2173_1155">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+            </l>
+         </lg>
+      </body>
+   </text>
+</TEI>

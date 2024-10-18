@@ -1,0 +1,3104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="fro">Les sohais</title>
+            <author>Anonyme</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2024</date>
+            </edition>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="acorbellari">Alain Corbellari</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="alavrent">Alexei Lavrentiev</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="apinche">Ariane Pinche</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="blaid">Baptiste Laïd</name>
+            </respStmt>
+            <respStmt>
+               <resp>robot</resp>
+               <name xml:id="bot">bot bot</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="cguillot">Céline Guillot-Barbance</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="clachet">Claude Lachet</name>
+            </respStmt>
+            <respStmt>
+               <resp>editeur</resp>
+               <resp>traducteur</resp>
+               <resp>chef de projet</resp>
+               <name xml:id="cpierreville">Corinne Pierreville</name>
+            </respStmt>
+            <respStmt>
+               <resp>relecteur</resp>
+               <resp>relecteur-traduction</resp>
+               <resp>membre</resp>
+               <name xml:id="ggruber">Gauthier Grüber</name>
+            </respStmt>
+            <respStmt>
+               <resp>ingénieur</resp>
+               <name xml:id="jnuguet">Jules Nuguet</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="ngarnier">Nicolas Garnier</name>
+            </respStmt>
+            <respStmt>
+               <resp>Relecteur traduction</resp>
+               <name xml:id="rbellon">Roger Bellon</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="rtrachsler">Richard Trachsler</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="veugene">Valentine Eugène</name>
+            </respStmt>
+            <respStmt>
+               <resp>ingénieur</resp>
+               <name xml:id="myamagata">Moe Yamagata</name>
+            </respStmt>
+            <respStmt>
+               <resp/>
+               <name xml:id="jdocks">Justine DOCKS</name>
+            </respStmt>
+            <respStmt>
+               <resp>editeur</resp>
+               <resp>relecteur</resp>
+               <resp>traducteur</resp>
+               <resp>relecteur-traduction</resp>
+               <resp/>
+               <name> </name>
+            </respStmt>
+         </editionStmt>
+         <extent>
+            <num xml:id="nb_tokens_given">1303</num>
+            <num xml:id="nb_mots_given">1121</num>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <name>ENS de Lyon / UMR 5317 IHRIM, Base de français médiéval, projet Fabliaux</name>
+            </publisher>
+            <address>
+               <addrLine>15, parvis René Descartes</addrLine>
+               <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+               <addrLine>Tél : 04 37 37 63 10</addrLine>
+               <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+               <addrLine>http://bfm.ens-lyon.fr</addrLine>
+            </address>
+            <idno type="bfm">http://catalog.bfm-corpus.org/fabliaux/Sohais_Nott-6</idno>
+            <idno type="doi">10.34847/nkl.cbc02zyr</idno>
+            <availability status="free">
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <ab type="availability_bfm">Les Conditions générales d'utilisation de la Base de Français Médiéval (http://txm.bfm-corpus.org/bfm/files/CGU.pdf), 
+                        et notamment son Article 5 « PROPRIETE INTELLECTUELLE », s'appliquent à tous les textes de la BFM.</ab>
+                  <ab type="how_to_cite">
+                     <label>Comment citer ce texte :</label>
+                     <bibl>Les sohais, édité par Corinne Pierreville en collaboration avec Gauthier Grüber. Publié en ligne par l’ENS de Lyon dans la Base de français médiéval, 
+2024, http://catalog.bfm-corpus.org/fabliaux/Sohais_Nott-6.</bibl>
+                        D'autres formules de citation de la BFM sont proposées sur la page web suivante :
+                        http://bfm.ens-lyon.fr/spip.php?article281.</ab>
+                  <ab type="availability_file">
+                     <label>Conditions d'utilisation de ce fichier :</label>
+                        Ce fichier numérique est composé du corps de texte médiéval (restauré par son ou ses éditeur(s) scientifique(s)), des apparats critiques (introductions, notes, glossaires, explications, du texte d'origine (ou des enrichissements) qui ont été réalisés dans le cadre de la restauration des textes par les Editeurs Scientifiques) et des suppléments numériques : balisage XML-TEI, métadonnées (teiHeader), balisage du discours direct, étiquetage morpho-syntaxique, lemmatisation. Le texte et les suppléments numériques sont libres de droit et peuvent à ce titre être téléchargés et réutilisés librement. Les apparats critiques sont soumis à une licence de type CC BY-NC-SA 3.0 FR  http://creativecommons.org/licenses/by-nc-sa/3.0/fr. Les Utilisateurs s’engagent à respecter les termes de cette licence. 
+                    </ab>
+                  <ab type="availability_txmweb" subtype="illimité">
+                     <label>Conditions d'utilisation par le portail BFM :</label>
+                        Pas de limitation dans l'usage des fonctionnalités. Téléchargement autorisé.</ab>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="main" xml:id="Nott-6">
+               <msIdentifier>
+                  <settlement>Nottingham</settlement>
+                  <repository>University Library</repository>
+                  <idno>Mi LM 6</idno>
+                  <idno type="URI" subtype="Notice" n="Arlima">https://www.arlima.net/mss/united_kingdom/nottingham/university_library/wollaton_library_collection/mi_lm_6.html</idno>
+                  <idno type="URI" subtype="Notice" n="Jonas">http://jonas.irht.cnrs.fr/manuscrit/38993</idno>
+                  <idno type="URI" subtype="Data" n="Biblissima">
+https://data.biblissima.fr/entity/Q274315</idno>
+                  <idno type="URI" subtype="Fac-similé">https://nakala.fr/10.34847/nkl.cf086818</idno>
+                  <idno type="URI" subtype="Manifeste_IIIF">https://api.nakala.fr/data/10.34847/nkl.cf086818/6be5e352e46c96c7d25a1d4508331a841ee7a67f</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem xml:id="deVilains_Nott-6">
+                     <locus>f. 343rb-344ra</locus>
+                     <title>Les deus vilains</title>
+                  </msItem>
+                  <msItem xml:id="ConnebertGautierLeLeu_Nott-6">
+                     <locus>f.156vb-159rb</locus>
+                     <title>Connebert</title>
+                  </msItem>
+                  <msItem xml:id="ContrarieuseMarieDeFrance_Nott-6">
+                     <title>La contrarieuse</title>
+                  </msItem>
+                  <msItem xml:id="CugnieMarieDeFrance_Nott-6">
+                     <locus>f. 351vb-351vb</locus>
+                     <title>La cugnie</title>
+                  </msItem>
+                  <msItem xml:id="DameEscoillee_Nott-6">
+                     <locus>f. 346ra-349va</locus>
+                     <title>La dame escoillee</title>
+                  </msItem>
+                  <msItem xml:id="DieuPescour_Nott-6">
+                     <locus>f. 344ra-345va</locus>
+                     <title>Dieu et le pescour</title>
+                  </msItem>
+                  <msItem xml:id="DitRaoulDeHosdaing_Nott-6">
+                     <locus>f. 350ra-350vb</locus>
+                     <title>Le dit de Raoul de Hosdaing</title>
+                  </msItem>
+                  <msItem xml:id="FemmePendreMarieDeFrance_Nott-6">
+                     <title>La femme qui fist pendre son mari</title>
+                  </msItem>
+                  <msItem xml:id="FolVilain_Nott-6">
+                     <locus>f. 337ra-338vb</locus>
+                     <title>Le fol vilain</title>
+                  </msItem>
+                  <msItem xml:id="PutainsLecheors_Nott-6">
+                     <locus>f. 349va-350ra</locus>
+                     <title>Les putains et les lecheors</title>
+                  </msItem>
+                  <msItem xml:id="Sohais_Nott-6">
+                     <locus>f. 336ra-336vb</locus>
+                     <title>Les sohais</title>
+                  </msItem>
+                  <msItem xml:id="SotChevalierGautierLeLeu_Nott-6">
+                     <locus>f. 341va-343rb</locus>
+                     <title>Le sot chevalier</title>
+                  </msItem>
+                  <msItem xml:id="Veuve_Nott-6">
+                     <locus>f. 338vb-341va</locus>
+                     <title>La Veuve</title>
+                  </msItem>
+                  <msItem xml:id="VilainFameDru_Nott-6">
+                     <title>Le Vilain qui od sa fame vit aller son dru</title>
+                  </msItem>
+                  <msItem xml:id="VilainFelunesse_Nott-6">
+                     <title>Le Vilain et la femme felunesse</title>
+                  </msItem>
+                  <msItem xml:id="VilainFolet_Nott-6">
+                     <title>Le Vilain et le folet</title>
+                  </msItem>
+                  <msItem xml:id="VilainHomeFeme_Nott-6">
+                     <title>Le Vilain qui vit un autre home od sa feme</title>
+                  </msItem>
+                  <msItem xml:id="VilainParadis_Nott-6">
+                     <locus>f. 350vb-351vb</locus>
+                     <title>Le vilain qui conquist paradis par plait</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin notBefore="1290-01-01" notAfter="1299-12-31">
+                     <p>fin 13e s.</p>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <title type="main" xml:lang="fro">Les sohais</title>
+            <title type="modern" xml:lang="fr">Les souhaits
+            </title>
+            <title type="alt" key="NRCF">Les sohais</title>
+            <date notBefore="1250-01-01" notAfter="1299-12-31" when="1274-12-31">2e moitié du 13e s</date>
+            <region type="dialecte_oeuvre">Picard</region>
+            <idno type="INV" subtype="Nykrog">135</idno>
+            <idno type="INV" subtype="Jodogne">135</idno>
+            <idno type="INV" subtype="NRCF">105</idno>
+            <idno type="URI" n="Jonas">https://jonas.irht.cnrs.fr/oeuvre/8984</idno>
+            <idno type="URI" n="Arlima">https://www.arlima.net/eh/gautier_le_leu.html#soh</idno>
+         </creation>
+         <langUsage>
+            <language ident="fro"/>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.bfm-corpus.org">
+               <term type="domaine">littérature</term>
+               <term type="genre" cert="medium">Fabliau</term>
+               <term type="forme">vers</term>
+               <term type="relation">non renseigné</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#cpierreville" when="2024-02-27T16:02:30" n="v1.0">Utilisation du fichier Sohais[Nott 6]trad-v1.0.docx</change>
+         <change who="#cpierreville" when="2024-02-27T16:02:30" n="v2.0">Utilisation du fichier Sohais[Nott 6]v2.0.docx</change>
+         <change who="#bot" when="2024-02-28" n="v2.0">Transformation avec Oxgarage du fichier Sohais[Nott 6]2.0.docx</change>
+         <change who="#bot" when="2024-02-28" n="v1.0">Transformation avec Oxgarage du fichier Sohais[Nott 6]1.0.docx</change>
+         <change who="#cpierreville" when="2024-03-04T12:49:57" n="v1.1">Utilisation du fichier Sohais[Nott 6]trad-v1.1.docx</change>
+         <change who="#cpierreville" when="2024-03-04T12:49:40" n="v2.1">Utilisation du fichier Sohais[Nott 6]v2.1.docx</change>
+         <change who="#bot" when="2024-03-04" n="v2.1">Transformation avec Oxgarage du fichier Sohais[Nott 6]2.1.docx</change>
+         <change who="#bot" when="2024-03-04" n="v1.1">Transformation avec Oxgarage du fichier Sohais[Nott 6]1.1.docx</change>
+         <change who="#cpierreville" when="2024-03-11T12:34:40" n="v1.2">Utilisation du fichier Sohais[Nott 6]trad-v1.2.docx</change>
+         <change who="#bot" when="2024-03-11" n="v1.2">Transformation avec Oxgarage du fichier Sohais[Nott 6]1.2.docx</change>
+         <change who="#cpierreville" when="2024-03-11T15:14:01" n="v1.3">Utilisation du fichier Sohais[Nott 6]trad-v1.3.docx</change>
+         <change who="#cpierreville" when="2024-03-11T14:41:41" n="v2.2">Utilisation du fichier Sohais[Nott 6]v2.2.docx</change>
+         <change who="#bot" when="2024-03-11" n="v2.2">Transformation avec Oxgarage du fichier Sohais[Nott 6]2.2.docx</change>
+         <change who="#bot" when="2024-03-11" n="v1.3">Transformation avec Oxgarage du fichier Sohais[Nott 6]1.3.docx</change>
+         <change who="#cpierreville" when="2024-06-20T11:17:49" n="v2.3">Utilisation du fichier Sohais[Nott 6]v2.3.docx</change>
+         <change who="#cpierreville" when="2024-06-20T11:54:33" n="v2.4">Utilisation du fichier Sohais[Nott 6]v2.4.docx</change>
+         <change who="#bot" when="2024-06-20" n="v2.4">Transformation avec Oxgarage du fichier Sohais[Nott 6]2.4.docx</change>
+         <change who="#cpierreville" when="2024-06-24T07:50:40" n="v1.4">Utilisation du fichier Sohais[Nott 6]trad-v1.4.docx</change>
+         <change who="#bot" when="2024-06-24" n="v1.4">Transformation avec Oxgarage du fichier Sohais[Nott 6]1.4.docx</change>
+      </revisionDesc>
+   </teiHeader>
+   <text source="Sohais_Nott-6">
+      <body>
+         <pb n="336r"
+              xml:id="pb_1"
+              facs="https://api.nakala.fr/iiif/10.34847/nkl.cf086818/238a523eadbd718a4fac2916e0b056ac02327a61/full/full/0/default.jpg"/>
+         <cb n="336ra"/>
+         <lg>
+            <l n="1">
+               <lb n="1"/>
+               <pc xml:id="w_Sohais_Nott6_1">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_Sohais_Nott6_2">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_Sohais_Nott6_3">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_Sohais_Nott6_4">Deseur</w>
+               <w xml:id="w_Sohais_Nott6_5" join="right" ana="#aggl-cert_low">le</w>
+               <w xml:id="w_Sohais_Nott6_6">roit</w>
+               <w xml:id="w_Sohais_Nott6_7">s’</w>
+               <w xml:id="w_Sohais_Nott6_8">est</w>
+               <w xml:id="w_Sohais_Nott6_9">estendus</w>
+               <note type="philologique">
+                  <p rend="footnote text">Le début du texte est manquant en raison d’une lacune d’au moins un feuillet.</p>
+               </note>
+               <pc xml:id="w_Sohais_Nott6_10">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="2">
+               <lb n="2"/>
+               <w xml:id="w_Sohais_Nott6_11">Cil</w>
+               <w xml:id="w_Sohais_Nott6_12">laiens</w>
+               <w xml:id="w_Sohais_Nott6_13">p<ex>ar</ex>olent</w>
+               <w xml:id="w_Sohais_Nott6_14" join="right">a</w>
+               <w xml:id="w_Sohais_Nott6_15">lui</w>
+               <pc xml:id="w_Sohais_Nott6_16">
+                  <choice>
+                     <orig/>
+                     <reg>:</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="3">
+               <lb n="3"/>
+               <pc xml:id="w_Sohais_Nott6_17">
+                  <choice>
+                     <orig/>
+                     <reg>«</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_Sohais_Nott6_18">Amis</w>
+               <pc xml:id="w_Sohais_Nott6_19">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_Sohais_Nott6_20" join="right">ne</w>
+               <w xml:id="w_Sohais_Nott6_21">nos</w>
+               <w xml:id="w_Sohais_Nott6_22">faites</w>
+               <w xml:id="w_Sohais_Nott6_23">anu<choice><orig>j</orig><reg>i</reg></choice></w>
+               <pc xml:id="w_Sohais_Nott6_24">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="4">
+               <lb n="4"/>
+               <w xml:id="w_Sohais_Nott6_25" join="right">Ne</w>
+               <w xml:id="w_Sohais_Nott6_26">somes</w>
+               <w xml:id="w_Sohais_Nott6_27">pas</w>
+               <w xml:id="w_Sohais_Nott6_28">oisel</w>
+               <w xml:id="w_Sohais_Nott6_29">terestre</w>
+               <pc xml:id="w_Sohais_Nott6_30">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="5">
+               <lb n="5"/>
+               <w xml:id="w_Sohais_Nott6_31"><choice><orig>A</orig><reg>a</reg></choice>nçois</w>
+               <w xml:id="w_Sohais_Nott6_32">somes</w>
+               <w xml:id="w_Sohais_Nott6_33">angle</w>
+               <w xml:id="w_Sohais_Nott6_34">celestre</w>
+               <pc xml:id="w_Sohais_Nott6_35">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="6">
+               <lb n="6"/>
+               <w xml:id="w_Sohais_Nott6_36"><choice><orig>o</orig><reg>O</reg></choice>ste</w>
+               <w xml:id="w_Sohais_Nott6_37">te</w>
+               <w xml:id="w_Sohais_Nott6_38">roit</w>
+               <pc xml:id="w_Sohais_Nott6_39">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_Sohais_Nott6_40">lai</w>
+               <w xml:id="w_Sohais_Nott6_41">nos</w>
+               <w xml:id="w_Sohais_Nott6_42">aler</w>
+               <pc xml:id="w_Sohais_Nott6_43">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="7">
+               <lb n="7"/>
+               <w xml:id="w_Sohais_Nott6_44"><choice><orig>N</orig><reg>n</reg></choice>’</w>
+               <w xml:id="w_Sohais_Nott6_45">i</w>
+               <w xml:id="w_Sohais_Nott6_46">poomes</w>
+               <w xml:id="w_Sohais_Nott6_47">plus</w>
+               <w xml:id="w_Sohais_Nott6_48">demorer</w>
+               <pc xml:id="w_Sohais_Nott6_49">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="8">
+               <lb n="8"/>
+               <w xml:id="w_Sohais_Nott6_50"><choice><orig>t</orig><reg>T</reg></choice>u</w>
+               <w xml:id="w_Sohais_Nott6_51">en</w>
+               <w xml:id="w_Sohais_Nott6_52">aras</w>
+               <w xml:id="w_Sohais_Nott6_53">tel</w>
+               <w xml:id="w_Sohais_Nott6_54">gerredo<choice><orig>N</orig><reg>n</reg></choice></w>
+            </l>
+            <l n="9">
+               <lb n="9"/>
+               <w xml:id="w_Sohais_Nott6_55" join="right"><choice><orig>Q</orig><reg>q</reg></choice><ex>ue</ex></w>
+               <w xml:id="w_Sohais_Nott6_56"><choice><orig>d</orig><reg>D</reg></choice>ex</w>
+               <w xml:id="w_Sohais_Nott6_57">te</w>
+               <w xml:id="w_Sohais_Nott6_58">fera</w>
+               <w xml:id="w_Sohais_Nott6_59"><choice><orig>u</orig><reg>v</reg></choice>rai</w>
+               <w xml:id="w_Sohais_Nott6_60">p<ex>ar</ex>do<choice><orig>N</orig><reg>n</reg></choice></w>
+            </l>
+            <l n="10">
+               <lb n="10"/>
+               <w xml:id="w_Sohais_Nott6_61"><ex>et</ex></w>
+               <w xml:id="w_Sohais_Nott6_62">si</w>
+               <w xml:id="w_Sohais_Nott6_63">aras</w>
+               <w xml:id="w_Sohais_Nott6_64">si</w>
+               <w xml:id="w_Sohais_Nott6_65">grant</w>
+               <w xml:id="w_Sohais_Nott6_66">a<choice><orig>u</orig><reg>v</reg></choice>oir</w>
+            </l>
+            <l n="11">
+               <lb n="11"/>
+               <w xml:id="w_Sohais_Nott6_67" join="right"><choice><orig>Q</orig><reg>q</reg></choice><ex>ue</ex></w>
+               <w xml:id="w_Sohais_Nott6_68">tu</w>
+               <w xml:id="w_Sohais_Nott6_69">onq<ex>ue</ex>s</w>
+               <w xml:id="w_Sohais_Nott6_70"><choice><orig>u</orig><reg>v</reg></choice>olras</w>
+               <w xml:id="w_Sohais_Nott6_71">a<choice><orig>u</orig><reg>v</reg></choice>oir</w>
+            </l>
+            <l n="12">
+               <lb n="12"/>
+               <w xml:id="w_Sohais_Nott6_72">por</w>
+               <w xml:id="w_Sohais_Nott6_73">sohaidier</w>
+               <w xml:id="w_Sohais_Nott6_74" join="right">a</w>
+               <w xml:id="w_Sohais_Nott6_75">une</w>
+               <w xml:id="w_Sohais_Nott6_76">fie</w>
+               <pc xml:id="w_Sohais_Nott6_77">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_Sohais_Nott6_78">
+                  <choice>
+                     <orig/>
+                     <reg>»</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="13">
+               <lb n="13"/>
+               <w xml:id="w_Sohais_Nott6_79"><choice><orig>l</orig><reg>L</reg></choice>i</w>
+               <w xml:id="w_Sohais_Nott6_80">p<ex>ro</ex>dom</w>
+               <pc xml:id="w_Sohais_Nott6_81">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_Sohais_Nott6_82">q<ex>ui</ex></w>
+               <w xml:id="w_Sohais_Nott6_83">en</w>
+               <w xml:id="w_Sohais_Nott6_84"><choice><orig>d</orig><reg>D</reg></choice>eu</w>
+               <w xml:id="w_Sohais_Nott6_85">se</w>
+               <w xml:id="w_Sohais_Nott6_86">fie</w>
+               <pc xml:id="w_Sohais_Nott6_87">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="14">
+               <lb n="14"/>
+               <w xml:id="w_Sohais_Nott6_88"><choice><orig>Q</orig><reg>q</reg></choice><ex>ui</ex></w>
+               <w xml:id="w_Sohais_Nott6_89">n’</w>
+               <w xml:id="w_Sohais_Nott6_90">estoit</w>
+               <w xml:id="w_Sohais_Nott6_91">mie</w>
+               <w xml:id="w_Sohais_Nott6_92">co<choice><orig>u</orig><reg>v</reg></choice>oiteus</w>
+            </l>
+            <l n="15">
+               <lb n="15"/>
+               <w xml:id="w_Sohais_Nott6_93"><ex>et</ex></w>
+               <w xml:id="w_Sohais_Nott6_94">del</w>
+               <w xml:id="w_Sohais_Nott6_95">ro<choice><orig>u</orig><reg>v</reg></choice>er</w>
+               <w xml:id="w_Sohais_Nott6_96">estoit</w>
+               <w xml:id="w_Sohais_Nott6_97">honteus</w>
+               <pc xml:id="w_Sohais_Nott6_98">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="16">
+               <lb n="16"/>
+               <w xml:id="w_Sohais_Nott6_99"><choice><orig>D</orig><reg>d</reg></choice>ist</w>
+               <pc xml:id="w_Sohais_Nott6_100">
+                  <choice>
+                     <orig/>
+                     <reg>:</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_Sohais_Nott6_101">
+                  <choice>
+                     <orig/>
+                     <reg>«</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_Sohais_Nott6_102"><choice><orig>j</orig><reg>J</reg></choice>e</w>
+               <w xml:id="w_Sohais_Nott6_103" join="right">ne</w>
+               <w xml:id="w_Sohais_Nott6_104"><choice><orig>u</orig><reg>v</reg></choice>uel</w>
+               <w xml:id="w_Sohais_Nott6_105" join="right" ana="#aggl-cert_low">ne</w>
+               <w xml:id="w_Sohais_Nott6_106">pl<ex>us</ex></w>
+               <w xml:id="w_Sohais_Nott6_107" join="right">ne</w>
+               <w xml:id="w_Sohais_Nott6_108">mai<ex>n</ex>s</w>
+            </l>
+            <l n="17">
+               <lb n="17"/>
+               <w xml:id="w_Sohais_Nott6_109"><choice><orig>Q</orig><reg>q</reg></choice>’</w>
+               <w xml:id="w_Sohais_Nott6_110">autant</w>
+               <w xml:id="w_Sohais_Nott6_111">q<ex>ue</ex></w>
+               <w xml:id="w_Sohais_Nott6_112">mes</w>
+               <w xml:id="w_Sohais_Nott6_113">frere</w>
+               <w xml:id="w_Sohais_Nott6_114">g<ex>er</ex>mai<ex>n</ex>s</w>
+               <pc xml:id="w_Sohais_Nott6_115">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="18">
+               <lb n="18"/>
+               <w xml:id="w_Sohais_Nott6_116"><choice><orig>M</orig><reg>m</reg></choice>ais</w>
+               <w xml:id="w_Sohais_Nott6_117">q<ex>ue</ex></w>
+               <w xml:id="w_Sohais_Nott6_118"><choice><orig>i</orig><reg>j</reg></choice>e</w>
+               <w xml:id="w_Sohais_Nott6_119">l’</w>
+               <w xml:id="w_Sohais_Nott6_120">aie</w>
+               <w xml:id="w_Sohais_Nott6_121">sans</w>
+               <w xml:id="w_Sohais_Nott6_122">pecciet</w>
+               <pc xml:id="w_Sohais_Nott6_123">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_Sohais_Nott6_124">
+                  <choice>
+                     <orig/>
+                     <reg>»</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="19">
+               <lb n="19"/>
+               <w xml:id="w_Sohais_Nott6_125"><choice><orig>p</orig><reg>P</reg></choice>uis</w>
+               <w xml:id="w_Sohais_Nott6_126">a</w>
+               <w xml:id="w_Sohais_Nott6_127">a<choice><orig>u</orig><reg>v</reg></choice>ant</w>
+               <w xml:id="w_Sohais_Nott6_128">sen</w>
+               <note type="philologique">
+                  <p rend="footnote text" style="text-align: justify;">Le déterminant <hi rend="italic">sen</hi> pour <hi rend="italic">son</hi> est une forme wallone ou picarde (Collet et Greub 5.1).</p>
+               </note>
+               <w xml:id="w_Sohais_Nott6_129">braç</w>
+               <w xml:id="w_Sohais_Nott6_130">la<ex>n</ex>ciet</w>
+               <pc xml:id="w_Sohais_Nott6_131">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="20">
+               <lb n="20"/>
+               <w xml:id="w_Sohais_Nott6_132"><choice><orig>S</orig><reg>s</reg></choice>’</w>
+               <w xml:id="w_Sohais_Nott6_133">a</w>
+               <w xml:id="w_Sohais_Nott6_134" join="right">le</w>
+               <w xml:id="w_Sohais_Nott6_135">roit</w>
+               <w xml:id="w_Sohais_Nott6_136"><ex>con</ex>tremont</w>
+               <w xml:id="w_Sohais_Nott6_137">sacie</w>
+               <pc xml:id="w_Sohais_Nott6_138">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="21">
+               <lb n="21"/>
+               <w xml:id="w_Sohais_Nott6_139">puis</w>
+               <w xml:id="w_Sohais_Nott6_140">l’</w>
+               <w xml:id="w_Sohais_Nott6_141">a</w>
+               <w xml:id="w_Sohais_Nott6_142">colloite</w>
+               <w xml:id="w_Sohais_Nott6_143"><ex>et</ex></w>
+               <w xml:id="w_Sohais_Nott6_144">embracie</w>
+               <pc xml:id="w_Sohais_Nott6_145">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="22">
+               <lb n="22"/>
+               <w xml:id="w_Sohais_Nott6_146"><ex>et</ex></w>
+               <w xml:id="w_Sohais_Nott6_147">cil</w>
+               <w xml:id="w_Sohais_Nott6_148">sont</w>
+               <w xml:id="w_Sohais_Nott6_149" join="right">a</w>
+               <w xml:id="w_Sohais_Nott6_150" join="right">le</w>
+               <w xml:id="w_Sohais_Nott6_151"><choice><orig>u</orig><reg>v</reg></choice>oie</w>
+               <note type="philologique">
+                  <p rend="footnote text">L’article le pour la est une forme picarde ou wallone (Collet et Greub 3.3).</p>
+               </note>
+               <w xml:id="w_Sohais_Nott6_152">mis</w>
+               <pc xml:id="w_Sohais_Nott6_153">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="23">
+               <lb n="23"/>
+               <w xml:id="w_Sohais_Nott6_154"><choice><orig>M</orig><reg>m</reg></choice>ais</w>
+               <w xml:id="w_Sohais_Nott6_155">il</w>
+               <w xml:id="w_Sohais_Nott6_156">li</w>
+               <w xml:id="w_Sohais_Nott6_157">dient</w>
+               <pc xml:id="w_Sohais_Nott6_158">
+                  <choice>
+                     <orig/>
+                     <reg>:</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_Sohais_Nott6_159">
+                  <choice>
+                     <orig/>
+                     <reg>«</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_Sohais_Nott6_160"><choice><orig>b</orig><reg>B</reg></choice>els</w>
+               <w xml:id="w_Sohais_Nott6_161">amis</w>
+               <pc xml:id="w_Sohais_Nott6_162">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="24">
+               <lb n="24"/>
+               <w xml:id="w_Sohais_Nott6_163">tes</w>
+               <w xml:id="w_Sohais_Nott6_164">sohais</w>
+               <w xml:id="w_Sohais_Nott6_165">est</w>
+               <w xml:id="w_Sohais_Nott6_166">bien</w>
+               <w xml:id="w_Sohais_Nott6_167">asenés</w>
+               <pc xml:id="w_Sohais_Nott6_168">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="25">
+               <lb n="25"/>
+               <w xml:id="w_Sohais_Nott6_169"><choice><orig>o</orig><reg>O</reg></choice>r</w>
+               <w xml:id="w_Sohais_Nott6_170">soies</w>
+               <w xml:id="w_Sohais_Nott6_171">p<ex>ro</ex>dom</w>
+               <w xml:id="w_Sohais_Nott6_172"><ex>et</ex></w>
+               <w xml:id="w_Sohais_Nott6_173">senés</w>
+               <pc xml:id="w_Sohais_Nott6_174">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="26">
+               <lb n="26"/>
+               <w xml:id="w_Sohais_Nott6_175"><choice><orig>S</orig><reg>s</reg></choice>i</w>
+               <w xml:id="w_Sohais_Nott6_176">fai</w>
+               <w xml:id="w_Sohais_Nott6_177">bien</w>
+               <w xml:id="w_Sohais_Nott6_178" join="right">a</w>
+               <w xml:id="w_Sohais_Nott6_179" join="right" ana="#aggl-cert_low">le</w>
+               <w xml:id="w_Sohais_Nott6_180">po<choice><orig>u</orig><reg>v</reg></choice>re</w>
+               <w xml:id="w_Sohais_Nott6_181">gent</w>
+            </l>
+            <l n="27">
+               <lb n="27"/>
+               <w xml:id="w_Sohais_Nott6_182"><choice><orig>C</orig><reg>c</reg></choice>ar</w>
+               <w xml:id="w_Sohais_Nott6_183">tu</w>
+               <w xml:id="w_Sohais_Nott6_184">as</w>
+               <w xml:id="w_Sohais_Nott6_185">pl<ex>us</ex></w>
+               <w xml:id="w_Sohais_Nott6_186">d’</w>
+               <w xml:id="w_Sohais_Nott6_187">or</w>
+               <w xml:id="w_Sohais_Nott6_188"><ex>et</ex></w>
+               <w xml:id="w_Sohais_Nott6_189">d’</w>
+               <w xml:id="w_Sohais_Nott6_190">argent</w>
+            </l>
+            <l n="28">
+               <lb n="28"/>
+               <w xml:id="w_Sohais_Nott6_191"><ex>c</ex>’</w>
+               <w xml:id="w_Sohais_Nott6_192"><ex>on</ex>q<ex>ue</ex>s</w>
+               <w xml:id="w_Sohais_Nott6_193">eüst</w>
+               <w xml:id="w_Sohais_Nott6_194"><choice><orig>t</orig><reg>T</reg></choice>iebaus</w>
+               <w xml:id="w_Sohais_Nott6_195">tes</w>
+               <w xml:id="w_Sohais_Nott6_196">frere</w>
+            </l>
+            <l n="29">
+               <lb n="29"/>
+               <w xml:id="w_Sohais_Nott6_197"><choice><orig>Q</orig><reg>q</reg></choice><ex>ui</ex></w>
+               <w xml:id="w_Sohais_Nott6_198" join="right">tos</w>
+               <w xml:id="w_Sohais_Nott6_199">tans</w>
+               <w xml:id="w_Sohais_Nott6_200">a</w>
+               <w xml:id="w_Sohais_Nott6_201">esté</w>
+               <w xml:id="w_Sohais_Nott6_202">trafere</w>
+            </l>
+            <l n="30">
+               <lb n="30"/>
+               <w xml:id="w_Sohais_Nott6_203"><choice><orig>N</orig><reg>n</reg></choice>’</w>
+               <w xml:id="w_Sohais_Nott6_204">onq<ex>ue</ex>s</w>
+               <w xml:id="w_Sohais_Nott6_205" join="right">ne</w>
+               <w xml:id="w_Sohais_Nott6_206">fina</w>
+               <w xml:id="w_Sohais_Nott6_207">d’</w>
+               <w xml:id="w_Sohais_Nott6_208">userer</w>
+            </l>
+            <l n="31">
+               <lb n="31"/>
+               <w xml:id="w_Sohais_Nott6_209">tant</w>
+               <w xml:id="w_Sohais_Nott6_210">q<ex>u</ex>’</w>
+               <w xml:id="w_Sohais_Nott6_211"><ex>i</ex>l</w>
+               <w xml:id="w_Sohais_Nott6_212">puet</w>
+               <w xml:id="w_Sohais_Nott6_213">l’</w>
+               <w xml:id="w_Sohais_Nott6_214">a<choice><orig>u</orig><reg>v</reg></choice>oir</w>
+               <w xml:id="w_Sohais_Nott6_215">mesurer</w>
+            </l>
+            <l n="32">
+               <lb n="32"/>
+               <w xml:id="w_Sohais_Nott6_216"><ex>et</ex></w>
+               <w xml:id="w_Sohais_Nott6_217" join="right">a</w>
+               <w xml:id="w_Sohais_Nott6_218">mines</w>
+               <w xml:id="w_Sohais_Nott6_219"><ex>et</ex></w>
+               <w xml:id="w_Sohais_Nott6_220">a</w>
+               <w xml:id="w_Sohais_Nott6_221">sestiers</w>
+               <pc xml:id="w_Sohais_Nott6_222">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="33">
+               <lb n="33"/>
+               <w xml:id="w_Sohais_Nott6_223">Dehait</w>
+               <w xml:id="w_Sohais_Nott6_224">ait</w>
+               <w xml:id="w_Sohais_Nott6_225">or</w>
+               <w xml:id="w_Sohais_Nott6_226">si<space type="degl-fgmt"/>fais</w>
+               <w xml:id="w_Sohais_Nott6_227">mestiers</w>
+            </l>
+            <l n="34">
+               <lb n="34"/>
+               <w xml:id="w_Sohais_Nott6_228"><choice><orig>D</orig><reg>d</reg></choice>ont</w>
+               <w xml:id="w_Sohais_Nott6_229">li</w>
+               <w xml:id="w_Sohais_Nott6_230">ame</w>
+               <w xml:id="w_Sohais_Nott6_231">est</w>
+               <w xml:id="w_Sohais_Nott6_232" join="right" ana="#aggl-cert_low">si</w>
+               <w xml:id="w_Sohais_Nott6_233">torme<ex>n</ex>tee</w>
+            </l>
+            <l n="35">
+               <lb n="35"/>
+               <w xml:id="w_Sohais_Nott6_234"><ex>et</ex></w>
+               <w xml:id="w_Sohais_Nott6_235"><choice><orig>i</orig><reg>j</reg></choice>usticie</w>
+               <w xml:id="w_Sohais_Nott6_236"><ex>et</ex></w>
+               <w xml:id="w_Sohais_Nott6_237">tempestee</w>
+               <pc xml:id="w_Sohais_Nott6_238">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_Sohais_Nott6_239">
+                  <choice>
+                     <orig/>
+                     <reg>»</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="36">
+               <lb n="36"/>
+               <w xml:id="w_Sohais_Nott6_240">Qant</w>
+               <w xml:id="w_Sohais_Nott6_241">li</w>
+               <w xml:id="w_Sohais_Nott6_242">p<ex>ro</ex>dom</w>
+               <w xml:id="w_Sohais_Nott6_243">l’</w>
+               <w xml:id="w_Sohais_Nott6_244">ot</w>
+               <w xml:id="w_Sohais_Nott6_245"><ex>et</ex></w>
+               <w xml:id="w_Sohais_Nott6_246">entent</w>
+               <pc xml:id="w_Sohais_Nott6_247">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="37">
+               <lb n="37"/>
+               <w xml:id="w_Sohais_Nott6_248">plus</w>
+               <w xml:id="w_Sohais_Nott6_249">n’</w>
+               <w xml:id="w_Sohais_Nott6_250">i</w>
+               <w xml:id="w_Sohais_Nott6_251">areste</w>
+               <w xml:id="w_Sohais_Nott6_252">ne</w>
+               <w xml:id="w_Sohais_Nott6_253">atent</w>
+               <pc xml:id="w_Sohais_Nott6_254">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="38">
+               <lb n="38"/>
+               <w xml:id="w_Sohais_Nott6_255"><choice><orig>U</orig><reg>V</reg></choice>enus</w>
+               <w xml:id="w_Sohais_Nott6_256">en</w>
+               <w xml:id="w_Sohais_Nott6_257">est</w>
+               <w xml:id="w_Sohais_Nott6_258" join="right">a</w>
+               <w xml:id="w_Sohais_Nott6_259">sen</w>
+               <w xml:id="w_Sohais_Nott6_260">repaire</w>
+               <pc xml:id="w_Sohais_Nott6_261">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="39">
+               <lb n="39"/>
+               <w xml:id="w_Sohais_Nott6_262" join="right" ana="#aggl-cert_low">De</w>
+               <w xml:id="w_Sohais_Nott6_263">fossés</w>
+               <w xml:id="w_Sohais_Nott6_264" join="right">i</w>
+               <w xml:id="w_Sohais_Nott6_265">tro<choice><orig>u</orig><reg>v</reg></choice>a</w>
+               <w xml:id="w_Sohais_Nott6_266" join="right" ana="#aggl-cert_low">deu</w>
+               <w xml:id="w_Sohais_Nott6_267">paire</w>
+               <note type="philologique">
+                  <p rend="footnote text">Livingston corrige en <hi rend="italic">deus paire</hi>.</p>
+               </note>
+            </l>
+            <l n="40">
+               <lb n="40"/>
+               <w xml:id="w_Sohais_Nott6_268">tos</w>
+               <w xml:id="w_Sohais_Nott6_269">plains</w>
+               <w xml:id="w_Sohais_Nott6_270" join="right" ana="#aggl-cert_low">de</w>
+               <w xml:id="w_Sohais_Nott6_271">dolce</w>
+               <w xml:id="w_Sohais_Nott6_272">aigue</w>
+               <w xml:id="w_Sohais_Nott6_273">corant</w>
+               <pc xml:id="w_Sohais_Nott6_274">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="41">
+               <lb n="41"/>
+               <w xml:id="w_Sohais_Nott6_275"><ex>Con</ex>tre</w>
+               <w xml:id="w_Sohais_Nott6_276">lui</w>
+               <w xml:id="w_Sohais_Nott6_277">sont</w>
+               <w xml:id="w_Sohais_Nott6_278"><choice><orig>u</orig><reg>v</reg></choice>enu</w>
+               <w xml:id="w_Sohais_Nott6_279">corant</w>
+            </l>
+            <l n="42">
+               <lb n="42"/>
+               <w xml:id="w_Sohais_Nott6_280"><choice><orig>S</orig><reg>s</reg></choice>i</w>
+               <w xml:id="w_Sohais_Nott6_281"><supplied>an</supplied>fant</w>
+               <pc xml:id="w_Sohais_Nott6_282">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_Sohais_Nott6_283" join="right">se</w>
+               <w xml:id="w_Sohais_Nott6_284">li</w>
+               <w xml:id="w_Sohais_Nott6_285">dient</w>
+               <pc xml:id="w_Sohais_Nott6_286">
+                  <choice>
+                     <orig/>
+                     <reg>:</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_Sohais_Nott6_287">
+                  <choice>
+                     <orig/>
+                     <reg>«</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_Sohais_Nott6_288"><choice><orig>s</orig><reg>S</reg></choice>ire</w>
+               <pc xml:id="w_Sohais_Nott6_289">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="43">
+               <lb n="43"/>
+               <w xml:id="w_Sohais_Nott6_290"><choice><orig>Ç</orig><reg>ç</reg></choice>aiens</w>
+               <w xml:id="w_Sohais_Nott6_291">est</w>
+               <w xml:id="w_Sohais_Nott6_292"><choice><orig>u</orig><reg>v</reg></choice>en<ex>us</ex></w>
+               <w xml:id="w_Sohais_Nott6_293">nostre</w>
+               <w xml:id="w_Sohais_Nott6_294">sire</w>
+               <pc xml:id="w_Sohais_Nott6_295">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="44">
+               <lb n="44"/>
+               <w xml:id="w_Sohais_Nott6_296"><choice><orig>S</orig><reg>s</reg></choice>i</w>
+               <w xml:id="w_Sohais_Nott6_297">nos</w>
+               <w xml:id="w_Sohais_Nott6_298">a</w>
+               <w xml:id="w_Sohais_Nott6_299">g<ex>ra</ex>nt</w>
+               <w xml:id="w_Sohais_Nott6_300">a<choice><orig>u</orig><reg>v</reg></choice>oir</w>
+               <w xml:id="w_Sohais_Nott6_301">donet</w>
+            </l>
+            <l n="45">
+               <lb n="45"/>
+               <w xml:id="w_Sohais_Nott6_302"><ex>et</ex></w>
+               <w xml:id="w_Sohais_Nott6_303">si</w>
+               <w xml:id="w_Sohais_Nott6_304">nos</w>
+               <w xml:id="w_Sohais_Nott6_305">a</w>
+               <w xml:id="w_Sohais_Nott6_306">abandonet</w>
+            </l>
+            <l n="46">
+               <lb n="46"/>
+               <w xml:id="w_Sohais_Nott6_307" join="right" ana="#aggl-cert_low"><choice><orig>Q</orig><reg>q</reg></choice><ex>ue</ex></w>
+               <w xml:id="w_Sohais_Nott6_308">nos</w>
+               <w xml:id="w_Sohais_Nott6_309">me<ex>n</ex><choice><orig>i</orig><reg>j</reg></choice>ons</w>
+               <w xml:id="w_Sohais_Nott6_310" join="right">tos</w>
+               <w xml:id="w_Sohais_Nott6_311">ta<ex>n</ex>s</w>
+               <w xml:id="w_Sohais_Nott6_312">asés</w>
+               <pc xml:id="w_Sohais_Nott6_313">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_Sohais_Nott6_314">
+                  <choice>
+                     <orig/>
+                     <reg>»</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="47">
+               <lb n="47"/>
+               <w xml:id="w_Sohais_Nott6_315"><choice><orig>l</orig><reg>L</reg></choice>i</w>
+               <w xml:id="w_Sohais_Nott6_316">prodom</w>
+               <w xml:id="w_Sohais_Nott6_317">est</w>
+               <w xml:id="w_Sohais_Nott6_318">oltre</w>
+               <w xml:id="w_Sohais_Nott6_319">passés</w>
+               <pc xml:id="w_Sohais_Nott6_320">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+               <cb n="336rb"/>
+            </l>
+            <l n="48">
+               <lb n="48"/>
+               <w xml:id="w_Sohais_Nott6_321">De<choice><orig>u</orig><reg>v</reg></choice>ant</w>
+               <w xml:id="w_Sohais_Nott6_322">l’</w>
+               <w xml:id="w_Sohais_Nott6_323">entree</w>
+               <w xml:id="w_Sohais_Nott6_324" join="right">de</w>
+               <w xml:id="w_Sohais_Nott6_325">la</w>
+               <w xml:id="w_Sohais_Nott6_326">porte</w>
+            </l>
+            <l n="49">
+               <lb n="49"/>
+               <w xml:id="w_Sohais_Nott6_327"><choice><orig>J</orig><reg>j</reg></choice>eta</w>
+               <w xml:id="w_Sohais_Nott6_328" join="right">le</w>
+               <w xml:id="w_Sohais_Nott6_329">roit</w>
+               <w xml:id="w_Sohais_Nott6_330"><choice><orig>i</orig><reg>j</reg></choice>us</w>
+               <w xml:id="w_Sohais_Nott6_331">q<ex>u</ex>’</w>
+               <w xml:id="w_Sohais_Nott6_332"><ex>i</ex>l</w>
+               <w xml:id="w_Sohais_Nott6_333">aporte</w>
+               <pc xml:id="w_Sohais_Nott6_334">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="50">
+               <lb n="50"/>
+               <w xml:id="w_Sohais_Nott6_335">Qant</w>
+               <w xml:id="w_Sohais_Nott6_336">il</w>
+               <w xml:id="w_Sohais_Nott6_337">p<ex>ar</ex><choice><orig>u</orig><reg>v</reg></choice>int</w>
+               <w xml:id="w_Sohais_Nott6_338">en</w>
+               <w xml:id="w_Sohais_Nott6_339">mi</w>
+               <w xml:id="w_Sohais_Nott6_340" join="right">sa</w>
+               <w xml:id="w_Sohais_Nott6_341">cort</w>
+               <pc xml:id="w_Sohais_Nott6_342">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="51">
+               <lb n="51"/>
+               <w xml:id="w_Sohais_Nott6_343" join="right"><choice><orig>S</orig><reg>s</reg></choice>e</w>
+               <w xml:id="w_Sohais_Nott6_344">li</w>
+               <w xml:id="w_Sohais_Nott6_345">caïrent</w>
+               <w xml:id="w_Sohais_Nott6_346" join="right" ana="#aggl-cert_low">si</w>
+               <w xml:id="w_Sohais_Nott6_347">drap</w>
+               <w xml:id="w_Sohais_Nott6_348">cort</w>
+               <pc xml:id="w_Sohais_Nott6_349">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="52">
+               <lb n="52"/>
+               <w xml:id="w_Sohais_Nott6_350"><choice><orig>S</orig><reg>s</reg></choice>’</w>
+               <w xml:id="w_Sohais_Nott6_351">ot</w>
+               <w xml:id="w_Sohais_Nott6_352">mai<ex>n</ex>tenant</w>
+               <w xml:id="w_Sohais_Nott6_353">cote</w>
+               <w xml:id="w_Sohais_Nott6_354"><ex>et</ex></w>
+               <w xml:id="w_Sohais_Nott6_355">mantel</w>
+            </l>
+            <l n="53">
+               <lb n="53"/>
+               <w xml:id="w_Sohais_Nott6_356"><choice><orig>D</orig><reg>d</reg></choice>ont</w>
+               <w xml:id="w_Sohais_Nott6_357" join="right">a</w>
+               <w xml:id="w_Sohais_Nott6_358" join="right" ana="#aggl-cert_low">or</w>
+               <w xml:id="w_Sohais_Nott6_359">furent</w>
+               <w xml:id="w_Sohais_Nott6_360" join="right" ana="#aggl-cert_low">li</w>
+               <w xml:id="w_Sohais_Nott6_361">tasel</w>
+               <pc xml:id="w_Sohais_Nott6_362">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="54">
+               <lb n="54"/>
+               <w xml:id="w_Sohais_Nott6_363">Sa</w>
+               <w xml:id="w_Sohais_Nott6_364">feme</w>
+               <w xml:id="w_Sohais_Nott6_365">est</w>
+               <w xml:id="w_Sohais_Nott6_366"><ex>con</ex>tre</w>
+               <w xml:id="w_Sohais_Nott6_367">lui</w>
+               <w xml:id="w_Sohais_Nott6_368"><choice><orig>u</orig><reg>v</reg></choice>enue</w>
+            </l>
+            <l n="55">
+               <lb n="55"/>
+               <w xml:id="w_Sohais_Nott6_369"><choice><orig>Q</orig><reg>q</reg></choice><ex>ui</ex></w>
+               <w xml:id="w_Sohais_Nott6_370">ne</w>
+               <w xml:id="w_Sohais_Nott6_371">restoit</w>
+               <w xml:id="w_Sohais_Nott6_372">mie</w>
+               <w xml:id="w_Sohais_Nott6_373">trop</w>
+               <w xml:id="w_Sohais_Nott6_374">nue</w>
+               <pc xml:id="w_Sohais_Nott6_375">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="56">
+               <lb n="56"/>
+               <w xml:id="w_Sohais_Nott6_376"><choice><orig>S</orig><reg>s</reg></choice>i</w>
+               <w xml:id="w_Sohais_Nott6_377">s’</w>
+               <w xml:id="w_Sohais_Nott6_378">entreprende<ex>n</ex>t</w>
+               <w xml:id="w_Sohais_Nott6_379" join="right">p<ex>ar</ex></w>
+               <w xml:id="w_Sohais_Nott6_380">les</w>
+               <w xml:id="w_Sohais_Nott6_381">dois</w>
+               <pc xml:id="w_Sohais_Nott6_382">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="57">
+               <lb n="57"/>
+               <w xml:id="w_Sohais_Nott6_383">Ses</w>
+               <w xml:id="w_Sohais_Nott6_384">frere</w>
+               <pc xml:id="w_Sohais_Nott6_385">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_Sohais_Nott6_386">li</w>
+               <w xml:id="w_Sohais_Nott6_387"><choice><orig>u</orig><reg>v</reg></choice>ilains</w>
+               <w xml:id="w_Sohais_Nott6_388">redois</w>
+               <pc xml:id="w_Sohais_Nott6_389">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="58">
+               <lb n="58"/>
+               <w xml:id="w_Sohais_Nott6_390"><choice><orig>Q</orig><reg>q</reg></choice>ant</w>
+               <w xml:id="w_Sohais_Nott6_391">il</w>
+               <w xml:id="w_Sohais_Nott6_392">entendi</w>
+               <w xml:id="w_Sohais_Nott6_393">la</w>
+               <w xml:id="w_Sohais_Nott6_394">no<choice><orig>u</orig><reg>v</reg></choice>ele</w>
+               <pc xml:id="w_Sohais_Nott6_395">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="59">
+               <lb n="59"/>
+               <w xml:id="w_Sohais_Nott6_396"><choice><orig>S</orig><reg>s</reg></choice>aciés</w>
+               <w xml:id="w_Sohais_Nott6_397" join="right" ana="#aggl-cert_low">q<ex>ue</ex></w>
+               <w xml:id="w_Sohais_Nott6_398">ne</w>
+               <w xml:id="w_Sohais_Nott6_399" join="right">li</w>
+               <w xml:id="w_Sohais_Nott6_400">fu</w>
+               <w xml:id="w_Sohais_Nott6_401">pas</w>
+               <w xml:id="w_Sohais_Nott6_402">bele</w>
+            </l>
+            <l n="60">
+               <lb n="60"/>
+               <w xml:id="w_Sohais_Nott6_403"><choice><orig>C</orig><reg>c</reg></choice>ar</w>
+               <w xml:id="w_Sohais_Nott6_404"><choice><orig>u</orig><reg>v</reg></choice>ilains</w>
+               <w xml:id="w_Sohais_Nott6_405">q<ex>ui</ex></w>
+               <w xml:id="w_Sohais_Nott6_406">plains</w>
+               <w xml:id="w_Sohais_Nott6_407">est</w>
+               <w xml:id="w_Sohais_Nott6_408">d’</w>
+               <w xml:id="w_Sohais_Nott6_409">en<choice><orig>u</orig><reg>v</reg></choice>ie</w>
+            </l>
+            <l n="61">
+               <lb n="61"/>
+               <w xml:id="w_Sohais_Nott6_410" join="right"><choice><orig>N</orig><reg>n</reg></choice>e</w>
+               <w xml:id="w_Sohais_Nott6_411"><choice><orig>u</orig><reg>v</reg></choice>olroit</w>
+               <w xml:id="w_Sohais_Nott6_412"><choice><orig>i</orig><reg>j</reg></choice>a</w>
+               <w xml:id="w_Sohais_Nott6_413">tote</w>
+               <w xml:id="w_Sohais_Nott6_414" join="right">sa</w>
+               <w xml:id="w_Sohais_Nott6_415"><choice><orig>u</orig><reg>v</reg></choice>ie</w>
+            </l>
+            <l n="62">
+               <lb n="62"/>
+               <w xml:id="w_Sohais_Nott6_416" join="right"><choice><orig>Q</orig><reg>q</reg></choice><ex>ue</ex></w>
+               <w xml:id="w_Sohais_Nott6_417">nus</w>
+               <w xml:id="w_Sohais_Nott6_418">hom</w>
+               <w xml:id="w_Sohais_Nott6_419">q<ex>ui</ex></w>
+               <w xml:id="w_Sohais_Nott6_420">mo<ex>n</ex>tast</w>
+               <w xml:id="w_Sohais_Nott6_421" join="right">a</w>
+               <w xml:id="w_Sohais_Nott6_422">lu<choice><orig>j</orig><reg>i</reg></choice></w>
+            </l>
+            <l n="63">
+               <lb n="63"/>
+               <w xml:id="w_Sohais_Nott6_423"><choice><orig>D</orig><reg>d</reg></choice>e<choice><orig>u</orig><reg>v</reg></choice>enist</w>
+               <w xml:id="w_Sohais_Nott6_424">pl<ex>us</ex></w>
+               <w xml:id="w_Sohais_Nott6_425">riq<ex>ue</ex>s</w>
+               <w xml:id="w_Sohais_Nott6_426" join="right">de</w>
+               <w xml:id="w_Sohais_Nott6_427">lu<choice><orig>j</orig><reg>i</reg></choice></w>
+               <pc xml:id="w_Sohais_Nott6_428">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="64">
+               <lb n="64"/>
+               <w xml:id="w_Sohais_Nott6_429">Isnelem<ex>en</ex>t</w>
+               <w xml:id="w_Sohais_Nott6_430">son</w>
+               <w xml:id="w_Sohais_Nott6_431">frere</w>
+               <w xml:id="w_Sohais_Nott6_432">mande</w>
+               <pc xml:id="w_Sohais_Nott6_433">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="65">
+               <lb n="65"/>
+               <w xml:id="w_Sohais_Nott6_434"><choice><orig>S</orig><reg>s</reg></choice>e</w>
+               <w xml:id="w_Sohais_Nott6_435" join="right">li</w>
+               <w xml:id="w_Sohais_Nott6_436">enq<ex>ui</ex>ert</w>
+               <w xml:id="w_Sohais_Nott6_437">m<ex>o</ex>lt</w>
+               <w xml:id="w_Sohais_Nott6_438"><ex>et</ex></w>
+               <w xml:id="w_Sohais_Nott6_439">d<add place="above">e</add>mande</w>
+            </l>
+            <l n="66">
+               <lb n="66"/>
+               <w xml:id="w_Sohais_Nott6_440"><choice><orig>D</orig><reg>d</reg></choice>ont</w>
+               <w xml:id="w_Sohais_Nott6_441">sifais</w>
+               <w xml:id="w_Sohais_Nott6_442">a<choice><orig>u</orig><reg>v</reg></choice>oirs</w>
+               <w xml:id="w_Sohais_Nott6_443" join="right" ana="#aggl-cert_low">li</w>
+               <w xml:id="w_Sohais_Nott6_444">abonde</w>
+               <pc xml:id="w_Sohais_Nott6_445">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="67">
+               <lb n="67"/>
+               <w xml:id="w_Sohais_Nott6_446" join="right">A</w>
+               <w xml:id="w_Sohais_Nott6_447">il</w>
+               <w xml:id="w_Sohais_Nott6_448">parlet</w>
+               <w xml:id="w_Sohais_Nott6_449" join="right">a</w>
+               <w xml:id="w_Sohais_Nott6_450">dame</w>
+               <w xml:id="w_Sohais_Nott6_451"><choice><orig>a</orig><reg>A</reg></choice>bunde</w>
+            </l>
+            <l n="68">
+               <lb n="68"/>
+               <w xml:id="w_Sohais_Nott6_452" join="right"><choice><orig>N</orig><reg>n</reg></choice>e</w>
+               <w xml:id="w_Sohais_Nott6_453">s’</w>
+               <w xml:id="w_Sohais_Nott6_454">il</w>
+               <w xml:id="w_Sohais_Nott6_455">l’</w>
+               <w xml:id="w_Sohais_Nott6_456">a</w>
+               <w xml:id="w_Sohais_Nott6_457">tolut</w>
+               <w xml:id="w_Sohais_Nott6_458" join="right">ne</w>
+               <w xml:id="w_Sohais_Nott6_459">reubé</w>
+               <pc xml:id="w_Sohais_Nott6_460">
+                  <choice>
+                     <orig/>
+                     <reg>?</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="69">
+               <lb n="69"/>
+               <w xml:id="w_Sohais_Nott6_461"><ex>Et</ex></w>
+               <w xml:id="w_Sohais_Nott6_462">li</w>
+               <w xml:id="w_Sohais_Nott6_463">prodo<ex>m</ex></w>
+               <w xml:id="w_Sohais_Nott6_464" join="right">li</w>
+               <w xml:id="w_Sohais_Nott6_465">a</w>
+               <w xml:id="w_Sohais_Nott6_466">ro<choice><orig>u</orig><reg>v</reg></choice>é</w>
+            </l>
+            <l n="70">
+               <lb n="70"/>
+               <w xml:id="w_Sohais_Nott6_467"><choice><orig>Q</orig><reg>q</reg></choice><ex>u</ex>’</w>
+               <w xml:id="w_Sohais_Nott6_468"><ex>i</ex>l</w>
+               <w xml:id="w_Sohais_Nott6_469">laist</w>
+               <w xml:id="w_Sohais_Nott6_470">ester</w>
+               <w xml:id="w_Sohais_Nott6_471">se</w>
+               <w xml:id="w_Sohais_Nott6_472"><choice><orig>u</orig><reg>v</reg></choice>ilonie</w>
+            </l>
+            <l n="71">
+               <lb n="71"/>
+               <w xml:id="w_Sohais_Nott6_473"><choice><orig>C</orig><reg>c</reg></choice>ar</w>
+               <w xml:id="w_Sohais_Nott6_474">trop</w>
+               <w xml:id="w_Sohais_Nott6_475" join="right">i</w>
+               <w xml:id="w_Sohais_Nott6_476">a</w>
+               <w xml:id="w_Sohais_Nott6_477">de</w>
+               <w xml:id="w_Sohais_Nott6_478">felonie</w>
+               <pc xml:id="w_Sohais_Nott6_479">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="72">
+               <lb n="72"/>
+               <w xml:id="w_Sohais_Nott6_480">puis</w>
+               <w xml:id="w_Sohais_Nott6_481">li</w>
+               <w xml:id="w_Sohais_Nott6_482"><ex>con</ex>ta</w>
+               <w xml:id="w_Sohais_Nott6_483">trestot</w>
+               <w xml:id="w_Sohais_Nott6_484">b<ex>ri</ex>ement</w>
+            </l>
+            <l n="73">
+               <lb n="73"/>
+               <w xml:id="w_Sohais_Nott6_485">le</w>
+               <w xml:id="w_Sohais_Nott6_486">fin</w>
+               <w xml:id="w_Sohais_Nott6_487"><ex>et</ex></w>
+               <w xml:id="w_Sohais_Nott6_488">le</w>
+               <w xml:id="w_Sohais_Nott6_489"><ex>com</ex>mencement</w>
+               <pc xml:id="w_Sohais_Nott6_490">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="74">
+               <lb n="74"/>
+               <w xml:id="w_Sohais_Nott6_491"><ex>com</ex>ment</w>
+               <w xml:id="w_Sohais_Nott6_492">il</w>
+               <w xml:id="w_Sohais_Nott6_493">p<ex>ri</ex>st</w>
+               <w xml:id="w_Sohais_Nott6_494">les</w>
+               <w xml:id="w_Sohais_Nott6_495">c<ex>ri</ex>atures</w>
+            </l>
+            <l n="75">
+               <lb n="75"/>
+               <w xml:id="w_Sohais_Nott6_496"><choice><orig>Q</orig><reg>q</reg></choice><ex>ui</ex></w>
+               <w xml:id="w_Sohais_Nott6_497">destinent</w>
+               <w xml:id="w_Sohais_Nott6_498">les</w>
+               <w xml:id="w_Sohais_Nott6_499">a<choice><orig>u</orig><reg>v</reg></choice>ent<ex>ur</ex>es</w>
+               <pc xml:id="w_Sohais_Nott6_500">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="76">
+               <lb n="76"/>
+               <pc xml:id="w_Sohais_Nott6_501">
+                  <choice>
+                     <orig/>
+                     <reg>«</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_Sohais_Nott6_502"><choice><orig>S</orig><reg>s</reg></choice>i</w>
+               <w xml:id="w_Sohais_Nott6_503">me</w>
+               <w xml:id="w_Sohais_Nott6_504">donerent</w>
+               <num>
+                  <w xml:id="w_Sohais_Nott6_505">.i.</w>
+               </num>
+               <w xml:id="w_Sohais_Nott6_506">sohait</w>
+               <pc xml:id="w_Sohais_Nott6_507">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_Sohais_Nott6_508">
+                  <choice>
+                     <orig/>
+                     <reg>»</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="77">
+               <lb n="77"/>
+               <w xml:id="w_Sohais_Nott6_509">Cil</w>
+               <w xml:id="w_Sohais_Nott6_510" join="right">li</w>
+               <w xml:id="w_Sohais_Nott6_511">respont</w>
+               <pc xml:id="w_Sohais_Nott6_512">
+                  <choice>
+                     <orig/>
+                     <reg>:</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_Sohais_Nott6_513">
+                  <choice>
+                     <orig/>
+                     <reg>«</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_Sohais_Nott6_514"><choice><orig>m</orig><reg>M</reg></choice>al</w>
+               <w xml:id="w_Sohais_Nott6_515">dehé</w>
+               <w xml:id="w_Sohais_Nott6_516">ait</w>
+            </l>
+            <l n="78">
+               <lb n="78"/>
+               <w xml:id="w_Sohais_Nott6_517"><choice><orig>M</orig><reg>m</reg></choice>a</w>
+               <w xml:id="w_Sohais_Nott6_518">barbe</w>
+               <w xml:id="w_Sohais_Nott6_519">se</w>
+               <w xml:id="w_Sohais_Nott6_520">ge</w>
+               <w xml:id="w_Sohais_Nott6_521">nes</w>
+               <w xml:id="w_Sohais_Nott6_522"><choice><orig>u</orig><reg>v</reg></choice>ois</w>
+               <w xml:id="w_Sohais_Nott6_523">prend<ex>re</ex></w>
+               <pc xml:id="w_Sohais_Nott6_524">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="79">
+               <lb n="79"/>
+               <w xml:id="w_Sohais_Nott6_525">Se</w>
+               <w xml:id="w_Sohais_Nott6_526">ges</w>
+               <w xml:id="w_Sohais_Nott6_527">puis</w>
+               <w xml:id="w_Sohais_Nott6_528">tenir</w>
+               <w xml:id="w_Sohais_Nott6_529" join="right">ne</w>
+               <w xml:id="w_Sohais_Nott6_530">soprendre</w>
+               <pc xml:id="w_Sohais_Nott6_531">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="80">
+               <lb n="80"/>
+               <w xml:id="w_Sohais_Nott6_532"><choice><orig>v</orig><reg>u</reg></choice></w>
+               <w xml:id="w_Sohais_Nott6_533">soit</w>
+               <w xml:id="w_Sohais_Nott6_534" join="right">a</w>
+               <w xml:id="w_Sohais_Nott6_535">bos</w>
+               <w xml:id="w_Sohais_Nott6_536">o</w>
+               <w xml:id="w_Sohais_Nott6_537">soit</w>
+               <w xml:id="w_Sohais_Nott6_538" join="right">a</w>
+               <w xml:id="w_Sohais_Nott6_539">plain</w>
+               <pc xml:id="w_Sohais_Nott6_540">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="81">
+               <lb n="81"/>
+               <w xml:id="w_Sohais_Nott6_541"><choice><orig>J</orig><reg>j</reg></choice>’</w>
+               <w xml:id="w_Sohais_Nott6_542">en</w>
+               <w xml:id="w_Sohais_Nott6_543">a<choice><orig>u</orig><reg>v</reg></choice>erai</w>
+               <w xml:id="w_Sohais_Nott6_544">trestot</w>
+               <w xml:id="w_Sohais_Nott6_545">mo<ex>n</ex></w>
+               <w xml:id="w_Sohais_Nott6_546">plai<ex>n</ex></w>
+               <pc xml:id="w_Sohais_Nott6_547">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="82">
+               <lb n="82"/>
+               <w xml:id="w_Sohais_Nott6_548"><choice><orig>o</orig><reg>O</reg></choice>r</w>
+               <w xml:id="w_Sohais_Nott6_549">me</w>
+               <w xml:id="w_Sohais_Nott6_550">faites</w>
+               <w xml:id="w_Sohais_Nott6_551"><choice><orig>u</orig><reg>v</reg></choice>o</w>
+               <w xml:id="w_Sohais_Nott6_552">roit</w>
+               <w xml:id="w_Sohais_Nott6_553">p<ex>re</ex>ster</w>
+            </l>
+            <l n="83">
+               <lb n="83"/>
+               <w xml:id="w_Sohais_Nott6_554"><ex>et</ex></w>
+               <w xml:id="w_Sohais_Nott6_555"><choice><orig>i</orig><reg>j</reg></choice>e</w>
+               <w xml:id="w_Sohais_Nott6_556">m’</w>
+               <w xml:id="w_Sohais_Nott6_557">en</w>
+               <w xml:id="w_Sohais_Nott6_558">irai</w>
+               <w xml:id="w_Sohais_Nott6_559">aprester</w>
+               <pc xml:id="w_Sohais_Nott6_560">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_Sohais_Nott6_561">
+                  <choice>
+                     <orig/>
+                     <reg>»</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="84">
+               <lb n="84"/>
+               <w xml:id="w_Sohais_Nott6_562"><choice><orig>o</orig><reg>O</reg></choice>n</w>
+               <w xml:id="w_Sohais_Nott6_563" join="right">li</w>
+               <w xml:id="w_Sohais_Nott6_564">a<space type="degl" cert="low"/>porte</w>
+               <w xml:id="w_Sohais_Nott6_565"><ex>et</ex></w>
+               <w xml:id="w_Sohais_Nott6_566">cil</w>
+               <w xml:id="w_Sohais_Nott6_567" join="right">le</w>
+               <w xml:id="w_Sohais_Nott6_568">prent</w>
+               <pc xml:id="w_Sohais_Nott6_569">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="85">
+               <lb n="85"/>
+               <w xml:id="w_Sohais_Nott6_570">Co<choice><orig>u</orig><reg>v</reg></choice>oitisse</w>
+               <w xml:id="w_Sohais_Nott6_571" join="right" ana="#aggl-cert_low">q<ex>ui</ex></w>
+               <w xml:id="w_Sohais_Nott6_572">le</w>
+               <w xml:id="w_Sohais_Nott6_573">soprent</w>
+            </l>
+            <l n="86">
+               <lb n="86"/>
+               <w xml:id="w_Sohais_Nott6_574" join="right" ana="#aggl-cert_low">le</w>
+               <w xml:id="w_Sohais_Nott6_575">fait</w>
+               <w xml:id="w_Sohais_Nott6_576">aler</w>
+               <w xml:id="w_Sohais_Nott6_577">pl<ex>us</ex></w>
+               <w xml:id="w_Sohais_Nott6_578">q<ex>ue</ex></w>
+               <w xml:id="w_Sohais_Nott6_579">le</w>
+               <w xml:id="w_Sohais_Nott6_580">pas</w>
+               <pc xml:id="w_Sohais_Nott6_581">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="87">
+               <lb n="87"/>
+               <w xml:id="w_Sohais_Nott6_582"><choice><orig>U</orig><reg>V</reg></choice>enus</w>
+               <w xml:id="w_Sohais_Nott6_583" join="right">en</w>
+               <w xml:id="w_Sohais_Nott6_584">est</w>
+               <w xml:id="w_Sohais_Nott6_585" join="right">a</w>
+               <w xml:id="w_Sohais_Nott6_586">un</w>
+               <w xml:id="w_Sohais_Nott6_587">trespas</w>
+            </l>
+            <l n="88">
+               <lb n="88"/>
+               <w xml:id="w_Sohais_Nott6_588" join="right">a</w>
+               <w xml:id="w_Sohais_Nott6_589">l’</w>
+               <w xml:id="w_Sohais_Nott6_590">issue</w>
+               <w xml:id="w_Sohais_Nott6_591">d’</w>
+               <w xml:id="w_Sohais_Nott6_592">une</w>
+               <w xml:id="w_Sohais_Nott6_593"><choice><orig>u</orig><reg>v</reg></choice>alee</w>
+            </l>
+            <l n="89">
+               <lb n="89"/>
+               <w xml:id="w_Sohais_Nott6_594"><choice><orig>Q</orig><reg>q</reg></choice><ex>ui</ex></w>
+               <w xml:id="w_Sohais_Nott6_595">m<ex>o</ex>lt</w>
+               <w xml:id="w_Sohais_Nott6_596">estoit</w>
+               <w xml:id="w_Sohais_Nott6_597"><ex>et</ex></w>
+               <w xml:id="w_Sohais_Nott6_598">lo<ex>n</ex>gue</w>
+               <w xml:id="w_Sohais_Nott6_599"><ex>et</ex></w>
+               <w xml:id="w_Sohais_Nott6_600">lee</w>
+            </l>
+            <l n="90">
+               <lb n="90"/>
+               <w xml:id="w_Sohais_Nott6_601"><ex>et</ex></w>
+               <w xml:id="w_Sohais_Nott6_602">m<ex>o</ex>lt</w>
+               <w xml:id="w_Sohais_Nott6_603">orible</w>
+               <w xml:id="w_Sohais_Nott6_604"><ex>et</ex></w>
+               <w xml:id="w_Sohais_Nott6_605">m<ex>o</ex>lt</w>
+               <w xml:id="w_Sohais_Nott6_606">p<ex>ar</ex>fonde</w>
+               <pc xml:id="w_Sohais_Nott6_607">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="91">
+               <lb n="91"/>
+               <w xml:id="w_Sohais_Nott6_608">De</w>
+               <w xml:id="w_Sohais_Nott6_609">serpens</w>
+               <w xml:id="w_Sohais_Nott6_610" join="right">i</w>
+               <w xml:id="w_Sohais_Nott6_611">a<choice><orig>u</orig><reg>v</reg></choice>oit</w>
+               <w xml:id="w_Sohais_Nott6_612">g<ex>ra</ex>nt</w>
+               <w xml:id="w_Sohais_Nott6_613">fonde</w>
+               <pc xml:id="w_Sohais_Nott6_614">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="92">
+               <lb n="92"/>
+               <w xml:id="w_Sohais_Nott6_615"><choice><orig>l</orig><reg>L</reg></choice>a</w>
+               <w xml:id="w_Sohais_Nott6_616">a</w>
+               <w xml:id="w_Sohais_Nott6_617">tendu</w>
+               <w xml:id="w_Sohais_Nott6_618">soldai<ex>n</ex>nement</w>
+               <pc xml:id="w_Sohais_Nott6_619">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="93">
+               <lb n="93"/>
+               <w xml:id="w_Sohais_Nott6_620"><choice><orig>M</orig><reg>m</reg></choice>ais</w>
+               <w xml:id="w_Sohais_Nott6_621">n’</w>
+               <w xml:id="w_Sohais_Nott6_622" join="right">i</w>
+               <w xml:id="w_Sohais_Nott6_623">fu</w>
+               <w xml:id="w_Sohais_Nott6_624">gaires</w>
+               <w xml:id="w_Sohais_Nott6_625">lo<ex>n</ex>guem<ex>en</ex>t</w>
+               <pc xml:id="w_Sohais_Nott6_626">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="94">
+               <lb n="94"/>
+               <w xml:id="w_Sohais_Nott6_627"><choice><orig>Q</orig><reg>q</reg></choice><ex>ua</ex>nt</w>
+               <w xml:id="w_Sohais_Nott6_628" join="right" ana="#aggl-cert_low">il</w>
+               <w xml:id="w_Sohais_Nott6_629"><choice><orig>u</orig><reg>v</reg></choice>it</w>
+               <w xml:id="w_Sohais_Nott6_630"><choice><orig>u</orig><reg>v</reg></choice>enir</w>
+               <w xml:id="w_Sohais_Nott6_631">une</w>
+               <w xml:id="w_Sohais_Nott6_632">torbe</w>
+               <pb n="336v"
+                    xml:id="pb_2"
+                    facs="https://api.nakala.fr/iiif/10.34847/nkl.cf086818/fa843b88783a1c567555468a44a1c8b8398e69f8/full/full/0/default.jpg"/>
+               <cb n="336va"/>
+            </l>
+            <l n="95">
+               <lb n="95"/>
+               <w xml:id="w_Sohais_Nott6_634"><choice><orig>Q</orig><reg>q</reg></choice><ex>ui</ex></w>
+               <w xml:id="w_Sohais_Nott6_635">m<ex>o</ex>lt</w>
+               <w xml:id="w_Sohais_Nott6_636">estoit</w>
+               <w xml:id="w_Sohais_Nott6_637">hisdeuse</w>
+               <w xml:id="w_Sohais_Nott6_638"><ex>et</ex></w>
+               <w xml:id="w_Sohais_Nott6_639">torbe</w>
+               <pc xml:id="w_Sohais_Nott6_640">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="96">
+               <lb n="96"/>
+               <w xml:id="w_Sohais_Nott6_641">C’</w>
+               <w xml:id="w_Sohais_Nott6_642">estoient</w>
+               <w xml:id="w_Sohais_Nott6_643" join="right" ana="#aggl-cert_low">li</w>
+               <w xml:id="w_Sohais_Nott6_644">angle</w>
+               <w xml:id="w_Sohais_Nott6_645">enpenet</w>
+            </l>
+            <l n="97">
+               <lb n="97"/>
+               <w xml:id="w_Sohais_Nott6_646"><choice><orig>Q</orig><reg>q</reg></choice><ex>ui</ex></w>
+               <w xml:id="w_Sohais_Nott6_647">tant</w>
+               <w xml:id="w_Sohais_Nott6_648">ont</w>
+               <w xml:id="w_Sohais_Nott6_649" join="right">le</w>
+               <w xml:id="w_Sohais_Nott6_650">siecle</w>
+               <w xml:id="w_Sohais_Nott6_651">penet</w>
+               <pc xml:id="w_Sohais_Nott6_652">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="98">
+               <lb n="98"/>
+               <w xml:id="w_Sohais_Nott6_653"><choice><orig>f</orig><reg>F</reg></choice>ormes</w>
+               <w xml:id="w_Sohais_Nott6_654">d’</w>
+               <w xml:id="w_Sohais_Nott6_655">oiseax</w>
+               <w xml:id="w_Sohais_Nott6_656">a<choice><orig>u</orig><reg>v</reg></choice>oient</w>
+               <w xml:id="w_Sohais_Nott6_657">p<ex>ri</ex>sses</w>
+               <pc xml:id="w_Sohais_Nott6_658">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="99">
+               <lb n="99"/>
+               <w xml:id="w_Sohais_Nott6_659">Ausi</w>
+               <w xml:id="w_Sohais_Nott6_660"><ex>com</ex></w>
+               <w xml:id="w_Sohais_Nott6_661">candelles</w>
+               <w xml:id="w_Sohais_Nott6_662">esprisses</w>
+            </l>
+            <l n="100">
+               <lb n="100"/>
+               <w xml:id="w_Sohais_Nott6_663">lor</w>
+               <w xml:id="w_Sohais_Nott6_664">luisoient</w>
+               <w xml:id="w_Sohais_Nott6_665">li</w>
+               <w xml:id="w_Sohais_Nott6_666">uel</w>
+               <w xml:id="w_Sohais_Nott6_667" join="right" ana="#aggl-cert_low">es</w>
+               <w xml:id="w_Sohais_Nott6_668">ciés</w>
+               <pc xml:id="w_Sohais_Nott6_669">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="101">
+               <lb n="101"/>
+               <w xml:id="w_Sohais_Nott6_670"><choice><orig>S</orig><reg>s</reg></choice>es</w>
+               <w xml:id="w_Sohais_Nott6_671">portoient</w>
+               <w xml:id="w_Sohais_Nott6_672">amo<ex>n</ex>t</w>
+               <w xml:id="w_Sohais_Nott6_673">hauciés</w>
+               <pc xml:id="w_Sohais_Nott6_674">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="102">
+               <lb n="102"/>
+               <w xml:id="w_Sohais_Nott6_675">Il</w>
+               <w xml:id="w_Sohais_Nott6_676">erent</w>
+               <w xml:id="w_Sohais_Nott6_677">graindre</w>
+               <w xml:id="w_Sohais_Nott6_678">q<ex>ue</ex></w>
+               <w xml:id="w_Sohais_Nott6_679">c<subst><del rend="dot-below">a</del><add>o</add></subst>rbon</w>
+               <pc xml:id="w_Sohais_Nott6_680">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="103">
+               <lb n="103"/>
+               <w xml:id="w_Sohais_Nott6_681"><choice><orig>S</orig><reg>s</reg></choice>i</w>
+               <w xml:id="w_Sohais_Nott6_682">erent</w>
+               <w xml:id="w_Sohais_Nott6_683">pl<ex>us</ex></w>
+               <w xml:id="w_Sohais_Nott6_684">noir</w>
+               <w xml:id="w_Sohais_Nott6_685">q<ex>ue</ex></w>
+               <w xml:id="w_Sohais_Nott6_686">carbo<choice><orig>N</orig><reg>n</reg></choice></w>
+               <pc xml:id="w_Sohais_Nott6_687">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="104">
+               <lb n="104"/>
+               <w xml:id="w_Sohais_Nott6_688">Sor</w>
+               <w xml:id="w_Sohais_Nott6_689">le</w>
+               <w xml:id="w_Sohais_Nott6_690">roit</w>
+               <w xml:id="w_Sohais_Nott6_691"><choice><orig>u</orig><reg>v</reg></choice>iene<ex>n</ex>t</w>
+               <w xml:id="w_Sohais_Nott6_692">burissant</w>
+            </l>
+            <l n="105">
+               <lb n="105"/>
+               <w xml:id="w_Sohais_Nott6_693"><ex>et</ex></w>
+               <w xml:id="w_Sohais_Nott6_694">li</w>
+               <w xml:id="w_Sohais_Nott6_695"><choice><orig>u</orig><reg>v</reg></choice>ilains</w>
+               <w xml:id="w_Sohais_Nott6_696"><choice><orig>u</orig><reg>v</reg></choice>ait</w>
+               <w xml:id="w_Sohais_Nott6_697">fremissant</w>
+            </l>
+            <l n="106">
+               <lb n="106"/>
+               <w xml:id="w_Sohais_Nott6_698"><choice><orig>Q</orig><reg>q</reg></choice>ant</w>
+               <w xml:id="w_Sohais_Nott6_699" join="right">il</w>
+               <w xml:id="w_Sohais_Nott6_700"><choice><orig>u</orig><reg>v</reg></choice>oit</w>
+               <w xml:id="w_Sohais_Nott6_701">les</w>
+               <w xml:id="w_Sohais_Nott6_702"><choice><orig>u</orig><reg>v</reg></choice>ains</w>
+               <w xml:id="w_Sohais_Nott6_703">esp<ex>er</ex>is</w>
+            </l>
+            <l n="107">
+               <lb n="107"/>
+               <w xml:id="w_Sohais_Nott6_704">p<ex>ar</ex></w>
+               <w xml:id="w_Sohais_Nott6_705">qoi</w>
+               <w xml:id="w_Sohais_Nott6_706">li</w>
+               <w xml:id="w_Sohais_Nott6_707">siecles</w>
+               <w xml:id="w_Sohais_Nott6_708">est</w>
+               <w xml:id="w_Sohais_Nott6_709">peris</w>
+               <pc xml:id="w_Sohais_Nott6_710">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="108">
+               <lb n="108"/>
+               <w xml:id="w_Sohais_Nott6_711"><choice><orig>M</orig><reg>m</reg></choice>ais</w>
+               <w xml:id="w_Sohais_Nott6_712">une</w>
+               <w xml:id="w_Sohais_Nott6_713">riens</w>
+               <w xml:id="w_Sohais_Nott6_714">le</w>
+               <w xml:id="w_Sohais_Nott6_715">re<ex>con</ex>forte</w>
+               <pc xml:id="w_Sohais_Nott6_716">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="109">
+               <lb n="109"/>
+               <w xml:id="w_Sohais_Nott6_717"><choice><orig>Q</orig><reg>q</reg></choice><ex>ue</ex></w>
+               <w xml:id="w_Sohais_Nott6_718">li</w>
+               <w xml:id="w_Sohais_Nott6_719">rois</w>
+               <w xml:id="w_Sohais_Nott6_720">ert</w>
+               <w xml:id="w_Sohais_Nott6_721"><ex>et</ex></w>
+               <w xml:id="w_Sohais_Nott6_722">grans</w>
+               <w xml:id="w_Sohais_Nott6_723"><ex>et</ex></w>
+               <w xml:id="w_Sohais_Nott6_724">forte</w>
+               <pc xml:id="w_Sohais_Nott6_725">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="110">
+               <lb n="110"/>
+               <w xml:id="w_Sohais_Nott6_726"><ex>Et</ex></w>
+               <w xml:id="w_Sohais_Nott6_727">cil</w>
+               <w xml:id="w_Sohais_Nott6_728">n’</w>
+               <w xml:id="w_Sohais_Nott6_729">estoit</w>
+               <w xml:id="w_Sohais_Nott6_730">mie</w>
+               <w xml:id="w_Sohais_Nott6_731"><ex>con</ex>trais</w>
+            </l>
+            <l n="111">
+               <lb n="111"/>
+               <w xml:id="w_Sohais_Nott6_732"><choice><orig>Q</orig><reg>q</reg></choice><ex>ui</ex></w>
+               <w xml:id="w_Sohais_Nott6_733">tenoit</w>
+               <w xml:id="w_Sohais_Nott6_734">le</w>
+               <w xml:id="w_Sohais_Nott6_735">corde</w>
+               <w xml:id="w_Sohais_Nott6_736"><ex>et</ex></w>
+               <w xml:id="w_Sohais_Nott6_737">les</w>
+               <w xml:id="w_Sohais_Nott6_738">trais</w>
+               <pc xml:id="w_Sohais_Nott6_739">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="112">
+               <lb n="112"/>
+               <w xml:id="w_Sohais_Nott6_740"><choice><orig>A</orig><reg>a</reg></choice>ins</w>
+               <w xml:id="w_Sohais_Nott6_741">sace</w>
+               <w xml:id="w_Sohais_Nott6_742">si</w>
+               <w xml:id="w_Sohais_Nott6_743" join="right">a</w>
+               <w xml:id="w_Sohais_Nott6_744">une</w>
+               <w xml:id="w_Sohais_Nott6_745">fois</w>
+            </l>
+            <l n="113">
+               <lb n="113"/>
+               <w xml:id="w_Sohais_Nott6_746"><choice><orig>Q</orig><reg>q</reg></choice><ex>ue</ex></w>
+               <w xml:id="w_Sohais_Nott6_747">tos</w>
+               <w xml:id="w_Sohais_Nott6_748">les</w>
+               <w xml:id="w_Sohais_Nott6_749" join="right">a</w>
+               <w xml:id="w_Sohais_Nott6_750">mis</w>
+               <w xml:id="w_Sohais_Nott6_751" join="right">en</w>
+               <w xml:id="w_Sohais_Nott6_752">defois</w>
+               <pc xml:id="w_Sohais_Nott6_753">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="114">
+               <lb n="114"/>
+               <w xml:id="w_Sohais_Nott6_754"><choice><orig>c</orig><reg>C</reg></choice>ele</w>
+               <w xml:id="w_Sohais_Nott6_755">p<ex>ar</ex>t</w>
+               <w xml:id="w_Sohais_Nott6_756"><choice><orig>u</orig><reg>v</reg></choice>int</w>
+               <pc xml:id="w_Sohais_Nott6_757">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_Sohais_Nott6_758">si</w>
+               <w xml:id="w_Sohais_Nott6_759">lor</w>
+               <w xml:id="w_Sohais_Nott6_760" join="right">a</w>
+               <w xml:id="w_Sohais_Nott6_761">dit</w>
+               <pc xml:id="w_Sohais_Nott6_762">
+                  <choice>
+                     <orig/>
+                     <reg>:</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="115">
+               <lb n="115"/>
+               <pc xml:id="w_Sohais_Nott6_763">
+                  <choice>
+                     <orig/>
+                     <reg>«</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_Sohais_Nott6_764" join="right" ana="#aggl-cert_low">De</w>
+               <w xml:id="w_Sohais_Nott6_765"><choice><orig>d</orig><reg>D</reg></choice>eu</w>
+               <w xml:id="w_Sohais_Nott6_766">soient</w>
+               <w xml:id="w_Sohais_Nott6_767">mi</w>
+               <w xml:id="w_Sohais_Nott6_768">uel</w>
+               <w xml:id="w_Sohais_Nott6_769">maudit</w>
+            </l>
+            <l n="116">
+               <lb n="116"/>
+               <w xml:id="w_Sohais_Nott6_770"><choice><orig>S</orig><reg>s</reg></choice>e</w>
+               <w xml:id="w_Sohais_Nott6_771"><choice><orig>i</orig><reg>j</reg></choice>e</w>
+               <w xml:id="w_Sohais_Nott6_772">n’</w>
+               <w xml:id="w_Sohais_Nott6_773">ai</w>
+               <w xml:id="w_Sohais_Nott6_774" join="right">de</w>
+               <w xml:id="w_Sohais_Nott6_775"><choice><orig>u</orig><reg>v</reg></choice>os</w>
+               <w xml:id="w_Sohais_Nott6_776">men</w>
+               <w xml:id="w_Sohais_Nott6_777"><choice><orig>u</orig><reg>v</reg></choice>oloir</w>
+               <pc xml:id="w_Sohais_Nott6_778">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="117">
+               <lb n="117"/>
+               <w xml:id="w_Sohais_Nott6_779"><ex>com</ex>ment</w>
+               <w xml:id="w_Sohais_Nott6_780">q<ex>u</ex>’</w>
+               <w xml:id="w_Sohais_Nott6_781"><ex>i</ex>l</w>
+               <w xml:id="w_Sohais_Nott6_782"><choice><orig>u</orig><reg>v</reg></choice>os</w>
+               <w xml:id="w_Sohais_Nott6_783">doi<choice><orig>u</orig><reg>v</reg></choice>e</w>
+               <w xml:id="w_Sohais_Nott6_784">doloir</w>
+               <pc xml:id="w_Sohais_Nott6_785">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="118">
+               <lb n="118"/>
+               <w xml:id="w_Sohais_Nott6_786"><choice><orig>I</orig><reg>J</reg></choice>’</w>
+               <w xml:id="w_Sohais_Nott6_787">arai</w>
+               <w xml:id="w_Sohais_Nott6_788">des</w>
+               <w xml:id="w_Sohais_Nott6_789">sohais</w>
+               <w xml:id="w_Sohais_Nott6_790">pl<ex>us</ex></w>
+               <w xml:id="w_Sohais_Nott6_791">de</w>
+               <w xml:id="w_Sohais_Nott6_792">deus</w>
+               <pc xml:id="w_Sohais_Nott6_793">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="119">
+               <lb n="119"/>
+               <w xml:id="w_Sohais_Nott6_794"><choice><orig>S</orig><reg>s</reg></choice>’</w>
+               <w xml:id="w_Sohais_Nott6_795">or</w>
+               <w xml:id="w_Sohais_Nott6_796">s’</w>
+               <w xml:id="w_Sohais_Nott6_797">en</w>
+               <w xml:id="w_Sohais_Nott6_798">de<choice><orig>u</orig><reg>v</reg></choice>oit</w>
+               <w xml:id="w_Sohais_Nott6_799">core<space type="degl" cert="low"/>ch<ex>ier</ex></w>
+               <w xml:id="w_Sohais_Nott6_800"><choice><orig>d</orig><reg>D</reg></choice>eus</w>
+               <note type="du">
+                  <p rend="footnote text">Livingston édite : <hi rend="italic">s’or s’en devoit core Chris Deus</hi> et reconnaît ses difficultés à traduire le vers ainsi transcrit (1924 p. 27 note du vers 119).</p>
+               </note>
+               <pc xml:id="w_Sohais_Nott6_801">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_Sohais_Nott6_802">
+                  <choice>
+                     <orig/>
+                     <reg>»</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="120">
+               <lb n="120"/>
+               <w xml:id="w_Sohais_Nott6_803">Dont</w>
+               <w xml:id="w_Sohais_Nott6_804">respondent</w>
+               <w xml:id="w_Sohais_Nott6_805" join="right">li</w>
+               <w xml:id="w_Sohais_Nott6_806">angle</w>
+               <w xml:id="w_Sohais_Nott6_807">faus</w>
+               <pc xml:id="w_Sohais_Nott6_808">
+                  <choice>
+                     <orig/>
+                     <reg>:</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="121">
+               <lb n="121"/>
+               <pc xml:id="w_Sohais_Nott6_809">
+                  <choice>
+                     <orig/>
+                     <reg>«</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_Sohais_Nott6_810" join="right"><choice><orig>p</orig><reg>P</reg></choice><ex>ar</ex></w>
+               <w xml:id="w_Sohais_Nott6_811">les</w>
+               <w xml:id="w_Sohais_Nott6_812">caisnes</w>
+               <w xml:id="w_Sohais_Nott6_813"><ex>et</ex></w>
+               <w xml:id="w_Sohais_Nott6_814">p<ex>ar</ex></w>
+               <w xml:id="w_Sohais_Nott6_815">les</w>
+               <w xml:id="w_Sohais_Nott6_816">faus</w>
+            </l>
+            <l n="122">
+               <lb n="122"/>
+               <w xml:id="w_Sohais_Nott6_817"><ex>et</ex></w>
+               <w xml:id="w_Sohais_Nott6_818">p<ex>ar</ex></w>
+               <w xml:id="w_Sohais_Nott6_819">le</w>
+               <w xml:id="w_Sohais_Nott6_820">terre</w>
+               <w xml:id="w_Sohais_Nott6_821"><ex>et</ex></w>
+               <w xml:id="w_Sohais_Nott6_822">par</w>
+               <w xml:id="w_Sohais_Nott6_823" join="right" ana="#aggl-cert_low">le</w>
+               <w xml:id="w_Sohais_Nott6_824">bos</w>
+            </l>
+            <l n="123">
+               <lb n="123"/>
+               <w xml:id="w_Sohais_Nott6_825"><choice><orig>v</orig><reg>u</reg></choice></w>
+               <w xml:id="w_Sohais_Nott6_826">nos</w>
+               <w xml:id="w_Sohais_Nott6_827">prendo<ex>n</ex>s</w>
+               <w xml:id="w_Sohais_Nott6_828">so<choice><orig>u</orig><reg>v</reg></choice>ent</w>
+               <w xml:id="w_Sohais_Nott6_829">repos</w>
+               <pc xml:id="w_Sohais_Nott6_830">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="124">
+               <lb n="124"/>
+               <w xml:id="w_Sohais_Nott6_831"><choice><orig>A</orig><reg>a</reg></choice>mis</w>
+               <pc xml:id="w_Sohais_Nott6_832">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_Sohais_Nott6_833">nos</w>
+               <w xml:id="w_Sohais_Nott6_834">te</w>
+               <w xml:id="w_Sohais_Nott6_835">donrons</w>
+               <w xml:id="w_Sohais_Nott6_836">tos</w>
+               <w xml:id="w_Sohais_Nott6_837">dis</w>
+            </l>
+            <l n="125">
+               <lb n="125"/>
+               <w xml:id="w_Sohais_Nott6_838"><choice><orig>v</orig><reg>u</reg></choice></w>
+               <w xml:id="w_Sohais_Nott6_839">trois</w>
+               <w xml:id="w_Sohais_Nott6_840">sohais</w>
+               <w xml:id="w_Sohais_Nott6_841">o</w>
+               <w xml:id="w_Sohais_Nott6_842">trois</w>
+               <w xml:id="w_Sohais_Nott6_843">maudis</w>
+               <pc xml:id="w_Sohais_Nott6_844">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="126">
+               <lb n="126"/>
+               <w xml:id="w_Sohais_Nott6_845" join="right" ana="#aggl-cert_low"><choice><orig>p</orig><reg>P</reg></choice><ex>ar</ex></w>
+               <w xml:id="w_Sohais_Nott6_846">les</w>
+               <w xml:id="w_Sohais_Nott6_847">sohais</w>
+               <w xml:id="w_Sohais_Nott6_848">poras</w>
+               <w xml:id="w_Sohais_Nott6_849">a<choice><orig>u</orig><reg>v</reg></choice>oir</w>
+            </l>
+            <l n="127">
+               <lb n="127"/>
+               <w xml:id="w_Sohais_Nott6_850">grant</w>
+               <w xml:id="w_Sohais_Nott6_851">segnorie</w>
+               <w xml:id="w_Sohais_Nott6_852"><ex>et</ex></w>
+               <w xml:id="w_Sohais_Nott6_853">g<ex>ra</ex>nt</w>
+               <w xml:id="w_Sohais_Nott6_854">a<choice><orig>u</orig><reg>v</reg></choice>oir</w>
+               <pc xml:id="w_Sohais_Nott6_855">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="128">
+               <lb n="128"/>
+               <w xml:id="w_Sohais_Nott6_856"><ex>et</ex></w>
+               <w xml:id="w_Sohais_Nott6_857">des</w>
+               <w xml:id="w_Sohais_Nott6_858">maudis</w>
+               <w xml:id="w_Sohais_Nott6_859">te</w>
+               <w xml:id="w_Sohais_Nott6_860">pués</w>
+               <w xml:id="w_Sohais_Nott6_861"><choice><orig>u</orig><reg>v</reg></choice>eng<ex>ier</ex></w>
+            </l>
+            <l n="129">
+               <lb n="129"/>
+               <w xml:id="w_Sohais_Nott6_862"><choice><orig>S</orig><reg>s</reg></choice>e</w>
+               <w xml:id="w_Sohais_Nott6_863">nus</w>
+               <w xml:id="w_Sohais_Nott6_864">hom</w>
+               <w xml:id="w_Sohais_Nott6_865">te</w>
+               <w xml:id="w_Sohais_Nott6_866"><choice><orig>u</orig><reg>v</reg></choice>elt</w>
+               <w xml:id="w_Sohais_Nott6_867">laideng<ex>ier</ex></w>
+               <pc xml:id="w_Sohais_Nott6_868">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="130">
+               <lb n="130"/>
+               <w xml:id="w_Sohais_Nott6_869">Auq<ex>ue</ex>l</w>
+               <w xml:id="w_Sohais_Nott6_870">q<ex>ue</ex></w>
+               <w xml:id="w_Sohais_Nott6_871" join="right" ana="#aggl-cert_low">tu</w>
+               <w xml:id="w_Sohais_Nott6_872"><choice><orig>u</orig><reg>v</reg></choice>els</w>
+               <w xml:id="w_Sohais_Nott6_873">si</w>
+               <w xml:id="w_Sohais_Nott6_874">l’</w>
+               <w xml:id="w_Sohais_Nott6_875">atorne</w>
+               <pc xml:id="w_Sohais_Nott6_876">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_Sohais_Nott6_877">
+                  <choice>
+                     <orig/>
+                     <reg>»</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="131">
+               <lb n="131"/>
+               <w xml:id="w_Sohais_Nott6_878">Atant</w>
+               <w xml:id="w_Sohais_Nott6_879">li</w>
+               <w xml:id="w_Sohais_Nott6_880"><choice><orig>u</orig><reg>v</reg></choice>ilains</w>
+               <w xml:id="w_Sohais_Nott6_881">s’</w>
+               <w xml:id="w_Sohais_Nott6_882" join="right">en</w>
+               <w xml:id="w_Sohais_Nott6_883">retorne</w>
+            </l>
+            <l n="132">
+               <lb n="132"/>
+               <w xml:id="w_Sohais_Nott6_884"><ex>et</ex></w>
+               <w xml:id="w_Sohais_Nott6_885">cil</w>
+               <w xml:id="w_Sohais_Nott6_886">q<ex>ui</ex></w>
+               <w xml:id="w_Sohais_Nott6_887">le</w>
+               <w xml:id="w_Sohais_Nott6_888"><choice><orig>u</orig><reg>v</reg></choice>uelent</w>
+               <w xml:id="w_Sohais_Nott6_889">deçoi<choice><orig>u</orig><reg>v</reg></choice>re</w>
+            </l>
+            <l n="133">
+               <lb n="133"/>
+               <w xml:id="w_Sohais_Nott6_890">li</w>
+               <w xml:id="w_Sohais_Nott6_891">redient</w>
+               <w xml:id="w_Sohais_Nott6_892">por</w>
+               <w xml:id="w_Sohais_Nott6_893">l’</w>
+               <w xml:id="w_Sohais_Nott6_894">ap<ex>er</ex>çoi<choice><orig>u</orig><reg>v</reg></choice>re</w>
+               <pc xml:id="w_Sohais_Nott6_895">
+                  <choice>
+                     <orig/>
+                     <reg>:</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="134">
+               <lb n="134"/>
+               <pc xml:id="w_Sohais_Nott6_896">
+                  <choice>
+                     <orig/>
+                     <reg>«</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_Sohais_Nott6_897"><choice><orig>a</orig><reg>A</reg></choice>mis</w>
+               <pc xml:id="w_Sohais_Nott6_898">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_Sohais_Nott6_899">nos</w>
+               <w xml:id="w_Sohais_Nott6_900">te</w>
+               <w xml:id="w_Sohais_Nott6_901">donro<ex>n</ex>s</w>
+               <w xml:id="w_Sohais_Nott6_902">un</w>
+               <w xml:id="w_Sohais_Nott6_903">don</w>
+            </l>
+            <l n="135">
+               <lb n="135"/>
+               <w xml:id="w_Sohais_Nott6_904" join="right" ana="#aggl-cert_low">p<ex>ar</ex></w>
+               <w xml:id="w_Sohais_Nott6_905">amor</w>
+               <w xml:id="w_Sohais_Nott6_906"><ex>et</ex></w>
+               <w xml:id="w_Sohais_Nott6_907">par</w>
+               <w xml:id="w_Sohais_Nott6_908">gueredo<choice><orig>N</orig><reg>n</reg></choice></w>
+               <pc xml:id="w_Sohais_Nott6_909">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="136">
+               <lb n="136"/>
+               <w xml:id="w_Sohais_Nott6_910">Nos</w>
+               <w xml:id="w_Sohais_Nott6_911">te</w>
+               <w xml:id="w_Sohais_Nott6_912"><choice><orig>u</orig><reg>v</reg></choice>olons</w>
+               <w xml:id="w_Sohais_Nott6_913">habandoner</w>
+            </l>
+            <l n="137">
+               <lb n="137"/>
+               <w xml:id="w_Sohais_Nott6_914"><choice><orig>Q</orig><reg>q</reg></choice><ex>ue</ex></w>
+               <w xml:id="w_Sohais_Nott6_915">tu</w>
+               <w xml:id="w_Sohais_Nott6_916">pués</w>
+               <w xml:id="w_Sohais_Nott6_917">tes</w>
+               <w xml:id="w_Sohais_Nott6_918">sohais</w>
+               <w xml:id="w_Sohais_Nott6_919">doner</w>
+            </l>
+            <l n="138">
+               <lb n="138"/>
+               <w xml:id="w_Sohais_Nott6_920"><ex>et</ex></w>
+               <w xml:id="w_Sohais_Nott6_921">dep<ex>ar</ex>tir</w>
+               <w xml:id="w_Sohais_Nott6_922" join="right">a</w>
+               <w xml:id="w_Sohais_Nott6_923">ton</w>
+               <w xml:id="w_Sohais_Nott6_924">talent</w>
+               <pc xml:id="w_Sohais_Nott6_925">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="139">
+               <lb n="139"/>
+               <w xml:id="w_Sohais_Nott6_926"><choice><orig>t</orig><reg>T</reg></choice>ant</w>
+               <w xml:id="w_Sohais_Nott6_927">conisçons</w>
+               <w xml:id="w_Sohais_Nott6_928">le</w>
+               <w xml:id="w_Sohais_Nott6_929">dame</w>
+               <w xml:id="w_Sohais_Nott6_930"><choice><orig>a</orig><reg>A</reg></choice>lent</w>
+            </l>
+            <l n="140">
+               <lb n="140"/>
+               <w xml:id="w_Sohais_Nott6_931"><choice><orig>Q</orig><reg>q</reg></choice><ex>u</ex>’</w>
+               <w xml:id="w_Sohais_Nott6_932"><ex>e</ex>le</w>
+               <w xml:id="w_Sohais_Nott6_933">en</w>
+               <w xml:id="w_Sohais_Nott6_934">ara</w>
+               <w xml:id="w_Sohais_Nott6_935" join="right">tres</w>
+               <w xml:id="w_Sohais_Nott6_936">bien</w>
+               <w xml:id="w_Sohais_Nott6_937">sa</w>
+               <w xml:id="w_Sohais_Nott6_938">p<ex>ar</ex>t</w>
+               <pc xml:id="w_Sohais_Nott6_939">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_Sohais_Nott6_940">
+                  <choice>
+                     <orig/>
+                     <reg>»</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="141">
+               <lb n="141"/>
+               <w xml:id="w_Sohais_Nott6_941"><choice><orig>a</orig><reg>A</reg></choice>tant</w>
+               <w xml:id="w_Sohais_Nott6_942">li</w>
+               <w xml:id="w_Sohais_Nott6_943"><choice><orig>u</orig><reg>v</reg></choice>ilai<ex>n</ex>s</w>
+               <w xml:id="w_Sohais_Nott6_944">s’</w>
+               <w xml:id="w_Sohais_Nott6_945" join="right">en</w>
+               <w xml:id="w_Sohais_Nott6_946">de<space type="degl" cert="low"/>p<ex>ar</ex>t</w>
+               <pc xml:id="w_Sohais_Nott6_947">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="142">
+               <lb n="142"/>
+               <w xml:id="w_Sohais_Nott6_948"><choice><orig>U</orig><reg>V</reg></choice>enus</w>
+               <w xml:id="w_Sohais_Nott6_949">en</w>
+               <w xml:id="w_Sohais_Nott6_950">est</w>
+               <w xml:id="w_Sohais_Nott6_951" join="right">a</w>
+               <w xml:id="w_Sohais_Nott6_952">se</w>
+               <w xml:id="w_Sohais_Nott6_953">maiso<choice><orig>N</orig><reg>n</reg></choice></w>
+               <pc xml:id="w_Sohais_Nott6_954">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+               <cb n="336vb"/>
+            </l>
+            <l n="143">
+               <lb n="143"/>
+               <w xml:id="w_Sohais_Nott6_955">Sa</w>
+               <w xml:id="w_Sohais_Nott6_956">feme</w>
+               <w xml:id="w_Sohais_Nott6_957">le</w>
+               <w xml:id="w_Sohais_Nott6_958">met</w>
+               <w xml:id="w_Sohais_Nott6_959" join="right">a</w>
+               <w xml:id="w_Sohais_Nott6_960">raiso<choice><orig>N</orig><reg>n</reg></choice></w>
+            </l>
+            <l n="144">
+               <lb n="144"/>
+               <w xml:id="w_Sohais_Nott6_961"><choice><orig>D</orig><reg>d</reg></choice>ont</w>
+               <w xml:id="w_Sohais_Nott6_962">il</w>
+               <w xml:id="w_Sohais_Nott6_963"><choice><orig>u</orig><reg>v</reg></choice>ient</w>
+               <w xml:id="w_Sohais_Nott6_964">ne</w>
+               <w xml:id="w_Sohais_Nott6_965">u</w>
+               <w xml:id="w_Sohais_Nott6_966" join="right" ana="#aggl-cert_low">a</w>
+               <w xml:id="w_Sohais_Nott6_967">esté</w>
+               <pc xml:id="w_Sohais_Nott6_968">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="145">
+               <lb n="145"/>
+               <w xml:id="w_Sohais_Nott6_969"><choice><orig>N</orig><reg>n</reg></choice>e</w>
+               <w xml:id="w_Sohais_Nott6_970">s’</w>
+               <w xml:id="w_Sohais_Nott6_971">il</w>
+               <w xml:id="w_Sohais_Nott6_972">a</w>
+               <w xml:id="w_Sohais_Nott6_973">auq<ex>ue</ex>s</w>
+               <w xml:id="w_Sohais_Nott6_974">conq<ex>ue</ex>sté</w>
+               <pc xml:id="w_Sohais_Nott6_975">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="146">
+               <lb n="146"/>
+               <pc xml:id="w_Sohais_Nott6_976">
+                  <choice>
+                     <orig/>
+                     <reg>«</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_Sohais_Nott6_977"><choice><orig>o</orig><reg>O</reg></choice>ie</w>
+               <pc xml:id="w_Sohais_Nott6_978">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_Sohais_Nott6_979">fait</w>
+               <w xml:id="w_Sohais_Nott6_980">il</w>
+               <pc xml:id="w_Sohais_Nott6_981">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_Sohais_Nott6_982">pl<ex>us</ex></w>
+               <w xml:id="w_Sohais_Nott6_983">de</w>
+               <num>
+                  <w xml:id="w_Sohais_Nott6_984">.<choice><orig>M</orig><reg>m</reg></choice>.</w>
+               </num>
+               <w xml:id="w_Sohais_Nott6_985">mars</w>
+            </l>
+            <l n="147">
+               <lb n="147"/>
+               <w xml:id="w_Sohais_Nott6_986" join="right" ana="#aggl-cert_low"><choice><orig>Q</orig><reg>q</reg></choice><ex>ue</ex></w>
+               <w xml:id="w_Sohais_Nott6_987"><choice><orig>i</orig><reg>j</reg></choice>’</w>
+               <w xml:id="w_Sohais_Nott6_988">a<choice><orig>u</orig><reg>v</reg></choice>erai</w>
+               <w xml:id="w_Sohais_Nott6_989">ançois</w>
+               <w xml:id="w_Sohais_Nott6_990">demars</w>
+               <note type="philologique">
+                  <p rend="footnote text">Livingston édite <hi rend="italic">domars.</hi>
+                  </p>
+               </note>
+            </l>
+            <l n="148">
+               <lb n="148"/>
+               <w xml:id="w_Sohais_Nott6_991"><choice><orig>S</orig><reg>s</reg></choice>e</w>
+               <w xml:id="w_Sohais_Nott6_992">nos</w>
+               <w xml:id="w_Sohais_Nott6_993">nos</w>
+               <w xml:id="w_Sohais_Nott6_994">poons</w>
+               <w xml:id="w_Sohais_Nott6_995">bien</w>
+               <w xml:id="w_Sohais_Nott6_996">aidier</w>
+            </l>
+            <l n="149">
+               <lb n="149"/>
+               <w xml:id="w_Sohais_Nott6_997"><choice><orig>D</orig><reg>d</reg></choice>e</w>
+               <w xml:id="w_Sohais_Nott6_998">ro<choice><orig>u</orig><reg>v</reg></choice>er</w>
+               <w xml:id="w_Sohais_Nott6_999"><ex>et</ex></w>
+               <w xml:id="w_Sohais_Nott6_1000">de</w>
+               <w xml:id="w_Sohais_Nott6_1001">sohaidier</w>
+               <pc xml:id="w_Sohais_Nott6_1002">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_Sohais_Nott6_1003">
+                  <choice>
+                     <orig/>
+                     <reg>»</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="150">
+               <lb n="150"/>
+               <w xml:id="w_Sohais_Nott6_1004"><choice><orig>p</orig><reg>P</reg></choice>uis</w>
+               <w xml:id="w_Sohais_Nott6_1005">li</w>
+               <w xml:id="w_Sohais_Nott6_1006"><ex>con</ex>ta</w>
+               <w xml:id="w_Sohais_Nott6_1007">trestot</w>
+               <w xml:id="w_Sohais_Nott6_1008">l’</w>
+               <w xml:id="w_Sohais_Nott6_1009">afaire</w>
+               <pc xml:id="w_Sohais_Nott6_1010">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="151">
+               <lb n="151"/>
+               <w xml:id="w_Sohais_Nott6_1011"><ex>com</ex>ment</w>
+               <w xml:id="w_Sohais_Nott6_1012">il</w>
+               <w xml:id="w_Sohais_Nott6_1013">puet</w>
+               <num>
+                  <w xml:id="w_Sohais_Nott6_1014">.ii<choice><orig>j</orig><reg>i</reg></choice>.</w>
+               </num>
+               <w xml:id="w_Sohais_Nott6_1015">sohais</w>
+               <w xml:id="w_Sohais_Nott6_1016">faire</w>
+               <pc xml:id="w_Sohais_Nott6_1017">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="152">
+               <lb n="152"/>
+               <pc xml:id="w_Sohais_Nott6_1018">
+                  <choice>
+                     <orig/>
+                     <reg>«</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_Sohais_Nott6_1019">S’</w>
+               <w xml:id="w_Sohais_Nott6_1020">en</w>
+               <w xml:id="w_Sohais_Nott6_1021">a<choice><orig>u</orig><reg>v</reg></choice>erés</w>
+               <num>
+                  <w xml:id="w_Sohais_Nott6_1022">.i.</w>
+               </num>
+               <pc xml:id="w_Sohais_Nott6_1023">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_Sohais_Nott6_1024">bele</w>
+               <w xml:id="w_Sohais_Nott6_1025">amie</w>
+               <pc xml:id="w_Sohais_Nott6_1026">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_Sohais_Nott6_1027">
+                  <choice>
+                     <orig/>
+                     <reg>»</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="153">
+               <lb n="153"/>
+               <w xml:id="w_Sohais_Nott6_1028">Cele</w>
+               <w xml:id="w_Sohais_Nott6_1029">respont</w>
+               <pc xml:id="w_Sohais_Nott6_1030">
+                  <choice>
+                     <orig/>
+                     <reg>:</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_Sohais_Nott6_1031">
+                  <choice>
+                     <orig/>
+                     <reg>«</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_Sohais_Nott6_1032"><choice><orig>j</orig><reg>J</reg></choice>o</w>
+               <w xml:id="w_Sohais_Nott6_1033">n’</w>
+               <w xml:id="w_Sohais_Nott6_1034">en</w>
+               <w xml:id="w_Sohais_Nott6_1035">q<ex>ui</ex>er</w>
+               <w xml:id="w_Sohais_Nott6_1036">mie</w>
+            </l>
+            <l n="154">
+               <lb n="154"/>
+               <w xml:id="w_Sohais_Nott6_1037"><choice><orig>S</orig><reg>s</reg></choice>e</w>
+               <w xml:id="w_Sohais_Nott6_1038"><choice><orig>i</orig><reg>j</reg></choice>e</w>
+               <w xml:id="w_Sohais_Nott6_1039">n’</w>
+               <w xml:id="w_Sohais_Nott6_1040">en</w>
+               <w xml:id="w_Sohais_Nott6_1041">ai</w>
+               <w xml:id="w_Sohais_Nott6_1042">deus</w>
+               <w xml:id="w_Sohais_Nott6_1043">tos</w>
+               <w xml:id="w_Sohais_Nott6_1044">entires</w>
+               <pc xml:id="w_Sohais_Nott6_1045">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="155">
+               <lb n="155"/>
+               <w xml:id="w_Sohais_Nott6_1046">Au</w>
+               <w xml:id="w_Sohais_Nott6_1047">deerrai<ex>n</ex></w>
+               <w xml:id="w_Sohais_Nott6_1048">gist</w>
+               <w xml:id="w_Sohais_Nott6_1049" join="right" ana="#aggl-cert_low">li</w>
+               <w xml:id="w_Sohais_Nott6_1050">maistires</w>
+               <pc xml:id="w_Sohais_Nott6_1051">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_Sohais_Nott6_1052">
+                  <choice>
+                     <orig/>
+                     <reg>»</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="156">
+               <lb n="156"/>
+               <w xml:id="w_Sohais_Nott6_1053">Dont</w>
+               <w xml:id="w_Sohais_Nott6_1054">respondi</w>
+               <w xml:id="w_Sohais_Nott6_1055" join="right" ana="#aggl-cert_low">li</w>
+               <w xml:id="w_Sohais_Nott6_1056">faus</w>
+               <w xml:id="w_Sohais_Nott6_1057">gorgis</w>
+            </l>
+            <l n="157">
+               <lb n="157"/>
+               <w xml:id="w_Sohais_Nott6_1058"><choice><orig>Q</orig><reg>q</reg></choice><ex>ui</ex></w>
+               <w xml:id="w_Sohais_Nott6_1059" join="right">a</w>
+               <w xml:id="w_Sohais_Nott6_1060" join="right" ana="#aggl-cert_low">la</w>
+               <w xml:id="w_Sohais_Nott6_1061">dame</w>
+               <w xml:id="w_Sohais_Nott6_1062">estoit</w>
+               <w xml:id="w_Sohais_Nott6_1063">sougis</w>
+               <pc xml:id="w_Sohais_Nott6_1064">
+                  <choice>
+                     <orig/>
+                     <reg>:</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="158">
+               <lb n="158"/>
+               <pc xml:id="w_Sohais_Nott6_1065">
+                  <choice>
+                     <orig/>
+                     <reg>«</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_Sohais_Nott6_1066">Deus</w>
+               <w xml:id="w_Sohais_Nott6_1067">en</w>
+               <w xml:id="w_Sohais_Nott6_1068">aiés</w>
+               <pc xml:id="w_Sohais_Nott6_1069">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_Sohais_Nott6_1070"><choice><orig>i</orig><reg>j</reg></choice>el</w>
+               <w xml:id="w_Sohais_Nott6_1071"><choice><orig>u</orig><reg>v</reg></choice>os</w>
+               <w xml:id="w_Sohais_Nott6_1072">otroi</w>
+               <pc xml:id="w_Sohais_Nott6_1073">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="159">
+               <lb n="159"/>
+               <w xml:id="w_Sohais_Nott6_1074"><choice><orig>g</orig><reg>G</reg></choice>ardés</w>
+               <w xml:id="w_Sohais_Nott6_1075">q<ex>u</ex>’</w>
+               <w xml:id="w_Sohais_Nott6_1076"><ex>i</ex>l</w>
+               <w xml:id="w_Sohais_Nott6_1077">soie<ex>n</ex>t</w>
+               <w xml:id="w_Sohais_Nott6_1078">bo<ex>n</ex></w>
+               <w xml:id="w_Sohais_Nott6_1079" join="right">tot</w>
+               <w xml:id="w_Sohais_Nott6_1080">troi</w>
+               <pc xml:id="w_Sohais_Nott6_1081">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_Sohais_Nott6_1082">
+                  <choice>
+                     <orig/>
+                     <reg>»</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="160">
+               <lb n="160"/>
+               <w xml:id="w_Sohais_Nott6_1083">Cele</w>
+               <w xml:id="w_Sohais_Nott6_1084">respont</w>
+               <pc xml:id="w_Sohais_Nott6_1085">
+                  <choice>
+                     <orig/>
+                     <reg>:</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_Sohais_Nott6_1086">
+                  <choice>
+                     <orig/>
+                     <reg>«</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_Sohais_Nott6_1087"><choice><orig>d</orig><reg>D</reg></choice>el</w>
+               <w xml:id="w_Sohais_Nott6_1088"><choice><orig>u</orig><reg>v</reg></choice>o</w>
+               <w xml:id="w_Sohais_Nott6_1089">pensés</w>
+            </l>
+            <l n="161">
+               <lb n="161"/>
+               <w xml:id="w_Sohais_Nott6_1090"><ex>et</ex></w>
+               <w xml:id="w_Sohais_Nott6_1091">si</w>
+               <w xml:id="w_Sohais_Nott6_1092">soiés</w>
+               <w xml:id="w_Sohais_Nott6_1093">bien</w>
+               <w xml:id="w_Sohais_Nott6_1094">porpensés</w>
+               <pc xml:id="w_Sohais_Nott6_1095">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="162">
+               <lb n="162"/>
+               <w xml:id="w_Sohais_Nott6_1096"><ex>et</ex></w>
+               <w xml:id="w_Sohais_Nott6_1097"><choice><orig>i</orig><reg>j</reg></choice>e</w>
+               <w xml:id="w_Sohais_Nott6_1098">repenserai</w>
+               <w xml:id="w_Sohais_Nott6_1099">des</w>
+               <w xml:id="w_Sohais_Nott6_1100">miens</w>
+            </l>
+            <l n="163">
+               <lb n="163"/>
+               <w xml:id="w_Sohais_Nott6_1101"><choice><orig>A</orig><reg>a</reg></choice>usi</w>
+               <w xml:id="w_Sohais_Nott6_1102"><ex>com</ex></w>
+               <w xml:id="w_Sohais_Nott6_1103">cas<ex>cun</ex>s</w>
+               <w xml:id="w_Sohais_Nott6_1104">fait</w>
+               <w xml:id="w_Sohais_Nott6_1105">des</w>
+               <w xml:id="w_Sohais_Nott6_1106">siens</w>
+               <pc xml:id="w_Sohais_Nott6_1107">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="164">
+               <lb n="164"/>
+               <w xml:id="w_Sohais_Nott6_1108"><choice><orig>I</orig><reg>J</reg></choice>o</w>
+               <w xml:id="w_Sohais_Nott6_1109">ne</w>
+               <w xml:id="w_Sohais_Nott6_1110">lairai</w>
+               <pc xml:id="w_Sohais_Nott6_1111">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_Sohais_Nott6_1112"><ex>com</ex>m<ex>en</ex>t</w>
+               <w xml:id="w_Sohais_Nott6_1113">q<ex>u</ex>’</w>
+               <w xml:id="w_Sohais_Nott6_1114"><ex>i</ex>l</w>
+               <w xml:id="w_Sohais_Nott6_1115">prenge</w>
+               <pc xml:id="w_Sohais_Nott6_1116">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="165">
+               <lb n="165"/>
+               <w xml:id="w_Sohais_Nott6_1117"><choice><orig>Q</orig><reg>q</reg></choice><ex>ue</ex></w>
+               <w xml:id="w_Sohais_Nott6_1118"><choice><orig>i</orig><reg>j</reg></choice>o</w>
+               <w xml:id="w_Sohais_Nott6_1119" join="right">a</w>
+               <w xml:id="w_Sohais_Nott6_1120"><supplied>so</supplied>haidier</w>
+               <w xml:id="w_Sohais_Nott6_1121">n’</w>
+               <w xml:id="w_Sohais_Nott6_1122">aprenge</w>
+               <pc xml:id="w_Sohais_Nott6_1123">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_Sohais_Nott6_1124">
+                  <choice>
+                     <orig/>
+                     <reg>»</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="166">
+               <lb n="166"/>
+               <w xml:id="w_Sohais_Nott6_1125"><choice><orig>l</orig><reg>L</reg></choice>i</w>
+               <w xml:id="w_Sohais_Nott6_1126">dame</w>
+               <w xml:id="w_Sohais_Nott6_1127">a<choice><orig>u</orig><reg>v</reg></choice>oit</w>
+               <num>
+                  <w xml:id="w_Sohais_Nott6_1128">.i.</w>
+               </num>
+               <w xml:id="w_Sohais_Nott6_1129">enfanço<ex>n</ex></w>
+            </l>
+            <l n="167">
+               <lb n="167"/>
+               <w xml:id="w_Sohais_Nott6_1130">petit</w>
+               <pc xml:id="w_Sohais_Nott6_1131">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_Sohais_Nott6_1132">de</w>
+               <w xml:id="w_Sohais_Nott6_1133">m<ex>o</ex>lt</w>
+               <w xml:id="w_Sohais_Nott6_1134">bele</w>
+               <w xml:id="w_Sohais_Nott6_1135">façon</w>
+               <pc xml:id="w_Sohais_Nott6_1136">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="168">
+               <lb n="168"/>
+               <w xml:id="w_Sohais_Nott6_1137">De<choice><orig>u</orig><reg>v</reg></choice>ant</w>
+               <w xml:id="w_Sohais_Nott6_1138">li</w>
+               <w xml:id="w_Sohais_Nott6_1139">aloit</w>
+               <w xml:id="w_Sohais_Nott6_1140">catonant</w>
+               <pc xml:id="w_Sohais_Nott6_1141">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="169">
+               <lb n="169"/>
+               <w xml:id="w_Sohais_Nott6_1142"><choice><orig>e</orig><reg>E</reg></choice>le</w>
+               <w xml:id="w_Sohais_Nott6_1143">li</w>
+               <w xml:id="w_Sohais_Nott6_1144">dist</w>
+               <w xml:id="w_Sohais_Nott6_1145">demaintenant</w>
+               <pc xml:id="w_Sohais_Nott6_1146">
+                  <choice>
+                     <orig/>
+                     <reg>:</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="170">
+               <lb n="170"/>
+               <pc xml:id="w_Sohais_Nott6_1147">
+                  <choice>
+                     <orig/>
+                     <reg>«</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_Sohais_Nott6_1148"><choice><orig>I</orig><reg>J</reg></choice>e</w>
+               <w xml:id="w_Sohais_Nott6_1149"><choice><orig>u</orig><reg>v</reg></choice>os</w>
+               <w xml:id="w_Sohais_Nott6_1150">sohaide</w>
+               <pc xml:id="w_Sohais_Nott6_1151">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_Sohais_Nott6_1152">sire</w>
+               <w xml:id="w_Sohais_Nott6_1153">fils</w>
+               <pc xml:id="w_Sohais_Nott6_1154">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="171">
+               <lb n="171"/>
+               <w xml:id="w_Sohais_Nott6_1155">por</w>
+               <w xml:id="w_Sohais_Nott6_1156">ce</w>
+               <w xml:id="w_Sohais_Nott6_1157" join="right" ana="#aggl-cert_low">q<ex>ue</ex></w>
+               <w xml:id="w_Sohais_Nott6_1158"><choice><orig>u</orig><reg>v</reg></choice>os</w>
+               <w xml:id="w_Sohais_Nott6_1159">estes</w>
+               <w xml:id="w_Sohais_Nott6_1160">si</w>
+               <w xml:id="w_Sohais_Nott6_1161">pius</w>
+               <pc xml:id="w_Sohais_Nott6_1162">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="172">
+               <lb n="172"/>
+               <w xml:id="w_Sohais_Nott6_1163" join="right"><choice><orig>Q</orig><reg>q</reg></choice><ex>ue</ex></w>
+               <w xml:id="w_Sohais_Nott6_1164"><choice><orig>u</orig><reg>v</reg></choice>os</w>
+               <w xml:id="w_Sohais_Nott6_1165">aiés</w>
+               <w xml:id="w_Sohais_Nott6_1166">pl<ex>us</ex></w>
+               <w xml:id="w_Sohais_Nott6_1167">longue</w>
+               <w xml:id="w_Sohais_Nott6_1168">barbe</w>
+            </l>
+            <l n="173">
+               <lb n="173"/>
+               <w xml:id="w_Sohais_Nott6_1169"><choice><orig>Q</orig><reg>q</reg></choice><ex>ue</ex></w>
+               <w xml:id="w_Sohais_Nott6_1170">soit</w>
+               <w xml:id="w_Sohais_Nott6_1171">li</w>
+               <w xml:id="w_Sohais_Nott6_1172">loiens</w>
+               <w xml:id="w_Sohais_Nott6_1173">d’</w>
+               <w xml:id="w_Sohais_Nott6_1174">une</w>
+               <w xml:id="w_Sohais_Nott6_1175">garbe</w>
+               <pc xml:id="w_Sohais_Nott6_1176">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_Sohais_Nott6_1177">
+                  <choice>
+                     <orig/>
+                     <reg>»</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="174">
+               <lb n="174"/>
+               <w xml:id="w_Sohais_Nott6_1178"><ex>Et</ex></w>
+               <w xml:id="w_Sohais_Nott6_1179">il</w>
+               <w xml:id="w_Sohais_Nott6_1180">l’</w>
+               <w xml:id="w_Sohais_Nott6_1181">eut</w>
+               <w xml:id="w_Sohais_Nott6_1182">maintenant</w>
+               <w xml:id="w_Sohais_Nott6_1183" join="right">en</w>
+               <w xml:id="w_Sohais_Nott6_1184">oire</w>
+               <pc xml:id="w_Sohais_Nott6_1185">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="175">
+               <lb n="175"/>
+               <w xml:id="w_Sohais_Nott6_1186"><choice><orig>M</orig><reg>m</reg></choice>ais</w>
+               <w xml:id="w_Sohais_Nott6_1187">ele</w>
+               <w xml:id="w_Sohais_Nott6_1188">fu</w>
+               <w xml:id="w_Sohais_Nott6_1189"><ex>et</ex></w>
+               <w xml:id="w_Sohais_Nott6_1190">blance</w>
+               <w xml:id="w_Sohais_Nott6_1191"><ex>et</ex></w>
+               <w xml:id="w_Sohais_Nott6_1192">noire</w>
+               <pc xml:id="w_Sohais_Nott6_1193">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="176">
+               <lb n="176"/>
+               <w xml:id="w_Sohais_Nott6_1194">Dist</w>
+               <w xml:id="w_Sohais_Nott6_1195">li</w>
+               <w xml:id="w_Sohais_Nott6_1196"><choice><orig>u</orig><reg>v</reg></choice>ilains</w>
+               <pc xml:id="w_Sohais_Nott6_1197">
+                  <choice>
+                     <orig/>
+                     <reg>:</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_Sohais_Nott6_1198">
+                  <choice>
+                     <orig/>
+                     <reg>«</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_Sohais_Nott6_1199"><choice><orig>s</orig><reg>S</reg></choice>ohaide</w>
+               <w xml:id="w_Sohais_Nott6_1200">miels</w>
+               <note type="philologique">
+                  <p rend="footnote text">Livingston édite : <hi rend="italic">Dont li vilains sohaide miels.</hi>
+                  </p>
+               </note>
+               <pc xml:id="w_Sohais_Nott6_1201">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="177">
+               <lb n="177"/>
+               <w xml:id="w_Sohais_Nott6_1202">Male</w>
+               <w xml:id="w_Sohais_Nott6_1203">goute</w>
+               <w xml:id="w_Sohais_Nott6_1204">te</w>
+               <w xml:id="w_Sohais_Nott6_1205">criet</w>
+               <w xml:id="w_Sohais_Nott6_1206">les</w>
+               <w xml:id="w_Sohais_Nott6_1207">iels</w>
+               <pc xml:id="w_Sohais_Nott6_1208">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_Sohais_Nott6_1209">
+                  <choice>
+                     <orig/>
+                     <reg>»</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="178">
+               <lb n="178"/>
+               <w xml:id="w_Sohais_Nott6_1210">Cele</w>
+               <w xml:id="w_Sohais_Nott6_1211">respont</w>
+               <pc xml:id="w_Sohais_Nott6_1212">
+                  <choice>
+                     <orig/>
+                     <reg>:</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_Sohais_Nott6_1213">
+                  <choice>
+                     <orig/>
+                     <reg>«</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_Sohais_Nott6_1214"><choice><orig>v</orig><reg>V</reg></choice>oire</w>
+               <pc xml:id="w_Sohais_Nott6_1215">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_Sohais_Nott6_1216">les</w>
+               <w xml:id="w_Sohais_Nott6_1217"><choice><orig>u</orig><reg>v</reg></choice>os</w>
+               <pc xml:id="w_Sohais_Nott6_1218">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_Sohais_Nott6_1219">
+                  <choice>
+                     <orig/>
+                     <reg>»</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="179">
+               <lb n="179"/>
+               <w xml:id="w_Sohais_Nott6_1220"><choice><orig>l</orig><reg>L</reg></choice>ués</w>
+               <w xml:id="w_Sohais_Nott6_1221">maintena<ex>n</ex>t</w>
+               <w xml:id="w_Sohais_Nott6_1222" join="right">a</w>
+               <w xml:id="w_Sohais_Nott6_1223">icés</w>
+               <w xml:id="w_Sohais_Nott6_1224">mos</w>
+            </l>
+            <l n="180">
+               <lb n="180"/>
+               <w xml:id="w_Sohais_Nott6_1225" join="right"><choice><orig>Q</orig><reg>q</reg></choice><ex>ue</ex></w>
+               <w xml:id="w_Sohais_Nott6_1226">li</w>
+               <w xml:id="w_Sohais_Nott6_1227">sohait</w>
+               <w xml:id="w_Sohais_Nott6_1228">furent</w>
+               <w xml:id="w_Sohais_Nott6_1229">falit</w>
+               <pc xml:id="w_Sohais_Nott6_1230">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="181">
+               <lb n="181"/>
+               <w xml:id="w_Sohais_Nott6_1231">leur</w>
+               <w xml:id="w_Sohais_Nott6_1232">sont</w>
+               <w xml:id="w_Sohais_Nott6_1233">li</w>
+               <w xml:id="w_Sohais_Nott6_1234" join="right" ana="#aggl-cert_low">uel</w>
+               <w xml:id="w_Sohais_Nott6_1235" join="right" ana="#aggl-cert_low">des</w>
+               <w xml:id="w_Sohais_Nott6_1236">ciés</w>
+               <w xml:id="w_Sohais_Nott6_1237">salit</w>
+            </l>
+            <l n="182">
+               <lb n="182"/>
+               <w xml:id="w_Sohais_Nott6_1238"><choice><orig>S</orig><reg>s</reg></choice>i</w>
+               <w xml:id="w_Sohais_Nott6_1239"><ex>c</ex>’</w>
+               <w xml:id="w_Sohais_Nott6_1240"><ex>on</ex>q<ex>ue</ex>s</w>
+               <w xml:id="w_Sohais_Nott6_1241">puis</w>
+               <w xml:id="w_Sohais_Nott6_1242" join="right">ne</w>
+               <w xml:id="w_Sohais_Nott6_1243"><choice><orig>u</orig><reg>v</reg></choice>irent</w>
+               <w xml:id="w_Sohais_Nott6_1244">gote</w>
+               <pc xml:id="w_Sohais_Nott6_1245">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="183">
+               <lb n="183"/>
+               <w xml:id="w_Sohais_Nott6_1246"><choice><orig>e</orig><reg>E</reg></choice>s</w>
+               <w xml:id="w_Sohais_Nott6_1247">dens</w>
+               <w xml:id="w_Sohais_Nott6_1248">lor</w>
+               <w xml:id="w_Sohais_Nott6_1249">feri</w>
+               <w xml:id="w_Sohais_Nott6_1250">une</w>
+               <w xml:id="w_Sohais_Nott6_1251">gote</w>
+               <pc xml:id="w_Sohais_Nott6_1252">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="184">
+               <lb n="184"/>
+               <w xml:id="w_Sohais_Nott6_1253"><choice><orig>f</orig><reg>F</reg></choice>ortune</w>
+               <pc xml:id="w_Sohais_Nott6_1254">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_Sohais_Nott6_1255">q<ex>ui</ex></w>
+               <w xml:id="w_Sohais_Nott6_1256">les</w>
+               <w xml:id="w_Sohais_Nott6_1257">ot</w>
+               <w xml:id="w_Sohais_Nott6_1258">hauci<supplied>és</supplied></w>
+               <pc xml:id="w_Sohais_Nott6_1259">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="185">
+               <lb n="185"/>
+               <w xml:id="w_Sohais_Nott6_1260">les</w>
+               <w xml:id="w_Sohais_Nott6_1261">a</w>
+               <w xml:id="w_Sohais_Nott6_1262">laidem<ex>en</ex>t</w>
+               <w xml:id="w_Sohais_Nott6_1263">abasciés</w>
+               <pc xml:id="w_Sohais_Nott6_1264">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="186">
+               <lb n="186"/>
+               <w xml:id="w_Sohais_Nott6_1265">P<ex>or</ex>uec</w>
+               <w xml:id="w_Sohais_Nott6_1266">est</w>
+               <w xml:id="w_Sohais_Nott6_1267">drois</w>
+               <pc xml:id="w_Sohais_Nott6_1268">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_Sohais_Nott6_1269" join="right" ana="#aggl-cert_low">q<ex>ue</ex></w>
+               <w xml:id="w_Sohais_Nott6_1270">q<ex>ue</ex></w>
+               <w xml:id="w_Sohais_Nott6_1271">nus</w>
+               <w xml:id="w_Sohais_Nott6_1272">die</w>
+               <pc xml:id="w_Sohais_Nott6_1273">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="187">
+               <lb n="187"/>
+               <w xml:id="w_Sohais_Nott6_1274"><choice><orig>Q</orig><reg>q</reg></choice><ex>ue</ex></w>
+               <w xml:id="w_Sohais_Nott6_1275"><choice><orig>d</orig><reg>D</reg></choice>amerdex</w>
+               <w xml:id="w_Sohais_Nott6_1276">celui</w>
+               <w xml:id="w_Sohais_Nott6_1277">maudie</w>
+            </l>
+            <l n="188">
+               <lb n="188"/>
+               <w xml:id="w_Sohais_Nott6_1278">q<ex>ui</ex></w>
+               <w xml:id="w_Sohais_Nott6_1279">asés</w>
+               <w xml:id="w_Sohais_Nott6_1280">a</w>
+               <w xml:id="w_Sohais_Nott6_1281"><ex>et</ex></w>
+               <w xml:id="w_Sohais_Nott6_1282">trop</w>
+               <w xml:id="w_Sohais_Nott6_1283">golose</w>
+               <pc xml:id="w_Sohais_Nott6_1284">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="189">
+               <lb n="189"/>
+               <w xml:id="w_Sohais_Nott6_1285"><choice><orig>S</orig><reg>s</reg></choice>i</w>
+               <w xml:id="w_Sohais_Nott6_1286"><ex>com</ex></w>
+               <w xml:id="w_Sohais_Nott6_1287">fist</w>
+               <w xml:id="w_Sohais_Nott6_1288" join="right">li</w>
+               <w xml:id="w_Sohais_Nott6_1289">rois</w>
+               <w xml:id="w_Sohais_Nott6_1290" join="right">de</w>
+               <w xml:id="w_Sohais_Nott6_1291"><choice><orig>t</orig><reg>T</reg></choice>olo<space type="degl"/>se</w>
+            </l>
+            <l n="190">
+               <lb n="190"/>
+               <w xml:id="w_Sohais_Nott6_1292"><choice><orig>Q</orig><reg>q</reg></choice><ex>ui</ex></w>
+               <w xml:id="w_Sohais_Nott6_1293">traï</w>
+               <w xml:id="w_Sohais_Nott6_1294" join="right">sa</w>
+               <w xml:id="w_Sohais_Nott6_1295">seror</w>
+               <w xml:id="w_Sohais_Nott6_1296">germai<ex>n</ex>ne</w>
+               <note type="philologique">
+                  <p rend="footnote text" style="text-align: justify;">Le NRCF édite Germainne, à la manière d’un nom propre.</p>
+               </note>
+               <pb n="337r"
+                    xml:id="pb_3"
+                    facs="https://api.nakala.fr/iiif/10.34847/nkl.cf086818/74076f186e2d0cde8f8380405c279f1c75f0a657/full/full/0/default.jpg"/>
+               <cb n="337ra"/>
+            </l>
+            <l n="191">
+               <lb n="191"/>
+               <w xml:id="w_Sohais_Nott6_1298">por</w>
+               <w xml:id="w_Sohais_Nott6_1299">a<choice><orig>u</orig><reg>v</reg></choice>oir</w>
+               <w xml:id="w_Sohais_Nott6_1300" join="right">le</w>
+               <w xml:id="w_Sohais_Nott6_1301">roi</w>
+               <w xml:id="w_Sohais_Nott6_1302"><choice><orig>k</orig><reg>K</reg></choice>arlem<ex>aine</ex></w>
+               <pc xml:id="w_Sohais_Nott6_1303">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+         </lg>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,3775 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="fro">Le vilain qui conquist paradis par plait</title>
+            <author>Anonyme</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2024</date>
+            </edition>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="acorbellari">Alain Corbellari</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="alavrent">Alexei Lavrentiev</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="apinche">Ariane Pinche</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="blaid">Baptiste Laïd</name>
+            </respStmt>
+            <respStmt>
+               <resp>robot</resp>
+               <name xml:id="bot">bot bot</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="cguillot">Céline Guillot-Barbance</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="clachet">Claude Lachet</name>
+            </respStmt>
+            <respStmt>
+               <resp>editeur</resp>
+               <resp>traducteur</resp>
+               <resp>chef de projet</resp>
+               <name xml:id="cpierreville">Corinne Pierreville</name>
+            </respStmt>
+            <respStmt>
+               <resp>relecteur</resp>
+               <resp>relecteur-traduction</resp>
+               <resp>membre</resp>
+               <name xml:id="ggruber">Gauthier Grüber</name>
+            </respStmt>
+            <respStmt>
+               <resp>ingénieur</resp>
+               <name xml:id="jnuguet">Jules Nuguet</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="ngarnier">Nicolas Garnier</name>
+            </respStmt>
+            <respStmt>
+               <resp>Relecteur traduction</resp>
+               <name xml:id="rbellon">Roger Bellon</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="rtrachsler">Richard Trachsler</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="veugene">Valentine Eugène</name>
+            </respStmt>
+            <respStmt>
+               <resp>ingénieur</resp>
+               <name xml:id="myamagata">Moe Yamagata</name>
+            </respStmt>
+            <respStmt>
+               <resp/>
+               <name xml:id="jdocks">Justine DOCKS</name>
+            </respStmt>
+            <respStmt>
+               <resp>editeur</resp>
+               <resp>relecteur</resp>
+               <resp>traducteur</resp>
+               <resp>relecteur-traduction</resp>
+               <resp/>
+               <name> </name>
+            </respStmt>
+         </editionStmt>
+         <extent>
+            <num xml:id="nb_tokens_given">1208</num>
+            <num xml:id="nb_mots_given">1002</num>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <name>ENS de Lyon / UMR 5317 IHRIM, Base de français médiéval, projet Fabliaux</name>
+            </publisher>
+            <address>
+               <addrLine>15, parvis René Descartes</addrLine>
+               <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+               <addrLine>Tél : 04 37 37 63 10</addrLine>
+               <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+               <addrLine>http://bfm.ens-lyon.fr</addrLine>
+            </address>
+            <idno type="bfm">http://catalog.bfm-corpus.org/fabliaux/VilainParadis_Nott-6</idno>
+            <idno type="doi">10.34847/nkl.2f5csuz4</idno>
+            <availability status="free">
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <ab type="availability_bfm">Les Conditions générales d'utilisation de la Base de Français Médiéval (http://txm.bfm-corpus.org/bfm/files/CGU.pdf), 
+                        et notamment son Article 5 « PROPRIETE INTELLECTUELLE », s'appliquent à tous les textes de la BFM.</ab>
+                  <ab type="how_to_cite">
+                     <label>Comment citer ce texte :</label>
+                     <bibl>Le vilain qui conquist paradis par plait, édité par Corinne Pierreville en collaboration avec Gauthier Grüber. Publié en ligne par l’ENS de Lyon dans la Base de français médiéval, 
+2024, http://catalog.bfm-corpus.org/fabliaux/VilainParadis_Nott-6.</bibl>
+                        D'autres formules de citation de la BFM sont proposées sur la page web suivante :
+                        http://bfm.ens-lyon.fr/spip.php?article281.</ab>
+                  <ab type="availability_file">
+                     <label>Conditions d'utilisation de ce fichier :</label>
+                        Ce fichier numérique est composé du corps de texte médiéval (restauré par son ou ses éditeur(s) scientifique(s)), des apparats critiques (introductions, notes, glossaires, explications, du texte d'origine (ou des enrichissements) qui ont été réalisés dans le cadre de la restauration des textes par les Editeurs Scientifiques) et des suppléments numériques : balisage XML-TEI, métadonnées (teiHeader), balisage du discours direct, étiquetage morpho-syntaxique, lemmatisation. Le texte et les suppléments numériques sont libres de droit et peuvent à ce titre être téléchargés et réutilisés librement. Les apparats critiques sont soumis à une licence de type CC BY-NC-SA 3.0 FR  http://creativecommons.org/licenses/by-nc-sa/3.0/fr. Les Utilisateurs s’engagent à respecter les termes de cette licence. 
+                    </ab>
+                  <ab type="availability_txmweb" subtype="illimité">
+                     <label>Conditions d'utilisation par le portail BFM :</label>
+                        Pas de limitation dans l'usage des fonctionnalités. Téléchargement autorisé.</ab>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="main" xml:id="Nott-6">
+               <msIdentifier>
+                  <settlement>Nottingham</settlement>
+                  <repository>University Library</repository>
+                  <idno>Mi LM 6</idno>
+                  <idno type="URI" subtype="Notice" n="Arlima">https://www.arlima.net/mss/united_kingdom/nottingham/university_library/wollaton_library_collection/mi_lm_6.html</idno>
+                  <idno type="URI" subtype="Notice" n="Jonas">http://jonas.irht.cnrs.fr/manuscrit/38993</idno>
+                  <idno type="URI" subtype="Data" n="Biblissima">
+https://data.biblissima.fr/entity/Q274315</idno>
+                  <idno type="URI" subtype="Fac-similé">https://nakala.fr/10.34847/nkl.cf086818</idno>
+                  <idno type="URI" subtype="Manifeste_IIIF">https://api.nakala.fr/data/10.34847/nkl.cf086818/6be5e352e46c96c7d25a1d4508331a841ee7a67f</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem xml:id="deVilains_Nott-6">
+                     <locus>f. 343rb-344ra</locus>
+                     <title>Les deus vilains</title>
+                  </msItem>
+                  <msItem xml:id="ConnebertGautierLeLeu_Nott-6">
+                     <locus>f.156vb-159rb</locus>
+                     <title>Connebert</title>
+                  </msItem>
+                  <msItem xml:id="ContrarieuseMarieDeFrance_Nott-6">
+                     <title>La contrarieuse</title>
+                  </msItem>
+                  <msItem xml:id="CugnieMarieDeFrance_Nott-6">
+                     <locus>f. 351vb-351vb</locus>
+                     <title>La cugnie</title>
+                  </msItem>
+                  <msItem xml:id="DameEscoillee_Nott-6">
+                     <locus>f. 346ra-349va</locus>
+                     <title>La dame escoillee</title>
+                  </msItem>
+                  <msItem xml:id="DieuPescour_Nott-6">
+                     <locus>f. 344ra-345va</locus>
+                     <title>Dieu et le pescour</title>
+                  </msItem>
+                  <msItem xml:id="DitRaoulDeHosdaing_Nott-6">
+                     <locus>f. 350ra-350vb</locus>
+                     <title>Le dit de Raoul de Hosdaing</title>
+                  </msItem>
+                  <msItem xml:id="FemmePendreMarieDeFrance_Nott-6">
+                     <title>La femme qui fist pendre son mari</title>
+                  </msItem>
+                  <msItem xml:id="FolVilain_Nott-6">
+                     <locus>f. 337ra-338vb</locus>
+                     <title>Le fol vilain</title>
+                  </msItem>
+                  <msItem xml:id="PutainsLecheors_Nott-6">
+                     <locus>f. 349va-350ra</locus>
+                     <title>Les putains et les lecheors</title>
+                  </msItem>
+                  <msItem xml:id="Sohais_Nott-6">
+                     <locus>f. 336ra-336vb</locus>
+                     <title>Les sohais</title>
+                  </msItem>
+                  <msItem xml:id="SotChevalierGautierLeLeu_Nott-6">
+                     <locus>f. 341va-343rb</locus>
+                     <title>Le sot chevalier</title>
+                  </msItem>
+                  <msItem xml:id="Veuve_Nott-6">
+                     <locus>f. 338vb-341va</locus>
+                     <title>La Veuve</title>
+                  </msItem>
+                  <msItem xml:id="VilainFameDru_Nott-6">
+                     <title>Le Vilain qui od sa fame vit aller son dru</title>
+                  </msItem>
+                  <msItem xml:id="VilainFelunesse_Nott-6">
+                     <title>Le Vilain et la femme felunesse</title>
+                  </msItem>
+                  <msItem xml:id="VilainFolet_Nott-6">
+                     <title>Le Vilain et le folet</title>
+                  </msItem>
+                  <msItem xml:id="VilainHomeFeme_Nott-6">
+                     <title>Le Vilain qui vit un autre home od sa feme</title>
+                  </msItem>
+                  <msItem xml:id="VilainParadis_Nott-6">
+                     <locus>f. 350vb-351vb</locus>
+                     <title>Le vilain qui conquist paradis par plait</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin notBefore="1290-01-01" notAfter="1299-12-31">
+                     <p>fin 13e s.</p>
+                  </origin>
+               </history>
+            </msDesc>
+            <msDesc type="other" xml:id="Berlin-257">
+               <msIdentifier>
+                  <settlement>Berlin</settlement>
+                  <repository>Staatsbibliothek und Preussischer Kulturbesitz</repository>
+                  <idno>Manuscripta Hamiltoniana 257</idno>
+                  <idno type="URI" subtype="Notice" n="Arlima">https://www.arlima.net/mss/deutschland/berlin/staatsbibliothek/manuscripta_hamiltoniana/257.html</idno>
+                  <idno type="URI" subtype="Notice" n="Jonas">http://jonas.irht.cnrs.fr/manuscrit/7365</idno>
+                  <idno type="URI" subtype="Data" n="Biblissima">
+https://data.biblissima.fr/entity/Q268184</idno>
+                  <idno type="URI" subtype="Fac-similé">https://digital.staatsbibliothek-berlin.de/werkansicht?PPN=PPN835384969%26PHYSID=PHYS_0001</idno>
+                  <idno type="URI" subtype="Manifeste_IIIF">https://content.staatsbibliothek-berlin.de/dc/835384969/manifest</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem xml:id="trDamesAnel2_Berlin-257">
+                     <title>Les trois Dames qui troverent l'anel II</title>
+                  </msItem>
+                  <msItem xml:id="quPrestresHaisiau_Berlin-257">
+                     <locus>f. 050ra-050va</locus>
+                     <title>Les quatre prestres</title>
+                  </msItem>
+                  <msItem xml:id="Auberee_Berlin-257">
+                     <locus>f. 045va-048vb</locus>
+                     <title>Auberee</title>
+                  </msItem>
+                  <msItem xml:id="BaratHaimetBodel_Berlin-257">
+                     <title>Barat et Haimet</title>
+                  </msItem>
+                  <msItem xml:id="BorgeoiseOrliens_Berlin-257">
+                     <locus>f. 032va-034ra</locus>
+                     <title>La Borgeoise d'Orliens</title>
+                  </msItem>
+                  <msItem xml:id="BouchierAbeville_Berlin-257">
+                     <title>Le bouchier d'Abeville</title>
+                  </msItem>
+                  <msItem xml:id="BourseSens_Berlin-257">
+                     <locus>f. 035v-036r</locus>
+                     <title>La plaine borse de sens</title>
+                  </msItem>
+                  <msItem xml:id="ChevalierParlerCons1Guerin_Berlin-257">
+                     <title>Le chevalier qui fist les cons parler I</title>
+                  </msItem>
+                  <msItem xml:id="ChevalierVermeille_Berlin-257">
+                     <title>Le Chevalier a la robe vermeille</title>
+                  </msItem>
+                  <msItem xml:id="CoilleNoire_Berlin-257">
+                     <title>La Couille noire</title>
+                  </msItem>
+                  <msItem xml:id="CovoteusEnvieusBodel_Berlin-257">
+                     <title>Le covoteus et l'envieus</title>
+                  </msItem>
+                  <msItem xml:id="DameEscoillee_Berlin-257">
+                     <title>La dame escoillee</title>
+                  </msItem>
+                  <msItem xml:id="DameVenjaChevalier_Berlin-257">
+                     <title>La Dame qui se venja du chevalier</title>
+                  </msItem>
+                  <msItem xml:id="DamoiseleFoutre1_Berlin-257">
+                     <title>La damoisele qui ne pooit oïr parler de foutre I</title>
+                  </msItem>
+                  <msItem xml:id="FoutreFosse_Berlin-257">
+                     <title>Celle qui se fist foutre sur la fosse de son mari</title>
+                  </msItem>
+                  <msItem xml:id="GauteronMarion_Berlin-257">
+                     <locus>f. 048vb-049ra</locus>
+                     <title>Gauteron et Marion</title>
+                  </msItem>
+                  <msItem xml:id="Gombert2ClersBodel_Berlin-257">
+                     <locus>f. 010vb-011vb</locus>
+                     <title>Gombert et les deus clers</title>
+                  </msItem>
+                  <msItem xml:id="Meunier2Clers_Berlin-257">
+                     <locus>f. 050va-052ra</locus>
+                     <title>Le meunier et les deus clers</title>
+                  </msItem>
+                  <msItem xml:id="OueChapelain_Berlin-257">
+                     <locus>f. 053ra-53va</locus>
+                     <title>L'oue au chapelain</title>
+                  </msItem>
+                  <msItem xml:id="Pescheor_Berlin-257">
+                     <title>Du Pescheor de Pont seur Saine</title>
+                  </msItem>
+                  <msItem xml:id="PrestreLeu_Berlin-257">
+                     <locus>f. 062va-062vb</locus>
+                     <title>Le Prestre et le leu</title>
+                  </msItem>
+                  <msItem xml:id="PrestreMereForce_Berlin-257">
+                     <title>Le Prestre qui ot mere a force</title>
+                  </msItem>
+                  <msItem xml:id="PrestreMoutonHaisiau_Berlin-257">
+                     <locus>f. 053va-053va</locus>
+                     <title>Le prestre et le mouton</title>
+                  </msItem>
+                  <msItem xml:id="PrestreTeint_Berlin-257">
+                     <locus>f. 013va-015vb</locus>
+                     <title>Le Prestre teint</title>
+                  </msItem>
+                  <msItem xml:id="Segretain2_Berlin-257">
+                     <locus>f. 022ra-026va</locus>
+                     <title>Le Segretain moine II</title>
+                  </msItem>
+                  <msItem xml:id="SireHain_Berlin-257">
+                     <title>Sire Hain et dame Anieuse</title>
+                  </msItem>
+                  <msItem xml:id="Vallet12Fames_Berlin-257">
+                     <title>Le Vallet aus douze fames</title>
+                  </msItem>
+                  <msItem xml:id="VieilleTruande_Berlin-257">
+                     <title>La vieille Truande</title>
+                  </msItem>
+                  <msItem xml:id="VilainBailluelBodel_Berlin-257">
+                     <title>Le Vilain de Bailluel</title>
+                  </msItem>
+                  <msItem xml:id="VilainMire_Berlin-257">
+                     <locus>f. 011va-013va</locus>
+                     <title>Le Vilain Mire</title>
+                  </msItem>
+                  <msItem xml:id="VilainParadis_Berlin-257">
+                     <title>Le vilain qui conquist paradis par plait</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin notBefore="1250-01-01" notAfter="1299-12-31">
+                     <p>2e moitié du 13e s.</p>
+                  </origin>
+               </history>
+            </msDesc>
+            <msDesc type="other" xml:id="Bern-354">
+               <msIdentifier>
+                  <settlement>Bern</settlement>
+                  <repository>Burgerbibliothek</repository>
+                  <idno>354</idno>
+                  <idno type="URI" subtype="Notice" n="Arlima">https://www.arlima.net/mss/suisse/bern/burgerbibliothek/354.html</idno>
+                  <idno type="URI" subtype="Notice" n="Jonas">http://jonas.irht.cnrs.fr/manuscrit/8202</idno>
+                  <idno type="URI" subtype="Data" n="Biblissima">
+https://data.biblissima.fr/entity/Q217870</idno>
+                  <idno type="URI" subtype="Fac-similé">https://www.e-codices.unifr.ch/fr/list/one/bbb/0354</idno>
+                  <idno type="URI" subtype="Manifeste_IIIF">https://www.e-codices.unifr.ch/metadata/iiif/bbb-0354/manifest.json</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem xml:id="deBordeorsRibaux_Bern-354">
+                     <title>Les deux Bordeors ribaux</title>
+                  </msItem>
+                  <msItem xml:id="quSohaisMartin_Bern-354">
+                     <locus>f. 167va-169ra</locus>
+                     <title>Les quatre souhais saint Martin</title>
+                  </msItem>
+                  <msItem xml:id="Auberee_Bern-354">
+                     <title>Auberee</title>
+                  </msItem>
+                  <msItem xml:id="BaratHaimetBodel_Bern-354">
+                     <title>Barat et Haimet</title>
+                  </msItem>
+                  <msItem xml:id="Berangier1_Bern-354">
+                     <locus>f. 146va-149ra</locus>
+                     <title>Berangier au long cul I</title>
+                  </msItem>
+                  <msItem xml:id="BorgeoiseOrliens_Bern-354">
+                     <title>La Borgeoise d'Orliens</title>
+                  </msItem>
+                  <msItem xml:id="BotaPierre1_Bern-354">
+                     <locus>f. 011va-012ra</locus>
+                     <title>Celui qui bota la pierre I</title>
+                  </msItem>
+                  <msItem xml:id="Brifaut_Bern-354">
+                     <locus>f. 009va-010rb</locus>
+                     <title>Brifaut</title>
+                  </msItem>
+                  <msItem xml:id="ChevalierAmorDame_Bern-354">
+                     <title>Le Chevalier qui recovra l'amor de sa dame</title>
+                  </msItem>
+                  <msItem xml:id="ChevalierParlerCons1Guerin_Bern-354">
+                     <title>Le chevalier qui fist les cons parler I</title>
+                  </msItem>
+                  <msItem xml:id="CoilleNoire_Bern-354">
+                     <title>La Couille noire</title>
+                  </msItem>
+                  <msItem xml:id="ConVitSoriz_Bern-354">
+                     <title>Lo Con, lo vit et la soriz</title>
+                  </msItem>
+                  <msItem xml:id="ConnebertGautierLeLeu_Bern-354">
+                     <locus>f. 156vb-159rb</locus>
+                     <title>Connebert</title>
+                  </msItem>
+                  <msItem xml:id="Constant_Bern-354">
+                     <title>Constant du Hamel</title>
+                  </msItem>
+                  <msItem xml:id="CovoteusEnvieusBodel_Bern-354">
+                     <title>Le covoteus et l'envieus</title>
+                  </msItem>
+                  <msItem xml:id="DamoiseleFoutre2_Bern-354">
+                     <locus>f. 058ra-059vb</locus>
+                     <title>La damoisele qui ne pooit oïr parler de foutre II</title>
+                  </msItem>
+                  <msItem xml:id="DamoiseleSonjoit_Bern-354">
+                     <locus>f. 112rb-112vb</locus>
+                     <title>La Damoiselle qui sonjoit</title>
+                  </msItem>
+                  <msItem xml:id="Escuiruel_Bern-354">
+                     <title>L'Escuiruel</title>
+                  </msItem>
+                  <msItem xml:id="Estopes_Bern-354">
+                     <title>La Sorisete des estopes</title>
+                  </msItem>
+                  <msItem xml:id="Estula_Bern-354">
+                     <locus>f. 116rb-117rb</locus>
+                     <title>Estula</title>
+                  </msItem>
+                  <msItem xml:id="EvesqueCon_Bern-354">
+                     <title>L'Evesque qui beneï lo con</title>
+                  </msItem>
+                  <msItem xml:id="Foteor_Bern-354">
+                     <title>Le Foteor</title>
+                  </msItem>
+                  <msItem xml:id="FoutreFosse_Bern-354">
+                     <locus>f. 059vb-060vb</locus>
+                     <title>Celle qui se fist foutre sur la fosse de son mari</title>
+                  </msItem>
+                  <msItem xml:id="Gombert2ClersBodel_Bern-354">
+                     <title>Gombert et les deus clers</title>
+                  </msItem>
+                  <msItem xml:id="Grue1_Bern-354">
+                     <locus>f. 041ra-042rb</locus>
+                     <title>La Damoisele a la grue I</title>
+                  </msItem>
+                  <msItem xml:id="MaignienDame_Bern-354">
+                     <locus>f. 115rb-116rb</locus>
+                     <title>Le maignien qui foti la dame</title>
+                  </msItem>
+                  <msItem xml:id="MaleHonte2HuonDeCambrai_Bern-354">
+                     <locus>f. 045va-047rb</locus>
+                     <title>La Male Honte II</title>
+                  </msItem>
+                  <msItem xml:id="Meunier2Clers_Bern-354">
+                     <locus>f. 164vb-167rb</locus>
+                     <title>Le meunier et les deus clers</title>
+                  </msItem>
+                  <msItem xml:id="Plantez_Bern-354">
+                     <title>La Plantez</title>
+                  </msItem>
+                  <msItem xml:id="Porcelet_Bern-354">
+                     <locus>f. 065rb-065vb</locus>
+                     <title>Porcelet</title>
+                  </msItem>
+                  <msItem xml:id="PovreClerc_Bern-354">
+                     <title>Le povre Clerc</title>
+                  </msItem>
+                  <msItem xml:id="PreTondu_Bern-354">
+                     <locus>f. 75ra-75vb</locus>
+                     <title>Le pré tondu</title>
+                  </msItem>
+                  <msItem xml:id="PrestreMures2_Bern-354">
+                     <locus>f. 143rb-143vb</locus>
+                     <title>Le prestre qui manja mores II</title>
+                  </msItem>
+                  <msItem xml:id="PuceleVoler_Bern-354">
+                     <title>La Pucele qui voloit voler</title>
+                  </msItem>
+                  <msItem xml:id="PutainsLecheors_Bern-354">
+                     <title>Les putains et les lecheors</title>
+                  </msItem>
+                  <msItem xml:id="Richeut_Bern-354">
+                     <title>Richeut</title>
+                  </msItem>
+                  <msItem xml:id="Segretain3_Bern-354">
+                     <title>Le Segretain moine III</title>
+                  </msItem>
+                  <msItem xml:id="SohaizDesvezBodel_Bern-354">
+                     <locus>f. 100vb-102vb</locus>
+                     <title>Le Sohait desvez</title>
+                  </msItem>
+                  <msItem xml:id="Tresces1Garin_Bern-354">
+                     <locus>f. 090vb-093va</locus>
+                     <title>Les tresces I</title>
+                  </msItem>
+                  <msItem xml:id="VieillePalme_Bern-354">
+                     <title>La Vielle qui oint la palme au chevalier</title>
+                  </msItem>
+                  <msItem xml:id="VilainBailluelBodel_Bern-354">
+                     <title>Le Vilain de Bailluel</title>
+                  </msItem>
+                  <msItem xml:id="VilainFarbuBodel_Bern-354">
+                     <title>Le vilain de Farbu</title>
+                  </msItem>
+                  <msItem xml:id="VilainMire_Bern-354">
+                     <title>Le Vilain Mire</title>
+                  </msItem>
+                  <msItem xml:id="VilainParadis_Bern-354">
+                     <title>Le vilain qui conquist paradis par plait</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin notBefore="1250-01-01" notAfter="1310-12-31">
+                     <p>fin 13e s.</p>
+                  </origin>
+               </history>
+            </msDesc>
+            <msDesc type="other" xml:id="BnF-19152">
+               <msIdentifier>
+                  <settlement>Paris</settlement>
+                  <repository>Bibliothèque nationale de France</repository>
+                  <idno>français 19152</idno>
+                  <idno type="URI" subtype="Notice" n="Arlima">https://www.arlima.net/mss/france/paris/bibliotheque_nationale_de_france/francais/19152.html</idno>
+                  <idno type="URI" subtype="Notice" n="Jonas">http://jonas.irht.cnrs.fr/manuscrit/45865</idno>
+                  <idno type="URI" subtype="Notice" n="Archives_et_manuscrits">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc48361n</idno>
+                  <idno type="URI" subtype="Data" n="Biblissima">
+https://data.biblissima.fr/entity/Q48011</idno>
+                  <idno type="URI" subtype="Fac-similé">https://gallica.bnf.fr/ark:/12148/btv1b9062193k</idno>
+                  <idno type="URI" subtype="Manifeste_IIIF">https://gallica.bnf.fr/iiif/ark:/12148/btv1b9062193k/manifest.json</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem xml:id="deAngloys_BnF-19152">
+                     <locus>f. 047va-048ra</locus>
+                     <title>Les deus Angloys et l'agnel</title>
+                  </msItem>
+                  <msItem xml:id="deBordeorsRibaux_BnF-19152">
+                     <title>Les deux Bordeors ribaux</title>
+                  </msItem>
+                  <msItem xml:id="AristoteHenrideValenciennes_BnF-19152">
+                     <title>Le lai d'Aristote</title>
+                  </msItem>
+                  <msItem xml:id="BaratHaimetBodel_BnF-19152">
+                     <locus>f. 052rb-054ra</locus>
+                     <title>Barat et Haimet</title>
+                  </msItem>
+                  <msItem xml:id="Berangier1_BnF-19152">
+                     <title>Berangier au long cul I</title>
+                  </msItem>
+                  <msItem xml:id="BraiesCordelier_BnF-19152">
+                     <title>Les Braies au cordelier</title>
+                  </msItem>
+                  <msItem xml:id="ChevalierParlerCons1Guerin_BnF-19152">
+                     <locus>f. 058a-060c</locus>
+                     <title>Le chevalier qui fist les cons parler I</title>
+                  </msItem>
+                  <msItem xml:id="ConGautierLeLeu_BnF-19152">
+                     <locus>f. 063rc-064vc</locus>
+                     <title>Du con</title>
+                  </msItem>
+                  <msItem xml:id="Constant_BnF-19152">
+                     <title>Constant du Hamel</title>
+                  </msItem>
+                  <msItem xml:id="ContrarieuseMarieDeFrance_BnF-19152">
+                     <title>La contrarieuse</title>
+                  </msItem>
+                  <msItem xml:id="CovoteusEnvieusBodel_BnF-19152">
+                     <locus>f. 051vc-052ra</locus>
+                     <title>Le covoteus et l'envieus</title>
+                  </msItem>
+                  <msItem xml:id="DameEscoillee_BnF-19152">
+                     <title>La dame escoillee</title>
+                  </msItem>
+                  <msItem xml:id="DamoiseleFoutre3_BnF-19152">
+                     <title>La damoisele qui ne pooit oïr parler de foutre III = La Pucele qui abevra le polain</title>
+                  </msItem>
+                  <msItem xml:id="Estula_BnF-19152">
+                     <locus>f. 116rb-117rb</locus>
+                     <title>Estula</title>
+                  </msItem>
+                  <msItem xml:id="FemmePendreMarieDeFrance_BnF-19152">
+                     <title>La femme qui fist pendre son mari</title>
+                  </msItem>
+                  <msItem xml:id="Foteor_BnF-19152">
+                     <title>Le Foteor</title>
+                  </msItem>
+                  <msItem xml:id="Grue1_BnF-19152">
+                     <title>La Damoisele a la grue I</title>
+                  </msItem>
+                  <msItem xml:id="GuillaumeFaucon_BnF-19152">
+                     <title>Guillaume au faucon</title>
+                  </msItem>
+                  <msItem xml:id="PrestreAlisonGuillaume_BnF-19152">
+                     <title>Le Prestre et Alison</title>
+                  </msItem>
+                  <msItem xml:id="PrestreDame_BnF-19152">
+                     <title>Le Prestre et la dame</title>
+                  </msItem>
+                  <msItem xml:id="PrestreMereForce_BnF-19152">
+                     <title>Le Prestre qui ot mere a force</title>
+                  </msItem>
+                  <msItem xml:id="PrestreMures1Guerin_BnF-19152">
+                     <locus>f. 056rc-056vb</locus>
+                     <title>Le prestre qui manja les mores I</title>
+                  </msItem>
+                  <msItem xml:id="PrestrePassion_BnF-19152">
+                     <locus>f. 064vc-065ra</locus>
+                     <title>Le prestre qui dit la Passion</title>
+                  </msItem>
+                  <msItem xml:id="PreudomeCompereNoier_BnF-19152">
+                     <locus>f. 035vc-036ra</locus>
+                     <title>Le preudome qui rescolt son compere de noier</title>
+                  </msItem>
+                  <msItem xml:id="SaintPierre_BnF-19152">
+                     <title>Saint Pierre et le jongleur</title>
+                  </msItem>
+                  <msItem xml:id="Segretain2_BnF-19152">
+                     <title>Le Segretain moine II</title>
+                  </msItem>
+                  <msItem xml:id="Tresces2_BnF-19152">
+                     <locus>f. 122rb-123vc</locus>
+                     <title>Les Tresces II</title>
+                  </msItem>
+                  <msItem xml:id="VilainAsnier_BnF-19152">
+                     <locus>f. 056ra-056rc</locus>
+                     <title>Le Vilain asnier</title>
+                  </msItem>
+                  <msItem xml:id="VilainFameDru_BnF-19152">
+                     <title>Le Vilain qui od sa fame vit aller son dru</title>
+                  </msItem>
+                  <msItem xml:id="VilainFelunesse_BnF-19152">
+                     <title>Le Vilain et la femme felunesse</title>
+                  </msItem>
+                  <msItem xml:id="VilainFolet_BnF-19152">
+                     <title>Le Vilain et le folet</title>
+                  </msItem>
+                  <msItem xml:id="VilainHomeFeme_BnF-19152">
+                     <title>Le Vilain qui vit un autre home od sa feme</title>
+                  </msItem>
+                  <msItem xml:id="VilainParadis_BnF-19152">
+                     <title>Le vilain qui conquist paradis par plait</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin notBefore="1250-01-01" notAfter="1299-12-31">
+                     <p>2e moitié du 13e s.</p>
+                  </origin>
+               </history>
+            </msDesc>
+            <msDesc type="other" xml:id="BnF-837">
+               <msIdentifier>
+                  <settlement>Paris</settlement>
+                  <repository>Bibliothèque nationale de France</repository>
+                  <idno>français 837</idno>
+                  <idno type="URI" subtype="Notice" n="Arlima">https://www.arlima.net/mss/france/paris/bibliotheque_nationale_de_france/francais/837.html</idno>
+                  <idno type="URI" subtype="Notice" n="Jonas">http://jonas.irht.cnrs.fr/manuscrit/45562</idno>
+                  <idno type="URI" subtype="Notice" n="Archives_et_manuscrits">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc51085n</idno>
+                  <idno type="URI" subtype="Data" n="Biblissima">
+https://data.biblissima.fr/entity/Q52505</idno>
+                  <idno type="URI" subtype="Fac-similé">https://gallica.bnf.fr/ark:/12148/btv1b55013464t</idno>
+                  <idno type="URI" subtype="Manifeste_IIIF">https://gallica.bnf.fr/iiif/ark:/12148/btv1b55013464t/manifest.json</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem xml:id="deBordeorsRibaux_BnF-837">
+                     <title>Les deux Bordeors ribaux</title>
+                  </msItem>
+                  <msItem xml:id="deChangeors_BnF-837">
+                     <locus>f. 265v-267r</locus>
+                     <title>Les deux changeors</title>
+                  </msItem>
+                  <msItem xml:id="deChevausBodel_BnF-837">
+                     <locus>f. 248va-249vb</locus>
+                     <title>Les deus chevaus</title>
+                  </msItem>
+                  <msItem xml:id="trAveuglesCortebarbe_BnF-837">
+                     <locus>f. 073va-075rb</locus>
+                     <title>Les trois Aveugles de Compiegne</title>
+                  </msItem>
+                  <msItem xml:id="trBocusDurant_BnF-837">
+                     <locus>f. 238va-240ra</locus>
+                     <title>Les trois boçus menesterels</title>
+                  </msItem>
+                  <msItem xml:id="trDamesAnel1_BnF-837">
+                     <title>Les trois Dames qui troverent l'anel I</title>
+                  </msItem>
+                  <msItem xml:id="quSohaisMartin_BnF-837">
+                     <locus>f. 189ra-190ra</locus>
+                     <title>Les quatre souhais saint Martin</title>
+                  </msItem>
+                  <msItem xml:id="Aloul_BnF-837">
+                     <locus>f. 143v-148v</locus>
+                     <title>Aloul</title>
+                  </msItem>
+                  <msItem xml:id="AristoteHenrideValenciennes_BnF-837">
+                     <locus>f. 080rb-083rb</locus>
+                     <title>Le lai d'Aristote</title>
+                  </msItem>
+                  <msItem xml:id="Auberee_BnF-837">
+                     <locus>f. 024r-027ra</locus>
+                     <title>Auberee</title>
+                  </msItem>
+                  <msItem xml:id="BaratHaimetBodel_BnF-837">
+                     <locus>f. 051rb-054ra</locus>
+                     <title>Barat et Haimet</title>
+                  </msItem>
+                  <msItem xml:id="BatailleVinsHenriAndeli_BnF-837">
+                     <locus>f. 231va-232va</locus>
+                     <title>La bataille des vins</title>
+                  </msItem>
+                  <msItem xml:id="Berangier2_BnF-837">
+                     <locus>f. 209ra-210va</locus>
+                     <title>Berangier au long cul II</title>
+                  </msItem>
+                  <msItem xml:id="Boivin_BnF-837">
+                     <locus>f. 066va-068va</locus>
+                     <title>Boivin de Provins</title>
+                  </msItem>
+                  <msItem xml:id="BorgeoiseOrliens_BnF-837">
+                     <locus>f. 163ra-164rb</locus>
+                     <title>La Borgeoise d'Orliens</title>
+                  </msItem>
+                  <msItem xml:id="BouchierAbeville_BnF-837">
+                     <locus>f. 158va-161rb</locus>
+                     <title>Le bouchier d'Abeville</title>
+                  </msItem>
+                  <msItem xml:id="BourseSens_BnF-837">
+                     <locus>f. 068v-070v</locus>
+                     <title>La plaine borse de sens</title>
+                  </msItem>
+                  <msItem xml:id="BraiesCordelier_BnF-837">
+                     <locus>f. 154va-156rb</locus>
+                     <title>Les Braies au cordelier</title>
+                  </msItem>
+                  <msItem xml:id="BrancheArmes_BnF-837">
+                     <locus>f. 222vb-223ra</locus>
+                     <title>Une branche d'armes</title>
+                  </msItem>
+                  <msItem xml:id="BrunainBodel_BnF-837">
+                     <locus>f. 229rb-229va</locus>
+                     <title>Brunain la vache au prestre</title>
+                  </msItem>
+                  <msItem xml:id="ChevalierConfesse_BnF-837">
+                     <locus>f. 199rb-200vb</locus>
+                     <title>Le chevalier qui fist sa fame confesse</title>
+                  </msItem>
+                  <msItem xml:id="ChevalierParlerCons1Guerin_BnF-837">
+                     <locus>f. 148v-149v</locus>
+                     <title>Le chevalier qui fist les cons parler I</title>
+                  </msItem>
+                  <msItem xml:id="ChevalierVermeille_BnF-837">
+                     <locus>f. 128rb-129vb</locus>
+                     <title>Le Chevalier a la robe vermeille</title>
+                  </msItem>
+                  <msItem xml:id="ChevaliersClersVilains_BnF-837">
+                     <locus>f. 249vb-250ra</locus>
+                     <title>Les chevaliers, les clers et les villains</title>
+                  </msItem>
+                  <msItem xml:id="CoilleNoire_BnF-837">
+                     <locus>f. 236rb-237ra</locus>
+                     <title>La Couille noire</title>
+                  </msItem>
+                  <msItem xml:id="ConBesche_BnF-837">
+                     <locus>f. 170ra-170va</locus>
+                     <title>Le con qui fu fez a la besche</title>
+                  </msItem>
+                  <msItem xml:id="Cons_BnF-837">
+                     <locus>f. 241rb-241va</locus>
+                     <title>Des cons</title>
+                  </msItem>
+                  <msItem xml:id="Constant_BnF-837">
+                     <locus>f. 14ra-19ra</locus>
+                     <title>Constant du Hamel</title>
+                  </msItem>
+                  <msItem xml:id="Crote_BnF-837">
+                     <locus>f. 332vb-333ra</locus>
+                     <title>La crote</title>
+                  </msItem>
+                  <msItem xml:id="Cuvier_BnF-837">
+                     <locus>f. 234ra-234vb</locus>
+                     <title>Le Cuvier</title>
+                  </msItem>
+                  <msItem xml:id="DameTorsMoustierRutebeuf_BnF-837">
+                     <locus>f. 305va-306va</locus>
+                     <title>La dame qui fist trois tors entor le moustier</title>
+                  </msItem>
+                  <msItem xml:id="DamoiseleFoutre1_BnF-837">
+                     <locus>f. 182va-183ra</locus>
+                     <title>La damoisele qui ne pooit oïr parler de foutre I</title>
+                  </msItem>
+                  <msItem xml:id="DamoiseleSonjoit_BnF-837">
+                     <locus>f. 178rb-178vb</locus>
+                     <title>La Damoiselle qui sonjoit</title>
+                  </msItem>
+                  <msItem xml:id="DebatCulCon_BnF-837">
+                     <locus>f. 183v-184r</locus>
+                     <title>Le cul et le con</title>
+                  </msItem>
+                  <msItem xml:id="Dent_BnF-837">
+                     <locus>f. 197ra-197vb</locus>
+                     <title>De la Dent</title>
+                  </msItem>
+                  <msItem xml:id="EnfantSoleil_BnF-837">
+                     <locus>f. 241va-242rb</locus>
+                     <title>L'Enfant qui fu remis au soleil</title>
+                  </msItem>
+                  <msItem xml:id="Escuiruel_BnF-837">
+                     <locus>f. 333ra-334ra</locus>
+                     <title>L'Escuiruel</title>
+                  </msItem>
+                  <msItem xml:id="EstormiHuesPiaucele_BnF-837">
+                     <locus>f. 011ra-014ra</locus>
+                     <title>Estormi</title>
+                  </msItem>
+                  <msItem xml:id="Estula_BnF-837">
+                     <locus>f. 227vb-228va</locus>
+                     <title>Estula</title>
+                  </msItem>
+                  <msItem xml:id="FevreCreeil_BnF-837">
+                     <locus>f. 230va-231va</locus>
+                     <title>Le Fevre de Creeil</title>
+                  </msItem>
+                  <msItem xml:id="FoutreFosse_BnF-837">
+                     <locus>f. 166ra-166va</locus>
+                     <title>Celle qui se fist foutre sur la fosse de son mari</title>
+                  </msItem>
+                  <msItem xml:id="FrereDeniseRutebeuf_BnF-837">
+                     <locus>f. 329va-331rb</locus>
+                     <title>Frere Denise</title>
+                  </msItem>
+                  <msItem xml:id="Gombert2ClersBodel_BnF-837">
+                     <locus>f. 210va-211va</locus>
+                     <title>Gombert et les deus clers</title>
+                  </msItem>
+                  <msItem xml:id="Grue1_BnF-837">
+                     <locus>f. 188rb-189ra</locus>
+                     <title>La Damoisele a la grue I</title>
+                  </msItem>
+                  <msItem xml:id="HoussePartie1_BnF-837">
+                     <locus>f. 150ra-152ra</locus>
+                     <title>La Housse partie I</title>
+                  </msItem>
+                  <msItem xml:id="Jouglet_BnF-837">
+                     <locus>f. 116r-118r</locus>
+                     <title>Jouglet</title>
+                  </msItem>
+                  <msItem xml:id="MaleHonte2HuonDeCambrai_BnF-837">
+                     <locus>f. 233ra-233vb</locus>
+                     <title>La Male Honte II</title>
+                  </msItem>
+                  <msItem xml:id="OustillementVillainVilain_BnF-837">
+                     <locus>f. 119v-121</locus>
+                     <title>L'Oustillement au vilain</title>
+                  </msItem>
+                  <msItem xml:id="Perdris_BnF-837">
+                     <locus>f. 169rb-170ra</locus>
+                     <title>Les Pertris</title>
+                  </msItem>
+                  <msItem xml:id="Pescheor_BnF-837">
+                     <locus>f. 184rb-185rb</locus>
+                     <title>Du Pescheor de Pont seur Saine</title>
+                  </msItem>
+                  <msItem xml:id="PetVilainRutebeuf_BnF-837">
+                     <locus>f. 315ra-315rb</locus>
+                     <title>Le pet au vilain</title>
+                  </msItem>
+                  <msItem xml:id="Prestre2Ribaus_BnF-837">
+                     <locus>f. 235ra-236rb</locus>
+                     <title>Le Prestre et les deus ribaus</title>
+                  </msItem>
+                  <msItem xml:id="PrestreCrucefie_BnF-837">
+                     <locus>f. 183r-183v</locus>
+                     <title>Le prestre crucefié</title>
+                  </msItem>
+                  <msItem xml:id="PrestreMereForce_BnF-837">
+                     <locus>f. 229va-230va</locus>
+                     <title>Le Prestre qui ot mere a force</title>
+                  </msItem>
+                  <msItem xml:id="ProvostAumuche_BnF-837">
+                     <locus>f. 176va-177rb</locus>
+                     <title>Le Provost a l'aumuche</title>
+                  </msItem>
+                  <msItem xml:id="Saineresse_BnF-837">
+                     <locus>f. 211va-212ra</locus>
+                     <title>La saineresse</title>
+                  </msItem>
+                  <msItem xml:id="SaintPierre_BnF-837">
+                     <locus>f. 019ra-021ra</locus>
+                     <title>Saint Pierre et le jongleur</title>
+                  </msItem>
+                  <msItem xml:id="SireHain_BnF-837">
+                     <locus>f. 049rb-051rb</locus>
+                     <title>Sire Hain et dame Anieuse</title>
+                  </msItem>
+                  <msItem xml:id="SotChevalierGautierLeLeu_BnF-837">
+                     <locus>f. 277ra-278va</locus>
+                     <title>Le sot chevalier</title>
+                  </msItem>
+                  <msItem xml:id="Vallet12Fames_BnF-837">
+                     <locus>f. 185rb-186ra</locus>
+                     <title>Le Vallet aus douze fames</title>
+                  </msItem>
+                  <msItem xml:id="VieilleTruande_BnF-837">
+                     <locus>f. 212rb-213ra</locus>
+                     <title>La vieille Truande</title>
+                  </msItem>
+                  <msItem xml:id="VilainBailluelBodel_BnF-837">
+                     <locus>f. 242vb-243rb</locus>
+                     <title>Le Vilain de Bailluel</title>
+                  </msItem>
+                  <msItem xml:id="VilainBuffet_BnF-837">
+                     <locus>f. 275vb-277ra</locus>
+                     <title>Le Vilain au buffet</title>
+                  </msItem>
+                  <msItem xml:id="VilainMire_BnF-837">
+                     <locus>f. 139rb-141rb</locus>
+                     <title>Le Vilain Mire</title>
+                  </msItem>
+                  <msItem xml:id="VilainParadis_BnF-837">
+                     <locus>f. 228va-229rb</locus>
+                     <title>Le vilain qui conquist paradis par plait</title>
+                  </msItem>
+                  <msItem xml:id="VitCouille_BnF-837">
+                     <locus>f. 215rb-215vb</locus>
+                     <title>Du Vit et de la couille</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin notBefore="1290-01-01" notAfter="1299-12-31">
+                     <p>fin 13e s.</p>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <title type="main" xml:lang="fro">Le vilain qui conquist paradis par plait</title>
+            <title type="alt" key="BnF 837">Le vilain qui gaaigna paradis par plait</title>
+            <title type="alt" key="Nott 6"> L'arme ki guangna paradis par plait</title>
+            <title type="modern" xml:lang="fr">Le rustre qui conquit le paradis en plaidant
+            </title>
+            <date notBefore="1200-01-01" notAfter="1250-12-31" when="1225-12-31">avant le milieu du 13e s.</date>
+            <region type="dialecte_oeuvre">Non défini</region>
+            <idno type="INV" subtype="Montaiglon-Raynaud">81</idno>
+            <idno type="INV" subtype="Bedier">146</idno>
+            <idno type="INV" subtype="Nykrog">155</idno>
+            <idno type="INV" subtype="Jodogne">155</idno>
+            <idno type="INV" subtype="Kiesow">64</idno>
+            <idno type="INV" subtype="NRCF">39</idno>
+            <idno type="URI" n="Jonas">https://jonas.irht.cnrs.fr/oeuvre/9001</idno>
+            <idno type="URI" n="Arlima">https://www.arlima.net/uz/vilain_qui_conquist_paradis_par_plait.html</idno>
+         </creation>
+         <langUsage>
+            <language ident="fro"/>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.bfm-corpus.org">
+               <term type="domaine">littérature</term>
+               <term type="genre" cert="high">Fabliau</term>
+               <term type="forme">vers</term>
+               <term type="relation">non renseigné</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#cpierreville" when="2024-04-12T09:26:14" n="v2.0">Utilisation du fichier VilainParadis[Nott 6]v2.0.docx</change>
+         <change who="#bot" when="2024-04-12" n="v2.0">Transformation avec Oxgarage du fichier VilainParadis[Nott 6]2.0.docx</change>
+         <change who="#cpierreville" when="2024-04-12T15:03:52" n="v1.0">Utilisation du fichier VilainParadis[Nott 6]trad-v1.0.docx</change>
+         <change who="#cpierreville" when="2024-04-12T15:03:52" n="v2.1">Utilisation du fichier VilainParadis[Nott 6]v2.1.docx</change>
+         <change who="#bot" when="2024-04-13" n="v2.1">Transformation avec Oxgarage du fichier VilainParadis[Nott 6]2.1.docx</change>
+         <change who="#bot" when="2024-04-13" n="v1.0">Transformation avec Oxgarage du fichier VilainParadis[Nott 6]1.0.docx</change>
+         <change who="#cpierreville" when="2024-04-15T08:41:06" n="v1.1">Utilisation du fichier VilainParadis[Nott 6]trad-v1.1.docx</change>
+         <change who="#bot" when="2024-04-15" n="v1.1">Transformation avec Oxgarage du fichier VilainParadis[Nott 6]1.1.docx</change>
+         <change who="#ggruber" when="2024-05-09T16:25:47" n="v1.1">Utilisation du fichier VilainParadis[Nott 6]trad-v1.1_reluGG.docx</change>
+         <change who="#ggruber" when="2024-05-09T16:25:47" n="v2.1">Utilisation du fichier VilainParadis[Nott 6]v2.1_reluGG.docx</change>
+         <change who="#cpierreville" when="2024-05-13T12:45:37" n="v1.2">Utilisation du fichier VilainParadis[Nott 6]trad-v1.2.docx</change>
+         <change who="#cpierreville" when="2024-05-13T12:33:45" n="v2.2">Utilisation du fichier VilainParadis[Nott 6]v2.2.docx</change>
+         <change who="#bot" when="2024-05-13" n="v2.2">Transformation avec Oxgarage du fichier VilainParadis[Nott 6]2.2.docx</change>
+         <change who="#bot" when="2024-05-13" n="v1.2">Transformation avec Oxgarage du fichier VilainParadis[Nott 6]1.2.docx</change>
+         <change who="#cpierreville" when="2024-06-19T13:31:36" n="v2.3">Utilisation du fichier VilainParadis[Nott 6]v2.3.docx</change>
+         <change who="#bot" when="2024-06-20" n="v2.3">Transformation avec Oxgarage du fichier VilainParadis[Nott 6]2.3.docx</change>
+      </revisionDesc>
+   </teiHeader>
+   <text source="VilainParadis_Nott-6">
+      <body>
+         <pb n="350v"
+              xml:id="pb_1"
+              facs="https://api.nakala.fr/iiif/10.34847/nkl.cf086818/d09a8ee6dc647d1cc99d6f691c68b5cea7d6597b/full/full/0/default.jpg"/>
+         <cb n="350vb"/>
+         <div>
+            <head>
+               <w xml:id="w_VilainParadis_Nott6_1">De</w>
+               <w xml:id="w_VilainParadis_Nott6_2">l’</w>
+               <w xml:id="w_VilainParadis_Nott6_3">arme</w>
+               <w xml:id="w_VilainParadis_Nott6_4">ki</w>
+               <w xml:id="w_VilainParadis_Nott6_5">gua<ex>n</ex>gna</w>
+               <w xml:id="w_VilainParadis_Nott6_6">paradis</w>
+               <w xml:id="w_VilainParadis_Nott6_7">p<ex>ar</ex></w>
+               <w xml:id="w_VilainParadis_Nott6_8">plait</w>
+               <note type="philologique">
+                  <p rend="footnote text">Le titre, dans la marge de droite, est d’une autre main.</p>
+               </note>
+            </head>
+            <lb/>
+            <lg>
+               <l n="1">
+                  <lb n="1"/>
+                  <w xml:id="w_VilainParadis_Nott6_9"><supplied>N</supplied>os</w>
+                  <w xml:id="w_VilainParadis_Nott6_10">tro<choice><orig>u</orig><reg>v</reg></choice>omes</w>
+                  <w xml:id="w_VilainParadis_Nott6_11" join="right" ana="#aggl-cert_low">en</w>
+                  <w xml:id="w_VilainParadis_Nott6_12">esc<ex>ri</ex>ture</w>
+               </l>
+               <l n="2">
+                  <lb n="2"/>
+                  <w xml:id="w_VilainParadis_Nott6_13"><choice><orig>v</orig><reg>u</reg></choice>ne</w>
+                  <w xml:id="w_VilainParadis_Nott6_14">m<ex>er</ex><choice><orig>u</orig><reg>v</reg></choice>ellose</w>
+                  <w xml:id="w_VilainParadis_Nott6_15">a<choice><orig>u</orig><reg>v</reg></choice>ent<ex>ur</ex>e</w>
+               </l>
+               <l n="3">
+                  <lb n="3"/>
+                  <w xml:id="w_VilainParadis_Nott6_16"><choice><orig>Q</orig><reg>q</reg></choice><ex>ui</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_17"><choice><orig>i</orig><reg>j</reg></choice>adis</w>
+                  <w xml:id="w_VilainParadis_Nott6_18">a<choice><orig>u</orig><reg>v</reg></choice>int</w>
+                  <w xml:id="w_VilainParadis_Nott6_19">d’</w>
+                  <w xml:id="w_VilainParadis_Nott6_20">u<ex>n</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_21"><choice><orig>u</orig><reg>v</reg></choice>ilain</w>
+                  <pc xml:id="w_VilainParadis_Nott6_22">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="4">
+                  <lb n="4"/>
+                  <w xml:id="w_VilainParadis_Nott6_23">Mors</w>
+                  <w xml:id="w_VilainParadis_Nott6_24">fu</w>
+                  <w xml:id="w_VilainParadis_Nott6_25">p<ex>ar</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_26">un</w>
+                  <w xml:id="w_VilainParadis_Nott6_27"><choice><orig>u</orig><reg>v</reg></choice>e<ex>n</ex>resdi</w>
+                  <w xml:id="w_VilainParadis_Nott6_28">mai<ex>n</ex></w>
+                  <pc xml:id="w_VilainParadis_Nott6_29">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="5">
+                  <lb n="5"/>
+                  <w xml:id="w_VilainParadis_Nott6_30"><choice><orig>t</orig><reg>T</reg></choice>els</w>
+                  <w xml:id="w_VilainParadis_Nott6_31">a<choice><orig>u</orig><reg>v</reg></choice>ent<ex>ur</ex>e</w>
+                  <w xml:id="w_VilainParadis_Nott6_32">li</w>
+                  <w xml:id="w_VilainParadis_Nott6_33">a<choice><orig>u</orig><reg>v</reg></choice>int</w>
+               </l>
+               <l n="6">
+                  <lb n="6"/>
+                  <w xml:id="w_VilainParadis_Nott6_34"><choice><orig>Q</orig><reg>q</reg></choice>’</w>
+                  <w xml:id="w_VilainParadis_Nott6_35">angles</w>
+                  <w xml:id="w_VilainParadis_Nott6_36">ne</w>
+                  <w xml:id="w_VilainParadis_Nott6_37">deables</w>
+                  <w xml:id="w_VilainParadis_Nott6_38" join="right">ne</w>
+                  <w xml:id="w_VilainParadis_Nott6_39"><choice><orig>u</orig><reg>v</reg></choice>int</w>
+               </l>
+               <l n="7">
+                  <lb n="7"/>
+                  <w xml:id="w_VilainParadis_Nott6_40" join="right">a</w>
+                  <w xml:id="w_VilainParadis_Nott6_41">cele</w>
+                  <w xml:id="w_VilainParadis_Nott6_42">eure</w>
+                  <w xml:id="w_VilainParadis_Nott6_43">q<ex>ue</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_44" join="right">il</w>
+                  <w xml:id="w_VilainParadis_Nott6_45">fu</w>
+                  <w xml:id="w_VilainParadis_Nott6_46">mors</w>
+                  <pc xml:id="w_VilainParadis_Nott6_47">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="8">
+                  <lb n="8"/>
+                  <w xml:id="w_VilainParadis_Nott6_48">Qant</w>
+                  <w xml:id="w_VilainParadis_Nott6_49">l’</w>
+                  <w xml:id="w_VilainParadis_Nott6_50">ame</w>
+                  <w xml:id="w_VilainParadis_Nott6_51">s’</w>
+                  <w xml:id="w_VilainParadis_Nott6_52">en</w>
+                  <w xml:id="w_VilainParadis_Nott6_53">isci</w>
+                  <w xml:id="w_VilainParadis_Nott6_54">del</w>
+                  <w xml:id="w_VilainParadis_Nott6_55">cors</w>
+                  <pc xml:id="w_VilainParadis_Nott6_56">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="9">
+                  <lb n="9"/>
+                  <w xml:id="w_VilainParadis_Nott6_57" join="right" ana="#aggl-cert_low"><choice><orig>N</orig><reg>n</reg></choice>e</w>
+                  <w xml:id="w_VilainParadis_Nott6_58">true<choice><orig>u</orig><reg>v</reg></choice>e</w>
+                  <w xml:id="w_VilainParadis_Nott6_59">q<ex>ui</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_60">rien</w>
+                  <w xml:id="w_VilainParadis_Nott6_61" join="right">li</w>
+                  <w xml:id="w_VilainParadis_Nott6_62">demant</w>
+               </l>
+               <l n="10">
+                  <lb n="10"/>
+                  <w xml:id="w_VilainParadis_Nott6_63"><choice><orig>N</orig><reg>n</reg></choice>e</w>
+                  <w xml:id="w_VilainParadis_Nott6_64">nule</w>
+                  <w xml:id="w_VilainParadis_Nott6_65">cosse</w>
+                  <w xml:id="w_VilainParadis_Nott6_66">li</w>
+                  <w xml:id="w_VilainParadis_Nott6_67"><ex>com</ex>mant</w>
+                  <pc xml:id="w_VilainParadis_Nott6_68">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="11">
+                  <lb n="11"/>
+                  <w xml:id="w_VilainParadis_Nott6_69">Saciés</w>
+                  <w xml:id="w_VilainParadis_Nott6_70">q<ex>ue</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_71">m<ex>o</ex>lt</w>
+                  <w xml:id="w_VilainParadis_Nott6_72">fu</w>
+                  <w xml:id="w_VilainParadis_Nott6_73">eürouse</w>
+               </l>
+               <l n="12">
+                  <lb n="12"/>
+                  <w xml:id="w_VilainParadis_Nott6_74">l’</w>
+                  <w xml:id="w_VilainParadis_Nott6_75">ame</w>
+                  <pc xml:id="w_VilainParadis_Nott6_76">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_VilainParadis_Nott6_77">q<ex>ui</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_78">m<ex>o</ex>lt</w>
+                  <w xml:id="w_VilainParadis_Nott6_79">fu</w>
+                  <w xml:id="w_VilainParadis_Nott6_80">paorose</w>
+                  <pc xml:id="w_VilainParadis_Nott6_81">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="13">
+                  <lb n="13"/>
+                  <w xml:id="w_VilainParadis_Nott6_82"><choice><orig>g</orig><reg>G</reg></choice>arda</w>
+                  <w xml:id="w_VilainParadis_Nott6_83">sor</w>
+                  <w xml:id="w_VilainParadis_Nott6_84">destre</w>
+                  <w xml:id="w_VilainParadis_Nott6_85"><choice><orig>u</orig><reg>v</reg></choice><ex>er</ex>s</w>
+                  <w xml:id="w_VilainParadis_Nott6_86" join="right">le</w>
+                  <w xml:id="w_VilainParadis_Nott6_87">ciel</w>
+               </l>
+               <l n="14">
+                  <lb n="14"/>
+                  <w xml:id="w_VilainParadis_Nott6_88"><ex>et</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_89"><choice><orig>u</orig><reg>v</reg></choice>it</w>
+                  <w xml:id="w_VilainParadis_Nott6_90">l’</w>
+                  <w xml:id="w_VilainParadis_Nott6_91">arca<ex>n</ex>gle</w>
+                  <pc xml:id="w_VilainParadis_Nott6_92">
+                     <choice>
+                        <orig>.</orig>
+                        <reg/>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_VilainParadis_Nott6_93"><choice><orig>S</orig><reg>s</reg></choice><ex>aint</ex></w>
+                  <pc xml:id="w_VilainParadis_Nott6_94">
+                     <choice>
+                        <orig>.</orig>
+                        <reg/>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_VilainParadis_Nott6_95"><choice><orig>m</orig><reg>M</reg></choice>iciel</w>
+                  <pc xml:id="w_VilainParadis_Nott6_96">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="15">
+                  <lb n="15"/>
+                  <w xml:id="w_VilainParadis_Nott6_97"><choice><orig>Q</orig><reg>q</reg></choice><ex>ui</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_98">portoit</w>
+                  <w xml:id="w_VilainParadis_Nott6_99">une</w>
+                  <w xml:id="w_VilainParadis_Nott6_100">ame</w>
+                  <w xml:id="w_VilainParadis_Nott6_101" join="right">a</w>
+                  <w xml:id="w_VilainParadis_Nott6_102">g<ex>ra</ex>nt</w>
+                  <w xml:id="w_VilainParadis_Nott6_103"><choice><orig>i</orig><reg>j</reg></choice>oie</w>
+                  <pc xml:id="w_VilainParadis_Nott6_104">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="16">
+                  <lb n="16"/>
+                  <w xml:id="w_VilainParadis_Nott6_105"><choice><orig>a</orig><reg>A</reg></choice>p<ex>ré</ex>s</w>
+                  <w xml:id="w_VilainParadis_Nott6_106">li</w>
+                  <w xml:id="w_VilainParadis_Nott6_107">a</w>
+                  <w xml:id="w_VilainParadis_Nott6_108">tenu</w>
+                  <w xml:id="w_VilainParadis_Nott6_109" join="right">sa</w>
+                  <w xml:id="w_VilainParadis_Nott6_110"><choice><orig>u</orig><reg>v</reg></choice>oie</w>
+                  <pc xml:id="w_VilainParadis_Nott6_111">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="17">
+                  <lb n="17"/>
+                  <w xml:id="w_VilainParadis_Nott6_112">Tant</w>
+                  <w xml:id="w_VilainParadis_Nott6_113">suï</w>
+                  <w xml:id="w_VilainParadis_Nott6_114">l’</w>
+                  <w xml:id="w_VilainParadis_Nott6_115">angle</w>
+                  <pc xml:id="w_VilainParadis_Nott6_116">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_VilainParadis_Nott6_117">ce</w>
+                  <w xml:id="w_VilainParadis_Nott6_118">m’</w>
+                  <w xml:id="w_VilainParadis_Nott6_119">est</w>
+                  <w xml:id="w_VilainParadis_Nott6_120"><choice><orig>u</orig><reg>v</reg></choice>is</w>
+                  <pc xml:id="w_VilainParadis_Nott6_121">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="18">
+                  <lb n="18"/>
+                  <w xml:id="w_VilainParadis_Nott6_122"><choice><orig>Q</orig><reg>q</reg></choice><ex>ue</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_123">il</w>
+                  <w xml:id="w_VilainParadis_Nott6_124">entra</w>
+                  <w xml:id="w_VilainParadis_Nott6_125" join="right">em</w>
+                  <w xml:id="w_VilainParadis_Nott6_126">p<ex>ar</ex>adis</w>
+                  <pc xml:id="w_VilainParadis_Nott6_127">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="19">
+                  <lb n="19"/>
+                  <w xml:id="w_VilainParadis_Nott6_128"><choice><orig>a</orig><reg>A</reg></choice>p<ex>ré</ex>s</w>
+                  <w xml:id="w_VilainParadis_Nott6_129">lu<choice><orig>j</orig><reg>i</reg></choice></w>
+                  <w xml:id="w_VilainParadis_Nott6_130"><ex>est</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_131">laiens</w>
+                  <w xml:id="w_VilainParadis_Nott6_132">entree</w>
+                  <pc xml:id="w_VilainParadis_Nott6_133">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="20">
+                  <lb n="20"/>
+                  <w xml:id="w_VilainParadis_Nott6_134">S<ex>ains</ex></w>
+                  <pc xml:id="w_VilainParadis_Nott6_135">
+                     <choice>
+                        <orig>.</orig>
+                        <reg/>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_VilainParadis_Nott6_136"><choice><orig>p</orig><reg>P</reg></choice>ieres</w>
+                  <pc xml:id="w_VilainParadis_Nott6_137">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_VilainParadis_Nott6_138">q<ex>ui</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_139">gardoit</w>
+                  <w xml:id="w_VilainParadis_Nott6_140">l’</w>
+                  <w xml:id="w_VilainParadis_Nott6_141">entree</w>
+                  <pc xml:id="w_VilainParadis_Nott6_142">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <pb n="351r"
+                       xml:id="pb_2"
+                       facs="https://api.nakala.fr/iiif/10.34847/nkl.cf086818/c75d8e3400153ba1170d5b02f2d54329aba83fe6/full/full/0/default.jpg"/>
+                  <cb n="351ra"/>
+               </l>
+               <l n="21">
+                  <lb n="21"/>
+                  <w xml:id="w_VilainParadis_Nott6_144"><choice><orig>R</orig><reg>r</reg></choice>eçut</w>
+                  <w xml:id="w_VilainParadis_Nott6_145">l’</w>
+                  <w xml:id="w_VilainParadis_Nott6_146">ame</w>
+                  <surplus>
+                     <w xml:id="w_VilainParadis_Nott6_147">q<ex>ue</ex></w>
+                     <w xml:id="w_VilainParadis_Nott6_148">l’</w>
+                     <w xml:id="w_VilainParadis_Nott6_149">ame</w>
+                  </surplus>
+                  <w xml:id="w_VilainParadis_Nott6_150">q<ex>ue</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_151">l’</w>
+                  <w xml:id="w_VilainParadis_Nott6_152">a<ex>n</ex>gles</w>
+                  <w xml:id="w_VilainParadis_Nott6_153">porte</w>
+               </l>
+               <l n="22">
+                  <lb n="22"/>
+                  <w xml:id="w_VilainParadis_Nott6_154"><ex>et</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_155">puis</w>
+                  <w xml:id="w_VilainParadis_Nott6_156">retorna</w>
+                  <w xml:id="w_VilainParadis_Nott6_157"><choice><orig>u</orig><reg>v</reg></choice>ers</w>
+                  <w xml:id="w_VilainParadis_Nott6_158" join="right">la</w>
+                  <w xml:id="w_VilainParadis_Nott6_159">porte</w>
+                  <pc xml:id="w_VilainParadis_Nott6_160">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="23">
+                  <lb n="23"/>
+                  <w xml:id="w_VilainParadis_Nott6_161"><choice><orig>l</orig><reg>L</reg></choice>’</w>
+                  <w xml:id="w_VilainParadis_Nott6_162">ame</w>
+                  <w xml:id="w_VilainParadis_Nott6_163">en<ex>con</ex>tra</w>
+                  <pc xml:id="w_VilainParadis_Nott6_164">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_VilainParadis_Nott6_165">q<ex>ui</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_166">seule</w>
+                  <w xml:id="w_VilainParadis_Nott6_167">estoit</w>
+                  <pc xml:id="w_VilainParadis_Nott6_168">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="24">
+                  <lb n="24"/>
+                  <w xml:id="w_VilainParadis_Nott6_169">Demanda</w>
+                  <w xml:id="w_VilainParadis_Nott6_170">li</w>
+                  <w xml:id="w_VilainParadis_Nott6_171">q<ex>ui</ex>l</w>
+                  <w xml:id="w_VilainParadis_Nott6_172"><ex>con</ex>duissoit</w>
+                  <pc xml:id="w_VilainParadis_Nott6_173">
+                     <choice>
+                        <orig/>
+                        <reg>:</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="25">
+                  <lb n="25"/>
+                  <pc xml:id="w_VilainParadis_Nott6_174">
+                     <choice>
+                        <orig/>
+                        <reg>«</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_VilainParadis_Nott6_175">Çaiens</w>
+                  <w xml:id="w_VilainParadis_Nott6_176">n’</w>
+                  <w xml:id="w_VilainParadis_Nott6_177" join="right" ana="#aggl-cert_low">a</w>
+                  <w xml:id="w_VilainParadis_Nott6_178">n<ex>us</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_179">h<ex>er</ex>bergement</w>
+               </l>
+               <l n="26">
+                  <lb n="26"/>
+                  <w xml:id="w_VilainParadis_Nott6_180"><choice><orig>S</orig><reg>s</reg></choice>e</w>
+                  <w xml:id="w_VilainParadis_Nott6_181">n’</w>
+                  <w xml:id="w_VilainParadis_Nott6_182">est</w>
+                  <w xml:id="w_VilainParadis_Nott6_183">p<ex>ar</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_184">mo<ex>n</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_185"><ex>com</ex>mandeme<ex>n</ex>t</w>
+                  <pc xml:id="w_VilainParadis_Nott6_186">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="27">
+                  <lb n="27"/>
+                  <w xml:id="w_VilainParadis_Nott6_187"><choice><orig>e</orig><reg>E</reg></choice>nsorq<ex>ue</ex>tot</w>
+                  <pc xml:id="w_VilainParadis_Nott6_188">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_VilainParadis_Nott6_189" join="right">p<ex>ar</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_190"><choice><orig>S</orig><reg>s</reg></choice><ex>aint</ex></w>
+                  <pc xml:id="w_VilainParadis_Nott6_191">
+                     <choice>
+                        <orig>.</orig>
+                        <reg/>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_VilainParadis_Nott6_192"><choice><orig>g</orig><reg>G</reg></choice>ermain</w>
+                  <pc xml:id="w_VilainParadis_Nott6_193">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="28">
+                  <lb n="28"/>
+                  <w xml:id="w_VilainParadis_Nott6_194"><choice><orig>N</orig><reg>n</reg></choice>os</w>
+                  <w xml:id="w_VilainParadis_Nott6_195">n’</w>
+                  <w xml:id="w_VilainParadis_Nott6_196">a<choice><orig>u</orig><reg>v</reg></choice>ons</w>
+                  <w xml:id="w_VilainParadis_Nott6_197">cure</w>
+                  <w xml:id="w_VilainParadis_Nott6_198">de</w>
+                  <w xml:id="w_VilainParadis_Nott6_199"><choice><orig>u</orig><reg>v</reg></choice>ilain</w>
+                  <pc xml:id="w_VilainParadis_Nott6_200">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="29">
+                  <lb n="29"/>
+                  <w xml:id="w_VilainParadis_Nott6_201"><ex>et</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_202"><choice><orig>u</orig><reg>v</reg></choice>ilains</w>
+                  <w xml:id="w_VilainParadis_Nott6_203">n’</w>
+                  <w xml:id="w_VilainParadis_Nott6_204" join="right">a</w>
+                  <w xml:id="w_VilainParadis_Nott6_205">rien</w>
+                  <w xml:id="w_VilainParadis_Nott6_206" join="right">en</w>
+                  <w xml:id="w_VilainParadis_Nott6_207">cest</w>
+                  <w xml:id="w_VilainParadis_Nott6_208">estre</w>
+                  <pc xml:id="w_VilainParadis_Nott6_209">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="30">
+                  <lb n="30"/>
+                  <w xml:id="w_VilainParadis_Nott6_210"><choice><orig>p</orig><reg>P</reg></choice>lus</w>
+                  <w xml:id="w_VilainParadis_Nott6_211"><choice><orig>u</orig><reg>v</reg></choice>ilai<ex>n</ex>s</w>
+                  <w xml:id="w_VilainParadis_Nott6_212" join="right">de</w>
+                  <w xml:id="w_VilainParadis_Nott6_213"><choice><orig>u</orig><reg>v</reg></choice>os</w>
+                  <w xml:id="w_VilainParadis_Nott6_214">n’</w>
+                  <w xml:id="w_VilainParadis_Nott6_215">i</w>
+                  <w xml:id="w_VilainParadis_Nott6_216">puet</w>
+                  <w xml:id="w_VilainParadis_Nott6_217">estre</w>
+                  <pc xml:id="w_VilainParadis_Nott6_218">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+                  <pc xml:id="w_VilainParadis_Nott6_219">
+                     <choice>
+                        <orig/>
+                        <reg>»</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="31">
+                  <lb n="31"/>
+                  <w xml:id="w_VilainParadis_Nott6_220"><choice><orig>f</orig><reg>F</reg></choice>ait</w>
+                  <w xml:id="w_VilainParadis_Nott6_221">li</w>
+                  <w xml:id="w_VilainParadis_Nott6_222">ame</w>
+                  <pc xml:id="w_VilainParadis_Nott6_223">
+                     <choice>
+                        <orig/>
+                        <reg>:</reg>
+                     </choice>
+                  </pc>
+                  <pc xml:id="w_VilainParadis_Nott6_224">
+                     <choice>
+                        <orig/>
+                        <reg>«</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_VilainParadis_Nott6_225"><choice><orig>b</orig><reg>B</reg></choice>eax</w>
+                  <w xml:id="w_VilainParadis_Nott6_226">sire</w>
+                  <w xml:id="w_VilainParadis_Nott6_227"><choice><orig>p</orig><reg>P</reg></choice>iere</w>
+                  <pc xml:id="w_VilainParadis_Nott6_228">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="32">
+                  <lb n="32"/>
+                  <w xml:id="w_VilainParadis_Nott6_229">tostans</w>
+                  <w xml:id="w_VilainParadis_Nott6_230">fustes</w>
+                  <w xml:id="w_VilainParadis_Nott6_231">pl<ex>us</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_232">durs</w>
+                  <w xml:id="w_VilainParadis_Nott6_233">q<ex>ue</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_234">piere</w>
+                  <pc xml:id="w_VilainParadis_Nott6_235">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="33">
+                  <lb n="33"/>
+                  <w xml:id="w_VilainParadis_Nott6_236"><choice><orig>f</orig><reg>F</reg></choice>ols</w>
+                  <w xml:id="w_VilainParadis_Nott6_237">fu</w>
+                  <pc xml:id="w_VilainParadis_Nott6_238">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_VilainParadis_Nott6_239">p<ex>ar</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_240"><choice><orig>S</orig><reg>s</reg></choice><ex>aint</ex></w>
+                  <pc xml:id="w_VilainParadis_Nott6_241">
+                     <choice>
+                        <orig>.</orig>
+                        <reg/>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_VilainParadis_Nott6_242"><choice><orig>p</orig><reg>P</reg></choice>iere</w>
+                  <w xml:id="w_VilainParadis_Nott6_243">l’</w>
+                  <w xml:id="w_VilainParadis_Nott6_244">apostre</w>
+                  <pc xml:id="w_VilainParadis_Nott6_245">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="34">
+                  <lb n="34"/>
+                  <w xml:id="w_VilainParadis_Nott6_246" join="right">cil</w>
+                  <w xml:id="w_VilainParadis_Nott6_247">q<ex>ui</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_248">fist</w>
+                  <w xml:id="w_VilainParadis_Nott6_249" join="right">de</w>
+                  <w xml:id="w_VilainParadis_Nott6_250"><choice><orig>u</orig><reg>v</reg></choice>os</w>
+                  <w xml:id="w_VilainParadis_Nott6_251">son</w>
+                  <w xml:id="w_VilainParadis_Nott6_252">a<space type="degl"/>postre</w>
+                  <pc xml:id="w_VilainParadis_Nott6_253">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="35">
+                  <lb n="35"/>
+                  <w xml:id="w_VilainParadis_Nott6_254"><choice><orig>p</orig><reg>P</reg></choice>etit</w>
+                  <w xml:id="w_VilainParadis_Nott6_255" join="right">i</w>
+                  <w xml:id="w_VilainParadis_Nott6_256"><ex>con</ex>q<ex>ue</ex>st<del rend="dot-below">r</del>as</w>
+                  <w xml:id="w_VilainParadis_Nott6_257">d’</w>
+                  <w xml:id="w_VilainParadis_Nott6_258">onor</w>
+               </l>
+               <l n="36">
+                  <lb n="36"/>
+                  <w xml:id="w_VilainParadis_Nott6_259"><choice><orig>Q</orig><reg>q</reg></choice>a<ex>n</ex>t</w>
+                  <w xml:id="w_VilainParadis_Nott6_260">renoias</w>
+                  <w xml:id="w_VilainParadis_Nott6_261"><choice><orig>n</orig><reg>N</reg></choice><ex>ost</ex>re</w>
+                  <w xml:id="w_VilainParadis_Nott6_262"><choice><orig>s</orig><reg>S</reg></choice>egnor</w>
+                  <pc xml:id="w_VilainParadis_Nott6_263">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="37">
+                  <lb n="37"/>
+                  <w xml:id="w_VilainParadis_Nott6_264">M<ex>o</ex>lt</w>
+                  <w xml:id="w_VilainParadis_Nott6_265">fu</w>
+                  <w xml:id="w_VilainParadis_Nott6_266">petite</w>
+                  <w xml:id="w_VilainParadis_Nott6_267"><choice><orig>u</orig><reg>v</reg></choice><ex>ost</ex>re</w>
+                  <w xml:id="w_VilainParadis_Nott6_268">fois</w>
+               </l>
+               <l n="38">
+                  <lb n="38"/>
+                  <choice>
+                     <corr>
+                        <w xml:id="w_VilainParadis_Nott6_269">quel</w>
+                     </corr>
+                     <sic>
+                        <choice>
+                           <orig>Q</orig>
+                           <reg>q</reg>
+                        </choice>
+                        <ex>ui</ex>l</sic>
+                  </choice>
+                  <w xml:id="w_VilainParadis_Nott6_271">renoiastes</w>
+                  <w xml:id="w_VilainParadis_Nott6_272">p<ex>ar</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_273">trois</w>
+                  <w xml:id="w_VilainParadis_Nott6_274">fois</w>
+               </l>
+               <l n="39">
+                  <lb n="39"/>
+                  <w xml:id="w_VilainParadis_Nott6_275"><choice><orig>Q</orig><reg>q</reg></choice><ex>ue</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_276">n’</w>
+                  <w xml:id="w_VilainParadis_Nott6_277">esti<choice><orig>j</orig><reg>i</reg></choice>és</w>
+                  <w xml:id="w_VilainParadis_Nott6_278" join="right">de</w>
+                  <w xml:id="w_VilainParadis_Nott6_279">sa</w>
+                  <w xml:id="w_VilainParadis_Nott6_280"><ex>com</ex>pagne</w>
+                  <pc xml:id="w_VilainParadis_Nott6_281">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="40">
+                  <lb n="40"/>
+                  <w xml:id="w_VilainParadis_Nott6_282">Ceste</w>
+                  <w xml:id="w_VilainParadis_Nott6_283">maisons</w>
+                  <w xml:id="w_VilainParadis_Nott6_284" join="right">ne</w>
+                  <w xml:id="w_VilainParadis_Nott6_285"><choice><orig>u</orig><reg>v</reg></choice><ex>os</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_286">adagne</w>
+                  <pc xml:id="w_VilainParadis_Nott6_287">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="41">
+                  <lb n="41"/>
+                  <w xml:id="w_VilainParadis_Nott6_288">ai<ex>n</ex>s</w>
+                  <w xml:id="w_VilainParadis_Nott6_289">het</w>
+                  <w xml:id="w_VilainParadis_Nott6_290"><choice><orig>u</orig><reg>v</reg></choice>os</w>
+                  <w xml:id="w_VilainParadis_Nott6_291"><ex>et</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_292"><choice><orig>u</orig><reg>v</reg></choice><ex>ost</ex>re</w>
+                  <w xml:id="w_VilainParadis_Nott6_293">manoir</w>
+                  <pc xml:id="w_VilainParadis_Nott6_294">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="42">
+                  <lb n="42"/>
+                  <w xml:id="w_VilainParadis_Nott6_295">Ne</w>
+                  <w xml:id="w_VilainParadis_Nott6_296">de<choice><orig>u</orig><reg>v</reg></choice>és</w>
+                  <w xml:id="w_VilainParadis_Nott6_297">pas</w>
+                  <w xml:id="w_VilainParadis_Nott6_298">les</w>
+                  <w xml:id="w_VilainParadis_Nott6_299">cles</w>
+                  <w xml:id="w_VilainParadis_Nott6_300">a<choice><orig>u</orig><reg>v</reg></choice>oir</w>
+                  <pc xml:id="w_VilainParadis_Nott6_301">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="43">
+                  <lb n="43"/>
+                  <w xml:id="w_VilainParadis_Nott6_302"><choice><orig>a</orig><reg>A</reg></choice>lés</w>
+                  <w xml:id="w_VilainParadis_Nott6_303">fors</w>
+                  <w xml:id="w_VilainParadis_Nott6_304">o</w>
+                  <w xml:id="w_VilainParadis_Nott6_305">les</w>
+                  <w xml:id="w_VilainParadis_Nott6_306">desloiaus</w>
+                  <pc xml:id="w_VilainParadis_Nott6_307">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="44">
+                  <lb n="44"/>
+                  <w xml:id="w_VilainParadis_Nott6_308">Mais</w>
+                  <w xml:id="w_VilainParadis_Nott6_309"><choice><orig>i</orig><reg>j</reg></choice>e</w>
+                  <w xml:id="w_VilainParadis_Nott6_310">sui</w>
+                  <w xml:id="w_VilainParadis_Nott6_311">p<ex>ro</ex>do<ex>m</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_312"><ex>et</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_313">loiaus</w>
+                  <pc xml:id="w_VilainParadis_Nott6_314">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="45">
+                  <lb n="45"/>
+                  <w xml:id="w_VilainParadis_Nott6_315"><choice><orig>S</orig><reg>s</reg></choice>’</w>
+                  <w xml:id="w_VilainParadis_Nott6_316">i</w>
+                  <w xml:id="w_VilainParadis_Nott6_317">doi</w>
+                  <w xml:id="w_VilainParadis_Nott6_318">bien</w>
+                  <w xml:id="w_VilainParadis_Nott6_319">estre</w>
+                  <w xml:id="w_VilainParadis_Nott6_320">p<ex>ar</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_321">droit</w>
+                  <w xml:id="w_VilainParadis_Nott6_322"><ex>con</ex>te</w>
+                  <pc xml:id="w_VilainParadis_Nott6_323">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+                  <pc xml:id="w_VilainParadis_Nott6_324">
+                     <choice>
+                        <orig/>
+                        <reg>»</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="46">
+                  <lb n="46"/>
+                  <w xml:id="w_VilainParadis_Nott6_325">S<ex>ains</ex></w>
+                  <pc xml:id="w_VilainParadis_Nott6_326">
+                     <choice>
+                        <orig>.</orig>
+                        <reg/>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_VilainParadis_Nott6_327"><choice><orig>p</orig><reg>P</reg></choice>ieres</w>
+                  <w xml:id="w_VilainParadis_Nott6_328">ot</w>
+                  <w xml:id="w_VilainParadis_Nott6_329">estra<ex>n</ex>ge</w>
+                  <w xml:id="w_VilainParadis_Nott6_330">honte</w>
+                  <pc xml:id="w_VilainParadis_Nott6_331">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="47">
+                  <lb n="47"/>
+                  <w xml:id="w_VilainParadis_Nott6_332"><choice><orig>t</orig><reg>T</reg></choice>ornés</w>
+                  <w xml:id="w_VilainParadis_Nott6_333">s’</w>
+                  <w xml:id="w_VilainParadis_Nott6_334">en</w>
+                  <w xml:id="w_VilainParadis_Nott6_335">est</w>
+                  <w xml:id="w_VilainParadis_Nott6_336">taisans</w>
+                  <w xml:id="w_VilainParadis_Nott6_337"><ex>et</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_338">mas</w>
+                  <pc xml:id="w_VilainParadis_Nott6_339">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="48">
+                  <lb n="48"/>
+                  <w xml:id="w_VilainParadis_Nott6_340">Il</w>
+                  <w xml:id="w_VilainParadis_Nott6_341">a</w>
+                  <w xml:id="w_VilainParadis_Nott6_342">en<ex>con</ex>tré</w>
+                  <w xml:id="w_VilainParadis_Nott6_343"><choice><orig>S</orig><reg>s</reg></choice><ex>aint</ex></w>
+                  <pc xml:id="w_VilainParadis_Nott6_344">
+                     <choice>
+                        <orig>.</orig>
+                        <reg/>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_VilainParadis_Nott6_345"><choice><orig>t</orig><reg>T</reg></choice>umas</w>
+                  <pc xml:id="w_VilainParadis_Nott6_346">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="49">
+                  <lb n="49"/>
+                  <w xml:id="w_VilainParadis_Nott6_347"><choice><orig>S</orig><reg>s</reg></choice>e</w>
+                  <w xml:id="w_VilainParadis_Nott6_348" join="right" ana="#aggl-cert_low">li</w>
+                  <w xml:id="w_VilainParadis_Nott6_349" join="right">a</w>
+                  <w xml:id="w_VilainParadis_Nott6_350"><ex>con</ex>té</w>
+                  <w xml:id="w_VilainParadis_Nott6_351" join="right">a</w>
+                  <w xml:id="w_VilainParadis_Nott6_352">droiture</w>
+               </l>
+               <l n="50">
+                  <lb n="50"/>
+                  <w xml:id="w_VilainParadis_Nott6_353">trestote</w>
+                  <w xml:id="w_VilainParadis_Nott6_354">sa</w>
+                  <w xml:id="w_VilainParadis_Nott6_355">mesa<choice><orig>u</orig><reg>v</reg></choice>ent<ex>ur</ex>e</w>
+               </l>
+               <l n="51">
+                  <lb n="51"/>
+                  <w xml:id="w_VilainParadis_Nott6_356"><ex>et</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_357">son</w>
+                  <w xml:id="w_VilainParadis_Nott6_358"><ex>con</ex>traire</w>
+                  <w xml:id="w_VilainParadis_Nott6_359"><ex>et</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_360">son</w>
+                  <w xml:id="w_VilainParadis_Nott6_361">anui</w>
+                  <pc xml:id="w_VilainParadis_Nott6_362">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="52">
+                  <lb n="52"/>
+                  <w xml:id="w_VilainParadis_Nott6_363"><choice><orig>f</orig><reg>F</reg></choice>ait</w>
+                  <w xml:id="w_VilainParadis_Nott6_364"><choice><orig>S</orig><reg>s</reg></choice><ex>ains</ex></w>
+                  <pc xml:id="w_VilainParadis_Nott6_365">
+                     <choice>
+                        <orig>.</orig>
+                        <reg/>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_VilainParadis_Nott6_366"><choice><orig>t</orig><reg>T</reg></choice>umas</w>
+                  <pc xml:id="w_VilainParadis_Nott6_367">
+                     <choice>
+                        <orig/>
+                        <reg>:</reg>
+                     </choice>
+                  </pc>
+                  <pc xml:id="w_VilainParadis_Nott6_368">
+                     <choice>
+                        <orig/>
+                        <reg>«</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_VilainParadis_Nott6_369"><choice><orig>g</orig><reg>G</reg></choice>’</w>
+                  <w xml:id="w_VilainParadis_Nott6_370" join="right" ana="#aggl-cert_low">irai</w>
+                  <w xml:id="w_VilainParadis_Nott6_371" join="right">a</w>
+                  <w xml:id="w_VilainParadis_Nott6_372">lu<choice><orig>j</orig><reg>i</reg></choice></w>
+                  <pc xml:id="w_VilainParadis_Nott6_373">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="53">
+                  <lb n="53"/>
+                  <w xml:id="w_VilainParadis_Nott6_374">N’</w>
+                  <w xml:id="w_VilainParadis_Nott6_375">i</w>
+                  <w xml:id="w_VilainParadis_Nott6_376">remanra</w>
+                  <pc xml:id="w_VilainParadis_Nott6_377">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_VilainParadis_Nott6_378"><choice><orig>i</orig><reg>j</reg></choice>a</w>
+                  <w xml:id="w_VilainParadis_Nott6_379"><choice><orig>d</orig><reg>D</reg></choice>eu</w>
+                  <w xml:id="w_VilainParadis_Nott6_380" join="right" ana="#aggl-cert_low">ne</w>
+                  <w xml:id="w_VilainParadis_Nott6_381">place</w>
+                  <pc xml:id="w_VilainParadis_Nott6_382">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+                  <pc xml:id="w_VilainParadis_Nott6_383">
+                     <choice>
+                        <orig/>
+                        <reg>»</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="54">
+                  <lb n="54"/>
+                  <w xml:id="w_VilainParadis_Nott6_384" join="right"><choice><orig>a</orig><reg>A</reg></choice></w>
+                  <w xml:id="w_VilainParadis_Nott6_385">l’</w>
+                  <w xml:id="w_VilainParadis_Nott6_386">ame</w>
+                  <w xml:id="w_VilainParadis_Nott6_387">s’</w>
+                  <w xml:id="w_VilainParadis_Nott6_388" join="right">en</w>
+                  <w xml:id="w_VilainParadis_Nott6_389"><choice><orig>u</orig><reg>v</reg></choice>ient</w>
+                  <w xml:id="w_VilainParadis_Nott6_390" join="right">en</w>
+                  <w xml:id="w_VilainParadis_Nott6_391">la</w>
+                  <w xml:id="w_VilainParadis_Nott6_392">place</w>
+                  <pc xml:id="w_VilainParadis_Nott6_393">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="55">
+                  <lb n="55"/>
+                  <pc xml:id="w_VilainParadis_Nott6_394">
+                     <choice>
+                        <orig/>
+                        <reg>«</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_VilainParadis_Nott6_395"><choice><orig>v</orig><reg>V</reg></choice>ilai<ex>n</ex></w>
+                  <pc xml:id="w_VilainParadis_Nott6_396">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_VilainParadis_Nott6_397">ce</w>
+                  <w xml:id="w_VilainParadis_Nott6_398" join="right" ana="#aggl-cert_low">li</w>
+                  <w xml:id="w_VilainParadis_Nott6_399">dist</w>
+                  <w xml:id="w_VilainParadis_Nott6_400">li</w>
+                  <w xml:id="w_VilainParadis_Nott6_401">apostres</w>
+                  <pc xml:id="w_VilainParadis_Nott6_402">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="56">
+                  <lb n="56"/>
+                  <w xml:id="w_VilainParadis_Nott6_403"><choice><orig>I</orig><reg>i</reg></choice><space type="degl"/>cis</w>
+                  <w xml:id="w_VilainParadis_Nott6_404">manoirs</w>
+                  <w xml:id="w_VilainParadis_Nott6_405"><ex>est</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_406">cuites</w>
+                  <w xml:id="w_VilainParadis_Nott6_407">n<ex>ost</ex>res</w>
+                  <pc xml:id="w_VilainParadis_Nott6_408">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="57">
+                  <lb n="57"/>
+                  <w xml:id="w_VilainParadis_Nott6_409" join="right"><ex>et</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_410">as</w>
+                  <w xml:id="w_VilainParadis_Nott6_411">martirs</w>
+                  <w xml:id="w_VilainParadis_Nott6_412"><ex>et</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_413">as</w>
+                  <w xml:id="w_VilainParadis_Nott6_414"><ex>con</ex>fés</w>
+                  <pc xml:id="w_VilainParadis_Nott6_415">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="58">
+                  <lb n="58"/>
+                  <w xml:id="w_VilainParadis_Nott6_416" join="right"><choice><orig>e</orig><reg>E</reg></choice>n</w>
+                  <w xml:id="w_VilainParadis_Nott6_417">q<ex>ue</ex>l</w>
+                  <w xml:id="w_VilainParadis_Nott6_418">liu</w>
+                  <w xml:id="w_VilainParadis_Nott6_419" join="right">as</w>
+                  <w xml:id="w_VilainParadis_Nott6_420">tu</w>
+                  <w xml:id="w_VilainParadis_Nott6_421">les</w>
+                  <w xml:id="w_VilainParadis_Nott6_422">bie<ex>n</ex>s</w>
+                  <w xml:id="w_VilainParadis_Nott6_423">fes</w>
+               </l>
+               <l n="59">
+                  <lb n="59"/>
+                  <w xml:id="w_VilainParadis_Nott6_424" join="right" ana="#aggl-cert_low">p<ex>ar</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_425">qoi</w>
+                  <w xml:id="w_VilainParadis_Nott6_426">tu</w>
+                  <w xml:id="w_VilainParadis_Nott6_427">dois</w>
+                  <w xml:id="w_VilainParadis_Nott6_428">çaie<ex>n</ex>s</w>
+                  <w xml:id="w_VilainParadis_Nott6_429">manoir</w>
+                  <pc xml:id="w_VilainParadis_Nott6_430">
+                     <choice>
+                        <orig/>
+                        <reg>?</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="60">
+                  <lb n="60"/>
+                  <w xml:id="w_VilainParadis_Nott6_431">Il</w>
+                  <w xml:id="w_VilainParadis_Nott6_432">n’</w>
+                  <w xml:id="w_VilainParadis_Nott6_433" join="right" ana="#aggl-cert_low">i</w>
+                  <w xml:id="w_VilainParadis_Nott6_434">doit</w>
+                  <w xml:id="w_VilainParadis_Nott6_435"><choice><orig>u</orig><reg>v</reg></choice>ilai<ex>n</ex>s</w>
+                  <w xml:id="w_VilainParadis_Nott6_436">remanoir</w>
+                  <pc xml:id="w_VilainParadis_Nott6_437">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="61">
+                  <lb n="61"/>
+                  <w xml:id="w_VilainParadis_Nott6_438">Ço</w>
+                  <w xml:id="w_VilainParadis_Nott6_439">est</w>
+                  <w xml:id="w_VilainParadis_Nott6_440">la</w>
+                  <w xml:id="w_VilainParadis_Nott6_441">maizons</w>
+                  <w xml:id="w_VilainParadis_Nott6_442">as</w>
+                  <w xml:id="w_VilainParadis_Nott6_443">cortois</w>
+                  <pc xml:id="w_VilainParadis_Nott6_444">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="62">
+                  <lb n="62"/>
+                  <pc xml:id="w_VilainParadis_Nott6_445">
+                     <choice>
+                        <orig/>
+                        <reg>-</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_VilainParadis_Nott6_446"><choice><orig>t</orig><reg>T</reg></choice>umas</w>
+                  <pc xml:id="w_VilainParadis_Nott6_447">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_VilainParadis_Nott6_448"><choice><orig>t</orig><reg>T</reg></choice>umas</w>
+                  <pc xml:id="w_VilainParadis_Nott6_449">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_VilainParadis_Nott6_450">pl<ex>us</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_451">estes</w>
+                  <w xml:id="w_VilainParadis_Nott6_452">cois</w>
+                  <note type="philologique">
+                     <p rend="footnote text" style="text-align: justify;">Le copiste semble écrire <hi rend="italic">tois</hi>, mais dans les manuscrits médiévaux, la graphie <hi rend="italic">c</hi> se confond souvent avec la graphie <hi rend="italic">t</hi>.</p>
+                  </note>
+                  <cb n="351rb"/>
+               </l>
+               <l n="63">
+                  <lb n="63"/>
+                  <w xml:id="w_VilainParadis_Nott6_453"><choice><orig>D</orig><reg>d</reg></choice>es</w>
+                  <w xml:id="w_VilainParadis_Nott6_454"><del rend="dot-below">s</del>responsaus</w>
+                  <w xml:id="w_VilainParadis_Nott6_455">q<ex>ue</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_456">nus</w>
+                  <w xml:id="w_VilainParadis_Nott6_457">legist<supplied>es</supplied></w>
+                  <pc xml:id="w_VilainParadis_Nott6_458">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="64">
+                  <lb n="64"/>
+                  <w xml:id="w_VilainParadis_Nott6_459">En</w>
+                  <w xml:id="w_VilainParadis_Nott6_460">estes</w>
+                  <w xml:id="w_VilainParadis_Nott6_461"><choice><orig>u</orig><reg>v</reg></choice>os</w>
+                  <w xml:id="w_VilainParadis_Nott6_462">ce<supplied>l</supplied></w>
+                  <w xml:id="w_VilainParadis_Nott6_463">q<ex>ui</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_464">desistes</w>
+               </l>
+               <l n="65">
+                  <lb n="65"/>
+                  <w xml:id="w_VilainParadis_Nott6_465">as</w>
+                  <w xml:id="w_VilainParadis_Nott6_466">apostres</w>
+                  <pc xml:id="w_VilainParadis_Nott6_467">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_VilainParadis_Nott6_468">dont</w>
+                  <w xml:id="w_VilainParadis_Nott6_469">ert</w>
+                  <w xml:id="w_VilainParadis_Nott6_470">seü</w>
+               </l>
+               <l n="66">
+                  <lb n="66"/>
+                  <w xml:id="w_VilainParadis_Nott6_471" join="right" ana="#aggl-cert_low"><choice><orig>Q</orig><reg>q</reg></choice><ex>ue</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_472">il</w>
+                  <w xml:id="w_VilainParadis_Nott6_473">a<choice><orig>u</orig><reg>v</reg></choice>oient</w>
+                  <w xml:id="w_VilainParadis_Nott6_474"><choice><orig>d</orig><reg>D</reg></choice>eu</w>
+                  <w xml:id="w_VilainParadis_Nott6_475"><choice><orig>u</orig><reg>v</reg></choice>eü</w>
+               </l>
+               <l n="67">
+                  <lb n="67"/>
+                  <w xml:id="w_VilainParadis_Nott6_476">emp<ex>ré</ex>s</w>
+                  <w xml:id="w_VilainParadis_Nott6_477">le</w>
+                  <w xml:id="w_VilainParadis_Nott6_478">resusitement</w>
+               </l>
+               <l n="68">
+                  <lb n="68"/>
+                  <pc xml:id="w_VilainParadis_Nott6_479">
+                     <choice>
+                        <orig/>
+                        <reg>-</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_VilainParadis_Nott6_480">vos</w>
+                  <w xml:id="w_VilainParadis_Nott6_481">fesistes</w>
+                  <w xml:id="w_VilainParadis_Nott6_482"><choice><orig>u</orig><reg>v</reg></choice>o</w>
+                  <w xml:id="w_VilainParadis_Nott6_483">sairement</w>
+                  <pc xml:id="w_VilainParadis_Nott6_484">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+                  <pc xml:id="w_VilainParadis_Nott6_485">
+                     <choice>
+                        <orig/>
+                        <reg>-</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="69">
+                  <lb n="69"/>
+                  <w xml:id="w_VilainParadis_Nott6_486" join="right"><choice><orig>Q</orig><reg>q</reg></choice><ex>ue</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_487"><choice><orig>u</orig><reg>v</reg></choice>os</w>
+                  <w xml:id="w_VilainParadis_Nott6_488"><choice><orig>i</orig><reg>j</reg></choice>a</w>
+                  <w xml:id="w_VilainParadis_Nott6_489" join="right">ne</w>
+                  <w xml:id="w_VilainParadis_Nott6_490">le</w>
+                  <w xml:id="w_VilainParadis_Nott6_491">kerri<choice><orig>j</orig><reg>i</reg></choice>és</w>
+               </l>
+               <l n="70">
+                  <lb n="70"/>
+                  <w xml:id="w_VilainParadis_Nott6_492"><choice><orig>S</orig><reg>s</reg></choice>e</w>
+                  <w xml:id="w_VilainParadis_Nott6_493"><choice><orig>u</orig><reg>v</reg></choice>os</w>
+                  <w xml:id="w_VilainParadis_Nott6_494">les</w>
+                  <w xml:id="w_VilainParadis_Nott6_495">plaies</w>
+                  <w xml:id="w_VilainParadis_Nott6_496">ne</w>
+                  <w xml:id="w_VilainParadis_Nott6_497"><choice><orig>u</orig><reg>v</reg></choice>eiés</w>
+               </l>
+               <l n="71">
+                  <lb n="71"/>
+                  <w xml:id="w_VilainParadis_Nott6_498"><choice><orig>Q</orig><reg>q</reg></choice><ex>u</ex>’</w>
+                  <w xml:id="w_VilainParadis_Nott6_499"><ex>e</ex>n</w>
+                  <w xml:id="w_VilainParadis_Nott6_500">crois</w>
+                  <w xml:id="w_VilainParadis_Nott6_501">a<choice><orig>u</orig><reg>v</reg></choice>oit</w>
+                  <w xml:id="w_VilainParadis_Nott6_502">reçut</w>
+                  <w xml:id="w_VilainParadis_Nott6_503"><choice><orig>u</orig><reg>v</reg></choice>os</w>
+                  <w xml:id="w_VilainParadis_Nott6_504">mestre</w>
+                  <pc xml:id="w_VilainParadis_Nott6_505">
+                     <choice>
+                        <orig/>
+                        <reg>?</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="72">
+                  <lb n="72"/>
+                  <w xml:id="w_VilainParadis_Nott6_506">Çaiens</w>
+                  <w xml:id="w_VilainParadis_Nott6_507" join="right" ana="#aggl-cert_low">ne</w>
+                  <w xml:id="w_VilainParadis_Nott6_508">de<choice><orig>u</orig><reg>v</reg></choice>és</w>
+                  <w xml:id="w_VilainParadis_Nott6_509"><choice><orig>u</orig><reg>v</reg></choice>os</w>
+                  <w xml:id="w_VilainParadis_Nott6_510">pas</w>
+                  <w xml:id="w_VilainParadis_Nott6_511">estre</w>
+               </l>
+               <l n="73">
+                  <lb n="73"/>
+                  <w xml:id="w_VilainParadis_Nott6_512"><choice><orig>C</orig><reg>c</reg></choice>ar</w>
+                  <w xml:id="w_VilainParadis_Nott6_513">faus</w>
+                  <w xml:id="w_VilainParadis_Nott6_514">fustes</w>
+                  <w xml:id="w_VilainParadis_Nott6_515"><ex>et</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_516">mescreans</w>
+                  <pc xml:id="w_VilainParadis_Nott6_517">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+                  <pc xml:id="w_VilainParadis_Nott6_518">
+                     <choice>
+                        <orig/>
+                        <reg>»</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="74">
+                  <lb n="74"/>
+                  <pc xml:id="w_VilainParadis_Nott6_519">
+                     <choice>
+                        <orig>.</orig>
+                        <reg/>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_VilainParadis_Nott6_520">S<ex>ains</ex></w>
+                  <pc xml:id="w_VilainParadis_Nott6_521">
+                     <choice>
+                        <orig>.</orig>
+                        <reg/>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_VilainParadis_Nott6_522"><choice><orig>t</orig><reg>T</reg></choice>umas</w>
+                  <w xml:id="w_VilainParadis_Nott6_523" join="right" ana="#aggl-cert_low">fu</w>
+                  <w xml:id="w_VilainParadis_Nott6_524">lués</w>
+                  <w xml:id="w_VilainParadis_Nott6_525">recreans</w>
+               </l>
+               <l n="75">
+                  <lb n="75"/>
+                  <w xml:id="w_VilainParadis_Nott6_526" join="right" ana="#aggl-cert_low">de</w>
+                  <w xml:id="w_VilainParadis_Nott6_527">tench<ex>ier</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_528"><ex>et</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_529">basce</w>
+                  <w xml:id="w_VilainParadis_Nott6_530">le</w>
+                  <w xml:id="w_VilainParadis_Nott6_531">col</w>
+                  <pc xml:id="w_VilainParadis_Nott6_532">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="76">
+                  <lb n="76"/>
+                  <w xml:id="w_VilainParadis_Nott6_533"><choice><orig>v</orig><reg>V</reg></choice>enus</w>
+                  <w xml:id="w_VilainParadis_Nott6_534">en</w>
+                  <w xml:id="w_VilainParadis_Nott6_535">est</w>
+                  <w xml:id="w_VilainParadis_Nott6_536">droit</w>
+                  <w xml:id="w_VilainParadis_Nott6_537" join="right">a</w>
+                  <w xml:id="w_VilainParadis_Nott6_538">s<ex>aint</ex></w>
+                  <pc xml:id="w_VilainParadis_Nott6_539">
+                     <choice>
+                        <orig>.</orig>
+                        <reg/>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_VilainParadis_Nott6_540"><choice><orig>p</orig><reg>P</reg></choice>ol</w>
+                  <pc xml:id="w_VilainParadis_Nott6_541">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="77">
+                  <lb n="77"/>
+                  <w xml:id="w_VilainParadis_Nott6_542"><choice><orig>S</orig><reg>s</reg></choice>e</w>
+                  <w xml:id="w_VilainParadis_Nott6_543" join="right" ana="#aggl-cert_low">li</w>
+                  <w xml:id="w_VilainParadis_Nott6_544"><ex>con</ex>te</w>
+                  <w xml:id="w_VilainParadis_Nott6_545">de</w>
+                  <w xml:id="w_VilainParadis_Nott6_546">cief</w>
+                  <w xml:id="w_VilainParadis_Nott6_547" join="right">en</w>
+                  <w xml:id="w_VilainParadis_Nott6_548">cief</w>
+                  <pc xml:id="w_VilainParadis_Nott6_549">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="78">
+                  <lb n="78"/>
+                  <w xml:id="w_VilainParadis_Nott6_550"><choice><orig>f</orig><reg>F</reg></choice>ait</w>
+                  <w xml:id="w_VilainParadis_Nott6_551">s<ex>ains</ex></w>
+                  <pc xml:id="w_VilainParadis_Nott6_552">
+                     <choice>
+                        <orig>.</orig>
+                        <reg/>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_VilainParadis_Nott6_553"><choice><orig>p</orig><reg>P</reg></choice>ols</w>
+                  <pc xml:id="w_VilainParadis_Nott6_554">
+                     <choice>
+                        <orig/>
+                        <reg>:</reg>
+                     </choice>
+                  </pc>
+                  <pc xml:id="w_VilainParadis_Nott6_555">
+                     <choice>
+                        <orig/>
+                        <reg>«</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_VilainParadis_Nott6_556"><choice><orig>g</orig><reg>G</reg></choice>’</w>
+                  <w xml:id="w_VilainParadis_Nott6_557">irai</w>
+                  <pc xml:id="w_VilainParadis_Nott6_558">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_VilainParadis_Nott6_559">p<ex>ar</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_560" join="right">mo<ex>n</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_561">cief</w>
+                  <pc xml:id="w_VilainParadis_Nott6_562">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="79">
+                  <lb n="79"/>
+                  <w xml:id="w_VilainParadis_Nott6_563"><choice><orig>S</orig><reg>s</reg></choice>’</w>
+                  <w xml:id="w_VilainParadis_Nott6_564">orai</w>
+                  <w xml:id="w_VilainParadis_Nott6_565">q<ex>u</ex>’</w>
+                  <w xml:id="w_VilainParadis_Nott6_566"><ex>i</ex>l</w>
+                  <w xml:id="w_VilainParadis_Nott6_567">me</w>
+                  <w xml:id="w_VilainParadis_Nott6_568"><choice><orig>u</orig><reg>v</reg></choice>olra</w>
+                  <w xml:id="w_VilainParadis_Nott6_569">respond<ex>re</ex></w>
+                  <pc xml:id="w_VilainParadis_Nott6_570">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+                  <pc xml:id="w_VilainParadis_Nott6_571">
+                     <choice>
+                        <orig/>
+                        <reg>»</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="80">
+                  <lb n="80"/>
+                  <w xml:id="w_VilainParadis_Nott6_572"><choice><orig>l</orig><reg>L</reg></choice>’</w>
+                  <w xml:id="w_VilainParadis_Nott6_573">ame</w>
+                  <w xml:id="w_VilainParadis_Nott6_574">n’</w>
+                  <w xml:id="w_VilainParadis_Nott6_575">ot</w>
+                  <w xml:id="w_VilainParadis_Nott6_576">cure</w>
+                  <w xml:id="w_VilainParadis_Nott6_577">de</w>
+                  <w xml:id="w_VilainParadis_Nott6_578">repond<ex>re</ex></w>
+                  <pc xml:id="w_VilainParadis_Nott6_579">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="81">
+                  <lb n="81"/>
+                  <w xml:id="w_VilainParadis_Nott6_580"><choice><orig>a</orig><reg>A</reg></choice><choice><orig>u</orig><reg>v</reg></choice>al</w>
+                  <w xml:id="w_VilainParadis_Nott6_581">p<ex>ar</ex>adis</w>
+                  <w xml:id="w_VilainParadis_Nott6_582">se</w>
+                  <w xml:id="w_VilainParadis_Nott6_583">deduist</w>
+                  <pc xml:id="w_VilainParadis_Nott6_584">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="82">
+                  <lb n="82"/>
+                  <pc xml:id="w_VilainParadis_Nott6_585">
+                     <choice>
+                        <orig/>
+                        <reg>«</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_VilainParadis_Nott6_586"><choice><orig>v</orig><reg>V</reg></choice>ilai<ex>n</ex></w>
+                  <pc xml:id="w_VilainParadis_Nott6_587">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_VilainParadis_Nott6_588">fait</w>
+                  <w xml:id="w_VilainParadis_Nott6_589">il</w>
+                  <pc xml:id="w_VilainParadis_Nott6_590">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_VilainParadis_Nott6_591">q<ex>ui</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_592"><choice><orig>u</orig><reg>v</reg></choice>os</w>
+                  <w xml:id="w_VilainParadis_Nott6_593"><ex>con</ex><space type="degl"/>duist</w>
+                  <pc xml:id="w_VilainParadis_Nott6_594">
+                     <choice>
+                        <orig/>
+                        <reg>?</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="83">
+                  <lb n="83"/>
+                  <w xml:id="w_VilainParadis_Nott6_595">Çaiens</w>
+                  <w xml:id="w_VilainParadis_Nott6_596">ne</w>
+                  <w xml:id="w_VilainParadis_Nott6_597">doit</w>
+                  <w xml:id="w_VilainParadis_Nott6_598"><choice><orig>u</orig><reg>v</reg></choice>ilai<ex>n</ex>s</w>
+                  <w xml:id="w_VilainParadis_Nott6_599">entrer</w>
+               </l>
+               <l n="84">
+                  <lb n="84"/>
+                  <w xml:id="w_VilainParadis_Nott6_600"><choice><orig>N</orig><reg>n</reg></choice>e</w>
+                  <w xml:id="w_VilainParadis_Nott6_601">h<ex>er</ex>bergier</w>
+                  <w xml:id="w_VilainParadis_Nott6_602">ne</w>
+                  <w xml:id="w_VilainParadis_Nott6_603">habiter</w>
+                  <pc xml:id="w_VilainParadis_Nott6_604">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="85">
+                  <lb n="85"/>
+                  <w xml:id="w_VilainParadis_Nott6_605"><choice><orig>o</orig><reg>O</reg></choice>u</w>
+                  <w xml:id="w_VilainParadis_Nott6_606">fesistes</w>
+                  <w xml:id="w_VilainParadis_Nott6_607"><choice><orig>u</orig><reg>v</reg></choice>os</w>
+                  <w xml:id="w_VilainParadis_Nott6_608">la</w>
+                  <w xml:id="w_VilainParadis_Nott6_609">deserte</w>
+               </l>
+               <l n="86">
+                  <lb n="86"/>
+                  <w xml:id="w_VilainParadis_Nott6_610" join="right" ana="#aggl-cert_low"><choice><orig>Q</orig><reg>q</reg></choice><ex>ue</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_611">la</w>
+                  <w xml:id="w_VilainParadis_Nott6_612">porte</w>
+                  <w xml:id="w_VilainParadis_Nott6_613"><choice><orig>u</orig><reg>v</reg></choice>os</w>
+                  <w xml:id="w_VilainParadis_Nott6_614">fu</w>
+                  <w xml:id="w_VilainParadis_Nott6_615">o<choice><orig>u</orig><reg>v</reg></choice>erte</w>
+                  <pc xml:id="w_VilainParadis_Nott6_616">
+                     <choice>
+                        <orig/>
+                        <reg>?</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="87">
+                  <lb n="87"/>
+                  <w xml:id="w_VilainParadis_Nott6_617">Wide</w>
+                  <w xml:id="w_VilainParadis_Nott6_618">p<ex>ar</ex>adis</w>
+                  <pc xml:id="w_VilainParadis_Nott6_619">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_VilainParadis_Nott6_620"><choice><orig>u</orig><reg>v</reg></choice>ilains</w>
+                  <w xml:id="w_VilainParadis_Nott6_621">faus</w>
+                  <pc xml:id="w_VilainParadis_Nott6_622">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="88">
+                  <lb n="88"/>
+                  <pc xml:id="w_VilainParadis_Nott6_623">
+                     <choice>
+                        <orig/>
+                        <reg>-</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_VilainParadis_Nott6_624">Cui</w>
+                  <pc xml:id="w_VilainParadis_Nott6_625">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_VilainParadis_Nott6_626">fait</w>
+                  <w xml:id="w_VilainParadis_Nott6_627">l’</w>
+                  <w xml:id="w_VilainParadis_Nott6_628">ame</w>
+                  <pc xml:id="w_VilainParadis_Nott6_629">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_VilainParadis_Nott6_630">dans</w>
+                  <w xml:id="w_VilainParadis_Nott6_631"><choice><orig>p</orig><reg>P</reg></choice>ols</w>
+                  <w xml:id="w_VilainParadis_Nott6_632" join="right">li</w>
+                  <w xml:id="w_VilainParadis_Nott6_633">caus</w>
+                  <pc xml:id="w_VilainParadis_Nott6_634">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="89">
+                  <lb n="89"/>
+                  <w xml:id="w_VilainParadis_Nott6_635">estes</w>
+                  <w xml:id="w_VilainParadis_Nott6_636"><choice><orig>u</orig><reg>v</reg></choice>os</w>
+                  <pc xml:id="w_VilainParadis_Nott6_637">
+                     <choice>
+                        <orig/>
+                        <reg>?</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_VilainParadis_Nott6_638"><choice><orig>a</orig><reg>A</reg></choice>s</w>
+                  <w xml:id="w_VilainParadis_Nott6_639">sai<ex>n</ex>s</w>
+                  <pc xml:id="w_VilainParadis_Nott6_640">
+                     <choice>
+                        <orig/>
+                        <reg>?</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_VilainParadis_Nott6_641"><choice><orig>a</orig><reg>A</reg></choice>s</w>
+                  <w xml:id="w_VilainParadis_Nott6_642">tirans</w>
+                  <pc xml:id="w_VilainParadis_Nott6_643">
+                     <choice>
+                        <orig/>
+                        <reg>?</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="90">
+                  <lb n="90"/>
+                  <w xml:id="w_VilainParadis_Nott6_644"><choice><orig>t</orig><reg>T</reg></choice>an<subst><del rend="dot-below">s</del><add>t</add></subst></w>
+                  <w xml:id="w_VilainParadis_Nott6_645">fustes</w>
+                  <w xml:id="w_VilainParadis_Nott6_646">oribles</w>
+                  <w xml:id="w_VilainParadis_Nott6_647">tirans</w>
+               </l>
+               <l n="91">
+                  <lb n="91"/>
+                  <w xml:id="w_VilainParadis_Nott6_648"><choice><orig>J</orig><reg>j</reg></choice>amais</w>
+                  <w xml:id="w_VilainParadis_Nott6_649" join="right">si</w>
+                  <w xml:id="w_VilainParadis_Nott6_650">crueus</w>
+                  <w xml:id="w_VilainParadis_Nott6_651">ne</w>
+                  <w xml:id="w_VilainParadis_Nott6_652">sera</w>
+                  <pc xml:id="w_VilainParadis_Nott6_653">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="92">
+                  <lb n="92"/>
+                  <w xml:id="w_VilainParadis_Nott6_654">S<ex>ains</ex></w>
+                  <pc xml:id="w_VilainParadis_Nott6_655">
+                     <choice>
+                        <orig>.</orig>
+                        <reg/>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_VilainParadis_Nott6_656"><choice><orig>e</orig><reg>E</reg></choice>ste<choice><orig>u</orig><reg>v</reg></choice>enẹs</w>
+                  <w xml:id="w_VilainParadis_Nott6_657">le</w>
+                  <w xml:id="w_VilainParadis_Nott6_658"><ex>com</ex>para</w>
+                  <pc xml:id="w_VilainParadis_Nott6_659">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="93">
+                  <lb n="93"/>
+                  <w xml:id="w_VilainParadis_Nott6_660"><choice><orig>C</orig><reg>c</reg></choice>ui</w>
+                  <w xml:id="w_VilainParadis_Nott6_661"><choice><orig>u</orig><reg>v</reg></choice>os</w>
+                  <w xml:id="w_VilainParadis_Nott6_662">fesistes</w>
+                  <w xml:id="w_VilainParadis_Nott6_663">lapider</w>
+                  <pc xml:id="w_VilainParadis_Nott6_664">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="94">
+                  <lb n="94"/>
+                  <w xml:id="w_VilainParadis_Nott6_665">Bien</w>
+                  <w xml:id="w_VilainParadis_Nott6_666">sai</w>
+                  <w xml:id="w_VilainParadis_Nott6_667"><choice><orig>u</orig><reg>v</reg></choice>o</w>
+                  <w xml:id="w_VilainParadis_Nott6_668"><choice><orig>u</orig><reg>v</reg></choice>ie</w>
+                  <w xml:id="w_VilainParadis_Nott6_669">recorder</w>
+                  <pc xml:id="w_VilainParadis_Nott6_670">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="95">
+                  <lb n="95"/>
+                  <w xml:id="w_VilainParadis_Nott6_671"><choice><orig>l</orig><reg>L</reg></choice>es</w>
+                  <w xml:id="w_VilainParadis_Nott6_672"><ex>com</ex>mans</w>
+                  <w xml:id="w_VilainParadis_Nott6_673" join="right">a</w>
+                  <w xml:id="w_VilainParadis_Nott6_674">Deu</w>
+                  <w xml:id="w_VilainParadis_Nott6_675">des<space type="degl"/>degniés</w>
+                  <pc xml:id="w_VilainParadis_Nott6_676">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="96">
+                  <lb n="96"/>
+                  <w xml:id="w_VilainParadis_Nott6_677" join="right"><choice><orig>e</orig><reg>E</reg></choice>n</w>
+                  <w xml:id="w_VilainParadis_Nott6_678">q<ex>ue</ex>l</w>
+                  <w xml:id="w_VilainParadis_Nott6_679">liu</w>
+                  <w xml:id="w_VilainParadis_Nott6_680">q<ex>ue</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_681"><choice><orig>u</orig><reg>v</reg></choice>os</w>
+                  <w xml:id="w_VilainParadis_Nott6_682"><choice><orig>u</orig><reg>v</reg></choice>enïés</w>
+               </l>
+               <l n="97">
+                  <lb n="97"/>
+                  <w xml:id="w_VilainParadis_Nott6_683">tot</w>
+                  <w xml:id="w_VilainParadis_Nott6_684" join="right" ana="#aggl-cert_low">estoie<ex>n</ex>t</w>
+                  <w xml:id="w_VilainParadis_Nott6_685">mort</w>
+                  <w xml:id="w_VilainParadis_Nott6_686">li</w>
+                  <w xml:id="w_VilainParadis_Nott6_687">s<ex>aint</ex></w>
+                  <pc xml:id="w_VilainParadis_Nott6_688">
+                     <choice>
+                        <orig>.</orig>
+                        <reg/>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_VilainParadis_Nott6_689">ome</w>
+                  <pc xml:id="w_VilainParadis_Nott6_690">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="98">
+                  <lb n="98"/>
+                  <w xml:id="w_VilainParadis_Nott6_691"><choice><orig>d</orig><reg>D</reg></choice>ex</w>
+                  <w xml:id="w_VilainParadis_Nott6_692"><choice><orig>u</orig><reg>v</reg></choice>os</w>
+                  <note type="philologique">
+                     <p rend="footnote text" style="text-align: justify;">Le copiste semble écrire <hi rend="italic">nos</hi> alors qu’il faut lire <hi rend="italic">vos</hi>. Ce n’est pas une coquille, mais une confusion des deux graphies <hi rend="italic">n</hi> et <hi rend="italic">v</hi> qui paraissent souvent interchangeables aux copistes et qu’on rencontre dans d’autres manuscrits.</p>
+                  </note>
+                  <w xml:id="w_VilainParadis_Nott6_693">dona</w>
+                  <w xml:id="w_VilainParadis_Nott6_694" join="right" ana="#aggl-cert_low">sor</w>
+                  <w xml:id="w_VilainParadis_Nott6_695">cele</w>
+                  <w xml:id="w_VilainParadis_Nott6_696">some</w>
+               </l>
+               <l n="99">
+                  <lb n="99"/>
+                  <w xml:id="w_VilainParadis_Nott6_697"><choice><orig>v</orig><reg>u</reg></choice>ne</w>
+                  <w xml:id="w_VilainParadis_Nott6_698">bufë</w>
+                  <w xml:id="w_VilainParadis_Nott6_699" join="right">a</w>
+                  <w xml:id="w_VilainParadis_Nott6_700">mai<ex>n</ex>enflee</w>
+                  <pc xml:id="w_VilainParadis_Nott6_701">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="100">
+                  <lb n="100"/>
+                  <w xml:id="w_VilainParadis_Nott6_702">Del</w>
+                  <w xml:id="w_VilainParadis_Nott6_703">marcié</w>
+                  <w xml:id="w_VilainParadis_Nott6_704" join="right"><ex>et</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_705">de</w>
+                  <w xml:id="w_VilainParadis_Nott6_706" join="right">le</w>
+                  <w xml:id="w_VilainParadis_Nott6_707">paumee</w>
+               </l>
+               <l n="101">
+                  <lb n="101"/>
+                  <w xml:id="w_VilainParadis_Nott6_708"><choice><orig>D</orig><reg>d</reg></choice>e<choice><orig>u</orig><reg>v</reg></choice>és</w>
+                  <w xml:id="w_VilainParadis_Nott6_709"><choice><orig>u</orig><reg>v</reg></choice>os</w>
+                  <w xml:id="w_VilainParadis_Nott6_710">enqore</w>
+                  <w xml:id="w_VilainParadis_Nott6_711">le</w>
+                  <w xml:id="w_VilainParadis_Nott6_712"><choice><orig>u</orig><reg>v</reg></choice>in</w>
+                  <pc xml:id="w_VilainParadis_Nott6_713">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="102">
+                  <lb n="102"/>
+                  <w xml:id="w_VilainParadis_Nott6_714"><choice><orig>h</orig><reg>H</reg></choice>a</w>
+                  <pc xml:id="w_VilainParadis_Nott6_715">
+                     <choice>
+                        <orig>;</orig>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_VilainParadis_Nott6_716"><choice><orig>d</orig><reg>D</reg></choice>ex</w>
+                  <pc xml:id="w_VilainParadis_Nott6_717">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_VilainParadis_Nott6_718"><choice><orig>q</orig><reg>Q</reg></choice><ex>ue</ex>l</w>
+                  <w xml:id="w_VilainParadis_Nott6_719">sai<ex>n</ex>t</w>
+                  <w xml:id="w_VilainParadis_Nott6_720"><ex>et</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_721">q<ex>ue</ex>l</w>
+                  <w xml:id="w_VilainParadis_Nott6_722">de<choice><orig>u</orig><reg>v</reg></choice>i<choice><orig>N</orig><reg>n</reg></choice></w>
+                  <pc xml:id="w_VilainParadis_Nott6_723">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="103">
+                  <lb n="103"/>
+                  <w xml:id="w_VilainParadis_Nott6_724">Qant</w>
+                  <w xml:id="w_VilainParadis_Nott6_725">çaiens</w>
+                  <w xml:id="w_VilainParadis_Nott6_726">o<ex>n</ex>t</w>
+                  <w xml:id="w_VilainParadis_Nott6_727" join="right">li</w>
+                  <w xml:id="w_VilainParadis_Nott6_728">buen</w>
+                  <w xml:id="w_VilainParadis_Nott6_729"><ex>con</ex>fort</w>
+                  <pc xml:id="w_VilainParadis_Nott6_730">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="104">
+                  <lb n="104"/>
+                  <w xml:id="w_VilainParadis_Nott6_731" join="right">p<ex>ar</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_732">foit</w>
+                  <pc xml:id="w_VilainParadis_Nott6_733">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_VilainParadis_Nott6_734"><choice><orig>u</orig><reg>v</reg></choice>os</w>
+                  <w xml:id="w_VilainParadis_Nott6_735" join="right">i</w>
+                  <w xml:id="w_VilainParadis_Nott6_736">estes</w>
+                  <w xml:id="w_VilainParadis_Nott6_737" join="right">a</w>
+                  <w xml:id="w_VilainParadis_Nott6_738">tort</w>
+                  <pc xml:id="w_VilainParadis_Nott6_739">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+                  <pb n="351v"
+                       xml:id="pb_3"
+                       facs="https://api.nakala.fr/iiif/10.34847/nkl.cf086818/8a85f81ae3db3e95cb5042dca45f4c6eba8bfb18/full/full/0/default.jpg"/>
+                  <cb n="351va"/>
+               </l>
+               <l n="105">
+                  <lb n="105"/>
+                  <w xml:id="w_VilainParadis_Nott6_741"><supplied>Cu</supplied>idiés</w>
+                  <w xml:id="w_VilainParadis_Nott6_742">q<ex>ue</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_743">bien</w>
+                  <w xml:id="w_VilainParadis_Nott6_744" join="right">ne</w>
+                  <w xml:id="w_VilainParadis_Nott6_745"><choice><orig>u</orig><reg>v</reg></choice>os</w>
+                  <w xml:id="w_VilainParadis_Nott6_746">conoisce</w>
+                  <pc xml:id="w_VilainParadis_Nott6_747">
+                     <choice>
+                        <orig/>
+                        <reg>?</reg>
+                     </choice>
+                  </pc>
+                  <pc xml:id="w_VilainParadis_Nott6_748">
+                     <choice>
+                        <orig/>
+                        <reg>»</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="106">
+                  <lb n="106"/>
+                  <w xml:id="w_VilainParadis_Nott6_749"><supplied>Sai</supplied>ns</w>
+                  <w xml:id="w_VilainParadis_Nott6_750"><choice><orig>p</orig><reg>P</reg></choice>ols</w>
+                  <w xml:id="w_VilainParadis_Nott6_751">en</w>
+                  <w xml:id="w_VilainParadis_Nott6_752">ot</w>
+                  <w xml:id="w_VilainParadis_Nott6_753">honte</w>
+                  <w xml:id="w_VilainParadis_Nott6_754"><ex>et</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_755">angoisce</w>
+                  <pc xml:id="w_VilainParadis_Nott6_756">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="107">
+                  <lb n="107"/>
+                  <w xml:id="w_VilainParadis_Nott6_757"><supplied>T</supplied>ornés</w>
+                  <w xml:id="w_VilainParadis_Nott6_758">s’</w>
+                  <w xml:id="w_VilainParadis_Nott6_759">en</w>
+                  <w xml:id="w_VilainParadis_Nott6_760">est</w>
+                  <w xml:id="w_VilainParadis_Nott6_761">mornes</w>
+                  <w xml:id="w_VilainParadis_Nott6_762"><ex>et</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_763">mas</w>
+                  <pc xml:id="w_VilainParadis_Nott6_764">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="108">
+                  <lb n="108"/>
+                  <w xml:id="w_VilainParadis_Nott6_765"><supplied>Re<choice><orig>u</orig><reg>v</reg></choice></supplied>enus</w>
+                  <w xml:id="w_VilainParadis_Nott6_766">est</w>
+                  <w xml:id="w_VilainParadis_Nott6_767">a</w>
+                  <w xml:id="w_VilainParadis_Nott6_768"><choice><orig>S</orig><reg>s</reg></choice><ex>aint</ex></w>
+                  <pc xml:id="w_VilainParadis_Nott6_769">
+                     <choice>
+                        <orig>.</orig>
+                        <reg/>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_VilainParadis_Nott6_770"><choice><orig>t</orig><reg>T</reg></choice>umas</w>
+                  <pc xml:id="w_VilainParadis_Nott6_771">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="109">
+                  <lb n="109"/>
+                  <w xml:id="w_VilainParadis_Nott6_772"><choice><orig>Q</orig><reg>q</reg></choice><ex>ui</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_773">a</w>
+                  <pc xml:id="w_VilainParadis_Nott6_774">
+                     <choice>
+                        <orig>.</orig>
+                        <reg/>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_VilainParadis_Nott6_775"><choice><orig>S</orig><reg>s</reg></choice><ex>aint</ex></w>
+                  <pc xml:id="w_VilainParadis_Nott6_776">
+                     <choice>
+                        <orig>.</orig>
+                        <reg/>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_VilainParadis_Nott6_777"><choice><orig>p</orig><reg>P</reg></choice>iere</w>
+                  <w xml:id="w_VilainParadis_Nott6_778">estroit</w>
+                  <w xml:id="w_VilainParadis_Nott6_779"><ex>con</ex>selle</w>
+                  <pc xml:id="w_VilainParadis_Nott6_780">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="110">
+                  <lb n="110"/>
+                  <w xml:id="w_VilainParadis_Nott6_781">Il</w>
+                  <w xml:id="w_VilainParadis_Nott6_782">li</w>
+                  <w xml:id="w_VilainParadis_Nott6_783">raconte</w>
+                  <w xml:id="w_VilainParadis_Nott6_784">la</w>
+                  <w xml:id="w_VilainParadis_Nott6_785">mer<choice><orig>u</orig><reg>v</reg></choice>elle</w>
+               </l>
+               <l n="111">
+                  <lb n="111"/>
+                  <w xml:id="w_VilainParadis_Nott6_786"><choice><orig>S</orig><reg>s</reg></choice>i</w>
+                  <w xml:id="w_VilainParadis_Nott6_787"><ex>com</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_788">li</w>
+                  <w xml:id="w_VilainParadis_Nott6_789"><choice><orig>u</orig><reg>v</reg></choice>ilains</w>
+                  <w xml:id="w_VilainParadis_Nott6_790">l’</w>
+                  <w xml:id="w_VilainParadis_Nott6_791">ot</w>
+                  <w xml:id="w_VilainParadis_Nott6_792">maté</w>
+                  <pc xml:id="w_VilainParadis_Nott6_793">
+                     <choice>
+                        <orig/>
+                        <reg>:</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="112">
+                  <lb n="112"/>
+                  <pc xml:id="w_VilainParadis_Nott6_794">
+                     <choice>
+                        <orig/>
+                        <reg>«</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_VilainParadis_Nott6_795"><choice><orig>e</orig><reg>E</reg></choice>ndroit</w>
+                  <w xml:id="w_VilainParadis_Nott6_796">moi</w>
+                  <w xml:id="w_VilainParadis_Nott6_797" join="right">a</w>
+                  <w xml:id="w_VilainParadis_Nott6_798">il</w>
+                  <w xml:id="w_VilainParadis_Nott6_799"><ex>con</ex>questé</w>
+               </l>
+               <l n="113">
+                  <lb n="113"/>
+                  <w xml:id="w_VilainParadis_Nott6_800">p<ex>ar</ex>adis</w>
+                  <pc xml:id="w_VilainParadis_Nott6_801">
+                     <choice>
+                        <orig/>
+                        <reg>;</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_VilainParadis_Nott6_802">q<ex>ui</ex>te</w>
+                  <w xml:id="w_VilainParadis_Nott6_803">li</w>
+                  <w xml:id="w_VilainParadis_Nott6_804">otroi</w>
+                  <pc xml:id="w_VilainParadis_Nott6_805">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+                  <pc xml:id="w_VilainParadis_Nott6_806">
+                     <choice>
+                        <orig/>
+                        <reg>»</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="114">
+                  <lb n="114"/>
+                  <w xml:id="w_VilainParadis_Nott6_807" join="right"><choice><orig>a</orig><reg>A</reg></choice></w>
+                  <w xml:id="w_VilainParadis_Nott6_808"><choice><orig>d</orig><reg>D</reg></choice>eu</w>
+                  <w xml:id="w_VilainParadis_Nott6_809">s’</w>
+                  <w xml:id="w_VilainParadis_Nott6_810">en</w>
+                  <w xml:id="w_VilainParadis_Nott6_811"><choice><orig>u</orig><reg>v</reg></choice>o<ex>n</ex>t</w>
+                  <w xml:id="w_VilainParadis_Nott6_812">clam<ex>er</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_813" join="right">tot</w>
+                  <w xml:id="w_VilainParadis_Nott6_814">troi</w>
+                  <pc xml:id="w_VilainParadis_Nott6_815">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="115">
+                  <lb n="115"/>
+                  <pc xml:id="w_VilainParadis_Nott6_816">
+                     <choice>
+                        <orig>.</orig>
+                        <reg/>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_VilainParadis_Nott6_817">S<ex>ains</ex></w>
+                  <pc xml:id="w_VilainParadis_Nott6_818">
+                     <choice>
+                        <orig>.</orig>
+                        <reg/>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_VilainParadis_Nott6_819"><choice><orig>p</orig><reg>P</reg></choice>ieres</w>
+                  <w xml:id="w_VilainParadis_Nott6_820">bonement</w>
+                  <w xml:id="w_VilainParadis_Nott6_821">li</w>
+                  <w xml:id="w_VilainParadis_Nott6_822"><ex>con</ex>te</w>
+               </l>
+               <l n="116">
+                  <lb n="116"/>
+                  <w xml:id="w_VilainParadis_Nott6_823"><choice><orig>D</orig><reg>d</reg></choice>el</w>
+                  <w xml:id="w_VilainParadis_Nott6_824"><choice><orig>u</orig><reg>v</reg></choice>ilain</w>
+                  <pc xml:id="w_VilainParadis_Nott6_825">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_VilainParadis_Nott6_826">q<ex>ui</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_827">lor</w>
+                  <w xml:id="w_VilainParadis_Nott6_828" join="right">a</w>
+                  <w xml:id="w_VilainParadis_Nott6_829">dit</w>
+                  <w xml:id="w_VilainParadis_Nott6_830">honte</w>
+                  <pc xml:id="w_VilainParadis_Nott6_831">
+                     <choice>
+                        <orig/>
+                        <reg>:</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="117">
+                  <lb n="117"/>
+                  <pc xml:id="w_VilainParadis_Nott6_832">
+                     <choice>
+                        <orig/>
+                        <reg>«</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_VilainParadis_Nott6_833"><choice><orig>p</orig><reg>P</reg></choice><ex>ar</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_834">p<ex>ar</ex>ole</w>
+                  <w xml:id="w_VilainParadis_Nott6_835">nos</w>
+                  <w xml:id="w_VilainParadis_Nott6_836">a</w>
+                  <w xml:id="w_VilainParadis_Nott6_837"><choice><orig>u</orig><reg>v</reg></choice>ai<ex>n</ex>cus</w>
+                  <pc xml:id="w_VilainParadis_Nott6_838">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="118">
+                  <lb n="118"/>
+                  <w xml:id="w_VilainParadis_Nott6_839"><choice><orig>I</orig><reg>J</reg></choice>e</w>
+                  <w xml:id="w_VilainParadis_Nott6_840">meïsmes</w>
+                  <w xml:id="w_VilainParadis_Nott6_841">sui</w>
+                  <w xml:id="w_VilainParadis_Nott6_842">si</w>
+                  <w xml:id="w_VilainParadis_Nott6_843"><ex>con</ex>clus</w>
+               </l>
+               <l n="119">
+                  <lb n="119"/>
+                  <w xml:id="w_VilainParadis_Nott6_844" join="right" ana="#aggl-cert_low"><choice><orig>Q</orig><reg>q</reg></choice><ex>ue</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_845"><choice><orig>i</orig><reg>j</reg></choice>amais</w>
+                  <w xml:id="w_VilainParadis_Nott6_846"><choice><orig>u</orig><reg>v</reg></choice>oir</w>
+                  <w xml:id="w_VilainParadis_Nott6_847">n’</w>
+                  <w xml:id="w_VilainParadis_Nott6_848">e<ex>n</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_849">p<ex>ar</ex>lerai</w>
+                  <pc xml:id="w_VilainParadis_Nott6_850">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+                  <pc xml:id="w_VilainParadis_Nott6_851">
+                     <choice>
+                        <orig/>
+                        <reg>»</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="120">
+                  <lb n="120"/>
+                  <w xml:id="w_VilainParadis_Nott6_852"><choice><orig>f</orig><reg>F</reg></choice>ait</w>
+                  <w xml:id="w_VilainParadis_Nott6_853"><choice><orig>n</orig><reg>N</reg></choice><ex>ost</ex>re</w>
+                  <w xml:id="w_VilainParadis_Nott6_854"><choice><orig>s</orig><reg>S</reg></choice>ire</w>
+                  <pc xml:id="w_VilainParadis_Nott6_855">
+                     <choice>
+                        <orig/>
+                        <reg>:</reg>
+                     </choice>
+                  </pc>
+                  <pc xml:id="w_VilainParadis_Nott6_856">
+                     <choice>
+                        <orig/>
+                        <reg>«</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_VilainParadis_Nott6_857"><choice><orig>j</orig><reg>J</reg></choice>o</w>
+                  <w xml:id="w_VilainParadis_Nott6_858">irai</w>
+               </l>
+               <l n="121">
+                  <lb n="121"/>
+                  <w xml:id="w_VilainParadis_Nott6_859">p<ex>or</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_860">solement</w>
+                  <w xml:id="w_VilainParadis_Nott6_861">ceste</w>
+                  <w xml:id="w_VilainParadis_Nott6_862">no<choice><orig>u</orig><reg>v</reg></choice>ele</w>
+                  <pc xml:id="w_VilainParadis_Nott6_863">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+                  <pc xml:id="w_VilainParadis_Nott6_864">
+                     <choice>
+                        <orig/>
+                        <reg>»</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="122">
+                  <lb n="122"/>
+                  <w xml:id="w_VilainParadis_Nott6_865">Il</w>
+                  <w xml:id="w_VilainParadis_Nott6_866"><choice><orig>u</orig><reg>v</reg></choice>ient</w>
+                  <w xml:id="w_VilainParadis_Nott6_867" join="right">a</w>
+                  <w xml:id="w_VilainParadis_Nott6_868">l’</w>
+                  <w xml:id="w_VilainParadis_Nott6_869">ame</w>
+                  <pc xml:id="w_VilainParadis_Nott6_870">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_VilainParadis_Nott6_871">si</w>
+                  <w xml:id="w_VilainParadis_Nott6_872">l’</w>
+                  <w xml:id="w_VilainParadis_Nott6_873">apele</w>
+                  <pc xml:id="w_VilainParadis_Nott6_874">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="123">
+                  <lb n="123"/>
+                  <w xml:id="w_VilainParadis_Nott6_875">Demande</w>
+                  <w xml:id="w_VilainParadis_Nott6_876">li</w>
+                  <w xml:id="w_VilainParadis_Nott6_877"><ex>com</ex>m<ex>en</ex>t</w>
+                  <w xml:id="w_VilainParadis_Nott6_878">a<choice><orig>u</orig><reg>v</reg></choice>int</w>
+               </l>
+               <l n="124">
+                  <lb n="124"/>
+                  <w xml:id="w_VilainParadis_Nott6_879"><choice><orig>Q</orig><reg>q</reg></choice><ex>ue</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_880">sans</w>
+                  <w xml:id="w_VilainParadis_Nott6_881"><ex>con</ex>duit</w>
+                  <w xml:id="w_VilainParadis_Nott6_882" join="right" ana="#aggl-cert_low">la</w>
+                  <w xml:id="w_VilainParadis_Nott6_883">dede<ex>n</ex>s</w>
+                  <w xml:id="w_VilainParadis_Nott6_884"><choice><orig>u</orig><reg>v</reg></choice>int</w>
+                  <pc xml:id="w_VilainParadis_Nott6_885">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="125">
+                  <lb n="125"/>
+                  <pc xml:id="w_VilainParadis_Nott6_886">
+                     <choice>
+                        <orig/>
+                        <reg>«</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_VilainParadis_Nott6_887">Çaiens</w>
+                  <w xml:id="w_VilainParadis_Nott6_888">n’</w>
+                  <w xml:id="w_VilainParadis_Nott6_889">entra</w>
+                  <w xml:id="w_VilainParadis_Nott6_890">onq<ex>ue</ex>s</w>
+                  <w xml:id="w_VilainParadis_Nott6_891">mais</w>
+                  <w xml:id="w_VilainParadis_Nott6_892">ame</w>
+               </l>
+               <l n="126">
+                  <lb n="126"/>
+                  <w xml:id="w_VilainParadis_Nott6_893"><choice><orig>S</orig><reg>s</reg></choice>ans</w>
+                  <w xml:id="w_VilainParadis_Nott6_894"><ex>con</ex>duit</w>
+                  <pc xml:id="w_VilainParadis_Nott6_895">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_VilainParadis_Nott6_896">o</w>
+                  <w xml:id="w_VilainParadis_Nott6_897">d’</w>
+                  <w xml:id="w_VilainParadis_Nott6_898">ome</w>
+                  <w xml:id="w_VilainParadis_Nott6_899">o</w>
+                  <w xml:id="w_VilainParadis_Nott6_900">de</w>
+                  <w xml:id="w_VilainParadis_Nott6_901">fame</w>
+                  <pc xml:id="w_VilainParadis_Nott6_902">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="127">
+                  <lb n="127"/>
+                  <w xml:id="w_VilainParadis_Nott6_903">Mes</w>
+                  <w xml:id="w_VilainParadis_Nott6_904">apostles</w>
+                  <w xml:id="w_VilainParadis_Nott6_905">as</w>
+                  <w xml:id="w_VilainParadis_Nott6_906">blastengiés</w>
+               </l>
+               <l n="128">
+                  <lb n="128"/>
+                  <w xml:id="w_VilainParadis_Nott6_907"><ex>et</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_908">a<choice><orig>u</orig><reg>v</reg></choice>illiés</w>
+                  <w xml:id="w_VilainParadis_Nott6_909"><ex>et</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_910">laidengiés</w>
+                  <pc xml:id="w_VilainParadis_Nott6_911">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="129">
+                  <lb n="129"/>
+                  <w xml:id="w_VilainParadis_Nott6_912"><ex>Com</ex>ment</w>
+                  <w xml:id="w_VilainParadis_Nott6_913">cuidiés</w>
+                  <w xml:id="w_VilainParadis_Nott6_914">ci</w>
+                  <w xml:id="w_VilainParadis_Nott6_915">remanoir</w>
+                  <pc xml:id="w_VilainParadis_Nott6_916">
+                     <choice>
+                        <orig/>
+                        <reg>?</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="130">
+                  <lb n="130"/>
+                  <pc xml:id="w_VilainParadis_Nott6_917">
+                     <choice>
+                        <orig/>
+                        <reg>-</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_VilainParadis_Nott6_918">Sire</w>
+                  <pc xml:id="w_VilainParadis_Nott6_919">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_VilainParadis_Nott6_920" join="right" ana="#aggl-cert_low">ausi</w>
+                  <w xml:id="w_VilainParadis_Nott6_921">bien</w>
+                  <w xml:id="w_VilainParadis_Nott6_922" join="right">i</w>
+                  <w xml:id="w_VilainParadis_Nott6_923">doi</w>
+                  <w xml:id="w_VilainParadis_Nott6_924">manoir</w>
+               </l>
+               <l n="131">
+                  <lb n="131"/>
+                  <w xml:id="w_VilainParadis_Nott6_925"><ex>com</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_926">il</w>
+                  <w xml:id="w_VilainParadis_Nott6_927">font</w>
+                  <pc xml:id="w_VilainParadis_Nott6_928">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_VilainParadis_Nott6_929" join="right" ana="#aggl-cert_low">se</w>
+                  <w xml:id="w_VilainParadis_Nott6_930"><choice><orig>i</orig><reg>j</reg></choice>ugem<ex>en</ex>t</w>
+                  <w xml:id="w_VilainParadis_Nott6_931">ai</w>
+                  <pc xml:id="w_VilainParadis_Nott6_932">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="132">
+                  <lb n="132"/>
+                  <w xml:id="w_VilainParadis_Nott6_933"><choice><orig>C</orig><reg>c</reg></choice>ar</w>
+                  <w xml:id="w_VilainParadis_Nott6_934">onq<ex>ue</ex>s</w>
+                  <w xml:id="w_VilainParadis_Nott6_935" join="right">ne</w>
+                  <w xml:id="w_VilainParadis_Nott6_936"><choice><orig>u</orig><reg>v</reg></choice>os</w>
+                  <w xml:id="w_VilainParadis_Nott6_937">renoiai</w>
+               </l>
+               <l n="133">
+                  <lb n="133"/>
+                  <w xml:id="w_VilainParadis_Nott6_938"><choice><orig>N</orig><reg>n</reg></choice>’</w>
+                  <w xml:id="w_VilainParadis_Nott6_939">onq<ex>ue</ex>s</w>
+                  <w xml:id="w_VilainParadis_Nott6_940" join="right">ne</w>
+                  <w xml:id="w_VilainParadis_Nott6_941">mescreï</w>
+                  <w xml:id="w_VilainParadis_Nott6_942"><choice><orig>u</orig><reg>v</reg></choice>o</w>
+                  <w xml:id="w_VilainParadis_Nott6_943">cors</w>
+                  <pc xml:id="w_VilainParadis_Nott6_944">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="134">
+                  <lb n="134"/>
+                  <w xml:id="w_VilainParadis_Nott6_945"><choice><orig>N</orig><reg>n</reg></choice>e</w>
+                  <w xml:id="w_VilainParadis_Nott6_946" join="right">p<ex>ar</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_947">moi</w>
+                  <w xml:id="w_VilainParadis_Nott6_948" join="right" ana="#aggl-cert_low">ne</w>
+                  <w xml:id="w_VilainParadis_Nott6_949">fu</w>
+                  <w xml:id="w_VilainParadis_Nott6_950"><choice><orig>S</orig><reg>s</reg></choice><ex>ains</ex></w>
+                  <pc xml:id="w_VilainParadis_Nott6_951">
+                     <choice>
+                        <orig>.</orig>
+                        <reg/>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_VilainParadis_Nott6_952">om</w>
+                  <w xml:id="w_VilainParadis_Nott6_953">mors</w>
+                  <pc xml:id="w_VilainParadis_Nott6_954">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="135">
+                  <lb n="135"/>
+                  <w xml:id="w_VilainParadis_Nott6_955">Mais</w>
+                  <w xml:id="w_VilainParadis_Nott6_956">tot</w>
+                  <w xml:id="w_VilainParadis_Nott6_957">ce</w>
+                  <w xml:id="w_VilainParadis_Nott6_958">firent</w>
+                  <w xml:id="w_VilainParadis_Nott6_959">il</w>
+                  <w xml:id="w_VilainParadis_Nott6_960"><choice><orig>i</orig><reg>j</reg></choice>adis</w>
+               </l>
+               <l n="136">
+                  <lb n="136"/>
+                  <w xml:id="w_VilainParadis_Nott6_961"><ex>et</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_962">si</w>
+                  <w xml:id="w_VilainParadis_Nott6_963">sont</w>
+                  <w xml:id="w_VilainParadis_Nott6_964">ore</w>
+                  <w xml:id="w_VilainParadis_Nott6_965" join="right">em</w>
+                  <w xml:id="w_VilainParadis_Nott6_966">p<ex>ar</ex>adis</w>
+                  <pc xml:id="w_VilainParadis_Nott6_967">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="137">
+                  <lb n="137"/>
+                  <w xml:id="w_VilainParadis_Nott6_968"><choice><orig>t</orig><reg>T</reg></choice>ant</w>
+                  <w xml:id="w_VilainParadis_Nott6_969">q<ex>ue</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_970">mes</w>
+                  <w xml:id="w_VilainParadis_Nott6_971">cors</w>
+                  <w xml:id="w_VilainParadis_Nott6_972"><choice><orig>u</orig><reg>v</reg></choice>esq<ex>ui</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_973">al</w>
+                  <w xml:id="w_VilainParadis_Nott6_974">monde</w>
+                  <pc xml:id="w_VilainParadis_Nott6_975">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="138">
+                  <lb n="138"/>
+                  <w xml:id="w_VilainParadis_Nott6_976"><choice><orig>N</orig><reg>n</reg></choice>ete</w>
+                  <w xml:id="w_VilainParadis_Nott6_977"><choice><orig>u</orig><reg>v</reg></choice>ie</w>
+                  <w xml:id="w_VilainParadis_Nott6_978">mena<del rend="dot-below">i</del></w>
+                  <w xml:id="w_VilainParadis_Nott6_979"><ex>et</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_980">monde</w>
+                  <pc xml:id="w_VilainParadis_Nott6_981">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="139">
+                  <lb n="139"/>
+                  <w xml:id="w_VilainParadis_Nott6_982"><choice><orig>a</orig><reg>A</reg></choice>s</w>
+                  <w xml:id="w_VilainParadis_Nott6_983">po<choice><orig>u</orig><reg>v</reg></choice>res</w>
+                  <w xml:id="w_VilainParadis_Nott6_984">dona</w>
+                  <w xml:id="w_VilainParadis_Nott6_985" join="right">de</w>
+                  <w xml:id="w_VilainParadis_Nott6_986">son</w>
+                  <w xml:id="w_VilainParadis_Nott6_987">pain</w>
+                  <pc xml:id="w_VilainParadis_Nott6_988">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="140">
+                  <lb n="140"/>
+                  <w xml:id="w_VilainParadis_Nott6_989">ausmosniers</w>
+                  <w xml:id="w_VilainParadis_Nott6_990">ert</w>
+                  <w xml:id="w_VilainParadis_Nott6_991"><ex>et</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_992">soir</w>
+                  <w xml:id="w_VilainParadis_Nott6_993"><ex>et</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_994">mai<ex>n</ex></w>
+                  <pc xml:id="w_VilainParadis_Nott6_995">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="141">
+                  <lb n="141"/>
+                  <w xml:id="w_VilainParadis_Nott6_996"><choice><orig>o</orig><reg>O</reg></choice>nq<ex>ue</ex>s</w>
+                  <w xml:id="w_VilainParadis_Nott6_997">n’</w>
+                  <w xml:id="w_VilainParadis_Nott6_998">ama</w>
+                  <w xml:id="w_VilainParadis_Nott6_999">tençon</w>
+                  <w xml:id="w_VilainParadis_Nott6_1000" join="right">ne</w>
+                  <w xml:id="w_VilainParadis_Nott6_1001">lime</w>
+                  <pc xml:id="w_VilainParadis_Nott6_1002">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="142">
+                  <lb n="142"/>
+                  <w xml:id="w_VilainParadis_Nott6_1003"><choice><orig>v</orig><reg>V</reg></choice>olentiers</w>
+                  <w xml:id="w_VilainParadis_Nott6_1004">dona</w>
+                  <w xml:id="w_VilainParadis_Nott6_1005">droite</w>
+                  <w xml:id="w_VilainParadis_Nott6_1006">dime</w>
+                  <pc xml:id="w_VilainParadis_Nott6_1007">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="143">
+                  <lb n="143"/>
+                  <w xml:id="w_VilainParadis_Nott6_1008" join="right"><choice><orig>l</orig><reg>L</reg></choice>es</w>
+                  <w xml:id="w_VilainParadis_Nott6_1009">po<choice><orig>u</orig><reg>v</reg></choice>res</w>
+                  <w xml:id="w_VilainParadis_Nott6_1010" join="right" ana="#aggl-cert_low">o</w>
+                  <w xml:id="w_VilainParadis_Nott6_1011">lui</w>
+                  <w xml:id="w_VilainParadis_Nott6_1012">osteloit</w>
+               </l>
+               <l n="144">
+                  <lb n="144"/>
+                  <w xml:id="w_VilainParadis_Nott6_1013"><ex>et</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_1014"><choice><orig>u</orig><reg>v</reg></choice>olentiers</w>
+                  <w xml:id="w_VilainParadis_Nott6_1015">les</w>
+                  <w xml:id="w_VilainParadis_Nott6_1016">h<ex>er</ex>bergoit</w>
+                  <pc xml:id="w_VilainParadis_Nott6_1017">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="145">
+                  <lb n="145"/>
+                  <w xml:id="w_VilainParadis_Nott6_1018"><choice><orig>S</orig><reg>s</reg></choice>i</w>
+                  <w xml:id="w_VilainParadis_Nott6_1019">les</w>
+                  <w xml:id="w_VilainParadis_Nott6_1020">escaufoit</w>
+                  <w xml:id="w_VilainParadis_Nott6_1021" join="right">a</w>
+                  <w xml:id="w_VilainParadis_Nott6_1022">son</w>
+                  <w xml:id="w_VilainParadis_Nott6_1023">fu</w>
+                  <pc xml:id="w_VilainParadis_Nott6_1024">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="146">
+                  <lb n="146"/>
+                  <w xml:id="w_VilainParadis_Nott6_1025">Mai<ex>n</ex>t</w>
+                  <w xml:id="w_VilainParadis_Nott6_1026" join="right">en</w>
+                  <w xml:id="w_VilainParadis_Nott6_1027">garda</w>
+                  <w xml:id="w_VilainParadis_Nott6_1028">ta<ex>n</ex>t</w>
+                  <w xml:id="w_VilainParadis_Nott6_1029">q<ex>ue</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_1030">mors</w>
+                  <w xml:id="w_VilainParadis_Nott6_1031">fu</w>
+                  <cb n="351vb"/>
+               </l>
+               <l n="147">
+                  <lb n="147"/>
+                  <w xml:id="w_VilainParadis_Nott6_1032"><ex>et</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_1033">puis</w>
+                  <w xml:id="w_VilainParadis_Nott6_1034">les</w>
+                  <w xml:id="w_VilainParadis_Nott6_1035">portoit</w>
+                  <note type="philologique">
+                     <p rend="footnote text" style="text-align: justify;">C’est un nouvel exemple du caractère interchangeable des graphies <hi rend="italic">c</hi> et <hi rend="italic">t</hi> pour les scribes du Moyen Âge.</p>
+                  </note>
+                  <w xml:id="w_VilainParadis_Nott6_1036" join="right">a</w>
+                  <w xml:id="w_VilainParadis_Nott6_1037">l’</w>
+                  <w xml:id="w_VilainParadis_Nott6_1038">eglise</w>
+                  <pc xml:id="w_VilainParadis_Nott6_1039">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="148">
+                  <lb n="148"/>
+                  <w xml:id="w_VilainParadis_Nott6_1040">Mai<ex>n</ex>te</w>
+                  <w xml:id="w_VilainParadis_Nott6_1041">braie</w>
+                  <pc xml:id="w_VilainParadis_Nott6_1042">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_VilainParadis_Nott6_1043">mai<ex>n</ex>te</w>
+                  <w xml:id="w_VilainParadis_Nott6_1044">cemisse</w>
+               </l>
+               <l n="149">
+                  <lb n="149"/>
+                  <w xml:id="w_VilainParadis_Nott6_1045"><choice><orig>M</orig><reg>m</reg></choice>is</w>
+                  <w xml:id="w_VilainParadis_Nott6_1046">sor</w>
+                  <w xml:id="w_VilainParadis_Nott6_1047">cels</w>
+                  <w xml:id="w_VilainParadis_Nott6_1048">q<ex>ui</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_1049">erent</w>
+                  <w xml:id="w_VilainParadis_Nott6_1050">des<space type="degl"/>p<ex>ri</ex>s</w>
+                  <pc xml:id="w_VilainParadis_Nott6_1051">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="150">
+                  <lb n="150"/>
+                  <w xml:id="w_VilainParadis_Nott6_1052">Qant</w>
+                  <w xml:id="w_VilainParadis_Nott6_1053" join="right">la</w>
+                  <w xml:id="w_VilainParadis_Nott6_1054">mors</w>
+                  <w xml:id="w_VilainParadis_Nott6_1055">ot</w>
+                  <w xml:id="w_VilainParadis_Nott6_1056">mo<ex>n</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_1057">cors</w>
+                  <w xml:id="w_VilainParadis_Nott6_1058">sop<ex>ri</ex>s</w>
+                  <pc xml:id="w_VilainParadis_Nott6_1059">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="151">
+                  <lb n="151"/>
+                  <w xml:id="w_VilainParadis_Nott6_1060"><choice><orig>S</orig><reg>s</reg></choice>i</w>
+                  <w xml:id="w_VilainParadis_Nott6_1061">fu</w>
+                  <w xml:id="w_VilainParadis_Nott6_1062"><ex>con</ex>fés</w>
+                  <w xml:id="w_VilainParadis_Nott6_1063"><choice><orig>u</orig><reg>v</reg></choice>eraiement</w>
+               </l>
+               <l n="152">
+                  <lb n="152"/>
+                  <w xml:id="w_VilainParadis_Nott6_1064"><ex>et</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_1065">reçut</w>
+                  <w xml:id="w_VilainParadis_Nott6_1066"><choice><orig>u</orig><reg>v</reg></choice>o</w>
+                  <w xml:id="w_VilainParadis_Nott6_1067">cors</w>
+                  <w xml:id="w_VilainParadis_Nott6_1068">neteme<ex>n</ex>t</w>
+                  <pc xml:id="w_VilainParadis_Nott6_1069">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="153">
+                  <lb n="153"/>
+                  <w xml:id="w_VilainParadis_Nott6_1070">Q<ex>ui</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_1071">ensi</w>
+                  <w xml:id="w_VilainParadis_Nott6_1072">muert</w>
+                  <pc xml:id="w_VilainParadis_Nott6_1073">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_VilainParadis_Nott6_1074">on</w>
+                  <w xml:id="w_VilainParadis_Nott6_1075">n<ex>os</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_1076">sermone</w>
+               </l>
+               <l n="154">
+                  <lb n="154"/>
+                  <w xml:id="w_VilainParadis_Nott6_1077"><choice><orig>Q</orig><reg>q</reg></choice><ex>ue</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_1078"><choice><orig>d</orig><reg>D</reg></choice>ex</w>
+                  <w xml:id="w_VilainParadis_Nott6_1079">ses</w>
+                  <w xml:id="w_VilainParadis_Nott6_1080">pecciés</w>
+                  <w xml:id="w_VilainParadis_Nott6_1081">li</w>
+                  <w xml:id="w_VilainParadis_Nott6_1082">p<ex>ar</ex>done</w>
+                  <pc xml:id="w_VilainParadis_Nott6_1083">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="155">
+                  <lb n="155"/>
+                  <w xml:id="w_VilainParadis_Nott6_1084"><choice><orig>v</orig><reg>V</reg></choice>os</w>
+                  <w xml:id="w_VilainParadis_Nott6_1085">sa<choice><orig>u</orig><reg>v</reg></choice>és</w>
+                  <w xml:id="w_VilainParadis_Nott6_1086">bie<ex>n</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_1087">se</w>
+                  <w xml:id="w_VilainParadis_Nott6_1088"><choice><orig>i</orig><reg>j</reg></choice>’</w>
+                  <w xml:id="w_VilainParadis_Nott6_1089">ai</w>
+                  <w xml:id="w_VilainParadis_Nott6_1090"><choice><orig>u</orig><reg>v</reg></choice>oir</w>
+                  <w xml:id="w_VilainParadis_Nott6_1091">dit</w>
+                  <pc xml:id="w_VilainParadis_Nott6_1092">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="156">
+                  <lb n="156"/>
+                  <w xml:id="w_VilainParadis_Nott6_1093">Çaiens</w>
+                  <w xml:id="w_VilainParadis_Nott6_1094">entrai</w>
+                  <w xml:id="w_VilainParadis_Nott6_1095">sans</w>
+                  <w xml:id="w_VilainParadis_Nott6_1096"><ex>con</ex>tredit</w>
+                  <pc xml:id="w_VilainParadis_Nott6_1097">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="157">
+                  <lb n="157"/>
+                  <w xml:id="w_VilainParadis_Nott6_1098">Q<add place="above">a</add>nt</w>
+                  <w xml:id="w_VilainParadis_Nott6_1099">çaiens</w>
+                  <w xml:id="w_VilainParadis_Nott6_1100">sui</w>
+                  <pc xml:id="w_VilainParadis_Nott6_1101">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_VilainParadis_Nott6_1102">p<ex>or</ex>q<ex>ue</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_1103">en</w>
+                  <w xml:id="w_VilainParadis_Nott6_1104">iroie</w>
+                  <pc xml:id="w_VilainParadis_Nott6_1105">
+                     <choice>
+                        <orig/>
+                        <reg>?</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="158">
+                  <lb n="158"/>
+                  <w xml:id="w_VilainParadis_Nott6_1106"><choice><orig>v</orig><reg>V</reg></choice><ex>ost</ex>re</w>
+                  <w xml:id="w_VilainParadis_Nott6_1107">p<ex>ar</ex>ole</w>
+                  <w xml:id="w_VilainParadis_Nott6_1108">desdiroie</w>
+               </l>
+               <l n="159">
+                  <lb n="159"/>
+                  <w xml:id="w_VilainParadis_Nott6_1109"><choice><orig>C</orig><reg>c</reg></choice>ar</w>
+                  <w xml:id="w_VilainParadis_Nott6_1110">otroié</w>
+                  <w xml:id="w_VilainParadis_Nott6_1111">a<choice><orig>u</orig><reg>v</reg></choice>és</w>
+                  <w xml:id="w_VilainParadis_Nott6_1112">sans</w>
+                  <w xml:id="w_VilainParadis_Nott6_1113">falle</w>
+               </l>
+               <l n="160">
+                  <lb n="160"/>
+                  <w xml:id="w_VilainParadis_Nott6_1114"><choice><orig>Q</orig><reg>q</reg></choice><ex>ui</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_1115">çaiens</w>
+                  <w xml:id="w_VilainParadis_Nott6_1116">est</w>
+                  <pc xml:id="w_VilainParadis_Nott6_1117">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_VilainParadis_Nott6_1118">puis</w>
+                  <w xml:id="w_VilainParadis_Nott6_1119" join="right">ne</w>
+                  <w xml:id="w_VilainParadis_Nott6_1120">s’</w>
+                  <w xml:id="w_VilainParadis_Nott6_1121">en</w>
+                  <w xml:id="w_VilainParadis_Nott6_1122">alle</w>
+                  <pc xml:id="w_VilainParadis_Nott6_1123">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="161">
+                  <lb n="161"/>
+                  <w xml:id="w_VilainParadis_Nott6_1124"><choice><orig>v</orig><reg>V</reg></choice>os</w>
+                  <w xml:id="w_VilainParadis_Nott6_1125">ne</w>
+                  <w xml:id="w_VilainParadis_Nott6_1126">mentirés</w>
+                  <w xml:id="w_VilainParadis_Nott6_1127"><choice><orig>i</orig><reg>j</reg></choice>a</w>
+                  <w xml:id="w_VilainParadis_Nott6_1128">p<ex>or</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_1129">moi</w>
+                  <pc xml:id="w_VilainParadis_Nott6_1130">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="162">
+                  <lb n="162"/>
+                  <pc xml:id="w_VilainParadis_Nott6_1131">
+                     <choice>
+                        <orig/>
+                        <reg>-</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_VilainParadis_Nott6_1132"><choice><orig>a</orig><reg>A</reg></choice>mis</w>
+                  <pc xml:id="w_VilainParadis_Nott6_1133">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_VilainParadis_Nott6_1134">fait</w>
+                  <w xml:id="w_VilainParadis_Nott6_1135"><choice><orig>d</orig><reg>D</reg></choice>ex</w>
+                  <pc xml:id="w_VilainParadis_Nott6_1136">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_VilainParadis_Nott6_1137"><ex>et</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_1138"><choice><orig>i</orig><reg>j</reg></choice>e</w>
+                  <w xml:id="w_VilainParadis_Nott6_1139">t’</w>
+                  <w xml:id="w_VilainParadis_Nott6_1140">otroi</w>
+               </l>
+               <l n="163">
+                  <lb n="163"/>
+                  <w xml:id="w_VilainParadis_Nott6_1141">p<ex>ar</ex>adis</w>
+                  <pc xml:id="w_VilainParadis_Nott6_1142">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_VilainParadis_Nott6_1143">si</w>
+                  <w xml:id="w_VilainParadis_Nott6_1144">m’</w>
+                  <w xml:id="w_VilainParadis_Nott6_1145">as</w>
+                  <w xml:id="w_VilainParadis_Nott6_1146">araisnié</w>
+                  <pc xml:id="w_VilainParadis_Nott6_1147">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="164">
+                  <lb n="164"/>
+                  <w xml:id="w_VilainParadis_Nott6_1148"><choice><orig>Q</orig><reg>q</reg></choice><ex>ue</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_1149">p<ex>ar</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_1150">plaid<ex>ier</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_1151">l’</w>
+                  <w xml:id="w_VilainParadis_Nott6_1152">as</w>
+                  <w xml:id="w_VilainParadis_Nott6_1153">desraisnié</w>
+                  <pc xml:id="w_VilainParadis_Nott6_1154">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="165">
+                  <lb n="165"/>
+                  <w xml:id="w_VilainParadis_Nott6_1155">Bien</w>
+                  <w xml:id="w_VilainParadis_Nott6_1156">ses</w>
+                  <w xml:id="w_VilainParadis_Nott6_1157">a<choice><orig>u</orig><reg>v</reg></choice>ant</w>
+                  <w xml:id="w_VilainParadis_Nott6_1158">metre</w>
+                  <w xml:id="w_VilainParadis_Nott6_1159">ta</w>
+                  <w xml:id="w_VilainParadis_Nott6_1160"><choice><orig>u</orig><reg>v</reg></choice><ex>er</ex>be</w>
+                  <pc xml:id="w_VilainParadis_Nott6_1161">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+                  <pc xml:id="w_VilainParadis_Nott6_1162">
+                     <choice>
+                        <orig/>
+                        <reg>»</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="166">
+                  <lb n="166"/>
+                  <w xml:id="w_VilainParadis_Nott6_1163"><choice><orig>l</orig><reg>L</reg></choice>i</w>
+                  <w xml:id="w_VilainParadis_Nott6_1164"><choice><orig>u</orig><reg>v</reg></choice>ilains</w>
+                  <w xml:id="w_VilainParadis_Nott6_1165">dist</w>
+                  <w xml:id="w_VilainParadis_Nott6_1166" join="right">en</w>
+                  <w xml:id="w_VilainParadis_Nott6_1167">son</w>
+                  <w xml:id="w_VilainParadis_Nott6_1168">p<ex>ro</ex><choice><orig>u</orig><reg>v</reg></choice>erbe</w>
+               </l>
+               <l n="167">
+                  <lb n="167"/>
+                  <w xml:id="w_VilainParadis_Nott6_1169" join="right"><choice><orig>Q</orig><reg>q</reg></choice><ex>ue</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_1170">mai<ex>n</ex>s</w>
+                  <w xml:id="w_VilainParadis_Nott6_1171" join="right" ana="#aggl-cert_low">om</w>
+                  <w xml:id="w_VilainParadis_Nott6_1172">a</w>
+                  <w xml:id="w_VilainParadis_Nott6_1173" join="right">a</w>
+                  <w xml:id="w_VilainParadis_Nott6_1174">tort</w>
+                  <w xml:id="w_VilainParadis_Nott6_1175"><ex>con</ex>quis</w>
+               </l>
+               <l n="168">
+                  <lb n="168"/>
+                  <w xml:id="w_VilainParadis_Nott6_1176"><choice><orig>C</orig><reg>c</reg></choice>e</w>
+                  <w xml:id="w_VilainParadis_Nott6_1177">q<ex>u</ex>’</w>
+                  <w xml:id="w_VilainParadis_Nott6_1178"><ex>e</ex>n</w>
+                  <w xml:id="w_VilainParadis_Nott6_1179">plaid<ex>ier</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_1180">a</w>
+                  <w xml:id="w_VilainParadis_Nott6_1181">puis</w>
+                  <w xml:id="w_VilainParadis_Nott6_1182"><ex>con</ex>quis</w>
+                  <pc xml:id="w_VilainParadis_Nott6_1183">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="169">
+                  <lb n="169"/>
+                  <w xml:id="w_VilainParadis_Nott6_1184">Noreture</w>
+                  <w xml:id="w_VilainParadis_Nott6_1185"><choice><orig>u</orig><reg>v</reg></choice>ai<ex>n</ex>t</w>
+                  <w xml:id="w_VilainParadis_Nott6_1186">mais</w>
+                  <w xml:id="w_VilainParadis_Nott6_1187">nat<ex>ur</ex>e</w>
+                  <pc xml:id="w_VilainParadis_Nott6_1188">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="170">
+                  <lb n="170"/>
+                  <w xml:id="w_VilainParadis_Nott6_1189"><choice><orig>f</orig><reg>F</reg></choice>ausetés</w>
+                  <w xml:id="w_VilainParadis_Nott6_1190">amorce</w>
+                  <w xml:id="w_VilainParadis_Nott6_1191">droit<ex>ur</ex>e</w>
+                  <pc xml:id="w_VilainParadis_Nott6_1192">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="171">
+                  <lb n="171"/>
+                  <w xml:id="w_VilainParadis_Nott6_1193">tors</w>
+                  <w xml:id="w_VilainParadis_Nott6_1194"><choice><orig>u</orig><reg>v</reg></choice>a</w>
+                  <w xml:id="w_VilainParadis_Nott6_1195">a<choice><orig>u</orig><reg>v</reg></choice>a<ex>n</ex>t</w>
+                  <w xml:id="w_VilainParadis_Nott6_1196"><ex>et</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_1197">drois</w>
+                  <w xml:id="w_VilainParadis_Nott6_1198" join="right">a</w>
+                  <w xml:id="w_VilainParadis_Nott6_1199">orce</w>
+                  <pc xml:id="w_VilainParadis_Nott6_1200">
+                     <choice>
+                        <orig/>
+                        <reg>:</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="172">
+                  <lb n="172"/>
+                  <w xml:id="w_VilainParadis_Nott6_1201"><choice><orig>M</orig><reg>m</reg></choice>els</w>
+                  <w xml:id="w_VilainParadis_Nott6_1202"><choice><orig>u</orig><reg>v</reg></choice>alt</w>
+                  <w xml:id="w_VilainParadis_Nott6_1203">engie<ex>n</ex>s</w>
+                  <w xml:id="w_VilainParadis_Nott6_1204" join="right">q<ex>ue</ex></w>
+                  <w xml:id="w_VilainParadis_Nott6_1205">ne</w>
+                  <w xml:id="w_VilainParadis_Nott6_1206">fait</w>
+                  <w xml:id="w_VilainParadis_Nott6_1207">force</w>
+                  <pc xml:id="w_VilainParadis_Nott6_1208">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+            </lg>
+         </div>
+      </body>
+   </text>
+</TEI>

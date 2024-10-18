@@ -1,0 +1,2002 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="fro">Les braies le priestre</title>
+            <author>Jean_de_Conde
+<idno type="URI" subtype="JONAS">http://jonas.irht.cnrs.fr/intervenant/437</idno>
+               <idno type="URI" subtype="IDREF">http://www.idref.fr/030304229/id</idno>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2024</date>
+            </edition>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="acorbellari">Alain Corbellari</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="alavrent">Alexei Lavrentiev</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="apinche">Ariane Pinche</name>
+            </respStmt>
+            <respStmt>
+               <resp>relecteur</resp>
+               <resp>relecteur-traduction</resp>
+               <resp>membre</resp>
+               <name xml:id="blaid">Baptiste Laïd</name>
+            </respStmt>
+            <respStmt>
+               <resp>robot</resp>
+               <name xml:id="bot">bot bot</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="cguillot">Céline Guillot-Barbance</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="clachet">Claude Lachet</name>
+            </respStmt>
+            <respStmt>
+               <resp>editeur</resp>
+               <resp>traducteur</resp>
+               <resp>chef de projet</resp>
+               <name xml:id="cpierreville">Corinne Pierreville</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="ggruber">Gauthier Grüber</name>
+            </respStmt>
+            <respStmt>
+               <resp>ingénieur</resp>
+               <name xml:id="jnuguet">Jules Nuguet</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="ngarnier">Nicolas Garnier</name>
+            </respStmt>
+            <respStmt>
+               <resp>Relecteur traduction</resp>
+               <name xml:id="rbellon">Roger Bellon</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="rtrachsler">Richard Trachsler</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="veugene">Valentine Eugène</name>
+            </respStmt>
+            <respStmt>
+               <resp>ingénieur</resp>
+               <name xml:id="myamagata">Moe Yamagata</name>
+            </respStmt>
+            <respStmt>
+               <resp/>
+               <name xml:id="jdocks">Justine DOCKS</name>
+            </respStmt>
+            <respStmt>
+               <resp>editeur</resp>
+               <resp>relecteur</resp>
+               <resp>traducteur</resp>
+               <resp>relecteur-traduction</resp>
+               <resp/>
+               <name> </name>
+            </respStmt>
+         </editionStmt>
+         <extent>
+            <num xml:id="nb_tokens_given">814</num>
+            <num xml:id="nb_mots_given">702</num>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <name>ENS de Lyon / UMR 5317 IHRIM, Base de français médiéval, projet Fabliaux</name>
+            </publisher>
+            <address>
+               <addrLine>15, parvis René Descartes</addrLine>
+               <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+               <addrLine>Tél : 04 37 37 63 10</addrLine>
+               <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+               <addrLine>http://bfm.ens-lyon.fr</addrLine>
+            </address>
+            <idno type="bfm">http://catalog.bfm-corpus.org/fabliaux/BraiesPriestreJeanDeConde_Rome-1598</idno>
+            <idno type="doi">10.34847/nkl.660eg752</idno>
+            <availability status="free">
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <ab type="availability_bfm">Les Conditions générales d'utilisation de la Base de Français Médiéval (http://txm.bfm-corpus.org/bfm/files/CGU.pdf), 
+                        et notamment son Article 5 « PROPRIETE INTELLECTUELLE », s'appliquent à tous les textes de la BFM.</ab>
+                  <ab type="how_to_cite">
+                     <label>Comment citer ce texte :</label>
+                     <bibl>Jean de Conde, Les braies le priestre, édité par Corinne Pierreville en collaboration avec Baptiste Laïd. Publié en ligne par l’ENS de Lyon dans la Base de français médiéval, 
+2024, http://catalog.bfm-corpus.org/fabliaux/BraiesPriestreJeanDeConde_Rome-1598.</bibl>
+                        D'autres formules de citation de la BFM sont proposées sur la page web suivante :
+                        http://bfm.ens-lyon.fr/spip.php?article281.</ab>
+                  <ab type="availability_file">
+                     <label>Conditions d'utilisation de ce fichier :</label>
+                        Ce fichier numérique est composé du corps de texte médiéval (restauré par son ou ses éditeur(s) scientifique(s)), des apparats critiques (introductions, notes, glossaires, explications, du texte d'origine (ou des enrichissements) qui ont été réalisés dans le cadre de la restauration des textes par les Editeurs Scientifiques) et des suppléments numériques : balisage XML-TEI, métadonnées (teiHeader), balisage du discours direct, étiquetage morpho-syntaxique, lemmatisation. Le texte et les suppléments numériques sont libres de droit et peuvent à ce titre être téléchargés et réutilisés librement. Les apparats critiques sont soumis à une licence de type CC BY-NC-SA 3.0 FR  http://creativecommons.org/licenses/by-nc-sa/3.0/fr. Les Utilisateurs s’engagent à respecter les termes de cette licence. 
+                    </ab>
+                  <ab type="availability_txmweb" subtype="illimité">
+                     <label>Conditions d'utilisation par le portail BFM :</label>
+                        Pas de limitation dans l'usage des fonctionnalités. Téléchargement autorisé.</ab>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="main" xml:id="Rome-1598">
+               <msIdentifier>
+                  <settlement>Roma</settlement>
+                  <repository>Biblioteca Casanatense</repository>
+                  <idno>1598</idno>
+                  <idno type="URI" subtype="Notice" n="Arlima">https://www.arlima.net/mss/italia/roma/biblioteca_casanatense/1598.html</idno>
+                  <idno type="URI" subtype="Notice" n="Jonas">http://jonas.irht.cnrs.fr/manuscrit/52748</idno>
+                  <idno type="URI" subtype="Data" n="Biblissima">
+https://data.biblissima.fr/entity/Q276825</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem xml:id="BraiesPriestreJeanDeConde_Rome-1598">
+                     <locus>f. 161vb-162va</locus>
+                     <title>Les braies le priestre</title>
+                  </msItem>
+                  <msItem xml:id="Nonete1JeanDeConde_Rome-1598">
+                     <title>La nonete I</title>
+                  </msItem>
+                  <msItem xml:id="Plicon_Rome-1598">
+                     <locus>f. 162v-163r</locus>
+                     <title>Le pliçon</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin notBefore="1300-01-01" notAfter="1325-12-31">
+                     <p>1er quart du 14e s.</p>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <title type="main" xml:lang="fro">Les braies le priestre</title>
+            <title type="modern" xml:lang="fr">Les braies du prêtre
+            </title>
+            <date notBefore="1313-01-01" notAfter="1337-12-31" when="1325-07-02">entre 1313 et 1337</date>
+            <region type="dialecte_oeuvre">Picard</region>
+            <idno type="INV" subtype="Montaiglon-Raynaud">155</idno>
+            <idno type="INV" subtype="Bedier">17</idno>
+            <idno type="INV" subtype="Nykrog">15</idno>
+            <idno type="INV" subtype="Jodogne">15</idno>
+            <idno type="INV" subtype="NRCF">115</idno>
+            <idno type="URI" n="Jonas">https://jonas.irht.cnrs.fr/oeuvre/8904</idno>
+            <idno type="URI" n="Arlima">https://www.arlima.net/il/jean_de_conde.html</idno>
+         </creation>
+         <langUsage>
+            <language ident="fro"/>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.bfm-corpus.org">
+               <term type="domaine">littérature</term>
+               <term type="genre" cert="medium">Fabliau</term>
+               <term type="forme">vers</term>
+               <term type="relation">non renseigné</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#myamagata" when="2024-04-19T12:12:53" n="v2.1">Utilisation du fichier BraiesPriestreJeanDeConde[Rome 1598]v2.1renom.docx</change>
+         <change who="#bot" when="2024-04-19" n="v2.1">Transformation avec Oxgarage du fichier BraiesPriestreJeanDeConde[Rome 1598]2.1.docx</change>
+         <change who="#cpierreville" when="2024-04-30T08:50:39" n="v1.0">Utilisation du fichier BraiesPriestreJeanDeConde[Rome 1598]trad-v1.0.docx</change>
+         <change who="#cpierreville" when="2024-04-30T08:50:39" n="v2.2">Utilisation du fichier BraiesPriestreJeanDeConde[Rome 1598]v2.2.docx</change>
+         <change who="#bot" when="2024-05-02" n="v2.2">Transformation avec Oxgarage du fichier BraiesPriestreJeanDeConde[Rome 1598]2.2.docx</change>
+         <change who="#bot" when="2024-05-02" n="v1.0">Transformation avec Oxgarage du fichier BraiesPriestreJeanDeConde[Rome 1598]1.0.docx</change>
+         <change who="#blaid" when="2024-06-14T13:30:01" n="v2.2">Utilisation du fichier BraiesPriestreJeanDeConde[Rome 1598]v2.2 Relu BL.docx</change>
+         <change who="#cpierreville" when="2024-06-14T15:15:35" n="v2.3">Utilisation du fichier BraiesPriestreJeanDeConde[Rome 1598]v2.3.docx</change>
+         <change who="#bot" when="2024-06-15" n="v2.3">Transformation avec Oxgarage du fichier BraiesPriestreJeanDeConde[Rome 1598]2.3.docx</change>
+         <change who="#cpierreville" when="2024-06-20T13:35:14" n="v2.4">Utilisation du fichier BraiesPriestreJeanDeConde[Rome 1598]v2.4.docx</change>
+         <change who="#bot" when="2024-06-20" n="v2.4">Transformation avec Oxgarage du fichier BraiesPriestreJeanDeConde[Rome 1598]2.4.docx</change>
+      </revisionDesc>
+   </teiHeader>
+   <text source="BraiesPriestreJeanDeConde_Rome-1598">
+      <body>
+         <pb n="161v"
+              xml:id="pb_1"
+              facs="https://apitest.nakala.fr/iiif/10.34847/nkl.07bcc88d/9ba3269a4aaeb83f570cf1ca15e9396c86641d5b/full/full/0/default.jpg"/>
+         <cb n="161vb"/>
+         <div>
+            <head>
+               <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_1">Des</w>
+               <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_2">braies</w>
+               <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_3">le</w>
+               <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_4">priestre</w>
+               <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_5">
+                  <choice>
+                     <orig>;</orig>
+                     <reg/>
+                  </choice>
+               </pc>
+            </head>
+            <lb/>
+            <lg>
+               <l n="1">
+                  <lb n="1"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_6"><g type="initiale" rend="size(2) sizeAct(2) color(red)">R</g>ecorder</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_7">ai</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_8">oÿ</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_9">maint</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_10">conte</w>
+               </l>
+               <l n="2">
+                  <lb n="2"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_11"><choice><orig>Q</orig><reg>q</reg></choice><ex>ue</ex></w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_12">priestrẹs</w>
+                  <note type="philologique">
+                     <p rend="footnote text" style="text-align: justify;">Cette graphie <hi rend="italic">ie</hi> résultant de l’évolution d’un <hi rend="italic">e</hi> entravé est caractéristique du picard et du wallon (Collet et Greub 1.11).</p>
+                  </note>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_13">ont</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_14">fait</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_15" join="right">as</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_16">pluis<ex>or</ex>s</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_17">ho<ex>n</ex>te</w>
+               </l>
+               <l n="3">
+                  <lb n="3"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_18"><choice><orig>E</orig><reg>e</reg></choice>t</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_19">ont</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_20" join="right">a</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_21">leur</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_22">fe<ex>m</ex>me</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_23"><choice><orig>i</orig><reg>j</reg></choice>eü</w>
+               </l>
+               <l n="4">
+                  <lb n="4"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_24"><choice><orig>E</orig><reg>e</reg></choice>t</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_25">a<choice><orig>u</orig><reg>v</reg></choice>oec</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_26" join="right">çou</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_27" join="right" ana="#aggl-cert_low">le</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_28">leur</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_29">eü</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_30">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="5">
+                  <lb n="5"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_31">On</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_32" join="right">en</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_33" join="right" ana="#aggl-cert_low">conte</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_34">maint</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_35">lait</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_36">re<choice><orig>u</orig><reg>v</reg></choice>iel</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_37">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="6">
+                  <lb n="6"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_38"><choice><orig>S</orig><reg>s</reg></choice>’</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_39" join="right">en</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_40">dirai</w>
+                  <num>
+                     <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_41">.<choice><orig>I</orig><reg>i</reg></choice>.</w>
+                  </num>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_42">conte</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_43">nou<choice><orig>u</orig><reg>v</reg></choice>iel</w>
+               </l>
+               <l n="7">
+                  <lb n="7"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_44" join="right" ana="#aggl-cert_low"><choice><orig>Q</orig><reg>q</reg></choice>ui</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_45">est</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_46">estrais</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_47">de</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_48"><choice><orig>u</orig><reg>v</reg></choice>erité</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_49">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="8">
+                  <lb n="8"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_50">Il</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_51">a<choice><orig>u</orig><reg>v</reg></choice>oit</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_52" join="right">a</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_53" join="right" ana="#aggl-cert_low"><choice><orig>v</orig><reg>u</reg></choice>nne</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_54">cité</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_55">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="9">
+                  <lb n="9"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_56"><choice><orig>N</orig><reg>n</reg></choice>’</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_57">a</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_58">mie</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_59">lonc</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_60">tamps</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_61">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <num>
+                     <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_62">.<choice><orig>I</orig><reg>i</reg></choice>.</w>
+                  </num>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_63">boucier</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_64">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="10">
+                  <lb n="10"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_65" join="right">Sa</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_66">fe<ex>m</ex>me</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_67">eut</w>
+                  <num>
+                     <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_68">.<choice><orig>I</orig><reg>i</reg></choice>.</w>
+                  </num>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_69">priestre</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_70">pl<ex>us</ex></w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_71">cier</w>
+               </l>
+               <l n="11">
+                  <lb n="11"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_72" join="right"><choice><orig>D</orig><reg>d</reg></choice>e</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_73">lui</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_74">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_75">car</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_76">mius</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_77">faisoit</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_78" join="right">sen</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_79">gré</w>
+                  <note type="philologique">
+                     <p rend="footnote text" style="text-align: justify;">Le déterminant possessif masculin <hi rend="italic">sen</hi> se trouve en Normandie et en Picardie (Collet et Greub 5.1.b).</p>
+                  </note>
+               </l>
+               <l n="12">
+                  <lb n="12"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_80"><choice><orig>Q</orig><reg>q</reg></choice>uant</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_81" join="right">a</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_82">li</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_83">p<ex>ar</ex>loit</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_84" join="right">a</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_85">secré</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_86">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="13">
+                  <lb n="13"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_87" join="right" ana="#aggl-cert_low">Li</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_88">bouciers</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_89">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_90">q<ex>ui</ex></w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_91">mot</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_92">n’</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_93">e<ex>n</ex></w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_94">sa<choice><orig>u</orig><reg>v</reg></choice>oit</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_95">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="14">
+                  <lb n="14"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_96"><choice><orig>E</orig><reg>e</reg></choice>ns</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_97">ou</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_98">markiet</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_99">aler</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_100">de<choice><orig>u</orig><reg>v</reg></choice>oit</w>
+               </l>
+               <l n="15">
+                  <lb n="15"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_101"><choice><orig>O</orig><reg>o</reg></choice></w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_102">compaingnons</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_103" join="right">de</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_104" join="right">sen</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_105">mestier</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_106">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="16">
+                  <lb n="16"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_107">D’</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_108">argent</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_109">çou</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_110">q<ex>u</ex>’</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_111"><ex>i</ex>l</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_112">en</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_113">eut</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_114">mestier</w>
+               </l>
+               <l n="17">
+                  <lb n="17"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_115"><choice><orig>C</orig><reg>c</reg></choice>uist</w>
+                  <note type="philologique">
+                     <p rend="footnote text" style="text-align: justify;">Il faut reconnaître une graphie pour le passé simple de l’indicatif du verbe <hi rend="italic">querre. </hi>On attendrait <hi rend="italic">quist</hi>.</p>
+                  </note>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_116">po<ex>ur</ex></w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_117">mou<choice><orig>u</orig><reg>v</reg></choice>oir</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_118" join="right">a</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_119">len<space type="degl"/>demain</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_120">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="18">
+                  <lb n="18"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_121"><choice><orig>Q</orig><reg>q</reg></choice>u’</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_122">il</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_123">dist</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_124">qu’</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_125">il</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_126"><choice><orig>u</orig><reg>v</reg></choice>oloit</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_127">aler</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_128">main</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_129">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="19">
+                  <lb n="19"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_130">Sa</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_131">fe<ex>m</ex>me</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_132">fist</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_133">sa<choice><orig>u</orig><reg>v</reg></choice>oir</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_134" join="right">au</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_135">priestre</w>
+               </l>
+               <l n="20">
+                  <lb n="20"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_136"><choice><orig>K</orig><reg>k</reg></choice>’</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_137">en</w>
+                  <note type="philologique">
+                     <p rend="footnote text">La graphie <hi rend="italic">k</hi> pour <hi rend="italic">qu</hi> est picarde (Collet et Greub 2.3). </p>
+                  </note>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_138">pais</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_139">poroit</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_140">a<choice><orig>u</orig><reg>v</reg></choice>oec</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_141">lui</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_142">iestre</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_143">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="21">
+                  <lb n="21"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_144" join="right" ana="#aggl-cert_low">Li</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_145">priestrẹs</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_146">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_147" join="right">qui</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_148">le</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_149">cou<choice><orig>u</orig><reg>v</reg></choice>oita</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_150">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="22">
+                  <lb n="22"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_151"><choice><orig>D</orig><reg>d</reg></choice>ou</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_152">boucier</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_153">le</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_154">meute</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_155">gaita</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_156">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+                  <pb n="162r"
+                       xml:id="pb_2"
+                       facs="https://apitest.nakala.fr/iiif/10.34847/nkl.07bcc88d/c3625d4faa00065f8e0030206e0d11e5400a8706/full/full/0/default.jpg"/>
+                  <cb n="162ra"/>
+               </l>
+               <l n="23">
+                  <lb n="23"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_158">Celle</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_159">qui</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_160">haioit</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_161" join="right">son</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_162">singnour</w>
+               </l>
+               <l n="24">
+                  <lb n="24"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_163" join="right" ana="#aggl-cert_low"><choice><orig>L</orig><reg>l</reg></choice>e</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_164">fist</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_165">mou<choice><orig>u</orig><reg>v</reg></choice>oir</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_166">de<choice><orig>u</orig><reg>v</reg></choice>ant</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_167">le</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_168"><choice><orig>i</orig><reg>j</reg></choice>our</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_169">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="25">
+                  <lb n="25"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_170">Q<ex>ua</ex>nt</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_171" join="right">de</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_172" join="right" ana="#aggl-cert_low">se</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_173">maison</w>
+                  <note type="philologique">
+                     <p rend="footnote text" style="text-align: justify;">La forme <hi rend="italic">se</hi> pour le déterminant possessif féminin est picarde ou wallone (Collet et Greub 5.1.e). </p>
+                  </note>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_174">fu</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_175">issus</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_176">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="26">
+                  <lb n="26"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_177"><choice><orig>L</orig><reg>l</reg></choice>i</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_178">priestres</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_179">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_180">q<ex>ui</ex></w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_181">n’</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_182">et</w>
+                  <note type="philologique">
+                     <p rend="footnote text" style="text-align: justify;">Il faut comprendre <hi rend="italic">ert</hi>, « était ». Cette chute du <hi rend="italic">r</hi> implosif se produit en Picard, Wallon et Lorrain (Collet et Greub 2.25a).</p>
+                  </note>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_183">mie</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_184">ensus</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_185">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="27">
+                  <lb n="27"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_186"><choice><orig>S</orig><reg>s</reg></choice>’</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_187">est</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_188" join="right">ou</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_189">lit</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_190">la</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_191">dame</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_192">couciés</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_193">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="28">
+                  <lb n="28"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_194">Chius</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_195" join="right">a</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_196">ses</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_197"><ex>com</ex>paingnons</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_198">huciés</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_199">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="29">
+                  <lb n="29"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_200">Il</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_201">dient</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_202">
+                     <choice>
+                        <orig/>
+                        <reg>:</reg>
+                     </choice>
+                  </pc>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_203">
+                     <choice>
+                        <orig/>
+                        <reg>«</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_204" join="right"><choice><orig>q</orig><reg>Q</reg></choice>ui</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_205">t’</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_206">a</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_207">encanté</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_208">
+                     <choice>
+                        <orig/>
+                        <reg>?</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="30">
+                  <lb n="30"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_209">Encor</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_210">n’</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_211">ont</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_212">pas</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_213">li</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_214">cok</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_215">canté</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_216">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="31">
+                  <lb n="31"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_217" join="right" ana="#aggl-cert_low">Il</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_218">est</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_219" join="right">pau</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_220">plus</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_221" join="right">de</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_222">mie</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_223">nuit</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_224">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="32">
+                  <lb n="32"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_225" join="right" ana="#aggl-cert_low">Re<choice><orig>u</orig><reg>v</reg></choice>a</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_226">coucier</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_227">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_228">si</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_229" join="right">ne</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_230">t’</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_231">anuit</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_232">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="33">
+                  <lb n="33"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_233"><choice><orig>C</orig><reg>c</reg></choice><ex>ar</ex></w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_234" join="right" ana="#aggl-cert_low">encor</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_235">pués</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_236">dormir</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_237">g<ex>ra</ex>nt</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_238">somme</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_239">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="34">
+                  <lb n="34"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_240">Il</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_241" join="right">y</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_242">entroit</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_243">troi</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_244">songne<ex>us</ex></w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_245">ho<ex>m</ex>me</w>
+                  <note type="philologique">
+                     <p rend="footnote text">Le NRCF corrige le vers en <hi rend="italic">Il a en toi trop songneus homme</hi>.</p>
+                  </note>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_246">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_247">
+                     <choice>
+                        <orig/>
+                        <reg>»</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="35">
+                  <lb n="35"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_248">Cieus</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_249">en</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_250">re<choice><orig>u</orig><reg>v</reg></choice>int</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_251" join="right">en</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_252">sa</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_253">maison</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_254">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="36">
+                  <lb n="36"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_255" join="right" ana="#aggl-cert_low">Sa</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_256">femme</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_257">dist</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_258">
+                     <choice>
+                        <orig/>
+                        <reg>:</reg>
+                     </choice>
+                  </pc>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_259">
+                     <choice>
+                        <orig/>
+                        <reg>«</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_260"><choice><orig>p</orig><reg>P</reg></choice>our</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_261">quel</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_262">raison</w>
+               </l>
+               <l n="37">
+                  <lb n="37"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_263"><choice><orig>R</orig><reg>r</reg></choice>e<choice><orig>u</orig><reg>v</reg></choice>enés</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_264">
+                     <choice>
+                        <orig/>
+                        <reg>?</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_265"><choice><orig>q</orig><reg>Q</reg></choice><ex>ue</ex></w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_266"><choice><orig>u</orig><reg>v</reg></choice>ous</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_267">faut</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_268">il</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_269">ore</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_270">
+                     <choice>
+                        <orig/>
+                        <reg>?</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="38">
+                  <lb n="38"/>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_271">
+                     <choice>
+                        <orig/>
+                        <reg>-</reg>
+                     </choice>
+                  </pc>
+                  <choice>
+                     <corr>
+                        <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_272">N’</w>
+                     </corr>
+                     <sic>R</sic>
+                  </choice>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_274">en</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_275"><choice><orig>u</orig><reg>v</reg></choice>oel<supplied>ent</supplied></w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_276">pas</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_277">aler</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_278">encore</w>
+               </l>
+               <l n="39">
+                  <lb n="39"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_279"><choice><orig>L</orig><reg>l</reg></choice>i</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_280">autre</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_281">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_282">
+                     <choice>
+                        <orig/>
+                        <reg>»</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_283" join="right" ana="#aggl-cert_low">ce</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_284">dist</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_285">ses</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_286">maris</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_287">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="40">
+                  <lb n="40"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_288">Li</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_289">priestres</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_290" join="right">fu</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_291">tous</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_292">esmaris</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_293">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="41">
+                  <lb n="41"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_294" join="right" ana="#aggl-cert_low">Elle</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_295">dist</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_296">que</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_297">garde</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_298">n’</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_299">a<space type="degl"/>roit</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_300">
+                     <choice>
+                        <orig/>
+                        <reg>:</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="42">
+                  <lb n="42"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_301"><choice><orig>C</orig><reg>c</reg></choice>oi</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_302" join="right">se</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_303">tenist</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_304">viers</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_305">le</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_306">paroit</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_307">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="43">
+                  <lb n="43"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_308"><ex>Et</ex></w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_309">li</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_310">boucier<space type="degl"/>s</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_311" join="right" ana="#aggl-cert_low">se</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_312">recouca</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_313">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="44">
+                  <lb n="44"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_314"><choice><orig>M</orig><reg>m</reg></choice>ais</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_315" join="right">a</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_316">sa</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_317">femme</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_318" join="right" ana="#aggl-cert_low">ne</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_319">touca</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_320">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="45">
+                  <lb n="45"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_321" join="right">Li</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_322">priestres</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_323">d’</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_324">angoisses</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_325">fremi</w>
+               </l>
+               <l n="46">
+                  <lb n="46"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_326"><ex>et</ex></w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_327">li</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_328">boucier</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_329" join="right" ana="#aggl-cert_low">se</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_330">ren<space type="degl"/>dormi</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_331">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="47">
+                  <lb n="47"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_332" join="right" ana="#aggl-cert_low">Celle</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_333" join="right">fu</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_334" join="right">dou</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_335">mai<supplied>n</supplied>s</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_336">b<ex>ie</ex>n</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_337">p<ex>ar</ex>tie</w>
+               </l>
+               <l n="48">
+                  <lb n="48"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_338"><choice><orig>C</orig><reg>c</reg></choice>ar</w>
+                  <num>
+                     <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_339">.i<choice><orig>j</orig><reg>i</reg></choice>.</w>
+                  </num>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_340">en</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_341">eut</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_342" join="right">en</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_343">sa</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_344">p<ex>ar</ex>tie</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_345">
+                     <choice>
+                        <orig/>
+                        <reg>:</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="49">
+                  <lb n="49"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_346"><choice><orig>L</orig><reg>l</reg></choice>i</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_347">priestres</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_348">se</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_349">gisoit</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_350" join="right">a</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_351">diestre</w>
+               </l>
+               <l n="50">
+                  <lb n="50"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_352"><ex>et</ex></w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_353">ses</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_354">maris</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_355">de<choice><orig>u</orig><reg>v</reg></choice>iers</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_356">se<space type="degl"/>niestre</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_357">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="51">
+                  <lb n="51"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_358"><ex>Et</ex></w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_359">quant</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_360">vint</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_361">de<choice><orig>u</orig><reg>v</reg></choice>iers</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_362">l’</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_363">a<space type="degl"/><choice><orig>i</orig><reg>j</reg></choice>ourner</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_364">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="52">
+                  <lb n="52"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_365" join="right" ana="#aggl-cert_low"><choice><orig>L</orig><reg>l</reg></choice>i</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_366" join="right">autre</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_367" join="right" ana="#aggl-cert_low">se</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_368"><choice><orig>u</orig><reg>v</reg></choice>ont</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_369">atourner</w>
+               </l>
+               <l n="53">
+                  <lb n="53"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_370"><ex>et</ex></w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_371">hucierent</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_372">leur</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_373">compaingnon</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_374">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="54">
+                  <lb n="54"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_375" join="right" ana="#aggl-cert_low"><choice><orig>S</orig><reg>s</reg></choice>i</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_376">saut</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_377">sus</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_378" join="right">a</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_379">loi</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_380">de</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_381">gagnon</w>
+               </l>
+               <l n="55">
+                  <lb n="55"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_382"><ex>et</ex></w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_383" join="right">se</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_384">lie<choice><orig>u</orig><reg>v</reg></choice>e</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_385">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_386">plus</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_387">n’</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_388" join="right">i</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_389">atent</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_390">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="56">
+                  <lb n="56"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_391">As</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_392">piés</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_393">de</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_394">se</w>
+                  <note type="philologique">
+                     <p rend="footnote text" style="text-align: justify;">Le NRCF corrige en <hi rend="italic">sen</hi>, mais le déterminant possessif masculin peut prendre la forme <hi rend="italic">se</hi> en Normandie, Picardie et Wallonie (Collet et Greub 5.1.b).</p>
+                  </note>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_395">lit</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_396">se</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_397" join="right">main</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_398">tent</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_399">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="57">
+                  <lb n="57"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_400" join="right">Au</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_401">prendre</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_402">ses</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_403">braies</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_404">mesprent</w>
+               </l>
+               <l n="58">
+                  <lb n="58"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_405"><choice><orig>C</orig><reg>c</reg></choice>ar</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_406">les</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_407">braies</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_408">le</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_409">priestre</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_410">prent</w>
+               </l>
+               <l n="59">
+                  <lb n="59"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_411"><choice><orig>C</orig><reg>c</reg></choice>’</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_412">onques</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_413">il</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_414">ne</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_415">s’</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_416" join="right" ana="#aggl-cert_low">en</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_417">donna</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_418">warde</w>
+                  <note type="philologique">
+                     <p rend="footnote text">Cette graphie est caractéristique du picard (Collet et Greub 2.17).</p>
+                  </note>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_419">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="60">
+                  <lb n="60"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_420" join="right"><choice><orig>h</orig><reg>H</reg></choice>aste</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_421">soi</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_422">pour</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_423" join="right">çou</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_424">c’</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_425" join="right" ana="#aggl-cert_low">on</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_426">l’</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_427">a<space type="degl"/>warde</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_428">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="61">
+                  <lb n="61"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_429">A</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_430">ses</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_431">compaingnons</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_432">en</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_433">ala</w>
+               </l>
+               <l n="62">
+                  <lb n="62"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_434" join="right"><ex>et</ex></w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_435" join="right" ana="#aggl-cert_low">si</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_436">se</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_437">parti</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_438">de</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_439">de<space type="degl"/>la</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_440">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+                  <cb n="162rb"/>
+               </l>
+               <l n="63">
+                  <lb n="63"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_441">Li</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_442">priestres</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_443">remest</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_444">ens</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_445" join="right">ou</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_446">lit</w>
+               </l>
+               <l n="64">
+                  <lb n="64"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_447"><ex>et</ex></w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_448">s’</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_449">i</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_450">demena</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_451" join="right" ana="#aggl-cert_low">sen</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_452">delit</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_453">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="65">
+                  <lb n="65"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_454"><ex>et</ex></w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_455">q<ex>ua</ex>nt</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_456">li</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_457">plot</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_458">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_459" join="right">si</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_460" join="right">se</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_461">le<choice><orig>u</orig><reg>v</reg></choice>a</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_462">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="66">
+                  <lb n="66"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_463">Les</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_464">braies</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_465" join="right">au</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_466">boucier</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_467">trou<choice><orig>u</orig><reg>v</reg></choice>a</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_468">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="67">
+                  <lb n="67"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_469"><choice><orig>S</orig><reg>s</reg></choice>i</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_470" join="right" ana="#aggl-cert_low">trou<choice><orig>u</orig><reg>v</reg></choice>a</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_471" join="right" ana="#aggl-cert_low">le</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_472">bour<space type="degl"/>se</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_473">pesant</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_474">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="68">
+                  <lb n="68"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_475">P<ex>ar</ex></w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_476" join="right" ana="#aggl-cert_low">lui</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_477">meïsmes</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_478"><choice><orig>u</orig><reg>v</reg></choice>a</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_479">disant</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_480">
+                     <choice>
+                        <orig/>
+                        <reg>:</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="69">
+                  <lb n="69"/>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_481">
+                     <choice>
+                        <orig/>
+                        <reg>«</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_482" join="right" ana="#aggl-cert_low"><choice><orig>I</orig><reg>J</reg></choice>e</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_483" join="right">ne</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_484">sui</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_485">pas</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_486">mout</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_487">enganés</w>
+               </l>
+               <l n="70">
+                  <lb n="70"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_488"><choice><orig>Q</orig><reg>q</reg></choice><ex>ua</ex>nt</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_489" join="right">a</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_490">l’</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_491">argent</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_492" join="right">sui</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_493">assenés</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_494">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="71">
+                  <lb n="71"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_495" join="right" ana="#aggl-cert_low">Boire</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_496">yrai</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_497">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_498"><choice><orig>p</orig><reg>P</reg></choice>oint</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_499">d’</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_500">argent</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_501">n’</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_502">a<choice><orig>u</orig><reg>v</reg></choice>oie</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_503">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_504">
+                     <choice>
+                        <orig/>
+                        <reg>»</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="72">
+                  <lb n="72"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_505">Li</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_506">priestrẹs</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_507">en</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_508">ala</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_509" join="right">sa</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_510"><choice><orig>u</orig><reg>v</reg></choice>oie</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_511">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="73">
+                  <lb n="73"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_512">Li</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_513">autre</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_514" join="right">au</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_515">marciet</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_516"><choice><orig>u</orig><reg>v</reg></choice>enut</w>
+                  <note type="philologique">
+                     <p rend="footnote text" style="text-align: justify;">Ces participes passés en <hi rend="italic">-ut</hi> sont caractéristiques des dialectes picard, wallon et lorrain (Collet et Greub 8.22).</p>
+                  </note>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_517">sont</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_518">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="74">
+                  <lb n="74"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_519">Biestes</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_520">po<ex>ur</ex></w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_521">accater</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_522">quis</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_523">ont</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_524">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="75">
+                  <lb n="75"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_525">Li</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_526">bouciers</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_527"><choice><orig>v</orig><reg>u</reg></choice>ne</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_528">en</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_529">acata</w>
+               </l>
+               <l n="76">
+                  <lb n="76"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_530"><ex>et</ex></w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_531">donné</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_532" join="right">su</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_533" join="right">cel</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_534">a<space type="degl"/>cat</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_535">a</w>
+                  <note type="philologique">
+                     <p rend="footnote text" style="text-align: justify;">
+                        <hi rend="italic">su </hi>équivaut à <hi rend="italic">sur</hi>. L’amuïssement du <hi rend="italic">r</hi> final est attesté dans les dialectes de l’ouest et en lorrain (Collet et Greub 2.26).</p>
+                  </note>
+               </l>
+               <l n="77">
+                  <lb n="77"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_536"><choice><orig>L</orig><reg>l</reg></choice>e</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_537">denier</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_538" join="right"><choice><orig>d</orig><reg>D</reg></choice>ieu</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_539">sans</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_540">delai<choice><orig>j</orig><reg>i</reg></choice>er</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_541">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="78">
+                  <lb n="78"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_542"><choice><orig>P</orig><reg>p</reg></choice>uis</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_543"><choice><orig>u</orig><reg>v</reg></choice>a</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_544" join="right">a</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_545">se</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_546">bour<space type="degl"/>se</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_547" join="right">a</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_548">brai<choice><orig>j</orig><reg>i</reg></choice>er</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_549">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="79">
+                  <lb n="79"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_550"><choice><orig>Q</orig><reg>q</reg></choice><ex>u</ex>’</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_551" join="right"><ex>i</ex>l</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_552"><choice><orig>u</orig><reg>v</reg></choice>oloit</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_553">pai<choice><orig>j</orig><reg>i</reg></choice>er</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_554">son</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_555">argent</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_556">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="80">
+                  <lb n="80"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_557">Entour</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_558">lui</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_559">ot</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_560">assés</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_561">de</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_562">gent</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_563">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="81">
+                  <lb n="81"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_564" join="right">Sa</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_565">monnoie</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_566">trou<choice><orig>u</orig><reg>v</reg></choice>er</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_567">y</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_568">cuide</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_569">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="82">
+                  <lb n="82"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_570"><choice><orig>M</orig><reg>m</reg></choice>ais</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_571">il</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_572">trou<choice><orig>u</orig><reg>v</reg></choice>a</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_573">sa</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_574">bourse</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_575">wide</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_576">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="83">
+                  <lb n="83"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_577" join="right" ana="#aggl-cert_low"><choice><orig>D</orig><reg>d</reg></choice>ou</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_578">priestre</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_579">y</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_580">troe<choice><orig>u</orig><reg>v</reg></choice>e</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_581" join="right">le</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_582">sayel</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_583">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="84">
+                  <lb n="84"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_584">Dont</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_585" join="right">fu</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_586">batus</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_587">d’</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_588" join="right" ana="#aggl-cert_low">un</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_589">grief</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_590">flai<choice><orig>j</orig><reg>i</reg></choice>el</w>
+               </l>
+               <l n="85">
+                  <lb n="85"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_591"><ex>et</ex></w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_592" join="right">fu</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_593">de</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_594">cuer</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_595">honteus</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_596"><ex>et</ex></w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_597">mas</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_598">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="86">
+                  <lb n="86"/>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_599">
+                     <choice>
+                        <orig/>
+                        <reg>«</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_600">Foy</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_601" join="right" ana="#aggl-cert_low">que</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_602">doi</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_603">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_604" join="right">fait</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_605">il</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_606">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_607">saint</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_608"><choice><orig>t</orig><reg>T</reg></choice>humas</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_609">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="87">
+                  <lb n="87"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_610"><choice><orig>V</orig><reg>v</reg></choice>esci</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_611">coze</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_612">trop</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_613">desghisee</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_614">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_615">
+                     <choice>
+                        <orig/>
+                        <reg>»</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="88">
+                  <lb n="88"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_616">Ento<ex>ur</ex></w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_617">lui</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_618">ot</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_619">m<ex>ou</ex>t</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_620">g<ex>ra</ex>nt</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_621">risee</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_622">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="89">
+                  <lb n="89"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_623">Li</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_624">bouciers</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_625" join="right">fu</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_626">tous</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_627">entrepris</w>
+               </l>
+               <l n="90">
+                  <lb n="90"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_628"><ex>et</ex></w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_629" join="right">de</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_630">g<ex>ra</ex>nt</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_631">mautalent</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_632">espris</w>
+               </l>
+               <l n="91">
+                  <lb n="91"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_633"><choice><orig>Q</orig><reg>q</reg></choice><ex>ua</ex>nt</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_634" join="right" ana="#aggl-cert_low">le</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_635">saiel</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_636" join="right">au</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_637">priestre</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_638">troe<choice><orig>u</orig><reg>v</reg></choice>e</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_639">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="92">
+                  <lb n="92"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_640" join="right" ana="#aggl-cert_low">Or</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_641">puet</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_642"><choice><orig>u</orig><reg>v</reg></choice>eïr</w>
+                  <note type="philologique">
+                     <p rend="footnote text" style="text-align: justify;">Cette forme de l’infinitif <hi rend="italic">veoir</hi> est picarde, wallone ou lorraine (Collet Greub 1.20.c).</p>
+                  </note>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_643">apierte</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_644">p<ex>re</ex>u<choice><orig>u</orig><reg>v</reg></choice>e</w>
+               </l>
+               <l n="93">
+                  <lb n="93"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_645"><choice><orig>Q</orig><reg>q</reg></choice><ex>ue</ex></w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_646">li</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_647">priestres</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_648">fu</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_649">de</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_650">li</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_651">priés</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_652">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="94">
+                  <lb n="94"/>
+                  <num>
+                     <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_653">.I.</w>
+                  </num>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_654">siens</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_655"><ex>com</ex>pains</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_656">li</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_657">dist</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_658">apriés</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_659">
+                     <choice>
+                        <orig/>
+                        <reg>:</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="95">
+                  <lb n="95"/>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_660">
+                     <choice>
+                        <orig/>
+                        <reg>«</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_661">Compains</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_662">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_663">c’</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_664" join="right">as</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_665" join="right">tu</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_666">fait</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_667" join="right">de</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_668">tes</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_669">braies</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_670">
+                     <choice>
+                        <orig/>
+                        <reg>?</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="96">
+                  <lb n="96"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_671">Or</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_672" join="right">as</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_673">tu</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_674">ensengnes</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_675">b<ex>ie</ex>n</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_676"><choice><orig>u</orig><reg>v</reg></choice>raies</w>
+               </l>
+               <l n="97">
+                  <lb n="97"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_677"><choice><orig>D</orig><reg>d</reg></choice>ou</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_678">priestre</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_679">dont</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_680">le</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_681">saiel</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_682">as</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_683">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="98">
+                  <lb n="98"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_684" join="right" ana="#aggl-cert_low">De</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_685">ta</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_686">fe<ex>m</ex>me</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_687">fait</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_688">ses</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_689">soulas</w>
+               </l>
+               <l n="99">
+                  <lb n="99"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_690"><ex>et</ex></w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_691" join="right" ana="#aggl-cert_low">si</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_692">ert</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_693" join="right">dou</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_694">tien</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_695">p<ex>ar</ex><space type="degl"/>çonniers</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_696">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="100">
+                  <lb n="100"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_697"><choice><orig>Q</orig><reg>q</reg></choice><ex>u</ex>’</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_698"><ex>i</ex>l</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_699" join="right">a</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_700" join="right">te</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_701">bour<space type="degl" cert="low"/>se</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_702" join="right">a</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_703">tes</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_704">deniers</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_705">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_706">
+                     <choice>
+                        <orig/>
+                        <reg>»</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="101">
+                  <lb n="101"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_707" join="right" ana="#aggl-cert_low">Li</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_708">bouciers</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_709" join="right" ana="#aggl-cert_low">fu</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_710">plus</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_711">abaubis</w>
+               </l>
+               <l n="102">
+                  <lb n="102"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_712"><choice><orig>Q</orig><reg>q</reg></choice>u’</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_713">entre</w>
+                  <num>
+                     <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_714">.x.</w>
+                  </num>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_715">leus</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_716" join="right" ana="#aggl-cert_low"><choice><orig>v</orig><reg>u</reg></choice>ne</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_717">brebis</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_718">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+                  <pb n="162v"
+                       xml:id="pb_3"
+                       facs="https://apitest.nakala.fr/iiif/10.34847/nkl.07bcc88d/91e20826e0409de598c1d11e9ba9797246bc7c2c/full/full/0/default.jpg"/>
+                  <cb n="162va"/>
+               </l>
+               <l n="103">
+                  <lb n="103"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_720">Et</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_721">cascuns</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_722">di</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_723">
+                     <choice>
+                        <orig/>
+                        <reg>:</reg>
+                     </choice>
+                  </pc>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_724">
+                     <choice>
+                        <orig/>
+                        <reg>«</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_725"><choice><orig>v</orig><reg>V</reg></choice>ois</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_726">dou</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_727">hui<space type="degl" cert="low"/>hot</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_728">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_729">
+                     <choice>
+                        <orig/>
+                        <reg>»</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="104">
+                  <lb n="104"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_730">La</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_731">bieste</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_732" join="right">de</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_733">quoi</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_734">pai<choice><orig>j</orig><reg>i</reg></choice>er</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_735">n’</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_736">ot</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_737">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="105">
+                  <lb n="105"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_738">Tres<space type="degl"/>to<ex>us</ex></w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_739">desconfis</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_740">en</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_741">re<choice><orig>u</orig><reg>v</reg></choice>int</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_742">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="106">
+                  <lb n="106"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_743">Telle</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_744" join="right">a<choice><orig>u</orig><reg>v</reg></choice>enture</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_745">li</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_746">a<choice><orig>u</orig><reg>v</reg></choice>int</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_747">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="107">
+                  <lb n="107"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_748" join="right">La</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_749">nou<choice><orig>u</orig><reg>v</reg></choice>ielle</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_750">s’</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_751">en</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_752">espandi</w>
+               </l>
+               <l n="108">
+                  <lb n="108"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_753"><ex>et</ex></w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_754">li</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_755">e<choice><orig>u</orig><reg>v</reg></choice>esques</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_756">l’</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_757">entendy</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_758">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="109">
+                  <lb n="109"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_759"><choice><orig>S</orig><reg>s</reg></choice>i</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_760"><choice><orig>u</orig><reg>v</reg></choice>ot</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_761" join="right">a</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_762">to<ex>us</ex></w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_763">priestres</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_764">deffend<ex>re</ex></w>
+               </l>
+               <l n="110">
+                  <lb n="110"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_765"><choice><orig>D</orig><reg>d</reg></choice>es</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_766">saiaus</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_767" join="right">a</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_768">leur</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_769">braies</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_770">pendre</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_771">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="111">
+                  <lb n="111"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_772">P<ex>our</ex></w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_773" join="right" ana="#aggl-cert_low">çou</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_774"><choice><orig>u</orig><reg>v</reg></choice>ous</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_775">di</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_776" join="right">au</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_777">daarrains</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_778">
+                     <choice>
+                        <orig/>
+                        <reg>:</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="112">
+                  <lb n="112"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_779"><choice><orig>P</orig><reg>p</reg></choice>riestres</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_780">sont</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_781">trop</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_782">rade</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_783" join="right">de</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_784">rains</w>
+               </l>
+               <l n="113">
+                  <lb n="113"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_785"><ex>si</ex></w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_786">en</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_787">ont</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_788">mainte</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_789">ho<ex>m</ex>me</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_790">ahonté</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_791">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="114">
+                  <lb n="114"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_792">Maint</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_793">conte</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_794"><choice><orig>u</orig><reg>v</reg></choice>ous</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_795">en</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_796">ai</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_797">conté</w>
+               </l>
+               <l n="115">
+                  <lb n="115"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_798"><choice><orig>E</orig><reg>e</reg></choice>t</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_799">p<ex>ar</ex></w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_800"><choice><orig>u</orig><reg>v</reg></choice>erités</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_801">enquis</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_802">ai</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_803">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="116">
+                  <lb n="116"/>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_804">A<space type="degl-fgmt" cert="low"/>tant</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_805">m’</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_806" join="right">e<ex>n</ex></w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_807">tais</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_808">q<ex>ue</ex></w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_809">plus</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_810">n’</w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_811" join="right">e<ex>n</ex></w>
+                  <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_812">sai</w>
+                  <pc xml:id="w_BraiesPriestreJeanDeConde_Rome1598_813">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+            </lg>
+            <p rend="explicit" style="font-weight: bold; ">
+               <w xml:id="w_BraiesPriestreJeanDeConde_Rome1598_814">Explicit</w>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

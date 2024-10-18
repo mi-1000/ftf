@@ -1,0 +1,1838 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="fro">Le vilain qui n'iert pas de son hostel sire</title>
+            <author>Anonyme</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2024</date>
+            </edition>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="acorbellari">Alain Corbellari</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="alavrent">Alexei Lavrentiev</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="apinche">Ariane Pinche</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="blaid">Baptiste Laïd</name>
+            </respStmt>
+            <respStmt>
+               <resp>robot</resp>
+               <name xml:id="bot">bot bot</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="cguillot">Céline Guillot-Barbance</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="clachet">Claude Lachet</name>
+            </respStmt>
+            <respStmt>
+               <resp>editeur</resp>
+               <resp>traducteur</resp>
+               <resp>chef de projet</resp>
+               <name xml:id="cpierreville">Corinne Pierreville</name>
+            </respStmt>
+            <respStmt>
+               <resp>relecteur</resp>
+               <resp>relecteur-traduction</resp>
+               <resp>membre</resp>
+               <name xml:id="ggruber">Gauthier Grüber</name>
+            </respStmt>
+            <respStmt>
+               <resp>ingénieur</resp>
+               <name xml:id="jnuguet">Jules Nuguet</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="ngarnier">Nicolas Garnier</name>
+            </respStmt>
+            <respStmt>
+               <resp>Relecteur traduction</resp>
+               <name xml:id="rbellon">Roger Bellon</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="rtrachsler">Richard Trachsler</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="veugene">Valentine Eugène</name>
+            </respStmt>
+            <respStmt>
+               <resp>ingénieur</resp>
+               <name xml:id="myamagata">Moe Yamagata</name>
+            </respStmt>
+            <respStmt>
+               <resp/>
+               <name xml:id="jdocks">Justine DOCKS</name>
+            </respStmt>
+            <respStmt>
+               <resp>editeur</resp>
+               <resp>relecteur</resp>
+               <resp>traducteur</resp>
+               <resp>relecteur-traduction</resp>
+               <resp/>
+               <name> </name>
+            </respStmt>
+         </editionStmt>
+         <extent>
+            <num xml:id="nb_tokens_given">770</num>
+            <num xml:id="nb_mots_given">680</num>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <name>ENS de Lyon / UMR 5317 IHRIM, Base de français médiéval, projet Fabliaux</name>
+            </publisher>
+            <address>
+               <addrLine>15, parvis René Descartes</addrLine>
+               <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+               <addrLine>Tél : 04 37 37 63 10</addrLine>
+               <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+               <addrLine>http://bfm.ens-lyon.fr</addrLine>
+            </address>
+            <idno type="bfm">http://catalog.bfm-corpus.org/fabliaux/VilainOstelSire_Lyon-5495</idno>
+            <idno type="doi">10.34847/nkl.0bfat188</idno>
+            <availability status="free">
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <ab type="availability_bfm">Les Conditions générales d'utilisation de la Base de Français Médiéval (http://txm.bfm-corpus.org/bfm/files/CGU.pdf), 
+                        et notamment son Article 5 « PROPRIETE INTELLECTUELLE », s'appliquent à tous les textes de la BFM.</ab>
+                  <ab type="how_to_cite">
+                     <label>Comment citer ce texte :</label>
+                     <bibl>Le vilain qui n'iert pas de son hostel sire, édité par Corinne Pierreville en collaboration avec Gauthier Grüber. Publié en ligne par l’ENS de Lyon dans la Base de français médiéval, 
+2024, http://catalog.bfm-corpus.org/fabliaux/VilainOstelSire_Lyon-5495.</bibl>
+                        D'autres formules de citation de la BFM sont proposées sur la page web suivante :
+                        http://bfm.ens-lyon.fr/spip.php?article281.</ab>
+                  <ab type="availability_file">
+                     <label>Conditions d'utilisation de ce fichier :</label>
+                        Ce fichier numérique est composé du corps de texte médiéval (restauré par son ou ses éditeur(s) scientifique(s)), des apparats critiques (introductions, notes, glossaires, explications, du texte d'origine (ou des enrichissements) qui ont été réalisés dans le cadre de la restauration des textes par les Editeurs Scientifiques) et des suppléments numériques : balisage XML-TEI, métadonnées (teiHeader), balisage du discours direct, étiquetage morpho-syntaxique, lemmatisation. Le texte et les suppléments numériques sont libres de droit et peuvent à ce titre être téléchargés et réutilisés librement. Les apparats critiques sont soumis à une licence de type CC BY-NC-SA 3.0 FR  http://creativecommons.org/licenses/by-nc-sa/3.0/fr. Les Utilisateurs s’engagent à respecter les termes de cette licence. 
+                    </ab>
+                  <ab type="availability_txmweb" subtype="illimité">
+                     <label>Conditions d'utilisation par le portail BFM :</label>
+                        Pas de limitation dans l'usage des fonctionnalités. Téléchargement autorisé.</ab>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="main" xml:id="Lyon-5495">
+               <msIdentifier>
+                  <settlement>Lyon</settlement>
+                  <repository>Bibliothèque municipale</repository>
+                  <idno>5495</idno>
+                  <idno type="URI" subtype="Notice" n="Jonas">http://jonas.irht.cnrs.fr/manuscrit/32614</idno>
+                  <idno type="URI" subtype="Data" n="Biblissima">
+https://data.biblissima.fr/entity/Q273324</idno>
+                  <idno type="URI" subtype="Fac-similé">https://nakala.fr/10.34847/nkl.df4852v1</idno>
+                  <idno type="URI" subtype="Manifeste_IIIF">https://api.nakala.fr/data/10.34847/nkl.df4852v1/c1870afeae855b705c6319dd18af1d8f4304212d</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem xml:id="CovoteusEnvieusBodel_Lyon-5495">
+                     <title>Le covoteus et l'envieus</title>
+                  </msItem>
+                  <msItem xml:id="VilainOstelSire_Lyon-5495">
+                     <locus>f. 001ra-001vb</locus>
+                     <title>Le vilain qui n'iert pas de son hostel sire</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin notBefore="1200-01-01" notAfter="1399-12-31">
+                     <p>13e-14e s.</p>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <title type="main" xml:lang="fro">Le vilain qui n'iert pas de son hostel sire</title>
+            <title type="alt">Le paysan qui n'était pas maître chez lui
+            </title>
+            <title type="alt" key="arlima">Du vilain qui n'ert pas de son osté sire</title>
+            <date notBefore="1200-01-01" notAfter="1299-12-31" when="1249-12-31">13e s.</date>
+            <region type="dialecte_oeuvre">Non défini</region>
+            <idno type="INV" subtype="Nykrog">156</idno>
+            <idno type="INV" subtype="Jodogne">156</idno>
+            <idno type="URI" n="Jonas">https://jonas.irht.cnrs.fr/oeuvre/9002</idno>
+            <idno type="URI" n="Arlima">https://www.arlima.net/uz/vilain_qui_nert_pas_de_son_oste_sire.html</idno>
+         </creation>
+         <langUsage>
+            <language ident="fro"/>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.bfm-corpus.org">
+               <term type="domaine">littérature</term>
+               <term type="genre" cert="medium">Fabliau</term>
+               <term type="forme">vers</term>
+               <term type="relation">non renseigné</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#myamagata" when="2024-05-02T11:20:35" n="v2.0">Utilisation du fichier VilainOstelSire[Lyon 5495]v2.0.docx</change>
+         <change who="#bot" when="2024-05-02" n="v2.0">Transformation avec Oxgarage du fichier VilainOstelSire[Lyon 5495]2.0.docx</change>
+         <change who="#myamagata" when="2024-05-03T08:36:35" n="v2.1">Utilisation du fichier VilainOstelSire[Lyon 5495]v2.1.docx</change>
+         <change who="#bot" when="2024-05-13" n="v2.1">Transformation avec Oxgarage du fichier VilainOstelSire[Lyon 5495]2.1.docx</change>
+         <change who="#ggruber" when="2024-06-01T09:21:10" n="v2.1">Utilisation du fichier VilainOstelSire[Lyon 5495]v2.1_reluGG.docx</change>
+         <change who="#cpierreville" when="2024-06-10T12:30:49" n="v2.2">Utilisation du fichier VilainOstelSire[Lyon 5495]v2.2.docx</change>
+         <change who="#bot" when="2024-06-10" n="v2.2">Transformation avec Oxgarage du fichier VilainOstelSire[Lyon 5495]2.2.docx</change>
+         <change who="#cpierreville" when="2024-06-12T09:29:06" n="v1.0">Utilisation du fichier VilainOstelSire[Lyon 5495]trad-v1.0.docx</change>
+         <change who="#cpierreville" when="2024-06-12T09:29:06" n="v2.3">Utilisation du fichier VilainOstelSire[Lyon 5495]v2.3.docx</change>
+         <change who="#bot" when="2024-06-12" n="v2.3">Transformation avec Oxgarage du fichier VilainOstelSire[Lyon 5495]2.3.docx</change>
+         <change who="#bot" when="2024-06-12" n="v1.0">Transformation avec Oxgarage du fichier VilainOstelSire[Lyon 5495]1.0.docx</change>
+         <change who="#myamagata" when="2024-06-13T12:56:15" n="v1.1">Utilisation du fichier VilainOstelSire[Lyon 5495]trad-v1.1ajustfolio.docx</change>
+         <change who="#myamagata" when="2024-06-13T12:56:16" n="v2.4">Utilisation du fichier VilainOstelSire[Lyon 5495]v2.4ajustfolio.docx</change>
+         <change who="#bot" when="2024-06-13" n="v2.4">Transformation avec Oxgarage du fichier VilainOstelSire[Lyon 5495]2.4.docx</change>
+         <change who="#bot" when="2024-06-13" n="v1.1">Transformation avec Oxgarage du fichier VilainOstelSire[Lyon 5495]1.1.docx</change>
+         <change who="#myamagata" when="2024-06-14T07:29:49" n="v1.2">Utilisation du fichier VilainOstelSire[Lyon 5495]trad-v1.2ajustfolio.docx</change>
+         <change who="#myamagata" when="2024-06-14T07:29:50" n="v2.5">Utilisation du fichier VilainOstelSire[Lyon 5495]v2.5ajustfolio.docx</change>
+         <change who="#bot" when="2024-06-14" n="v2.5">Transformation avec Oxgarage du fichier VilainOstelSire[Lyon 5495]2.5.docx</change>
+         <change who="#bot" when="2024-06-14" n="v1.2">Transformation avec Oxgarage du fichier VilainOstelSire[Lyon 5495]1.2.docx</change>
+         <change who="#myamagata" when="2024-06-14T09:22:29" n="v2.6">Utilisation du fichier VilainOstelSire[Lyon 5495]v2.6.docx</change>
+         <change who="#bot" when="2024-06-14" n="v2.6">Transformation avec Oxgarage du fichier VilainOstelSire[Lyon 5495]2.6.docx</change>
+         <change who="#cpierreville" when="2024-06-19T16:57:03" n="v2.7">Utilisation du fichier VilainOstelSire[Lyon 5495]v2.7.docx</change>
+         <change who="#bot" when="2024-06-20" n="v2.7">Transformation avec Oxgarage du fichier VilainOstelSire[Lyon 5495]2.7.docx</change>
+         <change who="#cpierreville" when="2024-06-23T07:07:49" n="v1.3">Utilisation du fichier VilainOstelSire[Lyon 5495]trad-v1.3.docx</change>
+         <change who="#cpierreville" when="2024-06-23T07:07:09" n="v2.8">Utilisation du fichier VilainOstelSire[Lyon 5495]v2.8.docx</change>
+         <change who="#bot" when="2024-06-23" n="v2.8">Transformation avec Oxgarage du fichier VilainOstelSire[Lyon 5495]2.8.docx</change>
+         <change who="#bot" when="2024-06-23" n="v1.3">Transformation avec Oxgarage du fichier VilainOstelSire[Lyon 5495]1.3.docx</change>
+         <change who="#ggruber" when="2024-06-23T16:20:29" n="v1.3">Utilisation du fichier VilainOstelSire[Lyon 5495]trad-v1.3_reluGG.docx</change>
+         <change who="#cpierreville" when="2024-06-24T05:14:11" n="v1.4">Utilisation du fichier VilainOstelSire[Lyon 5495]trad-v1.4.docx</change>
+         <change who="#bot" when="2024-06-24" n="v1.4">Transformation avec Oxgarage du fichier VilainOstelSire[Lyon 5495]1.4.docx</change>
+      </revisionDesc>
+   </teiHeader>
+   <text source="VilainOstelSire_Lyon-5495">
+      <body>
+         <pb n="1r"
+              xml:id="pb_1"
+              facs="https://api.nakala.fr/iiif/10.34847/nkl.df4852v1/d1dcd2ec80d202bf5805b6d697e63aaca707a726/full/full/0/default.jpg"/>
+         <cb n="1ra"/>
+         <lg>
+            <l n="1">
+               <lb n="1"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_1"><g type="initiale" rend="size(2) sizeAct(2) color(blue)">D</g>’</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_2"><choice><orig>v</orig><reg>u</reg></choice>n</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_3">vilein</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_4">vos</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_5">dirai</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_6"><choice><orig>v</orig><reg>u</reg></choice>n</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_7"><ex>con</ex>te</w>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_8">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="2">
+               <lb n="2"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_9"><choice><orig>a</orig><reg>A</reg></choice></w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_10">tos</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_11">les</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_12">autres</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_13">doint</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_14"><choice><orig>d</orig><reg>D</reg></choice>iex</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_15">ho<ex>n</ex>te</w>
+            </l>
+            <l n="3">
+               <lb n="3"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_16">q<ex>ui</ex></w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_17"><choice><orig>i</orig><reg>j</reg></choice>ehui</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_18">matin</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_19">se</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_20">le<choice><orig>u</orig><reg>v</reg></choice><ex>er</ex>ent</w>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_21">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="4">
+               <lb n="4"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_22"><choice><orig>s</orig><reg>S</reg></choice>i</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_23">di</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_24"><choice><orig>i</orig><reg>j</reg></choice>e</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_25">pec<subst><del rend="overwrite">a</del><add place="inline">h</add></subst>é<del rend="dot-below">i</del></w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_26">q<ex>ua</ex>r</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_27">il</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_28">erent</w>
+            </l>
+            <l n="5">
+               <lb n="5"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_29">les</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_30">terres</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_31"><ex>et</ex></w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_32">ont</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_33">g<ex>ra</ex>nt</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_34">suor</w>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_35">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="6">
+               <lb n="6"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_36">si</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_37">sunt</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_38">en</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_39">fiens</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_40" join="right"><ex>et</ex></w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_41" join="right">e<ex>n</ex></w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_42">puor</w>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_43">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="7">
+               <lb n="7"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_44"><ex>et</ex></w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_45">gaaignent</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_46" join="right" ana="#aggl-cert_low"><choice><orig>A</orig><reg>a</reg></choice></w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_47">g<ex>ra</ex>nt</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_48">mesese</w>
+            </l>
+            <l n="8">
+               <lb n="8"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_49">les</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_50">biens</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_51">dont</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_52" join="right" ana="#aggl-cert_low">nos</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_53">vi<choice><orig>u</orig><reg>v</reg></choice>ons</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_54" join="right">a</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_55">iese</w>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_56">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="9">
+               <lb n="9"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_57">Il</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_58">les</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_59" join="right">gaaignent</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_60">voirement</w>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_61">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="10">
+               <lb n="10"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_62">si</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_63">les</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_64">nos</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_65">vendent</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_66">chierem<supplied>e</supplied>nt</w>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_67">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="11">
+               <lb n="11"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_68"><choice><orig>p</orig><reg>P</reg></choice>ar</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_69">aux</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_70">s’</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_71">en</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_72"><choice><orig>u</orig><reg>v</reg></choice>ait</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_73">la</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_74">paine</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_75">tote</w>
+            </l>
+            <l n="12">
+               <lb n="12"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_76"><ex>et</ex></w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_77">par</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_78">nos</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_79">la</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_80">p<ex>re</ex>miere</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_81">goute</w>
+            </l>
+            <l n="13">
+               <lb n="13"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_82"><ex>et</ex></w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_83">la</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_84">flor</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_85">de</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_86">tant</w>
+               <note type="philologique">
+                  <p rend="footnote text" style="text-align: justify;">
+                     <hi rend="italic">tant </hi>est écrit une première fois, puis barré, et une main ultérieure a tracé <hi rend="italic">tan</hi> dans l’interligne.</p>
+               </note>
+               <w xml:id="w_VilainOstelSire_Lyon5495_87">q<ex>u</ex>’</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_88"><ex>i</ex>l</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_89">tra<choice><orig>u</orig><reg>v</reg></choice>aillent</w>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_90">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="14">
+               <lb n="14"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_91">Aillent</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_92">vilein</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_93">laborer</w>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_94">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_VilainOstelSire_Lyon5495_95"><choice><orig>a</orig><reg>A</reg></choice>illent</w>
+            </l>
+            <l n="15">
+               <lb n="15"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_96">q<ex>ua</ex>r</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_97">nos</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_98">ne</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_99">sa<choice><orig>u</orig><reg>v</reg></choice>ons</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_100">laborer</w>
+               <note type="philologique">
+                  <p rend="footnote text">Le couplet d’octosyllabes est incomplet.</p>
+               </note>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_101">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="16">
+               <lb n="16"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_102"><ex>et</ex></w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_103">si</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_104">ne</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_105">sai</w>
+               <note type="philologique">
+                  <p rend="footnote text" style="text-align: justify;">Une main ultérieure a ajouté des lettres dans l’interlignes (<hi rend="italic">oit</hi> ?). Le vers en l’état est hypométrique. </p>
+               </note>
+               <w xml:id="w_VilainOstelSire_Lyon5495_106">q<ex>ue</ex></w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_107"><choice><orig>d</orig><reg>D</reg></choice>iex</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_108">fist</w>
+            </l>
+            <l n="17">
+               <lb n="17"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_109"><choice><orig>N</orig><reg>n</reg></choice>e</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_110" join="right">de</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_111">q<ex>ue</ex>l</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_112"><add place="margin">chose</add></w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_113">il</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_114">s’</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_115">entremist</w>
+            </l>
+            <l n="18">
+               <lb n="18"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_116">de</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_117">faire</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_118">tant</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_119"><add place="above">de</add></w>
+               <note type="philologique">
+                  <p rend="footnote text">
+                     <hi rend="italic">de</hi> est d’une main ultérieure.</p>
+               </note>
+               <w xml:id="w_VilainOstelSire_Lyon5495_120">vilenaille</w>
+            </l>
+            <l n="19">
+               <lb n="19"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_121">q<ex>ue</ex></w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_122"><choice><orig>J</orig><reg>j</reg></choice>a</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_123">vilein</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_124" join="right">a</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_125">p<ex>ro</ex>fit</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_126">n’</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_127">aille</w>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_128">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="20">
+               <lb n="20"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_129">Non</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_130">fera</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_131">il</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_132">ne</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_133">ne</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_134">doit</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_135">faire</w>
+            </l>
+            <l n="21">
+               <lb n="21"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_136">q<ex>ua</ex>r</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_137">vileins</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_138">est</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_139">si</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_140">de<space type="degl"/>putaire</w>
+            </l>
+            <l n="22">
+               <lb n="22"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_141">q<ex>ue</ex></w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_142"><choice><orig>J</orig><reg>j</reg></choice>a</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_143">nus</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_144">des</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_145">biens</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_146" join="right">ne</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_147">dira</w>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_148">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="23">
+               <lb n="23"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_149"><choice><orig>p</orig><reg>P</reg></choice>leüst</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_150">aus</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_151">sains</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_152">don</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_153"><choice><orig>d</orig><reg>D</reg></choice>ieu</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_154">mira</w>
+            </l>
+            <l n="24">
+               <lb n="24"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_155">tout</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_156">le</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_157">monde</w>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_158">
+                  <choice>
+                     <orig>.</orig>
+                     <reg/>
+                  </choice>
+               </pc>
+               <w xml:id="w_VilainOstelSire_Lyon5495_159">q<ex>ua</ex>nt</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_160" join="right">il</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_161">l’</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_162">ot</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_163">fet</w>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_164">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="25">
+               <lb n="25"/>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_165">
+                  <choice>
+                     <orig/>
+                     <reg>-</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_VilainOstelSire_Lyon5495_166"><ex>et</ex></w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_167">si</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_168">ne</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_169">m’</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_170">ont</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_171">il</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_172">riens</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_173">mesfet</w>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_174">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_175">
+                  <choice>
+                     <orig/>
+                     <reg>-</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="26">
+               <lb n="26"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_176">q<ex>ue</ex></w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_177"><choice><orig>i</orig><reg>j</reg></choice>e</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_178">fusse</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_179">rois</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_180">des</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_181">vileins</w>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_182">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="27">
+               <lb n="27"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_183"><choice><orig>I</orig><reg>J</reg></choice>’</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_184"><choice><orig>A</orig><reg>a</reg></choice><choice><orig>u</orig><reg>v</reg></choice>roie</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_185" join="right">plus</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_186">de</w>
+               <num>
+                  <w xml:id="w_VilainOstelSire_Lyon5495_187">c</w>
+                  <pc xml:id="w_VilainOstelSire_Lyon5495_188">
+                     <choice>
+                        <orig>.</orig>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </num>
+               <w xml:id="w_VilainOstelSire_Lyon5495_189">mile</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_190">ains</w>
+            </l>
+            <l n="28">
+               <lb n="28"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_191"><choice><orig>A</orig><reg>a</reg></choice></w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_192">poindre</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_193">cele</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_194">vilenaille</w>
+            </l>
+            <l n="29">
+               <lb n="29"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_195">par<space type="degl"/>mi</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_196">ces</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_197">cus</w>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_198">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_VilainOstelSire_Lyon5495_199">parmi</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_200">ces</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_201">nages</w>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_202">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="30">
+               <lb n="30"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_203">si</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_204">verrïons</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_205">tot</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_206">a</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_207">deli<choice><orig>u</orig><reg>v</reg></choice>re</w>
+            </l>
+            <l n="31">
+               <lb n="31"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_208">se</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_209">nos</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_210">porrïens</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_211">sans</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_212">aux</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_213">vi<choice><orig>u</orig><reg>v</reg></choice>re</w>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_214">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="32">
+               <lb n="32"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_215"><choice><orig>s</orig><reg>S</reg></choice>i</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_216">dient</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_217">il</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_218">q<ex>u</ex>’</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_219"><ex>i</ex>l</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_220">nos</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_221">sotiene<ex>n</ex>t</w>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_222">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="33">
+               <lb n="33"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_223"><ex>et</ex></w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_224">chascun</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_225"><choice><orig>J</orig><reg>j</reg></choice>or</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_226">nos</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_227">vont</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_228"><ex>et</ex></w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_229"><choice><orig>u</orig><reg>v</reg></choice>ie<ex>n</ex>ne<ex>n</ex>t</w>
+            </l>
+            <l n="34">
+               <lb n="34"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_230">p<ex>ar</ex></w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_231">dan</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_232"><choice><orig>g</orig><reg>G</reg></choice>aubert</w>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_233">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_VilainOstelSire_Lyon5495_234">p<ex>ar</ex></w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_235">dant</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_236"><choice><orig>o</orig><reg>O</reg></choice>rri</w>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_237">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="35">
+               <lb n="35"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_238">li</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_239">bie<ex>n</ex></w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_240">dont</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_241">nos</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_242">so<ex>n</ex>mes</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_243">norri</w>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_244">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+               <cb n="1rb"/>
+            </l>
+            <l n="36">
+               <lb n="36"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_245">Maugrés</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_246">an</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_247" join="right" ana="#aggl-cert_low">puissent</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_248">il</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_249">a<choice><orig>u</orig><reg>v</reg></choice>oir</w>
+            </l>
+            <l n="37">
+               <lb n="37"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_250"><ex>et</ex></w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_251">de</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_252">l’</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_253">un</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_254"><ex>et</ex></w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_255">de</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_256">l’</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_257">autre</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_258">a<choice><orig>u</orig><reg>v</reg></choice>oir</w>
+            </l>
+            <l n="38">
+               <lb n="38"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_259"><ex>et</ex></w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_260">des</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_261">eses</w>
+               <note type="philologique">
+                  <p rend="footnote text">Il semble que le copiste avait écrit <hi rend="italic">aeses </hi>et que le <hi rend="italic">a </hi>a été effacé.</p>
+               </note>
+               <w xml:id="w_VilainOstelSire_Lyon5495_262">q<ex>ue</ex></w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_263">nos</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_264">a<choice><orig>u</orig><reg>v</reg></choice>ons</w>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_265">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="39">
+               <lb n="39"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_266"><ex>et</ex></w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_267">des</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_268">biens</w>
+               <note type="philologique">
+                  <p rend="footnote text" style="text-align: justify;">Une main ultérieure a ajouté <hi rend="italic">grans</hi> dans la marge de gauche. En l’état, le vers est hypométrique.</p>
+               </note>
+               <w xml:id="w_VilainOstelSire_Lyon5495_269">dont</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_270">nos</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_271">vi<choice><orig>u</orig><reg>v</reg></choice>o<ex>n</ex>s</w>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_272">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="40">
+               <lb n="40"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_273"><ex>Et</ex></w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_274">sa<choice><orig>u</orig><reg>v</reg></choice>és</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_275">por</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_276">q<ex>uo</ex>i</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_277" join="right" ana="#aggl-cert_low">il</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_278">m’</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_279">anuie<ex>n</ex>t</w>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_280">
+                  <choice>
+                     <orig/>
+                     <reg>?</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="41">
+               <lb n="41"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_281"><choice><orig>p</orig><reg>P</reg></choice>or</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_282">ce</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_283">seuleme<ex>n</ex>t</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_284">q<ex>uẹ</ex></w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_285">il</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_286"><add place="above">nos</add></w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_287">hie<ex>n</ex>t</w>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_288">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="42">
+               <lb n="42"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_289">car</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_290">s’</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_291">il</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_292">sunt</w>
+               <num>
+                  <w xml:id="w_VilainOstelSire_Lyon5495_293">.ii<choice><orig>j</orig><reg>i</reg></choice>.</w>
+               </num>
+               <w xml:id="w_VilainOstelSire_Lyon5495_294">a</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_295">unẹ</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_296">foiere</w>
+            </l>
+            <l n="43">
+               <lb n="43"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_297"><ex>et</ex></w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_298">il</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_299">n’</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_300">i</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_301">ait</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_302">qu’</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_303">un</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_304">seul</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_305">p<ex>ro</ex><choice><orig>u</orig><reg>v</reg></choice>eire</w>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_306">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="44">
+               <lb n="44"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_307">ou</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_308">bien</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_309">il</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_310">soient</w>
+               <num>
+                  <w xml:id="w_VilainOstelSire_Lyon5495_311">.ii<choice><orig>j</orig><reg>i</reg></choice>.</w>
+               </num>
+               <w xml:id="w_VilainOstelSire_Lyon5495_312">ensa<ex>n</ex>ble</w>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_313">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="45">
+               <lb n="45"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_314" join="right" ana="#aggl-cert_low">si</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_315">sont</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_316">il</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_317">mil</w>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_318">
+                  <choice>
+                     <orig>.</orig>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_VilainOstelSire_Lyon5495_319">ce</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_320">lor</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_321">en</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_322">sa<ex>n</ex>ble</w>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_323">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="46">
+               <lb n="46"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_324"><choice><orig>d</orig><reg>D</reg></choice>ont</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_325">il</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_326">diẹnt</w>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_327">
+                  <choice>
+                     <orig/>
+                     <reg>:</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_328">
+                  <choice>
+                     <orig/>
+                     <reg>«</reg>
+                  </choice>
+               </pc>
+               <hi rend="italic">
+                  <w xml:id="w_VilainOstelSire_Lyon5495_329">Nomine</w>
+                  <w xml:id="w_VilainOstelSire_Lyon5495_330">pat<ex>re</ex>s</w>
+               </hi>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_331">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="47">
+               <lb n="47"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_332"><choice><orig>A</orig><reg>a</reg></choice><choice><orig>u</orig><reg>v</reg></choice>és</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_333"><choice><orig>u</orig><reg>v</reg></choice>eü</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_334" join="right" ana="#aggl-cert_low">q<ex>ue</ex></w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_335">de</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_336">bolastres</w>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_337">
+                  <choice>
+                     <orig/>
+                     <reg>?</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="48">
+               <lb n="48"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_338"><choice><orig>p</orig><reg>P</reg></choice>lus</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_339">e<ex>n</ex></w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_340">est</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_341">q<ex>ue</ex></w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_342">de</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_343">pes</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_344">d’</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_345">asne</w>
+               <note type="philologique">
+                  <p rend="footnote text">Le vers est hypométrique.</p>
+               </note>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_346">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_347">
+                  <choice>
+                     <orig/>
+                     <reg>»</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="49">
+               <lb n="49"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_348"><choice><orig>t</orig><reg>T</reg></choice>rop</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_349">hee<ex>n</ex>t</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_350">ch<choice><orig><ex>eualie</ex></orig><reg><ex>evalie</ex></reg></choice>rs</w>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_351">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_VilainOstelSire_Lyon5495_352">par</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_353">m’</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_354">ame</w>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_355">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="50">
+               <lb n="50"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_356">qui</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_357">les</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_358">poilent</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_359"><ex>et</ex></w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_360">q<ex>ui</ex></w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_361">taillent</w>
+               <note type="philologique">
+                  <p rend="footnote text">Le vers est hypométrique.</p>
+               </note>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_362">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="51">
+               <lb n="51"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_363"><ex>et</ex></w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_364">p<ex>ar</ex></w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_365">p<ex>ar</ex>ole</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_366">les</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_367">assaillent</w>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_368">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="52">
+               <lb n="52"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_369">Honis</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_370">soient</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_371">s’</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_372">il</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_373">nos</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_374">aime<ex>n</ex>t</w>
+               <note type="philologique">
+                  <p rend="footnote text">Le vers est hypométrique.</p>
+               </note>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_375">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="53">
+               <lb n="53"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_376"><choice><orig>a</orig><reg>A</reg></choice></w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_377">soufrir</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_378">font</w>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_379">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_VilainOstelSire_Lyon5495_380">por</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_381">ce</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_382">q<ex>u</ex>’</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_383"><ex>i</ex></w>
+               <choice>
+                  <corr>
+                     <w xml:id="w_VilainOstelSire_Lyon5495_384">l</w>
+                  </corr>
+                  <sic>s</sic>
+               </choice>
+               <w xml:id="w_VilainOstelSire_Lyon5495_386">se<space type="degl"/>me<ex>n</ex>t</w>
+            </l>
+            <l n="54">
+               <lb n="54"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_387">le</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_388">blé</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_389"><ex>et</ex></w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_390" join="right">gaaignent</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_391">le</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_392">pain</w>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_393">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="55">
+               <lb n="55"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_394" join="right" ana="#aggl-cert_low"><ex>et</ex></w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_395">si</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_396">ne</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_397">sont</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_398">pas</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_399" join="right">tuit</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_400">vilein</w>
+            </l>
+            <l n="56">
+               <lb n="56"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_401" join="right">por</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_402">ce</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_403">q<ex>ue</ex></w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_404">il</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_405">as</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_406">viles</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_407">sont</w>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_408">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="57">
+               <lb n="57"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_409"><choice><orig>d</orig><reg>D</reg></choice>’</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_410">autresi</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_411">vilein</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_412">en</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_413">reso<ex>n</ex>t</w>
+            </l>
+            <l n="58">
+               <lb n="58"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_414">dont</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_415"><choice><orig>J</orig><reg>j</reg></choice>e</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_416">ne</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_417"><subst><del rend="overwrite">con</del><add place="inline">d</add></subst>irai</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_418">ores</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_419">mie</w>
+            </l>
+            <l n="59">
+               <lb n="59"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_420">q<ex>ua</ex>r</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_421">de</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_422">ceur</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_423">moeut</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_424">la</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_425">vilenie</w>
+               <note type="philologique">
+                  <p rend="footnote text">Flûtre transcrit : <hi rend="italic">car de ceur m’ocist vilenie</hi>.</p>
+               </note>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_426">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="60">
+               <lb n="60"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_427"><choice><orig>o</orig><reg>O</reg></choice>r</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_428">proïon</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_429">q<ex>u</ex>’</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_430"><ex>i</ex>l</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_431">ne</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_432">place</w>
+               <note type="philologique">
+                  <p rend="footnote text">Le vers est hypométrique.</p>
+               </note>
+            </l>
+            <l n="61">
+               <lb n="61"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_433">q<ex>u</ex>’</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_434" join="right" ana="#aggl-cert_low"><ex>i</ex>l</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_435">ait</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_436">vilein</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_437">e<ex>n</ex></w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_438">ceste</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_439">place</w>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_440">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="62">
+               <lb n="62"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_441">ains</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_442">soions</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_443">plei<ex>n</ex></w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_444">de</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_445">cortoisie</w>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_446">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="63">
+               <lb n="63"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_447"><choice><orig>d</orig><reg>D</reg></choice>’</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_448">un</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_449">vilein</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_450">vos</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_451">dirai</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_452">la</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_453">vie</w>
+            </l>
+            <l n="64">
+               <lb n="64"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_454">qui</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_455">n’</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_456">ert</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_457">pas</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_458">de</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_459">son</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_460">osté</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_461">sire</w>
+               <note type="philologique">
+                  <p rend="footnote text" style="text-align: justify;">Le couplet d’octosyllabes est incomplet, ce qui fait suspecter une lacune d’au moins un vers.</p>
+               </note>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_462">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="65">
+               <lb n="65"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_463"><choice><orig>s</orig><reg>S</reg></choice>a</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_464">fame</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_465">en</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_466">ert</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_467">sirë</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_468" join="right"><ex>et</ex></w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_469">mest<ex>re</ex></w>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_470">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="66">
+               <lb n="66"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_471" join="right"><choice><orig>e</orig><reg>E</reg></choice></w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_472">le</w>
+               <note type="philologique">
+                  <p rend="footnote text">C’est un cas d’haplologie. Il faut lire <hi rend="italic">ele le</hi>.</p>
+               </note>
+               <w xml:id="w_VilainOstelSire_Lyon5495_473">feïs<supplied>t</supplied></w>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_474">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_VilainOstelSire_Lyon5495_475">s’</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_476">el</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_477">vousist</w>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_478">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_VilainOstelSire_Lyon5495_479">pestre</w>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_480">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="67">
+               <lb n="67"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_481"><ex>Et</ex></w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_482">bien</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_483">en</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_484">co<ex>n</ex>noissiés</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_485" join="right">de</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_486">tex</w>
+            </l>
+            <l n="68">
+               <lb n="68"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_487">q<ex>ui</ex></w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_488">n’</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_489">ont</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_490">pooir</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_491">e<ex>n</ex></w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_492">lor</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_493">ostex</w>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_494">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="69">
+               <lb n="69"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_495"><choice><orig>a</orig><reg>A</reg></choice>nsi</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_496"><choice><orig>u</orig><reg>v</reg></choice>os</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_497">dirai</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_498">de</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_499">cesti</w>
+            </l>
+            <l n="70">
+               <lb n="70"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_500">en</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_501">cest</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_502"><ex>con</ex>tẹ</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_503">dont</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_504">dirai</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_505">ici</w>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_506">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <pb n="1v"
+                    xml:id="pb_2"
+                    facs="https://api.nakala.fr/iiif/10.34847/nkl.df4852v1/ee678a9742f44698a712c4f09a8a1b0270b27d8e/full/full/0/default.jpg"/>
+               <cb n="1va"/>
+            </l>
+            <l n="71">
+               <lb n="71"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_508">q<ex>ua</ex>r</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_509">cil</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_510">co<choice><orig>u</orig><reg>v</reg></choice>e</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_511">le</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_512">sien</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_513"><supplied>s</supplied>a<choice><orig>u</orig><reg>v</reg></choice>oir</w>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_514">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="72">
+               <lb n="72"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_515"><ex>et</ex></w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_516">si</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_517">n’</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_518">e<ex>n</ex></w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_519">puet</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_520">nul</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_521">bien</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_522">a<choice><orig>u</orig><reg>v</reg></choice>oir</w>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_523">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="73">
+               <lb n="73"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_524"><ex>et</ex></w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_525">q<ex>ua</ex>nt<space type="degl"/>q<ex>u</ex>’</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_526"><ex>i</ex>l</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_527">co<choice><orig>u</orig><reg>v</reg></choice>e</w>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_528">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_VilainOstelSire_Lyon5495_529">si</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_530">pert</w>
+               <note type="philologique">
+                  <p rend="footnote text">Le vers est hypométrique.</p>
+               </note>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_531">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="74">
+               <lb n="74"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_532"><ex>et</ex></w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_533">il</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_534"><choice><orig>u</orig><reg>v</reg></choice>oit</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_535">q<ex>ue</ex></w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_536">autres</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_537">s’</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_538">en</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_539">sert</w>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_540">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="75">
+               <lb n="75"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_541"><choice><orig>d</orig><reg>D</reg></choice>e</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_542">tos</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_543">les</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_544">biens</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_545">q<ex>ue</ex></w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_546">il</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_547">gaai<ex>n</ex>gne</w>
+            </l>
+            <l n="76">
+               <lb n="76"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_548">n’</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_549" join="right" ana="#aggl-cert_low">iert</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_550">il</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_551">si</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_552">hardis</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_553">q<ex>u</ex>’</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_554"><ex>i</ex>l</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_555">en</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_556">p<ex>re</ex>igne</w>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_557">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="77">
+               <lb n="77"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_558">ains</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_559">est</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_560">po<choice><orig>u</orig><reg>v</reg></choice>res</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_561"><ex>et</ex></w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_562">frarins</w>
+               <note type="philologique">
+                  <p rend="footnote text">Vers hypométrique.</p>
+               </note>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_563">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="78">
+               <lb n="78"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_564"><choice><orig>l</orig><reg>L</reg></choice>i</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_565">vileins</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_566" join="right">a</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_567">no<ex>n</ex></w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_568">dans</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_569"><choice><orig>g</orig><reg>G</reg></choice>arins</w>
+            </l>
+            <l n="79">
+               <lb n="79"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_570" join="right"><ex>et</ex></w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_571">sa</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_572">fame</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_573">dame</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_574"><choice><orig>o</orig><reg>O</reg></choice>dïerne</w>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_575">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="80">
+               <lb n="80"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_576">q<ex>ui</ex></w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_577">plus</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_578">despent</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_579">q<ex>ue</ex></w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_580">il</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_581">n’</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_582">esp<ex>er</ex>gne</w>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_583">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="81">
+               <lb n="81"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_584"><choice><orig>n</orig><reg>N</reg></choice>’</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_585">ot</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_586">tele</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_587">entre</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_588"><choice><orig>s</orig><reg>S</reg></choice>ainë</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_589"><ex>et</ex></w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_590"><choice><orig>l</orig><reg>L</reg></choice>oire</w>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_591">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="82">
+               <lb n="82"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_592"><choice><orig>M</orig><reg>m</reg></choice>ais</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_593">ele</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_594">ama</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_595">tant</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_596" join="right">le</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_597">p<ex>ro</ex><choice><orig>u</orig><reg>v</reg></choice>oire</w>
+            </l>
+            <l n="83">
+               <lb n="83"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_598">de</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_599" join="right">sa</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_600"><choice><orig>u</orig><reg>v</reg></choice>ile</w>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_601">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_VilainOstelSire_Lyon5495_602">frere</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_603"><choice><orig>t</orig><reg>T</reg></choice>homas</w>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_604">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="84">
+               <lb n="84"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_605">q<ex>ue</ex></w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_606">ce</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_607">ne</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_608">fu</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_609"><choice><orig>N</orig><reg>n</reg></choice>e</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_610"><choice><orig>i</orig><reg>j</reg></choice>u</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_611">ne</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_612">gas</w>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_613">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="85">
+               <lb n="85"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_614">Elẹ</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_615">n’</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_616">ot</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_617">pas</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_618">tor<supplied>t</supplied></w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_619" join="right">q<ex>ua</ex>r</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_620">son</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_621">mari</w>
+            </l>
+            <l n="86">
+               <lb n="86"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_622">ot</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_623">le</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_624"><choice><orig>u</orig><reg>v</reg></choice>is</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_625" join="right" ana="#aggl-cert_low"><ex>et</ex></w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_626">le</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_627">cors</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_628">mari</w>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_629">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="87">
+               <lb n="87"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_630"><ex>et</ex></w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_631">li</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_632">p<ex>re</ex>strẹs</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_633">o</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_634">la</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_635">teste</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_636">rese</w>
+            </l>
+            <l n="88">
+               <lb n="88"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_637">estoit</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_638">ar<space type="degl"/>dans</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_639" join="right" ana="#aggl-cert_low">pl<ex>us</ex></w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_640">q<ex>ue</ex></w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_641">n’</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_642">est</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_643">b<ex>re</ex>se</w>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_644">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="89">
+               <lb n="89"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_645"><choice><orig>s</orig><reg>S</reg></choice>o<choice><orig>u</orig><reg>v</reg></choice>ent</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_646">donë<del rend="dot-below">nt</del></w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_647"><choice><orig>A</orig><reg>a</reg></choice></w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_648"><choice><orig>o</orig><reg>O</reg></choice>dïerne</w>
+            </l>
+            <l n="90">
+               <lb n="90"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_649">de</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_650">la</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_651">corgie</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_652">de</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_653">cisterne</w>
+            </l>
+            <l n="91">
+               <lb n="91"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_654" join="right"><ex>et</ex></w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_655">p<ex>ar</ex></w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_656">desus</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_657">des</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_658">acoblés</w>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_659">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="92">
+               <lb n="92"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_660">q<ex>ua</ex>nt</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_661">il</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_662">est</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_663">bie<ex>n</ex></w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_664">abu<choice><orig>u</orig><reg>v</reg></choice>rés</w>
+               <note type="philologique">
+                  <p rend="footnote text">Vers hypométrique.</p>
+               </note>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_665">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="93">
+               <lb n="93"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_666">sou<choice><orig>u</orig><reg>v</reg></choice>e<ex>n</ex>t</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_667">remo<ex>n</ex>te</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_668" join="right">sor</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_669">la</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_670">bele</w>
+            </l>
+            <l n="94">
+               <lb n="94"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_671">tout</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_672"><choice><orig>A</orig><reg>a</reg></choice>dés</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_673">sans</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_674">frai<ex>n</ex></w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_675" join="right"><ex>et</ex></w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_676">sa<ex>n</ex>s</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_677">sele</w>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_678">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="95">
+               <lb n="95"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_679" join="right">Au</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_680">çoir</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_681">q<ex>ua</ex>nt</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_682" join="right">li</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_683">solax</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_684">s’</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_685">abesse</w>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_686">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="96">
+               <lb n="96"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_687">lors</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_688">dist</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_689">la</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_690">dame</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_691" join="right">a</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_692">la</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_693">baiesse</w>
+               <note type="philologique">
+                  <p rend="footnote text">Flûtre transcrit : <hi rend="italic">lors dist la dame, con l’abesse.</hi>
+                  </p>
+               </note>
+            </l>
+            <l n="97">
+               <lb n="97"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_694">q<ex>ui</ex></w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_695" join="right">a</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_696">no<ex>n</ex></w>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_697">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_VilainOstelSire_Lyon5495_698">ce</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_699">m’</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_700">est</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_701">vis</w>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_702">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_VilainOstelSire_Lyon5495_703"><choice><orig>d</orig><reg>D</reg></choice>oee</w>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_704">
+                  <choice>
+                     <orig/>
+                     <reg>:</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="98">
+               <lb n="98"/>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_705">
+                  <choice>
+                     <orig/>
+                     <reg>«</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_VilainOstelSire_Lyon5495_706"><choice><orig>f</orig><reg>F</reg></choice>ai</w>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_707">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_VilainOstelSire_Lyon5495_708">fait</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_709">ele</w>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_710">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_VilainOstelSire_Lyon5495_711">de</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_712">la</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_713">tostee</w>
+            </l>
+            <l n="99">
+               <lb n="99"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_714" join="right" ana="#aggl-cert_low"><choice><orig>A</orig><reg>a</reg></choice></w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_715">mo<ex>n</ex></w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_716">seignor</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_717">q<ex>ui</ex></w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_718">la</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_719">hors</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_720">bat</w>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_721">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="100">
+               <lb n="100"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_722" join="right"><ex>et</ex></w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_723">si</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_724">e<ex>n</ex></w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_725">m<ex>en</ex>g<ex>er</ex>ont</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_726">cil</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_727">chat</w>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_728">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="101">
+               <lb n="101"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_729" join="right" ana="#aggl-cert_low">si</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_730">en</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_731">ferons</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_732">plus</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_733">bele</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_734">here</w>
+            </l>
+            <l n="102">
+               <lb n="102"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_735">au</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_736"><choice><orig>u</orig><reg>v</reg></choice>ilein</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_737" join="right" ana="#aggl-cert_low">q<ex>ui</ex></w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_738">het</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_739">bele</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_740">chiere</w>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_741">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+               <cb n="1vb"/>
+            </l>
+            <l n="103">
+               <lb n="103"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_742"><choice><orig>d</orig><reg>D</reg></choice>e</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_743">moi</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_744">a</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_745">trestote</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_746">sa</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_747"><choice><orig>u</orig><reg>v</reg></choice>ie</w>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_748">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="104">
+               <lb n="104"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_749">q<ex>ue</ex></w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_750">il</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_751" join="right">ne</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_752">l’</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_753" join="right">a</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_754" join="right">pas</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_755">des<ex>er</ex><choice><orig>u</orig><reg>v</reg></choice>ie</w>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_756">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="105">
+               <lb n="105"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_757">eins</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_758">li</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_759">ferai</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_760">enui</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_761"><ex>et</ex></w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_762">ho<ex>n</ex>te</w>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_763">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_764">
+                  <choice>
+                     <orig/>
+                     <reg>»</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="106">
+               <lb n="106"/>
+               <w xml:id="w_VilainOstelSire_Lyon5495_765">A<space type="degl-fgmt" cert="low"/>tant</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_766">ici</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_767" join="right" ana="#aggl-cert_low">fenist</w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_768">mo<ex>n</ex></w>
+               <w xml:id="w_VilainOstelSire_Lyon5495_769"><ex>con</ex>te</w>
+               <pc xml:id="w_VilainOstelSire_Lyon5495_770">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+         </lg>
+      </body>
+   </text>
+</TEI>
