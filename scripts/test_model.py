@@ -17,7 +17,7 @@ def load_model_and_tokenizer(model_name):
     return tokenizer, model
 
 # Translation function
-def translate_text(tokenizer, model, text, lang_token=">>fr<<"):
+def translate_text(tokenizer, model, text):
     inputs = tokenizer(text, return_tensors="pt", padding=True)
     translated = model.generate(**inputs)
     return [tokenizer.decode(t, skip_special_tokens=True) for t in translated]
@@ -61,34 +61,40 @@ def compute_levenshtein_distance(translated_text, reference_text):
     return np.mean(distances)
 
 # Main pipeline function
-def evaluate_translation_pipeline(src_text, expected_text):
-    # Load models and tokenizers
-    tokenizer1, model1 = load_model_and_tokenizer(romance_en)  # Latin to French
-    tokenizer2, model2 = load_model_and_tokenizer(en_romance)  # French to English
+def evaluate_translation_pipeline(src_text, expected_text, model="MarianMT"):
+    if model == "MarianMT":
+        # Load models and tokenizers
+        tokenizer1, model1 = load_model_and_tokenizer(romance_en)  # Latin to English
+        tokenizer2, model2 = load_model_and_tokenizer(en_romance)  # French to French
 
-    # First translation: Latin to French
-    french_translation = translate_text(tokenizer1, model1, src_text)
+        # First translation: Latin to English
+        english_translation = translate_text(tokenizer1, model1, src_text)
 
-    # Add French token for the next step
-    french_translation_with_token = [f">>fr<< {sentence}" for sentence in french_translation]
+        # Add French token for the next step
+        english_translation_with_token = [f">>en<< {sentence}" for sentence in english_translation]
 
-    # Second translation: French to English
-    english_translation = translate_text(tokenizer2, model2, french_translation_with_token)
+        # Second translation: French to English
+        french_translation = translate_text(tokenizer2, model2, english_translation_with_token)
+    elif model == "Llama-8B":
+        pass # TODO
+    else:
+        print("Incorrect model name!")
+        return
 
     # Compute BLEU
-    bleu_score = compute_bleu_score(english_translation, expected_text)
+    bleu_score = compute_bleu_score(french_translation, expected_text)
     print(f"BLEU score: {bleu_score:.2f}")
 
     # Compute chrF
-    chrf_score = compute_chrf_score(english_translation, expected_text)
+    chrf_score = compute_chrf_score(french_translation, expected_text)
     print(f"chrF score: {chrf_score:.2f}")
 
     # Compute BERTScore
-    bertscore = compute_bertscore(english_translation, expected_text)
+    bertscore = compute_bertscore(french_translation, expected_text)
     print(f"BERTScore: Precision: {bertscore['precision']:.2f}, Recall: {bertscore['recall']:.2f}, F1: {bertscore['f1']:.2f}")
 
     # Compute ROUGE
-    rouge_scores = compute_rouge_score(english_translation, expected_text)
+    rouge_scores = compute_rouge_score(french_translation, expected_text)
     print(f"ROUGE-1: {rouge_scores['rouge1']:.2f}, ROUGE-2: {rouge_scores['rouge2']:.2f}, ROUGE-L: {rouge_scores['rougeL']:.2f}")
 
     # Cosine Similarity (dummy example, replace with real embeddings)
@@ -98,7 +104,7 @@ def evaluate_translation_pipeline(src_text, expected_text):
     print(f"Cosine Similarity: {cosine_similarity:.2f}")
 
     # Levenshtein distance
-    avg_levenshtein = compute_levenshtein_distance(english_translation, expected_text)
+    avg_levenshtein = compute_levenshtein_distance(french_translation, expected_text)
     print(f"Average Levenshtein Distance: {avg_levenshtein:.2f}")
 
 # Source and target texts
@@ -137,4 +143,5 @@ expected_text = [
 ]
 
 if __name__ == "__main__":
-    evaluate_translation_pipeline(src_text, expected_text)
+    evaluate_translation_pipeline(src_text, expected_text, "MarianMT")
+    # TODO
