@@ -85,21 +85,10 @@ def evaluate_translation_pipeline(src_text, expected_text, model="MarianMT"):
         # Second translation: French to English
         french_translation = translate_text(tokenizer2, model2, english_translation_with_token)
     elif model == "Llama-8B":
-        # Add language token
-        src_text_with_token = [f">>la<< {sentence}" for sentence in src_text]
-        
-        # Load models and tokenizers
-        tokenizer1, model1 = load_model_and_tokenizer_llama(romance_en)  # Latin to English
-        tokenizer2, model2 = load_model_and_tokenizer_llama(en_romance)  # French to French
+        model_id = "meta-llama/Meta-Llama-3-8B"
 
-        # First translation: Latin to English
-        english_translation = translate_text(tokenizer1, model1, src_text_with_token)
-
-        # Add French token for the next step
-        english_translation_with_token = [f">>en<< {sentence}" for sentence in english_translation]
-
-        # Second translation: French to English
-        french_translation = translate_text(tokenizer2, model2, english_translation_with_token)
+        pipeline = transformers.pipeline("text-generation", model=model_id, model_kwargs={"torch_dtype": torch.bfloat16}, device_map="auto")
+        pipeline(f"Can you translate this {src_text} in latin to french ? And stock it in a variable called 'french_translation'.")
     else:
         print("Incorrect model name!")
         return
