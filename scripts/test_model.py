@@ -1,4 +1,5 @@
 from transformers import MarianMTModel, MarianTokenizer
+from transformers import pipeline, AutoTokenizer, AutoModelForSeq2SeqLM
 import sacrebleu
 from bert_score import BERTScorer
 from rouge_score import rouge_scorer
@@ -14,6 +15,11 @@ romance_en = "Helsinki-NLP/opus-mt-ROMANCE-en"
 def load_model_and_tokenizer(model_name):
     tokenizer = MarianTokenizer.from_pretrained(model_name)
     model = MarianMTModel.from_pretrained(model_name)
+    return tokenizer, model
+
+def load_model_and_tokenizer_llama(model_name):
+    tokenizer = AutoTokenizer.from_pretrained(model_name)
+    model = AutoModelForSeq2SeqLM.from_pretrained(model_name)
     return tokenizer, model
 
 # Translation function
@@ -79,7 +85,21 @@ def evaluate_translation_pipeline(src_text, expected_text, model="MarianMT"):
         # Second translation: French to English
         french_translation = translate_text(tokenizer2, model2, english_translation_with_token)
     elif model == "Llama-8B":
-        pass # TODO
+        # Add language token
+        src_text_with_token = [f">>la<< {sentence}" for sentence in src_text]
+        
+        # Load models and tokenizers
+        tokenizer1, model1 = load_model_and_tokenizer_llama(romance_en)  # Latin to English
+        tokenizer2, model2 = load_model_and_tokenizer_llama(en_romance)  # French to French
+
+        # First translation: Latin to English
+        english_translation = translate_text(tokenizer1, model1, src_text_with_token)
+
+        # Add French token for the next step
+        english_translation_with_token = [f">>en<< {sentence}" for sentence in english_translation]
+
+        # Second translation: French to English
+        french_translation = translate_text(tokenizer2, model2, english_translation_with_token)
     else:
         print("Incorrect model name!")
         return
@@ -147,4 +167,4 @@ expected_text = [
 
 if __name__ == "__main__":
     evaluate_translation_pipeline(src_text, expected_text, "MarianMT")
-    # TODO
+    evaluate_translation_pipeline(src_text, expected_text, "Llama-8B")
