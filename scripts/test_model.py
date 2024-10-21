@@ -63,12 +63,15 @@ def compute_levenshtein_distance(translated_text, reference_text):
 # Main pipeline function
 def evaluate_translation_pipeline(src_text, expected_text, model="MarianMT"):
     if model == "MarianMT":
+        # Add language token
+        src_text_with_token = [f">>la<< {sentence}" for sentence in src_text]
+        
         # Load models and tokenizers
         tokenizer1, model1 = load_model_and_tokenizer(romance_en)  # Latin to English
         tokenizer2, model2 = load_model_and_tokenizer(en_romance)  # French to French
 
         # First translation: Latin to English
-        english_translation = translate_text(tokenizer1, model1, src_text)
+        english_translation = translate_text(tokenizer1, model1, src_text_with_token)
 
         # Add French token for the next step
         english_translation_with_token = [f">>en<< {sentence}" for sentence in english_translation]
@@ -109,20 +112,20 @@ def evaluate_translation_pipeline(src_text, expected_text, model="MarianMT"):
 
 # Source and target texts
 src_text = [
-    ">>la<< Philisthim autem pugnabant contra Israhel fugeruntque viri Israhel Palestinos et ceciderunt vulnerati in monte Gelboe",
-    ">>la<< cumque adpropinquassent Philisthei persequentes Saul et filios eius percusserunt Ionathan et Abinadab et Melchisuae filios Saul",
-    ">>la<< et adgravatum est proelium contra Saul inveneruntque eum sagittarii et vulneraverunt iaculis",
-    ">>la<< et dixit Saul ad armigerum suum evagina gladium tuum et interfice me ne forte veniant incircumcisi isti et inludant mihi noluit autem armiger eius hoc facere timore perterritus arripuit igitur Saul ensem et inruit in eum",
-    ">>la<< quod cum vidisset armiger eius videlicet mortuum esse Saul inruit etiam ipse in gladium suum et mortuus est",
-    ">>la<< interiit ergo Saul et tres filii eius et omnis domus illius pariter concidit",
-    ">>la<< quod cum vidissent viri Israhel qui habitabant in campestribus fugerunt et Saul ac filiis eius mortuis dereliquerunt urbes suas et huc illucque dispersi sunt veneruntque Philisthim et habitaverunt in eis",
-    ">>la<< die igitur altero detrahentes Philisthim spolia caesorum invenerunt Saul et filios eius iacentes in monte Gelboe",
-    ">>la<< cumque spoliassent eum et amputassent caput armisque nudassent miserunt in terram suam ut circumferretur et ostenderetur idolorum templis et populis",
-    ">>la<< arma autem eius consecraverunt in fano dei sui et caput adfixerunt in templo Dagon",
-    ">>la<< hoc cum audissent viri Iabesgalaad omnia scilicet quae Philisthim fecerunt super Saul",
-    ">>la<< consurrexerunt singuli virorum fortium et tulerunt cadavera Saul et filiorum eius adtuleruntque ea in Iabes et sepelierunt ossa eorum subter quercum quae erat in Iabes et ieiunaverunt septem diebus",
-    ">>la<< mortuus est ergo Saul propter iniquitates suas eo quod praevaricatus sit mandatum Domini quod praeceperat et non custodierit illud sed insuper etiam pythonissam consuluerit",
-    ">>la<< nec speraverit in Domino propter quod et interfecit eum et transtulit regnum eius ad David filium Isai",
+    "Philisthim autem pugnabant contra Israhel fugeruntque viri Israhel Palestinos et ceciderunt vulnerati in monte Gelboe",
+    "cumque adpropinquassent Philisthei persequentes Saul et filios eius percusserunt Ionathan et Abinadab et Melchisuae filios Saul",
+    "et adgravatum est proelium contra Saul inveneruntque eum sagittarii et vulneraverunt iaculis",
+    "et dixit Saul ad armigerum suum evagina gladium tuum et interfice me ne forte veniant incircumcisi isti et inludant mihi noluit autem armiger eius hoc facere timore perterritus arripuit igitur Saul ensem et inruit in eum",
+    "quod cum vidisset armiger eius videlicet mortuum esse Saul inruit etiam ipse in gladium suum et mortuus est",
+    "interiit ergo Saul et tres filii eius et omnis domus illius pariter concidit",
+    "quod cum vidissent viri Israhel qui habitabant in campestribus fugerunt et Saul ac filiis eius mortuis dereliquerunt urbes suas et huc illucque dispersi sunt veneruntque Philisthim et habitaverunt in eis",
+    "die igitur altero detrahentes Philisthim spolia caesorum invenerunt Saul et filios eius iacentes in monte Gelboe",
+    "cumque spoliassent eum et amputassent caput armisque nudassent miserunt in terram suam ut circumferretur et ostenderetur idolorum templis et populis",
+    "arma autem eius consecraverunt in fano dei sui et caput adfixerunt in templo Dagon",
+    "hoc cum audissent viri Iabesgalaad omnia scilicet quae Philisthim fecerunt super Saul",
+    "consurrexerunt singuli virorum fortium et tulerunt cadavera Saul et filiorum eius adtuleruntque ea in Iabes et sepelierunt ossa eorum subter quercum quae erat in Iabes et ieiunaverunt septem diebus",
+    "mortuus est ergo Saul propter iniquitates suas eo quod praevaricatus sit mandatum Domini quod praeceperat et non custodierit illud sed insuper etiam pythonissam consuluerit",
+    "nec speraverit in Domino propter quod et interfecit eum et transtulit regnum eius ad David filium Isai",
 ]
 
 expected_text = [
