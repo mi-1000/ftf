@@ -1,4 +1,4 @@
-# import sacrebleu
+import sacrebleu
 from bert_score import BERTScorer
 from rouge_score import rouge_scorer
 import numpy as np
@@ -33,15 +33,15 @@ def compute_levenshtein_distance(translated_text, reference_text):
     distances = [lev.distance(pred, ref) for pred, ref in zip(translated_text, reference_text)]
     return np.mean(distances)
 
-# # BLEU score function (make sure the format is correct for sacrebleu)
-# def compute_bleu_score(translated_text, reference_text):
-#     bleu = sacrebleu.corpus_bleu(translated_text, [reference_text])
-#     return bleu.score
+# BLEU score function (make sure the format is correct for sacrebleu)
+def compute_bleu_score(translated_text, reference_text):
+    bleu = sacrebleu.corpus_bleu(translated_text, [reference_text])
+    return bleu.score
 
-# # chrF score function (same as BLEU, input format must be tokenized)
-# def compute_chrf_score(translated_text, reference_text):
-#     chrf = sacrebleu.corpus_chrf(translated_text, [reference_text])
-#     return chrf.score
+# chrF score function (same as BLEU, input format must be tokenized)
+def compute_chrf_score(translated_text, reference_text):
+    chrf = sacrebleu.corpus_chrf(translated_text, [reference_text])
+    return chrf.score
 
 # Provided translations
 expected_trad = [
@@ -52,13 +52,13 @@ gpt_trad = [
     "Charlemagne, notre grand empereur, A passé sept années pleines en Espagne : Il a conquis toute la terre jusqu’à la mer. Il n’y a plus de château qui lui résiste ; Mur ou cité, il n'en reste aucun à détruire, Sauf Saragosse, qui est sur une montagne. Le roi Marsile la tient, lui qui n'aime pas Dieu. Il sert Mahomet et invoque Apollon : Mais ils ne peuvent le protéger du mal qui l'attend."
 ]
 
-# # Compute BLEU
-# bleu_score = compute_bleu_score(gpt_trad, expected_trad)
-# print(f"BLEU score: {bleu_score:.2f}")
+# Compute BLEU
+bleu_score = compute_bleu_score(gpt_trad, expected_trad)
+print(f"BLEU score: {bleu_score:.2f}")
 
-# # Compute chrF
-# chrf_score = compute_chrf_score(gpt_trad, expected_trad)
-# print(f"chrF score: {chrf_score:.2f}")
+# Compute chrF
+chrf_score = compute_chrf_score(gpt_trad, expected_trad)
+print(f"chrF score: {chrf_score:.2f}")
 
 # Compute BERTScore
 bertscore = compute_bertscore(gpt_trad, expected_trad)
