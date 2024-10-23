@@ -52,7 +52,7 @@ def process_text(text: str) -> str:
 
     # Replace ". . ." with "..."
     text = text.replace(". . .", "...")
-    
+
     # Replace sequences of more than three dots with three dots
     text = re.sub(r'\.{4,}', '...', text)
 
@@ -138,6 +138,12 @@ def save_text_to_file(title: str, content: List[str], author_name: str):
     # Clean the title and filename
     clean_title = remove_diacritics(title).replace(" ", "")
     clean_author = remove_diacritics(author_name).replace(" ", "")
+    
+    # Remove invalid characters for filenames
+    invalid_chars = r'<>:"/\\|?*'
+    clean_title = re.sub(f'[{re.escape(invalid_chars)}]', '', clean_title)
+    clean_author = re.sub(f'[{re.escape(invalid_chars)}]', '', clean_author)
+    
     filename = os.path.join(directory, f"{clean_author}_{clean_title}.txt")
     
     # Join the content lines
@@ -163,8 +169,8 @@ def save_text_to_file(title: str, content: List[str], author_name: str):
     # Process the text according to the new rules
     text_content = process_text(text_content)
 
-    # Write to the file
-    with open(filename, "w+", encoding="UTF-8") as f:
+    # Write to the file with UTF-8 encoding
+    with open(filename, "w+", encoding="utf-8") as f:
         f.write(text_content)
 
     # Remove the file if it's empty
@@ -219,25 +225,12 @@ async def crawl_authors(base_url: str = "https://latin.packhum.org/browse") -> L
 
 async def main():
     author_urls = await crawl_authors()
-    xml = ""
-    
-    with open('metadata_packhum.xml', 'w+') as f:
-    # Fetch text links from each author and save the content
-        for author_url in author_urls:
-            author_name = author_url.split("/")[-1]  # Get the author's name from the URL
-            text_links = await fetch_text_links(author_url)
-            
-            # Fetch each text link
-            for text_link in text_links:
-                filepath = await fetch_and_save_text(text_link, author_name)
-                if not isinstance(filepath, str):
-                    continue
-                else:
-                    xml += f'<item link="latin.packhum.org/author/{filepath.split('_')[0]}" language="latin" filename="data/raw/data_latin/{filepath}" date="" place="" />'
-                    f.write(xml)
-    return xml
-            
+    for author_url in author_urls:
+        author_name = author_url.split("/")[-1].replace("-", "_")  # Extract author name from URL
+        text_urls = await fetch_text_links(author_url)
+        for text_url in text_urls:
+            await fetch_and_save_text(text_url, author_name)
 
-# Run the asynchronous main function
+# Run the script
 if __name__ == "__main__":
-    print(asyncio.run(main()))
+    asyncio.run(main())
