@@ -4,6 +4,7 @@ from rouge_score import rouge_scorer
 import numpy as np
 from scipy.spatial.distance import cosine
 import Levenshtein as lev
+import transformers 
 
 # BERTScore function
 def compute_bertscore(translated_text, reference_text, lang="fr"):
@@ -47,7 +48,6 @@ def compute_chrf_score(translated_text, reference_text):
 expected_trad = [
     "Le roi Charles, notre empereur, le Grand, sept ans tout pleins est resté dans l’Espagne : jusqu’à la mer il a conquis la terre hautaine. Plus un château qui devant lui résiste, plus une muraille à forcer, plus une cité, hormis Saragosse, qui est dans une montagne. Le roi Marsile la tient, qui n’aime pas Dieu. C’est Mahomet qu’il sert, Apollin qu’il prie. Il ne peut pas s’en garder : le malheur l’atteindra."
 ]
-
 gpt_trad = [
     "Charlemagne, notre grand empereur, A passé sept années pleines en Espagne : Il a conquis toute la terre jusqu’à la mer. Il n’y a plus de château qui lui résiste ; Mur ou cité, il n'en reste aucun à détruire, Sauf Saragosse, qui est sur une montagne. Le roi Marsile la tient, lui qui n'aime pas Dieu. Il sert Mahomet et invoque Apollon : Mais ils ne peuvent le protéger du mal qui l'attend."
 ]

@@ -89,6 +89,24 @@ def evaluate_translation_pipeline(src_text, expected_text, model="MarianMT"):
 
         pipeline = transformers.pipeline("text-generation", model=model_id, model_kwargs={"torch_dtype": torch.bfloat16}, device_map="auto")
         pipeline(f"Can you translate this {src_text} in latin to french ? And stock it in a variable called 'french_translation'.")
+    elif model == "GPT-4o":
+        french_translation = [
+            "Les Philistins faisaient la guerre contre Israël et les hommes d'Israël fuirent devant les Philistins et tombèrent blessés sur le mont Gelboé.",
+            "Et lorsque les Philistins se rapprochèrent, poursuivant Saül et ses fils, ils frappèrent Jonathan, Abinadab et Melchiséa, les fils de Saül.",
+            "Et le combat devint intense contre Saül, et les archers le trouvèrent et le blessèrent avec des flèches.",
+            "Et Saül dit à son porteur d'armes : 'Dégaine ton épée et tue-moi, de peur que ces incirconcis ne viennent et ne se moquent de moi.' Mais son porteur d'armes refusa de le faire, effrayé de peur, alors Saül prit une épée et se jeta dessus.",
+            "Quand son porteur d'armes vit que Saül était mort, il se jeta aussi sur son épée et mourut.",
+            "Ainsi moururent Saül, ses trois fils, et toute sa maison tomba ensemble.",
+            "Lorsque les hommes d'Israël qui habitaient dans les plaines virent cela, ils fuirent. Et à la mort de Saül et de ses fils, ils abandonnèrent leurs villes et se dispersèrent çà et là. Les Philistins vinrent alors et habitèrent dans ces villes.",
+            "Le lendemain, les Philistins vinrent pour dépouiller les morts et trouvèrent Saül et ses fils gisant sur le mont Gelboé.",
+            "Après l'avoir dépouillé, ils lui coupèrent la tête et le dévêtirent de ses armes. Ils envoyèrent ces trophées dans leur pays pour qu'ils soient portés et exposés dans les temples de leurs idoles et montrés au peuple.",
+            "Quant à ses armes, ils les consacrèrent dans le temple de leur dieu, et ils fixèrent sa tête dans le temple de Dagon.",
+            "Lorsque les hommes de Jabès en Galaad entendirent tout ce que les Philistins avaient fait à Saül,",
+            "Tous les hommes vaillants se levèrent et prirent les cadavres de Saül et de ses fils. Ils les apportèrent à Jabès et enterrèrent leurs os sous le chêne de Jabès, et ils jeûnèrent pendant sept jours.",
+            "Saül mourut à cause de ses propres iniquités, parce qu'il avait transgressé le commandement du Seigneur qu'il avait reçu, et qu'il ne l'avait pas gardé, mais en plus il avait consulté une voyante.",
+            "Il n'avait pas mis sa confiance dans le Seigneur, c'est pourquoi il le fit mourir et transféra son royaume à David, fils d'Isaï."
+        ]
+
     else:
         print("Incorrect model name!")
         return
@@ -156,4 +174,5 @@ expected_text = [
 
 if __name__ == "__main__":
     evaluate_translation_pipeline(src_text, expected_text, "MarianMT")
-    evaluate_translation_pipeline(src_text, expected_text, "Llama-8B")
+    # evaluate_translation_pipeline(src_text, expected_text, "Llama-8B")
+    evaluate_translation_pipeline(src_text, expected_text, model="GPT-4o")
