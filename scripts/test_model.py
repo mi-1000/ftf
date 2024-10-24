@@ -177,7 +177,9 @@ src_text_ofr_to_fr = [
 ]
 
 src_text_mfr_to_fr = [
-    ""
+    "Notez ci que histoires de Tobie devroit selonc le maistre en hystoires tantost suivant après le quart livre des roys.",
+    "Mais j'ai ci mys devant Thobie le commencement et la fin du livre Job, pour ce qu'il gist en la Bible devant Thobie.", 
+    "Et ne pourquant ne deussent il mie estre en cest livre, car il ne suit mis hytoires, ne li mestre n'en traite mie en hystoires, mais je les ai mis en cest livre pour la voire et la biaute deus, en tel ordre come il gist en la Bible. "
 ]
 
 src_text_gr_to_fr = [
@@ -214,7 +216,9 @@ expected_text_fr_to_ofr = [
 ]
 
 expected_text_fr_to_mfr = [
-    ""
+    "Remarquez que les Histoires de Tobie devraient selon le Maître en histoires suivre le Quatrième Livre des Rois.",
+    "Mais j'ai décidé de mettre avant Tobie le commencement et la fin du livre de Job, parce qu'ils se trouvent ainsi dans la Bible.",
+    "Et même si ce début et cette fin ne devaient pas se trouver là, car cela ne correspond aux histoires et le Maître n'en parle pas dans son ouvrage, je les ai ajoutés à ce livre à cause de la beauté qu'ils renferment dans l'ordre suivi par la Bible."
 ]
 
 expected_text_fr_to_gr = [
