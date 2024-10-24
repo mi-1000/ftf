@@ -87,25 +87,35 @@ def evaluate_translation_pipeline(src_text, expected_text, model="MarianMT"):
     elif model == "Llama-8B":
         model_id = "meta-llama/Meta-Llama-3-8B"
 
-        pipeline = transformers.pipeline("text-generation", model=model_id, model_kwargs={"torch_dtype": torch.bfloat16}, device_map="auto")
-        pipeline(f"Can you translate this {src_text} in latin to french ? And stock it in a variable called 'french_translation'.")
+        #pipeline = transformers.pipeline("text-generation", model=model_id, model_kwargs={"torch_dtype": torch.bfloat16}, device_map="auto")
+        #pipeline(f"Can you translate this {src_text} in latin to french ? And stock it in a variable called 'french_translation'.")
+
+        french_translation = [
+            "Le roi Charles, notre grand empereur,",
+            "A passé sept ans complets en Espagne :",
+            "Jusqu'à la mer, il a conquis la terre haute.",
+            "Il n'y a pas de château qui résiste devant lui ;",
+            "Pas de mur ni de ville qui n'ait été pris,",
+            "Excepté Saragosse, qui est dans une montagne.",
+            "Le roi Marsile la tient, qui n'aime pas Dieu.",
+            "Il sert Mahomet et appelle Apollin :",
+            "Il ne peut éviter que le malheur ne l'atteigne. aoi."
+        ]
+        src_text = french_translation
+
     elif model == "GPT-4o":
         french_translation = [
-            "Les Philistins faisaient la guerre contre Israël et les hommes d'Israël fuirent devant les Philistins et tombèrent blessés sur le mont Gelboé.",
-            "Et lorsque les Philistins se rapprochèrent, poursuivant Saül et ses fils, ils frappèrent Jonathan, Abinadab et Melchiséa, les fils de Saül.",
-            "Et le combat devint intense contre Saül, et les archers le trouvèrent et le blessèrent avec des flèches.",
-            "Et Saül dit à son porteur d'armes : 'Dégaine ton épée et tue-moi, de peur que ces incirconcis ne viennent et ne se moquent de moi.' Mais son porteur d'armes refusa de le faire, effrayé de peur, alors Saül prit une épée et se jeta dessus.",
-            "Quand son porteur d'armes vit que Saül était mort, il se jeta aussi sur son épée et mourut.",
-            "Ainsi moururent Saül, ses trois fils, et toute sa maison tomba ensemble.",
-            "Lorsque les hommes d'Israël qui habitaient dans les plaines virent cela, ils fuirent. Et à la mort de Saül et de ses fils, ils abandonnèrent leurs villes et se dispersèrent çà et là. Les Philistins vinrent alors et habitèrent dans ces villes.",
-            "Le lendemain, les Philistins vinrent pour dépouiller les morts et trouvèrent Saül et ses fils gisant sur le mont Gelboé.",
-            "Après l'avoir dépouillé, ils lui coupèrent la tête et le dévêtirent de ses armes. Ils envoyèrent ces trophées dans leur pays pour qu'ils soient portés et exposés dans les temples de leurs idoles et montrés au peuple.",
-            "Quant à ses armes, ils les consacrèrent dans le temple de leur dieu, et ils fixèrent sa tête dans le temple de Dagon.",
-            "Lorsque les hommes de Jabès en Galaad entendirent tout ce que les Philistins avaient fait à Saül,",
-            "Tous les hommes vaillants se levèrent et prirent les cadavres de Saül et de ses fils. Ils les apportèrent à Jabès et enterrèrent leurs os sous le chêne de Jabès, et ils jeûnèrent pendant sept jours.",
-            "Saül mourut à cause de ses propres iniquités, parce qu'il avait transgressé le commandement du Seigneur qu'il avait reçu, et qu'il ne l'avait pas gardé, mais en plus il avait consulté une voyante.",
-            "Il n'avait pas mis sa confiance dans le Seigneur, c'est pourquoi il le fit mourir et transféra son royaume à David, fils d'Isaï."
+            "Charles, le roi, notre grand empereur,",
+            "A passé sept années complètes en Espagne :",
+            "Jusqu'à la mer, il a conquis la terre lointaine.",
+            "Il n'y a pas de château qui tienne devant lui ;",
+            "Il ne reste ni mur ni cité à détruire,",
+            "Sauf Saragosse, qui est sur une montagne.",
+            "Le roi Marsile la détient, lui qui n'aime pas Dieu.",
+            "Il sert Mahomet et invoque Apollon :",
+            "Mais ils ne peuvent le protéger du mal qui l'atteint. aoi."    
         ]
+        src_text = french_translation
 
     else:
         print("Incorrect model name!")
@@ -137,8 +147,7 @@ def evaluate_translation_pipeline(src_text, expected_text, model="MarianMT"):
     avg_levenshtein = compute_levenshtein_distance(french_translation, expected_text)
     print(f"Average Levenshtein Distance: {avg_levenshtein:.2f}")
 
-# Source and target texts
-src_text = [
+src_text_la_to_fr = [
     "Philisthim autem pugnabant contra Israhel fugeruntque viri Israhel Palestinos et ceciderunt vulnerati in monte Gelboe",
     "cumque adpropinquassent Philisthei persequentes Saul et filios eius percusserunt Ionathan et Abinadab et Melchisuae filios Saul",
     "et adgravatum est proelium contra Saul inveneruntque eum sagittarii et vulneraverunt iaculis",
@@ -152,10 +161,30 @@ src_text = [
     "hoc cum audissent viri Iabesgalaad omnia scilicet quae Philisthim fecerunt super Saul",
     "consurrexerunt singuli virorum fortium et tulerunt cadavera Saul et filiorum eius adtuleruntque ea in Iabes et sepelierunt ossa eorum subter quercum quae erat in Iabes et ieiunaverunt septem diebus",
     "mortuus est ergo Saul propter iniquitates suas eo quod praevaricatus sit mandatum Domini quod praeceperat et non custodierit illud sed insuper etiam pythonissam consuluerit",
-    "nec speraverit in Domino propter quod et interfecit eum et transtulit regnum eius ad David filium Isai",
+    "nec speraverit in Domino propter quod et interfecit eum et transtulit regnum eius ad David filium Isai"
 ]
 
-expected_text = [
+src_text_ofr_to_fr = [
+    "CARLES li reis, nostre emperere magnes,",
+    "Set anz tuz pleins ad estet en Espaigne :",
+    "Tresqu’en la mer cunquist la tere altaigne.",
+    "N’i ad castel ki devant lui remaigne ;",
+    "Mur ne citet n’i est remés a fraindre,",
+    "Fors Sarraguce, ki est en une muntaigne.",
+    "Li reis Marsilie la tient, ki Deu nen aimet.",
+    "Mahumet sert e Apollin recleimet :",
+    "Nes poet guarder que mals ne l’i ateignet. aoi."
+]
+
+src_text_mfr_to_fr = [
+    ""
+]
+
+src_text_gr_to_fr = [
+    "Διωρισμένων δὲ τούτων φανερὸν ὅτι καὶ τὰ μοναχῶς λεγόμενα καὶ κατὰ πάντων ἀδύνατον ὑπάρχειν ὥσπερ τινὲς λέγουσιν, οἱ μὲν οὐθὲν φάσκοντες ἀληθὲς εἶναι (οὐθὲν γὰρ κωλύειν φασὶν οὕτως ἅπαντα εἶναι ὥσπερ τὸ τὴν διάμετρον σύμμετρον εἶναι), οἱ δὲ πάντ' ἀληθῆ. Σχεδὸν γὰρ οὗτοι οἱ λόγοι οἱ αὐτοὶ τῷ Ἡρακλείτου· ὁ γὰρ λέγων ὅτι πάντ' ἀληθῆ καὶ πάντα ψευδῆ, καὶ χωρὶς λέγει τῶν λόγων ἑκάτερον τούτων, ὥστ' εἴπερ ἀδύνατα ἐκεῖνα, καὶ ταῦτα ἀδύνατον εἶναι. Ἔτι δὲ φανερῶς ἀντιφάσεις εἰσὶν ἃς οὐχ οἷόν τε ἅμα ἀληθεῖς εἶναι οὐδὲ δὴ ψευδεῖς πάσας· καίτοι δόξειέ γ' ἂν μᾶλλον ἐνδέχεσθαι ἐκ τῶν εἰρημένων. Ἀλλὰ πρὸς πάντας τοὺς τοιούτους λόγους αἰτεῖσθαι δεῖ, καθάπερ ἐλέχθη καὶ ἐν τοῖς ἐπάνω λόγοις, οὐχὶ εἶναί τι ἢ μὴ εἶναι ἀλλὰ σημαίνειν τι, ὥστε ἐξ ὁρισμοῦ διαλεκτέον λαβόντας τί σημαίνει τὸ ψεῦδος ἢ τὸ ἀληθές. Εἰ δὲ μηθὲν ἄλλο τὸ ἀληθὲς φάναι ἢ ἀποφάναι ψεῦδός ἐστιν, ἀδύνατον πάντα ψευδῆ εἶναι· ἀνάγκη γὰρ τῆς ἀντιφάσεως θάτερον εἶναι μόριον ἀληθές. Ἔτι εἰ πᾶν ἢ φάναι ἢ ἀποφάναι ἀναγκαῖον, ἀδύνατον ἀμφότερα ψευδῆ εἶναι· θάτερον γὰρ μόριον τῆς ἀντιφάσεως ψεῦδός ἐστιν. Συμβαίνει δὴ καὶ τὸ θρυλούμενον πᾶσι τοῖς τοιούτοις λόγοις, αὐτοὺς ἑαυτοὺς ἀναιρεῖν. Ὁ μὲν γὰρ πάντα ἀληθῆ λέγων καὶ τὸν ἐναντίον αὑτοῦ λόγον ἀληθῆ ποιεῖ, ὥστε τὸν ἑαυτοῦ οὐκ ἀληθῆ (ὁ γὰρ ἐναντίος οὔ φησιν αὐτὸν ἀληθῆ), ὁ δὲ πάντα ψευδῆ καὶ αὐτὸς αὑτόν. Ἐὰν δ' ἐξαιρῶνται ὁ μὲν τὸν ἐναντίον ὡς οὐκ ἀληθὴς μόνος ἐστίν, ὁ δὲ τὸν αὑτοῦ ὡς οὐ ψευδής, οὐδὲν ἧττον ἀπείρους συμβαίνει αὐτοῖς αἰτεῖσθαι λόγους ἀληθεῖς καὶ ψευδεῖς· ὁ γὰρ λέγων τὸν ἀληθῆ λόγον ἀληθῆ ἀληθής, τοῦτο δ' εἰς ἄπειρον βαδιεῖται. Φανερὸν δ' ὅτι οὐδ' οἱ πάντα ἠρεμεῖν λέγοντες ἀληθῆ λέγουσιν οὐδ' οἱ πάντα κινεῖσθαι. Εἰ μὲν γὰρ ἠρεμεῖ πάντα, ἀεὶ ταὐτὰ ἀληθῆ καὶ ψευδῆ ἔσται, φαίνεται δὲ τοῦτο μεταβάλλον ̔ὁ γὰρ λέγων ποτὲ αὐτὸς οὐκ ἦν καὶ πάλιν οὐκ ἔσταἰ· εἰ δὲ πάντα κινεῖται, οὐθὲν ἔσται ἀληθές· πάντα ἄρα ψευδῆ· ἀλλὰ δέδεικται ὅτι ἀδύνατον. Ἔτι ἀνάγκη τὸ ὂν μεταβάλλειν· ἔκ τινος γὰρ εἴς τι ἡ μεταβολή. Ἀλλὰ μὴν οὐδὲ πάντα ἠρεμεῖ ἢ κινεῖται ποτέ, ἀεὶ δ' οὐθέν· ἔστι γάρ τι ὃ ἀεὶ κινεῖ τὰ κινούμενα, καὶ τὸ πρῶτον κινοῦν ἀκίνητον αὐτό."
+]
+
+expected_text_fr_to_la = [
     "Les Philistins livrèrent bataille à Israël, et les hommes d'Israël prirent la fuite devant les Philistins et tombèrent morts sur la montagne de Guilboa.",
     "Les Philistins poursuivirent Saül et ses fils, et tuèrent Jonathan, Abinadab et Malki-Schua, fils de Saül.",
     "L'effort du combat porta sur Saül; les archers l'atteignirent et le blessèrent.",
@@ -169,10 +198,35 @@ expected_text = [
     "Tout Jabès en Galaad ayant appris tout ce que les Philistins avaient fait à Saül,",
     "tous les hommes vaillants se levèrent, prirent le corps de Saül et ceux de ses fils, et les transportèrent à Jabès. Ils enterrèrent leurs os sous le térébinthe, à Jabès, et ils jeûnèrent sept jours.",
     "Saül mourut, parce qu'il se rendit coupable d'infidélité envers l'Eternel, dont il n'observa point la parole, et parce qu'il interrogea et consulta ceux qui évoquent les morts.",
-    "Il ne consulta point l'Eternel; alors l'Eternel le fit mourir, et transféra la royauté à David, fils d'Isaï.",
+    "Il ne consulta point l'Eternel; alors l'Eternel le fit mourir, et transféra la royauté à David, fils d'Isaï."
 ]
 
+expected_text_fr_to_ofr = [
+    "LE roi Charles, notre empereur, le Grand,",
+    "sept ans tout pleins est resté dans l’Espagne :",
+    "jusqu’à la mer il a conquis la terre hautaine.",
+    "Plus un château qui devant lui résiste,",
+    "plus une muraille à forcer, plus une cité,",
+    "hormis Saragosse, qui est dans une montagne.",
+    "Le roi Marsile la tient, qui n’aime pas Dieu.",
+    "C’est Mahomet qu’il sert, Apollin qu’il prie.",
+    "Il ne peut pas s’en garder : le malheur l’atteindra."
+]
+
+expected_text_fr_to_mfr = [
+    ""
+]
+
+expected_text_fr_to_gr = [
+    "Après tout ce qui précède, on doit voir que ces assertions appliquées à un seul cas, et celles qui s'appliquent à tout, sont insoutenables au sens où les comprennent ceux qui les défendent; les uns affirmant que rien n'est vrai, puisque, selon eux, il se peut fort bien que toutes les; propositions soient fausses, comme celle où l'on avancerait que la diagonale est commensurable au côté ; les autres affirmant au contraire que tout est vrai. Ce sont là des théories qui se rapprochent beaucoup des opinions d'Héraclite et se confondent presque avec elles. En effet, celui qui prétend  que tout est vrai et que tout est faux, maintient aussi chacune de ces assertions prises à part; et par conséquent si, considérées séparément, elles sont fausses,  elles le sont également quand on les considère ensemble. D'ailleurs, il y a évidemment des contradictoires qui ne peuvent pas être vraies toutes les deux à la fois, mais qui ne peuvent pas non plus être à la fois toutes les deux fausses, bien que cette dernière alternative pût paraître plus possible que l'autre, d'après les théories qu'on vient d'exposer. Mais, pour réfuter toutes ces doctrines, il faut, ainsi que nous l'avons déjà indiqué un peu plus haut, demander à son adversaire, non pas de dire si la chose est ou si elle n'est pas, mais il faut le sommer d'exprimer et de préciser une pensée quelconque ; de manière qu'on puisse la discuter, en s'appuyant sur la définition même de ce que c'est que le vrai et de ce que c'est que le faux. Si la vérité n'est pas autre chose que d'affirmer le le vrai et de nier le faux, il est dès lors impossible que tout soit faux, puisqu'il y a nécessité absolue que l'une des deux parties de la contradiction soit vraie. D'autre part, si pour toute chose quelconque il faut nécessairement ou l'affirmer ou la nier, il est impossible que les deux parties soient fausses, puisque, dans la contradiction, il n'y en a jamais qu'une seule qui le soit. Le malheur commun de toutes ces belles théories, c'est, comme on l'a répété cent fois, de se réfuter ellesmêmes. Et en effet, quand on avance que tout est vrai, on rend vraie par cela même l'assertion opposée à celle qu'on défend; et, par conséquent, on rend fausse la sienne propre, puisque l'assertion contraire nie que vous soyez dans le vrai. Également, quand on dit que tout est faux, on se condamne du même coup soimême. Que si l'on veut faire des exceptions, et dire que l'opinion contraire à celle qu'on soutient est la seule à n'être pas vraie, et que celle qu'on embrasse soimême est la seule à n'être pas fausse,  on n'en suppose pas moins alors un nombre infini d'assertions vraies et fausses; car, lorsqu'on dit de telle assertion vraie qu'elle est vraie, on sousentend toujours que celui qui dit qu'elle est vraie est dans le vrai; et ces répétitions pourraient aller à l'infini.Il est d'ailleurs évident que ceux qui prétendent que tout est en repos, ne sont pas plus dans le vrai que ceux qui prétendent que tout est en mouvement. Si tout est en repos, alors les mêmes choses seront éternellement vraies et  éternellement fausses. Mais le changement en ce monde est de toute évidence ; et votre interlocuteur luimême doit se dire qu'il fut un temps où il n'existait pas, et qu'il y aura bientôt un temps où il n'existera plus. Mais, si tout est en mouvement, rien ne sera vrai; tout sera faux. Or nous avons démontré que c'était là une impossibilité absolue. Enfin, c'est l'être qui doit nécessairement changer, puisque lechangement n'est que le passage d'un état à un autre état.Mais certainement les choses ne sont pas toutes en repos  ou en mouvement ; elles n'y sont qu'à certains moments donnés ; aucune n'y est éternellement. Ce qui est vrai, c'est qu'il existe un principe qui meut éternellement tout ce qui est mû; et que le moteur premier est luimême immobile."
+]
+
+# Source and target texts
+src_text = src_text_ofr_to_fr
+
+expected_text = expected_text_fr_to_ofr
+
 if __name__ == "__main__":
-    evaluate_translation_pipeline(src_text, expected_text, "MarianMT")
-    # evaluate_translation_pipeline(src_text, expected_text, "Llama-8B")
-    evaluate_translation_pipeline(src_text, expected_text, model="GPT-4o")
+    # evaluate_translation_pipeline(src_text, expected_text, "MarianMT")
+    evaluate_translation_pipeline(src_text, expected_text, "Llama-8B")
+    # evaluate_translation_pipeline(src_text, expected_text, model="GPT-4o")
