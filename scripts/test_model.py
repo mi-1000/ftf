@@ -174,12 +174,30 @@ src_text_ofr_to_fr = [
     "Li reis Marsilie la tient, ki Deu nen aimet.",
     "Mahumet sert e Apollin recleimet :",
     "Nes poet guarder que mals ne l’i ateignet. aoi."
+    "« Seignurs baruns, qui i enveieruns,",
+    "En Sarraguce, al rei Marsiliuns ? »",
+    "Respunt dux Neimes : « Jo irai, par vostre dun !",
+    "Livrez m’en ore le guant e le bastun. »",
+    "Respunt li reis : « Vos estes saives hom.",
+    "Par ceste barbe e par cest men gernun,",
+    "Vos n’irez pas uan de mei si luign.",
+    "Alez sedeir, quant nuls ne vos sumunt !"
 ]
 
 src_text_mfr_to_fr = [
     "Notez ci que histoires de Tobie devroit selonc le maistre en hystoires tantost suivant après le quart livre des roys.",
     "Mais j'ai ci mys devant Thobie le commencement et la fin du livre Job, pour ce qu'il gist en la Bible devant Thobie.", 
     "Et ne pourquant ne deussent il mie estre en cest livre, car il ne suit mis hytoires, ne li mestre n'en traite mie en hystoires, mais je les ai mis en cest livre pour la voire et la biaute deus, en tel ordre come il gist en la Bible. "
+    "Quant Job ot moult parlé à ses amis, nostres sires parla à lui, et il à nostre seigneur moult de manieres.",
+    "Et ce ne fait mie aussi à translater pour les grans misteres qui sunt ès paroles, si les trespasserai ci aussi et vai avant en histoire."
+    "Li tres sainz Job vesqui .c. et .xl. ans apres les grans tribulacions qu'il avoit souffertes.",
+    "Et vit ses enfans et les enfans de ses enfans jusques en la quarte lingniee.",
+    "Et lors morut viele et anciens et plains de jours."
+    "Ci fine li quart livre des rois.",
+    "Ci commence li livres de Job."
+    "Apres ce ouvri Job sa bouc(h)e si maudi l'eure qu'il (est) nez, et dist moult de paroles que nus ne doit translater, et si parlerent moult longuement si ami à lui.",
+    "Et ces paroles qu'il distrent li uns à l'autre sont de si fort larme et plainnes de si grant m(auvesaitié) que nus n'en puet l(e) mistere entendre s'il n'est trop grans clers de divinité.",
+    "Et pour ce les trespasserai je ci, car nus ne les devroit oser translater, car lait gent i pouraient ouvrer, si m'en irai avant la fin du livre Job."
 ]
 
 src_text_gr_to_fr = [
@@ -213,12 +231,31 @@ expected_text_fr_to_ofr = [
     "Le roi Marsile la tient, qui n’aime pas Dieu.",
     "C’est Mahomet qu’il sert, Apollin qu’il prie.",
     "Il ne peut pas s’en garder : le malheur l’atteindra."
+    "« Seigneurs barons, qui y enverrons-nous,",
+    "à Saragosse, vers le roi Marsile ? »",
+    "Le duc Naimes répond : « J’irai, par votre congé :",
+    "livrez-m’en sur l’heure le gant et le bâton. »",
+    "Le roi dit : « Vous êtes homme de grand conseil ;",
+    "par cette mienne barbe,",
+    "vous n’irez pas de si tôt si loin de moi.",
+    "Retournez vous asseoir, car nul ne vous a requis !"
 ]
 
 expected_text_fr_to_mfr = [
     "Remarquez que les Histoires de Tobie devraient selon le Maître en histoires suivre le Quatrième Livre des Rois.",
     "Mais j'ai décidé de mettre avant Tobie le commencement et la fin du livre de Job, parce qu'ils se trouvent ainsi dans la Bible.",
     "Et même si ce début et cette fin ne devaient pas se trouver là, car cela ne correspond aux histoires et le Maître n'en parle pas dans son ouvrage, je les ai ajoutés à ce livre à cause de la beauté qu'ils renferment dans l'ordre suivi par la Bible."
+    "Quant Job eu longtemps parlé à ses amis, Notre Seigneur lui parla, et Job Lui répondit longuement.",
+    "Et je ne traduirai pas à cause des grands mystères qui sont contenus dans ces paroles, je les passerai sous silence et continue plus avant dans les histoires.",
+    "Le très saint Job vécut cent quarante ans après les grandes épreuves qu'il avait endurées.",
+    "Et il connut ses enfants, et les enfants de ses enfants jusqu'à la quatrième génération.",
+    "Et il mourut vieux et sage après très longtemps.",
+    "Ici se termine le Quatrième Livre des Rois.",
+    "Ici commence le Livre de Job.",
+    "Ensuite, Job ouvrit la bouche pour maudire l'heure de sa naissance et il ajouta beaucoup de paroles que personne ne doit traduire, et ses amis parlèrent longuement avec lui.",
+    "Et les paroles qu'ils échangèrent sont si pleines de récriminations et de méchanceté que personne ne peut en entendre le mystère, à moins d'être très savant théologien.",
+    "C'est pour cela que je vais passer outre, car personne ne devrait les traduire et seuls des gens très laids le feraient.",
+    "Je me rendrai donc directement à la fin du Livre."
 ]
 
 expected_text_fr_to_gr = [
