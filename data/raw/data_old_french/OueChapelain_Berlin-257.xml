@@ -1,0 +1,1968 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="fro">L'oue au chapelain</title>
+            <author>Anonyme</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2024</date>
+            </edition>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="acorbellari">Alain Corbellari</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="alavrent">Alexei Lavrentiev</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="apinche">Ariane Pinche</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="blaid">Baptiste Laïd</name>
+            </respStmt>
+            <respStmt>
+               <resp>robot</resp>
+               <name xml:id="bot">bot bot</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="cguillot">Céline Guillot-Barbance</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="clachet">Claude Lachet</name>
+            </respStmt>
+            <respStmt>
+               <resp>editeur</resp>
+               <resp>traducteur</resp>
+               <resp>chef de projet</resp>
+               <name xml:id="cpierreville">Corinne Pierreville</name>
+            </respStmt>
+            <respStmt>
+               <resp>relecteur-traduction</resp>
+               <resp>membre</resp>
+               <name xml:id="ggruber">Gauthier Grüber</name>
+            </respStmt>
+            <respStmt>
+               <resp>ingénieur</resp>
+               <name xml:id="jnuguet">Jules Nuguet</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="ngarnier">Nicolas Garnier</name>
+            </respStmt>
+            <respStmt>
+               <resp>Relecteur traduction</resp>
+               <name xml:id="rbellon">Roger Bellon</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="rtrachsler">Richard Trachsler</name>
+            </respStmt>
+            <respStmt>
+               <resp>relecteur</resp>
+               <resp>membre</resp>
+               <name xml:id="veugene">Valentine Eugène</name>
+            </respStmt>
+            <respStmt>
+               <resp>ingénieur</resp>
+               <name xml:id="myamagata">Moe Yamagata</name>
+            </respStmt>
+            <respStmt>
+               <resp/>
+               <name xml:id="jdocks">Justine DOCKS</name>
+            </respStmt>
+            <respStmt>
+               <resp>editeur</resp>
+               <resp>relecteur</resp>
+               <resp>traducteur</resp>
+               <resp>relecteur-traduction</resp>
+               <resp/>
+               <name> </name>
+            </respStmt>
+         </editionStmt>
+         <extent>
+            <num xml:id="nb_tokens_given">786</num>
+            <num xml:id="nb_mots_given">685</num>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <name>ENS de Lyon / UMR 5317 IHRIM, Base de français médiéval, projet Fabliaux</name>
+            </publisher>
+            <address>
+               <addrLine>15, parvis René Descartes</addrLine>
+               <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+               <addrLine>Tél : 04 37 37 63 10</addrLine>
+               <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+               <addrLine>http://bfm.ens-lyon.fr</addrLine>
+            </address>
+            <idno type="bfm">http://catalog.bfm-corpus.org/fabliaux/OueChapelain_Berlin-257</idno>
+            <idno type="doi">10.34847/nkl.cbef118a</idno>
+            <availability status="free">
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <ab type="availability_bfm">Les Conditions générales d'utilisation de la Base de Français Médiéval (http://txm.bfm-corpus.org/bfm/files/CGU.pdf), 
+                        et notamment son Article 5 « PROPRIETE INTELLECTUELLE », s'appliquent à tous les textes de la BFM.</ab>
+                  <ab type="how_to_cite">
+                     <label>Comment citer ce texte :</label>
+                     <bibl>L'oue au chapelain, édité par Corinne Pierreville en collaboration avec Valentine Eugène. Publié en ligne par l’ENS de Lyon dans la Base de français médiéval, 
+2024, http://catalog.bfm-corpus.org/fabliaux/OueChapelain_Berlin-257.</bibl>
+                        D'autres formules de citation de la BFM sont proposées sur la page web suivante :
+                        http://bfm.ens-lyon.fr/spip.php?article281.</ab>
+                  <ab type="availability_file">
+                     <label>Conditions d'utilisation de ce fichier :</label>
+                        Ce fichier numérique est composé du corps de texte médiéval (restauré par son ou ses éditeur(s) scientifique(s)), des apparats critiques (introductions, notes, glossaires, explications, du texte d'origine (ou des enrichissements) qui ont été réalisés dans le cadre de la restauration des textes par les Editeurs Scientifiques) et des suppléments numériques : balisage XML-TEI, métadonnées (teiHeader), balisage du discours direct, étiquetage morpho-syntaxique, lemmatisation. Le texte et les suppléments numériques sont libres de droit et peuvent à ce titre être téléchargés et réutilisés librement. Les apparats critiques sont soumis à une licence de type CC BY-NC-SA 3.0 FR  http://creativecommons.org/licenses/by-nc-sa/3.0/fr. Les Utilisateurs s’engagent à respecter les termes de cette licence. 
+                    </ab>
+                  <ab type="availability_txmweb" subtype="illimité">
+                     <label>Conditions d'utilisation par le portail BFM :</label>
+                        Pas de limitation dans l'usage des fonctionnalités. Téléchargement autorisé.</ab>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="main" xml:id="Berlin-257">
+               <msIdentifier>
+                  <settlement>Berlin</settlement>
+                  <repository>Staatsbibliothek und Preussischer Kulturbesitz</repository>
+                  <idno>Manuscripta Hamiltoniana 257</idno>
+                  <idno type="URI" subtype="Notice" n="Arlima">https://www.arlima.net/mss/deutschland/berlin/staatsbibliothek/manuscripta_hamiltoniana/257.html</idno>
+                  <idno type="URI" subtype="Notice" n="Jonas">http://jonas.irht.cnrs.fr/manuscrit/7365</idno>
+                  <idno type="URI" subtype="Data" n="Biblissima">
+https://data.biblissima.fr/entity/Q268184</idno>
+                  <idno type="URI" subtype="Fac-similé">https://digital.staatsbibliothek-berlin.de/werkansicht?PPN=PPN835384969%26PHYSID=PHYS_0001</idno>
+                  <idno type="URI" subtype="Manifeste_IIIF">https://content.staatsbibliothek-berlin.de/dc/835384969/manifest</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem xml:id="trDamesAnel2_Berlin-257">
+                     <title>Les trois Dames qui troverent l'anel II</title>
+                  </msItem>
+                  <msItem xml:id="quPrestresHaisiau_Berlin-257">
+                     <locus>f. 050ra-050va</locus>
+                     <title>Les quatre prestres</title>
+                  </msItem>
+                  <msItem xml:id="Auberee_Berlin-257">
+                     <locus>f. 045va-048vb</locus>
+                     <title>Auberee</title>
+                  </msItem>
+                  <msItem xml:id="BaratHaimetBodel_Berlin-257">
+                     <title>Barat et Haimet</title>
+                  </msItem>
+                  <msItem xml:id="BorgeoiseOrliens_Berlin-257">
+                     <locus>f. 032va-034ra</locus>
+                     <title>La Borgeoise d'Orliens</title>
+                  </msItem>
+                  <msItem xml:id="BouchierAbeville_Berlin-257">
+                     <title>Le bouchier d'Abeville</title>
+                  </msItem>
+                  <msItem xml:id="BourseSens_Berlin-257">
+                     <locus>f. 035v-036r</locus>
+                     <title>La plaine borse de sens</title>
+                  </msItem>
+                  <msItem xml:id="ChevalierParlerCons1Guerin_Berlin-257">
+                     <title>Le chevalier qui fist les cons parler I</title>
+                  </msItem>
+                  <msItem xml:id="ChevalierVermeille_Berlin-257">
+                     <title>Le Chevalier a la robe vermeille</title>
+                  </msItem>
+                  <msItem xml:id="CoilleNoire_Berlin-257">
+                     <title>La Couille noire</title>
+                  </msItem>
+                  <msItem xml:id="CovoteusEnvieusBodel_Berlin-257">
+                     <title>Le covoteus et l'envieus</title>
+                  </msItem>
+                  <msItem xml:id="DameEscoillee_Berlin-257">
+                     <title>La dame escoillee</title>
+                  </msItem>
+                  <msItem xml:id="DameVenjaChevalier_Berlin-257">
+                     <title>La Dame qui se venja du chevalier</title>
+                  </msItem>
+                  <msItem xml:id="DamoiseleFoutre1_Berlin-257">
+                     <title>La damoisele qui ne pooit oïr parler de foutre I</title>
+                  </msItem>
+                  <msItem xml:id="FoutreFosse_Berlin-257">
+                     <title>Celle qui se fist foutre sur la fosse de son mari</title>
+                  </msItem>
+                  <msItem xml:id="GauteronMarion_Berlin-257">
+                     <locus>f. 048vb-049ra</locus>
+                     <title>Gauteron et Marion</title>
+                  </msItem>
+                  <msItem xml:id="Gombert2ClersBodel_Berlin-257">
+                     <locus>f. 010vb-011vb</locus>
+                     <title>Gombert et les deus clers</title>
+                  </msItem>
+                  <msItem xml:id="Meunier2Clers_Berlin-257">
+                     <locus>f. 050va-052ra</locus>
+                     <title>Le meunier et les deus clers</title>
+                  </msItem>
+                  <msItem xml:id="OueChapelain_Berlin-257">
+                     <locus>f. 053ra-53va</locus>
+                     <title>L'oue au chapelain</title>
+                  </msItem>
+                  <msItem xml:id="Pescheor_Berlin-257">
+                     <title>Du Pescheor de Pont seur Saine</title>
+                  </msItem>
+                  <msItem xml:id="PrestreLeu_Berlin-257">
+                     <locus>f. 062va-062vb</locus>
+                     <title>Le Prestre et le leu</title>
+                  </msItem>
+                  <msItem xml:id="PrestreMereForce_Berlin-257">
+                     <title>Le Prestre qui ot mere a force</title>
+                  </msItem>
+                  <msItem xml:id="PrestreMoutonHaisiau_Berlin-257">
+                     <locus>f. 053va-053va</locus>
+                     <title>Le prestre et le mouton</title>
+                  </msItem>
+                  <msItem xml:id="PrestreTeint_Berlin-257">
+                     <locus>f. 013va-015vb</locus>
+                     <title>Le Prestre teint</title>
+                  </msItem>
+                  <msItem xml:id="Segretain2_Berlin-257">
+                     <locus>f. 022ra-026va</locus>
+                     <title>Le Segretain moine II</title>
+                  </msItem>
+                  <msItem xml:id="SireHain_Berlin-257">
+                     <title>Sire Hain et dame Anieuse</title>
+                  </msItem>
+                  <msItem xml:id="Vallet12Fames_Berlin-257">
+                     <title>Le Vallet aus douze fames</title>
+                  </msItem>
+                  <msItem xml:id="VieilleTruande_Berlin-257">
+                     <title>La vieille Truande</title>
+                  </msItem>
+                  <msItem xml:id="VilainBailluelBodel_Berlin-257">
+                     <title>Le Vilain de Bailluel</title>
+                  </msItem>
+                  <msItem xml:id="VilainMire_Berlin-257">
+                     <locus>f. 011va-013va</locus>
+                     <title>Le Vilain Mire</title>
+                  </msItem>
+                  <msItem xml:id="VilainParadis_Berlin-257">
+                     <title>Le vilain qui conquist paradis par plait</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin notBefore="1250-01-01" notAfter="1299-12-31">
+                     <p>2e moitié du 13e s.</p>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <title type="main" xml:lang="fro">L'oue au chapelain</title>
+            <title type="modern" xml:lang="fr">L'oie du chapelain
+            </title>
+            <date notBefore="1200-01-01" notAfter="1299-12-31" when="1250-07-02">13e s.</date>
+            <region type="dialecte_oeuvre">Non défini</region>
+            <idno type="INV" subtype="Montaiglon-Raynaud">143</idno>
+            <idno type="INV" subtype="Bedier">88</idno>
+            <idno type="INV" subtype="Nykrog">95</idno>
+            <idno type="INV" subtype="Jodogne">95</idno>
+            <idno type="INV" subtype="Kiesow">38</idno>
+            <idno type="INV" subtype="NRCF">86</idno>
+            <idno type="URI" n="Jonas">https://jonas.irht.cnrs.fr/oeuvre/13414</idno>
+            <idno type="URI" n="Arlima">https://www.arlima.net/mp/oue_au_chapelain.html</idno>
+         </creation>
+         <langUsage>
+            <language ident="fro"/>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.bfm-corpus.org">
+               <term type="domaine">littérature</term>
+               <term type="genre" cert="medium">Fabliau</term>
+               <term type="forme">vers</term>
+               <term type="relation">non renseigné</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#cpierreville" when="2024-04-17T08:02:02" n="v2.0">Utilisation du fichier OueChapelain[Berlin 257]v2.0.docx</change>
+         <change who="#bot" when="2024-04-18" n="v2.0">Transformation avec Oxgarage du fichier OueChapelain[Berlin 257]2.0.docx</change>
+         <change who="#cpierreville" when="2024-05-06T09:34:30" n="v1.0">Utilisation du fichier OueChapelain[Berlin 257]trad-v1.0.docx</change>
+         <change who="#cpierreville" when="2024-05-06T09:34:05" n="v2.1">Utilisation du fichier OueChapelain[Berlin 257]v2.1.docx</change>
+         <change who="#veugene1" when="2024-05-13T08:10:07" n="v2.2">Utilisation du fichier OueChapelain[Berlin 257]v2.2.docx</change>
+         <change who="#bot" when="2024-05-13" n="v2.2">Transformation avec Oxgarage du fichier OueChapelain[Berlin 257]2.2.docx</change>
+         <change who="#bot" when="2024-05-13" n="v1.0">Transformation avec Oxgarage du fichier OueChapelain[Berlin 257]1.0.docx</change>
+         <change who="#cpierreville" when="2024-05-13T11:26:40" n="v2.3">Utilisation du fichier OueChapelain[Berlin 257]v2.3.docx</change>
+         <change who="#bot" when="2024-05-13" n="v2.3">Transformation avec Oxgarage du fichier OueChapelain[Berlin 257]2.3.docx</change>
+         <change who="#ggruber" when="2024-05-22T06:10:50" n="v1.0">Utilisation du fichier OueChapelain[Berlin 257]trad-v1.0_reluGG.docx</change>
+         <change who="#cpierreville" when="2024-05-24T07:35:33" n="v1.1">Utilisation du fichier OueChapelain[Berlin 257]trad-v1.1.docx</change>
+         <change who="#bot" when="2024-05-24" n="v1.1">Transformation avec Oxgarage du fichier OueChapelain[Berlin 257]1.1.docx</change>
+         <change who="#cpierreville" when="2024-06-19T18:00:18" n="v2.4">Utilisation du fichier OueChapelain[Berlin 257]v2.4.docx</change>
+         <change who="#cpierreville" when="2024-06-20T11:48:41" n="v2.5">Utilisation du fichier OueChapelain[Berlin 257]v2.5.docx</change>
+         <change who="#bot" when="2024-06-20" n="v2.5">Transformation avec Oxgarage du fichier OueChapelain[Berlin 257]2.5.docx</change>
+      </revisionDesc>
+   </teiHeader>
+   <text source="OueChapelain_Berlin-257">
+      <body>
+         <pb n="53r"
+              xml:id="pb_1"
+              facs="https://content.staatsbibliothek-berlin.de/dc/835384969-0117/full/pct:50/0/default.jpg"/>
+         <cb n="53ra"/>
+         <lg>
+            <l n="1">
+               <lb n="1"/>
+               <w xml:id="w_OueChapelain_Berlin257_1"><choice><orig>j</orig><reg>J</reg></choice>adis</w>
+               <note type="philologique">
+                  <p rend="footnote text">La majuscule est manquante, mais un petit <hi rend="italic">j </hi>d’attente est visible dans la marge de gauche.</p>
+               </note>
+               <w xml:id="w_OueChapelain_Berlin257_2">a<choice><orig>u</orig><reg>v</reg></choice>i<ex>n</ex>t</w>
+               <w xml:id="w_OueChapelain_Berlin257_3">d’</w>
+               <w xml:id="w_OueChapelain_Berlin257_4">u<ex>n</ex></w>
+               <w xml:id="w_OueChapelain_Berlin257_5">chapelein</w>
+               <pc xml:id="w_OueChapelain_Berlin257_6">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="2">
+               <lb n="2"/>
+               <w xml:id="w_OueChapelain_Berlin257_7"><choice><orig>Q</orig><reg>q</reg></choice><ex>ui</ex></w>
+               <w xml:id="w_OueChapelain_Berlin257_8">ne</w>
+               <w xml:id="w_OueChapelain_Berlin257_9">fu</w>
+               <w xml:id="w_OueChapelain_Berlin257_10">ne</w>
+               <w xml:id="w_OueChapelain_Berlin257_11">fous</w>
+               <w xml:id="w_OueChapelain_Berlin257_12">ne</w>
+               <w xml:id="w_OueChapelain_Berlin257_13"><choice><orig>u</orig><reg>v</reg></choice>ilein</w>
+               <pc xml:id="w_OueChapelain_Berlin257_14">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="3">
+               <lb n="3"/>
+               <w xml:id="w_OueChapelain_Berlin257_15"><choice><orig>M</orig><reg>m</reg></choice><ex>o</ex>lt</w>
+               <w xml:id="w_OueChapelain_Berlin257_16">ot</w>
+               <w xml:id="w_OueChapelain_Berlin257_17" join="right">a</w>
+               <w xml:id="w_OueChapelain_Berlin257_18">me<ex>n</ex>gier</w>
+               <w xml:id="w_OueChapelain_Berlin257_19"><ex>et</ex></w>
+               <w xml:id="w_OueChapelain_Berlin257_20" join="right">a</w>
+               <w xml:id="w_OueChapelain_Berlin257_21">boi<choice><orig>u</orig><reg>v</reg></choice>re</w>
+               <note type="philologique">
+                  <p rend="footnote text">On remarque la rime imparfaite <hi rend="italic">boivre/ Süevre</hi>.</p>
+               </note>
+            </l>
+            <l n="4">
+               <lb n="4"/>
+               <w xml:id="w_OueChapelain_Berlin257_22"><choice><orig>S</orig><reg>s</reg></choice>us</w>
+               <w xml:id="w_OueChapelain_Berlin257_23">la</w>
+               <w xml:id="w_OueChapelain_Berlin257_24">ri<choice><orig>u</orig><reg>v</reg></choice>iere</w>
+               <w xml:id="w_OueChapelain_Berlin257_25">de</w>
+               <w xml:id="w_OueChapelain_Berlin257_26"><choice><orig>s</orig><reg>S</reg></choice>üe<choice><orig>u</orig><reg>v</reg></choice>re</w>
+               <pc xml:id="w_OueChapelain_Berlin257_27">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="5">
+               <lb n="5"/>
+               <w xml:id="w_OueChapelain_Berlin257_28"><choice><orig>Q</orig><reg>q</reg></choice><ex>ui</ex></w>
+               <w xml:id="w_OueChapelain_Berlin257_29" join="right" ana="#aggl-cert_low">de</w>
+               <w xml:id="w_OueChapelain_Berlin257_30">poison</w>
+               <w xml:id="w_OueChapelain_Berlin257_31">est</w>
+               <w xml:id="w_OueChapelain_Berlin257_32">plenteï<choice><orig>u</orig><reg>v</reg></choice>e</w>
+               <pc xml:id="w_OueChapelain_Berlin257_33">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="6">
+               <lb n="6"/>
+               <w xml:id="w_OueChapelain_Berlin257_34" join="right" ana="#aggl-cert_low">Le</w>
+               <w xml:id="w_OueChapelain_Berlin257_35">chapelei<ex>n</ex></w>
+               <w xml:id="w_OueChapelain_Berlin257_36">ot</w>
+               <w xml:id="w_OueChapelain_Berlin257_37" join="right">a</w>
+               <w xml:id="w_OueChapelain_Berlin257_38">no<ex>n</ex></w>
+               <w xml:id="w_OueChapelain_Berlin257_39"><choice><orig>i</orig><reg>I</reg></choice><choice><orig>u</orig><reg>v</reg></choice>e</w>
+               <pc xml:id="w_OueChapelain_Berlin257_40">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="7">
+               <lb n="7"/>
+               <w xml:id="w_OueChapelain_Berlin257_41"><choice><orig>p</orig><reg>P</reg></choice><ex>or</ex></w>
+               <w xml:id="w_OueChapelain_Berlin257_42">ce</w>
+               <w xml:id="w_OueChapelain_Berlin257_43">q<ex>ue</ex></w>
+               <w xml:id="w_OueChapelain_Berlin257_44"><choice><orig>i</orig><reg>j</reg></choice>a</w>
+               <w xml:id="w_OueChapelain_Berlin257_45" join="right">ne</w>
+               <w xml:id="w_OueChapelain_Berlin257_46">se</w>
+               <w xml:id="w_OueChapelain_Berlin257_47">remue</w>
+               <pc xml:id="w_OueChapelain_Berlin257_48">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="8">
+               <lb n="8"/>
+               <w xml:id="w_OueChapelain_Berlin257_49"><choice><orig>v</orig><reg>u</reg></choice>ne</w>
+               <w xml:id="w_OueChapelain_Berlin257_50">crasse</w>
+               <w xml:id="w_OueChapelain_Berlin257_51">oue</w>
+               <w xml:id="w_OueChapelain_Berlin257_52">a<choice><orig>u</orig><reg>v</reg></choice>oit</w>
+               <w xml:id="w_OueChapelain_Berlin257_53" join="right" ana="#aggl-cert_low">en</w>
+               <w xml:id="w_OueChapelain_Berlin257_54">mue</w>
+               <pc xml:id="w_OueChapelain_Berlin257_55">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="9">
+               <lb n="9"/>
+               <w xml:id="w_OueChapelain_Berlin257_56">C’</w>
+               <w xml:id="w_OueChapelain_Berlin257_57">est</w>
+               <note type="philologique">
+                  <p rend="footnote text">Le NRCF édite <hi rend="italic">c’ert</hi>.</p>
+               </note>
+               <num>
+                  <w xml:id="w_OueChapelain_Berlin257_58">.i.</w>
+               </num>
+               <w xml:id="w_OueChapelain_Berlin257_59">oisel</w>
+               <w xml:id="w_OueChapelain_Berlin257_60">de</w>
+               <w xml:id="w_OueChapelain_Berlin257_61">p<ex>ri</ex>me<space type="degl"/><choice><orig>u</orig><reg>v</reg></choice>ere</w>
+               <pc xml:id="w_OueChapelain_Berlin257_62">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="10">
+               <lb n="10"/>
+               <w xml:id="w_OueChapelain_Berlin257_63" join="right" ana="#aggl-cert_low">Or</w>
+               <w xml:id="w_OueChapelain_Berlin257_64">orrez</w>
+               <w xml:id="w_OueChapelain_Berlin257_65"><choice><orig>i</orig><reg>j</reg></choice>a</w>
+               <w xml:id="w_OueChapelain_Berlin257_66"><ex>com</ex></w>
+               <w xml:id="w_OueChapelain_Berlin257_67">le</w>
+               <w xml:id="w_OueChapelain_Berlin257_68">pro<choice><orig>u</orig><reg>v</reg></choice>oire</w>
+            </l>
+            <l n="11">
+               <lb n="11"/>
+               <w xml:id="w_OueChapelain_Berlin257_69"><choice><orig>F</orig><reg>f</reg></choice>u</w>
+               <w xml:id="w_OueChapelain_Berlin257_70">bie<ex>n</ex></w>
+               <w xml:id="w_OueChapelain_Berlin257_71">ser<choice><orig>u</orig><reg>v</reg></choice>i</w>
+               <w xml:id="w_OueChapelain_Berlin257_72" join="right">de</w>
+               <w xml:id="w_OueChapelain_Berlin257_73">sa</w>
+               <w xml:id="w_OueChapelain_Berlin257_74">crasse</w>
+               <w xml:id="w_OueChapelain_Berlin257_75">oie</w>
+               <pc xml:id="w_OueChapelain_Berlin257_76">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="12">
+               <lb n="12"/>
+               <w xml:id="w_OueChapelain_Berlin257_77"><ex>com</ex></w>
+               <w xml:id="w_OueChapelain_Berlin257_78">il</w>
+               <w xml:id="w_OueChapelain_Berlin257_79">en</w>
+               <choice>
+                  <corr>
+                     <w xml:id="w_OueChapelain_Berlin257_80"><choice><orig>u</orig><reg>v</reg></choice>endra</w>
+                  </corr>
+                  <sic>a<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                     </choice>e
+<ex>n</ex>dra</sic>
+               </choice>
+               <w xml:id="w_OueChapelain_Berlin257_82">contre<space type="degl"/><choice><orig>i</orig><reg>j</reg></choice>oie</w>
+               <pc xml:id="w_OueChapelain_Berlin257_83">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="13">
+               <lb n="13"/>
+               <w xml:id="w_OueChapelain_Berlin257_84">Li</w>
+               <w xml:id="w_OueChapelain_Berlin257_85">prestres</w>
+               <w xml:id="w_OueChapelain_Berlin257_86" join="right">a</w>
+               <w xml:id="w_OueChapelain_Berlin257_87">s’</w>
+               <w xml:id="w_OueChapelain_Berlin257_88">oue</w>
+               <w xml:id="w_OueChapelain_Berlin257_89">tuee</w>
+               <pc xml:id="w_OueChapelain_Berlin257_90">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="14">
+               <lb n="14"/>
+               <w xml:id="w_OueChapelain_Berlin257_91" join="right"><choice><orig>S</orig><reg>s</reg></choice>i</w>
+               <w xml:id="w_OueChapelain_Berlin257_92">a</w>
+               <w xml:id="w_OueChapelain_Berlin257_93">sa</w>
+               <w xml:id="w_OueChapelain_Berlin257_94">meschine</w>
+               <w xml:id="w_OueChapelain_Berlin257_95">ma<ex>n</ex>dee</w>
+               <pc xml:id="w_OueChapelain_Berlin257_96">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="15">
+               <lb n="15"/>
+               <w xml:id="w_OueChapelain_Berlin257_97"><choice><orig>Q</orig><reg>q</reg></choice><ex>ui</ex></w>
+               <w xml:id="w_OueChapelain_Berlin257_98">n’</w>
+               <w xml:id="w_OueChapelain_Berlin257_99">a<choice><orig>u</orig><reg>v</reg></choice>oit</w>
+               <w xml:id="w_OueChapelain_Berlin257_100">pas</w>
+               <w xml:id="w_OueChapelain_Berlin257_101">la</w>
+               <w xml:id="w_OueChapelain_Berlin257_102" join="right" ana="#aggl-cert_low">bouche</w>
+               <w xml:id="w_OueChapelain_Berlin257_103">amere</w>
+               <pc xml:id="w_OueChapelain_Berlin257_104">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="16">
+               <lb n="16"/>
+               <w xml:id="w_OueChapelain_Berlin257_105">Il</w>
+               <w xml:id="w_OueChapelain_Berlin257_106">en</w>
+               <w xml:id="w_OueChapelain_Berlin257_107">ot</w>
+               <w xml:id="w_OueChapelain_Berlin257_108">fete</w>
+               <w xml:id="w_OueChapelain_Berlin257_109">sa</w>
+               <w xml:id="w_OueChapelain_Berlin257_110"><ex>com</ex>mere</w>
+            </l>
+            <l n="17">
+               <lb n="17"/>
+               <w xml:id="w_OueChapelain_Berlin257_111">p<ex>or</ex></w>
+               <w xml:id="w_OueChapelain_Berlin257_112">co<choice><orig>u</orig><reg>v</reg></choice><ex>er</ex>ture</w>
+               <w xml:id="w_OueChapelain_Berlin257_113">de</w>
+               <w xml:id="w_OueChapelain_Berlin257_114" join="right">la</w>
+               <w xml:id="w_OueChapelain_Berlin257_115">gent</w>
+               <pc xml:id="w_OueChapelain_Berlin257_116">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="18">
+               <lb n="18"/>
+               <w xml:id="w_OueChapelain_Berlin257_117">p<ex>or</ex></w>
+               <w xml:id="w_OueChapelain_Berlin257_118">ce</w>
+               <w xml:id="w_OueChapelain_Berlin257_119">q<ex>u</ex>’</w>
+               <w xml:id="w_OueChapelain_Berlin257_120"><ex>i</ex></w>
+               <w xml:id="w_OueChapelain_Berlin257_121">la</w>
+               <w xml:id="w_OueChapelain_Berlin257_122">besoit</w>
+               <w xml:id="w_OueChapelain_Berlin257_123">so<choice><orig>u</orig><reg>v</reg></choice>ent</w>
+               <pc xml:id="w_OueChapelain_Berlin257_124">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="19">
+               <lb n="19"/>
+               <w xml:id="w_OueChapelain_Berlin257_125">Q<ex>ua</ex>nt</w>
+               <w xml:id="w_OueChapelain_Berlin257_126">l’</w>
+               <w xml:id="w_OueChapelain_Berlin257_127">oe</w>
+               <w xml:id="w_OueChapelain_Berlin257_128">fu</w>
+               <w xml:id="w_OueChapelain_Berlin257_129" join="right" ana="#aggl-cert_low">m<ex>o</ex>lt</w>
+               <w xml:id="w_OueChapelain_Berlin257_130">tres</w>
+               <w xml:id="w_OueChapelain_Berlin257_131">bie<ex>n</ex></w>
+               <w xml:id="w_OueChapelain_Berlin257_132">cuite</w>
+            </l>
+            <l n="20">
+               <lb n="20"/>
+               <w xml:id="w_OueChapelain_Berlin257_133">a</w>
+               <w xml:id="w_OueChapelain_Berlin257_134">g<ex>ra</ex>nt</w>
+               <w xml:id="w_OueChapelain_Berlin257_135">loisir</w>
+               <w xml:id="w_OueChapelain_Berlin257_136"><ex>et</ex></w>
+               <w xml:id="w_OueChapelain_Berlin257_137">sa<ex>n</ex>z</w>
+               <w xml:id="w_OueChapelain_Berlin257_138">g<ex>ra</ex>nt</w>
+               <w xml:id="w_OueChapelain_Berlin257_139">luite</w>
+               <pc xml:id="w_OueChapelain_Berlin257_140">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="21">
+               <lb n="21"/>
+               <w xml:id="w_OueChapelain_Berlin257_141"><choice><orig>L</orig><reg>l</reg></choice>i</w>
+               <w xml:id="w_OueChapelain_Berlin257_142">prestres</w>
+               <w xml:id="w_OueChapelain_Berlin257_143" join="right">a</w>
+               <w xml:id="w_OueChapelain_Berlin257_144">s’</w>
+               <w xml:id="w_OueChapelain_Berlin257_145">oe</w>
+               <w xml:id="w_OueChapelain_Berlin257_146">co<choice><orig>u</orig><reg>v</reg></choice><ex>er</ex>te</w>
+               <pc xml:id="w_OueChapelain_Berlin257_147">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="22">
+               <lb n="22"/>
+               <w xml:id="w_OueChapelain_Berlin257_148"><ex>et</ex></w>
+               <w xml:id="w_OueChapelain_Berlin257_149">le</w>
+               <w xml:id="w_OueChapelain_Berlin257_150">clerc</w>
+               <w xml:id="w_OueChapelain_Berlin257_151" join="right">a</w>
+               <w xml:id="w_OueChapelain_Berlin257_152">la</w>
+               <w xml:id="w_OueChapelain_Berlin257_153">sause</w>
+               <w xml:id="w_OueChapelain_Berlin257_154">fete</w>
+               <pc xml:id="w_OueChapelain_Berlin257_155">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="23">
+               <lb n="23"/>
+               <w xml:id="w_OueChapelain_Berlin257_156">blanche</w>
+               <w xml:id="w_OueChapelain_Berlin257_157"><ex>et</ex></w>
+               <w xml:id="w_OueChapelain_Berlin257_158">espesse</w>
+               <w xml:id="w_OueChapelain_Berlin257_159"><ex>et</ex></w>
+               <w xml:id="w_OueChapelain_Berlin257_160">bie<ex>n</ex></w>
+               <w xml:id="w_OueChapelain_Berlin257_161">molue</w>
+               <pc xml:id="w_OueChapelain_Berlin257_162">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="24">
+               <lb n="24"/>
+               <w xml:id="w_OueChapelain_Berlin257_163"><choice><orig>S</orig><reg>s</reg></choice>i</w>
+               <w xml:id="w_OueChapelain_Berlin257_164">q<ex>ue</ex></w>
+               <w xml:id="w_OueChapelain_Berlin257_165">tot</w>
+               <w xml:id="w_OueChapelain_Berlin257_166">le</w>
+               <w xml:id="w_OueChapelain_Berlin257_167">cors</w>
+               <w xml:id="w_OueChapelain_Berlin257_168">l’</w>
+               <w xml:id="w_OueChapelain_Berlin257_169" join="right">en</w>
+               <w xml:id="w_OueChapelain_Berlin257_170">tres<space type="degl"/>sue</w>
+               <pc xml:id="w_OueChapelain_Berlin257_171">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="25">
+               <lb n="25"/>
+               <w xml:id="w_OueChapelain_Berlin257_172" join="right" ana="#aggl-cert_low">Sa</w>
+               <w xml:id="w_OueChapelain_Berlin257_173">part</w>
+               <w xml:id="w_OueChapelain_Berlin257_174" join="right">en</w>
+               <w xml:id="w_OueChapelain_Berlin257_175">a</w>
+               <w xml:id="w_OueChapelain_Berlin257_176">bie<ex>n</ex></w>
+               <w xml:id="w_OueChapelain_Berlin257_177">deser<choice><orig>u</orig><reg>v</reg></choice>ie</w>
+               <pc xml:id="w_OueChapelain_Berlin257_178">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="26">
+               <lb n="26"/>
+               <w xml:id="w_OueChapelain_Berlin257_179">Mes</w>
+               <w xml:id="w_OueChapelain_Berlin257_180">li</w>
+               <w xml:id="w_OueChapelain_Berlin257_181">prestres</w>
+               <w xml:id="w_OueChapelain_Berlin257_182">ne</w>
+               <w xml:id="w_OueChapelain_Berlin257_183">doute</w>
+               <w xml:id="w_OueChapelain_Berlin257_184">mie</w>
+            </l>
+            <l n="27">
+               <lb n="27"/>
+               <w xml:id="w_OueChapelain_Berlin257_185"><choice><orig>Q</orig><reg>q</reg></choice><ex>u</ex>’</w>
+               <w xml:id="w_OueChapelain_Berlin257_186"><ex>i</ex>l</w>
+               <w xml:id="w_OueChapelain_Berlin257_187">en</w>
+               <w xml:id="w_OueChapelain_Berlin257_188">face</w>
+               <w xml:id="w_OueChapelain_Berlin257_189">ses</w>
+               <w xml:id="w_OueChapelain_Berlin257_190">g<ex>re</ex>nons</w>
+               <w xml:id="w_OueChapelain_Berlin257_191">bruire</w>
+               <pc xml:id="w_OueChapelain_Berlin257_192">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="28">
+               <lb n="28"/>
+               <w xml:id="w_OueChapelain_Berlin257_193"><choice><orig>E</orig><reg>e</reg></choice>inz</w>
+               <w xml:id="w_OueChapelain_Berlin257_194">s’</w>
+               <w xml:id="w_OueChapelain_Berlin257_195">en</w>
+               <w xml:id="w_OueChapelain_Berlin257_196">cuide</w>
+               <w xml:id="w_OueChapelain_Berlin257_197">m<ex>o</ex>lt</w>
+               <w xml:id="w_OueChapelain_Berlin257_198">bie<ex>n</ex></w>
+               <w xml:id="w_OueChapelain_Berlin257_199">deduire</w>
+            </l>
+            <l n="29">
+               <lb n="29"/>
+               <w xml:id="w_OueChapelain_Berlin257_200"><ex>et</ex></w>
+               <w xml:id="w_OueChapelain_Berlin257_201">s’</w>
+               <w xml:id="w_OueChapelain_Berlin257_202">amie</w>
+               <w xml:id="w_OueChapelain_Berlin257_203">bien</w>
+               <w xml:id="w_OueChapelain_Berlin257_204">saouller</w>
+               <pc xml:id="w_OueChapelain_Berlin257_205">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="30">
+               <lb n="30"/>
+               <w xml:id="w_OueChapelain_Berlin257_206"><choice><orig>M</orig><reg>m</reg></choice>es</w>
+               <w xml:id="w_OueChapelain_Berlin257_207">en</w>
+               <num>
+                  <w xml:id="w_OueChapelain_Berlin257_208">.c.</w>
+               </num>
+               <w xml:id="w_OueChapelain_Berlin257_209">muis</w>
+               <w xml:id="w_OueChapelain_Berlin257_210" join="right">de</w>
+               <w xml:id="w_OueChapelain_Berlin257_211">fol</w>
+               <w xml:id="w_OueChapelain_Berlin257_212">pe<ex>n</ex>ser</w>
+            </l>
+            <l n="31">
+               <lb n="31"/>
+               <w xml:id="w_OueChapelain_Berlin257_213" join="right"><choice><orig>N</orig><reg>n</reg></choice>en</w>
+               <w xml:id="w_OueChapelain_Berlin257_214">a</w>
+               <w xml:id="w_OueChapelain_Berlin257_215">mie</w>
+               <w xml:id="w_OueChapelain_Berlin257_216">plei<ex>n</ex></w>
+               <w xml:id="w_OueChapelain_Berlin257_217">poi<ex>n</ex>g</w>
+               <pc xml:id="w_OueChapelain_Berlin257_218">
+                  <choice>
+                     <orig>.</orig>
+                     <reg/>
+                  </choice>
+               </pc>
+               <w xml:id="w_OueChapelain_Berlin257_219">de</w>
+               <w xml:id="w_OueChapelain_Berlin257_220">sens</w>
+               <pc xml:id="w_OueChapelain_Berlin257_221">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="32">
+               <lb n="32"/>
+               <w xml:id="w_OueChapelain_Berlin257_222"><choice><orig>Q</orig><reg>q</reg></choice><ex>ue</ex></w>
+               <w xml:id="w_OueChapelain_Berlin257_223"><choice><orig>s</orig><reg>S</reg></choice>alemo<ex>n</ex></w>
+               <w xml:id="w_OueChapelain_Berlin257_224">dist</w>
+               <w xml:id="w_OueChapelain_Berlin257_225" join="right" ana="#aggl-cert_low">en</w>
+               <w xml:id="w_OueChapelain_Berlin257_226">son</w>
+               <w xml:id="w_OueChapelain_Berlin257_227">tens</w>
+            </l>
+            <l n="33">
+               <lb n="33"/>
+               <w xml:id="w_OueChapelain_Berlin257_228"><choice><orig>Q</orig><reg>q</reg></choice>u’</w>
+               <w xml:id="w_OueChapelain_Berlin257_229">e<ex>n</ex>tre</w>
+               <w xml:id="w_OueChapelain_Berlin257_230">la</w>
+               <w xml:id="w_OueChapelain_Berlin257_231">bouche</w>
+               <w xml:id="w_OueChapelain_Berlin257_232"><ex>et</ex></w>
+               <w xml:id="w_OueChapelain_Berlin257_233">la</w>
+               <w xml:id="w_OueChapelain_Berlin257_234">cuill<ex>ier</ex></w>
+            </l>
+            <l n="34">
+               <lb n="34"/>
+               <w xml:id="w_OueChapelain_Berlin257_235">a<choice><orig>u</orig><reg>v</reg></choice>ient</w>
+               <w xml:id="w_OueChapelain_Berlin257_236">so<choice><orig>u</orig><reg>v</reg></choice>e<ex>n</ex>t</w>
+               <w xml:id="w_OueChapelain_Berlin257_237">g<ex>ra</ex>nt</w>
+               <w xml:id="w_OueChapelain_Berlin257_238">en<ex>com</ex>brier</w>
+               <pc xml:id="w_OueChapelain_Berlin257_239">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="35">
+               <lb n="35"/>
+               <w xml:id="w_OueChapelain_Berlin257_240">Li</w>
+               <w xml:id="w_OueChapelain_Berlin257_241">prestres</w>
+               <w xml:id="w_OueChapelain_Berlin257_242" join="right">a</w>
+               <w xml:id="w_OueChapelain_Berlin257_243">sa</w>
+               <w xml:id="w_OueChapelain_Berlin257_244">table</w>
+               <w xml:id="w_OueChapelain_Berlin257_245">mise</w>
+            </l>
+            <l n="36">
+               <lb n="36"/>
+               <w xml:id="w_OueChapelain_Berlin257_246"><ex>et</ex></w>
+               <w xml:id="w_OueChapelain_Berlin257_247" join="right">si</w>
+               <w xml:id="w_OueChapelain_Berlin257_248">a</w>
+               <w xml:id="w_OueChapelain_Berlin257_249">sa</w>
+               <w xml:id="w_OueChapelain_Berlin257_250"><ex>com</ex>mere</w>
+               <w xml:id="w_OueChapelain_Berlin257_251">asise</w>
+               <cb n="53rb"/>
+            </l>
+            <l n="37">
+               <lb n="37"/>
+               <w xml:id="w_OueChapelain_Berlin257_252"><choice><orig>S</orig><reg>s</reg></choice>or</w>
+               <num>
+                  <w xml:id="w_OueChapelain_Berlin257_253">.i.</w>
+               </num>
+               <w xml:id="w_OueChapelain_Berlin257_254">coisin</w>
+               <w xml:id="w_OueChapelain_Berlin257_255"><ex>et</ex></w>
+               <w xml:id="w_OueChapelain_Berlin257_256">pres</w>
+               <w xml:id="w_OueChapelain_Berlin257_257" join="right" ana="#aggl-cert_low">du</w>
+               <w xml:id="w_OueChapelain_Berlin257_258">feu</w>
+            </l>
+            <l n="38">
+               <lb n="38"/>
+               <w xml:id="w_OueChapelain_Berlin257_259">p<ex>or</ex></w>
+               <w xml:id="w_OueChapelain_Berlin257_260">ce</w>
+               <w xml:id="w_OueChapelain_Berlin257_261">qu’</w>
+               <w xml:id="w_OueChapelain_Berlin257_262">el</w>
+               <w xml:id="w_OueChapelain_Berlin257_263">fu</w>
+               <w xml:id="w_OueChapelain_Berlin257_264">el</w>
+               <w xml:id="w_OueChapelain_Berlin257_265">plus</w>
+               <w xml:id="w_OueChapelain_Berlin257_266">beau</w>
+               <w xml:id="w_OueChapelain_Berlin257_267">leu</w>
+               <pc xml:id="w_OueChapelain_Berlin257_268">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="39">
+               <lb n="39"/>
+               <w xml:id="w_OueChapelain_Berlin257_269"><ex>et</ex></w>
+               <w xml:id="w_OueChapelain_Berlin257_270" join="right">p<ex>or</ex></w>
+               <w xml:id="w_OueChapelain_Berlin257_271">ce</w>
+               <w xml:id="w_OueChapelain_Berlin257_272">q<ex>u</ex>’</w>
+               <w xml:id="w_OueChapelain_Berlin257_273"><ex>i</ex>l</w>
+               <w xml:id="w_OueChapelain_Berlin257_274"><choice><orig>u</orig><reg>v</reg></choice>eïst</w>
+               <w xml:id="w_OueChapelain_Berlin257_275" join="right" ana="#aggl-cert_low">sa</w>
+               <w xml:id="w_OueChapelain_Berlin257_276">chiere</w>
+               <pc xml:id="w_OueChapelain_Berlin257_277">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="40">
+               <lb n="40"/>
+               <w xml:id="w_OueChapelain_Berlin257_278"><choice><orig>L</orig><reg>l</reg></choice>’</w>
+               <w xml:id="w_OueChapelain_Berlin257_279">a<choice><orig>u</orig><reg>v</reg></choice>oit</w>
+               <w xml:id="w_OueChapelain_Berlin257_280">trete</w>
+               <num>
+                  <w xml:id="w_OueChapelain_Berlin257_281">.i.</w>
+               </num>
+               <w xml:id="w_OueChapelain_Berlin257_282">petit</w>
+               <w xml:id="w_OueChapelain_Berlin257_283">ariere</w>
+               <pc xml:id="w_OueChapelain_Berlin257_284">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="41">
+               <lb n="41"/>
+               <w xml:id="w_OueChapelain_Berlin257_285">Le</w>
+               <w xml:id="w_OueChapelain_Berlin257_286">prestre</w>
+               <w xml:id="w_OueChapelain_Berlin257_287">s’</w>
+               <w xml:id="w_OueChapelain_Berlin257_288">asist</w>
+               <w xml:id="w_OueChapelain_Berlin257_289" join="right">a</w>
+               <w xml:id="w_OueChapelain_Berlin257_290">la</w>
+               <w xml:id="w_OueChapelain_Berlin257_291">table</w>
+               <pc xml:id="w_OueChapelain_Berlin257_292">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="42">
+               <lb n="42"/>
+               <w xml:id="w_OueChapelain_Berlin257_293">Einz</w>
+               <w xml:id="w_OueChapelain_Berlin257_294">q<ex>u</ex>’</w>
+               <w xml:id="w_OueChapelain_Berlin257_295"><ex>i</ex>l</w>
+               <w xml:id="w_OueChapelain_Berlin257_296">eüst</w>
+               <w xml:id="w_OueChapelain_Berlin257_297">fet</w>
+               <w xml:id="w_OueChapelain_Berlin257_298">so<ex>n</ex></w>
+               <w xml:id="w_OueChapelain_Berlin257_299">saignacle</w>
+               <pc xml:id="w_OueChapelain_Berlin257_300">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="43">
+               <lb n="43"/>
+               <num>
+                  <w xml:id="w_OueChapelain_Berlin257_301">.<choice><orig>I</orig><reg>i</reg></choice>.</w>
+               </num>
+               <w xml:id="w_OueChapelain_Berlin257_302">mesage</w>
+               <w xml:id="w_OueChapelain_Berlin257_303"><choice><orig>u</orig><reg>v</reg></choice>i<ex>n</ex>t</w>
+               <w xml:id="w_OueChapelain_Berlin257_304" join="right">a</w>
+               <w xml:id="w_OueChapelain_Berlin257_305">la</w>
+               <w xml:id="w_OueChapelain_Berlin257_306">porte</w>
+               <pc xml:id="w_OueChapelain_Berlin257_307">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="44">
+               <lb n="44"/>
+               <w xml:id="w_OueChapelain_Berlin257_308"><choice><orig>Q</orig><reg>q</reg></choice><ex>ui</ex></w>
+               <w xml:id="w_OueChapelain_Berlin257_309">tiex</w>
+               <w xml:id="w_OueChapelain_Berlin257_310">no<choice><orig>u</orig><reg>v</reg></choice>eles</w>
+               <w xml:id="w_OueChapelain_Berlin257_311">li</w>
+               <w xml:id="w_OueChapelain_Berlin257_312">aporte</w>
+            </l>
+            <l n="45">
+               <lb n="45"/>
+               <w xml:id="w_OueChapelain_Berlin257_313"><choice><orig>D</orig><reg>d</reg></choice>ont</w>
+               <w xml:id="w_OueChapelain_Berlin257_314">li</w>
+               <w xml:id="w_OueChapelain_Berlin257_315">prestre</w>
+               <w xml:id="w_OueChapelain_Berlin257_316">n’</w>
+               <w xml:id="w_OueChapelain_Berlin257_317">ot</w>
+               <w xml:id="w_OueChapelain_Berlin257_318">poi<ex>n</ex>t</w>
+               <w xml:id="w_OueChapelain_Berlin257_319" join="right">de</w>
+               <w xml:id="w_OueChapelain_Berlin257_320"><choice><orig>i</orig><reg>j</reg></choice>oie</w>
+               <pc xml:id="w_OueChapelain_Berlin257_321">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="46">
+               <lb n="46"/>
+               <w xml:id="w_OueChapelain_Berlin257_322"><choice><orig>S</orig><reg>s</reg></choice>i</w>
+               <w xml:id="w_OueChapelain_Berlin257_323">dist</w>
+               <w xml:id="w_OueChapelain_Berlin257_324" join="right" ana="#aggl-cert_low">au</w>
+               <w xml:id="w_OueChapelain_Berlin257_325">clerc</w>
+               <pc xml:id="w_OueChapelain_Berlin257_326">
+                  <choice>
+                     <orig/>
+                     <reg>:</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_OueChapelain_Berlin257_327">
+                  <choice>
+                     <orig/>
+                     <reg>«</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_OueChapelain_Berlin257_328"><choice><orig>v</orig><reg>V</reg></choice>a</w>
+               <pc xml:id="w_OueChapelain_Berlin257_329">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_OueChapelain_Berlin257_330">pre<ex>n</ex></w>
+               <w xml:id="w_OueChapelain_Berlin257_331">cele</w>
+               <w xml:id="w_OueChapelain_Berlin257_332">oie</w>
+            </l>
+            <l n="47">
+               <lb n="47"/>
+               <w xml:id="w_OueChapelain_Berlin257_333"><ex>et</ex></w>
+               <w xml:id="w_OueChapelain_Berlin257_334">cel</w>
+               <w xml:id="w_OueChapelain_Berlin257_335">gastel</w>
+               <w xml:id="w_OueChapelain_Berlin257_336"><ex>et</ex></w>
+               <w xml:id="w_OueChapelain_Berlin257_337">cel</w>
+               <w xml:id="w_OueChapelain_Berlin257_338">pichier</w>
+               <pc xml:id="w_OueChapelain_Berlin257_339">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="48">
+               <lb n="48"/>
+               <w xml:id="w_OueChapelain_Berlin257_340"><ex>et</ex></w>
+               <w xml:id="w_OueChapelain_Berlin257_341">si</w>
+               <w xml:id="w_OueChapelain_Berlin257_342">t’</w>
+               <w xml:id="w_OueChapelain_Berlin257_343" join="right">e<ex>n</ex></w>
+               <w xml:id="w_OueChapelain_Berlin257_344"><choice><orig>u</orig><reg>v</reg></choice>a</w>
+               <w xml:id="w_OueChapelain_Berlin257_345">en</w>
+               <w xml:id="w_OueChapelain_Berlin257_346">cel</w>
+               <w xml:id="w_OueChapelain_Berlin257_347">moust<ex>ier</ex></w>
+               <pc xml:id="w_OueChapelain_Berlin257_348">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_OueChapelain_Berlin257_349">
+                  <choice>
+                     <orig/>
+                     <reg>»</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="49">
+               <lb n="49"/>
+               <w xml:id="w_OueChapelain_Berlin257_350">Le</w>
+               <w xml:id="w_OueChapelain_Berlin257_351">clerc</w>
+               <w xml:id="w_OueChapelain_Berlin257_352">fist</w>
+               <w xml:id="w_OueChapelain_Berlin257_353">son</w>
+               <w xml:id="w_OueChapelain_Berlin257_354"><ex>com</ex>ma<ex>n</ex>dement</w>
+               <pc xml:id="w_OueChapelain_Berlin257_355">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="50">
+               <lb n="50"/>
+               <w xml:id="w_OueChapelain_Berlin257_356">puis</w>
+               <w xml:id="w_OueChapelain_Berlin257_357">retorna</w>
+               <w xml:id="w_OueChapelain_Berlin257_358">inellement</w>
+               <pc xml:id="w_OueChapelain_Berlin257_359">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="51">
+               <lb n="51"/>
+               <w xml:id="w_OueChapelain_Berlin257_360">prist</w>
+               <w xml:id="w_OueChapelain_Berlin257_361">le</w>
+               <w xml:id="w_OueChapelain_Berlin257_362">henap</w>
+               <w xml:id="w_OueChapelain_Berlin257_363"><ex>et</ex></w>
+               <w xml:id="w_OueChapelain_Berlin257_364">la</w>
+               <w xml:id="w_OueChapelain_Berlin257_365">toaille</w>
+            </l>
+            <l n="52">
+               <lb n="52"/>
+               <w xml:id="w_OueChapelain_Berlin257_366"><ex>et</ex></w>
+               <w xml:id="w_OueChapelain_Berlin257_367">le</w>
+               <w xml:id="w_OueChapelain_Berlin257_368">coutel</w>
+               <w xml:id="w_OueChapelain_Berlin257_369">qui</w>
+               <w xml:id="w_OueChapelain_Berlin257_370">söef</w>
+               <w xml:id="w_OueChapelain_Berlin257_371">taille</w>
+               <pc xml:id="w_OueChapelain_Berlin257_372">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="53">
+               <lb n="53"/>
+               <w xml:id="w_OueChapelain_Berlin257_373"><ex>et</ex></w>
+               <w xml:id="w_OueChapelain_Berlin257_374">puis</w>
+               <w xml:id="w_OueChapelain_Berlin257_375">referma</w>
+               <w xml:id="w_OueChapelain_Berlin257_376">l’</w>
+               <w xml:id="w_OueChapelain_Berlin257_377">us</w>
+               <w xml:id="w_OueChapelain_Berlin257_378" join="right">sor</w>
+               <w xml:id="w_OueChapelain_Berlin257_379">soi</w>
+               <pc xml:id="w_OueChapelain_Berlin257_380">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="54">
+               <lb n="54"/>
+               <w xml:id="w_OueChapelain_Berlin257_381">Or</w>
+               <w xml:id="w_OueChapelain_Berlin257_382">puet</w>
+               <w xml:id="w_OueChapelain_Berlin257_383">bie<ex>n</ex></w>
+               <w xml:id="w_OueChapelain_Berlin257_384">boi<choice><orig>u</orig><reg>v</reg></choice>re</w>
+               <w xml:id="w_OueChapelain_Berlin257_385">s’</w>
+               <w xml:id="w_OueChapelain_Berlin257_386">il</w>
+               <w xml:id="w_OueChapelain_Berlin257_387">a</w>
+               <w xml:id="w_OueChapelain_Berlin257_388">soi</w>
+               <pc xml:id="w_OueChapelain_Berlin257_389">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="55">
+               <lb n="55"/>
+               <w xml:id="w_OueChapelain_Berlin257_390"><ex>Et</ex></w>
+               <w xml:id="w_OueChapelain_Berlin257_391">le</w>
+               <w xml:id="w_OueChapelain_Berlin257_392">prestre</w>
+               <w xml:id="w_OueChapelain_Berlin257_393">si</w>
+               <w xml:id="w_OueChapelain_Berlin257_394">est</w>
+               <w xml:id="w_OueChapelain_Berlin257_395">le<choice><orig>u</orig><reg>v</reg></choice>é</w>
+               <pc xml:id="w_OueChapelain_Berlin257_396">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="56">
+               <lb n="56"/>
+               <w xml:id="w_OueChapelain_Berlin257_397">a</w>
+               <w xml:id="w_OueChapelain_Berlin257_398">une</w>
+               <w xml:id="w_OueChapelain_Berlin257_399">huche</w>
+               <w xml:id="w_OueChapelain_Berlin257_400">en</w>
+               <w xml:id="w_OueChapelain_Berlin257_401">est</w>
+               <w xml:id="w_OueChapelain_Berlin257_402">alé</w>
+               <pc xml:id="w_OueChapelain_Berlin257_403">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="57">
+               <lb n="57"/>
+               <w xml:id="w_OueChapelain_Berlin257_404">Li</w>
+               <w xml:id="w_OueChapelain_Berlin257_405">prestres</w>
+               <w xml:id="w_OueChapelain_Berlin257_406" join="right">a</w>
+               <w xml:id="w_OueChapelain_Berlin257_407">pris</w>
+               <w xml:id="w_OueChapelain_Berlin257_408" join="right">sa</w>
+               <w xml:id="w_OueChapelain_Berlin257_409"><ex>com</ex>mere</w>
+               <pc xml:id="w_OueChapelain_Berlin257_410">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="58">
+               <lb n="58"/>
+               <w xml:id="w_OueChapelain_Berlin257_411"><choice><orig>E</orig><reg>e</reg></choice>n</w>
+               <w xml:id="w_OueChapelain_Berlin257_412">la</w>
+               <w xml:id="w_OueChapelain_Berlin257_413">huche</w>
+               <w xml:id="w_OueChapelain_Berlin257_414">q<ex>ui</ex></w>
+               <w xml:id="w_OueChapelain_Berlin257_415">iluec</w>
+               <w xml:id="w_OueChapelain_Berlin257_416">iere</w>
+            </l>
+            <l n="59">
+               <lb n="59"/>
+               <w xml:id="w_OueChapelain_Berlin257_417"><choice><orig>I</orig><reg>i</reg></choice>nelement</w>
+               <w xml:id="w_OueChapelain_Berlin257_418">enz</w>
+               <w xml:id="w_OueChapelain_Berlin257_419">l’</w>
+               <w xml:id="w_OueChapelain_Berlin257_420">enferma</w>
+            </l>
+            <l n="60">
+               <lb n="60"/>
+               <w xml:id="w_OueChapelain_Berlin257_421"><ex>et</ex></w>
+               <w xml:id="w_OueChapelain_Berlin257_422">la</w>
+               <w xml:id="w_OueChapelain_Berlin257_423">clef</w>
+               <w xml:id="w_OueChapelain_Berlin257_424" join="right">o</w>
+               <w xml:id="w_OueChapelain_Berlin257_425">soi</w>
+               <w xml:id="w_OueChapelain_Berlin257_426">en</w>
+               <w xml:id="w_OueChapelain_Berlin257_427">porta</w>
+               <pc xml:id="w_OueChapelain_Berlin257_428">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="61">
+               <lb n="61"/>
+               <w xml:id="w_OueChapelain_Berlin257_429">De<choice><orig>u</orig><reg>v</reg></choice>a<ex>n</ex>t</w>
+               <w xml:id="w_OueChapelain_Berlin257_430">la</w>
+               <w xml:id="w_OueChapelain_Berlin257_431">porte</w>
+               <w xml:id="w_OueChapelain_Berlin257_432" join="right">en</w>
+               <w xml:id="w_OueChapelain_Berlin257_433"><choice><orig>u</orig><reg>v</reg></choice>i<ex>n</ex>t</w>
+               <w xml:id="w_OueChapelain_Berlin257_434">g<ex>ra</ex>nt</w>
+               <w xml:id="w_OueChapelain_Berlin257_435">erre</w>
+               <pc xml:id="w_OueChapelain_Berlin257_436">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="62">
+               <lb n="62"/>
+               <pc xml:id="w_OueChapelain_Berlin257_437">
+                  <choice>
+                     <orig/>
+                     <reg>«</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_OueChapelain_Berlin257_438">Q<ex>ui</ex></w>
+               <w xml:id="w_OueChapelain_Berlin257_439">est</w>
+               <w xml:id="w_OueChapelain_Berlin257_440">i<space type="degl"/>la</w>
+               <pc xml:id="w_OueChapelain_Berlin257_441">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_OueChapelain_Berlin257_442">dist</w>
+               <w xml:id="w_OueChapelain_Berlin257_443">le</w>
+               <w xml:id="w_OueChapelain_Berlin257_444">pro<choice><orig>u</orig><reg>v</reg></choice><ex>er</ex>re</w>
+               <pc xml:id="w_OueChapelain_Berlin257_445">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="63">
+               <lb n="63"/>
+               <w xml:id="w_OueChapelain_Berlin257_446"><choice><orig>Q</orig><reg>q</reg></choice><ex>ui</ex></w>
+               <w xml:id="w_OueChapelain_Berlin257_447">si</w>
+               <w xml:id="w_OueChapelain_Berlin257_448">or</w>
+               <w xml:id="w_OueChapelain_Berlin257_449">hurtés</w>
+               <w xml:id="w_OueChapelain_Berlin257_450">durem<ex>en</ex>t</w>
+               <pc xml:id="w_OueChapelain_Berlin257_451">
+                  <choice>
+                     <orig/>
+                     <reg>?</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="64">
+               <lb n="64"/>
+               <pc xml:id="w_OueChapelain_Berlin257_452">
+                  <choice>
+                     <orig/>
+                     <reg>-</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_OueChapelain_Berlin257_453">Sire</w>
+               <pc xml:id="w_OueChapelain_Berlin257_454">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_OueChapelain_Berlin257_455">au</w>
+               <w xml:id="w_OueChapelain_Berlin257_456">prestre</w>
+               <w xml:id="w_OueChapelain_Berlin257_457">sui</w>
+               <w xml:id="w_OueChapelain_Berlin257_458">da<ex>n</ex>t</w>
+               <w xml:id="w_OueChapelain_Berlin257_459"><choice><orig>c</orig><reg>C</reg></choice>lim<ex>en</ex>t</w>
+               <pc xml:id="w_OueChapelain_Berlin257_460">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="65">
+               <lb n="65"/>
+               <w xml:id="w_OueChapelain_Berlin257_461"><choice><orig>Q</orig><reg>q</reg></choice><ex>ui</ex></w>
+               <w xml:id="w_OueChapelain_Berlin257_462">unes</w>
+               <w xml:id="w_OueChapelain_Berlin257_463">lettres</w>
+               <w xml:id="w_OueChapelain_Berlin257_464"><choice><orig>u</orig><reg>v</reg></choice>os</w>
+               <w xml:id="w_OueChapelain_Berlin257_465">en<choice><orig>u</orig><reg>v</reg></choice>oie</w>
+               <pc xml:id="w_OueChapelain_Berlin257_466">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="66">
+               <lb n="66"/>
+               <pc xml:id="w_OueChapelain_Berlin257_467">
+                  <choice>
+                     <orig/>
+                     <reg>-</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_OueChapelain_Berlin257_468">Sire</w>
+               <pc xml:id="w_OueChapelain_Berlin257_469">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_OueChapelain_Berlin257_470">se</w>
+               <w xml:id="w_OueChapelain_Berlin257_471"><choice><orig>d</orig><reg>D</reg></choice>ex</w>
+               <w xml:id="w_OueChapelain_Berlin257_472">m’</w>
+               <w xml:id="w_OueChapelain_Berlin257_473">otroit</w>
+               <w xml:id="w_OueChapelain_Berlin257_474">g<ex>ra</ex>nt</w>
+               <w xml:id="w_OueChapelain_Berlin257_475"><choice><orig>i</orig><reg>j</reg></choice>oie</w>
+               <pc xml:id="w_OueChapelain_Berlin257_476">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="67">
+               <lb n="67"/>
+               <w xml:id="w_OueChapelain_Berlin257_477"><choice><orig>M</orig><reg>m</reg></choice><ex>o</ex>lt</w>
+               <w xml:id="w_OueChapelain_Berlin257_478">m’</w>
+               <w xml:id="w_OueChapelain_Berlin257_479">e<ex>n</ex><choice><orig>u</orig><reg>v</reg></choice>oie</w>
+               <w xml:id="w_OueChapelain_Berlin257_480">leitres</w>
+               <note type="philologique">
+                  <p rend="footnote text">Le NRCF édite <hi rend="italic">lettre(s)</hi>, ici et au vers 73.</p>
+               </note>
+               <w xml:id="w_OueChapelain_Berlin257_481">so<choice><orig>u</orig><reg>v</reg></choice>ent</w>
+               <pc xml:id="w_OueChapelain_Berlin257_482">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="68">
+               <lb n="68"/>
+               <w xml:id="w_OueChapelain_Berlin257_483" join="right"><choice><orig>D</orig><reg>d</reg></choice>es</w>
+               <w xml:id="w_OueChapelain_Berlin257_484">ce</w>
+               <w xml:id="w_OueChapelain_Berlin257_485">q<ex>u</ex>’</w>
+               <w xml:id="w_OueChapelain_Berlin257_486"><ex>i</ex>l</w>
+               <w xml:id="w_OueChapelain_Berlin257_487">ot</w>
+               <num>
+                  <w xml:id="w_OueChapelain_Berlin257_488">.i.</w>
+               </num>
+               <w xml:id="w_OueChapelain_Berlin257_489">poi</w>
+               <w xml:id="w_OueChapelain_Berlin257_490" join="right">de</w>
+               <w xml:id="w_OueChapelain_Berlin257_491"><choice><orig>u</orig><reg>v</reg></choice>ent</w>
+            </l>
+            <l n="69">
+               <lb n="69"/>
+               <w xml:id="w_OueChapelain_Berlin257_492"><choice><orig>D</orig><reg>d</reg></choice>u</w>
+               <w xml:id="w_OueChapelain_Berlin257_493"><ex>com</ex>ma<ex>n</ex>dement</w>
+               <w xml:id="w_OueChapelain_Berlin257_494">son</w>
+               <w xml:id="w_OueChapelain_Berlin257_495">seignor</w>
+               <pc xml:id="w_OueChapelain_Berlin257_496">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="70">
+               <lb n="70"/>
+               <w xml:id="w_OueChapelain_Berlin257_497">M<ex>o</ex>lt</w>
+               <w xml:id="w_OueChapelain_Berlin257_498">m’</w>
+               <w xml:id="w_OueChapelain_Berlin257_499">aime</w>
+               <w xml:id="w_OueChapelain_Berlin257_500">ore</w>
+               <w xml:id="w_OueChapelain_Berlin257_501">de</w>
+               <w xml:id="w_OueChapelain_Berlin257_502">g<ex>ra</ex>nt</w>
+               <w xml:id="w_OueChapelain_Berlin257_503">amor</w>
+               <pc xml:id="w_OueChapelain_Berlin257_504">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="71">
+               <lb n="71"/>
+               <w xml:id="w_OueChapelain_Berlin257_505" join="right"><choice><orig>I</orig><reg>J</reg></choice>e</w>
+               <w xml:id="w_OueChapelain_Berlin257_506" join="right" ana="#aggl-cert_low">ne</w>
+               <w xml:id="w_OueChapelain_Berlin257_507">li</w>
+               <w xml:id="w_OueChapelain_Berlin257_508">sai</w>
+               <w xml:id="w_OueChapelain_Berlin257_509">gré</w>
+               <w xml:id="w_OueChapelain_Berlin257_510">de</w>
+               <w xml:id="w_OueChapelain_Berlin257_511">ceste</w>
+               <w xml:id="w_OueChapelain_Berlin257_512">oe<choice><orig>u</orig><reg>v</reg></choice>re</w>
+               <pc xml:id="w_OueChapelain_Berlin257_513">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_OueChapelain_Berlin257_514">
+                  <choice>
+                     <orig/>
+                     <reg>»</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="72">
+               <lb n="72"/>
+               <w xml:id="w_OueChapelain_Berlin257_515">Le</w>
+               <w xml:id="w_OueChapelain_Berlin257_516">prestre</w>
+               <w xml:id="w_OueChapelain_Berlin257_517" join="right" ana="#aggl-cert_low">le</w>
+               <w xml:id="w_OueChapelain_Berlin257_518">guichet</w>
+               <w xml:id="w_OueChapelain_Berlin257_519">li</w>
+               <w xml:id="w_OueChapelain_Berlin257_520">eu<choice><orig>u</orig><reg>v</reg></choice>re</w>
+               <pc xml:id="w_OueChapelain_Berlin257_521">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="73">
+               <lb n="73"/>
+               <w xml:id="w_OueChapelain_Berlin257_522">p<ex>ri</ex>st</w>
+               <w xml:id="w_OueChapelain_Berlin257_523">la</w>
+               <w xml:id="w_OueChapelain_Berlin257_524">leitre</w>
+               <pc xml:id="w_OueChapelain_Berlin257_525">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_OueChapelain_Berlin257_526"><choice><orig>u</orig><reg>v</reg></choice>eille</w>
+               <w xml:id="w_OueChapelain_Berlin257_527">ou</w>
+               <w xml:id="w_OueChapelain_Berlin257_528" join="right" ana="#aggl-cert_low">ne</w>
+               <w xml:id="w_OueChapelain_Berlin257_529"><choice><orig>u</orig><reg>v</reg></choice>eille</w>
+               <pc xml:id="w_OueChapelain_Berlin257_530">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="74">
+               <lb n="74"/>
+               <w xml:id="w_OueChapelain_Berlin257_531"><ex>et</ex></w>
+               <w xml:id="w_OueChapelain_Berlin257_532">li</w>
+               <w xml:id="w_OueChapelain_Berlin257_533">clers</w>
+               <w xml:id="w_OueChapelain_Berlin257_534">tastë</w>
+               <w xml:id="w_OueChapelain_Berlin257_535" join="right">a</w>
+               <w xml:id="w_OueChapelain_Berlin257_536">l’</w>
+               <w xml:id="w_OueChapelain_Berlin257_537">oueille</w>
+               <pc xml:id="w_OueChapelain_Berlin257_538">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="75">
+               <lb n="75"/>
+               <w xml:id="w_OueChapelain_Berlin257_539"><choice><orig>Q</orig><reg>q</reg></choice><ex>ui</ex></w>
+               <w xml:id="w_OueChapelain_Berlin257_540">m<ex>o</ex>lt</w>
+               <w xml:id="w_OueChapelain_Berlin257_541">a<choice><orig>u</orig><reg>v</reg></choice>oit</w>
+               <w xml:id="w_OueChapelain_Berlin257_542" join="right">a</w>
+               <w xml:id="w_OueChapelain_Berlin257_543">atendre</w>
+               <note type="philologique">
+                  <p rend="footnote text">Vers hypométrique. Le NRCF corrige en ajoutant <hi rend="italic">i</hi> devant <hi rend="italic">avoit</hi>.</p>
+               </note>
+               <pc xml:id="w_OueChapelain_Berlin257_544">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="76">
+               <lb n="76"/>
+               <w xml:id="w_OueChapelain_Berlin257_545">Tot</w>
+               <w xml:id="w_OueChapelain_Berlin257_546">hors</w>
+               <w xml:id="w_OueChapelain_Berlin257_547" join="right">en</w>
+               <w xml:id="w_OueChapelain_Berlin257_548">a</w>
+               <w xml:id="w_OueChapelain_Berlin257_549">tre<ex>n</ex>chié</w>
+               <num>
+                  <w xml:id="w_OueChapelain_Berlin257_550">.i.</w>
+               </num>
+               <w xml:id="w_OueChapelain_Berlin257_551">me<ex>m</ex>bre</w>
+               <pc xml:id="w_OueChapelain_Berlin257_552">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="77">
+               <lb n="77"/>
+               <w xml:id="w_OueChapelain_Berlin257_553"><choice><orig>M</orig><reg>m</reg></choice>es</w>
+               <w xml:id="w_OueChapelain_Berlin257_554">d’</w>
+               <w xml:id="w_OueChapelain_Berlin257_555">u<ex>n</ex></w>
+               <w xml:id="w_OueChapelain_Berlin257_556">trop</w>
+               <w xml:id="w_OueChapelain_Berlin257_557">bel</w>
+               <w xml:id="w_OueChapelain_Berlin257_558">barat</w>
+               <w xml:id="w_OueChapelain_Berlin257_559">s’</w>
+               <w xml:id="w_OueChapelain_Berlin257_560">ame<ex>m</ex>bre</w>
+               <pc xml:id="w_OueChapelain_Berlin257_561">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="78">
+               <lb n="78"/>
+               <w xml:id="w_OueChapelain_Berlin257_562"><choice><orig>Q</orig><reg>q</reg></choice><ex>ue</ex></w>
+               <w xml:id="w_OueChapelain_Berlin257_563">onq<ex>ue</ex>s</w>
+               <w xml:id="w_OueChapelain_Berlin257_564">nul</w>
+               <w xml:id="w_OueChapelain_Berlin257_565">clerc</w>
+               <w xml:id="w_OueChapelain_Berlin257_566" join="right" ana="#aggl-cert_low">ne</w>
+               <w xml:id="w_OueChapelain_Berlin257_567">fist</w>
+               <w xml:id="w_OueChapelain_Berlin257_568">tel</w>
+               <pc xml:id="w_OueChapelain_Berlin257_569">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="79">
+               <lb n="79"/>
+               <w xml:id="w_OueChapelain_Berlin257_570">I</w>
+               <w xml:id="w_OueChapelain_Berlin257_571">s’</w>
+               <w xml:id="w_OueChapelain_Berlin257_572">en</w>
+               <w xml:id="w_OueChapelain_Berlin257_573">monta</w>
+               <w xml:id="w_OueChapelain_Berlin257_574">desus</w>
+               <w xml:id="w_OueChapelain_Berlin257_575">l’</w>
+               <w xml:id="w_OueChapelain_Berlin257_576">autel</w>
+               <pc xml:id="w_OueChapelain_Berlin257_577">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="80">
+               <lb n="80"/>
+               <w xml:id="w_OueChapelain_Berlin257_578" join="right">au</w>
+               <w xml:id="w_OueChapelain_Berlin257_579">crucefiz</w>
+               <w xml:id="w_OueChapelain_Berlin257_580" join="right">a</w>
+               <w xml:id="w_OueChapelain_Berlin257_581">oint</w>
+               <w xml:id="w_OueChapelain_Berlin257_582">la</w>
+               <w xml:id="w_OueChapelain_Berlin257_583">bouche</w>
+               <pc xml:id="w_OueChapelain_Berlin257_584">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="81">
+               <lb n="81"/>
+               <w xml:id="w_OueChapelain_Berlin257_585">Si</w>
+               <w xml:id="w_OueChapelain_Berlin257_586">q<ex>uẹ</ex></w>
+               <w xml:id="w_OueChapelain_Berlin257_587" join="right">a</w>
+               <w xml:id="w_OueChapelain_Berlin257_588">autre</w>
+               <w xml:id="w_OueChapelain_Berlin257_589">chose</w>
+               <w xml:id="w_OueChapelain_Berlin257_590">ne</w>
+               <w xml:id="w_OueChapelain_Berlin257_591">touche</w>
+               <pc xml:id="w_OueChapelain_Berlin257_592">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="82">
+               <lb n="82"/>
+               <w xml:id="w_OueChapelain_Berlin257_593"><choice><orig>L</orig><reg>l</reg></choice>a</w>
+               <w xml:id="w_OueChapelain_Berlin257_594">cuisse</w>
+               <w xml:id="w_OueChapelain_Berlin257_595">li</w>
+               <w xml:id="w_OueChapelain_Berlin257_596">mist</w>
+               <w xml:id="w_OueChapelain_Berlin257_597">el</w>
+               <w xml:id="w_OueChapelain_Berlin257_598">poing</w>
+               <w xml:id="w_OueChapelain_Berlin257_599">destre</w>
+            </l>
+            <l n="83">
+               <lb n="83"/>
+               <w xml:id="w_OueChapelain_Berlin257_600"><ex>et</ex></w>
+               <w xml:id="w_OueChapelain_Berlin257_601">fera</w>
+               <w xml:id="w_OueChapelain_Berlin257_602"><choice><orig>i</orig><reg>j</reg></choice>a</w>
+               <w xml:id="w_OueChapelain_Berlin257_603">acroire</w>
+               <w xml:id="w_OueChapelain_Berlin257_604" join="right">au</w>
+               <w xml:id="w_OueChapelain_Berlin257_605">prestre</w>
+            </l>
+            <l n="84">
+               <lb n="84"/>
+               <w xml:id="w_OueChapelain_Berlin257_606"><choice><orig>Q</orig><reg>q</reg></choice><ex>ue</ex></w>
+               <w xml:id="w_OueChapelain_Berlin257_607">le</w>
+               <w xml:id="w_OueChapelain_Berlin257_608">crucefiz</w>
+               <w xml:id="w_OueChapelain_Berlin257_609" join="right">a</w>
+               <w xml:id="w_OueChapelain_Berlin257_610">mengiee</w>
+            </l>
+            <l n="85">
+               <lb n="85"/>
+               <w xml:id="w_OueChapelain_Berlin257_611"><choice><orig>L</orig><reg>l</reg></choice>’</w>
+               <w xml:id="w_OueChapelain_Berlin257_612">oue</w>
+               <w xml:id="w_OueChapelain_Berlin257_613"><ex>et</ex></w>
+               <w xml:id="w_OueChapelain_Berlin257_614">le</w>
+               <w xml:id="w_OueChapelain_Berlin257_615">gastel</w>
+               <w xml:id="w_OueChapelain_Berlin257_616"><ex>et</ex></w>
+               <w xml:id="w_OueChapelain_Berlin257_617">l’</w>
+               <w xml:id="w_OueChapelain_Berlin257_618">aillie</w>
+               <note type="philologique">
+                  <p style="text-align: justify;">Le NRCF corrige en ailliee pour la rime. Cette graphie aillie pour ailliee n’est pas une coquille puisqu’elle réapparaît au vers 99. C’est un trait dialectal du Nord et de l’Est (Gossen §8, Mantou p. 108, Pope §1320 v et 1322 iii). </p>
+               </note>
+               <pc xml:id="w_OueChapelain_Berlin257_619">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="86">
+               <lb n="86"/>
+               <w xml:id="w_OueChapelain_Berlin257_620"><ex>et</ex></w>
+               <w xml:id="w_OueChapelain_Berlin257_621">le</w>
+               <w xml:id="w_OueChapelain_Berlin257_622"><choice><orig>u</orig><reg>v</reg></choice>in</w>
+               <w xml:id="w_OueChapelain_Berlin257_623">du</w>
+               <w xml:id="w_OueChapelain_Berlin257_624">pichier</w>
+               <w xml:id="w_OueChapelain_Berlin257_625">beü</w>
+               <pc xml:id="w_OueChapelain_Berlin257_626">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+               <pb n="53v"
+                    xml:id="pb_2"
+                    facs="https://content.staatsbibliothek-berlin.de/dc/835384969-0118/full/pct:50/0/default.jpg"/>
+               <cb n="53va"/>
+            </l>
+            <l n="87">
+               <lb n="87"/>
+               <w xml:id="w_OueChapelain_Berlin257_628"><choice><orig>a</orig><reg>A</reg></choice><space type="degl-fgmt" cert="low"/>tant</w>
+               <w xml:id="w_OueChapelain_Berlin257_629">le</w>
+               <w xml:id="w_OueChapelain_Berlin257_630">prestre</w>
+               <w xml:id="w_OueChapelain_Berlin257_631">est</w>
+               <w xml:id="w_OueChapelain_Berlin257_632">re<choice><orig>u</orig><reg>v</reg></choice>enu</w>
+               <pc xml:id="w_OueChapelain_Berlin257_633">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="88">
+               <lb n="88"/>
+               <w xml:id="w_OueChapelain_Berlin257_634"><choice><orig>Q</orig><reg>q</reg></choice><ex>ui</ex></w>
+               <w xml:id="w_OueChapelain_Berlin257_635">du</w>
+               <w xml:id="w_OueChapelain_Berlin257_636"><choice><orig>u</orig><reg>v</reg></choice>allet</w>
+               <w xml:id="w_OueChapelain_Berlin257_637">s’</w>
+               <w xml:id="w_OueChapelain_Berlin257_638">est</w>
+               <w xml:id="w_OueChapelain_Berlin257_639">deli<choice><orig>u</orig><reg>v</reg></choice>rez</w>
+               <pc xml:id="w_OueChapelain_Berlin257_640">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="89">
+               <lb n="89"/>
+               <w xml:id="w_OueChapelain_Berlin257_641">Droit</w>
+               <w xml:id="w_OueChapelain_Berlin257_642" join="right">a</w>
+               <w xml:id="w_OueChapelain_Berlin257_643">la</w>
+               <w xml:id="w_OueChapelain_Berlin257_644">huche</w>
+               <w xml:id="w_OueChapelain_Berlin257_645">en</w>
+               <w xml:id="w_OueChapelain_Berlin257_646">est</w>
+               <w xml:id="w_OueChapelain_Berlin257_647">alez</w>
+               <pc xml:id="w_OueChapelain_Berlin257_648">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="90">
+               <lb n="90"/>
+               <w xml:id="w_OueChapelain_Berlin257_649"><choice><orig>S</orig><reg>s</reg></choice>a</w>
+               <w xml:id="w_OueChapelain_Berlin257_650"><ex>com</ex>mere</w>
+               <w xml:id="w_OueChapelain_Berlin257_651" join="right">a</w>
+               <w xml:id="w_OueChapelain_Berlin257_652">tret</w>
+               <w xml:id="w_OueChapelain_Berlin257_653" join="right" ana="#aggl-cert_low">de</w>
+               <w xml:id="w_OueChapelain_Berlin257_654">la</w>
+               <w xml:id="w_OueChapelain_Berlin257_655">huche</w>
+               <pc xml:id="w_OueChapelain_Berlin257_656">
+                  <choice>
+                     <orig>.</orig>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="91">
+               <lb n="91"/>
+               <w xml:id="w_OueChapelain_Berlin257_658"><choice><orig>a</orig><reg>A</reg></choice><space type="degl-fgmt" cert="low"/>tant</w>
+               <w xml:id="w_OueChapelain_Berlin257_659">li</w>
+               <w xml:id="w_OueChapelain_Berlin257_660">clerc</w>
+               <w xml:id="w_OueChapelain_Berlin257_661">s’</w>
+               <w xml:id="w_OueChapelain_Berlin257_662">escrie</w>
+               <w xml:id="w_OueChapelain_Berlin257_663"><ex>et</ex></w>
+               <w xml:id="w_OueChapelain_Berlin257_664">huche</w>
+               <pc xml:id="w_OueChapelain_Berlin257_665">
+                  <choice>
+                     <orig/>
+                     <reg>:</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="92">
+               <lb n="92"/>
+               <pc xml:id="w_OueChapelain_Berlin257_666">
+                  <choice>
+                     <orig/>
+                     <reg>«</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_OueChapelain_Berlin257_667"><choice><orig>v</orig><reg>V</reg></choice>enez</w>
+               <w xml:id="w_OueChapelain_Berlin257_668">ça</w>
+               <pc xml:id="w_OueChapelain_Berlin257_669">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_OueChapelain_Berlin257_670">tote</w>
+               <w xml:id="w_OueChapelain_Berlin257_671">bone</w>
+               <w xml:id="w_OueChapelain_Berlin257_672">gent</w>
+               <pc xml:id="w_OueChapelain_Berlin257_673">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_OueChapelain_Berlin257_674">
+                  <choice>
+                     <orig/>
+                     <reg>»</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="93">
+               <lb n="93"/>
+               <w xml:id="w_OueChapelain_Berlin257_675">Li</w>
+               <w xml:id="w_OueChapelain_Berlin257_676">prestres</w>
+               <w xml:id="w_OueChapelain_Berlin257_677"><choice><orig>u</orig><reg>v</reg></choice>a</w>
+               <w xml:id="w_OueChapelain_Berlin257_678">inellement</w>
+            </l>
+            <l n="94">
+               <lb n="94"/>
+               <w xml:id="w_OueChapelain_Berlin257_679"><choice><orig>T</orig><reg>t</reg></choice>ot</w>
+               <w xml:id="w_OueChapelain_Berlin257_680">droit</w>
+               <w xml:id="w_OueChapelain_Berlin257_681" join="right" ana="#aggl-cert_low">a</w>
+               <w xml:id="w_OueChapelain_Berlin257_682">l’</w>
+               <w xml:id="w_OueChapelain_Berlin257_683">uis</w>
+               <w xml:id="w_OueChapelain_Berlin257_684"><ex>et</ex></w>
+               <w xml:id="w_OueChapelain_Berlin257_685">cil</w>
+               <w xml:id="w_OueChapelain_Berlin257_686" join="right" ana="#aggl-cert_low">li</w>
+               <w xml:id="w_OueChapelain_Berlin257_687">oe<choice><orig>u</orig><reg>v</reg></choice>re</w>
+               <pc xml:id="w_OueChapelain_Berlin257_688">
+                  <choice>
+                     <orig>.</orig>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="95">
+               <lb n="95"/>
+               <pc xml:id="w_OueChapelain_Berlin257_690">
+                  <choice>
+                     <orig/>
+                     <reg>«</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_OueChapelain_Berlin257_691">Or</w>
+               <w xml:id="w_OueChapelain_Berlin257_692">esgardez</w>
+               <pc xml:id="w_OueChapelain_Berlin257_693">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_OueChapelain_Berlin257_694">dist</w>
+               <w xml:id="w_OueChapelain_Berlin257_695">il</w>
+               <pc xml:id="w_OueChapelain_Berlin257_696">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_OueChapelain_Berlin257_697">quel</w>
+               <w xml:id="w_OueChapelain_Berlin257_698">oe<choice><orig>u</orig><reg>v</reg></choice>re</w>
+               <pc xml:id="w_OueChapelain_Berlin257_699">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="96">
+               <lb n="96"/>
+               <w xml:id="w_OueChapelain_Berlin257_700">Ne</w>
+               <w xml:id="w_OueChapelain_Berlin257_701">sai</w>
+               <w xml:id="w_OueChapelain_Berlin257_702">deable</w>
+               <w xml:id="w_OueChapelain_Berlin257_703" join="right">ou</w>
+               <w xml:id="w_OueChapelain_Berlin257_704">anemis</w>
+            </l>
+            <l n="97">
+               <lb n="97"/>
+               <w xml:id="w_OueChapelain_Berlin257_705"><choice><orig>S</orig><reg>s</reg></choice>’</w>
+               <w xml:id="w_OueChapelain_Berlin257_706">est</w>
+               <w xml:id="w_OueChapelain_Berlin257_707">en</w>
+               <w xml:id="w_OueChapelain_Berlin257_708"><choice><orig>u</orig><reg>v</reg></choice><ex>ost</ex>re</w>
+               <w xml:id="w_OueChapelain_Berlin257_709">crucefiz</w>
+               <w xml:id="w_OueChapelain_Berlin257_710">mis</w>
+            </l>
+            <l n="98">
+               <lb n="98"/>
+               <w xml:id="w_OueChapelain_Berlin257_711"><choice><orig>C</orig><reg>c</reg></choice>ar</w>
+               <w xml:id="w_OueChapelain_Berlin257_712" join="right">il</w>
+               <w xml:id="w_OueChapelain_Berlin257_713">a</w>
+               <w xml:id="w_OueChapelain_Berlin257_714">trestote</w>
+               <w xml:id="w_OueChapelain_Berlin257_715">mengiee</w>
+            </l>
+            <l n="99">
+               <lb n="99"/>
+               <w xml:id="w_OueChapelain_Berlin257_716"><choice><orig>L</orig><reg>l</reg></choice>’</w>
+               <w xml:id="w_OueChapelain_Berlin257_717">oue</w>
+               <w xml:id="w_OueChapelain_Berlin257_718"><ex>et</ex></w>
+               <w xml:id="w_OueChapelain_Berlin257_719">le</w>
+               <w xml:id="w_OueChapelain_Berlin257_720">gastel</w>
+               <w xml:id="w_OueChapelain_Berlin257_721"><ex>et</ex></w>
+               <w xml:id="w_OueChapelain_Berlin257_722">l’</w>
+               <w xml:id="w_OueChapelain_Berlin257_723">aillie</w>
+               <pc xml:id="w_OueChapelain_Berlin257_724">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="100">
+               <lb n="100"/>
+               <w xml:id="w_OueChapelain_Berlin257_725"><ex>et</ex></w>
+               <w xml:id="w_OueChapelain_Berlin257_726">le</w>
+               <w xml:id="w_OueChapelain_Berlin257_727"><choice><orig>u</orig><reg>v</reg></choice>in</w>
+               <w xml:id="w_OueChapelain_Berlin257_728">beü</w>
+               <w xml:id="w_OueChapelain_Berlin257_729">du</w>
+               <w xml:id="w_OueChapelain_Berlin257_730">plomé</w>
+               <pc xml:id="w_OueChapelain_Berlin257_731">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="101">
+               <lb n="101"/>
+               <w xml:id="w_OueChapelain_Berlin257_732"><choice><orig>M</orig><reg>m</reg></choice>es</w>
+               <w xml:id="w_OueChapelain_Berlin257_733" join="right">ce</w>
+               <w xml:id="w_OueChapelain_Berlin257_734">ne</w>
+               <w xml:id="w_OueChapelain_Berlin257_735">fu</w>
+               <w xml:id="w_OueChapelain_Berlin257_736">pas</w>
+               <w xml:id="w_OueChapelain_Berlin257_737" join="right">a</w>
+               <w xml:id="w_OueChapelain_Berlin257_738" join="right">mo<ex>n</ex></w>
+               <w xml:id="w_OueChapelain_Berlin257_739">gré</w>
+               <pc xml:id="w_OueChapelain_Berlin257_740">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="102">
+               <lb n="102"/>
+               <w xml:id="w_OueChapelain_Berlin257_741">Esgardez</w>
+               <w xml:id="w_OueChapelain_Berlin257_742" join="right" ana="#aggl-cert_low"><ex>com</ex></w>
+               <w xml:id="w_OueChapelain_Berlin257_743">il</w>
+               <w xml:id="w_OueChapelain_Berlin257_744">s’</w>
+               <w xml:id="w_OueChapelain_Berlin257_745" join="right">en</w>
+               <w xml:id="w_OueChapelain_Berlin257_746">fet</w>
+               <w xml:id="w_OueChapelain_Berlin257_747">cointes</w>
+               <pc xml:id="w_OueChapelain_Berlin257_748">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="103">
+               <lb n="103"/>
+               <w xml:id="w_OueChapelain_Berlin257_749"><ex>com</ex></w>
+               <w xml:id="w_OueChapelain_Berlin257_750">il</w>
+               <w xml:id="w_OueChapelain_Berlin257_751" join="right">en</w>
+               <w xml:id="w_OueChapelain_Berlin257_752">a</w>
+               <w xml:id="w_OueChapelain_Berlin257_753">les</w>
+               <w xml:id="w_OueChapelain_Berlin257_754">barbes</w>
+               <w xml:id="w_OueChapelain_Berlin257_755">ointes</w>
+               <pc xml:id="w_OueChapelain_Berlin257_756">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_OueChapelain_Berlin257_757">
+                  <choice>
+                     <orig/>
+                     <reg>»</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="104">
+               <lb n="104"/>
+               <w xml:id="w_OueChapelain_Berlin257_758"><choice><orig>b</orig><reg>B</reg></choice>ie<ex>n</ex></w>
+               <w xml:id="w_OueChapelain_Berlin257_759" join="right">a</w>
+               <w xml:id="w_OueChapelain_Berlin257_760">fet</w>
+               <w xml:id="w_OueChapelain_Berlin257_761">au</w>
+               <w xml:id="w_OueChapelain_Berlin257_762">prestre</w>
+               <w xml:id="w_OueChapelain_Berlin257_763">la</w>
+               <w xml:id="w_OueChapelain_Berlin257_764">moue</w>
+               <pc xml:id="w_OueChapelain_Berlin257_765">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="105">
+               <lb n="105"/>
+               <w xml:id="w_OueChapelain_Berlin257_766">Or</w>
+               <w xml:id="w_OueChapelain_Berlin257_767">puet</w>
+               <w xml:id="w_OueChapelain_Berlin257_768">me<ex>n</ex>g<ex>ier</ex></w>
+               <w xml:id="w_OueChapelain_Berlin257_769">le</w>
+               <w xml:id="w_OueChapelain_Berlin257_770">prestre</w>
+               <w xml:id="w_OueChapelain_Berlin257_771">s’</w>
+               <w xml:id="w_OueChapelain_Berlin257_772">oue</w>
+            </l>
+            <l n="106">
+               <lb n="106"/>
+               <w xml:id="w_OueChapelain_Berlin257_773"><ex>et</ex></w>
+               <w xml:id="w_OueChapelain_Berlin257_774">fere</w>
+               <w xml:id="w_OueChapelain_Berlin257_775">soupes</w>
+               <w xml:id="w_OueChapelain_Berlin257_776">d’</w>
+               <w xml:id="w_OueChapelain_Berlin257_777">autre</w>
+               <w xml:id="w_OueChapelain_Berlin257_778">pein</w>
+               <pc xml:id="w_OueChapelain_Berlin257_779">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="107">
+               <lb n="107"/>
+               <w xml:id="w_OueChapelain_Berlin257_780">Si</w>
+               <w xml:id="w_OueChapelain_Berlin257_781">fu</w>
+               <w xml:id="w_OueChapelain_Berlin257_782">ser<choice><orig>u</orig><reg>v</reg></choice>i</w>
+               <w xml:id="w_OueChapelain_Berlin257_783">le</w>
+               <w xml:id="w_OueChapelain_Berlin257_784">chapelein</w>
+               <pc xml:id="w_OueChapelain_Berlin257_785">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+            </l>
+         </lg>
+         <p rend="explicit" style="font-weight: bold; ">
+            <w xml:id="w_OueChapelain_Berlin257_786">Explicit</w>
+         </p>
+      </body>
+   </text>
+</TEI>

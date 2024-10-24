@@ -1,0 +1,2048 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="fro">Le prestre crucefié</title>
+            <author>Anonyme</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2023</date>
+            </edition>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="acorbellari">Alain Corbellari</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="alavrent">Alexei Lavrentiev</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="apinche">Ariane Pinche</name>
+            </respStmt>
+            <respStmt>
+               <resp>relecteur</resp>
+               <resp>membre</resp>
+               <name xml:id="blaid">Baptiste Laïd</name>
+            </respStmt>
+            <respStmt>
+               <resp>robot</resp>
+               <name xml:id="bot">bot bot</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="cguillot">Céline Guillot-Barbance</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="clachet">Claude Lachet</name>
+            </respStmt>
+            <respStmt>
+               <resp>editeur</resp>
+               <resp>traducteur</resp>
+               <resp>chef de projet</resp>
+               <name xml:id="cpierreville">Corinne Pierreville</name>
+            </respStmt>
+            <respStmt>
+               <resp>relecteur-traduction</resp>
+               <resp>membre</resp>
+               <name xml:id="ggruber">Gauthier Grüber</name>
+            </respStmt>
+            <respStmt>
+               <resp>ingénieur</resp>
+               <name xml:id="jnuguet">Jules Nuguet</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="ngarnier">Nicolas Garnier</name>
+            </respStmt>
+            <respStmt>
+               <resp>Relecteur traduction</resp>
+               <name xml:id="rbellon">Roger Bellon</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="rtrachsler">Richard Trachsler</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="veugene">Valentine Eugène</name>
+            </respStmt>
+            <respStmt>
+               <resp>ingénieur</resp>
+               <name xml:id="myamagata">Moe Yamagata</name>
+            </respStmt>
+            <respStmt>
+               <resp/>
+               <name xml:id="jdocks">Justine DOCKS</name>
+            </respStmt>
+            <respStmt>
+               <resp>editeur</resp>
+               <resp>relecteur</resp>
+               <resp>traducteur</resp>
+               <resp>relecteur-traduction</resp>
+               <resp/>
+               <name> </name>
+            </respStmt>
+         </editionStmt>
+         <extent>
+            <num xml:id="nb_tokens_given">673</num>
+            <num xml:id="nb_mots_given">586</num>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <name>ENS de Lyon / UMR 5317 IHRIM, Base de français médiéval, projet Fabliaux</name>
+            </publisher>
+            <address>
+               <addrLine>15, parvis René Descartes</addrLine>
+               <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+               <addrLine>Tél : 04 37 37 63 10</addrLine>
+               <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+               <addrLine>http://bfm.ens-lyon.fr</addrLine>
+            </address>
+            <idno type="bfm">http://catalog.bfm-corpus.org/fabliaux/PrestreCrucefie_BnF-837</idno>
+            <idno type="doi">10.34847/nkl.a9e28h29</idno>
+            <availability status="free">
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <ab type="availability_bfm">Les Conditions générales d'utilisation de la Base de Français Médiéval (http://txm.bfm-corpus.org/bfm/files/CGU.pdf), 
+                        et notamment son Article 5 « PROPRIETE INTELLECTUELLE », s'appliquent à tous les textes de la BFM.</ab>
+                  <ab type="how_to_cite">
+                     <label>Comment citer ce texte :</label>
+                     <bibl>Le prestre crucefié, édité par Corinne Pierreville en collaboration avec Baptiste Laïd. Publié en ligne par l’ENS de Lyon dans la Base de français médiéval, 
+2023, http://catalog.bfm-corpus.org/fabliaux/PrestreCrucefie_BnF-837.</bibl>
+                        D'autres formules de citation de la BFM sont proposées sur la page web suivante :
+                        http://bfm.ens-lyon.fr/spip.php?article281.</ab>
+                  <ab type="availability_file">
+                     <label>Conditions d'utilisation de ce fichier :</label>
+                        Ce fichier numérique est composé du corps de texte médiéval (restauré par son ou ses éditeur(s) scientifique(s)), des apparats critiques (introductions, notes, glossaires, explications, du texte d'origine (ou des enrichissements) qui ont été réalisés dans le cadre de la restauration des textes par les Editeurs Scientifiques) et des suppléments numériques : balisage XML-TEI, métadonnées (teiHeader), balisage du discours direct, étiquetage morpho-syntaxique, lemmatisation. Le texte et les suppléments numériques sont libres de droit et peuvent à ce titre être téléchargés et réutilisés librement. Les apparats critiques sont soumis à une licence de type CC BY-NC-SA 3.0 FR  http://creativecommons.org/licenses/by-nc-sa/3.0/fr. Les Utilisateurs s’engagent à respecter les termes de cette licence. 
+                    </ab>
+                  <ab type="availability_txmweb" subtype="illimité">
+                     <label>Conditions d'utilisation par le portail BFM :</label>
+                        Pas de limitation dans l'usage des fonctionnalités. Téléchargement autorisé.</ab>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="main" xml:id="BnF-837">
+               <msIdentifier>
+                  <settlement>Paris</settlement>
+                  <repository>Bibliothèque nationale de France</repository>
+                  <idno>français 837</idno>
+                  <idno type="URI" subtype="Notice" n="Arlima">https://www.arlima.net/mss/france/paris/bibliotheque_nationale_de_france/francais/837.html</idno>
+                  <idno type="URI" subtype="Notice" n="Jonas">http://jonas.irht.cnrs.fr/manuscrit/45562</idno>
+                  <idno type="URI" subtype="Notice" n="Archives_et_manuscrits">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc51085n</idno>
+                  <idno type="URI" subtype="Data" n="Biblissima">
+https://data.biblissima.fr/entity/Q52505</idno>
+                  <idno type="URI" subtype="Fac-similé">https://gallica.bnf.fr/ark:/12148/btv1b55013464t</idno>
+                  <idno type="URI" subtype="Manifeste_IIIF">https://gallica.bnf.fr/iiif/ark:/12148/btv1b55013464t/manifest.json</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem xml:id="unBordeorsRibaux_BnF-837">
+                     <title>Les deux Bordeors ribaux</title>
+                  </msItem>
+                  <msItem xml:id="unChangeors_BnF-837">
+                     <locus>f. 265v-267r</locus>
+                     <title>Les deux changeors</title>
+                  </msItem>
+                  <msItem xml:id="unChevausBodel_BnF-837">
+                     <locus>f. 248va-249vb</locus>
+                     <title>Les deus chevaus</title>
+                  </msItem>
+                  <msItem xml:id="deAveuglesCortebarbe_BnF-837">
+                     <locus>f. 073va-075rb</locus>
+                     <title>Les trois Aveugles de Compiegne</title>
+                  </msItem>
+                  <msItem xml:id="deBocusDurant_BnF-837">
+                     <locus>f. 238va-240ra</locus>
+                     <title>Les trois boçus menesterels</title>
+                  </msItem>
+                  <msItem xml:id="deDamesAnel1_BnF-837">
+                     <title>Les trois Dames qui troverent l'anel I</title>
+                  </msItem>
+                  <msItem xml:id="trSohaisMartin_BnF-837">
+                     <locus>f. 189ra-190ra</locus>
+                     <title>Les quatre souhais saint Martin</title>
+                  </msItem>
+                  <msItem xml:id="Aloul_BnF-837">
+                     <locus>f. 143v-148v</locus>
+                     <title>Aloul</title>
+                  </msItem>
+                  <msItem xml:id="AristoteHenrideValenciennes_BnF-837">
+                     <locus>f. 080rb-083rb</locus>
+                     <title>Le lai d'Aristote</title>
+                  </msItem>
+                  <msItem xml:id="Auberee_BnF-837">
+                     <locus>f. 024r-027ra</locus>
+                     <title>Auberee</title>
+                  </msItem>
+                  <msItem xml:id="BaratHaimetBodel_BnF-837">
+                     <locus>f. 051rb-054ra</locus>
+                     <title>Barat et Haimet</title>
+                  </msItem>
+                  <msItem xml:id="BatailleVinsHenriAndeli_BnF-837">
+                     <locus>f. 231va-232va</locus>
+                     <title>La bataille des vins</title>
+                  </msItem>
+                  <msItem xml:id="Berangier2_BnF-837">
+                     <locus>f. 209ra-210va</locus>
+                     <title>Berangier au long cul II</title>
+                  </msItem>
+                  <msItem xml:id="Boivin_BnF-837">
+                     <locus>f. 066va-068va</locus>
+                     <title>Boivin de Provins</title>
+                  </msItem>
+                  <msItem xml:id="BorgeoiseOrliens_BnF-837">
+                     <locus>f. 163ra-164rb</locus>
+                     <title>La Borgeoise d'Orliens</title>
+                  </msItem>
+                  <msItem xml:id="BouchierAbeville_BnF-837">
+                     <locus>f. 158va-161rb</locus>
+                     <title>Le bouchier d'Abeville</title>
+                  </msItem>
+                  <msItem xml:id="BourseSens_BnF-837">
+                     <locus>f. 068v-070v</locus>
+                     <title>La plaine borse de sens</title>
+                  </msItem>
+                  <msItem xml:id="BraiesCordelier_BnF-837">
+                     <locus>f. 154va-156rb</locus>
+                     <title>Les Braies au cordelier</title>
+                  </msItem>
+                  <msItem xml:id="BrancheArmes_BnF-837">
+                     <locus>f. 222vb-223ra</locus>
+                     <title>Une branche d'armes</title>
+                  </msItem>
+                  <msItem xml:id="BrunainBodel_BnF-837">
+                     <locus>f. 229rb-229va</locus>
+                     <title>Brunain la vache au prestre</title>
+                  </msItem>
+                  <msItem xml:id="ChevalierConfesse_BnF-837">
+                     <locus>f. 199rb-200vb</locus>
+                     <title>Le chevalier qui fist sa fame confesse</title>
+                  </msItem>
+                  <msItem xml:id="ChevalierParlerCons1Guerin_BnF-837">
+                     <locus>f. 148v-149v</locus>
+                     <title>Le chevalier qui fist les cons parler I</title>
+                  </msItem>
+                  <msItem xml:id="ChevalierVermeille_BnF-837">
+                     <locus>f. 128rb-129vb</locus>
+                     <title>Le Chevalier a la robe vermeille</title>
+                  </msItem>
+                  <msItem xml:id="ChevaliersClersVilains_BnF-837">
+                     <locus>f. 249vb-250ra</locus>
+                     <title>Les chevaliers, les clers et les villains</title>
+                  </msItem>
+                  <msItem xml:id="CoilleNoire_BnF-837">
+                     <locus>f. 236rb-237ra</locus>
+                     <title>La Couille noire</title>
+                  </msItem>
+                  <msItem xml:id="ConBesche_BnF-837">
+                     <locus>f. 170ra-170va</locus>
+                     <title>Le con qui fu fez a la besche</title>
+                  </msItem>
+                  <msItem xml:id="Cons_BnF-837">
+                     <locus>f. 241rb-241va</locus>
+                     <title>Des cons</title>
+                  </msItem>
+                  <msItem xml:id="Constant_BnF-837">
+                     <locus>f. 14ra-19ra</locus>
+                     <title>Constant du Hamel</title>
+                  </msItem>
+                  <msItem xml:id="Crote_BnF-837">
+                     <locus>f. 332vb-333ra</locus>
+                     <title>La crote</title>
+                  </msItem>
+                  <msItem xml:id="Cuvier_BnF-837">
+                     <locus>f. 234ra-234vb</locus>
+                     <title>Le Cuvier</title>
+                  </msItem>
+                  <msItem xml:id="DameTorsMoustierRutebeuf_BnF-837">
+                     <locus>f. 305va-306va</locus>
+                     <title>La dame qui fist trois tors entor le moustier</title>
+                  </msItem>
+                  <msItem xml:id="DamoiseleFoutre1_BnF-837">
+                     <locus>f. 182va-183ra</locus>
+                     <title>La damoisele qui ne pooit oïr parler de foutre I</title>
+                  </msItem>
+                  <msItem xml:id="DamoiseleSonjoit_BnF-837">
+                     <locus>f. 178rb-178vb</locus>
+                     <title>La Damoiselle qui sonjoit</title>
+                  </msItem>
+                  <msItem xml:id="DebatCulCon_BnF-837">
+                     <locus>f. 183v-184r</locus>
+                     <title>Le cul et le con</title>
+                  </msItem>
+                  <msItem xml:id="Dent_BnF-837">
+                     <locus>f. 197ra-197vb</locus>
+                     <title>De la Dent</title>
+                  </msItem>
+                  <msItem xml:id="EnfantSoleil_BnF-837">
+                     <locus>f. 241va-242rb</locus>
+                     <title>L'Enfant qui fu remis au soleil</title>
+                  </msItem>
+                  <msItem xml:id="Escuiruel_BnF-837">
+                     <locus>f. 333ra-334ra</locus>
+                     <title>L'Escuiruel</title>
+                  </msItem>
+                  <msItem xml:id="EstormiHuesPiaucele_BnF-837">
+                     <locus>f. 011ra-014ra</locus>
+                     <title>Estormi</title>
+                  </msItem>
+                  <msItem xml:id="Estula_BnF-837">
+                     <locus>f. 227vb-228va</locus>
+                     <title>Estula</title>
+                  </msItem>
+                  <msItem xml:id="FevreCreeil_BnF-837">
+                     <locus>f. 230va-231va</locus>
+                     <title>Le Fevre de Creeil</title>
+                  </msItem>
+                  <msItem xml:id="FoutreFosse_BnF-837">
+                     <locus>f. 166ra-166va</locus>
+                     <title>Celle qui se fist foutre sur la fosse de son mari</title>
+                  </msItem>
+                  <msItem xml:id="FrereDeniseRutebeuf_BnF-837">
+                     <locus>f. 329va-331rb</locus>
+                     <title>Frere Denise</title>
+                  </msItem>
+                  <msItem xml:id="Gombert2ClersBodel_BnF-837">
+                     <locus>f. 210va-211va</locus>
+                     <title>Gombert et les deus clers</title>
+                  </msItem>
+                  <msItem xml:id="Grue1_BnF-837">
+                     <locus>f. 188rb-189ra</locus>
+                     <title>La Damoisele a la grue I</title>
+                  </msItem>
+                  <msItem xml:id="HoussePartie1_BnF-837">
+                     <locus>f. 150ra-152ra</locus>
+                     <title>La Housse partie I</title>
+                  </msItem>
+                  <msItem xml:id="Jouglet_BnF-837">
+                     <locus>f. 116r-118r</locus>
+                     <title>Jouglet</title>
+                  </msItem>
+                  <msItem xml:id="MaleHonte2HuonDeCambrai_BnF-837">
+                     <locus>f. 233ra-233vb</locus>
+                     <title>La Male Honte II</title>
+                  </msItem>
+                  <msItem xml:id="OustillementVillainVilain_BnF-837">
+                     <locus>f. 119v-121</locus>
+                     <title>L'Oustillement au vilain</title>
+                  </msItem>
+                  <msItem xml:id="Perdris_BnF-837">
+                     <locus>f. 169rb-170ra</locus>
+                     <title>Les Pertris</title>
+                  </msItem>
+                  <msItem xml:id="Pescheor_BnF-837">
+                     <locus>f. 184rb-185rb</locus>
+                     <title>Du Pescheor de Pont seur Saine</title>
+                  </msItem>
+                  <msItem xml:id="PetVilainRutebeuf_BnF-837">
+                     <locus>f. 315ra-315rb</locus>
+                     <title>Le pet au vilain</title>
+                  </msItem>
+                  <msItem xml:id="Prestre2Ribaus_BnF-837">
+                     <locus>f. 235ra-236rb</locus>
+                     <title>Le Prestre et les deus ribaus</title>
+                  </msItem>
+                  <msItem xml:id="PrestreCrucefie_BnF-837">
+                     <locus>f. 183r-183v</locus>
+                     <title>Le prestre crucefié</title>
+                  </msItem>
+                  <msItem xml:id="PrestreMereForce_BnF-837">
+                     <locus>f. 229va-230va</locus>
+                     <title>Le Prestre qui ot mere a force</title>
+                  </msItem>
+                  <msItem xml:id="ProvostAumuche_BnF-837">
+                     <locus>f. 176va-177rb</locus>
+                     <title>Le Provost a l'aumuche</title>
+                  </msItem>
+                  <msItem xml:id="Saineresse_BnF-837">
+                     <locus>f. 211va-212ra</locus>
+                     <title>La saineresse</title>
+                  </msItem>
+                  <msItem xml:id="SaintPierre_BnF-837">
+                     <locus>f. 019ra-021ra</locus>
+                     <title>Saint Pierre et le jongleur</title>
+                  </msItem>
+                  <msItem xml:id="SireHain_BnF-837">
+                     <locus>f. 049rb-051rb</locus>
+                     <title>Sire Hain et dame Anieuse</title>
+                  </msItem>
+                  <msItem xml:id="SotChevalierGautierLeLeu_BnF-837">
+                     <locus>f. 277ra-278va</locus>
+                     <title>Le sot chevalier</title>
+                  </msItem>
+                  <msItem xml:id="Vallet12Fames_BnF-837">
+                     <locus>f. 185rb-186ra</locus>
+                     <title>Le Vallet aus douze fames</title>
+                  </msItem>
+                  <msItem xml:id="VieilleTruande_BnF-837">
+                     <locus>f. 212rb-213ra</locus>
+                     <title>La vieille Truande</title>
+                  </msItem>
+                  <msItem xml:id="VilainBailluelBodel_BnF-837">
+                     <locus>f. 242vb-243rb</locus>
+                     <title>Le Vilain de Bailluel</title>
+                  </msItem>
+                  <msItem xml:id="VilainBuffet_BnF-837">
+                     <locus>f. 275vb-277ra</locus>
+                     <title>Le Vilain au buffet</title>
+                  </msItem>
+                  <msItem xml:id="VilainMire_BnF-837">
+                     <locus>f. 139rb-141rb</locus>
+                     <title>Le Vilain Mire</title>
+                  </msItem>
+                  <msItem xml:id="VilainParadis_BnF-837">
+                     <locus>f. 228va-229rb</locus>
+                     <title>Le vilain qui conquist paradis par plait</title>
+                  </msItem>
+                  <msItem xml:id="VitCouille_BnF-837">
+                     <locus>f. 215rb-215vb</locus>
+                     <title>Du Vit et de la couille</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin notBefore="1290-01-01" notAfter="1299-12-31">
+                     <p>fin 13e s.</p>
+                  </origin>
+               </history>
+            </msDesc>
+            <msDesc type="other" xml:id="BnF-2173">
+               <msIdentifier>
+                  <settlement>Paris</settlement>
+                  <repository>Bibliothèque nationale de France</repository>
+                  <idno>français 2173</idno>
+                  <idno type="URI" subtype="Notice" n="Arlima">https://www.arlima.net/mss/france/paris/bibliotheque_nationale_de_france/francais/2173.html</idno>
+                  <idno type="URI" subtype="Notice" n="Jonas">https://jonas.irht.cnrs.fr/manuscrit/45673</idno>
+                  <idno type="URI" subtype="Notice" n="Archives_et_manuscrits">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc48725g</idno>
+                  <idno type="URI" subtype="Data" n="Biblissima">
+https://data.biblissima.fr/entity/Q48587</idno>
+                  <idno type="URI" subtype="Fac-similé">https://gallica.bnf.fr/ark:/12148/btv1b10022504n</idno>
+                  <idno type="URI" subtype="Manifeste_IIIF">https://gallica.bnf.fr/iiif/ark:/12148/btv1b10022504n/manifest.json</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem xml:id="BotaPierre2_BnF-2173">
+                     <locus>f. 078v-079r</locus>
+                     <title>Celui qui bota la pierre II</title>
+                  </msItem>
+                  <msItem xml:id="CoilleNoire_BnF-2173">
+                     <locus>f. 092-093</locus>
+                     <title>La Couille noire</title>
+                  </msItem>
+                  <msItem xml:id="FoutreFosse_BnF-2173">
+                     <locus>f. 095r-096r</locus>
+                     <title>Celle qui se fist foutre sur la fosse de son mari</title>
+                  </msItem>
+                  <msItem xml:id="MaleHonte1Guillaume_BnF-2173">
+                     <locus>f. 093va-094vb</locus>
+                     <title>La male honte I</title>
+                  </msItem>
+                  <msItem xml:id="PrestreCrucefie_BnF-2173">
+                     <locus>f. 096-097</locus>
+                     <title>Le prestre crucefié</title>
+                  </msItem>
+                  <msItem xml:id="VieillePalme_BnF-2173">
+                     <locus>f. 097rb-097va</locus>
+                     <title>La Vielle qui oint la palme au chevalier</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin notBefore="1250-01-01" notAfter="1275-12-31">
+                     <p>3e quart du 13e s.</p>
+                  </origin>
+               </history>
+            </msDesc>
+            <msDesc type="other" xml:id="Gen-113">
+               <msIdentifier>
+                  <settlement>Genève</settlement>
+                  <repository>Fondation Martin Bodmer</repository>
+                  <idno>113</idno>
+                  <idno type="URI" subtype="Notice" n="Arlima">https://www.arlima.net/mss/suisse/cologny/fondation_martin_bodmer/113.html</idno>
+                  <idno type="URI" subtype="Notice" n="Jonas">https://jonas.irht.cnrs.fr/manuscrit/17529</idno>
+                  <idno type="URI" subtype="Data" n="Biblissima">
+https://data.biblissima.fr/entity/Q218768</idno>
+                  <idno type="URI" subtype="Fac-similé">https://www.e-codices.unifr.ch/fr/list/one/cb/0113</idno>
+                  <idno type="URI" subtype="Manifeste_IIIF">https://www.e-codices.unifr.ch/metadata/iiif/fmb-cb-0113/manifest.json</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem xml:id="BotaPierre2_Gen-113">
+                     <locus>f. 017va-018rb</locus>
+                     <title>Celui qui bota la pierre II</title>
+                  </msItem>
+                  <msItem xml:id="ContrarieuseMarieDeFrance_Gen-113">
+                     <locus>f. 001ra-028rb</locus>
+                     <title>La contrarieuse</title>
+                  </msItem>
+                  <msItem xml:id="FemmePendreMarieDeFrance_Gen-113">
+                     <locus>f. 001ra-028rb</locus>
+                     <title>La femme qui fist pendre son mari</title>
+                  </msItem>
+                  <msItem xml:id="FoutreFosse_Gen-113">
+                     <locus>f. 029va-030rb</locus>
+                     <title>Celle qui se fist foutre sur la fosse de son mari</title>
+                  </msItem>
+                  <msItem xml:id="MaleHonte1Guillaume_Gen-113">
+                     <title>La male honte I</title>
+                  </msItem>
+                  <msItem xml:id="PrestreCrucefie_Gen-113">
+                     <locus>f. 030rb-031ra</locus>
+                     <title>Le prestre crucefié</title>
+                  </msItem>
+                  <msItem xml:id="VieillePalme_Gen-113">
+                     <locus>f. 031ra-031rb</locus>
+                     <title>La Vielle qui oint la palme au chevalier</title>
+                  </msItem>
+                  <msItem xml:id="VilainFameDru_Gen-113">
+                     <locus>f. 001ra-028rb</locus>
+                     <title>Le Vilain qui od sa fame vit aller son dru</title>
+                  </msItem>
+                  <msItem xml:id="VilainFelunesse_Gen-113">
+                     <locus>f. 001ra-028rb</locus>
+                     <title>Le Vilain et la femme felunesse</title>
+                  </msItem>
+                  <msItem xml:id="VilainFolet_Gen-113">
+                     <locus>f. 001ra-028rb</locus>
+                     <title>Le Vilain et le folet</title>
+                  </msItem>
+                  <msItem xml:id="VilainHomeFeme_Gen-113">
+                     <locus>f. 001ra-028rb</locus>
+                     <title>Le Vilain qui vit un autre home od sa feme</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin notBefore="1400-01-01" notAfter="1499-12-31">
+                     <p>15e s.</p>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <title type="main" xml:lang="fro">Le prestre crucefié</title>
+            <title type="modern" xml:lang="fr">Le prêtre crucifié
+            </title>
+            <title type="alt" key="BnF 837">Du prestre qui crucefié fu
+            </title>
+            <title type="alt" key="BnF 837">Du prestre crucefié
+            </title>
+            <date notBefore="1200-01-01" notAfter="1299-12-31" when="1250-01-01">13e s</date>
+            <region type="dialecte_oeuvre">Francien</region>
+            <idno type="INV" subtype="Montaiglon-Raynaud">18</idno>
+            <idno type="INV" subtype="Bedier">97</idno>
+            <idno type="INV" subtype="Nykrog">106</idno>
+            <idno type="INV" subtype="Jodogne">106</idno>
+            <idno type="INV" subtype="Kiesow">44</idno>
+            <idno type="INV" subtype="NRCF">27</idno>
+            <idno type="URI" n="Jonas">https://jonas.irht.cnrs.fr/oeuvre/8963</idno>
+            <idno type="URI" n="Arlima">https://www.arlima.net/mp/prestre_crucefie.html</idno>
+         </creation>
+         <langUsage>
+            <language ident="fro"/>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.bfm-corpus.org">
+               <term type="domaine">littérature</term>
+               <term type="genre" cert="medium">Fabliau</term>
+               <term type="forme">vers</term>
+               <term type="relation">non renseigné</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#alavrent" when="2023-09-26T17:06:13" n="v1.0">Utilisation du fichier PrestreCrucefie[BnF 837]v1.docx</change>
+         <change who="#bot" when="2023-09-27" n="v1.0">Transformation avec Oxgarage du fichier PrestreCrucefie[BnF 837]1.0.docx</change>
+         <change who="#alavrent" when="2023-11-02T16:55:28" n="v3.0">Utilisation du fichier PrestreCrucefie[BnF 837]trad-v3 renomme.docx</change>
+         <change who="#alavrent" when="2023-11-02T16:54:11" n="v4.1">Utilisation du fichier PrestreCrucefie[BnF 837]v4.1 renomme.docx</change>
+         <change who="#bot" when="2023-11-03" n="v4.1">Transformation avec Oxgarage du fichier PrestreCrucefie[BnF 837]4.1.docx</change>
+         <change who="#bot" when="2023-11-03" n="v3.0">Transformation avec Oxgarage du fichier PrestreCrucefie[BnF 837]3.0.docx</change>
+         <change who="#alavrent" when="2023-11-04T15:09:27" n="v3.1">Utilisation du fichier PrestreCrucefie[BnF 837]trad-v3.1 titre.docx</change>
+         <change who="#bot" when="2023-11-04" n="v3.1">Transformation avec Oxgarage du fichier PrestreCrucefie[BnF 837]3.1.docx</change>
+         <change who="#alavrent" when="2023-11-17T13:29:07" n="v4.1">Utilisation du fichier PrestreCrucefie[BnF 837]trad-v4.1 titre.docx</change>
+         <change who="#bot" when="2023-11-17" n="v4.1">Transformation avec Oxgarage du fichier PrestreCrucefie[BnF 837]4.1.docx</change>
+         <change who="#cpierreville" when="2023-12-12T08:47:47" n="v4.2">Utilisation du fichier PrestreCrucefie[BnF 837]v4.2.docx</change>
+         <change who="#bot" when="2023-12-12" n="v4.2">Transformation avec Oxgarage du fichier PrestreCrucefie[BnF 837]4.2.docx</change>
+         <change who="#ggruber" when="2024-06-01T08:13:10" n="v4.1">Utilisation du fichier PrestreCrucefie[BnF 837]trad-v4.1 titre_reluGG.docx</change>
+         <change who="#cpierreville" when="2024-06-06T08:47:41" n="v4.2">Utilisation du fichier PrestreCrucefie[BnF 837]trad-v4.2.docx</change>
+         <change who="#bot" when="2024-06-06" n="v4.2">Transformation avec Oxgarage du fichier PrestreCrucefie[BnF 837]4.2.docx</change>
+      </revisionDesc>
+   </teiHeader>
+   <text source="PrestreCrucefie_BnF-837">
+      <body>
+         <pb n="183r"
+              xml:id="pb_1"
+              facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b55013464t/f375/full/pct:50/0/native.jpg"/>
+         <cb n="183ra"/>
+         <head>
+            <pc xml:id="w_PrestreCrucefie_BnF837_1">
+               <choice>
+                  <orig>¶</orig>
+                  <reg>¶</reg>
+               </choice>
+            </pc>
+            <w xml:id="w_PrestreCrucefie_BnF837_2">Du</w>
+            <w xml:id="w_PrestreCrucefie_BnF837_3">p</w>
+            <pc xml:id="w_PrestreCrucefie_BnF837_4">
+               <choice>
+                  <orig>.</orig>
+                  <reg>.</reg>
+               </choice>
+            </pc>
+            <pc xml:id="w_PrestreCrucefie_BnF837_5">
+               <choice>
+                  <orig>.</orig>
+                  <reg>.</reg>
+               </choice>
+            </pc>
+            <pc xml:id="w_PrestreCrucefie_BnF837_6">
+               <choice>
+                  <orig>.</orig>
+                  <reg>.</reg>
+               </choice>
+            </pc>
+            <note type="philologique">
+               <p rend="footnote text">Le titre, d’une main ultérieure, a été en partie effacé. On lit encore les trois premières lettres, puis on devine les autres : <hi rend="italic">Du prestre q((ui)) crucefié fu.</hi>
+               </p>
+            </note>
+         </head>
+         <p>
+            <lb/>
+         </p>
+         <lg>
+            <l n="1">
+               <lb n="1"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_7"><g type="initiale" rend="size(4) sizeAct(4) color(gold)">U</g>n</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_8">example</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_9">vueil</w>
+               <lb n="2"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_11">conmencier</w>
+            </l>
+            <l n="2">
+               <lb n="3"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_12">q<ex>u</ex>’</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_13"><ex>a</ex>pris</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_14">de</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_15">mon</w>
+               <lb n="4"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_17"><choice><orig>S</orig><reg>s</reg></choice>eigneur</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_18"><choice><orig>r</orig><reg>R</reg></choice>ogier</w>
+               <note type="philologique">
+                  <p rend="footnote text">
+                     <hi rend="italic">rogier</hi> est souligné deux fois dans le manuscrit.</p>
+               </note>
+               <pc xml:id="w_PrestreCrucefie_BnF837_19">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <cb n="183rb"/>
+            </l>
+            <l n="3">
+               <lb n="5"/>
+               <num>
+                  <w xml:id="w_PrestreCrucefie_BnF837_20">.<choice><orig>I</orig><reg>i</reg></choice>.</w>
+               </num>
+               <w xml:id="w_PrestreCrucefie_BnF837_21">franc</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_22">mestre</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_23">de</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_24">bon</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_25">afere</w>
+            </l>
+            <l n="4">
+               <lb n="6"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_26">q<ex>ui</ex></w>
+               <w xml:id="w_PrestreCrucefie_BnF837_27">bien</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_28">sa<choice><orig>u</orig><reg>v</reg></choice>oit</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_29">ymages</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_30">fere</w>
+            </l>
+            <l n="5">
+               <lb n="7"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_31"><ex>et</ex></w>
+               <w xml:id="w_PrestreCrucefie_BnF837_32">bie<ex>n</ex></w>
+               <w xml:id="w_PrestreCrucefie_BnF837_33">entaillier</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_34">crucefis</w>
+               <pc xml:id="w_PrestreCrucefie_BnF837_35">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="6">
+               <lb n="8"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_36">Il</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_37">n’</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_38">en</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_39">estoit</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_40">mie</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_41">aprentis</w>
+               <pc xml:id="w_PrestreCrucefie_BnF837_42">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="7">
+               <lb n="9"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_43">ainz</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_44">les</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_45">fesoit</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_46"><ex>et</ex></w>
+               <w xml:id="w_PrestreCrucefie_BnF837_47">bel</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_48"><ex>et</ex></w>
+               <w xml:id="w_PrestreCrucefie_BnF837_49">bien</w>
+               <pc xml:id="w_PrestreCrucefie_BnF837_50">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="8">
+               <lb n="10"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_51"><ex>Et</ex></w>
+               <w xml:id="w_PrestreCrucefie_BnF837_52">sa</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_53">fame</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_54">seur</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_55">toute</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_56">rien</w>
+            </l>
+            <l n="9">
+               <lb n="11"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_57">a<choice><orig>u</orig><reg>v</reg></choice>oit</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_58">enamé</w>
+               <num>
+                  <w xml:id="w_PrestreCrucefie_BnF837_59">.i.</w>
+               </num>
+               <w xml:id="w_PrestreCrucefie_BnF837_60">pro<choice><orig>u</orig><reg>v</reg></choice>oire</w>
+               <pc xml:id="w_PrestreCrucefie_BnF837_61">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="10">
+               <lb n="12"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_62">Son</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_63">seignor</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_64" join="right" ana="#aggl-cert_low">li</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_65">ot</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_66">fet</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_67">acroire</w>
+            </l>
+            <l n="11">
+               <lb n="13"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_68">q<ex>u</ex>’</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_69"><ex>a</ex></w>
+               <num>
+                  <w xml:id="w_PrestreCrucefie_BnF837_70">.i.</w>
+               </num>
+               <w xml:id="w_PrestreCrucefie_BnF837_71">marchié</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_72">de<choice><orig>u</orig><reg>v</reg></choice>oit</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_73">aler</w>
+            </l>
+            <l n="12">
+               <lb n="14"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_74"><ex>et</ex></w>
+               <w xml:id="w_PrestreCrucefie_BnF837_75"><choice><orig>v</orig><reg>u</reg></choice>ne</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_76">ymage</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_77">o</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_78">lui</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_79">porter</w>
+            </l>
+            <l n="13">
+               <lb n="15"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_80">do<ex>n</ex>t</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_81">il</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_82">a<choice><orig>u</orig><reg>v</reg></choice>roit</w>
+               <pc xml:id="w_PrestreCrucefie_BnF837_83">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_PrestreCrucefie_BnF837_84">ce</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_85">dist</w>
+               <pc xml:id="w_PrestreCrucefie_BnF837_86">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_PrestreCrucefie_BnF837_87">deniers</w>
+               <pc xml:id="w_PrestreCrucefie_BnF837_88">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="14">
+               <lb n="16"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_89"><ex>et</ex></w>
+               <w xml:id="w_PrestreCrucefie_BnF837_90">la</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_91">dame</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_92">bien</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_93">volent<ex>ier</ex>s</w>
+            </l>
+            <l n="15">
+               <lb n="17"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_94">li</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_95">otria</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_96"><ex>et</ex></w>
+               <w xml:id="w_PrestreCrucefie_BnF837_97">en</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_98">fu</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_99">lie</w>
+               <pc xml:id="w_PrestreCrucefie_BnF837_100">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="16">
+               <lb n="18"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_101"><choice><orig>q</orig><reg>Q</reg></choice>ua<ex>n</ex>t</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_102">cil</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_103">vit</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_104">la</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_105">chiere</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_106">haucie</w>
+               <pc xml:id="w_PrestreCrucefie_BnF837_107">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="17">
+               <lb n="19"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_108"><choice><orig>S</orig><reg>s</reg></choice>i</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_109">se</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_110">pot</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_111">bien</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_112">aperce<choice><orig>u</orig><reg>v</reg></choice>oir</w>
+            </l>
+            <l n="18">
+               <lb n="20"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_113">q<ex>u</ex>’</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_114"><ex>e</ex>l</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_115">le</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_116">beoit</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_117" join="right">a</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_118">dece<choice><orig>u</orig><reg>v</reg></choice>oir</w>
+            </l>
+            <l n="19">
+               <lb n="21"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_119"><choice><orig>S</orig><reg>s</reg></choice>i</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_120"><ex>con</ex>me</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_121">a<choice><orig>u</orig><reg>v</reg></choice>oit</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_122">acoustumé</w>
+               <note type="philologique">
+                  <p rend="footnote text" style="text-align: justify;">La ponctuation choisie noircit le portrait de l’épouse, qui a coutume de tromper son mari. On pourrait aussi faire porter la comparative du vers 19 sur la suite, ce qui réduirait fortement la charge misogyne : « Comme il en avait coutume, il jeta alors sur sa nuque un crucifix... » C’est la présence de l’adverbe <hi rend="italic">lors </hi>en tête du vers 20 qui invite à voir dans ce vers le début d’une nouvelle phrase.</p>
+               </note>
+               <pc xml:id="w_PrestreCrucefie_BnF837_123">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="20">
+               <lb n="22"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_124"><choice><orig>l</orig><reg>L</reg></choice>ors</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_125">a</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_126">desus</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_127">son</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_128">col</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_129">geté</w>
+            </l>
+            <l n="21">
+               <lb n="23"/>
+               <num>
+                  <w xml:id="w_PrestreCrucefie_BnF837_130">.<choice><orig>I</orig><reg>i</reg></choice>.</w>
+               </num>
+               <w xml:id="w_PrestreCrucefie_BnF837_131">crucefis</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_132">p<ex>ar</ex></w>
+               <w xml:id="w_PrestreCrucefie_BnF837_133">achoison</w>
+            </l>
+            <l n="22">
+               <lb n="24"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_134"><ex>et</ex></w>
+               <w xml:id="w_PrestreCrucefie_BnF837_135">se</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_136">parti</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_137">de</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_138">la</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_139">meson</w>
+               <pc xml:id="w_PrestreCrucefie_BnF837_140">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="23">
+               <lb n="25"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_141"><choice><orig>e</orig><reg>E</reg></choice>n</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_142">la</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_143">vile</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_144">va</w>
+               <pc xml:id="w_PrestreCrucefie_BnF837_145">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_PrestreCrucefie_BnF837_146">si</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_147">demeure</w>
+               <pc xml:id="w_PrestreCrucefie_BnF837_148">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="24">
+               <lb n="26"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_149"><ex>et</ex></w>
+               <w xml:id="w_PrestreCrucefie_BnF837_150">atent</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_151"><choice><orig>i</orig><reg>j</reg></choice>usq<ex>ue</ex>s</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_152">a</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_153">cele</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_154">eure</w>
+            </l>
+            <l n="25">
+               <lb n="27"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_155">q<ex>u</ex>’</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_156"><ex>i</ex>l</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_157">cuida</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_158">q<ex>u</ex>’</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_159"><ex>i</ex>l</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_160">fussent</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_161">ensa<ex>m</ex>ble</w>
+               <pc xml:id="w_PrestreCrucefie_BnF837_162">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="26">
+               <lb n="28"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_163"><choice><orig>d</orig><reg>D</reg></choice>e</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_164">mautale<ex>n</ex>t</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_165">li</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_166">cuers</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_167">li</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_168">tra<ex>m</ex>ble</w>
+               <pc xml:id="w_PrestreCrucefie_BnF837_169">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="27">
+               <lb n="29"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_170"><choice><orig>a</orig><reg>A</reg></choice></w>
+               <w xml:id="w_PrestreCrucefie_BnF837_171">son</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_172">ostel</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_173">en</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_174">est</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_175">venuz</w>
+               <pc xml:id="w_PrestreCrucefie_BnF837_176">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="28">
+               <lb n="30"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_177">p<ex>ar</ex></w>
+               <num>
+                  <w xml:id="w_PrestreCrucefie_BnF837_178">.i.</w>
+               </num>
+               <w xml:id="w_PrestreCrucefie_BnF837_179">pertuis</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_180">les</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_181">a</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_182">veüz</w>
+               <pc xml:id="w_PrestreCrucefie_BnF837_183">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="29">
+               <lb n="31"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_184"><choice><orig>a</orig><reg>A</reg></choice>ssis</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_185" join="right" ana="#aggl-cert_low">estoient</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_186">au</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_187">mengier</w>
+               <pc xml:id="w_PrestreCrucefie_BnF837_188">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="30">
+               <lb n="32"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_189">Il</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_190">apela</w>
+               <pc xml:id="w_PrestreCrucefie_BnF837_191">
+                  <choice>
+                     <orig>.</orig>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_PrestreCrucefie_BnF837_192">mes</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_193" join="right" ana="#aggl-cert_low">a</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_194">dangier</w>
+            </l>
+            <l n="31">
+               <lb n="33"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_195"><choice><orig>I</orig><reg>i</reg></choice></w>
+               <w xml:id="w_PrestreCrucefie_BnF837_196">ala</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_197">l’</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_198">en</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_199">por</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_200">l’</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_201">uis</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_202">ou<choice><orig>u</orig><reg>v</reg></choice>rir</w>
+               <pc xml:id="w_PrestreCrucefie_BnF837_203">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="32">
+               <lb n="34"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_204"><choice><orig>l</orig><reg>L</reg></choice>i</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_205">p<ex>re</ex>stres</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_206">n’</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_207">ot</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_208">p<ex>ar</ex></w>
+               <w xml:id="w_PrestreCrucefie_BnF837_209">ou</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_210">fuïr</w>
+               <pc xml:id="w_PrestreCrucefie_BnF837_211">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="33">
+               <lb n="35"/>
+               <pc xml:id="w_PrestreCrucefie_BnF837_212">
+                  <choice>
+                     <orig/>
+                     <reg>«</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_PrestreCrucefie_BnF837_213"><choice><orig>d</orig><reg>D</reg></choice>iex</w>
+               <pc xml:id="w_PrestreCrucefie_BnF837_214">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_PrestreCrucefie_BnF837_215">dist</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_216">li</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_217">p<ex>re</ex>stres</w>
+               <pc xml:id="w_PrestreCrucefie_BnF837_218">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_PrestreCrucefie_BnF837_219">q<ex>ue</ex></w>
+               <w xml:id="w_PrestreCrucefie_BnF837_220">ferai</w>
+               <pc xml:id="w_PrestreCrucefie_BnF837_221">
+                  <choice>
+                     <orig/>
+                     <reg>?</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_PrestreCrucefie_BnF837_222">
+                  <choice>
+                     <orig/>
+                     <reg>»</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="34">
+               <lb n="36"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_223"><choice><orig>d</orig><reg>D</reg></choice>ist</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_224">la</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_225">dame</w>
+               <pc xml:id="w_PrestreCrucefie_BnF837_226">
+                  <choice>
+                     <orig/>
+                     <reg>:</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_PrestreCrucefie_BnF837_227">
+                  <choice>
+                     <orig/>
+                     <reg>«</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_PrestreCrucefie_BnF837_228"><choice><orig>j</orig><reg>J</reg></choice>el</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_229">v<ex>ous</ex></w>
+               <w xml:id="w_PrestreCrucefie_BnF837_230">dirai</w>
+               <pc xml:id="w_PrestreCrucefie_BnF837_231">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="35">
+               <lb n="37"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_232"><choice><orig>d</orig><reg>D</reg></choice>espoilliez</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_233">vous</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_234"><ex>et</ex></w>
+               <w xml:id="w_PrestreCrucefie_BnF837_235">si</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_236">alez</w>
+            </l>
+            <l n="36">
+               <lb n="38"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_237">lëenz</w>
+               <pc xml:id="w_PrestreCrucefie_BnF837_238">
+                  <choice>
+                     <orig>.</orig>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_PrestreCrucefie_BnF837_239"><ex>et</ex></w>
+               <w xml:id="w_PrestreCrucefie_BnF837_240">si</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_241">v<ex>ous</ex></w>
+               <w xml:id="w_PrestreCrucefie_BnF837_242">estendez</w>
+            </l>
+            <l n="37">
+               <lb n="39"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_243">a<choice><orig>u</orig><reg>v</reg></choice>oec</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_244">ces</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_245">autres</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_246">crucefis</w>
+               <pc xml:id="w_PrestreCrucefie_BnF837_247">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_PrestreCrucefie_BnF837_248">
+                  <choice>
+                     <orig/>
+                     <reg>»</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="38">
+               <lb n="40"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_249"><choice><orig>o</orig><reg>O</reg></choice>u</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_250">volent<ex>ier</ex>s</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_251">ou</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_252" join="right">a</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_253">en<choice><orig>u</orig><reg>v</reg></choice>is</w>
+            </l>
+            <l n="39">
+               <lb n="41"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_254">le</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_255">fist</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_256">li</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_257">p<ex>re</ex>stres</w>
+               <pc xml:id="w_PrestreCrucefie_BnF837_258">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_PrestreCrucefie_BnF837_259">ce</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_260">sachiez</w>
+               <pc xml:id="w_PrestreCrucefie_BnF837_261">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="40">
+               <lb n="42"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_262"><choice><orig>t</orig><reg>T</reg></choice>oz</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_263">s’</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_264">est</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_265">li</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_266">p<ex>re</ex>stres</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_267">despoilliez</w>
+               <pc xml:id="w_PrestreCrucefie_BnF837_268">
+                  <choice>
+                     <orig/>
+                     <reg>;</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="41">
+               <lb n="43"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_269">entre</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_270">les</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_271">ymages</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_272">de</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_273">fust</w>
+            </l>
+            <l n="42">
+               <lb n="44"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_274"><choice><orig>S</orig><reg>s</reg></choice>’</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_275">estent</w>
+               <pc xml:id="w_PrestreCrucefie_BnF837_276">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_PrestreCrucefie_BnF837_277">ausi</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_278"><ex>con</ex></w>
+               <w xml:id="w_PrestreCrucefie_BnF837_279">s’</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_280">il</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_281">en</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_282">fust</w>
+               <pc xml:id="w_PrestreCrucefie_BnF837_283">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="43">
+               <lb n="45"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_284"><choice><orig>q</orig><reg>Q</reg></choice>ua<ex>n</ex>t</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_285">li</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_286">preudo<ex>m</ex></w>
+               <w xml:id="w_PrestreCrucefie_BnF837_287">ne</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_288">l’</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_289">a</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_290">veü</w>
+               <pc xml:id="w_PrestreCrucefie_BnF837_291">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="44">
+               <lb n="46"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_292">erraument</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_293">s’</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_294">est</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_295">ap<ex>er</ex>ceü</w>
+            </l>
+            <l n="45">
+               <lb n="47"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_296">q<ex>u</ex>’</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_297"><ex>a</ex>lez</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_298">est</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_299">entre</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_300">ses</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_301">ymages</w>
+               <pc xml:id="w_PrestreCrucefie_BnF837_302">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="46">
+               <lb n="48"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_303">mes</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_304">de</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_305">ce</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_306">fist</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_307">il</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_308">m<ex>o</ex>lt</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_309">q<ex>ue</ex></w>
+               <w xml:id="w_PrestreCrucefie_BnF837_310">sages</w>
+            </l>
+            <l n="47">
+               <lb n="49"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_311">q<ex>u</ex>’</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_312"><ex>a</ex>ssez</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_313">a</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_314">mengié</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_315"><ex>et</ex></w>
+               <w xml:id="w_PrestreCrucefie_BnF837_316">beü</w>
+            </l>
+            <l n="48">
+               <lb n="50"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_317">p<ex>ar</ex></w>
+               <w xml:id="w_PrestreCrucefie_BnF837_318">loisir</w>
+               <pc xml:id="w_PrestreCrucefie_BnF837_319">
+                  <choice>
+                     <orig>.</orig>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_PrestreCrucefie_BnF837_320">ainz</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_321">q<ex>u</ex>’</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_322"><ex>i</ex>l</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_323">soit</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_324">meü</w>
+               <pc xml:id="w_PrestreCrucefie_BnF837_325">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="49">
+               <lb n="51"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_326"><choice><orig>q</orig><reg>Q</reg></choice>ua<ex>n</ex>t</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_327">il</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_328">fu</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_329">le<choice><orig>u</orig><reg>v</reg></choice>ez</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_330">du</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_331">meng<ex>ier</ex></w>
+               <pc xml:id="w_PrestreCrucefie_BnF837_332">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="50">
+               <lb n="52"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_333">lors</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_334"><ex>con</ex>mença</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_335" join="right" ana="#aggl-cert_low">a</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_336">aguisier</w>
+            </l>
+            <l n="51">
+               <lb n="53"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_337"><choice><orig>S</orig><reg>s</reg></choice>on</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_338">coutel</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_339">a</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_340"><choice><orig>v</orig><reg>u</reg></choice>ne</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_341">gra<ex>n</ex>t</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_342">kex</w>
+               <pc xml:id="w_PrestreCrucefie_BnF837_343">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="52">
+               <lb n="54"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_344"><choice><orig>l</orig><reg>L</reg></choice>i</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_345">preudo<ex>m</ex></w>
+               <w xml:id="w_PrestreCrucefie_BnF837_346">estoit</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_347">fors</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_348"><ex>et</ex></w>
+               <w xml:id="w_PrestreCrucefie_BnF837_349">preus</w>
+               <pc xml:id="w_PrestreCrucefie_BnF837_350">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+               <pb n="183v"
+                    xml:id="pb_2"
+                    facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b55013464t/f376/full/pct:50/0/native.jpg"/>
+               <cb n="183va"/>
+            </l>
+            <l n="53">
+               <lb n="55"/>
+               <pc xml:id="w_PrestreCrucefie_BnF837_352">
+                  <choice>
+                     <orig/>
+                     <reg>«</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_PrestreCrucefie_BnF837_353"><choice><orig>d</orig><reg>D</reg></choice>ame</w>
+               <pc xml:id="w_PrestreCrucefie_BnF837_354">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_PrestreCrucefie_BnF837_355">dist</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_356">il</w>
+               <pc xml:id="w_PrestreCrucefie_BnF837_357">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_PrestreCrucefie_BnF837_358">tost</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_359">alumez</w>
+            </l>
+            <l n="54">
+               <lb n="56"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_360"><choice><orig>v</orig><reg>u</reg></choice>ne</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_361">chandoile</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_362"><ex>et</ex></w>
+               <w xml:id="w_PrestreCrucefie_BnF837_363">si</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_364">venez</w>
+            </l>
+            <l n="55">
+               <lb n="57"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_365"><choice><orig>L</orig><reg>l</reg></choice>eenz</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_366">o</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_367">moi</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_368">ou</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_369"><choice><orig>i</orig><reg>j</reg></choice>’</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_370">ai</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_371">afere</w>
+               <pc xml:id="w_PrestreCrucefie_BnF837_372">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_PrestreCrucefie_BnF837_373">
+                  <choice>
+                     <orig/>
+                     <reg>»</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="56">
+               <lb n="58"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_374" join="right">La</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_375">dame</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_376">ne</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_377">s’</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_378">osa</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_379">retrere</w>
+               <pc xml:id="w_PrestreCrucefie_BnF837_380">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="57">
+               <lb n="59"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_381"><choice><orig>v</orig><reg>U</reg></choice>ne</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_382">chandoile</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_383">a</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_384">alumee</w>
+            </l>
+            <l n="58">
+               <lb n="60"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_385"><ex>et</ex></w>
+               <w xml:id="w_PrestreCrucefie_BnF837_386">est</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_387">o</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_388">son</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_389">seignor</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_390">alee</w>
+            </l>
+            <l n="59">
+               <lb n="61"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_391">en</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_392">l’</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_393">ou<choice><orig>u</orig><reg>v</reg></choice>reoir</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_394">isnelem<ex>en</ex>t</w>
+               <pc xml:id="w_PrestreCrucefie_BnF837_395">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="60">
+               <lb n="62"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_396"><ex>et</ex></w>
+               <w xml:id="w_PrestreCrucefie_BnF837_397">li</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_398">preudo<ex>m</ex></w>
+               <w xml:id="w_PrestreCrucefie_BnF837_399">tout</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_400">esraum<ex>en</ex>t</w>
+            </l>
+            <l n="61">
+               <lb n="63"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_401">le</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_402">pro<choice><orig>u</orig><reg>v</reg></choice>oire</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_403">tout</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_404">estendu</w>
+            </l>
+            <l n="62">
+               <lb n="64"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_405">voit</w>
+               <pc xml:id="w_PrestreCrucefie_BnF837_406">
+                  <choice>
+                     <orig>.</orig>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_PrestreCrucefie_BnF837_407">si</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_408">l’</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_409">a</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_410">bien</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_411">aperçeü</w>
+               <pc xml:id="w_PrestreCrucefie_BnF837_412">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="63">
+               <lb n="65"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_413"><choice><orig>v</orig><reg>V</reg></choice>oit</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_414">la</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_415">coille</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_416"><ex>et</ex></w>
+               <w xml:id="w_PrestreCrucefie_BnF837_417">le</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_418">vit</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_419">q<ex>ui</ex></w>
+               <w xml:id="w_PrestreCrucefie_BnF837_420">pent</w>
+               <pc xml:id="w_PrestreCrucefie_BnF837_421">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="64">
+               <lb n="66"/>
+               <pc xml:id="w_PrestreCrucefie_BnF837_422">
+                  <choice>
+                     <orig/>
+                     <reg>«</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_PrestreCrucefie_BnF837_423"><choice><orig>d</orig><reg>D</reg></choice>ame</w>
+               <pc xml:id="w_PrestreCrucefie_BnF837_424">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_PrestreCrucefie_BnF837_425">dist</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_426">il</w>
+               <pc xml:id="w_PrestreCrucefie_BnF837_427">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_PrestreCrucefie_BnF837_428">vilainem<ex>en</ex>t</w>
+            </l>
+            <l n="65">
+               <lb n="67"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_429">ai</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_430">en</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_431">ceste</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_432">ymage</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_433">mespris</w>
+               <pc xml:id="w_PrestreCrucefie_BnF837_434">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="66">
+               <lb n="68"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_435"><choice><orig>I</orig><reg>J</reg></choice>’</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_436">estoie</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_437">y<choice><orig>u</orig><reg>v</reg></choice>res</w>
+               <pc xml:id="w_PrestreCrucefie_BnF837_438">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_PrestreCrucefie_BnF837_439">ce</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_440">m’</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_441">est</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_442">a<choice><orig>u</orig><reg>v</reg></choice>is</w>
+               <pc xml:id="w_PrestreCrucefie_BnF837_443">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="67">
+               <lb n="69"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_444">qua<ex>n</ex>t</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_445"><choice><orig>i</orig><reg>j</reg></choice>e</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_446">ceste</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_447">chose</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_448" join="right">i</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_449">lessai</w>
+               <pc xml:id="w_PrestreCrucefie_BnF837_450">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="68">
+               <lb n="70"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_451"><choice><orig>a</orig><reg>A</reg></choice>lumez</w>
+               <pc xml:id="w_PrestreCrucefie_BnF837_452">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_PrestreCrucefie_BnF837_453">si</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_454">l’</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_455">amenderai</w>
+               <pc xml:id="w_PrestreCrucefie_BnF837_456">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_PrestreCrucefie_BnF837_457">
+                  <choice>
+                     <orig/>
+                     <reg>»</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="69">
+               <lb n="71"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_458">Li</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_459">p<ex>re</ex>stres</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_460">ne</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_461">s’</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_462">osa</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_463">mo<choice><orig>u</orig><reg>v</reg></choice>oir</w>
+            </l>
+            <l n="70">
+               <lb n="72"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_464"><ex>et</ex></w>
+               <w xml:id="w_PrestreCrucefie_BnF837_465">ice</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_466">v<ex>ous</ex></w>
+               <w xml:id="w_PrestreCrucefie_BnF837_467">di</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_468"><choice><orig>i</orig><reg>j</reg></choice>e</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_469">por</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_470">voir</w>
+            </l>
+            <l n="71">
+               <lb n="73"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_471">q<ex>ue</ex></w>
+               <w xml:id="w_PrestreCrucefie_BnF837_472">vit</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_473"><ex>et</ex></w>
+               <w xml:id="w_PrestreCrucefie_BnF837_474">coilles</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_475">li</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_476">trencha</w>
+               <pc xml:id="w_PrestreCrucefie_BnF837_477">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="72">
+               <lb n="74"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_478">q<ex>ue</ex></w>
+               <w xml:id="w_PrestreCrucefie_BnF837_479">onq<ex>ue</ex>s</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_480">rien</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_481">ne</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_482">li</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_483">lessa</w>
+            </l>
+            <l n="73">
+               <lb n="75"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_484">q<ex>ue</ex></w>
+               <w xml:id="w_PrestreCrucefie_BnF837_485">il</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_486">n’</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_487">ait</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_488">tout</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_489">outre</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_490">trenchié</w>
+               <pc xml:id="w_PrestreCrucefie_BnF837_491">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="74">
+               <lb n="76"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_492"><choice><orig>q</orig><reg>Q</reg></choice>ua<ex>n</ex>t</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_493">li</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_494">p<ex>re</ex>stres</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_495">se</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_496">sent</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_497">blecié</w>
+               <pc xml:id="w_PrestreCrucefie_BnF837_498">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="75">
+               <lb n="77"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_499">lors</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_500">si</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_501">s’</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_502">en</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_503">est</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_504">tornez</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_505">fuiant</w>
+               <pc xml:id="w_PrestreCrucefie_BnF837_506">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="76">
+               <lb n="78"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_507"><ex>et</ex></w>
+               <w xml:id="w_PrestreCrucefie_BnF837_508">li</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_509">preudo<ex>m</ex></w>
+               <w xml:id="w_PrestreCrucefie_BnF837_510">demaintenant</w>
+            </l>
+            <l n="77">
+               <lb n="79"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_511"><choice><orig>S</orig><reg>s</reg></choice>i</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_512">s’</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_513">est</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_514">escriez</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_515">a</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_516">hauz</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_517">criz</w>
+               <pc xml:id="w_PrestreCrucefie_BnF837_518">
+                  <choice>
+                     <orig/>
+                     <reg>:</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="78">
+               <lb n="80"/>
+               <pc xml:id="w_PrestreCrucefie_BnF837_519">
+                  <choice>
+                     <orig/>
+                     <reg>«</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_PrestreCrucefie_BnF837_520">Seignor</w>
+               <pc xml:id="w_PrestreCrucefie_BnF837_521">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_PrestreCrucefie_BnF837_522">p<ex>re</ex>nez</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_523">mon</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_524">crucefiz</w>
+            </l>
+            <l n="79">
+               <lb n="81"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_525">q<ex>ui</ex></w>
+               <w xml:id="w_PrestreCrucefie_BnF837_526">orendroit</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_527">m’</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_528">est</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_529">eschapez</w>
+               <pc xml:id="w_PrestreCrucefie_BnF837_530">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_PrestreCrucefie_BnF837_531">
+                  <choice>
+                     <orig/>
+                     <reg>»</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="80">
+               <lb n="82"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_532">Lors</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_533">a</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_534">li</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_535">p<ex>re</ex>stres</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_536">encontrez</w>
+            </l>
+            <l n="81">
+               <lb n="83"/>
+               <num>
+                  <w xml:id="w_PrestreCrucefie_BnF837_537">.i<choice><orig>j</orig><reg>i</reg></choice>.</w>
+               </num>
+               <w xml:id="w_PrestreCrucefie_BnF837_538">gars</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_539">q<ex>ui</ex></w>
+               <w xml:id="w_PrestreCrucefie_BnF837_540">portent</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_541"><choice><orig>v</orig><reg>u</reg></choice>ne</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_542"><choice><orig>i</orig><reg>j</reg></choice>arle</w>
+               <pc xml:id="w_PrestreCrucefie_BnF837_543">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="82">
+               <lb n="84"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_544">Lors</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_545">li</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_546">venist</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_547">miex</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_548">estre</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_549">a</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_550"><choice><orig>a</orig><reg>A</reg></choice>rle</w>
+            </l>
+            <l n="83">
+               <lb n="85"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_551">q<ex>ua</ex>r</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_552">il</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_553" join="right" ana="#aggl-cert_low">i</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_554">ot</w>
+               <num>
+                  <w xml:id="w_PrestreCrucefie_BnF837_555">.i.</w>
+               </num>
+               <w xml:id="w_PrestreCrucefie_BnF837_556">pautonier</w>
+            </l>
+            <l n="84">
+               <lb n="86"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_557">q<ex>ui</ex></w>
+               <w xml:id="w_PrestreCrucefie_BnF837_558">en</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_559">sa</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_560">main</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_561">tint</w>
+               <num>
+                  <w xml:id="w_PrestreCrucefie_BnF837_562">.i.</w>
+               </num>
+               <w xml:id="w_PrestreCrucefie_BnF837_563">le<choice><orig>u</orig><reg>v</reg></choice>ier</w>
+               <pc xml:id="w_PrestreCrucefie_BnF837_564">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="85">
+               <lb n="87"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_565"><choice><orig>S</orig><reg>s</reg></choice>i</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_566">le</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_567">feri</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_568">desus</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_569">le</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_570">col</w>
+            </l>
+            <l n="86">
+               <lb n="88"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_571">q<ex>u</ex>’</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_572"><ex>i</ex>l</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_573">l’</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_574">abati</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_575">en</w>
+               <num>
+                  <w xml:id="w_PrestreCrucefie_BnF837_576">.i.</w>
+               </num>
+               <w xml:id="w_PrestreCrucefie_BnF837_577">tai</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_578">mol</w>
+               <pc xml:id="w_PrestreCrucefie_BnF837_579">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="87">
+               <lb n="89"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_580"><choice><orig>q</orig><reg>Q</reg></choice>ua<ex>n</ex>t</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_581">il</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_582">l’</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_583">ot</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_584">a</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_585">t<ex>er</ex>re</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_586">abatu</w>
+               <pc xml:id="w_PrestreCrucefie_BnF837_587">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="88">
+               <lb n="90"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_588">ez</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_589">v<ex>ous</ex></w>
+               <w xml:id="w_PrestreCrucefie_BnF837_590">le</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_591">preudo<ex>m</ex>me</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_592">venu</w>
+            </l>
+            <l n="89">
+               <lb n="91"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_593">q<ex>ui</ex></w>
+               <w xml:id="w_PrestreCrucefie_BnF837_594">l’</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_595">en<space type="degl-fgmt"/>mena</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_596">en</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_597">sa</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_598">meson</w>
+               <pc xml:id="w_PrestreCrucefie_BnF837_599">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="90">
+               <lb n="92"/>
+               <num>
+                  <w xml:id="w_PrestreCrucefie_BnF837_600">.<choice><orig>x</orig><reg>X</reg></choice><choice><orig>v</orig><reg>V</reg></choice>.</w>
+               </num>
+               <w xml:id="w_PrestreCrucefie_BnF837_601">liv<ex>res</ex></w>
+               <w xml:id="w_PrestreCrucefie_BnF837_602">de</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_603">raençon</w>
+            </l>
+            <l n="91">
+               <lb n="93"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_604">li</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_605">fist</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_606">isnelem<ex>en</ex>t</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_607">baillier</w>
+            </l>
+            <l n="92">
+               <lb n="94"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_608"><ex>c</ex>’</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_609"><ex>on</ex>ques</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_610">n’</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_611">en</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_612">i</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_613">failli</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_614">denier</w>
+               <pc xml:id="w_PrestreCrucefie_BnF837_615">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="93">
+               <lb n="95"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_616"><choice><orig>c</orig><reg>C</reg></choice>est</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_617">exa<ex>m</ex>ple</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_618">nous</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_619">moustre</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_620">bie<ex>n</ex></w>
+            </l>
+            <l n="94">
+               <lb n="96"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_621">q<ex>ue</ex></w>
+               <w xml:id="w_PrestreCrucefie_BnF837_622">nus</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_623">p<ex>re</ex>stres</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_624">por</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_625">nule</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_626">rien</w>
+            </l>
+            <l n="95">
+               <lb n="97"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_627">ne</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_628">de<choice><orig>u</orig><reg>v</reg></choice>roit</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_629">autrui</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_630">fame</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_631">amer</w>
+               <pc xml:id="w_PrestreCrucefie_BnF837_632">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="96">
+               <lb n="98"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_633">n’</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_634">entor</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_635">li</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_636">venir</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_637">ne</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_638">aler</w>
+               <pc xml:id="w_PrestreCrucefie_BnF837_639">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="97">
+               <lb n="99"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_640">q<ex>ui</ex><space type="degl-fgmt" cert="low"/><ex>con</ex>q<ex>ue</ex>s</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_641">fust</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_642">en</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_643">calengage</w>
+               <pc xml:id="w_PrestreCrucefie_BnF837_644">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="98">
+               <lb n="100"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_645">q<ex>ue</ex></w>
+               <w xml:id="w_PrestreCrucefie_BnF837_646">il</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_647">n’</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_648">i</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_649">lest</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_650">ou</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_651">coille</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_652">ou</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_653">gage</w>
+               <note type="philologique">
+                  <p rend="footnote text">Jean Dufournet édite <hi rend="italic">Qu’il n’i lest ou coille ou gage</hi>, ce qui rend le vers hypométrique.</p>
+               </note>
+               <pc xml:id="w_PrestreCrucefie_BnF837_654">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="99">
+               <lb n="101"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_655" join="right"><choice><orig>S</orig><reg>s</reg></choice>i</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_656"><ex>con</ex></w>
+               <w xml:id="w_PrestreCrucefie_BnF837_657">fist</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_658">cil</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_659">p<ex>re</ex>stres</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_660"><choice><orig>c</orig><reg>C</reg></choice>onstans</w>
+            </l>
+            <l n="100">
+               <lb n="102"/>
+               <w xml:id="w_PrestreCrucefie_BnF837_662">q<ex>ui</ex></w>
+               <w xml:id="w_PrestreCrucefie_BnF837_663">i</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_664">lessa</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_665">les</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_666">siens</w>
+               <w xml:id="w_PrestreCrucefie_BnF837_667">pendans</w>
+               <pc xml:id="w_PrestreCrucefie_BnF837_668">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+            </l>
+         </lg>
+         <p rend="explicit" style="font-weight: bold; ">
+            <w xml:id="w_PrestreCrucefie_BnF837_669">Explicit</w>
+            <w xml:id="w_PrestreCrucefie_BnF837_670">du</w>
+            <w xml:id="w_PrestreCrucefie_BnF837_671">prestre</w>
+            <w xml:id="w_PrestreCrucefie_BnF837_672">crucefié</w>
+            <pc xml:id="w_PrestreCrucefie_BnF837_673">
+               <choice>
+                  <orig>.</orig>
+                  <reg/>
+               </choice>
+            </pc>
+         </p>
+      </body>
+   </text>
+</TEI>

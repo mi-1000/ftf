@@ -1,0 +1,1584 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="fro">Le preudome qui rescolt son compere de noier</title>
+            <author>Anonyme</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2024</date>
+            </edition>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="acorbellari">Alain Corbellari</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="alavrent">Alexei Lavrentiev</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="apinche">Ariane Pinche</name>
+            </respStmt>
+            <respStmt>
+               <resp>relecteur</resp>
+               <resp>membre</resp>
+               <name xml:id="blaid">Baptiste Laïd</name>
+            </respStmt>
+            <respStmt>
+               <resp>robot</resp>
+               <name xml:id="bot">bot bot</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="cguillot">Céline Guillot-Barbance</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="clachet">Claude Lachet</name>
+            </respStmt>
+            <respStmt>
+               <resp>editeur</resp>
+               <resp>traducteur</resp>
+               <resp>chef de projet</resp>
+               <name xml:id="cpierreville">Corinne Pierreville</name>
+            </respStmt>
+            <respStmt>
+               <resp>relecteur-traduction</resp>
+               <resp>membre</resp>
+               <name xml:id="ggruber">Gauthier Grüber</name>
+            </respStmt>
+            <respStmt>
+               <resp>ingénieur</resp>
+               <name xml:id="jnuguet">Jules Nuguet</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="ngarnier">Nicolas Garnier</name>
+            </respStmt>
+            <respStmt>
+               <resp>Relecteur traduction</resp>
+               <name xml:id="rbellon">Roger Bellon</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="rtrachsler">Richard Trachsler</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="veugene">Valentine Eugène</name>
+            </respStmt>
+            <respStmt>
+               <resp>ingénieur</resp>
+               <name xml:id="myamagata">Moe Yamagata</name>
+            </respStmt>
+            <respStmt>
+               <resp/>
+               <name xml:id="jdocks">Justine DOCKS</name>
+            </respStmt>
+            <respStmt>
+               <resp>editeur</resp>
+               <resp>relecteur</resp>
+               <resp>traducteur</resp>
+               <resp>relecteur-traduction</resp>
+               <resp/>
+               <name> </name>
+            </respStmt>
+         </editionStmt>
+         <extent>
+            <num xml:id="nb_tokens_given">583</num>
+            <num xml:id="nb_mots_given">501</num>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <name>ENS de Lyon / UMR 5317 IHRIM, Base de français médiéval, projet Fabliaux</name>
+            </publisher>
+            <address>
+               <addrLine>15, parvis René Descartes</addrLine>
+               <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+               <addrLine>Tél : 04 37 37 63 10</addrLine>
+               <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+               <addrLine>http://bfm.ens-lyon.fr</addrLine>
+            </address>
+            <idno type="bfm">http://catalog.bfm-corpus.org/fabliaux/PreudomeCompereNoier_BnF-19152</idno>
+            <idno type="doi">10.34847/nkl.ff52xlyg</idno>
+            <availability status="free">
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <ab type="availability_bfm">Les Conditions générales d'utilisation de la Base de Français Médiéval (http://txm.bfm-corpus.org/bfm/files/CGU.pdf), 
+                        et notamment son Article 5 « PROPRIETE INTELLECTUELLE », s'appliquent à tous les textes de la BFM.</ab>
+                  <ab type="how_to_cite">
+                     <label>Comment citer ce texte :</label>
+                     <bibl>Le preudome qui rescolt son compere de noier, édité par Corinne Pierreville en collaboration avec Baptiste Laïd. Publié en ligne par l’ENS de Lyon dans la Base de français médiéval, 
+2024, http://catalog.bfm-corpus.org/fabliaux/PreudomeCompereNoier_BnF-19152.</bibl>
+                        D'autres formules de citation de la BFM sont proposées sur la page web suivante :
+                        http://bfm.ens-lyon.fr/spip.php?article281.</ab>
+                  <ab type="availability_file">
+                     <label>Conditions d'utilisation de ce fichier :</label>
+                        Ce fichier numérique est composé du corps de texte médiéval (restauré par son ou ses éditeur(s) scientifique(s)), des apparats critiques (introductions, notes, glossaires, explications, du texte d'origine (ou des enrichissements) qui ont été réalisés dans le cadre de la restauration des textes par les Editeurs Scientifiques) et des suppléments numériques : balisage XML-TEI, métadonnées (teiHeader), balisage du discours direct, étiquetage morpho-syntaxique, lemmatisation. Le texte et les suppléments numériques sont libres de droit et peuvent à ce titre être téléchargés et réutilisés librement. Les apparats critiques sont soumis à une licence de type CC BY-NC-SA 3.0 FR  http://creativecommons.org/licenses/by-nc-sa/3.0/fr. Les Utilisateurs s’engagent à respecter les termes de cette licence. 
+                    </ab>
+                  <ab type="availability_txmweb" subtype="illimité">
+                     <label>Conditions d'utilisation par le portail BFM :</label>
+                        Pas de limitation dans l'usage des fonctionnalités. Téléchargement autorisé.</ab>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="main" xml:id="BnF-19152">
+               <msIdentifier>
+                  <settlement>Paris</settlement>
+                  <repository>Bibliothèque nationale de France</repository>
+                  <idno>français 19152</idno>
+                  <idno type="URI" subtype="Notice" n="Arlima">https://www.arlima.net/mss/france/paris/bibliotheque_nationale_de_france/francais/19152.html</idno>
+                  <idno type="URI" subtype="Notice" n="Jonas">http://jonas.irht.cnrs.fr/manuscrit/45865</idno>
+                  <idno type="URI" subtype="Notice" n="Archives_et_manuscrits">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc48361n</idno>
+                  <idno type="URI" subtype="Data" n="Biblissima">
+https://data.biblissima.fr/entity/Q48011</idno>
+                  <idno type="URI" subtype="Fac-similé">https://gallica.bnf.fr/ark:/12148/btv1b9062193k</idno>
+                  <idno type="URI" subtype="Manifeste_IIIF">https://gallica.bnf.fr/iiif/ark:/12148/btv1b9062193k/manifest.json</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem xml:id="deAngloys_BnF-19152">
+                     <locus>f. 047va-048ra</locus>
+                     <title>Les deus Angloys et l'agnel</title>
+                  </msItem>
+                  <msItem xml:id="deBordeorsRibaux_BnF-19152">
+                     <title>Les deux Bordeors ribaux</title>
+                  </msItem>
+                  <msItem xml:id="AristoteHenrideValenciennes_BnF-19152">
+                     <title>Le lai d'Aristote</title>
+                  </msItem>
+                  <msItem xml:id="BaratHaimetBodel_BnF-19152">
+                     <locus>f. 052rb-054ra</locus>
+                     <title>Barat et Haimet</title>
+                  </msItem>
+                  <msItem xml:id="Berangier1_BnF-19152">
+                     <title>Berangier au long cul I</title>
+                  </msItem>
+                  <msItem xml:id="BraiesCordelier_BnF-19152">
+                     <title>Les Braies au cordelier</title>
+                  </msItem>
+                  <msItem xml:id="ChevalierParlerCons1Guerin_BnF-19152">
+                     <locus>f. 058a-060c</locus>
+                     <title>Le chevalier qui fist les cons parler I</title>
+                  </msItem>
+                  <msItem xml:id="ConGautierLeLeu_BnF-19152">
+                     <locus>f. 063rc-064vc</locus>
+                     <title>Du con</title>
+                  </msItem>
+                  <msItem xml:id="Constant_BnF-19152">
+                     <title>Constant du Hamel</title>
+                  </msItem>
+                  <msItem xml:id="ContrarieuseMarieDeFrance_BnF-19152">
+                     <title>La contrarieuse</title>
+                  </msItem>
+                  <msItem xml:id="CovoteusEnvieusBodel_BnF-19152">
+                     <locus>f. 051vc-052ra</locus>
+                     <title>Le covoteus et l'envieus</title>
+                  </msItem>
+                  <msItem xml:id="DameEscoillee_BnF-19152">
+                     <title>La dame escoillee</title>
+                  </msItem>
+                  <msItem xml:id="DamoiseleFoutre3_BnF-19152">
+                     <title>La damoisele qui ne pooit oïr parler de foutre III = La Pucele qui abevra le polain</title>
+                  </msItem>
+                  <msItem xml:id="Estula_BnF-19152">
+                     <locus>f. 116rb-117rb</locus>
+                     <title>Estula</title>
+                  </msItem>
+                  <msItem xml:id="FemmePendreMarieDeFrance_BnF-19152">
+                     <title>La femme qui fist pendre son mari</title>
+                  </msItem>
+                  <msItem xml:id="Foteor_BnF-19152">
+                     <title>Le Foteor</title>
+                  </msItem>
+                  <msItem xml:id="Grue1_BnF-19152">
+                     <title>La Damoisele a la grue I</title>
+                  </msItem>
+                  <msItem xml:id="GuillaumeFaucon_BnF-19152">
+                     <title>Guillaume au faucon</title>
+                  </msItem>
+                  <msItem xml:id="PrestreAlisonGuillaume_BnF-19152">
+                     <title>Le Prestre et Alison</title>
+                  </msItem>
+                  <msItem xml:id="PrestreDame_BnF-19152">
+                     <title>Le Prestre et la dame</title>
+                  </msItem>
+                  <msItem xml:id="PrestreMereForce_BnF-19152">
+                     <title>Le Prestre qui ot mere a force</title>
+                  </msItem>
+                  <msItem xml:id="PrestreMures1Guerin_BnF-19152">
+                     <locus>f. 056rc-056vb</locus>
+                     <title>Le prestre qui manja les mores I</title>
+                  </msItem>
+                  <msItem xml:id="PrestrePassion_BnF-19152">
+                     <locus>f. 064vc-065ra</locus>
+                     <title>Le prestre qui dit la Passion</title>
+                  </msItem>
+                  <msItem xml:id="PreudomeCompereNoier_BnF-19152">
+                     <locus>f. 035vc-036ra</locus>
+                     <title>Le preudome qui rescolt son compere de noier</title>
+                  </msItem>
+                  <msItem xml:id="SaintPierre_BnF-19152">
+                     <title>Saint Pierre et le jongleur</title>
+                  </msItem>
+                  <msItem xml:id="Segretain2_BnF-19152">
+                     <title>Le Segretain moine II</title>
+                  </msItem>
+                  <msItem xml:id="Tresces2_BnF-19152">
+                     <locus>f. 122rb-123vc</locus>
+                     <title>Les Tresces II</title>
+                  </msItem>
+                  <msItem xml:id="VilainAsnier_BnF-19152">
+                     <locus>f. 056ra-056rc</locus>
+                     <title>Le Vilain asnier</title>
+                  </msItem>
+                  <msItem xml:id="VilainFameDru_BnF-19152">
+                     <title>Le Vilain qui od sa fame vit aller son dru</title>
+                  </msItem>
+                  <msItem xml:id="VilainFelunesse_BnF-19152">
+                     <title>Le Vilain et la femme felunesse</title>
+                  </msItem>
+                  <msItem xml:id="VilainFolet_BnF-19152">
+                     <title>Le Vilain et le folet</title>
+                  </msItem>
+                  <msItem xml:id="VilainHomeFeme_BnF-19152">
+                     <title>Le Vilain qui vit un autre home od sa feme</title>
+                  </msItem>
+                  <msItem xml:id="VilainParadis_BnF-19152">
+                     <title>Le vilain qui conquist paradis par plait</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin notBefore="1250-01-01" notAfter="1299-12-31">
+                     <p>2e moitié du 13e s.</p>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <title type="main" xml:lang="fro">Le preudome qui rescolt son compere de noier</title>
+            <title type="modern" xml:lang="fr">Le brave homme qui sauva son compagnon de la noyade
+            </title>
+            <title type="alt" key="Jonas">Prud'homme qui rescout son compere de noier</title>
+            <date notBefore="1200-01-01" notAfter="1250-12-31" when="1225-12-31">Avant le milieu du 13e siècle</date>
+            <region type="dialecte_oeuvre">Non défini</region>
+            <idno type="INV" subtype="Montaiglon-Raynaud">27</idno>
+            <idno type="INV" subtype="Bedier">112</idno>
+            <idno type="INV" subtype="Nykrog">121</idno>
+            <idno type="INV" subtype="Jodogne">121</idno>
+            <idno type="INV" subtype="NRCF">89</idno>
+            <idno type="URI" n="Jonas">https://jonas.irht.cnrs.fr/consulter/oeuvre/detail_oeuvre.php?oeuvre=13545</idno>
+            <idno type="URI" n="Arlima">https://www.arlima.net/mp/preudome_qui_rescolt.html</idno>
+         </creation>
+         <langUsage>
+            <language ident="fro"/>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.bfm-corpus.org">
+               <term type="domaine">littérature</term>
+               <term type="genre" cert="medium">Fabliau</term>
+               <term type="forme">vers</term>
+               <term type="relation">non renseigné</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#cpierreville" when="2024-04-17T11:48:08" n="v2.0">Utilisation du fichier PreudomeCompereNoier[BnF 19152]v2.0.docx</change>
+         <change who="#bot" when="2024-04-18" n="v2.0">Transformation avec Oxgarage du fichier PreudomeCompereNoier[BnF 19152]2.0.docx</change>
+         <change who="#blaid" when="2024-05-10T06:03:57" n="v2.0">Utilisation du fichier PreudomeCompereNoier[BnF 19152]v2.0 Relu BL.docx</change>
+         <change who="#cpierreville" when="2024-05-13T11:50:57" n="v2.1">Utilisation du fichier PreudomeCompereNoier[BnF 19152]v2.1.docx</change>
+         <change who="#bot" when="2024-05-13" n="v2.1">Transformation avec Oxgarage du fichier PreudomeCompereNoier[BnF 19152]2.1.docx</change>
+         <change who="#cpierreville" when="2024-06-10T15:08:17" n="v1.0">Utilisation du fichier PreudomeCompereNoier[BnF 19152]trad-v1.0.docx</change>
+         <change who="#cpierreville" when="2024-06-10T15:08:17" n="v2.2">Utilisation du fichier PreudomeCompereNoier[BnF 19152]v2.2.docx</change>
+         <change who="#bot" when="2024-06-11" n="v2.2">Transformation avec Oxgarage du fichier PreudomeCompereNoier[BnF 19152]2.2.docx</change>
+         <change who="#bot" when="2024-06-11" n="v1.0">Transformation avec Oxgarage du fichier PreudomeCompereNoier[BnF 19152]1.0.docx</change>
+         <change who="#ggruber" when="2024-06-16T19:40:47" n="v1.0">Utilisation du fichier PreudomeCompereNoier[BnF 19152]trad-v1.0_reluGG.docx</change>
+         <change who="#cpierreville" when="2024-06-17T09:02:11" n="v1.1">Utilisation du fichier PreudomeCompereNoier[BnF 19152]trad-v1.1.docx</change>
+         <change who="#bot" when="2024-06-17" n="v1.1">Transformation avec Oxgarage du fichier PreudomeCompereNoier[BnF 19152]1.1.docx</change>
+         <change who="#cpierreville" when="2024-06-22T13:06:31" n="v1.2">Utilisation du fichier PreudomeCompereNoier[BnF 19152]trad-v1.2.docx</change>
+         <change who="#bot" when="2024-06-22" n="v1.2">Transformation avec Oxgarage du fichier PreudomeCompereNoier[BnF 19152]1.2.docx</change>
+         <change who="#myamagata" when="2024-06-26T12:30:11" n="v1.3">Utilisation du fichier PreudomeCompereNoier[BnF 19152]trad-v1.3colonne.docx</change>
+         <change who="#bot" when="2024-06-26" n="v1.3">Transformation avec Oxgarage du fichier PreudomeCompereNoier[BnF 19152]1.3.docx</change>
+      </revisionDesc>
+   </teiHeader>
+   <text source="PreudomeCompereNoier_BnF-19152">
+      <body>
+         <pb n="35v"
+              xml:id="pb_1"
+              facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b52513419n/f78/full/pct:50/0/native.jpg"/>
+         <cb n="35vc"/>
+         <div>
+            <head>
+               <w xml:id="w_PreudomeCompereNoier_BnF19152_1">D’</w>
+               <w xml:id="w_PreudomeCompereNoier_BnF19152_2">un</w>
+               <w xml:id="w_PreudomeCompereNoier_BnF19152_3">p<ex>re</ex>udome</w>
+               <w xml:id="w_PreudomeCompereNoier_BnF19152_4">q<ex>ui</ex></w>
+               <w xml:id="w_PreudomeCompereNoier_BnF19152_5">rescolt</w>
+               <w xml:id="w_PreudomeCompereNoier_BnF19152_6">son</w>
+               <w xml:id="w_PreudomeCompereNoier_BnF19152_7"><ex>com</ex>p<ex>er</ex>e</w>
+               <w xml:id="w_PreudomeCompereNoier_BnF19152_8">de</w>
+               <w xml:id="w_PreudomeCompereNoier_BnF19152_9">noier</w>
+            </head>
+            <lb/>
+            <lg>
+               <l n="1">
+                  <lb n="1"/>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_10"><g type="initiale" rend="size(4) sizeAct(4) color(red)">I</g>l</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_11">a<choice><orig>u</orig><reg>v</reg></choice>int</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_12">a</w>
+                  <num>
+                     <w xml:id="w_PreudomeCompereNoier_BnF19152_13">.i.</w>
+                  </num>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_14">pescheor</w>
+               </l>
+               <l n="2">
+                  <lb n="2"/>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_15"><choice><orig>Q</orig><reg>q</reg></choice><ex>ui</ex></w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_16">e<ex>n</ex></w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_17" join="right">la</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_18">mer</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_19">aloit</w>
+                  <num>
+                     <w xml:id="w_PreudomeCompereNoier_BnF19152_20">.i.</w>
+                  </num>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_21"><choice><orig>i</orig><reg>j</reg></choice>or</w>
+               </l>
+               <l n="3">
+                  <lb n="3"/>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_22"><choice><orig>E</orig><reg>e</reg></choice>n</w>
+                  <num>
+                     <w xml:id="w_PreudomeCompereNoier_BnF19152_23">.i.</w>
+                  </num>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_24">batel</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_25" join="right">tendi</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_26" join="right">sa</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_27">roi</w>
+                  <pc xml:id="w_PreudomeCompereNoier_BnF19152_28">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="4">
+                  <lb n="4"/>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_29">Garda</w>
+                  <pc xml:id="w_PreudomeCompereNoier_BnF19152_30">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_31" join="right">si</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_32" join="right" ana="#aggl-cert_low"><choice><orig>u</orig><reg>v</reg></choice>it</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_33">tres</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_34">de<choice><orig>u</orig><reg>v</reg></choice>a<ex>n</ex>t</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_35">soi</w>
+               </l>
+               <l n="5">
+                  <lb n="5"/>
+                  <num>
+                     <w xml:id="w_PreudomeCompereNoier_BnF19152_36">.<choice><orig>I</orig><reg>i</reg></choice>.</w>
+                  </num>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_37">home</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_38">m<ex>o</ex>lt</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_39">p<ex>re</ex>s</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_40" join="right">de</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_41">noier</w>
+                  <pc xml:id="w_PreudomeCompereNoier_BnF19152_42">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="6">
+                  <lb n="6"/>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_43">Cil</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_44" join="right" ana="#aggl-cert_low">fu</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_45">m<ex>o</ex>lt</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_46">p<ex>re</ex>uz</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_47"><ex>et</ex></w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_48">m<ex>o</ex>lt</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_49">leg<ex>ier</ex></w>
+                  <pc xml:id="w_PreudomeCompereNoier_BnF19152_50">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="7">
+                  <lb n="7"/>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_51" join="right" ana="#aggl-cert_low">Sor</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_52">ses</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_53">piez</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_54">salt</w>
+                  <pc xml:id="w_PreudomeCompereNoier_BnF19152_55">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <num>
+                     <w xml:id="w_PreudomeCompereNoier_BnF19152_56">.i.</w>
+                  </num>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_57">croq</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_58" join="right">a</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_59">p<ex>ri</ex>s</w>
+                  <pc xml:id="w_PreudomeCompereNoier_BnF19152_60">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="8">
+                  <lb n="8"/>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_61">lie<choice><orig>u</orig><reg>v</reg></choice>e</w>
+                  <pc xml:id="w_PreudomeCompereNoier_BnF19152_62">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_63" join="right">si</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_64">fiert</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_65">celui</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_66">el</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_67"><choice><orig>u</orig><reg>v</reg></choice>is</w>
+               </l>
+               <l n="9">
+                  <lb n="9"/>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_68"><choice><orig>Q</orig><reg>q</reg></choice><ex>ue</ex></w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_69" join="right" ana="#aggl-cert_low">p<ex>ar</ex></w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_70">mi</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_71">l’</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_72">ueil</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_73" join="right" ana="#aggl-cert_low">li</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_74" join="right" ana="#aggl-cert_low">a</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_75">fichié</w>
+                  <pc xml:id="w_PreudomeCompereNoier_BnF19152_76">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="10">
+                  <lb n="10"/>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_77">El</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_78">batel</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_79">l’</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_80">a</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_81" join="right">a</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_82">soi</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_83">saichié</w>
+                  <pc xml:id="w_PreudomeCompereNoier_BnF19152_84">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="11">
+                  <lb n="11"/>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_85"><choice><orig>a</orig><reg>A</reg></choice>rriers</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_86">s’</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_87" join="right" ana="#aggl-cert_low">en</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_88"><choice><orig>u</orig><reg>v</reg></choice>ait</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_89">sa<ex>n</ex>z</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_90">pl<ex>us</ex></w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_91">ate<ex>n</ex>dre</w>
+                  <pc xml:id="w_PreudomeCompereNoier_BnF19152_92">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="12">
+                  <lb n="12"/>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_93"><choice><orig>T</orig><reg>t</reg></choice>otes</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_94">ses</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_95">roiz</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_96">laissa</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_97">a</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_98">tendre</w>
+                  <note type="philologique">
+                     <p rend="footnote text">Le NRCF édite <hi rend="italic">laissa atendre</hi>, avec une rime du même au même entre le vers 11 et le vers 12. Nous pensons qu’il pourrait s’agir de la construction <hi rend="italic">laissier a, </hi>« arrêter de, cesser de », suivi du verbe <hi rend="italic">tendre</hi>.</p>
+                  </note>
+                  <pc xml:id="w_PreudomeCompereNoier_BnF19152_99">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="13">
+                  <lb n="13"/>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_100"><choice><orig>a</orig><reg>A</reg></choice></w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_101">so<ex>n</ex></w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_102">ostel</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_103">l’</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_104">e<ex>n</ex></w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_105">fist</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_106">port<ex>er</ex></w>
+                  <pc xml:id="w_PreudomeCompereNoier_BnF19152_107">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="14">
+                  <lb n="14"/>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_108"><choice><orig>M</orig><reg>m</reg></choice><ex>o</ex>lt</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_109">b<ex>ie</ex>n</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_110">s<ex>er</ex><choice><orig>u</orig><reg>v</reg></choice>ir</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_111"><ex>et</ex></w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_112">honorer</w>
+               </l>
+               <l n="15">
+                  <lb n="15"/>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_113"><choice><orig>T</orig><reg>t</reg></choice>ant</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_114">q<ex>ue</ex></w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_115">il</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_116" join="right" ana="#aggl-cert_low">fu</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_117">toz</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_118">respassez</w>
+                  <pc xml:id="w_PreudomeCompereNoier_BnF19152_119">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="16">
+                  <lb n="16"/>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_120"><choice><orig>a</orig><reg>A</reg></choice></w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_121">lo<ex>n</ex>c</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_122">te<ex>n</ex>s</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_123">s’</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_124">est</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_125">cil</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_126">p<ex>or</ex>penssez</w>
+               </l>
+               <l n="17">
+                  <lb n="17"/>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_127"><choice><orig>Q</orig><reg>q</reg></choice><ex>ue</ex></w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_128">il</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_129">a<choice><orig>u</orig><reg>v</reg></choice>oit</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_130">so<ex>n</ex></w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_131">oill</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_132">p<ex>er</ex>du</w>
+               </l>
+               <l n="18">
+                  <lb n="18"/>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_133"><ex>et</ex></w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_134">mal</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_135" join="right">li</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_136">estoit</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_137">a<choice><orig>u</orig><reg>v</reg></choice>enu</w>
+                  <pc xml:id="w_PreudomeCompereNoier_BnF19152_138">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="19">
+                  <lb n="19"/>
+                  <pc xml:id="w_PreudomeCompereNoier_BnF19152_139">
+                     <choice>
+                        <orig/>
+                        <reg>«</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_140">Cist</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_141"><choice><orig>u</orig><reg>v</reg></choice>ilains</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_142">m’</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_143">a</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_144">mo<ex>n</ex></w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_145">ueil</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_146">c<ex>re</ex><choice><orig>u</orig><reg>v</reg></choice>é</w>
+                  <note type="philologique">
+                     <p rend="footnote text" style="text-align: justify;">Pour lire la fin des lignes de cette colonne, nous avons utilisé la numérisation en noir et blanc.</p>
+                  </note>
+               </l>
+               <l n="20">
+                  <lb n="20"/>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_147"><ex>et</ex></w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_148" join="right" ana="#aggl-cert_low">ge</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_149" join="right" ana="#aggl-cert_low">ne</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_150">l’</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_151" join="right" ana="#aggl-cert_low">ai</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_152">de</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_153">riens</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_154">gre<choice><orig>u</orig><reg>v</reg></choice>é</w>
+                  <pc xml:id="w_PreudomeCompereNoier_BnF19152_155">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="21">
+                  <lb n="21"/>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_156" join="right">Ge</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_157">m’</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_158" join="right">en</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_159" join="right">irai</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_160">clam<ex>er</ex></w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_161">de</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_162">lui</w>
+               </l>
+               <l n="22">
+                  <lb n="22"/>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_163">p<ex>or</ex></w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_164">faire</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_165">lui</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_166">mal</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_167"><ex>et</ex></w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_168">enui</w>
+                  <pc xml:id="w_PreudomeCompereNoier_BnF19152_169">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+                  <pc xml:id="w_PreudomeCompereNoier_BnF19152_170">
+                     <choice>
+                        <orig/>
+                        <reg>»</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="23">
+                  <lb n="23"/>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_171">Torne</w>
+                  <pc xml:id="w_PreudomeCompereNoier_BnF19152_172">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_173" join="right">si</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_174" join="right" ana="#aggl-cert_low">se</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_175">claime</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_176" join="right">au</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_177">maior</w>
+                  <pc xml:id="w_PreudomeCompereNoier_BnF19152_178">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="24">
+                  <lb n="24"/>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_179"><ex>et</ex></w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_180">cil</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_181" join="right">lor</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_182" join="right" ana="#aggl-cert_low">mest</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_183">t<ex>er</ex>me</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_184">a</w>
+                  <num>
+                     <w xml:id="w_PreudomeCompereNoier_BnF19152_185">.i.</w>
+                  </num>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_186"><choice><orig>i</orig><reg>j</reg></choice>or</w>
+                  <pc xml:id="w_PreudomeCompereNoier_BnF19152_187">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="25">
+                  <lb n="25"/>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_188" join="right">Endui</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_189">atendire<ex>n</ex>t</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_190" join="right" ana="#aggl-cert_low">le</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_191"><choice><orig>i</orig><reg>j</reg></choice>or</w>
+               </l>
+               <l n="26">
+                  <lb n="26"/>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_192"><choice><orig>T</orig><reg>t</reg></choice>ant</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_193">q<ex>ue</ex></w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_194">il</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_195"><choice><orig>u</orig><reg>v</reg></choice>inre<ex>n</ex>t</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_196" join="right">a</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_197" join="right">la</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_198">cort</w>
+                  <pc xml:id="w_PreudomeCompereNoier_BnF19152_199">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="27">
+                  <lb n="27"/>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_200" join="right">Cil</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_201">q<ex>ui</ex></w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_202">so<ex>n</ex></w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_203">hueil</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_204">a<choice><orig>u</orig><reg>v</reg></choice>oit</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_205">p<ex>er</ex>du</w>
+               </l>
+               <l n="28">
+                  <lb n="28"/>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_206" join="right" ana="#aggl-cert_low"><ex>con</ex>ta</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_207">a<choice><orig>u</orig><reg>v</reg></choice>a<ex>n</ex>t</w>
+                  <pc xml:id="w_PreudomeCompereNoier_BnF19152_208">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_209">q<ex>ue</ex></w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_210">raiso<ex>n</ex></w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_211">fu</w>
+                  <pc xml:id="w_PreudomeCompereNoier_BnF19152_212">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="29">
+                  <lb n="29"/>
+                  <pc xml:id="w_PreudomeCompereNoier_BnF19152_213">
+                     <choice>
+                        <orig/>
+                        <reg>«</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_214">Seignor</w>
+                  <pc xml:id="w_PreudomeCompereNoier_BnF19152_215">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_216">fait</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_217">il</w>
+                  <pc xml:id="w_PreudomeCompereNoier_BnF19152_218">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_219" join="right">ge</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_220" join="right">sui</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_221">plai<ex>n</ex>tis</w>
+               </l>
+               <l n="30">
+                  <lb n="30"/>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_222" join="right" ana="#aggl-cert_low"><choice><orig>D</orig><reg>d</reg></choice>e</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_223" join="right" ana="#aggl-cert_low">cest</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_224">p<ex>re</ex>udome</w>
+                  <pc xml:id="w_PreudomeCompereNoier_BnF19152_225">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_226">q<ex>ui</ex></w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_227">tierz</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_228">dis</w>
+               </l>
+               <l n="31">
+                  <lb n="31"/>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_229" join="right" ana="#aggl-cert_low"><choice><orig>M</orig><reg>m</reg></choice>e</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_230" join="right">feri</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_231">d’</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_232">un</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_233" join="right">croq</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_234">p<ex>ar</ex></w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_235">ost<ex>ra</ex>ge</w>
+                  <pc xml:id="w_PreudomeCompereNoier_BnF19152_236">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="32">
+                  <lb n="32"/>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_237"><choice><orig>l</orig><reg>L</reg></choice>’</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_238">ueil</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_239">me</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_240">cre<choice><orig>u</orig><reg>v</reg></choice>a</w>
+                  <pc xml:id="w_PreudomeCompereNoier_BnF19152_241">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_242">s’</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_243" join="right" ana="#aggl-cert_low">e<ex>n</ex></w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_244">a</w>
+                  <note type="philologique">
+                     <p rend="footnote text" style="text-align: justify;">Le NRCF corrige <hi rend="italic">a</hi> en <hi rend="italic">a</hi>i. Il faut comprendre qu’il s’agit d’une forme de P1 du verbe <hi rend="italic">avoir</hi> attestée en Picardie, Wallonie et Lorraine (Collet Greub 8.19).</p>
+                  </note>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_245">domaige</w>
+                  <note type="philologique">
+                     <p rend="footnote text">Le NRCF édite <hi rend="italic">domage</hi> pour la rime pour l’œil.</p>
+                  </note>
+                  <pc xml:id="w_PreudomeCompereNoier_BnF19152_246">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="33">
+                  <lb n="33"/>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_247">Droit</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_248">m’</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_249">e<ex>n</ex></w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_250">faites</w>
+                  <pc xml:id="w_PreudomeCompereNoier_BnF19152_251">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_252">pl<ex>us</ex></w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_253">ne</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_254">dema<ex>n</ex>t</w>
+                  <pc xml:id="w_PreudomeCompereNoier_BnF19152_255">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+                  <pb n="36r"
+                       xml:id="pb_2"
+                       facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b52513419n/f79/full/pct:50/0/native.jpg"/>
+                  <cb n="36ra"/>
+               </l>
+               <l n="34">
+                  <lb n="34"/>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_257">Ne</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_258" join="right">sai</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_259">ge</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_260">q<ex>ue</ex></w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_261"><ex>con</ex>tasse</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_262">a<choice><orig>u</orig><reg>v</reg></choice>a<ex>n</ex>t</w>
+                  <pc xml:id="w_PreudomeCompereNoier_BnF19152_263">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+                  <pc xml:id="w_PreudomeCompereNoier_BnF19152_264">
+                     <choice>
+                        <orig/>
+                        <reg>»</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="35">
+                  <lb n="35"/>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_265" join="right" ana="#aggl-cert_low">Cil</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_266">lor</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_267">respont</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_268">sanz</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_269">pl<ex>us</ex></w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_270">ate<ex>n</ex>dre</w>
+                  <pc xml:id="w_PreudomeCompereNoier_BnF19152_271">
+                     <choice>
+                        <orig/>
+                        <reg>:</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="36">
+                  <lb n="36"/>
+                  <pc xml:id="w_PreudomeCompereNoier_BnF19152_272">
+                     <choice>
+                        <orig/>
+                        <reg>«</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_273">Seignor</w>
+                  <pc xml:id="w_PreudomeCompereNoier_BnF19152_274">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_275">ce</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_276">ne</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_277">puis</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_278">ge</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_279">deffe<ex>n</ex>dre</w>
+               </l>
+               <l n="37">
+                  <lb n="37"/>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_280"><choice><orig>Q</orig><reg>q</reg></choice><ex>ue</ex></w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_281">ne</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_282" join="right">li</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_283">aie</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_284">cre<choice><orig>u</orig><reg>v</reg></choice>é</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_285">l’</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_286">ueil</w>
+                  <pc xml:id="w_PreudomeCompereNoier_BnF19152_287">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="38">
+                  <lb n="38"/>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_288"><choice><orig>M</orig><reg>m</reg></choice>ais</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_289">e<ex>n</ex></w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_290">ap<ex>ré</ex>s</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_291" join="right" ana="#aggl-cert_low">mostrer</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_292"><choice><orig>u</orig><reg>v</reg></choice>os</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_293"><choice><orig>u</orig><reg>v</reg></choice>ueil</w>
+               </l>
+               <l n="39">
+                  <lb n="39"/>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_294"><ex>com</ex>m<ex>en</ex>t</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_295">ce</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_296">fu</w>
+                  <pc xml:id="w_PreudomeCompereNoier_BnF19152_297">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_298">se</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_299">ge</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_300">ai</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_301">tort</w>
+                  <pc xml:id="w_PreudomeCompereNoier_BnF19152_302">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="40">
+                  <lb n="40"/>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_303" join="right" ana="#aggl-cert_low">Cist</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_304">hom</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_305" join="right" ana="#aggl-cert_low">fu</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_306" join="right">en</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_307">peril</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_308">de</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_309">mort</w>
+               </l>
+               <l n="41">
+                  <lb n="41"/>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_310" join="right" ana="#aggl-cert_low"><choice><orig>E</orig><reg>e</reg></choice>n</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_311" join="right" ana="#aggl-cert_low">la</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_312">mer</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_313" join="right">ou</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_314" join="right" ana="#aggl-cert_low">de<choice><orig>u</orig><reg>v</reg></choice>oit</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_315">noier</w>
+                  <pc xml:id="w_PreudomeCompereNoier_BnF19152_316">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="42">
+                  <lb n="42"/>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_317">Ge</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_318">li</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_319">aidai</w>
+                  <pc xml:id="w_PreudomeCompereNoier_BnF19152_320">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_321">nel</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_322">q<ex>ui</ex>er</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_323">noier</w>
+                  <pc xml:id="w_PreudomeCompereNoier_BnF19152_324">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="43">
+                  <lb n="43"/>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_325">D’</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_326">un</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_327">croq</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_328">le</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_329">feri</w>
+                  <pc xml:id="w_PreudomeCompereNoier_BnF19152_330">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_331">q<ex>ui</ex></w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_332">ert</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_333">mien</w>
+                  <pc xml:id="w_PreudomeCompereNoier_BnF19152_334">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="44">
+                  <lb n="44"/>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_335"><choice><orig>M</orig><reg>m</reg></choice>ais</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_336">tot</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_337">ce</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_338" join="right">fis</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_339">ge</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_340" join="right" ana="#aggl-cert_low">por</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_341" join="right" ana="#aggl-cert_low">son</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_342">b<ex>ie</ex>n</w>
+                  <pc xml:id="w_PreudomeCompereNoier_BnF19152_343">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="45">
+                  <lb n="45"/>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_344">Ilueq<ex>ue</ex>s</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_345" join="right">li</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_346">sau<choice><orig>u</orig><reg>v</reg></choice>ai</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_347" join="right" ana="#aggl-cert_low">la</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_348"><choice><orig>u</orig><reg>v</reg></choice>ie</w>
+                  <pc xml:id="w_PreudomeCompereNoier_BnF19152_349">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="46">
+                  <lb n="46"/>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_350" join="right" ana="#aggl-cert_low"><choice><orig>a</orig><reg>A</reg></choice><choice><orig>u</orig><reg>v</reg></choice>ant</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_351">ne</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_352" join="right">sai</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_353">q<ex>ue</ex></w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_354" join="right">ge</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_355"><choice><orig>u</orig><reg>v</reg></choice>os</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_356">die</w>
+                  <pc xml:id="w_PreudomeCompereNoier_BnF19152_357">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+            </lg>
+            <lg>
+               <l n="47">
+                  <lb n="47"/>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_358"><g type="initiale" rend="size(2) sizeAct(2) color(blue)">D</g>roit</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_359">me</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_360">faites</w>
+                  <pc xml:id="w_PreudomeCompereNoier_BnF19152_361">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_362">por</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_363" join="right">amor</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_364"><choice><orig>d</orig><reg>D</reg></choice>é</w>
+                  <pc xml:id="w_PreudomeCompereNoier_BnF19152_365">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+                  <pc xml:id="w_PreudomeCompereNoier_BnF19152_366">
+                     <choice>
+                        <orig/>
+                        <reg>»</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="48">
+                  <lb n="48"/>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_367">Cil</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_368">s’</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_369">esture<ex>n</ex>t</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_370">tuit</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_371">esgaré</w>
+               </l>
+               <l n="49">
+                  <lb n="49"/>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_372"><choice><orig>E</orig><reg>e</reg></choice>nsanble</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_373">p<ex>or</ex></w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_374"><choice><orig>i</orig><reg>j</reg></choice>ug<ex>ier</ex></w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_375">le</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_376">droit</w>
+                  <pc xml:id="w_PreudomeCompereNoier_BnF19152_377">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="50">
+                  <lb n="50"/>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_378"><choice><orig>Q</orig><reg>q</reg></choice><ex>ua</ex>nt</w>
+                  <num>
+                     <w xml:id="w_PreudomeCompereNoier_BnF19152_379">.i.</w>
+                  </num>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_380">sot</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_381">q<ex>u</ex>’</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_382"><ex>a</ex>n</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_383" join="right">la</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_384">cort</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_385">a<choice><orig>u</orig><reg>v</reg></choice>oit</w>
+               </l>
+               <l n="51">
+                  <lb n="51"/>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_386">lor</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_387" join="right">a</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_388">dit</w>
+                  <pc xml:id="w_PreudomeCompereNoier_BnF19152_389">
+                     <choice>
+                        <orig/>
+                        <reg>:</reg>
+                     </choice>
+                  </pc>
+                  <pc xml:id="w_PreudomeCompereNoier_BnF19152_390">
+                     <choice>
+                        <orig/>
+                        <reg>«</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_391"><choice><orig>q</orig><reg>Q</reg></choice><ex>u</ex>’</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_392"><ex>a</ex>lez</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_393"><choice><orig>u</orig><reg>v</reg></choice>os</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_394">doutant</w>
+                  <pc xml:id="w_PreudomeCompereNoier_BnF19152_395">
+                     <choice>
+                        <orig/>
+                        <reg>?</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="52">
+                  <lb n="52"/>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_396" join="right">Cil</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_397">p<ex>re</ex>udons</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_398">q<ex>ui</ex></w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_399">conta</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_400">a<choice><orig>u</orig><reg>v</reg></choice>ant</w>
+               </l>
+               <l n="53">
+                  <lb n="53"/>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_401"><choice><orig>S</orig><reg>s</reg></choice>oit</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_402">arrieres</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_403">e<ex>n</ex></w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_404" join="right">la</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_405">m<ex>er</ex></w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_406">mis</w>
+                  <pc xml:id="w_PreudomeCompereNoier_BnF19152_407">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="54">
+                  <lb n="54"/>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_408" join="right">la</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_409" join="right">ou</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_410">cil</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_411">le</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_412" join="right">feri</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_413">el</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_414"><choice><orig>u</orig><reg>v</reg></choice>is</w>
+                  <pc xml:id="w_PreudomeCompereNoier_BnF19152_415">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="55">
+                  <lb n="55"/>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_416"><choice><orig>Q</orig><reg>q</reg></choice><ex>ue</ex></w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_417">se</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_418">il</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_419">s’</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_420" join="right">en</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_421">puet</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_422">eschap<ex>er</ex></w>
+                  <pc xml:id="w_PreudomeCompereNoier_BnF19152_423">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="56">
+                  <lb n="56"/>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_424" join="right"><choice><orig>C</orig><reg>c</reg></choice>il</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_425" join="right">li</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_426">doit</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_427">so<ex>n</ex></w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_428" join="right">oeil</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_429">amend<ex>er</ex></w>
+                  <pc xml:id="w_PreudomeCompereNoier_BnF19152_430">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="57">
+                  <lb n="57"/>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_431">C’</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_432">est</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_433">droiz</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_434"><choice><orig>i</orig><reg>j</reg></choice>ugem<ex>en</ex>z</w>
+                  <pc xml:id="w_PreudomeCompereNoier_BnF19152_435">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_436">ce</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_437">me</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_438">sa<ex>n</ex>ble</w>
+                  <pc xml:id="w_PreudomeCompereNoier_BnF19152_439">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+                  <pc xml:id="w_PreudomeCompereNoier_BnF19152_440">
+                     <choice>
+                        <orig/>
+                        <reg>»</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="58">
+                  <lb n="58"/>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_441"><choice><orig>l</orig><reg>L</reg></choice>ors</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_442">s’</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_443">escrient</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_444">trestuit</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_445">e<ex>n</ex>sa<ex>n</ex>ble</w>
+                  <pc xml:id="w_PreudomeCompereNoier_BnF19152_446">
+                     <choice>
+                        <orig/>
+                        <reg>:</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="59">
+                  <lb n="59"/>
+                  <pc xml:id="w_PreudomeCompereNoier_BnF19152_447">
+                     <choice>
+                        <orig/>
+                        <reg>«</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_448">M<ex>o</ex>lt</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_449">as</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_450">b<ex>ie</ex>n</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_451">dit</w>
+                  <pc xml:id="w_PreudomeCompereNoier_BnF19152_452">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_453" join="right"><choice><orig>j</orig><reg>J</reg></choice>a</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_454">n’</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_455">iert</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_456">deffait</w>
+                  <pc xml:id="w_PreudomeCompereNoier_BnF19152_457">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+                  <pc xml:id="w_PreudomeCompereNoier_BnF19152_458">
+                     <choice>
+                        <orig/>
+                        <reg>»</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="60">
+                  <lb n="60"/>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_459">Cil</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_460"><choice><orig>i</orig><reg>j</reg></choice>ugem<ex>en</ex>z</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_461">lors</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_462" join="right">fu</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_463">retrait</w>
+                  <pc xml:id="w_PreudomeCompereNoier_BnF19152_464">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="61">
+                  <lb n="61"/>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_465">Q<ex>ua</ex>nt</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_466" join="right" ana="#aggl-cert_low">cil</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_467">oï</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_468">q<ex>ue</ex></w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_469">il</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_470">seroit</w>
+               </l>
+               <l n="62">
+                  <lb n="62"/>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_471"><choice><orig>E</orig><reg>e</reg></choice>n</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_472" join="right">la</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_473">mer</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_474">mis</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_475" join="right">ou</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_476">il</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_477">estoit</w>
+                  <pc xml:id="w_PreudomeCompereNoier_BnF19152_478">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="63">
+                  <lb n="63"/>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_479" join="right"><choice><orig>O</orig><reg>o</reg></choice>u</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_480">ot</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_481">soff<ex>er</ex>t</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_482">le</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_483">froit</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_484"><ex>et</ex></w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_485">l’</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_486">onde</w>
+                  <pc xml:id="w_PreudomeCompereNoier_BnF19152_487">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="64">
+                  <lb n="64"/>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_488"><choice><orig>I</orig><reg>i</reg></choice>l</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_489">n’</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_490" join="right">i</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_491">entrast</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_492" join="right" ana="#aggl-cert_low">por</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_493" join="right" ana="#aggl-cert_low">tot</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_494">le</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_495">mo<ex>n</ex>de</w>
+                  <pc xml:id="w_PreudomeCompereNoier_BnF19152_496">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="65">
+                  <lb n="65"/>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_497" join="right"><choice><orig>l</orig><reg>L</reg></choice>e</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_498">p<ex>re</ex>udome</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_499" join="right" ana="#aggl-cert_low">a</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_500">q<ex>ui</ex>te</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_501">clamé</w>
+               </l>
+               <l n="66">
+                  <lb n="66"/>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_502"><ex>et</ex></w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_503" join="right">si</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_504" join="right">fu</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_505">de</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_506">plusors</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_507">blasmé</w>
+                  <pc xml:id="w_PreudomeCompereNoier_BnF19152_508">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="67">
+                  <lb n="67"/>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_509"><choice><orig>p</orig><reg>P</reg></choice><ex>or</ex></w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_510">ce</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_511"><choice><orig>u</orig><reg>v</reg></choice>os</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_512" join="right" ana="#aggl-cert_low">di</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_513" join="right" ana="#aggl-cert_low">tot</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_514">e<ex>n</ex></w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_515">ap<ex>er</ex>t</w>
+               </l>
+               <l n="68">
+                  <lb n="68"/>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_516"><choice><orig>Q</orig><reg>q</reg></choice><ex>ue</ex></w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_517">so<ex>n</ex></w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_518">tens</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_519">pert</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_520">q<ex>ui</ex></w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_521" join="right">felon</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_522">sert</w>
+                  <pc xml:id="w_PreudomeCompereNoier_BnF19152_523">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="69">
+                  <lb n="69"/>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_524">Raembez</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_525">de</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_526">forches</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_527">larro<ex>n</ex></w>
+               </l>
+               <l n="70">
+                  <lb n="70"/>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_528" join="right"><choice><orig>Q</orig><reg>q</reg></choice><ex>ua</ex>nt</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_529">il</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_530" join="right">a</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_531">fait</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_532" join="right" ana="#aggl-cert_low">sa</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_533">mespriso<ex>n</ex></w>
+                  <pc xml:id="w_PreudomeCompereNoier_BnF19152_534">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="71">
+                  <lb n="71"/>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_535"><choice><orig>J</orig><reg>j</reg></choice>amés</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_536"><choice><orig>i</orig><reg>j</reg></choice>or</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_537">ne</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_538"><choice><orig>u</orig><reg>v</reg></choice>os</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_539">amera</w>
+                  <note type="philologique">
+                     <p rend="footnote text">Ce vers isolé est suspect.</p>
+                  </note>
+                  <pc xml:id="w_PreudomeCompereNoier_BnF19152_540">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="72">
+                  <lb n="72"/>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_541" join="right"><choice><orig>I</orig><reg>J</reg></choice>a</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_542">mau<choice><orig>u</orig><reg>v</reg></choice>ais</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_543"><choice><orig>i</orig><reg>j</reg></choice>om</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_544">ne</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_545">sa<choice><orig>u</orig><reg>v</reg></choice><ex>ra</ex></w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_546">gré</w>
+                  <pc xml:id="w_PreudomeCompereNoier_BnF19152_547">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="73">
+                  <lb n="73"/>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_548"><choice><orig>a</orig><reg>A</reg></choice></w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_549">mau<choice><orig>u</orig><reg>v</reg></choice>ais</w>
+                  <note type="philologique">
+                     <p rend="footnote text">La répétition de <hi rend="italic">mauvais</hi> quasiment à la même place dans deux vers successifs est suspecte.</p>
+                  </note>
+                  <pc xml:id="w_PreudomeCompereNoier_BnF19152_550">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_551">s’</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_552" join="right" ana="#aggl-cert_low">i</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_553" join="right" ana="#aggl-cert_low">li</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_554">fait</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_555">bonté</w>
+                  <pc xml:id="w_PreudomeCompereNoier_BnF19152_556">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="74">
+                  <lb n="74"/>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_557"><choice><orig>T</orig><reg>t</reg></choice>ot</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_558">oublie</w>
+                  <pc xml:id="w_PreudomeCompereNoier_BnF19152_559">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_560">riens</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_561">ne</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_562">l’</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_563">e<ex>n</ex></w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_564">est</w>
+                  <pc xml:id="w_PreudomeCompereNoier_BnF19152_565">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="75">
+                  <lb n="75"/>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_566"><choice><orig>E</orig><reg>e</reg></choice>nçois</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_567">seroit</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_568"><choice><orig>u</orig><reg>v</reg></choice>olent<ex>ier</ex>s</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_569">p<ex>re</ex>st</w>
+               </l>
+               <l n="76">
+                  <lb n="76"/>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_570" join="right"><choice><orig>D</orig><reg>d</reg></choice>e</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_571">faire</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_572">li</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_573">mal</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_574"><ex>et</ex></w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_575">anui</w>
+               </l>
+               <l n="77">
+                  <lb n="77"/>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_576"><choice><orig>S</orig><reg>s</reg></choice>’</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_577">il</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_578"><choice><orig>u</orig><reg>v</reg></choice>enoit</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_579" join="right">au</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_580">desus</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_581">de</w>
+                  <w xml:id="w_PreudomeCompereNoier_BnF19152_582">lui</w>
+                  <pc xml:id="w_PreudomeCompereNoier_BnF19152_583">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+               </l>
+            </lg>
+         </div>
+      </body>
+   </text>
+</TEI>

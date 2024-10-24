@@ -1,0 +1,1440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="fro">Celui qui bota la pierre I</title>
+            <author>Anonyme</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2024</date>
+            </edition>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="acorbellari">Alain Corbellari</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="alavrent">Alexei Lavrentiev</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="apinche">Ariane Pinche</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="blaid">Baptiste Laïd</name>
+            </respStmt>
+            <respStmt>
+               <resp>robot</resp>
+               <name xml:id="bot">bot bot</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="cguillot">Céline Guillot-Barbance</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="clachet">Claude Lachet</name>
+            </respStmt>
+            <respStmt>
+               <resp>editeur</resp>
+               <resp>traducteur</resp>
+               <resp>chef de projet</resp>
+               <name xml:id="cpierreville">Corinne Pierreville</name>
+            </respStmt>
+            <respStmt>
+               <resp>relecteur-traduction</resp>
+               <resp>membre</resp>
+               <name xml:id="ggruber">Gauthier Grüber</name>
+            </respStmt>
+            <respStmt>
+               <resp>ingénieur</resp>
+               <name xml:id="jnuguet">Jules Nuguet</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="ngarnier">Nicolas Garnier</name>
+            </respStmt>
+            <respStmt>
+               <resp>Relecteur traduction</resp>
+               <name xml:id="rbellon">Roger Bellon</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="rtrachsler">Richard Trachsler</name>
+            </respStmt>
+            <respStmt>
+               <resp>relecteur</resp>
+               <resp>membre</resp>
+               <name xml:id="veugene">Valentine Eugène</name>
+            </respStmt>
+            <respStmt>
+               <resp>ingénieur</resp>
+               <name xml:id="myamagata">Moe Yamagata</name>
+            </respStmt>
+            <respStmt>
+               <resp/>
+               <name xml:id="jdocks">Justine DOCKS</name>
+            </respStmt>
+            <respStmt>
+               <resp>editeur</resp>
+               <resp>relecteur</resp>
+               <resp>traducteur</resp>
+               <resp>relecteur-traduction</resp>
+               <resp/>
+               <name> </name>
+            </respStmt>
+         </editionStmt>
+         <extent>
+            <num xml:id="nb_tokens_given">480</num>
+            <num xml:id="nb_mots_given">404</num>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <name>ENS de Lyon / UMR 5317 IHRIM, Base de français médiéval, projet Fabliaux</name>
+            </publisher>
+            <address>
+               <addrLine>15, parvis René Descartes</addrLine>
+               <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+               <addrLine>Tél : 04 37 37 63 10</addrLine>
+               <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+               <addrLine>http://bfm.ens-lyon.fr</addrLine>
+            </address>
+            <idno type="bfm">http://catalog.bfm-corpus.org/fabliaux/BotaPierre1_Bern-354</idno>
+            <idno type="doi">10.34847/nkl.ab9fvwzj</idno>
+            <availability status="free">
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <ab type="availability_bfm">Les Conditions générales d'utilisation de la Base de Français Médiéval (http://txm.bfm-corpus.org/bfm/files/CGU.pdf), 
+                        et notamment son Article 5 « PROPRIETE INTELLECTUELLE », s'appliquent à tous les textes de la BFM.</ab>
+                  <ab type="how_to_cite">
+                     <label>Comment citer ce texte :</label>
+                     <bibl>Celui qui bota la pierre I, édité par Corinne Pierreville en collaboration avec Valentine Eugène. Publié en ligne par l’ENS de Lyon dans la Base de français médiéval, 
+2024, http://catalog.bfm-corpus.org/fabliaux/BotaPierre1_Bern-354.</bibl>
+                        D'autres formules de citation de la BFM sont proposées sur la page web suivante :
+                        http://bfm.ens-lyon.fr/spip.php?article281.</ab>
+                  <ab type="availability_file">
+                     <label>Conditions d'utilisation de ce fichier :</label>
+                        Ce fichier numérique est composé du corps de texte médiéval (restauré par son ou ses éditeur(s) scientifique(s)), des apparats critiques (introductions, notes, glossaires, explications, du texte d'origine (ou des enrichissements) qui ont été réalisés dans le cadre de la restauration des textes par les Editeurs Scientifiques) et des suppléments numériques : balisage XML-TEI, métadonnées (teiHeader), balisage du discours direct, étiquetage morpho-syntaxique, lemmatisation. Le texte et les suppléments numériques sont libres de droit et peuvent à ce titre être téléchargés et réutilisés librement. Les apparats critiques sont soumis à une licence de type CC BY-NC-SA 3.0 FR  http://creativecommons.org/licenses/by-nc-sa/3.0/fr. Les Utilisateurs s’engagent à respecter les termes de cette licence. 
+                    </ab>
+                  <ab type="availability_txmweb" subtype="illimité">
+                     <label>Conditions d'utilisation par le portail BFM :</label>
+                        Pas de limitation dans l'usage des fonctionnalités. Téléchargement autorisé.</ab>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="main" xml:id="Bern-354">
+               <msIdentifier>
+                  <settlement>Bern</settlement>
+                  <repository>Burgerbibliothek</repository>
+                  <idno>354</idno>
+                  <idno type="URI" subtype="Notice" n="Arlima">https://www.arlima.net/mss/suisse/bern/burgerbibliothek/354.html</idno>
+                  <idno type="URI" subtype="Notice" n="Jonas">http://jonas.irht.cnrs.fr/manuscrit/8202</idno>
+                  <idno type="URI" subtype="Data" n="Biblissima">
+https://data.biblissima.fr/entity/Q217870</idno>
+                  <idno type="URI" subtype="Fac-similé">https://www.e-codices.unifr.ch/fr/list/one/bbb/0354</idno>
+                  <idno type="URI" subtype="Manifeste_IIIF">https://www.e-codices.unifr.ch/metadata/iiif/bbb-0354/manifest.json</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem xml:id="deBordeorsRibaux_Bern-354">
+                     <title>Les deux Bordeors ribaux</title>
+                  </msItem>
+                  <msItem xml:id="quSohaisMartin_Bern-354">
+                     <locus>f. 167va-169ra</locus>
+                     <title>Les quatre souhais saint Martin</title>
+                  </msItem>
+                  <msItem xml:id="Auberee_Bern-354">
+                     <title>Auberee</title>
+                  </msItem>
+                  <msItem xml:id="BaratHaimetBodel_Bern-354">
+                     <title>Barat et Haimet</title>
+                  </msItem>
+                  <msItem xml:id="Berangier1_Bern-354">
+                     <locus>f. 146va-149ra</locus>
+                     <title>Berangier au long cul I</title>
+                  </msItem>
+                  <msItem xml:id="BorgeoiseOrliens_Bern-354">
+                     <title>La Borgeoise d'Orliens</title>
+                  </msItem>
+                  <msItem xml:id="BotaPierre1_Bern-354">
+                     <locus>f. 011va-012ra</locus>
+                     <title>Celui qui bota la pierre I</title>
+                  </msItem>
+                  <msItem xml:id="Brifaut_Bern-354">
+                     <locus>f. 009va-010rb</locus>
+                     <title>Brifaut</title>
+                  </msItem>
+                  <msItem xml:id="ChevalierAmorDame_Bern-354">
+                     <title>Le Chevalier qui recovra l'amor de sa dame</title>
+                  </msItem>
+                  <msItem xml:id="ChevalierParlerCons1Guerin_Bern-354">
+                     <title>Le chevalier qui fist les cons parler I</title>
+                  </msItem>
+                  <msItem xml:id="CoilleNoire_Bern-354">
+                     <title>La Couille noire</title>
+                  </msItem>
+                  <msItem xml:id="ConVitSoriz_Bern-354">
+                     <title>Lo Con, lo vit et la soriz</title>
+                  </msItem>
+                  <msItem xml:id="ConnebertGautierLeLeu_Bern-354">
+                     <locus>f. 156vb-159rb</locus>
+                     <title>Connebert</title>
+                  </msItem>
+                  <msItem xml:id="Constant_Bern-354">
+                     <title>Constant du Hamel</title>
+                  </msItem>
+                  <msItem xml:id="CovoteusEnvieusBodel_Bern-354">
+                     <title>Le covoteus et l'envieus</title>
+                  </msItem>
+                  <msItem xml:id="DamoiseleFoutre2_Bern-354">
+                     <locus>f. 058ra-059vb</locus>
+                     <title>La damoisele qui ne pooit oïr parler de foutre II</title>
+                  </msItem>
+                  <msItem xml:id="DamoiseleSonjoit_Bern-354">
+                     <locus>f. 112rb-112vb</locus>
+                     <title>La Damoiselle qui sonjoit</title>
+                  </msItem>
+                  <msItem xml:id="Escuiruel_Bern-354">
+                     <title>L'Escuiruel</title>
+                  </msItem>
+                  <msItem xml:id="Estopes_Bern-354">
+                     <title>La Sorisete des estopes</title>
+                  </msItem>
+                  <msItem xml:id="Estula_Bern-354">
+                     <locus>f. 116rb-117rb</locus>
+                     <title>Estula</title>
+                  </msItem>
+                  <msItem xml:id="EvesqueCon_Bern-354">
+                     <title>L'Evesque qui beneï lo con</title>
+                  </msItem>
+                  <msItem xml:id="Foteor_Bern-354">
+                     <title>Le Foteor</title>
+                  </msItem>
+                  <msItem xml:id="FoutreFosse_Bern-354">
+                     <locus>f. 059vb-060vb</locus>
+                     <title>Celle qui se fist foutre sur la fosse de son mari</title>
+                  </msItem>
+                  <msItem xml:id="Gombert2ClersBodel_Bern-354">
+                     <title>Gombert et les deus clers</title>
+                  </msItem>
+                  <msItem xml:id="Grue1_Bern-354">
+                     <locus>f. 041ra-042rb</locus>
+                     <title>La Damoisele a la grue I</title>
+                  </msItem>
+                  <msItem xml:id="MaignienDame_Bern-354">
+                     <locus>f. 115rb-116rb</locus>
+                     <title>Le maignien qui foti la dame</title>
+                  </msItem>
+                  <msItem xml:id="MaleHonte2HuonDeCambrai_Bern-354">
+                     <locus>f. 045va-047rb</locus>
+                     <title>La Male Honte II</title>
+                  </msItem>
+                  <msItem xml:id="Meunier2Clers_Bern-354">
+                     <locus>f. 164vb-167rb</locus>
+                     <title>Le meunier et les deus clers</title>
+                  </msItem>
+                  <msItem xml:id="Plantez_Bern-354">
+                     <title>La Plantez</title>
+                  </msItem>
+                  <msItem xml:id="Porcelet_Bern-354">
+                     <locus>f. 065rb-065vb</locus>
+                     <title>Porcelet</title>
+                  </msItem>
+                  <msItem xml:id="PovreClerc_Bern-354">
+                     <title>Le povre Clerc</title>
+                  </msItem>
+                  <msItem xml:id="PreTondu_Bern-354">
+                     <locus>f. 75ra-75vb</locus>
+                     <title>Le pré tondu</title>
+                  </msItem>
+                  <msItem xml:id="PrestreMures2_Bern-354">
+                     <locus>f. 143rb-143vb</locus>
+                     <title>Le prestre qui manja mores II</title>
+                  </msItem>
+                  <msItem xml:id="PuceleVoler_Bern-354">
+                     <title>La Pucele qui voloit voler</title>
+                  </msItem>
+                  <msItem xml:id="PutainsLecheors_Bern-354">
+                     <title>Les putains et les lecheors</title>
+                  </msItem>
+                  <msItem xml:id="Richeut_Bern-354">
+                     <title>Richeut</title>
+                  </msItem>
+                  <msItem xml:id="Segretain3_Bern-354">
+                     <title>Le Segretain moine III</title>
+                  </msItem>
+                  <msItem xml:id="SohaizDesvezBodel_Bern-354">
+                     <locus>f. 100vb-102vb</locus>
+                     <title>Le Sohait desvez</title>
+                  </msItem>
+                  <msItem xml:id="Tresces1Garin_Bern-354">
+                     <locus>f. 090vb-093va</locus>
+                     <title>Les tresces I</title>
+                  </msItem>
+                  <msItem xml:id="VieillePalme_Bern-354">
+                     <title>La Vielle qui oint la palme au chevalier</title>
+                  </msItem>
+                  <msItem xml:id="VilainBailluelBodel_Bern-354">
+                     <title>Le Vilain de Bailluel</title>
+                  </msItem>
+                  <msItem xml:id="VilainFarbuBodel_Bern-354">
+                     <title>Le vilain de Farbu</title>
+                  </msItem>
+                  <msItem xml:id="VilainMire_Bern-354">
+                     <title>Le Vilain Mire</title>
+                  </msItem>
+                  <msItem xml:id="VilainParadis_Bern-354">
+                     <title>Le vilain qui conquist paradis par plait</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin notBefore="1250-01-01" notAfter="1310-12-31">
+                     <p>fin 13e s.</p>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <title type="main" xml:lang="fro">Celui qui bota la pierre I</title>
+            <title type="modern" xml:lang="fr">Celui qui poussa la pierre 1
+            </title>
+            <date notBefore="1250-01-01" notAfter="1299-12-31" when="1275-07-01">2e moitié du 13e s.</date>
+            <region type="dialecte_oeuvre">Picard
+            </region>
+            <idno type="INV" subtype="Montaiglon-Raynaud">102</idno>
+            <idno type="INV" subtype="Bedier">20</idno>
+            <idno type="INV" subtype="Nykrog">19</idno>
+            <idno type="INV" subtype="Jodogne">19</idno>
+            <idno type="INV" subtype="Kiesow">6</idno>
+            <idno type="INV" subtype="NRCF">63a</idno>
+            <idno type="URI" n="Jonas">https://jonas.irht.cnrs.fr/oeuvre/8908</idno>
+            <idno type="URI" n="Arlima">https://www.arlima.net/ad/celui_qui_bota_la_pierre.html</idno>
+         </creation>
+         <langUsage>
+            <language ident="fro"/>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.bfm-corpus.org">
+               <term type="domaine">littérature</term>
+               <term type="genre" cert="medium">Fabliau</term>
+               <term type="forme">vers</term>
+               <term type="relation">non renseigné</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#cpierreville" when="2024-04-18T07:23:37" n="v2.0">Utilisation du fichier BotaPierre1[Bern 354]v2.0.docx</change>
+         <change who="#bot" when="2024-04-18" n="v2.0">Transformation avec Oxgarage du fichier BotaPierre1[Bern 354]2.0.docx</change>
+         <change who="#cpierreville" when="2024-04-29T19:00:55" n="v1.0">Utilisation du fichier BotaPierre1[Bern 354]trad-v1.0.docx</change>
+         <change who="#cpierreville" when="2024-04-30T07:09:38" n="v1.1">Utilisation du fichier BotaPierre1[Bern 354]trad-v1.1.docx</change>
+         <change who="#cpierreville" when="2024-04-29T19:00:55" n="v2.1">Utilisation du fichier BotaPierre1[Bern 354]v2.1.docx</change>
+         <change who="#bot" when="2024-05-02" n="v2.1">Transformation avec Oxgarage du fichier BotaPierre1[Bern 354]2.1.docx</change>
+         <change who="#bot" when="2024-05-02" n="v1.1">Transformation avec Oxgarage du fichier BotaPierre1[Bern 354]1.1.docx</change>
+         <change who="#veugene1" when="2024-05-14T11:55:37" n="v2.2">Utilisation du fichier BotaPierre1[Bern 354]v2.2.docx</change>
+         <change who="#bot" when="2024-05-14" n="v2.2">Transformation avec Oxgarage du fichier BotaPierre1[Bern 354]2.2.docx</change>
+         <change who="#ggruber" when="2024-05-24T12:39:10" n="v1.1">Utilisation du fichier BotaPierre1[Bern 354]trad-v1.1_reluGG.docx</change>
+         <change who="#ggruber" when="2024-05-24T12:39:51" n="v1.1">Utilisation du fichier BotaPierre1[Bern 354]trad-v1.1_reluGG.docx</change>
+         <change who="#cpierreville" when="2024-06-06T18:48:25" n="v1.2">Utilisation du fichier BotaPierre1[Bern 354]trad-v1.2.docx</change>
+         <change who="#cpierreville" when="2024-06-06T18:46:56" n="v2.3">Utilisation du fichier BotaPierre1[Bern 354]v2.3.docx</change>
+         <change who="#bot" when="2024-06-07" n="v2.3">Transformation avec Oxgarage du fichier BotaPierre1[Bern 354]2.3.docx</change>
+         <change who="#bot" when="2024-06-07" n="v1.2">Transformation avec Oxgarage du fichier BotaPierre1[Bern 354]1.2.docx</change>
+         <change who="#cpierreville" when="2024-06-20T12:48:19" n="v2.4">Utilisation du fichier BotaPierre1[Bern 354]v2.4.docx</change>
+         <change who="#bot" when="2024-06-20" n="v2.4">Transformation avec Oxgarage du fichier BotaPierre1[Bern 354]2.4.docx</change>
+      </revisionDesc>
+   </teiHeader>
+   <text source="BotaPierre1_Bern-354">
+      <body>
+         <pb n="11v"
+              xml:id="pb_1"
+              facs="https://www.e-codices.ch/loris/bbb/bbb-0354/bbb-0354_011v.jp2/full/pct:50/0/default/jpg/0/"/>
+         <cb n="11va"/>
+         <div>
+            <head>
+               <w xml:id="w_BotaPierre1_Bern354_1">De</w>
+               <w xml:id="w_BotaPierre1_Bern354_2">celui</w>
+               <w xml:id="w_BotaPierre1_Bern354_3">qui</w>
+               <w xml:id="w_BotaPierre1_Bern354_4">bota</w>
+               <w xml:id="w_BotaPierre1_Bern354_5">la</w>
+               <w xml:id="w_BotaPierre1_Bern354_6">pierre</w>
+            </head>
+            <lb/>
+            <lg>
+               <l n="1">
+                  <lb n="1"/>
+                  <w xml:id="w_BotaPierre1_Bern354_7"><g type="initiale" rend="size(2) sizeAct(2) color(red)">U</g>ns</w>
+                  <w xml:id="w_BotaPierre1_Bern354_8">p<ex>re</ex>stres</w>
+                  <pc xml:id="w_BotaPierre1_Bern354_9">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_BotaPierre1_Bern354_10">bo<ex>n</ex>s</w>
+                  <w xml:id="w_BotaPierre1_Bern354_11">fisicïe<ex>n</ex></w>
+                  <pc xml:id="w_BotaPierre1_Bern354_12">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="2">
+                  <lb n="2"/>
+                  <w xml:id="w_BotaPierre1_Bern354_13">vint</w>
+                  <w xml:id="w_BotaPierre1_Bern354_14">chiés</w>
+                  <num>
+                     <w xml:id="w_BotaPierre1_Bern354_15">.i.</w>
+                  </num>
+                  <w xml:id="w_BotaPierre1_Bern354_16" join="right">sue<ex>n</ex></w>
+                  <w xml:id="w_BotaPierre1_Bern354_17">p<ex>a</ex>roch<choice><orig><ex>ïen</ex></orig><reg><ex>ïen</ex></reg></choice></w>
+                  <pc xml:id="w_BotaPierre1_Bern354_18">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="3">
+                  <lb n="3"/>
+                  <w xml:id="w_BotaPierre1_Bern354_19" join="right"><choice><orig>l</orig><reg>L</reg></choice>a</w>
+                  <w xml:id="w_BotaPierre1_Bern354_20">dame</w>
+                  <w xml:id="w_BotaPierre1_Bern354_21" join="right" ana="#aggl-cert_low">ert</w>
+                  <w xml:id="w_BotaPierre1_Bern354_22">grasse</w>
+                  <lb n="4"/>
+                  <w xml:id="w_BotaPierre1_Bern354_24"><ex>et</ex></w>
+                  <w xml:id="w_BotaPierre1_Bern354_25">tendre</w>
+                  <w xml:id="w_BotaPierre1_Bern354_26"><ex>et</ex></w>
+                  <w xml:id="w_BotaPierre1_Bern354_27">bele</w>
+                  <pc xml:id="w_BotaPierre1_Bern354_28">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="4">
+                  <lb n="5"/>
+                  <w xml:id="w_BotaPierre1_Bern354_29"><choice><orig>Q</orig><reg>q</reg></choice><ex>ui</ex></w>
+                  <w xml:id="w_BotaPierre1_Bern354_30" join="right" ana="#aggl-cert_low">lou</w>
+                  <w xml:id="w_BotaPierre1_Bern354_31">p<ex>re</ex><choice><orig>u</orig><reg>v</reg></choice>oire</w>
+                  <w xml:id="w_BotaPierre1_Bern354_32">m<ex>o</ex>lt</w>
+                  <w xml:id="w_BotaPierre1_Bern354_33">apele</w>
+               </l>
+               <l n="5">
+                  <lb n="6"/>
+                  <w xml:id="w_BotaPierre1_Bern354_34"><ex>et</ex></w>
+                  <w xml:id="w_BotaPierre1_Bern354_35" join="right">li</w>
+                  <w xml:id="w_BotaPierre1_Bern354_36">dist</w>
+                  <w xml:id="w_BotaPierre1_Bern354_37">q<ex>ue</ex></w>
+                  <w xml:id="w_BotaPierre1_Bern354_38">bie<ex>n</ex></w>
+                  <w xml:id="w_BotaPierre1_Bern354_39">soit</w>
+                  <w xml:id="w_BotaPierre1_Bern354_40"><choice><orig>u</orig><reg>v</reg></choice>enu</w>
+                  <pc xml:id="w_BotaPierre1_Bern354_41">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="6">
+                  <lb n="7"/>
+                  <w xml:id="w_BotaPierre1_Bern354_42"><ex>et</ex></w>
+                  <w xml:id="w_BotaPierre1_Bern354_43">li</w>
+                  <w xml:id="w_BotaPierre1_Bern354_44">p<ex>re</ex>stres</w>
+                  <w xml:id="w_BotaPierre1_Bern354_45">a</w>
+                  <w xml:id="w_BotaPierre1_Bern354_46">respo<ex>n</ex>du</w>
+                  <pc xml:id="w_BotaPierre1_Bern354_47">
+                     <choice>
+                        <orig/>
+                        <reg>:</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="7">
+                  <lb n="8"/>
+                  <pc xml:id="w_BotaPierre1_Bern354_48">
+                     <choice>
+                        <orig/>
+                        <reg>«</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_BotaPierre1_Bern354_49">Dame</w>
+                  <pc xml:id="w_BotaPierre1_Bern354_50">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_BotaPierre1_Bern354_51"><choice><orig>I</orig><reg>J</reg></choice>h<ex>es</ex>u</w>
+                  <w xml:id="w_BotaPierre1_Bern354_52"><choice><orig>u</orig><reg>v</reg></choice><ex>os</ex></w>
+                  <w xml:id="w_BotaPierre1_Bern354_53">beneïe</w>
+                  <pc xml:id="w_BotaPierre1_Bern354_54">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="8">
+                  <lb n="9"/>
+                  <w xml:id="w_BotaPierre1_Bern354_55"><choice><orig>o</orig><reg>O</reg></choice></w>
+                  <w xml:id="w_BotaPierre1_Bern354_56" join="right">est</w>
+                  <w xml:id="w_BotaPierre1_Bern354_57" join="right" ana="#aggl-cert_low">li</w>
+                  <w xml:id="w_BotaPierre1_Bern354_58">sire</w>
+                  <pc xml:id="w_BotaPierre1_Bern354_59">
+                     <choice>
+                        <orig/>
+                        <reg>?</reg>
+                     </choice>
+                  </pc>
+                  <pc xml:id="w_BotaPierre1_Bern354_60">
+                     <choice>
+                        <orig/>
+                        <reg>-</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_BotaPierre1_Bern354_61"><choice><orig>i</orig><reg>I</reg></choice>l</w>
+                  <w xml:id="w_BotaPierre1_Bern354_62">n’</w>
+                  <w xml:id="w_BotaPierre1_Bern354_63" join="right">i</w>
+                  <w xml:id="w_BotaPierre1_Bern354_64">est</w>
+                  <w xml:id="w_BotaPierre1_Bern354_65">mie</w>
+                  <pc xml:id="w_BotaPierre1_Bern354_66">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="9">
+                  <lb n="10"/>
+                  <w xml:id="w_BotaPierre1_Bern354_67">Il</w>
+                  <w xml:id="w_BotaPierre1_Bern354_68">est</w>
+                  <w xml:id="w_BotaPierre1_Bern354_69">acheter</w>
+                  <w xml:id="w_BotaPierre1_Bern354_70">une</w>
+                  <w xml:id="w_BotaPierre1_Bern354_71">chose</w>
+               </l>
+               <l n="10">
+                  <lb n="11"/>
+                  <w xml:id="w_BotaPierre1_Bern354_72"><ex>et</ex></w>
+                  <w xml:id="w_BotaPierre1_Bern354_73" join="right" ana="#aggl-cert_low">il</w>
+                  <w xml:id="w_BotaPierre1_Bern354_74">ne</w>
+                  <w xml:id="w_BotaPierre1_Bern354_75"><choice><orig>u</orig><reg>v</reg></choice>e<ex>n</ex>ra</w>
+                  <w xml:id="w_BotaPierre1_Bern354_76">pas</w>
+                  <w xml:id="w_BotaPierre1_Bern354_77">de</w>
+                  <w xml:id="w_BotaPierre1_Bern354_78">pose</w>
+                  <pc xml:id="w_BotaPierre1_Bern354_79">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+                  <cb n="11vb"/>
+               </l>
+               <l n="11">
+                  <lb n="12"/>
+                  <w xml:id="w_BotaPierre1_Bern354_80">Sire</w>
+                  <pc xml:id="w_BotaPierre1_Bern354_81">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_BotaPierre1_Bern354_82">car</w>
+                  <w xml:id="w_BotaPierre1_Bern354_83"><choice><orig>u</orig><reg>v</reg></choice>os</w>
+                  <w xml:id="w_BotaPierre1_Bern354_84"><choice><orig>u</orig><reg>v</reg></choice>enez</w>
+                  <w xml:id="w_BotaPierre1_Bern354_85">seoir</w>
+                  <pc xml:id="w_BotaPierre1_Bern354_86">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="12">
+                  <lb n="13"/>
+                  <pc xml:id="w_BotaPierre1_Bern354_87">
+                     <choice>
+                        <orig/>
+                        <reg>-</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_BotaPierre1_Bern354_88">Dame</w>
+                  <pc xml:id="w_BotaPierre1_Bern354_89">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_BotaPierre1_Bern354_90"><choice><orig>i</orig><reg>j</reg></choice>e</w>
+                  <w xml:id="w_BotaPierre1_Bern354_91">nel</w>
+                  <w xml:id="w_BotaPierre1_Bern354_92" join="right"><choice><orig>u</orig><reg>v</reg></choice>os</w>
+                  <w xml:id="w_BotaPierre1_Bern354_93">doi</w>
+                  <w xml:id="w_BotaPierre1_Bern354_94">neoir</w>
+                  <note type="philologique">
+                     <p rend="footnote text">Il faut reconnaître l’infinitif <hi rend="italic">nier</hi>. </p>
+                  </note>
+                  <pc xml:id="w_BotaPierre1_Bern354_95">
+                     <choice>
+                        <orig/>
+                        <reg>:</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="13">
+                  <lb n="14"/>
+                  <w xml:id="w_BotaPierre1_Bern354_96">a</w>
+                  <w xml:id="w_BotaPierre1_Bern354_97"><choice><orig>u</orig><reg>v</reg></choice>os</w>
+                  <w xml:id="w_BotaPierre1_Bern354_98">sui</w>
+                  <w xml:id="w_BotaPierre1_Bern354_99"><choice><orig>u</orig><reg>v</reg></choice>enuz</w>
+                  <w xml:id="w_BotaPierre1_Bern354_100" join="right">e<ex>n</ex></w>
+                  <w xml:id="w_BotaPierre1_Bern354_101">desduit</w>
+                  <pc xml:id="w_BotaPierre1_Bern354_102">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="14">
+                  <lb n="15"/>
+                  <w xml:id="w_BotaPierre1_Bern354_103"><choice><orig>M</orig><reg>m</reg></choice>ais</w>
+                  <w xml:id="w_BotaPierre1_Bern354_104">ne</w>
+                  <w xml:id="w_BotaPierre1_Bern354_105"><choice><orig>u</orig><reg>v</reg></choice>oil</w>
+                  <w xml:id="w_BotaPierre1_Bern354_106">pas</w>
+                  <w xml:id="w_BotaPierre1_Bern354_107">q<ex>u</ex>’</w>
+                  <w xml:id="w_BotaPierre1_Bern354_108"><ex>i</ex>l</w>
+                  <w xml:id="w_BotaPierre1_Bern354_109"><choice><orig>u</orig><reg>v</reg></choice><ex>os</ex></w>
+                  <w xml:id="w_BotaPierre1_Bern354_110">anuit</w>
+                  <pc xml:id="w_BotaPierre1_Bern354_111">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="15">
+                  <lb n="16"/>
+                  <pc xml:id="w_BotaPierre1_Bern354_112">
+                     <choice>
+                        <orig/>
+                        <reg>-</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_BotaPierre1_Bern354_113">No<ex>n</ex></w>
+                  <pc xml:id="w_BotaPierre1_Bern354_114">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_BotaPierre1_Bern354_115">fait</w>
+                  <w xml:id="w_BotaPierre1_Bern354_116">el</w>
+                  <pc xml:id="w_BotaPierre1_Bern354_117">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_BotaPierre1_Bern354_118">sire</w>
+                  <pc xml:id="w_BotaPierre1_Bern354_119">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_BotaPierre1_Bern354_120">ai<ex>n</ex>z</w>
+                  <w xml:id="w_BotaPierre1_Bern354_121">m’</w>
+                  <w xml:id="w_BotaPierre1_Bern354_122">est</w>
+                  <w xml:id="w_BotaPierre1_Bern354_123">m<ex>o</ex>lt</w>
+                  <w xml:id="w_BotaPierre1_Bern354_124">bel</w>
+                  <pc xml:id="w_BotaPierre1_Bern354_125">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+                  <pc xml:id="w_BotaPierre1_Bern354_126">
+                     <choice>
+                        <orig/>
+                        <reg>»</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="16">
+                  <lb n="17"/>
+                  <w xml:id="w_BotaPierre1_Bern354_127" join="right" ana="#aggl-cert_low">Enmi</w>
+                  <w xml:id="w_BotaPierre1_Bern354_128">l’</w>
+                  <w xml:id="w_BotaPierre1_Bern354_129">aire</w>
+                  <w xml:id="w_BotaPierre1_Bern354_130">a<choice><orig>u</orig><reg>v</reg></choice>oit</w>
+                  <num>
+                     <w xml:id="w_BotaPierre1_Bern354_131">.i.</w>
+                  </num>
+                  <w xml:id="w_BotaPierre1_Bern354_132">carrel</w>
+               </l>
+               <l n="17">
+                  <lb n="18"/>
+                  <w xml:id="w_BotaPierre1_Bern354_133" join="right" ana="#aggl-cert_low"><choice><orig>D</orig><reg>d</reg></choice>o<ex>n</ex>t</w>
+                  <w xml:id="w_BotaPierre1_Bern354_134">l’</w>
+                  <w xml:id="w_BotaPierre1_Bern354_135">e<ex>n</ex></w>
+                  <w xml:id="w_BotaPierre1_Bern354_136">de<choice><orig>u</orig><reg>v</reg></choice>oit</w>
+                  <num>
+                     <w xml:id="w_BotaPierre1_Bern354_137">.i.</w>
+                  </num>
+                  <w xml:id="w_BotaPierre1_Bern354_138">mortier</w>
+                  <w xml:id="w_BotaPierre1_Bern354_139">fere</w>
+                  <pc xml:id="w_BotaPierre1_Bern354_140">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="18">
+                  <lb n="19"/>
+                  <w xml:id="w_BotaPierre1_Bern354_141"><choice><orig>l</orig><reg>L</reg></choice>a</w>
+                  <w xml:id="w_BotaPierre1_Bern354_142" join="right" ana="#aggl-cert_low">franche</w>
+                  <w xml:id="w_BotaPierre1_Bern354_143" join="right" ana="#aggl-cert_low">dame</w>
+                  <w xml:id="w_BotaPierre1_Bern354_144">debonaire</w>
+               </l>
+               <l n="19">
+                  <lb n="20"/>
+                  <w xml:id="w_BotaPierre1_Bern354_145">a<space type="degl-fgmt" cert="low"/>tot</w>
+                  <w xml:id="w_BotaPierre1_Bern354_146" join="right" ana="#aggl-cert_low">so<ex>n</ex></w>
+                  <w xml:id="w_BotaPierre1_Bern354_147">pié</w>
+                  <w xml:id="w_BotaPierre1_Bern354_148">bote</w>
+                  <w xml:id="w_BotaPierre1_Bern354_149" join="right" ana="#aggl-cert_low">la</w>
+                  <w xml:id="w_BotaPierre1_Bern354_150">pire</w>
+                  <note type="philologique">
+                     <p rend="footnote text">La réduction de la diphtongue <hi rend="italic">-ie</hi> à <hi rend="italic">-i</hi> est caractéristique du picard, du wallon et du lorrain (Collet et Greub § 1.10a).</p>
+                  </note>
+                  <pc xml:id="w_BotaPierre1_Bern354_151">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="20">
+                  <lb n="21"/>
+                  <w xml:id="w_BotaPierre1_Bern354_152" join="right"><choice><orig>l</orig><reg>L</reg></choice>i</w>
+                  <w xml:id="w_BotaPierre1_Bern354_153" join="right">p<ex>re</ex>stres</w>
+                  <w xml:id="w_BotaPierre1_Bern354_154">li</w>
+                  <w xml:id="w_BotaPierre1_Bern354_155">co<ex>n</ex>me<ex>n</ex>ce</w>
+                  <w xml:id="w_BotaPierre1_Bern354_156" join="right">a</w>
+                  <w xml:id="w_BotaPierre1_Bern354_157">dire</w>
+                  <pc xml:id="w_BotaPierre1_Bern354_158">
+                     <choice>
+                        <orig/>
+                        <reg>:</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="21">
+                  <lb n="22"/>
+                  <pc xml:id="w_BotaPierre1_Bern354_159">
+                     <choice>
+                        <orig/>
+                        <reg>«</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_BotaPierre1_Bern354_160">Dame</w>
+                  <pc xml:id="w_BotaPierre1_Bern354_161">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_BotaPierre1_Bern354_162">laissiez</w>
+                  <w xml:id="w_BotaPierre1_Bern354_163">la</w>
+                  <w xml:id="w_BotaPierre1_Bern354_164">pierre</w>
+                  <w xml:id="w_BotaPierre1_Bern354_165">est<ex>er</ex></w>
+                  <pc xml:id="w_BotaPierre1_Bern354_166">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+                  <pc xml:id="w_BotaPierre1_Bern354_167">
+                     <choice>
+                        <orig/>
+                        <reg>»</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="22">
+                  <lb n="23"/>
+                  <pc xml:id="w_BotaPierre1_Bern354_168">
+                     <choice>
+                        <orig/>
+                        <reg>-</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_BotaPierre1_Bern354_169">Ne</w>
+                  <w xml:id="w_BotaPierre1_Bern354_170" join="right" ana="#aggl-cert_low">la</w>
+                  <w xml:id="w_BotaPierre1_Bern354_171"><choice><orig>u</orig><reg>v</reg></choice>ost</w>
+                  <w xml:id="w_BotaPierre1_Bern354_172">cele</w>
+                  <w xml:id="w_BotaPierre1_Bern354_173">a<choice><orig>u</orig><reg>v</reg></choice>a<ex>n</ex>t</w>
+                  <w xml:id="w_BotaPierre1_Bern354_174">bot<ex>er</ex></w>
+                  <pc xml:id="w_BotaPierre1_Bern354_175">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+                  <pc xml:id="w_BotaPierre1_Bern354_176">
+                     <choice>
+                        <orig/>
+                        <reg>-</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="23">
+                  <lb n="24"/>
+                  <pc xml:id="w_BotaPierre1_Bern354_177">
+                     <choice>
+                        <orig/>
+                        <reg>«</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_BotaPierre1_Bern354_178" join="right">Se</w>
+                  <w xml:id="w_BotaPierre1_Bern354_179">la</w>
+                  <w xml:id="w_BotaPierre1_Bern354_180">botez</w>
+                  <w xml:id="w_BotaPierre1_Bern354_181" join="right">ne</w>
+                  <w xml:id="w_BotaPierre1_Bern354_182">ça</w>
+                  <w xml:id="w_BotaPierre1_Bern354_183" join="right">ne</w>
+                  <w xml:id="w_BotaPierre1_Bern354_184">la</w>
+                  <pc xml:id="w_BotaPierre1_Bern354_185">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="24">
+                  <lb n="25"/>
+                  <w xml:id="w_BotaPierre1_Bern354_186" join="right"><choice><orig>J</orig><reg>j</reg></choice>e</w>
+                  <w xml:id="w_BotaPierre1_Bern354_187">cuit</w>
+                  <w xml:id="w_BotaPierre1_Bern354_188" join="right">q<ex>ue</ex></w>
+                  <w xml:id="w_BotaPierre1_Bern354_189"><choice><orig>i</orig><reg>j</reg></choice>e</w>
+                  <w xml:id="w_BotaPierre1_Bern354_190"><choice><orig>u</orig><reg>v</reg></choice>os</w>
+                  <w xml:id="w_BotaPierre1_Bern354_191">foutré</w>
+                  <w xml:id="w_BotaPierre1_Bern354_192"><choice><orig>i</orig><reg>j</reg></choice>a</w>
+                  <pc xml:id="w_BotaPierre1_Bern354_193">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+                  <pc xml:id="w_BotaPierre1_Bern354_194">
+                     <choice>
+                        <orig/>
+                        <reg>»</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="25">
+                  <lb n="26"/>
+                  <w xml:id="w_BotaPierre1_Bern354_195" join="right" ana="#aggl-cert_low"><choice><orig>l</orig><reg>L</reg></choice>a</w>
+                  <w xml:id="w_BotaPierre1_Bern354_196">dame</w>
+                  <w xml:id="w_BotaPierre1_Bern354_197">oï</w>
+                  <w xml:id="w_BotaPierre1_Bern354_198" join="right" ana="#aggl-cert_low">ce</w>
+                  <w xml:id="w_BotaPierre1_Bern354_199" join="right">q<ex>ue</ex></w>
+                  <w xml:id="w_BotaPierre1_Bern354_200" join="right" ana="#aggl-cert_low">li</w>
+                  <w xml:id="w_BotaPierre1_Bern354_201">plot</w>
+                  <pc xml:id="w_BotaPierre1_Bern354_202">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="26">
+                  <lb n="27"/>
+                  <w xml:id="w_BotaPierre1_Bern354_203"><choice><orig>a</orig><reg>A</reg></choice>inz</w>
+                  <w xml:id="w_BotaPierre1_Bern354_204">onq<ex>ue</ex>s</w>
+                  <w xml:id="w_BotaPierre1_Bern354_205">mendre</w>
+                  <w xml:id="w_BotaPierre1_Bern354_206">peor</w>
+                  <w xml:id="w_BotaPierre1_Bern354_207">n’</w>
+                  <w xml:id="w_BotaPierre1_Bern354_208">ot</w>
+                  <pc xml:id="w_BotaPierre1_Bern354_209">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="27">
+                  <lb n="28"/>
+                  <w xml:id="w_BotaPierre1_Bern354_210" join="right"><choice><orig>l</orig><reg>L</reg></choice>a</w>
+                  <w xml:id="w_BotaPierre1_Bern354_211">pierre</w>
+                  <w xml:id="w_BotaPierre1_Bern354_212">ra</w>
+                  <w xml:id="w_BotaPierre1_Bern354_213">a<choice><orig>u</orig><reg>v</reg></choice>a<ex>n</ex>t</w>
+                  <w xml:id="w_BotaPierre1_Bern354_214">botee</w>
+               </l>
+               <l n="28">
+                  <lb n="29"/>
+                  <w xml:id="w_BotaPierre1_Bern354_215"><ex>et</ex></w>
+                  <w xml:id="w_BotaPierre1_Bern354_216">li</w>
+                  <w xml:id="w_BotaPierre1_Bern354_217">p<ex>re</ex>stres</w>
+                  <w xml:id="w_BotaPierre1_Bern354_218">l’</w>
+                  <w xml:id="w_BotaPierre1_Bern354_219">a</w>
+                  <w xml:id="w_BotaPierre1_Bern354_220">acolee</w>
+                  <pc xml:id="w_BotaPierre1_Bern354_221">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="29">
+                  <lb n="30"/>
+                  <w xml:id="w_BotaPierre1_Bern354_222" join="right"><choice><orig>S</orig><reg>s</reg></choice>i</w>
+                  <w xml:id="w_BotaPierre1_Bern354_223">l’</w>
+                  <w xml:id="w_BotaPierre1_Bern354_224">a</w>
+                  <w xml:id="w_BotaPierre1_Bern354_225">p<ex>ri</ex>se</w>
+                  <w xml:id="w_BotaPierre1_Bern354_226">tot</w>
+                  <w xml:id="w_BotaPierre1_Bern354_227">mai<ex>n</ex>tena<ex>n</ex>t</w>
+                  <pc xml:id="w_BotaPierre1_Bern354_228">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="30">
+                  <lb n="31"/>
+                  <w xml:id="w_BotaPierre1_Bern354_229"><choice><orig>e</orig><reg>E</reg></choice>n</w>
+                  <num>
+                     <w xml:id="w_BotaPierre1_Bern354_230">.i.</w>
+                  </num>
+                  <w xml:id="w_BotaPierre1_Bern354_231" join="right" ana="#aggl-cert_low">lit</w>
+                  <w xml:id="w_BotaPierre1_Bern354_232"><choice><orig>u</orig><reg>v</reg></choice>indre<ex>n</ex>t</w>
+                  <w xml:id="w_BotaPierre1_Bern354_233">behorda<ex>n</ex>t</w>
+                  <pc xml:id="w_BotaPierre1_Bern354_234">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="31">
+                  <lb n="32"/>
+                  <w xml:id="w_BotaPierre1_Bern354_235">q<ex>ui</ex></w>
+                  <w xml:id="w_BotaPierre1_Bern354_236">estoit</w>
+                  <w xml:id="w_BotaPierre1_Bern354_237">fez</w>
+                  <w xml:id="w_BotaPierre1_Bern354_238">en</w>
+                  <num>
+                     <w xml:id="w_BotaPierre1_Bern354_239">.i.</w>
+                  </num>
+                  <w xml:id="w_BotaPierre1_Bern354_240">recoi</w>
+                  <pc xml:id="w_BotaPierre1_Bern354_241">
+                     <choice>
+                        <orig/>
+                        <reg>;</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="32">
+                  <lb n="33"/>
+                  <w xml:id="w_BotaPierre1_Bern354_242" join="right">la</w>
+                  <w xml:id="w_BotaPierre1_Bern354_243">gitoit</w>
+                  <note type="philologique">
+                     <p rend="footnote text" style="text-align: justify;">Nous croyons voir dans le <hi rend="italic">la</hi> un cas d’haplologie : une forme unique correspondrait à la fois à l’adverbe de lieu « là » et au pronom personnel complément atone féminine. Pour le NRCF, il est pratiquement exclu que <hi rend="italic">gitoit</hi> soit un imparfait, mais ce temps peut avoir une valeur perfective en ancien français (Buridant §296). </p>
+                  </note>
+                  <w xml:id="w_BotaPierre1_Bern354_244" join="right">li</w>
+                  <w xml:id="w_BotaPierre1_Bern354_245">p<ex>re</ex>stres</w>
+                  <w xml:id="w_BotaPierre1_Bern354_246">soz</w>
+                  <w xml:id="w_BotaPierre1_Bern354_247">soi</w>
+                  <pc xml:id="w_BotaPierre1_Bern354_248">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="33">
+                  <lb n="34"/>
+                  <w xml:id="w_BotaPierre1_Bern354_249"><choice><orig>l</orig><reg>L</reg></choice>ou</w>
+                  <w xml:id="w_BotaPierre1_Bern354_250"><choice><orig>i</orig><reg>j</reg></choice>eu</w>
+                  <w xml:id="w_BotaPierre1_Bern354_251" join="right">li</w>
+                  <w xml:id="w_BotaPierre1_Bern354_252">a</w>
+                  <w xml:id="w_BotaPierre1_Bern354_253">fait</w>
+                  <w xml:id="w_BotaPierre1_Bern354_254" join="right">au</w>
+                  <w xml:id="w_BotaPierre1_Bern354_255" join="right">droit</w>
+                  <w xml:id="w_BotaPierre1_Bern354_256">neu</w>
+                  <pc xml:id="w_BotaPierre1_Bern354_257">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="34">
+                  <lb n="35"/>
+                  <num>
+                     <w xml:id="w_BotaPierre1_Bern354_258">.I.</w>
+                  </num>
+                  <w xml:id="w_BotaPierre1_Bern354_259">en<space type="degl"/>fanço<ex>n</ex></w>
+                  <w xml:id="w_BotaPierre1_Bern354_260">seoit</w>
+                  <w xml:id="w_BotaPierre1_Bern354_261" join="right">au</w>
+                  <w xml:id="w_BotaPierre1_Bern354_262">feu</w>
+                  <pc xml:id="w_BotaPierre1_Bern354_263">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="35">
+                  <lb n="36"/>
+                  <w xml:id="w_BotaPierre1_Bern354_264"><choice><orig>Q</orig><reg>q</reg></choice><ex>ui</ex></w>
+                  <w xml:id="w_BotaPierre1_Bern354_265">bie<ex>n</ex></w>
+                  <w xml:id="w_BotaPierre1_Bern354_266" join="right">les</w>
+                  <w xml:id="w_BotaPierre1_Bern354_267"><choice><orig>u</orig><reg>v</reg></choice>it</w>
+                  <w xml:id="w_BotaPierre1_Bern354_268" join="right">el</w>
+                  <w xml:id="w_BotaPierre1_Bern354_269">lit</w>
+                  <w xml:id="w_BotaPierre1_Bern354_270">chaoir</w>
+               </l>
+               <l n="36">
+                  <lb n="37"/>
+                  <w xml:id="w_BotaPierre1_Bern354_271"><ex>et</ex></w>
+                  <w xml:id="w_BotaPierre1_Bern354_272" join="right">au</w>
+                  <w xml:id="w_BotaPierre1_Bern354_273">p<ex>re</ex>stre</w>
+                  <w xml:id="w_BotaPierre1_Bern354_274">les</w>
+                  <w xml:id="w_BotaPierre1_Bern354_275">rai<ex>n</ex>s</w>
+                  <w xml:id="w_BotaPierre1_Bern354_276">mo<choice><orig>u</orig><reg>v</reg></choice>oir</w>
+                  <pc xml:id="w_BotaPierre1_Bern354_277">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="37">
+                  <lb n="38"/>
+                  <pc xml:id="w_BotaPierre1_Bern354_278">
+                     <choice>
+                        <orig/>
+                        <reg>«</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_BotaPierre1_Bern354_279"><choice><orig>e</orig><reg>E</reg></choice><ex>n</ex></w>
+                  <w xml:id="w_BotaPierre1_Bern354_280">moie</w>
+                  <w xml:id="w_BotaPierre1_Bern354_281">foi</w>
+                  <pc xml:id="w_BotaPierre1_Bern354_282">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_BotaPierre1_Bern354_283" join="right" ana="#aggl-cert_low">dist</w>
+                  <w xml:id="w_BotaPierre1_Bern354_284">l’</w>
+                  <w xml:id="w_BotaPierre1_Bern354_285">enfa<ex>n</ex>ço<ex>n</ex></w>
+                  <pc xml:id="w_BotaPierre1_Bern354_286">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="38">
+                  <lb n="39"/>
+                  <w xml:id="w_BotaPierre1_Bern354_287" join="right"><choice><orig>J</orig><reg>j</reg></choice>e</w>
+                  <w xml:id="w_BotaPierre1_Bern354_288" join="right">cuit</w>
+                  <w xml:id="w_BotaPierre1_Bern354_289">bie<ex>n</ex></w>
+                  <w xml:id="w_BotaPierre1_Bern354_290">q<ex>ue</ex></w>
+                  <w xml:id="w_BotaPierre1_Bern354_291">issi</w>
+                  <w xml:id="w_BotaPierre1_Bern354_292" join="right" ana="#aggl-cert_low">fout</w>
+                  <w xml:id="w_BotaPierre1_Bern354_293">l’</w>
+                  <w xml:id="w_BotaPierre1_Bern354_294">o<ex>n</ex></w>
+                  <pc xml:id="w_BotaPierre1_Bern354_295">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+                  <pc xml:id="w_BotaPierre1_Bern354_296">
+                     <choice>
+                        <orig/>
+                        <reg>»</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="39">
+                  <lb n="40"/>
+                  <w xml:id="w_BotaPierre1_Bern354_297"><choice><orig>l</orig><reg>L</reg></choice>’</w>
+                  <w xml:id="w_BotaPierre1_Bern354_298">e<ex>n</ex>fes</w>
+                  <w xml:id="w_BotaPierre1_Bern354_299" join="right">se</w>
+                  <w xml:id="w_BotaPierre1_Bern354_300" join="right">tot</w>
+                  <w xml:id="w_BotaPierre1_Bern354_301"><ex>et</ex></w>
+                  <w xml:id="w_BotaPierre1_Bern354_302" join="right">ne</w>
+                  <w xml:id="w_BotaPierre1_Bern354_303" join="right">dist</w>
+                  <w xml:id="w_BotaPierre1_Bern354_304">plus</w>
+                  <pc xml:id="w_BotaPierre1_Bern354_305">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="40">
+                  <lb n="41"/>
+                  <w xml:id="w_BotaPierre1_Bern354_306"><ex>et</ex></w>
+                  <w xml:id="w_BotaPierre1_Bern354_307" join="right">li</w>
+                  <w xml:id="w_BotaPierre1_Bern354_308">p<ex>re</ex>stres</w>
+                  <w xml:id="w_BotaPierre1_Bern354_309">resailli</w>
+                  <w xml:id="w_BotaPierre1_Bern354_310">sus</w>
+                  <pc xml:id="w_BotaPierre1_Bern354_311">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <pb n="12r"
+                       xml:id="pb_2"
+                       facs="https://www.e-codices.ch/loris/bbb/bbb-0354/bbb-0354_012r.jp2/full/pct:50/0/default/jpg/0/"/>
+                  <cb n="12ra"/>
+               </l>
+               <l n="41">
+                  <lb n="42"/>
+                  <w xml:id="w_BotaPierre1_Bern354_313" join="right"><choice><orig>S</orig><reg>s</reg></choice>i</w>
+                  <w xml:id="w_BotaPierre1_Bern354_314">s’</w>
+                  <w xml:id="w_BotaPierre1_Bern354_315">e<ex>n</ex></w>
+                  <w xml:id="w_BotaPierre1_Bern354_316">ala</w>
+                  <w xml:id="w_BotaPierre1_Bern354_317">demai<ex>n</ex>tena<ex>n</ex>t</w>
+                  <pc xml:id="w_BotaPierre1_Bern354_318">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="42">
+                  <lb n="43"/>
+                  <w xml:id="w_BotaPierre1_Bern354_319"><choice><orig>p</orig><reg>P</reg></choice>uis</w>
+                  <w xml:id="w_BotaPierre1_Bern354_320">n’</w>
+                  <w xml:id="w_BotaPierre1_Bern354_321">ala</w>
+                  <w xml:id="w_BotaPierre1_Bern354_322">gaires</w>
+                  <w xml:id="w_BotaPierre1_Bern354_323">demora<ex>n</ex>t</w>
+               </l>
+               <l n="43">
+                  <lb n="44"/>
+                  <w xml:id="w_BotaPierre1_Bern354_324">q<ex>ue</ex></w>
+                  <w xml:id="w_BotaPierre1_Bern354_325">li</w>
+                  <w xml:id="w_BotaPierre1_Bern354_326">p<ex>re</ex>udo<ex>m</ex></w>
+                  <w xml:id="w_BotaPierre1_Bern354_327"><choice><orig>u</orig><reg>v</reg></choice>int</w>
+                  <w xml:id="w_BotaPierre1_Bern354_328">de</w>
+                  <w xml:id="w_BotaPierre1_Bern354_329">labor</w>
+               </l>
+               <l n="44">
+                  <lb n="45"/>
+                  <w xml:id="w_BotaPierre1_Bern354_330" join="right" ana="#aggl-cert_low">ou</w>
+                  <w xml:id="w_BotaPierre1_Bern354_331" join="right" ana="#aggl-cert_low">il</w>
+                  <w xml:id="w_BotaPierre1_Bern354_332">ot</w>
+                  <w xml:id="w_BotaPierre1_Bern354_333" join="right">esté</w>
+                  <w xml:id="w_BotaPierre1_Bern354_334">tote</w>
+                  <w xml:id="w_BotaPierre1_Bern354_335"><choice><orig>i</orig><reg>j</reg></choice>or</w>
+                  <pc xml:id="w_BotaPierre1_Bern354_336">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="45">
+                  <lb n="46"/>
+                  <w xml:id="w_BotaPierre1_Bern354_337" join="right"><choice><orig>l</orig><reg>L</reg></choice>a</w>
+                  <w xml:id="w_BotaPierre1_Bern354_338">pierre</w>
+                  <w xml:id="w_BotaPierre1_Bern354_339"><choice><orig>u</orig><reg>v</reg></choice>ost</w>
+                  <w xml:id="w_BotaPierre1_Bern354_340">oster</w>
+                  <w xml:id="w_BotaPierre1_Bern354_341">de</w>
+                  <w xml:id="w_BotaPierre1_Bern354_342">l’</w>
+                  <w xml:id="w_BotaPierre1_Bern354_343">aire</w>
+                  <pc xml:id="w_BotaPierre1_Bern354_344">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="46">
+                  <lb n="47"/>
+                  <w xml:id="w_BotaPierre1_Bern354_345"><choice><orig>l</orig><reg>L</reg></choice>’</w>
+                  <w xml:id="w_BotaPierre1_Bern354_346" join="right">e<ex>n</ex>fes</w>
+                  <w xml:id="w_BotaPierre1_Bern354_347" join="right">li</w>
+                  <w xml:id="w_BotaPierre1_Bern354_348">dist</w>
+                  <pc xml:id="w_BotaPierre1_Bern354_349">
+                     <choice>
+                        <orig/>
+                        <reg>:</reg>
+                     </choice>
+                  </pc>
+                  <pc xml:id="w_BotaPierre1_Bern354_350">
+                     <choice>
+                        <orig/>
+                        <reg>«</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_BotaPierre1_Bern354_351"><choice><orig>p</orig><reg>P</reg></choice>ere</w>
+                  <pc xml:id="w_BotaPierre1_Bern354_352">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_BotaPierre1_Bern354_353">ne</w>
+                  <w xml:id="w_BotaPierre1_Bern354_354">faire</w>
+                  <pc xml:id="w_BotaPierre1_Bern354_355">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="47">
+                  <lb n="48"/>
+                  <w xml:id="w_BotaPierre1_Bern354_356" join="right">Se</w>
+                  <w xml:id="w_BotaPierre1_Bern354_357">la</w>
+                  <w xml:id="w_BotaPierre1_Bern354_358">boutez</w>
+                  <w xml:id="w_BotaPierre1_Bern354_359">ne</w>
+                  <w xml:id="w_BotaPierre1_Bern354_360">ça</w>
+                  <w xml:id="w_BotaPierre1_Bern354_361">ne</w>
+                  <w xml:id="w_BotaPierre1_Bern354_362">la</w>
+                  <pc xml:id="w_BotaPierre1_Bern354_363">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="48">
+                  <lb n="49"/>
+                  <w xml:id="w_BotaPierre1_Bern354_364"><choice><orig>N</orig><reg>n</reg></choice><ex>ost</ex>re</w>
+                  <w xml:id="w_BotaPierre1_Bern354_365">p<ex>re</ex>stres</w>
+                  <w xml:id="w_BotaPierre1_Bern354_366"><choice><orig>u</orig><reg>v</reg></choice>os</w>
+                  <w xml:id="w_BotaPierre1_Bern354_367">foutra</w>
+                  <w xml:id="w_BotaPierre1_Bern354_368"><choice><orig>i</orig><reg>j</reg></choice>a</w>
+               </l>
+               <l n="49">
+                  <lb n="50"/>
+                  <w xml:id="w_BotaPierre1_Bern354_369" join="right" ana="#aggl-cert_low"><choice><orig>S</orig><reg>s</reg></choice>i</w>
+                  <w xml:id="w_BotaPierre1_Bern354_370" join="right" ana="#aggl-cert_low"><ex>com</ex></w>
+                  <w xml:id="w_BotaPierre1_Bern354_371">il</w>
+                  <w xml:id="w_BotaPierre1_Bern354_372">fist</w>
+                  <w xml:id="w_BotaPierre1_Bern354_373">ore</w>
+                  <w xml:id="w_BotaPierre1_Bern354_374" join="right" ana="#aggl-cert_low">ma</w>
+                  <w xml:id="w_BotaPierre1_Bern354_375">mere</w>
+                  <pc xml:id="w_BotaPierre1_Bern354_376">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="50">
+                  <lb n="51"/>
+                  <w xml:id="w_BotaPierre1_Bern354_377" join="right" ana="#aggl-cert_low"><choice><orig>I</orig><reg>J</reg></choice>e</w>
+                  <w xml:id="w_BotaPierre1_Bern354_378">lou</w>
+                  <w xml:id="w_BotaPierre1_Bern354_379"><choice><orig>u</orig><reg>v</reg></choice>i</w>
+                  <w xml:id="w_BotaPierre1_Bern354_380">bie<ex>n</ex></w>
+                  <w xml:id="w_BotaPierre1_Bern354_381">de</w>
+                  <w xml:id="w_BotaPierre1_Bern354_382">la</w>
+                  <w xml:id="w_BotaPierre1_Bern354_383" join="right">o</w>
+                  <w xml:id="w_BotaPierre1_Bern354_384">g’</w>
+                  <w xml:id="w_BotaPierre1_Bern354_385">iere</w>
+                  <pc xml:id="w_BotaPierre1_Bern354_386">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+                  <pc xml:id="w_BotaPierre1_Bern354_387">
+                     <choice>
+                        <orig/>
+                        <reg>»</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="51">
+                  <lb n="52"/>
+                  <w xml:id="w_BotaPierre1_Bern354_388" join="right"><choice><orig>l</orig><reg>L</reg></choice>i</w>
+                  <w xml:id="w_BotaPierre1_Bern354_389">p<ex>re</ex>udo<ex>m</ex></w>
+                  <w xml:id="w_BotaPierre1_Bern354_390">si</w>
+                  <w xml:id="w_BotaPierre1_Bern354_391">estoit</w>
+                  <w xml:id="w_BotaPierre1_Bern354_392">m<ex>o</ex>lt</w>
+                  <w xml:id="w_BotaPierre1_Bern354_393">sage</w>
+                  <pc xml:id="w_BotaPierre1_Bern354_394">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="52">
+                  <lb n="53"/>
+                  <w xml:id="w_BotaPierre1_Bern354_395">Ne</w>
+                  <w xml:id="w_BotaPierre1_Bern354_396"><choice><orig>u</orig><reg>v</reg></choice>ost</w>
+                  <w xml:id="w_BotaPierre1_Bern354_397" join="right">pas</w>
+                  <w xml:id="w_BotaPierre1_Bern354_398">croire</w>
+                  <w xml:id="w_BotaPierre1_Bern354_399">so<ex>n</ex></w>
+                  <w xml:id="w_BotaPierre1_Bern354_400">domage</w>
+                  <pc xml:id="w_BotaPierre1_Bern354_401">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="53">
+                  <lb n="54"/>
+                  <w xml:id="w_BotaPierre1_Bern354_402"><choice><orig>M</orig><reg>m</reg></choice>ais</w>
+                  <w xml:id="w_BotaPierre1_Bern354_403">il</w>
+                  <w xml:id="w_BotaPierre1_Bern354_404">s’</w>
+                  <w xml:id="w_BotaPierre1_Bern354_405" join="right">e<ex>n</ex></w>
+                  <w xml:id="w_BotaPierre1_Bern354_406"><choice><orig>u</orig><reg>v</reg></choice>en<choice><orig>i</orig><reg>j</reg></choice>a</w>
+                  <w xml:id="w_BotaPierre1_Bern354_407">bie<ex>n</ex></w>
+                  <w xml:id="w_BotaPierre1_Bern354_408">aprés</w>
+                  <pc xml:id="w_BotaPierre1_Bern354_409">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="54">
+                  <lb n="55"/>
+                  <w xml:id="w_BotaPierre1_Bern354_410"><choice><orig>d</orig><reg>D</reg></choice>e</w>
+                  <w xml:id="w_BotaPierre1_Bern354_411">cest</w>
+                  <w xml:id="w_BotaPierre1_Bern354_412">exanple</w>
+                  <w xml:id="w_BotaPierre1_Bern354_413">n’</w>
+                  <w xml:id="w_BotaPierre1_Bern354_414" join="right">i</w>
+                  <w xml:id="w_BotaPierre1_Bern354_415">a</w>
+                  <w xml:id="w_BotaPierre1_Bern354_416">mes</w>
+                  <pc xml:id="w_BotaPierre1_Bern354_417">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="55">
+                  <lb n="56"/>
+                  <w xml:id="w_BotaPierre1_Bern354_418"><choice><orig>N</orig><reg>n</reg></choice>e</w>
+                  <w xml:id="w_BotaPierre1_Bern354_419">mais</w>
+                  <w xml:id="w_BotaPierre1_Bern354_420">itant</w>
+                  <w xml:id="w_BotaPierre1_Bern354_421">dire</w>
+                  <w xml:id="w_BotaPierre1_Bern354_422" join="right"><choice><orig>u</orig><reg>v</reg></choice><ex>os</ex></w>
+                  <w xml:id="w_BotaPierre1_Bern354_423"><choice><orig>u</orig><reg>v</reg></choice>oil</w>
+               </l>
+               <l n="56">
+                  <lb n="57"/>
+                  <w xml:id="w_BotaPierre1_Bern354_424"><choice><orig>Q</orig><reg>q</reg></choice><ex>ue</ex></w>
+                  <w xml:id="w_BotaPierre1_Bern354_425">l’</w>
+                  <w xml:id="w_BotaPierre1_Bern354_426">en</w>
+                  <w xml:id="w_BotaPierre1_Bern354_427" join="right">se</w>
+                  <w xml:id="w_BotaPierre1_Bern354_428" join="right" ana="#aggl-cert_low">gart</w>
+                  <w xml:id="w_BotaPierre1_Bern354_429" join="right" ana="#aggl-cert_low">do</w>
+                  <w xml:id="w_BotaPierre1_Bern354_430">petit</w>
+                  <w xml:id="w_BotaPierre1_Bern354_431">oil</w>
+               </l>
+               <l n="57">
+                  <lb n="58"/>
+                  <w xml:id="w_BotaPierre1_Bern354_432"><ex>et</ex></w>
+                  <w xml:id="w_BotaPierre1_Bern354_433">de</w>
+                  <w xml:id="w_BotaPierre1_Bern354_434">larro<ex>n</ex></w>
+                  <w xml:id="w_BotaPierre1_Bern354_435">qui</w>
+                  <w xml:id="w_BotaPierre1_Bern354_436">est</w>
+                  <w xml:id="w_BotaPierre1_Bern354_437">p<ex>ro</ex><choice><orig>u</orig><reg>v</reg></choice>é</w>
+                  <note type="philologique">
+                     <p rend="footnote text">Le NRCF juge qu’il faut corriger en <hi rend="italic">privé</hi>.</p>
+                  </note>
+                  <pc xml:id="w_BotaPierre1_Bern354_438">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="58">
+                  <lb n="59"/>
+                  <w xml:id="w_BotaPierre1_Bern354_439"><choice><orig>C</orig><reg>c</reg></choice>ar</w>
+                  <w xml:id="w_BotaPierre1_Bern354_440">ai<ex>n</ex>z</w>
+                  <w xml:id="w_BotaPierre1_Bern354_441" join="right">a<choice><orig>u</orig><reg>v</reg></choice>ra</w>
+                  <w xml:id="w_BotaPierre1_Bern354_442">assez</w>
+                  <w xml:id="w_BotaPierre1_Bern354_443">e<ex>m</ex>blé</w>
+               </l>
+               <l n="59">
+                  <lb n="60"/>
+                  <w xml:id="w_BotaPierre1_Bern354_444">q<ex>ue</ex></w>
+                  <w xml:id="w_BotaPierre1_Bern354_445">l’</w>
+                  <w xml:id="w_BotaPierre1_Bern354_446" join="right">e<ex>n</ex></w>
+                  <w xml:id="w_BotaPierre1_Bern354_447">s’</w>
+                  <w xml:id="w_BotaPierre1_Bern354_448" join="right">en</w>
+                  <w xml:id="w_BotaPierre1_Bern354_449">soit</w>
+                  <w xml:id="w_BotaPierre1_Bern354_450">ap<ex>er</ex>ceü</w>
+                  <pc xml:id="w_BotaPierre1_Bern354_451">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="60">
+                  <lb n="61"/>
+                  <w xml:id="w_BotaPierre1_Bern354_452">Se</w>
+                  <w xml:id="w_BotaPierre1_Bern354_453">l’</w>
+                  <w xml:id="w_BotaPierre1_Bern354_454">e<ex>n</ex><space type="degl"/>fanço<ex>n</ex></w>
+                  <w xml:id="w_BotaPierre1_Bern354_455">n’</w>
+                  <w xml:id="w_BotaPierre1_Bern354_456" join="right">eüst</w>
+                  <w xml:id="w_BotaPierre1_Bern354_457"><choice><orig>u</orig><reg>v</reg></choice>eü</w>
+               </l>
+               <l n="61">
+                  <lb n="62"/>
+                  <w xml:id="w_BotaPierre1_Bern354_458" join="right" ana="#aggl-cert_low">lo</w>
+                  <w xml:id="w_BotaPierre1_Bern354_459">p<ex>re</ex>stre</w>
+                  <w xml:id="w_BotaPierre1_Bern354_460"><choice><orig>i</orig><reg>j</reg></choice>oer</w>
+                  <w xml:id="w_BotaPierre1_Bern354_461" join="right">a</w>
+                  <w xml:id="w_BotaPierre1_Bern354_462" join="right">sa</w>
+                  <w xml:id="w_BotaPierre1_Bern354_463">mere</w>
+                  <pc xml:id="w_BotaPierre1_Bern354_464">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="62">
+                  <lb n="63"/>
+                  <w xml:id="w_BotaPierre1_Bern354_465"><choice><orig>I</orig><reg>i</reg></choice>l</w>
+                  <w xml:id="w_BotaPierre1_Bern354_466">nel</w>
+                  <w xml:id="w_BotaPierre1_Bern354_467">deïst</w>
+                  <w xml:id="w_BotaPierre1_Bern354_468">pas</w>
+                  <w xml:id="w_BotaPierre1_Bern354_469" join="right">a</w>
+                  <w xml:id="w_BotaPierre1_Bern354_470">so<ex>n</ex></w>
+                  <w xml:id="w_BotaPierre1_Bern354_471">pere</w>
+                  <pc xml:id="w_BotaPierre1_Bern354_472">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+               </l>
+            </lg>
+            <p rend="explicit" style="font-weight: bold; ">
+               <w xml:id="w_BotaPierre1_Bern354_473">Ci</w>
+               <w xml:id="w_BotaPierre1_Bern354_474">fenit</w>
+               <w xml:id="w_BotaPierre1_Bern354_475">de</w>
+               <w xml:id="w_BotaPierre1_Bern354_476">celui</w>
+               <w xml:id="w_BotaPierre1_Bern354_477">q<ex>ui</ex></w>
+               <w xml:id="w_BotaPierre1_Bern354_478">bota</w>
+               <w xml:id="w_BotaPierre1_Bern354_479" join="right">la</w>
+               <w xml:id="w_BotaPierre1_Bern354_480">pie<surplus>l</surplus><add place="above">r<ex>re</ex></add></w>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

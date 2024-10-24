@@ -1,0 +1,759 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="fro">Le Prestre et le leu</title>
+            <author>Anonyme</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2023</date>
+            </edition>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="acorbellari">Alain Corbellari</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="alavrent">Alexei Lavrentiev</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="apinche">Ariane Pinche</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="blaid">Baptiste Laïd</name>
+            </respStmt>
+            <respStmt>
+               <resp>robot</resp>
+               <name xml:id="bot">bot bot</name>
+            </respStmt>
+            <respStmt>
+               <resp>relecteur</resp>
+               <resp>membre</resp>
+               <name xml:id="cguillot">Céline Guillot-Barbance</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="clachet">Claude Lachet</name>
+            </respStmt>
+            <respStmt>
+               <resp>editeur</resp>
+               <resp>traducteur</resp>
+               <resp>chef de projet</resp>
+               <name xml:id="cpierreville">Corinne Pierreville</name>
+            </respStmt>
+            <respStmt>
+               <resp>relecteur-traduction</resp>
+               <resp>membre</resp>
+               <name xml:id="ggruber">Gauthier Grüber</name>
+            </respStmt>
+            <respStmt>
+               <resp>ingénieur</resp>
+               <name xml:id="jnuguet">Jules Nuguet</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="ngarnier">Nicolas Garnier</name>
+            </respStmt>
+            <respStmt>
+               <resp>Relecteur traduction</resp>
+               <name xml:id="rbellon">Roger Bellon</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="rtrachsler">Richard Trachsler</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="veugene">Valentine Eugène</name>
+            </respStmt>
+            <respStmt>
+               <resp>ingénieur</resp>
+               <name xml:id="myamagata">Moe Yamagata</name>
+            </respStmt>
+            <respStmt>
+               <resp/>
+               <name xml:id="jdocks">Justine DOCKS</name>
+            </respStmt>
+            <respStmt>
+               <resp>editeur</resp>
+               <resp>relecteur</resp>
+               <resp>traducteur</resp>
+               <resp>relecteur-traduction</resp>
+               <resp/>
+               <name> </name>
+            </respStmt>
+         </editionStmt>
+         <extent>
+            <num xml:id="nb_tokens_given">193</num>
+            <num xml:id="nb_mots_given">162</num>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <name>ENS de Lyon / UMR 5317 IHRIM, Base de français médiéval, projet Fabliaux</name>
+            </publisher>
+            <address>
+               <addrLine>15, parvis René Descartes</addrLine>
+               <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+               <addrLine>Tél : 04 37 37 63 10</addrLine>
+               <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+               <addrLine>http://bfm.ens-lyon.fr</addrLine>
+            </address>
+            <idno type="bfm">http://catalog.bfm-corpus.org/fabliaux/PrestreLeu_Berlin-257</idno>
+            <idno type="doi">10.34847/nkl.5369qhkk</idno>
+            <availability status="free">
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <ab type="availability_bfm">Les Conditions générales d'utilisation de la Base de Français Médiéval (http://txm.bfm-corpus.org/bfm/files/CGU.pdf), 
+                        et notamment son Article 5 « PROPRIETE INTELLECTUELLE », s'appliquent à tous les textes de la BFM.</ab>
+                  <ab type="how_to_cite">
+                     <label>Comment citer ce texte :</label>
+                     <bibl>Le Prestre et le leu, édité par Corinne Pierreville en collaboration avec Céline Guillot-Barbance. Publié en ligne par l’ENS de Lyon dans la Base de français médiéval, 
+2023, http://catalog.bfm-corpus.org/fabliaux/PrestreLeu_Berlin-257.</bibl>
+                        D'autres formules de citation de la BFM sont proposées sur la page web suivante :
+                        http://bfm.ens-lyon.fr/spip.php?article281.</ab>
+                  <ab type="availability_file">
+                     <label>Conditions d'utilisation de ce fichier :</label>
+                        Ce fichier numérique est composé du corps de texte médiéval (restauré par son ou ses éditeur(s) scientifique(s)), des apparats critiques (introductions, notes, glossaires, explications, du texte d'origine (ou des enrichissements) qui ont été réalisés dans le cadre de la restauration des textes par les Editeurs Scientifiques) et des suppléments numériques : balisage XML-TEI, métadonnées (teiHeader), balisage du discours direct, étiquetage morpho-syntaxique, lemmatisation. Le texte et les suppléments numériques sont libres de droit et peuvent à ce titre être téléchargés et réutilisés librement. Les apparats critiques sont soumis à une licence de type CC BY-NC-SA 3.0 FR  http://creativecommons.org/licenses/by-nc-sa/3.0/fr. Les Utilisateurs s’engagent à respecter les termes de cette licence. 
+                    </ab>
+                  <ab type="availability_txmweb" subtype="illimité">
+                     <label>Conditions d'utilisation par le portail BFM :</label>
+                        Pas de limitation dans l'usage des fonctionnalités. Téléchargement autorisé.</ab>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="main" xml:id="Berlin-257">
+               <msIdentifier>
+                  <settlement>Berlin</settlement>
+                  <repository>Staatsbibliothek und Preussischer Kulturbesitz</repository>
+                  <idno>Manuscripta Hamiltoniana 257</idno>
+                  <idno type="URI" subtype="Notice" n="Arlima">https://www.arlima.net/mss/deutschland/berlin/staatsbibliothek/manuscripta_hamiltoniana/257.html</idno>
+                  <idno type="URI" subtype="Notice" n="Jonas">http://jonas.irht.cnrs.fr/manuscrit/7365</idno>
+                  <idno type="URI" subtype="Data" n="Biblissima">
+https://data.biblissima.fr/entity/Q268184</idno>
+                  <idno type="URI" subtype="Fac-similé">https://digital.staatsbibliothek-berlin.de/werkansicht?PPN=PPN835384969%26PHYSID=PHYS_0001</idno>
+                  <idno type="URI" subtype="Manifeste_IIIF">https://content.staatsbibliothek-berlin.de/dc/835384969/manifest</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem xml:id="trDamesAnel2_Berlin-257">
+                     <title>Les trois Dames qui troverent l'anel II</title>
+                  </msItem>
+                  <msItem xml:id="quPrestresHaisiau_Berlin-257">
+                     <locus>f. 050ra-050va</locus>
+                     <title>Les quatre prestres</title>
+                  </msItem>
+                  <msItem xml:id="Auberee_Berlin-257">
+                     <locus>f. 045va-048vb</locus>
+                     <title>Auberee</title>
+                  </msItem>
+                  <msItem xml:id="BaratHaimetBodel_Berlin-257">
+                     <title>Barat et Haimet</title>
+                  </msItem>
+                  <msItem xml:id="BorgeoiseOrliens_Berlin-257">
+                     <locus>f. 032va-034ra</locus>
+                     <title>La Borgeoise d'Orliens</title>
+                  </msItem>
+                  <msItem xml:id="BouchierAbeville_Berlin-257">
+                     <title>Le bouchier d'Abeville</title>
+                  </msItem>
+                  <msItem xml:id="BourseSens_Berlin-257">
+                     <locus>f. 035v-036r</locus>
+                     <title>La plaine borse de sens</title>
+                  </msItem>
+                  <msItem xml:id="ChevalierParlerCons1Guerin_Berlin-257">
+                     <title>Le chevalier qui fist les cons parler I</title>
+                  </msItem>
+                  <msItem xml:id="ChevalierVermeille_Berlin-257">
+                     <title>Le Chevalier a la robe vermeille</title>
+                  </msItem>
+                  <msItem xml:id="CoilleNoire_Berlin-257">
+                     <title>La Couille noire</title>
+                  </msItem>
+                  <msItem xml:id="CovoteusEnvieusBodel_Berlin-257">
+                     <title>Le covoteus et l'envieus</title>
+                  </msItem>
+                  <msItem xml:id="DameEscoillee_Berlin-257">
+                     <title>La dame escoillee</title>
+                  </msItem>
+                  <msItem xml:id="DameVenjaChevalier_Berlin-257">
+                     <title>La Dame qui se venja du chevalier</title>
+                  </msItem>
+                  <msItem xml:id="DamoiseleFoutre1_Berlin-257">
+                     <title>La damoisele qui ne pooit oïr parler de foutre I</title>
+                  </msItem>
+                  <msItem xml:id="FoutreFosse_Berlin-257">
+                     <title>Celle qui se fist foutre sur la fosse de son mari</title>
+                  </msItem>
+                  <msItem xml:id="GauteronMarion_Berlin-257">
+                     <locus>f. 048vb-049ra</locus>
+                     <title>Gauteron et Marion</title>
+                  </msItem>
+                  <msItem xml:id="Gombert2ClersBodel_Berlin-257">
+                     <locus>f. 010vb-011vb</locus>
+                     <title>Gombert et les deus clers</title>
+                  </msItem>
+                  <msItem xml:id="Meunier2Clers_Berlin-257">
+                     <locus>f. 050va-052ra</locus>
+                     <title>Le meunier et les deus clers</title>
+                  </msItem>
+                  <msItem xml:id="OueChapelain_Berlin-257">
+                     <locus>f. 053ra-53va</locus>
+                     <title>L'oue au chapelain</title>
+                  </msItem>
+                  <msItem xml:id="Pescheor_Berlin-257">
+                     <title>Du Pescheor de Pont seur Saine</title>
+                  </msItem>
+                  <msItem xml:id="PrestreLeu_Berlin-257">
+                     <locus>f. 062va-062vb</locus>
+                     <title>Le Prestre et le leu</title>
+                  </msItem>
+                  <msItem xml:id="PrestreMereForce_Berlin-257">
+                     <title>Le Prestre qui ot mere a force</title>
+                  </msItem>
+                  <msItem xml:id="PrestreMoutonHaisiau_Berlin-257">
+                     <locus>f. 053va-053va</locus>
+                     <title>Le prestre et le mouton</title>
+                  </msItem>
+                  <msItem xml:id="PrestreTeint_Berlin-257">
+                     <locus>f. 013va-015vb</locus>
+                     <title>Le Prestre teint</title>
+                  </msItem>
+                  <msItem xml:id="Segretain2_Berlin-257">
+                     <locus>f. 022ra-026va</locus>
+                     <title>Le Segretain moine II</title>
+                  </msItem>
+                  <msItem xml:id="SireHain_Berlin-257">
+                     <title>Sire Hain et dame Anieuse</title>
+                  </msItem>
+                  <msItem xml:id="Vallet12Fames_Berlin-257">
+                     <title>Le Vallet aus douze fames</title>
+                  </msItem>
+                  <msItem xml:id="VieilleTruande_Berlin-257">
+                     <title>La vieille Truande</title>
+                  </msItem>
+                  <msItem xml:id="VilainBailluelBodel_Berlin-257">
+                     <title>Le Vilain de Bailluel</title>
+                  </msItem>
+                  <msItem xml:id="VilainMire_Berlin-257">
+                     <locus>f. 011va-013va</locus>
+                     <title>Le Vilain Mire</title>
+                  </msItem>
+                  <msItem xml:id="VilainParadis_Berlin-257">
+                     <title>Le vilain qui conquist paradis par plait</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin notBefore="1250-01-01" notAfter="1299-12-31">
+                     <p>2e moitié du 13e s.</p>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <title type="main" xml:lang="fro">Le Prestre et le leu</title>
+            <title type="modern" xml:lang="fr">Le prêtre et le loup
+            </title>
+            <date notBefore="1200-01-01" notAfter="1299-12-31" when="1250-01-01">13e s.</date>
+            <region type="dialecte_oeuvre">Non défini</region>
+            <idno type="INV" subtype="Montaiglon-Raynaud">145</idno>
+            <idno type="INV" subtype="Bedier">100</idno>
+            <idno type="INV" subtype="Nykrog">108</idno>
+            <idno type="INV" subtype="Jodogne">108</idno>
+            <idno type="INV" subtype="NRCF">88</idno>
+            <idno type="URI" n="Jonas">https://jonas.irht.cnrs.fr/oeuvre/8966</idno>
+            <idno type="URI" n="Arlima">https://www.arlima.net/mp/prestre_et_leu.html</idno>
+         </creation>
+         <langUsage>
+            <language ident="fro"/>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.bfm-corpus.org">
+               <term type="domaine">littérature</term>
+               <term type="genre" cert="medium">Fabliau
+               </term>
+               <term type="forme">vers</term>
+               <term type="relation">non renseigné</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#cpierreville" when="2023-09-10T11:23:38" n="v1.0">Utilisation du fichier PrestreLeu[Berlin 257]v1.docx</change>
+         <change who="#bot" when="2023-09-11" n="v1.0">Transformation avec Oxgarage du fichier PrestreLeu[Berlin 257]1.0.docx</change>
+         <change who="#cpierreville" when="2023-10-02T16:16:52" n="v1.0">Utilisation du fichier PrestreLeu[Berlin 257]trad-v1.docx</change>
+         <change who="#cpierreville" when="2023-10-02T16:16:46" n="v1.0">Utilisation du fichier PrestreLeu[Berlin 257]v1.docx</change>
+         <change who="#bot" when="2023-10-05" n="v1.0">Transformation avec Oxgarage du fichier PrestreLeu[Berlin 257]1.0.docx</change>
+         <change who="#cguill01" when="2023-10-23T13:57:34" n="v1.1">Utilisation du fichier PrestreLeu[Berlin 257]v1.1.docx</change>
+         <change who="#bot" when="2023-10-24" n="v1.1">Transformation avec Oxgarage du fichier PrestreLeu[Berlin 257]1.1.docx</change>
+         <change who="#cpierreville" when="2023-10-25T05:35:02" n="v2.0">Utilisation du fichier PrestreLeu[Berlin 257]v2.docx</change>
+         <change who="#bot" when="2023-10-26" n="v2.0">Transformation avec Oxgarage du fichier PrestreLeu[Berlin 257]2.0.docx</change>
+         <change who="#cpierreville" when="2023-11-21T08:55:04" n="v2.1">Utilisation du fichier PrestreLeu[Berlin 257]trad-v2.1.docx</change>
+         <change who="#bot" when="2023-11-21" n="v2.1">Transformation avec Oxgarage du fichier PrestreLeu[Berlin 257]2.1.docx</change>
+         <change who="#bot" when="2023-11-21" n="v2.1">Transformation avec Oxgarage du fichier PrestreLeu[Berlin 257]2.1.docx</change>
+         <change who="#alavrent" when="2023-11-21T14:44:30" n="v3.1">Utilisation du fichier PrestreLeu[Berlin 257]v3.1 corr v11.docx</change>
+         <change who="#bot" when="2023-11-22" n="v3.1">Transformation avec Oxgarage du fichier PrestreLeu[Berlin 257]3.1.docx</change>
+         <change who="#cpierreville" when="2023-12-08T12:40:21" n="v3.2">Utilisation du fichier PrestreLeu[Berlin 257]v3.2.docx</change>
+         <change who="#bot" when="2023-12-08" n="v3.2">Transformation avec Oxgarage du fichier PrestreLeu[Berlin 257]3.2.docx</change>
+         <change who="#ohelary" when="2024-01-04T16:12:36" n="v2.2">Utilisation du fichier PrestreLeu[Berlin 257]trad-v2.2.docx</change>
+         <change who="#ohelary" when="2024-01-04T15:46:19" n="v3.3">Utilisation du fichier PrestreLeu[Berlin 257]v3.3 saut paragraphe.docx</change>
+         <change who="#bot" when="2024-01-05" n="v3.3">Transformation avec Oxgarage du fichier PrestreLeu[Berlin 257]3.3.docx</change>
+         <change who="#bot" when="2024-01-05" n="v2.2">Transformation avec Oxgarage du fichier PrestreLeu[Berlin 257]2.2.docx</change>
+         <change who="#ggruber" when="2024-06-07T08:05:45" n="v2.2">Utilisation du fichier PrestreLeu[Berlin 257]trad-v2.2_reluGG.docx</change>
+         <change who="#cpierreville" when="2024-06-07T13:33:03" n="v2.3">Utilisation du fichier PrestreLeu[Berlin 257]trad-v2.3.docx</change>
+         <change who="#bot" when="2024-06-07" n="v2.3">Transformation avec Oxgarage du fichier PrestreLeu[Berlin 257]2.3.docx</change>
+      </revisionDesc>
+   </teiHeader>
+   <text source="PrestreLeu_Berlin-257">
+      <body>
+         <pb n="62v"
+              xml:id="pb_1"
+              facs="https://content.staatsbibliothek-berlin.de/dc/835384969-0136/full/pct:50/0/default.jpg"/>
+         <cb n="62va"/>
+         <lg>
+            <l n="1">
+               <lb n="1"/>
+               <w xml:id="w_PrestreLeu_Berlin257_1"><supplied>U</supplied>n</w>
+               <w xml:id="w_PrestreLeu_Berlin257_2">prestre</w>
+               <w xml:id="w_PrestreLeu_Berlin257_3">maneit</w>
+               <w xml:id="w_PrestreLeu_Berlin257_4" join="right" ana="#aggl-cert_low">en</w>
+               <w xml:id="w_PrestreLeu_Berlin257_5"><choice><orig>c</orig><reg>C</reg></choice>hartei<ex>n</ex></w>
+               <pc xml:id="w_PrestreLeu_Berlin257_6">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="2">
+               <lb n="2"/>
+               <w xml:id="w_PrestreLeu_Berlin257_7"><choice><orig>S</orig><reg>s</reg></choice>’</w>
+               <w xml:id="w_PrestreLeu_Berlin257_8">a<space type="degl"/>moit</w>
+               <w xml:id="w_PrestreLeu_Berlin257_9">la</w>
+               <w xml:id="w_PrestreLeu_Berlin257_10">fame</w>
+               <w xml:id="w_PrestreLeu_Berlin257_11">a</w>
+               <num>
+                  <w xml:id="w_PrestreLeu_Berlin257_12">.i.</w>
+               </num>
+               <w xml:id="w_PrestreLeu_Berlin257_13"><choice><orig>u</orig><reg>v</reg></choice>ilei<ex>n</ex></w>
+               <pc xml:id="w_PrestreLeu_Berlin257_14">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="3">
+               <lb n="3"/>
+               <w xml:id="w_PrestreLeu_Berlin257_15">Le</w>
+               <w xml:id="w_PrestreLeu_Berlin257_16"><choice><orig>u</orig><reg>v</reg></choice>ilei<ex>n</ex></w>
+               <pc xml:id="w_PrestreLeu_Berlin257_17">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_PrestreLeu_Berlin257_18">q<ex>ui</ex></w>
+               <w xml:id="w_PrestreLeu_Berlin257_19">garde</w>
+               <w xml:id="w_PrestreLeu_Berlin257_20">s’</w>
+               <w xml:id="w_PrestreLeu_Berlin257_21">en</w>
+               <w xml:id="w_PrestreLeu_Berlin257_22">p<ex>ri</ex>st</w>
+               <pc xml:id="w_PrestreLeu_Berlin257_23">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="4">
+               <lb n="4"/>
+               <w xml:id="w_PrestreLeu_Berlin257_24"><choice><orig>E</orig><reg>e</reg></choice>n</w>
+               <w xml:id="w_PrestreLeu_Berlin257_25" join="right">la</w>
+               <w xml:id="w_PrestreLeu_Berlin257_26"><choice><orig>u</orig><reg>v</reg></choice>oie</w>
+               <w xml:id="w_PrestreLeu_Berlin257_27">une</w>
+               <w xml:id="w_PrestreLeu_Berlin257_28">fosse</w>
+               <w xml:id="w_PrestreLeu_Berlin257_29">fist</w>
+            </l>
+            <l n="5">
+               <lb n="5"/>
+               <w xml:id="w_PrestreLeu_Berlin257_30">p<ex>ar</ex></w>
+               <w xml:id="w_PrestreLeu_Berlin257_31">ou</w>
+               <w xml:id="w_PrestreLeu_Berlin257_32">cil</w>
+               <w xml:id="w_PrestreLeu_Berlin257_33">seut</w>
+               <w xml:id="w_PrestreLeu_Berlin257_34"><choice><orig>u</orig><reg>v</reg></choice>enir</w>
+               <w xml:id="w_PrestreLeu_Berlin257_35">laienz</w>
+               <pc xml:id="w_PrestreLeu_Berlin257_36">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="6">
+               <lb n="6"/>
+               <num>
+                  <w xml:id="w_PrestreLeu_Berlin257_37">.I.</w>
+               </num>
+               <w xml:id="w_PrestreLeu_Berlin257_38">leu</w>
+               <w xml:id="w_PrestreLeu_Berlin257_39"><choice><orig>u</orig><reg>v</reg></choice>i<ex>n</ex>t</w>
+               <w xml:id="w_PrestreLeu_Berlin257_40">la</w>
+               <w xml:id="w_PrestreLeu_Berlin257_41">nuit</w>
+               <w xml:id="w_PrestreLeu_Berlin257_42"><ex>et</ex></w>
+               <w xml:id="w_PrestreLeu_Berlin257_43" join="right" ana="#aggl-cert_low">chiet</w>
+               <w xml:id="w_PrestreLeu_Berlin257_44">enz</w>
+            </l>
+            <l n="7">
+               <lb n="7"/>
+               <w xml:id="w_PrestreLeu_Berlin257_45"><choice><orig>C</orig><reg>c</reg></choice>ar</w>
+               <w xml:id="w_PrestreLeu_Berlin257_46">la</w>
+               <w xml:id="w_PrestreLeu_Berlin257_47">nuit</w>
+               <w xml:id="w_PrestreLeu_Berlin257_48">estoit</w>
+               <w xml:id="w_PrestreLeu_Berlin257_49">trop</w>
+               <w xml:id="w_PrestreLeu_Berlin257_50">oscure</w>
+               <pc xml:id="w_PrestreLeu_Berlin257_51">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="8">
+               <lb n="8"/>
+               <w xml:id="w_PrestreLeu_Berlin257_52">Le</w>
+               <w xml:id="w_PrestreLeu_Berlin257_53">prestre</w>
+               <w xml:id="w_PrestreLeu_Berlin257_54">p<ex>ar</ex></w>
+               <w xml:id="w_PrestreLeu_Berlin257_55">mesa<choice><orig>u</orig><reg>v</reg></choice>e<ex>n</ex>ture</w>
+               <pc xml:id="w_PrestreLeu_Berlin257_56">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="9">
+               <lb n="9"/>
+               <w xml:id="w_PrestreLeu_Berlin257_57"><choice><orig>S</orig><reg>s</reg></choice>i</w>
+               <w xml:id="w_PrestreLeu_Berlin257_58" join="right"><ex>com</ex></w>
+               <w xml:id="w_PrestreLeu_Berlin257_59">soleit</w>
+               <pc xml:id="w_PrestreLeu_Berlin257_60">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_PrestreLeu_Berlin257_61">est</w>
+               <w xml:id="w_PrestreLeu_Berlin257_62">re<choice><orig>u</orig><reg>v</reg></choice>enuz</w>
+               <pc xml:id="w_PrestreLeu_Berlin257_63">
+                  <choice>
+                     <orig/>
+                     <reg>:</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="10">
+               <lb n="10"/>
+               <w xml:id="w_PrestreLeu_Berlin257_64"><choice><orig>E</orig><reg>e</reg></choice>inz</w>
+               <w xml:id="w_PrestreLeu_Berlin257_65" join="right">ne</w>
+               <w xml:id="w_PrestreLeu_Berlin257_66">sot</w>
+               <w xml:id="w_PrestreLeu_Berlin257_67">mot</w>
+               <pc xml:id="w_PrestreLeu_Berlin257_68">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_PrestreLeu_Berlin257_69">s’</w>
+               <w xml:id="w_PrestreLeu_Berlin257_70">est</w>
+               <w xml:id="w_PrestreLeu_Berlin257_71">enz</w>
+               <w xml:id="w_PrestreLeu_Berlin257_72">chaüz</w>
+               <pc xml:id="w_PrestreLeu_Berlin257_73">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="11">
+               <lb n="11"/>
+               <w xml:id="w_PrestreLeu_Berlin257_74" join="right" ana="#aggl-cert_low"><subst><del rend="overwrite">con</del><add place="inline">L</add></subst>a</w>
+               <w xml:id="w_PrestreLeu_Berlin257_75">dame</w>
+               <pc xml:id="w_PrestreLeu_Berlin257_76">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_PrestreLeu_Berlin257_77">cui</w>
+               <w xml:id="w_PrestreLeu_Berlin257_78">il</w>
+               <w xml:id="w_PrestreLeu_Berlin257_79">anuioit</w>
+            </l>
+            <l n="12">
+               <lb n="12"/>
+               <w xml:id="w_PrestreLeu_Berlin257_80"><choice><orig>D</orig><reg>d</reg></choice>u</w>
+               <w xml:id="w_PrestreLeu_Berlin257_81">pro<choice><orig>u</orig><reg>v</reg></choice>erre</w>
+               <w xml:id="w_PrestreLeu_Berlin257_82">q<ex>ui</ex></w>
+               <w xml:id="w_PrestreLeu_Berlin257_83">ta<ex>n</ex>t</w>
+               <w xml:id="w_PrestreLeu_Berlin257_84">tar<choice><orig>i</orig><reg>j</reg></choice>oit</w>
+               <pc xml:id="w_PrestreLeu_Berlin257_85">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="13">
+               <lb n="13"/>
+               <w xml:id="w_PrestreLeu_Berlin257_86">a</w>
+               <w xml:id="w_PrestreLeu_Berlin257_87">sa</w>
+               <w xml:id="w_PrestreLeu_Berlin257_88">meschine</w>
+               <w xml:id="w_PrestreLeu_Berlin257_89">dit</w>
+               <pc xml:id="w_PrestreLeu_Berlin257_90">
+                  <choice>
+                     <orig/>
+                     <reg>:</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_PrestreLeu_Berlin257_91">
+                  <choice>
+                     <orig/>
+                     <reg>«</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_PrestreLeu_Berlin257_92"><choice><orig>c</orig><reg>C</reg></choice>ha</w>
+               <w xml:id="w_PrestreLeu_Berlin257_93"><choice><orig>u</orig><reg>v</reg></choice>a</w>
+            </l>
+            <l n="14">
+               <lb n="14"/>
+               <w xml:id="w_PrestreLeu_Berlin257_94"><choice><orig>S</orig><reg>s</reg></choice>a<choice><orig>u</orig><reg>v</reg></choice>oir</w>
+               <w xml:id="w_PrestreLeu_Berlin257_95">se</w>
+               <w xml:id="w_PrestreLeu_Berlin257_96">cel</w>
+               <w xml:id="w_PrestreLeu_Berlin257_97">sire</w>
+               <w xml:id="w_PrestreLeu_Berlin257_98"><choice><orig>u</orig><reg>v</reg></choice>endra</w>
+               <pc xml:id="w_PrestreLeu_Berlin257_99">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_PrestreLeu_Berlin257_100">
+                  <choice>
+                     <orig/>
+                     <reg>»</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="15">
+               <lb n="15"/>
+               <w xml:id="w_PrestreLeu_Berlin257_101">La</w>
+               <w xml:id="w_PrestreLeu_Berlin257_102">meschine</w>
+               <w xml:id="w_PrestreLeu_Berlin257_103">est</w>
+               <w xml:id="w_PrestreLeu_Berlin257_104" join="right">p<ex>ar</ex></w>
+               <w xml:id="w_PrestreLeu_Berlin257_105">la</w>
+               <w xml:id="w_PrestreLeu_Berlin257_106"><choice><orig>u</orig><reg>v</reg></choice>enue</w>
+               <pc xml:id="w_PrestreLeu_Berlin257_107">
+                  <choice>
+                     <orig/>
+                     <reg>:</reg>
+                  </choice>
+               </pc>
+               <cb n="62vb"/>
+            </l>
+            <l n="16">
+               <lb n="16"/>
+               <w xml:id="w_PrestreLeu_Berlin257_108"><choice><orig>E</orig><reg>e</reg></choice>n</w>
+               <w xml:id="w_PrestreLeu_Berlin257_109">cele</w>
+               <w xml:id="w_PrestreLeu_Berlin257_110">fosse</w>
+               <w xml:id="w_PrestreLeu_Berlin257_111">rest</w>
+               <w xml:id="w_PrestreLeu_Berlin257_112">cheüe</w>
+               <pc xml:id="w_PrestreLeu_Berlin257_113">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="17">
+               <lb n="17"/>
+               <w xml:id="w_PrestreLeu_Berlin257_114">Li</w>
+               <w xml:id="w_PrestreLeu_Berlin257_115"><choice><orig>u</orig><reg>v</reg></choice>ilein</w>
+               <w xml:id="w_PrestreLeu_Berlin257_116">par</w>
+               <w xml:id="w_PrestreLeu_Berlin257_117">mein</w>
+               <w xml:id="w_PrestreLeu_Berlin257_118">se</w>
+               <w xml:id="w_PrestreLeu_Berlin257_119">le<choice><orig>u</orig><reg>v</reg></choice>a</w>
+               <pc xml:id="w_PrestreLeu_Berlin257_120">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="18">
+               <lb n="18"/>
+               <w xml:id="w_PrestreLeu_Berlin257_121">vers</w>
+               <w xml:id="w_PrestreLeu_Berlin257_122">sa</w>
+               <w xml:id="w_PrestreLeu_Berlin257_123">fosse</w>
+               <w xml:id="w_PrestreLeu_Berlin257_124">droit</w>
+               <w xml:id="w_PrestreLeu_Berlin257_125">en</w>
+               <w xml:id="w_PrestreLeu_Berlin257_126">ala</w>
+               <pc xml:id="w_PrestreLeu_Berlin257_127">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="19">
+               <lb n="19"/>
+               <w xml:id="w_PrestreLeu_Berlin257_128">Ce</w>
+               <w xml:id="w_PrestreLeu_Berlin257_129">q<ex>u</ex>’</w>
+               <w xml:id="w_PrestreLeu_Berlin257_130"><ex>i</ex>l</w>
+               <w xml:id="w_PrestreLeu_Berlin257_131">queroit</w>
+               <w xml:id="w_PrestreLeu_Berlin257_132">t<ex>ru</ex>e<choice><orig>u</orig><reg>v</reg></choice>e</w>
+               <w xml:id="w_PrestreLeu_Berlin257_133"><ex>et</ex></w>
+               <w xml:id="w_PrestreLeu_Berlin257_134"><choice><orig>i</orig><reg>j</reg></choice>ura</w>
+            </l>
+            <l n="20">
+               <lb n="20"/>
+               <w xml:id="w_PrestreLeu_Berlin257_135"><choice><orig>Q</orig><reg>q</reg></choice><ex>ue</ex></w>
+               <w xml:id="w_PrestreLeu_Berlin257_136">chascu<ex>n</ex></w>
+               <w xml:id="w_PrestreLeu_Berlin257_137">so<ex>n</ex></w>
+               <w xml:id="w_PrestreLeu_Berlin257_138">loier</w>
+               <w xml:id="w_PrestreLeu_Berlin257_139">a<choice><orig>u</orig><reg>v</reg></choice><ex>ra</ex></w>
+               <pc xml:id="w_PrestreLeu_Berlin257_140">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="21">
+               <lb n="21"/>
+               <w xml:id="w_PrestreLeu_Berlin257_141">Le</w>
+               <w xml:id="w_PrestreLeu_Berlin257_142">leu</w>
+               <w xml:id="w_PrestreLeu_Berlin257_143">tua</w>
+               <pc xml:id="w_PrestreLeu_Berlin257_144">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_PrestreLeu_Berlin257_145"><ex>et</ex></w>
+               <w xml:id="w_PrestreLeu_Berlin257_146">es<space type="degl"/>bourssa</w>
+            </l>
+            <l n="22">
+               <lb n="22"/>
+               <w xml:id="w_PrestreLeu_Berlin257_147"><choice><orig>L</orig><reg>l</reg></choice>e</w>
+               <w xml:id="w_PrestreLeu_Berlin257_148">prestre</w>
+               <pc xml:id="w_PrestreLeu_Berlin257_149">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_PrestreLeu_Berlin257_150"><ex>et</ex></w>
+               <w xml:id="w_PrestreLeu_Berlin257_151" join="right">la</w>
+               <w xml:id="w_PrestreLeu_Berlin257_152">garce</w>
+               <w xml:id="w_PrestreLeu_Berlin257_153">enchaça</w>
+               <pc xml:id="w_PrestreLeu_Berlin257_154">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="23">
+               <lb n="23"/>
+               <w xml:id="w_PrestreLeu_Berlin257_155"><choice><orig>a</orig><reg>A</reg></choice></w>
+               <w xml:id="w_PrestreLeu_Berlin257_156">ceus</w>
+               <w xml:id="w_PrestreLeu_Berlin257_157">a<choice><orig>u</orig><reg>v</reg></choice>i<ex>n</ex>t</w>
+               <w xml:id="w_PrestreLeu_Berlin257_158">g<ex>ra</ex>nt</w>
+               <w xml:id="w_PrestreLeu_Berlin257_159">meschaa<ex>n</ex>ce</w>
+            </l>
+            <l n="24">
+               <lb n="24"/>
+               <w xml:id="w_PrestreLeu_Berlin257_160"><ex>et</ex></w>
+               <w xml:id="w_PrestreLeu_Berlin257_161">au</w>
+               <w xml:id="w_PrestreLeu_Berlin257_162"><choice><orig>u</orig><reg>v</reg></choice>ilein</w>
+               <w xml:id="w_PrestreLeu_Berlin257_163">bele</w>
+               <w xml:id="w_PrestreLeu_Berlin257_164">chaance</w>
+               <pc xml:id="w_PrestreLeu_Berlin257_165">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="25">
+               <lb n="25"/>
+               <w xml:id="w_PrestreLeu_Berlin257_166" join="right" ana="#aggl-cert_low">Li</w>
+               <w xml:id="w_PrestreLeu_Berlin257_167">p<ex>re</ex>stres</w>
+               <w xml:id="w_PrestreLeu_Berlin257_168">honte</w>
+               <w xml:id="w_PrestreLeu_Berlin257_169">li</w>
+               <w xml:id="w_PrestreLeu_Berlin257_170">fesoit</w>
+               <pc xml:id="w_PrestreLeu_Berlin257_171">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="26">
+               <lb n="26"/>
+               <w xml:id="w_PrestreLeu_Berlin257_172"><choice><orig>L</orig><reg>l</reg></choice>i</w>
+               <w xml:id="w_PrestreLeu_Berlin257_173">leu</w>
+               <w xml:id="w_PrestreLeu_Berlin257_174">ses</w>
+               <w xml:id="w_PrestreLeu_Berlin257_175">bestes</w>
+               <w xml:id="w_PrestreLeu_Berlin257_176">estra<ex>n</ex>gloit</w>
+               <pc xml:id="w_PrestreLeu_Berlin257_177">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="27">
+               <lb n="27"/>
+               <w xml:id="w_PrestreLeu_Berlin257_178">Chascu<ex>n</ex></w>
+               <w xml:id="w_PrestreLeu_Berlin257_179">d’</w>
+               <w xml:id="w_PrestreLeu_Berlin257_180">eus</w>
+               <w xml:id="w_PrestreLeu_Berlin257_181">acheta</w>
+               <w xml:id="w_PrestreLeu_Berlin257_182">m<ex>o</ex>lt</w>
+               <w xml:id="w_PrestreLeu_Berlin257_183">ch<ex>ie</ex>r</w>
+               <pc xml:id="w_PrestreLeu_Berlin257_184">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="28">
+               <lb n="28"/>
+               <w xml:id="w_PrestreLeu_Berlin257_185"><choice><orig>C</orig><reg>c</reg></choice>il</w>
+               <w xml:id="w_PrestreLeu_Berlin257_186">so<ex>n</ex></w>
+               <w xml:id="w_PrestreLeu_Berlin257_187">deduit</w>
+               <pc xml:id="w_PrestreLeu_Berlin257_188">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_PrestreLeu_Berlin257_189">cil</w>
+               <w xml:id="w_PrestreLeu_Berlin257_190">son</w>
+               <w xml:id="w_PrestreLeu_Berlin257_191">me<ex>n</ex>g<ex>ier</ex></w>
+               <pc xml:id="w_PrestreLeu_Berlin257_192">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+         </lg>
+         <p rend="explicit" style="font-weight: bold; ">
+            <w xml:id="w_PrestreLeu_Berlin257_193">Explicit</w>
+         </p>
+      </body>
+   </text>
+</TEI>

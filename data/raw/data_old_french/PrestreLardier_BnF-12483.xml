@@ -1,0 +1,3064 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="fro">Le Prestre qui fu mis au lardier</title>
+            <author>Anonyme</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2023</date>
+            </edition>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="acorbellari">Alain Corbellari</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="alavrent">Alexei Lavrentiev</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="apinche">Ariane Pinche</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="blaid">Baptiste Laïd</name>
+            </respStmt>
+            <respStmt>
+               <resp>robot</resp>
+               <name xml:id="bot">bot bot</name>
+            </respStmt>
+            <respStmt>
+               <resp>relecteur</resp>
+               <resp>membre</resp>
+               <name xml:id="cguillot">Céline Guillot-Barbance</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="clachet">Claude Lachet</name>
+            </respStmt>
+            <respStmt>
+               <resp>editeur</resp>
+               <resp>traducteur</resp>
+               <resp>chef de projet</resp>
+               <name xml:id="cpierreville">Corinne Pierreville</name>
+            </respStmt>
+            <respStmt>
+               <resp>relecteur-traduction</resp>
+               <resp>membre</resp>
+               <name xml:id="ggruber">Gauthier Grüber</name>
+            </respStmt>
+            <respStmt>
+               <resp>ingénieur</resp>
+               <name xml:id="jnuguet">Jules Nuguet</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="ngarnier">Nicolas Garnier</name>
+            </respStmt>
+            <respStmt>
+               <resp>Relecteur traduction</resp>
+               <name xml:id="rbellon">Roger Bellon</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="rtrachsler">Richard Trachsler</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="veugene">Valentine Eugène</name>
+            </respStmt>
+            <respStmt>
+               <resp>ingénieur</resp>
+               <name xml:id="myamagata">Moe Yamagata</name>
+            </respStmt>
+            <respStmt>
+               <resp/>
+               <name xml:id="jdocks">Justine DOCKS</name>
+            </respStmt>
+            <respStmt>
+               <resp>editeur</resp>
+               <resp>relecteur</resp>
+               <resp>traducteur</resp>
+               <resp>relecteur-traduction</resp>
+               <resp/>
+               <name> </name>
+            </respStmt>
+         </editionStmt>
+         <extent>
+            <num xml:id="nb_tokens_given">1288</num>
+            <num xml:id="nb_mots_given">1101</num>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <name>ENS de Lyon / UMR 5317 IHRIM, Base de français médiéval, projet Fabliaux</name>
+            </publisher>
+            <address>
+               <addrLine>15, parvis René Descartes</addrLine>
+               <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+               <addrLine>Tél : 04 37 37 63 10</addrLine>
+               <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+               <addrLine>http://bfm.ens-lyon.fr</addrLine>
+            </address>
+            <idno type="bfm">http://catalog.bfm-corpus.org/fabliaux/PrestreLardier_BnF-12483</idno>
+            <idno type="doi">10.34847/nkl.f5fcx0ay</idno>
+            <availability status="free">
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <ab type="availability_bfm">Les Conditions générales d'utilisation de la Base de Français Médiéval (http://txm.bfm-corpus.org/bfm/files/CGU.pdf), 
+                        et notamment son Article 5 « PROPRIETE INTELLECTUELLE », s'appliquent à tous les textes de la BFM.</ab>
+                  <ab type="how_to_cite">
+                     <label>Comment citer ce texte :</label>
+                     <bibl>Le Prestre qui fu mis au lardier, édité par Corinne Pierreville en collaboration avec Céline Guillot-Barbance. Publié en ligne par l’ENS de Lyon dans la Base de français médiéval, 
+2023, http://catalog.bfm-corpus.org/fabliaux/PrestreLardier_BnF-12483.</bibl>
+                        D'autres formules de citation de la BFM sont proposées sur la page web suivante :
+                        http://bfm.ens-lyon.fr/spip.php?article281.</ab>
+                  <ab type="availability_file">
+                     <label>Conditions d'utilisation de ce fichier :</label>
+                        Ce fichier numérique est composé du corps de texte médiéval (restauré par son ou ses éditeur(s) scientifique(s)), des apparats critiques (introductions, notes, glossaires, explications, du texte d'origine (ou des enrichissements) qui ont été réalisés dans le cadre de la restauration des textes par les Editeurs Scientifiques) et des suppléments numériques : balisage XML-TEI, métadonnées (teiHeader), balisage du discours direct, étiquetage morpho-syntaxique, lemmatisation. Le texte et les suppléments numériques sont libres de droit et peuvent à ce titre être téléchargés et réutilisés librement. Les apparats critiques sont soumis à une licence de type CC BY-NC-SA 3.0 FR  http://creativecommons.org/licenses/by-nc-sa/3.0/fr. Les Utilisateurs s’engagent à respecter les termes de cette licence. 
+                    </ab>
+                  <ab type="availability_txmweb" subtype="illimité">
+                     <label>Conditions d'utilisation par le portail BFM :</label>
+                        Pas de limitation dans l'usage des fonctionnalités. Téléchargement autorisé.</ab>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="main" xml:id="BnF-12483">
+               <msIdentifier>
+                  <settlement>Paris</settlement>
+                  <repository>Bibliothèque nationale de France</repository>
+                  <idno>français 12483</idno>
+                  <idno type="URI" subtype="Notice" n="Arlima">https://www.arlima.net/mss/france/paris/bibliotheque_nationale_de_france/francais/12483.html</idno>
+                  <idno type="URI" subtype="Notice" n="Jonas">https://jonas.irht.cnrs.fr/consulter/manuscrit/detail_manuscrit.php?projet=45794</idno>
+                  <idno type="URI" subtype="Notice" n="Archives_et_manuscrits">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc43681w</idno>
+                  <idno type="URI" subtype="Data" n="Biblissima">
+https://data.biblissima.fr/entity/Q45958</idno>
+                  <idno type="URI" subtype="Fac-similé">https://gallica.bnf.fr/ark:/12148/btv1b8454680s</idno>
+                  <idno type="URI" subtype="Manifeste_IIIF">https://gallica.bnf.fr/iiif/ark:/12148/btv1b8454680s/manifest.json</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem xml:id="deBordeorsRibaux_BnF-12483">
+                     <title>Les deux Bordeors ribaux</title>
+                  </msItem>
+                  <msItem xml:id="MartinHapart_BnF-12483">
+                     <title>Martin Hapart</title>
+                  </msItem>
+                  <msItem xml:id="PrestreLardier_BnF-12483">
+                     <locus>f. 193a-194vb</locus>
+                     <title>Le Prestre qui fu mis au lardier</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin notBefore="1320-01-01" notAfter="1350-12-31">
+                     <p>2e quart du 14e s.</p>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <title type="main" xml:lang="fro">Le Prestre qui fu mis au lardier</title>
+            <title type="alt" key="Meyer 1874; Arlima">Le savetier Baillet</title>
+            <title type="alt" key="Dufournet 1998 ; Johnston et Owen 1957">Baillet</title>
+            <title type="modern" xml:lang="fr">Le prêtre qui fut mis au lardier
+            </title>
+            <date notBefore="1300-01-01" notAfter="1349-12-31" when="1325-01-01">1ère moitié du 14e s.</date>
+            <region type="dialecte_oeuvre">Non défini</region>
+            <idno type="INV" subtype="Montaiglon-Raynaud">32</idno>
+            <idno type="INV" subtype="Bedier">99</idno>
+            <idno type="INV" subtype="Nykrog">113</idno>
+            <idno type="INV" subtype="Jodogne">113</idno>
+            <idno type="URI" n="Jonas">https://jonas.irht.cnrs.fr/oeuvre/8970</idno>
+            <idno type="URI" n="Arlima">https://www.arlima.net/qt/savetier_baillet.html</idno>
+         </creation>
+         <langUsage>
+            <language ident="fro"/>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.bfm-corpus.org">
+               <term type="domaine">littérature</term>
+               <term type="genre" cert="low">Fabliau
+               </term>
+               <term type="forme">vers</term>
+               <term type="relation">non renseigné</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#cpierreville" when="2023-09-13T09:16:35" n="v1.0">Utilisation du fichier PrestreLardier[BnF 12483]v1 PROBLEME.docx</change>
+         <change who="#bot" when="2023-09-14" n="v1.0">Transformation avec Oxgarage du fichier PrestreLardier[BnF 12483]1.0.docx</change>
+         <change who="#cpierreville" when="2023-09-14T07:27:14" n="v1.0">Utilisation du fichier PrestreLardier[BnF 12483]v1 +NRCF.docx</change>
+         <change who="#cpierreville" when="2023-09-18T07:48:53" n="v1.0">Utilisation du fichier PrestreLardier[BnF 12483]v1 +NRCF.docx</change>
+         <change who="#alavrent" when="2023-09-20T12:33:27" n="v2.0">Utilisation du fichier PrestreLardier[BnF 12483]v2 revu AL.docx</change>
+         <change who="#bot" when="2023-09-20" n="v2.0">Transformation avec Oxgarage du fichier PrestreLardier[BnF 12483]2.0.docx</change>
+         <change who="#cpierreville" when="2023-10-10T08:38:45" n="v2.0">Utilisation du fichier PrestreLardier[BnF 12483]v2.docx</change>
+         <change who="#cpierreville" when="2023-10-12T13:43:30" n="v1.0">Utilisation du fichier PrestreLardier[BnF 12483]trad-v1.docx</change>
+         <change who="#cpierreville" when="2023-10-12T13:50:36" n="v3.0">Utilisation du fichier PrestreLardier[BnF 12483]v3.docx</change>
+         <change who="#bot" when="2023-10-13" n="v3.0">Transformation avec Oxgarage du fichier PrestreLardier[BnF 12483]3.0.docx</change>
+         <change who="#bot" when="2023-10-13" n="v1.0">Transformation avec Oxgarage du fichier PrestreLardier[BnF 12483]1.0.docx</change>
+         <change who="#cpierreville" when="2023-10-13T06:42:10" n="v4.0">Utilisation du fichier PrestreLardier[BnF 12483]v4.docx</change>
+         <change who="#bot" when="2023-10-14" n="v4.0">Transformation avec Oxgarage du fichier PrestreLardier[BnF 12483]4.0.docx</change>
+         <change who="#cguill01" when="2023-10-23T13:56:57" n="v4.1">Utilisation du fichier PrestreLardier[BnF 12483]v4.1.docx</change>
+         <change who="#bot" when="2023-10-24" n="v4.1">Transformation avec Oxgarage du fichier PrestreLardier[BnF 12483]4.1.docx</change>
+         <change who="#cpierreville" when="2023-10-25T05:51:45" n="v5.0">Utilisation du fichier PrestreLardier[BnF 12483]v5.docx</change>
+         <change who="#bot" when="2023-10-26" n="v5.0">Transformation avec Oxgarage du fichier PrestreLardier[BnF 12483]5.0.docx</change>
+         <change who="#alavrent" when="2023-11-02T16:24:17" n="v5.1">Utilisation du fichier PrestreLardier[BnF 12483]v5.1 correction de police de caractère v167.docx</change>
+         <change who="#bot" when="2023-11-03" n="v5.1">Transformation avec Oxgarage du fichier PrestreLardier[BnF 12483]5.1.docx</change>
+         <change who="#alavrent" when="2023-11-04T14:47:15" n="v1.1">Utilisation du fichier PrestreLardier[BnF 12483]trad-v1.1 corr style Prose.docx</change>
+         <change who="#bot" when="2023-11-04" n="v1.1">Transformation avec Oxgarage du fichier PrestreLardier[BnF 12483]1.1.docx</change>
+         <change who="#alavrent" when="2023-11-04T17:52:19" n="v2.1">Utilisation du fichier PrestreLardier[BnF 12483]trad-v2.1 corr style Prose.docx</change>
+         <change who="#bot" when="2023-11-04" n="v2.1">Transformation avec Oxgarage du fichier PrestreLardier[BnF 12483]2.1.docx</change>
+         <change who="#cpierreville" when="2023-11-17T10:52:26" n="v3.1">Utilisation du fichier PrestreLardier[BnF 12483]trad-v3.1.docx</change>
+         <change who="#cpierreville" when="2023-11-17T10:55:29" n="v6.1">Utilisation du fichier PrestreLardier[BnF 12483]v6.1.docx</change>
+         <change who="#bot" when="2023-11-17" n="v6.1">Transformation avec Oxgarage du fichier PrestreLardier[BnF 12483]6.1.docx</change>
+         <change who="#bot" when="2023-11-17" n="v3.1">Transformation avec Oxgarage du fichier PrestreLardier[BnF 12483]3.1.docx</change>
+         <change who="#cpierreville" when="2023-12-22T08:58:04" n="v6.2">Utilisation du fichier PrestreLardier[BnF 12483]v6.2.docx</change>
+         <change who="#bot" when="2023-12-22" n="v6.2">Transformation avec Oxgarage du fichier PrestreLardier[BnF 12483]6.2.docx</change>
+         <change who="#ohelary" when="2024-01-04T16:12:19" n="v3.2">Utilisation du fichier PrestreLardier[BnF 12483]trad-v3.2.docx</change>
+         <change who="#ohelary" when="2024-01-04T15:45:49" n="v6.3">Utilisation du fichier PrestreLardier[BnF 12483]v6.3 saut paragraphe.docx</change>
+         <change who="#bot" when="2024-01-05" n="v6.3">Transformation avec Oxgarage du fichier PrestreLardier[BnF 12483]6.3.docx</change>
+         <change who="#bot" when="2024-01-05" n="v3.2">Transformation avec Oxgarage du fichier PrestreLardier[BnF 12483]3.2.docx</change>
+         <change who="#ggruber" when="2024-05-31T20:40:23" n="v3.2">Utilisation du fichier PrestreLardier[BnF 12483]trad-v3.2_reluGG.docx</change>
+         <change who="#cpierreville" when="2024-06-06T09:20:56" n="v3.3">Utilisation du fichier PrestreLardier[BnF 12483]trad-v3.3.docx</change>
+         <change who="#bot" when="2024-06-06" n="v3.3">Transformation avec Oxgarage du fichier PrestreLardier[BnF 12483]3.3.docx</change>
+      </revisionDesc>
+   </teiHeader>
+   <text source="PrestreLardier_BnF-12483">
+      <body>
+         <pb n="193r"
+              xml:id="pb_1"
+              facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8454680s/f389/full/pct:50/0/native.jpg"/>
+         <cb n="193rb"/>
+         <lg>
+            <l n="1">
+               <lb n="1"/>
+               <w xml:id="w_PrestreLardier_BnF12483_1"><g type="initiale" rend="size(2) sizeAct(2) color(blue)">M</g>os</w>
+               <w xml:id="w_PrestreLardier_BnF12483_2">sans</w>
+               <w xml:id="w_PrestreLardier_BnF12483_3">vilennie</w>
+               <note type="philologique">
+                  <p rend="footnote text" style="text-align: justify;">Juste avant le début du fabliau, on lit les octosyllabes suivants : <hi rend="italic">Marie nous fait molt confort/ La sauvage grant desconfort/ Trop pis nous fait c’un dur quidier/ L’essample le dist de Bailet</hi>. Ce récit plaisant appartient donc à un ensemble littéraire plus vaste et édifiant, une anthologie de pièces en l’honneur de la Vierge. Plus loin, au folio 198ra débute le fabliau que Méon nomme <hi rend="italic">Du Vilain asnier, ou Du Vilain qui devint riche et puis povre, </hi>qu’on désigne actuellement sous le nom de <hi rend="italic">Merlot </hi>ou <hi rend="italic">Merlin Merlot</hi>. La version de ce second fabliau est sensiblement différente de celle conservée dans <hi rend="italic">Renart le Contrefait.</hi>
+                  </p>
+               </note>
+            </l>
+            <l n="2">
+               <lb n="2"/>
+               <w xml:id="w_PrestreLardier_BnF12483_4"><choice><orig>U</orig><reg>V</reg></choice>ous</w>
+               <note type="philologique">
+                  <p rend="footnote text">Comme ce fabliau adopte la forme d’une chanson, nous avons conservé les majuscules au-début de chaque vers.</p>
+               </note>
+               <w xml:id="w_PrestreLardier_BnF12483_5">veil</w>
+               <w xml:id="w_PrestreLardier_BnF12483_6">recorder</w>
+            </l>
+            <l n="3">
+               <lb n="3"/>
+               <w xml:id="w_PrestreLardier_BnF12483_7">Afin</w>
+               <w xml:id="w_PrestreLardier_BnF12483_8">qu’</w>
+               <w xml:id="w_PrestreLardier_BnF12483_9">en</w>
+               <w xml:id="w_PrestreLardier_BnF12483_10">s’</w>
+               <w xml:id="w_PrestreLardier_BnF12483_11" join="right" ana="#aggl-cert_low">en</w>
+               <w xml:id="w_PrestreLardier_BnF12483_12">rie</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_13">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="4">
+               <lb n="4"/>
+               <w xml:id="w_PrestreLardier_BnF12483_14">D’</w>
+               <w xml:id="w_PrestreLardier_BnF12483_15">un</w>
+               <w xml:id="w_PrestreLardier_BnF12483_16">franc</w>
+               <w xml:id="w_PrestreLardier_BnF12483_17">sa<choice><orig>u</orig><reg>v</reg></choice>etier</w>
+            </l>
+            <l n="5">
+               <lb n="5"/>
+               <w xml:id="w_PrestreLardier_BnF12483_18">Q<ex>ui</ex></w>
+               <w xml:id="w_PrestreLardier_BnF12483_19">a</w>
+               <w xml:id="w_PrestreLardier_BnF12483_20">non</w>
+               <w xml:id="w_PrestreLardier_BnF12483_21"><choice><orig>b</orig><reg>B</reg></choice>aillait</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_22">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <lb n="6"/>
+               <w xml:id="w_PrestreLardier_BnF12483_24"><choice><orig>M</orig><reg>m</reg></choice>es</w>
+               <w xml:id="w_PrestreLardier_BnF12483_25">p<ex>ar</ex></w>
+               <w xml:id="w_PrestreLardier_BnF12483_26">destourbier</w>
+            </l>
+            <l n="6">
+               <lb n="7"/>
+               <w xml:id="w_PrestreLardier_BnF12483_27">Prist</w>
+               <w xml:id="w_PrestreLardier_BnF12483_28">trop</w>
+               <w xml:id="w_PrestreLardier_BnF12483_29">bele</w>
+               <w xml:id="w_PrestreLardier_BnF12483_30">fame</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_31">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <lb n="8"/>
+               <w xml:id="w_PrestreLardier_BnF12483_33" join="right"><choice><orig>S</orig><reg>s</reg></choice>i</w>
+               <w xml:id="w_PrestreLardier_BnF12483_34">l’</w>
+               <w xml:id="w_PrestreLardier_BnF12483_35">en</w>
+               <w xml:id="w_PrestreLardier_BnF12483_36">mescheï</w>
+            </l>
+            <l n="7">
+               <lb n="9"/>
+               <w xml:id="w_PrestreLardier_BnF12483_37">Qu’</w>
+               <w xml:id="w_PrestreLardier_BnF12483_38">ele</w>
+               <w xml:id="w_PrestreLardier_BnF12483_39">s’</w>
+               <w xml:id="w_PrestreLardier_BnF12483_40">a<space type="degl" cert="low"/>cointa</w>
+               <lb n="10"/>
+               <w xml:id="w_PrestreLardier_BnF12483_42"><choice><orig>D</orig><reg>d</reg></choice>’</w>
+               <w xml:id="w_PrestreLardier_BnF12483_43">un</w>
+               <w xml:id="w_PrestreLardier_BnF12483_44">prestre</w>
+               <w xml:id="w_PrestreLardier_BnF12483_45"><choice><orig>i</orig><reg>j</reg></choice>oli</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_46">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="8">
+               <lb n="11"/>
+               <w xml:id="w_PrestreLardier_BnF12483_47">Mes</w>
+               <w xml:id="w_PrestreLardier_BnF12483_48">le</w>
+               <w xml:id="w_PrestreLardier_BnF12483_49">ça<choice><orig>u</orig><reg>v</reg></choice>etier</w>
+               <lb n="12"/>
+               <w xml:id="w_PrestreLardier_BnF12483_51"><choice><orig>M</orig><reg>m</reg></choice><ex>o</ex>lt</w>
+               <w xml:id="w_PrestreLardier_BnF12483_52">bien</w>
+               <w xml:id="w_PrestreLardier_BnF12483_53">s’</w>
+               <w xml:id="w_PrestreLardier_BnF12483_54" join="right" ana="#aggl-cert_low">en</w>
+               <w xml:id="w_PrestreLardier_BnF12483_55">che<choice><orig>u</orig><reg>v</reg></choice>i</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_56">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+         </lg>
+         <lg>
+            <l n="9">
+               <lb n="13"/>
+               <w xml:id="w_PrestreLardier_BnF12483_57"><g type="initiale" rend="size(1) sizeAct(1) color(blue)">Q</g>uant</w>
+               <w xml:id="w_PrestreLardier_BnF12483_58"><choice><orig>b</orig><reg>B</reg></choice>aillet</w>
+               <w xml:id="w_PrestreLardier_BnF12483_59">aloit</w>
+            </l>
+            <l n="10">
+               <lb n="14"/>
+               <w xml:id="w_PrestreLardier_BnF12483_60">Hors</w>
+               <w xml:id="w_PrestreLardier_BnF12483_61">de</w>
+               <w xml:id="w_PrestreLardier_BnF12483_62">son</w>
+               <w xml:id="w_PrestreLardier_BnF12483_63">ostel</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_64">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="11">
+               <lb n="15"/>
+               <w xml:id="w_PrestreLardier_BnF12483_65">Le</w>
+               <w xml:id="w_PrestreLardier_BnF12483_66">prestre</w>
+               <w xml:id="w_PrestreLardier_BnF12483_67">venoit</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_68">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="12">
+               <lb n="16"/>
+               <w xml:id="w_PrestreLardier_BnF12483_69">Q<ex>ui</ex></w>
+               <w xml:id="w_PrestreLardier_BnF12483_70">estoit</w>
+               <w xml:id="w_PrestreLardier_BnF12483_71">isnel</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_72">
+                  <choice>
+                     <orig>.</orig>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="13">
+               <lb n="17"/>
+               <w xml:id="w_PrestreLardier_BnF12483_73">A</w>
+               <w xml:id="w_PrestreLardier_BnF12483_74">la</w>
+               <w xml:id="w_PrestreLardier_BnF12483_75">sa<choice><orig>u</orig><reg>v</reg></choice>etiere</w>
+               <lb n="18"/>
+               <w xml:id="w_PrestreLardier_BnF12483_77"><choice><orig>F</orig><reg>f</reg></choice>ourbissoit</w>
+               <w xml:id="w_PrestreLardier_BnF12483_78">l’</w>
+               <w xml:id="w_PrestreLardier_BnF12483_79">anel</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_80">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="14">
+               <lb n="19"/>
+               <w xml:id="w_PrestreLardier_BnF12483_81">Entr’</w>
+               <w xml:id="w_PrestreLardier_BnF12483_82">eus</w>
+               <w xml:id="w_PrestreLardier_BnF12483_83">deus</w>
+               <w xml:id="w_PrestreLardier_BnF12483_84">faisoient</w>
+               <lb n="20"/>
+               <w xml:id="w_PrestreLardier_BnF12483_86"><choice><orig>M</orig><reg>m</reg></choice><ex>o</ex>lt</w>
+               <w xml:id="w_PrestreLardier_BnF12483_87">de</w>
+               <w xml:id="w_PrestreLardier_BnF12483_88">leur</w>
+               <w xml:id="w_PrestreLardier_BnF12483_89">soulas</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_90">
+                  <choice>
+                     <orig/>
+                     <reg>:</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="15">
+               <lb n="21"/>
+               <w xml:id="w_PrestreLardier_BnF12483_91">Des</w>
+               <w xml:id="w_PrestreLardier_BnF12483_92">meilleurs</w>
+               <w xml:id="w_PrestreLardier_BnF12483_93">morsiaus</w>
+               <lb n="22"/>
+               <w xml:id="w_PrestreLardier_BnF12483_95"><choice><orig>M</orig><reg>m</reg></choice>engoient</w>
+               <w xml:id="w_PrestreLardier_BnF12483_96" join="right">a</w>
+               <w xml:id="w_PrestreLardier_BnF12483_97">tas</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_98">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="16">
+               <lb n="23"/>
+               <w xml:id="w_PrestreLardier_BnF12483_99">Et</w>
+               <w xml:id="w_PrestreLardier_BnF12483_100">le</w>
+               <w xml:id="w_PrestreLardier_BnF12483_101">plus</w>
+               <w xml:id="w_PrestreLardier_BnF12483_102">fort</w>
+               <w xml:id="w_PrestreLardier_BnF12483_103">vin</w>
+               <lb n="24"/>
+               <w xml:id="w_PrestreLardier_BnF12483_105"><choice><orig>N</orig><reg>n</reg></choice>’</w>
+               <w xml:id="w_PrestreLardier_BnF12483_106">esp<ex>ar</ex>gnoient</w>
+               <w xml:id="w_PrestreLardier_BnF12483_107">pas</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_108">
+                  <choice>
+                     <orig>.</orig>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+         </lg>
+         <lg>
+            <l n="17">
+               <lb n="25"/>
+               <w xml:id="w_PrestreLardier_BnF12483_109"><g type="initiale" rend="size(1) sizeAct(1) color(red)">L</g>e</w>
+               <w xml:id="w_PrestreLardier_BnF12483_110">sa<choice><orig>u</orig><reg>v</reg></choice>etier</w>
+               <w xml:id="w_PrestreLardier_BnF12483_111">frans</w>
+            </l>
+            <l n="18">
+               <lb n="26"/>
+               <w xml:id="w_PrestreLardier_BnF12483_112">Une</w>
+               <w xml:id="w_PrestreLardier_BnF12483_113">fille</w>
+               <w xml:id="w_PrestreLardier_BnF12483_114">a<choice><orig>u</orig><reg>v</reg></choice>oit</w>
+            </l>
+            <l n="19">
+               <lb n="27"/>
+               <w xml:id="w_PrestreLardier_BnF12483_115">D’</w>
+               <w xml:id="w_PrestreLardier_BnF12483_116">en<choice><orig>u</orig><reg>v</reg></choice>iron</w>
+               <w xml:id="w_PrestreLardier_BnF12483_117">trois</w>
+               <w xml:id="w_PrestreLardier_BnF12483_118">ans</w>
+            </l>
+            <l n="20">
+               <lb n="28"/>
+               <w xml:id="w_PrestreLardier_BnF12483_119">Q<ex>ui</ex></w>
+               <w xml:id="w_PrestreLardier_BnF12483_120">m<ex>o</ex>lt</w>
+               <w xml:id="w_PrestreLardier_BnF12483_121">bien</w>
+               <w xml:id="w_PrestreLardier_BnF12483_122">p<ex>ar</ex>loit</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_123">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="21">
+               <lb n="29"/>
+               <w xml:id="w_PrestreLardier_BnF12483_124">A</w>
+               <w xml:id="w_PrestreLardier_BnF12483_125">son</w>
+               <w xml:id="w_PrestreLardier_BnF12483_126">pere</w>
+               <w xml:id="w_PrestreLardier_BnF12483_127">dit</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_128">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <lb n="30"/>
+               <w xml:id="w_PrestreLardier_BnF12483_130"><choice><orig>Q</orig><reg>q</reg></choice><ex>ui</ex></w>
+               <w xml:id="w_PrestreLardier_BnF12483_131">souliers</w>
+               <w xml:id="w_PrestreLardier_BnF12483_132">cousoit</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_133">
+                  <choice>
+                     <orig/>
+                     <reg>:</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="22">
+               <lb n="31"/>
+               <pc xml:id="w_PrestreLardier_BnF12483_134">
+                  <choice>
+                     <orig/>
+                     <reg>«</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_PrestreLardier_BnF12483_135"><choice><orig>U</orig><reg>V</reg></choice>oir</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_136">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_PrestreLardier_BnF12483_137" join="right">ma</w>
+               <w xml:id="w_PrestreLardier_BnF12483_138">mere</w>
+               <w xml:id="w_PrestreLardier_BnF12483_139" join="right">a</w>
+               <w xml:id="w_PrestreLardier_BnF12483_140">duel</w>
+               <lb n="32"/>
+               <w xml:id="w_PrestreLardier_BnF12483_142"><choice><orig>Q</orig><reg>q</reg></choice><ex>u</ex>’</w>
+               <w xml:id="w_PrestreLardier_BnF12483_143"><ex>e</ex>stes</w>
+               <w xml:id="w_PrestreLardier_BnF12483_144">ceens</w>
+               <w xml:id="w_PrestreLardier_BnF12483_145">tant</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_146">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_PrestreLardier_BnF12483_147">
+                  <choice>
+                     <orig/>
+                     <reg>»</reg>
+                  </choice>
+               </pc>
+               <pb n="193v"
+                    xml:id="pb_2"
+                    facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8454680s/f390/full/pct:50/0/native.jpg"/>
+               <cb n="193va"/>
+            </l>
+            <l n="23">
+               <lb n="33"/>
+               <w xml:id="w_PrestreLardier_BnF12483_149">Bailet</w>
+               <w xml:id="w_PrestreLardier_BnF12483_150">respondi</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_151">
+                  <choice>
+                     <orig/>
+                     <reg>:</reg>
+                  </choice>
+               </pc>
+               <lb n="34"/>
+               <pc xml:id="w_PrestreLardier_BnF12483_153">
+                  <choice>
+                     <orig/>
+                     <reg>«</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_PrestreLardier_BnF12483_154">Pour</w>
+               <w xml:id="w_PrestreLardier_BnF12483_155">quoy</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_156">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_PrestreLardier_BnF12483_157">mon</w>
+               <w xml:id="w_PrestreLardier_BnF12483_158">enfant</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_159">
+                  <choice>
+                     <orig/>
+                     <reg>?</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="24">
+               <lb n="35"/>
+               <pc xml:id="w_PrestreLardier_BnF12483_160">
+                  <choice>
+                     <orig/>
+                     <reg>-</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_PrestreLardier_BnF12483_161" join="right">Pour</w>
+               <w xml:id="w_PrestreLardier_BnF12483_162">ce</w>
+               <w xml:id="w_PrestreLardier_BnF12483_163">que</w>
+               <w xml:id="w_PrestreLardier_BnF12483_164">le</w>
+               <w xml:id="w_PrestreLardier_BnF12483_165">prest<ex>r</ex>e</w>
+               <lb n="36"/>
+               <w xml:id="w_PrestreLardier_BnF12483_167"><choice><orig>V</orig><reg>v</reg></choice>ous</w>
+               <w xml:id="w_PrestreLardier_BnF12483_168">va</w>
+               <w xml:id="w_PrestreLardier_BnF12483_169">trop</w>
+               <w xml:id="w_PrestreLardier_BnF12483_170">doutant</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_171">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+         </lg>
+         <lg>
+            <l n="25">
+               <lb n="37"/>
+               <w xml:id="w_PrestreLardier_BnF12483_172"><g type="initiale" rend="size(1) sizeAct(1) color(blue)">M</g>es</w>
+               <w xml:id="w_PrestreLardier_BnF12483_173">q<ex>ua</ex>nt</w>
+               <w xml:id="w_PrestreLardier_BnF12483_174">alez</w>
+               <w xml:id="w_PrestreLardier_BnF12483_175">vendre</w>
+            </l>
+            <l n="26">
+               <lb n="38"/>
+               <w xml:id="w_PrestreLardier_BnF12483_176"><choice><orig>U</orig><reg>V</reg></choice>os</w>
+               <w xml:id="w_PrestreLardier_BnF12483_177">souliers</w>
+               <w xml:id="w_PrestreLardier_BnF12483_178">aus</w>
+               <w xml:id="w_PrestreLardier_BnF12483_179">gens</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_180">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="27">
+               <lb n="39"/>
+               <w xml:id="w_PrestreLardier_BnF12483_181">Lors</w>
+               <w xml:id="w_PrestreLardier_BnF12483_182">vient</w>
+               <w xml:id="w_PrestreLardier_BnF12483_183">sans</w>
+               <w xml:id="w_PrestreLardier_BnF12483_184">attendre</w>
+            </l>
+            <l n="28">
+               <lb n="40"/>
+               <w xml:id="w_PrestreLardier_BnF12483_185">Monseign<ex>eu</ex>r</w>
+               <w xml:id="w_PrestreLardier_BnF12483_186"><choice><orig>l</orig><reg>L</reg></choice>orens</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_187">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="29">
+               <lb n="41"/>
+               <w xml:id="w_PrestreLardier_BnF12483_188" join="right">De</w>
+               <w xml:id="w_PrestreLardier_BnF12483_189">bonnes</w>
+               <w xml:id="w_PrestreLardier_BnF12483_190">viandes</w>
+               <lb n="42"/>
+               <w xml:id="w_PrestreLardier_BnF12483_192"><choice><orig>F</orig><reg>f</reg></choice>et</w>
+               <w xml:id="w_PrestreLardier_BnF12483_193">venir</w>
+               <w xml:id="w_PrestreLardier_BnF12483_194">ceens</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_195">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="30">
+               <lb n="43"/>
+               <w xml:id="w_PrestreLardier_BnF12483_196">Et</w>
+               <w xml:id="w_PrestreLardier_BnF12483_197" join="right" ana="#aggl-cert_low">ma</w>
+               <w xml:id="w_PrestreLardier_BnF12483_198">mere</w>
+               <w xml:id="w_PrestreLardier_BnF12483_199">fait</w>
+               <lb n="44"/>
+               <w xml:id="w_PrestreLardier_BnF12483_201"><choice><orig>T</orig><reg>t</reg></choice>artes</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_202">
+                  <choice>
+                     <orig>.</orig>
+                     <reg/>
+                  </choice>
+               </pc>
+               <w xml:id="w_PrestreLardier_BnF12483_203"><ex>et</ex></w>
+               <w xml:id="w_PrestreLardier_BnF12483_204">pastez</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_205">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="31">
+               <lb n="45"/>
+               <w xml:id="w_PrestreLardier_BnF12483_206">Q<ex>ua</ex>nt</w>
+               <w xml:id="w_PrestreLardier_BnF12483_207">la</w>
+               <w xml:id="w_PrestreLardier_BnF12483_208">table</w>
+               <w xml:id="w_PrestreLardier_BnF12483_209">est</w>
+               <w xml:id="w_PrestreLardier_BnF12483_210">mise</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_211">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <lb n="46"/>
+               <w xml:id="w_PrestreLardier_BnF12483_213"><choice><orig>L</orig><reg>l</reg></choice>’</w>
+               <w xml:id="w_PrestreLardier_BnF12483_214">en</w>
+               <w xml:id="w_PrestreLardier_BnF12483_215">m’</w>
+               <w xml:id="w_PrestreLardier_BnF12483_216" join="right">en</w>
+               <w xml:id="w_PrestreLardier_BnF12483_217">donne</w>
+               <w xml:id="w_PrestreLardier_BnF12483_218">assez</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_219">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="32">
+               <lb n="47"/>
+               <w xml:id="w_PrestreLardier_BnF12483_220">Mes</w>
+               <w xml:id="w_PrestreLardier_BnF12483_221">n’</w>
+               <w xml:id="w_PrestreLardier_BnF12483_222">ay</w>
+               <w xml:id="w_PrestreLardier_BnF12483_223">que</w>
+               <w xml:id="w_PrestreLardier_BnF12483_224">du</w>
+               <w xml:id="w_PrestreLardier_BnF12483_225">pain</w>
+               <lb n="48"/>
+               <w xml:id="w_PrestreLardier_BnF12483_227"><choice><orig>Q</orig><reg>q</reg></choice><ex>ua</ex>nt</w>
+               <w xml:id="w_PrestreLardier_BnF12483_228">ne</w>
+               <w xml:id="w_PrestreLardier_BnF12483_229">vous</w>
+               <w xml:id="w_PrestreLardier_BnF12483_230">mou<choice><orig>u</orig><reg>v</reg></choice>ez</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_231">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_PrestreLardier_BnF12483_232">
+                  <choice>
+                     <orig/>
+                     <reg>»</reg>
+                  </choice>
+               </pc>
+            </l>
+         </lg>
+         <lg>
+            <l n="33">
+               <lb n="49"/>
+               <w xml:id="w_PrestreLardier_BnF12483_233"><g type="initiale" rend="size(1) sizeAct(1) color(red)">B</g>aillet</w>
+               <w xml:id="w_PrestreLardier_BnF12483_234">sot</w>
+               <w xml:id="w_PrestreLardier_BnF12483_235">sans</w>
+               <w xml:id="w_PrestreLardier_BnF12483_236">doute</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_237">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="34">
+               <lb n="50"/>
+               <w xml:id="w_PrestreLardier_BnF12483_238">Q<ex>ua</ex>nt</w>
+               <w xml:id="w_PrestreLardier_BnF12483_239" join="right">le</w>
+               <w xml:id="w_PrestreLardier_BnF12483_240">mot</w>
+               <w xml:id="w_PrestreLardier_BnF12483_241">oÿ</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_242">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="35">
+               <lb n="51"/>
+               <w xml:id="w_PrestreLardier_BnF12483_243">Qu’</w>
+               <w xml:id="w_PrestreLardier_BnF12483_244">il</w>
+               <w xml:id="w_PrestreLardier_BnF12483_245">n’</w>
+               <w xml:id="w_PrestreLardier_BnF12483_246">a<choice><orig>u</orig><reg>v</reg></choice>oit</w>
+               <w xml:id="w_PrestreLardier_BnF12483_247">pas</w>
+               <w xml:id="w_PrestreLardier_BnF12483_248">toute</w>
+            </l>
+            <l n="36">
+               <lb n="52"/>
+               <w xml:id="w_PrestreLardier_BnF12483_249" join="right">Sa</w>
+               <w xml:id="w_PrestreLardier_BnF12483_250">fame</w>
+               <w xml:id="w_PrestreLardier_BnF12483_251" join="right">a</w>
+               <w xml:id="w_PrestreLardier_BnF12483_252" join="right">par</w>
+               <w xml:id="w_PrestreLardier_BnF12483_253">li</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_254">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="37">
+               <lb n="53"/>
+               <w xml:id="w_PrestreLardier_BnF12483_255">Mes</w>
+               <w xml:id="w_PrestreLardier_BnF12483_256">n’</w>
+               <w xml:id="w_PrestreLardier_BnF12483_257" join="right">e<space type="degl" cert="low"/>n</w>
+               <w xml:id="w_PrestreLardier_BnF12483_258">fist</w>
+               <w xml:id="w_PrestreLardier_BnF12483_259">sembla<ex>n</ex>t</w>
+               <lb n="54"/>
+               <w xml:id="w_PrestreLardier_BnF12483_261"><choice><orig>J</orig><reg>j</reg></choice>usqu’</w>
+               <w xml:id="w_PrestreLardier_BnF12483_262">a</w>
+               <w xml:id="w_PrestreLardier_BnF12483_263"><choice><orig>v</orig><reg>u</reg></choice>n</w>
+               <w xml:id="w_PrestreLardier_BnF12483_264">lundi</w>
+            </l>
+            <l n="38">
+               <lb n="55"/>
+               <w xml:id="w_PrestreLardier_BnF12483_265">Q<ex>u</ex>’</w>
+               <w xml:id="w_PrestreLardier_BnF12483_266"><ex>i</ex>l</w>
+               <w xml:id="w_PrestreLardier_BnF12483_267">dist</w>
+               <w xml:id="w_PrestreLardier_BnF12483_268" join="right">a</w>
+               <w xml:id="w_PrestreLardier_BnF12483_269">sa</w>
+               <w xml:id="w_PrestreLardier_BnF12483_270">fame</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_271">
+                  <choice>
+                     <orig/>
+                     <reg>:</reg>
+                  </choice>
+               </pc>
+               <lb n="56"/>
+               <pc xml:id="w_PrestreLardier_BnF12483_273">
+                  <choice>
+                     <orig/>
+                     <reg>«</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_PrestreLardier_BnF12483_274"><choice><orig>I</orig><reg>J</reg></choice>e</w>
+               <w xml:id="w_PrestreLardier_BnF12483_275">vois</w>
+               <w xml:id="w_PrestreLardier_BnF12483_276">au</w>
+               <w xml:id="w_PrestreLardier_BnF12483_277">m<ex>ar</ex>chié</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_278">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_PrestreLardier_BnF12483_279">
+                  <choice>
+                     <orig/>
+                     <reg>»</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="39">
+               <lb n="57"/>
+               <w xml:id="w_PrestreLardier_BnF12483_280">Cele</w>
+               <w xml:id="w_PrestreLardier_BnF12483_281">qui</w>
+               <w xml:id="w_PrestreLardier_BnF12483_282">vousist</w>
+               <lb n="58"/>
+               <w xml:id="w_PrestreLardier_BnF12483_284"><choice><orig>Q</orig><reg>q</reg></choice><ex>u</ex>’</w>
+               <w xml:id="w_PrestreLardier_BnF12483_285"><ex>i</ex>l</w>
+               <w xml:id="w_PrestreLardier_BnF12483_286">fust</w>
+               <w xml:id="w_PrestreLardier_BnF12483_287">escorchié</w>
+            </l>
+            <l n="40">
+               <lb n="59"/>
+               <w xml:id="w_PrestreLardier_BnF12483_288">Li</w>
+               <w xml:id="w_PrestreLardier_BnF12483_289">dist</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_290">
+                  <choice>
+                     <orig/>
+                     <reg>:</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_PrestreLardier_BnF12483_291">
+                  <choice>
+                     <orig/>
+                     <reg>«</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_PrestreLardier_BnF12483_292"><choice><orig>t</orig><reg>T</reg></choice>ost</w>
+               <w xml:id="w_PrestreLardier_BnF12483_293">alez</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_294">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <lb n="60"/>
+               <w xml:id="w_PrestreLardier_BnF12483_296"><choice><orig>J</orig><reg>j</reg></choice>a</w>
+               <w xml:id="w_PrestreLardier_BnF12483_297">n’</w>
+               <w xml:id="w_PrestreLardier_BnF12483_298" join="right">en</w>
+               <w xml:id="w_PrestreLardier_BnF12483_299">wiegne</w>
+               <w xml:id="w_PrestreLardier_BnF12483_300">pié</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_301">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_PrestreLardier_BnF12483_302">
+                  <choice>
+                     <orig/>
+                     <reg>»</reg>
+                  </choice>
+               </pc>
+            </l>
+         </lg>
+         <lg>
+            <l n="41">
+               <lb n="61"/>
+               <w xml:id="w_PrestreLardier_BnF12483_303"><g type="initiale" rend="size(1) sizeAct(1) color(blue)">Q</g><ex>ua</ex>nt</w>
+               <w xml:id="w_PrestreLardier_BnF12483_304">elle</w>
+               <w xml:id="w_PrestreLardier_BnF12483_305">pensa</w>
+            </l>
+            <l n="42">
+               <lb n="62"/>
+               <w xml:id="w_PrestreLardier_BnF12483_306">Qu’</w>
+               <w xml:id="w_PrestreLardier_BnF12483_307">il</w>
+               <w xml:id="w_PrestreLardier_BnF12483_308">fust</w>
+               <w xml:id="w_PrestreLardier_BnF12483_309">eslongiez</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_310">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="43">
+               <lb n="63"/>
+               <w xml:id="w_PrestreLardier_BnF12483_311">Le</w>
+               <w xml:id="w_PrestreLardier_BnF12483_312">prestre</w>
+               <w xml:id="w_PrestreLardier_BnF12483_313">manda</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_314">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="44">
+               <lb n="64"/>
+               <w xml:id="w_PrestreLardier_BnF12483_315">Qui</w>
+               <w xml:id="w_PrestreLardier_BnF12483_316">vint</w>
+               <w xml:id="w_PrestreLardier_BnF12483_317">forment</w>
+               <w xml:id="w_PrestreLardier_BnF12483_318">liez</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_319">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="45">
+               <lb n="65"/>
+               <w xml:id="w_PrestreLardier_BnF12483_320">D’</w>
+               <w xml:id="w_PrestreLardier_BnF12483_321">atourner</w>
+               <w xml:id="w_PrestreLardier_BnF12483_322">viandes</w>
+               <lb n="66"/>
+               <w xml:id="w_PrestreLardier_BnF12483_324" join="right"><choice><orig>S</orig><reg>s</reg></choice>e</w>
+               <w xml:id="w_PrestreLardier_BnF12483_325">s<ex>on</ex>t</w>
+               <w xml:id="w_PrestreLardier_BnF12483_326">a<choice><orig>u</orig><reg>v</reg></choice>anciez</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_327">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="46">
+               <lb n="67"/>
+               <w xml:id="w_PrestreLardier_BnF12483_328">Puis</w>
+               <w xml:id="w_PrestreLardier_BnF12483_329">firent</w>
+               <w xml:id="w_PrestreLardier_BnF12483_330"><choice><orig>v</orig><reg>u</reg></choice>n</w>
+               <w xml:id="w_PrestreLardier_BnF12483_331">baing</w>
+               <lb n="68"/>
+               <w xml:id="w_PrestreLardier_BnF12483_333"><choice><orig>P</orig><reg>p</reg></choice>our</w>
+               <w xml:id="w_PrestreLardier_BnF12483_334">eulz</w>
+               <w xml:id="w_PrestreLardier_BnF12483_335">deus</w>
+               <w xml:id="w_PrestreLardier_BnF12483_336">baingnier</w>
+               <note type="philologique">
+                  <p rend="footnote text">Jean Dufournet corrige en <hi rend="italic">Pour baingnier eulz deus</hi> afin de conserver la structure strophique et la rime.</p>
+               </note>
+               <pc xml:id="w_PrestreLardier_BnF12483_337">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="47">
+               <lb n="69"/>
+               <w xml:id="w_PrestreLardier_BnF12483_338">Mes</w>
+               <w xml:id="w_PrestreLardier_BnF12483_339"><choice><orig>b</orig><reg>B</reg></choice>aillet</w>
+               <w xml:id="w_PrestreLardier_BnF12483_340">ne</w>
+               <w xml:id="w_PrestreLardier_BnF12483_341">fu</w>
+               <lb n="70"/>
+               <w xml:id="w_PrestreLardier_BnF12483_343"><choice><orig>T</orig><reg>t</reg></choice>ant</w>
+               <w xml:id="w_PrestreLardier_BnF12483_344" join="right">ne</w>
+               <w xml:id="w_PrestreLardier_BnF12483_345">q<ex>ua</ex>nt</w>
+               <w xml:id="w_PrestreLardier_BnF12483_346">honteus</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_347">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="48">
+               <lb n="71"/>
+               <w xml:id="w_PrestreLardier_BnF12483_348">Droit</w>
+               <w xml:id="w_PrestreLardier_BnF12483_349" join="right" ana="#aggl-cert_low">a</w>
+               <w xml:id="w_PrestreLardier_BnF12483_350">son</w>
+               <w xml:id="w_PrestreLardier_BnF12483_351">ostel</w>
+               <lb n="72"/>
+               <w xml:id="w_PrestreLardier_BnF12483_353"><choice><orig>S</orig><reg>s</reg></choice>’</w>
+               <w xml:id="w_PrestreLardier_BnF12483_354">en</w>
+               <w xml:id="w_PrestreLardier_BnF12483_355">re<choice><orig>u</orig><reg>v</reg></choice>int</w>
+               <w xml:id="w_PrestreLardier_BnF12483_356">tous</w>
+               <w xml:id="w_PrestreLardier_BnF12483_357">ceulz</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_358">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+         </lg>
+         <lg>
+            <l n="49">
+               <lb n="73"/>
+               <w xml:id="w_PrestreLardier_BnF12483_359"><g type="initiale" rend="size(1) sizeAct(1) color(red)">L</g>e</w>
+               <w xml:id="w_PrestreLardier_BnF12483_360">p<ex>re</ex>stre</w>
+               <w xml:id="w_PrestreLardier_BnF12483_361">asseür</w>
+            </l>
+            <l n="50">
+               <lb n="74"/>
+               <w xml:id="w_PrestreLardier_BnF12483_362">Se</w>
+               <w xml:id="w_PrestreLardier_BnF12483_363">cuida</w>
+               <w xml:id="w_PrestreLardier_BnF12483_364">baignier</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_365">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="51">
+               <lb n="75"/>
+               <w xml:id="w_PrestreLardier_BnF12483_366">Baillet</w>
+               <w xml:id="w_PrestreLardier_BnF12483_367">par</w>
+               <w xml:id="w_PrestreLardier_BnF12483_368"><choice><orig>v</orig><reg>u</reg></choice>n</w>
+               <w xml:id="w_PrestreLardier_BnF12483_369">mur</w>
+            </l>
+            <l n="52">
+               <lb n="76"/>
+               <supplied>
+                  <w xml:id="w_PrestreLardier_BnF12483_370">Le</w>
+               </supplied>
+               <w xml:id="w_PrestreLardier_BnF12483_371">corr</w>
+               <w xml:id="w_PrestreLardier_BnF12483_372"><choice><orig>u</orig><reg>v</reg></choice>it</w>
+               <w xml:id="w_PrestreLardier_BnF12483_373">sic</w>
+               <w xml:id="w_PrestreLardier_BnF12483_374"><choice><orig>u</orig><reg>v</reg></choice>ient</w>
+               <w xml:id="w_PrestreLardier_BnF12483_375">despoillier</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_376">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+               <cb n="193vb"/>
+            </l>
+            <l n="53">
+               <lb n="77"/>
+               <w xml:id="w_PrestreLardier_BnF12483_377">Lors</w>
+               <w xml:id="w_PrestreLardier_BnF12483_378">hurta</w>
+               <w xml:id="w_PrestreLardier_BnF12483_379" join="right">a</w>
+               <w xml:id="w_PrestreLardier_BnF12483_380">l’</w>
+               <w xml:id="w_PrestreLardier_BnF12483_381">uis</w>
+               <lb n="78"/>
+               <w xml:id="w_PrestreLardier_BnF12483_383"><choice><orig>E</orig><reg>e</reg></choice>t</w>
+               <w xml:id="w_PrestreLardier_BnF12483_384">prist</w>
+               <w xml:id="w_PrestreLardier_BnF12483_385">a</w>
+               <w xml:id="w_PrestreLardier_BnF12483_386">huchier</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_387">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="54">
+               <lb n="79"/>
+               <w xml:id="w_PrestreLardier_BnF12483_388">Sa</w>
+               <w xml:id="w_PrestreLardier_BnF12483_389">fame</w>
+               <w xml:id="w_PrestreLardier_BnF12483_390">l’</w>
+               <w xml:id="w_PrestreLardier_BnF12483_391">oÿ</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_392">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+               <lb n="80"/>
+               <w xml:id="w_PrestreLardier_BnF12483_394">Que</w>
+               <w xml:id="w_PrestreLardier_BnF12483_395">faire</w>
+               <w xml:id="w_PrestreLardier_BnF12483_396">ne</w>
+               <w xml:id="w_PrestreLardier_BnF12483_397">sot</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_398">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="55">
+               <lb n="81"/>
+               <w xml:id="w_PrestreLardier_BnF12483_399">Mes</w>
+               <w xml:id="w_PrestreLardier_BnF12483_400">au</w>
+               <w xml:id="w_PrestreLardier_BnF12483_401">prestre</w>
+               <w xml:id="w_PrestreLardier_BnF12483_402">dit</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_403">
+                  <choice>
+                     <orig/>
+                     <reg>:</reg>
+                  </choice>
+               </pc>
+               <lb n="82"/>
+               <pc xml:id="w_PrestreLardier_BnF12483_405">
+                  <choice>
+                     <orig/>
+                     <reg>«</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_PrestreLardier_BnF12483_406">Boutez</w>
+               <seg type="transposition">
+                  <seg type="transpositionPart" n="2">
+                     <w xml:id="w_PrestreLardier_BnF12483_407">vouz</w>
+                  </seg>
+                  <seg type="transpositionPart" n="1">
+                     <w xml:id="w_PrestreLardier_BnF12483_408">tantost</w>
+                  </seg>
+               </seg>
+            </l>
+            <l n="56">
+               <lb n="83"/>
+               <w xml:id="w_PrestreLardier_BnF12483_409">Dedens</w>
+               <w xml:id="w_PrestreLardier_BnF12483_410">ce</w>
+               <w xml:id="w_PrestreLardier_BnF12483_411">lardier</w>
+               <lb n="84"/>
+               <w xml:id="w_PrestreLardier_BnF12483_413"><choice><orig>E</orig><reg>e</reg></choice>t</w>
+               <w xml:id="w_PrestreLardier_BnF12483_414">ne</w>
+               <w xml:id="w_PrestreLardier_BnF12483_415">dites</w>
+               <w xml:id="w_PrestreLardier_BnF12483_416">mot</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_417">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_PrestreLardier_BnF12483_418">
+                  <choice>
+                     <orig/>
+                     <reg>»</reg>
+                  </choice>
+               </pc>
+            </l>
+         </lg>
+         <lg>
+            <l n="57">
+               <lb n="85"/>
+               <w xml:id="w_PrestreLardier_BnF12483_419"><g type="initiale" rend="size(1) sizeAct(1) color(red)">B</g>aillet</w>
+               <w xml:id="w_PrestreLardier_BnF12483_420">la</w>
+               <w xml:id="w_PrestreLardier_BnF12483_421">maniere</w>
+            </l>
+            <l n="58">
+               <lb n="86"/>
+               <w xml:id="w_PrestreLardier_BnF12483_422">Et</w>
+               <w xml:id="w_PrestreLardier_BnF12483_423">tout</w>
+               <w xml:id="w_PrestreLardier_BnF12483_424">le</w>
+               <w xml:id="w_PrestreLardier_BnF12483_425">fait</w>
+               <w xml:id="w_PrestreLardier_BnF12483_426">vit</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_427">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="59">
+               <lb n="87"/>
+               <w xml:id="w_PrestreLardier_BnF12483_428">Lors</w>
+               <w xml:id="w_PrestreLardier_BnF12483_429" join="right">la</w>
+               <w xml:id="w_PrestreLardier_BnF12483_430">ça<choice><orig>u</orig><reg>v</reg></choice>etiere</w>
+            </l>
+            <l n="60">
+               <lb n="88"/>
+               <w xml:id="w_PrestreLardier_BnF12483_431">L’</w>
+               <w xml:id="w_PrestreLardier_BnF12483_432">a<space type="degl"/>pela</w>
+               <w xml:id="w_PrestreLardier_BnF12483_433">et</w>
+               <w xml:id="w_PrestreLardier_BnF12483_434">dit</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_435">
+                  <choice>
+                     <orig/>
+                     <reg>:</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="61">
+               <lb n="89"/>
+               <pc xml:id="w_PrestreLardier_BnF12483_436">
+                  <choice>
+                     <orig/>
+                     <reg>«</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_PrestreLardier_BnF12483_437">Bien</w>
+               <w xml:id="w_PrestreLardier_BnF12483_438">vegniez</w>
+               <w xml:id="w_PrestreLardier_BnF12483_439">vous</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_440">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_PrestreLardier_BnF12483_441">sire</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_442">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+               <lb n="90"/>
+               <w xml:id="w_PrestreLardier_BnF12483_444">Sachiez</w>
+               <w xml:id="w_PrestreLardier_BnF12483_445">sans</w>
+               <w xml:id="w_PrestreLardier_BnF12483_446">respit</w>
+            </l>
+            <l n="62">
+               <lb n="91"/>
+               <w xml:id="w_PrestreLardier_BnF12483_447">Q<ex>ue</ex></w>
+               <w xml:id="w_PrestreLardier_BnF12483_448">mont</w>
+               <w xml:id="w_PrestreLardier_BnF12483_449">bien</w>
+               <w xml:id="w_PrestreLardier_BnF12483_450">pensoie</w>
+               <lb n="92"/>
+               <w xml:id="w_PrestreLardier_BnF12483_452"><choice><orig>Q</orig><reg>q</reg></choice><ex>ue</ex></w>
+               <w xml:id="w_PrestreLardier_BnF12483_453">retourrïez</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_454">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="63">
+               <lb n="93"/>
+               <w xml:id="w_PrestreLardier_BnF12483_455"><choice><orig>U</orig><reg>V</reg></choice>ostre</w>
+               <w xml:id="w_PrestreLardier_BnF12483_456">disner</w>
+               <w xml:id="w_PrestreLardier_BnF12483_457">est</w>
+               <lb n="94"/>
+               <w xml:id="w_PrestreLardier_BnF12483_459"><choice><orig>T</orig><reg>t</reg></choice>out</w>
+               <w xml:id="w_PrestreLardier_BnF12483_460">app<ex>ar</ex>eilliez</w>
+            </l>
+            <l n="64">
+               <lb n="95"/>
+               <w xml:id="w_PrestreLardier_BnF12483_461">Et</w>
+               <w xml:id="w_PrestreLardier_BnF12483_462">le</w>
+               <w xml:id="w_PrestreLardier_BnF12483_463">baing</w>
+               <w xml:id="w_PrestreLardier_BnF12483_464">tout</w>
+               <w xml:id="w_PrestreLardier_BnF12483_465">chaut</w>
+               <lb n="96"/>
+               <w xml:id="w_PrestreLardier_BnF12483_467"><choice><orig>O</orig><reg>o</reg></choice>u</w>
+               <w xml:id="w_PrestreLardier_BnF12483_468">serez</w>
+               <w xml:id="w_PrestreLardier_BnF12483_469">baingniez</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_470">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+         </lg>
+         <lg>
+            <l n="65">
+               <lb n="97"/>
+               <w xml:id="w_PrestreLardier_BnF12483_471"><choice><orig><g type="initiale" rend="size(1) sizeAct(1) color(blue)">U</g></orig><reg><g type="initiale" rend="size(1) sizeAct(1) color(blue)">V</g></reg></choice>oir</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_472">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_PrestreLardier_BnF12483_473">ne</w>
+               <w xml:id="w_PrestreLardier_BnF12483_474">le</w>
+               <w xml:id="w_PrestreLardier_BnF12483_475">fiz</w>
+               <w xml:id="w_PrestreLardier_BnF12483_476">faire</w>
+            </l>
+            <l n="66">
+               <lb n="98"/>
+               <w xml:id="w_PrestreLardier_BnF12483_477">Que</w>
+               <w xml:id="w_PrestreLardier_BnF12483_478">pour</w>
+               <w xml:id="w_PrestreLardier_BnF12483_479">vostre</w>
+               <w xml:id="w_PrestreLardier_BnF12483_480">amour</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_481">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="67">
+               <lb n="99"/>
+               <w xml:id="w_PrestreLardier_BnF12483_482">Quar</w>
+               <w xml:id="w_PrestreLardier_BnF12483_483">mont</w>
+               <w xml:id="w_PrestreLardier_BnF12483_484">vous</w>
+               <w xml:id="w_PrestreLardier_BnF12483_485">faut</w>
+               <w xml:id="w_PrestreLardier_BnF12483_486">traire</w>
+            </l>
+            <l n="68">
+               <lb n="100"/>
+               <w xml:id="w_PrestreLardier_BnF12483_487" join="right" ana="#aggl-cert_low">De</w>
+               <w xml:id="w_PrestreLardier_BnF12483_488" join="right">mal</w>
+               <w xml:id="w_PrestreLardier_BnF12483_489">chascun</w>
+               <w xml:id="w_PrestreLardier_BnF12483_490"><choice><orig>i</orig><reg>j</reg></choice>our</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_491">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_PrestreLardier_BnF12483_492">
+                  <choice>
+                     <orig/>
+                     <reg>»</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="69">
+               <lb n="101"/>
+               <w xml:id="w_PrestreLardier_BnF12483_493">Baillet</w>
+               <w xml:id="w_PrestreLardier_BnF12483_494">qui</w>
+               <w xml:id="w_PrestreLardier_BnF12483_495">vouloit</w>
+               <lb n="102"/>
+               <w xml:id="w_PrestreLardier_BnF12483_497"><choice><orig>J</orig><reg>j</reg></choice>ouer</w>
+               <w xml:id="w_PrestreLardier_BnF12483_498">d’</w>
+               <w xml:id="w_PrestreLardier_BnF12483_499">autre</w>
+               <w xml:id="w_PrestreLardier_BnF12483_500">tour</w>
+            </l>
+            <l n="70">
+               <lb n="103"/>
+               <w xml:id="w_PrestreLardier_BnF12483_501">Li</w>
+               <w xml:id="w_PrestreLardier_BnF12483_502">dist</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_503">
+                  <choice>
+                     <orig/>
+                     <reg>:</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_PrestreLardier_BnF12483_504">
+                  <choice>
+                     <orig/>
+                     <reg>«</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_PrestreLardier_BnF12483_505"><choice><orig>d</orig><reg>D</reg></choice>iex</w>
+               <w xml:id="w_PrestreLardier_BnF12483_506">m’</w>
+               <w xml:id="w_PrestreLardier_BnF12483_507">a<choice><orig>u</orig><reg>v</reg></choice>oit</w>
+               <lb n="104"/>
+               <w xml:id="w_PrestreLardier_BnF12483_509"><choice><orig>D</orig><reg>d</reg></choice>e</w>
+               <w xml:id="w_PrestreLardier_BnF12483_510">tous</w>
+               <w xml:id="w_PrestreLardier_BnF12483_511">poins</w>
+               <w xml:id="w_PrestreLardier_BnF12483_512">aidié</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_513">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="71">
+               <lb n="105"/>
+               <w xml:id="w_PrestreLardier_BnF12483_514">Mes</w>
+               <w xml:id="w_PrestreLardier_BnF12483_515">raler</w>
+               <w xml:id="w_PrestreLardier_BnF12483_516">me</w>
+               <w xml:id="w_PrestreLardier_BnF12483_517">faut</w>
+               <lb n="106"/>
+               <w xml:id="w_PrestreLardier_BnF12483_519"><choice><orig>E</orig><reg>e</reg></choice>rrant</w>
+               <w xml:id="w_PrestreLardier_BnF12483_520">au</w>
+               <w xml:id="w_PrestreLardier_BnF12483_521">m<ex>ar</ex>chié</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_522">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_PrestreLardier_BnF12483_523">
+                  <choice>
+                     <orig/>
+                     <reg>»</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="72">
+               <lb n="107"/>
+               <w xml:id="w_PrestreLardier_BnF12483_524">Le</w>
+               <w xml:id="w_PrestreLardier_BnF12483_525">prestre</w>
+               <w xml:id="w_PrestreLardier_BnF12483_526">ot</w>
+               <w xml:id="w_PrestreLardier_BnF12483_527">g<ex>ra</ex>nt</w>
+               <w xml:id="w_PrestreLardier_BnF12483_528"><choice><orig>i</orig><reg>j</reg></choice>oie</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_529">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <lb n="108"/>
+               <w xml:id="w_PrestreLardier_BnF12483_531"><choice><orig>Q</orig><reg>q</reg></choice>ui</w>
+               <w xml:id="w_PrestreLardier_BnF12483_532">s’</w>
+               <w xml:id="w_PrestreLardier_BnF12483_533">estoit</w>
+               <w xml:id="w_PrestreLardier_BnF12483_534">mucié</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_535">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+         </lg>
+         <lg>
+            <l n="73">
+               <lb n="109"/>
+               <w xml:id="w_PrestreLardier_BnF12483_536"><g type="initiale" rend="size(1) sizeAct(1) color(red)">M</g>es</w>
+               <w xml:id="w_PrestreLardier_BnF12483_537">ne</w>
+               <w xml:id="w_PrestreLardier_BnF12483_538">sa<choice><orig>u</orig><reg>v</reg></choice>oit</w>
+               <w xml:id="w_PrestreLardier_BnF12483_539">mie</w>
+            </l>
+            <l n="74">
+               <lb n="110"/>
+               <w xml:id="w_PrestreLardier_BnF12483_540">Q<ex>ue</ex></w>
+               <w xml:id="w_PrestreLardier_BnF12483_541"><choice><orig>b</orig><reg>B</reg></choice>aillet</w>
+               <w xml:id="w_PrestreLardier_BnF12483_542">pensa</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_543">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="75">
+               <lb n="111"/>
+               <w xml:id="w_PrestreLardier_BnF12483_544">La</w>
+               <w xml:id="w_PrestreLardier_BnF12483_545">plus</w>
+               <w xml:id="w_PrestreLardier_BnF12483_546">grant</w>
+               <w xml:id="w_PrestreLardier_BnF12483_547">partie</w>
+            </l>
+            <l n="76">
+               <lb n="112"/>
+               <w xml:id="w_PrestreLardier_BnF12483_548">Des</w>
+               <w xml:id="w_PrestreLardier_BnF12483_549">voisins</w>
+               <w xml:id="w_PrestreLardier_BnF12483_550">manda</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_551">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="77">
+               <lb n="113"/>
+               <w xml:id="w_PrestreLardier_BnF12483_552">M<ex>o</ex>lt</w>
+               <w xml:id="w_PrestreLardier_BnF12483_553">bien</w>
+               <w xml:id="w_PrestreLardier_BnF12483_554">les</w>
+               <w xml:id="w_PrestreLardier_BnF12483_555">fist</w>
+               <w xml:id="w_PrestreLardier_BnF12483_556">boire</w>
+               <lb n="114"/>
+               <w xml:id="w_PrestreLardier_BnF12483_558"><choice><orig>E</orig><reg>e</reg></choice>t</w>
+               <w xml:id="w_PrestreLardier_BnF12483_559">puis</w>
+               <w xml:id="w_PrestreLardier_BnF12483_560">dit</w>
+               <w xml:id="w_PrestreLardier_BnF12483_561">leur</w>
+               <w xml:id="w_PrestreLardier_BnF12483_562">a</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_563">
+                  <choice>
+                     <orig/>
+                     <reg>:</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="78">
+               <lb n="115"/>
+               <pc xml:id="w_PrestreLardier_BnF12483_564">
+                  <choice>
+                     <orig/>
+                     <reg>«</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_PrestreLardier_BnF12483_565">Sur</w>
+               <w xml:id="w_PrestreLardier_BnF12483_566"><choice><orig>v</orig><reg>u</reg></choice>ne</w>
+               <w xml:id="w_PrestreLardier_BnF12483_567">charete</w>
+               <lb n="116"/>
+               <w xml:id="w_PrestreLardier_BnF12483_569"><choice><orig>M</orig><reg>m</reg></choice>e</w>
+               <w xml:id="w_PrestreLardier_BnF12483_570">faut</w>
+               <w xml:id="w_PrestreLardier_BnF12483_571">trousser</w>
+               <w xml:id="w_PrestreLardier_BnF12483_572">haut</w>
+            </l>
+            <l n="79">
+               <lb n="117"/>
+               <w xml:id="w_PrestreLardier_BnF12483_573">Ce</w>
+               <w xml:id="w_PrestreLardier_BnF12483_574">viez</w>
+               <w xml:id="w_PrestreLardier_BnF12483_575">lardier</w>
+               <w xml:id="w_PrestreLardier_BnF12483_576">la</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_577">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+               <lb n="118"/>
+               <w xml:id="w_PrestreLardier_BnF12483_579"><choice><orig>U</orig><reg>V</reg></choice>endre</w>
+               <w xml:id="w_PrestreLardier_BnF12483_580">le</w>
+               <w xml:id="w_PrestreLardier_BnF12483_581" join="right">me</w>
+               <w xml:id="w_PrestreLardier_BnF12483_582">faut</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_583">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_PrestreLardier_BnF12483_584">
+                  <choice>
+                     <orig/>
+                     <reg>»</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="80">
+               <lb n="119"/>
+               <w xml:id="w_PrestreLardier_BnF12483_585">Lors</w>
+               <w xml:id="w_PrestreLardier_BnF12483_586">trembla</w>
+               <w xml:id="w_PrestreLardier_BnF12483_587">le</w>
+               <w xml:id="w_PrestreLardier_BnF12483_588">prestre</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_589">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <lb n="120"/>
+               <w xml:id="w_PrestreLardier_BnF12483_591"><choice><orig>Q</orig><reg>q</reg></choice><ex>u</ex>’</w>
+               <w xml:id="w_PrestreLardier_BnF12483_592"><ex>i</ex>l</w>
+               <w xml:id="w_PrestreLardier_BnF12483_593">n’</w>
+               <w xml:id="w_PrestreLardier_BnF12483_594">a<choice><orig>u</orig><reg>v</reg></choice>oit</w>
+               <w xml:id="w_PrestreLardier_BnF12483_595">pas</w>
+               <w xml:id="w_PrestreLardier_BnF12483_596">chaut</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_597">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+            </l>
+         </lg>
+         <lg>
+            <pb n="194r"
+                 xml:id="pb_3"
+                 facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8454680s/f391/full/pct:50/0/native.jpg"/>
+            <cb n="194ra"/>
+            <l n="81">
+               <lb n="121"/>
+               <w xml:id="w_PrestreLardier_BnF12483_599"><g type="initiale" rend="size(1) sizeAct(1) color(blue)">O</g>n</w>
+               <w xml:id="w_PrestreLardier_BnF12483_600">fist</w>
+               <w xml:id="w_PrestreLardier_BnF12483_601">ens</w>
+               <w xml:id="w_PrestreLardier_BnF12483_602" join="right">en</w>
+               <w xml:id="w_PrestreLardier_BnF12483_603">l’</w>
+               <w xml:id="w_PrestreLardier_BnF12483_604">eure</w>
+            </l>
+            <l n="82">
+               <lb n="122"/>
+               <w xml:id="w_PrestreLardier_BnF12483_605">Le</w>
+               <w xml:id="w_PrestreLardier_BnF12483_606">lardier</w>
+               <w xml:id="w_PrestreLardier_BnF12483_607">trousser</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_608">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="83">
+               <lb n="123"/>
+               <w xml:id="w_PrestreLardier_BnF12483_609">Baillet</w>
+               <w xml:id="w_PrestreLardier_BnF12483_610">sans</w>
+               <w xml:id="w_PrestreLardier_BnF12483_611">demeure</w>
+            </l>
+            <l n="84">
+               <lb n="124"/>
+               <w xml:id="w_PrestreLardier_BnF12483_612">L’</w>
+               <w xml:id="w_PrestreLardier_BnF12483_613">en</w>
+               <w xml:id="w_PrestreLardier_BnF12483_614">a</w>
+               <w xml:id="w_PrestreLardier_BnF12483_615">fait</w>
+               <w xml:id="w_PrestreLardier_BnF12483_616">mener</w>
+            </l>
+            <l n="85">
+               <lb n="125"/>
+               <w xml:id="w_PrestreLardier_BnF12483_617">En</w>
+               <w xml:id="w_PrestreLardier_BnF12483_618">la</w>
+               <w xml:id="w_PrestreLardier_BnF12483_619">plus</w>
+               <w xml:id="w_PrestreLardier_BnF12483_620">grant</w>
+               <w xml:id="w_PrestreLardier_BnF12483_621">p<ex>re</ex>sse</w>
+               <lb n="126"/>
+               <w xml:id="w_PrestreLardier_BnF12483_623"><choice><orig>Q</orig><reg>q</reg></choice><ex>ue</ex></w>
+               <w xml:id="w_PrestreLardier_BnF12483_624">pot</w>
+               <w xml:id="w_PrestreLardier_BnF12483_625">onc</w>
+               <w xml:id="w_PrestreLardier_BnF12483_626">trou<choice><orig>u</orig><reg>v</reg></choice>er</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_627">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="86">
+               <lb n="127"/>
+               <w xml:id="w_PrestreLardier_BnF12483_628">Mes</w>
+               <w xml:id="w_PrestreLardier_BnF12483_629">le</w>
+               <w xml:id="w_PrestreLardier_BnF12483_630">las</w>
+               <w xml:id="w_PrestreLardier_BnF12483_631">de</w>
+               <w xml:id="w_PrestreLardier_BnF12483_632">prestre</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_633">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <lb n="128"/>
+               <w xml:id="w_PrestreLardier_BnF12483_635"><choice><orig>Q</orig><reg>q</reg></choice><ex>ui</ex></w>
+               <w xml:id="w_PrestreLardier_BnF12483_636">fu</w>
+               <w xml:id="w_PrestreLardier_BnF12483_637">en<space type="degl"/>serré</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_638">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="87">
+               <lb n="129"/>
+               <w xml:id="w_PrestreLardier_BnF12483_639">Ot</w>
+               <w xml:id="w_PrestreLardier_BnF12483_640"><choice><orig>v</orig><reg>u</reg></choice>n</w>
+               <w xml:id="w_PrestreLardier_BnF12483_641">riche</w>
+               <w xml:id="w_PrestreLardier_BnF12483_642">frere</w>
+               <lb n="130"/>
+               <w xml:id="w_PrestreLardier_BnF12483_644"><choice><orig>Q</orig><reg>q</reg></choice><ex>ui</ex></w>
+               <w xml:id="w_PrestreLardier_BnF12483_645">estoit</w>
+               <w xml:id="w_PrestreLardier_BnF12483_646">curé</w>
+            </l>
+            <l n="88">
+               <lb n="131"/>
+               <w xml:id="w_PrestreLardier_BnF12483_647">D’</w>
+               <w xml:id="w_PrestreLardier_BnF12483_648">assez</w>
+               <w xml:id="w_PrestreLardier_BnF12483_649">pres</w>
+               <w xml:id="w_PrestreLardier_BnF12483_650">d’</w>
+               <w xml:id="w_PrestreLardier_BnF12483_651">ilec</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_652">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+               <lb n="132"/>
+               <w xml:id="w_PrestreLardier_BnF12483_654">La</w>
+               <w xml:id="w_PrestreLardier_BnF12483_655">vint</w>
+               <w xml:id="w_PrestreLardier_BnF12483_656">bien</w>
+               <w xml:id="w_PrestreLardier_BnF12483_657">monté</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_658">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+         </lg>
+         <lg>
+            <l n="89">
+               <lb n="133"/>
+               <w xml:id="w_PrestreLardier_BnF12483_659"><g type="initiale" rend="size(1) sizeAct(1) color(red)">Q</g>ui</w>
+               <w xml:id="w_PrestreLardier_BnF12483_660">sot</w>
+               <w xml:id="w_PrestreLardier_BnF12483_661">l’</w>
+               <w xml:id="w_PrestreLardier_BnF12483_662">a<choice><orig>u</orig><reg>v</reg></choice>enture</w>
+            </l>
+            <l n="90">
+               <lb n="134"/>
+               <w xml:id="w_PrestreLardier_BnF12483_663">Et</w>
+               <w xml:id="w_PrestreLardier_BnF12483_664" join="right" ana="#aggl-cert_low">le</w>
+               <w xml:id="w_PrestreLardier_BnF12483_665">destourbier</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_666">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="91">
+               <lb n="135"/>
+               <w xml:id="w_PrestreLardier_BnF12483_667">Par</w>
+               <w xml:id="w_PrestreLardier_BnF12483_668" join="right"><choice><orig>v</orig><reg>u</reg></choice>ne</w>
+               <w xml:id="w_PrestreLardier_BnF12483_669">cre<choice><orig>u</orig><reg>v</reg></choice>ẹure</w>
+            </l>
+            <l n="92">
+               <lb n="136"/>
+               <w xml:id="w_PrestreLardier_BnF12483_670">Q<ex>ui</ex></w>
+               <w xml:id="w_PrestreLardier_BnF12483_671">fu</w>
+               <w xml:id="w_PrestreLardier_BnF12483_672">ou</w>
+               <w xml:id="w_PrestreLardier_BnF12483_673">lardier</w>
+            </l>
+            <l n="93">
+               <lb n="137"/>
+               <w xml:id="w_PrestreLardier_BnF12483_674" join="right">Le</w>
+               <w xml:id="w_PrestreLardier_BnF12483_675">connut</w>
+               <w xml:id="w_PrestreLardier_BnF12483_676">son</w>
+               <w xml:id="w_PrestreLardier_BnF12483_677">frere</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_678">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+               <lb n="138"/>
+               <w xml:id="w_PrestreLardier_BnF12483_680">Haut</w>
+               <w xml:id="w_PrestreLardier_BnF12483_681">prist</w>
+               <w xml:id="w_PrestreLardier_BnF12483_682">a</w>
+               <w xml:id="w_PrestreLardier_BnF12483_683">huchier</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_684">
+                  <choice>
+                     <orig/>
+                     <reg>:</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="94">
+               <lb n="139"/>
+               <pc xml:id="w_PrestreLardier_BnF12483_685">
+                  <choice>
+                     <orig/>
+                     <reg>«</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_PrestreLardier_BnF12483_686">Frater</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_687">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_PrestreLardier_BnF12483_688">pro</w>
+               <w xml:id="w_PrestreLardier_BnF12483_689"><choice><orig>d</orig><reg>D</reg></choice>eo</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_690">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <lb n="140"/>
+               <w xml:id="w_PrestreLardier_BnF12483_692"><choice><orig>D</orig><reg>d</reg></choice>elibera</w>
+               <w xml:id="w_PrestreLardier_BnF12483_693">me</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_694">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_PrestreLardier_BnF12483_695">
+                  <choice>
+                     <orig/>
+                     <reg>»</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="95">
+               <lb n="141"/>
+               <w xml:id="w_PrestreLardier_BnF12483_696">Q<ex>ua</ex>nt</w>
+               <w xml:id="w_PrestreLardier_BnF12483_697"><choice><orig>b</orig><reg>B</reg></choice>aillet</w>
+               <w xml:id="w_PrestreLardier_BnF12483_698">l’</w>
+               <w xml:id="w_PrestreLardier_BnF12483_699">oÿ</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_700">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <lb n="142"/>
+               <w xml:id="w_PrestreLardier_BnF12483_702"><choice><orig>H</orig><reg>h</reg></choice>aut</w>
+               <w xml:id="w_PrestreLardier_BnF12483_703">s’</w>
+               <w xml:id="w_PrestreLardier_BnF12483_704">est</w>
+               <w xml:id="w_PrestreLardier_BnF12483_705">escrié</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_706">
+                  <choice>
+                     <orig/>
+                     <reg>:</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="96">
+               <lb n="143"/>
+               <pc xml:id="w_PrestreLardier_BnF12483_707">
+                  <choice>
+                     <orig/>
+                     <reg>«</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_PrestreLardier_BnF12483_708">Esgar</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_709">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_PrestreLardier_BnF12483_710"><choice><orig>m</orig><reg>M</reg></choice>on</w>
+               <w xml:id="w_PrestreLardier_BnF12483_711">lardier</w>
+               <lb n="144"/>
+               <w xml:id="w_PrestreLardier_BnF12483_713"><choice><orig>A</orig><reg>a</reg></choice></w>
+               <w xml:id="w_PrestreLardier_BnF12483_714">latin</w>
+               <w xml:id="w_PrestreLardier_BnF12483_715">p<ex>ar</ex>lé</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_716">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+            </l>
+         </lg>
+         <lg>
+            <l n="97">
+               <lb n="145"/>
+               <w xml:id="w_PrestreLardier_BnF12483_717"><choice><orig><g type="initiale" rend="size(1) sizeAct(1) color(blue)">U</g></orig><reg><g type="initiale" rend="size(1) sizeAct(1) color(blue)">V</g></reg></choice>endre</w>
+               <w xml:id="w_PrestreLardier_BnF12483_718">le</w>
+               <w xml:id="w_PrestreLardier_BnF12483_719">vouloie</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_720">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="98">
+               <lb n="146"/>
+               <w xml:id="w_PrestreLardier_BnF12483_721">Mes</w>
+               <w xml:id="w_PrestreLardier_BnF12483_722">p<ex>ar</ex></w>
+               <w xml:id="w_PrestreLardier_BnF12483_723">saint</w>
+               <w xml:id="w_PrestreLardier_BnF12483_724"><choice><orig>s</orig><reg>S</reg></choice>ymon</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_725">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="99">
+               <lb n="147"/>
+               <w xml:id="w_PrestreLardier_BnF12483_726">Il</w>
+               <w xml:id="w_PrestreLardier_BnF12483_727">vaut</w>
+               <w xml:id="w_PrestreLardier_BnF12483_728">gr<ex>an</ex>t</w>
+               <w xml:id="w_PrestreLardier_BnF12483_729">monnoie</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_730">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="100">
+               <lb n="148"/>
+               <w xml:id="w_PrestreLardier_BnF12483_731">Nous</w>
+               <w xml:id="w_PrestreLardier_BnF12483_732" join="right">le</w>
+               <w xml:id="w_PrestreLardier_BnF12483_733">garderon</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_734">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="101">
+               <lb n="149"/>
+               <w xml:id="w_PrestreLardier_BnF12483_735">Q<ex>ui</ex></w>
+               <w xml:id="w_PrestreLardier_BnF12483_736" join="right">li</w>
+               <w xml:id="w_PrestreLardier_BnF12483_737">a</w>
+               <w xml:id="w_PrestreLardier_BnF12483_738">apris</w>
+               <lb n="150"/>
+               <w xml:id="w_PrestreLardier_BnF12483_740"><choice><orig>A</orig><reg>a</reg></choice></w>
+               <w xml:id="w_PrestreLardier_BnF12483_741">parler</w>
+               <w xml:id="w_PrestreLardier_BnF12483_742">laton</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_743">
+                  <choice>
+                     <orig/>
+                     <reg>?</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="102">
+               <lb n="151"/>
+               <w xml:id="w_PrestreLardier_BnF12483_744" join="right">Par</w>
+               <w xml:id="w_PrestreLardier_BnF12483_745">de<choice><orig>u</orig><reg>v</reg></choice>ant</w>
+               <w xml:id="w_PrestreLardier_BnF12483_746">l’</w>
+               <w xml:id="w_PrestreLardier_BnF12483_747">e<choice><orig>u</orig><reg>v</reg></choice>esque</w>
+               <lb n="152"/>
+               <w xml:id="w_PrestreLardier_BnF12483_749"><choice><orig>L</orig><reg>l</reg></choice>e</w>
+               <w xml:id="w_PrestreLardier_BnF12483_750">feron</w>
+               <w xml:id="w_PrestreLardier_BnF12483_751">mener</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_752">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="103">
+               <lb n="153"/>
+               <w xml:id="w_PrestreLardier_BnF12483_753">Mes</w>
+               <w xml:id="w_PrestreLardier_BnF12483_754">ains</w>
+               <w xml:id="w_PrestreLardier_BnF12483_755">le</w>
+               <w xml:id="w_PrestreLardier_BnF12483_756">feray</w>
+               <lb n="154"/>
+               <w xml:id="w_PrestreLardier_BnF12483_758"><choice><orig>C</orig><reg>c</reg></choice>i</w>
+               <w xml:id="w_PrestreLardier_BnF12483_759">endroit</w>
+               <w xml:id="w_PrestreLardier_BnF12483_760">p<ex>ar</ex>ler</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_761">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="104">
+               <lb n="155"/>
+               <w xml:id="w_PrestreLardier_BnF12483_762">Lonc</w>
+               <w xml:id="w_PrestreLardier_BnF12483_763">temps</w>
+               <w xml:id="w_PrestreLardier_BnF12483_764">l’</w>
+               <w xml:id="w_PrestreLardier_BnF12483_765" join="right">ai</w>
+               <w xml:id="w_PrestreLardier_BnF12483_766">gardé</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_767">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <lb n="156"/>
+               <w xml:id="w_PrestreLardier_BnF12483_769" join="right" ana="#aggl-cert_low"><choice><orig>S</orig><reg>s</reg></choice>i</w>
+               <w xml:id="w_PrestreLardier_BnF12483_770">m’</w>
+               <w xml:id="w_PrestreLardier_BnF12483_771" join="right">en</w>
+               <w xml:id="w_PrestreLardier_BnF12483_772">faut</w>
+               <w xml:id="w_PrestreLardier_BnF12483_773"><choice><orig>i</orig><reg>j</reg></choice>ouer</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_774">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_PrestreLardier_BnF12483_775">
+                  <choice>
+                     <orig/>
+                     <reg>»</reg>
+                  </choice>
+               </pc>
+            </l>
+         </lg>
+         <lg>
+            <l n="105">
+               <lb n="157"/>
+               <w xml:id="w_PrestreLardier_BnF12483_776"><g type="initiale" rend="size(1) sizeAct(1) color(red)">L</g>ors</w>
+               <w xml:id="w_PrestreLardier_BnF12483_777">le</w>
+               <w xml:id="w_PrestreLardier_BnF12483_778">frere</w>
+               <w xml:id="w_PrestreLardier_BnF12483_779">au</w>
+               <w xml:id="w_PrestreLardier_BnF12483_780">p<ex>re</ex>stre</w>
+            </l>
+            <l n="106">
+               <lb n="158"/>
+               <w xml:id="w_PrestreLardier_BnF12483_781" join="right">Li</w>
+               <w xml:id="w_PrestreLardier_BnF12483_782" join="right">a</w>
+               <w xml:id="w_PrestreLardier_BnF12483_783">dit</w>
+               <w xml:id="w_PrestreLardier_BnF12483_784">ainsi</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_785">
+                  <choice>
+                     <orig/>
+                     <reg>:</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="107">
+               <lb n="159"/>
+               <pc xml:id="w_PrestreLardier_BnF12483_786">
+                  <choice>
+                     <orig/>
+                     <reg>«</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_PrestreLardier_BnF12483_787">Baillet</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_788">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_PrestreLardier_BnF12483_789">se</w>
+               <w xml:id="w_PrestreLardier_BnF12483_790">veus</w>
+               <w xml:id="w_PrestreLardier_BnF12483_791">estre</w>
+            </l>
+            <l n="108">
+               <lb n="160"/>
+               <w xml:id="w_PrestreLardier_BnF12483_792">Tour<choice><orig>i</orig><reg>j</reg></choice>ours</w>
+               <w xml:id="w_PrestreLardier_BnF12483_793">mon</w>
+               <w xml:id="w_PrestreLardier_BnF12483_794">ami</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_795">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="109">
+               <lb n="161"/>
+               <w xml:id="w_PrestreLardier_BnF12483_796"><choice><orig>U</orig><reg>V</reg></choice>ent</w>
+               <w xml:id="w_PrestreLardier_BnF12483_797">moy</w>
+               <w xml:id="w_PrestreLardier_BnF12483_798">ce</w>
+               <w xml:id="w_PrestreLardier_BnF12483_799">lardier</w>
+               <lb n="162"/>
+               <w xml:id="w_PrestreLardier_BnF12483_801"><choice><orig>E</orig><reg>e</reg></choice>t</w>
+               <w xml:id="w_PrestreLardier_BnF12483_802">pour</w>
+               <w xml:id="w_PrestreLardier_BnF12483_803">voir</w>
+               <w xml:id="w_PrestreLardier_BnF12483_804">te</w>
+               <w xml:id="w_PrestreLardier_BnF12483_805">di</w>
+            </l>
+            <l n="110">
+               <lb n="163"/>
+               <w xml:id="w_PrestreLardier_BnF12483_806"><choice><orig>I</orig><reg>J</reg></choice>e</w>
+               <w xml:id="w_PrestreLardier_BnF12483_807">l’</w>
+               <w xml:id="w_PrestreLardier_BnF12483_808">acheteray</w>
+               <lb n="164"/>
+               <w xml:id="w_PrestreLardier_BnF12483_810"><choice><orig>T</orig><reg>t</reg></choice>out</w>
+               <w xml:id="w_PrestreLardier_BnF12483_811">a</w>
+               <w xml:id="w_PrestreLardier_BnF12483_812">ton</w>
+               <w xml:id="w_PrestreLardier_BnF12483_813">talent</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_814">
+                  <choice>
+                     <orig>.</orig>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_PrestreLardier_BnF12483_815">
+                  <choice>
+                     <orig/>
+                     <reg>»</reg>
+                  </choice>
+               </pc>
+               <cb n="194rb"/>
+            </l>
+            <l n="111">
+               <lb n="165"/>
+               <w xml:id="w_PrestreLardier_BnF12483_816">Baillet</w>
+               <w xml:id="w_PrestreLardier_BnF12483_817">respondi</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_818">
+                  <choice>
+                     <orig/>
+                     <reg>:</reg>
+                  </choice>
+               </pc>
+               <lb n="166"/>
+               <pc xml:id="w_PrestreLardier_BnF12483_820">
+                  <choice>
+                     <orig/>
+                     <reg>«</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_PrestreLardier_BnF12483_821">Il</w>
+               <w xml:id="w_PrestreLardier_BnF12483_822">vaut</w>
+               <w xml:id="w_PrestreLardier_BnF12483_823">g<ex>ra</ex>nt</w>
+               <w xml:id="w_PrestreLardier_BnF12483_824">argent</w>
+            </l>
+            <l n="112">
+               <lb n="167"/>
+               <w xml:id="w_PrestreLardier_BnF12483_825">Q<ex>ua</ex>nt</w>
+               <w xml:id="w_PrestreLardier_BnF12483_826">latin</w>
+               <w xml:id="w_PrestreLardier_BnF12483_827">parole</w>
+               <lb n="168"/>
+               <w xml:id="w_PrestreLardier_BnF12483_829"><choice><orig>D</orig><reg>d</reg></choice>e<choice><orig>u</orig><reg>v</reg></choice>ant</w>
+               <w xml:id="w_PrestreLardier_BnF12483_830">toute</w>
+               <w xml:id="w_PrestreLardier_BnF12483_831">gent</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_832">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_PrestreLardier_BnF12483_833">
+                  <choice>
+                     <orig/>
+                     <reg>»</reg>
+                  </choice>
+               </pc>
+            </l>
+         </lg>
+         <lg>
+            <l n="113">
+               <lb n="169"/>
+               <w xml:id="w_PrestreLardier_BnF12483_834"><choice><orig><g type="initiale" rend="size(1) sizeAct(1) color(blue)">I</g></orig><reg><g type="initiale" rend="size(1) sizeAct(1) color(blue)">J</g></reg></choice>a</w>
+               <w xml:id="w_PrestreLardier_BnF12483_835">pourrez</w>
+               <w xml:id="w_PrestreLardier_BnF12483_836">entendre</w>
+            </l>
+            <l n="114">
+               <lb n="170"/>
+               <w xml:id="w_PrestreLardier_BnF12483_837">Le</w>
+               <w xml:id="w_PrestreLardier_BnF12483_838">sens</w>
+               <w xml:id="w_PrestreLardier_BnF12483_839">de</w>
+               <w xml:id="w_PrestreLardier_BnF12483_840"><choice><orig>b</orig><reg>B</reg></choice>aillet</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_841">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="115">
+               <lb n="171"/>
+               <w xml:id="w_PrestreLardier_BnF12483_842">Afin</w>
+               <w xml:id="w_PrestreLardier_BnF12483_843">de</w>
+               <w xml:id="w_PrestreLardier_BnF12483_844">miex</w>
+               <w xml:id="w_PrestreLardier_BnF12483_845">vendre</w>
+            </l>
+            <l n="116">
+               <lb n="172"/>
+               <w xml:id="w_PrestreLardier_BnF12483_846">Prist</w>
+               <w xml:id="w_PrestreLardier_BnF12483_847"><choice><orig>v</orig><reg>u</reg></choice>n</w>
+               <w xml:id="w_PrestreLardier_BnF12483_848">grant</w>
+               <w xml:id="w_PrestreLardier_BnF12483_849">maillet</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_850">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="117">
+               <lb n="173"/>
+               <w xml:id="w_PrestreLardier_BnF12483_851">Puis</w>
+               <w xml:id="w_PrestreLardier_BnF12483_852">a</w>
+               <w xml:id="w_PrestreLardier_BnF12483_853"><choice><orig>i</orig><reg>j</reg></choice>uré</w>
+               <w xml:id="w_PrestreLardier_BnF12483_854"><choice><orig>d</orig><reg>D</reg></choice>ieu</w>
+               <lb n="174"/>
+               <w xml:id="w_PrestreLardier_BnF12483_856"><choice><orig>C</orig><reg>c</reg></choice>’</w>
+               <w xml:id="w_PrestreLardier_BnF12483_857">un</w>
+               <w xml:id="w_PrestreLardier_BnF12483_858">tel</w>
+               <w xml:id="w_PrestreLardier_BnF12483_859">rehaingnet</w>
+            </l>
+            <l n="118">
+               <lb n="175"/>
+               <w xml:id="w_PrestreLardier_BnF12483_860">Dour<space type="degl" cert="low"/>ra</w>
+               <w xml:id="w_PrestreLardier_BnF12483_861">au</w>
+               <w xml:id="w_PrestreLardier_BnF12483_862">lardier</w>
+               <lb n="176"/>
+               <w xml:id="w_PrestreLardier_BnF12483_864">q<ex>u</ex>’</w>
+               <w xml:id="w_PrestreLardier_BnF12483_865"><ex>i</ex>l</w>
+               <w xml:id="w_PrestreLardier_BnF12483_866">sera</w>
+               <w xml:id="w_PrestreLardier_BnF12483_867">froëz</w>
+            </l>
+            <l n="119">
+               <lb n="177"/>
+               <w xml:id="w_PrestreLardier_BnF12483_868">S’</w>
+               <w xml:id="w_PrestreLardier_BnF12483_869">encore</w>
+               <w xml:id="w_PrestreLardier_BnF12483_870">ne</w>
+               <w xml:id="w_PrestreLardier_BnF12483_871">dist</w>
+               <lb n="178"/>
+               <w xml:id="w_PrestreLardier_BnF12483_873"><choice><orig>D</orig><reg>d</reg></choice>u</w>
+               <w xml:id="w_PrestreLardier_BnF12483_874">latin</w>
+               <w xml:id="w_PrestreLardier_BnF12483_875">assez</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_876">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="120">
+               <lb n="179"/>
+               <w xml:id="w_PrestreLardier_BnF12483_877">M<ex>o</ex>lt</w>
+               <w xml:id="w_PrestreLardier_BnF12483_878">g<ex>ra</ex>nt</w>
+               <w xml:id="w_PrestreLardier_BnF12483_879">pueple</w>
+               <w xml:id="w_PrestreLardier_BnF12483_880">s’</w>
+               <w xml:id="w_PrestreLardier_BnF12483_881">est</w>
+               <lb n="180"/>
+               <w xml:id="w_PrestreLardier_BnF12483_883"><choice><orig>E</orig><reg>e</reg></choice>ntour</w>
+               <w xml:id="w_PrestreLardier_BnF12483_884">aünez</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_885">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+         </lg>
+         <lg>
+            <l n="121">
+               <lb n="181"/>
+               <w xml:id="w_PrestreLardier_BnF12483_886"><g type="initiale" rend="size(1) sizeAct(2) color(red)">P</g>lusieurs</w>
+               <w xml:id="w_PrestreLardier_BnF12483_887">gens</w>
+               <w xml:id="w_PrestreLardier_BnF12483_888">cuidoient</w>
+            </l>
+            <l n="122">
+               <lb n="182"/>
+               <w xml:id="w_PrestreLardier_BnF12483_889">Q<ex>ue</ex></w>
+               <w xml:id="w_PrestreLardier_BnF12483_890"><choice><orig>b</orig><reg>B</reg></choice>aillet</w>
+               <w xml:id="w_PrestreLardier_BnF12483_891">fust</w>
+               <w xml:id="w_PrestreLardier_BnF12483_892">fol</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_893">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="123">
+               <lb n="183"/>
+               <w xml:id="w_PrestreLardier_BnF12483_894">Mes</w>
+               <w xml:id="w_PrestreLardier_BnF12483_895">folleur</w>
+               <w xml:id="w_PrestreLardier_BnF12483_896">pensoient</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_897">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="124">
+               <lb n="184"/>
+               <w xml:id="w_PrestreLardier_BnF12483_898">Il</w>
+               <w xml:id="w_PrestreLardier_BnF12483_899"><choice><orig>i</orig><reg>j</reg></choice>ura</w>
+               <w xml:id="w_PrestreLardier_BnF12483_900">saint</w>
+               <w xml:id="w_PrestreLardier_BnF12483_901"><choice><orig>p</orig><reg>P</reg></choice>ol</w>
+            </l>
+            <l n="125">
+               <lb n="185"/>
+               <w xml:id="w_PrestreLardier_BnF12483_902">Q<ex>ue</ex></w>
+               <w xml:id="w_PrestreLardier_BnF12483_903">du</w>
+               <w xml:id="w_PrestreLardier_BnF12483_904">grant</w>
+               <w xml:id="w_PrestreLardier_BnF12483_905">maillet</w>
+               <lb n="186"/>
+               <w xml:id="w_PrestreLardier_BnF12483_907"><choice><orig>Q</orig><reg>q</reg></choice>u’</w>
+               <w xml:id="w_PrestreLardier_BnF12483_908">il</w>
+               <w xml:id="w_PrestreLardier_BnF12483_909">tint</w>
+               <w xml:id="w_PrestreLardier_BnF12483_910">a</w>
+               <w xml:id="w_PrestreLardier_BnF12483_911">son</w>
+               <w xml:id="w_PrestreLardier_BnF12483_912">col</w>
+            </l>
+            <l n="126">
+               <lb n="187"/>
+               <w xml:id="w_PrestreLardier_BnF12483_913">Sera</w>
+               <w xml:id="w_PrestreLardier_BnF12483_914">le</w>
+               <w xml:id="w_PrestreLardier_BnF12483_915">lardier</w>
+               <lb n="188"/>
+               <w xml:id="w_PrestreLardier_BnF12483_917"><choice><orig>R</orig><reg>r</reg></choice>ompus</w>
+               <w xml:id="w_PrestreLardier_BnF12483_918">de</w>
+               <w xml:id="w_PrestreLardier_BnF12483_919">tous</w>
+               <w xml:id="w_PrestreLardier_BnF12483_920">sens</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_921">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="127">
+               <lb n="189"/>
+               <w xml:id="w_PrestreLardier_BnF12483_922">Le</w>
+               <w xml:id="w_PrestreLardier_BnF12483_923">chetif</w>
+               <w xml:id="w_PrestreLardier_BnF12483_924">de</w>
+               <w xml:id="w_PrestreLardier_BnF12483_925">prestre</w>
+               <lb n="190"/>
+               <w xml:id="w_PrestreLardier_BnF12483_927">q<ex>ui</ex></w>
+               <w xml:id="w_PrestreLardier_BnF12483_928">estoit</w>
+               <w xml:id="w_PrestreLardier_BnF12483_929">dedens</w>
+            </l>
+            <l n="128">
+               <lb n="191"/>
+               <w xml:id="w_PrestreLardier_BnF12483_930">Ne</w>
+               <w xml:id="w_PrestreLardier_BnF12483_931">sa<choice><orig>u</orig><reg>v</reg></choice>oit</w>
+               <w xml:id="w_PrestreLardier_BnF12483_932">que</w>
+               <w xml:id="w_PrestreLardier_BnF12483_933">faire</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_934">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+               <lb n="192"/>
+               <w xml:id="w_PrestreLardier_BnF12483_936">Pres</w>
+               <w xml:id="w_PrestreLardier_BnF12483_937">n’</w>
+               <w xml:id="w_PrestreLardier_BnF12483_938">issoit</w>
+               <w xml:id="w_PrestreLardier_BnF12483_939">du</w>
+               <w xml:id="w_PrestreLardier_BnF12483_940">sens</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_941">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+            </l>
+         </lg>
+         <lg>
+            <l n="129">
+               <lb n="193"/>
+               <w xml:id="w_PrestreLardier_BnF12483_942"><g type="initiale" rend="size(1) sizeAct(1) color(blue)">I</g>l</w>
+               <w xml:id="w_PrestreLardier_BnF12483_943">ne</w>
+               <w xml:id="w_PrestreLardier_BnF12483_944">s’</w>
+               <w xml:id="w_PrestreLardier_BnF12483_945">osoit</w>
+               <w xml:id="w_PrestreLardier_BnF12483_946">taire</w>
+            </l>
+            <l n="130">
+               <lb n="194"/>
+               <w xml:id="w_PrestreLardier_BnF12483_947">Ne</w>
+               <w xml:id="w_PrestreLardier_BnF12483_948">n’</w>
+               <w xml:id="w_PrestreLardier_BnF12483_949">osoit</w>
+               <w xml:id="w_PrestreLardier_BnF12483_950">parler</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_951">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="131">
+               <lb n="195"/>
+               <w xml:id="w_PrestreLardier_BnF12483_952">Le</w>
+               <w xml:id="w_PrestreLardier_BnF12483_953"><choice><orig>r</orig><reg>R</reg></choice>oy</w>
+               <w xml:id="w_PrestreLardier_BnF12483_954">de<space type="degl"/>bonnaire</w>
+            </l>
+            <l n="132">
+               <lb n="196"/>
+               <w xml:id="w_PrestreLardier_BnF12483_955">Prist</w>
+               <w xml:id="w_PrestreLardier_BnF12483_956">a</w>
+               <w xml:id="w_PrestreLardier_BnF12483_957">reclamer</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_958">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="133">
+               <lb n="197"/>
+               <pc xml:id="w_PrestreLardier_BnF12483_959">
+                  <choice>
+                     <orig/>
+                     <reg>«</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_PrestreLardier_BnF12483_960">Conment</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_961">
+                  <choice>
+                     <orig/>
+                     <reg>?</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_PrestreLardier_BnF12483_962">dist</w>
+               <w xml:id="w_PrestreLardier_BnF12483_963"><choice><orig>b</orig><reg>B</reg></choice>aillet</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_964">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+               <lb n="198"/>
+               <w xml:id="w_PrestreLardier_BnF12483_966">Faut</w>
+               <w xml:id="w_PrestreLardier_BnF12483_967">il</w>
+               <w xml:id="w_PrestreLardier_BnF12483_968">tant</w>
+               <w xml:id="w_PrestreLardier_BnF12483_969">tarder</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_970">
+                  <choice>
+                     <orig/>
+                     <reg>?</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="134">
+               <lb n="199"/>
+               <w xml:id="w_PrestreLardier_BnF12483_971">S’</w>
+               <w xml:id="w_PrestreLardier_BnF12483_972">errant</w>
+               <w xml:id="w_PrestreLardier_BnF12483_973">ne</w>
+               <w xml:id="w_PrestreLardier_BnF12483_974">paroles</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_975">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <lb n="200"/>
+               <w xml:id="w_PrestreLardier_BnF12483_977"><choice><orig>M</orig><reg>m</reg></choice>escheant</w>
+               <w xml:id="w_PrestreLardier_BnF12483_978">lardier</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_979">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="135">
+               <lb n="201"/>
+               <w xml:id="w_PrestreLardier_BnF12483_980">Par</w>
+               <w xml:id="w_PrestreLardier_BnF12483_981">menues</w>
+               <w xml:id="w_PrestreLardier_BnF12483_982">pieces</w>
+               <lb n="202"/>
+               <w xml:id="w_PrestreLardier_BnF12483_984"><choice><orig>T</orig><reg>t</reg></choice>’</w>
+               <w xml:id="w_PrestreLardier_BnF12483_985">iray</w>
+               <w xml:id="w_PrestreLardier_BnF12483_986">despecier</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_987">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_PrestreLardier_BnF12483_988">
+                  <choice>
+                     <orig/>
+                     <reg>»</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="136">
+               <lb n="203"/>
+               <w xml:id="w_PrestreLardier_BnF12483_989">Alors</w>
+               <w xml:id="w_PrestreLardier_BnF12483_990">dist</w>
+               <w xml:id="w_PrestreLardier_BnF12483_991">le</w>
+               <w xml:id="w_PrestreLardier_BnF12483_992">prestre</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_993">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <lb n="204"/>
+               <w xml:id="w_PrestreLardier_BnF12483_995"><choice><orig>N</orig><reg>n</reg></choice>’</w>
+               <w xml:id="w_PrestreLardier_BnF12483_996">osa</w>
+               <w xml:id="w_PrestreLardier_BnF12483_997">de<space type="degl"/>laier</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_998">
+                  <choice>
+                     <orig/>
+                     <reg>:</reg>
+                  </choice>
+               </pc>
+            </l>
+         </lg>
+         <lg>
+            <l n="137">
+               <lb n="205"/>
+               <pc xml:id="w_PrestreLardier_BnF12483_999">
+                  <choice>
+                     <orig/>
+                     <reg>«</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_PrestreLardier_BnF12483_1000"><g type="initiale" rend="size(1) sizeAct(1) color(red)">F</g>rater</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_1001">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_PrestreLardier_BnF12483_1002">pro</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1003"><choice><orig>d</orig><reg>D</reg></choice>eo</w>
+            </l>
+            <l n="138">
+               <lb n="206"/>
+               <w xml:id="w_PrestreLardier_BnF12483_1004">Me</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1005">delibera</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_1006">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="139">
+               <lb n="207"/>
+               <w xml:id="w_PrestreLardier_BnF12483_1007">Reddam</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1008" join="right">tan</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1009">cito</w>
+            </l>
+            <l n="140">
+               <lb n="208"/>
+               <w xml:id="w_PrestreLardier_BnF12483_1010">Ce</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1011">qu’</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1012">il</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1013">coustera</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_1014">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_PrestreLardier_BnF12483_1015">
+                  <choice>
+                     <orig/>
+                     <reg>»</reg>
+                  </choice>
+               </pc>
+               <pb n="194v"
+                    xml:id="pb_4"
+                    facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8454680s/f392/full/pct:50/0/native.jpg"/>
+               <cb n="194va"/>
+            </l>
+            <l n="141">
+               <lb n="209"/>
+               <w xml:id="w_PrestreLardier_BnF12483_1017">Q<ex>ua</ex>nt</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1018"><choice><orig>b</orig><reg>B</reg></choice>aillet</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1019">l’</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1020">oÿ</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_1021">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <lb n="210"/>
+               <w xml:id="w_PrestreLardier_BnF12483_1023" join="right" ana="#aggl-cert_low"><choice><orig>E</orig><reg>e</reg></choice>n</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1024">haut</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1025">s’</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1026">escria</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_1027">
+                  <choice>
+                     <orig/>
+                     <reg>:</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="142">
+               <lb n="211"/>
+               <pc xml:id="w_PrestreLardier_BnF12483_1028">
+                  <choice>
+                     <orig/>
+                     <reg>«</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_PrestreLardier_BnF12483_1029">Ça<choice><orig>u</orig><reg>v</reg></choice>etiers</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1030" join="right">me</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1031">doi<choice><orig>u</orig><reg>v</reg></choice>ent</w>
+               <lb n="212"/>
+               <w xml:id="w_PrestreLardier_BnF12483_1033"><choice><orig>A</orig><reg>a</reg></choice>mer</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1034" join="right" ana="#aggl-cert_low">de</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1035">cuer</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1036">fin</w>
+            </l>
+            <l n="143">
+               <lb n="213"/>
+               <w xml:id="w_PrestreLardier_BnF12483_1037">Quant</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1038">a</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1039">mon</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1040">lardier</w>
+               <lb n="214"/>
+               <w xml:id="w_PrestreLardier_BnF12483_1042"><choice><orig>F</orig><reg>f</reg></choice>ais</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1043">parler</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1044">latin</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_1045">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_PrestreLardier_BnF12483_1046">
+                  <choice>
+                     <orig/>
+                     <reg>»</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="144">
+               <lb n="215"/>
+               <w xml:id="w_PrestreLardier_BnF12483_1047">Lors</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1048" join="right" ana="#aggl-cert_low">le</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1049">frere</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1050">au</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1051">prestre</w>
+               <lb n="216"/>
+               <w xml:id="w_PrestreLardier_BnF12483_1053"><choice><orig>D</orig><reg>d</reg></choice>ist</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_1054">
+                  <choice>
+                     <orig/>
+                     <reg>:</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_PrestreLardier_BnF12483_1055">
+                  <choice>
+                     <orig/>
+                     <reg>«</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_PrestreLardier_BnF12483_1056"><choice><orig>b</orig><reg>B</reg></choice>aillet</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_1057">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_PrestreLardier_BnF12483_1058">voisin</w>
+            </l>
+         </lg>
+         <lg>
+            <l n="145">
+               <lb n="217"/>
+               <w xml:id="w_PrestreLardier_BnF12483_1059"><g type="initiale" rend="size(1) sizeAct(1) color(blue)">E</g>n</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1060">tant</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1061" join="right">com</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1062">vous</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1063">prie</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_1064">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="146">
+               <lb n="218"/>
+               <w xml:id="w_PrestreLardier_BnF12483_1065">Le</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1066">lardier</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1067">vendez</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_1068">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="147">
+               <lb n="219"/>
+               <w xml:id="w_PrestreLardier_BnF12483_1069">Ce</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1070">sera</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1071">folie</w>
+            </l>
+            <l n="148">
+               <lb n="220"/>
+               <w xml:id="w_PrestreLardier_BnF12483_1072">Se</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1073">vous</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1074">le</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1075">quassez</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_1076">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="149">
+               <lb n="221"/>
+               <w xml:id="w_PrestreLardier_BnF12483_1077">Ne</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1078">me</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1079">faites</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1080">pas</w>
+               <lb n="222"/>
+               <w xml:id="w_PrestreLardier_BnF12483_1082" join="right" ana="#aggl-cert_low"><choice><orig>D</orig><reg>d</reg></choice>u</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1083">pis</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1084">que</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1085">pouez</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_1086">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="150">
+               <lb n="223"/>
+               <pc xml:id="w_PrestreLardier_BnF12483_1087">
+                  <choice>
+                     <orig/>
+                     <reg>-</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_PrestreLardier_BnF12483_1088">Sire</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_1089">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_PrestreLardier_BnF12483_1090">dist</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1091"><choice><orig>b</orig><reg>B</reg></choice>aillet</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_1092">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <lb n="224"/>
+               <w xml:id="w_PrestreLardier_BnF12483_1094"><choice><orig>S</orig><reg>s</reg></choice>us</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1095">sains</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1096">vous</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1097">ple<choice><orig>u</orig><reg>v</reg></choice>is</w>
+            </l>
+            <l n="151">
+               <lb n="225"/>
+               <w xml:id="w_PrestreLardier_BnF12483_1098"><choice><orig>I</orig><reg>J</reg></choice>’</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1099">en</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1100">aroy</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1101">vint</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1102">li<choice><orig>u</orig><reg>v</reg></choice>res</w>
+               <lb n="226"/>
+               <w xml:id="w_PrestreLardier_BnF12483_1104"><choice><orig>D</orig><reg>d</reg></choice>e</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1105">bons</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1106">parisis</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_1107">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="152">
+               <lb n="227"/>
+               <w xml:id="w_PrestreLardier_BnF12483_1108">Il</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1109" join="right" ana="#aggl-cert_low">en</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1110">vaut</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1111">bien</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1112">trente</w>
+               <lb n="228"/>
+               <w xml:id="w_PrestreLardier_BnF12483_1114"><choice><orig>Q</orig><reg>q</reg></choice><ex>ue</ex></w>
+               <w xml:id="w_PrestreLardier_BnF12483_1115">m<ex>o</ex>lt</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1116">est</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1117">soutiz</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_1118">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_PrestreLardier_BnF12483_1119">
+                  <choice>
+                     <orig/>
+                     <reg>»</reg>
+                  </choice>
+               </pc>
+            </l>
+         </lg>
+         <lg>
+            <l n="153">
+               <lb n="229"/>
+               <w xml:id="w_PrestreLardier_BnF12483_1120"><g type="initiale" rend="size(1) sizeAct(1) color(red)">L</g>e</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1121">prestre</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1122">n’</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1123">osa</w>
+            </l>
+            <l n="154">
+               <lb n="230"/>
+               <w xml:id="w_PrestreLardier_BnF12483_1124">Le</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1125">mot</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1126">refuser</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_1127">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="155">
+               <lb n="231"/>
+               <w xml:id="w_PrestreLardier_BnF12483_1128">A</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1129"><choice><orig>b</orig><reg>B</reg></choice>aillet</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1130">ala</w>
+            </l>
+            <l n="156">
+               <lb n="232"/>
+               <w xml:id="w_PrestreLardier_BnF12483_1131"><choice><orig>U</orig><reg>V</reg></choice>int</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1132">li<choice><orig>u</orig><reg>v</reg></choice>res</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1133">conter</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_1134">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="157">
+               <lb n="233"/>
+               <w xml:id="w_PrestreLardier_BnF12483_1135">Puis</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1136">fist</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1137">le</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1138">lardier</w>
+               <lb n="234"/>
+               <w xml:id="w_PrestreLardier_BnF12483_1140" join="right"><choice><orig>E</orig><reg>e</reg></choice>n</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1141">tel</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1142">lieu</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1143">porter</w>
+            </l>
+            <l n="158">
+               <lb n="235"/>
+               <w xml:id="w_PrestreLardier_BnF12483_1144">Ou</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1145">pri<choice><orig>u</orig><reg>v</reg></choice>eement</w>
+               <lb n="236"/>
+               <w xml:id="w_PrestreLardier_BnF12483_1147"><choice><orig>M</orig><reg>m</reg></choice>ist</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1148">son</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1149">frere</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1150">hors</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_1151">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="159">
+               <lb n="237"/>
+               <w xml:id="w_PrestreLardier_BnF12483_1152">Bon</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1153">ami</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1154">li</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1155">fu</w>
+               <lb n="238"/>
+               <w xml:id="w_PrestreLardier_BnF12483_1157"><choice><orig>A</orig><reg>a</reg></choice></w>
+               <w xml:id="w_PrestreLardier_BnF12483_1158">cel</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1159">besoing</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1160">lors</w>
+            </l>
+            <l n="160">
+               <lb n="239"/>
+               <w xml:id="w_PrestreLardier_BnF12483_1161">Quar</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1162">d’</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1163">a<choice><orig>u</orig><reg>v</reg></choice>oir</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1164">g<ex>ra</ex>nt</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1165">honte</w>
+               <lb n="240"/>
+               <w xml:id="w_PrestreLardier_BnF12483_1167"><choice><orig>L</orig><reg>l</reg></choice>i</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1168">garda</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1169">son</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1170">cors</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_1171">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+         </lg>
+         <lg>
+            <l n="161">
+               <lb n="241"/>
+               <w xml:id="w_PrestreLardier_BnF12483_1172"><g type="initiale" rend="size(1) sizeAct(1) color(blue)">B</g>aillet</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1173">ot</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1174">vint</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1175">li<choice><orig>u</orig><reg>v</reg></choice>res</w>
+            </l>
+            <l n="162">
+               <lb n="242"/>
+               <w xml:id="w_PrestreLardier_BnF12483_1176">Et</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1177">tout</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1178">par</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1179">son</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1180">sens</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_1181">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="163">
+               <lb n="243"/>
+               <w xml:id="w_PrestreLardier_BnF12483_1182">Ainsi</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1183">fu</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1184">deli<choice><orig>u</orig><reg>v</reg></choice>res</w>
+            </l>
+            <l n="164">
+               <lb n="244"/>
+               <w xml:id="w_PrestreLardier_BnF12483_1185">Monseign<ex>eu</ex>r</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1186"><choice><orig>l</orig><reg>L</reg></choice>orens</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_1187">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="165">
+               <lb n="245"/>
+               <w xml:id="w_PrestreLardier_BnF12483_1188" join="right"><choice><orig>I</orig><reg>J</reg></choice>e</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1189">croi</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1190"><ex>c</ex>’</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1191"><ex>on</ex>ques</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1192">puis</w>
+               <lb n="246"/>
+               <w xml:id="w_PrestreLardier_BnF12483_1194"><choice><orig>N</orig><reg>n</reg></choice>e</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1195">li</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1196">prist</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1197">pourpens</w>
+            </l>
+            <l n="166">
+               <lb n="247"/>
+               <w xml:id="w_PrestreLardier_BnF12483_1198">D’</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1199">amer</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1200">p<ex>ar</ex></w>
+               <w xml:id="w_PrestreLardier_BnF12483_1201">amours</w>
+               <lb n="248"/>
+               <w xml:id="w_PrestreLardier_BnF12483_1203"><choice><orig>F</orig><reg>f</reg></choice>ame</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1204">a</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1205">ça<choice><orig>u</orig><reg>v</reg></choice>etier</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_1206">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="167">
+               <lb n="249"/>
+               <w xml:id="w_PrestreLardier_BnF12483_1207">Par</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1208">ceste</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1209">chançon</w>
+               <lb n="250"/>
+               <w xml:id="w_PrestreLardier_BnF12483_1211"><choice><orig>V</orig><reg>v</reg></choice>ous</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1212">puis</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1213">tesmoignier</w>
+            </l>
+            <l n="168">
+               <lb n="251"/>
+               <w xml:id="w_PrestreLardier_BnF12483_1214">Que</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1215">du</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1216">petit</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1217">weil</w>
+               <lb n="252"/>
+               <w xml:id="w_PrestreLardier_BnF12483_1219"><supplied>s</supplied>e</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1220">fait</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1221">bon</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1222">guetier</w>
+               <cb n="194vb"/>
+            </l>
+         </lg>
+         <p rend="Prose">
+            <pc xml:id="w_PrestreLardier_BnF12483_1223">
+               <choice>
+                  <orig/>
+                  <reg>-</reg>
+               </choice>
+            </pc>
+            <w xml:id="w_PrestreLardier_BnF12483_1224">Ex</w>
+            <w xml:id="w_PrestreLardier_BnF12483_1225">oc<ex>u</ex>lo</w>
+            <w xml:id="w_PrestreLardier_BnF12483_1226">pueri</w>
+            <w xml:id="w_PrestreLardier_BnF12483_1227">noli</w>
+            <w xml:id="w_PrestreLardier_BnF12483_1228">tua</w>
+            <w xml:id="w_PrestreLardier_BnF12483_1229">f<ex>a</ex>c<ex>t</ex>a</w>
+            <w xml:id="w_PrestreLardier_BnF12483_1230">tueri</w>
+            <pc xml:id="w_PrestreLardier_BnF12483_1231">
+               <choice>
+                  <orig>.</orig>
+                  <reg>-</reg>
+               </choice>
+            </pc>
+         </p>
+         <lg>
+            <l n="169">
+               <lb n="253"/>
+               <w xml:id="w_PrestreLardier_BnF12483_1232"><g type="initiale" rend="size(1) sizeAct(1) color(red)">Q</g>uar</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1233">p<ex>ar</ex></w>
+               <w xml:id="w_PrestreLardier_BnF12483_1234">la</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1235">fillete</w>
+            </l>
+            <l n="170">
+               <lb n="254"/>
+               <w xml:id="w_PrestreLardier_BnF12483_1236">Fu</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1237">le</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1238">fait</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1239">sceü</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_1240">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="171">
+               <lb n="255"/>
+               <w xml:id="w_PrestreLardier_BnF12483_1241">Qui</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1242">estoit</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1243"><choice><orig>i</orig><reg>j</reg></choice>oneite</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_1244">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="172">
+               <lb n="256"/>
+               <w xml:id="w_PrestreLardier_BnF12483_1245">N’</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1246">est</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1247">si</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1248">haut</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1249">tondu</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_1250">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="173">
+               <lb n="257"/>
+               <w xml:id="w_PrestreLardier_BnF12483_1251">Se</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1252">vers</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1253">ça<choice><orig>u</orig><reg>v</reg></choice>etiers</w>
+               <lb n="258"/>
+               <w xml:id="w_PrestreLardier_BnF12483_1255"><choice><orig>S</orig><reg>s</reg></choice>’</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1256">estoit</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1257">esmeüs</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_1258">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="174">
+               <lb n="259"/>
+               <w xml:id="w_PrestreLardier_BnF12483_1259">Qu’</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1260">en</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1261" join="right">la</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1262">fin</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1263">du</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1264">tour</w>
+               <lb n="260"/>
+               <w xml:id="w_PrestreLardier_BnF12483_1266"><choice><orig>N</orig><reg>n</reg></choice>’</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1267">en</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1268">eüst</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1269">du</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1270">pis</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_1271">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="175">
+               <lb n="261"/>
+               <w xml:id="w_PrestreLardier_BnF12483_1272">Gardez</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1273">entre</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1274">vous</w>
+               <lb n="262"/>
+               <w xml:id="w_PrestreLardier_BnF12483_1276"><choice><orig>Q</orig><reg>q</reg></choice>ui</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1277">estes</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1278"><choice><orig>i</orig><reg>j</reg></choice>olis</w>
+            </l>
+            <l n="176">
+               <lb n="263"/>
+               <w xml:id="w_PrestreLardier_BnF12483_1279" join="right">Q<ex>ue</ex></w>
+               <w xml:id="w_PrestreLardier_BnF12483_1280">vous</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1281">ne</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1282">soiez</w>
+               <lb n="264"/>
+               <w xml:id="w_PrestreLardier_BnF12483_1284" join="right" ana="#aggl-cert_low"><choice><orig>E</orig><reg>e</reg></choice>n</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1285">tel</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1286">lardier</w>
+               <w xml:id="w_PrestreLardier_BnF12483_1287">mis</w>
+               <pc xml:id="w_PrestreLardier_BnF12483_1288">
+                  <choice>
+                     <orig>.</orig>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+            </l>
+         </lg>
+      </body>
+   </text>
+</TEI>
