@@ -1,0 +1,66 @@
+ 
+ 
+SEustPr1Lat
+
+
+id	SEustPr1Lat
+textorder	04SEustPr1Lat
+title	Passio Sancti Eustachii
+author	anonymous
+cpdate	0950-01-01
+cpdatelibre	10th c.
+cpnotbefore	0900-01-01
+cpnotafter	0999-12-31
+cpcentury	10th
+msdate	0950-01-01
+msdatelibre	10th c.
+msnotbefore	0905-01-01
+msnotafter	0999-12-31
+dialect	Gallia
+domain	religious
+form	prose
+genre	hagiographic
+msd	unverified
+relation	original
+lang	lat
+msid	BnF, lat. 5577
+
+
+
+
+
+
+ 
+SEustPr1
+
+
+id	SEustPr1
+textorder	1225SEustPr1
+title	Vie de saint Eustache
+author	anonymous (translator)
+cpdate	1225-01-01
+cpdatelibre	1st half 13th c.
+cpnotbefore	1200-01-01
+cpnotafter	1249-12-31
+cpcentury	13th
+msdate	1250-01-01
+msdatelibre	13th c.
+msnotbefore	1200-01-01
+msnotafter	1299-12-31
+dialect	undefined
+domain	religious
+form	prose
+genre	hagiographic
+msd	verified
+relation	translation
+lang	fro
+msid	BnF, fr. 2464
+
+
+
+
+
+
+ 
+	
+	
