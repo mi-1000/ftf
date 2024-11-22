@@ -1,0 +1,2550 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="fro">Les deus Angloys et l'agnel</title>
+            <author>Anonyme</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2024</date>
+            </edition>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="acorbellari">Alain Corbellari</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="alavrent">Alexei Lavrentiev</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="apinche">Ariane Pinche</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="blaid">Baptiste Laïd</name>
+            </respStmt>
+            <respStmt>
+               <resp>robot</resp>
+               <name xml:id="bot">bot bot</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="cguillot">Céline Guillot-Barbance</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="clachet">Claude Lachet</name>
+            </respStmt>
+            <respStmt>
+               <resp>editeur</resp>
+               <resp>traducteur</resp>
+               <resp>chef de projet</resp>
+               <name xml:id="cpierreville">Corinne Pierreville</name>
+            </respStmt>
+            <respStmt>
+               <resp>relecteur-traduction</resp>
+               <resp>membre</resp>
+               <name xml:id="ggruber">Gauthier Grüber</name>
+            </respStmt>
+            <respStmt>
+               <resp>ingénieur</resp>
+               <name xml:id="jnuguet">Jules Nuguet</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="ngarnier">Nicolas Garnier</name>
+            </respStmt>
+            <respStmt>
+               <resp>Relecteur traduction</resp>
+               <name xml:id="rbellon">Roger Bellon</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="rtrachsler">Richard Trachsler</name>
+            </respStmt>
+            <respStmt>
+               <resp>relecteur</resp>
+               <resp>membre</resp>
+               <name xml:id="veugene">Valentine Eugène</name>
+            </respStmt>
+            <respStmt>
+               <resp>ingénieur</resp>
+               <name xml:id="myamagata">Moe Yamagata</name>
+            </respStmt>
+            <respStmt>
+               <resp/>
+               <name xml:id="jdocks">Justine DOCKS</name>
+            </respStmt>
+            <respStmt>
+               <resp>editeur</resp>
+               <resp>relecteur</resp>
+               <resp>traducteur</resp>
+               <resp>relecteur-traduction</resp>
+               <resp/>
+               <name> </name>
+            </respStmt>
+         </editionStmt>
+         <extent>
+            <num xml:id="nb_tokens_given">880</num>
+            <num xml:id="nb_mots_given">692</num>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <name>ENS de Lyon / UMR 5317 IHRIM, Base de français médiéval, projet Fabliaux</name>
+            </publisher>
+            <address>
+               <addrLine>15, parvis René Descartes</addrLine>
+               <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+               <addrLine>Tél : 04 37 37 63 10</addrLine>
+               <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+               <addrLine>http://bfm.ens-lyon.fr</addrLine>
+            </address>
+            <idno type="bfm">http://catalog.bfm-corpus.org/fabliaux/deAngloys_BnF-19152</idno>
+            <idno type="doi">10.34847/nkl.6bfahq91</idno>
+            <availability status="free">
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <ab type="availability_bfm">Les Conditions générales d'utilisation de la Base de Français Médiéval (http://txm.bfm-corpus.org/bfm/files/CGU.pdf), 
+                        et notamment son Article 5 « PROPRIETE INTELLECTUELLE », s'appliquent à tous les textes de la BFM.</ab>
+                  <ab type="how_to_cite">
+                     <label>Comment citer ce texte :</label>
+                     <bibl>Les deus Angloys et l'agnel, édité par Corinne Pierreville en collaboration avec Valentine Eugène. Publié en ligne par l’ENS de Lyon dans la Base de français médiéval, 
+2024, http://catalog.bfm-corpus.org/fabliaux/deAngloys_BnF-19152.</bibl>
+                        D'autres formules de citation de la BFM sont proposées sur la page web suivante :
+                        http://bfm.ens-lyon.fr/spip.php?article281.</ab>
+                  <ab type="availability_file">
+                     <label>Conditions d'utilisation de ce fichier :</label>
+                        Ce fichier numérique est composé du corps de texte médiéval (restauré par son ou ses éditeur(s) scientifique(s)), des apparats critiques (introductions, notes, glossaires, explications, du texte d'origine (ou des enrichissements) qui ont été réalisés dans le cadre de la restauration des textes par les Editeurs Scientifiques) et des suppléments numériques : balisage XML-TEI, métadonnées (teiHeader), balisage du discours direct, étiquetage morpho-syntaxique, lemmatisation. Le texte et les suppléments numériques sont libres de droit et peuvent à ce titre être téléchargés et réutilisés librement. Les apparats critiques sont soumis à une licence de type CC BY-NC-SA 3.0 FR  http://creativecommons.org/licenses/by-nc-sa/3.0/fr. Les Utilisateurs s’engagent à respecter les termes de cette licence. 
+                    </ab>
+                  <ab type="availability_txmweb" subtype="illimité">
+                     <label>Conditions d'utilisation par le portail BFM :</label>
+                        Pas de limitation dans l'usage des fonctionnalités. Téléchargement autorisé.</ab>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="main" xml:id="BnF-19152">
+               <msIdentifier>
+                  <settlement>Paris</settlement>
+                  <repository>Bibliothèque nationale de France</repository>
+                  <idno>français 19152</idno>
+                  <idno type="URI" subtype="Notice" n="Arlima">https://www.arlima.net/mss/france/paris/bibliotheque_nationale_de_france/francais/19152.html</idno>
+                  <idno type="URI" subtype="Notice" n="Jonas">http://jonas.irht.cnrs.fr/manuscrit/45865</idno>
+                  <idno type="URI" subtype="Notice" n="Archives_et_manuscrits">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc48361n</idno>
+                  <idno type="URI" subtype="Data" n="Biblissima">
+https://data.biblissima.fr/entity/Q48011</idno>
+                  <idno type="URI" subtype="Fac-similé">https://gallica.bnf.fr/ark:/12148/btv1b9062193k</idno>
+                  <idno type="URI" subtype="Manifeste_IIIF">https://gallica.bnf.fr/iiif/ark:/12148/btv1b9062193k/manifest.json</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem xml:id="deAngloys_BnF-19152">
+                     <locus>f. 047va-048ra</locus>
+                     <title>Les deus Angloys et l'agnel</title>
+                  </msItem>
+                  <msItem xml:id="deBordeorsRibaux_BnF-19152">
+                     <title>Les deux Bordeors ribaux</title>
+                  </msItem>
+                  <msItem xml:id="AristoteHenrideValenciennes_BnF-19152">
+                     <title>Le lai d'Aristote</title>
+                  </msItem>
+                  <msItem xml:id="BaratHaimetBodel_BnF-19152">
+                     <locus>f. 052rb-054ra</locus>
+                     <title>Barat et Haimet</title>
+                  </msItem>
+                  <msItem xml:id="Berangier1_BnF-19152">
+                     <title>Berangier au long cul I</title>
+                  </msItem>
+                  <msItem xml:id="BraiesCordelier_BnF-19152">
+                     <title>Les Braies au cordelier</title>
+                  </msItem>
+                  <msItem xml:id="ChevalierParlerCons1Guerin_BnF-19152">
+                     <locus>f. 058a-060c</locus>
+                     <title>Le chevalier qui fist les cons parler I</title>
+                  </msItem>
+                  <msItem xml:id="ConGautierLeLeu_BnF-19152">
+                     <locus>f. 063rc-064vc</locus>
+                     <title>Du con</title>
+                  </msItem>
+                  <msItem xml:id="Constant_BnF-19152">
+                     <title>Constant du Hamel</title>
+                  </msItem>
+                  <msItem xml:id="ContrarieuseMarieDeFrance_BnF-19152">
+                     <title>La contrarieuse</title>
+                  </msItem>
+                  <msItem xml:id="CovoteusEnvieusBodel_BnF-19152">
+                     <locus>f. 051vc-052ra</locus>
+                     <title>Le covoteus et l'envieus</title>
+                  </msItem>
+                  <msItem xml:id="DameEscoillee_BnF-19152">
+                     <title>La dame escoillee</title>
+                  </msItem>
+                  <msItem xml:id="DamoiseleFoutre3_BnF-19152">
+                     <title>La damoisele qui ne pooit oïr parler de foutre III = La Pucele qui abevra le polain</title>
+                  </msItem>
+                  <msItem xml:id="Estula_BnF-19152">
+                     <locus>f. 116rb-117rb</locus>
+                     <title>Estula</title>
+                  </msItem>
+                  <msItem xml:id="FemmePendreMarieDeFrance_BnF-19152">
+                     <title>La femme qui fist pendre son mari</title>
+                  </msItem>
+                  <msItem xml:id="Foteor_BnF-19152">
+                     <title>Le Foteor</title>
+                  </msItem>
+                  <msItem xml:id="Grue1_BnF-19152">
+                     <title>La Damoisele a la grue I</title>
+                  </msItem>
+                  <msItem xml:id="GuillaumeFaucon_BnF-19152">
+                     <title>Guillaume au faucon</title>
+                  </msItem>
+                  <msItem xml:id="PrestreAlisonGuillaume_BnF-19152">
+                     <title>Le Prestre et Alison</title>
+                  </msItem>
+                  <msItem xml:id="PrestreDame_BnF-19152">
+                     <title>Le Prestre et la dame</title>
+                  </msItem>
+                  <msItem xml:id="PrestreMereForce_BnF-19152">
+                     <title>Le Prestre qui ot mere a force</title>
+                  </msItem>
+                  <msItem xml:id="PrestreMures1Guerin_BnF-19152">
+                     <locus>f. 056rc-056vb</locus>
+                     <title>Le prestre qui manja les mores I</title>
+                  </msItem>
+                  <msItem xml:id="PrestrePassion_BnF-19152">
+                     <locus>f. 064vc-065ra</locus>
+                     <title>Le prestre qui dit la Passion</title>
+                  </msItem>
+                  <msItem xml:id="PreudomeCompereNoier_BnF-19152">
+                     <locus>f. 035vc-036ra</locus>
+                     <title>Le preudome qui rescolt son compere de noier</title>
+                  </msItem>
+                  <msItem xml:id="SaintPierre_BnF-19152">
+                     <title>Saint Pierre et le jongleur</title>
+                  </msItem>
+                  <msItem xml:id="Segretain2_BnF-19152">
+                     <title>Le Segretain moine II</title>
+                  </msItem>
+                  <msItem xml:id="Tresces2_BnF-19152">
+                     <locus>f. 122rb-123vc</locus>
+                     <title>Les Tresces II</title>
+                  </msItem>
+                  <msItem xml:id="VilainAsnier_BnF-19152">
+                     <locus>f. 056ra-056rc</locus>
+                     <title>Le Vilain asnier</title>
+                  </msItem>
+                  <msItem xml:id="VilainFameDru_BnF-19152">
+                     <title>Le Vilain qui od sa fame vit aller son dru</title>
+                  </msItem>
+                  <msItem xml:id="VilainFelunesse_BnF-19152">
+                     <title>Le Vilain et la femme felunesse</title>
+                  </msItem>
+                  <msItem xml:id="VilainFolet_BnF-19152">
+                     <title>Le Vilain et le folet</title>
+                  </msItem>
+                  <msItem xml:id="VilainHomeFeme_BnF-19152">
+                     <title>Le Vilain qui vit un autre home od sa feme</title>
+                  </msItem>
+                  <msItem xml:id="VilainParadis_BnF-19152">
+                     <title>Le vilain qui conquist paradis par plait</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin notBefore="1250-01-01" notAfter="1299-12-31">
+                     <p>2e moitié du 13e s.</p>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <title type="main" xml:lang="fro">Les deus Angloys et l'agnel</title>
+            <title type="alt" key="BnF 19152 dernier vers">Les deux Anglois</title>
+            <title type="modern" xml:lang="fr">Les deux Anglais et l'agneau
+            </title>
+            <title type="alt" key="NRCF">Les deus Anglois et l'anel</title>
+            <date notBefore="1200-01-01" notAfter="1299-12-31" when="1249-12-31">13e s.</date>
+            <region type="dialecte_oeuvre">Non défini</region>
+            <idno type="INV" subtype="Montaiglon-Raynaud">46</idno>
+            <idno type="INV" subtype="Bedier">4</idno>
+            <idno type="INV" subtype="Nykrog">3</idno>
+            <idno type="INV" subtype="Jodogne">3</idno>
+            <idno type="INV" subtype="Kiesow">1</idno>
+            <idno type="INV" subtype="NRCF">90</idno>
+            <idno type="URI" n="Jonas">https://jonas.irht.cnrs.fr/oeuvre/8926</idno>
+            <idno type="URI" n="Arlima">https://www.arlima.net/ad/deus_anglois_et_anel.html</idno>
+         </creation>
+         <langUsage>
+            <language ident="fro"/>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.bfm-corpus.org">
+               <term type="domaine">littérature</term>
+               <term type="genre" cert="high">Fabliau</term>
+               <term type="forme">vers</term>
+               <term type="relation">non renseigné</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#cpierreville" when="2024-04-17T09:47:43" n="v2.0">Utilisation du fichier 2Angloys[BnF 19152]v2.0.docx</change>
+         <change who="#bot" when="2024-04-18" n="v2.0">Transformation avec Oxgarage du fichier 2Angloys[BnF 19152]2.0.docx</change>
+         <change who="#cpierreville" when="2024-04-30T13:08:11" n="v1.0">Utilisation du fichier 2Angloys[BnF 19152]trad-v1.0.docx</change>
+         <change who="#cpierreville" when="2024-04-30T13:08:11" n="v2.1">Utilisation du fichier 2Angloys[BnF 19152]v2.1.docx</change>
+         <change who="#bot" when="2024-05-02" n="v2.1">Transformation avec Oxgarage du fichier 2Angloys[BnF 19152]2.1.docx</change>
+         <change who="#bot" when="2024-05-02" n="v1.0">Transformation avec Oxgarage du fichier 2Angloys[BnF 19152]1.0.docx</change>
+         <change who="#veugene1" when="2024-05-06T14:19:48" n="v2.2">Utilisation du fichier 2Angloys[BnF 19152]v2.2.docx</change>
+         <change who="#bot" when="2024-05-13" n="v2.2">Transformation avec Oxgarage du fichier 2Angloys[BnF 19152]2.2.docx</change>
+         <change who="#cpierreville" when="2024-05-13T11:12:21" n="v2.3">Utilisation du fichier 2Angloys[BnF 19152]v2.3.docx</change>
+         <change who="#bot" when="2024-05-13" n="v2.3">Transformation avec Oxgarage du fichier 2Angloys[BnF 19152]2.3.docx</change>
+         <change who="#ggruber" when="2024-05-24T21:05:46" n="v1.0">Utilisation du fichier 2Angloys[BnF 19152]trad-v1.0_reluGG.docx</change>
+         <change who="#cpierreville" when="2024-06-06T12:40:58" n="v1.1">Utilisation du fichier 2Angloys[BnF 19152]trad-v1.1.docx</change>
+         <change who="#bot" when="2024-06-06" n="v1.1">Transformation avec Oxgarage du fichier 2Angloys[BnF 19152]1.1.docx</change>
+         <change who="#cpierreville" when="2024-06-19T13:46:03" n="v2.4">Utilisation du fichier 2Angloys[BnF 19152]v2.4.docx</change>
+         <change who="#bot" when="2024-06-20" n="v2.4">Transformation avec Oxgarage du fichier 2Angloys[BnF 19152]2.4.docx</change>
+         <change who="#cpierreville" when="2024-06-22T13:33:30" n="v1.2">Utilisation du fichier 2Angloys[BnF 19152]trad-v1.2.docx</change>
+         <change who="#bot" when="2024-06-22" n="v1.2">Transformation avec Oxgarage du fichier 2Angloys[BnF 19152]1.2.docx</change>
+      </revisionDesc>
+   </teiHeader>
+   <text source="deAngloys_BnF-19152">
+      <body>
+         <pb n="47v"
+              xml:id="pb_1"
+              facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b52513419n/f102/full/pct:50/0/native.jpg"/>
+         <cb n="47va"/>
+         <div>
+            <head>
+               <w xml:id="w_deAngloys_BnF19152_1"><choice><orig>d</orig><reg>D</reg></choice>e</w>
+               <num>
+                  <w xml:id="w_deAngloys_BnF19152_2">i<choice><orig>j</orig><reg>i</reg></choice></w>
+               </num>
+               <w xml:id="w_deAngloys_BnF19152_3"><choice><orig>a</orig><reg>A</reg></choice>ngloys</w>
+               <w xml:id="w_deAngloys_BnF19152_4"><ex>et</ex></w>
+               <w xml:id="w_deAngloys_BnF19152_5">de</w>
+               <w xml:id="w_deAngloys_BnF19152_6">l’</w>
+               <w xml:id="w_deAngloys_BnF19152_7">agn<add place="above">el</add></w>
+               <note type="philologique">
+                  <p rend="footnote text">Le titre est d’une main ultérieure.</p>
+               </note>
+            </head>
+            <lb/>
+            <lg>
+               <l n="1">
+                  <lb n="1"/>
+                  <w xml:id="w_deAngloys_BnF19152_8"><g type="initiale" rend="size(2) sizeAct(2) color(blue)">U</g>n</w>
+                  <w xml:id="w_deAngloys_BnF19152_9">fableau</w>
+                  <w xml:id="w_deAngloys_BnF19152_10"><choice><orig>u</orig><reg>v</reg></choice>os</w>
+                  <w xml:id="w_deAngloys_BnF19152_11" join="right" ana="#aggl-cert_low"><choice><orig>u</orig><reg>v</reg></choice>ueil</w>
+                  <w xml:id="w_deAngloys_BnF19152_12">a<ex>con</ex>t<ex>er</ex></w>
+               </l>
+               <l n="2">
+                  <lb n="2"/>
+                  <w xml:id="w_deAngloys_BnF19152_13">de</w>
+                  <num>
+                     <w xml:id="w_deAngloys_BnF19152_14">.ii.</w>
+                  </num>
+                  <w xml:id="w_deAngloys_BnF19152_15"><choice><orig>a</orig><reg>A</reg></choice>nglois</w>
+                  <pc xml:id="w_deAngloys_BnF19152_16">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_deAngloys_BnF19152_17" join="right" ana="#aggl-cert_low">sa<ex>n</ex>z</w>
+                  <w xml:id="w_deAngloys_BnF19152_18">mes<ex>con</ex>t<ex>er</ex></w>
+                  <pc xml:id="w_deAngloys_BnF19152_19">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="3">
+                  <lb n="3"/>
+                  <w xml:id="w_deAngloys_BnF19152_20"><choice><orig>D</orig><reg>d</reg></choice>ont</w>
+                  <w xml:id="w_deAngloys_BnF19152_21">li</w>
+                  <num>
+                     <w xml:id="w_deAngloys_BnF19152_22">.i.</w>
+                  </num>
+                  <w xml:id="w_deAngloys_BnF19152_23">malade</w>
+                  <w xml:id="w_deAngloys_BnF19152_24">se</w>
+                  <w xml:id="w_deAngloys_BnF19152_25"><choice><orig>i</orig><reg>j</reg></choice>ut</w>
+                  <pc xml:id="w_deAngloys_BnF19152_26">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="4">
+                  <lb n="4"/>
+                  <w xml:id="w_deAngloys_BnF19152_27"><ex>et</ex></w>
+                  <w xml:id="w_deAngloys_BnF19152_28" join="right">li</w>
+                  <w xml:id="w_deAngloys_BnF19152_29">autre</w>
+                  <pc xml:id="w_deAngloys_BnF19152_30">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_deAngloys_BnF19152_31" join="right">si</w>
+                  <w xml:id="w_deAngloys_BnF19152_32"><ex>com</ex></w>
+                  <w xml:id="w_deAngloys_BnF19152_33" join="right" ana="#aggl-cert_low">il</w>
+                  <w xml:id="w_deAngloys_BnF19152_34">dut</w>
+                  <pc xml:id="w_deAngloys_BnF19152_35">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <cb n="47vb"/>
+               </l>
+               <l n="5">
+                  <lb n="5"/>
+                  <w xml:id="w_deAngloys_BnF19152_36"><choice><orig>L</orig><reg>l</reg></choice>e</w>
+                  <w xml:id="w_deAngloys_BnF19152_37">garda</w>
+                  <w xml:id="w_deAngloys_BnF19152_38" join="right" ana="#aggl-cert_low">b<ex>ie</ex>n</w>
+                  <w xml:id="w_deAngloys_BnF19152_39" join="right" ana="#aggl-cert_low">au</w>
+                  <w xml:id="w_deAngloys_BnF19152_40" join="right" ana="#aggl-cert_low">mielz</w>
+                  <w xml:id="w_deAngloys_BnF19152_41">q<ex>u</ex>’</w>
+                  <w xml:id="w_deAngloys_BnF19152_42"><ex>i</ex>l</w>
+                  <w xml:id="w_deAngloys_BnF19152_43">pot</w>
+                  <pc xml:id="w_deAngloys_BnF19152_44">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="6">
+                  <lb n="6"/>
+                  <w xml:id="w_deAngloys_BnF19152_45">De</w>
+                  <w xml:id="w_deAngloys_BnF19152_46">so<ex>n</ex></w>
+                  <w xml:id="w_deAngloys_BnF19152_47">porchaz</w>
+                  <w xml:id="w_deAngloys_BnF19152_48">m<ex>o</ex>lt</w>
+                  <w xml:id="w_deAngloys_BnF19152_49">b<ex>ie</ex>n</w>
+                  <w xml:id="w_deAngloys_BnF19152_50" join="right" ana="#aggl-cert_low">le</w>
+                  <w xml:id="w_deAngloys_BnF19152_51">pot</w>
+                  <pc xml:id="w_deAngloys_BnF19152_52">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="7">
+                  <lb n="7"/>
+                  <w xml:id="w_deAngloys_BnF19152_53">Tant</w>
+                  <w xml:id="w_deAngloys_BnF19152_54"><choice><orig>u</orig><reg>v</reg></choice>i<ex>n</ex>t</w>
+                  <w xml:id="w_deAngloys_BnF19152_55">li</w>
+                  <w xml:id="w_deAngloys_BnF19152_56">eure</w>
+                  <w xml:id="w_deAngloys_BnF19152_57"><ex>et</ex></w>
+                  <w xml:id="w_deAngloys_BnF19152_58">ta<ex>n</ex>t</w>
+                  <w xml:id="w_deAngloys_BnF19152_59">ala</w>
+               </l>
+               <l n="8">
+                  <lb n="8"/>
+                  <w xml:id="w_deAngloys_BnF19152_60"><choice><orig>Q</orig><reg>q</reg></choice><ex>ue</ex></w>
+                  <w xml:id="w_deAngloys_BnF19152_61">li</w>
+                  <w xml:id="w_deAngloys_BnF19152_62" join="right" ana="#aggl-cert_low">malades</w>
+                  <w xml:id="w_deAngloys_BnF19152_63">resua</w>
+                  <pc xml:id="w_deAngloys_BnF19152_64">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="9">
+                  <lb n="9"/>
+                  <w xml:id="w_deAngloys_BnF19152_65"><ex>et</ex></w>
+                  <w xml:id="w_deAngloys_BnF19152_66">q<ex>ua</ex>nt</w>
+                  <w xml:id="w_deAngloys_BnF19152_67">il</w>
+                  <w xml:id="w_deAngloys_BnF19152_68">se</w>
+                  <w xml:id="w_deAngloys_BnF19152_69">sent</w>
+                  <w xml:id="w_deAngloys_BnF19152_70">alegié</w>
+                  <pc xml:id="w_deAngloys_BnF19152_71">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="10">
+                  <lb n="10"/>
+                  <w xml:id="w_deAngloys_BnF19152_72"><choice><orig>S</orig><reg>s</reg></choice>o<ex>n</ex></w>
+                  <w xml:id="w_deAngloys_BnF19152_73"><ex>com</ex>paigno<ex>n</ex></w>
+                  <w xml:id="w_deAngloys_BnF19152_74" join="right">a</w>
+                  <w xml:id="w_deAngloys_BnF19152_75">aresnié</w>
+                  <pc xml:id="w_deAngloys_BnF19152_76">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="11">
+                  <lb n="11"/>
+                  <w xml:id="w_deAngloys_BnF19152_77">So<ex>n</ex></w>
+                  <w xml:id="w_deAngloys_BnF19152_78">bon</w>
+                  <w xml:id="w_deAngloys_BnF19152_79" join="right">li</w>
+                  <w xml:id="w_deAngloys_BnF19152_80"><choice><orig>u</orig><reg>v</reg></choice>elt</w>
+                  <w xml:id="w_deAngloys_BnF19152_81">dire</w>
+                  <w xml:id="w_deAngloys_BnF19152_82">e<ex>n</ex></w>
+                  <w xml:id="w_deAngloys_BnF19152_83">fra<ex>n</ex>çois</w>
+                  <pc xml:id="w_deAngloys_BnF19152_84">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="12">
+                  <lb n="12"/>
+                  <w xml:id="w_deAngloys_BnF19152_85"><choice><orig>M</orig><reg>m</reg></choice>ais</w>
+                  <w xml:id="w_deAngloys_BnF19152_86">la</w>
+                  <w xml:id="w_deAngloys_BnF19152_87">langue</w>
+                  <w xml:id="w_deAngloys_BnF19152_88">torne</w>
+                  <w xml:id="w_deAngloys_BnF19152_89" join="right" ana="#aggl-cert_low">a</w>
+                  <w xml:id="w_deAngloys_BnF19152_90">e<ex>n</ex>glois</w>
+                  <pc xml:id="w_deAngloys_BnF19152_91">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="13">
+                  <lb n="13"/>
+                  <w xml:id="w_deAngloys_BnF19152_92"><choice><orig>Q</orig><reg>q</reg></choice><ex>ue</ex></w>
+                  <w xml:id="w_deAngloys_BnF19152_93">ce</w>
+                  <w xml:id="w_deAngloys_BnF19152_94">ne</w>
+                  <w xml:id="w_deAngloys_BnF19152_95">fu</w>
+                  <w xml:id="w_deAngloys_BnF19152_96">mie</w>
+                  <w xml:id="w_deAngloys_BnF19152_97">m<ex>er</ex><choice><orig>u</orig><reg>v</reg></choice>eille</w>
+                  <pc xml:id="w_deAngloys_BnF19152_98">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="14">
+                  <lb n="14"/>
+                  <w xml:id="w_deAngloys_BnF19152_99"><choice><orig>a</orig><reg>A</reg></choice>lein</w>
+                  <w xml:id="w_deAngloys_BnF19152_100">so<ex>n</ex></w>
+                  <w xml:id="w_deAngloys_BnF19152_101"><ex>com</ex>paigno<ex>n</ex></w>
+                  <w xml:id="w_deAngloys_BnF19152_102">es<choice><orig>u</orig><reg>v</reg></choice>eille</w>
+                  <pc xml:id="w_deAngloys_BnF19152_103">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="15">
+                  <lb n="15"/>
+                  <w xml:id="w_deAngloys_BnF19152_104">Or</w>
+                  <w xml:id="w_deAngloys_BnF19152_105">oiez</w>
+                  <w xml:id="w_deAngloys_BnF19152_106"><ex>com</ex></w>
+                  <w xml:id="w_deAngloys_BnF19152_107">il</w>
+                  <w xml:id="w_deAngloys_BnF19152_108">l’</w>
+                  <w xml:id="w_deAngloys_BnF19152_109">apela</w>
+                  <pc xml:id="w_deAngloys_BnF19152_110">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="16">
+                  <lb n="16"/>
+                  <pc xml:id="w_deAngloys_BnF19152_111">
+                     <choice>
+                        <orig/>
+                        <reg>«</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_deAngloys_BnF19152_112"><choice><orig>a</orig><reg>A</reg></choice>lein</w>
+                  <pc xml:id="w_deAngloys_BnF19152_113">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_deAngloys_BnF19152_114">fait</w>
+                  <w xml:id="w_deAngloys_BnF19152_115">il</w>
+                  <pc xml:id="w_deAngloys_BnF19152_116">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_deAngloys_BnF19152_117">foustes</w>
+                  <w xml:id="w_deAngloys_BnF19152_118"><choice><orig>u</orig><reg>v</reg></choice><ex>os</ex></w>
+                  <w xml:id="w_deAngloys_BnF19152_119">la</w>
+                  <pc xml:id="w_deAngloys_BnF19152_120">
+                     <choice>
+                        <orig/>
+                        <reg>?</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="17">
+                  <lb n="17"/>
+                  <w xml:id="w_deAngloys_BnF19152_121">Trop</w>
+                  <w xml:id="w_deAngloys_BnF19152_122">dormés</w>
+                  <w xml:id="w_deAngloys_BnF19152_123">ore</w>
+                  <w xml:id="w_deAngloys_BnF19152_124">lo<ex>n</ex>guem<ex>en</ex>t</w>
+                  <pc xml:id="w_deAngloys_BnF19152_125">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="18">
+                  <lb n="18"/>
+                  <w xml:id="w_deAngloys_BnF19152_126">Mi</w>
+                  <w xml:id="w_deAngloys_BnF19152_127">cuit</w>
+                  <num>
+                     <w xml:id="w_deAngloys_BnF19152_128">.i.</w>
+                  </num>
+                  <w xml:id="w_deAngloys_BnF19152_129">poi</w>
+                  <w xml:id="w_deAngloys_BnF19152_130">alegem<ex>en</ex>t</w>
+                  <pc xml:id="w_deAngloys_BnF19152_131">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="19">
+                  <lb n="19"/>
+                  <w xml:id="w_deAngloys_BnF19152_132" join="right">Mi</w>
+                  <w xml:id="w_deAngloys_BnF19152_133">ha<choice><orig>u</orig><reg>v</reg></choice>e</w>
+                  <w xml:id="w_deAngloys_BnF19152_134">tote</w>
+                  <w xml:id="w_deAngloys_BnF19152_135">nuit</w>
+                  <w xml:id="w_deAngloys_BnF19152_136">soué</w>
+                  <pc xml:id="w_deAngloys_BnF19152_137">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="20">
+                  <lb n="20"/>
+                  <w xml:id="w_deAngloys_BnF19152_138" join="right">Mi</w>
+                  <w xml:id="w_deAngloys_BnF19152_139">a<choice><orig>u</orig><reg>v</reg></choice>e</w>
+                  <pc xml:id="w_deAngloys_BnF19152_140">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_deAngloys_BnF19152_141">ge</w>
+                  <w xml:id="w_deAngloys_BnF19152_142">cuit</w>
+                  <pc xml:id="w_deAngloys_BnF19152_143">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_deAngloys_BnF19152_144">pl<ex>us</ex></w>
+                  <w xml:id="w_deAngloys_BnF19152_145">soé</w>
+                  <pc xml:id="w_deAngloys_BnF19152_146">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="21">
+                  <lb n="21"/>
+                  <w xml:id="w_deAngloys_BnF19152_147" join="right"><choice><orig>S</orig><reg>s</reg></choice>i</w>
+                  <w xml:id="w_deAngloys_BnF19152_148">cuit</w>
+                  <w xml:id="w_deAngloys_BnF19152_149"><choice><orig>u</orig><reg>v</reg></choice>ueil</w>
+                  <w xml:id="w_deAngloys_BnF19152_150">m<ex>en</ex>gier</w>
+                  <num>
+                     <w xml:id="w_deAngloys_BnF19152_151">.i.</w>
+                  </num>
+                  <w xml:id="w_deAngloys_BnF19152_152">petit</w>
+                  <pc xml:id="w_deAngloys_BnF19152_153">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="22">
+                  <lb n="22"/>
+                  <pc xml:id="w_deAngloys_BnF19152_154">
+                     <choice>
+                        <orig/>
+                        <reg>-</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_deAngloys_BnF19152_155"><choice><orig>h</orig><reg>H</reg></choice>a</w>
+                  <pc xml:id="w_deAngloys_BnF19152_156">
+                     <choice>
+                        <orig>;</orig>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_deAngloys_BnF19152_157">dit</w>
+                  <w xml:id="w_deAngloys_BnF19152_158"><choice><orig>a</orig><reg>A</reg></choice>lein</w>
+                  <pc xml:id="w_deAngloys_BnF19152_159">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_deAngloys_BnF19152_160"><choice><orig>S</orig><reg>s</reg></choice><ex>eint</ex></w>
+                  <pc xml:id="w_deAngloys_BnF19152_161">
+                     <choice>
+                        <orig>.</orig>
+                        <reg/>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_deAngloys_BnF19152_162"><choice><orig>e</orig><reg>E</reg></choice>sp<ex>er</ex>it</w>
+                  <pc xml:id="w_deAngloys_BnF19152_163">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="23">
+                  <lb n="23"/>
+                  <w xml:id="w_deAngloys_BnF19152_164"><choice><orig>D</orig><reg>d</reg></choice>one</w>
+                  <w xml:id="w_deAngloys_BnF19152_165">mi</w>
+                  <w xml:id="w_deAngloys_BnF19152_166"><ex>com</ex>pano<ex>n</ex></w>
+                  <w xml:id="w_deAngloys_BnF19152_167">santé</w>
+                  <pc xml:id="w_deAngloys_BnF19152_168">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="24">
+                  <lb n="24"/>
+                  <w xml:id="w_deAngloys_BnF19152_169"><choice><orig>D</orig><reg>d</reg></choice>ont</w>
+                  <w xml:id="w_deAngloys_BnF19152_170">mi</w>
+                  <w xml:id="w_deAngloys_BnF19152_171">cors</w>
+                  <w xml:id="w_deAngloys_BnF19152_172">fou</w>
+                  <w xml:id="w_deAngloys_BnF19152_173">si</w>
+                  <w xml:id="w_deAngloys_BnF19152_174">fort</w>
+                  <w xml:id="w_deAngloys_BnF19152_175">t<ex>ri</ex>blé</w>
+                  <note type="philologique">
+                     <p rend="footnote text">Le NRCF édite <hi rend="italic">treblé</hi>.</p>
+                  </note>
+                  <pc xml:id="w_deAngloys_BnF19152_176">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="25">
+                  <lb n="25"/>
+                  <pc xml:id="w_deAngloys_BnF19152_177">
+                     <choice>
+                        <orig/>
+                        <reg>-</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_deAngloys_BnF19152_178"><subst><del rend="overwrite">T</del><add place="inline"><choice><orig>f</orig><reg>F</reg></choice></add></subst>riant</w>
+                  <note type="philologique">
+                     <p rend="footnote text" style="text-align: justify;">Une main ultérieure a noté <hi rend="italic">f</hi> dans la marge de gauche. Nous sommes d’accord avec le NRCF pour penser que le scribe n’a pas compris le substantif qu’il recopiait, mais qu’un lecteur ultérieur a reconnu ici une déformation de <hi rend="italic">friend</hi>.  </p>
+                  </note>
+                  <pc xml:id="w_deAngloys_BnF19152_179">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_deAngloys_BnF19152_180">fait</w>
+                  <w xml:id="w_deAngloys_BnF19152_181">il</w>
+                  <pc xml:id="w_deAngloys_BnF19152_182">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_deAngloys_BnF19152_183" join="right">p<ex>ar</ex></w>
+                  <w xml:id="w_deAngloys_BnF19152_184">seint</w>
+                  <w xml:id="w_deAngloys_BnF19152_185"><choice><orig>t</orig><reg>T</reg></choice>omas</w>
+                  <pc xml:id="w_deAngloys_BnF19152_186">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="26">
+                  <lb n="26"/>
+                  <w xml:id="w_deAngloys_BnF19152_187"><choice><orig>S</orig><reg>s</reg></choice>e</w>
+                  <w xml:id="w_deAngloys_BnF19152_188" join="right">tu</w>
+                  <w xml:id="w_deAngloys_BnF19152_189">a<choice><orig>u</orig><reg>v</reg></choice>ez</w>
+                  <num>
+                     <w xml:id="w_deAngloys_BnF19152_190">.i.</w>
+                  </num>
+                  <w xml:id="w_deAngloys_BnF19152_191">anel</w>
+                  <w xml:id="w_deAngloys_BnF19152_192">cras</w>
+                  <pc xml:id="w_deAngloys_BnF19152_193">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="27">
+                  <lb n="27"/>
+                  <w xml:id="w_deAngloys_BnF19152_194" join="right"><choice><orig>M</orig><reg>m</reg></choice>i</w>
+                  <w xml:id="w_deAngloys_BnF19152_195">porra</w>
+                  <w xml:id="w_deAngloys_BnF19152_196">b<ex>ie</ex>n</w>
+                  <w xml:id="w_deAngloys_BnF19152_197">m<ex>en</ex>gier</w>
+                  <pc xml:id="w_deAngloys_BnF19152_198">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_deAngloys_BnF19152_199" join="right">ce</w>
+                  <w xml:id="w_deAngloys_BnF19152_200">croi</w>
+                  <pc xml:id="w_deAngloys_BnF19152_201">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="28">
+                  <lb n="28"/>
+                  <pc xml:id="w_deAngloys_BnF19152_202">
+                     <choice>
+                        <orig/>
+                        <reg>-</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_deAngloys_BnF19152_203"><choice><orig>v</orig><reg>V</reg></choice>os</w>
+                  <w xml:id="w_deAngloys_BnF19152_204">a<choice><orig>u</orig><reg>v</reg></choice>rez</w>
+                  <num>
+                     <w xml:id="w_deAngloys_BnF19152_205">.i.</w>
+                  </num>
+                  <pc xml:id="w_deAngloys_BnF19152_206">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_deAngloys_BnF19152_207">fait</w>
+                  <w xml:id="w_deAngloys_BnF19152_208">il</w>
+                  <pc xml:id="w_deAngloys_BnF19152_209">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_deAngloys_BnF19152_210">p<ex>ar</ex></w>
+                  <w xml:id="w_deAngloys_BnF19152_211">foi</w>
+                  <pc xml:id="w_deAngloys_BnF19152_212">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="29">
+                  <lb n="29"/>
+                  <w xml:id="w_deAngloys_BnF19152_213">Ge</w>
+                  <w xml:id="w_deAngloys_BnF19152_214">m’</w>
+                  <w xml:id="w_deAngloys_BnF19152_215">e<ex>n</ex></w>
+                  <w xml:id="w_deAngloys_BnF19152_216"><choice><orig>u</orig><reg>v</reg></choice>ois</w>
+                  <w xml:id="w_deAngloys_BnF19152_217">une</w>
+                  <w xml:id="w_deAngloys_BnF19152_218">tost</w>
+                  <w xml:id="w_deAngloys_BnF19152_219">q<ex>ue</ex>rer</w>
+                  <pc xml:id="w_deAngloys_BnF19152_220">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="30">
+                  <lb n="30"/>
+                  <pc xml:id="w_deAngloys_BnF19152_221">
+                     <choice>
+                        <orig/>
+                        <reg>-</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_deAngloys_BnF19152_222"><ex>Com</ex>pai<ex>n</ex>z</w>
+                  <pc xml:id="w_deAngloys_BnF19152_223">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_deAngloys_BnF19152_224"><choice><orig>d</orig><reg>D</reg></choice>iex</w>
+                  <w xml:id="w_deAngloys_BnF19152_225">te</w>
+                  <w xml:id="w_deAngloys_BnF19152_226">puisse</w>
+                  <w xml:id="w_deAngloys_BnF19152_227">mirer</w>
+                  <pc xml:id="w_deAngloys_BnF19152_228">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+                  <pc xml:id="w_deAngloys_BnF19152_229">
+                     <choice>
+                        <orig/>
+                        <reg>»</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="31">
+                  <lb n="31"/>
+                  <w xml:id="w_deAngloys_BnF19152_230"><choice><orig>a</orig><reg>A</reg></choice>lein</w>
+                  <w xml:id="w_deAngloys_BnF19152_231">s’</w>
+                  <w xml:id="w_deAngloys_BnF19152_232" join="right" ana="#aggl-cert_low">en</w>
+                  <w xml:id="w_deAngloys_BnF19152_233">est</w>
+                  <w xml:id="w_deAngloys_BnF19152_234">tornez</w>
+                  <w xml:id="w_deAngloys_BnF19152_235">atant</w>
+                  <pc xml:id="w_deAngloys_BnF19152_236">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="32">
+                  <lb n="32"/>
+                  <w xml:id="w_deAngloys_BnF19152_237">Tant</w>
+                  <w xml:id="w_deAngloys_BnF19152_238"><choice><orig>u</orig><reg>v</reg></choice>a</w>
+                  <w xml:id="w_deAngloys_BnF19152_239">p<ex>ar</ex></w>
+                  <w xml:id="w_deAngloys_BnF19152_240" join="right" ana="#aggl-cert_low">la</w>
+                  <w xml:id="w_deAngloys_BnF19152_241"><choice><orig>u</orig><reg>v</reg></choice>ile</w>
+                  <w xml:id="w_deAngloys_BnF19152_242">q<ex>ue</ex>rant</w>
+               </l>
+               <l n="33">
+                  <lb n="33"/>
+                  <w xml:id="w_deAngloys_BnF19152_243"><choice><orig>Q</orig><reg>q</reg></choice><ex>u</ex>’</w>
+                  <w xml:id="w_deAngloys_BnF19152_244"><ex>i</ex>l</w>
+                  <w xml:id="w_deAngloys_BnF19152_245">entra</w>
+                  <w xml:id="w_deAngloys_BnF19152_246">en</w>
+                  <w xml:id="w_deAngloys_BnF19152_247">une</w>
+                  <w xml:id="w_deAngloys_BnF19152_248">maiso<ex>n</ex></w>
+                  <pc xml:id="w_deAngloys_BnF19152_249">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="34">
+                  <lb n="34"/>
+                  <w xml:id="w_deAngloys_BnF19152_250" join="right">Le</w>
+                  <w xml:id="w_deAngloys_BnF19152_251">p<ex>re</ex>udom</w>
+                  <note type="philologique">
+                     <p rend="footnote text">Le NRCF corrige en <hi rend="italic">preudome</hi>.</p>
+                  </note>
+                  <w xml:id="w_deAngloys_BnF19152_252" join="right" ana="#aggl-cert_low">a</w>
+                  <w xml:id="w_deAngloys_BnF19152_253">mis</w>
+                  <w xml:id="w_deAngloys_BnF19152_254" join="right">a</w>
+                  <w xml:id="w_deAngloys_BnF19152_255">raiso<ex>n</ex></w>
+               </l>
+               <l n="35">
+                  <lb n="35"/>
+                  <w xml:id="w_deAngloys_BnF19152_256" join="right">au</w>
+                  <w xml:id="w_deAngloys_BnF19152_257">mielz</w>
+                  <w xml:id="w_deAngloys_BnF19152_258">q<ex>u</ex>’</w>
+                  <w xml:id="w_deAngloys_BnF19152_259"><ex>i</ex>l</w>
+                  <w xml:id="w_deAngloys_BnF19152_260">onq<ex>ue</ex>s</w>
+                  <w xml:id="w_deAngloys_BnF19152_261">pot</w>
+                  <w xml:id="w_deAngloys_BnF19152_262">parl<ex>er</ex></w>
+                  <pc xml:id="w_deAngloys_BnF19152_263">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="36">
+                  <lb n="36"/>
+                  <w xml:id="w_deAngloys_BnF19152_264"><choice><orig>M</orig><reg>m</reg></choice>ais</w>
+                  <w xml:id="w_deAngloys_BnF19152_265">onc</w>
+                  <w xml:id="w_deAngloys_BnF19152_266">ta<ex>n</ex>t</w>
+                  <w xml:id="w_deAngloys_BnF19152_267" join="right" ana="#aggl-cert_low">ne</w>
+                  <w xml:id="w_deAngloys_BnF19152_268">s’</w>
+                  <w xml:id="w_deAngloys_BnF19152_269" join="right" ana="#aggl-cert_low">i</w>
+                  <w xml:id="w_deAngloys_BnF19152_270" join="right" ana="#aggl-cert_low">sot</w>
+                  <w xml:id="w_deAngloys_BnF19152_271">gard<ex>er</ex></w>
+               </l>
+               <l n="37">
+                  <lb n="37"/>
+                  <w xml:id="w_deAngloys_BnF19152_272"><choice><orig>Q</orig><reg>q</reg></choice><ex>ue</ex></w>
+                  <w xml:id="w_deAngloys_BnF19152_273">n’</w>
+                  <w xml:id="w_deAngloys_BnF19152_274" join="right">i</w>
+                  <w xml:id="w_deAngloys_BnF19152_275">entrelardast</w>
+                  <w xml:id="w_deAngloys_BnF19152_276">l’</w>
+                  <w xml:id="w_deAngloys_BnF19152_277">anglois</w>
+                  <pc xml:id="w_deAngloys_BnF19152_278">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="38">
+                  <lb n="38"/>
+                  <w xml:id="w_deAngloys_BnF19152_279"><choice><orig>a</orig><reg>A</reg></choice>insi</w>
+                  <w xml:id="w_deAngloys_BnF19152_280">farsisoit</w>
+                  <w xml:id="w_deAngloys_BnF19152_281">le</w>
+                  <w xml:id="w_deAngloys_BnF19152_282">françois</w>
+                  <pc xml:id="w_deAngloys_BnF19152_283">
+                     <choice>
+                        <orig/>
+                        <reg>:</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="39">
+                  <lb n="39"/>
+                  <pc xml:id="w_deAngloys_BnF19152_284">
+                     <choice>
+                        <orig/>
+                        <reg>«</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_deAngloys_BnF19152_285">Sire</w>
+                  <pc xml:id="w_deAngloys_BnF19152_286">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_deAngloys_BnF19152_287">fait</w>
+                  <w xml:id="w_deAngloys_BnF19152_288">il</w>
+                  <pc xml:id="w_deAngloys_BnF19152_289">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_deAngloys_BnF19152_290">p<ex>ar</ex></w>
+                  <w xml:id="w_deAngloys_BnF19152_291"><choice><orig>S</orig><reg>s</reg></choice><ex>eint</ex></w>
+                  <pc xml:id="w_deAngloys_BnF19152_292">
+                     <choice>
+                        <orig>.</orig>
+                        <reg/>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_deAngloys_BnF19152_293"><choice><orig>t</orig><reg>T</reg></choice>omas</w>
+                  <pc xml:id="w_deAngloys_BnF19152_294">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="40">
+                  <lb n="40"/>
+                  <w xml:id="w_deAngloys_BnF19152_295"><choice><orig>S</orig><reg>s</reg></choice>e</w>
+                  <note type="philologique">
+                     <p rend="footnote text">Le NRCF édite <hi rend="italic">si</hi>.</p>
+                  </note>
+                  <w xml:id="w_deAngloys_BnF19152_296" join="right">tu</w>
+                  <w xml:id="w_deAngloys_BnF19152_297">a<choice><orig>u</orig><reg>v</reg></choice>ez</w>
+                  <w xml:id="w_deAngloys_BnF19152_298">nul</w>
+                  <w xml:id="w_deAngloys_BnF19152_299">anel</w>
+                  <w xml:id="w_deAngloys_BnF19152_300">cras</w>
+                  <pc xml:id="w_deAngloys_BnF19152_301">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="41">
+                  <lb n="41"/>
+                  <w xml:id="w_deAngloys_BnF19152_302" join="right"><choice><orig>M</orig><reg>m</reg></choice>i</w>
+                  <w xml:id="w_deAngloys_BnF19152_303">chatera</w>
+                  <w xml:id="w_deAngloys_BnF19152_304">m<ex>o</ex>lt</w>
+                  <w xml:id="w_deAngloys_BnF19152_305"><choice><orig>u</orig><reg>v</reg></choice>olent<ex>ier</ex>s</w>
+                  <pc xml:id="w_deAngloys_BnF19152_306">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="42">
+                  <lb n="42"/>
+                  <w xml:id="w_deAngloys_BnF19152_307"><ex>et</ex></w>
+                  <w xml:id="w_deAngloys_BnF19152_308">paie</w>
+                  <w xml:id="w_deAngloys_BnF19152_309"><choice><orig>u</orig><reg>v</reg></choice>os</w>
+                  <w xml:id="w_deAngloys_BnF19152_310">bones</w>
+                  <w xml:id="w_deAngloys_BnF19152_311">den<ex>ier</ex>s</w>
+               </l>
+               <l n="43">
+                  <lb n="43"/>
+                  <w xml:id="w_deAngloys_BnF19152_312"><ex>et</ex></w>
+                  <w xml:id="w_deAngloys_BnF19152_313">bones</w>
+                  <w xml:id="w_deAngloys_BnF19152_314">maailles</w>
+                  <w xml:id="w_deAngloys_BnF19152_315">frelins</w>
+                  <pc xml:id="w_deAngloys_BnF19152_316">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="44">
+                  <lb n="44"/>
+                  <w xml:id="w_deAngloys_BnF19152_317"><ex>et</ex></w>
+                  <w xml:id="w_deAngloys_BnF19152_318">paie</w>
+                  <w xml:id="w_deAngloys_BnF19152_319"><choice><orig>u</orig><reg>v</reg></choice>os</w>
+                  <w xml:id="w_deAngloys_BnF19152_320">bons</w>
+                  <w xml:id="w_deAngloys_BnF19152_321">estellins</w>
+                  <pc xml:id="w_deAngloys_BnF19152_322">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+                  <pc xml:id="w_deAngloys_BnF19152_323">
+                     <choice>
+                        <orig/>
+                        <reg>»</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="45">
+                  <lb n="45"/>
+                  <w xml:id="w_deAngloys_BnF19152_324">Q<ex>ua</ex>nt</w>
+                  <w xml:id="w_deAngloys_BnF19152_325" join="right">li</w>
+                  <w xml:id="w_deAngloys_BnF19152_326">p<ex>re</ex>udom</w>
+                  <pc xml:id="w_deAngloys_BnF19152_327">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_deAngloys_BnF19152_328">q<ex>ui</ex></w>
+                  <w xml:id="w_deAngloys_BnF19152_329">h<ex>er</ex>nechoit</w>
+                  <pc xml:id="w_deAngloys_BnF19152_330">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="46">
+                  <lb n="46"/>
+                  <w xml:id="w_deAngloys_BnF19152_331" join="right" ana="#aggl-cert_low"><choice><orig>O</orig><reg>o</reg></choice>ï</w>
+                  <w xml:id="w_deAngloys_BnF19152_332">celui</w>
+                  <w xml:id="w_deAngloys_BnF19152_333">q<ex>ui</ex></w>
+                  <w xml:id="w_deAngloys_BnF19152_334">fastroilloit</w>
+                  <pc xml:id="w_deAngloys_BnF19152_335">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="47">
+                  <lb n="47"/>
+                  <w xml:id="w_deAngloys_BnF19152_336"><choice><orig>N</orig><reg>n</reg></choice>e</w>
+                  <w xml:id="w_deAngloys_BnF19152_337">set</w>
+                  <w xml:id="w_deAngloys_BnF19152_338">q<ex>ue</ex></w>
+                  <w xml:id="w_deAngloys_BnF19152_339">il</w>
+                  <w xml:id="w_deAngloys_BnF19152_340"><choice><orig>u</orig><reg>v</reg></choice>a</w>
+                  <w xml:id="w_deAngloys_BnF19152_341">de<choice><orig>u</orig><reg>v</reg></choice>isant</w>
+                  <pc xml:id="w_deAngloys_BnF19152_342">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="48">
+                  <lb n="48"/>
+                  <pc xml:id="w_deAngloys_BnF19152_343">
+                     <choice>
+                        <orig/>
+                        <reg>«</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_deAngloys_BnF19152_344">Q<ex>ue</ex></w>
+                  <w xml:id="w_deAngloys_BnF19152_345"><choice><orig>u</orig><reg>v</reg></choice>as</w>
+                  <w xml:id="w_deAngloys_BnF19152_346">tu</w>
+                  <pc xml:id="w_deAngloys_BnF19152_347">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_deAngloys_BnF19152_348">fait</w>
+                  <w xml:id="w_deAngloys_BnF19152_349">il</w>
+                  <pc xml:id="w_deAngloys_BnF19152_350">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_deAngloys_BnF19152_351">fastroilla<ex>n</ex>t</w>
+                  <pc xml:id="w_deAngloys_BnF19152_352">
+                     <choice>
+                        <orig/>
+                        <reg>?</reg>
+                     </choice>
+                  </pc>
+                  <cb n="47vc"/>
+               </l>
+               <l n="49">
+                  <lb n="49"/>
+                  <w xml:id="w_deAngloys_BnF19152_353" join="right">Ge</w>
+                  <w xml:id="w_deAngloys_BnF19152_354">ne</w>
+                  <w xml:id="w_deAngloys_BnF19152_355">sai</w>
+                  <w xml:id="w_deAngloys_BnF19152_356">q<ex>ue</ex>l</w>
+                  <w xml:id="w_deAngloys_BnF19152_357">mal<space type="degl"/>fez</w>
+                  <w xml:id="w_deAngloys_BnF19152_358" join="right">tu</w>
+                  <w xml:id="w_deAngloys_BnF19152_359">diz</w>
+                  <note type="philologique">
+                     <p rend="footnote text" style="text-align: justify;">Pour lire la fin des lignes de cette colonne, nous avons utilisé la numérisation en noir et blanc.</p>
+                  </note>
+                  <pc xml:id="w_deAngloys_BnF19152_360">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="50">
+                  <lb n="50"/>
+                  <w xml:id="w_deAngloys_BnF19152_361" join="right" ana="#aggl-cert_low"><choice><orig>v</orig><reg>V</reg></choice>a</w>
+                  <w xml:id="w_deAngloys_BnF19152_362">t’</w>
+                  <w xml:id="w_deAngloys_BnF19152_363">en</w>
+                  <pc xml:id="w_deAngloys_BnF19152_364">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_deAngloys_BnF19152_365" join="right" ana="#aggl-cert_low">q<ex>ue</ex></w>
+                  <w xml:id="w_deAngloys_BnF19152_366">tes</w>
+                  <w xml:id="w_deAngloys_BnF19152_367">cors</w>
+                  <w xml:id="w_deAngloys_BnF19152_368">soit</w>
+                  <w xml:id="w_deAngloys_BnF19152_369">honiz</w>
+                  <pc xml:id="w_deAngloys_BnF19152_370">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="51">
+                  <lb n="51"/>
+                  <w xml:id="w_deAngloys_BnF19152_371" join="right">Es</w>
+                  <w xml:id="w_deAngloys_BnF19152_372">tu</w>
+                  <w xml:id="w_deAngloys_BnF19152_373"><choice><orig>a</orig><reg>A</reg></choice>u<choice><orig>u</orig><reg>v</reg></choice><ex>er</ex>gnaz</w>
+                  <w xml:id="w_deAngloys_BnF19152_374" join="right">ou</w>
+                  <w xml:id="w_deAngloys_BnF19152_375"><choice><orig>t</orig><reg>T</reg></choice>iois</w>
+                  <pc xml:id="w_deAngloys_BnF19152_376">
+                     <choice>
+                        <orig/>
+                        <reg>?</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="52">
+                  <lb n="52"/>
+                  <pc xml:id="w_deAngloys_BnF19152_377">
+                     <choice>
+                        <orig/>
+                        <reg>-</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_deAngloys_BnF19152_378">Nai</w>
+                  <pc xml:id="w_deAngloys_BnF19152_379">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_deAngloys_BnF19152_380">nai</w>
+                  <pc xml:id="w_deAngloys_BnF19152_381">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_deAngloys_BnF19152_382">fait</w>
+                  <w xml:id="w_deAngloys_BnF19152_383">il</w>
+                  <pc xml:id="w_deAngloys_BnF19152_384">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_deAngloys_BnF19152_385" join="right">mi</w>
+                  <w xml:id="w_deAngloys_BnF19152_386">fout</w>
+                  <w xml:id="w_deAngloys_BnF19152_387"><choice><orig>a</orig><reg>A</reg></choice>glois</w>
+                  <pc xml:id="w_deAngloys_BnF19152_388">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+                  <pc xml:id="w_deAngloys_BnF19152_389">
+                     <choice>
+                        <orig/>
+                        <reg>»</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="53">
+                  <lb n="53"/>
+                  <w xml:id="w_deAngloys_BnF19152_390"><choice><orig>l</orig><reg>L</reg></choice>i</w>
+                  <w xml:id="w_deAngloys_BnF19152_391">p<ex>re</ex>udons</w>
+                  <w xml:id="w_deAngloys_BnF19152_392">l’</w>
+                  <w xml:id="w_deAngloys_BnF19152_393">ot</w>
+                  <pc xml:id="w_deAngloys_BnF19152_394">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_deAngloys_BnF19152_395" join="right" ana="#aggl-cert_low">si</w>
+                  <w xml:id="w_deAngloys_BnF19152_396">e<ex>n</ex></w>
+                  <w xml:id="w_deAngloys_BnF19152_397" join="right">a</w>
+                  <w xml:id="w_deAngloys_BnF19152_398">ris</w>
+                  <pc xml:id="w_deAngloys_BnF19152_399">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="54">
+                  <lb n="54"/>
+                  <pc xml:id="w_deAngloys_BnF19152_400">
+                     <choice>
+                        <orig/>
+                        <reg>«</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_deAngloys_BnF19152_401">Q<ex>ue</ex></w>
+                  <w xml:id="w_deAngloys_BnF19152_402">dites</w>
+                  <w xml:id="w_deAngloys_BnF19152_403"><choice><orig>u</orig><reg>v</reg></choice>os</w>
+                  <pc xml:id="w_deAngloys_BnF19152_404">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_deAngloys_BnF19152_405">fait</w>
+                  <w xml:id="w_deAngloys_BnF19152_406">il</w>
+                  <pc xml:id="w_deAngloys_BnF19152_407">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_deAngloys_BnF19152_408">amis</w>
+                  <pc xml:id="w_deAngloys_BnF19152_409">
+                     <choice>
+                        <orig/>
+                        <reg>?</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="55">
+                  <lb n="55"/>
+                  <w xml:id="w_deAngloys_BnF19152_410">Dites</w>
+                  <w xml:id="w_deAngloys_BnF19152_411" join="right" ana="#aggl-cert_low">moi</w>
+                  <w xml:id="w_deAngloys_BnF19152_412">q<ex>ue</ex></w>
+                  <w xml:id="w_deAngloys_BnF19152_413"><choice><orig>u</orig><reg>v</reg></choice>os</w>
+                  <w xml:id="w_deAngloys_BnF19152_414">dem<ex>an</ex>dez</w>
+                  <pc xml:id="w_deAngloys_BnF19152_415">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="56">
+                  <lb n="56"/>
+                  <pc xml:id="w_deAngloys_BnF19152_416">
+                     <choice>
+                        <orig/>
+                        <reg>-</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_deAngloys_BnF19152_417">Entendez</w>
+                  <w xml:id="w_deAngloys_BnF19152_418">mi</w>
+                  <pc xml:id="w_deAngloys_BnF19152_419">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_deAngloys_BnF19152_420"><choice><orig>u</orig><reg>v</reg></choice>os</w>
+                  <w xml:id="w_deAngloys_BnF19152_421">sa<choice><orig>u</orig><reg>v</reg></choice>erez</w>
+                  <pc xml:id="w_deAngloys_BnF19152_422">
+                     <choice>
+                        <orig>.</orig>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+            </lg>
+            <lg>
+               <l n="57">
+                  <lb n="57"/>
+                  <w xml:id="w_deAngloys_BnF19152_423" join="right" ana="#aggl-cert_low"><g type="initiale" rend="size(2) sizeAct(2) color(red)">M</g>i</w>
+                  <w xml:id="w_deAngloys_BnF19152_424"><ex>com</ex>pano<ex>n</ex></w>
+                  <w xml:id="w_deAngloys_BnF19152_425">fout</w>
+                  <w xml:id="w_deAngloys_BnF19152_426">m<ex>o</ex>lt</w>
+                  <w xml:id="w_deAngloys_BnF19152_427">malart</w>
+                  <pc xml:id="w_deAngloys_BnF19152_428">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="58">
+                  <lb n="58"/>
+                  <w xml:id="w_deAngloys_BnF19152_429">Il</w>
+                  <w xml:id="w_deAngloys_BnF19152_430">proie</w>
+                  <w xml:id="w_deAngloys_BnF19152_431">mi</w>
+                  <w xml:id="w_deAngloys_BnF19152_432" join="right" ana="#aggl-cert_low">q<ex>ue</ex></w>
+                  <w xml:id="w_deAngloys_BnF19152_433">ge</w>
+                  <w xml:id="w_deAngloys_BnF19152_434" join="right" ana="#aggl-cert_low">li</w>
+                  <w xml:id="w_deAngloys_BnF19152_435">chat</w>
+               </l>
+               <l n="59">
+                  <lb n="59"/>
+                  <num>
+                     <w xml:id="w_deAngloys_BnF19152_436">.<choice><orig>I</orig><reg>i</reg></choice>.</w>
+                  </num>
+                  <w xml:id="w_deAngloys_BnF19152_437">ainel</w>
+                  <w xml:id="w_deAngloys_BnF19152_438">q<ex>ue</ex></w>
+                  <w xml:id="w_deAngloys_BnF19152_439">il</w>
+                  <w xml:id="w_deAngloys_BnF19152_440"><choice><orig>u</orig><reg>v</reg></choice>elt</w>
+                  <w xml:id="w_deAngloys_BnF19152_441">meng<ex>ier</ex></w>
+                  <pc xml:id="w_deAngloys_BnF19152_442">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+                  <pc xml:id="w_deAngloys_BnF19152_443">
+                     <choice>
+                        <orig/>
+                        <reg>»</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="60">
+                  <lb n="60"/>
+                  <w xml:id="w_deAngloys_BnF19152_444" join="right" ana="#aggl-cert_low"><choice><orig>l</orig><reg>L</reg></choice>i</w>
+                  <w xml:id="w_deAngloys_BnF19152_445">p<ex>re</ex>udons</w>
+                  <pc xml:id="w_deAngloys_BnF19152_446">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_deAngloys_BnF19152_447"><ex>c</ex>’</w>
+                  <w xml:id="w_deAngloys_BnF19152_448"><ex>on</ex></w>
+                  <w xml:id="w_deAngloys_BnF19152_449">claime</w>
+                  <w xml:id="w_deAngloys_BnF19152_450"><choice><orig>m</orig><reg>M</reg></choice>ain<ex>ier</ex></w>
+                  <pc xml:id="w_deAngloys_BnF19152_451">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="61">
+                  <lb n="61"/>
+                  <w xml:id="w_deAngloys_BnF19152_452">le</w>
+                  <w xml:id="w_deAngloys_BnF19152_453">cuide</w>
+                  <w xml:id="w_deAngloys_BnF19152_454">a<choice><orig>u</orig><reg>v</reg></choice>oir</w>
+                  <w xml:id="w_deAngloys_BnF19152_455">b<ex>ie</ex>n</w>
+                  <w xml:id="w_deAngloys_BnF19152_456">ente<ex>n</ex>du</w>
+                  <pc xml:id="w_deAngloys_BnF19152_457">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="62">
+                  <lb n="62"/>
+                  <pc xml:id="w_deAngloys_BnF19152_458">
+                     <choice>
+                        <orig/>
+                        <reg>«</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_deAngloys_BnF19152_459">B<ex>ie</ex>n</w>
+                  <w xml:id="w_deAngloys_BnF19152_460">t’</w>
+                  <w xml:id="w_deAngloys_BnF19152_461">en</w>
+                  <w xml:id="w_deAngloys_BnF19152_462">est</w>
+                  <pc xml:id="w_deAngloys_BnF19152_463">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_deAngloys_BnF19152_464">fait</w>
+                  <w xml:id="w_deAngloys_BnF19152_465">il</w>
+                  <pc xml:id="w_deAngloys_BnF19152_466">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_deAngloys_BnF19152_467">a<choice><orig>u</orig><reg>v</reg></choice>enu</w>
+                  <pc xml:id="w_deAngloys_BnF19152_468">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="63">
+                  <lb n="63"/>
+                  <w xml:id="w_deAngloys_BnF19152_469">M’</w>
+                  <w xml:id="w_deAngloys_BnF19152_470">anesse</w>
+                  <w xml:id="w_deAngloys_BnF19152_471" join="right">en</w>
+                  <w xml:id="w_deAngloys_BnF19152_472">oit</w>
+                  <w xml:id="w_deAngloys_BnF19152_473">ersoir</w>
+                  <num>
+                     <w xml:id="w_deAngloys_BnF19152_474">.i.</w>
+                  </num>
+                  <w xml:id="w_deAngloys_BnF19152_475">bel</w>
+                  <pc xml:id="w_deAngloys_BnF19152_476">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+                  <pc xml:id="w_deAngloys_BnF19152_477">
+                     <choice>
+                        <orig/>
+                        <reg>»</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="64">
+                  <lb n="64"/>
+                  <w xml:id="w_deAngloys_BnF19152_478">De<choice><orig>u</orig><reg>v</reg></choice>a<ex>n</ex>t</w>
+                  <w xml:id="w_deAngloys_BnF19152_479">l’</w>
+                  <w xml:id="w_deAngloys_BnF19152_480"><choice><orig>a</orig><reg>A</reg></choice>nglois</w>
+                  <w xml:id="w_deAngloys_BnF19152_481">a</w>
+                  <w xml:id="w_deAngloys_BnF19152_482" join="right">mis</w>
+                  <w xml:id="w_deAngloys_BnF19152_483">l’</w>
+                  <w xml:id="w_deAngloys_BnF19152_484">anel</w>
+                  <pc xml:id="w_deAngloys_BnF19152_485">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="65">
+                  <lb n="65"/>
+                  <w xml:id="w_deAngloys_BnF19152_486"><choice><orig>S</orig><reg>s</reg></choice>i</w>
+                  <w xml:id="w_deAngloys_BnF19152_487" join="right">le</w>
+                  <w xml:id="w_deAngloys_BnF19152_488"><choice><orig>u</orig><reg>v</reg></choice>endi</w>
+                  <pc xml:id="w_deAngloys_BnF19152_489">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_deAngloys_BnF19152_490"><choice><orig>c</orig><reg>C</reg></choice>il</w>
+                  <w xml:id="w_deAngloys_BnF19152_491">l’</w>
+                  <w xml:id="w_deAngloys_BnF19152_492">achata</w>
+                  <pc xml:id="w_deAngloys_BnF19152_493">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="66">
+                  <lb n="66"/>
+                  <w xml:id="w_deAngloys_BnF19152_494"><choice><orig>a</orig><reg>A</reg></choice></w>
+                  <w xml:id="w_deAngloys_BnF19152_495">l’</w>
+                  <w xml:id="w_deAngloys_BnF19152_496">ostel</w>
+                  <w xml:id="w_deAngloys_BnF19152_497"><choice><orig>u</orig><reg>v</reg></choice>i<ex>n</ex>t</w>
+                  <pc xml:id="w_deAngloys_BnF19152_498">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_deAngloys_BnF19152_499" join="right">si</w>
+                  <w xml:id="w_deAngloys_BnF19152_500">l’</w>
+                  <w xml:id="w_deAngloys_BnF19152_501">escorcha</w>
+                  <pc xml:id="w_deAngloys_BnF19152_502">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="67">
+                  <lb n="67"/>
+                  <w xml:id="w_deAngloys_BnF19152_503">Q<ex>ua</ex>nt</w>
+                  <w xml:id="w_deAngloys_BnF19152_504">il</w>
+                  <w xml:id="w_deAngloys_BnF19152_505">est</w>
+                  <w xml:id="w_deAngloys_BnF19152_506">cuit</w>
+                  <w xml:id="w_deAngloys_BnF19152_507"><ex>et</ex></w>
+                  <w xml:id="w_deAngloys_BnF19152_508">atorné</w>
+                  <pc xml:id="w_deAngloys_BnF19152_509">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="68">
+                  <lb n="68"/>
+                  <w xml:id="w_deAngloys_BnF19152_510"><choice><orig>S</orig><reg>s</reg></choice>o<ex>n</ex></w>
+                  <w xml:id="w_deAngloys_BnF19152_511"><ex>com</ex>paigno<ex>n</ex></w>
+                  <w xml:id="w_deAngloys_BnF19152_512">e<ex>n</ex></w>
+                  <w xml:id="w_deAngloys_BnF19152_513" join="right">a</w>
+                  <w xml:id="w_deAngloys_BnF19152_514">porté</w>
+               </l>
+               <l n="69">
+                  <lb n="69"/>
+                  <w xml:id="w_deAngloys_BnF19152_515"><choice><orig>v</orig><reg>u</reg></choice>ne</w>
+                  <w xml:id="w_deAngloys_BnF19152_516">des</w>
+                  <w xml:id="w_deAngloys_BnF19152_517">cuisses</w>
+                  <w xml:id="w_deAngloys_BnF19152_518" join="right">o</w>
+                  <w xml:id="w_deAngloys_BnF19152_519">le</w>
+                  <w xml:id="w_deAngloys_BnF19152_520">pié</w>
+                  <pc xml:id="w_deAngloys_BnF19152_521">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="70">
+                  <lb n="70"/>
+                  <w xml:id="w_deAngloys_BnF19152_522"><ex>et</ex></w>
+                  <w xml:id="w_deAngloys_BnF19152_523">cil</w>
+                  <w xml:id="w_deAngloys_BnF19152_524">l’</w>
+                  <w xml:id="w_deAngloys_BnF19152_525" join="right">a</w>
+                  <w xml:id="w_deAngloys_BnF19152_526"><choice><orig>u</orig><reg>v</reg></choice>olant<ex>ier</ex>s</w>
+                  <w xml:id="w_deAngloys_BnF19152_527">me<ex>n</ex>gié</w>
+                  <pc xml:id="w_deAngloys_BnF19152_528">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="71">
+                  <lb n="71"/>
+                  <w xml:id="w_deAngloys_BnF19152_529"><choice><orig>Q</orig><reg>q</reg></choice><ex>ui</ex></w>
+                  <w xml:id="w_deAngloys_BnF19152_530">m<ex>o</ex>lt</w>
+                  <w xml:id="w_deAngloys_BnF19152_531">desirroit</w>
+                  <w xml:id="w_deAngloys_BnF19152_532">la</w>
+                  <w xml:id="w_deAngloys_BnF19152_533"><choice><orig>u</orig><reg>v</reg></choice>ïa<ex>n</ex>de</w>
+               </l>
+               <l n="72">
+                  <lb n="72"/>
+                  <w xml:id="w_deAngloys_BnF19152_534"><ex>et</ex></w>
+                  <w xml:id="w_deAngloys_BnF19152_535">de</w>
+                  <w xml:id="w_deAngloys_BnF19152_536">respass<ex>er</ex></w>
+                  <w xml:id="w_deAngloys_BnF19152_537">ert</w>
+                  <w xml:id="w_deAngloys_BnF19152_538" join="right" ana="#aggl-cert_low">e<ex>n</ex></w>
+                  <w xml:id="w_deAngloys_BnF19152_539">gra<ex>n</ex>de</w>
+                  <pc xml:id="w_deAngloys_BnF19152_540">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="73">
+                  <lb n="73"/>
+                  <w xml:id="w_deAngloys_BnF19152_541">Q<ex>ua</ex>nt</w>
+                  <w xml:id="w_deAngloys_BnF19152_542">ot</w>
+                  <w xml:id="w_deAngloys_BnF19152_543">me<ex>n</ex>gié</w>
+                  <w xml:id="w_deAngloys_BnF19152_544">p<ex>ar</ex></w>
+                  <w xml:id="w_deAngloys_BnF19152_545">bo<ex>n</ex></w>
+                  <w xml:id="w_deAngloys_BnF19152_546">tale<ex>n</ex>t</w>
+                  <pc xml:id="w_deAngloys_BnF19152_547">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="74">
+                  <lb n="74"/>
+                  <w xml:id="w_deAngloys_BnF19152_548" join="right">les</w>
+                  <w xml:id="w_deAngloys_BnF19152_549">os</w>
+                  <w xml:id="w_deAngloys_BnF19152_550">esgarde</w>
+                  <pc xml:id="w_deAngloys_BnF19152_551">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_deAngloys_BnF19152_552">q<ex>ui</ex></w>
+                  <w xml:id="w_deAngloys_BnF19152_553">so<ex>n</ex>t</w>
+                  <w xml:id="w_deAngloys_BnF19152_554">gra<ex>n</ex>t</w>
+                  <pc xml:id="w_deAngloys_BnF19152_555">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="75">
+                  <lb n="75"/>
+                  <w xml:id="w_deAngloys_BnF19152_556"><ex>et</ex></w>
+                  <w xml:id="w_deAngloys_BnF19152_557">la</w>
+                  <w xml:id="w_deAngloys_BnF19152_558">hanche</w>
+                  <w xml:id="w_deAngloys_BnF19152_559"><ex>et</ex></w>
+                  <w xml:id="w_deAngloys_BnF19152_560" join="right">la</w>
+                  <w xml:id="w_deAngloys_BnF19152_561">q<ex>ui</ex>sse</w>
+                  <w xml:id="w_deAngloys_BnF19152_562">tote</w>
+                  <pc xml:id="w_deAngloys_BnF19152_563">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="76">
+                  <lb n="76"/>
+                  <w xml:id="w_deAngloys_BnF19152_564"><choice><orig>Q</orig><reg>q</reg></choice><ex>u</ex>’</w>
+                  <w xml:id="w_deAngloys_BnF19152_565"><ex>i</ex>l</w>
+                  <w xml:id="w_deAngloys_BnF19152_566"><choice><orig>u</orig><reg>v</reg></choice>it</w>
+                  <w xml:id="w_deAngloys_BnF19152_567" join="right" ana="#aggl-cert_low">si</w>
+                  <w xml:id="w_deAngloys_BnF19152_568">grosse</w>
+                  <w xml:id="w_deAngloys_BnF19152_569"><ex>et</ex></w>
+                  <w xml:id="w_deAngloys_BnF19152_570" join="right">si</w>
+                  <w xml:id="w_deAngloys_BnF19152_571">estote</w>
+                  <pc xml:id="w_deAngloys_BnF19152_572">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="77">
+                  <lb n="77"/>
+                  <w xml:id="w_deAngloys_BnF19152_573" join="right" ana="#aggl-cert_low">Son</w>
+                  <w xml:id="w_deAngloys_BnF19152_574"><ex>com</ex>paigno<ex>n</ex></w>
+                  <w xml:id="w_deAngloys_BnF19152_575">apele</w>
+                  <pc xml:id="w_deAngloys_BnF19152_576">
+                     <choice>
+                        <orig/>
+                        <reg>:</reg>
+                     </choice>
+                  </pc>
+                  <pc xml:id="w_deAngloys_BnF19152_577">
+                     <choice>
+                        <orig/>
+                        <reg>«</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_deAngloys_BnF19152_578"><choice><orig>a</orig><reg>A</reg></choice>lein</w>
+                  <pc xml:id="w_deAngloys_BnF19152_579">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+                  <pc xml:id="w_deAngloys_BnF19152_580">
+                     <choice>
+                        <orig/>
+                        <reg>»</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="78">
+                  <lb n="78"/>
+                  <w xml:id="w_deAngloys_BnF19152_581"><ex>Et</ex></w>
+                  <w xml:id="w_deAngloys_BnF19152_582">il</w>
+                  <w xml:id="w_deAngloys_BnF19152_583" join="right" ana="#aggl-cert_low">i</w>
+                  <w xml:id="w_deAngloys_BnF19152_584">est</w>
+                  <w xml:id="w_deAngloys_BnF19152_585"><choice><orig>u</orig><reg>v</reg></choice>enuz</w>
+                  <w xml:id="w_deAngloys_BnF19152_586" join="right">a</w>
+                  <w xml:id="w_deAngloys_BnF19152_587">plain</w>
+                  <pc xml:id="w_deAngloys_BnF19152_588">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="79">
+                  <lb n="79"/>
+                  <pc xml:id="w_deAngloys_BnF19152_589">
+                     <choice>
+                        <orig/>
+                        <reg>«</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_deAngloys_BnF19152_590">Q<ex>ue</ex></w>
+                  <w xml:id="w_deAngloys_BnF19152_591"><choice><orig>u</orig><reg>v</reg></choice>olez</w>
+                  <w xml:id="w_deAngloys_BnF19152_592">tu</w>
+                  <pc xml:id="w_deAngloys_BnF19152_593">
+                     <choice>
+                        <orig/>
+                        <reg>?</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_deAngloys_BnF19152_594">fait</w>
+                  <w xml:id="w_deAngloys_BnF19152_595">il</w>
+                  <pc xml:id="w_deAngloys_BnF19152_596">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+                  <pc xml:id="w_deAngloys_BnF19152_597">
+                     <choice>
+                        <orig/>
+                        <reg>-</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_deAngloys_BnF19152_598"><choice><orig>t</orig><reg>T</reg></choice><ex>ri</ex>chart</w>
+                  <note type="philologique">
+                     <p rend="footnote text" style="text-align: justify;">Le NRCF rattache <hi rend="italic">trichart</hi> et les deux vers 80-81 qui suivent au discours prononcé par Alain. Nous pensons plutôt que cette apostrophe est prononcée par l’Anglais anciennement malade, qui accuse son compagnon d’avoir voulu l’abuser. </p>
+                  </note>
+                  <pc xml:id="w_deAngloys_BnF19152_599">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="80">
+                  <lb n="80"/>
+                  <w xml:id="w_deAngloys_BnF19152_600"><choice><orig>Q</orig><reg>q</reg></choice><ex>ue</ex></w>
+                  <w xml:id="w_deAngloys_BnF19152_601"><choice><orig>u</orig><reg>v</reg></choice>os</w>
+                  <w xml:id="w_deAngloys_BnF19152_602">me</w>
+                  <w xml:id="w_deAngloys_BnF19152_603">tenez</w>
+                  <w xml:id="w_deAngloys_BnF19152_604">p<ex>or</ex></w>
+                  <w xml:id="w_deAngloys_BnF19152_605">musart</w>
+                  <pc xml:id="w_deAngloys_BnF19152_606">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="81">
+                  <lb n="81"/>
+                  <w xml:id="w_deAngloys_BnF19152_607">Q<ex>ue</ex>l</w>
+                  <w xml:id="w_deAngloys_BnF19152_608">beste</w>
+                  <w xml:id="w_deAngloys_BnF19152_609">m’</w>
+                  <w xml:id="w_deAngloys_BnF19152_610">as</w>
+                  <w xml:id="w_deAngloys_BnF19152_611" join="right" ana="#aggl-cert_low">tu</w>
+                  <w xml:id="w_deAngloys_BnF19152_612" join="right" ana="#aggl-cert_low">ci</w>
+                  <w xml:id="w_deAngloys_BnF19152_613">porté</w>
+                  <pc xml:id="w_deAngloys_BnF19152_614">
+                     <choice>
+                        <orig/>
+                        <reg>?</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="82">
+                  <lb n="82"/>
+                  <pc xml:id="w_deAngloys_BnF19152_615">
+                     <choice>
+                        <orig/>
+                        <reg>-</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_deAngloys_BnF19152_616"><choice><orig>a</orig><reg>A</reg></choice>nel</w>
+                  <pc xml:id="w_deAngloys_BnF19152_617">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_deAngloys_BnF19152_618">fait</w>
+                  <w xml:id="w_deAngloys_BnF19152_619">il</w>
+                  <pc xml:id="w_deAngloys_BnF19152_620">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_deAngloys_BnF19152_621">e<ex>n</ex></w>
+                  <w xml:id="w_deAngloys_BnF19152_622">charité</w>
+                  <pc xml:id="w_deAngloys_BnF19152_623">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="83">
+                  <lb n="83"/>
+                  <pc xml:id="w_deAngloys_BnF19152_624">
+                     <choice>
+                        <orig/>
+                        <reg>-</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_deAngloys_BnF19152_625"><choice><orig>a</orig><reg>A</reg></choice>nel</w>
+                  <pc xml:id="w_deAngloys_BnF19152_626">
+                     <choice>
+                        <orig/>
+                        <reg>?</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_deAngloys_BnF19152_627">fait</w>
+                  <w xml:id="w_deAngloys_BnF19152_628">il</w>
+                  <pc xml:id="w_deAngloys_BnF19152_629">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_deAngloys_BnF19152_630"><choice><orig>p</orig><reg>P</reg></choice><ex>or</ex></w>
+                  <w xml:id="w_deAngloys_BnF19152_631">seint</w>
+                  <w xml:id="w_deAngloys_BnF19152_632"><choice><orig>a</orig><reg>A</reg></choice>lmon</w>
+                  <pc xml:id="w_deAngloys_BnF19152_633">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="84">
+                  <lb n="84"/>
+                  <w xml:id="w_deAngloys_BnF19152_634" join="right" ana="#aggl-cert_low"><choice><orig>C</orig><reg>c</reg></choice>estui</w>
+                  <w xml:id="w_deAngloys_BnF19152_635">n’</w>
+                  <w xml:id="w_deAngloys_BnF19152_636">est</w>
+                  <w xml:id="w_deAngloys_BnF19152_637">mie</w>
+                  <w xml:id="w_deAngloys_BnF19152_638">filz</w>
+                  <w xml:id="w_deAngloys_BnF19152_639">moto<ex>n</ex></w>
+                  <pc xml:id="w_deAngloys_BnF19152_640">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="85">
+                  <lb n="85"/>
+                  <pc xml:id="w_deAngloys_BnF19152_641">
+                     <choice>
+                        <orig/>
+                        <reg>-</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_deAngloys_BnF19152_642" join="right" ana="#aggl-cert_low">Si</w>
+                  <w xml:id="w_deAngloys_BnF19152_643">est</w>
+                  <pc xml:id="w_deAngloys_BnF19152_644">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_deAngloys_BnF19152_645"><choice><orig>p</orig><reg>P</reg></choice><ex>or</ex></w>
+                  <w xml:id="w_deAngloys_BnF19152_646">ane<supplied>l</supplied></w>
+                  <w xml:id="w_deAngloys_BnF19152_647">ge</w>
+                  <w xml:id="w_deAngloys_BnF19152_648">chatai</w>
+               </l>
+               <l n="86">
+                  <lb n="86"/>
+                  <w xml:id="w_deAngloys_BnF19152_649" join="right" ana="#aggl-cert_low"><choice><orig>T</orig><reg>t</reg></choice>ot</w>
+                  <w xml:id="w_deAngloys_BnF19152_650">de</w>
+                  <w xml:id="w_deAngloys_BnF19152_651">pl<ex>us</ex></w>
+                  <w xml:id="w_deAngloys_BnF19152_652">grant</w>
+                  <w xml:id="w_deAngloys_BnF19152_653">q<ex>ue</ex></w>
+                  <w xml:id="w_deAngloys_BnF19152_654">ge</w>
+                  <w xml:id="w_deAngloys_BnF19152_655">gardai</w>
+                  <pc xml:id="w_deAngloys_BnF19152_656">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="87">
+                  <lb n="87"/>
+                  <pc xml:id="w_deAngloys_BnF19152_657">
+                     <choice>
+                        <orig/>
+                        <reg>-</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_deAngloys_BnF19152_658"><choice><orig>a</orig><reg>A</reg></choice>nel</w>
+                  <pc xml:id="w_deAngloys_BnF19152_659">
+                     <choice>
+                        <orig/>
+                        <reg>?</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_deAngloys_BnF19152_660"><choice><orig>d</orig><reg>D</reg></choice>eable</w>
+                  <pc xml:id="w_deAngloys_BnF19152_661">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_deAngloys_BnF19152_662"><choice><orig>v</orig><reg>V</reg></choice>oirem<ex>en</ex>t</w>
+               </l>
+               <l n="88">
+                  <lb n="88"/>
+                  <w xml:id="w_deAngloys_BnF19152_663" join="right" ana="#aggl-cert_low"><choice><orig>I</orig><reg>i</reg></choice>l</w>
+                  <w xml:id="w_deAngloys_BnF19152_664">sanble</w>
+                  <w xml:id="w_deAngloys_BnF19152_665">char</w>
+                  <w xml:id="w_deAngloys_BnF19152_666">de</w>
+                  <w xml:id="w_deAngloys_BnF19152_667"><choice><orig>u</orig><reg>v</reg></choice>iel</w>
+                  <w xml:id="w_deAngloys_BnF19152_668"><choice><orig>i</orig><reg>j</reg></choice>um<ex>en</ex>t</w>
+                  <pc xml:id="w_deAngloys_BnF19152_669">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="89">
+                  <lb n="89"/>
+                  <w xml:id="w_deAngloys_BnF19152_670">Se</w>
+                  <note type="philologique">
+                     <p rend="footnote text">Le NRCF corrige <hi rend="italic">Se</hi> en <hi rend="italic">Ce</hi>. Cette graphie est caractéristique des dialectes flamands (Mantou p. 258).</p>
+                  </note>
+                  <w xml:id="w_deAngloys_BnF19152_671">fu</w>
+                  <w xml:id="w_deAngloys_BnF19152_672">asnel</w>
+                  <w xml:id="w_deAngloys_BnF19152_673">q<ex>ue</ex></w>
+                  <w xml:id="w_deAngloys_BnF19152_674">ge</w>
+                  <w xml:id="w_deAngloys_BnF19152_675" join="right" ana="#aggl-cert_low"><choice><orig>u</orig><reg>v</reg></choice>oi</w>
+                  <w xml:id="w_deAngloys_BnF19152_676">ci</w>
+                  <pc xml:id="w_deAngloys_BnF19152_677">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="90">
+                  <lb n="90"/>
+                  <pc xml:id="w_deAngloys_BnF19152_678">
+                     <choice>
+                        <orig/>
+                        <reg>-</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_deAngloys_BnF19152_679"><choice><orig>a</orig><reg>A</reg></choice>inz</w>
+                  <w xml:id="w_deAngloys_BnF19152_680">fu</w>
+                  <w xml:id="w_deAngloys_BnF19152_681">anel</w>
+                  <pc xml:id="w_deAngloys_BnF19152_682">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_deAngloys_BnF19152_683"><choice><orig>u</orig><reg>v</reg></choice>ostre</w>
+                  <w xml:id="w_deAngloys_BnF19152_684">m<ex>er</ex>ci</w>
+                  <pc xml:id="w_deAngloys_BnF19152_685">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="91">
+                  <lb n="91"/>
+                  <w xml:id="w_deAngloys_BnF19152_686">Se</w>
+                  <w xml:id="w_deAngloys_BnF19152_687">tu</w>
+                  <w xml:id="w_deAngloys_BnF19152_688">ne</w>
+                  <w xml:id="w_deAngloys_BnF19152_689">croiz</w>
+                  <w xml:id="w_deAngloys_BnF19152_690">q<ex>ue</ex></w>
+                  <w xml:id="w_deAngloys_BnF19152_691">fout</w>
+                  <w xml:id="w_deAngloys_BnF19152_692">anel</w>
+                  <pc xml:id="w_deAngloys_BnF19152_693">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="92">
+                  <lb n="92"/>
+                  <w xml:id="w_deAngloys_BnF19152_694"><choice><orig>M</orig><reg>m</reg></choice>i</w>
+                  <w xml:id="w_deAngloys_BnF19152_695"><choice><orig>u</orig><reg>v</reg></choice>os</w>
+                  <w xml:id="w_deAngloys_BnF19152_696">ira</w>
+                  <w xml:id="w_deAngloys_BnF19152_697">mostrer</w>
+                  <w xml:id="w_deAngloys_BnF19152_698">de</w>
+                  <w xml:id="w_deAngloys_BnF19152_699">pel</w>
+                  <pc xml:id="w_deAngloys_BnF19152_700">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+                  <pb n="48r"
+                       xml:id="pb_2"
+                       facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b52513419n/f103/full/pct:50/0/native.jpg"/>
+                  <cb n="48ra"/>
+               </l>
+               <l n="93">
+                  <lb n="93"/>
+                  <pc xml:id="w_deAngloys_BnF19152_702">
+                     <choice>
+                        <orig/>
+                        <reg>-</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_deAngloys_BnF19152_703">Oïl</w>
+                  <pc xml:id="w_deAngloys_BnF19152_704">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_deAngloys_BnF19152_705">dit</w>
+                  <w xml:id="w_deAngloys_BnF19152_706">il</w>
+                  <pc xml:id="w_deAngloys_BnF19152_707">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_deAngloys_BnF19152_708">mo<ex>n</ex>strez</w>
+                  <w xml:id="w_deAngloys_BnF19152_709" join="right" ana="#aggl-cert_low">de</w>
+                  <w xml:id="w_deAngloys_BnF19152_710">ça</w>
+                  <pc xml:id="w_deAngloys_BnF19152_711">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+                  <pc xml:id="w_deAngloys_BnF19152_712">
+                     <choice>
+                        <orig/>
+                        <reg>»</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="94">
+                  <lb n="94"/>
+                  <w xml:id="w_deAngloys_BnF19152_713"><ex>Et</ex></w>
+                  <w xml:id="w_deAngloys_BnF19152_714">cil</w>
+                  <w xml:id="w_deAngloys_BnF19152_715" join="right" ana="#aggl-cert_low">la</w>
+                  <w xml:id="w_deAngloys_BnF19152_716">pel</w>
+                  <w xml:id="w_deAngloys_BnF19152_717" join="right">li</w>
+                  <w xml:id="w_deAngloys_BnF19152_718">aporta</w>
+                  <pc xml:id="w_deAngloys_BnF19152_719">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="95">
+                  <lb n="95"/>
+                  <w xml:id="w_deAngloys_BnF19152_720">De<choice><orig>u</orig><reg>v</reg></choice>a<ex>n</ex>t</w>
+                  <w xml:id="w_deAngloys_BnF19152_721">so<ex>n</ex></w>
+                  <w xml:id="w_deAngloys_BnF19152_722"><ex>com</ex>paigno<ex>n</ex></w>
+                  <w xml:id="w_deAngloys_BnF19152_723">l’</w>
+                  <w xml:id="w_deAngloys_BnF19152_724">estent</w>
+                  <pc xml:id="w_deAngloys_BnF19152_725">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="96">
+                  <lb n="96"/>
+                  <w xml:id="w_deAngloys_BnF19152_726">Cil</w>
+                  <w xml:id="w_deAngloys_BnF19152_727">le</w>
+                  <w xml:id="w_deAngloys_BnF19152_728">regarde</w>
+                  <w xml:id="w_deAngloys_BnF19152_729">durem<ex>en</ex>t</w>
+                  <pc xml:id="w_deAngloys_BnF19152_730">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="97">
+                  <lb n="97"/>
+                  <w xml:id="w_deAngloys_BnF19152_731">les</w>
+                  <w xml:id="w_deAngloys_BnF19152_732">piez</w>
+                  <pc xml:id="w_deAngloys_BnF19152_733">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_deAngloys_BnF19152_734">la</w>
+                  <w xml:id="w_deAngloys_BnF19152_735">teste</w>
+                  <pc xml:id="w_deAngloys_BnF19152_736">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_deAngloys_BnF19152_737">les</w>
+                  <w xml:id="w_deAngloys_BnF19152_738">oreilles</w>
+                  <pc xml:id="w_deAngloys_BnF19152_739">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="98">
+                  <lb n="98"/>
+                  <pc xml:id="w_deAngloys_BnF19152_740">
+                     <choice>
+                        <orig/>
+                        <reg>«</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_deAngloys_BnF19152_741"><choice><orig>a</orig><reg>A</reg></choice>lain</w>
+                  <pc xml:id="w_deAngloys_BnF19152_742">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_deAngloys_BnF19152_743">fait</w>
+                  <w xml:id="w_deAngloys_BnF19152_744">il</w>
+                  <pc xml:id="w_deAngloys_BnF19152_745">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_deAngloys_BnF19152_746">tou</w>
+                  <w xml:id="w_deAngloys_BnF19152_747">diz</w>
+                  <w xml:id="w_deAngloys_BnF19152_748">m<ex>er</ex><choice><orig>u</orig><reg>v</reg></choice>eilles</w>
+                  <pc xml:id="w_deAngloys_BnF19152_749">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="99">
+                  <lb n="99"/>
+                  <w xml:id="w_deAngloys_BnF19152_750">Si<space type="degl"/>fait</w>
+                  <w xml:id="w_deAngloys_BnF19152_751">pié</w>
+                  <pc xml:id="w_deAngloys_BnF19152_752">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_deAngloys_BnF19152_753">si<space type="degl"/>faite</w>
+                  <w xml:id="w_deAngloys_BnF19152_754">mousel</w>
+               </l>
+               <l n="100">
+                  <lb n="100"/>
+                  <w xml:id="w_deAngloys_BnF19152_755"><choice><orig>N</orig><reg>n</reg></choice>e</w>
+                  <w xml:id="w_deAngloys_BnF19152_756">sifait</w>
+                  <w xml:id="w_deAngloys_BnF19152_757">pel</w>
+                  <w xml:id="w_deAngloys_BnF19152_758">n’</w>
+                  <w xml:id="w_deAngloys_BnF19152_759">a</w>
+                  <w xml:id="w_deAngloys_BnF19152_760">mie</w>
+                  <w xml:id="w_deAngloys_BnF19152_761">ainel</w>
+                  <pc xml:id="w_deAngloys_BnF19152_762">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="101">
+                  <lb n="101"/>
+                  <w xml:id="w_deAngloys_BnF19152_763"><choice><orig>a</orig><reg>A</reg></choice>inelet</w>
+                  <w xml:id="w_deAngloys_BnF19152_764" join="right">a</w>
+                  <w xml:id="w_deAngloys_BnF19152_765">petite</w>
+                  <w xml:id="w_deAngloys_BnF19152_766">l’</w>
+                  <w xml:id="w_deAngloys_BnF19152_767">os</w>
+                  <pc xml:id="w_deAngloys_BnF19152_768">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="102">
+                  <lb n="102"/>
+                  <w xml:id="w_deAngloys_BnF19152_769"><choice><orig>C</orig><reg>c</reg></choice>orte</w>
+                  <w xml:id="w_deAngloys_BnF19152_770">eschinë</w>
+                  <w xml:id="w_deAngloys_BnF19152_771"><ex>et</ex></w>
+                  <w xml:id="w_deAngloys_BnF19152_772">corte</w>
+                  <w xml:id="w_deAngloys_BnF19152_773">dos</w>
+                  <pc xml:id="w_deAngloys_BnF19152_774">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="103">
+                  <lb n="103"/>
+                  <w xml:id="w_deAngloys_BnF19152_775">Cestui</w>
+                  <w xml:id="w_deAngloys_BnF19152_776">n’</w>
+                  <w xml:id="w_deAngloys_BnF19152_777">est</w>
+                  <w xml:id="w_deAngloys_BnF19152_778">mie</w>
+                  <w xml:id="w_deAngloys_BnF19152_779">filz</w>
+                  <w xml:id="w_deAngloys_BnF19152_780">be<space type="degl"/>hé</w>
+                  <pc xml:id="w_deAngloys_BnF19152_781">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="104">
+                  <lb n="104"/>
+                  <w xml:id="w_deAngloys_BnF19152_782">Q<ex>uo</ex>i</w>
+                  <w xml:id="w_deAngloys_BnF19152_783">dites</w>
+                  <w xml:id="w_deAngloys_BnF19152_784"><choice><orig>u</orig><reg>v</reg></choice>os</w>
+                  <pc xml:id="w_deAngloys_BnF19152_785">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_deAngloys_BnF19152_786"><choice><orig>a</orig><reg>A</reg></choice>lein</w>
+                  <pc xml:id="w_deAngloys_BnF19152_787">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_deAngloys_BnF19152_788">q<ex>ue</ex></w>
+                  <w xml:id="w_deAngloys_BnF19152_789">est</w>
+                  <pc xml:id="w_deAngloys_BnF19152_790">
+                     <choice>
+                        <orig/>
+                        <reg>?</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="105">
+                  <lb n="105"/>
+                  <w xml:id="w_deAngloys_BnF19152_791">Ce</w>
+                  <w xml:id="w_deAngloys_BnF19152_792">ne</w>
+                  <w xml:id="w_deAngloys_BnF19152_793">fu</w>
+                  <w xml:id="w_deAngloys_BnF19152_794">mie</w>
+                  <w xml:id="w_deAngloys_BnF19152_795">fielz</w>
+                  <w xml:id="w_deAngloys_BnF19152_796">b<ex>re</ex>bis</w>
+                  <pc xml:id="w_deAngloys_BnF19152_797">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="106">
+                  <lb n="106"/>
+                  <pc xml:id="w_deAngloys_BnF19152_798">
+                     <choice>
+                        <orig/>
+                        <reg>-</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_deAngloys_BnF19152_799" join="right" ana="#aggl-cert_low">Tu</w>
+                  <w xml:id="w_deAngloys_BnF19152_800">dites</w>
+                  <w xml:id="w_deAngloys_BnF19152_801"><choice><orig>u</orig><reg>v</reg></choice>oir</w>
+                  <pc xml:id="w_deAngloys_BnF19152_802">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_deAngloys_BnF19152_803">p<ex>ar</ex></w>
+                  <w xml:id="w_deAngloys_BnF19152_804">sei<ex>n</ex>t</w>
+                  <w xml:id="w_deAngloys_BnF19152_805"><choice><orig>f</orig><reg>F</reg></choice>elix</w>
+                  <pc xml:id="w_deAngloys_BnF19152_806">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="107">
+                  <lb n="107"/>
+                  <w xml:id="w_deAngloys_BnF19152_807" join="right" ana="#aggl-cert_low"><choice><orig>f</orig><reg>F</reg></choice>oi</w>
+                  <w xml:id="w_deAngloys_BnF19152_808">q<ex>ue</ex></w>
+                  <w xml:id="w_deAngloys_BnF19152_809">ge</w>
+                  <w xml:id="w_deAngloys_BnF19152_810">doi</w>
+                  <w xml:id="w_deAngloys_BnF19152_811" join="right">a</w>
+                  <w xml:id="w_deAngloys_BnF19152_812">seint</w>
+                  <w xml:id="w_deAngloys_BnF19152_813"><choice><orig>j</orig><reg>J</reg></choice>ohan</w>
+                  <pc xml:id="w_deAngloys_BnF19152_814">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="108">
+                  <lb n="108"/>
+                  <w xml:id="w_deAngloys_BnF19152_815"><choice><orig>C</orig><reg>c</reg></choice>estui</w>
+                  <w xml:id="w_deAngloys_BnF19152_816" join="right" ana="#aggl-cert_low">fu</w>
+                  <w xml:id="w_deAngloys_BnF19152_817">filz</w>
+                  <w xml:id="w_deAngloys_BnF19152_818">ihan</w>
+                  <w xml:id="w_deAngloys_BnF19152_819">ihan</w>
+                  <pc xml:id="w_deAngloys_BnF19152_820">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="109">
+                  <lb n="109"/>
+                  <w xml:id="w_deAngloys_BnF19152_821">Encor</w>
+                  <w xml:id="w_deAngloys_BnF19152_822" join="right">fu</w>
+                  <w xml:id="w_deAngloys_BnF19152_823">d’</w>
+                  <w xml:id="w_deAngloys_BnF19152_824">anesse</w>
+                  <w xml:id="w_deAngloys_BnF19152_825">e<ex>n</ex></w>
+                  <w xml:id="w_deAngloys_BnF19152_826">maiso<ex>n</ex></w>
+                  <pc xml:id="w_deAngloys_BnF19152_827">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="110">
+                  <lb n="110"/>
+                  <w xml:id="w_deAngloys_BnF19152_828"><ex>et</ex></w>
+                  <w xml:id="w_deAngloys_BnF19152_829">ge</w>
+                  <w xml:id="w_deAngloys_BnF19152_830"><choice><orig>u</orig><reg>v</reg></choice>os</w>
+                  <w xml:id="w_deAngloys_BnF19152_831">porté</w>
+                  <w xml:id="w_deAngloys_BnF19152_832">ci</w>
+                  <w xml:id="w_deAngloys_BnF19152_833">d’</w>
+                  <w xml:id="w_deAngloys_BnF19152_834">asnon</w>
+                  <pc xml:id="w_deAngloys_BnF19152_835">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+                  <pc xml:id="w_deAngloys_BnF19152_836">
+                     <choice>
+                        <orig/>
+                        <reg>»</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="111">
+                  <lb n="111"/>
+                  <w xml:id="w_deAngloys_BnF19152_837">Q<ex>ua</ex>nt</w>
+                  <w xml:id="w_deAngloys_BnF19152_838">li</w>
+                  <w xml:id="w_deAngloys_BnF19152_839">malades</w>
+                  <w xml:id="w_deAngloys_BnF19152_840" join="right">li</w>
+                  <w xml:id="w_deAngloys_BnF19152_841">oit</w>
+                  <w xml:id="w_deAngloys_BnF19152_842">dire</w>
+                  <pc xml:id="w_deAngloys_BnF19152_843">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="112">
+                  <lb n="112"/>
+                  <w xml:id="w_deAngloys_BnF19152_844">ainz</w>
+                  <w xml:id="w_deAngloys_BnF19152_845">ne</w>
+                  <w xml:id="w_deAngloys_BnF19152_846">se</w>
+                  <w xml:id="w_deAngloys_BnF19152_847">pot</w>
+                  <w xml:id="w_deAngloys_BnF19152_848">tenir</w>
+                  <w xml:id="w_deAngloys_BnF19152_849">de</w>
+                  <w xml:id="w_deAngloys_BnF19152_850">rire</w>
+                  <pc xml:id="w_deAngloys_BnF19152_851">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="113">
+                  <lb n="113"/>
+                  <w xml:id="w_deAngloys_BnF19152_852" join="right">Du</w>
+                  <w xml:id="w_deAngloys_BnF19152_853">mal</w>
+                  <w xml:id="w_deAngloys_BnF19152_854">gari</w>
+                  <w xml:id="w_deAngloys_BnF19152_855"><ex>et</ex></w>
+                  <w xml:id="w_deAngloys_BnF19152_856">respassa</w>
+                  <pc xml:id="w_deAngloys_BnF19152_857">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="114">
+                  <lb n="114"/>
+                  <w xml:id="w_deAngloys_BnF19152_858">Onq<ex>ue</ex>s</w>
+                  <w xml:id="w_deAngloys_BnF19152_859">l’</w>
+                  <w xml:id="w_deAngloys_BnF19152_860">asnel</w>
+                  <w xml:id="w_deAngloys_BnF19152_861">q<ex>ue</ex></w>
+                  <w xml:id="w_deAngloys_BnF19152_862" join="right" ana="#aggl-cert_low">il</w>
+                  <w xml:id="w_deAngloys_BnF19152_863">men<choice><orig>i</orig><reg>j</reg></choice>a</w>
+               </l>
+               <l n="115">
+                  <lb n="115"/>
+                  <w xml:id="w_deAngloys_BnF19152_864"><choice><orig>N</orig><reg>n</reg></choice>e</w>
+                  <w xml:id="w_deAngloys_BnF19152_865" join="right" ana="#aggl-cert_low">li</w>
+                  <w xml:id="w_deAngloys_BnF19152_866">fist</w>
+                  <w xml:id="w_deAngloys_BnF19152_867">mal</w>
+                  <pc xml:id="w_deAngloys_BnF19152_868">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_deAngloys_BnF19152_869" join="right">si</w>
+                  <w xml:id="w_deAngloys_BnF19152_870"><ex>com</ex></w>
+                  <w xml:id="w_deAngloys_BnF19152_871">cil</w>
+                  <w xml:id="w_deAngloys_BnF19152_872">dist</w>
+               </l>
+               <l n="116">
+                  <lb n="116"/>
+                  <w xml:id="w_deAngloys_BnF19152_873"><choice><orig>Q</orig><reg>q</reg></choice><ex>ui</ex></w>
+                  <w xml:id="w_deAngloys_BnF19152_874">le</w>
+                  <w xml:id="w_deAngloys_BnF19152_875">flabel</w>
+                  <w xml:id="w_deAngloys_BnF19152_876">des</w>
+                  <w xml:id="w_deAngloys_BnF19152_877"><choice><orig>a</orig><reg>A</reg></choice>nglois</w>
+                  <w xml:id="w_deAngloys_BnF19152_878">fist</w>
+                  <pc xml:id="w_deAngloys_BnF19152_879">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+            </lg>
+            <p rend="explicit" style="font-weight: bold; ">
+               <w xml:id="w_deAngloys_BnF19152_880">Explicit</w>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

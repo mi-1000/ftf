@@ -1,0 +1,1574 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="fro">La femme qui cunquie son baron</title>
+            <author>Anonyme</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2024</date>
+            </edition>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="acorbellari">Alain Corbellari</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="alavrent">Alexei Lavrentiev</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="apinche">Ariane Pinche</name>
+            </respStmt>
+            <respStmt>
+               <resp>relecteur</resp>
+               <resp>relecteur-traduction</resp>
+               <resp>membre</resp>
+               <name xml:id="blaid">Baptiste Laïd</name>
+            </respStmt>
+            <respStmt>
+               <resp>robot</resp>
+               <name xml:id="bot">bot bot</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="cguillot">Céline Guillot-Barbance</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="clachet">Claude Lachet</name>
+            </respStmt>
+            <respStmt>
+               <resp>editeur</resp>
+               <resp>traducteur</resp>
+               <resp>chef de projet</resp>
+               <name xml:id="cpierreville">Corinne Pierreville</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="ggruber">Gauthier Grüber</name>
+            </respStmt>
+            <respStmt>
+               <resp>ingénieur</resp>
+               <name xml:id="jnuguet">Jules Nuguet</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="ngarnier">Nicolas Garnier</name>
+            </respStmt>
+            <respStmt>
+               <resp>Relecteur traduction</resp>
+               <name xml:id="rbellon">Roger Bellon</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="rtrachsler">Richard Trachsler</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="veugene">Valentine Eugène</name>
+            </respStmt>
+            <respStmt>
+               <resp>ingénieur</resp>
+               <name xml:id="myamagata">Moe Yamagata</name>
+            </respStmt>
+            <respStmt>
+               <resp/>
+               <name xml:id="jdocks">Justine DOCKS</name>
+            </respStmt>
+            <respStmt>
+               <resp>editeur</resp>
+               <resp>relecteur</resp>
+               <resp>traducteur</resp>
+               <resp>relecteur-traduction</resp>
+               <resp/>
+               <name> </name>
+            </respStmt>
+         </editionStmt>
+         <extent>
+            <num xml:id="nb_tokens_given">620</num>
+            <num xml:id="nb_mots_given">546</num>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <name>ENS de Lyon / UMR 5317 IHRIM, Base de français médiéval, projet Fabliaux</name>
+            </publisher>
+            <address>
+               <addrLine>15, parvis René Descartes</addrLine>
+               <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+               <addrLine>Tél : 04 37 37 63 10</addrLine>
+               <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+               <addrLine>http://bfm.ens-lyon.fr</addrLine>
+            </address>
+            <idno type="bfm">http://catalog.bfm-corpus.org/fabliaux/FemmeCunquieBaron_BnF-12603</idno>
+            <idno type="doi">10.34847/nkl.ea3c6301</idno>
+            <availability status="free">
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <ab type="availability_bfm">Les Conditions générales d'utilisation de la Base de Français Médiéval (http://txm.bfm-corpus.org/bfm/files/CGU.pdf), 
+                        et notamment son Article 5 « PROPRIETE INTELLECTUELLE », s'appliquent à tous les textes de la BFM.</ab>
+                  <ab type="how_to_cite">
+                     <label>Comment citer ce texte :</label>
+                     <bibl>La femme qui cunquie son baron, édité par Corinne Pierreville en collaboration avec Baptiste Laïd. Publié en ligne par l’ENS de Lyon dans la Base de français médiéval, 
+2024, http://catalog.bfm-corpus.org/fabliaux/FemmeCunquieBaron_BnF-12603.</bibl>
+                        D'autres formules de citation de la BFM sont proposées sur la page web suivante :
+                        http://bfm.ens-lyon.fr/spip.php?article281.</ab>
+                  <ab type="availability_file">
+                     <label>Conditions d'utilisation de ce fichier :</label>
+                        Ce fichier numérique est composé du corps de texte médiéval (restauré par son ou ses éditeur(s) scientifique(s)), des apparats critiques (introductions, notes, glossaires, explications, du texte d'origine (ou des enrichissements) qui ont été réalisés dans le cadre de la restauration des textes par les Editeurs Scientifiques) et des suppléments numériques : balisage XML-TEI, métadonnées (teiHeader), balisage du discours direct, étiquetage morpho-syntaxique, lemmatisation. Le texte et les suppléments numériques sont libres de droit et peuvent à ce titre être téléchargés et réutilisés librement. Les apparats critiques sont soumis à une licence de type CC BY-NC-SA 3.0 FR  http://creativecommons.org/licenses/by-nc-sa/3.0/fr. Les Utilisateurs s’engagent à respecter les termes de cette licence. 
+                    </ab>
+                  <ab type="availability_txmweb" subtype="illimité">
+                     <label>Conditions d'utilisation par le portail BFM :</label>
+                        Pas de limitation dans l'usage des fonctionnalités. Téléchargement autorisé.</ab>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="main" xml:id="BnF-12603">
+               <msIdentifier>
+                  <settlement>Paris</settlement>
+                  <repository>Bibliothèque nationale de France</repository>
+                  <idno>français  12603</idno>
+                  <idno type="URI" subtype="Notice" n="Arlima">https://www.arlima.net/mss/france/paris/bibliotheque_nationale_de_france/francais/12603.html</idno>
+                  <idno type="URI" subtype="Notice" n="Jonas">https://jonas.irht.cnrs.fr/consulter/manuscrit/detail_manuscrit.php?projet=45811</idno>
+                  <idno type="URI" subtype="Notice" n="Archives_et_manuscrits">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc43793r</idno>
+                  <idno type="URI" subtype="Data" n="Biblissima">
+https://data.biblissima.fr/entity/Q46033</idno>
+                  <idno type="URI" subtype="Fac-similé">https://gallica.bnf.fr/ark:/12148/btv1b104673329</idno>
+                  <idno type="URI" subtype="Manifeste_IIIF">https://gallica.bnf.fr/ark:/12148/btv1b104673329/manifest.json</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem xml:id="trAveuglesCortebarbe_BnF-12603">
+                     <locus>f. 240vb-242va</locus>
+                     <title>Les trois Aveugles de Compiegne</title>
+                  </msItem>
+                  <msItem xml:id="quSohaisMartin_BnF-12603">
+                     <title>Les quatre souhais saint Martin</title>
+                  </msItem>
+                  <msItem xml:id="Auberee_BnF-12603">
+                     <title>Auberee</title>
+                  </msItem>
+                  <msItem xml:id="CoilleNoire_BnF-12603">
+                     <title>La Couille noire</title>
+                  </msItem>
+                  <msItem xml:id="ContrarieuseMarieDeFrance_BnF-12603">
+                     <title>La contrarieuse</title>
+                  </msItem>
+                  <msItem xml:id="DameEscoillee_BnF-12603">
+                     <title>La dame escoillee</title>
+                  </msItem>
+                  <msItem xml:id="FemmeCunquieBaron_BnF-12603">
+                     <locus>f. 301va-301vb</locus>
+                     <title>La femme qui cunquie son baron</title>
+                  </msItem>
+                  <msItem xml:id="FemmePendreMarieDeFrance_BnF-12603">
+                     <title>La femme qui fist pendre son mari</title>
+                  </msItem>
+                  <msItem xml:id="Grue1_BnF-12603">
+                     <title>La Damoisele a la grue I</title>
+                  </msItem>
+                  <msItem xml:id="MaleHonte2HuonDeCambrai_BnF-12603">
+                     <title>La Male Honte II</title>
+                  </msItem>
+                  <msItem xml:id="PrestreAbevete_BnF-12603">
+                     <locus>f. 240rb-240va</locus>
+                     <title>Le prestre ki abevete</title>
+                  </msItem>
+                  <msItem xml:id="PrestreChevalierMillesAmiens_BnF-12603">
+                     <title>Le Prestre et le chevalier</title>
+                  </msItem>
+                  <msItem xml:id="PrestrePorte_BnF-12603">
+                     <title>Le Prestre qu'on porte</title>
+                  </msItem>
+                  <msItem xml:id="ValletMalaise_BnF-12603">
+                     <title>Le Vallet qui d'aise a malaise se met</title>
+                  </msItem>
+                  <msItem xml:id="VilainBailluelBodel_BnF-12603">
+                     <title>Le Vilain de Bailluel</title>
+                  </msItem>
+                  <msItem xml:id="VilainFameDru_BnF-12603">
+                     <title>Le Vilain qui od sa fame vit aller son dru</title>
+                  </msItem>
+                  <msItem xml:id="VilainFelunesse_BnF-12603">
+                     <title>Le Vilain et la femme felunesse</title>
+                  </msItem>
+                  <msItem xml:id="VilainFolet_BnF-12603">
+                     <title>Le Vilain et le folet</title>
+                  </msItem>
+                  <msItem xml:id="VilainHomeFeme_BnF-12603">
+                     <title>Le Vilain qui vit un autre home od sa feme</title>
+                  </msItem>
+                  <msItem xml:id="W_BnF-12603">
+                     <locus>f. 256ra</locus>
+                     <title>W (Wautier)</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin notBefore="1280-01-01" notAfter="1320-12-31">
+                     <p>fin 13e- début du 14e s.</p>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <title type="main" xml:lang="fro">La femme qui cunquie son baron</title>
+            <title type="alt">La femme humiliant son époux
+            </title>
+            <date notBefore="1233-01-01" notAfter="1267-12-31" when="1250-07-02">milieu 13e s.</date>
+            <region type="dialecte_oeuvre">Non défini</region>
+            <idno type="INV" subtype="Bedier">62</idno>
+            <idno type="INV" subtype="Nykrog">67</idno>
+            <idno type="INV" subtype="Jodogne">67</idno>
+            <idno type="INV" subtype="NRCF">104</idno>
+            <idno type="URI" n="Jonas">https://jonas.irht.cnrs.fr/oeuvre/8936</idno>
+            <idno type="URI" n="Arlima">https://www.arlima.net/eh/femme_qui_cunquie_sen_baron.html</idno>
+         </creation>
+         <langUsage>
+            <language ident="fro"/>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.bfm-corpus.org">
+               <term type="domaine">littérature</term>
+               <term type="genre" cert="medium">Fabliau</term>
+               <term type="forme">vers</term>
+               <term type="relation">non renseigné</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#cpierreville" when="2024-04-22T14:00:15" n="v2.0">Utilisation du fichier FemmeCunquieBaron[BnF 12603]v2.0.docx</change>
+         <change who="#bot" when="2024-04-23" n="v2.0">Transformation avec Oxgarage du fichier FemmeCunquieBaron[BnF 12603]2.0.docx</change>
+         <change who="#blaid" when="2024-05-17T08:39:55" n="v2.0">Utilisation du fichier FemmeCunquieBaron[BnF 12603]v2.0 relecture BL.docx</change>
+         <change who="#cpierreville" when="2024-06-10T09:33:57" n="v2.1">Utilisation du fichier FemmeCunquieBaron[BnF 12603]v2.1.docx</change>
+         <change who="#bot" when="2024-06-10" n="v2.1">Transformation avec Oxgarage du fichier FemmeCunquieBaron[BnF 12603]2.1.docx</change>
+         <change who="#cpierreville" when="2024-06-10T12:10:56" n="v1.0">Utilisation du fichier FemmeCunquieBaron[BnF 12603]trad-v1.0.docx</change>
+         <change who="#cpierreville" when="2024-06-10T12:11:31" n="v2.2">Utilisation du fichier FemmeCunquieBaron[BnF 12603]v2.2.docx</change>
+         <change who="#bot" when="2024-06-10" n="v2.2">Transformation avec Oxgarage du fichier FemmeCunquieBaron[BnF 12603]2.2.docx</change>
+         <change who="#bot" when="2024-06-10" n="v1.0">Transformation avec Oxgarage du fichier FemmeCunquieBaron[BnF 12603]1.0.docx</change>
+         <change who="#cpierreville" when="2024-06-20T05:47:46" n="v2.3">Utilisation du fichier FemmeCunquieBaron[BnF 12603]v2.3.docx</change>
+         <change who="#bot" when="2024-06-20" n="v2.3">Transformation avec Oxgarage du fichier FemmeCunquieBaron[BnF 12603]2.3.docx</change>
+         <change who="#cpierreville" when="2024-06-23T11:37:05" n="v2.4">Utilisation du fichier FemmeCunquieBaron[BnF 12603]v2.4.docx</change>
+         <change who="#bot" when="2024-06-23" n="v2.4">Transformation avec Oxgarage du fichier FemmeCunquieBaron[BnF 12603]2.4.docx</change>
+      </revisionDesc>
+   </teiHeader>
+   <text source="FemmeCunquieBaron_BnF-12603">
+      <body>
+         <pb n="301v"
+              xml:id="pb_1"
+              facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b104673329/f614/full/pct:50/0/native.jpg"/>
+         <cb n="301va"/>
+         <div>
+            <head>
+               <w xml:id="w_FemmeCunquieBaron_BnF12603_1">De</w>
+               <w xml:id="w_FemmeCunquieBaron_BnF12603_2">le</w>
+               <w xml:id="w_FemmeCunquieBaron_BnF12603_3">fe<ex>m</ex>me</w>
+               <w xml:id="w_FemmeCunquieBaron_BnF12603_4">qui</w>
+               <w xml:id="w_FemmeCunquieBaron_BnF12603_5">cunq<ex>ui</ex>e</w>
+               <w xml:id="w_FemmeCunquieBaron_BnF12603_6">sen</w>
+               <w xml:id="w_FemmeCunquieBaron_BnF12603_7">baron</w>
+            </head>
+            <lb/>
+            <lg>
+               <l n="1">
+                  <lb n="1"/>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_8" join="right" ana="#aggl-cert_low"><choice><orig><g type="initiale" rend="size(2) sizeAct(2) color(red)">I</g></orig><reg><g type="initiale" rend="size(2) sizeAct(2) color(red)">J</g></reg></choice>e</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_9">vous</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_10">dirai</w>
+                  <pc xml:id="w_FemmeCunquieBaron_BnF12603_11">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_12">s’</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_13">il</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_14">vo<ex>us</ex></w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_15">siet</w>
+                  <note type="philologique">
+                     <p rend="footnote text">Vers hypométrique. Le NRCF corrige en <hi rend="italic">se il vous siet</hi>.</p>
+                  </note>
+                  <pc xml:id="w_FemmeCunquieBaron_BnF12603_16">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="2">
+                  <lb n="2"/>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_17"><choice><orig>D</orig><reg>d</reg></choice>’</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_18">un</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_19">castiel</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_20">q<ex>ui</ex></w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_21">sor</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_22">le</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_23">m<ex>er</ex></w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_24">siet</w>
+                  <pc xml:id="w_FemmeCunquieBaron_BnF12603_25">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="3">
+                  <lb n="3"/>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_26"><choice><orig>Q</orig><reg>q</reg></choice><ex>u</ex>’</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_27"><ex>i</ex>l</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_28">i<surplus>i</surplus></w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_29">a<choice><orig>u</orig><reg>v</reg></choice>int</w>
+                  <pc xml:id="w_FemmeCunquieBaron_BnF12603_30">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_31">n’</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_32">a</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_33">pas</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_34">lonc</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_35">tans</w>
+                  <pc xml:id="w_FemmeCunquieBaron_BnF12603_36">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="4">
+                  <lb n="4"/>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_37"><choice><orig>I</orig><reg>J</reg></choice>a</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_38">fu</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_39">ensi</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_40">c’</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_41">uns</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_42">païssians</w>
+               </l>
+               <l n="5">
+                  <lb n="5"/>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_43" join="right"><choice><orig>E</orig><reg>e</reg></choice>n</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_44">cele</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_45">ville</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_46">fe<ex>m</ex>me</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_47">prist</w>
+               </l>
+               <l n="6">
+                  <lb n="6"/>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_48"><choice><orig>B</orig><reg>b</reg></choice>iele</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_49"><ex>et</ex></w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_50">gente</w>
+                  <pc xml:id="w_FemmeCunquieBaron_BnF12603_51">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_52">mais</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_53">tant</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_54">mesp<ex>ri</ex>st</w>
+               </l>
+               <l n="7">
+                  <lb n="7"/>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_55"><choice><orig>Q</orig><reg>q</reg></choice><ex>u</ex>’</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_56"><ex>e</ex>lẹ</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_57">fu</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_58">trop</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_59"><choice><orig>i</orig><reg>j</reg></choice>o<choice><orig>u</orig><reg>v</reg></choice>ene</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_60" join="right">a</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_61">son</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_62">oeus</w>
+                  <pc xml:id="w_FemmeCunquieBaron_BnF12603_63">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="8">
+                  <lb n="8"/>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_64">Elle</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_65">nel</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_66">p<ex>ri</ex>sa</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_67">pas</w>
+                  <num>
+                     <w xml:id="w_FemmeCunquieBaron_BnF12603_68">.i<choice><orig>j</orig><reg>i</reg></choice>.</w>
+                  </num>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_69">oeus</w>
+                  <pc xml:id="w_FemmeCunquieBaron_BnF12603_70">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="9">
+                  <lb n="9"/>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_71">Elle</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_72">le</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_73">vit</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_74"><ex>et</ex></w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_75">noir</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_76" join="right"><ex>et</ex></w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_77">lait</w>
+                  <pc xml:id="w_FemmeCunquieBaron_BnF12603_78">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="10">
+                  <lb n="10"/>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_79"><ex>et</ex></w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_80" join="right">li</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_81">vilains</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_82"><ex>et</ex></w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_83">honte</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_84"><ex>et</ex></w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_85">lait</w>
+               </l>
+               <l n="11">
+                  <lb n="11"/>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_86" join="right"><choice><orig>L</orig><reg>l</reg></choice>i</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_87">refaisoit</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_88" join="right"><ex>et</ex></w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_89">rebatoit</w>
+               </l>
+               <l n="12">
+                  <lb n="12"/>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_90"><ex>com</ex></w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_91">cil</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_92" join="right" ana="#aggl-cert_low">q<ex>ui</ex></w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_93"><choice><orig>i</orig><reg>j</reg></choice>alous</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_94" join="right" ana="#aggl-cert_low">en</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_95">estoit</w>
+                  <pc xml:id="w_FemmeCunquieBaron_BnF12603_96">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="13">
+                  <lb n="13"/>
+                  <num>
+                     <w xml:id="w_FemmeCunquieBaron_BnF12603_97">.I.</w>
+                  </num>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_98">an</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_99">fu</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_100">celle</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_101" join="right">en</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_102">cel</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_103">mesaise</w>
+               </l>
+               <l n="14">
+                  <lb n="14"/>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_104"><choice><orig>Q</orig><reg>q</reg></choice><ex>u</ex>’</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_105"><ex>e</ex>lẹ</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_106">n’</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_107" join="right">i</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_108"><choice><orig>u</orig><reg>v</reg></choice>oit</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_109">cose</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_110">q<ex>ui</ex><surplus>l</surplus></w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_111">li</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_112">plaise</w>
+                  <pc xml:id="w_FemmeCunquieBaron_BnF12603_113">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="15">
+                  <lb n="15"/>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_114"><choice><orig>T</orig><reg>t</reg></choice>ant</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_115">c’</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_116">uns</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_117">bia<ex>us</ex></w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_118">vallés</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_119">li</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_120">proia</w>
+               </l>
+               <l n="16">
+                  <lb n="16"/>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_121"><ex>et</ex></w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_122">celle</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_123">tout</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_124">li</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_125">otroia</w>
+               </l>
+               <l n="17">
+                  <lb n="17"/>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_126"><choice><orig>Q</orig><reg>q</reg></choice><ex>ua</ex>nq<ex>u</ex>’</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_127"><ex>i</ex>l</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_128">requist</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_129">m<ex>o</ex>lt</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_130">volentiers</w>
+                  <pc xml:id="w_FemmeCunquieBaron_BnF12603_131">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="18">
+                  <lb n="18"/>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_132">Ne</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_133">passa</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_134">pas</w>
+                  <num>
+                     <w xml:id="w_FemmeCunquieBaron_BnF12603_135">.ii.</w>
+                  </num>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_136">mois</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_137">entiers</w>
+               </l>
+               <l n="19">
+                  <lb n="19"/>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_138">c’</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_139">un</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_140"><choice><orig>i</orig><reg>j</reg></choice>our</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_141">vint</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_142" join="right" ana="#aggl-cert_low">cil</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_143">veoir</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_144">s’</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_145">amie</w>
+               </l>
+               <l n="20">
+                  <lb n="20"/>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_146"><choice><orig>C</orig><reg>c</reg></choice>ar</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_147">li</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_148">vilains</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_149">n’</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_150">i</w>
+                  <note type="philologique">
+                     <p rend="footnote text">
+                        <hi rend="italic">n’i</hi> est quasiment effacé.</p>
+                  </note>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_151">estoit</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_152">mie</w>
+                  <pc xml:id="w_FemmeCunquieBaron_BnF12603_153">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="21">
+                  <lb n="21"/>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_154" join="right" ana="#aggl-cert_low"><choice><orig>S</orig><reg>s</reg></choice>i</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_155">acolerent</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_156"><ex>et</ex></w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_157">baisierent</w>
+                  <note type="philologique">
+                     <p rend="footnote text">
+                        <hi rend="italic">baisierent</hi> est quasiment effacé.</p>
+                  </note>
+                  <pc xml:id="w_FemmeCunquieBaron_BnF12603_158">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="22">
+                  <lb n="22"/>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_159"><ex>et</ex></w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_160">sachiés</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_161">q<ex>u</ex>’</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_162"><ex>i</ex>l</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_163">s’</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_164">entralïerent</w>
+               </l>
+               <l n="23">
+                  <lb n="23"/>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_165" join="right"><choice><orig>D</orig><reg>d</reg></choice>e</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_166">fairë</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_167">entr’</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_168">aus</w>
+                  <num>
+                     <w xml:id="w_FemmeCunquieBaron_BnF12603_169">.ii.</w>
+                  </num>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_170">ensamble</w>
+               </l>
+               <l n="24">
+                  <lb n="24"/>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_171"><choice><orig>C</orig><reg>c</reg></choice>he</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_172" join="right" ana="#aggl-cert_low">p<ex>ou</ex>r</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_173">quoi</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_174">hons</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_175"><ex>et</ex></w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_176">fe<ex>m</ex>me</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_177">asanle</w>
+                  <pc xml:id="w_FemmeCunquieBaron_BnF12603_178">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="25">
+                  <lb n="25"/>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_179" join="right" ana="#aggl-cert_low">Ensi</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_180">sont</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_181">dusq<ex>uẹ</ex>s</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_182" join="right">a</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_183">eure</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_184">basse</w>
+                  <pc xml:id="w_FemmeCunquieBaron_BnF12603_185">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="26">
+                  <lb n="26"/>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_186"><ex>et</ex></w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_187">celle</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_188" join="right">a</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_189">dit</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_190" join="right">a</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_191">sa</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_192">baiesse</w>
+                  <note type="philologique">
+                     <p rend="footnote text">Le NRCF corrige en <hi rend="italic">baiasse</hi> pour la rime.</p>
+                  </note>
+               </l>
+               <l n="27">
+                  <lb n="27"/>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_193"><choice><orig>Q</orig><reg>q</reg></choice><ex>ue</ex></w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_194">tres</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_195">bien</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_196">garde</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_197">se</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_198">p<ex>re</ex>sist</w>
+                  <note type="philologique">
+                     <p rend="footnote text">Le signe d’abréviation sur le <hi rend="italic">p</hi> est quasi illisible.</p>
+                  </note>
+               </l>
+               <l n="28">
+                  <lb n="28"/>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_199"><choice><orig>Q</orig><reg>q</reg></choice><ex>ue</ex></w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_200">ses</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_201">sires</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_202">nes</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_203">sousp<ex>re</ex>sist</w>
+                  <pc xml:id="w_FemmeCunquieBaron_BnF12603_204">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="29">
+                  <lb n="29"/>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_205" join="right" ana="#aggl-cert_low">Ne</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_206">tar<choice><orig>i</orig><reg>j</reg></choice>a</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_207">gaires</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_208">q<ex>ue</ex></w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_209">nuis</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_210">vint</w>
+               </l>
+               <l n="30">
+                  <lb n="30"/>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_211"><ex>et</ex></w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_212">li</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_213">vilains</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_214">droit</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_215" join="right">a</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_216">l’</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_217">uis</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_218">vint</w>
+               </l>
+               <l n="31">
+                  <lb n="31"/>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_219" join="right"><choice><orig>S</orig><reg>s</reg></choice>i</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_220">coiement</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_221" join="right">q<ex>ue</ex></w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_222">nus</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_223">ne</w>
+                  <note type="philologique">
+                     <p rend="footnote text">Le NRCF corrige <hi rend="italic">ne</hi> en <hi rend="italic">nel</hi>.</p>
+                  </note>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_224">sot</w>
+                  <pc xml:id="w_FemmeCunquieBaron_BnF12603_225">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="32">
+                  <lb n="32"/>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_226">Lors</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_227">se</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_228">tint</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_229">li</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_230">vallés</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_231">pour</w>
+                  <note type="philologique">
+                     <p rend="footnote text">
+                        <hi rend="italic">pour</hi> est quasi effacé.</p>
+                  </note>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_232">sot</w>
+               </l>
+               <l n="33">
+                  <lb n="33"/>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_233"><choice><orig>Q</orig><reg>q</reg></choice><ex>ua</ex>nt</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_234">le</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_235">vilain</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_236">oï</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_237">p<ex>ar</ex>ler</w>
+                  <pc xml:id="w_FemmeCunquieBaron_BnF12603_238">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="34">
+                  <lb n="34"/>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_239">Lors</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_240" join="right">ne</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_241">sot</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_242">il</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_243" join="right">q<ex>ue</ex><supplied>l</supplied></w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_244">p<ex>ar</ex>t</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_245">aler</w>
+                  <pc xml:id="w_FemmeCunquieBaron_BnF12603_246">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="35">
+                  <lb n="35"/>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_247" join="right">La</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_248">dame</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_249">est</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_250" join="right">de</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_251">li</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_252">dese<choice><orig>u</orig><reg>v</reg></choice>ree</w>
+                  <pc xml:id="w_FemmeCunquieBaron_BnF12603_253">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="36">
+                  <lb n="36"/>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_254" join="right"><choice><orig>S</orig><reg>s</reg></choice>i</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_255">s’</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_256">en</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_257">est</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_258">ou</w>
+                  <note type="philologique">
+                     <p rend="footnote text">
+                        <hi rend="italic">ou</hi> est quasi effacé.</p>
+                  </note>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_259">celier</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_260">entree</w>
+                  <pc xml:id="w_FemmeCunquieBaron_BnF12603_261">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="37">
+                  <lb n="37"/>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_262">ki</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_263">m<ex>o</ex>lt</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_264">p<ex>re</ex>s</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_265" join="right" ana="#aggl-cert_low">de</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_266">la</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_267" join="right" ana="#aggl-cert_low">cambre</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_268">estoit</w>
+                  <pc xml:id="w_FemmeCunquieBaron_BnF12603_269">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="38">
+                  <lb n="38"/>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_270">Boins</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_271">vins</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_272" join="right">en</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_273">to<ex>n</ex>nia<ex>us</ex></w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_274">i</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_275">a<choice><orig>u</orig><reg>v</reg></choice>oit</w>
+                  <note type="philologique">
+                     <p rend="footnote text">
+                        <hi rend="italic">i avoit</hi> est quasi effacé.</p>
+                  </note>
+               </l>
+               <l n="39">
+                  <lb n="39"/>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_276" join="right"><choice><orig>E</orig><reg>e</reg></choice>l</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_277">celier</w>
+                  <pc xml:id="w_FemmeCunquieBaron_BnF12603_278">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_279"><choice><orig>q</orig><reg>Q</reg></choice><ex>ua</ex>nt</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_280">la</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_281">dame</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_282" join="right">i</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_283">vint</w>
+                  <pc xml:id="w_FemmeCunquieBaron_BnF12603_284">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="40">
+                  <lb n="40"/>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_285"><choice><orig>D</orig><reg>d</reg></choice>’</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_286">un</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_287">m<ex>o</ex>lt</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_288">g<ex>ra</ex>nt</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_289">barat</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_290">il</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_291">sou<choice><orig>u</orig><reg>v</reg></choice>int</w>
+                  <pc xml:id="w_FemmeCunquieBaron_BnF12603_292">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="41">
+                  <lb n="41"/>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_293">Tout</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_294">maintenant</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_295" join="right" ana="#aggl-cert_low">p<ex>ar</ex></w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_296">li</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_297">s’</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_298">espant</w>
+                  <note type="philologique">
+                     <p rend="footnote text">Le couplet d’octosyllabes est incomplet. Il y a sans doute une lacune d’au moins un vers.</p>
+                  </note>
+                  <cb n="301vb"/>
+               </l>
+               <l n="42">
+                  <lb n="42"/>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_299">a</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_300">t<ex>er</ex>e</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_301">boin</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_302">vin</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_303">cler</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_304"><ex>et</ex></w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_305">sain</w>
+                  <pc xml:id="w_FemmeCunquieBaron_BnF12603_306">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="43">
+                  <lb n="43"/>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_307">p<ex>uis</ex></w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_308" join="right">a</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_309">mis</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_310" join="right" ana="#aggl-cert_low">la</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_311">broche</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_312" join="right" ana="#aggl-cert_low">en</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_313">se</w>
+                  <note type="philologique">
+                     <p rend="footnote text">
+                        <hi rend="italic">se</hi> pour <hi rend="italic">sa</hi> est une forme picarde ou wallone (Collet et Greub 5.1e).</p>
+                  </note>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_314">main</w>
+               </l>
+               <l n="44">
+                  <lb n="44"/>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_315">p<ex>our</ex></w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_316" join="right" ana="#aggl-cert_low">le</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_317">vilain</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_318">q<ex>u</ex>’</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_319"><ex>i</ex>l</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_320">ne</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_321">trou<choice><orig>u</orig><reg>v</reg></choice>ast</w>
+                  <note type="philologique">
+                     <p rend="footnote text">Le vers est orphelin. Le NRCF suspecte une lacune d’au moins un vers.</p>
+                  </note>
+                  <pc xml:id="w_FemmeCunquieBaron_BnF12603_322">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="45">
+                  <lb n="45"/>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_323"><ex>et</ex></w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_324">son</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_325">pauchet</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_326">dedens</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_327">fichié</w>
+                  <pc xml:id="w_FemmeCunquieBaron_BnF12603_328">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="46">
+                  <lb n="46"/>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_329">p<ex>uis</ex></w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_330" join="right">a</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_331" join="right">a</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_332">haute</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_333">vois</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_334">huchié</w>
+                  <pc xml:id="w_FemmeCunquieBaron_BnF12603_335">
+                     <choice>
+                        <orig/>
+                        <reg>:</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="47">
+                  <lb n="47"/>
+                  <pc xml:id="w_FemmeCunquieBaron_BnF12603_336">
+                     <choice>
+                        <orig/>
+                        <reg>«</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_337">Aidiés</w>
+                  <pc xml:id="w_FemmeCunquieBaron_BnF12603_338">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_339">aidiés</w>
+                  <pc xml:id="w_FemmeCunquieBaron_BnF12603_340">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_341"><choice><orig>l</orig><reg>L</reg></choice>i</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_342">vins</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_343">s’</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_344" join="right">en</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_345">court</w>
+                  <pc xml:id="w_FemmeCunquieBaron_BnF12603_346">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+                  <pc xml:id="w_FemmeCunquieBaron_BnF12603_347">
+                     <choice>
+                        <orig/>
+                        <reg>»</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="48">
+                  <lb n="48"/>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_348">A<space type="degl-fgmt"/></w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_349">tant</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_350" join="right" ana="#aggl-cert_low">li</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_351">vilains</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_352" join="right">i</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_353">acourt</w>
+                  <pc xml:id="w_FemmeCunquieBaron_BnF12603_354">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="49">
+                  <lb n="49"/>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_355"><choice><orig>Q</orig><reg>q</reg></choice><ex>ui</ex></w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_356">demande</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_357">q<ex>ue</ex></w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_358">ce</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_359">puet</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_360">estre</w>
+                  <pc xml:id="w_FemmeCunquieBaron_BnF12603_361">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="50">
+                  <lb n="50"/>
+                  <pc xml:id="w_FemmeCunquieBaron_BnF12603_362">
+                     <choice>
+                        <orig/>
+                        <reg>«</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_363">Sire</w>
+                  <pc xml:id="w_FemmeCunquieBaron_BnF12603_364">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_365">bien</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_366">dois</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_367">courchiés</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_368">estre</w>
+                  <note type="philologique">
+                     <p rend="footnote text">Vers hypométrique.</p>
+                  </note>
+                  <pc xml:id="w_FemmeCunquieBaron_BnF12603_369">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="51">
+                  <lb n="51"/>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_370">fait</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_371" join="right">la</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_372">dame</w>
+                  <pc xml:id="w_FemmeCunquieBaron_BnF12603_373">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_374">de</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_375"><choice><orig>u</orig><reg>v</reg></choice><ex>ost</ex>re</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_376">truie</w>
+                  <pc xml:id="w_FemmeCunquieBaron_BnF12603_377">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="52">
+                  <lb n="52"/>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_378">Q<ex>ue</ex></w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_379"><choice><orig>d</orig><reg>D</reg></choice>ix</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_380" join="right">le</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_381">maudie</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_382" join="right" ana="#aggl-cert_low"><ex>et</ex></w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_383">destruie</w>
+                  <pc xml:id="w_FemmeCunquieBaron_BnF12603_384">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="53">
+                  <lb n="53"/>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_385"><choice><orig>p</orig><reg>P</reg></choice><ex>ar</ex></w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_386">li</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_387">a<choice><orig>u</orig><reg>v</reg></choice>ons</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_388">eü</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_389">damage</w>
+                  <pc xml:id="w_FemmeCunquieBaron_BnF12603_390">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="54">
+                  <lb n="54"/>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_391"><choice><orig>I</orig><reg>J</reg></choice>e</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_392">ne</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_393">vo<ex>us</ex></w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_394">tieng</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_395">mie</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_396" join="right">p<ex>our</ex></w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_397">sage</w>
+               </l>
+               <l n="55">
+                  <lb n="55"/>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_398"><choice><orig>Q</orig><reg>q</reg></choice><ex>ua</ex>nt</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_399">vo<ex>us</ex></w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_400">a<choice><orig>u</orig><reg>v</reg></choice>és</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_401">tel</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_402">noureture</w>
+                  <pc xml:id="w_FemmeCunquieBaron_BnF12603_403">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="56">
+                  <lb n="56"/>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_404"><choice><orig>v</orig><reg>V</reg></choice>o<ex>us</ex></w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_405">n’</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_406">a<choice><orig>u</orig><reg>v</reg></choice>és</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_407" join="right" ana="#aggl-cert_low">de</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_408">v<ex>ost</ex>re</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_409">b<ex>ie</ex>n</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_410">cure</w>
+                  <pc xml:id="w_FemmeCunquieBaron_BnF12603_411">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="57">
+                  <lb n="57"/>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_412">Mais</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_413"><choice><orig>i</orig><reg>j</reg></choice>ẹ</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_414" join="right">i</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_415">sui</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_416" join="right">a</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_417">boin</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_418">point</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_419">venue</w>
+                  <pc xml:id="w_FemmeCunquieBaron_BnF12603_420">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="58">
+                  <lb n="58"/>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_421"><choice><orig>S</orig><reg>s</reg></choice>’</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_422" join="right">ai</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_423">fait</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_424" join="right"><ex>com</ex></w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_425">bien</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_426">ap<ex>er</ex>cheüe</w>
+                  <pc xml:id="w_FemmeCunquieBaron_BnF12603_427">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="59">
+                  <lb n="59"/>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_428"><choice><orig>C</orig><reg>c</reg></choice>ar</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_429" join="right">a</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_430"><choice><orig>d</orig><reg>D</reg></choice>iu</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_431">plot</w>
+                  <pc xml:id="w_FemmeCunquieBaron_BnF12603_432">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_433">soie</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_434">m<ex>er</ex>chi</w>
+                  <pc xml:id="w_FemmeCunquieBaron_BnF12603_435">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="60">
+                  <lb n="60"/>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_436"><choice><orig>v</orig><reg>V</reg></choice>enés</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_437">a<choice><orig>u</orig><reg>v</reg></choice>ant</w>
+                  <pc xml:id="w_FemmeCunquieBaron_BnF12603_438">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_439">si</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_440">boutés</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_441">chi</w>
+               </l>
+               <l n="61">
+                  <lb n="61"/>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_442">vostre</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_443">pauchet</w>
+                  <pc xml:id="w_FemmeCunquieBaron_BnF12603_444">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_445" join="right">q<ex>ui</ex></w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_446">est</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_447">plus</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_448">gros</w>
+                  <pc xml:id="w_FemmeCunquieBaron_BnF12603_449">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="62">
+                  <lb n="62"/>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_450"><choice><orig>C</orig><reg>c</reg></choice>ar</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_451" join="right">de</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_452">chi</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_453">remuer</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_454">ne</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_455">m’</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_456">os</w>
+                  <pc xml:id="w_FemmeCunquieBaron_BnF12603_457">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="63">
+                  <lb n="63"/>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_458"><ex>et</ex></w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_459"><choice><orig>i</orig><reg>j</reg></choice>e</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_460">q<ex>ue</ex>rrai</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_461" join="right">la</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_462">broque</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_463">la</w>
+               </l>
+               <l n="64">
+                  <lb n="64"/>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_464"><choice><orig>O</orig><reg>o</reg></choice>u</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_465" join="right" ana="#aggl-cert_low"><choice><orig>i</orig><reg>j</reg></choice>e</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_466">vi</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_467" join="right" ana="#aggl-cert_low">q<ex>ue</ex></w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_468">la</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_469">truie</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_470">ala</w>
+                  <pc xml:id="w_FemmeCunquieBaron_BnF12603_471">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+                  <pc xml:id="w_FemmeCunquieBaron_BnF12603_472">
+                     <choice>
+                        <orig/>
+                        <reg>»</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="65">
+                  <lb n="65"/>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_473">Lors</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_474">vint</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_475">a<choice><orig>u</orig><reg>v</reg></choice>ant</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_476">li</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_477">païsans</w>
+                  <pc xml:id="w_FemmeCunquieBaron_BnF12603_478">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="66">
+                  <lb n="66"/>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_479">L’</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_480">un</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_481" join="right">de</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_482">ses</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_483">pauchiers</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_484" join="right">a</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_485">mis</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_486">ens</w>
+               </l>
+               <l n="67">
+                  <lb n="67"/>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_487"><ex>et</ex></w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_488">cele</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_489">en</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_490">a</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_491" join="right">le</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_492">sien</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_493">sachié</w>
+                  <pc xml:id="w_FemmeCunquieBaron_BnF12603_494">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="68">
+                  <lb n="68"/>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_495">Bien</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_496">a</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_497">le</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_498">vilain</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_499">atachié</w>
+               </l>
+               <l n="69">
+                  <lb n="69"/>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_500" join="right" ana="#aggl-cert_low"><choice><orig>L</orig><reg>l</reg></choice>a</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_501">dame</w>
+                  <pc xml:id="w_FemmeCunquieBaron_BnF12603_502">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_503"><ex>et</ex></w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_504" join="right">a</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_505">tout</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_506" join="right">son</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_507">plaisir</w>
+               </l>
+               <l n="70">
+                  <lb n="70"/>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_508">puet</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_509">elle</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_510">bien</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_511">a<choice><orig>u</orig><reg>v</reg></choice>oir</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_512">loissir</w>
+               </l>
+               <l n="71">
+                  <lb n="71"/>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_513"><choice><orig>D</orig><reg>d</reg></choice>e</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_514">son</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_515">ami</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_516">metre</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_517" join="right">a</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_518" join="right">la</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_519"><choice><orig>u</orig><reg>v</reg></choice>oie</w>
+                  <pc xml:id="w_FemmeCunquieBaron_BnF12603_520">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="72">
+                  <lb n="72"/>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_521">Lors</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_522">vint</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_523" join="right">a</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_524">li</w>
+                  <pc xml:id="w_FemmeCunquieBaron_BnF12603_525">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_526" join="right">si</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_527">l’</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_528">en</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_529">en<choice><orig>u</orig><reg>v</reg></choice>oie</w>
+                  <pc xml:id="w_FemmeCunquieBaron_BnF12603_530">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="73">
+                  <lb n="73"/>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_531"><choice><orig>M</orig><reg>m</reg></choice>ais</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_532">ains</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_533" join="right">se</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_534">sont</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_535">entre<space type="degl"/>baisié</w>
+               </l>
+               <l n="74">
+                  <lb n="74"/>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_536"><choice><orig>C</orig><reg>c</reg></choice>ar</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_537">bien</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_538" join="right" ana="#aggl-cert_low">en</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_539">furent</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_540">aasié</w>
+                  <pc xml:id="w_FemmeCunquieBaron_BnF12603_541">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="75">
+                  <lb n="75"/>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_542"><ex>et</ex></w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_543">bien</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_544">porrent</w>
+                  <pc xml:id="w_FemmeCunquieBaron_BnF12603_545">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_546">si</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_547"><ex>com</ex></w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_548">moi</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_549">samble</w>
+                  <pc xml:id="w_FemmeCunquieBaron_BnF12603_550">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="76">
+                  <lb n="76"/>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_551"><choice><orig>L</orig><reg>l</reg></choice>ongement</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_552">demourer</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_553">ensamble</w>
+               </l>
+               <l n="77">
+                  <lb n="77"/>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_554"><choice><orig>S</orig><reg>s</reg></choice>ans</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_555">paour</w>
+                  <pc xml:id="w_FemmeCunquieBaron_BnF12603_556">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_557">q<ex>u</ex>’</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_558"><ex>i</ex>l</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_559">n’</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_560">ont</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_561">nulle</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_562">garde</w>
+               </l>
+               <l n="78">
+                  <lb n="78"/>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_563" join="right" ana="#aggl-cert_low"><choice><orig>D</orig><reg>d</reg></choice>u</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_564">païsant</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_565">q<ex>ui</ex></w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_566">son</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_567">vin</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_568">garde</w>
+                  <pc xml:id="w_FemmeCunquieBaron_BnF12603_569">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="79">
+                  <lb n="79"/>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_570"><choice><orig>Q</orig><reg>q</reg></choice><ex>ui</ex></w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_571">est</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_572">sains</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_573"><ex>et</ex></w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_574">clers</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_575" join="right"><ex>et</ex></w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_576">deliés</w>
+                  <pc xml:id="w_FemmeCunquieBaron_BnF12603_577">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="80">
+                  <lb n="80"/>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_578">Ne</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_579">fust</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_580">mie</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_581" join="right">si</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_582">bien</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_583">loiiés</w>
+               </l>
+               <l n="81">
+                  <lb n="81"/>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_584" join="right" ana="#aggl-cert_low"><choice><orig>L</orig><reg>l</reg></choice>i</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_585">vilains</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_586">s’</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_587">il</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_588">fust</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_589">en</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_590">aniaus</w>
+                  <pc xml:id="w_FemmeCunquieBaron_BnF12603_591">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="82">
+                  <lb n="82"/>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_592"><choice><orig>I</orig><reg>J</reg></choice>amais</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_593" join="right" ana="#aggl-cert_low">p<ex>or</ex></w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_594">li</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_595">n’</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_596" join="right" ana="#aggl-cert_low">ert</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_597">li</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_598">to<ex>n</ex>niaus</w>
+               </l>
+               <l n="83">
+                  <lb n="83"/>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_599"><choice><orig>G</orig><reg>g</reg></choice>uerpis</w>
+                  <pc xml:id="w_FemmeCunquieBaron_BnF12603_600">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_601">se</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_602" join="right" ana="#aggl-cert_low">la</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_603">broce</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_604">ne</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_605">voit</w>
+               </l>
+               <l n="84">
+                  <lb n="84"/>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_606" join="right"><choice><orig>E</orig><reg>e</reg></choice>l</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_607">p<ex>er</ex>tuis</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_608" join="right" ana="#aggl-cert_low">ou</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_609">son</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_610">pauch</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_611">a<choice><orig>u</orig><reg>v</reg></choice>oit</w>
+                  <pc xml:id="w_FemmeCunquieBaron_BnF12603_612">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="85">
+                  <lb n="85"/>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_613"><ex>et</ex></w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_614" join="right">si</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_615">q<ex>ui</ex>de</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_616">dire</w>
+                  <w xml:id="w_FemmeCunquieBaron_BnF12603_617">oraison</w>
+                  <note type="philologique">
+                     <p rend="footnote text">Le couplet d’octosyllabes incomplet montre que le texte est amputé de la fin.</p>
+                  </note>
+                  <pc xml:id="w_FemmeCunquieBaron_BnF12603_618">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+                  <pc xml:id="w_FemmeCunquieBaron_BnF12603_619">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+                  <pc xml:id="w_FemmeCunquieBaron_BnF12603_620">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+            </lg>
+         </div>
+      </body>
+   </text>
+</TEI>

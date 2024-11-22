@@ -1,0 +1,1876 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="fro">Les deus escuiers de Bregoigne</title>
+            <author>Anonyme</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2023</date>
+            </edition>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="acorbellari">Alain Corbellari</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="alavrent">Alexei Lavrentiev</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="apinche">Ariane Pinche</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="blaid">Baptiste Laïd</name>
+            </respStmt>
+            <respStmt>
+               <resp>robot</resp>
+               <name xml:id="bot">bot bot</name>
+            </respStmt>
+            <respStmt>
+               <resp>relecteur</resp>
+               <resp>membre</resp>
+               <name xml:id="cguillot">Céline Guillot-Barbance</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="clachet">Claude Lachet</name>
+            </respStmt>
+            <respStmt>
+               <resp>editeur</resp>
+               <resp>traducteur</resp>
+               <resp>chef de projet</resp>
+               <name xml:id="cpierreville">Corinne Pierreville</name>
+            </respStmt>
+            <respStmt>
+               <resp>relecteur-traduction</resp>
+               <resp>membre</resp>
+               <name xml:id="ggruber">Gauthier Grüber</name>
+            </respStmt>
+            <respStmt>
+               <resp>ingénieur</resp>
+               <name xml:id="jnuguet">Jules Nuguet</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="ngarnier">Nicolas Garnier</name>
+            </respStmt>
+            <respStmt>
+               <resp>Relecteur traduction</resp>
+               <name xml:id="rbellon">Roger Bellon</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="rtrachsler">Richard Trachsler</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="veugene">Valentine Eugène</name>
+            </respStmt>
+            <respStmt>
+               <resp>ingénieur</resp>
+               <name xml:id="myamagata">Moe Yamagata</name>
+            </respStmt>
+            <respStmt>
+               <resp/>
+               <name xml:id="jdocks">Justine DOCKS</name>
+            </respStmt>
+            <respStmt>
+               <resp>editeur</resp>
+               <resp>relecteur</resp>
+               <resp>traducteur</resp>
+               <resp>relecteur-traduction</resp>
+               <resp/>
+               <name> </name>
+            </respStmt>
+         </editionStmt>
+         <extent>
+            <num xml:id="nb_tokens_given">804</num>
+            <num xml:id="nb_mots_given">713</num>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <name>ENS de Lyon / UMR 5317 IHRIM, Base de français médiéval, projet Fabliaux</name>
+            </publisher>
+            <address>
+               <addrLine>15, parvis René Descartes</addrLine>
+               <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+               <addrLine>Tél : 04 37 37 63 10</addrLine>
+               <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+               <addrLine>http://bfm.ens-lyon.fr</addrLine>
+            </address>
+            <idno type="bfm">http://catalog.bfm-corpus.org/fabliaux/EscuiersBregoigne_BnF-1630</idno>
+            <idno type="doi">10.34847/nkl.a37220c6</idno>
+            <availability status="free">
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <ab type="availability_bfm">Les Conditions générales d'utilisation de la Base de Français Médiéval (http://txm.bfm-corpus.org/bfm/files/CGU.pdf), 
+                        et notamment son Article 5 « PROPRIETE INTELLECTUELLE », s'appliquent à tous les textes de la BFM.</ab>
+                  <ab type="how_to_cite">
+                     <label>Comment citer ce texte :</label>
+                     <bibl>Les deus escuiers de Bregoigne, édité par Corinne Pierreville en collaboration avec Céline Guillot-Barbance. Publié en ligne par l’ENS de Lyon dans la Base de français médiéval, 
+2023, http://catalog.bfm-corpus.org/fabliaux/EscuiersBregoigne_BnF-1630.</bibl>
+                        D'autres formules de citation de la BFM sont proposées sur la page web suivante :
+                        http://bfm.ens-lyon.fr/spip.php?article281.</ab>
+                  <ab type="availability_file">
+                     <label>Conditions d'utilisation de ce fichier :</label>
+                        Ce fichier numérique est composé du corps de texte médiéval (restauré par son ou ses éditeur(s) scientifique(s)), des apparats critiques (introductions, notes, glossaires, explications, du texte d'origine (ou des enrichissements) qui ont été réalisés dans le cadre de la restauration des textes par les Editeurs Scientifiques) et des suppléments numériques : balisage XML-TEI, métadonnées (teiHeader), balisage du discours direct, étiquetage morpho-syntaxique, lemmatisation. Le texte et les suppléments numériques sont libres de droit et peuvent à ce titre être téléchargés et réutilisés librement. Les apparats critiques sont soumis à une licence de type CC BY-NC-SA 3.0 FR  http://creativecommons.org/licenses/by-nc-sa/3.0/fr. Les Utilisateurs s’engagent à respecter les termes de cette licence. 
+                    </ab>
+                  <ab type="availability_txmweb" subtype="illimité">
+                     <label>Conditions d'utilisation par le portail BFM :</label>
+                        Pas de limitation dans l'usage des fonctionnalités. Téléchargement autorisé.</ab>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="main" xml:id="BnF-1630">
+               <msIdentifier>
+                  <settlement>Paris</settlement>
+                  <repository>Bibliothèque nationale de France</repository>
+                  <idno>français 1630</idno>
+                  <idno type="URI" subtype="Notice" n="Arlima">https://www.arlima.net/mss/france/paris/bibliotheque_nationale_de_france/francais/1630.html</idno>
+                  <idno type="URI" subtype="Notice" n="Jonas">https://jonas.irht.cnrs.fr/manuscrit/78697</idno>
+                  <idno type="URI" subtype="Notice" n="Archives_et_manuscrits">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc463337</idno>
+                  <idno type="URI" subtype="Data" n="Biblissima">
+https://data.biblissima.fr/entity/Q47340</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem xml:id="DameChastiee_BnF-1630">
+                     <locus>f. 069rb-069va</locus>
+                     <title>La dame chastiee</title>
+                  </msItem>
+                  <msItem xml:id="EscuiersBregoigne_BnF-1630">
+                     <locus>f. 066rb-067ra</locus>
+                     <title>Les deus escuiers de Bregoigne</title>
+                  </msItem>
+                  <msItem xml:id="LaidChevalier_BnF-1630">
+                     <locus>f. 067vb-068ra</locus>
+                     <title>Le laid Chevalier</title>
+                  </msItem>
+                  <msItem xml:id="MarcheantAsne_BnF-1630">
+                     <locus>f. 157rb-158ra</locus>
+                     <title>Le marcheant et son asne</title>
+                  </msItem>
+                  <msItem xml:id="MellinMellot_BnF-1630">
+                     <locus>f. 063va-063vb</locus>
+                     <title>Mellin Mellot</title>
+                  </msItem>
+                  <msItem xml:id="Nonete2_BnF-1630">
+                     <locus>f. 054ra-054rb</locus>
+                     <title>La nonete II</title>
+                  </msItem>
+                  <msItem xml:id="RoiRibaud_BnF-1630">
+                     <locus>f. 053rb-053va</locus>
+                     <title>Le Roi et le ribaud</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin notBefore="1300-01-01" notAfter="1399-12-31">
+                     <p>14e s.</p>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <title type="main" xml:lang="fro">Les deus escuiers de Bregoigne</title>
+            <title type="modern" xml:lang="fr">Les deux écuyers de Bourgogne
+            </title>
+            <date notBefore="1315-01-01" notAfter="1327-12-31" when="1320-01-01">Premier quart du 14e siècle</date>
+            <region type="dialecte_oeuvre">Picard</region>
+            <idno type="URI" n="Jonas">https://jonas.irht.cnrs.fr/oeuvre/6489</idno>
+            <idno type="URI" n="Arlima">https://www.arlima.net/qt/renart_le_contrefait.html</idno>
+         </creation>
+         <langUsage>
+            <language ident="fro"/>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.bfm-corpus.org">
+               <term type="domaine">littérature</term>
+               <term type="genre" cert="low">Fabliau</term>
+               <term type="forme">vers</term>
+               <term type="relation">non renseigné</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#jnuguet" when="2022-12-02T13:28:36" n="v2.0">Utilisation du fichier EscuiersBregoigne[BnF 1630]v2.0.docx</change>
+         <change who="#cpierreville" when="2022-12-09T12:24:04" n="v3.0">Utilisation du fichier EscuiersBregoigne[BnF 1630]v3.docx</change>
+         <change who="#cpierreville" when="2022-12-09T15:59:04" n="v4.0">Utilisation du fichier EscuiersBregoigne[BnF 1630]v4.docx</change>
+         <change who="#cpierreville" when="2023-01-01T12:40:45" n="v5.0">Utilisation du fichier EscuiersBregoigne[BnF 1630]v5.docx</change>
+         <change who="#cpierreville" when="2023-01-06T12:57:19" n="v6.0">Utilisation du fichier EscuiersBregoigne[BnF 1630]v6.docx</change>
+         <change who="#cpierreville" when="2023-02-20T13:36:05" n="v7.0">Utilisation du fichier EscuiersBregoigne[BnF 1630]v7 relu avec BFM.docx</change>
+         <change who="#cpierreville" when="2023-02-20T15:08:36" n="v8.0">Utilisation du fichier EscuiersBregoigne[BnF 1630]v8 relu pour les guillemets.docx</change>
+         <change who="#cpierreville" when="2023-02-25T06:52:45" n="v9.0">Utilisation du fichier EscuiersBregoigne[BnF 1630]v9 #ok.docx</change>
+         <change who="#cpierreville" when="2023-04-11T08:06:49" n="v9.2">Utilisation du fichier EscuiersBregoigne[BnF 1630]v9.2.docx</change>
+         <change who="#cpierreville" when="2023-05-05T07:27:52" n="v9.3">Utilisation du fichier EscuiersBregoigne[BnF 1630]v9.3.docx</change>
+         <change who="#cguill01" when="2023-07-07T12:15:32" n="v9.4">Utilisation du fichier EscuiersBregoigne[BnF 1630]v9.4_REVU.docx</change>
+         <change who="#cpierreville" when="2023-05-22T11:57:59" n="v9.4">Utilisation du fichier EscuiersBregoigne[BnF 1630]v9.4.docx</change>
+         <change who="#bot" when="2023-07-10" n="v9.4">Transformation avec Oxgarage du fichier EscuiersBregoigne[BnF 1630]9.4.docx</change>
+         <change who="#cpierreville" when="2023-07-11T06:15:20" n="v9.4">Utilisation du fichier EscuiersBregoigne[BnF 1630]v9.4_REVU CG relu CP.docx</change>
+         <change who="#cpierreville" when="2023-07-11T06:15:21" n="v9.5">Utilisation du fichier EscuiersBregoigne[BnF 1630]v9.5.docx</change>
+         <change who="#bot" when="2023-07-11" n="v9.5">Transformation avec Oxgarage du fichier EscuiersBregoigne[BnF 1630]9.5.docx</change>
+         <change who="#alavrent" when="2023-11-20T13:54:20" n="v9.6">Utilisation du fichier EscuiersBregoigne[BnF 1630]v9.6 patch facs manuel.docx</change>
+         <change who="#bot" when="2023-11-20" n="v9.6">Transformation avec Oxgarage du fichier EscuiersBregoigne[BnF 1630]9.6.docx</change>
+         <change who="#cpierreville" when="2023-12-22T13:03:00" n="v2.1">Utilisation du fichier EscuiersBregoigne[BnF 1630]trad-v2.1.docx</change>
+         <change who="#cpierreville" when="2023-12-22T13:15:55" n="v9.7">Utilisation du fichier EscuiersBregoigne[BnF 1630]v9.7.docx</change>
+         <change who="#bot" when="2023-12-22" n="v9.7">Transformation avec Oxgarage du fichier EscuiersBregoigne[BnF 1630]9.7.docx</change>
+         <change who="#bot" when="2023-12-22" n="v2.1">Transformation avec Oxgarage du fichier EscuiersBregoigne[BnF 1630]2.1.docx</change>
+         <change who="#ohelary" when="2024-01-04T16:08:33" n="v2.2">Utilisation du fichier EscuiersBregoigne[BnF 1630]trad-v2.2.docx</change>
+         <change who="#ohelary" when="2024-01-04T12:46:10" n="v9.8">Utilisation du fichier EscuiersBregoigne[BnF 1630]v9.8 saut paragraphe.docx</change>
+         <change who="#bot" when="2024-01-05" n="v9.8">Transformation avec Oxgarage du fichier EscuiersBregoigne[BnF 1630]9.8.docx</change>
+         <change who="#bot" when="2024-01-05" n="v2.2">Transformation avec Oxgarage du fichier EscuiersBregoigne[BnF 1630]2.2.docx</change>
+         <change who="#alavrent" when="2024-02-05T14:53:10" n="v9.9">Utilisation du fichier EscuiersBregoigne[BnF 1630]v9.9 1er saut de ligne.docx</change>
+         <change who="#bot" when="2024-02-05" n="v9.9">Transformation avec Oxgarage du fichier EscuiersBregoigne[BnF 1630]9.9.docx</change>
+         <change who="#ggruber" when="2024-05-22T13:02:31" n="v2.2">Utilisation du fichier EscuiersBregoigne[BnF 1630]trad-v2.2_reluGG.docx</change>
+         <change who="#cpierreville" when="2024-05-23T12:38:52" n="v2.3">Utilisation du fichier EscuiersBregoigne[BnF 1630]trad-v2.3.docx</change>
+         <change who="#bot" when="2024-05-23" n="v2.3">Transformation avec Oxgarage du fichier EscuiersBregoigne[BnF 1630]2.3.docx</change>
+         <change who="#alavrent" when="2024-07-31T13:20:17" n="v10.1">Utilisation du fichier EscuiersBregoigne[BnF 1630]v10.1 majuscule note 1.docx</change>
+         <change who="#bot" when="2024-08-01" n="v10.1">Transformation avec Oxgarage du fichier EscuiersBregoigne[BnF 1630]10.1.docx</change>
+      </revisionDesc>
+   </teiHeader>
+   <text source="EscuiersBregoigne_BnF-1630">
+      <body>
+         <pb n="66r"
+              xml:id="pb_1"
+              facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b520009475/f137/full/pct:50/0/native.jpg"/>
+         <cb n="66rb"/>
+         <lg>
+            <l n="1">
+               <lb n="1"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_1">Il</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_2">est</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_3">a<choice><orig>u</orig><reg>v</reg></choice>enu</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_4">an</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_5"><choice><orig>b</orig><reg>B</reg></choice>r<space type="degl"/>egoigne</w>
+               <note type="philologique">
+                  <p rend="footnote text">Sans titre ; nommé « <hi rend="italic">Les deus escuiers de Bregoigne »</hi> par Raynaud et Lemaître dans les notes de leur édition du manuscrit BnF fr. 370 de « <hi rend="italic">Renart le Contrefait »</hi> ; contenu uniquement <hi rend="italic">Renart le Contrefait, </hi>BnF fr. 1630, v. 10565-10681 f°66rb ; absent de BnF fr. 370. </p>
+               </note>
+            </l>
+            <l n="2">
+               <lb n="2"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_6"><choice><orig>D</orig><reg>d</reg></choice>e</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_7">deus</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_8">escuiers</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_9">qui</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_10">a<choice><orig>u</orig><reg>v</reg></choice>oient</w>
+            </l>
+            <l n="3">
+               <lb n="3"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_11"><choice><orig>V</orig><reg>u</reg></choice>ne</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_12">villë</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_13"><ex>et</ex></w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_14">ne</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_15">sa<choice><orig>u</orig><reg>v</reg></choice>oient</w>
+               <pb n="66v"
+                    xml:id="pb_2"
+                    facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b520009475/f138/full/pct:50/0/native.jpg"/>
+               <cb n="66va"/>
+            </l>
+            <l n="4">
+               <lb n="4"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_17"><choice><orig>N</orig><reg>n</reg></choice>e</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_18">par</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_19">a<choice><orig>u</orig><reg>v</reg></choice>is</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_20" join="right">ne</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_21">par</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_22">esgar<space type="degl"/>t</w>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_23">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="5">
+               <lb n="5"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_24"><choice><orig>L</orig><reg>l</reg></choice>’</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_25">un</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_26">ne</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_27">l’</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_28">autrë</w>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_29">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_30">ou</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_31">fu</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_32">sa</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_33">par<space type="degl"/>t</w>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_34">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="6">
+               <lb n="6"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_35"><choice><orig>C</orig><reg>c</reg></choice>ar</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_36">de</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_37">di<choice><orig>u</orig><reg>v</reg></choice>ers</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_38">seignors</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_39">lor</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_40">vint</w>
+            </l>
+            <l n="7">
+               <lb n="7"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_41" join="right"><choice><orig>S</orig><reg>s</reg></choice>e</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_42">que</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_43">chascuns</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_44">ileques</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_45">tint</w>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_46">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="8">
+               <lb n="8"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_47">Lors</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_48"><choice><orig>R</orig><reg>r</reg></choice>antes</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_49">tout</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_50">par</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_51">mi</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_52">partoie<ex>n</ex>t</w>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_53">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="9">
+               <lb n="9"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_54"><choice><orig>A</orig><reg>a</reg></choice>nsinc</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_55">antr’</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_56">aus</w>
+               <num>
+                  <w xml:id="w_EscuiersBregoigne_BnF1630_57">.i<choice><orig>j</orig><reg>i</reg></choice>.</w>
+               </num>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_58">s’</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_59">acordoient</w>
+            </l>
+            <l n="10">
+               <lb n="10"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_60"><choice><orig>N</orig><reg>n</reg></choice>e</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_61">ne</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_62">sa<choice><orig>u</orig><reg>v</reg></choice>oiẹnt</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_63">ou</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_64">mal</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_65">ou</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_66">bien</w>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_67">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="11">
+               <lb n="11"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_68"><choice><orig>T</orig><reg>t</reg></choice>ant</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_69">q<ex>ue</ex></w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_70">l’</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_71">uns</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_72">dist</w>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_73">
+                  <choice>
+                     <orig/>
+                     <reg>:</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_74">
+                  <choice>
+                     <orig/>
+                     <reg>«</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_75"><choice><orig>i</orig><reg>I</reg></choice>l</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_76">seroit</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_77">bien</w>
+            </l>
+            <l n="12">
+               <lb n="12"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_78"><choice><orig>Q</orig><reg>q</reg></choice>ue</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_79">n<ex>ous</ex></w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_80">feissiens</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_81" join="right">de</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_82"><choice><orig>u</orig><reg>v</reg></choice>oir</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_83">anq<ex>ue</ex>rre</w>
+            </l>
+            <l n="13">
+               <lb n="13"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_84"><choice><orig>P</orig><reg>p</reg></choice>ar</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_85">ou</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_86">doit</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_87">aler</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_88">nostre</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_89">terr<space type="degl"/>e</w>
+            </l>
+            <l n="14">
+               <lb n="14"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_90"><choice><orig><ex>Et</ex></orig><reg><ex>et</ex></reg></choice></w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_91">par</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_92">ou</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_93">la</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_94"><choice><orig>J</orig><reg>j</reg></choice>ustice</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_95">part</w>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_96">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="15">
+               <lb n="15"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_97"><choice><orig>P</orig><reg>p</reg></choice>ar</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_98">coi</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_99">chascuns</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_100">eüst</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_101">sa</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_102">part</w>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_103">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_104">
+                  <choice>
+                     <orig/>
+                     <reg>»</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="16">
+               <lb n="16"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_105">Dist</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_106">l’</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_107">autre</w>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_108">
+                  <choice>
+                     <orig/>
+                     <reg>:</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_109">
+                  <choice>
+                     <orig/>
+                     <reg>«</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_110"><choice><orig>b</orig><reg>B</reg></choice><ex>ie</ex>n</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_111">sera</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_112">sehu</w>
+            </l>
+            <l n="17">
+               <lb n="17"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_113"><choice><orig>P</orig><reg>p</reg></choice>ar</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_114">ceulz</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_115">qui</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_116">piesa</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_117">l’</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_118">ont</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_119">vehu</w>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_120">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="18">
+               <lb n="18"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_121">An<choice><orig>u</orig><reg>v</reg></choice>oions</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_122">i</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_123">les</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_124">ancïens</w>
+            </l>
+            <l n="19">
+               <lb n="19"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_125"><choice><orig><ex>Et</ex></orig><reg><ex>et</ex></reg></choice></w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_126" join="right">a</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_127">leur</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_128">acort</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_129">an</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_130">soiens</w>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_131">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="20">
+               <lb n="20"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_132">Autremant</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_133">ne</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_134">le</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_135">pouons</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_136">faire</w>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_137">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_138">
+                  <choice>
+                     <orig/>
+                     <reg>»</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="21">
+               <lb n="21"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_139">Ansinc</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_140">acorderent</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_141">l’</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_142">afair<space type="degl"/>e</w>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_143">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+         </lg>
+         <lg>
+            <l n="22">
+               <lb n="22"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_144" join="right"><g type="initiale" rend="size(2) sizeAct(2) color(red)">L</g>i</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_145">preudonmë</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_146">assanblé</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_147">fure<ex>n</ex>t</w>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_148">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="23">
+               <lb n="23"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_149"><choice><orig>p</orig><reg>P</reg></choice>our</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_150">ce</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_151">qu’</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_152">a<choice><orig>u</orig><reg>v</reg></choice>isié</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_153">b<ex>ie</ex>n</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_154">ne</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_155">furent</w>
+            </l>
+            <l n="24">
+               <lb n="24"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_156"><choice><orig><ex>Et</ex></orig><reg><ex>et</ex></reg></choice></w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_157">certainemant</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_158">nou</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_159">sa<choice><orig>u</orig><reg>v</reg></choice>oient</w>
+            </l>
+            <l n="25">
+               <lb n="25"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_160"><choice><orig>O</orig><reg>o</reg></choice>u</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_161">espoir</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_162">oblié</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_163">l’</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_164">a<space type="degl"/><choice><orig>u</orig><reg>v</reg></choice>oient</w>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_165">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="26">
+               <lb n="26"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_166"><choice><orig>L</orig><reg>l</reg></choice>i</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_167">plus</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_168">viel</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_169">ho<ex>n</ex>me</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_170">d’</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_171">aus</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_172">eslure<ex>n</ex>t</w>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_173">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="27">
+               <lb n="27"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_174">Q<ex>ua</ex>nt</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_175">il</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_176">de<choice><orig>u</orig><reg>v</reg></choice>a<ex>n</ex>t</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_177">lor</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_178">seign<ex>eur</ex>s</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_179">furent</w>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_180">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="28">
+               <lb n="28"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_181"><choice><orig>S</orig><reg>s</reg></choice>i</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_182">dirent</w>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_183">
+                  <choice>
+                     <orig/>
+                     <reg>:</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_184">
+                  <choice>
+                     <orig/>
+                     <reg>«</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_185"><choice><orig>n</orig><reg>N</reg></choice>ous</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_186">a<choice><orig>u</orig><reg>v</reg></choice>ons</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_187">conta<ex>n</ex>s</w>
+            </l>
+            <l n="29">
+               <lb n="29"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_188"><choice><orig>Q</orig><reg>q</reg></choice>ue</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_189">n<ex>ous</ex></w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_190">ne</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_191">so<ex>n</ex>mes</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_192">pas</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_193">dou</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_194">tans</w>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_195">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="30">
+               <lb n="30"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_196"><choice><orig>M</orig><reg>m</reg></choice>es</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_197">veez</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_198">cel</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_199">viel</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_200">home</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_201">ci</w>
+            </l>
+            <l n="31">
+               <lb n="31"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_202"><choice><orig>Q</orig><reg>q</reg></choice>ui</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_203">a</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_204">lons</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_205">tans</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_206">demouré</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_207">ci</w>
+            </l>
+            <l n="32">
+               <lb n="32"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_208"><choice><orig><ex>Et</ex></orig><reg><ex>et</ex></reg></choice></w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_209">pour</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_210">les</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_211">seigneur<add place="above">s</add></w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_212">l’</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_213">a</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_214">tenu<space type="degl"/>e</w>
+            </l>
+            <l n="33">
+               <lb n="33"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_215"><choice><orig>A</orig><reg>a</reg></choice>nçois</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_216">que</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_217">vous</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_218">fust</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_219">a<choice><orig>u</orig><reg>v</reg></choice>enue</w>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_220">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="34">
+               <lb n="34"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_221"><choice><orig><ex>Et</ex></orig><reg><ex>et</ex></reg></choice></w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_222">si</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_223">est</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_224">hon</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_225">a</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_226">l’</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_227">un</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_228">de</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_229">vous</w>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_230">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="35">
+               <lb n="35"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_231">Faites</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_232">le</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_233">b<ex>ie</ex>n</w>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_234">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_235">acordez</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_236">vous</w>
+            </l>
+            <l n="36">
+               <lb n="36"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_237"><choice><orig>Q</orig><reg>q</reg></choice><ex>ue</ex></w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_238">il</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_239">vous</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_240">depart</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_241">vostre</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_242">t<ex>er</ex>r<space type="degl"/>e</w>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_243">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="37">
+               <lb n="37"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_244">Nous</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_245">ne</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_246">sa<choice><orig>u</orig><reg>v</reg></choice>on</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_247">pl<ex>us</ex></w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_248">c<ex>er</ex>tain</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_249">q<ex>ue</ex>rre</w>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_250">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_251">
+                  <choice>
+                     <orig/>
+                     <reg>»</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="38">
+               <lb n="38"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_252">Cil</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_253">qui</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_254">n’</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_255">i</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_256">pansoient</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_257">que</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_258">bien</w>
+            </l>
+            <l n="39">
+               <lb n="39"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_259"><choice><orig>D</orig><reg>d</reg></choice>irent</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_260">chascu<ex>n</ex>s</w>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_261">
+                  <choice>
+                     <orig/>
+                     <reg>:</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_262">
+                  <choice>
+                     <orig/>
+                     <reg>«</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_263"><choice><orig>g</orig><reg>G</reg></choice>e</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_264">le</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_265">veuil</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_266">b<ex>ie</ex>n</w>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_267">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_268">
+                  <choice>
+                     <orig/>
+                     <reg>»</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="40">
+               <lb n="40"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_269">Cilz</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_270">cui</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_271">hons</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_272">fu</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_273">p<ex>ri</ex>nt</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_274">l’</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_275"><choice><orig>e</orig><reg>E</reg></choice><choice><orig>u</orig><reg>v</reg></choice>angille</w>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_276">
+                  <choice>
+                     <orig/>
+                     <reg>;</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="41">
+               <lb n="41"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_277"><choice><orig>S</orig><reg>s</reg></choice>anz</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_278">male</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_279">esperance</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_280"><ex>et</ex></w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_281" join="right">sa<ex>n</ex>z</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_282">guille</w>
+            </l>
+            <l n="42">
+               <lb n="42"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_283"><choice><orig>S</orig><reg>s</reg></choice>’</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_284">a</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_285">prins</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_286">de</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_287">lui</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_288">le</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_289">sairemant</w>
+            </l>
+            <l n="43">
+               <lb n="43"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_290"><choice><orig>Q</orig><reg>q</reg></choice>ue</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_291">il</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_292">le</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_293">fera</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_294">loialmant</w>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_295">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="44">
+               <lb n="44"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_296"><choice><orig>S</orig><reg>s</reg></choice>anz</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_297">l’</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_298">un</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_299"><choice><orig>i</orig><reg>j</reg></choice>a</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_300">tolir</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_301">ne</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_302">donner</w>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_303">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="45">
+               <lb n="45"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_304">Ansinc</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_305">li</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_306">va</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_307">il</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_308">ordonner</w>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_309">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+               <cb n="66vb"/>
+            </l>
+            <l n="46">
+               <lb n="46"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_310">Li</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_311"><choice><orig>B</orig><reg>b</reg></choice>ons</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_312"><choice><orig>H</orig><reg>h</reg></choice>ons</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_313"><choice><orig>V</orig><reg>v</reg></choice>ost</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_314">a<choice><orig>u</orig><reg>v</reg></choice>is</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_315">a<choice><orig>u</orig><reg>v</reg></choice>oir</w>
+            </l>
+            <l n="47">
+               <lb n="47"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_316"><choice><orig>P</orig><reg>p</reg></choice>our</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_317">miaux</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_318"><ex>con</ex>nostre</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_319">son</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_320">sa<choice><orig>u</orig><reg>v</reg></choice>oir</w>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_321">
+                  <choice>
+                     <orig/>
+                     <reg>:</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="48">
+               <lb n="48"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_322"><choice><orig>J</orig><reg>j</reg></choice>usqu’</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_323">au</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_324">tiers</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_325"><choice><orig>i</orig><reg>j</reg></choice>or</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_326">li</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_327">ordo<ex>n</ex>nere<ex>n</ex>t</w>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_328">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="49">
+               <lb n="49"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_329">A</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_330">cel</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_331"><choice><orig>i</orig><reg>j</reg></choice>our</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_332">vindre<ex>n</ex>t</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_333">qu’</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_334">il</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_335">donnere<ex>n</ex>t</w>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_336">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="50">
+               <lb n="50"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_337"><choice><orig>F</orig><reg>f</reg></choice>irent</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_338">touz</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_339">les</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_340">vesins</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_341">venir</w>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_342">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="51">
+               <lb n="51"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_343"><choice><orig>P</orig><reg>p</reg></choice>etiz</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_344"><ex>et</ex></w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_345">grans</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_346">iqui</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_347">tenir</w>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_348">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="52">
+               <lb n="52"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_349"><choice><orig>P</orig><reg>p</reg></choice>our</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_350">ce</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_351">q<ex>ue</ex></w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_352">leur</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_353">an</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_354">sou<choice><orig>u</orig><reg>v</reg></choice>enist</w>
+            </l>
+            <l n="53">
+               <lb n="53"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_355"><choice><orig>S</orig><reg>s</reg></choice>’</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_356">aucuns</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_357">debaz</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_358">pl<ex>us</ex></w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_359">i</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_360">venist</w>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_361">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="54">
+               <lb n="54"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_362">Or</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_363">orroiz</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_364">que</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_365">li</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_366">bons</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_367">ho<ex>n</ex></w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_368">fist</w>
+            </l>
+            <l n="55">
+               <lb n="55"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_369"><choice><orig><ex>Et</ex></orig><reg><ex>et</ex></reg></choice></w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_370">le</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_371">malice</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_372">que</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_373">il</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_374">quist</w>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_375">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="56">
+               <lb n="56"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_376">Plain</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_377">son</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_378">poin</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_379">de</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_380">terrë</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_381">a</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_382">p<ex>ri</ex>se</w>
+            </l>
+            <l n="57">
+               <lb n="57"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_383"><choice><orig><ex>Et</ex></orig><reg><ex>et</ex></reg></choice></w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_384">l’</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_385">a</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_386">deda<ex>n</ex>s</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_387">son</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_388">souler</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_389">mise</w>
+            </l>
+            <l n="58">
+               <lb n="58"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_390"><choice><orig>E</orig><reg>e</reg></choice>n</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_391"><choice><orig>v</orig><reg>u</reg></choice>n</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_392">cha<ex>n</ex>p</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_393">qui</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_394">son</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_395">seign<ex>eur</ex></w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_396">feu</w>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_397">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="59">
+               <lb n="59"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_398"><choice><orig><ex>Et</ex></orig><reg><ex>et</ex></reg></choice></w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_399">ses</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_400">piez</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_401">an</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_402">son</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_403">soler</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_404">feu</w>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_405">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="60">
+               <lb n="60"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_406">Dessouz</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_407">son</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_408">pié</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_409">la</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_410">t<ex>er</ex>re</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_411">estoit</w>
+            </l>
+            <l n="61">
+               <lb n="61"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_412"><choice><orig>C</orig><reg>c</reg></choice>’</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_413">ou</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_414">cha<ex>n</ex>p</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_415">son</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_416">seign<ex>eur</ex></w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_417">p<ex>ri</ex>se</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_418">estoit</w>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_419">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="62">
+               <lb n="62"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_420"><ex>Et</ex></w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_421">p<ex>uis</ex></w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_422">plain</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_423">poing</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_424">a<ex>n</ex></w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_425">r<space type="degl"/>ala</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_426">querre</w>
+            </l>
+            <l n="63">
+               <lb n="63"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_427"><choice><orig>S</orig><reg>s</reg></choice>us</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_428">l’</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_429">autre</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_430">escuier</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_431">an</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_432">sa</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_433">t<ex>er</ex>re</w>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_434">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="64">
+               <lb n="64"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_435"><choice><orig>E</orig><reg>e</reg></choice>n</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_436">son</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_437">autre</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_438">souler</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_439">la</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_440">mist</w>
+            </l>
+            <l n="65">
+               <lb n="65"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_441"><choice><orig><ex>Et</ex></orig><reg><ex>et</ex></reg></choice></w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_442">son</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_443">pié</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_444">sus</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_445">la</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_446">terre</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_447">sist</w>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_448">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="66">
+               <lb n="66"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_449">L’</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_450">un</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_451">des</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_452">piez</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_453">s<ex>us</ex></w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_454">l’</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_455">une</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_456">metoit</w>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_457">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="67">
+               <lb n="67"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_458"><choice><orig>L</orig><reg>l</reg></choice>’</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_459">autres</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_460">sus</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_461">l’</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_462">autre</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_463">t<ex>er</ex>re</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_464">estoit</w>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_465">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="68">
+               <lb n="68"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_466">Sus</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_467">la</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_468">terre</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_469">a</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_470">l’</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_471">escuier</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_472">vint</w>
+            </l>
+            <l n="69">
+               <lb n="69"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_473"><choice><orig><ex>Et</ex></orig><reg><ex>et</ex></reg></choice></w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_474">les</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_475">james</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_476">ou<choice><orig>u</orig><reg>v</reg></choice>ertes</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_477">tint</w>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_478">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="70">
+               <lb n="70"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_479">Dist</w>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_480">
+                  <choice>
+                     <orig/>
+                     <reg>:</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_481">
+                  <choice>
+                     <orig/>
+                     <reg>«</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_482" join="right"><choice><orig>p</orig><reg>P</reg></choice><ex>ar</ex></w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_483">les</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_484">sains</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_485"><ex>c</ex>’</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_486"><ex>on</ex></w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_487">doit</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_488">req<ex>ue</ex>rre</w>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_489">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="71">
+               <lb n="71"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_490" join="right" ana="#aggl-cert_low"><choice><orig>D</orig><reg>d</reg></choice>e</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_491">ce</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_492">pié</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_493">ci</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_494">suis</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_495">sus</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_496">la</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_497">terre</w>
+            </l>
+            <l n="72">
+               <lb n="72"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_498"><choice><orig>A</orig><reg>a</reg></choice></w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_499">cest</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_500">escuier</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_501">par</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_502">desa</w>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_503">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="73">
+               <lb n="73"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_504"><choice><orig>S</orig><reg>s</reg></choice>us</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_505">mu<ex>n</ex></w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_506">seigneur</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_507">dou</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_508">pié</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_509">desa</w>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_510">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_511">
+                  <choice>
+                     <orig/>
+                     <reg>»</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="74">
+               <lb n="74"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_512">Il</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_513">disoit</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_514"><choice><orig>u</orig><reg>v</reg></choice>oir</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_515"><ex>et</ex></w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_516">si</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_517">mantoit</w>
+            </l>
+            <l n="75">
+               <lb n="75"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_518"><choice><orig>Q</orig><reg>q</reg></choice>u’</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_519">a</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_520">l’</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_521">escuier</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_522">assez</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_523">ostoit</w>
+            </l>
+            <l n="76">
+               <lb n="76"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_524"><choice><orig>D</orig><reg>d</reg></choice>e</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_525">sa</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_526">terre</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_527">pl<ex>us</ex></w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_528">d’</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_529">un</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_530">arpant</w>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_531">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="77">
+               <lb n="77"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_532">Mes</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_533">dou</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_534">pié</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_535">son</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_536">seign<ex>eur</ex></w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_537">il</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_538">m<ex>an</ex>t</w>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_539">
+                  <choice>
+                     <orig/>
+                     <reg>:</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="78">
+               <lb n="78"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_540"><choice><orig>S</orig><reg>s</reg></choice>us</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_541">la</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_542">terre</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_543">a</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_544">l’</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_545">escuier</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_546">fu</w>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_547">
+                  <choice>
+                     <orig>.</orig>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="79">
+               <lb n="79"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_548">Lors</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_549"><choice><orig>v</orig><reg>u</reg></choice>ne</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_550">bone</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_551">fermé</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_552">feu</w>
+            </l>
+            <l n="80">
+               <lb n="80"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_553" join="right"><choice><orig>A</orig><reg>a</reg></choice>ntre</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_554">les</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_555"><choice><orig>i</orig><reg>j</reg></choice>ames</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_556">trestout</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_557">droit</w>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_558">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="81">
+               <lb n="81"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_559">Lors</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_560">ala</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_561">chascuns</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_562">a</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_563">son</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_564">droit</w>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_565">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="82">
+               <lb n="82"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_566">Or</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_567">ne</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_568">furent</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_569">plus</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_570">des<choice><orig>u</orig><reg>v</reg></choice>oiez</w>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_571">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="83">
+               <lb n="83"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_572"><choice><orig>Q</orig><reg>q</reg></choice>ue</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_573">chascuns</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_574">se</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_575">tint</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_576" join="right">a</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_577">paiez</w>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_578">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+         </lg>
+         <lg>
+            <l n="84">
+               <lb n="84"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_579"><g type="initiale" rend="size(2) sizeAct(2) color(red)">A</g>pre</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_580">s</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_581">se</w>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_582">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_583">bie<ex>n</ex></w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_584"><choice><orig>v</orig><reg>u</reg></choice>n</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_585">an</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_586">a<choice><orig>u</orig><reg>v</reg></choice>int</w>
+            </l>
+            <l n="85">
+               <lb n="85"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_587">que</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_588">li</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_589">sires</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_590">au</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_591">vilain</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_592">tint</w>
+            </l>
+            <l n="86">
+               <lb n="86"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_593"><choice><orig>U</orig><reg>u</reg></choice>ne</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_594">feste</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_595">de</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_596">bonnes</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_597">gent</w>
+            </l>
+            <l n="87">
+               <lb n="87"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_598"><choice><orig>P</orig><reg>p</reg></choice>ar</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_599">coi</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_600">li</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_601">failli</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_602">de</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_603">l’</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_604">ar<space type="degl"/>gent</w>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_605">
+                  <choice>
+                     <orig/>
+                     <reg>;</reg>
+                  </choice>
+               </pc>
+               <pb n="67r"
+                    xml:id="pb_3"
+                    facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b520009475/f139/full/pct:50/0/native.jpg"/>
+               <cb n="67ra"/>
+            </l>
+            <l n="88">
+               <lb n="88"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_607"><choice><orig>S</orig><reg>s</reg></choice>us</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_608">touz</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_609">ses</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_610"><choice><orig>H</orig><reg>h</reg></choice>omes</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_611"><choice><orig>F</orig><reg>f</reg></choice>ist</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_612">la</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_613">taille</w>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_614">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="89">
+               <lb n="89"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_615">Q<ex>ui</ex></w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_616">pl<ex>us</ex></w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_617">est</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_618">riches</w>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_619">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_620">pl<ex>us</ex></w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_621">an</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_622">baille</w>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_623">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="90">
+               <lb n="90"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_624">Q<ex>ua</ex>nt</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_625">li</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_626">viaux</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_627">ho<ex>n</ex></w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_628">gaigiez</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_629">a<ex>n</ex></w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_630">fu</w>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_631">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="91">
+               <lb n="91"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_632"><choice><orig>L</orig><reg>l</reg></choice>ors</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_633">dist</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_634">au</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_635">s<ex>er</ex>ge<ex>n</ex>t</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_636">q<ex>ue</ex></w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_637">mar</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_638">fu</w>
+            </l>
+            <l n="92">
+               <lb n="92"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_639"><choice><orig>L</orig><reg>l</reg></choice>a</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_640">cour<space type="degl"/>toissië</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_641"><ex>et</ex></w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_642">l’</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_643">annour</w>
+            </l>
+            <l n="93">
+               <lb n="93"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_644"><choice><orig>Q</orig><reg>q</reg></choice>u’</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_645">il</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_646">a<choice><orig>u</orig><reg>v</reg></choice>oit</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_647">faite</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_648">son</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_649">seign<ex>our</ex></w>
+            </l>
+            <l n="94">
+               <lb n="94"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_650"><choice><orig>S</orig><reg>s</reg></choice>e</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_651">do<ex>n</ex></w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_652">li</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_653">deust</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_654">a<choice><orig>u</orig><reg>v</reg></choice>oir</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_655">donné</w>
+            </l>
+            <l n="95">
+               <lb n="95"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_656"><choice><orig>Q</orig><reg>q</reg></choice><ex>ue</ex></w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_657">b<ex>ie</ex>n</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_658">li</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_659">a</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_660">guerredonné</w>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_661">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="96">
+               <lb n="96"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_662">Dist</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_663">le</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_664">s<ex>er</ex>gent</w>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_665">
+                  <choice>
+                     <orig/>
+                     <reg>:</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_666">
+                  <choice>
+                     <orig/>
+                     <reg>«</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_667"><choice><orig>c</orig><reg>C</reg></choice>ontez</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_668">le</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_669">moi</w>
+            </l>
+            <l n="97">
+               <lb n="97"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_670"><choice><orig><ex>Et</ex></orig><reg><ex>et</ex></reg></choice></w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_671">tost</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_672">le</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_673">resara</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_674">par</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_675">moi</w>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_676">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="98">
+               <lb n="98"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_677"><choice><orig>C</orig><reg>c</reg></choice>ar</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_678">courtoissiẹ</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_679">q<ex>ui</ex></w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_680">n’</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_681">est</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_682">sehue</w>
+            </l>
+            <l n="99">
+               <lb n="99"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_683"><choice><orig>N</orig><reg>n</reg></choice>e</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_684">tient</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_685">leu</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_686">ne</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_687">ne</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_688">fait</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_689">ahue</w>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_690">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_691">
+                  <choice>
+                     <orig/>
+                     <reg>»</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="100">
+               <lb n="100"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_692">Lors</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_693">li</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_694">bo<ex>n</ex>s</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_695">hon</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_696">trestout</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_697">li</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_698">dist</w>
+            </l>
+            <l n="101">
+               <lb n="101"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_699"><ex>con</ex>mant</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_700">la</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_701">t<ex>er</ex>re</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_702">ou</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_703">soler</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_704">mist</w>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_705">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="102">
+               <lb n="102"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_706"><ex>con</ex>ma<ex>n</ex>t</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_707">marchoit</w>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_708">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_709"><ex>con</ex>m<ex>an</ex>t</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_710">jura</w>
+            </l>
+            <l n="103">
+               <lb n="103"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_711"><choice><orig><ex>Et</ex></orig><reg><ex>et</ex></reg></choice></w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_712"><ex>con</ex>mant</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_713">il</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_714">se</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_715">par<choice><orig>i</orig><reg>j</reg></choice>ur<space type="degl"/>a</w>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_716">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="104">
+               <lb n="104"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_717" join="right">Li</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_718">sergens</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_719">ne</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_720">l’</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_721">oblia</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_722">point</w>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_723">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="105">
+               <lb n="105"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_724"><choice><orig>A</orig><reg>a</reg></choice></w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_725">son</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_726">seignor</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_727">de</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_728">point</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_729">a<ex>n</ex></w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_730">poi<ex>n</ex>t</w>
+            </l>
+            <l n="106">
+               <lb n="106"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_731"><choice><orig>A</orig><reg>a</reg></choice></w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_732"><choice><orig>R</orig><reg>r</reg></choice>emantu</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_733">celle</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_734">bont<space type="degl"/>é</w>
+            </l>
+            <l n="107">
+               <lb n="107"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_735"><choice><orig>Q</orig><reg>q</reg></choice>ue</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_736">li</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_737">bons</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_738">hon</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_739">li</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_740">a</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_741">conté</w>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_742">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="108">
+               <lb n="108"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_743">Lors</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_744">li</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_745">sires</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_746"><choice><orig>u</orig><reg>v</reg></choice>enir</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_747">le</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_748">fist</w>
+            </l>
+            <l n="109">
+               <lb n="109"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_749"><choice><orig><ex>Et</ex></orig><reg><ex>et</ex></reg></choice></w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_750">tout</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_751">courtoisemant</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_752">li</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_753">dist</w>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_754">
+                  <choice>
+                     <orig/>
+                     <reg>:</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="110">
+               <lb n="110"/>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_755">
+                  <choice>
+                     <orig/>
+                     <reg>«</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_756">Di</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_757">moi</w>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_758">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_759"><ex>con</ex>mant</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_760">tu<ex>n</ex></w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_761">fait</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_762">meïs</w>
+            </l>
+            <l n="111">
+               <lb n="111"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_763"><choice><orig>Q</orig><reg>q</reg></choice><ex>ua</ex>nt</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_764">tu</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_765">le</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_766">partaige</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_767">feïs</w>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_768">
+                  <choice>
+                     <orig/>
+                     <reg>?</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_769">
+                  <choice>
+                     <orig/>
+                     <reg>»</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="112">
+               <lb n="112"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_770">Lors</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_771">li</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_772">conte</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_773">tout</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_774">l’</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_775">errem<ex>an</ex>t</w>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_776">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="113">
+               <lb n="113"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_777">Li</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_778">sires</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_779">tost</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_780"><ex>et</ex></w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_781">erranmant</w>
+            </l>
+            <l n="114">
+               <lb n="114"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_782"><choice><orig>D</orig><reg>d</reg></choice>roit</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_783">aus</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_784">fourches</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_785">men<ex>er</ex></w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_786">le</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_787">dist</w>
+            </l>
+            <l n="115">
+               <lb n="115"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_788"><choice><orig><ex>Et</ex></orig><reg><ex>et</ex></reg></choice></w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_789">maintenant</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_790">pand<ex>re</ex></w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_791">le</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_792">fist</w>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_793">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="116">
+               <lb n="116"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_794">Ansinc</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_795">se</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_796">de<choice><orig>u</orig><reg>v</reg></choice>roit</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_797">l’</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_798">an</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_799">pener</w>
+            </l>
+            <l n="117">
+               <lb n="117"/>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_800"><choice><orig>D</orig><reg>d</reg></choice>e</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_801">trestouz</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_802">traïtors</w>
+               <w xml:id="w_EscuiersBregoigne_BnF1630_803">mener</w>
+               <pc xml:id="w_EscuiersBregoigne_BnF1630_804">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+         </lg>
+      </body>
+   </text>
+</TEI>

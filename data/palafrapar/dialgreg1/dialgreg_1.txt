@@ -1,0 +1,66 @@
+ 
+ 
+DialGreg1Lat
+
+
+id	DialGreg1Lat
+textorder	01DialGreg1Lat
+title	Dialogus
+author	Gregory I, Pope
+cpdate	0594-01-01
+cpdatelibre	c. 593-594
+cpnotbefore	0593-01-01
+cpnotafter	0594-12-31
+cpcentury	06th
+msdate	0750-01-01
+msdatelibre	8th c.
+msnotbefore	0700-01-01
+msnotafter	0799-12-31
+dialect	Italy
+domain	didactic
+form	prose
+genre	hagiographic
+msd	unverified
+relation	original
+lang	lat
+msid	multiple
+
+
+
+
+
+
+ 
+DialGreg1
+
+
+id	DialGreg1
+textorder	1183DialGreg1
+title	Li Dialoge Gregoire lo Pape
+author	anonymous (translator)
+cpdate	1183-01-01
+cpdatelibre	late 12th c.
+cpnotbefore	1167-01-01
+cpnotafter	1199-12-31
+cpcentury	12th
+msdate	1216-01-01
+msdatelibre	early 13th c.
+msnotbefore	1200-01-01
+msnotafter	1233-12-31
+dialect	wallon
+domain	didactic
+form	prose
+genre	hagiographic
+msd	unverified
+relation	translation
+lang	fro
+msid	BnF, fr. 24764
+
+
+
+
+
+
+ 
+	
+	

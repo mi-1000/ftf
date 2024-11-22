@@ -1,0 +1,1945 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="fro">Le marcheant et son asne</title>
+            <author>Anonyme</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2023</date>
+            </edition>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="acorbellari">Alain Corbellari</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="alavrent">Alexei Lavrentiev</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="apinche">Ariane Pinche</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="blaid">Baptiste Laïd</name>
+            </respStmt>
+            <respStmt>
+               <resp>robot</resp>
+               <name xml:id="bot">bot bot</name>
+            </respStmt>
+            <respStmt>
+               <resp>relecteur</resp>
+               <resp>membre</resp>
+               <name xml:id="cguillot">Céline Guillot-Barbance</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="clachet">Claude Lachet</name>
+            </respStmt>
+            <respStmt>
+               <resp>editeur</resp>
+               <resp>traducteur</resp>
+               <resp>chef de projet</resp>
+               <name xml:id="cpierreville">Corinne Pierreville</name>
+            </respStmt>
+            <respStmt>
+               <resp>relecteur-traduction</resp>
+               <resp>membre</resp>
+               <name xml:id="ggruber">Gauthier Grüber</name>
+            </respStmt>
+            <respStmt>
+               <resp>ingénieur</resp>
+               <name xml:id="jnuguet">Jules Nuguet</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="ngarnier">Nicolas Garnier</name>
+            </respStmt>
+            <respStmt>
+               <resp>Relecteur traduction</resp>
+               <name xml:id="rbellon">Roger Bellon</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="rtrachsler">Richard Trachsler</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="veugene">Valentine Eugène</name>
+            </respStmt>
+            <respStmt>
+               <resp>ingénieur</resp>
+               <name xml:id="myamagata">Moe Yamagata</name>
+            </respStmt>
+            <respStmt>
+               <resp/>
+               <name xml:id="jdocks">Justine DOCKS</name>
+            </respStmt>
+            <respStmt>
+               <resp>editeur</resp>
+               <resp>relecteur</resp>
+               <resp>traducteur</resp>
+               <resp>relecteur-traduction</resp>
+               <resp/>
+               <name> </name>
+            </respStmt>
+         </editionStmt>
+         <extent>
+            <num xml:id="nb_tokens_given">776</num>
+            <num xml:id="nb_mots_given">666</num>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <name>ENS de Lyon / UMR 5317 IHRIM, Base de français médiéval, projet Fabliaux</name>
+            </publisher>
+            <address>
+               <addrLine>15, parvis René Descartes</addrLine>
+               <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+               <addrLine>Tél : 04 37 37 63 10</addrLine>
+               <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+               <addrLine>http://bfm.ens-lyon.fr</addrLine>
+            </address>
+            <idno type="bfm">http://catalog.bfm-corpus.org/fabliaux/MarcheantAsne_BnF-1630</idno>
+            <idno type="doi">10.34847/nkl.c0f4b7lk</idno>
+            <availability status="free">
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <ab type="availability_bfm">Les Conditions générales d'utilisation de la Base de Français Médiéval (http://txm.bfm-corpus.org/bfm/files/CGU.pdf), 
+                        et notamment son Article 5 « PROPRIETE INTELLECTUELLE », s'appliquent à tous les textes de la BFM.</ab>
+                  <ab type="how_to_cite">
+                     <label>Comment citer ce texte :</label>
+                     <bibl>Le marcheant et son asne, édité par Corinne Pierreville en collaboration avec Céline Guillot-Barbance. Publié en ligne par l’ENS de Lyon dans la Base de français médiéval, 
+2023, http://catalog.bfm-corpus.org/fabliaux/MarcheantAsne_BnF-1630.</bibl>
+                        D'autres formules de citation de la BFM sont proposées sur la page web suivante :
+                        http://bfm.ens-lyon.fr/spip.php?article281.</ab>
+                  <ab type="availability_file">
+                     <label>Conditions d'utilisation de ce fichier :</label>
+                        Ce fichier numérique est composé du corps de texte médiéval (restauré par son ou ses éditeur(s) scientifique(s)), des apparats critiques (introductions, notes, glossaires, explications, du texte d'origine (ou des enrichissements) qui ont été réalisés dans le cadre de la restauration des textes par les Editeurs Scientifiques) et des suppléments numériques : balisage XML-TEI, métadonnées (teiHeader), balisage du discours direct, étiquetage morpho-syntaxique, lemmatisation. Le texte et les suppléments numériques sont libres de droit et peuvent à ce titre être téléchargés et réutilisés librement. Les apparats critiques sont soumis à une licence de type CC BY-NC-SA 3.0 FR  http://creativecommons.org/licenses/by-nc-sa/3.0/fr. Les Utilisateurs s’engagent à respecter les termes de cette licence. 
+                    </ab>
+                  <ab type="availability_txmweb" subtype="illimité">
+                     <label>Conditions d'utilisation par le portail BFM :</label>
+                        Pas de limitation dans l'usage des fonctionnalités. Téléchargement autorisé.</ab>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="main" xml:id="BnF-1630">
+               <msIdentifier>
+                  <settlement>Paris</settlement>
+                  <repository>Bibliothèque nationale de France</repository>
+                  <idno>français 1630</idno>
+                  <idno type="URI" subtype="Notice" n="Arlima">https://www.arlima.net/mss/france/paris/bibliotheque_nationale_de_france/francais/1630.html</idno>
+                  <idno type="URI" subtype="Notice" n="Jonas">https://jonas.irht.cnrs.fr/manuscrit/78697</idno>
+                  <idno type="URI" subtype="Notice" n="Archives_et_manuscrits">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc463337</idno>
+                  <idno type="URI" subtype="Data" n="Biblissima">
+https://data.biblissima.fr/entity/Q47340</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem xml:id="DameChastiee_BnF-1630">
+                     <locus>f. 069rb-069va</locus>
+                     <title>La dame chastiee</title>
+                  </msItem>
+                  <msItem xml:id="EscuiersBregoigne_BnF-1630">
+                     <locus>f. 066rb-067ra</locus>
+                     <title>Les deus escuiers de Bregoigne</title>
+                  </msItem>
+                  <msItem xml:id="LaidChevalier_BnF-1630">
+                     <locus>f. 067vb-068ra</locus>
+                     <title>Le laid Chevalier</title>
+                  </msItem>
+                  <msItem xml:id="MarcheantAsne_BnF-1630">
+                     <locus>f. 157rb-158ra</locus>
+                     <title>Le marcheant et son asne</title>
+                  </msItem>
+                  <msItem xml:id="MellinMellot_BnF-1630">
+                     <locus>f. 063va-063vb</locus>
+                     <title>Mellin Mellot</title>
+                  </msItem>
+                  <msItem xml:id="Nonete2_BnF-1630">
+                     <locus>f. 054ra-054rb</locus>
+                     <title>La nonete II</title>
+                  </msItem>
+                  <msItem xml:id="RoiRibaud_BnF-1630">
+                     <locus>f. 053rb-053va</locus>
+                     <title>Le Roi et le ribaud</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin notBefore="1300-01-01" notAfter="1399-12-31">
+                     <p>14e s.</p>
+                  </origin>
+               </history>
+            </msDesc>
+            <msDesc type="other" xml:id="BnF-370">
+               <msIdentifier>
+                  <settlement>Paris</settlement>
+                  <repository>Bibliothèque nationale de France</repository>
+                  <idno>français 370</idno>
+                  <idno type="URI" subtype="Notice" n="Arlima">https://www.arlima.net/mss/france/paris/bibliotheque_nationale_de_france/francais/370.html</idno>
+                  <idno type="URI" subtype="Notice" n="Jonas">https://jonas.irht.cnrs.fr/manuscrit/78879</idno>
+                  <idno type="URI" subtype="Notice" n="Archives_et_manuscrits">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc50134d/cd0e83</idno>
+                  <idno type="URI" subtype="Data" n="Biblissima">
+https://data.biblissima.fr/entity/Q106346</idno>
+                  <idno type="URI" subtype="Fac-similé">https://gallica.bnf.fr/ark:/12148/btv1b9058351h</idno>
+                  <idno type="URI" subtype="Manifeste_IIIF">https://gallica.bnf.fr/iiif/ark:/12148/btv1b9058351h/manifest.json</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem xml:id="DameChastiee_BnF-370">
+                     <title>La dame chastiee</title>
+                  </msItem>
+                  <msItem xml:id="LaidChevalier_BnF-370">
+                     <title>Le laid Chevalier</title>
+                  </msItem>
+                  <msItem xml:id="MarcheantAsne_BnF-370">
+                     <title>Le marcheant et son asne</title>
+                  </msItem>
+                  <msItem xml:id="Nonete2_BnF-370">
+                     <title>La nonete II</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>                     
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <title type="main" xml:lang="fro">Le marcheant et son asne</title>
+            <title type="modern" xml:lang="fr">Le marchand et son âne
+            </title>
+            <date notBefore="1315-01-01" notAfter="1327-12-31" when="1320-01-01">Premier quart du 14e siècle</date>
+            <region type="dialecte_oeuvre">Picard</region>
+            <idno type="URI" n="Jonas">https://jonas.irht.cnrs.fr/oeuvre/6489</idno>
+            <idno type="URI" n="Arlima">https://www.arlima.net/qt/renart_le_contrefait.html</idno>
+         </creation>
+         <langUsage>
+            <language ident="fro"/>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.bfm-corpus.org">
+               <term type="domaine">littérature</term>
+               <term type="genre" cert="low">Fabliau</term>
+               <term type="forme">vers</term>
+               <term type="relation">non renseigné</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#jnuguet" when="2022-12-02T13:31:04" n="v2.0">Utilisation du fichier MarcheantAsne[BnF 1630]v2.0.docx</change>
+         <change who="#cpierreville" when="2022-12-10T17:07:43" n="v3.0">Utilisation du fichier MarcheantAsne[BnF 1630]v3.docx</change>
+         <change who="#cpierreville" when="2022-12-10T17:20:23" n="v4.0">Utilisation du fichier MarcheantAsne[BnF 1630]v4.docx</change>
+         <change who="#cpierreville" when="2023-01-01T13:02:05" n="v5.0">Utilisation du fichier MarcheantAsne[BnF 1630]v5.docx</change>
+         <change who="#cpierreville" when="2023-02-25T07:06:05" n="v6.0">Utilisation du fichier MarcheantAsne[BnF 1630]v6 guillemets#ok.docx</change>
+         <change who="#cpierreville" when="2023-02-27T10:36:48" n="v7.0">Utilisation du fichier MarcheantAsne[BnF 1630]v7 guillemets#ok.docx</change>
+         <change who="#cpierreville" when="2023-03-03T07:44:17" n="v8.0">Utilisation du fichier MarcheantAsne[BnF 1630]v8.docx</change>
+         <change who="#cpierreville" when="2023-05-22T13:15:15" n="v9.1">Utilisation du fichier MarcheantAsne[BnF 1630]v9.1.docx</change>
+         <change who="#cguill01" when="2023-07-07T12:17:14" n="v9.2">Utilisation du fichier MarcheantAsne[BnF 1630]v9.2_REVU.docx</change>
+         <change who="#cpierreville" when="2023-05-26T14:06:00" n="v9.2">Utilisation du fichier MarcheantAsne[BnF 1630]v9.2.docx</change>
+         <change who="#bot" when="2023-07-10" n="v9.2">Transformation avec Oxgarage du fichier MarcheantAsne[BnF 1630]9.2.docx</change>
+         <change who="#cpierreville" when="2023-07-11T06:44:46" n="v9.2">Utilisation du fichier MarcheantAsne[BnF 1630]v9.2_REVU CG relu CP.docx</change>
+         <change who="#cpierreville" when="2023-07-11T06:44:45" n="v9.3">Utilisation du fichier MarcheantAsne[BnF 1630]v9.3.docx</change>
+         <change who="#bot" when="2023-07-11" n="v9.3">Transformation avec Oxgarage du fichier MarcheantAsne[BnF 1630]9.3.docx</change>
+         <change who="#cpierreville" when="2023-12-22T13:43:58" n="v2.1">Utilisation du fichier MarcheantAsne[BnF 1630]trad-v2.1.docx</change>
+         <change who="#cpierreville" when="2023-12-22T13:55:19" n="v9.4">Utilisation du fichier MarcheantAsne[BnF 1630]v9.4.docx</change>
+         <change who="#bot" when="2023-12-22" n="v9.4">Transformation avec Oxgarage du fichier MarcheantAsne[BnF 1630]9.4.docx</change>
+         <change who="#bot" when="2023-12-22" n="v2.1">Transformation avec Oxgarage du fichier MarcheantAsne[BnF 1630]2.1.docx</change>
+         <change who="#ohelary" when="2024-01-04T16:10:54" n="v2.2">Utilisation du fichier MarcheantAsne[BnF 1630]trad-v2.2.docx</change>
+         <change who="#ohelary" when="2024-01-04T12:51:06" n="v9.5">Utilisation du fichier MarcheantAsne[BnF 1630]v9.5 saut paragraphe.docx</change>
+         <change who="#bot" when="2024-01-05" n="v9.5">Transformation avec Oxgarage du fichier MarcheantAsne[BnF 1630]9.5.docx</change>
+         <change who="#bot" when="2024-01-05" n="v2.2">Transformation avec Oxgarage du fichier MarcheantAsne[BnF 1630]2.2.docx</change>
+         <change who="#ggruber" when="2024-05-22T07:36:08" n="v2.2">Utilisation du fichier MarcheantAsne[BnF 1630]trad-v2.2_reluGG.docx</change>
+         <change who="#cpierreville" when="2024-05-24T07:13:19" n="v2.3">Utilisation du fichier MarcheantAsne[BnF 1630]trad-v2.3.docx</change>
+         <change who="#bot" when="2024-05-24" n="v2.3">Transformation avec Oxgarage du fichier MarcheantAsne[BnF 1630]2.3.docx</change>
+         <change who="#alavrent" when="2024-09-17T16:41:40" n="v9.6">Utilisation du fichier MarcheantAsne[BnF 1630]v9.6 crochets v23.docx</change>
+         <change who="#bot" when="2024-09-17" n="v9.6">Transformation avec Oxgarage du fichier MarcheantAsne[BnF 1630]9.6.docx</change>
+      </revisionDesc>
+   </teiHeader>
+   <text source="MarcheantAsne_BnF-1630">
+      <body>
+         <pb n="157r"
+              xml:id="pb_1"
+              facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b520009475/f321/full/pct:50/0/native.jpg"/>
+         <cb n="157rb"/>
+         <lg>
+            <l n="1">
+               <lb n="1"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_1"><g type="initiale" rend="size(1) sizeAct(1) color(red)">D</g>ont</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_2">il</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_3">a<choice><orig>u</orig><reg>v</reg></choice>int</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_4">c’</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_5">uns</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_6">marcheans</w>
+            </l>
+            <l n="2">
+               <lb n="2"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_7"><choice><orig>D</orig><reg>d</reg></choice>e</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_8">villes</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_9">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_MarcheantAsne_BnF1630_10">de</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_11">mar<space type="degl"/>chiez</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_12">si<choice><orig>u</orig><reg>v</reg></choice>ans</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_13">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="3">
+               <lb n="3"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_14"><choice><orig>O</orig><reg>o</reg></choice>eus</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_15"><ex>et</ex></w>
+               <w xml:id="w_MarcheantAsne_BnF1630_16">fronmaiges</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_17">achetoit</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_18">
+                  <choice>
+                     <orig/>
+                     <reg>;</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="4">
+               <lb n="4"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_19"><choice><orig>D</orig><reg>d</reg></choice>e</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_20">ville</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_21">an</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_22">ville</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_23">les</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_24">vandoit</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_25">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="5">
+               <lb n="5"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_26"><choice><orig>V</orig><reg>U</reg></choice>n</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_27"><choice><orig>i</orig><reg>j</reg></choice>our</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_28">au</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_29">marchié</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_30">s’</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_31">a<choice><orig>u</orig><reg>v</reg></choice>oia</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_32">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="6">
+               <lb n="6"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_33"><choice><orig>T</orig><reg>t</reg></choice>out</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_34">son</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_35">chatel</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_36">y</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_37">anploia</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_38">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="7">
+               <lb n="7"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_39">Un</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_40">asne</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_41"><ex>et</ex></w>
+               <w xml:id="w_MarcheantAsne_BnF1630_42">deus</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_43">peniers</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_44">a<choice><orig>u</orig><reg>v</reg></choice>oit</w>
+            </l>
+            <l n="8">
+               <lb n="8"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_45"><choice><orig>C</orig><reg>c</reg></choice>ar</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_46">ailleurs</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_47">port<ex>er</ex></w>
+               <w xml:id="w_MarcheantAsne_BnF1630_48">les</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_49">de<choice><orig>u</orig><reg>v</reg></choice>oit</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_50">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+               <pb n="157v"
+                    xml:id="pb_2"
+                    facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b520009475/f322/full/pct:50/0/native.jpg"/>
+               <cb n="157va"/>
+            </l>
+            <l n="9">
+               <lb n="9"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_52">Touz</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_53">ses</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_54">fronmaiges</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_55">dis</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_56">a</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_57">dis</w>
+            </l>
+            <l n="10">
+               <lb n="10"/>
+               <choice>
+                  <corr>
+                     <w xml:id="w_MarcheantAsne_BnF1630_58">a</w>
+                  </corr>
+                  <sic>I</sic>
+               </choice>
+               <w xml:id="w_MarcheantAsne_BnF1630_60">il</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_61">an</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_62"><choice><orig>v</orig><reg>u</reg></choice>n</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_63">des</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_64">penier<space type="degl"/>s</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_65">mis</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_66">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="11">
+               <lb n="11"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_67">Plains</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_68">fu</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_69">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_MarcheantAsne_BnF1630_70">an</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_71">l’</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_72">autre</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_73">n’</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_74">ot</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_75">neant</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_76">
+                  <choice>
+                     <orig/>
+                     <reg>;</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="12">
+               <lb n="12"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_77"><choice><orig>D</orig><reg>d</reg></choice>e</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_78">se</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_79">fu</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_80">il</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_81">mal</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_82">cler</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_83">veant</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_84">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="13">
+               <lb n="13"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_85"><choice><orig>Q</orig><reg>q</reg></choice>ue</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_86">li</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_87">plains</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_88">peniers</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_89">a<choice><orig>u</orig><reg>v</reg></choice>aloit</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_90">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="14">
+               <lb n="14"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_91"><choice><orig><ex>Et</ex></orig><reg><ex>et</ex></reg></choice></w>
+               <w xml:id="w_MarcheantAsne_BnF1630_92">li</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_93">vuiz</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_94">amont</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_95">an</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_96">aloit</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_97">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+         </lg>
+         <lg>
+            <l n="15">
+               <lb n="15"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_98"><g type="initiale" rend="size(1) sizeAct(1) color(red)">L</g>i</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_99">asnes</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_100">fu</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_101">mout</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_102">des<choice><orig>u</orig><reg>v</reg></choice>oiez</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_103">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="16">
+               <lb n="16"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_104"><choice><orig>Q</orig><reg>q</reg></choice>ue</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_105">trop</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_106">fu</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_107">mal</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_108">contremoiez</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_109">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="17">
+               <lb n="17"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_110">Son</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_111">droit</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_112">chemin</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_113">ne</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_114">sa<choice><orig>u</orig><reg>v</reg></choice>oit</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_115">q<ex>ue</ex>rre</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_116">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="18">
+               <lb n="18"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_117"><choice><orig>P</orig><reg>p</reg></choice>ar</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_118">po</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_119">que</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_120">ne</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_121">cheoit</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_122">a</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_123">terre</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_124">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="19">
+               <lb n="19"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_125">Trop</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_126">pot</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_127">au</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_128">bon</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_129">home</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_130">a<ex>n</ex>nuier</w>
+            </l>
+            <l n="20">
+               <lb n="20"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_131"><choice><orig>Q</orig><reg>q</reg></choice>uant</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_132">vit</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_133">son</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_134">asne</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_135">tournoier</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_136">
+                  <choice>
+                     <orig/>
+                     <reg>;</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="21">
+               <lb n="21"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_137"><choice><orig>A</orig><reg>a</reg></choice>ler</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_138">ne</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_139">pouoit</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_140">tost</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_141">ne</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_142">tar<space type="degl"/>t</w>
+            </l>
+            <l n="22">
+               <lb n="22"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_143"><choice><orig>C</orig><reg>c</reg></choice>ar</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_144">trop</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_145">li</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_146">pesoit</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_147">d’</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_148">une</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_149">par<space type="degl"/>t</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_150">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="23">
+               <lb n="23"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_151">Quant</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_152">plus</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_153">fiert</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_154">l’</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_155">asne</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_156">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_MarcheantAsne_BnF1630_157" join="right"><ex>et</ex></w>
+               <w xml:id="w_MarcheantAsne_BnF1630_158">pl<ex>us</ex></w>
+               <w xml:id="w_MarcheantAsne_BnF1630_159">t<add place="above">our</add>noie</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_160">
+                  <choice>
+                     <orig/>
+                     <reg>;</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="24">
+               <lb n="24"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_161"><choice><orig>J</orig><reg>j</reg></choice>a</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_162">més</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_163">n’</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_164">alast</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_165">la</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_166">droite</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_167">voie</w>
+            </l>
+            <l n="25">
+               <lb n="25"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_168"><choice><orig>C</orig><reg>c</reg></choice>ar</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_169">d’</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_170">une</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_171">part</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_172">li</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_173">pant</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_174">l’</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_175">eschine</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_176">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="26">
+               <lb n="26"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_177">Le</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_178">po<choice><orig>u</orig><reg>v</reg></choice>re</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_179">asne</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_180">form<ex>an</ex>t</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_181">rechine</w>
+            </l>
+            <l n="27">
+               <lb n="27"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_182"><choice><orig>P</orig><reg>p</reg></choice>our</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_183">le</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_184">penier</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_185">qui</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_186">si</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_187">li</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_188"><choice><orig>N</orig><reg>n</reg></choice>uit</w>
+            </l>
+            <l n="28">
+               <lb n="28"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_189" join="right"><choice><orig>C</orig><reg>c</reg></choice>ar</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_190">il</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_191">sant</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_192">b<ex>ie</ex>n</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_193">ou</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_194">il</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_195">li</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_196">cuit</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_197">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="29">
+               <lb n="29"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_198"><choice><orig>T</orig><reg>t</reg></choice>ant</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_199">que</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_200">celui</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_201">qui</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_202">le</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_203">menoit</w>
+            </l>
+            <l n="30">
+               <lb n="30"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_204"><choice><orig>A</orig><reg>a</reg></choice>pparsut</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_205">b<ex>ie</ex>n</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_206">ou</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_207">il</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_208">tenoit</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_209">
+                  <choice>
+                     <orig/>
+                     <reg>:</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="31">
+               <lb n="31"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_210"><choice><orig>T</orig><reg>t</reg></choice>rop</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_211">ot</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_212">desa</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_213"><ex>et</ex></w>
+               <w xml:id="w_MarcheantAsne_BnF1630_214">po</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_215">dela</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_216">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="32">
+               <lb n="32"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_217">Lors</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_218">court</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_219"><ex>et</ex></w>
+               <w xml:id="w_MarcheantAsne_BnF1630_220">tantost</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_221">s’</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_222">an</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_223">ala</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_224">
+                  <choice>
+                     <orig/>
+                     <reg>;</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="33">
+               <lb n="33"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_225"><choice><orig>T</orig><reg>t</reg></choice>ant</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_226" join="right">y</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_227">mist</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_228">pierres</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_229"><ex>et</ex></w>
+               <w xml:id="w_MarcheantAsne_BnF1630_230">chailloz</w>
+            </l>
+            <l n="34">
+               <lb n="34"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_231"><choice><orig>Q</orig><reg>q</reg></choice><ex>ue</ex></w>
+               <w xml:id="w_MarcheantAsne_BnF1630_232">touz</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_233">fu</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_234">plains</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_235">l’</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_236">autres</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_237">builloz</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_238">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="35">
+               <lb n="35"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_239"><choice><orig><ex>Et</ex></orig><reg><ex>et</ex></reg></choice></w>
+               <w xml:id="w_MarcheantAsne_BnF1630_240">lors</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_241">li</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_242">contrepois</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_243" join="right">i</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_244">fu</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_245">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="36">
+               <lb n="36"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_246"><choice><orig>M</orig><reg>m</reg></choice>es</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_247">li</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_248">asnes</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_249">si</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_250">chargiez</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_251">fu</w>
+            </l>
+            <l n="37">
+               <lb n="37"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_252"><choice><orig>Q</orig><reg>q</reg></choice>ue</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_253">il</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_254">ne</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_255">pot</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_256">a<choice><orig>u</orig><reg>v</reg></choice>ant</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_257">aler</w>
+            </l>
+            <l n="38">
+               <lb n="38"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_258"><choice><orig>P</orig><reg>p</reg></choice>our</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_259">batre</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_260">ne</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_261">pour</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_262">dehaler</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_263">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="39">
+               <lb n="39"/>
+               <pc xml:id="w_MarcheantAsne_BnF1630_264">
+                  <choice>
+                     <orig/>
+                     <reg>«</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_MarcheantAsne_BnF1630_265">Par</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_266">le</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_267">cuer</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_268">bé</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_269">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_MarcheantAsne_BnF1630_270">dist</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_271">le</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_272">vilain</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_273">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="40">
+               <lb n="40"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_274"><choice><orig>D</orig><reg>d</reg></choice>ans</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_275">asnes</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_276">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_MarcheantAsne_BnF1630_277">pl<ex>us</ex></w>
+               <w xml:id="w_MarcheantAsne_BnF1630_278">ge</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_279">ne</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_280">vous</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_281">ai<ex>n</ex></w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_282">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="41">
+               <lb n="41"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_283"><choice><orig>Q</orig><reg>q</reg></choice><ex>ue</ex></w>
+               <w xml:id="w_MarcheantAsne_BnF1630_284">si</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_285">tres</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_286">bien</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_287">aler</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_288">soulez</w>
+            </l>
+            <l n="42">
+               <lb n="42"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_289"><ex>et</ex></w>
+               <w xml:id="w_MarcheantAsne_BnF1630_290">ore</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_291">aler</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_292">ne</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_293"><choice><orig>u</orig><reg>v</reg></choice>oulez</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_294">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="43">
+               <lb n="43"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_295"><choice><orig>U</orig><reg>V</reg></choice>ostre</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_296">penier</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_297">sont</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_298">bien</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_299" join="right">a</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_300">point</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_301">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_MarcheantAsne_BnF1630_302">
+                  <choice>
+                     <orig/>
+                     <reg>»</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="44">
+               <lb n="44"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_303">Lors</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_304">fiert</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_305">darrier</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_306" join="right"><ex>et</ex></w>
+               <w xml:id="w_MarcheantAsne_BnF1630_307">p<ex>uis</ex></w>
+               <w xml:id="w_MarcheantAsne_BnF1630_308">le</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_309">point</w>
+            </l>
+            <l n="45">
+               <lb n="45"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_310"><choice><orig><ex>Et</ex></orig><reg><ex>et</ex></reg></choice></w>
+               <w xml:id="w_MarcheantAsne_BnF1630_311">le</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_312">reprant</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_313">par</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_314">les</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_315">oreilles</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_316">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="46">
+               <lb n="46"/>
+               <pc xml:id="w_MarcheantAsne_BnF1630_317">
+                  <choice>
+                     <orig/>
+                     <reg>«</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_MarcheantAsne_BnF1630_318">Or</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_319">puis</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_320">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_MarcheantAsne_BnF1630_321">dist</w>
+               <surplus>
+                  <w xml:id="w_MarcheantAsne_BnF1630_322">dist</w>
+               </surplus>
+               <w xml:id="w_MarcheantAsne_BnF1630_323">il</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_324">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_MarcheantAsne_BnF1630_325"><choice><orig>u</orig><reg>v</reg></choice>ẹoir</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_326">mare<choice><orig>u</orig><reg>v</reg></choice>eill<ex>es</ex></w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_327">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="47">
+               <lb n="47"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_328">Ge</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_329"><choice><orig>u</orig><reg>v</reg></choice>oi</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_330">q<ex>ue</ex></w>
+               <w xml:id="w_MarcheantAsne_BnF1630_331">de</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_332"><choice><orig>R</orig><reg>r</reg></choice>iens</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_333">ne</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_334">se</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_335">diaut</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_336">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <cb n="157vb"/>
+            </l>
+            <l n="48">
+               <lb n="48"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_337"><choice><orig><ex>Et</ex></orig><reg><ex>et</ex></reg></choice></w>
+               <w xml:id="w_MarcheantAsne_BnF1630_338">il</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_339">pour</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_340">moi</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_341">aler</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_342">ne</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_343">viaut</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_344">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="49">
+               <lb n="49"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_345"><choice><orig>M</orig><reg>m</reg></choice>es</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_346">par</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_347">mu<ex>n</ex></w>
+               <w xml:id="w_MarcheantAsne_BnF1630_348">cuer</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_349">que</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_350">ge</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_351">li</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_352">doigne</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_353">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="50">
+               <lb n="50"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_354"><choice><orig>J</orig><reg>j</reg></choice>amés</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_355">ne</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_356">mangera</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_357">d’</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_358">a<choice><orig>u</orig><reg>v</reg></choice>oine</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_359">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="51">
+               <lb n="51"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_360" join="right">Au</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_361">p<ex>re</ex>mier</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_362">marchié</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_363">le</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_364">vandrai</w>
+            </l>
+            <l n="52">
+               <lb n="52"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_365"><choice><orig>O</orig><reg>o</reg></choice>u</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_366">a<choice><orig>u</orig><reg>v</reg></choice>ant</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_367">ge</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_368">l’</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_369">escorcher<space type="degl"/>ai</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_370">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="53">
+               <lb n="53"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_371"><choice><orig>Q</orig><reg>q</reg></choice>ue</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_372">si</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_373">penier</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_374">sont</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_375">si</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_376"><choice><orig>v</orig><reg>u</reg></choice>ni</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_377">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="54">
+               <lb n="54"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_378">M<ex>o</ex>lt</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_379">cerai</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_380">blasmez</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_381"><ex>et</ex></w>
+               <w xml:id="w_MarcheantAsne_BnF1630_382">puni</w>
+            </l>
+            <l n="55">
+               <lb n="55"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_383"><choice><orig>C</orig><reg>c</reg></choice>e</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_384">cilec</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_385">gesir</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_386">me</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_387">con<choice><orig>u</orig><reg>v</reg></choice>ient</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_388">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_MarcheantAsne_BnF1630_389">
+                  <choice>
+                     <orig/>
+                     <reg>»</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="56">
+               <lb n="56"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_390">Mes</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_391">il</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_392">cet</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_393">mal</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_394">ou</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_395">il</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_396">li</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_397">tient</w>
+            </l>
+            <l n="57">
+               <lb n="57"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_398"><choice><orig>C</orig><reg>c</reg></choice>ar</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_399">trop</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_400">li</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_401">pesoit</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_402">sus</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_403">l’</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_404">eschine</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_405">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="58">
+               <lb n="58"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_406" join="right" ana="#aggl-cert_low">Que</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_407">quẹ</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_408">a<ex>n</ex>sinc</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_409">son</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_410">asne</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_411">rechine</w>
+            </l>
+            <l n="59">
+               <lb n="59"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_412"><ex>et</ex></w>
+               <w xml:id="w_MarcheantAsne_BnF1630_413" join="right">a</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_414">lui</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_415">meïmes</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_416">tansoit</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_417">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="60">
+               <lb n="60"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_418"><choice><orig>U</orig><reg>u</reg></choice>ns</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_419">preudons</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_420">par</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_421">iqui</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_422">passoit</w>
+            </l>
+            <l n="61">
+               <lb n="61"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_423"><choice><orig>Q</orig><reg>q</reg></choice>ui</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_424">anprés</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_425">lui</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_426"><choice><orig>v</orig><reg>u</reg></choice>n</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_427">po</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_428">se</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_429">tarde</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_430">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="62">
+               <lb n="62"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_431">Son</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_432">fait</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_433"><ex>et</ex></w>
+               <w xml:id="w_MarcheantAsne_BnF1630_434">sa</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_435">maniere</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_436">esgarde</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_437">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="63">
+               <lb n="63"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_438"><ex>et</ex></w>
+               <w xml:id="w_MarcheantAsne_BnF1630_439">dist</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_440">
+                  <choice>
+                     <orig/>
+                     <reg>:</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_MarcheantAsne_BnF1630_441">
+                  <choice>
+                     <orig/>
+                     <reg>«</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_MarcheantAsne_BnF1630_442"><choice><orig>p</orig><reg>P</reg></choice>reudon</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_443">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_MarcheantAsne_BnF1630_444">ne</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_445"><choice><orig>u</orig><reg>v</reg></choice>ẹez</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_446"><choice><orig>u</orig><reg>v</reg></choice><ex>ous</ex></w>
+               <w xml:id="w_MarcheantAsne_BnF1630_447">mie</w>
+            </l>
+            <l n="64">
+               <lb n="64"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_448" join="right" ana="#aggl-cert_low"><choice><orig>P</orig><reg>p</reg></choice>our</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_449">coi</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_450">vostre</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_451">asnes</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_452">ne</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_453"><choice><orig>u</orig><reg>v</reg></choice>a</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_454">mie</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_455">
+                  <choice>
+                     <orig/>
+                     <reg>?</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="65">
+               <lb n="65"/>
+               <pc xml:id="w_MarcheantAsne_BnF1630_456">
+                  <choice>
+                     <orig/>
+                     <reg>-</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_MarcheantAsne_BnF1630_457">Nanmi</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_458">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_MarcheantAsne_BnF1630_459">dist</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_460">le</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_461">vilain</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_462">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_MarcheantAsne_BnF1630_463">por</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_464"><choice><orig>u</orig><reg>v</reg></choice>oir</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_465">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="66">
+               <lb n="66"/>
+               <pc xml:id="w_MarcheantAsne_BnF1630_466">
+                  <choice>
+                     <orig/>
+                     <reg>-</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_MarcheantAsne_BnF1630_467">Voulez</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_468">v<ex>ous</ex></w>
+               <w xml:id="w_MarcheantAsne_BnF1630_469">bon</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_470"><ex>con</ex>soil</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_471">a<choice><orig>u</orig><reg>v</reg></choice>oir</w>
+            </l>
+            <l n="67">
+               <lb n="67"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_472"><choice><orig><ex>Con</ex></orig><reg><ex>con</ex></reg></choice>mant</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_473">v<ex>ost</ex>re</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_474">asnes</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_475">b<ex>ie</ex>n</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_476">ir<space type="degl"/>a</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_477">
+                  <choice>
+                     <orig/>
+                     <reg>?</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="68">
+               <lb n="68"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_478">Sarez</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_479">gré</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_480">qui</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_481">le</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_482">vous</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_483">dir<space type="degl"/>a</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_484">
+                  <choice>
+                     <orig/>
+                     <reg>?</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="69">
+               <lb n="69"/>
+               <pc xml:id="w_MarcheantAsne_BnF1630_485">
+                  <choice>
+                     <orig/>
+                     <reg>-</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_MarcheantAsne_BnF1630_486">P<ex>ar</ex></w>
+               <w xml:id="w_MarcheantAsne_BnF1630_487">foi</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_488">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_MarcheantAsne_BnF1630_489">ouïl</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_490">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_MarcheantAsne_BnF1630_491">dist</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_492">le</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_493">vilain</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_494">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="70">
+               <lb n="70"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_495"><choice><orig>Q</orig><reg>q</reg></choice>ue</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_496">cileques</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_497">sui</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_498">des</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_499">hui</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_500">main</w>
+            </l>
+            <l n="71">
+               <lb n="71"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_501"><choice><orig><ex>Et</ex></orig><reg><ex>et</ex></reg></choice></w>
+               <w xml:id="w_MarcheantAsne_BnF1630_502" join="right">si</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_503">est</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_504"><choice><orig>i</orig><reg>j</reg></choice>a</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_505">vespres</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_506">venue</w>
+            </l>
+            <l n="72">
+               <lb n="72"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_507"><choice><orig>Q</orig><reg>q</reg></choice><ex>ue</ex></w>
+               <w xml:id="w_MarcheantAsne_BnF1630_508">mu<ex>n</ex></w>
+               <w xml:id="w_MarcheantAsne_BnF1630_509">asne</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_510">ne</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_511">se</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_512">remue</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_513">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_MarcheantAsne_BnF1630_514">
+                  <choice>
+                     <orig/>
+                     <reg>»</reg>
+                  </choice>
+               </pc>
+            </l>
+         </lg>
+         <lg>
+            <l n="73">
+               <lb n="73"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_515"><g type="initiale" rend="size(1) sizeAct(1) color(red)">L</g>i</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_516">trespassans</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_517">lez</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_518">lui</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_519">s’</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_520">acoste</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_521">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="74">
+               <lb n="74"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_522">Les</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_523">pierres</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_524">dou</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_525">penier</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_526">li</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_527">oste</w>
+            </l>
+            <l n="75">
+               <lb n="75"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_528"><choice><orig><ex>Et</ex></orig><reg><ex>et</ex></reg></choice></w>
+               <w xml:id="w_MarcheantAsne_BnF1630_529">les</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_530">fronmaiges</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_531">p<ex>ri</ex>nt</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_532">demis</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_533">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="76">
+               <lb n="76"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_534" join="right"><choice><orig>S</orig><reg>s</reg></choice>i</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_535">les</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_536">a</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_537">an</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_538">cel</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_539">pannier</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_540">mis</w>
+            </l>
+            <l n="77">
+               <lb n="77"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_541" join="right"><choice><orig>S</orig><reg>s</reg></choice>i</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_542">que</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_543">b<ex>ie</ex>n</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_544">fu</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_545">contremoié</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_546">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="78">
+               <lb n="78"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_547">Lors</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_548">c’</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_549">est</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_550">li</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_551">asnes</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_552">a<choice><orig>u</orig><reg>v</reg></choice>oié</w>
+            </l>
+            <l n="79">
+               <lb n="79"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_553"><choice><orig><ex>Et</ex></orig><reg><ex>et</ex></reg></choice></w>
+               <w xml:id="w_MarcheantAsne_BnF1630_554"><ex>con</ex>mance</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_555">a</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_556">troter</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_557">formant</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_558">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="80">
+               <lb n="80"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_559">Dit</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_560">le</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_561">vilain</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_562">
+                  <choice>
+                     <orig/>
+                     <reg>:</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_MarcheantAsne_BnF1630_563">
+                  <choice>
+                     <orig/>
+                     <reg>«</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_MarcheantAsne_BnF1630_564"><choice><orig>c</orig><reg>C</reg></choice>e</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_565"><choice><orig>d</orig><reg>D</reg></choice>ieux</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_566">m’</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_567">ama<ex>n</ex>t</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_568">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="81">
+               <lb n="81"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_569"><choice><orig>B</orig><reg>b</reg></choice>on</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_570"><ex>con</ex>soil</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_571">m’</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_572">a<choice><orig>u</orig><reg>v</reg></choice>ez</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_573">or</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_574">apris</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_575">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="82">
+               <lb n="82"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_576">Saiges</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_577">estes</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_578"><ex>et</ex></w>
+               <w xml:id="w_MarcheantAsne_BnF1630_579">bien</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_580">apr<space type="degl"/>is</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_581">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+         </lg>
+         <lg>
+            <l n="83">
+               <lb n="83"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_582"><g type="initiale" rend="size(1) sizeAct(1) color(red)">O</g>r</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_583">me</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_584">dites</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_585">quelz</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_586">hon</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_587">v<ex>ous</ex></w>
+               <w xml:id="w_MarcheantAsne_BnF1630_588">yestes</w>
+            </l>
+            <l n="84">
+               <lb n="84"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_589"><choice><orig>C</orig><reg>c</reg></choice>ar</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_590">de</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_591">ma</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_592"><ex>con</ex>noissance</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_593">n’</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_594">ietes</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_595">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="85">
+               <lb n="85"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_596"><choice><orig><ex>Et</ex></orig><reg><ex>et</ex></reg></choice></w>
+               <w xml:id="w_MarcheantAsne_BnF1630_597">se</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_598">v<ex>ous</ex></w>
+               <w xml:id="w_MarcheantAsne_BnF1630_599">estes</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_600"><choice><orig>R</orig><reg>r</reg></choice>iches</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_601">hon</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_602">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_MarcheantAsne_BnF1630_603">
+                  <choice>
+                     <orig/>
+                     <reg>»</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="86">
+               <lb n="86"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_604">Dist</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_605">li</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_606">trespasans</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_607">
+                  <choice>
+                     <orig/>
+                     <reg>:</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_MarcheantAsne_BnF1630_608">
+                  <choice>
+                     <orig/>
+                     <reg>«</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_MarcheantAsne_BnF1630_609"><choice><orig>c</orig><reg>C</reg></choice><ex>er</ex>tes</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_610"><choice><orig>N</orig><reg>n</reg></choice>on</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_611">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+               <pb n="158r"
+                    xml:id="pb_3"
+                    facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b520009475/f323/full/pct:50/0/native.jpg"/>
+               <cb n="158ra"/>
+            </l>
+            <l n="87">
+               <lb n="87"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_613">Po<choice><orig>u</orig><reg>v</reg></choice>res</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_614">hon</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_615">suis</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_616">sanz</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_617">nul</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_618">deport</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_619">
+                  <choice>
+                     <orig/>
+                     <reg>:</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="88">
+               <lb n="88"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_620"><choice><orig>T</orig><reg>t</reg></choice>restout</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_621">quanq<ex>ue</ex></w>
+               <w xml:id="w_MarcheantAsne_BnF1630_622"><choice><orig>i</orig><reg>j</reg></choice>’</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_623">ai</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_624">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_MarcheantAsne_BnF1630_625">s<ex>us</ex></w>
+               <w xml:id="w_MarcheantAsne_BnF1630_626">moi</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_627">port</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_628">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+         </lg>
+         <lg>
+            <l n="89">
+               <lb n="89"/>
+               <pc xml:id="w_MarcheantAsne_BnF1630_629">
+                  <choice>
+                     <orig/>
+                     <reg>-</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_MarcheantAsne_BnF1630_630"><g type="initiale" rend="size(1) sizeAct(2) color(red)">P</g>o<choice><orig>u</orig><reg>v</reg></choice>res</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_631">hon</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_632">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_MarcheantAsne_BnF1630_633">ce</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_634">dist</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_635">li</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_636">vilains</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_637">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="90">
+               <lb n="90"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_638">Par</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_639">mu<ex>n</ex></w>
+               <w xml:id="w_MarcheantAsne_BnF1630_640">chief</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_641">ta<ex>n</ex>t</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_642"><choice><orig>u</orig><reg>v</reg></choice><ex>ous</ex></w>
+               <w xml:id="w_MarcheantAsne_BnF1630_643">p<ex>ri</ex>s</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_644">ge</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_645">mains</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_646">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="91">
+               <lb n="91"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_647"><ex>Con</ex>mant</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_648">donc</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_649">me</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_650">suis</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_651">a<choice><orig>u</orig><reg>v</reg></choice>illiez</w>
+            </l>
+            <l n="92">
+               <lb n="92"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_652"><choice><orig>Q</orig><reg>q</reg></choice>u’</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_653">a</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_654">po<choice><orig>u</orig><reg>v</reg></choice>re</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_655">me</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_656">suis</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_657">conseilliez</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_658">
+                  <choice>
+                     <orig/>
+                     <reg>?</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="93">
+               <lb n="93"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_659">Po<choice><orig>u</orig><reg>v</reg></choice>res</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_660">bon</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_661">consoil</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_662">ne</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_663">donr<space type="degl"/>a</w>
+            </l>
+            <l n="94">
+               <lb n="94"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_664"><choice><orig>N</orig><reg>n</reg></choice>e</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_665">bien</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_666">demande</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_667">ne</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_668">sor<space type="degl"/>r<space type="degl"/>a</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_669">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="95">
+               <lb n="95"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_670">De</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_671">lui</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_672">ne</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_673">peut</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_674">nul</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_675">b<ex>ie</ex>n</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_676">venir</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_677">
+                  <choice>
+                     <orig/>
+                     <reg>;</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="96">
+               <lb n="96"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_678" join="right"><choice><orig>P</orig><reg>p</reg></choice>our</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_679">ce</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_680">ne</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_681">m’</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_682">i</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_683">quier</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_684"><choice><orig>i</orig><reg>j</reg></choice>a</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_685">tenir</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_686">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="97">
+               <lb n="97"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_687" join="right">Au</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_688">po<choice><orig>u</orig><reg>v</reg></choice>re</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_689">son</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_690"><ex>con</ex>soil</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_691">soit</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_692">sien</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_693">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="98">
+               <lb n="98"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_694">Rien</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_695">ne</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_696"><choice><orig>u</orig><reg>v</reg></choice>aut</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_697">ne</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_698">poi<ex>n</ex>t</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_699">ne</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_700">m’</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_701">i</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_702">tie<ex>n</ex></w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_703">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="99">
+               <lb n="99"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_704"><ex>Con</ex>mant</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_705">saroit</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_706">b<ex>ie</ex>n</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_707">de<choice><orig>u</orig><reg>v</reg></choice>issier</w>
+            </l>
+            <l n="100">
+               <lb n="100"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_708"><choice><orig>Q</orig><reg>q</reg></choice><ex>ua</ex>nt</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_709">il</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_710">ne</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_711">se</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_712">set</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_713">a<choice><orig>u</orig><reg>v</reg></choice>issier</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_714">
+                  <choice>
+                     <orig/>
+                     <reg>?</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="101">
+               <lb n="101"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_715">Par</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_716">le</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_717">cuer</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_718">bé</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_719">
+                  <choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_MarcheantAsne_BnF1630_720">ne</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_721">m’</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_722">i</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_723">tanr<space type="degl"/>ai</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_724">
+                  <choice>
+                     <orig/>
+                     <reg>!</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="102">
+               <lb n="102"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_725">Mu<ex>n</ex></w>
+               <w xml:id="w_MarcheantAsne_BnF1630_726">p<ex>re</ex>mier</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_727">chemi<ex>n</ex></w>
+               <w xml:id="w_MarcheantAsne_BnF1630_728">repanr<space type="degl"/>ai</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_729">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_MarcheantAsne_BnF1630_730">
+                  <choice>
+                     <orig/>
+                     <reg>»</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="103">
+               <lb n="103"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_731">Lors</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_732">p<ex>ar</ex></w>
+               <w xml:id="w_MarcheantAsne_BnF1630_733">gra<ex>n</ex>t</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_734">aïr</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_735">passe</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_736">a<choice><orig>u</orig><reg>v</reg></choice>ant</w>
+            </l>
+            <l n="104">
+               <lb n="104"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_737"><choice><orig><ex>Et</ex></orig><reg><ex>et</ex></reg></choice></w>
+               <w xml:id="w_MarcheantAsne_BnF1630_738">se</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_739">met</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_740">an</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_741">l’</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_742">estat</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_743">de<choice><orig>u</orig><reg>v</reg></choice>ant</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_744">
+                  <choice>
+                     <orig/>
+                     <reg>;</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="105">
+               <lb n="105"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_745"><choice><orig>L</orig><reg>l</reg></choice>es</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_746">pierres</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_747">ou</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_748">penier</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_749">remist</w>
+            </l>
+            <l n="106">
+               <lb n="106"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_750"><choice><orig><ex>Et</ex></orig><reg><ex>et</ex></reg></choice></w>
+               <w xml:id="w_MarcheantAsne_BnF1630_751">p<ex>ar</ex></w>
+               <w xml:id="w_MarcheantAsne_BnF1630_752">male</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_753">a<choice><orig>u</orig><reg>v</reg></choice>anture</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_754">dist</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_755">
+                  <choice>
+                     <orig/>
+                     <reg>:</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="107">
+               <lb n="107"/>
+               <pc xml:id="w_MarcheantAsne_BnF1630_756">
+                  <choice>
+                     <orig/>
+                     <reg>«</reg>
+                  </choice>
+               </pc>
+               <w xml:id="w_MarcheantAsne_BnF1630_757">Con<choice><orig>u</orig><reg>v</reg></choice>ie<ex>n</ex>t</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_758">il</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_759">or</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_760">po<choice><orig>u</orig><reg>v</reg></choice><ex>re</ex></w>
+               <w xml:id="w_MarcheantAsne_BnF1630_761">ho<ex>n</ex>me</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_762">croire</w>
+            </l>
+            <l n="108">
+               <lb n="108"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_763"><choice><orig>Q</orig><reg>q</reg></choice>ui</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_764">ne</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_765">cet</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_766">dire</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_767">chose</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_768">voire</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_769">
+                  <choice>
+                     <orig/>
+                     <reg>?</reg>
+                  </choice>
+               </pc>
+               <pc xml:id="w_MarcheantAsne_BnF1630_770">
+                  <choice>
+                     <orig/>
+                     <reg>»</reg>
+                  </choice>
+               </pc>
+            </l>
+            <l n="109">
+               <lb n="109"/>
+               <w xml:id="w_MarcheantAsne_BnF1630_771">Son</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_772">asne</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_773" join="right">a</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_774">batre</w>
+               <w xml:id="w_MarcheantAsne_BnF1630_775">ran<ex>con</ex>mance</w>
+               <pc xml:id="w_MarcheantAsne_BnF1630_776">
+                  <choice>
+                     <orig/>
+                     <reg>.</reg>
+                  </choice>
+               </pc>
+            </l>
+         </lg>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,1750 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="fro">Les putains et les lecheors</title>
+            <author>Anonyme</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2024</date>
+            </edition>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="acorbellari">Alain Corbellari</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="alavrent">Alexei Lavrentiev</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="apinche">Ariane Pinche</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="blaid">Baptiste Laïd</name>
+            </respStmt>
+            <respStmt>
+               <resp>robot</resp>
+               <name xml:id="bot">bot bot</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="cguillot">Céline Guillot-Barbance</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="clachet">Claude Lachet</name>
+            </respStmt>
+            <respStmt>
+               <resp>editeur</resp>
+               <resp>traducteur</resp>
+               <resp>chef de projet</resp>
+               <name xml:id="cpierreville">Corinne Pierreville</name>
+            </respStmt>
+            <respStmt>
+               <resp>relecteur</resp>
+               <resp>relecteur-traduction</resp>
+               <resp>membre</resp>
+               <name xml:id="ggruber">Gauthier Grüber</name>
+            </respStmt>
+            <respStmt>
+               <resp>ingénieur</resp>
+               <name xml:id="jnuguet">Jules Nuguet</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="ngarnier">Nicolas Garnier</name>
+            </respStmt>
+            <respStmt>
+               <resp>Relecteur traduction</resp>
+               <name xml:id="rbellon">Roger Bellon</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="rtrachsler">Richard Trachsler</name>
+            </respStmt>
+            <respStmt>
+               <resp>membre</resp>
+               <name xml:id="veugene">Valentine Eugène</name>
+            </respStmt>
+            <respStmt>
+               <resp>ingénieur</resp>
+               <name xml:id="myamagata">Moe Yamagata</name>
+            </respStmt>
+            <respStmt>
+               <resp/>
+               <name xml:id="jdocks">Justine DOCKS</name>
+            </respStmt>
+            <respStmt>
+               <resp>editeur</resp>
+               <resp>relecteur</resp>
+               <resp>traducteur</resp>
+               <resp>relecteur-traduction</resp>
+               <resp/>
+               <name> </name>
+            </respStmt>
+         </editionStmt>
+         <extent>
+            <num xml:id="nb_tokens_given">572</num>
+            <num xml:id="nb_mots_given">487</num>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <name>ENS de Lyon / UMR 5317 IHRIM, Base de français médiéval, projet Fabliaux</name>
+            </publisher>
+            <address>
+               <addrLine>15, parvis René Descartes</addrLine>
+               <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+               <addrLine>Tél : 04 37 37 63 10</addrLine>
+               <addrLine>Mèl : bfm@ens-lyon.fr</addrLine>
+               <addrLine>http://bfm.ens-lyon.fr</addrLine>
+            </address>
+            <idno type="bfm">http://catalog.bfm-corpus.org/fabliaux/PutainsLecheors_Nott-6</idno>
+            <idno type="doi">10.34847/nkl.9f5d9da4</idno>
+            <availability status="free">
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <ab type="availability_bfm">Les Conditions générales d'utilisation de la Base de Français Médiéval (http://txm.bfm-corpus.org/bfm/files/CGU.pdf), 
+                        et notamment son Article 5 « PROPRIETE INTELLECTUELLE », s'appliquent à tous les textes de la BFM.</ab>
+                  <ab type="how_to_cite">
+                     <label>Comment citer ce texte :</label>
+                     <bibl>Les putains et les lecheors, édité par Corinne Pierreville en collaboration avec Gauthier Grüber. Publié en ligne par l’ENS de Lyon dans la Base de français médiéval, 
+2024, http://catalog.bfm-corpus.org/fabliaux/PutainsLecheors_Nott-6.</bibl>
+                        D'autres formules de citation de la BFM sont proposées sur la page web suivante :
+                        http://bfm.ens-lyon.fr/spip.php?article281.</ab>
+                  <ab type="availability_file">
+                     <label>Conditions d'utilisation de ce fichier :</label>
+                        Ce fichier numérique est composé du corps de texte médiéval (restauré par son ou ses éditeur(s) scientifique(s)), des apparats critiques (introductions, notes, glossaires, explications, du texte d'origine (ou des enrichissements) qui ont été réalisés dans le cadre de la restauration des textes par les Editeurs Scientifiques) et des suppléments numériques : balisage XML-TEI, métadonnées (teiHeader), balisage du discours direct, étiquetage morpho-syntaxique, lemmatisation. Le texte et les suppléments numériques sont libres de droit et peuvent à ce titre être téléchargés et réutilisés librement. Les apparats critiques sont soumis à une licence de type CC BY-NC-SA 3.0 FR  http://creativecommons.org/licenses/by-nc-sa/3.0/fr. Les Utilisateurs s’engagent à respecter les termes de cette licence. 
+                    </ab>
+                  <ab type="availability_txmweb" subtype="illimité">
+                     <label>Conditions d'utilisation par le portail BFM :</label>
+                        Pas de limitation dans l'usage des fonctionnalités. Téléchargement autorisé.</ab>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="main" xml:id="Nott-6">
+               <msIdentifier>
+                  <settlement>Nottingham</settlement>
+                  <repository>University Library</repository>
+                  <idno>Mi LM 6</idno>
+                  <idno type="URI" subtype="Notice" n="Arlima">https://www.arlima.net/mss/united_kingdom/nottingham/university_library/wollaton_library_collection/mi_lm_6.html</idno>
+                  <idno type="URI" subtype="Notice" n="Jonas">http://jonas.irht.cnrs.fr/manuscrit/38993</idno>
+                  <idno type="URI" subtype="Data" n="Biblissima">
+https://data.biblissima.fr/entity/Q274315</idno>
+                  <idno type="URI" subtype="Fac-similé">https://nakala.fr/10.34847/nkl.cf086818</idno>
+                  <idno type="URI" subtype="Manifeste_IIIF">https://api.nakala.fr/data/10.34847/nkl.cf086818/6be5e352e46c96c7d25a1d4508331a841ee7a67f</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem xml:id="deVilains_Nott-6">
+                     <locus>f. 343rb-344ra</locus>
+                     <title>Les deus vilains</title>
+                  </msItem>
+                  <msItem xml:id="ConnebertGautierLeLeu_Nott-6">
+                     <locus>f.156vb-159rb</locus>
+                     <title>Connebert</title>
+                  </msItem>
+                  <msItem xml:id="ContrarieuseMarieDeFrance_Nott-6">
+                     <title>La contrarieuse</title>
+                  </msItem>
+                  <msItem xml:id="CugnieMarieDeFrance_Nott-6">
+                     <locus>f. 351vb-351vb</locus>
+                     <title>La cugnie</title>
+                  </msItem>
+                  <msItem xml:id="DameEscoillee_Nott-6">
+                     <locus>f. 346ra-349va</locus>
+                     <title>La dame escoillee</title>
+                  </msItem>
+                  <msItem xml:id="DieuPescour_Nott-6">
+                     <locus>f. 344ra-345va</locus>
+                     <title>Dieu et le pescour</title>
+                  </msItem>
+                  <msItem xml:id="DitRaoulDeHosdaing_Nott-6">
+                     <locus>f. 350ra-350vb</locus>
+                     <title>Le dit de Raoul de Hosdaing</title>
+                  </msItem>
+                  <msItem xml:id="FemmePendreMarieDeFrance_Nott-6">
+                     <title>La femme qui fist pendre son mari</title>
+                  </msItem>
+                  <msItem xml:id="FolVilain_Nott-6">
+                     <locus>f. 337ra-338vb</locus>
+                     <title>Le fol vilain</title>
+                  </msItem>
+                  <msItem xml:id="PutainsLecheors_Nott-6">
+                     <locus>f. 349va-350ra</locus>
+                     <title>Les putains et les lecheors</title>
+                  </msItem>
+                  <msItem xml:id="Sohais_Nott-6">
+                     <locus>f. 336ra-336vb</locus>
+                     <title>Les sohais</title>
+                  </msItem>
+                  <msItem xml:id="SotChevalierGautierLeLeu_Nott-6">
+                     <locus>f. 341va-343rb</locus>
+                     <title>Le sot chevalier</title>
+                  </msItem>
+                  <msItem xml:id="Veuve_Nott-6">
+                     <locus>f. 338vb-341va</locus>
+                     <title>La Veuve</title>
+                  </msItem>
+                  <msItem xml:id="VilainFameDru_Nott-6">
+                     <title>Le Vilain qui od sa fame vit aller son dru</title>
+                  </msItem>
+                  <msItem xml:id="VilainFelunesse_Nott-6">
+                     <title>Le Vilain et la femme felunesse</title>
+                  </msItem>
+                  <msItem xml:id="VilainFolet_Nott-6">
+                     <title>Le Vilain et le folet</title>
+                  </msItem>
+                  <msItem xml:id="VilainHomeFeme_Nott-6">
+                     <title>Le Vilain qui vit un autre home od sa feme</title>
+                  </msItem>
+                  <msItem xml:id="VilainParadis_Nott-6">
+                     <locus>f. 350vb-351vb</locus>
+                     <title>Le vilain qui conquist paradis par plait</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin notBefore="1290-01-01" notAfter="1299-12-31">
+                     <p>fin 13e s.</p>
+                  </origin>
+               </history>
+            </msDesc>
+            <msDesc type="other" xml:id="Bern-354">
+               <msIdentifier>
+                  <settlement>Bern</settlement>
+                  <repository>Burgerbibliothek</repository>
+                  <idno>354</idno>
+                  <idno type="URI" subtype="Notice" n="Arlima">https://www.arlima.net/mss/suisse/bern/burgerbibliothek/354.html</idno>
+                  <idno type="URI" subtype="Notice" n="Jonas">http://jonas.irht.cnrs.fr/manuscrit/8202</idno>
+                  <idno type="URI" subtype="Data" n="Biblissima">
+https://data.biblissima.fr/entity/Q217870</idno>
+                  <idno type="URI" subtype="Fac-similé">https://www.e-codices.unifr.ch/fr/list/one/bbb/0354</idno>
+                  <idno type="URI" subtype="Manifeste_IIIF">https://www.e-codices.unifr.ch/metadata/iiif/bbb-0354/manifest.json</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem xml:id="deBordeorsRibaux_Bern-354">
+                     <title>Les deux Bordeors ribaux</title>
+                  </msItem>
+                  <msItem xml:id="quSohaisMartin_Bern-354">
+                     <locus>f. 167va-169ra</locus>
+                     <title>Les quatre souhais saint Martin</title>
+                  </msItem>
+                  <msItem xml:id="Auberee_Bern-354">
+                     <title>Auberee</title>
+                  </msItem>
+                  <msItem xml:id="BaratHaimetBodel_Bern-354">
+                     <title>Barat et Haimet</title>
+                  </msItem>
+                  <msItem xml:id="Berangier1_Bern-354">
+                     <locus>f. 146va-149ra</locus>
+                     <title>Berangier au long cul I</title>
+                  </msItem>
+                  <msItem xml:id="BorgeoiseOrliens_Bern-354">
+                     <title>La Borgeoise d'Orliens</title>
+                  </msItem>
+                  <msItem xml:id="BotaPierre1_Bern-354">
+                     <locus>f. 011va-012ra</locus>
+                     <title>Celui qui bota la pierre I</title>
+                  </msItem>
+                  <msItem xml:id="Brifaut_Bern-354">
+                     <locus>f. 009va-010rb</locus>
+                     <title>Brifaut</title>
+                  </msItem>
+                  <msItem xml:id="ChevalierAmorDame_Bern-354">
+                     <title>Le Chevalier qui recovra l'amor de sa dame</title>
+                  </msItem>
+                  <msItem xml:id="ChevalierParlerCons1Guerin_Bern-354">
+                     <title>Le chevalier qui fist les cons parler I</title>
+                  </msItem>
+                  <msItem xml:id="CoilleNoire_Bern-354">
+                     <title>La Couille noire</title>
+                  </msItem>
+                  <msItem xml:id="ConVitSoriz_Bern-354">
+                     <title>Lo Con, lo vit et la soriz</title>
+                  </msItem>
+                  <msItem xml:id="ConnebertGautierLeLeu_Bern-354">
+                     <locus>f. 156vb-159rb</locus>
+                     <title>Connebert</title>
+                  </msItem>
+                  <msItem xml:id="Constant_Bern-354">
+                     <title>Constant du Hamel</title>
+                  </msItem>
+                  <msItem xml:id="CovoteusEnvieusBodel_Bern-354">
+                     <title>Le covoteus et l'envieus</title>
+                  </msItem>
+                  <msItem xml:id="DamoiseleFoutre2_Bern-354">
+                     <locus>f. 058ra-059vb</locus>
+                     <title>La damoisele qui ne pooit oïr parler de foutre II</title>
+                  </msItem>
+                  <msItem xml:id="DamoiseleSonjoit_Bern-354">
+                     <locus>f. 112rb-112vb</locus>
+                     <title>La Damoiselle qui sonjoit</title>
+                  </msItem>
+                  <msItem xml:id="Escuiruel_Bern-354">
+                     <title>L'Escuiruel</title>
+                  </msItem>
+                  <msItem xml:id="Estopes_Bern-354">
+                     <title>La Sorisete des estopes</title>
+                  </msItem>
+                  <msItem xml:id="Estula_Bern-354">
+                     <locus>f. 116rb-117rb</locus>
+                     <title>Estula</title>
+                  </msItem>
+                  <msItem xml:id="EvesqueCon_Bern-354">
+                     <title>L'Evesque qui beneï lo con</title>
+                  </msItem>
+                  <msItem xml:id="Foteor_Bern-354">
+                     <title>Le Foteor</title>
+                  </msItem>
+                  <msItem xml:id="FoutreFosse_Bern-354">
+                     <locus>f. 059vb-060vb</locus>
+                     <title>Celle qui se fist foutre sur la fosse de son mari</title>
+                  </msItem>
+                  <msItem xml:id="Gombert2ClersBodel_Bern-354">
+                     <title>Gombert et les deus clers</title>
+                  </msItem>
+                  <msItem xml:id="Grue1_Bern-354">
+                     <locus>f. 041ra-042rb</locus>
+                     <title>La Damoisele a la grue I</title>
+                  </msItem>
+                  <msItem xml:id="MaignienDame_Bern-354">
+                     <locus>f. 115rb-116rb</locus>
+                     <title>Le maignien qui foti la dame</title>
+                  </msItem>
+                  <msItem xml:id="MaleHonte2HuonDeCambrai_Bern-354">
+                     <locus>f. 045va-047rb</locus>
+                     <title>La Male Honte II</title>
+                  </msItem>
+                  <msItem xml:id="Meunier2Clers_Bern-354">
+                     <locus>f. 164vb-167rb</locus>
+                     <title>Le meunier et les deus clers</title>
+                  </msItem>
+                  <msItem xml:id="Plantez_Bern-354">
+                     <title>La Plantez</title>
+                  </msItem>
+                  <msItem xml:id="Porcelet_Bern-354">
+                     <locus>f. 065rb-065vb</locus>
+                     <title>Porcelet</title>
+                  </msItem>
+                  <msItem xml:id="PovreClerc_Bern-354">
+                     <title>Le povre Clerc</title>
+                  </msItem>
+                  <msItem xml:id="PreTondu_Bern-354">
+                     <locus>f. 75ra-75vb</locus>
+                     <title>Le pré tondu</title>
+                  </msItem>
+                  <msItem xml:id="PrestreMures2_Bern-354">
+                     <locus>f. 143rb-143vb</locus>
+                     <title>Le prestre qui manja mores II</title>
+                  </msItem>
+                  <msItem xml:id="PuceleVoler_Bern-354">
+                     <title>La Pucele qui voloit voler</title>
+                  </msItem>
+                  <msItem xml:id="PutainsLecheors_Bern-354">
+                     <title>Les putains et les lecheors</title>
+                  </msItem>
+                  <msItem xml:id="Richeut_Bern-354">
+                     <title>Richeut</title>
+                  </msItem>
+                  <msItem xml:id="Segretain3_Bern-354">
+                     <title>Le Segretain moine III</title>
+                  </msItem>
+                  <msItem xml:id="SohaizDesvezBodel_Bern-354">
+                     <locus>f. 100vb-102vb</locus>
+                     <title>Le Sohait desvez</title>
+                  </msItem>
+                  <msItem xml:id="Tresces1Garin_Bern-354">
+                     <locus>f. 090vb-093va</locus>
+                     <title>Les tresces I</title>
+                  </msItem>
+                  <msItem xml:id="VieillePalme_Bern-354">
+                     <title>La Vielle qui oint la palme au chevalier</title>
+                  </msItem>
+                  <msItem xml:id="VilainBailluelBodel_Bern-354">
+                     <title>Le Vilain de Bailluel</title>
+                  </msItem>
+                  <msItem xml:id="VilainFarbuBodel_Bern-354">
+                     <title>Le vilain de Farbu</title>
+                  </msItem>
+                  <msItem xml:id="VilainMire_Bern-354">
+                     <title>Le Vilain Mire</title>
+                  </msItem>
+                  <msItem xml:id="VilainParadis_Bern-354">
+                     <title>Le vilain qui conquist paradis par plait</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin notBefore="1250-01-01" notAfter="1310-12-31">
+                     <p>fin 13e s.</p>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <title type="main" xml:lang="fro">Les putains et les lecheors</title>
+            <title type="alt" key="Nott 6">Les .III. commandemens</title>
+            <title type="modern" xml:lang="fr">Les putains et les noceurs
+            </title>
+            <date notBefore="1200-01-01" notAfter="1299-12-31" when="1250-12-31">13e s.</date>
+            <region type="dialecte_oeuvre">Non défini</region>
+            <idno type="INV" subtype="Montaiglon-Raynaud">76</idno>
+            <idno type="INV" subtype="Bedier">115</idno>
+            <idno type="INV" subtype="Nykrog">125</idno>
+            <idno type="INV" subtype="Jodogne">125</idno>
+            <idno type="INV" subtype="NRCF">64</idno>
+            <idno type="URI" n="Jonas">https://jonas.irht.cnrs.fr/oeuvre/9055</idno>
+            <idno type="URI" n="Arlima">https://www.arlima.net/mp/putains_et_lecheors.html</idno>
+         </creation>
+         <langUsage>
+            <language ident="fro"/>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.bfm-corpus.org">
+               <term type="domaine">littérature</term>
+               <term type="genre" cert="medium">Fabliau
+               </term>
+               <term type="forme">vers</term>
+               <term type="relation">non renseigné</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#cpierreville" when="2024-04-08T14:46:48" n="v2.0">Utilisation du fichier PutainsLecheors[Nott 6]v2.0.docx</change>
+         <change who="#bot" when="2024-04-08" n="v2.0">Transformation avec Oxgarage du fichier PutainsLecheors[Nott 6]2.0.docx</change>
+         <change who="#ggruber" when="2024-04-09T10:39:11" n="v2.0">Utilisation du fichier PutainsLecheors[Nott 6]v2.0_relu_GG.docx</change>
+         <change who="#cpierreville" when="2024-04-11T08:05:39" n="v2.1">Utilisation du fichier PutainsLecheors[Nott 6]v2.1.docx</change>
+         <change who="#cpierreville" when="2024-04-11T09:38:00" n="v2.2">Utilisation du fichier PutainsLecheors[Nott 6]v2.2.docx</change>
+         <change who="#bot" when="2024-04-11" n="v2.2">Transformation avec Oxgarage du fichier PutainsLecheors[Nott 6]2.2.docx</change>
+         <change who="#cpierreville" when="2024-04-11T15:28:11" n="v1.0">Utilisation du fichier PutainsLecheors[Nott 6]trad-v1.0.docx</change>
+         <change who="#cpierreville" when="2024-04-11T15:28:11" n="v2.3">Utilisation du fichier PutainsLecheors[Nott 6]v2.3.docx</change>
+         <change who="#bot" when="2024-04-12" n="v2.3">Transformation avec Oxgarage du fichier PutainsLecheors[Nott 6]2.3.docx</change>
+         <change who="#bot" when="2024-04-12" n="v1.0">Transformation avec Oxgarage du fichier PutainsLecheors[Nott 6]1.0.docx</change>
+         <change who="#ggruber" when="2024-05-20T14:08:20" n="v1.0">Utilisation du fichier PutainsLecheors[Nott 6]trad-v1.0_reluGG.docx</change>
+         <change who="#cpierreville" when="2024-05-24T08:22:02" n="v1.1">Utilisation du fichier PutainsLecheors[Nott 6]trad-v1.1.docx</change>
+         <change who="#bot" when="2024-05-24" n="v1.1">Transformation avec Oxgarage du fichier PutainsLecheors[Nott 6]1.1.docx</change>
+         <change who="#cpierreville" when="2024-06-20T05:53:16" n="v2.4">Utilisation du fichier PutainsLecheors[Nott 6]v2.4.docx</change>
+         <change who="#cpierreville" when="2024-06-20T11:53:20" n="v2.5">Utilisation du fichier PutainsLecheors[Nott 6]v2.5.docx</change>
+         <change who="#bot" when="2024-06-20" n="v2.5">Transformation avec Oxgarage du fichier PutainsLecheors[Nott 6]2.5.docx</change>
+      </revisionDesc>
+   </teiHeader>
+   <text source="PutainsLecheors_Nott-6">
+      <body>
+         <pb n="349v"
+              xml:id="pb_1"
+              facs="https://api.nakala.fr/iiif/10.34847/nkl.cf086818/10301b55c404a3cd242d6f439686ec11b0cabf17/full/full/0/default.jpg"/>
+         <cb n="349va"/>
+         <div>
+            <head>
+               <w xml:id="w_PutainsLecheors_Nott6_1"><choice><orig>d</orig><reg>D</reg></choice>es</w>
+               <num>
+                  <w xml:id="w_PutainsLecheors_Nott6_2">.i<choice><orig>j</orig><reg>i</reg></choice>i.</w>
+               </num>
+               <w xml:id="w_PutainsLecheors_Nott6_3"><ex>com</ex>ma<ex>n</ex>deme<ex>n</ex>s</w>
+               <note type="philologique">
+                  <p rend="footnote text" style="text-align: justify;">Le titre se lit dans la marge de gauche. Il est d’une autre main que le texte, mais ne semble pas beaucoup plus tardif. </p>
+               </note>
+            </head>
+            <lb/>
+            <lg>
+               <l n="1">
+                  <lb n="1"/>
+                  <w xml:id="w_PutainsLecheors_Nott6_4"><choice><orig>v</orig><reg>U</reg></choice>n</w>
+                  <note type="philologique">
+                     <p rend="footnote text">La majuscule est manquante, mais un petit <hi rend="italic">u</hi> d’attente se lit dans la marge de gauche.</p>
+                  </note>
+                  <w xml:id="w_PutainsLecheors_Nott6_5">fablel</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_6"><choice><orig>u</orig><reg>v</reg></choice>eritable</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_7"><ex>et</ex></w>
+                  <w xml:id="w_PutainsLecheors_Nott6_8">cort</w>
+                  <pc xml:id="w_PutainsLecheors_Nott6_9">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="2">
+                  <lb n="2"/>
+                  <w xml:id="w_PutainsLecheors_Nott6_10"><choice><orig>C</orig><reg>c</reg></choice>ortois</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_11">p<ex>or</ex></w>
+                  <w xml:id="w_PutainsLecheors_Nott6_12">reco<choice><orig>u</orig><reg>v</reg></choice>rer</w>
+                  <note type="philologique">
+                     <p rend="footnote text">P. Ménard édite <hi rend="italic">reconter.</hi>
+                     </p>
+                  </note>
+                  <w xml:id="w_PutainsLecheors_Nott6_13" join="right" ana="#aggl-cert_low">en</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_14">cort</w>
+               </l>
+               <l n="3">
+                  <lb n="3"/>
+                  <w xml:id="w_PutainsLecheors_Nott6_15">vos</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_16"><ex>con</ex>terai</w>
+                  <pc xml:id="w_PutainsLecheors_Nott6_17">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_PutainsLecheors_Nott6_18">si</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_19">l’</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_20">es<space type="degl"/>coutés</w>
+                  <pc xml:id="w_PutainsLecheors_Nott6_21">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="4">
+                  <lb n="4"/>
+                  <w xml:id="w_PutainsLecheors_Nott6_22"><choice><orig>C</orig><reg>c</reg></choice>ar</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_23">m<ex>o</ex>lt</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_24">doit</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_25">bie<ex>n</ex></w>
+                  <w xml:id="w_PutainsLecheors_Nott6_26">estre</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_27">escoltés</w>
+                  <pc xml:id="w_PutainsLecheors_Nott6_28">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="5">
+                  <lb n="5"/>
+                  <w xml:id="w_PutainsLecheors_Nott6_29">Qant</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_30"><choice><orig>d</orig><reg>D</reg></choice>ex</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_31">ot</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_32">estoré</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_33" join="right">le</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_34">monde</w>
+                  <pc xml:id="w_PutainsLecheors_Nott6_35">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="6">
+                  <lb n="6"/>
+                  <w xml:id="w_PutainsLecheors_Nott6_36"><choice><orig>S</orig><reg>s</reg></choice>i</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_37"><ex>com</ex></w>
+                  <w xml:id="w_PutainsLecheors_Nott6_38">il</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_39">est</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_40" join="right">a</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_41">la</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_42">roonde</w>
+                  <pc xml:id="w_PutainsLecheors_Nott6_43">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="7">
+                  <lb n="7"/>
+                  <w xml:id="w_PutainsLecheors_Nott6_44"><ex>et</ex></w>
+                  <w xml:id="w_PutainsLecheors_Nott6_45">qanq<ex>uë</ex></w>
+                  <w xml:id="w_PutainsLecheors_Nott6_46">il</w>
+                  <choice>
+                     <corr>
+                        <w xml:id="w_PutainsLecheors_Nott6_47">co<choice><orig>u</orig><reg>v</reg></choice>int</w>
+                     </corr>
+                     <sic>co<choice>
+                           <orig>u</orig>
+                           <reg>v</reg>
+                        </choice>ins</sic>
+                  </choice>
+                  <note type="philologique">
+                     <p rend="footnote text">Correction d’après <ref source="#Bern-354">Bern 354</ref>.</p>
+                  </note>
+                  <w xml:id="w_PutainsLecheors_Nott6_49">dedens</w>
+                  <pc xml:id="w_PutainsLecheors_Nott6_50">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="8">
+                  <lb n="8"/>
+                  <w xml:id="w_PutainsLecheors_Nott6_51">trois</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_52">ordenẹs</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_53">esgarda</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_54">de</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_55">gens</w>
+                  <cb n="349vb"/>
+               </l>
+               <l n="9">
+                  <lb n="9"/>
+                  <w xml:id="w_PutainsLecheors_Nott6_56"><choice><orig>Q</orig><reg>q</reg></choice><ex>u</ex>’</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_57"><ex>i</ex>l</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_58">fist</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_59">el</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_60">siecle</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_61">demorans</w>
+                  <pc xml:id="w_PutainsLecheors_Nott6_62">
+                     <choice>
+                        <orig/>
+                        <reg>:</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="10">
+                  <lb n="10"/>
+                  <w xml:id="w_PutainsLecheors_Nott6_63"><choice><orig>C</orig><reg>c</reg></choice>h<choice><orig><ex>eualie</ex></orig><reg><ex>evalie</ex></reg></choice>rs</w>
+                  <note type="philologique">
+                     <p rend="footnote text">P. Ménard édite <hi rend="italic">cevaliers.</hi>
+                     </p>
+                  </note>
+                  <pc xml:id="w_PutainsLecheors_Nott6_64">
+                     <choice>
+                        <orig>.</orig>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_PutainsLecheors_Nott6_65">clers</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_66"><ex>et</ex></w>
+                  <w xml:id="w_PutainsLecheors_Nott6_67">laborans</w>
+                  <pc xml:id="w_PutainsLecheors_Nott6_68">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="11">
+                  <lb n="11"/>
+                  <w xml:id="w_PutainsLecheors_Nott6_69"><choice><orig>l</orig><reg>L</reg></choice>es</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_70">ch<choice><orig><ex>eualie</ex></orig><reg><ex>evalie</ex></reg></choice>rs</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_71">tos</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_72">asena</w>
+               </l>
+               <l n="12">
+                  <lb n="12"/>
+                  <w xml:id="w_PutainsLecheors_Nott6_73">as</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_74" join="right">terres</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_75"><ex>et</ex></w>
+                  <w xml:id="w_PutainsLecheors_Nott6_76">as</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_77">clers</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_78">dona</w>
+               </l>
+               <l n="13">
+                  <lb n="13"/>
+                  <w xml:id="w_PutainsLecheors_Nott6_79">les</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_80">aumosnes</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_81"><ex>et</ex></w>
+                  <w xml:id="w_PutainsLecheors_Nott6_82">les</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_83">dimages</w>
+                  <pc xml:id="w_PutainsLecheors_Nott6_84">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="14">
+                  <lb n="14"/>
+                  <w xml:id="w_PutainsLecheors_Nott6_85">puis</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_86" join="right" ana="#aggl-cert_low">asena</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_87">as</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_88">laborages</w>
+               </l>
+               <l n="15">
+                  <lb n="15"/>
+                  <w xml:id="w_PutainsLecheors_Nott6_89">les</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_90">laborans</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_91">p<ex>or</ex></w>
+                  <w xml:id="w_PutainsLecheors_Nott6_92">laborer</w>
+                  <pc xml:id="w_PutainsLecheors_Nott6_93">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="16">
+                  <lb n="16"/>
+                  <w xml:id="w_PutainsLecheors_Nott6_94">Qant</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_95">ce</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_96">ot</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_97">fait</w>
+                  <pc xml:id="w_PutainsLecheors_Nott6_98">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_PutainsLecheors_Nott6_99">sans</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_100">demorer</w>
+               </l>
+               <l n="17">
+                  <lb n="17"/>
+                  <w xml:id="w_PutainsLecheors_Nott6_101">p<ex>ar</ex>ti</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_102">d’</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_103">illuec</w>
+                  <pc xml:id="w_PutainsLecheors_Nott6_104">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_PutainsLecheors_Nott6_105" join="right" ana="#aggl-cert_low">si</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_106">s’</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_107">en</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_108">ala</w>
+                  <pc xml:id="w_PutainsLecheors_Nott6_109">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="18">
+                  <lb n="18"/>
+                  <w xml:id="w_PutainsLecheors_Nott6_110"><choice><orig>t</orig><reg>T</reg></choice>ot</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_111">droit</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_112">en</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_113">son</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_114">aler</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_115"><choice><orig>u</orig><reg>v</reg></choice>i<ex>n</ex>t</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_116">la</w>
+               </l>
+               <l n="19">
+                  <lb n="19"/>
+                  <w xml:id="w_PutainsLecheors_Nott6_117"><choice><orig>v</orig><reg>u</reg></choice>ne</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_118">torbe</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_119" join="right">de</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_120">pecceors</w>
+                  <pc xml:id="w_PutainsLecheors_Nott6_121">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="20">
+                  <lb n="20"/>
+                  <w xml:id="w_PutainsLecheors_Nott6_122"><choice><orig>S</orig><reg>s</reg></choice>i</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_123"><ex>com</ex></w>
+                  <w xml:id="w_PutainsLecheors_Nott6_124">putai<ex>n</ex>s</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_125"><ex>et</ex></w>
+                  <w xml:id="w_PutainsLecheors_Nott6_126">leceors</w>
+                  <pc xml:id="w_PutainsLecheors_Nott6_127">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="21">
+                  <lb n="21"/>
+                  <w xml:id="w_PutainsLecheors_Nott6_128" join="right" ana="#aggl-cert_low"><choice><orig>p</orig><reg>P</reg></choice>oi</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_129">ot</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_130">alé</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_131">q<add place="above">a</add>nt</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_132">l’</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_133">ap<ex>ro</ex>ciere<ex>n</ex>t</w>
+                  <pc xml:id="w_PutainsLecheors_Nott6_134">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="22">
+                  <lb n="22"/>
+                  <w xml:id="w_PutainsLecheors_Nott6_135" join="right"><choice><orig>a</orig><reg>A</reg></choice></w>
+                  <w xml:id="w_PutainsLecheors_Nott6_136">c<ex>ri</ex>er</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_137">entr’</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_138">aus</w>
+                  <note type="philologique">
+                     <p rend="footnote text">P. Ménard édite <hi rend="italic">entre aus.</hi>
+                     </p>
+                  </note>
+                  <w xml:id="w_PutainsLecheors_Nott6_139"><ex>com</ex>me<ex>n</ex>cierent</w>
+                  <pc xml:id="w_PutainsLecheors_Nott6_140">
+                     <choice>
+                        <orig/>
+                        <reg>:</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="23">
+                  <lb n="23"/>
+                  <pc xml:id="w_PutainsLecheors_Nott6_141">
+                     <choice>
+                        <orig/>
+                        <reg>«</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_PutainsLecheors_Nott6_142"><choice><orig>e</orig><reg>E</reg></choice>stés</w>
+                  <pc xml:id="w_PutainsLecheors_Nott6_143">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_PutainsLecheors_Nott6_144"><choice><orig>s</orig><reg>S</reg></choice>ire</w>
+                  <pc xml:id="w_PutainsLecheors_Nott6_145">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_PutainsLecheors_Nott6_146">p<ex>ar</ex>lés</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_147" join="right">a</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_148">nos</w>
+                  <pc xml:id="w_PutainsLecheors_Nott6_149">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="24">
+                  <lb n="24"/>
+                  <w xml:id="w_PutainsLecheors_Nott6_150">Ne</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_151">nos</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_152">lasciés</w>
+                  <pc xml:id="w_PutainsLecheors_Nott6_153">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_PutainsLecheors_Nott6_154"><choice><orig>o</orig><reg>O</reg></choice>u</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_155" join="right" ana="#aggl-cert_low">alés</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_156"><choice><orig>u</orig><reg>v</reg></choice>os</w>
+                  <pc xml:id="w_PutainsLecheors_Nott6_157">
+                     <choice>
+                        <orig/>
+                        <reg>?</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="25">
+                  <lb n="25"/>
+                  <w xml:id="w_PutainsLecheors_Nott6_158" join="right">De</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_159">rien</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_160" join="right">ne</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_161">somes</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_162">asené</w>
+                  <pc xml:id="w_PutainsLecheors_Nott6_163">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="26">
+                  <lb n="26"/>
+                  <w xml:id="w_PutainsLecheors_Nott6_164"><choice><orig>S</orig><reg>s</reg></choice>’</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_165">a<choice><orig>u</orig><reg>v</reg></choice>és</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_166">as</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_167">alt<ex>re</ex>s</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_168">ta<ex>n</ex>t</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_169">doné</w>
+                  <pc xml:id="w_PutainsLecheors_Nott6_170">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+                  <pc xml:id="w_PutainsLecheors_Nott6_171">
+                     <choice>
+                        <orig/>
+                        <reg>»</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="27">
+                  <lb n="27"/>
+                  <w xml:id="w_PutainsLecheors_Nott6_172">N<ex>ostr</ex>e</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_173"><choice><orig>s</orig><reg>S</reg></choice>ire</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_174">les</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_175">regarda</w>
+               </l>
+               <l n="28">
+                  <lb n="28"/>
+                  <w xml:id="w_PutainsLecheors_Nott6_176"><choice><orig>Q</orig><reg>q</reg></choice>ant</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_177" join="right">les</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_178">oï</w>
+                  <pc xml:id="w_PutainsLecheors_Nott6_179">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_PutainsLecheors_Nott6_180" join="right">si</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_181">demanda</w>
+               </l>
+               <l n="29">
+                  <lb n="29"/>
+                  <pc xml:id="w_PutainsLecheors_Nott6_182">
+                     <choice>
+                        <orig>.</orig>
+                        <reg/>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_PutainsLecheors_Nott6_183"><choice><orig>S</orig><reg>s</reg></choice><ex>aint</ex></w>
+                  <pc xml:id="w_PutainsLecheors_Nott6_184">
+                     <choice>
+                        <orig>.</orig>
+                        <reg/>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_PutainsLecheors_Nott6_185"><choice><orig>p</orig><reg>P</reg></choice>iere</w>
+                  <pc xml:id="w_PutainsLecheors_Nott6_186">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_PutainsLecheors_Nott6_187">q<ex>ui</ex></w>
+                  <w xml:id="w_PutainsLecheors_Nott6_188">lés</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_189">lui</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_190">estoit</w>
+                  <pc xml:id="w_PutainsLecheors_Nott6_191">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="30">
+                  <lb n="30"/>
+                  <w xml:id="w_PutainsLecheors_Nott6_192"><choice><orig>D</orig><reg>d</reg></choice>e</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_193">cele</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_194">gent</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_195">q<ex>ui</ex></w>
+                  <w xml:id="w_PutainsLecheors_Nott6_196">ele</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_197">estoit</w>
+                  <pc xml:id="w_PutainsLecheors_Nott6_198">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="31">
+                  <lb n="31"/>
+                  <pc xml:id="w_PutainsLecheors_Nott6_199">
+                     <choice>
+                        <orig/>
+                        <reg>«</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_PutainsLecheors_Nott6_200"><choice><orig>v</orig><reg>U</reg></choice>ne</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_201">gens</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_202">est</w>
+                  <pc xml:id="w_PutainsLecheors_Nott6_203">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_PutainsLecheors_Nott6_204">dist</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_205">il</w>
+                  <pc xml:id="w_PutainsLecheors_Nott6_206">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_PutainsLecheors_Nott6_207">forfaite</w>
+                  <pc xml:id="w_PutainsLecheors_Nott6_208">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="32">
+                  <lb n="32"/>
+                  <w xml:id="w_PutainsLecheors_Nott6_209" join="right" ana="#aggl-cert_low"><choice><orig>Q</orig><reg>q</reg></choice><ex>ue</ex></w>
+                  <w xml:id="w_PutainsLecheors_Nott6_210"><choice><orig>u</orig><reg>v</reg></choice>os</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_211">a<choice><orig>u</orig><reg>v</reg></choice>és</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_212">autresi</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_213">faite</w>
+               </l>
+               <l n="33">
+                  <lb n="33"/>
+                  <w xml:id="w_PutainsLecheors_Nott6_214"><ex>com</ex></w>
+                  <w xml:id="w_PutainsLecheors_Nott6_215">çaus</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_216">q<ex>ui</ex></w>
+                  <w xml:id="w_PutainsLecheors_Nott6_217" join="right">de</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_218"><choice><orig>u</orig><reg>v</reg></choice>os</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_219">bie<ex>n</ex>s</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_220">se</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_221">fient</w>
+                  <pc xml:id="w_PutainsLecheors_Nott6_222">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="34">
+                  <lb n="34"/>
+                  <w xml:id="w_PutainsLecheors_Nott6_223"><choice><orig>S</orig><reg>s</reg></choice>i</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_224">hucent</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_225">ap<ex>ré</ex>s</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_226"><choice><orig>u</orig><reg>v</reg></choice>os</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_227"><ex>et</ex></w>
+                  <w xml:id="w_PutainsLecheors_Nott6_228">c<ex>ri</ex>ent</w>
+               </l>
+               <l n="35">
+                  <lb n="35"/>
+                  <w xml:id="w_PutainsLecheors_Nott6_229" join="right" ana="#aggl-cert_low"><choice><orig>Q</orig><reg>q</reg></choice><ex>ue</ex></w>
+                  <w xml:id="w_PutainsLecheors_Nott6_230" join="right" ana="#aggl-cert_low">lor</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_231">faciés</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_232">asenement</w>
+                  <pc xml:id="w_PutainsLecheors_Nott6_233">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+                  <pc xml:id="w_PutainsLecheors_Nott6_234">
+                     <choice>
+                        <orig/>
+                        <reg>»</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="36">
+                  <lb n="36"/>
+                  <w xml:id="w_PutainsLecheors_Nott6_235"><ex>Et</ex></w>
+                  <w xml:id="w_PutainsLecheors_Nott6_236"><choice><orig>d</orig><reg>D</reg></choice>amerdex</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_237">tot</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_238">erra<ex>m</ex>ment</w>
+                  <pc xml:id="w_PutainsLecheors_Nott6_239">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="37">
+                  <lb n="37"/>
+                  <w xml:id="w_PutainsLecheors_Nott6_240">ançois</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_241">q<ex>ue</ex></w>
+                  <w xml:id="w_PutainsLecheors_Nott6_242">plus</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_243">li</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_244">respondist</w>
+                  <pc xml:id="w_PutainsLecheors_Nott6_245">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="38">
+                  <lb n="38"/>
+                  <w xml:id="w_PutainsLecheors_Nott6_246">as</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_247">ch<choice><orig><ex>eualie</ex></orig><reg><ex>evalie</ex></reg></choice>rs</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_248"><choice><orig>u</orig><reg>v</reg></choice>int</w>
+                  <pc xml:id="w_PutainsLecheors_Nott6_249">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_PutainsLecheors_Nott6_250">si</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_251" join="right" ana="#aggl-cert_low">lor</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_252">dist</w>
+                  <pc xml:id="w_PutainsLecheors_Nott6_253">
+                     <choice>
+                        <orig/>
+                        <reg>:</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="39">
+                  <lb n="39"/>
+                  <pc xml:id="w_PutainsLecheors_Nott6_254">
+                     <choice>
+                        <orig/>
+                        <reg>«</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_PutainsLecheors_Nott6_255"><choice><orig>v</orig><reg>V</reg></choice>os</w>
+                  <pc xml:id="w_PutainsLecheors_Nott6_256">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_PutainsLecheors_Nott6_257">qui</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_258">les</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_259">terres</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_260">abandoi<ex>n</ex>s</w>
+                  <pc xml:id="w_PutainsLecheors_Nott6_261">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="40">
+                  <lb n="40"/>
+                  <w xml:id="w_PutainsLecheors_Nott6_262">les</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_263">leceors</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_264"><choice><orig>u</orig><reg>v</reg></choice><ex>os</ex></w>
+                  <w xml:id="w_PutainsLecheors_Nott6_265">bail</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_266"><ex>et</ex></w>
+                  <w xml:id="w_PutainsLecheors_Nott6_267">doi<ex>n</ex>s</w>
+               </l>
+               <l n="41">
+                  <lb n="41"/>
+                  <w xml:id="w_PutainsLecheors_Nott6_268" join="right"><choice><orig>Q</orig><reg>q</reg></choice><ex>ue</ex></w>
+                  <w xml:id="w_PutainsLecheors_Nott6_269"><choice><orig>u</orig><reg>v</reg></choice>os</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_270">d’</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_271">aus</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_272">g<ex>ra</ex>nt</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_273">cure</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_274">pre<ex>n</ex>gniés</w>
+               </l>
+               <l n="42">
+                  <lb n="42"/>
+                  <w xml:id="w_PutainsLecheors_Nott6_275"><ex>et</ex></w>
+                  <w xml:id="w_PutainsLecheors_Nott6_276">q<ex>u</ex>’</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_277"><ex>e</ex>n<space type="degl"/>tor</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_278"><choice><orig>u</orig><reg>v</reg></choice>os</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_279">les</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_280">retegniés</w>
+                  <pc xml:id="w_PutainsLecheors_Nott6_281">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="43">
+                  <lb n="43"/>
+                  <w xml:id="w_PutainsLecheors_Nott6_282" join="right"><choice><orig>Q</orig><reg>q</reg></choice><ex>ue</ex></w>
+                  <w xml:id="w_PutainsLecheors_Nott6_283" join="right" ana="#aggl-cert_low">il</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_284">n’</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_285">aie<ex>n</ex>t</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_286" join="right">de</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_287">rie<ex>n</ex></w>
+                  <w xml:id="w_PutainsLecheors_Nott6_288">sofraite</w>
+               </l>
+               <l n="44">
+                  <lb n="44"/>
+                  <w xml:id="w_PutainsLecheors_Nott6_289"><choice><orig>D</orig><reg>d</reg></choice>ont</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_290">ma</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_291">p<ex>ar</ex>ole</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_292">soit</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_293">e<ex>n</ex>fraite</w>
+                  <pc xml:id="w_PutainsLecheors_Nott6_294">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="45">
+                  <lb n="45"/>
+                  <w xml:id="w_PutainsLecheors_Nott6_295"><choice><orig>M</orig><reg>m</reg></choice>ais</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_296">donés</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_297">lor</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_298" join="right">a</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_299">lor</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_300">demant</w>
+                  <pc xml:id="w_PutainsLecheors_Nott6_301">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="46">
+                  <lb n="46"/>
+                  <w xml:id="w_PutainsLecheors_Nott6_302"><ex>Et</ex></w>
+                  <w xml:id="w_PutainsLecheors_Nott6_303" join="right">a</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_304"><choice><orig>u</orig><reg>v</reg></choice>os</w>
+                  <pc xml:id="w_PutainsLecheors_Nott6_305">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_PutainsLecheors_Nott6_306">segn<ex>or</ex></w>
+                  <w xml:id="w_PutainsLecheors_Nott6_307">clerc</w>
+                  <pc xml:id="w_PutainsLecheors_Nott6_308">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_PutainsLecheors_Nott6_309"><ex>com</ex>mant</w>
+               </l>
+               <l n="47">
+                  <lb n="47"/>
+                  <w xml:id="w_PutainsLecheors_Nott6_310">les</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_311"><add place="margin">putai<ex>n</ex>s</add></w>
+                  <w xml:id="w_PutainsLecheors_Nott6_312" join="right">tres</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_313">bien</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_314" join="right">a</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_315">garder</w>
+                  <pc xml:id="w_PutainsLecheors_Nott6_316">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="48">
+                  <lb n="48"/>
+                  <w xml:id="w_PutainsLecheors_Nott6_317"><choice><orig>e</orig><reg>E</reg></choice>nsi</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_318" join="right" ana="#aggl-cert_low">le</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_319"><choice><orig>u</orig><reg>v</reg></choice>os</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_320"><choice><orig>u</orig><reg>v</reg></choice>uel</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_321"><ex>com</ex>mander</w>
+                  <pc xml:id="w_PutainsLecheors_Nott6_322">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+                  <pc xml:id="w_PutainsLecheors_Nott6_323">
+                     <choice>
+                        <orig/>
+                        <reg>»</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="49">
+                  <lb n="49"/>
+                  <w xml:id="w_PutainsLecheors_Nott6_324"><choice><orig>e</orig><reg>E</reg></choice>n<space type="degl"/>droit</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_325">cestui</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_326"><ex>com</ex>mandem<ex>en</ex>t</w>
+               </l>
+               <l n="50">
+                  <lb n="50"/>
+                  <w xml:id="w_PutainsLecheors_Nott6_327" join="right"><choice><orig>N</orig><reg>n</reg></choice>e</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_328">font</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_329">il</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_330">nul</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_331">t<ex>re</ex>spassement</w>
+               </l>
+               <l n="51">
+                  <lb n="51"/>
+                  <w xml:id="w_PutainsLecheors_Nott6_332"><choice><orig>C</orig><reg>c</reg></choice>ar</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_333">il</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_334">les</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_335">tiene<ex>n</ex>t</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_336">totes</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_337">cieres</w>
+                  <pc xml:id="w_PutainsLecheors_Nott6_338">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="52">
+                  <lb n="52"/>
+                  <w xml:id="w_PutainsLecheors_Nott6_339" join="right" ana="#aggl-cert_low"><choice><orig>S</orig><reg>s</reg></choice>i</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_340">lor</w>
+                  <choice>
+                     <corr>
+                        <w xml:id="w_PutainsLecheors_Nott6_341">donent</w>
+                     </corr>
+                     <sic>dones</sic>
+                  </choice>
+                  <w xml:id="w_PutainsLecheors_Nott6_343" join="right">a</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_344">beles</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_345">cieres</w>
+               </l>
+               <l n="53">
+                  <lb n="53"/>
+                  <w xml:id="w_PutainsLecheors_Nott6_346" join="right" ana="#aggl-cert_low"><choice><orig>D</orig><reg>d</reg></choice>el</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_347">mels</w>
+                  <note type="philologique">
+                     <p rend="footnote text" style="text-align: justify;">Cette graphie de l’adverbe <hi rend="italic">mieux</hi> est attestée en Normandie et dans les dialectes de l’Ouest. Voir Collet et Greub 1.14.</p>
+                  </note>
+                  <w xml:id="w_PutainsLecheors_Nott6_348">q<ex>u</ex>’</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_349"><ex>i</ex>l</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_350">o<ex>n</ex>t</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_351"><ex>et</ex></w>
+                  <w xml:id="w_PutainsLecheors_Nott6_352">del</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_353">pl<ex>us</ex></w>
+                  <w xml:id="w_PutainsLecheors_Nott6_354">bel</w>
+                  <pc xml:id="w_PutainsLecheors_Nott6_355">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="54">
+                  <lb n="54"/>
+                  <w xml:id="w_PutainsLecheors_Nott6_356">Selonc</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_357" join="right">le</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_358">sens</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_359">de</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_360">cest</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_361">fablel</w>
+                  <pc xml:id="w_PutainsLecheors_Nott6_362">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="55">
+                  <lb n="55"/>
+                  <w xml:id="w_PutainsLecheors_Nott6_363" join="right"><choice><orig>S</orig><reg>s</reg></choice>e</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_364"><choice><orig>u</orig><reg>v</reg></choice>os</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_365">l’</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_366">a<choice><orig>u</orig><reg>v</reg></choice>és</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_367">bien</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_368">entendu</w>
+                  <pc xml:id="w_PutainsLecheors_Nott6_369">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <pb n="350r"
+                       xml:id="pb_2"
+                       facs="https://api.nakala.fr/iiif/10.34847/nkl.cf086818/dca5dce539f3852a1998717f7287a0180c08d382/full/full/0/default.jpg"/>
+                  <cb n="350ra"/>
+               </l>
+               <l n="56">
+                  <lb n="56"/>
+                  <w xml:id="w_PutainsLecheors_Nott6_371"><choice><orig>S</orig><reg>s</reg></choice>ont</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_372">tot</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_373">li</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_374">ch<choice><orig><ex>eualie</ex></orig><reg><ex>evalie</ex></reg></choice>r</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_375">p<ex>er</ex>du</w>
+                  <pc xml:id="w_PutainsLecheors_Nott6_376">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="57">
+                  <lb n="57"/>
+                  <w xml:id="w_PutainsLecheors_Nott6_377">car</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_378">les</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_379">leceors</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_380">tiene<ex>n</ex>t</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_381"><choice><orig>u</orig><reg>v</reg></choice>ius</w>
+               </l>
+               <l n="58">
+                  <lb n="58"/>
+                  <w xml:id="w_PutainsLecheors_Nott6_382"><ex>et</ex></w>
+                  <w xml:id="w_PutainsLecheors_Nott6_383">d’</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_384">aus</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_385">les</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_386">fo<ex>n</ex>t</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_387">so<choice><orig>u</orig><reg>v</reg></choice>ent</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_388">escius</w>
+                  <pc xml:id="w_PutainsLecheors_Nott6_389">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="59">
+                  <lb n="59"/>
+                  <w xml:id="w_PutainsLecheors_Nott6_390"><choice><orig>a</orig><reg>A</reg></choice>ler</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_391">les</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_392">font</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_393">n<ex>us</ex></w>
+                  <w xml:id="w_PutainsLecheors_Nott6_394"><ex>et</ex></w>
+                  <w xml:id="w_PutainsLecheors_Nott6_395">descaus</w>
+                  <pc xml:id="w_PutainsLecheors_Nott6_396">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="60">
+                  <lb n="60"/>
+                  <w xml:id="w_PutainsLecheors_Nott6_397"><ex>et</ex></w>
+                  <w xml:id="w_PutainsLecheors_Nott6_398">les</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_399">putai<ex>n</ex>s</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_400">o<ex>n</ex>t</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_401">pliço<ex>n</ex>s</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_402">caus</w>
+                  <pc xml:id="w_PutainsLecheors_Nott6_403">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="61">
+                  <lb n="61"/>
+                  <w xml:id="w_PutainsLecheors_Nott6_404">dobles</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_405">manteaus</w>
+                  <pc xml:id="w_PutainsLecheors_Nott6_406">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_PutainsLecheors_Nott6_407">dobles</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_408">sorcos</w>
+                  <pc xml:id="w_PutainsLecheors_Nott6_409">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="62">
+                  <lb n="62"/>
+                  <w xml:id="w_PutainsLecheors_Nott6_410"><choice><orig>p</orig><reg>P</reg></choice>etit</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_411">true<choice><orig>u</orig><reg>v</reg></choice>e<ex>n</ex>t</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_412" join="right">de</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_413">tex</w>
+                  <sic>
+                     <w xml:id="w_PutainsLecheors_Nott6_414">achos</w>
+                  </sic>
+                  <note type="philologique">
+                     <p rend="footnote text" style="text-align: justify;">Ménard corrige en <hi rend="italic">ados, </hi>Straub y voit un dérivé de <hi rend="italic">acor </hi>« manteau » ou <hi rend="italic">acost </hi>« accueil », Noomen reconnaît qu’il n’a pu identifier le terme. Le manuscrit de Berne donne <hi rend="italic">escot. </hi>Nous nous demandons, sous toute réserve, s’il ne pourrait s’agir d’une graphie du substantif <hi rend="italic">echo </hi>utilisé par extension au sens d’« accueil, réaction favorable, sympathie ». Le terme apparaît aux environs de 1225 dans le <hi rend="italic">Roman de la Rose</hi> de Guillaume de Lorris pour référer à la figure mythologique. Le texte jouerait alors sur les mots puisque le vers 63 évoque les <hi rend="italic">bons parliers, </hi>« les beaux parleurs », qui ne trouveraient pas pourtant pas d’ « écho » auprès des chevaliers.</p>
+                  </note>
+               </l>
+               <l n="63">
+                  <lb n="63"/>
+                  <w xml:id="w_PutainsLecheors_Nott6_415">li</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_416">leceor</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_417">as</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_418">ch<choice><orig><ex>eualie</ex></orig><reg><ex>evalie</ex></reg></choice>rs</w>
+                  <pc xml:id="w_PutainsLecheors_Nott6_419">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="64">
+                  <lb n="64"/>
+                  <w xml:id="w_PutainsLecheors_Nott6_420"><choice><orig>S</orig><reg>s</reg></choice>’</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_421">en</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_422" join="right">i</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_423">a</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_424">m<ex>o</ex>lt</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_425">de</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_426">bo<ex>n</ex>s</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_427">p<ex>ar</ex>liers</w>
+                  <pc xml:id="w_PutainsLecheors_Nott6_428">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="65">
+                  <lb n="65"/>
+                  <w xml:id="w_PutainsLecheors_Nott6_429"><choice><orig>e</orig><reg>E</reg></choice>n<choice><orig>u</orig><reg>v</reg></choice>is</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_430">ont</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_431" join="right">de</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_432">lor</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_433"><choice><orig>u</orig><reg>v</reg></choice>iés</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_434">drapiaus</w>
+               </l>
+               <l n="66">
+                  <lb n="66"/>
+                  <w xml:id="w_PutainsLecheors_Nott6_435"><ex>et</ex></w>
+                  <w xml:id="w_PutainsLecheors_Nott6_436">petit</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_437" join="right">de</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_438">lor</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_439">bons</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_440">morseaus</w>
+                  <pc xml:id="w_PutainsLecheors_Nott6_441">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="67">
+                  <lb n="67"/>
+                  <w xml:id="w_PutainsLecheors_Nott6_442" join="right"><choice><orig>a</orig><reg>A</reg></choice></w>
+                  <w xml:id="w_PutainsLecheors_Nott6_443">la</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_444">fois</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_445"><ex>com</ex></w>
+                  <w xml:id="w_PutainsLecheors_Nott6_446">as</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_447">chiens</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_448" join="right" ana="#aggl-cert_low">le</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_449">ruent</w>
+                  <pc xml:id="w_PutainsLecheors_Nott6_450">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="68">
+                  <lb n="68"/>
+                  <w xml:id="w_PutainsLecheors_Nott6_451"><ex>et</ex></w>
+                  <w xml:id="w_PutainsLecheors_Nott6_452">les</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_453">putains</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_454">adés</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_455">man<choice><orig>i</orig><reg>j</reg></choice>uent</w>
+               </l>
+               <l n="69">
+                  <lb n="69"/>
+                  <w xml:id="w_PutainsLecheors_Nott6_456">o</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_457">les</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_458">clers</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_459"><ex>et</ex></w>
+                  <w xml:id="w_PutainsLecheors_Nott6_460">coucent</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_461"><ex>et</ex></w>
+                  <w xml:id="w_PutainsLecheors_Nott6_462">lie<choice><orig>u</orig><reg>v</reg></choice>ent</w>
+                  <pc xml:id="w_PutainsLecheors_Nott6_463">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="70">
+                  <lb n="70"/>
+                  <w xml:id="w_PutainsLecheors_Nott6_464">Issi</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_465">les</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_466">despenses</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_467">emb<ex>ri</ex>e<choice><orig>u</orig><reg>v</reg></choice>ent</w>
+               </l>
+               <l n="71">
+                  <lb n="71"/>
+                  <w xml:id="w_PutainsLecheors_Nott6_468"><choice><orig>Q</orig><reg>q</reg></choice>ant</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_469">il</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_470" join="right">le</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_471">font</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_472">p<ex>or</ex></w>
+                  <w xml:id="w_PutainsLecheors_Nott6_473">eus</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_474">sau<choice><orig>u</orig><reg>v</reg></choice>er</w>
+                  <pc xml:id="w_PutainsLecheors_Nott6_475">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="72">
+                  <lb n="72"/>
+                  <w xml:id="w_PutainsLecheors_Nott6_476"><ex>Et</ex></w>
+                  <w xml:id="w_PutainsLecheors_Nott6_477">li</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_478">ch<choice><orig><ex>eualie</ex></orig><reg><ex>evalie</ex></reg></choice>r</w>
+                  <pc xml:id="w_PutainsLecheors_Nott6_479">
+                     <choice>
+                        <orig>.</orig>
+                        <reg/>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_PutainsLecheors_Nott6_480">sont</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_481">a<choice><orig>u</orig><reg>v</reg></choice>er</w>
+               </l>
+               <l n="73">
+                  <lb n="73"/>
+                  <w xml:id="w_PutainsLecheors_Nott6_482">as</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_483">leceors</w>
+                  <pc xml:id="w_PutainsLecheors_Nott6_484">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_PutainsLecheors_Nott6_485">si</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_486">se</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_487">traïssent</w>
+               </l>
+               <l n="74">
+                  <lb n="74"/>
+                  <w xml:id="w_PutainsLecheors_Nott6_488"><choice><orig>Q</orig><reg>q</reg></choice>ant</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_489">del</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_490"><ex>com</ex>mandem<ex>en</ex>t</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_491"><choice><orig>d</orig><reg>D</reg></choice>eu</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_492">iscent</w>
+                  <pc xml:id="w_PutainsLecheors_Nott6_493">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="75">
+                  <lb n="75"/>
+                  <w xml:id="w_PutainsLecheors_Nott6_494"><choice><orig>M</orig><reg>m</reg></choice>ais</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_495">ce</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_496" join="right">ne</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_497">font</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_498" join="right" ana="#aggl-cert_low">li</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_499">clerc</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_500">noient</w>
+                  <pc xml:id="w_PutainsLecheors_Nott6_501">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="76">
+                  <lb n="76"/>
+                  <w xml:id="w_PutainsLecheors_Nott6_502">ains</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_503">sont</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_504">large</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_505"><ex>et</ex></w>
+                  <w xml:id="w_PutainsLecheors_Nott6_506">obedïent</w>
+                  <pc xml:id="w_PutainsLecheors_Nott6_507">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="77">
+                  <lb n="77"/>
+                  <w xml:id="w_PutainsLecheors_Nott6_508"><choice><orig>a</orig><reg>A</reg></choice>s</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_509">putai<ex>n</ex>s</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_510">l’</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_511">ue<choice><orig>u</orig><reg>v</reg></choice><add place="above">re</add><del rend="dot-below">e</del></w>
+                  <w xml:id="w_PutainsLecheors_Nott6_512" join="right" ana="#aggl-cert_low">le</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_513">tesmogne</w>
+                  <pc xml:id="w_PutainsLecheors_Nott6_514">
+                     <choice>
+                        <orig/>
+                        <reg>!</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="78">
+                  <lb n="78"/>
+                  <w xml:id="w_PutainsLecheors_Nott6_515"><choice><orig>e</orig><reg>E</reg></choice>nsi</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_516">usent</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_517">lor</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_518">patremogne</w>
+               </l>
+               <l n="79">
+                  <lb n="79"/>
+                  <w xml:id="w_PutainsLecheors_Nott6_519"><ex>et</ex></w>
+                  <w xml:id="w_PutainsLecheors_Nott6_520">les</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_521">biens</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_522" join="right">au</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_523"><choice><orig>c</orig><reg>C</reg></choice>rucefi<choice><orig>j</orig><reg>i</reg></choice>é</w>
+                  <pc xml:id="w_PutainsLecheors_Nott6_524">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="80">
+                  <lb n="80"/>
+                  <w xml:id="w_PutainsLecheors_Nott6_525" join="right"><choice><orig>e</orig><reg>E</reg></choice>n</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_526">tel</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_527">gent</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_528" join="right" ana="#aggl-cert_low">sont</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_529">bie<ex>n</ex></w>
+                  <w xml:id="w_PutainsLecheors_Nott6_530">emploié</w>
+               </l>
+               <l n="81">
+                  <lb n="81"/>
+                  <w xml:id="w_PutainsLecheors_Nott6_531">des</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_532">rentes</w>
+                  <pc xml:id="w_PutainsLecheors_Nott6_533">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_PutainsLecheors_Nott6_534">des</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_535">dimes</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_536">li</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_537">bien</w>
+                  <pc xml:id="w_PutainsLecheors_Nott6_538">
+                     <choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="82">
+                  <lb n="82"/>
+                  <w xml:id="w_PutainsLecheors_Nott6_539"><choice><orig>C</orig><reg>c</reg></choice>ar</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_540">cest</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_541"><ex>com</ex>ma<ex>n</ex>t</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_542">garde<ex>n</ex>t</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_543">il</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_544">bien</w>
+               </l>
+               <l n="83">
+                  <lb n="83"/>
+                  <w xml:id="w_PutainsLecheors_Nott6_545"><choice><orig>D</orig><reg>d</reg></choice>eseur</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_546">tos</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_547">les</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_548">autres</w>
+                  <pc xml:id="w_PutainsLecheors_Nott6_549">
+                     <choice>
+                        <orig>.</orig>
+                        <reg/>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_PutainsLecheors_Nott6_550"><ex>et</ex></w>
+                  <w xml:id="w_PutainsLecheors_Nott6_551">font</w>
+                  <pc xml:id="w_PutainsLecheors_Nott6_552">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+               <l n="84">
+                  <lb n="84"/>
+                  <w xml:id="w_PutainsLecheors_Nott6_553">Se</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_554">cis</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_555">fableaus</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_556">dist</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_557"><choice><orig>u</orig><reg>v</reg></choice>oir</w>
+                  <pc xml:id="w_PutainsLecheors_Nott6_558">
+                     <choice>
+                        <orig>.</orig>
+                        <reg>,</reg>
+                     </choice>
+                  </pc>
+                  <w xml:id="w_PutainsLecheors_Nott6_559">d<ex>on</ex>t</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_560">sont</w>
+               </l>
+               <l n="85">
+                  <lb n="85"/>
+                  <w xml:id="w_PutainsLecheors_Nott6_561"><choice><orig>D</orig><reg>d</reg></choice>e</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_562">cest</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_563"><ex>com</ex>mant</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_564">li</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_565">clerc</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_566">sau<choice><orig>u</orig><reg>v</reg></choice>é</w>
+               </l>
+               <l n="86">
+                  <lb n="86"/>
+                  <w xml:id="w_PutainsLecheors_Nott6_567"><ex>et</ex></w>
+                  <w xml:id="w_PutainsLecheors_Nott6_568">tuit</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_569" join="right" ana="#aggl-cert_low">li</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_570">ch<choice><orig><ex>eualie</ex></orig><reg><ex>evalie</ex></reg></choice>r</w>
+                  <w xml:id="w_PutainsLecheors_Nott6_571">danné</w>
+                  <pc xml:id="w_PutainsLecheors_Nott6_572">
+                     <choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                  </pc>
+               </l>
+            </lg>
+         </div>
+      </body>
+   </text>
+</TEI>

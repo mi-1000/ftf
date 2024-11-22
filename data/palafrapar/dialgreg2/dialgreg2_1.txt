@@ -1,0 +1,66 @@
+ 
+ 
+DialGreg2Lat
+
+
+id	DialGreg2Lat
+textorder	02DialGreg2Lat
+title	Vita Benedicti
+author	Gregory I, Pope
+cpdate	0594-01-01
+cpdatelibre	c. 593-594
+cpnotbefore	0593-01-01
+cpnotafter	0594-12-31
+cpcentury	06th
+msdate	0750-01-01
+msdatelibre	8th c.
+msnotbefore	0700-01-01
+msnotafter	0799-12-31
+dialect	Italy
+domain	religious
+form	prose
+genre	hagiographic
+msd	unverified
+relation	original
+lang	lat
+msid	multiple
+
+
+
+
+
+
+ 
+DialGreg2
+
+
+id	DialGreg2
+textorder	1183DialGreg2
+title	Vie de saint Benoit
+author	anonymous (translator)
+cpdate	1183-01-01
+cpdatelibre	late 12th c.
+cpnotbefore	1167-01-01
+cpnotafter	1199-12-31
+cpcentury	12th
+msdate	1216-01-01
+msdatelibre	early 13th c.
+msnotbefore	1200-01-01
+msnotafter	1233-12-31
+dialect	wallon
+domain	religious
+form	prose
+genre	hagiographic
+msd	verified
+relation	translation
+lang	fro
+msid	BnF, fr. 24764
+
+
+
+
+
+
+ 
+	
+	

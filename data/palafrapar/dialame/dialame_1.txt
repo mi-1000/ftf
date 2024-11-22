@@ -1,0 +1,66 @@
+ 
+ 
+DialAmeLat
+
+
+id	DialAmeLat
+textorder	03DialAmeLat
+title	Dialogus anime conquerentis et rationis consolantis (Synonyma)
+author	Isidore of Seville
+cpdate	0550-01-01
+cpdatelibre	6th c.
+cpnotbefore	0500-01-01
+cpnotafter	0599-12-31
+cpcentury	06th
+msdate	1200-01-01
+msdatelibre	ca. 1200
+msnotbefore	1199-01-01
+msnotafter	1201-12-31
+dialect	Gallia
+domain	didactic
+form	prose
+genre	dialogue
+msd	unverified
+relation	original
+lang	lat
+msid	Epinal, BM, 58
+
+
+
+
+
+
+ 
+DialAme
+
+
+id	DialAme
+textorder	1200DialAme
+title	Dialogue de l'âme de saint Isidore
+author	anonymous (translator)
+cpdate	1200-01-01
+cpdatelibre	ca. 1200
+cpnotbefore	1199-01-01
+cpnotafter	1201-12-31
+cpcentury	13th
+msdate	1200-01-01
+msdatelibre	ca. 1200
+msnotbefore	1199-01-01
+msnotafter	1201-12-31
+dialect	lorrain
+domain	didactic
+form	prose
+genre	dialogue
+msd	unverified
+relation	translation
+lang	fro
+msid	Epinal, BM, 58
+
+
+
+
+
+
+ 
+	
+	
