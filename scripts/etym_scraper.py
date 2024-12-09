@@ -1,6 +1,7 @@
 import re
 import requests
 import roman
+import time
 from bs4 import BeautifulSoup
 
 def extract_dates(word):
@@ -39,10 +40,10 @@ def extract_dates(word):
     # print(section)
 
     # Extrait les dates (années et siècles)
-    date_pattern = re.compile(r"\b(?<!\bp\.\s)(?<!\bp\.)(1[0-9]{3}|20[0-9]{2}|(\d{3}))|((\d{1,2}|[iIvVxX]+)\s*(eme|ème|è|e|ᵉ)\s*((?:s|S)i(è|e)cle)?)\b") # Demande à ChatGPT de t'expliquer ça pcq flemme
+    date_pattern = re.compile(r"\b(?<!\bp\.\s)(?<!\bp\.)(1[0-9]{3}|20[0-9]{2}|(\d{3}))|((\d{1,2}|[iIvVxX]+)\s*(eme|ème|è|e|ᵉ)\s*((?:s|S)i(?:è|e)cle)?)\b") # Demande à ChatGPT de t'expliquer ça pcq flemme
     matches = re.findall(date_pattern, section)
 
-    # Convertit les résultats en années
+    # Convertit les résultats en années et les ajoute à une liste
     dates = []
     for match in matches:
         if type(match) == tuple:
@@ -59,11 +60,15 @@ def extract_dates(word):
     return sorted(dates)
 
 # Exemple d'utilisation avec des mots au pif
-words = ["amour", "rabbin", "ordinateur", "zircon", "dinguerie", "de", "un", "tu", "jour", "ignoble", "voiture", "robot", "abalourdissement", "weltanschauung", "ab hoc et ab hac", "souffrance", "incongru", "désopilant", "néologisme", "acupuncture"]
+words = ["amour", "rabbin", "ordinateur", "zircon", "dinguerie", "de", "un", "tu", "jour", "ignoble", "voiture", "robot", "abalourdissement", "weltanschauung", "ab hoc et ab hac", "souffrance", "incongru", "désopilant", "néologisme", "acupuncture", "constitution", "paganisme", "fenêtre", "parapluie", "avion"]
 
-for word in words:
-    dates = extract_dates(word)
-    if dates:
-        print(f"Dates pour '{word}': {dates}")
-    else:
-        print(f"Aucune date trouvée pour '{word}'.")
+if __name__ == "__main__":
+    timestamp_init = time.time()
+    for word in words:
+        dates = extract_dates(word)
+        if dates:
+            print(f"Dates pour '{word}': {dates}")
+        else:
+            print(f"Aucune date trouvée pour '{word}'.")
+    total_time = time.time() - timestamp_init
+    print(f"Une requête dure en moyenne {total_time / len(words) * 1000} ms.")
