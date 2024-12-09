@@ -46,7 +46,7 @@ def extract_dates(word):
     dates = []
     for match in matches:
         if type(match) == tuple:
-            match = match[0]
+            match = match[0] # On garde le groupe de capture global
         if re.match(r"\d{3,4}", match): # Si le match est une date à 3 ou 4 chiffres
             match = int(match)
             dates.append(match) if match >= 842 else None # On ne garde que les dates après 842 (première attestation du français)
@@ -55,11 +55,14 @@ def extract_dates(word):
             if re.match(re.compile(r"[ivx]+", re.IGNORECASE), match): # Si le match est une date en chiffres romains
                 match = roman.fromRoman(match.upper()) * 100 # On convertit les siècles en la première année dudit siècle
                 dates.append(match) if match >= 842 else None
+    if dates.count(2012) >= 3:
+        for i in range(3):
+            dates.remove(2012) # On retire les occurences de 2012 qui correspondent au copyright du site
 
     return sorted(dates)
 
 # Exemple d'utilisation avec des mots au pif
-words = ["téléphone", "amour", "rabbin", "ordinateur", "zircon", "dinguerie", "de", "un", "tu", "jour", "ignoble", "voiture", "robot", "abalourdissement", "weltanschauung", "ab hoc et ab hac", "souffrance", "incongru", "désopilant", "néologisme", "acupuncture", "constitution", "paganisme", "fenêtre", "parapluie", "avion"]
+words = ["téléphone", "amour", "rabbin", "ordinateur", "zircon", "il", "lui", "elle", "dinguerie", "de", "un", "tu", "jour", "ignoble", "voiture", "robot", "abalourdissement", "weltanschauung", "ab hoc et ab hac", "souffrance", "incongru", "désopilant", "néologisme", "acupuncture", "constitution", "paganisme", "fenêtre", "parapluie", "avion"]
 
 if __name__ == "__main__":
     timestamp_init = time.time()
