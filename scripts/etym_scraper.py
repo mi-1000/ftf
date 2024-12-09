@@ -36,11 +36,12 @@ def extract_dates(word):
             if element == end_tag:
                 break
             section += element.get_text(separator=" ") + " "
+    section = re.sub(r"pp?\.\s*\d+(\s*[,;\-\/]\s*\d+)*", "", section) # On retire les numéros de pages qui risquent d'être confondus avec des dates
     
     # print(section)
 
     # Extrait les dates (années et siècles)
-    date_pattern = re.compile(r"\b(?<!\bp\.\s)(?<!\bp\.)(1[0-9]{3}|20[0-9]{2}|(\d{3}))|((\d{1,2}|[iIvVxX]+)\s*(eme|ème|è|e|ᵉ)\s*((?:s|S)i(?:è|e)cle)?)\b") # Demande à ChatGPT de t'expliquer ça pcq flemme
+    date_pattern = re.compile(r"\b(?<!\bp\.\s)(?<!\bp\.)(1[0-9]{3}|20[0-9]{2}|(\d{3}))|((\d{1,2}|[iIvVxX]+)\s*(eme|ème|è|e|ᵉ)\s*(?:s|S)(i(?:è|e)cle)?)\b") # Demande à ChatGPT de t'expliquer ça pcq flemme
     matches = re.findall(date_pattern, section)
 
     # Convertit les résultats en années et les ajoute à une liste
