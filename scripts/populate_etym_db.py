@@ -27,14 +27,14 @@ if response.status_code == 200:
 words = [item[0] for item in words]
 dates = [item[1] for item in words]
 db = mysql.connector.connect(
-    host="",
+    host=os.getenv("DB_HOST"),
     user=os.getenv("DB_USERNAME"), 
     password=os.getenv("DB_PASSWORD"), 
-    database=""
+    database=os.getenv("DB_NAME")
 )
 
 cursor = db.cursor()
-cursor.execute()
+cursor.execute("")
 for word, date in zip(words, dates):
      cursor.execute((word, date))
 db.commit()
