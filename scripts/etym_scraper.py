@@ -21,6 +21,8 @@ def extract_dates(word):
     start_tag = soup.find("b", string=re.compile(r"^.*Étym?o?l?\. (et Hist\.)?\s*:?.*$", re.IGNORECASE))
     end_tag = soup.find("b", string=re.compile(r"^.*Fréq\. (abs\.)? (litt\.|littér\.)?.*$", re.IGNORECASE))
     
+    # print(start_tag, end_tag)
+
     if not start_tag: # Si on ne trouve pas la section étymologie, on récupère toute la page
         # print(f"Les balises <b> nécessaires ne sont pas présentes pour le mot '{word}'.")
         section = soup.find("div", attrs={"id": "contentbox"}).text
@@ -34,7 +36,9 @@ def extract_dates(word):
             if element == end_tag:
                 break
             section += element.get_text(separator=" ") + " "
+        # print(section)
     section = re.sub(r"(pp?|pages?)\.+\s*\d+(\s*[,;\-\/]\s*\d+)*", "", section) # On retire les numéros de pages qui risquent d'être confondus avec des dates
+    section = re.sub(r"(litt.|littér.).*$", "", section) # On retire la fin de la ligne
     
     # print(section)
 
@@ -62,7 +66,9 @@ def extract_dates(word):
     return sorted(dates)
 
 # Exemple d'utilisation avec des mots au pif
-words = ["téléphone", "amour", "rabbin", "ordinateur", "zircon", "il", "lui", "elle", "dinguerie", "de", "un", "tu", "jour", "ignoble", "voiture", "robot", "abalourdissement", "weltanschauung", "ab hoc et ab hac", "souffrance", "incongru", "désopilant", "néologisme", "acupuncture", "constitution", "paganisme", "fenêtre", "parapluie", "avion"]
+# words = ["téléphone", "amour", "rabbin", "ordinateur", "zircon", "il", "lui", "elle", "dinguerie", "de", "un", "tu", "jour", "ignoble", "voiture", "robot", "abalourdissement", "weltanschauung", "ab hoc et ab hac", "souffrance", "incongru", "désopilant", "néologisme", "acupuncture", "constitution", "paganisme", "fenêtre", "parapluie", "avion"]
+# words = ["nourriture", "imprimante", "navigateur", "téléchargement", "avant", "abordable", "attirer", "bénéfice", "chaleureux", "étaient", "épeler", "manifestation", "revendication", "transmettre", "épistémologie", "prolégomènes", "ineffable", "envisager", "ambiguïté", "efficace"]
+words = ["attirer"]
 
 if __name__ == "__main__":
     timestamp_init = time.time()
