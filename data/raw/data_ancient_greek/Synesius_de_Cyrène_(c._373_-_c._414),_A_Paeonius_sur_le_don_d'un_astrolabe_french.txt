@@ -1,0 +1,70 @@
+Si l’on projette sur un plan une surface sphérique, quoique la nouvelle figure ne 
+soit pas identique à la première, on retrouve cependant une correspondance parfaite 
+entre les différentes parties des deux figures : c’est ce que l’ancien astronome 
+Hipparque a donné à entendre, et le premier il a fait une application de cette vérité 
+mathématique. Pour nous, s’il n’y a pas trop d’orgueil à nous attribuer ce mérite, nous 
+avons continué et complété le travail d’Hipparque, et résolu un problème que l’on avait 
+laissé de côté jusqu’à ce jour. Le grand Ptolémée et ses illustres successeurs, pour 
+leurs calculs et pour la détermination des heures de la nuit, se contentaient des seize 
+étoiles marquées sur le planisphère d’Hipparque. La science était alors si peu 
+avancée, et la géométrie encore si voisine de l’enfance, qu’il faut excuser ces hommes 
+célèbres d’avoir travaillé sur des hypothèses. Mais nous qui avons reçu de nos 
+devanciers, et sans qu’il nous en coûte aucune peine, tout un corps magnifique de 
+doctrines, quelle reconnaissance ne devonsnous pas à ceux de qui nous tenons notre 
+savoir! Mais si nous pouvons introduire dans la science quelque démonstration 
+élégante, imaginer quelque procédé ingénieux, trouver quelque perfectionnement, ne 
+croyons pas avoir fait œuvre indigne d’un philosophe. Quand on fonde une ville, on ne 
+songe d’abord qu’à faire le nécessaire pour sa conservation et sa durée; mais avec le 
+temps cela ne suffit plus: on dépense beaucoup pour avoir de splendides portiques, de 
+vastes gymnases, une place magnifique. Ainsi procède la science, traitant d’abord les 
+questions urgentes, puis s’accroissant par les accessoires. Le problème de la 
+projection sphérique m’a donc paru digne d’intérêt; je m’y suis appliqué, et j’ai 
+accumulé, dans un travail d’ensemble, une foule de données indispensables et de 
+renseignements variés. Puis il me tardait de mettre en pratique ces principes de la 
+science; j’ai donc fait exécuter un charmant spécimen de la voûte céleste. La méthode 
+permettant de reproduire sur un plan les proportions exactes d’une figure à surface 
+courbe, j’ai pensé qu’une surface courbe quelconque rappellerait mieux celle de la 
+sphère idéale. Le plan terminé, je l’ai enroulé sur une forme cylindrique, avec toutes 
+les précautions nécessaires pour que l’aspect du modèle rappelât la vérité au 
+spectateur intelligent. J’y ai donc distribué les astres des six grandeurs différentes, en 
+observant les figures formées par leurs divers groupes. J’ai tracé les cercles 
+sphériques, les uns dans le sens de l’équateur, les autres dans le sens 
+perpendiculaire. Tous ces cercles sont gradués en divisions égales, marquées de cinq 
+en cinq par un trait plus gros. Puis, près de chaque division, j’ai inscrit les quantités 
+numériques correspondantes, l’encre sur fond d’argent donnant à la plaque l’aspect 
+d’une page d’écriture. Ces nombres ne sont pas non plus gravés tous du même 
+caractère : les uns sont de type uniforme, mais d’autres sont de grandeur irrégulière, 
+variant suivant les convenances; les nombres de même caractère s’appliquent à des 
+divisions égales, précaution indispensable pour que les différents groupes demeurent 
+bien distincts. La même convenance a conduit à figurer les cercles qui passent par les 
+pôles, ainsi que ceux des tropiques, par des traits plus forts; et ces cercles, qui sont 
+courbes théoriquement, sont devenus ici des lignes droites, par suite des exigences de 
+la méthode. Aussi le cercle antarctique se trouve plus développé que tous les autres, 
+même les plus grands, et les distances mutuelles des astres qui l’avoisinent ont dû 
+être amplifiées. Quant aux inscriptions ciselées en lettres d’or près du cercle 
+antarctique, dans l’espace vide d’étoiles, la seconde, qui n’est que de quatre vers, est 
+ancienne, assez simple; c’est l’éloge de l’astronomie: 
+"Je ne suis qu’un mortel; mais quand mon œil embrasse 
+Les astres radieux circulant dans l’espace, 
+Alors je fuis la terre et ses grossiers soucis, 
+Et je bois le nectar, auprès des dieux assis". 
+La première inscription, qui est de huit vers, a été faite par l’auteur de 
+l’astrolabe, c’estàdire par moi. Elle donne une idée sommaire et générale de tout ce 
+qui se voit sur cet appareil. Les vers sont assez durs, car j’ai plutôt recherché 
+l’exactitude scientifique que l’élégance. Elle montre à l’astronome le parti qu’il peut tirer 
+de ce planisphère; elle lui indique la position des astres, eu égard non point à 
+l’écliptique, mais à l’équateur; car il est impossible, comme je le prouve dans mon 
+traité, de prendre cette position par rapport à l’écliptique. Elle indique que les 
+déclinaisons vont de l’écliptique à l’équateur; elle montre la correspondance des 
+ascensions, c’estàdire que les divisions de l’écliptique se trouvent représentées sur 
+l’équateur par un nombre égal de divisions de ce même équateur. Voici l’inscription; je 
+la rapporte pour ceux qui me liront plus tard, car pour vous il vous suffit qu’elle soit sur 
+le planisphère: 
+"La sagesse, prenant son essor vers les cieux, 
+Rapporta les secrets qu’elle étale à nos yeux. 
+Vois de cet univers la forme et la mesure, 
+Et des cercles égaux l’inégale coupure;
+Les étoiles, le cercle où l’astre triomphal 
+Du jour et de la nuit fait un partage égal; 
+Le zodiaque oblique, et les centres insignes 
+Où des méridiens vont aboutir les lignes".
