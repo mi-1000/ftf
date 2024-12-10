@@ -43,7 +43,7 @@ def extract_dates(word):
     # print(section)
 
     # On extrait les dates (années et siècles)
-    date_pattern = re.compile(r"\b(?<!\bp\.\s)(?<!\bp\.)(1[0-9]{3}|20[0-9]{2}|(\d{3}))|((\d{1,2}|[iIvVxX]+)\s*(eme|ème|è|e|ᵉ)\s*(?:s|S)(i(?:è|e)cle)?)\b") # Demande à ChatGPT de t'expliquer ça pcq flemme
+    date_pattern = re.compile(r"\b(?<!\bp\.\s)(?<!\bp\.)(1[0-9]{3}\b|20[0-9]{2}\b|\d{3}\b)|((\d{1,2}|[iIvVxX]+)\s*(eme|ème|è|e|ᵉ)\s*(?:s|S)(i(?:è|e)cle)?)\b") # Demande à ChatGPT de t'expliquer ça pcq flemme
     matches = re.findall(date_pattern, section)
 
     # On convertit les résultats en années et les ajoute à une liste

@@ -1,14 +1,28 @@
 import requests
-import mysql.connector
 import os
+
+import mysql.connector
+
 from bs4 import BeautifulSoup
 from dotenv import load_dotenv
 from mysql.connector import Error
+
+from typing import List, Tuple
+
 from etym_scraper import extract_dates
 
 load_dotenv()
 
-def get_links(letter: str, index: int):
+def get_links(letter: str, index: int) -> List[Tuple[str, int | None]]:
+    """Returns all words starting with a given letter and registered at the given index on CNRTL.
+
+    Args:
+        letter (str): The initial letter of queried words
+        index (int): The index of the page ()
+
+    Returns:
+        List[Tuple[str, int | None]]: A list of tuples of (word, date of first attestation if found else None)
+    """
     response = requests.get(f"https://www.cnrtl.fr/portailindex/LEXI/TLFI/{letter}/{80 * index}")
 
     if not response.status_code == 200:
@@ -25,6 +39,7 @@ def get_links(letter: str, index: int):
         if href.startswith('/definition'):
             word = href.replace('/definition/', '')
             if href != '/definition/':
+                print(f"Parsing word {word}")
                 dates = extract_dates(word)
                 try:
                     date = dates.pop(0)
@@ -40,40 +55,34 @@ db_config = {
     "database": os.getenv("DB_NAME"),
 }
 
-# letters = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
-letters = ["W", "Y", "Z"]
+letters = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
 
-for letter in letters:
-    next_letter = False
-    i = 0
-    while not next_letter:
-        links = get_links(letter, i)
-        print(letter, i, links)
-        if not links:
-            next_letter = True
-            break
-        i += 1
-
-# try:
-#     connection = mysql.connector.connect(**db_config)
+try:
+    connection = mysql.connector.connect(**db_config)
     
-#     if connection.is_connected():
-#         print("Connexion réussie.")
-#         cursor = connection.cursor()
-#         for word in words:
-#             query = "INSERT INTO `etymology`(`word`, `date`) VALUES (%s, %s)"
-#             cursor.execute(query, (word[0], word[1]))
-#             connection.commit()
-#         # results = cursor.fetchall()
-#         # for row in results:
-#         #     print(row)
+    if connection.is_connected():
+        print("Connexion réussie.")
+        cursor = connection.cursor()
+        for letter in letters:
+            i = 0
+            while True:
+                unsorted_links = get_links(letter, i)
+                if not unsorted_links:
+                    break
+                links = sorted(unsorted_links, key=lambda x: x[0].lower())
+                for entry in links:
+                    query = "INSERT INTO `etymology`(`word`, `date`) VALUES (%s, %s)"
+                    cursor.execute(query, (entry[0], entry[1]))
+                    print(f"[INFO] Added word {entry[0]} ({entry[1]}) to database.")
+                    connection.commit()
+                i += 1
 
-# except Error as e:
-#     print(f"Erreur : {e}")
-# finally:
-#     # Close resources
-#     if 'cursor' in locals() and cursor:
-#         cursor.close()
-#     if 'connection' in locals() and connection.is_connected():
-#         connection.close()
-#         print("Connexion fermée.")
+except Error as e:
+    print(f"Erreur : {e}")
+finally:
+    # Close resources
+    if 'cursor' in locals() and cursor:
+        cursor.close()
+    if 'connection' in locals() and connection.is_connected():
+        connection.close()
+        print("Connexion fermée.")
