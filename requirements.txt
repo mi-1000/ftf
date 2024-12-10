@@ -1,9 +1,14 @@
 beautifulsoup4==4.12.3
 bert_score==0.3.13
 Crawl4AI==0.3.4
-numpy==2.1.2
-python_Levenshtein==0.26.0
+langdetect==1.0.9
+mysql_connector_repackaged==0.3.1
+numpy==2.2.0
+openai==1.57.2
+python-dotenv==1.0.1
+python_Levenshtein==0.26.1
 Requests==2.32.3
+roman==4.2
 rouge_score==0.1.2
 sacrebleu==2.4.3
 scipy==1.14.1

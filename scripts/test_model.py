@@ -136,25 +136,30 @@ def evaluate_translation_pipeline(model: str, src_text: List[str] = None, expect
     
     if model == "MarianMT":
         # Define model paths
-        en_romance = os.getenv("OPUS_MT_EN_ROMANCE")
-        romance_en = os.getenv("OPUS_MT_ROMANCE_EN")
-        # Add language token
-        src_text_with_token = [f">>la<< {sentence}" for sentence in src_text]
+        # en_romance = os.getenv("OPUS_MT_EN_ROMANCE")
+        # romance_en = os.getenv("OPUS_MT_ROMANCE_EN")
+        # # Add language token
+        # src_text_with_token = [f">>la<< {sentence}" for sentence in src_text]
         
-        # Load models and tokenizers
-        tokenizer1, model1 = load_model_and_tokenizer_marian(romance_en)  # Latin to English
-        tokenizer2, model2 = load_model_and_tokenizer_marian(en_romance)  # English to French
+        # # Load models and tokenizers
+        # tokenizer1, model1 = load_model_and_tokenizer_marian(romance_en)  # Latin to English
+        # tokenizer2, model2 = load_model_and_tokenizer_marian(en_romance)  # English to French
 
-        # First translation: Latin to English
-        english_translation = translate_text(tokenizer1, model1, src_text_with_token)
+        # # First translation: Latin to English
+        # english_translation = translate_text(tokenizer1, model1, src_text_with_token)
 
-        # Add French token for the next step
-        english_translation_with_token = [f">>en<< {sentence}" for sentence in english_translation]
+        # # Add French token for the next step
+        # english_translation_with_token = [f">>en<< {sentence}" for sentence in english_translation]
 
-        # Second translation: English to French
-        french_translation = translate_text(tokenizer2, model2, english_translation_with_token)
+        # # Second translation: English to French
+        # french_translation = translate_text(tokenizer2, model2, english_translation_with_token)
         
-        output_benchmark(french_translation, expected_text, model, 'Latin', 'French')
+        
+        with open(os.path.join('scripts', 'test_model_files', 'fr-la', 'la_to_fr-marianmt01.txt'), 'r', encoding='utf-8') as f:
+            french_translation = f.readlines()
+            
+        output_benchmark(french_translation, fr_to_la_ref, model, 'Latin', 'French')
+        
     elif model == "Llama-8B":
         # Prompts
         """Translate the following sentences from Old French to Modern French, while keeping the structure of the text, i.e. your output must contain the same number of lines and we should be able to closely follow the translation by aligning both paragraphs:"""
@@ -256,7 +261,7 @@ def evaluate_translation_pipeline(model: str, src_text: List[str] = None, expect
 # ]
 
 if __name__ == "__main__":
-    # evaluate_translation_pipeline(src_text, expected_text, "MarianMT")
-    evaluate_translation_pipeline("GPT-4o")
+    evaluate_translation_pipeline("MarianMT")
+    # evaluate_translation_pipeline("GPT-4o")
     # evaluate_translation_pipeline("Llama-8B")
     # evaluate_translation_pipeline("Google Translate")
