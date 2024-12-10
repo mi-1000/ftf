@@ -1,0 +1,158 @@
+Il nous reste maintenant à prouver que ce moteur immobile doit 
+nécessairement n'avoir ni parties ni grandeur quelconque; mais d'abord 
+nous expliquerons quelques principes antérieurs à celuilà. 
+Un de ces principes, c'est qu'il est impossible qu'une force finie 
+puisse jamais produire le mouvement durant un temps infini.  
+Il y a ici trois termes : le mobile, le moteur, et le troisième ce dans 
+quoi le mouvement a lieu, c'estàdire le temps. De ces trois termes, ou 
+tous sont infinis, ou tous sont finis, ou quelquesuns sont finis, deux ou 
+un si l'on veut.  
+Soit A le moteur; soit B le mobile; et le temps infini C. Supposons 
+que D meuve une partie de B, représentée par E. Ce ne peut pas être 
+dans un temps égal à C ; car un mouvement plus grand doit avoir lieu 
+dans un temps plus long. Ainsi le temps F n'est pas infini. En ajoutant 
+constamment à D, j'épuiserai A; et en ajoutant à E, j'épuiserai B. Mais 
+j'aurai beau enlever toujours une portion égale au temps, je ne l'épuiserai 
+point, attendu qu'il est infini. Par conséquent, tout A mettra B tout entier 
+en mouvement dans une portion finie du temps C. Donc, il est impossible 
+qu'un moteur fini puisse donner à quoi que ce soit un mouvement infini. 
+Donc, évidemment, le fini ne peut produire le mouvement durant un 
+temps infini. 
+En second lieu, une grandeur finie ne peut pas du tout avoir une 
+puissance infinie; et voici ce qui le prouve.  
+Soit, en effet, une puissance toujours de plus en plus grande 
+produisant le même effet dans un temps moindre, que d'ailleurs cette 
+puissance échauffe, qu'elle adoucisse, qu'elle projette, ou que plus 
+simplement elle meuve. Il faut nécessairement que ce moteur fini , mais 
+à qui l'on suppose une puissance infinie, exerce son action sur ce qui 
+l'éprouve avec plus de force que tout autre moteur ne le ferait, puisque la 
+puissance infinie est la plus grande de toutes. 
+Mais il ne peut pas y avoir ici la moindre parcelle de temps. Soit, en 
+effet, A, le temps durant lequel la force infinie ou a échauffé ou a poussé. 
+Soit aussi AB le temps dans lequel ait agi une force finie. En faisant 
+toujours plus grande la force finie, j'arriverai à celle qui a donné le 
+mouvement dans le temps A; car, en ajoutant toujours à un terme fini, 
+j'arriverai à dépasser tout fini quelconque; de même que, si je retranche 
+au lieu d'ajouter, j'arriverai également à épuiser. Ainsi, dans un temps 
+égal, la force finie aura produit un mouvement aussi grand que la force 
+infinie. Mais c'est là ce qui est tout à fait impossible. Donc aucune 
+grandeur finie ne peut avoir une puissance infinie. 
+De même non plus une puissance finie ne peut exister dans une 
+grandeur infinie.  
+Il se peut néanmoins qu'une puissance plus grande se trouve dans 
+une grandeur moindre; mais il se peut bien davantage encore qu'il y ait 
+plus de puissance dans une grandeur plus grande.  
+Soit AB la grandeur infinie. BC a une certaine puissance qui dans 
+un certain temps, dans un temps représenté par EF, meut D. Si je prends 
+le double de BC, cette nouvelle force produira le mouvement dans la 
+moitié du temps EF, puisque c'est là la proportion ; par exemple, elle le 
+produira dans le temps FG. En procédant toujours ainsi, je ne parcours, 
+pas il est vrai, AB; mais je prends toujours de moins en moins du temps 
+donné. Donc la puissance sera infinie, puisqu'elle surpasse toute 
+puissance finie; donc, pour toute puissance finie, le temps est 
+nécessairement fini comme elle; car si dans tel temps donné telle force 
+produit un mouvement, une force plus grande dans un temps moindre, 
+mais d'ailleurs toujours fini, produira ce même mouvement selon la 
+proportion inverse. Mais ici la force totale est infinie, comme le sont le 
+nombre et la grandeur qui surpassent tout nombre ou toute grandeur 
+finie.  
+On peut encore démontrer ceci de la façon suivante. Nous 
+prendrons une puissance de même espèce que celle qui se trouve dans 
+la grandeur infinie, mais en la supposant dans une grandeur finie, et de 
+façon qu'elle puisse mesurer la puissance finie qui se trouve dans l'infini. 
+Tout ceci démontre donc qu'il ne peut pas y avoir de puissance 
+infinie dans une grandeur finie, pas plus qu'il ne peut y avoir de 
+puissance finie dans une grandeur infinie. 
+Quant aux corps qui ont un mouvement de translation, il est bon de 
+résoudre d'abord une question assez embarrassante. En effet, si tout 
+mobile mis en mouvement est toujours mu par quelque chose, comment 
+estil possible que certains corps qui ne se meuvent point spontanément 
+euxmêmes, gardent un mouvement continu ; les projectiles, par 
+exemple, sans que le moteur qui les a mis en mouvement les touche 
+encore?  
+Si l'on répond que cela tient à ce que le moteur en donnant le 
+mouvement au corps, meut aussi quelque autre chose, l'air, par exemple, 
+qui, mu d'abord luimême, transmet ensuite le mouvement, il n'en reste 
+pas moins également impossible qu'il y ait mouvement pour le corps, du 
+moment que le premier moteur ne touche pas et ne meut pas. Mais il faut 
+que toute la série soit mise à la fois en mouvement et qu'elle s'arrête tout 
+ensemble, quand le premier moteur vient à s'arrêter, en supposant 
+même que le moteur agisse comme l'aimant, c'estàdire que le corps 
+qu'il a mis en mouvement puisse à son tour donner le mouvement.  
+Il faut nécessairement aussi admettre que le premier moteur donne 
+la faculté de produire le mouvement ou à l'air, ou à l'eau, ou à tel autre 
+corps, que la nature a fait pour donner le mouvement et le recevoir. Mais 
+le moteur et le mobile ne cessent pas à la fois. Il est bien vrai que le 
+mobile cesse d'être mu en même temps que le moteur cesse de mouvoir; 
+mais le mobile est encore moteur, et il meut quelque autre chose, qui est 
+à la suite. Même raisonnement pour cette seconde chose. Elle cesse 
+d'agir quand la force communiquée à ce qui suit devient moins capable 
+de donner le mouvement; et elle finit par s'arrêter, quand le terme 
+antérieur ne peut plus faire que le corps meuve, mais seulement qu'il soit 
+mu. Alors nécessairement tout cesse du même coup, et le moteur et le 
+mobile et toute la série du mouvement. 
+Tel est donc le mouvement dans les choses qui peuvent être tantôt 
+en mouvement et tantôt en repos.  
+Pour elles, le mouvement n'est pas continu; mais il semble qu'il le 
+soit, parce que les corps mis en mouvement ou se suivent ou se 
+touchent; car le moteur n'y est pas unique; et il y a mouvement de tous 
+les corps qui se suivent mutuellement.  
+Aussi le mouvement de ce genre se produit dans l'air également et 
+dans l'eau.  
+Et on l'appelle quelquefois du nom d'action ou de résistance 
+réciproque.  
+Mais il est impossible de résoudre les questions que nous venons 
+de poser, autrement que par l'explication que nous donnons. Cette 
+résistance réciproque fait que tout peut à la fois être mu et mouvoir; mais 
+elle fait par suite aussi que tout peut s'arrêter tout ensemble. Or ici on ne 
+voit qu'une seule et même chose qui est animée d'un mouvement 
+continu. Par qui donc le mouvement estil donné? Ce n'est pas 
+certainement par le même moteur. 
+Mais puisque dans les choses il y a nécessairement un mouvement 
+continu, et que ce mouvement est unique, il est nécessaire aussi que ce 
+soit le mouvement d'une certaine grandeur; car ce qui est sans grandeur 
+ne peut recevoir le mouvement. Il faut aussi que ce soit le mouvement 
+d'un seul mobile, et qu'il soit causé par une seule force; car, autrement, il 
+ne serait plus continu; un mouvement suivrait l'autre, et le mouvement 
+serait divisé.  
+Quant au moteur, s'il est unique, ou il meut après avoir été mu lui
+même, ou il meut en étant immobile. S'il est mu, il faudra suivre la série 
+et supposer que luimême subit un changement et qu'il est mu par 
+quelque chose ; mais l'on finira par s'arrêter, et l'on arrivera au 
+mouvement produit par l'immobile.  
+Quant à ce terme dernier, il n'a plus besoin de changer en même 
+temps que les autres; et il aura toujours la puissance de donner le 
+mouvement; car il n'y a aucune peine ni fatigue à le produire ainsi. Le 
+mouvement créé de cette façon est uniformément égal, seul de tous les 
+mouvements, ou du moins plus que tous les autres; car le moteur ne 
+subit aucun changement; et le mobile luimême ne doit point, 
+relativement au moteur, en éprouver davantage, pour que le mouvement 
+soit toujours semblable. 
+Mais il faut nécessairement que le moteur soit ou au centre ou 
+dans le cercle; car voilà les deux seuls principes d'où il peut partir. Or les 
+parties les plus rapprochées du moteur sont celles qui ont le mouvement 
+le plus rapide; et tel est le mouvement de l'univers. Donc c'est à la 
+circonférence qu'est le moteur. 
+Reste toujours à savoir s'il est possible qu'un mobile communique 
+un mouvement continu, ou si sa continuité n'est pas plutôt comme une 
+suite d'impulsions qui se répètent l'une après l'autre. En effet, le moteur 
+de ce genre pousse, ou il attire, ou il fait les deux actions à la fois, ou il 
+subit une action qui peut être réciproque de l'un à l'autre, comme nous 
+venons de l'expliquer pour les projectiles. Mais si l'air ou l'eau, en tant 
+que divisible, transmet le mouvement, et s'il faut que l'air et l'eau soient 
+mus constamment, alors des deux façons il n'est plus possible que le 
+mouvement soit unique, et il est seulement consécutif. Il n'y a donc de 
+mouvement continu que le mouvement produit par l'immobile; 
+puisqu'étant éternellement semblable , il sera à l'égard du mobile dans 
+un rapport toujours le même et continu. 
+D'après les principes qui viennent d'être exposés, il est clair que le 
+moteur premier et immobile ne peut pas avoir de grandeur quelconque; 
+car, s'il avait une grandeur, il faudrait qu'elle fût ou finie ou infinie. Or, 
+nous avons démontré plus haut, dans la Physique, qu'il ne peut pas y 
+avoir de grandeur infinie; et ici nous venons de prouver que le fini ne 
+peut avoir une force infinie, et qu'une chose finie ne peut pas davantage 
+produire le mouvement pendant un temps infini. Enfin il a été établi que 
+le premier moteur produit un mouvement éternel, et qu'il le produit 
+pendant un temps infini. Donc il n'est pas moins clair que le premier 
+moteur est indivisible, qu'il est sans parties, et qu'il n'a absolument 
+aucune espèce de grandeur.
