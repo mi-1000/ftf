@@ -6,8 +6,9 @@ from dotenv import load_dotenv
 load_dotenv()
 
 client = OpenAI(
-    api_key = os.environ.get("OPENAI_API_KEY"),
+    api_key = "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",
 )
+    # api_key = os.environ.get("OPENAI_API_KEY"),
 
 # Configurez votre clé API OpenAI
 
@@ -31,9 +32,9 @@ def translate_text(text, model="gpt-4o"):
     return response.choices[0].message.content
 
 # Parcourt les fichiers dans le dossier source
-filename = 'clean_text3.txt'
+filename = 'C:/Bureau/Master/S7/project/ftf/data/raw/data_old_french/done/AlexisProlRaM.txt'
 with open(filename, 'r', encoding='utf-8') as file:
-        output_path = "old_french_translated5.txt"
+        output_path = 'C:/Bureau/Master/S7/project/ftf/data/raw/data_old_french/done/AlexisProlRaM_translated.txt'
         
         # with open(, "r", encoding="utf-8") as file:
         text_to_translate = file.read()
