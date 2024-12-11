@@ -1,3 +1,4 @@
+import locale
 import requests
 import os
 
@@ -11,6 +12,9 @@ from typing import List, Tuple
 
 from etym_scraper import extract_dates
 
+
+locale.setlocale(locale.LC_COLLATE, 'fr_FR.UTF-8')
+
 load_dotenv()
 
 def get_links(letter: str, index: int) -> List[Tuple[str, int | None]]:
@@ -23,7 +27,8 @@ def get_links(letter: str, index: int) -> List[Tuple[str, int | None]]:
     Returns:
         List[Tuple[str, int | None]]: A list of tuples of (word, date of first attestation if found else None)
     """
-    response = requests.get(f"https://www.cnrtl.fr/portailindex/LEXI/TLFI/{letter}/{80 * index}")
+    url = f"https://www.cnrtl.fr/portailindex/LEXI/TLFI/{letter}/{80 * index}"
+    response = requests.get(url)
 
     if not response.status_code == 200:
         print(f"HTTP Error {response.status_code}")
@@ -39,9 +44,11 @@ def get_links(letter: str, index: int) -> List[Tuple[str, int | None]]:
         if href.startswith('/definition'):
             word = href.replace('/definition/', '')
             if href != '/definition/':
-                print(f"Parsing word {word}")
+                print(f"Parsing word {word} from {url}.")
                 dates = extract_dates(word)
                 try:
+                    if dates is None: # In case of HTTP error
+                        raise IndexError
                     date = dates.pop(0)
                     words.append((word, date))
                 except IndexError: # If no date has been found
@@ -55,7 +62,7 @@ db_config = {
     "database": os.getenv("DB_NAME"),
 }
 
-letters = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
+letters = ["B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
 
 try:
     connection = mysql.connector.connect(**db_config)
@@ -69,12 +76,12 @@ try:
                 unsorted_links = get_links(letter, i)
                 if not unsorted_links:
                     break
-                links = sorted(unsorted_links, key=lambda x: x[0].lower())
+                links = sorted(unsorted_links, key=lambda x: locale.strxfrm(x[0].lower()))
                 for entry in links:
                     query = "INSERT INTO `etymology`(`word`, `date`) VALUES (%s, %s)"
                     cursor.execute(query, (entry[0], entry[1]))
-                    print(f"[INFO] Added word {entry[0]} ({entry[1]}) to database.")
                     connection.commit()
+                    print(f"[INFO] Added word {entry[0]} ({entry[1]}) to database.")
                 i += 1
 
 except Error as e:
