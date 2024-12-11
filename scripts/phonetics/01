@@ -1,0 +1,425 @@
+export = {}
+
+# Importing required modules
+from module_accent_qualifier import accent_qualifier
+from module_IPA import IPA
+from module_string_utilities import (char as u, find as rfind, gsub as rsubn,
+                                      match as rmatch, split as rsplit, lower as ulower,
+                                      sub as usub, len as ulen)
+from module_languages import getByCode
+
+# Language setup
+lang = getByCode("la")
+
+# Unicode characters
+BREVE = u(0x0306)  # breve =  ̆
+TILDE = u(0x0303)  # ̃
+HALF_LONG = "ˑ"
+LONG = "ː"
+
+# IPA mappings
+letters_ipa = {
+    "a": "a", "e": "e", "i": "i", "o": "o", "u": "u", "y": "y",
+    "ā": "aː", "ē": "eː", "ī": "iː", "ō": "oː", "ū": "uː", "ȳ": "yː",
+    "ae": "ae̯", "oe": "oe̯", "ei": "ei̯", "au": "au̯", "eu": "eu̯",
+    "b": "b", "d": "d", "f": "f",
+    "c": "k", "g": "ɡ", "v": "w", "x": "ks",
+    "ph": "pʰ", "th": "tʰ", "ch": "kʰ", "rh": "r", "qv": "kʷ", "gv": "ɡʷ",
+    "'": "ˈ", "ˈ": "ˈ",
+}
+
+letters_ipa_eccl = {
+    "a": "a", "e": "e", "i": "i", "o": "o", "u": "u", "y": "i",
+    "ā": "aː", "ē": "eː", "ī": "iː", "ō": "oː", "ū": "uː", "ȳ": "iː",
+    "ae": "eː", "oe": "eː", "ei": "ei̯", "au": "au̯", "eu": "eu̯",
+    "b": "b", "d": "d", "f": "f",
+    "k": "q",  # dirty hack to make sure k isn't palatalized
+    "c": "k", "g": "ɡ", "v": "v", "x": "ks",
+    "ph": "f", "th": "tʰ", "ch": "kʰ", "rh": "r", "qv": "kw", "gv": "ɡw", "sv": "sw",
+    "h": "",
+    "'": "ˈ", "ˈ": "ˈ",
+}
+
+# Lax and tense vowels
+lax_vowel = {
+    "e": "ɛ",
+    "i": "ɪ",
+    "o": "ɔ",
+    "u": "ʊ",
+    "y": "ʏ",
+}
+
+tense_vowel = {
+    "ɛ": "e",
+    "ɪ": "i",
+    "ɔ": "o",
+    "ʊ": "u",
+    "ʏ": "y",
+}
+
+# Voicing and devoicing rules
+voicing = {
+    "p": "b",
+    "t": "d",
+    "k": "ɡ",
+}
+
+devoicing = {
+    "b": "p",
+    "d": "t",
+    "ɡ": "k",
+}
+
+# Vowel definitions
+classical_vowel_letters = "aeɛiɪoɔuʊyʏ"
+classical_vowel = f"[{classical_vowel_letters}]"
+
+# Phonetic rules
+phonetic_rules = [
+    # Assimilation of [g] to [ŋ] before a following /n/.
+    ("ɡ([.ˈ]?)n", "ŋ\\1n"),
+    # Assimilation of word-internal /n/ and /m/ to following consonants.
+    ("n([.ˈ]?)([mpb])", "m\\1\\2"),
+    ("n([.ˈ]?)([kɡ])", "ŋ\\1\\2"),
+    ("m([.ˈ]?)([td])", "n\\1\\2"),
+    ("m([.ˈ]?)([kɡ])", "ŋ\\1\\2"),
+    # No additional labialization before high back vowels
+    ("ʷ(?=[uʊ])", ""),
+]
+
+
+def apply_rule(text, pattern, replacement):
+    if callable(replacement):
+        return re.sub(pattern, lambda match: replacement(*match.groups()), text)
+    else:
+        return re.sub(pattern, replacement, text)
+
+def apply_rules(text, rules):
+    for rule in rules:
+        if isinstance(rule, tuple):
+            pattern, replacement = rule
+            text = apply_rule(text, pattern, replacement)
+        elif isinstance(rule, dict):
+            pattern = rule["pattern"]
+            replacement = rule["replacement"]
+            text = apply_rule(text, pattern, replacement)
+    return text
+
+TILDE = "\u0303"
+HALF_LONG = "\u02D0"
+LONG = "\u02D1"
+
+# Define vowel sets
+classical_vowel = "[aeiouy]"
+lax_vowel = {
+    "ɛ": "e",
+    "ɔ": "o",
+}
+tense_vowel = {
+    "e": "ɛ",
+    "o": "ɔ",
+}
+
+devocalization = {
+    "b": "p",
+    "d": "t",
+    "g": "k",
+}
+voicing = {
+    "p": "b",
+    "t": "d",
+    "k": "g",
+}
+
+phonetic_rules = [
+    {"pattern": r"\u02B7%f[u\u028A]", "replacement": ""},
+
+    (r"([\u025B\u026A\u028F\u0254\u028A])([.\u02C8][h]?)%f[ae\u025B\u026Aio\u0254u\u028F]",
+     lambda vowel, following: (tense_vowel.get(vowel, vowel) + following)),
+
+    ("ei̯", "\u025Bɪ̯"),
+    ("eu̯", "\u025Bʊ̯"),
+
+    (rf"({classical_vowel})m$",
+     lambda vowel: (lax_vowel.get(vowel, vowel) + TILDE + HALF_LONG)),
+
+    (rf"({classical_vowel})[nm]([.\u02C8]?[sf])",
+     lambda vowel, following: (tense_vowel.get(vowel, vowel) + TILDE + LONG + following)),
+
+    (r"([^\u02C8].)h", r"\1(\u0266)"),
+
+    (r"[d]([.\u02C8]?)s", r"s\1s"),
+    (r"s[^:\u02C8]([.\u02C8]?)s%f[ptk]", r"s(:)\1"),
+
+    (r"([bdg])([.\u02C8]?)%f[ptksf]",
+     lambda consonant, following: devocalization.get(consonant, consonant) + following),
+
+    (r"([ptk])([.\u02C8]?)%f[bdg]",
+     lambda consonant, following: voicing.get(consonant, consonant) + following),
+
+    (r"l", "\u026B\u032A"),
+    (r"\u026B\u032A([.\u02C8]?)\u026B\u032A", r"l\1l\u02B2"),
+
+    (r"s", "s\u0320"),
+    (r"z([ae\u025Bi\u026A\u028F\u0254ouy\u028E])", r"d͡z\1"),
+
+    (r"t", "t\u032A"),
+    (r"d", "d\u032A"),
+    (r"n([.\u02C8]?)([td])", r"n\u032A\1\2"),
+
+    (r"a", "\u00E4"),
+]
+
+# Example input and application
+text = "some input text here"
+result = apply_rules(text, phonetic_rules)
+print(result)
+
+# Helper functions for regex and phoneme checks
+def rfind(string, pattern):
+    return re.search(pattern, string) is not None
+
+def rsub(string, pattern, repl):
+    return re.sub(pattern, repl, string)
+
+def usub(string, start, end):
+    return string[start:end]
+
+def phoneme_is_short_vowel(phoneme):
+    return rfind(phoneme, "^[aɛɛiɔouy]$")
+
+# Define vowels and other necessary variables
+vowels = {"a": True, "e": True, "i": True, "o": True, "u": True, "y": True}
+
+# Main phoneme modification function
+def modify_phonemes(phonemes, eccl):
+    if eccl:
+        for i in range(len(phonemes)):
+            prev, cur, next_ = phonemes[i - 1] if i > 0 else None, phonemes[i], phonemes[i + 1] if i + 1 < len(phonemes) else None
+
+            if next_ and (cur == "k" or cur == "ɡ") and rfind(next_, "^[eɛi]ː?$"):
+                if cur == "k":
+                    if prev == "s":
+                        prev, cur = "ʃ", "ʃ"
+                    else:
+                        cur = "t͡ʃ"
+                        if prev == "k":
+                            prev = "t"
+                else:
+                    cur = "d͡ʒ"
+                    if prev == "ɡ":
+                        prev = "d"
+
+            if cur == "q":
+                cur = "k"
+
+            if cur == "t" and next_ == "i" and not (prev == "s" or prev == "t") and next_ in vowels:
+                cur = "t͡s"
+
+            if cur == "z":
+                if next_ == "z":
+                    cur, next_ = "d", "d͡z"
+                else:
+                    cur = "d͡z"
+
+            if cur == "kʰ":
+                cur = "k"
+
+            if cur == "tʰ":
+                cur = "t"
+
+            if cur == "ɡ" and next_ == "n":
+                cur, next_ = "ɲ", "ɲ"
+
+            phonemes[i - 1], phonemes[i], phonemes[i + 1] = prev, cur, next_
+
+    return phonemes
+
+# Functions to get onset, coda, and vowel of syllables
+def get_onset(syll):
+    consonants = []
+    for phoneme in syll:
+        if phoneme in vowels:
+            break
+        if phoneme != "\u02c8":
+            consonants.append(phoneme)
+    return "".join(consonants)
+
+def get_coda(syll):
+    consonants = []
+    for phoneme in reversed(syll):
+        if phoneme in vowels:
+            break
+        consonants.insert(0, phoneme)
+    return "".join(consonants)
+
+def get_vowel(syll):
+    for phoneme in syll:
+        if phoneme in vowels:
+            return phoneme
+
+# Function to split words into syllables of CV shape
+def split_syllables(remainder):
+    syllables, syll = [], []
+
+    for phoneme in remainder:
+        if phoneme == ".":
+            if syll:
+                syllables.append(syll)
+                syll = []
+            syllables.append(["."])
+        elif phoneme == "\u02c8":
+            if syll:
+                syllables.append(syll)
+            syll = ["\u02c8"]
+        elif phoneme in vowels:
+            syll.append(phoneme)
+            syllables.append(syll)
+            syll = []
+        else:
+            syll.append(phoneme)
+
+    if syll:
+        syllables.append(syll)
+
+    for i, current in enumerate(syllables):
+        if len(current) == 1 and current[0] == ".":
+            syllables.pop(i)
+        elif i > 0:
+            previous = syllables[i - 1]
+            onset = get_onset(current)
+            while onset and onset not in vowels:
+                previous.append(current.pop(0))
+                onset = get_onset(current)
+
+            if not get_coda(previous) and current[0] == "s" and not vowels.get(current[1], False):
+                previous.append(current.pop(0))
+
+            if not get_vowel(current):
+                previous.extend(current)
+                syllables.pop(i)
+
+    return syllables
+
+# Function to detect accent
+def detect_accent(syllables, is_prefix=False, is_suffix=False):
+    for i, syllable in enumerate(syllables):
+        if "\u02c8" in syllable:
+            syllable.remove("\u02c8")
+            return i
+
+    if is_prefix:
+        return -1
+
+    if is_suffix:
+        syllables_with_vowel = len(syllables) - (1 if not get_vowel(syllables[0]) else 0)
+        if syllables_with_vowel < 2:
+            return -1
+        if syllables_with_vowel == 2:
+            penult = syllables[-2]
+            if phoneme_is_short_vowel(penult[-1]):
+                return -1
+
+    if len(syllables) > 2:
+        penult = syllables[-2]
+        if phoneme_is_short_vowel(penult[-1]):
+            return len(syllables) - 2
+        return len(syllables) - 1
+    elif len(syllables) == 2:
+        return len(syllables) - 1
+    elif len(syllables) == 1:
+        return 0
+
+def rsub(text, pattern, replacement):
+    """Substitute `pattern` with `replacement` in `text`."""
+    return re.sub(pattern, replacement, text)
+
+def initial_canonicalize_text(text):
+    """Canonicalize input text by removing unnecessary characters and converting to lowercase."""
+    text = text.lower()
+    text = rsub(text, r'[,\?!:;()"]', '')
+    text = rsub(text, r'[æœ]', lambda m: remove_ligatures[m.group()])
+    return text
+
+def convert_word(word, phonetic, eccl, vul):
+    """Convert a single word to its phonetic representation based on the rules."""
+    # Apply basic phoneme-level assimilations
+    word = rsub(word, "xs", "x")
+    word = rsub(word, r"^a([bd])([lr])", r"a\1.\2")
+    word = rsub(word, r"^ob([lr])", r"ob.\1")
+    word = rsub(word, r"^sub([lr])", r"sub.\1")
+    word = rsub(word, "%-$", "")
+    word = rsub(word, "^%-", "")
+    
+    # Convert to IPA (Placeholder for a letters-to-IPA function)
+    phonemes = letters_to_ipa(word, phonetic, eccl, vul)
+    
+    # Split into syllables (Placeholder for syllable splitting function)
+    syllables = split_syllables(phonemes)
+    
+    # Detect and add accents
+    accent = detect_accent(syllables)
+    syllables = apply_phonetic_rules(syllables, phonetic, eccl, vul, accent)
+    
+    # Combine syllables and handle special cases
+    word = '.'.join(syllables)
+    word = rsub(word, r'\.ˈ', 'ˈ')  # Normalize accents
+    if len(syllables) == 1:
+        word = rsub(word, "^ˈ", "")  # Remove accents in monosyllables
+    
+    # Additional phonetic rules
+    if eccl:
+        word = rsub(word, r"([^aeɛioɔu])ʃ([.ˈ]?)ʃ", r"\1\2ʃ")
+    else:
+        word = rsub(word, "j", "i̯")
+        word = rsub(word, "w", "u̯")
+    
+    if phonetic:
+        word = rsub(word, r"(\w)\1", r"\1ː")  # Lengthen doubled consonants
+    word = rsub(word, r"\.", "")  # Remove syllable separators
+    return word
+
+def export_convert_words(text, phonetic, eccl, vul):
+    """Convert multiple words in `text` to their phonetic representations."""
+    text = initial_canonicalize_text(text)
+    result = []
+    for word in text.split():
+        result.append(convert_word(word, phonetic, eccl, vul))
+    return " ".join(result)
+
+def export_phoneticize(text, eccl, vul):
+    """Generate phoneticizations of Latin text."""
+    text = initial_canonicalize_text(text)
+    if ";" in text:
+        variants = [rsub(text, ";", ""), rsub(text, ";", ".")]
+        return [export_convert_words(variant, False, eccl, vul) for variant in variants]
+    return [export_convert_words(text, False, eccl, vul)]
+
+# Helper stubs for undefined functions
+def letters_to_ipa(word, phonetic, eccl, vul):
+    # Implement conversion of letters to IPA phonemes based on rules
+    return word
+
+def split_syllables(phonemes):
+    # Implement syllable splitting logic
+    return [phonemes]
+
+def detect_accent(syllables):
+    # Implement accent detection based on syllables
+    return 1
+
+def apply_phonetic_rules(syllables, phonetic, eccl, vul, accent):
+    # Apply rules to syllables for phonetic or phonemic conversion
+    return syllables
+
+def remove_ligatures(match):
+    # Handle ligature replacement (e.g., æ -> ae)
+    ligature_map = {'æ': 'ae', 'œ': 'oe'}
+    return ligature_map.get(match, match)
+
+# Example usage
+text = "īnspīrāre"
+phonetic = True
+eccl = True
+vul = False
+print(export_phoneticize(text, eccl, vul))
