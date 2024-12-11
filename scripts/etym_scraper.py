@@ -18,8 +18,8 @@ def extract_dates(word):
     # print(soup)
 
     # On cherche la section étymologie de la page
-    start_tag = soup.find("b", string=re.compile(r"^.*Étym?o?l?\. (et Hist\.)?\s*:?.*$", re.IGNORECASE))
-    end_tag = soup.find("b", string=re.compile(r"^.*Fréq\. (abs\.)? (litt\.|littér\.)?.*$", re.IGNORECASE))
+    start_tag = soup.find("b", string=re.compile(r"^.*(E|É)tym?o?l?\.? (et Hist\.)?\s*:?.*$", re.IGNORECASE))
+    end_tag = soup.find("b", string=re.compile(r"^.*Fr(e|é)q\.? (abs\.)? (litt\.|littér\.)?.*$", re.IGNORECASE))
     
     # print(start_tag, end_tag)
 
@@ -43,7 +43,7 @@ def extract_dates(word):
     # print(section)
 
     # On extrait les dates (années et siècles)
-    date_pattern = re.compile(r"\b(?<!\bp\.\s)(?<!\bp\.)(1[0-9]{3}|20[0-9]{2}|(\d{3}))|((\d{1,2}|[iIvVxX]+)\s*(eme|ème|è|e|ᵉ)\s*(?:s|S)(i(?:è|e)cle)?)\b") # Demande à ChatGPT de t'expliquer ça pcq flemme
+    date_pattern = re.compile(r"\b(?<!\bp\.\s)(?<!\bp\.)(1[0-9]{3}\b|20[0-9]{2}\b|\d{3}\b)|((\d{1,2}|[iIvVxX]+)\s*(eme|ème|è|e|ᵉ)\s*(?:s|S)(i(?:è|e)cle)?)\b") # Demande à ChatGPT de t'expliquer ça pcq flemme
     matches = re.findall(date_pattern, section)
 
     # On convertit les résultats en années et les ajoute à une liste
@@ -55,7 +55,7 @@ def extract_dates(word):
             match = int(match)
             dates.append(match) if match >= 842 else None # On ne garde que les dates après 842 (première attestation du français)
         else:
-            match = match.lower().replace("ème", "").replace("eme", "").replace("ᵉ", "").replace("e", "").replace("siecle", "").replace("siècle", "").strip() # On uniformise en retirant tout ce qui pourrait polluer l'extraction de la date
+            match = match.lower().replace("ème", "").replace("eme", "").replace("ᵉ", "").replace("e", "").replace("siecle", "").replace("siècle", "").replace("s.", "").replace("s", "").strip() # On uniformise en retirant tout ce qui pourrait polluer l'extraction de la date
             if re.match(re.compile(r"[ivx]+", re.IGNORECASE), match): # Si le match est une date en chiffres romains
                 match = roman.fromRoman(match.upper()) * 100 # On convertit les siècles en la première année dudit siècle
                 dates.append(match) if match >= 842 else None

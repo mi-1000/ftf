@@ -49,7 +49,7 @@ def compute_size_bible_latin():
     res += f" Total: {nb_files_fr + nb_files_la} files - {words_fr + words_la} words - {chars_fr + chars_la} characters ".center(_WIDTH, '=') + '\n'
     res += f" French: {nb_files_fr} files - {words_fr} words - {chars_fr} characters ".center(_WIDTH, '=') + '\n'
     res += f" Latin: {nb_files_la} files - {words_la} words - {chars_la} characters ".center(_WIDTH, '=') + '\n'
-    res += "".center(_WIDTH, '=') + '\n\n'
+    res += "".center(_WIDTH, '=') + '\n\n' 
     return res
 
 def compute_size_bfm_old_french():
