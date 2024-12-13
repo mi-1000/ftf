@@ -1,0 +1,686 @@
+data = {}
+# Valid IPA symbols.
+# Currently almost all values of "title" and "link" keys
+# are just the comments that were used in [[Module:IPA]].
+# The "link" fields should be checked (those that start with an uppercase letter are checked).
+
+phones = {}
+
+# Vowels.
+phones["i"] = {
+    "close": True,
+    "front": True,
+    "unrounded": True,
+    "vowel": True,
+}
+
+phones["e"] = {
+    "close-mid": True,
+    "front": True,
+    "unrounded": True,
+    "vowel": True,
+}
+
+phones["ɛ"] = {
+    "open-mid": True,
+    "front": True,
+    "unrounded": True,
+    "vowel": True,
+}
+
+phones["æ"] = {
+    "near-open": True,
+    "front": True,
+    "unrounded": True,
+    "vowel": True,
+}
+
+phones["a"] = {
+    "open": True,
+    "front": True,
+    "unrounded": True,
+    "vowel": True,
+}
+
+phones["y"] = {
+    "close": True,
+    "front": True,
+    "rounded": True,
+    "vowel": True,
+}
+
+phones["ø"] = {
+    "close-mid": True,
+    "front": True,
+    "rounded": True,
+    "vowel": True,
+}
+
+phones["œ"] = {
+    "open-mid": True,
+    "front": True,
+    "rounded": True,
+    "vowel": True,
+}
+
+phones["ɶ"] = {
+    "open": True,
+    "front": True,
+    "rounded": True,
+    "vowel": True,
+}
+
+phones["ɪ"] = {
+    "near-close": True,
+    "near-front": True,
+    "unrounded": True,
+    "vowel": True,
+}
+
+phones["ʏ"] = {
+    "near-close": True,
+    "near-front": True,
+    "rounded": True,
+    "vowel": True,
+}
+
+phones["ɨ"] = {
+    "close": True,
+    "central": True,
+    "unrounded": True,
+    "vowel": True,
+}
+
+phones["ᵻ"] = {
+    "near-close": True,
+    "central": True,
+    "unrounded": True,
+    "vowel": True,
+}
+
+phones["ɘ"] = {
+    "close-mid": True,
+    "central": True,
+    "unrounded": True,
+    "vowel": True,
+}
+
+phones["ɜ"] = {
+    "open-mid": True,
+    "central": True,
+    "unrounded": True,
+    "vowel": True,
+}
+
+phones["ɝ"] = {
+    "rhotic": True,
+    "open-mid": True,
+    "central": True,
+    "unrounded": True,
+    "vowel": True,
+}
+
+phones["ə"] = {
+    "mid": True,
+    "central": True,
+    "vowel": True,
+}
+
+phones["ɚ"] = {
+    "rhotic": True,
+    "mid": True,
+    "central": True,
+    "vowel": True,
+}
+
+phones["ɐ"] = {
+    "near-open": True,
+    "central": True,
+    "vowel": True,
+}
+
+phones["ʉ"] = {
+    "close": True,
+    "central": True,
+    "rounded": True,
+    "vowel": True,
+}
+
+phones["ᵿ"] = {
+    "near-close": True,
+    "central": True,
+    "rounded": True,
+    "vowel": True,
+}
+
+phones["ɵ"] = {
+    "close-mid": True,
+    "central": True,
+    "rounded": True,
+    "vowel": True,
+}
+
+phones["ɞ"] = {
+    "open-mid": True,
+    "central": True,
+    "rounded": True,
+    "vowel": True,
+}
+
+phones["ʊ"] = {
+    "near-close": True,
+    "near-back": True,
+    "rounded": True,
+    "vowel": True,
+}
+
+phones["ɯ"] = {
+    "close": True,
+    "back": True,
+    "unrounded": True,
+    "vowel": True,
+}
+
+phones["ɤ"] = {
+    "close-mid": True,
+    "back": True,
+    "unrounded": True,
+    "vowel": True,
+}
+
+phones["ʌ"] = {
+    "open-mid": True,
+    "back": True,
+    "unrounded": True,
+    "vowel": True,
+}
+
+phones["ɑ"] = {
+    "open": True,
+    "back": True,
+    "unrounded": True,
+    "vowel": True,
+}
+
+phones["u"] = {
+    "close": True,
+    "back": True,
+    "rounded": True,
+    "vowel": True,
+}
+
+phones["o"] = {
+    "close-mid": True,
+    "back": True,
+    "rounded": True,
+    "vowel": True,
+}
+
+phones["ɔ"] = {
+    "open-mid": True,
+    "back": True,
+    "rounded": True,
+    "vowel": True,
+}
+
+phones["ɒ"] = {
+    "open": True,
+    "back": True,
+    "rounded": True,
+    "vowel": True,
+}
+
+# This covers the vowels. For brevity, other categories (nasals, plosives, fricatives, etc.)
+# would follow a similar format.
+
+# Example for nasals:
+phones["m"] = {
+    "voiced": True,
+    "bilabial": True,
+    "nasal": True,
+}
+
+phones["n"] = {
+    "voiced": True,
+    "alveolar": True,
+    "nasal": True,
+}
+phones = {
+    "h": {
+        "voiceless": True,
+        "glottal": True,
+        "fricative": True,
+    },
+    "ɦ": {
+        "voiced": True,
+        "glottal": True,
+        "fricative": True,
+    },
+
+    # Approximants.
+    "ʋ": {
+        "voiced": True,
+        "labiodental": True,
+        "approximant": True,
+    },
+    "ɥ": {
+        "voiced": True,
+        "labial–palatal": True,
+        "approximant": True,
+    },
+    "w": {
+        "voiced": True,
+        "labial–velar": True,
+        "approximant": True,
+    },
+    "ɹ": {
+        "voiced": True,
+        "alveolar": True,
+        "approximant": True,
+    },
+    "꟨": {
+        "velarized or pharyngealized": True,
+        "voiced": True,
+        "alveolar": True,
+        "approximant": True,
+    },
+    "l": {
+        "voiced": True,
+        "alveolar": True,
+        "lateral": True,
+        "approximant": True,
+    },
+    "ɫ": {
+        "velarized or pharyngealized": True,
+        "voiced": True,
+        "alveolar": True,
+        "lateral": True,
+        "approximant": True,
+    },
+    "ɻ": {
+        "voiced": True,
+        "retroflex": True,
+        "approximant": True,
+    },
+    "ɭ": {
+        "voiced": True,
+        "retroflex": True,
+        "lateral": True,
+        "approximant": True,
+    },
+    "j": {
+        "voiced": True,
+        "palatal": True,
+        "approximant": True,
+    },
+    "ʎ": {
+        "voiced": True,
+        "palatal": True,
+        "lateral": True,
+        "approximant": True,
+    },
+    "ŋ": {
+        "voiced": True,
+        "velar": True,
+        "approximant": True,
+    },
+    "ʟ": {
+        "voiced": True,
+        "velar": True,
+        "lateral": True,
+        "approximant": True,
+    },
+
+    # Flaps.
+    "ⱱ": {
+        "voiced": True,
+        "labiodental": True,
+        "flap": True,
+    },
+    "ɾ": {
+        "voiced": True,
+        "alveolar": True,
+        "flap": True,
+    },
+    "ɺ": {
+        "voiced": True,
+        "alveolar": True,
+        "lateral": True,
+        "flap": True,
+    },
+    "ɽ": {
+        "voiced": True,
+        "retroflex": True,
+        "flap": True,
+    },
+    "\U0000df08": {
+        "voiced": True,
+        "retroflex": True,
+        "lateral": True,
+        "flap": True,
+    },
+
+    # Trills.
+    "ʙ": {
+        "voiced": True,
+        "bilabial": True,
+        "trill": True,
+    },
+    "r": {
+        "voiced": True,
+        "alveolar": True,
+        "trill": True,
+    },
+    "\U0000df00": {
+        "voiceless": True,
+        "velopharyngeal": True,
+        "trill": True,
+    },
+    "ʀ": {
+        "voiced": True,
+        "uvular": True,
+        "trill": True,
+    },
+    "ᴙ": {
+        "voiced": True,
+        "pharyngeal": True,
+        "trill": True,
+    },
+
+    # Clicks.
+    "ʘ": {
+        "bilabial": True,
+        "click": True,
+    },
+    "ǀ": {
+        "dental": True,
+        "click": True,
+    },
+    "ǃ": {
+        "alveolar": True,
+        "click": True,
+    },
+    "\U0000df0a": {
+        "retroflex": True,
+        "click": True,
+    },
+    "ǂ": {
+        "palatal": True,
+        "click": True,
+    },
+    "ʞ": {
+        "velar": True,
+        "click": True,
+    },
+    "ǁ": {
+        "lateral": True,
+        "click": True,
+    },
+
+    # Implosives.
+    "ɓ": {
+        "voiced": True,
+        "bilabial": True,
+        "implosive": True,
+    },
+    "ɗ": {
+        "voiced": True,
+        "alveolar": True,
+        "implosive": True,
+    },
+    "\U0001c91": {
+        "voiced": True,
+        "retroflex": True,
+        "implosive": True,
+    },
+    "ʄ": {
+        "voiced": True,
+        "palatal": True,
+        "implosive": True,
+    },
+    "ɠ": {
+        "voiced": True,
+        "velar": True,
+        "implosive": True,
+    },
+    "ʛ": {
+        "voiced": True,
+        "uvular": True,
+        "implosive": True,
+    },
+
+    # Percussives.
+    "ʬ": {
+        "bilabial": True,
+        "percussive": True,
+    },
+    "ʭ": {
+        "bidental": True,
+        "percussive": True,
+    },
+    "¡": {
+        "sublaminal": True,
+        "lower-alveolar": True,
+        "percussive": True,
+    },
+}
+```python
+ipa_symbols = {
+    # Open-mid vowels
+    "ɛ": {"title": "open-mid front unrounded vowel", "link": "w:Open-mid front unrounded vowel"},
+    "œ": {"title": "open-mid front rounded vowel", "link": "w:Open-mid front rounded vowel"},
+    "ɜ": {"title": "open-mid central unrounded vowel", "link": "w:Open-mid central unrounded vowel"},
+    "ɝ": {"title": "open-mid central unrounded vowel+r", "link": "w:R-colored vowel"},
+    "ɞ": {"title": "open-mid central rounded vowel", "link": "w:Open-mid central rounded vowel"},
+    "ʌ": {"title": "open-mid back unrounded vowel", "link": "w:Open-mid back unrounded vowel"},
+    "ɔ": {"title": "open-mid back rounded vowel", "link": "w:Open-mid back rounded vowel"},
+
+    # Near-open vowels
+    "æ": {"title": "near-open front unrounded vowel", "link": "w:Near-open front unrounded vowel"},
+    "ɐ": {"title": "near-open central vowel", "link": "w:Near-open central vowel"},
+
+    # Open vowels
+    "a": {"title": "open front unrounded vowel", "link": "w:Open front unrounded vowel"},
+    "ɶ": {"title": "open front rounded vowel", "link": "w:Open front rounded vowel"},
+    "ɑ": {"title": "open back unrounded vowel", "link": "w:Open back unrounded vowel"},
+    "ɒ": {"title": "open back rounded vowel", "link": "w:Open back rounded vowel"},
+
+    # Suprasegmentals
+    "ˈ": {"title": "primary stress", "link": "w:Stress (linguistics)", "XSAMPA": "\""},
+    "ˌ": {"title": "secondary stress", "link": "w:Secondary stress"},
+    "ː": {"title": "long", "link": "w:Length (phonetics)"},
+    "ˑ": {"title": "half long", "link": "w:Length (phonetics)"},
+    "̆": {"title": "extra-short", "link": "w:Length (phonetics)"},
+    "‿": {"title": "linking mark (absence of a break)", "link": "w:Tie (typography)#International_Phonetic_Alphabet"},
+    " ": {"title": "separator", "link": "w:separator"},
+
+    # Tones
+    "˥": {"title": "top", "link": "w:Tone letter"},
+    "˦": {"title": "high", "link": "w:Tone letter"},
+    "˧": {"title": "mid", "link": "w:Tone letter"},
+    "˨": {"title": "low", "link": "w:Tone letter"},
+    "˩": {"title": "bottom", "link": "w:Tone letter"},
+    "̋": {"title": "extra high tone", "link": "w:Tone letter"},
+    "́": {"title": "high tone", "link": "w:Tone letter"},
+    "̄": {"title": "mid tone", "link": "w:Tone letter"},
+    "̀": {"title": "low tone", "link": "w:Tone letter"},
+    "̏": {"title": "extra low tone", "link": "w:Tone letter"},
+    "ꜛ": {"title": "upstep", "link": "w:Upstep"},
+    "ꜜ": {"title": "downstep", "link": "w:Downstep"},
+    "̌": {"title": "rising tone", "link": "w:Tone (linguistics)"},
+    "̂": {"title": "falling tone", "link": "w:Tone (linguistics)"},
+    "᷄": {"title": "high rising tone", "link": "w:Tone (linguistics)"},
+    "᷅": {"title": "low rising tone", "link": "w:Tone (linguistics)"},
+    "᷇": {"title": "high falling tone", "link": "w:Tone (linguistics)"},
+    "᷆": {"title": "low falling tone", "link": "w:Tone (linguistics)"},
+    "᷈": {"title": "rising falling tone (peaking)", "link": "w:Tone (linguistics)"},
+    "᷉": {"title": "dipping", "link": "w:Tone (linguistics)"},
+
+    # Intonation
+    "|": {"title": "minor (foot) group", "link": "w:Prosodic unit"},
+    "‖": {"title": "major (intonation) group", "link": "w:Prosodic unit"},
+    "↗": {"title": "global rise", "link": "w:Intonation (linguistics)"},
+    "↘": {"title": "global fall", "link": "w:Intonation (linguistics)"},
+
+    # Diacritics
+    "̩": {"title": "syllabic", "link": "w:Syllabic consonant", "withdescender": "̍"},
+    "̯": {"title": "non-syllabic", "link": "w:Semivowel", "withdescender": "̑"},
+    "ʰ": {"title": "aspirated", "link": "w:Aspirated consonant"},
+    "ⁿ": {"title": "nasal release", "link": "w:Nasal release"},
+    "ˡ": {"title": "lateral release", "link": "w:Lateral release (phonetics)"},
+    "̚": {"title": "no audible release", "link": "w:No audible release"},
+    "̥": {"title": "voiceless", "link": "w:Voicelessness", "withdescender": "̊"},
+    "̬": {"title": "voiced", "link": "w:Voice (phonetics)"},
+    "̤": {"title": "breathy voice", "link": "w:Breathy voice"},
+    "̰": {"title": "creaky voice", "link": "w:Creaky voice"},
+    "᷽": {"title": "strident", "link": "w:Strident vowel"},
+    "̪": {"title": "dental", "link": "w:Dental consonant"},
+    "̺": {"title": "apical", "link": "w:Apical consonant"},
+    "̻": {"title": "laminal", "link": "w:Laminal consonant"},
+    "̟": {"title": "advanced", "link": "w:Relative articulation#Advanced_and_retracted", "withdescender": "˖"},
+    "̠": {"title": "retracted", "link": "w:Relative articulation#Retracted", "withdescender": "˗"},
+    "̼": {"title": "linguolabial", "link": "w:Linguolabial consonant"},
+    "̈": {"title": "centralized", "link": "w:Relative articulation#Centralized_vowels", "XSAMPA": "_\""},
+    "̽": {"title": "mid-centralized", "link": "Relative articulation#Mid-centralized_vowel"},
+    "̞": {"title": "lowered", "link": "w:Relative articulation#Raised_and_lowered", "withdescender": "˕"},
+    "̝": {"title": "raised", "link": "w:Relative articulation#Raised_and_lowered", "withdescender": "˔"},
+    "͡": {"title": "coarticulated", "link": "w:Co-articulated consonant"},
+    "͈": {"title": "strong articulation", "link": "w:Fortis and lenis"},
+
+    # Secondary articulation
+    "ʷ": {"title": "labialized", "link": "w:Labialization"},
+    "ʲ": {"title": "palatalized", "link": "w:Palatalization (phonetics)"},
+    "ˠ": {"title": "velarized", "link": "w:Velarization"},
+    "ˤ": {"title": "pharyngealized", "link": "w:Pharyngealization"}
+}
+```
+data = {
+    1: {
+        "ɫ": {
+            "title": "velarized alveolar lateral approximant",
+            "link": "w:Alveolar lateral approximant",
+        },
+        "̴": {
+            "title": "velarized or pharyngealized; also see 5",
+            "link": "w:Velarization",
+        },
+        "̹": {
+            "title": "more rounded",
+            "link": "w:Roundedness",
+        },
+        "̜": {
+            "title": "less rounded",
+            "link": "w:Roundedness",
+        },
+        "̃": {
+            "title": "nasalization",
+            "link": "w:Nasalization",
+        },
+        "˞": {
+            "title": "rhotacization in vowels, retroflexion in consonants",
+            "link": "w:R-colored vowel",
+        },
+        "̘": {
+            "title": "advanced tongue root",
+            "link": "w:Advanced and retracted tongue root",
+        },
+        "̙": {
+            "title": "retracted tongue root",
+            "link": "w:Advanced and retracted tongue root",
+        },
+    },
+    2: {
+        "ːː": {
+            "title": "extra long",
+            "link": "w:Length (phonetics)",
+        },
+        "r̥": {
+            "title": "voiceless alveolar trill",
+            "link": "w:Voiceless alveolar trill",
+        },
+        "ɬ’": {
+            "title": "alveolar lateral ejective fricative",
+            "link": "w:Alveolar lateral ejective fricative",
+        },
+    },
+    3: {
+        "t͡s": {
+            "title": "voiceless alveolar sibilant affricate",
+            "link": "w:Voiceless alveolar affricate",
+        },
+        "d͡z": {
+            "title": "voiced alveolar sibilant affricate",
+            "link": "w:Voiced alveolar affricate",
+        },
+        "t͡ʃ": {
+            "title": "voiceless palato-alveolar affricate",
+            "link": "w:Voiceless palato-alveolar affricate",
+            "descender": True,
+        },
+        "d͡ʒ": {
+            "title": "voiced palato-alveolar affricate",
+            "link": "w:Voiced palato-alveolar affricate",
+        },
+        "ʈ͡ʂ": {
+            "title": "voiceless retroflex affricate",
+            "link": "w:Voiceless retroflex affricate",
+            "descender": True,
+        },
+        "ɖ͡ʐ": {
+            "title": "voiced retroflex affricate",
+            "link": "w:Voiced retroflex affricate",
+            "descender": True,
+        },
+        "t͡ɕ": {
+            "title": "voiceless alveolo-palatal affricate",
+            "link": "w:Voiceless alveolo-palatal affricate",
+        },
+        "d͡ʑ": {
+            "title": "voiced alveolo-palatal affricate",
+            "link": "w:Voiced alveolo-palatal affricate",
+        },
+    },
+    4: {
+        "ǃ͡qʼ": {
+            "title": "alveolar linguo-glottalic stop",
+            "link": "w:Ejective-contour clicks",
+            "descender": True,
+        },
+        "ǁ͡χʼ": {
+            "title": "lateral linguo-glottalic affricate (homorganic)",
+            "link": "w:Ejective-contour clicks",
+            "descender": True,
+        },
+    },
+    5: {
+        "k͡ʟ̝̊": {
+            "title": "voiceless velar lateral affricate",
+            "link": "w:Voiceless velar lateral affricate",
+        },
+        "ᶢǀ͡qʼ": {
+            "title": "voiced dental linguo-glottalic stop",
+            "link": "w:Ejective-contour clicks",
+        },
+        "ǂ͡kxʼ": {
+            "title": "palatal linguo-glottalic affricate (heterorganic)",
+            "link": "w:Ejective-contour clicks",
+        },
+    },
+    6: {
+        "k͡ʟ̝̊ʼ": {
+            "title": "velar lateral ejective affricate",
+            "link": "w:Velar lateral ejective affricate",
+        },
+        "ᶢʘ͡kxʼ": {
+            "title": "voiced labial linguo-glottalic affricate",
+            "link": "w:Ejective-contour clicks",
+        },
+    },
+    "diacritics": [
+        "`", "'", "^", "~", "ˉ", "˘", "¨", "˚", "˝", "ˇ", "|", "˵", "˶", 
+        "<", ">", "˺", "˻", "˼", "+", "-", "˗", "˴", ".", "◌"
+    ],
+    "tones": "˥˦˧˨˩꜒꜓꜔꜕꜖꜈꜉꜊꜋꜌꜍꜎꜏꜐꜑¹²³⁴⁵⁶⁷⁸⁹⁰",
+    "vowels": "iyɨʉɯuɪʏʊeøɘɵɤoəɚɛœɜɝɞʌɔæɐaɶɑɒäëïöüÿ",
+    "superscripts": "¹²³⁴⁵⁶⁷⁸⁹⁰ᵝʰʱʲʳʴʵʶʷʸᶣ˞ˠˡˢꟹᵄᵊⁱᵏᵐᶬᵑᶮᶯᶰᵘᶹˀˤⁿᵇᵈᶢᶡᵡ"
+}
