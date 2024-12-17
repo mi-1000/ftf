@@ -3,14 +3,15 @@
 # 2024-12-17
 
 import re
+from functools import lru_cache
 
-BREVE = "\u0306" # ̆
-TILDE = "\u0303" # ̃
-LONG = "\u02d0" # ː
-HALF_LONG = "\u02d1" # ˑ
+BREVE = "\u0306"  # ̆
+TILDE = "\u0303"  # ̃
+LONG = "\u02d0"  # ː
+HALF_LONG = "\u02d1"  # ˑ
 
-phonetic_rules_vul = {} # TODO !
-letters_ipa_vul = {} # TODO !
+phonetic_rules_vul = {}  # TODO !
+letters_ipa_vul = {}  # TODO !
 
 letters_ipa = {
     "a": "a",
@@ -121,126 +122,123 @@ phonetic_rules = [
     # Assimilation of [g] to [ŋ] before a following /n/.
     (r"ɡ([.ˈ]?)n", r"ŋ\1n"),
     # Per Allen (1978: 23), although note the reservations expressed on the next page.
-
-    # Assimilation of word-internal /n/ and /m/ to following consonants. 
+    # Assimilation of word-internal /n/ and /m/ to following consonants.
     # Exception: /m/ does not assimilate to a following /n/.
     (r"n([.ˈ]?)([mpb])", r"m\1\2"),
     (r"n([.ˈ]?)([kɡ])", r"ŋ\1\2"),
     (r"m([.ˈ]?)([td])", r"n\1\2"),
     (r"m([.ˈ]?)([kɡ])", r"ŋ\1\2"),
-    # Per George M. Lane: “Nasals changed their place of articulation to that of the following consonant. 
-    # Thus, dental n before the labials p and b became the labial m... 
+    # Per George M. Lane: “Nasals changed their place of articulation to that of the following consonant.
+    # Thus, dental n before the labials p and b became the labial m...
     # labial m before the gutturals c and g became guttural n...
-    # labial m before the dentals t, d, s became dental n…” (§164.3); 
-    # “One nasal, n, is assimilated to another, m...but an m before n is never assimilated..." (§166.5).		
-    # Per Lloyd (1987: 84): “The opposition between nasals was neutralized in syllable-final position, 
-    # with the realization of the nasality being assimilated to the point of articulation of the following consonant, 
+    # labial m before the dentals t, d, s became dental n…” (§164.3);
+    # “One nasal, n, is assimilated to another, m...but an m before n is never assimilated..." (§166.5).
+    # Per Lloyd (1987: 84): “The opposition between nasals was neutralized in syllable-final position,
+    # with the realization of the nasality being assimilated to the point of articulation of the following consonant,
     # e.g., [m] is found only before labials, [n] only before dentals or alveolars, and [ŋ] only before velars and /n/."
     # Potential addition: assimilation of final /m/ and /n/ across word boundaries, per e.g. Allen (1987: 28, 31).
-    
     # No additional labialization before high back vowels
     (r"ʷ(?=uʊ)", ""),
-    
     # Tensing of short vowels before another vowel
     (
         r"([ɛɪʏɔʊ])([.ˈ][h]?)((?=[aeɛiɪoɔuʊyʏ]))",
-        lambda match: (tense_vowel.get(match.group(1), match.group(1)) + match.group(2))
+        lambda match: (
+            tense_vowel.get(match.group(1), match.group(1)) + match.group(2)
+        ),
     ),
-
     # But not before consonantal glides
     (r"ei̯", "ɛi̯"),
     (r"eu̯", "ɛu̯"),
-
     # Nasal vowels
     (
         rf"({classical_vowel})m$",
-        lambda match: lax_vowel.get(match.group(1), match.group(1)) + TILDE + HALF_LONG
+        lambda match: lax_vowel.get(match.group(1), match.group(1)) + TILDE + HALF_LONG,
     ),
     (
         rf"({classical_vowel})[nm]([.ˈ]?[sf])",
-        lambda match: tense_vowel.get(match.group(1), match.group(1)) + TILDE + LONG + match.group(2)
+        lambda match: tense_vowel.get(match.group(1), match.group(1))
+        + TILDE
+        + LONG
+        + match.group(2),
     ),
-
     # Dissimilation after homorganic glides (the tuom volgus-type)
     # (r"([wu])([.ˈ]?)([h]?)ʊ", r"\1\2\3o"),
     # (r"([ji])([.ˈ]?)([h]?)ɪ", r"\1\2\3e"),
-
     # Voicing and loss of intervocalic /h/.
     (r"([^ˈ].)h", r"\1(ɦ)"),
     # Per Allen (1978: 43–45).
-
     # Phonetic (as opposed to lexical/phonemic) assimilations
     # Place
     # First because this accounts for 'atque' seemingly escaping total assimilation (and 'adque' presumably not)
-    (r"[d]([.ˈ]?)s", r"s\1s"),   # leave [t] out since etsi has [ts], not [sː]
+    (r"[d]([.ˈ]?)s", r"s\1s"),  # leave [t] out since etsi has [ts], not [sː]
     (r"s[^ː]([.ˈ]?)s(?=[ptk])", r"s(ː)\1"),
     (r"st([.ˈ])([^aeɛiɪoɔuʊyʏe̯u̯])", r"s(t)\1\2"),
-
-    (r"d([.ˈ])([pkɡln])", r"\2\1\2"),  # leave [r] out since dr does not assimilate, even when heterosyllabic (e.g. quadrans), except in prefixed words
+    (
+        r"d([.ˈ])([pkɡln])",
+        r"\2\1\2",
+    ),  # leave [r] out since dr does not assimilate, even when heterosyllabic (e.g. quadrans), except in prefixed words
     (r"b([.ˈ])([mf])", r"\2\1\2"),
     (r"s([.ˈ])f", r"f\1f"),
-
     # Regressive voicing assimilation in consonant clusters
     (
         r"([bdɡ])([.ˈ]?)((?=[ptksf]))",
-        lambda match: devoicing.get(match.group(1), match.group(1)) + match.group(2)
+        lambda match: devoicing.get(match.group(1), match.group(1)) + match.group(2),
     ),
     (
         r"([ptk])([.ˈ]?)((?=[bdɡ]))",
-        lambda match: voicing.get(match.group(1), match.group(1)) + match.group(2)
+        lambda match: voicing.get(match.group(1), match.group(1)) + match.group(2),
     ),
-
     # Allophones of /l/
     (r"l", "ɫ̪"),
     (r"ɫ̪([.ˈ]?)ɫ̪", r"l\1lʲ"),
     (r"ɫ̪([.ˈ]?[iɪyʏ])", r"lʲ\1"),
-
     # Retracted /s/
     (r"s", "s̠"),
-
     # dental Z
     (r"z([aeɛiɪoɔuʊyʏ])", r"d͡z\1"),
     (r"z([.ˈ])z", r"z\1(d͡)z"),
     (r"z", "z̪"),
-
     # Dental articulations
     (r"t", "t̪"),
     (r"d", "d̪"),
     (r"n([.ˈ]?)([td])", r"n̪\1\2"),
-
     # Allophones of A
     (r"a", "ä"),
 ]
 
 phonetic_rules_eccl = [
-    (r"([aɛeiɔou][ː.ˈ]*)s([.ˈ]*)\b(?=[aɛeiɔou])", r"\1s̬\2"),  # partial voicing of s between vowels
+    (
+        r"([aɛeiɔou][ː.ˈ]*)s([.ˈ]*)\b(?=[aɛeiɔou])",
+        r"\1s̬\2",
+    ),  # partial voicing of s between vowels
     (r"s([.ˈ]*)\b(?=[bdgmnlv])", r"z\1"),  # full voicing of s before voiced consonants
     (r"ek([.ˈ]*)s([aɛeiɔoubdgmnlv])", r"eɡ\1z\2"),  # voicing of the prefix ex-
     (r"kz", r"ɡz"),  # handles /ksˈl/ issue
-
     # Tapped R intervocalically and in complex onset
     # (r"([aɛeiɔou]ː?[.ˈ])r([aɛeiɔou]?)", r"\1ɾ\2"),
     # (r"([fbdgptk])r", r"\1ɾ"),
-
     (r"a", r"ä"),  # a is open and central
-
     # Dental articulations
     (r"n([.ˈ]?)([td])([^͡])", r"n̪\1\2\3"),  # assimilation of n to dentality
     (r"l([.ˈ]?)([td])([^͡])", r"l̪\1\2\3"),
     # Note: n might not be dental otherwise; it may be alveolar in most contexts in Italian.
-    (r"t([^͡])", r"t̪\1"),  # t is dental, except as the first element of a palatal affricate
-    (r"d([^͡])", r"d̪\1"),  # d is dental, except as the first element of a palatal affricate
+    (
+        r"t([^͡])",
+        r"t̪\1",
+    ),  # t is dental, except as the first element of a palatal affricate
+    (
+        r"d([^͡])",
+        r"d̪\1",
+    ),  # d is dental, except as the first element of a palatal affricate
     (r"t͡s", r"t̪͡s̪"),  # dental affricates
     (r"d͡z", r"d̪͡z̪"),  # dental affricates
     (r"t̪([.ˈ]?)t͡ʃ", r"t\1t͡ʃ"),
     (r"d̪([.ˈ]?)d͡ʒ", r"d\1d͡ʒ"),
-
     # End of words
     (r"lt$", r"l̪t̪"),
     (r"nt$", r"n̪t̪"),
     (r"t$", r"t̪"),
     (r"d$", r"d̪"),
-
     # Partial assimilation of l and n before palatal affricates, as in Italian
     (r"l([.ˈ]?)t͡ʃ", r"l̠ʲ\1t͡ʃ"),
     (r"l([.ˈ]?)d͡ʒ", r"l̠ʲ\1d͡ʒ"),
@@ -248,24 +246,31 @@ phonetic_rules_eccl = [
     (r"n([.ˈ]?)t͡ʃ", r"n̠ʲ\1t͡ʃ"),
     (r"n([.ˈ]?)d͡ʒ", r"n̠ʲ\1d͡ʒ"),
     (r"n([.ˈ]?)ʃ", r"n̠ʲ\1ʃ"),
-
     # Other coda nasal assimilation, full and partial. Per Canepari, only applies to /n/ and not to /m/
     (r"n([.ˈ]?)([kɡ])", r"ŋ\1\2"),
     (r"n([.ˈ]?)([fv])", r"ɱ\1\2"),
 ]
 
 lenition = {
-    "ɡ": "ɣ", "d": "ð",
+    "ɡ": "ɣ",
+    "d": "ð",
 }
 
 lengthen_vowel = {
-    "a": "aː", "aː": "aː",
-    "ɛ": "ɛː", "ɛː": "ɛː",
-    "e": "eː", "eː": "eː",
-    "i": "iː", "iː": "iː",
-    "ɔ": "ɔː", "ɔː": "ɔː",
-    "o": "oː", "oː": "oː",
-    "u": "uː", "uː": "uː",
+    "a": "aː",
+    "aː": "aː",
+    "ɛ": "ɛː",
+    "ɛː": "ɛː",
+    "e": "eː",
+    "eː": "eː",
+    "i": "iː",
+    "iː": "iː",
+    "ɔ": "ɔː",
+    "ɔː": "ɔː",
+    "o": "oː",
+    "oː": "oː",
+    "u": "uː",
+    "uː": "uː",
     "au̯": "aːu̯",
     "ɛu̯": "ɛːu̯",
     "eu̯": "eːu̯",
@@ -496,7 +501,7 @@ remove_ligatures = {
 #     codas[val] = True
 
 # NOTE: Everything is lowercased very early on, so we don't have to worry about capitalized letters.
-short_vowels_string = "aeiouyăĕĭŏŭäëïöüÿ" # no breve-y in Unicode
+short_vowels_string = "aeiouyăĕĭŏŭäëïöüÿ"  # no breve-y in Unicode
 long_vowels_string = "āēīōūȳ"
 vowels_string = short_vowels_string + long_vowels_string
 vowels_c = f"[{vowels_string}]"
@@ -506,8 +511,10 @@ non_vowels_c = f"[^{vowels_string}]"
 def rfind(word, pattern):
     return re.search(pattern, word)
 
+
 def rsubn(string, pattern, repl):
     return re.subn(pattern, repl, string)
+
 
 # def rmatch(string, pattern):
 #     return re.search(pattern, string) # rfind
@@ -515,8 +522,10 @@ def rsubn(string, pattern, repl):
 # def rsplit():
 #     pass
 
+
 def ulower(string: str):
     return string.lower()
+
 
 def usub(string, i, j):
     """Substring from index `i` to `j`"""
@@ -525,14 +534,16 @@ def usub(string, i, j):
 
     return string[i:j]
 
+
 def ulen(word):
     return len(word)
+
 
 def rsub(string, pattern, repl):
     """Version of `rsubn()` that discards all but the first return value"""
     # res, _ = rsubn(string, pattern, repl)
     # return res
-    print(pattern, '-', repl, '-', string)
+    print(pattern, "-", repl, "-", string)
     if not string:
         return ""
     if type(repl) == dict:
@@ -544,17 +555,19 @@ def rsub(string, pattern, repl):
     else:
         return re.sub(pattern, repl, string)
 
+
 def rsubb(string, pattern, repl):
     """Version of `rsubn()` that returns a 2nd argument boolean indicating whether a substitution was made."""
     res, nsubs = rsubn(string, pattern, repl)
     return res, nsubs > 0
 
 
-
 def letters_to_ipa(word, phonetic, eccl, vul):
     phonemes = []
 
-    ipa_letters_dict = letters_ipa_eccl if eccl else (letters_ipa_vul if vul else letters_ipa)
+    ipa_letters_dict = (
+        letters_ipa_eccl if eccl else (letters_ipa_vul if vul else letters_ipa)
+    )
 
     while ulen(word) > 0:
         longestmatch = ""
@@ -579,12 +592,10 @@ def letters_to_ipa(word, phonetic, eccl, vul):
 
     if eccl:
         for i in range(len(phonemes)):
-            prev, cur, next = (
-                phonemes[i - 1] if i > 0 else None,
-                phonemes[i],
-                phonemes[i + 1] if i < len(phonemes) - 1 else None,
-            )
-            if next and (cur == "k" or cur == "ɡ") and rfind(next, "^[eɛi]ː?$"):
+            prev = (phonemes[i - 1] if i > 0 else None)
+            cur = (phonemes[i],)
+            next = (phonemes[i + 1] if i < len(phonemes) - 1 else None)
+            if next and (cur == "k" or cur == "ɡ") and rfind(next, r"^[eɛi]ː?$"):
                 if cur == "k":
                     if prev == "s":
                         prev = "ʃ"
@@ -619,18 +630,25 @@ def letters_to_ipa(word, phonetic, eccl, vul):
             if cur == "ɡ" and next == "n":
                 cur = "ɲ"
                 next = "ɲ"
-            try:
-                phonemes[i - 1], phonemes[i], phonemes[i + 1] = (
-                    prev if i > 0 else None,
-                    cur,
-                    next if i < len(phonemes) - 1 else None,
-                )
-            except IndexError as e:
-                print("[WARNING] Index out of range in function letters_to_ipa")
-
+            # try:
+            #     phonemes[i - 1], phonemes[i], phonemes[i + 1] = (
+            #         prev if i > 0 else None,
+            #         cur,
+            #         next if i < len(phonemes) - 1 else None,
+            #     )
+            # except IndexError as e:
+            #     print("[WARNING] Index out of range in function letters_to_ipa")
+            
+            # if i > 0:
+            #     phonemes[i - 1] = prev
+            # phonemes[i] = cur
+            # if i < len(phonemes) - 1:
+            #     phonemes[i + 1] = next
     return phonemes
 
+
 def get_onset(syll):
+    print("syll", syll)
     consonants = []
 
     for char in syll:
@@ -638,6 +656,8 @@ def get_onset(syll):
             break
         if char and char != "ˈ":
             consonants.append(char)
+    
+    print("consonants", consonants)
 
     return "".join(consonants)
 
@@ -694,16 +714,31 @@ def split_syllables(remainder):
             while onset != "" and onset not in onsets:
                 previous.append(current.pop(0))
                 onset = get_onset(current)
-            if get_coda(previous) == "" and (current[0] == "s" and (current[1] not in vowels)):
+            if get_coda(previous) == "" and (current[0] == "s" and (len(current) > 1 and current[1] not in vowels)):
                 previous.append(current.pop(0))
+            # if not get_vowel(current):
+            #     previous.extend(current)
+            #     syllables.pop(i)
+            #     try:
+            #         if (
+            #             syllables[i]
+            #             and len(syllables[i]) == 1
+            #             and syllables[i][0] == "."
+            #         ):
+            #             syllables.pop(i)
+            #     except IndexError as e:
+            #         print("[WARNING] Index out of range in function split_syllables")
             if not get_vowel(current):
-                previous.extend(current)
+                # Déplacer tous les éléments de `current` vers `previous`
+                while current:
+                    previous.append(current.pop(0))
+
+                # Supprimer `syllables[i]`
                 syllables.pop(i)
-                try:
-                    if syllables[i] and len(syllables[i]) == 1 and syllables[i][0] == ".":
-                        syllables.pop(i)
-                except IndexError as e:
-                    print("[WARNING] Index out of range in function split_syllables")
+
+                # Vérifier si `syllables[i]` existe et contient uniquement "."
+                if i < len(syllables) and len(syllables[i]) == 1 and syllables[i][0] == ".":
+                    syllables.pop(i)
 
     for syll in syllables:
         onset = get_onset(syll)
@@ -715,10 +750,14 @@ def split_syllables(remainder):
 
     return syllables
 
+
 def phoneme_is_short_vowel(phoneme):
-    return rfind(phoneme, "^[aɛeiɔouy]$")
+    return rfind(phoneme, r"^[aɛeiɔouy]$")
+
 
 def detect_accent(syllables, is_prefix, is_suffix):
+    """Detect the position of the tonic accent within the word (returns the index of the accented syllable)"""
+    print("testttt accent", syllables, is_prefix, is_suffix)
     for i, syll in enumerate(syllables):
         for j, phoneme in enumerate(syll):
             if phoneme == "ˈ":
@@ -729,40 +768,65 @@ def detect_accent(syllables, is_prefix, is_suffix):
         return -1
 
     if is_suffix:
+    # Count syllables containing vowels, excluding the first syllable if it has no vowel
         syllables_with_vowel = len(syllables) - (0 if get_vowel(syllables[0]) else 1)
+        
+        # If there are fewer than 2 vowel-containing syllables, there is no stress on the suffix
         if syllables_with_vowel < 2:
             return -1
+
+        # If there are exactly 2 vowel-containing syllables, check the penultimate one
         if syllables_with_vowel == 2:
-            penult = syllables[-2]
+            penult = syllables[-2]  # Second-to-last syllable
+            # If the last phoneme in the penultimate syllable is a short vowel, no suffix stress
             if phoneme_is_short_vowel(penult[-1]):
                 return -1
 
+    # Detect accent placement
     if len(syllables) > 2:
+        # Check the penultimate syllable
         penult = syllables[-2]
+        
+        # If the penultimate syllable ends with a short vowel, stress is on the antepenultimate syllable
         if phoneme_is_short_vowel(penult[-1]):
-            return len(syllables) - 2
+            return len(syllables) - 3  # Antepenultimate syllable
         else:
-            return len(syllables) - 1
-    elif len(syllables) == 2:
-        return len(syllables) - 1
-    elif len(syllables) == 1:
-        return len(syllables)
+            return len(syllables) - 2  # Penultimate syllable
 
+    elif len(syllables) == 2:
+        # Stress the first syllable in disyllabic words
+        return 0  # Penultimate syllable (first in this case)
+
+    elif len(syllables) == 1:
+        # Mark stress on monosyllabic words to ensure stress-conditioned rules apply
+        return 0  # Stress on the only syllable
+
+
+@lru_cache(500)
 def convert_word(word, phonetic, eccl, vul):
 
     # Normalize w, i, j, u, v; do this before removing breves, so we keep the
     # ŭ in langŭī (perfect of languēscō) as a vowel.
     word = rsub(word, "w", "v")
-    word = rsub(word, f"({vowels_c})v([{non_vowels_c}])", r"\1u\2")
+    word = rsub(word, f"({vowels_c})v({non_vowels_c})", r"\1u\2")
     word = rsub(word, "qu", "qv")
     word = rsub(word, f"ngu({vowels_c})", "ngv\1")
 
     word = rsub(word, f"^i({vowels_c})", "j\1")
     word = rsub(word, f"^u({vowels_c})", "v\1")
-    
+
     # We convert i/j between vowels to jj if the preceding vowel is short
     # but to single j if the preceding vowel is long.
-    word = rsub(word, f"({vowels_c})([iju])()", lambda m: m.group(1) + ("v" if m.group(2) == "u" else "j" if long_vowels_string.find(m.group(1)) >= 0 else "jj"))
+    word = rsub(
+        word,
+        f"({vowels_c})([iju])()",
+        lambda m: m.group(1)
+        + (
+            "v"
+            if m.group(2) == "u"
+            else "j" if long_vowels_string.find(m.group(1)) >= 0 else "jj"
+        ),
+    )
 
     # Convert v to u syllable-finally
     word = rsub(word, r"v\.", "u.")
@@ -797,7 +861,9 @@ def convert_word(word, phonetic, eccl, vul):
     word = rsub(word, "_", "")
 
     # Vowel length before nasal + fricative is allophonic
-    word = rsub(word, r"([āēīōūȳ])([mn][fs])", lambda m: remove_macrons[m.group(1)] + m.group(2))
+    word = rsub(
+        word, r"([āēīōūȳ])([mn][fs])", lambda m: remove_macrons[m.group(1)] + m.group(2)
+    )
 
     # Vowel before yod
     vowel_before_yod = {
@@ -833,6 +899,8 @@ def convert_word(word, phonetic, eccl, vul):
 
     # Add accent
     accent = detect_accent(syllables, is_prefix, is_suffix)
+    
+    print("retestttt accent", accent)
 
     # Poetic meter shows that a consonant before "h" was syllabified as an onset, not as a coda.
     # This will be indicated by the omission of /h/ [h] in this context.
@@ -846,7 +914,7 @@ def convert_word(word, phonetic, eccl, vul):
                 syll[j] = lax_vowel.get(syll[j], syll[j])
 
     for i, syll in enumerate(syllables):
-        if (eccl or vul) and i == accent and phonetic and vowels.get(syll[-1]):
+        if (eccl or vul) and i == accent and phonetic and (syll and syll[-1] in vowels):
             syll[-1] = lengthen_vowel.get(syll[-1], syll[-1])
 
         for j in range(len(syll) - 1):
@@ -855,16 +923,16 @@ def convert_word(word, phonetic, eccl, vul):
 
     # Atonic /ɔ/ and /ɛ/ merge with /o/ and /e/ respectively
     for i, syll in enumerate(syllables):
-        syll = ''.join(syll)
+        syll = "".join(syll)
         if vul and i != accent:
             syll = rsub(syll, "ɔ", "o")
             syll = rsub(syll, "ɛ", "e")
         if eccl and phonetic and i == accent:
             syll = rsub(syll, "o", "ɔ")
             syll = rsub(syll, "e", "ɛ")
-        syllables[i] = (("ˈ" if i == accent else "") + syll)
+        syllables[i] = ("ˈ" if i == accent else "") + syll
 
-    word = rsub('.'.join(syllables), r"\.ˈ", "ˈ")
+    word = rsub(".".join(syllables), r"\.ˈ", "ˈ")
 
     # If single-syllable word, remove initial accent marks
     if len(syllables) == 1:
@@ -879,11 +947,16 @@ def convert_word(word, phonetic, eccl, vul):
         word = rsub(word, "w", "u̯")
 
     if phonetic:
-        rules = phonetic_rules_eccl if eccl else (phonetic_rules_vul if vul else phonetic_rules)
+        rules = (
+            phonetic_rules_eccl
+            if eccl
+            else (phonetic_rules_vul if vul else phonetic_rules)
+        )
+        print("test rules", rules)
         for rule in rules:
             word = rsub(word, rule[0], rule[1])
 
-    # word = rsub(word, r"\.", "")  # remove the dots! >_<
+        word = rsub(word, r"\.", "")  # remove the dots! >_<
 
     # Normalize glide spelling for non-Ecclesiastical
     if not eccl:
@@ -896,5 +969,6 @@ def convert_word(word, phonetic, eccl, vul):
 
     return word
 
+
 if __name__ == "__main__":
-    print(convert_word("magister", False, True, False))
+    print(convert_word("adhoc", True, False, False))
