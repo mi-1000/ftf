@@ -491,15 +491,6 @@ remove_ligatures = {
     "œ": "oe",
 }
 
-# for val in vowels:
-#     vowels[val] = True
-
-# for val in onsets:
-#     onsets[val] = True
-
-# for val in codas:
-#     codas[val] = True
-
 # NOTE: Everything is lowercased very early on, so we don't have to worry about capitalized letters.
 short_vowels_string = "aeiouyăĕĭŏŭäëïöüÿ"  # no breve-y in Unicode
 long_vowels_string = "āēīōūȳ"
@@ -516,14 +507,8 @@ def rsubn(string, pattern, repl):
     return re.subn(pattern, repl, string)
 
 
-# def rmatch(string, pattern):
-#     return re.search(pattern, string) # rfind
-
-# def rsplit():
-#     pass
-
-
 def ulower(string: str):
+    """Just here for compatibility with Lua code"""
     return string.lower()
 
 
@@ -536,14 +521,12 @@ def usub(string, i, j):
 
 
 def ulen(word):
+    """Just here for compatibility with Lua code"""
     return len(word)
 
 
 def rsub(string, pattern, repl):
     """Version of `rsubn()` that discards all but the first return value"""
-    # res, _ = rsubn(string, pattern, repl)
-    # return res
-    print(pattern, "-", repl, "-", string)
     if not string:
         return ""
     if type(repl) == dict:
@@ -563,6 +546,7 @@ def rsubb(string, pattern, repl):
 
 
 def letters_to_ipa(word, phonetic, eccl, vul):
+    """Converts word to IPA sequence without yet accounting for pronunciation rules"""
     phonemes = []
 
     ipa_letters_dict = (
@@ -630,25 +614,10 @@ def letters_to_ipa(word, phonetic, eccl, vul):
             if cur == "ɡ" and next == "n":
                 cur = "ɲ"
                 next = "ɲ"
-            # try:
-            #     phonemes[i - 1], phonemes[i], phonemes[i + 1] = (
-            #         prev if i > 0 else None,
-            #         cur,
-            #         next if i < len(phonemes) - 1 else None,
-            #     )
-            # except IndexError as e:
-            #     print("[WARNING] Index out of range in function letters_to_ipa")
-            
-            # if i > 0:
-            #     phonemes[i - 1] = prev
-            # phonemes[i] = cur
-            # if i < len(phonemes) - 1:
-            #     phonemes[i + 1] = next
     return phonemes
 
 
 def get_onset(syll):
-    print("syll", syll)
     consonants = []
 
     for char in syll:
@@ -657,8 +626,6 @@ def get_onset(syll):
         if char and char != "ˈ":
             consonants.append(char)
     
-    print("consonants", consonants)
-
     return "".join(consonants)
 
 
@@ -705,7 +672,6 @@ def split_syllables(remainder):
         syllables.append(syll)
 
     for i, current in enumerate(syllables):
-        print(i, current, syllables)
         if len(current) == 1 and current[0] == ".":
             syllables.pop(i)
         elif i > 0:
@@ -716,27 +682,15 @@ def split_syllables(remainder):
                 onset = get_onset(current)
             if get_coda(previous) == "" and (current[0] == "s" and (len(current) > 1 and current[1] not in vowels)):
                 previous.append(current.pop(0))
-            # if not get_vowel(current):
-            #     previous.extend(current)
-            #     syllables.pop(i)
-            #     try:
-            #         if (
-            #             syllables[i]
-            #             and len(syllables[i]) == 1
-            #             and syllables[i][0] == "."
-            #         ):
-            #             syllables.pop(i)
-            #     except IndexError as e:
-            #         print("[WARNING] Index out of range in function split_syllables")
             if not get_vowel(current):
-                # Déplacer tous les éléments de `current` vers `previous`
+                # Move current element to previous
                 while current:
                     previous.append(current.pop(0))
 
-                # Supprimer `syllables[i]`
+                # Remove syllables[i]
                 syllables.pop(i)
 
-                # Vérifier si `syllables[i]` existe et contient uniquement "."
+                # Check if syllables[i] exists and contains only a dot
                 if i < len(syllables) and len(syllables[i]) == 1 and syllables[i][0] == ".":
                     syllables.pop(i)
 
@@ -756,8 +710,8 @@ def phoneme_is_short_vowel(phoneme):
 
 
 def detect_accent(syllables, is_prefix, is_suffix):
-    """Detect the position of the tonic accent within the word (returns the index of the accented syllable)"""
-    print("testttt accent", syllables, is_prefix, is_suffix)
+    """Detect the position of the tonic accent within the word (returns the index
+    of the accented syllable, or `-1` if no accent)"""
     for i, syll in enumerate(syllables):
         for j, phoneme in enumerate(syll):
             if phoneme == "ˈ":
@@ -802,7 +756,7 @@ def detect_accent(syllables, is_prefix, is_suffix):
         return 0  # Stress on the only syllable
 
 
-@lru_cache(500)
+@lru_cache(500) # Cache the last n converted words for faster conversions of next occurences of the same word
 def convert_word(word, phonetic, eccl, vul):
 
     # Normalize w, i, j, u, v; do this before removing breves, so we keep the
@@ -900,8 +854,6 @@ def convert_word(word, phonetic, eccl, vul):
     # Add accent
     accent = detect_accent(syllables, is_prefix, is_suffix)
     
-    print("retestttt accent", accent)
-
     # Poetic meter shows that a consonant before "h" was syllabified as an onset, not as a coda.
     # This will be indicated by the omission of /h/ [h] in this context.
     word = rsub(word, r"([^aeɛiɪoɔuʊyʏe̯u̯ptk])([.ˈ]?)h", r"\1")
@@ -952,7 +904,6 @@ def convert_word(word, phonetic, eccl, vul):
             if eccl
             else (phonetic_rules_vul if vul else phonetic_rules)
         )
-        print("test rules", rules)
         for rule in rules:
             word = rsub(word, rule[0], rule[1])
 
