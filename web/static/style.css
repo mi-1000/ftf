@@ -1,0 +1,109 @@
+@font-face {
+  font-family: "Gadner";
+  src: url("fonts/gadner.bold.otf");
+}
+
+@font-face {
+  font-family: "Mustica Pro";
+  src: url("fonts/mustica-pro.semibold.otf");
+}
+
+body {
+  scroll-behavior: smooth;
+  font-family: "Mustica Pro" !important;
+}
+
+select,
+select > option {
+  cursor: pointer;
+}
+
+i.bi-arrow-left-right {
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in,
+    color 0.3s ease-out;
+}
+
+@media (min-width: 30em) {
+  i.bi-arrow-left-right:hover,
+  i.bi-arrow-left-right:focus {
+    transform: rotate(360deg);
+    background-color: #ebebeb;
+    color: #000;
+  }
+}
+
+div:has(> #sourceText) {
+  margin-right: -15px !important;
+}
+
+div:has(> #targetText) {
+  margin-left: -15px !important;
+  overflow-wrap: break-word;
+}
+
+.text_field {
+  resize: none;
+  overflow: hidden;
+  height: auto;
+  min-height: 15em;
+}
+
+textarea {
+  display: block;
+  line-height: 1.4 !important;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+.row {
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
+.menu_langue {
+  position: absolute;
+  top: 0; /* Commence au sommet de la zone par défaut */
+  left: 50%;
+  transform: translate(
+    -50%,
+    -50%
+  ); /* Déplace de 50 % en haut et bas pour être à cheval sur la ligne */
+  z-index: 10;
+  background: white;
+  border: 1px solid #ccc;
+  padding: 2px 5px;
+  font-size: 0.9rem;
+  border-radius: 4px;
+}
+
+.api-section {
+  width: 100%;
+  height: 15vh;
+  background-color: #f8f9fa;
+  color: #6c757d;
+  border-top: 2px solid #6c757d;
+  border-bottom: 2px solid #6c757d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 0.9rem;
+  padding: 5px;
+  box-shadow: 0 0 5px 1.5px #0002;
+}
+
+.api-section-left {
+  margin-left: 5px;
+}
+
+.api-section-right {
+  margin-left: -5px;
+}
