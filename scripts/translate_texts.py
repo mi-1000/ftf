@@ -73,7 +73,7 @@ def process_folder(folder_path):
                 print(f"Processing file: {file_name}")
 
                 # Split text into chunks if needed
-                max_tokens = 1000git 
+                max_tokens = 1000
                 chunks = split_text_into_chunks(text_to_translate, max_tokens)
 
                 print(f"Text split into {len(chunks)} chunk(s).")
