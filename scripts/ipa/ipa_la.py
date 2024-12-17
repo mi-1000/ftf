@@ -989,7 +989,7 @@ def phoneticize(text: str, variant: Literal["eccl", "vul", "clas"] = "clas", pho
         ValueError: In case variant is not set to either "eccl", "vul" or "clas".
 
     Returns:
-        str | Tuple[str, str]: If a string, the phonetic transcription. If a tuple of strings, the phonetic and phonemic transription, respectively.
+        str | Tuple[str, str]: If a string, the phonemic transcription. If a tuple of strings, the phonemic and phonetic transription, respectively.
     """
     if variant not in ["eccl", "vul", "clas"]:
         raise ValueError("Wrong variant! Must be either [eccl]esiastical, [vul]gar or [clas]sical.")
