@@ -31,22 +31,76 @@ def translate_text(text, model="gpt-4o"):
     )
     return response.choices[0].message.content
 
-# Parcourt les fichiers dans le dossier source
-filename = 'C:/Bureau/Master/S7/project/ftf/data/raw/data_old_french/done/AlexisProlRaM.txt'
-with open(filename, 'r', encoding='utf-8') as file:
-        output_path = 'C:/Bureau/Master/S7/project/ftf/data/raw/data_old_french/done/AlexisProlRaM_translated.txt'
-        
-        # with open(, "r", encoding="utf-8") as file:
-        text_to_translate = file.read()
+def split_text_into_chunks(text, max_tokens):
+    """
+    Splits the input text into smaller chunks, ensuring each chunk has no more than max_tokens.
+    """
+    words = text.split()  # Tokenize the text based on whitespace
+    chunks = []
+    current_chunk = []
+    current_length = 0  # Tracks the cumulative length of the current chunk
 
-        print(text_to_translate)
-        
-        print(f"Traduction du fichier : {filename}")
-        translated_text = translate_text(text_to_translate)
-        
-        if translated_text:
-            with open(output_path, "w", encoding="utf-8") as output_file:
-                output_file.write(translated_text)
-            print(f"Traduction enregistrée dans : {output_path}")
+    for word in words:
+        word_length = len(word) + 1  # Include the space after each word
+        if current_length + word_length > max_tokens:
+            # Save the current chunk and start a new one
+            chunks.append(" ".join(current_chunk))
+            current_chunk = [word]
+            current_length = word_length
         else:
-            print(f"Échec de la traduction pour le fichier : {filename}")
+            # Add the word to the current chunk
+            current_chunk.append(word)
+            current_length += word_length
+
+    # Add the last chunk if it's not empty
+    if current_chunk:
+        chunks.append(" ".join(current_chunk))
+
+    return chunks
+
+def process_folder(folder_path):
+    """
+    Process all XML files in a folder.   
+    """
+    print("searching for files...")
+    for file_name in os.listdir(folder_path):
+        if file_name.endswith('.txt'):
+            with open(folder_path+file_name, 'r', encoding='utf-8') as file:\
+        
+                text_to_translate = file.read()
+
+                print(f"Original text length: {len(text_to_translate)} characters")
+                print(f"Processing file: {file_name}")
+
+                # Split text into chunks if needed
+                max_tokens = 1000git 
+                chunks = split_text_into_chunks(text_to_translate, max_tokens)
+
+                print(f"Text split into {len(chunks)} chunk(s).")
+
+                # Translate each chunk
+                translated_chunks = []
+                for i, chunk in enumerate(chunks, start=1):
+                    print(f"Translating chunk {i}/{len(chunks)}...")
+                    translated_chunk = translate_text(chunk)
+                    if translated_chunk:
+                        translated_chunks.append(translated_chunk)
+                    else:
+                        print(f"Translation failed for chunk {i}.")
+                        break
+
+                # Combine translated chunks
+                translated_text = " ".join(translated_chunks)
+                
+                output_path = folder_path + f"{os.path.splitext(file_name)[0]}_translated.txt"
+
+                if translated_text:
+                    with open(output_path, "w", encoding="utf-8") as output_file:
+                        output_file.write(translated_text)
+                    print(f"Traduction enregistrée dans : {output_path}")
+                else:
+                    print(f"Échec de la traduction pour le fichier : {file_name}")
+
+print("start process...")
+folder_path = 'C:/Bureau/Master/S7/project/ftf/data/raw/data_old_french/done/'
+process_folder(folder_path)
