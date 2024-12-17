@@ -1,17 +1,15 @@
-# [NOTE] Implementation of the following Wikipedia module in Python:
+# [NOTE] Implementation and free adaptation of the following Lua module from Wikipedia in Python:
 # https://en.wiktionary.org/wiki/Module:la-pronunc
-# 2024-12-17
+# Last revision: 2024-12-17
 
 import re
 from functools import lru_cache
+from typing import Literal, Tuple
 
-BREVE = "\u0306"  # ̆
-TILDE = "\u0303"  # ̃
-LONG = "\u02d0"  # ː
-HALF_LONG = "\u02d1"  # ˑ
-
-phonetic_rules_vul = {}  # TODO !
-letters_ipa_vul = {}  # TODO !
+BREVE = "\u0306" # ̆
+TILDE = "\u0303" # ̃
+LONG = "\u02d0" # ː
+HALF_LONG = "\u02d1" # ˑ
 
 letters_ipa = {
     "a": "a",
@@ -529,7 +527,7 @@ def rsub(string, pattern, repl):
     """Version of `rsubn()` that discards all but the first return value"""
     if not string:
         return ""
-    if type(repl) == dict:
+    if isinstance(repl, dict):
         n_str = string
         for char in n_str:
             if char in repl.keys():
@@ -550,7 +548,7 @@ def letters_to_ipa(word, phonetic, eccl, vul):
     phonemes = []
 
     ipa_letters_dict = (
-        letters_ipa_eccl if eccl else (letters_ipa_vul if vul else letters_ipa)
+        letters_ipa_eccl if eccl else letters_ipa
     )
 
     while ulen(word) > 0:
@@ -698,9 +696,9 @@ def split_syllables(remainder):
         onset = get_onset(syll)
         coda = get_coda(syll)
         if onset != "" and onset not in onsets:
-            print("bad onset")
+            print(f"[WARNING] Bad onset ({onset}) in function split_syllables")
         if coda != "" and coda not in codas:
-            print("bad coda")
+            print(f"[WARNING] Bad coda ({coda}) in function split_syllables")
 
     return syllables
 
@@ -784,16 +782,24 @@ def convert_word(word: str, phonetic: bool, eccl: bool, vul: bool) -> str:
 
     # We convert i/j between vowels to jj if the preceding vowel is short
     # but to single j if the preceding vowel is long.
-    word = rsub(
-        word,
-        f"({vowels_c})([iju])()",
-        lambda m: m.group(1)
-        + (
-            "v"
-            if m.group(2) == "u"
-            else "j" if long_vowels_string.find(m.group(1)) >= 0 else "jj"
-        ),
-    )
+    def repl_func(match):
+        vowel = match.group(1)
+        potential_consonant = match.group(2)
+        pos = match.start()  # Start position of the match in the string
+
+        # Check if the character at the position is in vowels_string
+        if vowels_string.find(word[pos]) != -1:
+            if potential_consonant == "u":
+                if not rfind(word, rf"{vowels_c}us$"):
+                    return vowel + "v"
+            else:
+                if long_vowels_string.find(vowel) != -1:
+                    return vowel + "j"
+                else:
+                    return vowel + "jj"
+        return match.group(0)  # If no replacement, return the original match
+    
+    word = rsub(word, f"({vowels_c})([iju])()", repl_func)
 
     # Convert v to u syllable-finally
     word = rsub(word, r"v\.", "u.")
@@ -828,9 +834,7 @@ def convert_word(word: str, phonetic: bool, eccl: bool, vul: bool) -> str:
     word = rsub(word, "_", "")
 
     # Vowel length before nasal + fricative is allophonic
-    word = rsub(
-        word, r"([āēīōūȳ])([mn][fs])", lambda m: remove_macrons[m.group(1)] + m.group(2)
-    )
+    word = rsub(word, r"([āēīōūȳ])([mn][fs])", lambda m: remove_macrons[m.group(1)] + m.group(2))
 
     # Vowel before yod
     vowel_before_yod = {
@@ -841,7 +845,7 @@ def convert_word(word: str, phonetic: bool, eccl: bool, vul: bool) -> str:
         "y": "ȳ",
     }
     if eccl:
-        word = rsub(word, r"([aeiouy])([j])", lambda m: vowel_before_yod[m.group(1)])
+        word = rsub(word, r"([aeouy])([j])", lambda m: vowel_before_yod[m.group(1)])
 
     # Apply some basic phoneme-level assimilations for Ecclesiastical, which reads as written;
     # in living varieties the assimilations were phonetic
@@ -912,11 +916,7 @@ def convert_word(word: str, phonetic: bool, eccl: bool, vul: bool) -> str:
         word = rsub(word, "w", "u̯")
 
     if phonetic:
-        rules = (
-            phonetic_rules_eccl
-            if eccl
-            else (phonetic_rules_vul if vul else phonetic_rules)
-        )
+        rules = phonetic_rules_eccl if eccl else phonetic_rules
         for rule in rules:
             word = rsub(word, rule[0], rule[1])
 
@@ -977,5 +977,36 @@ def convert_words(text: str, phonetic: bool, eccl: bool, vul: bool) -> str:
     # Join the results into a single string
     return " ".join(result)
 
-if __name__ == "__main__":
-    print(convert_words("cœlus ira rosae cascunt", False, False, False))
+def phoneticize(text: str, variant: Literal["eccl", "vul", "clas"] = "clas", phonetic = False) -> str | Tuple[str, str]:
+    """Phoneticize a Latin text into IPA.
+
+    Args:
+        text (str): The text to be converted.
+        variant (Literal[&quot;eccl&quot;, &quot;vul&quot;, &quot;clas&quot;], optional): The variant whose rules must be applied ([`eccl`]esiastic, [`vul`]gar, [`clas`]sical). Defaults to "clas".
+        phonetic (bool, optional): Whether to return the phonetic transcription along with the phonemic one. False yields the phonemic transcription only, and True both the phonemic and phonetic one.
+
+    Raises:
+        ValueError: In case variant is not set to either "eccl", "vul" or "clas".
+
+    Returns:
+        str | Tuple[str, str]: If a string, the phonetic transcription. If a tuple of strings, the phonetic and phonemic transription, respectively.
+    """
+    if variant not in ["eccl", "vul", "clas"]:
+        raise ValueError("Wrong variant! Must be either [eccl]esiastical, [vul]gar or [clas]sical.")
+    
+    if variant == "eccl":
+        eccl = True
+        vul = False
+    elif variant == "vul":
+        eccl = False
+        vul = True
+    else: # epoch == "clas"
+        eccl = False
+        vul = False
+    
+    text = ulower(text)
+    text = rsub(text, r"\s", " ") # Replace newline feeds, tabs etc. by simple spaces
+    
+    if phonetic:
+        return convert_words(text, False, eccl, vul), convert_words(text, True, eccl, vul)
+    else: return convert_words(text, False, eccl, vul)
