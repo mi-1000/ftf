@@ -532,8 +532,8 @@ def rsub(string, pattern, repl):
     if type(repl) == dict:
         n_str = string
         for char in n_str:
-            if char in remove_breves.keys():
-                n_str = str.replace(char, remove_breves[char])
+            if char in repl.keys():
+                n_str = n_str.replace(char, repl[char])
         return n_str
     else:
         return re.sub(pattern, repl, string)
@@ -757,7 +757,20 @@ def detect_accent(syllables, is_prefix, is_suffix):
 
 
 @lru_cache(500) # Cache the last n converted words for faster conversions of next occurences of the same word
-def convert_word(word, phonetic, eccl, vul):
+def convert_word(word: str, phonetic: bool, eccl: bool, vul: bool) -> str:
+    """Converts a word to IPA.
+
+    Args:
+        word (str): The word to be converted
+        phonetic (bool): Whether the transcription has to be phonetic (`True`) or phonemic (`False`)
+        eccl (bool): Whether the transcription must use ecclesiastical Latin rules or not. If `True`, `vul` must be set to `False`
+        vul (bool): Whether the transcription must use vulgar Latin rules or not. If `True`, `eccl` must be set to `False`
+        
+        If both `eccl` and `vul` are false, classical Latin rules will be used
+
+    Returns:
+        str: The corresponding IPA string
+    """
 
     # Normalize w, i, j, u, v; do this before removing breves, so we keep the
     # ŭ in langŭī (perfect of languēscō) as a vowel.
@@ -920,6 +933,49 @@ def convert_word(word, phonetic, eccl, vul):
 
     return word
 
+def initial_canonicalize_text(text: str) -> str:
+    """
+    Canonicalize the text by removing specific punctuation and replacing ligatures.
+    """
+    text = ulower(text)  # Convert to lowercase
+    text = rsub(text, r'[,?!:;()"]', '')  # Remove specified punctuation
+    text = rsub(text, r'[æœ]', remove_ligatures)  # Replace ligatures
+    return text
+
+def convert_words(text: str, phonetic: bool, eccl: bool, vul: bool) -> str:
+    """
+    Process the input text and convert each word to IPA.
+    
+        Args:
+        text (str): The text to be converted
+        phonetic (bool): Whether the transcription has to be phonetic (`True`) or phonemic (`False`)
+        eccl (bool): Whether the transcription must use ecclesiastical Latin rules or not. If `True`, `vul` must be set to `False`
+        vul (bool): Whether the transcription must use vulgar Latin rules or not. If `True`, `eccl` must be set to `False`
+        
+        If both `eccl` and `vul` are false, classical Latin rules will be used.
+
+    Returns:
+        str: The corresponding IPA string
+    """
+    # Canonicalize the input text
+    text = initial_canonicalize_text(text)
+
+    # Check for disallowed characters
+    allowed_chars = rf'[a-z\-āēīōūȳăĕĭŏŭë,.?!:;()\'"_ {BREVE}]'
+    disallowed = rsub(text, allowed_chars, '')
+    if ulen(disallowed) > 0:
+        if ulen(disallowed) == 1:
+            raise ValueError(f'The character "{disallowed}" is not allowed.')
+        else:
+            raise ValueError(f'The characters "{disallowed}" are not allowed.')
+    
+    # Process words
+    result = []
+    for word in text.split(" "):  # Split text into words
+        result.append(convert_word(word, phonetic, eccl, vul))  # Convert each word
+
+    # Join the results into a single string
+    return " ".join(result)
 
 if __name__ == "__main__":
-    print(convert_word("adhoc", True, False, False))
+    print(convert_words("cœlus ira rosae cascunt", False, False, False))
