@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>F2F</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" /> <!-- Telling Flask where to locate the CSS -->
+    <!-- Custom CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <!-- Bootstrap icons -->
+    <script src="{{ url_for('static', filename='app.js') }}"></script> <!-- Telling Flask where to locate the JS -->
+    <!-- Custom JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Bootstrap JS -->
+  </head>
+  <body>
+    <!-- Custom classes use snake case so as to not mix them up with Bootstrap-->
+    <div class="container-fluid vh-100">
+      <div class="row py-2">
+        <div class="col text-start">
+          <h1>F2F</h1>
+        </div>
+      </div>
+      <div class="row text-center align-items-stretch overflow-hidden">
+        <div class="col w-50 ms-2 p-0 align-content-center position-relative">
+          <select
+            class="menu_langue position-absolute top-0 start-50 translate-middle-x"
+            id="sourceLang"
+          >
+            <option value="fr">French</option>
+            <option value="fro">Old French</option>
+            <option value="la">Latin</option>
+          </select>
+          <textarea
+            class="text_field w-100 h-100 px-3 pt-4 pb-2 align-content-start text-start border border-secondary-subtle rounded-2"
+            placeholder="Enter text here"
+            id="sourceText"
+          ></textarea>
+        </div>
+        <div class="fleche w-auto h-auto p-0 z-1 align-content-center">
+          <i
+            class="bi bi-arrow-left-right border border-secondary-subtle rounded-circle d-block"
+            id="exchangeLanguages"
+          ></i>
+        </div>
+        <div
+          class="col w-50 h-100 me-2 p-0 align-content-center position-relative"
+        >
+          <select
+            class="menu_langue position-absolute top-0 start-50 translate-middle-x"
+            id="targetLang"
+          >
+            <option value="fr">French</option>
+            <option value="fro">Old French</option>
+            <option value="la">Latin</option>
+          </select>
+          <div
+            class="text_field w-100 h-100 px-3 pt-4 pb-2 align-content-start text-start border border-secondary-subtle rounded-2"
+            id="targetText"
+          ></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col w-50">
+          <div class="api-section api-section-left mt-2 rounded-2" id="sourceIPA"></div>
+        </div>
+        <div class="col w-50">
+          <div class="api-section api-section-right mt-2 rounded-2" id="targetIPA"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
