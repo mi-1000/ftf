@@ -3,8 +3,11 @@
 # Last revision: 2024-12-17
 
 import re
+
 from functools import lru_cache
 from typing import Literal, Tuple
+
+from str_utils import rfind, rsub, rsubb, ulen, ulower, usub
 
 BREVE = "\u0306" # ̆
 TILDE = "\u0303" # ̃
@@ -497,52 +500,6 @@ vowels_c = f"[{vowels_string}]"
 non_vowels_c = f"[^{vowels_string}]"
 
 
-def rfind(word, pattern):
-    return re.search(pattern, word)
-
-
-def rsubn(string, pattern, repl):
-    return re.subn(pattern, repl, string)
-
-
-def ulower(string: str):
-    """Just here for compatibility with Lua code"""
-    return string.lower()
-
-
-def usub(string, i, j):
-    """Substring from index `i` to `j`"""
-    if j is None:
-        return string[i:]
-
-    return string[i:j]
-
-
-def ulen(word):
-    """Just here for compatibility with Lua code"""
-    return len(word)
-
-
-def rsub(string, pattern, repl):
-    """Version of `rsubn()` that discards all but the first return value"""
-    if not string:
-        return ""
-    if isinstance(repl, dict):
-        n_str = string
-        for char in n_str:
-            if char in repl.keys():
-                n_str = n_str.replace(char, repl[char])
-        return n_str
-    else:
-        return re.sub(pattern, repl, string)
-
-
-def rsubb(string, pattern, repl):
-    """Version of `rsubn()` that returns a 2nd argument boolean indicating whether a substitution was made."""
-    res, nsubs = rsubn(string, pattern, repl)
-    return res, nsubs > 0
-
-
 def letters_to_ipa(word, phonetic, eccl, vul):
     """Converts word to IPA sequence without yet accounting for pronunciation rules"""
     phonemes = []
@@ -1000,7 +957,7 @@ def phoneticize(text: str, variant: Literal["eccl", "vul", "clas"] = "clas", pho
     elif variant == "vul":
         eccl = False
         vul = True
-    else: # epoch == "clas"
+    else: # variant == "clas"
         eccl = False
         vul = False
     
