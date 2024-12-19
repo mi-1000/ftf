@@ -121,7 +121,7 @@ def output_benchmark(translated_text: List[str], expected_text: List[str], model
     print(f"{'':=^{TABLE_WIDTH}}")
 
 # Main pipeline function
-def evaluate_translation_pipeline(model: str, src_text: List[str] = None, expected_text: List[str] = None):
+def evaluate_translation_pipeline(model: str, src_text: List[str] | None = None, expected_text: List[str] | None = None):
     with open('scripts/test_model_files/fr-fro/fr_fro-fr.txt', 'r') as f:
         fr_to_fro_ref = f.read().split('\n')
         
