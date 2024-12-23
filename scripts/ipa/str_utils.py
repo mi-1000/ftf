@@ -13,6 +13,12 @@ def rfind(string, pattern):
     """Reimplementation of :func:`re.search` for compatibility with Lua code"""
     return re.search(pattern, string)
 
+def rmatch(string, pattern, init = 0):
+    """Return a tuple of matches for each capturing group against a given string and pattern, or an empty string if nothing was found."""
+    if init >= len(string) or init < 0:
+        return ""
+    match = re.search(pattern, string[init:])
+    return match.groups() if match else ""
 
 def rsubn(string, pattern, repl):
     """Reimplementation of :func:`re.subn` for compatibility with Lua code"""

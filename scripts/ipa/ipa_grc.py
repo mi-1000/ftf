@@ -2,7 +2,7 @@
 # https://en.wiktionary.org/wiki/Module:grc-pronunciation
 # Last revision: 2024-12-23
 
-from str_utils import decompose, rfind, strip_accent
+from str_utils import decompose, rfind, rmatch, strip_accent
 
 from grc_data import (
     MACRON,
@@ -74,3 +74,54 @@ env_functions = {
         or any(char in [BREVE, SPACING_BREVE] for char in decompose(fetch(term, index)))
     ),
 }
+
+def decode(condition: str, x: int, term: str):
+    """Decode a condition string within data."""
+        # "If" and "and" statements.
+        # Note that we're finding the last operator first, 
+        # which means that the first will get ultimately get decided first.
+        # If + ("and") or / ("or") is found, the function is called again,
+        # until if-statements are found.
+        # In if-statements:
+        # (-) A number represents the character under consideration:
+        #     -1 is the previous character, 0 is the current, and 1 is the next.
+        # (-) Equals sign (=) checks to see if the character under consideration
+        #     is equal to a character.
+        # (-) Period (.) plus a word sends the module to the corresponding entry
+        #     in the letter's data table.
+        # (-) Tilde (~) calls a function on the character under consideration,
+        #     if the function exists.
+
+    
+    # Check for logical operators ('+' or '/')
+    if rfind(condition, ('[+/]')):
+        # Find the last operator first
+        subcondition1, sep, subcondition2 = rmatch(condition, r"^([^/+]-)([/+])(.*)$")
+        
+        if not (subcondition1 or subcondition2):
+            raise ValueError(f'Condition "{condition}" is improperly formed')
+
+        if sep == '/':  # logical operator: or
+            return decode(subcondition1, x, term) or decode(subcondition2, x, term)
+        elif sep == '+':  # logical operator: and
+            return decode(subcondition1, x, term) and decode(subcondition2, x, term)
+
+    # Check for character identity ('=')
+    elif '=' in condition:
+        offset, char = condition.split('=', 1)
+        offset = int(offset)  # Convert offset to an integer
+        return char == fetch(term, x + offset)  # Out of bounds fetch gives ''
+
+    # Check for character quality ('.')
+    elif '.' in condition:
+        offset, quality = condition.split('.', 1)
+        offset = int(offset)  # Convert offset to an integer
+        character = fetch(term, x + offset)
+        return greek_data.get(character, {}).get(quality, False)
+
+    # Check for function call ('~')
+    elif '~' in condition:
+        offset, func = condition.split('~', 1)
+        offset = int(offset)  # Convert offset to an integer
+        # Assuming env_functions is a dictionary
+        return env_functions[func](term, x + offset) if env_functions.get(func) else False
