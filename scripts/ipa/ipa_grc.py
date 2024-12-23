@@ -76,23 +76,25 @@ env_functions = {
 }
 
 def decode(condition: str, x: int, term: str):
-    """Decode a condition string within data."""
-        # "If" and "and" statements.
-        # Note that we're finding the last operator first, 
-        # which means that the first will get ultimately get decided first.
-        # If + ("and") or / ("or") is found, the function is called again,
-        # until if-statements are found.
-        # In if-statements:
-        # (-) A number represents the character under consideration:
-        #     -1 is the previous character, 0 is the current, and 1 is the next.
-        # (-) Equals sign (=) checks to see if the character under consideration
-        #     is equal to a character.
-        # (-) Period (.) plus a word sends the module to the corresponding entry
-        #     in the letter's data table.
-        # (-) Tilde (~) calls a function on the character under consideration,
-        #     if the function exists.
-
+    """Decode a condition string within data.
     
+    "If" and "and" statements.
+    Note that we're finding the last operator first,
+    which means that the first will get ultimately get decided first.
+    If `+` ("*and*") or `/` ("*or*") is found, the function is called again,
+    until if-statements are found.
+    In if-statements:
+    - A number represents the character under consideration:
+        -1 is the previous character, 0 is the current, and 1 is the next.
+    - Equals sign (=) checks to see if the character under consideration
+        is equal to a character.
+    - Period (.) plus a word sends the module to the corresponding entry
+        in the letter's data table.
+    - Tilde (~) calls a function on the character under consideration,
+        if the function exists.
+    """
+
+
     # Check for logical operators ('+' or '/')
     if rfind(condition, ('[+/]')):
         # Find the last operator first
@@ -101,9 +103,9 @@ def decode(condition: str, x: int, term: str):
         if not (subcondition1 or subcondition2):
             raise ValueError(f'Condition "{condition}" is improperly formed')
 
-        if sep == '/':  # logical operator: or
+        if sep == '/': # Or
             return decode(subcondition1, x, term) or decode(subcondition2, x, term)
-        elif sep == '+':  # logical operator: and
+        elif sep == '+': # And
             return decode(subcondition1, x, term) and decode(subcondition2, x, term)
 
     # Check for character identity ('=')
@@ -125,3 +127,17 @@ def decode(condition: str, x: int, term: str):
         offset = int(offset)  # Convert offset to an integer
         # Assuming env_functions is a dictionary
         return env_functions[func](term, x + offset) if env_functions.get(func) else False
+
+def check(p, x: int, term: str):
+    if isinstance(p, (str, int)): # Check if p is a string or number
+        return p
+    elif isinstance(p, list): # Check if p is a list
+        for possP in p:
+            if isinstance(possP, (str, int)): # If entry is a string or number
+                return possP
+            elif isinstance(possP, list) and len(possP) == 2: # Table with two values (condition and result)
+                raw_condition, raw_result = possP[0], possP[1]
+                if decode(raw_condition, x, term): # Call decode() to check the condition
+                    return raw_result if isinstance(raw_result, str) else check(raw_result, x, term)
+    else:
+        raise TypeError(f'"p" is of unrecognized type {type(p)}')
