@@ -3,6 +3,8 @@
 # https://en.wiktionary.org/wiki/Module:grc-pronunciation/data
 # Last revision: 2024-12-23
 
+from functools import lru_cache
+
 PERIODS = ['cla', 'koi1', 'koi2', 'byz1', 'byz2']
 
 TIE = "\u035C"  # tie bar — ͜
@@ -619,7 +621,7 @@ def update_data(data, categories):
                 elif isinstance(category_key, str):
                     data[letter][category_key] = subcategory_key
 
-
+@lru_cache(maxsize=1)
 def get_data():
     update_data(data, categories)
     return data

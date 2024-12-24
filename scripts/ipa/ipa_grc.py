@@ -2,6 +2,7 @@
 # https://en.wiktionary.org/wiki/Module:grc-pronunciation
 # Last revision: 2024-12-23
 
+from functools import lru_cache
 from typing import Literal
 
 from str_utils import decompose, rfind, rmatch, strip_accent, ulen, usub
@@ -144,6 +145,7 @@ def check(p, x: int, term: str):
     else:
         raise TypeError(f'"p" is of unrecognized type {type(p)}')
 
+@lru_cache(500) # Cache the last results of the function
 def convert_term(term: str, periodstart: Literal['cla', 'koi1', 'koi2', 'byz1', 'byz2'] = 'cla'):
     if not term:
         raise ValueError('The variable "term" in the function "convert_term" is missing.')
