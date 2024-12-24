@@ -2,7 +2,6 @@
 # https://en.wiktionary.org/wiki/Module:grc-pronunciation
 # Last revision: 2024-12-23
 
-import pprint
 from typing import Literal
 
 from str_utils import decompose, rfind, rmatch, strip_accent, ulen, usub
@@ -22,9 +21,6 @@ from grc_data import (
 )
 
 greek_data = get_data()
-
-pprint.pprint(greek_data)
-
 
 def fetch(string: str | bytes, i: int) -> str:
     """Fetch a character from a Unicode or byte string (reimplentation from original Lua function).
@@ -174,18 +170,19 @@ def convert_term(term: str, periodstart: Literal['cla', 'koi1', 'koi2', 'byz1', 
         data = greek_data.get(letter)
 
         if data: # If data exists for the letter
+            print(data, letter, strip_accent(letter))
             # Check if a multicharacter search is warranted
             advance = check(data.get('pre'), x, term) if 'pre' in data else 0
+            advance = int(advance) if advance else 0
 
             # Determine pronunciation data (p)
             if advance != 0:
                 p = greek_data[usub(term, x, x + advance)]['p']
-            else:
+            elif 'p' in data.keys(): # TODO Do more profound checks to see if we don't miss a letter
                 p = data['p']
-
-            # Process IPAs
-            for period in outPeriods:
-                IPAs[period].append(check(p[period], x, term))
+                # Process IPAs
+                for period in outPeriods:
+                    IPAs[period].append(check(p[period], x, term))
 
             x += advance
 
@@ -193,8 +190,8 @@ def convert_term(term: str, periodstart: Literal['cla', 'koi1', 'koi2', 'byz1', 
 
     # Concatenate the IPA values into strings
     for period in outPeriods:
-        IPAs[period] = {'IPA': ''.join(IPAs[period])}
+        IPAs[period] = {'IPA': ''.join(IPAs[period])} # TODO - Simple value instead of dict?
 
-    return IPAs, outPeriods
+    return IPAs, outPeriods # TODO For future refactoring: is outPeriods really necessary?
 
-print(convert_term('τῆλε', 'cla'))
+print(convert_term('ἀρχιμανδρῑ́της'))

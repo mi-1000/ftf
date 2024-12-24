@@ -7,7 +7,7 @@
 import re
 import unicodedata
 
-from grc_data import ALL_DIACRITICS
+from grc_data import UNACCENTED_GREEK_LETTERS
 
 def rfind(string, pattern):
     """Reimplementation of :func:`re.search` for compatibility with Lua code"""
@@ -84,4 +84,4 @@ def strip_accent(text: str) -> str:
     Returns:
         str: The text with accents stripped.
     """
-    return "".join(char for char in decompose(text) if char not in ALL_DIACRITICS)
+    return "".join(char for char in decompose(text) if char in UNACCENTED_GREEK_LETTERS)

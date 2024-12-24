@@ -97,6 +97,8 @@ ALL_DIACRITICS = [
     UNDERTIE,
 ]
 
+UNACCENTED_GREEK_LETTERS = "ΑαΒβΓγΔδΕεΖζΗηΘθΙιΚκΛλΜμΝνΞξΟοΠπΡρΣσςΤτΥυΦφΧχΨψΩω"
+
 data_wrapper = (
     {
         " ": {
