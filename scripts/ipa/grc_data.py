@@ -3,6 +3,8 @@
 # https://en.wiktionary.org/wiki/Module:grc-pronunciation/data
 # Last revision: 2024-12-23
 
+PERIODS = ['cla', 'koi1', 'koi2', 'byz1', 'byz2']
+
 TIE = "\u035C"  # tie bar — ͜
 NONSYLLABIC = "\u032F"  # combining inverted breve below — ̯
 HIGH = "\u0341"  # combining acute tone mark — ́
@@ -601,7 +603,12 @@ def update_data(data, categories):
             for letter in letters:
                 # Add a key for letters not yet in data
                 if letter not in data:
-                    data[letter] = {}
+                    from str_utils import strip_accent # Import only here to avoid circular import at start (because str_utils uses data from this module)
+                    if strip_accent(letter) in data:
+                        data[letter] = data[strip_accent(letter)] # Copy data from the stripped version of the letter
+                        # TODO Might want to fix this later, doesn't seem to be optimal to me
+                    else:
+                        data[letter] = {}
 
                 # If key is a numeric, we add it as a boolean
                 if isinstance(category_key, int):

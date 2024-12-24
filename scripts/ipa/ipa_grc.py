@@ -2,22 +2,28 @@
 # https://en.wiktionary.org/wiki/Module:grc-pronunciation
 # Last revision: 2024-12-23
 
-from str_utils import decompose, rfind, rmatch, strip_accent
+import pprint
+from typing import Literal
+
+from str_utils import decompose, rfind, rmatch, strip_accent, ulen, usub
 
 from grc_data import (
     MACRON,
     BREVE,
-    
     MODIFIER_MACRON,
     SPACING_BREVE,
     SPACING_MACRON,
     
     CHAR_SETS,
     
+    PERIODS,
+    
     get_data,
 )
 
 greek_data = get_data()
+
+pprint.pprint(greek_data)
 
 
 def fetch(string: str | bytes, i: int) -> str:
@@ -131,7 +137,7 @@ def decode(condition: str, x: int, term: str):
 def check(p, x: int, term: str):
     if isinstance(p, (str, int)): # Check if p is a string or number
         return p
-    elif isinstance(p, list): # Check if p is a list
+    elif isinstance(p, (list, tuple)): # Check if p is a list or a tuple
         for possP in p:
             if isinstance(possP, (str, int)): # If entry is a string or number
                 return possP
@@ -141,3 +147,54 @@ def check(p, x: int, term: str):
                     return raw_result if isinstance(raw_result, str) else check(raw_result, x, term)
     else:
         raise TypeError(f'"p" is of unrecognized type {type(p)}')
+
+def convert_term(term: str, periodstart: Literal['cla', 'koi1', 'koi2', 'byz1', 'byz2'] = 'cla'):
+    if not term:
+        raise ValueError('The variable "term" in the function "convert_term" is missing.')
+
+    IPAs = {}
+    outPeriods = []
+
+    # Determine if processing should start from the first period (classical) or after a specified one
+    start = False if periodstart else True
+
+    # Process periods to initialize IPA dictionaries
+    for period in PERIODS:
+        if period == periodstart:
+            start = True
+        if start:
+            IPAs[period] = []
+            outPeriods.append(period)
+
+    length = ulen(term)
+    x = 0
+
+    while x < length:
+        letter = fetch(term, x)
+        data = greek_data.get(letter)
+
+        if data: # If data exists for the letter
+            # Check if a multicharacter search is warranted
+            advance = check(data.get('pre'), x, term) if 'pre' in data else 0
+
+            # Determine pronunciation data (p)
+            if advance != 0:
+                p = greek_data[usub(term, x, x + advance)]['p']
+            else:
+                p = data['p']
+
+            # Process IPAs
+            for period in outPeriods:
+                IPAs[period].append(check(p[period], x, term))
+
+            x += advance
+
+        x += 1
+
+    # Concatenate the IPA values into strings
+    for period in outPeriods:
+        IPAs[period] = {'IPA': ''.join(IPAs[period])}
+
+    return IPAs, outPeriods
+
+print(convert_term('τῆλε', 'cla'))
