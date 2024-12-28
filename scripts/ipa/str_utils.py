@@ -27,7 +27,7 @@ def rsplit(string: str, pattern: str) -> list[str]:
     return string.split(pattern)
 
 
-def rsub(string: str, pattern: str, repl: str) -> str:
+def rsub(string: str, pattern: str, repl) -> str:
     """Version of `rsubn()` that discards all but the first return value"""
     if not string:
         return ""
