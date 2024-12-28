@@ -7,6 +7,8 @@
 import re
 import unicodedata
 
+from typing import Any
+
 from grc_data import UNACCENTED_GREEK_LETTERS
 
 def rfind(string, pattern):
@@ -27,7 +29,7 @@ def rsplit(string: str, pattern: str) -> list[str]:
     return string.split(pattern)
 
 
-def rsub(string: str, pattern: str, repl) -> str:
+def rsub(string: str, pattern: str, repl: Any) -> str:
     """Version of `rsubn()` that discards all but the first return value"""
     if not string:
         return ""
