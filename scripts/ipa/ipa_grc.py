@@ -5,18 +5,21 @@
 from functools import lru_cache
 from typing import Literal
 
-from str_utils import decompose, rfind, rmatch, strip_accent, ulen, usub
+from str_utils import decompose, rfind, rmatch, rsplit, rsub, strip_accent, ulen, usub
 
 from grc_data import (
-    MACRON,
+    ASPIRATED,
     BREVE,
+    MACRON,
     MODIFIER_MACRON,
+    NONSYLLABIC,
+    PERIODS,
     SPACING_BREVE,
     SPACING_MACRON,
+    TIE,
+    VOICELESS,
     
     CHAR_SETS,
-    
-    PERIODS,
     
     get_data,
 )
@@ -113,20 +116,20 @@ def decode(condition: str, x: int, term: str):
 
     # Check for character identity ('=')
     elif '=' in condition:
-        offset, char = condition.split('=', 1)
+        offset, char = rsplit(condition, '=')
         offset = int(offset)  # Convert offset to an integer
         return char == fetch(term, x + offset)  # Out of bounds fetch gives ''
 
     # Check for character quality ('.')
     elif '.' in condition:
-        offset, quality = condition.split('.', 1)
+        offset, quality = rsplit(condition, '.')
         offset = int(offset)  # Convert offset to an integer
         character = fetch(term, x + offset)
         return greek_data.get(character, {}).get(quality, False)
 
     # Check for function call ('~')
     elif '~' in condition:
-        offset, func = condition.split('~', 1)
+        offset, func = rsplit(condition, '~')
         offset = int(offset)  # Convert offset to an integer
         # Assuming env_functions is a dictionary
         return env_functions[func](term, x + offset) if env_functions.get(func) else False
@@ -146,12 +149,12 @@ def check(p, x: int, term: str):
         raise TypeError(f'"p" is of unrecognized type {type(p)}')
 
 @lru_cache(500) # Cache the last results of the function
-def convert_term(term: str, periodstart: Literal['cla', 'koi1', 'koi2', 'byz1', 'byz2'] = 'cla'):
+def convert_term(term: str, periodstart: Literal['cla', 'koi1', 'koi2', 'byz1', 'byz2'] = 'cla') -> tuple[dict, list[Literal['cla', 'koi1', 'koi2','byz1', 'byz2']]]:
     if not term:
         raise ValueError('The variable "term" in the function "convert_term" is missing.')
 
     IPAs = {}
-    outPeriods = []
+    outPeriods: list[Literal['cla', 'koi1', 'koi2', 'byz1', 'byz2']] = []
 
     # Determine if processing should start from the first period (classical) or after a specified one
     start = False if periodstart else True
@@ -172,7 +175,6 @@ def convert_term(term: str, periodstart: Literal['cla', 'koi1', 'koi2', 'byz1', 
         data = greek_data.get(letter)
 
         if data: # If data exists for the letter
-            print(data, letter, strip_accent(letter))
             # Check if a multicharacter search is warranted
             advance = check(data.get('pre'), x, term) if 'pre' in data else 0
             advance = int(advance) if advance else 0
@@ -192,8 +194,111 @@ def convert_term(term: str, periodstart: Literal['cla', 'koi1', 'koi2', 'byz1', 
 
     # Concatenate the IPA values into strings
     for period in outPeriods:
-        IPAs[period] = {'IPA': ''.join(IPAs[period])} # TODO - Simple value instead of dict?
+        IPAs[period] = ''.join(IPAs[period])
 
-    return IPAs, outPeriods # TODO For future refactoring: is outPeriods really necessary?
+    return IPAs, outPeriods
 
-print(convert_term('ἀρχιμανδρῑ́της'))
+def find_syllable_break(word: str, nVowel: int, wordEnd: bool) -> int:
+    if not word:
+        raise ValueError('The variable "word" in the function "find_syllable_break" is empty.')
+
+    # If we're at the end of the word, we return the length of the word
+    if wordEnd:
+        return ulen(word)
+
+    # We check conditions based on the type and position of characters
+    if is_of_type(fetch(word, nVowel - 2), "liquid"):
+        if is_of_type(fetch(word, nVowel - 3), "obst"):
+            return nVowel - 3
+        elif fetch(word, nVowel - 3) == ASPIRATED and is_of_type(fetch(word, nVowel - 4), "obst"):
+            return nVowel - 4
+        else:
+            return nVowel - 2
+    elif is_of_type(fetch(word, nVowel - 2), "cons"):
+        return nVowel - 2
+    elif fetch(word, nVowel - 2) == ASPIRATED and is_of_type(fetch(word, nVowel - 3), "obst"):
+        return nVowel - 3
+    elif fetch(word, nVowel - 2) == VOICELESS and fetch(word, nVowel - 3) == 'r':
+        return nVowel - 3
+    else:
+        return nVowel - 1
+
+def syllabify_word(word: str) -> str:
+    # Initialize variables
+    syllables = []
+    cVowel, nVowel, sBreak, stress, wordEnd, searching = None, None, None, False, False, None
+    
+    while word:
+        cVowel, nVowel, sBreak, stress = None, None, None, False
+        
+        # Find the first vowel
+        searching = 0
+        cVowelFound = False
+        while cVowel is None:
+            letter = fetch(word, searching)
+            next_letter = fetch(word, searching + 1)
+            if cVowelFound:
+                if (is_of_type(letter, "vowel") and next_letter != NONSYLLABIC) or is_of_type(letter, "cons") or letter in ['', 'ˈ']:
+                    cVowel = searching - 1
+                elif is_of_type(letter, "diacritic"):
+                    searching += 1
+                elif letter == TIE:
+                    cVowelFound = False
+                    searching += 1
+                else:
+                    searching += 1
+            else:
+                if is_of_type(letter, "vowel"):
+                    cVowelFound = True
+                elif letter == 'ˈ':
+                    stress = True
+                searching += 1
+        
+        # Find the next vowel or the end of the word
+        searching = cVowel + 1
+        while nVowel is None and not wordEnd:
+            letter = fetch(word, searching)
+            if is_of_type(letter, "vowel") or letter == 'ˈ':
+                nVowel = searching
+            elif letter == '':
+                wordEnd = True
+            else:
+                searching += 1
+        
+        # Find the syllable break point
+        sBreak = find_syllable_break(word, nVowel, wordEnd)
+        
+        # Extract the syllable up to and including the break point
+        syllable = usub(word, 0, sBreak + 1)
+        
+        # Adjust stress accents
+        if stress:
+            if syllables or syllable != word:
+                syllable = 'ˈ' + rsub(syllable, 'ˈ', '')
+            else:
+                syllable = rsub(syllable, 'ˈ', '')
+            stress = False
+        
+        # Add the syllable to the list
+        syllables.append(syllable)
+        word = usub(word, sBreak + 1)
+    
+    # Concatenate syllables with periods
+    out = ""
+    if len(syllables) > 0:
+        out = '.'.join(syllables)
+        out = rsub(out, r'\.ˈ', 'ˈ')
+    return out
+
+
+def syllabify(IPAs, periods):
+    for period in periods:
+        ipa = []
+        for word in rsplit(IPAs[period], ' '):
+            word_ipa = syllabify_word(word)
+            if word_ipa:
+                ipa.append(word_ipa)
+        IPAs[period] = ' '.join(ipa)
+    return IPAs
+
+# print(syllabify(*convert_term('ᾰ̓γγελῶν'))["koi2"])

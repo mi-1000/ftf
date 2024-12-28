@@ -13,6 +13,7 @@ def rfind(string, pattern):
     """Reimplementation of :func:`re.search` for compatibility with Lua code"""
     return re.search(pattern, string)
 
+
 def rmatch(string, pattern, init = 0):
     """Return a tuple of matches for each capturing group against a given string and pattern, or an empty string if nothing was found."""
     if init >= len(string) or init < 0:
@@ -20,30 +21,13 @@ def rmatch(string, pattern, init = 0):
     match = re.search(pattern, string[init:])
     return match.groups() if match else ""
 
-def rsubn(string, pattern, repl):
-    """Reimplementation of :func:`re.subn` for compatibility with Lua code"""
-    return re.subn(pattern, repl, string)
+
+def rsplit(string: str, pattern: str) -> list[str]:
+    """Split a string according to a certain pattern (reimplementation of :func:`str.split` for compatibility with Lua code)"""
+    return string.split(pattern)
 
 
-def ulower(string: str):
-    """Lowercase string - Just here for compatibility with Lua code"""
-    return string.lower()
-
-
-def usub(string, i, j):
-    """Substring from index `i` to `j`"""
-    if j is None:
-        return string[i:]
-
-    return string[i:j]
-
-
-def ulen(word):
-    """Length of word - Just here for compatibility with Lua code"""
-    return len(word)
-
-
-def rsub(string, pattern, repl):
+def rsub(string: str, pattern: str, repl: str) -> str:
     """Version of `rsubn()` that discards all but the first return value"""
     if not string:
         return ""
@@ -57,14 +41,37 @@ def rsub(string, pattern, repl):
         return re.sub(pattern, repl, string)
 
 
-def rsubb(string, pattern, repl):
+def rsubb(string: str, pattern: str, repl: str) -> tuple[str, bool]:
     """Version of `rsubn()` that returns a 2nd argument boolean indicating whether a substitution was made."""
     res, nsubs = rsubn(string, pattern, repl)
     return res, nsubs > 0
 
 
+def rsubn(string: str, pattern: str, repl: str) -> tuple[str, int]:
+    """Reimplementation of :func:`re.subn` for compatibility with Lua code"""
+    return re.subn(pattern, repl, string)
+
+
+def ulen(word: str) -> int:
+    """Length of word - Just here for compatibility with Lua code"""
+    return len(word)
+
+
+def ulower(string: str) -> str:
+    """Lowercase string - Just here for compatibility with Lua code"""
+    return string.lower()
+
+
+def usub(string: str, i: int, j: int | None = None) -> str:
+    """Substring from index `i` to `j`"""
+    if j is None:
+        return string[i:]
+
+    return string[i:j]
+
+
 def decompose(text: str) -> str:
-    """Decompses a string into its constituent characters and diacritics.
+    """Decompse a string into its constituent characters and diacritics.
 
     Args:
         text (str): The text to be decomposed

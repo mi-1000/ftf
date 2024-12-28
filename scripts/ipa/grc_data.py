@@ -4,8 +4,9 @@
 # Last revision: 2024-12-23
 
 from functools import lru_cache
+from typing import List, Literal
 
-PERIODS = ['cla', 'koi1', 'koi2', 'byz1', 'byz2']
+PERIODS: List[Literal['cla', 'koi1', 'koi2', 'byz1', 'byz2']] = ['cla', 'koi1', 'koi2', 'byz1', 'byz2']
 
 TIE = "\u035C"  # tie bar — ͜
 NONSYLLABIC = "\u032F"  # combining inverted breve below — ̯
