@@ -6,7 +6,13 @@
 from functools import lru_cache
 from typing import List, Literal
 
-PERIODS: List[Literal['cla', 'koi1', 'koi2', 'byz1', 'byz2']] = ['cla', 'koi1', 'koi2', 'byz1', 'byz2']
+PERIODS: List[Literal["cla", "koi1", "koi2", "byz1", "byz2"]] = [
+    "cla",
+    "koi1",
+    "koi2",
+    "byz1",
+    "byz2",
+]
 
 TIE = "\u035C"  # tie bar — ͜
 NONSYLLABIC = "\u032F"  # combining inverted breve below — ̯
@@ -19,6 +25,8 @@ MID_LOW = "\u1DC6"  # mid–low pitch — ᷆
 HIGH_MID = "\u1DC7"  # high–mid pitch — ᷇
 VOICELESS = "\u0325"  # combining ring below — ̥
 ASPIRATED = "\u02B0"  # superscript h — ʰ
+STRESS_MARK = "\u02c8"  # stress mark — ˈ
+LONG = "\u02d0"  # long vowel — ː
 MACRON = "\u0304"  # macron — ¯
 BREVE = "\u0306"  # breve — ˘
 
@@ -44,16 +52,16 @@ CHAR_SETS = {
     "cons": "bɡŋdzklmnprstβðɣɸθxfvɟʝcçwʍj",
     "vowel": "aeiouyɛɔ",
     "diacritic": HIGH
-        + LOW
-        + MID_HIGH
-        + MID_LOW
-        + HIGH_MID
-        + LATIN_CIRCUM
-        + ASPIRATED
-        + VOICELESS
-        + NONSYLLABIC
-        + RISING
-        + FALLING,
+    + LOW
+    + MID_HIGH
+    + MID_LOW
+    + HIGH_MID
+    + LATIN_CIRCUM
+    + ASPIRATED
+    + VOICELESS
+    + NONSYLLABIC
+    + RISING
+    + FALLING,
     "liquid": "rln",
     "obst": "bɡdkptβðɣɸθxfv",
     "frontDiphth": "[αο]ι",
@@ -65,20 +73,20 @@ CHAR_SETS = {
     "uDiphth": "αεηο",
     "iDiphth": "αεου",
     "Greekdiacritic": COMBINING_MACRON
-        + SPACING_MACRON
-        + MODIFIER_MACRON
-        + COMBINING_BREVE
-        + SPACING_BREVE
-        + ROUGH
-        + SMOOTH
-        + DIAERESIS
-        + ACUTE
-        + GRAVE
-        + CIRCUM
-        + LATIN_CIRCUM
-        + CORONIS
-        + SUBSCRIPT
-        + UNDERTIE,
+    + SPACING_MACRON
+    + MODIFIER_MACRON
+    + COMBINING_BREVE
+    + SPACING_BREVE
+    + ROUGH
+    + SMOOTH
+    + DIAERESIS
+    + ACUTE
+    + GRAVE
+    + CIRCUM
+    + LATIN_CIRCUM
+    + CORONIS
+    + SUBSCRIPT
+    + UNDERTIE,
     "Greekconsonant": "ΒβΓγΔδΖζΘθΚκΛλΜμΝνΞξΠπΡρΣσςΤτΦφΧχΨψ",
 }
 
@@ -100,7 +108,282 @@ ALL_DIACRITICS = [
     UNDERTIE,
 ]
 
-UNACCENTED_GREEK_LETTERS = "ΑαΒβΓγΔδΕεΖζΗηΘθΙιΚκΛλΜμΝνΞξΟοΠπΡρΣσςΤτΥυΦφΧχΨψΩω"
+
+def get_pitch_marks(accent_type: Literal["acute", "grave", "circum"] | str, long: bool):
+    if accent_type == "acute":
+        if long:
+            return RISING
+        else:
+            return HIGH
+    elif accent_type == "grave":
+        return LOW
+    elif accent_type == "circum":
+        return FALLING
+    return ""
+
+
+def alpha(breathing, accent: str, iota: bool, is_long = False) -> dict[str, str]:
+    breathing = ["h", "(h)"] if breathing == "rough" else ["", ""]
+    stress = STRESS_MARK if accent else ""
+    pitch = get_pitch_marks(accent, is_long)
+    length = LONG if is_long or iota or accent == "circum" else ""
+    offglide = f"i{NONSYLLABIC}" if iota else ""
+
+    return {
+        "cla": f"{breathing[0]}a{pitch}{length}{offglide}",
+        "koi1": f"{breathing[1]}{stress}a",
+        "koi2": f"{stress}a",
+        "byz1": f"{stress}a",
+        "byz2": f"{stress}a",
+    }
+
+
+def iota(breathing, accent, is_long = False) -> dict[str, str]:
+    breathing = ["h", "(h)"] if breathing == "rough" else ["", ""]
+    stress = STRESS_MARK if accent else ""
+    pitch = get_pitch_marks(accent, is_long)
+    length = LONG if is_long or accent == "circum" else ""
+
+    return {
+        "cla": f"{breathing[0]}i{pitch}{length}",
+        "koi1": f"{breathing[1]}{stress}i",
+        "koi2": f"{stress}i",
+        "byz1": f"{stress}i",
+        "byz2": f"{stress}i",
+    }
+
+
+def ypsilon(breathing, accent, is_long = False) -> dict[str, str]:
+    breathing = ["h", "(h)"] if breathing == "rough" else ["", ""]
+    stress = STRESS_MARK if accent else ""
+    pitch = get_pitch_marks(accent, is_long)
+    length = LONG if is_long or accent == "circum" else ""
+
+    return {
+        "cla": f"{breathing[0]}y{pitch}{length}",
+        "koi1": f"{breathing[1]}{stress}y",
+        "koi2": f"{stress}y",
+        "byz1": f"{stress}y",
+        "byz2": f"{stress}i",
+    }
+
+
+def omicron(breathing, accent: str) -> dict[str, str]:
+    breathing = ["h", "(h)"] if breathing == "rough" else ["", ""]
+    stress = STRESS_MARK if accent else ""
+    pitch = get_pitch_marks(accent, False)
+
+    return {
+        "cla": f"{breathing[0]}o{pitch}",
+        "koi1": f"{breathing[1]}{stress}o",
+        "koi2": f"{stress}o",
+        "byz1": f"{stress}o",
+        "byz2": f"{stress}o",
+    }
+
+
+def epsilon(breathing, accent: str) -> dict[str, str]:
+    breathing = ["h", "(h)"] if breathing == "rough" else ["", ""]
+    stress = STRESS_MARK if accent else ""
+    pitch = get_pitch_marks(accent, False)
+
+    return {
+        "cla": f"{breathing[0]}e{pitch}",
+        "koi1": f"{breathing[1]}{stress}e",
+        "koi2": f"{stress}e",
+        "byz1": f"{stress}e",
+        "byz2": f"{stress}e",
+    }
+
+
+def eta(breathing, accent: str, iota: bool) -> dict[str, str]:
+    breathing = ["h", "(h)"] if breathing == "rough" else ["", ""]
+    stress = STRESS_MARK if accent else ""
+    pitch = get_pitch_marks(accent, True)
+    offglide = f"i{NONSYLLABIC}" if iota else ""
+
+    return {
+        "cla": f"{breathing[0]}ɛ{pitch}{LONG}{offglide}",
+        "koi1": f"{breathing[1]}{stress}e̝",
+        "koi2": f"{stress}i",
+        "byz1": f"{stress}i",
+        "byz2": f"{stress}i",
+    }
+
+
+def omega(breathing, accent: str, iota: bool) -> dict[str, str]:
+    breathing = ["h", "(h)"] if breathing == "rough" else ["", ""]
+    stress = STRESS_MARK if accent else ""
+    pitch = get_pitch_marks(accent, True)
+    offglide = f"i{NONSYLLABIC}" if iota else ""
+
+    return {
+        "cla": f"{breathing[0]}ɔ{pitch}{LONG}{offglide}",
+        "koi1": f"{breathing[1]}{stress}o",
+        "koi2": f"{stress}o",
+        "byz1": f"{stress}o",
+        "byz2": f"{stress}o",
+    }
+
+def ai(breathing, accent: str) -> dict[str, str]:
+    breathing = ['h', '(h)'] if breathing == 'rough' else ['', '']
+    stress = STRESS_MARK if accent else ''
+    pitch = get_pitch_marks(accent, True)
+
+    return {
+        'cla': f"{breathing[0]}a{pitch}i{NONSYLLABIC}",
+        'koi1': f"{breathing[1]}{stress}ɛ",
+        'koi2': f"{stress}ɛ",
+        'byz1': f"{stress}e",
+        'byz2': f"{stress}e",
+    }
+
+
+def ei(breathing, accent: str) -> dict[str, str]:
+    breathing = ['h', '(h)'] if breathing == 'rough' else ['', '']
+    stress = STRESS_MARK if accent else ''
+    pitch = get_pitch_marks(accent, True)
+
+    return {
+        'cla': f"{breathing[0]}e{pitch}{LONG}",
+        'koi1': f"{breathing[1]}{stress}i",
+        'koi2': f"{stress}i",
+        'byz1': f"{stress}i",
+        'byz2': f"{stress}i",
+    }
+
+
+def oi(breathing, accent: str) -> dict[str, str]:
+    breathing = ['h', '(h)'] if breathing == 'rough' else ['', '']
+    stress = STRESS_MARK if accent else ''
+    pitch = get_pitch_marks(accent, True)
+
+    return {
+        'cla': f"{breathing[0]}o{pitch}i{NONSYLLABIC}",
+        'koi1': f"{breathing[1]}{stress}y",
+        'koi2': f"{stress}y",
+        'byz1': f"{stress}y",
+        'byz2': f"{stress}i",
+    }
+
+
+def ui(breathing, accent: str) -> dict[str, str]:
+    breathing = ['h', '(h)'] if breathing == 'rough' else ['', '']
+    stress = STRESS_MARK if accent else ''
+    pitch = get_pitch_marks(accent, True)
+
+    return {
+        'cla': f"{breathing[0]}y{pitch}{LONG}",
+        'koi1': f"{breathing[1]}{stress}y",
+        'koi2': f"{stress}y",
+        'byz1': f"{stress}y",
+        'byz2': f"{stress}i",
+    }
+
+
+def au(breathing, accent: str) -> dict:
+    breathing = ['h', '(h)'] if breathing == 'rough' else ['', '']
+    stress = STRESS_MARK if accent else ''
+    pitch = get_pitch_marks(accent, True)
+
+    return {
+        'cla': f"{breathing[0]}a{pitch}u{NONSYLLABIC}",
+        'koi1': [
+            ['2=σ+3=μ', f"{stress}aw"],
+            ['2.unvoiced', f"{breathing[1]}{stress}aʍ"],
+            f"{breathing[1]}{stress}aw",
+        ],
+        'koi2': [
+            ['2=σ+3=μ', f"{stress}aβ"],
+            ['2.unvoiced', f"{stress}aɸ"],
+            f"{stress}aβ",
+        ],
+        'byz1': [
+            ['2=σ+3=μ', f"{stress}av"],
+            ['2.unvoiced', f"{stress}af"],
+            f"{stress}av",
+        ],
+        'byz2': [
+            ['2=σ+3=μ', f"{stress}av"],
+            ['2.unvoiced', f"{stress}af"],
+            f"{stress}av",
+        ],
+    }
+
+
+def eu(breathing, accent: str) -> dict:
+    breathing = ['h', '(h)'] if breathing == 'rough' else ['', '']
+    stress = STRESS_MARK if accent else ''
+    pitch = get_pitch_marks(accent, True)
+
+    return {
+        'cla': f"{breathing[0]}e{pitch}u{NONSYLLABIC}",
+        'koi1': [
+            ['2=σ+3=μ', f"{stress}ew"],
+            ['2.unvoiced+3=μ', f"{breathing[1]}{stress}eʍ"],
+            f"{breathing[1]}{stress}ew",
+        ],
+        'koi2': [
+            ['2=σ+3=μ', f"{stress}eβ"],
+            ['2.unvoiced', f"{stress}eɸ"],
+            f"{stress}eβ",
+        ],
+        'byz1': [
+            ['2=σ+3=μ', f"{stress}ev"],
+            ['2.unvoiced', f"{stress}ef"],
+            f"{stress}ev",
+        ],
+        'byz2': [
+            ['2=σ+3=μ', f"{stress}ev"],
+            ['2.unvoiced', f"{stress}ef"],
+            f"{stress}ev",
+        ],
+    }
+
+
+def hu(breathing, accent: str) -> dict:
+    breathing = ['h', '(h)'] if breathing == 'rough' else ['', '']
+    stress = STRESS_MARK if accent else ''
+    pitch = get_pitch_marks(accent, True)
+
+    return {
+        'cla': f"{breathing[0]}ɛ{pitch}ːu{NONSYLLABIC}",
+        'koi1': [
+            ['2=σ+3=μ', f"{stress}e̝w"],
+            ['2.unvoiced', f"{breathing[1]}{stress}e̝ʍ"],
+            f"{breathing[1]}{stress}e̝w",
+        ],
+        'koi2': [
+            ['2=σ+3=μ', f"{stress}iβ"],
+            ['2.unvoiced', f"{stress}iɸ"],
+            f"{stress}iβ",
+        ],
+        'byz1': [
+            ['2=σ+3=μ', f"{stress}iv"],
+            ['2.unvoiced', f"{stress}if"],
+            f"{stress}iv",
+        ],
+        'byz2': [
+            ['2=σ+3=μ', f"{stress}iv"],
+            ['2.unvoiced', f"{stress}if"],
+            f"{stress}iv",
+        ],
+    }
+
+
+def ou(breathing, accent: str) -> dict[str, str]:
+    breathing = ['h', '(h)'] if breathing == 'rough' else ['', '']
+    stress = STRESS_MARK if accent else ''
+    pitch = get_pitch_marks(accent, True)
+
+    return {
+        'cla': f"{breathing[0]}u{pitch}{LONG}",
+        'koi1': f"{breathing[1]}{stress}u",
+        'koi2': f"{stress}u",
+        'byz1': f"{stress}u",
+        'byz2': f"{stress}u",
+    }
+
 
 data_wrapper = (
     {
@@ -569,7 +852,9 @@ data_wrapper = (
     },
 )
 
-data = data_wrapper[0] # Ugly workaround to get the content of the dictionary without any type mismatch
+data = data_wrapper[
+    0
+]  # Ugly workaround to get the content of the dictionary without any type mismatch
 
 categories = {
     0: {
@@ -583,11 +868,45 @@ categories = {
     },
     "type": {
         "vowel": ["α", "ε", "η", "ι", "ο", "ω", "υ"],
-        "consonant": ["β", "γ", "δ", "ζ", "θ", "κ", "λ", "μ", "ν", "ξ", "π", "ρ", "σ", "ς", "τ", "φ", "χ", "ψ"],
+        "consonant": [
+            "β",
+            "γ",
+            "δ",
+            "ζ",
+            "θ",
+            "κ",
+            "λ",
+            "μ",
+            "ν",
+            "ξ",
+            "π",
+            "ρ",
+            "σ",
+            "ς",
+            "τ",
+            "φ",
+            "χ",
+            "ψ",
+        ],
         "long": ["η", "ω", "ᾱ", "ῑ", "ῡ"],
         "short": ["ε", "ο", "ᾰ", "ῐ", "ῠ"],
         "either": ["α", "ι", "υ"],
-        "diacritic": [MACRON, SPACING_MACRON, MODIFIER_MACRON, BREVE, SPACING_BREVE, ROUGH, SMOOTH, DIAERESIS, ACUTE, GRAVE, CIRCUM, LATIN_CIRCUM, CORONIS, SUBSCRIPT],
+        "diacritic": [
+            MACRON,
+            SPACING_MACRON,
+            MODIFIER_MACRON,
+            BREVE,
+            SPACING_BREVE,
+            ROUGH,
+            SMOOTH,
+            DIAERESIS,
+            ACUTE,
+            GRAVE,
+            CIRCUM,
+            LATIN_CIRCUM,
+            CORONIS,
+            SUBSCRIPT,
+        ],
     },
     "accent": {
         "acute": ["ά", "έ", "ή", "ί", "ό", "ύ", "ώ"],
@@ -600,8 +919,11 @@ categories = {
     },
 }
 
+
 # Update data with additional info
 def update_data(data, categories):
+    data.update({"ς": data.get("σ")}) # Handle sigma final
+    
     # Loop over categories
     for category_key, category_data in categories.items():
         for subcategory_key, letters in category_data.items():
@@ -611,7 +933,7 @@ def update_data(data, categories):
                     from str_utils import strip_accent # Import only here to avoid circular import at start (because str_utils uses data from this module)
                     if strip_accent(letter) in data:
                         data[letter] = data[strip_accent(letter)] # Copy data from the stripped version of the letter
-                        # TODO Might want to fix this later, doesn't seem to be optimal to me
+                    # TODO Might want to fix this later, doesn't seem to be optimal to me
                     else:
                         data[letter] = {}
 
@@ -621,8 +943,68 @@ def update_data(data, categories):
                 # If key is a string, we associate the name of the category to the subcategory
                 elif isinstance(category_key, str):
                     data[letter][category_key] = subcategory_key
+    
+    for letter in "εέὲἐἔἒἑἕἓ":
+        l_data = data.get(letter, {})
+        l_data.setdefault('p', epsilon(l_data.get('breath'), l_data.get('accent')))
+
+    for letter in "οόὸὀὄὂὁὅὃ":
+        l_data = data.get(letter, {})
+        l_data.setdefault('p', omicron(l_data.get('breath'), l_data.get('accent')))
+
+    for letter in "ηῃήῄὴῂῆῇἠᾐἤᾔἢᾒἦᾖἡᾑἥᾕἣᾓἧᾗ":
+        l_data = data.get(letter, {})
+        l_data.setdefault('p', eta(l_data.get('breath'), l_data.get('accent'), l_data.get('subi')))
+
+    for letter in "ωῳώῴὼῲῶῷὠᾠὤᾤὢᾢὦᾦὡᾡὥᾥὣᾣὧᾧ":
+        l_data = data.get(letter, {})
+        l_data.setdefault('p', omega(l_data.get('breath'), l_data.get('accent'), l_data.get('subi')))
+
+    for letter in "αᾳάᾴὰᾲᾶᾷἀᾀἄᾄἂᾂἆᾆἁᾁἅᾅἃᾃἇᾇ":
+        l_data = data.get(letter, {})
+        l_data.setdefault('p', alpha(l_data.get('breath'), l_data.get('accent'), l_data.get('subi')))
+        if not l_data.get('subi') and l_data.get('accent') != 'circum':
+            if 'pre' not in l_data:
+                l_data['pre'] = (('0~hasMacronBreve', 1), 0)
+            data[letter + BREVE] = {'p': alpha(l_data.get('breath'), l_data.get('accent'), False, False)}
+            data[letter + MACRON] = {'p': alpha(l_data.get('breath'), l_data.get('accent'), False, True)}
+        data.setdefault(letter, l_data)
+
+    for letter in "ιίὶῖἰἴἲἶἱἵἳἷϊΐῒῗ":
+        l_data = data.get(letter, {})
+        l_data.setdefault('p', iota(l_data.get('breath'), l_data.get('accent')))
+        if l_data.get('accent') and l_data['accent'] != 'circum':
+            l_data['pre'] = (('0~hasMacronBreve', 1), 0)
+            data[letter + BREVE] = {'p': iota(l_data.get('breath'), l_data.get('accent'), False)}
+            data[letter + MACRON] = {'p': iota(l_data.get('breath'), l_data.get('accent'), True)}
+        if not l_data.get('diar'):
+            data['α' + letter] = {'p': ai(l_data.get('breath'), l_data.get('accent'))}
+            data['ε' + letter] = {'p': ei(l_data.get('breath'), l_data.get('accent'))}
+            data['ο' + letter] = {'p': oi(l_data.get('breath'), l_data.get('accent'))}
+            data['υ' + letter] = {'p': ui(l_data.get('breath'), l_data.get('accent'))}
+            data.setdefault(letter, l_data)
+
+    for letter in "υύὺῦὐὔὒὖὑὕὓὗϋΰῢῧ":
+        l_data = data.get(letter, {})
+        l_data.setdefault('p', ypsilon(l_data.get('breath'), l_data.get('accent')))
+        if l_data.get('accent') and l_data['accent'] != 'circum':
+            if letter != 'υ':
+                l_data['pre'] = (('0~hasMacronBreve', 1), 0)
+            data[letter + BREVE] = {'p': ypsilon(l_data.get('breath'), l_data.get('accent'), False)}
+            data[letter + MACRON] = {'p': ypsilon(l_data.get('breath'), l_data.get('accent'), True)}
+        if not l_data.get('diar'):
+            data['α' + letter] = {'p': au(l_data.get('breath'), l_data.get('accent'))}
+            data['η' + letter] = {'p': hu(l_data.get('breath'), l_data.get('accent'))}
+            data['ε' + letter] = {'p': eu(l_data.get('breath'), l_data.get('accent'))}
+            data['ο' + letter] = {'p': ou(l_data.get('breath'), l_data.get('accent'))}
+        data.setdefault(letter, l_data)
 
 @lru_cache(maxsize=1)
 def get_data():
     update_data(data, categories)
     return data
+
+if __name__ == "__main__":
+    import pprint
+    with open("test.py", "w", encoding="utf-8") as f:
+        f.write("test = " + pprint.pformat(get_data()))

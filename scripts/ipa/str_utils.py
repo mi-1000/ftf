@@ -9,7 +9,7 @@ import unicodedata
 
 from typing import Any
 
-from grc_data import UNACCENTED_GREEK_LETTERS
+UNACCENTED_GREEK_LETTERS = "ΑαΒβΓγΔδΕεΖζΗηΘθΙιΚκΛλΜμΝνΞξΟοΠπΡρΣσςΤτΥυΦφΧχΨψΩω"
 
 def rfind(string, pattern):
     """Reimplementation of :func:`re.search` for compatibility with Lua code"""

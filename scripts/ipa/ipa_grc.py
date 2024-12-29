@@ -104,7 +104,7 @@ def decode(condition: str, x: int, term: str):
     # Check for logical operators ('+' or '/')
     if rfind(condition, ('[+/]')):
         # Find the last operator first
-        subcondition1, sep, subcondition2 = rmatch(condition, r"^([^/+]-)([/+])(.*)$")
+        subcondition1, sep, subcondition2 = rmatch(condition, r"^([^/+]+)([/+])(.*)$")
         
         if not (subcondition1 or subcondition2):
             raise ValueError(f'Condition "{condition}" is improperly formed')
@@ -131,7 +131,6 @@ def decode(condition: str, x: int, term: str):
     elif '~' in condition:
         offset, func = rsplit(condition, '~')
         offset = int(offset)  # Convert offset to an integer
-        # Assuming env_functions is a dictionary
         return env_functions[func](term, x + offset) if env_functions.get(func) else False
 
 def check(p, x: int, term: str):
@@ -141,7 +140,7 @@ def check(p, x: int, term: str):
         for possP in p:
             if isinstance(possP, (str, int)): # If entry is a string or number
                 return possP
-            elif isinstance(possP, list) and len(possP) == 2: # Table with two values (condition and result)
+            elif isinstance(possP, (list, tuple)) and len(possP) == 2: # Table with two values (condition and result)
                 raw_condition, raw_result = possP[0], possP[1]
                 if decode(raw_condition, x, term): # Call decode() to check the condition
                     return raw_result if isinstance(raw_result, str) else check(raw_result, x, term)
@@ -207,18 +206,18 @@ def find_syllable_break(word: str, nVowel: int, wordEnd: bool) -> int:
         return ulen(word)
 
     # We check conditions based on the type and position of characters
-    if is_of_type(fetch(word, nVowel - 2), "liquid"):
-        if is_of_type(fetch(word, nVowel - 3), "obst"):
+    if is_of_type(fetch(word, nVowel - 1), "liquid"):
+        if is_of_type(fetch(word, nVowel - 2), "obst"):
             return nVowel - 3
-        elif fetch(word, nVowel - 3) == ASPIRATED and is_of_type(fetch(word, nVowel - 4), "obst"):
+        elif fetch(word, nVowel - 2) == ASPIRATED and is_of_type(fetch(word, nVowel - 3), "obst"):
             return nVowel - 4
         else:
             return nVowel - 2
-    elif is_of_type(fetch(word, nVowel - 2), "cons"):
+    elif is_of_type(fetch(word, nVowel - 1), "cons"):
         return nVowel - 2
-    elif fetch(word, nVowel - 2) == ASPIRATED and is_of_type(fetch(word, nVowel - 3), "obst"):
+    elif fetch(word, nVowel - 1) == ASPIRATED and is_of_type(fetch(word, nVowel - 2), "obst"):
         return nVowel - 3
-    elif fetch(word, nVowel - 2) == VOICELESS and fetch(word, nVowel - 3) == 'r':
+    elif fetch(word, nVowel - 1) == VOICELESS and fetch(word, nVowel - 2) == 'r':
         return nVowel - 3
     else:
         return nVowel - 1
@@ -226,20 +225,20 @@ def find_syllable_break(word: str, nVowel: int, wordEnd: bool) -> int:
 def syllabify_word(word: str) -> str:
     # Initialize variables
     syllables = []
-    cVowel, nVowel, sBreak, stress, wordEnd, searching = None, None, None, False, False, None
+    current_vowel, next_vowel, syllable_break, stress, wordEnd, searching = None, None, None, False, False, None
     
     while word:
-        cVowel, nVowel, sBreak, stress = None, None, None, False
+        current_vowel, next_vowel, syllable_break, stress = None, None, None, False
         
         # Find the first vowel
         searching = 0
         cVowelFound = False
-        while cVowel is None:
+        while current_vowel is None:
             letter = fetch(word, searching)
             next_letter = fetch(word, searching + 1)
             if cVowelFound:
                 if (is_of_type(letter, "vowel") and next_letter != NONSYLLABIC) or is_of_type(letter, "cons") or letter in ['', 'ˈ']:
-                    cVowel = searching - 1
+                    current_vowel = searching - 1
                 elif is_of_type(letter, "diacritic"):
                     searching += 1
                 elif letter == TIE:
@@ -255,21 +254,21 @@ def syllabify_word(word: str) -> str:
                 searching += 1
         
         # Find the next vowel or the end of the word
-        searching = cVowel + 1
-        while nVowel is None and not wordEnd:
+        searching = current_vowel + 1
+        while next_vowel is None and not wordEnd:
             letter = fetch(word, searching)
             if is_of_type(letter, "vowel") or letter == 'ˈ':
-                nVowel = searching
+                next_vowel = searching
             elif letter == '':
                 wordEnd = True
             else:
                 searching += 1
         
         # Find the syllable break point
-        sBreak = find_syllable_break(word, nVowel, wordEnd)
+        syllable_break = find_syllable_break(word, next_vowel, wordEnd)
         
         # Extract the syllable up to and including the break point
-        syllable = usub(word, 0, sBreak + 1)
+        syllable = usub(word, 0, syllable_break + 1)
         
         # Adjust stress accents
         if stress:
@@ -281,7 +280,7 @@ def syllabify_word(word: str) -> str:
         
         # Add the syllable to the list
         syllables.append(syllable)
-        word = usub(word, sBreak + 1)
+        word = usub(word, syllable_break + 1)
     
     # Concatenate syllables with periods
     out = ""
@@ -301,4 +300,5 @@ def syllabify(IPAs, periods):
         IPAs[period] = ' '.join(ipa)
     return IPAs
 
-# print(syllabify(*convert_term('ᾰ̓γγελῶν'))["koi2"])
+# print(syllabify(*convert_term('ἀρχιμανδρῑ́της'.lower())))
+# print(syllabify(*convert_term('ναῦς'.lower())))
