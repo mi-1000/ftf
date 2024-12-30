@@ -4,8 +4,9 @@
 
 from functools import lru_cache
 from typing import Literal
+import unicodedata
 
-from str_utils import decompose, rfind, rmatch, rsplit, rsub, strip_accent, ulen, usub
+from str_utils import decompose, rfind, rmatch, rsplit, rsub, strip_accent, strip_combining_accent, ulen, usub
 
 from grc_data import (
     ASPIRATED,
@@ -117,28 +118,28 @@ def decode(condition: str, x: int, term: str):
     # Check for character identity ('=')
     elif '=' in condition:
         offset, char = rsplit(condition, '=')
-        offset = int(offset)  # Convert offset to an integer
-        return char == fetch(term, x + offset)  # Out of bounds fetch gives ''
+        offset = int(offset) # Ensure offset to an integer
+        return char == fetch(term, x + offset)
 
     # Check for character quality ('.')
     elif '.' in condition:
         offset, quality = rsplit(condition, '.')
-        offset = int(offset)  # Convert offset to an integer
+        offset = int(offset) # Ensure offset to an integer
         character = fetch(term, x + offset)
         return greek_data.get(character, {}).get(quality, False)
 
     # Check for function call ('~')
     elif '~' in condition:
         offset, func = rsplit(condition, '~')
-        offset = int(offset)  # Convert offset to an integer
+        offset = int(offset) # Ensure offset to an integer
         return env_functions[func](term, x + offset) if env_functions.get(func) else False
 
 def check(p, x: int, term: str):
-    if isinstance(p, (str, int)): # Check if p is a string or number
+    if isinstance(p, (str, int)): # If a number of chars to advance or a stringified number
         return p
-    elif isinstance(p, (list, tuple)): # Check if p is a list or a tuple
+    elif isinstance(p, (list, tuple)): # If conditional data to decode
         for possP in p:
-            if isinstance(possP, (str, int)): # If entry is a string or number
+            if isinstance(possP, (str, int)): # If nothing to decode anymore
                 return possP
             elif isinstance(possP, (list, tuple)) and len(possP) == 2: # Table with two values (condition and result)
                 raw_condition, raw_result = possP[0], possP[1]
@@ -183,9 +184,11 @@ def convert_term(term: str, periodstart: Literal['cla', 'koi1', 'koi2', 'byz1', 
                 p = greek_data[usub(term, x, x + advance)]['p']
             elif 'p' in data.keys(): # TODO Do more profound checks to see if we don't miss a letter
                 p = data['p']
-                # Process IPAs
-                for period in outPeriods:
-                    IPAs[period].append(check(p[period], x, term))
+            else:
+                raise ValueError(f'No data for "{letter}" at position {x}')
+            # Process IPAs
+            for period in outPeriods:
+                IPAs[period].append(check(p[period], x, term))
 
             x += advance
 
@@ -268,7 +271,7 @@ def syllabify_word(word: str) -> str:
         syllable_break = find_syllable_break(word, next_vowel, wordEnd)
         
         # Extract the syllable up to and including the break point
-        syllable = usub(word, 0, syllable_break + 1)
+        syllable = usub(word, 0, syllable_break)
         
         # Adjust stress accents
         if stress:
@@ -300,5 +303,58 @@ def syllabify(IPAs, periods):
         IPAs[period] = ' '.join(ipa)
     return IPAs
 
-# print(syllabify(*convert_term('ἀρχιμανδρῑ́της'.lower())))
-# print(syllabify(*convert_term('ναῦς'.lower())))
+def phoneticize(term: str):
+        return syllabify(*convert_term(strip_combining_accent(term).lower()))
+    #TODO phrases
+
+tests = [
+  "ἄγριος",
+  "ἀκούω",
+  "ἄναρθρος",
+  "ἄνθρωπος",
+  "ἄνθρωπος",
+  "ἀρχιμανδρίτης",
+  "Αὖλος",
+  "Γάδ",
+  "γαῖα",
+  "γένος",
+  "Διονύσια",
+  "ἐγγενής",
+  "ἔγγονος",
+  "ἔγκειμαι",
+  "ἔκγονος",
+  "ἔκδικος",
+  "ἐκφύω",
+  "ἔμβρυον",
+  "ἐρετμόν",
+  "ἐρρήθη",
+  "εὔχωμαι",
+  "Ζεύς",
+  "Ἡρακλέης",
+  "ηὗρον",
+  "Θρᾷξ",
+  "Κιλικία",
+  "μάχη",
+  "ναῦς",
+  "νομίζω",
+  "οἷαι",
+  "πᾶς",
+  "πατρίς",
+  "Πηληϊάδης",
+  "πρᾶγμα",
+  "Σαπφώ",
+  "σβέννυμι",
+  "σημεῖον",
+  "σμικρός",
+  "τάττω",
+  "τὴν ἀοιδήν",
+  "τμῆμα",
+  "φιλίᾳ",
+  "χάσμα",
+  "χέω",
+  "ᾠδῇ",
+  "κέλευσμα"
+]
+
+for test in tests:
+    print(test, phoneticize(test))

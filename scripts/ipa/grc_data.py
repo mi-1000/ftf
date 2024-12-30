@@ -5,6 +5,7 @@
 
 from functools import lru_cache
 from typing import List, Literal
+import unicodedata
 
 PERIODS: List[Literal["cla", "koi1", "koi2", "byz1", "byz2"]] = [
     "cla",
@@ -288,26 +289,26 @@ def au(breathing, accent: str) -> dict:
 
     return {
         'cla': f"{breathing[0]}a{pitch}u{NONSYLLABIC}",
-        'koi1': [
-            ['2=σ+3=μ', f"{stress}aw"],
-            ['2.unvoiced', f"{breathing[1]}{stress}aʍ"],
+        'koi1': (
+            ('2=σ+3=μ', f"{stress}aw"),
+            ('2.unvoiced', f"{breathing[1]}{stress}aʍ"),
             f"{breathing[1]}{stress}aw",
-        ],
-        'koi2': [
-            ['2=σ+3=μ', f"{stress}aβ"],
-            ['2.unvoiced', f"{stress}aɸ"],
+        ),
+        'koi2': (
+            ('2=σ+3=μ', f"{stress}aβ"),
+            ('2.unvoiced', f"{stress}aɸ"),
             f"{stress}aβ",
-        ],
-        'byz1': [
-            ['2=σ+3=μ', f"{stress}av"],
-            ['2.unvoiced', f"{stress}af"],
+        ),
+        'byz1': (
+            ('2=σ+3=μ', f"{stress}av"),
+            ('2.unvoiced', f"{stress}af"),
             f"{stress}av",
-        ],
-        'byz2': [
-            ['2=σ+3=μ', f"{stress}av"],
-            ['2.unvoiced', f"{stress}af"],
+        ),
+        'byz2': (
+            ('2=σ+3=μ', f"{stress}av"),
+            ('2.unvoiced', f"{stress}af"),
             f"{stress}av",
-        ],
+        ),
     }
 
 
@@ -318,26 +319,26 @@ def eu(breathing, accent: str) -> dict:
 
     return {
         'cla': f"{breathing[0]}e{pitch}u{NONSYLLABIC}",
-        'koi1': [
-            ['2=σ+3=μ', f"{stress}ew"],
-            ['2.unvoiced+3=μ', f"{breathing[1]}{stress}eʍ"],
+        'koi1': (
+            ('2=σ+3=μ', f"{stress}ew"),
+            ('2.unvoiced+3=μ', f"{breathing[1]}{stress}eʍ"),
             f"{breathing[1]}{stress}ew",
-        ],
-        'koi2': [
-            ['2=σ+3=μ', f"{stress}eβ"],
-            ['2.unvoiced', f"{stress}eɸ"],
+        ),
+        'koi2': (
+            ('2=σ+3=μ', f"{stress}eβ"),
+            ('2.unvoiced', f"{stress}eɸ"),
             f"{stress}eβ",
-        ],
-        'byz1': [
-            ['2=σ+3=μ', f"{stress}ev"],
-            ['2.unvoiced', f"{stress}ef"],
+        ),
+        'byz1': (
+            ('2=σ+3=μ', f"{stress}ev"),
+            ('2.unvoiced', f"{stress}ef"),
             f"{stress}ev",
-        ],
-        'byz2': [
-            ['2=σ+3=μ', f"{stress}ev"],
-            ['2.unvoiced', f"{stress}ef"],
+        ),
+        'byz2': (
+            ('2=σ+3=μ', f"{stress}ev"),
+            ('2.unvoiced', f"{stress}ef"),
             f"{stress}ev",
-        ],
+        ),
     }
 
 
@@ -348,26 +349,26 @@ def hu(breathing, accent: str) -> dict:
 
     return {
         'cla': f"{breathing[0]}ɛ{pitch}ːu{NONSYLLABIC}",
-        'koi1': [
-            ['2=σ+3=μ', f"{stress}e̝w"],
-            ['2.unvoiced', f"{breathing[1]}{stress}e̝ʍ"],
+        'koi1': (
+            ('2=σ+3=μ', f"{stress}e̝w"),
+            ('2.unvoiced', f"{breathing[1]}{stress}e̝ʍ"),
             f"{breathing[1]}{stress}e̝w",
-        ],
-        'koi2': [
-            ['2=σ+3=μ', f"{stress}iβ"],
-            ['2.unvoiced', f"{stress}iɸ"],
+        ),
+        'koi2': (
+            ('2=σ+3=μ', f"{stress}iβ"),
+            ('2.unvoiced', f"{stress}iɸ"),
             f"{stress}iβ",
-        ],
-        'byz1': [
-            ['2=σ+3=μ', f"{stress}iv"],
-            ['2.unvoiced', f"{stress}if"],
+        ),
+        'byz1': (
+            ('2=σ+3=μ', f"{stress}iv"),
+            ('2.unvoiced', f"{stress}if"),
             f"{stress}iv",
-        ],
-        'byz2': [
-            ['2=σ+3=μ', f"{stress}iv"],
-            ['2.unvoiced', f"{stress}if"],
+        ),
+        'byz2': (
+            ('2=σ+3=μ', f"{stress}iv"),
+            ('2.unvoiced', f"{stress}if"),
             f"{stress}iv",
-        ],
+        ),
     }
 
 
@@ -930,12 +931,7 @@ def update_data(data, categories):
             for letter in letters:
                 # Add a key for letters not yet in data
                 if letter not in data:
-                    from str_utils import strip_accent # Import only here to avoid circular import at start (because str_utils uses data from this module)
-                    if strip_accent(letter) in data:
-                        data[letter] = data[strip_accent(letter)] # Copy data from the stripped version of the letter
-                    # TODO Might want to fix this later, doesn't seem to be optimal to me
-                    else:
-                        data[letter] = {}
+                    data[letter] = {}
 
                 # If key is a numeric, we add it as a boolean
                 if isinstance(category_key, int):
@@ -946,65 +942,69 @@ def update_data(data, categories):
     
     for letter in "εέὲἐἔἒἑἕἓ":
         l_data = data.get(letter, {})
-        l_data.setdefault('p', epsilon(l_data.get('breath'), l_data.get('accent')))
+        l_data['p'] = epsilon(l_data.get('breath'), l_data.get('accent'))
 
     for letter in "οόὸὀὄὂὁὅὃ":
         l_data = data.get(letter, {})
-        l_data.setdefault('p', omicron(l_data.get('breath'), l_data.get('accent')))
+        l_data['p'] = omicron(l_data.get('breath'), l_data.get('accent'))
 
     for letter in "ηῃήῄὴῂῆῇἠᾐἤᾔἢᾒἦᾖἡᾑἥᾕἣᾓἧᾗ":
         l_data = data.get(letter, {})
-        l_data.setdefault('p', eta(l_data.get('breath'), l_data.get('accent'), l_data.get('subi')))
+        l_data['p'] = eta(l_data.get('breath'), l_data.get('accent'), l_data.get('subi'))
 
     for letter in "ωῳώῴὼῲῶῷὠᾠὤᾤὢᾢὦᾦὡᾡὥᾥὣᾣὧᾧ":
         l_data = data.get(letter, {})
-        l_data.setdefault('p', omega(l_data.get('breath'), l_data.get('accent'), l_data.get('subi')))
+        l_data['p'] = omega(l_data.get('breath'), l_data.get('accent'), l_data.get('subi'))
 
     for letter in "αᾳάᾴὰᾲᾶᾷἀᾀἄᾄἂᾂἆᾆἁᾁἅᾅἃᾃἇᾇ":
         l_data = data.get(letter, {})
-        l_data.setdefault('p', alpha(l_data.get('breath'), l_data.get('accent'), l_data.get('subi')))
+        l_data['p'] = alpha(l_data.get('breath'), l_data.get('accent'), l_data.get('subi'))
         if not l_data.get('subi') and l_data.get('accent') != 'circum':
-            if 'pre' not in l_data:
+            if not l_data.get('pre'):
                 l_data['pre'] = (('0~hasMacronBreve', 1), 0)
-            data[letter + BREVE] = {'p': alpha(l_data.get('breath'), l_data.get('accent'), False, False)}
-            data[letter + MACRON] = {'p': alpha(l_data.get('breath'), l_data.get('accent'), False, True)}
-        data.setdefault(letter, l_data)
+            data.setdefault(unicodedata.normalize("NFKC", letter + BREVE), {}).update({'p': alpha(l_data.get('breath'), l_data.get('accent'), False, False)})
+            data.setdefault(unicodedata.normalize("NFKC", letter + MACRON), {}).update({'p': alpha(l_data.get('breath'), l_data.get('accent'), False, True)})
 
     for letter in "ιίὶῖἰἴἲἶἱἵἳἷϊΐῒῗ":
         l_data = data.get(letter, {})
-        l_data.setdefault('p', iota(l_data.get('breath'), l_data.get('accent')))
-        if l_data.get('accent') and l_data['accent'] != 'circum':
+        l_data['p'] = iota(l_data.get('breath'), l_data.get('accent'))
+        if l_data.get('accent') != 'circum':
             l_data['pre'] = (('0~hasMacronBreve', 1), 0)
-            data[letter + BREVE] = {'p': iota(l_data.get('breath'), l_data.get('accent'), False)}
-            data[letter + MACRON] = {'p': iota(l_data.get('breath'), l_data.get('accent'), True)}
-        if not l_data.get('diar'):
+            data.setdefault(unicodedata.normalize("NFKC", letter + BREVE), {}).update({'p': iota(l_data.get('breath'), l_data.get('accent'), False)})
+            data.setdefault(unicodedata.normalize("NFKC", letter + MACRON), {}).update({'p': iota(l_data.get('breath'), l_data.get('accent'), True)})
+        if not l_data.get('diaer'):
             data['α' + letter] = {'p': ai(l_data.get('breath'), l_data.get('accent'))}
             data['ε' + letter] = {'p': ei(l_data.get('breath'), l_data.get('accent'))}
             data['ο' + letter] = {'p': oi(l_data.get('breath'), l_data.get('accent'))}
             data['υ' + letter] = {'p': ui(l_data.get('breath'), l_data.get('accent'))}
-            data.setdefault(letter, l_data)
 
     for letter in "υύὺῦὐὔὒὖὑὕὓὗϋΰῢῧ":
         l_data = data.get(letter, {})
-        l_data.setdefault('p', ypsilon(l_data.get('breath'), l_data.get('accent')))
-        if l_data.get('accent') and l_data['accent'] != 'circum':
+        l_data['p'] = ypsilon(l_data.get('breath'), l_data.get('accent'))
+        if l_data.get('accent') != 'circum':
             if letter != 'υ':
                 l_data['pre'] = (('0~hasMacronBreve', 1), 0)
-            data[letter + BREVE] = {'p': ypsilon(l_data.get('breath'), l_data.get('accent'), False)}
-            data[letter + MACRON] = {'p': ypsilon(l_data.get('breath'), l_data.get('accent'), True)}
-        if not l_data.get('diar'):
+            data.setdefault(unicodedata.normalize("NFKC", letter + BREVE), {}).update({'p': ypsilon(l_data.get('breath'), l_data.get('accent'), False)})
+            data.setdefault(unicodedata.normalize("NFKC", letter + MACRON), {}).update({'p': ypsilon(l_data.get('breath'), l_data.get('accent'), True)})
+        if not l_data.get('diaer'):
             data['α' + letter] = {'p': au(l_data.get('breath'), l_data.get('accent'))}
             data['η' + letter] = {'p': hu(l_data.get('breath'), l_data.get('accent'))}
             data['ε' + letter] = {'p': eu(l_data.get('breath'), l_data.get('accent'))}
             data['ο' + letter] = {'p': ou(l_data.get('breath'), l_data.get('accent'))}
-        data.setdefault(letter, l_data)
+
 
 @lru_cache(maxsize=1)
 def get_data():
     update_data(data, categories)
     return data
 
-if __name__ == "__main__":
+if __name__ == "__main__": # Output the data to a file
     import pprint
-    with open("test.py", "w", encoding="utf-8") as f:
-        f.write("test = " + pprint.pformat(get_data()))
+    pprint.pprint(get_data())
+    warning = """# [WARNING]
+    # Do not use directly in code unless you are sure it is the right version
+    # as not everything is debugged and optimized yet,
+    # use the generated data from grc_data.py instead if unsure.
+    # This file is meant to be for debugging purposes only at the moment.\n\n"""
+    with open("scripts/ipa/grc_data_raw.py", "w", encoding="utf-8") as f:
+        f.write(warning + "data = " + pprint.pformat(get_data(), 4))

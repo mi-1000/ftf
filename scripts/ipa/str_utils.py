@@ -65,14 +65,14 @@ def ulower(string: str) -> str:
 
 
 def usub(string: str, i: int, j: int | None = None) -> str:
-    """Substring from index `i` to `j`"""
+    """Substring from index `i` to `j` inclusive"""
     if j is None:
         return string[i:]
 
-    return string[i:j]
+    return string[i:j+1]
 
 
-def decompose(text: str) -> str:
+def decompose(text: str) -> list[str]:
     """Decompse a string into its constituent characters and diacritics.
 
     Args:
@@ -81,11 +81,11 @@ def decompose(text: str) -> str:
     Returns:
         str: The decomposed text
     """
-    return unicodedata.normalize("NFD", text)
+    return [char for char in unicodedata.normalize("NFKD", text)]
 
 
 def strip_accent(text: str) -> str:
-    """Strip accents from a string.
+    """Strip accents from a Greek string.
 
     Args:
         text (str): The text to strip accents from.
@@ -94,3 +94,23 @@ def strip_accent(text: str) -> str:
         str: The text with accents stripped.
     """
     return "".join(char for char in decompose(text) if char in UNACCENTED_GREEK_LETTERS)
+
+def strip_combining_accent(text:str) -> str:
+    """Strip combining (standalone) accents, **i.e.** which cannot be combined with a base letter as a single character.
+
+    Args:
+        text (str): The text to strip combining accents from. 
+
+    Returns:
+        str: The text with combining accents stripped.
+    """
+    if len(text) == len(strip_accent(text)):
+        return text # No combining accents
+    
+    chars = [x for x in text]
+    stripped = [strip_accent(x) for x in text]
+    for i, char in enumerate(chars):
+        if not stripped[i]: # If character is a single (combining) diacritic
+            chars.pop(i)
+            stripped.pop(i) # Also remove from there to keep the lists in sync
+    return "".join(chars)
