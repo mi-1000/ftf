@@ -514,7 +514,7 @@ def letters_to_ipa(word, phonetic, eccl, vul):
         for letter, ipa in ipa_letters_dict.items():
             if (
                 ulen(letter) > ulen(longestmatch)
-                and usub(word, 0) == letter
+                and usub(word, 0, ulen(letter) - 1) == letter
             ):
                 longestmatch = letter
 
@@ -526,7 +526,7 @@ def letters_to_ipa(word, phonetic, eccl, vul):
                 phonemes.append(ipa_letters_dict[longestmatch])
             word = usub(word, ulen(longestmatch))
         else:
-            phonemes.append(usub(word, 0, 0))
+            phonemes.append(word[0])
             word = usub(word, 1)
 
     if eccl:
@@ -777,7 +777,7 @@ def convert_word(word: str, phonetic: bool, eccl: bool, vul: bool) -> str:
     if eccl:
         word = rsub(word, f"({vowels_c})ti({vowels_c})", r"\1tt͡si\2")
 
-    # Now remove breves.
+    # Now remove breves
     word = rsub(word, r"([ăĕĭŏŭ])", remove_breves)
     word = rsub(word, BREVE, "")
 
@@ -962,7 +962,7 @@ def phoneticize(text: str, variant: Literal["eccl", "vul", "clas"] = "clas", pho
         vul = False
     
     text = ulower(text)
-    text = rsub(text, r"\s", " ") # Replace newline feeds, tabs etc. by simple spaces
+    text = rsub(text, r"\s+", " ") # Replace newline feeds, tabs etc. by simple spaces
     
     if phonetic:
         return convert_words(text, False, eccl, vul), convert_words(text, True, eccl, vul)
@@ -971,3 +971,10 @@ def phoneticize(text: str, variant: Literal["eccl", "vul", "clas"] = "clas", pho
 def log(*values: object, sep: str | None = " ", end: str | None = "\n", file = None, flush = False):
     if __name__ == "__main__": # Enable logging only when called from here
         print(*values, sep, end, file, flush)
+
+texte = """quique adeo primus statuit hic solarium!
+qui mihi comminuit misero articulatim diem.
+nam  me puero uenter erat solarium multo omnium istorum optumum et uerissumum: vbiuis monebat esse, nisi quom nil erat.
+nunc etiam quom est, non estur, nisi soli lubet.
+itaque adeo iam oppletum oppidumst solariis, maior pars populi  aridi reptant fame.
+vbi primum accensus clamarat meridiem"""
