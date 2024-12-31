@@ -930,6 +930,9 @@ def update_data(data, categories):
         for subcategory_key, letters in category_data.items():
             for letter in letters:
                 # Add a key for letters not yet in data
+                norm = unicodedata.normalize("NFKC", letter)
+                if letter != norm:
+                    letter = norm # Normalize key
                 if letter not in data:
                     data[letter] = {}
 

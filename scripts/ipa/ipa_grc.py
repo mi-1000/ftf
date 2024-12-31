@@ -6,7 +6,7 @@ from functools import lru_cache
 from typing import Literal
 import unicodedata
 
-from str_utils import decompose, rfind, rmatch, rsplit, rsub, strip_accent, strip_combining_accent, ulen, usub
+from str_utils import decompose, rfind, rmatch, rsplit, rsub, strip_greek_accent, strip_combining_accent, strip_ipa_accent, ulen, usub
 
 from grc_data import (
     ASPIRATED,
@@ -51,7 +51,7 @@ def is_of_type(text: str, char_set: str):
             f'No data for "{char_set}". Key must be one of the following: {list(CHAR_SETS.keys())}.'
         )
 
-    if "[" in char_set and "]" in char_set:  # If char_set is already a regex pattern
+    if "[" in pattern and "]" in pattern:
         pattern = f"^{pattern}$"
     else:
         pattern = f"^[{pattern}]$"
@@ -61,18 +61,18 @@ def is_of_type(text: str, char_set: str):
 env_functions = {
     # Character precedes a front vowel
     'preFront': lambda term, index: (
-        is_of_type(strip_accent(fetch(term, index + 1)), "frontVowel") or
-        (is_of_type(strip_accent(fetch(term, index + 1) + fetch(term, index + 2)), "frontDiphth") and not is_of_type(fetch(term, index + 2), "iDiaer"))
+        is_of_type(strip_greek_accent(fetch(term, index + 1)), "frontVowel") or
+        (is_of_type(strip_greek_accent(fetch(term, index + 1) + fetch(term, index + 2)), "frontDiphth") and not is_of_type(fetch(term, index + 2), "iDiaer"))
     ),
     
     # Character is part of a diphthong in i
     'isIDiphth': lambda term, index: (
-        strip_accent(fetch(term, index + 1)) == 'ι' and not greek_data.get(fetch(term, index + 1), {}).get('diaer', False)
+        strip_greek_accent(fetch(term, index + 1)) == 'ι' and not greek_data.get(fetch(term, index + 1), {}).get('diaer', False)
     ),
     
     # Character is part of a diphthong in u
     'isUDiphth': lambda term, index: (
-        strip_accent(fetch(term, index + 1)) == 'υ' and not greek_data.get(fetch(term, index + 1), {}).get('diaer', False)
+        strip_greek_accent(fetch(term, index + 1)) == 'υ' and not greek_data.get(fetch(term, index + 1), {}).get('diaer', False)
     ),
     
     # Character has a macron or breve diacritic
@@ -148,7 +148,7 @@ def check(p, x: int, term: str):
     else:
         raise TypeError(f'"p" is of unrecognized type {type(p)}')
 
-@lru_cache(500) # Cache the last results of the function
+# @lru_cache(500) # Cache the last results of the function # TODO Fix this, I don't know why but this adds random syllable break points on words transcribed for the second time and more
 def convert_term(term: str, periodstart: Literal['cla', 'koi1', 'koi2', 'byz1', 'byz2'] = 'cla') -> tuple[dict, list[Literal['cla', 'koi1', 'koi2','byz1', 'byz2']]]:
     if not term:
         raise ValueError('The variable "term" in the function "convert_term" is missing.')
@@ -172,7 +172,7 @@ def convert_term(term: str, periodstart: Literal['cla', 'koi1', 'koi2', 'byz1', 
 
     while x < length:
         letter = fetch(term, x)
-        data = greek_data.get(letter)
+        data = greek_data.get(letter) or greek_data.get(strip_combining_accent(letter)) or greek_data.get(strip_greek_accent(letter)) # Check for data, and try to remove accents in case of encoding problems, despite potential loss of data (TODO)
 
         if data: # If data exists for the letter
             # Check if a multicharacter search is warranted
@@ -229,6 +229,9 @@ def syllabify_word(word: str) -> str:
     # Initialize variables
     syllables = []
     current_vowel, next_vowel, syllable_break, stress, wordEnd, searching = None, None, None, False, False, None
+    
+    if not any(is_of_type(unicodedata.normalize("NFKD", char), "vowel") for char in word): # Word without any vowel
+        return word
     
     while word:
         current_vowel, next_vowel, syllable_break, stress = None, None, None, False
@@ -303,58 +306,23 @@ def syllabify(IPAs, periods):
         IPAs[period] = ' '.join(ipa)
     return IPAs
 
-def phoneticize(term: str):
-        return syllabify(*convert_term(strip_combining_accent(term).lower()))
-    #TODO phrases
+def phoneticize(text: str, period: Literal['cla', 'koi1', 'koi2', 'byz1', 'byz2'] = 'cla') -> str:
+    
+    words = filter(lambda x: rfind(x, r"\w"), text.split())
+    phon = []
+    for word in words:
+        phon.append(syllabify(*convert_term(unicodedata.normalize("NFKC", strip_combining_accent(word).lower())))[period])
+    return " ".join(phon)
 
-tests = [
-  "ἄγριος",
-  "ἀκούω",
-  "ἄναρθρος",
-  "ἄνθρωπος",
-  "ἄνθρωπος",
-  "ἀρχιμανδρίτης",
-  "Αὖλος",
-  "Γάδ",
-  "γαῖα",
-  "γένος",
-  "Διονύσια",
-  "ἐγγενής",
-  "ἔγγονος",
-  "ἔγκειμαι",
-  "ἔκγονος",
-  "ἔκδικος",
-  "ἐκφύω",
-  "ἔμβρυον",
-  "ἐρετμόν",
-  "ἐρρήθη",
-  "εὔχωμαι",
-  "Ζεύς",
-  "Ἡρακλέης",
-  "ηὗρον",
-  "Θρᾷξ",
-  "Κιλικία",
-  "μάχη",
-  "ναῦς",
-  "νομίζω",
-  "οἷαι",
-  "πᾶς",
-  "πατρίς",
-  "Πηληϊάδης",
-  "πρᾶγμα",
-  "Σαπφώ",
-  "σβέννυμι",
-  "σημεῖον",
-  "σμικρός",
-  "τάττω",
-  "τὴν ἀοιδήν",
-  "τμῆμα",
-  "φιλίᾳ",
-  "χάσμα",
-  "χέω",
-  "ᾠδῇ",
-  "κέλευσμα"
-]
+# if __name__ == "__main__":
+    # tests = ["ἄγριος", "ἀκούω", "ἄναρθρος", "ἄνθρωπος", "ἄνθρωπος", "ἀρχιμανδρίτης", "Αὖλος", "Γάδ", "γαῖα", "γένος", "Διονύσια", "ἐγγενής", "ἔγγονος", "ἔγκειμαι", "ἔκγονος", "ἔκδικος", "ἐκφύω", "ἔμβρυον", "ἐρετμόν", "ἐρρήθη", "εὔχωμαι", "Ζεύς", "Ἡρακλέης", "ηὗρον", "Θρᾷξ", "Κιλικία", "μάχη", "ναῦς", "νομίζω", "οἷαι", "πᾶς", "πατρίς", "Πηληϊάδης", "πρᾶγμα", "Σαπφώ", "σβέννυμι", "σημεῖον", "σμικρός", "τάττω", "τὴν ἀοιδήν", "τμῆμα", "φιλίᾳ", "χάσμα", "χέω", "ᾠδῇ", "κέλευσμα"]
 
-for test in tests:
-    print(test, phoneticize(test))
+    # for test in tests:
+    #     print(f"{test} : {phoneticize(test)}")
+
+    # with open("data/raw/data_ancient_greek/Aristote,_Les_Topiques,_livre_I_greek.txt", 'r', encoding='utf-8') as f:
+    #     lines = f.readlines()
+    #     for period in PERIODS:
+    #         print("".center(60, "="), f" {period.upper()} ".center(60, "="), "".center(60, "="), sep='\n')
+    #         for i, line in enumerate(lines, 1):
+    #             print(i, phoneticize(line, period))

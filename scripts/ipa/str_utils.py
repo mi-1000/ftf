@@ -84,7 +84,7 @@ def decompose(text: str) -> list[str]:
     return [char for char in unicodedata.normalize("NFKD", text)]
 
 
-def strip_accent(text: str) -> str:
+def strip_greek_accent(text: str) -> str:
     """Strip accents from a Greek string.
 
     Args:
@@ -95,6 +95,9 @@ def strip_accent(text: str) -> str:
     """
     return "".join(char for char in decompose(text) if char in UNACCENTED_GREEK_LETTERS)
 
+def strip_ipa_accent(text: str) -> str:
+    return ''.join([rsub(unicodedata.normalize("NFKD", char), r'[^a-z\u0250-\u02AF]', '') for char in text])
+
 def strip_combining_accent(text:str) -> str:
     """Strip combining (standalone) accents, **i.e.** which cannot be combined with a base letter as a single character.
 
@@ -104,11 +107,11 @@ def strip_combining_accent(text:str) -> str:
     Returns:
         str: The text with combining accents stripped.
     """
-    if len(text) == len(strip_accent(text)):
+    if len(text) == len(strip_greek_accent(text)):
         return text # No combining accents
     
     chars = [x for x in text]
-    stripped = [strip_accent(x) for x in text]
+    stripped = [strip_greek_accent(x) for x in text]
     for i, char in enumerate(chars):
         if not stripped[i]: # If character is a single (combining) diacritic
             chars.pop(i)
