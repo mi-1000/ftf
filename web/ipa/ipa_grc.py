@@ -6,9 +6,9 @@ from functools import lru_cache
 from typing import Literal
 import unicodedata
 
-from str_utils import decompose, rfind, rmatch, rsplit, rsub, strip_greek_accent, strip_combining_accent, strip_ipa_accent, ulen, usub
+from .str_utils import decompose, rfind, rmatch, rsplit, rsub, strip_greek_accent, strip_combining_accent, strip_ipa_accent, ulen, usub
 
-from grc_data import (
+from .grc_data import (
     ASPIRATED,
     BREVE,
     MACRON,

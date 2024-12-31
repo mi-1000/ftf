@@ -5,6 +5,8 @@ from flask import Flask, render_template, request, jsonify
 from mysql.connector import Error, connect
 from unidecode import unidecode
 
+from ipa.ipa import phoneticize
+
 load_dotenv()
 
 app = Flask(__name__)
@@ -14,7 +16,7 @@ app = Flask(__name__)
 def index():
     if request.method == "POST":
         data = request.get_json()
-        word = data.get('word')
+        word = data.get("word")
         if word:
             date = get_date((unidecode(word)))
         else:
@@ -22,6 +24,20 @@ def index():
         return jsonify({"date": date})
     else:
         return render_template("index.html")
+
+
+@app.route("/ipa", methods=["POST"])
+def ipa():
+    data = request.get_json()
+    text = data.get("text")
+    lang = data.get("lang")
+    period = data.get("period")
+    try:
+        ipa = phoneticize(text, lang, period)
+        return jsonify({"ipa": ipa})
+    except Exception as e:
+        error = f"{type(e).__name__} at line {e.__traceback__.tb_lineno} of app.py: {e}"
+        return jsonify({"error": error})
 
 
 def get_date(

@@ -7,7 +7,7 @@ import re
 from functools import lru_cache
 from typing import Literal, Tuple
 
-from str_utils import rfind, rsub, rsubb, ulen, ulower, usub
+from .str_utils import rfind, rsub, rsubb, ulen, ulower, usub
 
 BREVE = "\u0306" # ̆
 TILDE = "\u0303" # ̃
