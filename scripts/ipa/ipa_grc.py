@@ -307,6 +307,8 @@ def syllabify(IPAs, periods):
     return IPAs
 
 def phoneticize(text: str, period: Literal['cla', 'koi1', 'koi2', 'byz1', 'byz2'] = 'cla') -> str:
+    if period not in PERIODS:
+        raise ValueError("Wrong variant! Must be either [cla] (Attic Classical - 5th c. BC), [koi1] (Egyptian Koine - 1st c. AD), [koi2] (Koine - 4th c. AD), [byz1] (Byzantine - 10th c. AD), [byz2] (Constantinopolitan - 15th c. AD).")
     
     words = filter(lambda x: rfind(x, r"\w"), text.split())
     phon = []

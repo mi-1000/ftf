@@ -514,7 +514,7 @@ def letters_to_ipa(word, phonetic, eccl, vul):
         for letter, ipa in ipa_letters_dict.items():
             if (
                 ulen(letter) > ulen(longestmatch)
-                and usub(word, 0, ulen(letter)) == letter
+                and usub(word, 0) == letter
             ):
                 longestmatch = letter
 
@@ -524,10 +524,10 @@ def letters_to_ipa(word, phonetic, eccl, vul):
                 phonemes.append("s")
             else:
                 phonemes.append(ipa_letters_dict[longestmatch])
-            word = usub(word, ulen(longestmatch), None)
+            word = usub(word, ulen(longestmatch))
         else:
-            phonemes.append(usub(word, 0, 1))
-            word = usub(word, 1, None)
+            phonemes.append(usub(word, 0, 0))
+            word = usub(word, 1)
 
     if eccl:
         for i in range(len(phonemes)):
@@ -653,9 +653,9 @@ def split_syllables(remainder):
         onset = get_onset(syll)
         coda = get_coda(syll)
         if onset != "" and onset not in onsets:
-            print(f"[WARNING] Bad onset ({onset}) in function split_syllables")
+            log(f"[WARNING] Bad onset ({onset}) in function split_syllables")
         if coda != "" and coda not in codas:
-            print(f"[WARNING] Bad coda ({coda}) in function split_syllables")
+            log(f"[WARNING] Bad coda ({coda}) in function split_syllables")
 
     return syllables
 
@@ -967,3 +967,7 @@ def phoneticize(text: str, variant: Literal["eccl", "vul", "clas"] = "clas", pho
     if phonetic:
         return convert_words(text, False, eccl, vul), convert_words(text, True, eccl, vul)
     else: return convert_words(text, False, eccl, vul)
+
+def log(*values: object, sep: str | None = " ", end: str | None = "\n", file = None, flush = False):
+    if __name__ == "__main__": # Enable logging only when called from here
+        print(*values, sep, end, file, flush)
