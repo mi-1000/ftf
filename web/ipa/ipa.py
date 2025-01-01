@@ -3,10 +3,12 @@ from typing import Literal
 from .ipa_grc import phoneticize as phon_grc
 from .ipa_la import phoneticize as phon_la
 
-LATIN_PERIODS = ["eccl", "vul", "clas"]
+FRENCH_PERIODS = ["eu", "ca"]
 GREEK_PERIODS = ["cla", "koi1", "koi2", "byz1", "byz2"]
+LATIN_PERIODS = ["eccl", "vul", "clas"]
+OLD_FRENCH_PERIODS = ["ear", "lat"]
 
-def phoneticize(text: str, lang: Literal["la", "grc", "fro"], period: Literal["eccl", "vul", "clas", "cla", "koi1", "koi2", "byz1", "byz2"]) -> str:
+def phoneticize(text: str, lang: Literal["fr", "la", "grc", "fro"], period: Literal["eccl", "vul", "clas", "cla", "koi1", "koi2", "byz1", "byz2"]) -> str:
     """Phoneticize a Latin, Ancient Greek or Old French text into IPA.
 
     Args:
@@ -22,7 +24,7 @@ def phoneticize(text: str, lang: Literal["la", "grc", "fro"], period: Literal["e
     """
     if not text or not lang or not period:
         raise ValueError("Argument missing in phoneticize(text, lang, period).")
-    if lang not in ["la", "grc", "fro"]:
+    if lang not in ["fr", "la", "grc", "fro"]:
         raise ValueError("Incorrect parameter for lang. Authorized values are 'grc', 'la', 'fro'.")
     if lang == "la":
         if period not in LATIN_PERIODS:
@@ -32,6 +34,9 @@ def phoneticize(text: str, lang: Literal["la", "grc", "fro"], period: Literal["e
         if period not in GREEK_PERIODS:
             raise ValueError("Incorrect Ancient Greek period. Authorized values are 'byz1', 'byz2', 'cla', 'koi1', 'koi2'.")
         return phon_grc(text, period)
-    else: # lang == "fro"
+    elif lang == "fro":
         pass # TODO
-    
+    elif lang == "fr":
+        pass # TODO
+    else: # This should not happen
+        raise ValueError("Parameter lang is not valid. Authorized languages are 'fr', 'fro', 'grc', 'la'.")

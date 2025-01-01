@@ -1,9 +1,13 @@
-var _INITIAL_SOURCE_LANGUAGE = 'fr'
-var _INITIAL_TARGET_LANGUAGE = 'fro'
+var _CURRENT_SOURCE_LANGUAGE = 'fr'
+var _CURRENT_TARGET_LANGUAGE = 'fro'
+var _CURRENT_SOURCE_PERIOD = 'eu'
+var _CURRENT_TARGET_PERIOD = 'ear'
 
 document.addEventListener('DOMContentLoaded', (e) => {
     handleSourceTextInput();
     handleLanguageChange();
+    handleIPADropdown();
+    handleIPAPeriodChange();
 });
 
 function handleSourceTextInput(sourceTag = 'sourceText') {
@@ -12,14 +16,18 @@ function handleSourceTextInput(sourceTag = 'sourceText') {
     sourceText.addEventListener('input', (e) => {
         newTargetText = e.target.value;
         updateFieldsHeight();
-        if (_INITIAL_SOURCE_LANGUAGE == "fr" && e.inputType == "insertText" && (/^.*\b\s{1}$/).test(e.target.value)) {
+        if (_CURRENT_SOURCE_LANGUAGE == "fr" && e.inputType == "insertText" && (/^.*\b\s{1}$/).test(e.target.value)) {
             lastWord = e.target.value.match(/\b(\w|[^\x00-\x7F])+\b/ug).pop();
             if (lastWord.length > 3) { // Not verifying too short words
                 verifyEtymology(lastWord);
             }
         }
         updateTargetText(newTargetText); // TODO: Change with model output
-        handleIPAChange(newTargetText); // TODO: Same
+        if (newTargetText) handleIPAChange();
+        else {
+            document.getElementById("sourceIPA").value = "";
+            document.getElementById("targetIPA").innerText = "";
+        }
     });
 }
 
@@ -51,51 +59,116 @@ function handleLanguageChange(sourceTag = 'sourceLang', targetTag = 'targetLang'
     const targetLangDropdown = document.getElementById(targetTag);
     const exchangingArrow = document.getElementById(exchangeTag);
 
-    sourceLangDropdown.value = _INITIAL_SOURCE_LANGUAGE;
-    targetLangDropdown.value = _INITIAL_TARGET_LANGUAGE;
+    sourceLangDropdown.value = _CURRENT_SOURCE_LANGUAGE;
+    targetLangDropdown.value = _CURRENT_TARGET_LANGUAGE;
 
     exchangingArrow.addEventListener('click', (e) => exchangeLanguages(e));
-    sourceLangDropdown.addEventListener('change', (e) => exchangeLanguages(e, _INITIAL_SOURCE_LANGUAGE));
-    targetLangDropdown.addEventListener('change', (e) => exchangeLanguages(e, _INITIAL_TARGET_LANGUAGE));
+    sourceLangDropdown.addEventListener('change', (e) => exchangeLanguages(e, _CURRENT_SOURCE_LANGUAGE));
+    targetLangDropdown.addEventListener('change', (e) => exchangeLanguages(e, _CURRENT_TARGET_LANGUAGE));
 
     function exchangeLanguages(e, initialLanguage = undefined) {
         if (e.currentTarget === exchangingArrow) {
             const sourceTextArea = document.getElementById('sourceText');
             const targetTextArea = document.getElementById('targetText');
 
-            sourceLangDropdown.value = _INITIAL_TARGET_LANGUAGE;
-            targetLangDropdown.value = _INITIAL_SOURCE_LANGUAGE;
-            _INITIAL_SOURCE_LANGUAGE = sourceLangDropdown.value;
-            _INITIAL_TARGET_LANGUAGE = targetLangDropdown.value;
+            sourceLangDropdown.value = _CURRENT_TARGET_LANGUAGE;
+            targetLangDropdown.value = _CURRENT_SOURCE_LANGUAGE;
+            _CURRENT_SOURCE_LANGUAGE = sourceLangDropdown.value;
+            _CURRENT_TARGET_LANGUAGE = targetLangDropdown.value;
 
             sourceTextArea.innerText = targetTextArea.innerText;
             targetTextArea.innerText = "Just switched languages 😎"; // TODO
-            return;
         }
-        if (e.currentTarget !== sourceLangDropdown && e.currentTarget !== targetLangDropdown) {
-            console.log("Error in language change handling.");
+        else if (e.currentTarget !== sourceLangDropdown && e.currentTarget !== targetLangDropdown) {
+            console.error("Error in language change handling.");
             return;
-        }
-        console.log(initialLanguage, e.currentTarget.value, e.target.value);
-
-        if (e.currentTarget === sourceLangDropdown && e.target.value === targetLangDropdown.value) {
+        } else if (e.currentTarget === sourceLangDropdown && e.target.value === targetLangDropdown.value) {
             targetLangDropdown.value = initialLanguage;
         } else if (e.currentTarget === targetLangDropdown && e.target.value === sourceLangDropdown.value) {
             sourceLangDropdown.value = initialLanguage;
         }
-        _INITIAL_SOURCE_LANGUAGE = sourceLangDropdown.value;
-        _INITIAL_TARGET_LANGUAGE = targetLangDropdown.value;
+        _CURRENT_SOURCE_LANGUAGE = sourceLangDropdown.value;
+        _CURRENT_TARGET_LANGUAGE = targetLangDropdown.value;
+        _CURRENT_SOURCE_PERIOD = getDefaultPeriod(_CURRENT_SOURCE_LANGUAGE);
+        _CURRENT_TARGET_PERIOD = getDefaultPeriod(_CURRENT_TARGET_LANGUAGE);
+        handleIPADropdown();
+        handleIPAChange();
     }
 }
 
-function handleIPAChange(text, sourceTag = 'sourceIPA', targetTag = 'targetIPA') {
+/**
+ * Get default period for a given language
+ * 
+ * @param {String} lang 
+ * @returns {String | undefined}
+ */
+function getDefaultPeriod(lang) {
+    switch (lang) {
+        case "fr":
+            return "eu";
+        case "la":
+            return "clas";
+        case "fro":
+            return "ear";
+        case "grc":
+            return "cla";
+        default:
+            break;
+    }
+}
+
+async function handleIPAChange(sourceTag = 'sourceIPA', targetTag = 'targetIPA') {
     const sourceSection = document.getElementById(sourceTag);
     const targetSection = document.getElementById(targetTag);
 
-    const dummyText = "This is dummy text representing the IPA transcription of the above text.";
+    const sourceText = document.getElementById("sourceText").value;
+    const targetText = document.getElementById("targetText").innerText;
 
-    sourceSection.innerText = dummyText.slice(0, text.length % dummyText.length);
-    targetSection.innerText = dummyText.slice(0, text.length % dummyText.length);
+    if (sourceText) {
+        let sourceReq = await sendRequest({ "text": sourceText, "lang": _CURRENT_SOURCE_LANGUAGE, "period": _CURRENT_SOURCE_PERIOD }, '/ipa')
+        let targetReq = await sendRequest({ "text": targetText, "lang": _CURRENT_TARGET_LANGUAGE, "period": _CURRENT_TARGET_PERIOD }, '/ipa')
+        
+        const sourceIPA = sourceReq?.ipa ? sourceReq.ipa : `<span style="color: red;">An error has occured: <b>${sourceReq?.error}</b></span>`; // IPA if exists else error message
+        const targetIPA = targetReq?.ipa ? targetReq.ipa : `<span style="color: red;">An error has occured: <b>${targetReq?.error}</b></span>`; // IPA if exists else error message
+
+        sourceSection.innerHTML = sourceIPA;
+        targetSection.innerHTML = targetIPA;
+    }
+
+    updateFieldsHeight(sourceTag, targetTag);
+}
+
+function handleIPAPeriodChange(sourceTag = 'sourcePeriod', targetTag = 'targetPeriod') {
+    const sourceDropdown = document.getElementById(sourceTag);
+    const targetDropdown = document.getElementById(targetTag);
+
+    sourceDropdown.addEventListener('change', (e) => {
+        _CURRENT_SOURCE_PERIOD = e.target.value.split('-')[1];
+        handleIPAChange();
+    });
+    targetDropdown.addEventListener('change', (e) => {
+        _CURRENT_TARGET_PERIOD = e.target.value.split('-')[1];
+        handleIPAChange();
+    });
+}
+
+function handleIPADropdown(sourceDropdown = 'sourcePeriod', targetDropdown = 'targetPeriod') {
+    const sourcePeriodDropdown = document.getElementById(sourceDropdown);
+    const targetPeriodDropdown = document.getElementById(targetDropdown);
+
+    sourcePeriodDropdown.value = _CURRENT_SOURCE_LANGUAGE + '-' + _CURRENT_SOURCE_PERIOD;
+    targetPeriodDropdown.value = _CURRENT_TARGET_LANGUAGE + '-' + _CURRENT_TARGET_PERIOD;
+
+    sourcePeriodDropdown.querySelectorAll('option').forEach(period => { // Only display periods for current language
+        if (!period.value.startsWith(_CURRENT_SOURCE_LANGUAGE + '-'))
+            period.style.display = 'none';
+        else period.style.display = 'initial';
+    });
+    targetPeriodDropdown.querySelectorAll('option').forEach(period => {
+        if (!period.value.startsWith(_CURRENT_TARGET_LANGUAGE + '-'))
+            period.style.display = 'none';
+        else period.style.display = 'initial';
+    });
 }
 
 async function verifyEtymology(word) {

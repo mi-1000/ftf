@@ -36,8 +36,7 @@ def ipa():
         ipa = phoneticize(text, lang, period)
         return jsonify({"ipa": ipa})
     except Exception as e:
-        error = f"{type(e).__name__} at line {e.__traceback__.tb_lineno} of app.py: {e}"
-        return jsonify({"error": error})
+        return jsonify({"error": str(e)})
 
 
 def get_date(

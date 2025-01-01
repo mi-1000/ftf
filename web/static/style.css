@@ -87,6 +87,8 @@ textarea:focus {
 .api-section {
   width: 100%;
   height: 15vh;
+  min-height: 50px;
+  word-break: break-word;
   background-color: #f8f9fa;
   color: #6c757d;
   border-top: 2px solid #6c757d;
@@ -101,9 +103,17 @@ textarea:focus {
 }
 
 .api-section-left {
-  margin-left: 5px;
+  margin-left: 5px !important;
 }
 
 .api-section-right {
-  margin-left: -5px;
+  margin-left: -5px !important;
+}
+
+.menu_periode {
+  width: fit-content !important;
+}
+
+option {
+  font-family: "Mustica Pro" !important;
 }
