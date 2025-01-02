@@ -25,7 +25,9 @@ function handleSourceTextInput(sourceTag = 'sourceText') {
         updateTargetText(newTargetText); // TODO: Change with model output
         if (newTargetText) handleIPAChange();
         else {
-            document.getElementById("sourceIPA").value = "";
+            document.getElementById("sourceText").value = "";
+            document.getElementById("sourceIPA").innerText = "";
+            document.getElementById("targetText").innerText = "";
             document.getElementById("targetIPA").innerText = "";
         }
     });

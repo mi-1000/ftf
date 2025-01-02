@@ -11,8 +11,12 @@ from typing import Any
 
 UNACCENTED_GREEK_LETTERS = "ΑαΒβΓγΔδΕεΖζΗηΘθΙιΚκΛλΜμΝνΞξΟοΠπΡρΣσςΤτΥυΦφΧχΨψΩω"
 
-def rfind(string, pattern):
-    """Reimplementation of :func:`re.search` for compatibility with Lua code"""
+def rfind(string: str, pattern: str | re.Pattern[str]):
+    """*Reimplementation of* :func:`re.search` *for compatibility with Lua code:*
+    
+    Scan through string looking for a match to the pattern, returning
+    a `Match` object, or `None` if no match was found.
+    """
     return re.search(pattern, string)
 
 
@@ -29,8 +33,8 @@ def rsplit(string: str, pattern: str) -> list[str]:
     return string.split(pattern)
 
 
-def rsub(string: str, pattern: str, repl: Any) -> str:
-    """Version of `rsubn()` that discards all but the first return value"""
+def rsub(string: str, pattern: str | re.Pattern[str], repl: Any) -> str:
+    """Version of :func:`rsubn` that discards all but the first return value"""
     if not string:
         return ""
     if isinstance(repl, dict):
@@ -43,13 +47,25 @@ def rsub(string: str, pattern: str, repl: Any) -> str:
         return re.sub(pattern, repl, string)
 
 
-def rsubb(string: str, pattern: str, repl: str) -> tuple[str, bool]:
+def rsub_repeatedly(string: str, pattern: str | re.Pattern[str], repl):
+    """Apply :func:`rsub` repeatedly until no change."""
+    i = 0
+    while i < 100: # We avoid using `while True` by setting a high breaking point in the loop supposed to never be reached
+        i += 1
+        new_term = rsub(string, pattern, repl)
+        if new_term == string:
+            return string
+        string = new_term
+    return string
+
+
+def rsubb(string: str, pattern: str | re.Pattern[str], repl: str) -> tuple[str, bool]:
     """Version of `rsubn()` that returns a 2nd argument boolean indicating whether a substitution was made."""
     res, nsubs = rsubn(string, pattern, repl)
     return res, nsubs > 0
 
 
-def rsubn(string: str, pattern: str, repl: str) -> tuple[str, int]:
+def rsubn(string: str, pattern: str | re.Pattern[str], repl: str) -> tuple[str, int]:
     """Reimplementation of :func:`re.subn` for compatibility with Lua code"""
     return re.subn(pattern, repl, string)
 
@@ -70,6 +86,11 @@ def usub(string: str, i: int, j: int | None = None) -> str:
         return string[i:]
 
     return string[i:j+1]
+
+
+def pattern_escape(string: str):
+    """Escape special characters used in regex patterns."""
+    return re.escape(string)
 
 
 def decompose(text: str) -> list[str]:
