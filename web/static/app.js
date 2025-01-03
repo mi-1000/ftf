@@ -6,6 +6,7 @@ var _CURRENT_TARGET_PERIOD = 'ear'
 document.addEventListener('DOMContentLoaded', (e) => {
     handleSourceTextInput();
     handleLanguageChange();
+    handleCopyIPA();
     handleIPADropdown();
     handleIPAPeriodChange();
 });
@@ -96,6 +97,15 @@ function handleLanguageChange(sourceTag = 'sourceLang', targetTag = 'targetLang'
         handleIPADropdown();
         handleIPAChange();
     }
+}
+
+function handleCopyIPA(className=".api-section") {
+    sections = document.querySelectorAll(className);
+    sections.forEach(section => {
+        section.addEventListener('click', (e) => {
+            navigator.clipboard.writeText(e.target.innerText); // Copy IPA text
+        });
+    });
 }
 
 /**

@@ -102,6 +102,10 @@ textarea:focus {
   box-shadow: 0 0 5px 1.5px #0002;
 }
 
+.api-section:hover {
+  cursor: pointer;
+}
+
 .api-section-left {
   margin-left: 5px !important;
 }

@@ -4,8 +4,15 @@
 
 # TODO Implement automatic respelling using trained model once ready?
 
+import json
 import re
-from str_utils import pattern_escape, rfind, rmatch, rsub, rsub_repeatedly, ulower
+import requests
+
+from typing import Literal
+
+from .str_utils import pattern_escape, rfind, rmatch, rsub, rsub_repeatedly, ulower
+
+WEBSITE_URL = "http://127.0.0.1:5000" # localhost Flask server now
 
 TILDE = "\u0303"  # Combining tilde =  ̃
 
@@ -28,10 +35,6 @@ for _from, to in explicit_sound_to_substitution.items():
     explicit_substitution_regex.append(to)
 
 explicit_substitution_regex = f"[{"".join(explicit_substitution_regex)}]"
-
-# def ine(x):
-#     """>>> return None if x == "" else x"""
-#     return None if x == "" else x
 
 # Pairs of consonants where a schwa between them cannot be deleted in VCəCV
 # within a word
@@ -151,30 +154,38 @@ word_begin = r"'‿⁀\-"  # Characters indicating the beginning of a word
 word_begin_c = rf"[{word_begin}]"
 
 
-# def respelling_to_IPA(data):
-#     prons = show(
-#         data.respelling, data.args.pos, data.args.noalternatives, data.pagename
-#     )
-#     for i, pron in enumerate(prons):
-#         prons[i] = f"/{pron}/"
-#     return prons
-
-
-def canonicalize_pron(text: str):#, pagename: None):
-    # if not text or text == "+": # TODO
-    #     text = pagename
+def canonicalize_pron(text: str) -> str:
+    text = rsub(text, "’", repl="'")
+    text = rsub(text, r"(\d+),(\d++)", r"\1 virgule \2")
+    text = rsub(text, r"[%]", " poursan ")
+    text = rsub(text, r"[&]", " et ")
+    text = rsub(text, r"[@]", " arobaz ")
+    text = rsub(text, r"[€]", " euro ")
+    text = rsub(text, r"[\$]", " dolar ")
+    text = rsub(text, r"[£]", " livre sterling ")
+    text = rsub(text, r"[!\?,;\.:/!§\*\{\}\[\]#\\\+=²°\"‘’“”­­­­­«»]", "") # Remove punctuation
+    
+    text = rsub(text, r"\s+", " ") # Replace newline feeds, tabs, carriage returns etc. by a space
+    
+    disallowed_chars = rf"[^{vowel}bcçdfghjklmnpqrstvwxz~_\'⁀‿\-]"
+    rsub(text, disallowed_chars, "")
 
     # Replace explicit sounds in square brackets
+    def repl_explicit_sounds(match: re.Match):
+        matches = [m for m in match.groups()]
+        if len(matches) != 1:
+            return "".join([str(match) for match in matches])
+        sound = matches[0]
+        return explicit_sound_to_substitution[ulower(sound)]
     text = rsub(
         text,
         r"\[([hHxXjJ])\]",
-        lambda sound: explicit_sound_to_substitution[ulower(sound)],
+        repl_explicit_sounds
     )
 
     # Process substitutions if text is in square brackets
     if rfind(text, r"^\[.*\]$"):
         subs = rmatch(text, r"^\[(.*)\]$").split(",")
-        # text = pagename # TODO
         for sub in subs:
             fromto = sub.split(":")
             if len(fromto) != 2:
@@ -211,9 +222,10 @@ def canonicalize_pron(text: str):#, pagename: None):
     text = ulower(text)
     return text
 
-def show(text: str, pos: str | None = None):
-    # TODO Handle part-of-speech (using NLP tools probably)
+def convert(text: str) -> str:
     text = canonicalize_pron(text)
+    
+    if not text: return ""
 
     # To simplify checking for word boundaries and liaison markers, we
     # add ⁀ at the beginning and end of all words, and remove it at the end.
@@ -230,6 +242,10 @@ def show(text: str, pos: str | None = None):
     text = rsub(text, "œil", "Euil")
     text = rsub(text, "œ", "æ")  # Keep as æ, mapping later to è or é
 
+    # Silent final letters
+    text = replace_on_pos(text, ["VERB", "NOUN"], r"[dt]\b", "")
+    text = replace_on_pos(text, ["PROPN", "NOUN"], r"phe\b", "ph")
+
     # Handle soft c, g. Do these near the very beginning before any changes
     # that disturb the orthographic front/back vowel distinction (e.g.
     # -ai -> -é when pos == "v" in the next section); but after special
@@ -239,28 +255,29 @@ def show(text: str, pos: str | None = None):
     text = rsub(text, r"ge([aoAOàâôäöăŏɔ])", r"j\1")
     text = rsub(text, rf"g(" + front_vowel_c + ")", r"j\1")
 
-    if pos == "v":  # Special case for verbs
-        text = rsub(text, r"ai⁀", r"é⁀")
-        # portions, retiens as verbs should not have /s/
-        text = rsub(text, r"ti([oe])ns([\u2050\u203f])", r"t_i\1ns\2")
-        # retienne, retiennent as verbs should not have /s/
-        text = rsub(text, r"t(ienne[\u2050\u203f])", r"t_\1")
-        text = rsub(text, r"t(iennent[\u2050\u203f])", r"t_\1")
-        # Final -ent is silent except in single-syllable words (ment, sent);
-        # vient, tient, and compounds will have to be special-cased, no easy
-        # way to distinguish e.g. initient (silent) from retient (not silent).
-        text = rsub(text, rf"({vowel_c}{cons_no_liaison_c}*)ent⁀", r"\1e⁐")
-        text = rsub(text, rf"({vowel_c}{cons_no_liaison_c}*)ent‿", r"\1ət‿")
+    # Special case for verbs
+    text = replace_on_pos(text, "VERB", r"ai⁀", r"é⁀")
+    # portions, retiens as verbs should not have /s/
+    text = replace_on_pos(text, "VERB", r"ti([oe])ns([⁀‿])", r"t_i\1ns\2")
+    # retienne, retiennent as verbs should not have /s/
+    text = replace_on_pos(text, "VERB", r"t(ienne[⁀‿])", r"t_\1")
+    text = replace_on_pos(text, "VERB", r"t(iennent[⁀‿])", r"t_\1")
+    # Final -ent is silent except in single-syllable words (ment, sent);
+    # vient, tient, and compounds will have to be special-cased, no easy
+    # way to distinguish e.g. initient (silent) from retient (not silent).
+    # TODO Unless we can lemmatize the word with Spacy and match infinitives that end in -enir :)
+    text = replace_on_pos(text, "VERB", rf"({vowel_c}{cons_no_liaison_c}*)ent⁀", r"\1e⁐")
+    text = replace_on_pos(text, "VERB", rf"({vowel_c}{cons_no_liaison_c}*)ent‿", r"\1ət‿")
 
     # Various early substitutions #2
-    text = rsub(text, r"[aä]([sz][\u2050\u203f])", r"â\1")  # pas, gaz
+    text = rsub(text, r"[aä]([sz][⁀‿])", r"â\1") # pas, gaz
     text = rsub(text, "à", "a")
     text = rsub(text, "ù", "u")
     text = rsub(text, "î", "i")
     text = rsub(text, r"[Ee]û", "ø")
     text = rsub(text, "û", "u")
     # absolute, obstacle, subsumer, obtus, obtenir, etc.; but not toubibs
-    text = rsub(text, r"b([st][^\u2050\u203f])", r"p\1")
+    text = rsub(text, r"b([st][^⁀‿])", r"p\1")
     text = rsub(text, "ph", "f")
     text = rsub(text, "gn", "ɲ")
     text = rsub(text, "compt", "cont")
@@ -270,15 +287,13 @@ def show(text: str, pos: str | None = None):
     text = rsub(text, r"ch([rln])", r"c\1")
 
     # dinosaure, taure, restaurant, etc.; in unstressed syllables both /ɔ/ and /o/ are usually possible,
-    # but /ɔ/ is more common/natural; not in -eaur-, which occurs in compounds e.g. [[Beauregard]]
+    # but /ɔ/ is more common/natural; not in -eaur-, which occurs in compounds e.g. Beauregard
     text = rsub(text, r"([^e])aur", r"\1or")
     text = rsub(text, rf"({word_begin_c})désh", r"\1déz")
     text = rsub(text, rf"({word_begin_c})et([⁀‿])", r"\1é\2")
     text = rsub(text, rf"({word_begin_c})es([⁀‿])", r"\1ès\2")
     text = rsub(text, rf"({word_begin_c})est([⁀‿])", r"\1èt\2")
-    text = rsub(
-        text, rf"({word_begin_c})ress", r"\1rəss"
-    )  # ressortir, etc. should have schwa
+    text = rsub(text, rf"({word_begin_c})ress", r"\1rəss") # ressortir, etc. should have schwa
     text = rsub(text, rf"({word_begin_c})intrans({vowel_c})", r"\1intranz\2")
     text = rsub(text, rf"({word_begin_c})trans({vowel_c})", r"\1tranz\2")
     text = rsub(text, rf"({word_begin_c})eu", r"\1ø")  # even in euro-
@@ -290,18 +305,17 @@ def show(text: str, pos: str | None = None):
     # superessif, etc.; without this we get /sy.pʁɛ.sif/ etc.
     text = rsub(text, rf"({word_begin_c})super", r"\1supèr")
 
-    if pos == "adv":
-        # adverbial -emment is pronounced -amment
-        text = rsub(text, r"emment([⁀‿])", r"amment\1")
+    # Adverbial -emment is pronounced -amment
+    text = replace_on_pos(text, "ADV", r"emment\b", r"ammen")
 
-    text = rsub(text, r"ie(ds?[⁀‿])", r"illé\1")  # pied, assieds, etc.
-    text = rsub(text, r"[eæ]([dgpt]s?[⁀‿])", r"è\1")  # permet
-    text = rsub(text, r"ez([⁀‿])", r"éz\1")  # assez, avez, etc.
-    text = rsub(text, r"er‿", r"èr‿")  # premier étage
-    text = rsub(text, r"([⁀‿]" + cons_c + r"*)er(s?[⁀‿])", r"\1èr\2")  # cher, fer, vers
-    text = rsub(text, r"er(s?[⁀‿])", r"Ér\1")  # premier(s)
+    text = rsub(text, r"ie(ds?[⁀‿])", r"illé\1") # pied, assieds, etc.
+    text = rsub(text, r"[eæ]([dgpt]s?[⁀‿])", r"è\1") # permet
+    text = rsub(text, r"ez([⁀‿])", r"é\1") # assez, avez, etc.
+    text = rsub(text, r"er‿", r"èr‿") # premier étage
+    text = rsub(text, rf"([⁀‿]{cons_c}*)er(s?[⁀‿])", r"\1èr\2") # cher, fer, vers
+    text = rsub(text, r"er(s?[⁀‿])", r"ér\1") # premier(s)
     text = rsub(
-        text, rf"({word_begin_c}cons_c" + r"*)e(s[⁀‿])", r"\1é\2"
+        text, rf"({word_begin_c}{cons_c}*)e(s[⁀‿])", r"\1é\2"
     )  # ses, tes, etc.
     text = rsub(text, r"oien", r"oyen")  # iroquoien
 
@@ -321,15 +335,15 @@ def show(text: str, pos: str | None = None):
     text = rsub(text, r"qu'", r"k'")  # qu'on
     text = rsub(text, rf"qu({vowel_c})", r"k\1")
 
+    def gu_vowel(match: re.Match):
+        vowel = match.group(1)
+        vowel_without_diaeresis = remove_diaeresis_from_vowel.get(vowel)
+        return f"gu{vowel_without_diaeresis}" if vowel_without_diaeresis else f"g{vowel}"
     # gu+vowel -> g+vowel, but gu+vowel+diaeresis -> gu+vowel
     text = rsub(
         text,
         f"gu({vowel_c})",
-        lambda vowel: (
-            remove_diaeresis_from_vowel.get(vowel, f"g{vowel}")
-            if remove_diaeresis_from_vowel.get(vowel)
-            else f"gu{vowel}"
-        ),
+        gu_vowel
     )
     text = rsub(text, "gü", "gu")  # aiguë might be spelt aigüe
     # parking, footing etc.; also -ing_ e.g. swinguer respelt swing_guer,
@@ -373,15 +387,15 @@ def show(text: str, pos: str | None = None):
 
     # y; include before removing final -e so we can distinguish -ay from
     # -aye
-    text = rsub(text, r"ay([⁀‿])", r"ai\1")  # gamay
+    text = rsub(text, r"ay([⁀‿])", r"ai\1") # gamay
     text = rsub(text, r"éy", "éj")  # Used in respellings, equivalent to 'éill'
     text = rsub(text, rf"({vowel_no_i_c})y", r"\1iy")
     text = rsub(text, rf"yi([{vowel}.])", r"y.y\1")
-    text = rsub(text, "'y‿", "'j‿")  # il n'y‿a
+    text = rsub(text, "'y‿", "'j‿") # il n'y‿a
     text = rsub_repeatedly(text, f"({cons_c})y({cons_c})", r"\1i\2")
-    text = rsub(text, f"({cons_c})ye?([⁀‿])", r"\1i\2")
-    text = rsub(text, f"({word_begin_c})y({cons_c})", r"\1i\2")
-    text = rsub(text, "⁀y⁀", "⁀i⁀")
+    text = rsub(text, rf"({cons_c})ye?([⁀‿])", r"\1i\2")
+    text = rsub(text, rf"({word_begin_c})y({cons_c})", r"\1i\2")
+    text = rsub(text, r"⁀y⁀", "⁀i⁀")
     # CyV -> CiV; will later be converted back to /j/ in most cases, but
     # allows correct handling of embryon, dryade, cryolithe, glyoxylique, etc.
     text = rsub(text, f"({cons_c})y({vowel_c})", r"\1i\2")
@@ -414,13 +428,17 @@ def show(text: str, pos: str | None = None):
     text = rsub(text, r"([iuø])x⁀", r"\1⁀")
     # Silence -c and -ct in nc(t), but not otherwise
     text = rsub(text, r"nkt?⁀", f"n⁀")
-    text = rsub(text, r"([ks])t⁀", r"\1T⁀")  # final -kt, -st pronounced
-    text = rsub(text, r"ér⁀", r"é⁀")  # premier, converted earlier to premiér
+    text = rsub(text, r"([ks])t⁀", r"\1T⁀") # final -kt, -st pronounced
+    text = rsub(text, r"ér⁀", r"é⁀") # premier, converted earlier to premiér
     # p in -mp, b in -mb will be dropped, but temporarily convert to capital
     # letter so a trace remains below when we handle nasals
-    text = rsub(
-        text, r"m([bp])⁀", lambda bp: f'm{bp.upper() if bp in ['b', 'p'] else ""}⁀'
-    )  # plomb
+    def repl_bp(match: re.Match):
+        matches = [m for m in match.groups()]
+        if len(matches) != 1:
+            return "".join([str(match) for match in matches])
+        bp = matches[0]
+        return f"m{bp.upper() if bp in ['b', 'p'] else ""}⁀"
+    text = rsub(text, r"m([bp])⁀", repl_bp) # plomb
     # Do the following after dropping r so we don't affect -rt
     text = rsub(text, r"[dgpt]⁀", r"⁀")
     # Remove final -e in various circumstances; leave primarily when
@@ -454,8 +472,8 @@ def show(text: str, pos: str | None = None):
     text = rsub(
         text, rf"({word_begin_c})(h?)[eæ](" + cons_c + r")\3", r"\1\2é\3"
     ) # effacer, essui, errer, henné
-    text = rsub(text, rf"({word_begin_c})dess", r"\1déss")  # dessécher, dessein, etc.
-    text = rsub(text, rf"[eæ]({cons_c})\1", r"è\1")  # mett(r)ons, etc.
+    text = rsub(text, rf"({word_begin_c})dess", r"\1déss") # dessécher, dessein, etc.
+    text = rsub(text, rf"[eæ]({cons_c})\1", r"è\1") # mett(r)ons, etc.
     text = rsub(text, rf"({cons_c})\1", r"\1")
 
     # Diphthongs
@@ -629,8 +647,19 @@ def show(text: str, pos: str | None = None):
     text = rsub(text, rf"({vowel_c}).ə", r"\1")
     # 6. Make final schwa optional after two consonants except obstruent + approximant
     #    and [lmn] + ʁ
-    text = rsub(text, rf"({cons_c})(\.?)({cons_c})ə⁀",
-        lambda a, dot, b: f"{a}{dot}{b}{'ə' if rfind(a, r"[bdfɡkpstvzʃʒ]") and rfind(b, r"[mnlʁwj]") else 'ə' if rfind(a, r"[lmn]") and b == 'ʁ' else '(ə)'}⁀")
+    def opt_final_schwa(match: re.Match):
+        matches = [m for m in match.groups()]
+        if len(matches) != 3:
+            return "".join([str(match) for match in matches])
+        a, dot, b = matches
+        return (f"{a}{dot}{b}{'ə'
+                if rfind(a, r"[bdfɡkpstvzʃʒ]")
+                    and rfind(b, r"[mnlʁwj]")
+                else 'ə'
+                if rfind(a, r"[lmn]")
+                    and b == 'ʁ'
+                else '(ə)'}⁀")
+    text = rsub(text, rf"({cons_c})(\.?)({cons_c})ə⁀", opt_final_schwa)
 
     #    i/u/ou -> glide before vowel
     #    Do from right to left to handle continuions and étudiions
@@ -674,8 +703,16 @@ def show(text: str, pos: str | None = None):
     #    (indignerez), ɲəl (agnelet); use uppercase schwa when not deleting it,
     #    see below; FIXME, we might want to prevent schwa deletion with other
     #    consonant sequences
+    def delete_schwa_in_vcxcv(match: re.Match):
+        matches = [m for m in match.groups()]
+        if len(matches) != 4:
+            return "".join([str(match) for match in matches])
+        v1, c1, c2, v2 = matches
+        return (rf"{v1}.{c1}Ə.{c2}{v2}"
+                if no_delete_schwa_in_vcvcv_word_internally.get(f"{c1}{c2}")
+                else rf"{v1}{c1}.{c2}{v2}")
     text = rsub_repeatedly(text, rf"({vowel_no_schwa_c})\.({real_cons_c})ə\.({real_cons_c})({vowel_no_schwa_c})",
-        lambda v1, c1, c2, v2: rf"{v1}.{c1}Ə.{c2}{v2}" if no_delete_schwa_in_vcvcv_word_internally.get(f"{c1}{c2}") else rf"{v1}{c1}.{c2}{v2}")
+        delete_schwa_in_vcxcv)
 
     # 2. Delete schwa in VCə.Cʁə, VCə.Clə sequence word-internally
     #    (palefrenier, vilebrequin).
@@ -688,8 +725,17 @@ def show(text: str, pos: str | None = None):
     #    include .* so we go right-to-left, convert to uppercase schwa so
     #    we can handle sequences of schwas and not get stuck if we want to
     #    leave a schwa alone.
+    def optional_internal_schwa(match: re.Match):
+        matches = [m for m in match.groups()]
+        if len(matches) != 6:
+            return "".join([str(match) for match in matches])
+        v1, c1, sep1, sep2, c2, v2 = matches
+        return (rf"{v1}{c1}{sep1}Ə{sep2}{c2}{v2}"
+                if no_delete_schwa_in_vcvcv_across_words.get(f"{c1}{c2}")
+                else rf"{v1}{c1}{sep1}(Ə){sep2}{c2}{v2}")
+        
     text = rsub_repeatedly(text, rf"(.*{vowel_c}{opt_schwajoiners_c})({real_cons_c})({opt_schwajoiners_c})ə({opt_schwajoiners_c})({real_cons_c})({opt_schwajoiners_c}{vowel_c})",
-        lambda v1, c1, sep1, sep2, c2, v2: rf"{v1}{c1}{sep1}Ə{sep2}{c2}{v2}" if no_delete_schwa_in_vcvcv_across_words.get(f"{c1}{c2}") else rf"{v1}{c1}{sep1}(Ə){sep2}{c2}{v2}")
+        optional_internal_schwa)
 
     # Lowercase any uppercase letters (AOUMNJW etc.); they were there to
     # prevent certain later rules from firing
@@ -716,5 +762,78 @@ def show(text: str, pos: str | None = None):
     
     return text
 
-# text = "Bonjour, je suis très fatigué !"
-# print(show(text))
+
+def query_pos(text: str):
+    url = f"{WEBSITE_URL}/pos"
+    data = json.dumps({"text": text}, ensure_ascii=False)
+    headers = {"Content-Type": "application/json", "charset": "utf-8"}
+    rep = requests.post(url, data, headers=headers)
+    return json.loads(rep.text)
+
+def get_pos(word: str) -> str:
+    """Return the POS of a single word (WARNING: Context will not be taken into account)"""
+    _ = query_pos(word)[0]
+    return _['pos']
+
+def get_pos_with_context(text: str, word: str) -> str | None:
+    """Return the POS of the first occurence of a word within a text, or None if unfound"""
+    if not rfind(text, word):
+        return None
+    tok = query_pos(text)
+    for _ in tok:
+        pos = _['pos']
+        token_text = _['text']
+        if token_text == word:
+            return pos
+    return None # For security but should be useless
+
+def get_tokens_of_pos(text: str, pos: str | list[str], neg: bool = False) -> set[str]:
+    """Get the set of all tokens from `text` having POS `pos` (or **not** having if `neg` is True)"""
+    tok = query_pos(text)
+    if isinstance(pos, str):
+        if neg:
+            return {_['text'] for _ in tok if _['pos'].lower() != pos.lower()}
+        else:
+            return {_['text'] for _ in tok if _['pos'].lower() == pos.lower()}
+    else:
+        if neg:
+            return {_['text'] for _ in tok if _['pos'].lower() not in map(lambda x: x.lower(), pos)}
+        else:
+            return {_['text'] for _ in tok if _['pos'].lower() in map(lambda x: x.lower(), pos)}
+
+def replace_on_pos(text: str, pos: str | list[str], pattern: str, repl, neg = False) -> str:
+    """Apply :func:`rsub(word, pattern, repl)` for each `word` of `text` having POS `pos`.
+    If `neg`, apply it for each word not having POS `pos`.
+    """
+    # Using invisible temporary replacement characters
+    INV_1 = "\uFFF3"
+    INV_2 = "\uFFF4"
+    REPL_1 = f" {INV_1} "
+    REPL_2 = f" {INV_2} "
+    # Hide symbols that prevent good tokenization
+    text_cleaned = text
+    text_cleaned = rsub(text_cleaned, r"[⁀]", REPL_1)
+    text_cleaned = rsub(text_cleaned, r"[‿]", REPL_1)
+    tokens = get_tokens_of_pos(text_cleaned, pos, neg)
+    # Remove invisible characters from tokens if they matched
+    tokens.discard(INV_1)
+    tokens.discard(INV_2)
+    
+    def conditional_replace(match: re.Match):
+        word = match.group()
+        # Replace words that match the specific POS
+        return rsub(word, pattern, repl) if word in tokens else word
+    
+    # Replace words with the conditional replacement
+    text_replaced = rsub(text_cleaned, r"\b\w+\b", conditional_replace)
+    # Put back the hidden characters
+    text_replaced = rsub(text_replaced, REPL_1, "⁀")
+    text_replaced = rsub(text_replaced, REPL_2, "‿")
+    return text_replaced
+
+def phoneticize(text: str, standard: Literal['eu', 'ca'] = 'eu'):
+    if standard not in ['eu', 'ca']:
+        raise ValueError("Wrong standard! Must be either [eu]ropean or [ca]nadian.")
+    if standard == 'ca': # TODO - Throw an error for the moment
+        raise ValueError("Canadian French is not supported yet. Please choose European French instead.")
+    return convert(text)

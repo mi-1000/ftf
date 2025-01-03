@@ -94,7 +94,7 @@ def pattern_escape(string: str):
 
 
 def decompose(text: str) -> list[str]:
-    """Decompse a string into its constituent characters and diacritics.
+    """Decompose a string into its constituent characters and diacritics.
 
     Args:
         text (str): The text to be decomposed
