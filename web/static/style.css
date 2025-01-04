@@ -100,10 +100,15 @@ textarea:focus {
   font-size: 0.9rem;
   padding: 5px;
   box-shadow: 0 0 5px 1.5px #0002;
+  transition: color 0.3s ease-in-out;
 }
 
 .api-section:hover {
   cursor: pointer;
+}
+
+.api-section:active {
+  color: #11ff23 !important;
 }
 
 .api-section-left {
@@ -118,6 +123,19 @@ textarea:focus {
   width: fit-content !important;
 }
 
-option {
-  font-family: "Mustica Pro" !important;
+#anachronousInfoIcon {
+  display: none;
+}
+
+#anachronousInfoIcon:hover {
+  cursor: pointer;
+}
+
+#anachronousInfoIcon a {
+  color: #4773c7 !important;
+  transition: color 0.2s cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+
+#anachronousInfoIcon:hover a {
+  color: #4a618e !important;
 }

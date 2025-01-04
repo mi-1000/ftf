@@ -3,6 +3,8 @@ var _CURRENT_TARGET_LANGUAGE = 'fro'
 var _CURRENT_SOURCE_PERIOD = 'eu'
 var _CURRENT_TARGET_PERIOD = 'ear'
 
+var _ATTESTATION_DATES = {}
+
 document.addEventListener('DOMContentLoaded', (e) => {
     handleSourceTextInput();
     handleLanguageChange();
@@ -14,13 +16,18 @@ document.addEventListener('DOMContentLoaded', (e) => {
 function handleSourceTextInput(sourceTag = 'sourceText') {
     const sourceText = document.getElementById(sourceTag);
 
+    sourceText.addEventListener('keyup', (e) => {
+        if (e.key === 'Backspace') {
+            updateEtymology(e.target.value); // Update if backspace is pressed
+        }
+    });
     sourceText.addEventListener('input', (e) => {
         newTargetText = e.target.value;
         updateFieldsHeight();
         if (_CURRENT_SOURCE_LANGUAGE == "fr" && e.inputType == "insertText" && (/^.*\b\s{1}$/).test(e.target.value)) {
             lastWord = e.target.value.match(/\b(\w|[^\x00-\x7F])+\b/ug).pop();
             if (lastWord.length > 3) { // Not verifying too short words
-                verifyEtymology(lastWord);
+                updateEtymology(newTargetText);
             }
         }
         updateTargetText(newTargetText); // TODO: Change with model output
@@ -70,9 +77,9 @@ function handleLanguageChange(sourceTag = 'sourceLang', targetTag = 'targetLang'
     targetLangDropdown.addEventListener('change', (e) => exchangeLanguages(e, _CURRENT_TARGET_LANGUAGE));
 
     function exchangeLanguages(e, initialLanguage = undefined) {
+        const sourceTextArea = document.getElementById('sourceText');
+        const targetTextArea = document.getElementById('targetText');
         if (e.currentTarget === exchangingArrow) {
-            const sourceTextArea = document.getElementById('sourceText');
-            const targetTextArea = document.getElementById('targetText');
 
             sourceLangDropdown.value = _CURRENT_TARGET_LANGUAGE;
             targetLangDropdown.value = _CURRENT_SOURCE_LANGUAGE;
@@ -94,6 +101,7 @@ function handleLanguageChange(sourceTag = 'sourceLang', targetTag = 'targetLang'
         _CURRENT_TARGET_LANGUAGE = targetLangDropdown.value;
         _CURRENT_SOURCE_PERIOD = getDefaultPeriod(_CURRENT_SOURCE_LANGUAGE);
         _CURRENT_TARGET_PERIOD = getDefaultPeriod(_CURRENT_TARGET_LANGUAGE);
+        updateEtymology(sourceTextArea.value);
         handleIPADropdown();
         handleIPAChange();
     }
@@ -103,7 +111,7 @@ function handleCopyIPA(className=".api-section") {
     sections = document.querySelectorAll(className);
     sections.forEach(section => {
         section.addEventListener('click', (e) => {
-            navigator.clipboard.writeText(e.target.innerText); // Copy IPA text
+            navigator.clipboard.writeText(e.target.innerText); // Copy IPA text to clipboard
         });
     });
 }
@@ -183,9 +191,51 @@ function handleIPADropdown(sourceDropdown = 'sourcePeriod', targetDropdown = 'ta
     });
 }
 
-async function verifyEtymology(word) {
+
+async function getFirstAttestationDate(word) {
     rep = await sendRequest({ "word": word });
-    console.log(`${word} : ${rep["date"]}`);
+    date = rep["date"];
+    return (date ? Number.parseInt(date) : null); // Return date if exists else null
+}
+
+async function updateEtymology(text, dateThreshold = 1800) { // Default corresponds to industrial revolution and mitigates false positives
+    _ATTESTATION_DATES = {};
+
+    const infoIcon = document.getElementById("anachronousInfoIcon");
+    const infoAnchor = infoIcon.querySelector('a');
+
+    console.log(_CURRENT_SOURCE_LANGUAGE)
+    if (!text || _CURRENT_SOURCE_LANGUAGE != "fr") {
+        infoIcon.style.display = "none";
+        infoAnchor.href = "#";
+        infoAnchor.target = "_self";
+        return;
+    }
+    
+    let words = (text.trim().split(/\s+/)).filter(word => word.length > 3); // Only track words longer than 3 characters
+    for (const word of words) {
+        _ATTESTATION_DATES[word] = await getFirstAttestationDate(word);
+    }
+
+    thresholdHit = false;
+    wordFound = "";
+    Object.entries(_ATTESTATION_DATES).forEach(([word, date], index) => {
+        if (date && date >= dateThreshold) {
+            thresholdHit = true;
+            wordFound = word;
+            return;
+        }
+    });
+
+    if (thresholdHit && wordFound) { // Text contains anachronous elements relative to threshold set
+        infoIcon.style.display = "block";
+        infoAnchor.href = "https://www.cnrtl.fr/definition/" + wordFound;
+        infoAnchor.target = "_blank";
+    } else {
+        infoIcon.style.display = "none";
+        infoAnchor.href = "#";
+        infoAnchor.target = "_self";
+    }
 }
 
 /**

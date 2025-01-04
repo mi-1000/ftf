@@ -12,7 +12,7 @@ load_dotenv()
 
 app = Flask(__name__)
 
-nlp = spacy.load("fr_core_news_md") # Load the French model
+nlp = spacy.load("fr_core_news_md") # Load the French model # TODO Uncomment when debugging is done
 
 @app.route("/", methods=["POST", "GET"])
 def index():
