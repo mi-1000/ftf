@@ -24,12 +24,7 @@ function handleSourceTextInput(sourceTag = 'sourceText') {
     sourceText.addEventListener('input', (e) => {
         newTargetText = e.target.value;
         updateFieldsHeight();
-        if (_CURRENT_SOURCE_LANGUAGE == "fr" && e.inputType == "insertText" && (/^.*\b\s{1}$/).test(e.target.value)) {
-            lastWord = e.target.value.match(/\b(\w|[^\x00-\x7F])+\b/ug).pop();
-            if (lastWord.length > 3) { // Not verifying too short words
-                updateEtymology(newTargetText);
-            }
-        }
+        updateEtymology(newTargetText);
         updateTargetText(newTargetText); // TODO: Change with model output
         if (newTargetText) handleIPAChange();
         else {
