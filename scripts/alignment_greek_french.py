@@ -2,6 +2,8 @@ import xml.etree.ElementTree as ET
 import os
 import re
 
+chemin = "C:/Users/Emeric/M1_TAL/Projet Transverse/ftf/data/raw/data_ancient_greek"
+
 def extraire_fichiers_bilingues(fichier_xml):
     try:
         # Chargement du fichier XML
@@ -55,7 +57,7 @@ def lire_contenu_fichier(chemin):
             contenu = re.sub(r'<[^>]+>', '', contenu)
             return contenu.strip()
     except FileNotFoundError:
-        print(f"Le fichier {chemin} est introuvable.")
+        print(f"Le fichier {chemin} est introuvable par la fonction.")
         return ""
     except Exception as e:
         print(f"Erreur lors de la lecture du fichier {chemin} : {e}")
