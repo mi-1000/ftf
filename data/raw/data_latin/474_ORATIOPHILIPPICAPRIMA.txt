@@ -10,7 +10,7 @@ caesaris commentariis reperie- batur; summa constantia ad ea quae quaesita erant
 num qui exsules restituti?
 vnum aiebat, praeterea neminem.
 num immunitates datae?
-'nullae' respondebat.
+'nullae'respondebat.
 adsentiri etiam nos ser.
 sulpicio, clarissimo viro, voluit, ne qua tabula post idus martias ullius decreti caesaris aut benefici figeretur.
 multa praetereo eaque praeclara; ad singulare enim m.
@@ -107,16 +107,16 @@ lege quae promulgata est de tertia decuria nonne omnes iudiciariae leges caesari
 et vos acta caesaris defenditis qui leges eius evertitis?
 nisi forte, si quid memoriae causa rettulit in libellum, id numerabitur in actis et, quamvis ini- quum et inutile sit, defendetur: quod ad populum centu- riatis comitiis tulit, id in actis caesaris non habebitur.
 at quae est ista tertia decuria?
-'centurionum' inquit.
+'centurionum'inquit.
 quid?
 isti ordini iudicatus lege iulia, etiam ante pompeia, aurelia non patebat?
-'census praefiniebatur,' inquit.
+'census praefiniebatur,'inquit.
 non centu- rioni quidem solum sed equiti etiam romano; itaque viri fortissimi atque honestissimi qui ordines duxerunt res et iudicant et iudicaverunt.
-'non quaero' inquit 'istos: qui- cumque ordinem duxit, iudicet.
-' at si ferretis quicumque equo meruisset, quod est lautius, nemini probaretis; in iudice enim spectari et fortuna debet et dignitas.
-'non quaero' inquit 'ista: addo etiam iudices manipularis ex legione alaudarum.
+'non quaero'inquit 'istos: qui- cumque ordinem duxit, iudicet.
+'at si ferretis quicumque equo meruisset, quod est lautius, nemini probaretis; in iudice enim spectari et fortuna debet et dignitas.
+'non quaero'inquit 'ista: addo etiam iudices manipularis ex legione alaudarum.
 aliter enim nostri negant posse se salvos esse.
-' o contumeliosum honorem eis quos ad iudi- candum nec opinantis vocatis!
+'o contumeliosum honorem eis quos ad iudi- candum nec opinantis vocatis!
 hic enim est legis index ut ei res in tertia decuria iudicent qui libere iudicare non audeant.
 in quo quantus error est, di immortales!
 eorum qui istam legem excogitaverunt!
@@ -127,7 +127,7 @@ quis est enim hodie cuius intersit istam legem manere?
 nemo reus est legibus illis, nemo quem futurum putemus.
 armis enim gesta numquam profecto in iudicium vocabuntur.
 'at res popularis.
-' vtinam quidem aliquid velletis esse populare!
+'vtinam quidem aliquid velletis esse populare!
 omnes enim iam cives de rei publicae salute una et mente et voce consentiunt.
 quae est igitur ista cupiditas legis eius ferendae quae turpitudinem sum- mam habeat, gratiam nullam?
 quid enim turpius quam qui maiestatem populi romani minuerit per vim, eum damnatum iudicio ad eam ipsam vim reverti propter quam sit iure damna- tus?
@@ -146,10 +146,10 @@ ac de his tamen legibus quae promulgatae sunt saltem queri possumus: de eis quae
 illae enim sine ulla promulgatione latae sunt ante quam scriptae.
 quaero autem quid sit cur aut ego aut quisquam vestrum, patres conscripti, bonis tribunis plebi leges malas metuat.
 paratos habemus qui intercedant; paratos qui rem publicam reli- gione defendant: vacui metu esse debemus.
-'quas tu mihi' inquit 'intercessiones, quas religiones?
-' eas scilicet quibus rei publicae salus continetur.
+'quas tu mihi'inquit 'intercessiones, quas religiones?
+'eas scilicet quibus rei publicae salus continetur.
 'neglegimus ista et nimis antiqua ac stulta ducimus: forum saepietur; omnes clau- dentur aditus; armati in praesidiis multis locis conloca- buntur.
-' quid tum?
+'quid tum?
 quod ita erit gestum, id lex erit?
 et in aes incidi iubebitis, credo, illa legitima:consules populum iure rogaverunthocine a maioribus accepimus ius rogandi?
 populusque iure scivit.
@@ -168,8 +168,8 @@ ego, si quid in vitam eius aut in mores cum contumelia dixero, quo minus mihi in
 armis utatur, si ita necesse est, ut dicit, sui defendendi causa: eis qui pro re publica quae ipsis visa erunt dixerint ista arma ne noceant.
 quid hac postulatione dici potest aequius?
 quod si, ut mihi a quibusdam eius familiaribus dictum est, omnis eum quae habetur contra voluntatem eius oratio graviter offendit, etiam si nulla inest contumelia, feremus amici naturam.
-sed idem illi ita mecum loquuntur: 'non idem tibi adversario caesaris licebit quod pisoni socero,' et simul admonent quiddam quod cavebimus: 'nec erit iustior in senatum non veniendi morbi causa quam mortis.
-' sed per deos immortalis!
+sed idem illi ita mecum loquuntur: 'non idem tibi adversario caesaris licebit quod pisoni socero,'et simul admonent quiddam quod cavebimus: 'nec erit iustior in senatum non veniendi morbi causa quam mortis.
+'sed per deos immortalis!
 te enim intuens, dola- bella, qui es mihi carissimus, non possum de utriusque ve- strum errore reticere.
 credo enim vos nobilis homines magna quaedam spectantis non pecuniam, ut quidam nimis creduli suspicantur, quae semper ab amplissimo quoque clarissimo- que contempta est, non opes violentas et populo romano minime ferendam potentiam, sed caritatem civium et gloriam concupivisse.
 est autem gloria laus recte factorum magno- rumque in rem publicam fama meritorum, quae cum optimi cuiusque, tum etiam multitudinis testimonio comprobatur.
@@ -201,7 +201,7 @@ atque utinam ut culpam, sic etiam suspicionem vitare potuisses!
 illud magis vereor ne ignorans verum iter gloriae gloriosum putes plus te unum posse quam omnis et metui a civibus tuis quam diligi malis.
 quod si ita putas, totam ignoras viam gloriae.
 carum esse civem, bene de re publica mereri, laudari, coli, diligi gloriosum est; metui vero et in odio esse invidiosum, detestabile, imbecillum, caducum.
-quod videmus etiam in fabula illi ipsi qui 'oderint, dum metuant' dixerit perniciosum fuisse.
+quod videmus etiam in fabula illi ipsi qui 'oderint, dum metuant'dixerit perniciosum fuisse.
 vtinam, m.
 antoni, avum tuum meminisses!
 de quo tamen audisti multa ex me eaque saepissime.

@@ -46,17 +46,17 @@ iam gelidas caesar cursu superauerat alpes ingentisque animo motus bellumque fut
 ut uentum est parui rubiconis ad undas, ingens uisa duci patriae trepidantis imago clara per obscuram uoltu maestissima noctem turrigero canos effundens uertice crines caesarie lacera nudisque adstare lacertis et gemitu permixta loqui: 'quo tenditis ultra?
 quo fertis mea signa, uiri?
 si iure uenitis, si ciues, huc usque licet.
-' tum perculit horror membra ducis, riguere comae gressumque coercens languor in extrema tenuit uestigia ripa.
+'tum perculit horror membra ducis, riguere comae gressumque coercens languor in extrema tenuit uestigia ripa.
 mox ait 'o magnae qui moenia prospicis urbis tarpeia de rupe tonans phrygiique penates gentis iuleae et rapti secreta quirini et residens celsa latiaris iuppiter alba vestalesque foci summique o numinis instar roma, faue coeptis.
 non te furialibus armis persequor: en, adsum uictor terraque marique caesar, ubique tuus (liceat modo, nunc quoque) miles.
 ille erit ille nocens, qui me tibi fecerit hostem.
-' inde moras soluit belli tumidumque per amnem signa tulit propere: sicut squalentibus aruis aestiferae libyes uiso leo comminus hoste subsedit dubius, totam dum colligit iram; mox, ubi se saeuae stimulauit uerbere caudae erexitque iubam et uasto graue murmur hiatu infremuit, tum torta leuis si lancea mauri haereat aut latum subeant uenabula pectus, per ferrum tanti securus uolneris exit.
+'inde moras soluit belli tumidumque per amnem signa tulit propere: sicut squalentibus aruis aestiferae libyes uiso leo comminus hoste subsedit dubius, totam dum colligit iram; mox, ubi se saeuae stimulauit uerbere caudae erexitque iubam et uasto graue murmur hiatu infremuit, tum torta leuis si lancea mauri haereat aut latum subeant uenabula pectus, per ferrum tanti securus uolneris exit.
 fonte cadit modico paruisque inpellitur undis puniceus rubicon, cum feruida canduit aestas, perque imas serpit ualles et gallica certus limes ab ausoniis disterminat arua colonis.
 tum uires praebebat hiemps atque auxerat undas tertia iam grauido pluuialis cynthia cornu et madidis euri resolutae flatibus alpes.
 primus in obliquum sonipes opponitur amnem excepturus aquas; molli tum cetera rumpit turba uado faciles iam fracti fluminis undas.
-caesar, ut aduersam superato gurgite ripam attigit, hesperiae uetitis et constitit aruis, 'hic' ait 'hic pacem temerataque iura relinquo; te, fortuna, sequor.
+caesar, ut aduersam superato gurgite ripam attigit, hesperiae uetitis et constitit aruis, 'hic'ait 'hic pacem temerataque iura relinquo; te, fortuna, sequor.
 procul hinc iam foedera sunto; credidimus satis , utendum est iudice bello.
-' sic fatus noctis tenebris rapit agmina ductor inpiger, et torto balearis uerbere fundae ocior et missa parthi post terga sagitta, uicinumque minax inuadit ariminum, et ignes solis lucifero fugiebant astra relicto.
+'sic fatus noctis tenebris rapit agmina ductor inpiger, et torto balearis uerbere fundae ocior et missa parthi post terga sagitta, uicinumque minax inuadit ariminum, et ignes solis lucifero fugiebant astra relicto.
 iamque dies primos belli uisura tumultus exoritur; sed sponte deum, seu turbidus auster inpulerat, maestam tenuerunt nubila lucem.
 constitit ut capto iussus deponere miles signa foro, stridor lituum clangorque tubarum non pia concinuit cum rauco classica cornu.
 rupta quies populi, stratisque excita iuuentus deripuit sacris adfixa penatibus arma quae pax longa dabat: nuda iam crate fluentis inuadunt clipeos curuataque cuspide pila et scabros nigrae morsu robiginis enses.
@@ -65,11 +65,11 @@ ut notae fulsere aquilae romanaque signa et celsus medio conspectus in agmine ca
 pax alta per omnes et tranquilla quies populos: nos praeda furentum primaque castra sumus.
 melius, fortuna, dedisses orbe sub eoo sedem gelidaque sub arcto errantisque domos, latii quam claustra tueri.
 nos primi senonum motus cimbrumque ruentem uidimus et martem libyes cursumque furoris teutonici: quotiens romam fortuna lacessit, hac iter est bellis.
-' gemitu sic quisque latenti, non ausus timuisse palam: uox nulla dolori credita, sed quantum, uolucres cum bruma coercet, rura silent, mediusque tacet sine murmure pontus, tanta quies.
+'gemitu sic quisque latenti, non ausus timuisse palam: uox nulla dolori credita, sed quantum, uolucres cum bruma coercet, rura silent, mediusque tacet sine murmure pontus, tanta quies.
 noctis gelidas lux soluerat umbras: ecce, faces belli dubiaeque in proelia menti urguentes addunt stimulos cunctasque pudoris rumpunt fata moras: iustos fortuna laborat esse ducis motus et causas inuenit armis.
 expulit ancipiti discordes urbe tribunos uicto iure minax iactatis curia gracchis.
 hos iam mota ducis uicinaque signa petentes audax uenali comitatur curio lingua, uox quondam populi libertatemque tueri ausus et armatos plebi miscere potentes.
-utque ducem uarias uoluentem pectore curas conspexit 'dum uoce tuae potuere iuuari, caesar,' ait 'partes, quamuis nolente senatu traximus imperium, tum cum mihi rostra tenere ius erat et dubios in te transferre quirites.
+utque ducem uarias uoluentem pectore curas conspexit 'dum uoce tuae potuere iuuari, caesar,'ait 'partes, quamuis nolente senatu traximus imperium, tum cum mihi rostra tenere ius erat et dubios in te transferre quirites.
 at postquam leges bello siluere coactae pellimur e patriis laribus patimurque uolentes exilium: tua nos faciet uictoria ciues.
 dum trepidant nullo firmatae robore partes, tolle moras: semper nocuit differre paratis.
 [par labor atque metus pretio maiore petuntur.
@@ -77,8 +77,8 @@ dum trepidant nullo firmatae robore partes, tolle moras: semper nocuit differre 
 facili si proelia pauca gesseris euentu, tibi roma subegerit orbem.
 nunc neque te longi remeantem pompa triumphi excipit aut sacras poscunt capitolia laurus: liuor edax tibi cuncta negat, gentesque subactas uix inpune feres.
 socerum depellere regno decretum genero est: partiri non potes orbem, solus habere potes.
-' sic postquam fatus, et ipsi in bellum prono tantum tamen addidit irae accenditque ducem, quantum clamore iuuatur eleus sonipes, quamuis iam carcere clauso inmineat foribus pronusque repagula laxet.
-conuocat armatos extemplo ad signa maniplos, utque satis trepidum turba coeunte tumultum conposuit uoltu dextraque silentia iussit 'bellorum o socii, qui mille pericula martis mecum' ait 'experti decimo iam uincitis anno, hoc cruor arctois meruit diffusus in aruis uolneraque et mortes hiemesque sub alpibus actae?
+'sic postquam fatus, et ipsi in bellum prono tantum tamen addidit irae accenditque ducem, quantum clamore iuuatur eleus sonipes, quamuis iam carcere clauso inmineat foribus pronusque repagula laxet.
+conuocat armatos extemplo ad signa maniplos, utque satis trepidum turba coeunte tumultum conposuit uoltu dextraque silentia iussit 'bellorum o socii, qui mille pericula martis mecum'ait 'experti decimo iam uincitis anno, hoc cruor arctois meruit diffusus in aruis uolneraque et mortes hiemesque sub alpibus actae?
 non secus ingenti bellorum roma tumultu concutitur, quam si poenus transcenderit alpes hannibal: inplentur ualidae tirone cohortes, in classem cadit omne nemus, terraque marique iussus caesar agi.
 quid, si mihi signa iacerent marte sub aduerso ruerentque in terga feroces gallorum populi?
 nunc, cum fortuna secundis mecum rebus agat superique ad summa uocantes, temptamur.
@@ -102,9 +102,9 @@ an melius fient piratae, magne, coloni?
 tollite iam pridem uictricia tollite signa: uiribus utendum est quas fecimus.
 arma tenenti omnia dat, qui iusta negat.
 nec numina derunt; nam neque praeda meis neque regnum quaeritur armis: detrahimus dominos urbi seruire paratae.
-' dixerat; at dubium non claro murmure uolgus secum incerta fremit.
+'dixerat; at dubium non claro murmure uolgus secum incerta fremit.
 pietas patriique penates quamquam caede feras mentes animosque tumentes frangunt; sed diro ferri reuocantur amore ductorisque metu.
-summi tum munera pili laelius emeritique gerens insignia doni, seruati ciuis referentem praemia quercum, 'si licet,' exclamat 'romani maxime rector nominis, et ius est ueras expromere uoces, quod tam lenta tuas tenuit patientia uires conquerimur.
+summi tum munera pili laelius emeritique gerens insignia doni, seruati ciuis referentem praemia quercum, 'si licet,'exclamat 'romani maxime rector nominis, et ius est ueras expromere uoces, quod tam lenta tuas tenuit patientia uires conquerimur.
 deratne tibi fiducia nostri?
 dum mouet haec calidus spirantia corpora sanguis et dum pila ualent fortes torquere lacerti, degenerem patiere togam regnumque senatus?
 usque adeo miserum est ciuili uincere bello?
@@ -112,7 +112,7 @@ duc age per scythiae populos, per inhospita syrtis litora, per calidas libyae si
 nec ciuis meus est, in quem tua classica, caesar, audiero.
 per signa decem felicia castris perque tuos iuro quocumque ex hoste triumphos, pectore si fratris gladium iuguloque parentis condere me iubeas plenaeque in uiscera partu coniugis, inuita peragam tamen omnia dextra; si spoliare deos ignemque inmittere templis, numina miscebit castrensis flamma monetae; castra super tusci si ponere thybridis undas, hesperios audax ueniam metator in agros.
 tu quoscumque uoles in planum effundere muros, his aries actus disperget saxa lacertis, illa licet, penitus tolli quam iusseris urbem, roma sit.
-' his cunctae simul adsensere cohortes elatasque alte, quaecumque ad bella uocaret, promisere manus.
+'his cunctae simul adsensere cohortes elatasque alte, quaecumque ad bella uocaret, promisere manus.
 it tantus ad aethera clamor, quantus, piniferae boreas cum thracius ossae rupibus incubuit, curuato robore pressae fit sonus aut rursus redeuntis in aethera siluae.
 caesar, ut acceptum tam prono milite bellum fataque ferre uidet, nequo languore moretur fortunam, sparsas per gallica rura cohortes euocat et romam motis petit undique signis.
 deseruere cauo tentoria fixa lemanno castraque quae vosegi curuam super ardua ripam pugnaces pictis cohibebant lingonas armis.
@@ -178,8 +178,8 @@ pars aegra et marcida pendet, pars micat et celeri uenas mouet inproba pulsu.
 his ubi concepit magnorum fata malorum exclamat 'uix fas, superi, quaecumque mouetis, prodere me populis; nec enim tibi, summe, litaui, iuppiter, hoc sacrum, caesique in pectora tauri inferni uenere dei.
 non fanda timemus, sed uenient maiora metu.
 di uisa secundent, et fibris sit nulla fides, sed conditor artis finxerit ista tages.
-' flexa sic omina tuscus inuoluens multaque tegens ambage canebat.
-at figulus, cui cura deos secretaque caeli nosse fuit, quem non stellarum aegyptia memphis aequaret uisu numerisque ntibus astra, 'aut hic errat' ait 'nulla cum lege per aeuum mundus et incerto discurrunt sidera motu, aut, si fata mouent, urbi generique paratur humano matura lues.
+'flexa sic omina tuscus inuoluens multaque tegens ambage canebat.
+at figulus, cui cura deos secretaque caeli nosse fuit, quem non stellarum aegyptia memphis aequaret uisu numerisque ntibus astra, 'aut hic errat'ait 'nulla cum lege per aeuum mundus et incerto discurrunt sidera motu, aut, si fata mouent, urbi generique paratur humano matura lues.
 terraene dehiscent subsidentque urbes, an tollet feruidus aer temperiem?
 segetes tellus infida negabit, omnis an infusis miscebitur unda uenenis?
 quod cladis genus, o superi, qua peste paratis saeuitiam?
@@ -194,7 +194,7 @@ inminet armorum rabies, ferrique potestas confundet ius omne manu, scelerique ne
 et superos quid prodest poscere finem?
 cum domino pax ista uenit.
 duc, roma, malorum continuam seriem clademque in tempora multa extrahe ciuili tantum iam libera bello.
-' terruerant satis haec pauidam praesagia plebem, sed maiora premunt.
+'terruerant satis haec pauidam praesagia plebem, sed maiora premunt.
 nam, qualis uertice pindi edonis ogygio decurrit plena lyaeo, talis et attonitam rapitur matrona per urbem uocibus his prodens urguentem pectora phoebum: 'quo feror, o paean?
 qua me super aethera raptam constituis terra?
 uideo pangaea niuosis cana iugis latosque haemi sub rupe philippos.
@@ -206,4 +206,4 @@ nunc desuper alpis nubiferae colles atque aeriam pyrenen abripimur.
 patriae sedes remeamus in urbis, inpiaque in medio peraguntur bella senatu.
 consurgunt partes iterum, totumque per orbem rursus eo.
 noua da mihi cernere litora ponti telluremque nouam: uidi iam, phoebe, philippos.
-' haec ait, et lasso iacuit deserta furore.
+'haec ait, et lasso iacuit deserta furore.

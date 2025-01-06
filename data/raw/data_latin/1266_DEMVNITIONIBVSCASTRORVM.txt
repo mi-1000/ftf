@@ -73,8 +73,8 @@ habet itaque cohors equitata miliaria equites ccxl, quod redigo ad peditem, ut p
 sic tractabimus numerum equitum; fit cxx, du- cemus quinquies: fit dc.
 accedit ex ea cohorte miliaria, detractis equitibus, reliquid peditum dcclx; fit cum superiore mille ccclx.
 memine- rimus itaque ad computationem cohortis equitatae miliariae pedaturam ad mccclx dari debeat.
-cohors equitata quingenaria in dimidio ean- dem rationem continet quam cohors .
-habet itaque cohors equitata miliaria centurias x peditum, equites ccxl, turmas, decuriones ; tendunt papilionibus cxxxvi, ex eo centuriones et decuriones singulis papilionibus utuntur.
+cohors equitata quingenaria in dimidio ean- dem rationem continet quam cohors.
+habet itaque cohors equitata miliaria centurias x peditum, equites ccxl, turmas, decuriones; tendunt papilionibus cxxxvi, ex eo centuriones et decuriones singulis papilionibus utuntur.
 cohors equitata quingenaria habet centurias vi, reliqua pro parte dimidia.
 cohors peditata miliaria habet centurias x, tendit papilionibus c, ex eis centuriones singulis.
 item peditata quingenaria habet centurias vi, re- liqua ut supra.
@@ -92,7 +92,7 @@ occupantur numero militum latere praetorii pedes ccccxx, praetorio pedes lx, sta
 nunc praetenturam ut componamus, nume- rum equitum alarium qui sunt reliqui computemus.
 fiuntiiii, partis dimidiaeii.
 accipere debet ala miliaria signis pedes cl, tabulino pedes dc.
-hac ratione pedes cl efficiunt hemistrigia .
+hac ratione pedes cl efficiunt hemistrigia.
 accipit eques iii pedes in longitudine pedum dc; sumo partem tertiam ut habeam equitum numerum qui in ea longitudine tendet: fit cc; erit hemistrigii unius; et nunc hemistrigia ducimus v: quinquies cc fit m: alae miliariae pedatura.
 reliquum autem numerum, sicut retenturam, computemus ut sciamus similiter quot hemistrigia nascantur.
 fit numerus, cum pedatura ualetudinarii, ueterinarii et fabricae quae in unum ad dc ho- mines computantur,viii.

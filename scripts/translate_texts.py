@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 client = OpenAI(
-    api_key = "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",
+    api_key = "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",
 )
     # api_key = os.environ.get("OPENAI_API_KEY"),
 
@@ -73,7 +73,7 @@ def process_folder(folder_path):
                 print(f"Processing file: {file_name}")
 
                 # Split text into chunks if needed
-                max_tokens = 1000
+                max_tokens = 50000
                 chunks = split_text_into_chunks(text_to_translate, max_tokens)
 
                 print(f"Text split into {len(chunks)} chunk(s).")
@@ -102,5 +102,5 @@ def process_folder(folder_path):
                     print(f"Échec de la traduction pour le fichier : {file_name}")
 
 print("start process...")
-folder_path = 'C:/Bureau/Master/S7/project/ftf/data/raw/data_old_french/done/'
+folder_path = 'C:/Bureau/Master/S7/project/ftf/data/raw/data_old_french/translated/'
 process_folder(folder_path)

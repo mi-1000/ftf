@@ -1,5 +1,5 @@
 ÉGISTHE
-Eh bien alors, où sont ces hommes ? Répondsmoi !
+Eh bien alors, où sont ces hommes ? Répondsmoi.
 ÉLECTRE
 Au palais. Et leur accueil fut des plus exquis...
 ÉGISTHE
@@ -7,16 +7,16 @@ C'est donc certain, sa mort a été proclamée.
 ÉLECTRE
 Ils nous l'ont montré, pas seulement avec des mots.
 ÉGISTHE
-C'est vrai ? Je peux de mes propres yeux le voir ?
+C'est vrai ? Je peux de mes propres yeux le voir.
 ÉLECTRE
-Tout à fait, il est là ! Mais quel triste spectacle !
+Tout à fait, il est là ! Mais quel triste spectacle.
 ÉGISTHE
-Pour une fois que tu me causes de la joie !
+Pour une fois que tu me causes de la joie.
 ÉLECTRE
-Réjouistoi à ton gré, s'il y a de quoi !
+Réjouistoi à ton gré, s'il y a de quoi.
 ÉGISTHE
 J'ordonne qu'on se taise et qu'on ouvre les portes
-Aux Mycéniens et aux Argiens : qu'ils voient cela !
+Aux Mycéniens et aux Argiens : qu'ils voient cela.
 Et si l'un d'eux jadis fondait sur ce garçon
 Quelques espoirs biens vains, qu'il renonce en ce jour
 À la vue de ce corps, qu'il se soumette enfin
@@ -33,29 +33,29 @@ Est un merveilleux coup du sort ! Mais si le mot
 Est trop fort, je me tais. Enlevezmoi ce voile
 Qui cache son visage : il faut que ce parent
 Reçoive néanmoins l'hommage de mes larmes.
-Enlèvele, toi, ce n'est pas mon affaire :
+Enlèvele, toi, ce n'est pas mon affaire.
 C'est à toi de voir et d'honorer ce corps.
 ÉGISTHE
 Ton conseil est judicieux, je vais le suivre.
-Toi, fais venir Clytemnestre, estelle au palais ?
-Elle est tout près de toi, ne cherche pas plus loin !
+Toi, fais venir Clytemnestre, estelle au palais.
+Elle est tout près de toi, ne cherche pas plus loin.
 {Égisthe lève le voile.}
 ÉGISTHE
-Mais que voisje ?
-Elle t'effraie ? La reconnaistu ?
+Mais que voisje.
+Elle t'effraie ? La reconnaistu.
 ÉGISTHE
-Dans quel piège suisje tombé ? Malheur à moi !
+Dans quel piège suisje tombé ? Malheur à moi.
 N'astu pas deviné que depuis un moment,
-Tu parles à un vivant et non à un mort ?
+Tu parles à un vivant et non à un mort.
 ÉGISTHE
 L'énigme s'éclaire : il s'agit de toi, Oreste.
-Pour un si grand devin, tu t'es trompé longtemps !
+Pour un si grand devin, tu t'es trompé longtemps.
 ÉGISTHE
-Malheur ! je suis perdu ! Encore un mot pourtant !
+Malheur ! je suis perdu ! Encore un mot pourtant.
 ÉLECTRE
 Par les dieux, mon frère, abrège son discours.
 Quand un pareil mortel, enlisé d'infamies,
-Va mourir, à quoi bon lui offrir un délai ?
+Va mourir, à quoi bon lui offrir un délai.
 Tuele vite ! Ensuite, jettele moi en pâture
 À ces seuls fossoyeurs qui soient dignes de lui.
 Qu'on ne le revoie plus  ! Oui, ce n'est qu'à ce prix
@@ -65,22 +65,22 @@ Ce n'est plus de parler, mais de t'éliminer.
 ÉGISTHE
 Pourquoi dans ce palais ? Un noble exploit
 Ne doit pas être accompli au cœur des ténèbres.
-On dirait que ta main hésite à me tuer ?
-Suffit ! tu n'as plus d'ordre à donner, viens par là !
+On dirait que ta main hésite à me tuer.
+Suffit ! tu n'as plus d'ordre à donner, viens par là.
 Tu dois expier au même endroit que mon père.
 ÉGISTHE
 Devrastu ajouter aux malheurs des enfants
-De Pélops, un nouveau crime encore ?
-Oui, le tien !
-Et pour toi, ma prophétie est irrésistible !
+De Pélops, un nouveau crime encore.
+Oui, le tien.
+Et pour toi, ma prophétie est irrésistible.
 ÉGISTHE
 Tu t'arroges un art que ton père ignorait.
 Tu répliques sans cesse et tu traînes en route.
 ÉGISTHE
 Conduismoi.
-Passe devant !
+Passe devant.
 ÉGISTHE
-Crainstu ma fuite ?
+Crainstu ma fuite.
 Non, mais je ne veux pas que tu meures selon
 Tes désirs. Car ta mort se doit d'être sinistre.
 À ceux qui violent la loi, une justice

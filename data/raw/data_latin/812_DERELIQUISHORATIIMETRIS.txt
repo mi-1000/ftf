@@ -28,7 +28,7 @@ exemplum subieci 'aut ephesum bimarisve corinthi': sic, 'flumina constiterint et
 nam sive praeposueris duos dactylos pedes sive subieceris, hexametrus herous est: praepositis pedibus sic, 'praecipitataque flumina constiterint  acuto', subiectis pedibus sic, 'flumina constiterint et acuto frigoris ictu'.
 sed detrahitur epodo syllaba, ut fiat conveniens clausula sic, 'flumina con- stiterint acuto'.
 archebuleo quoque metro si detraxeris primum pedem, qui est anapaestus aut spondeus, et proximas ei duas breves, id est semipedem, reliquum erit par huic clausulae.
-sic autem divides, 'neque nubila nec veteres agitantur orni: / ' par est huic, 'flumina constiterint acuto'.
+sic autem divides, 'neque nubila nec veteres agitantur orni: / 'par est huic, 'flumina constiterint acuto'.
 hoc quoque carminis genus ab alcaeo lyricus noster accepit.
 quartum metron est horatii, de quo nihil adhuc diximus, 'lydia, dic per omnes / te deos oro, sybarim cur properas amando'.
 quod metron et ipse horatius ignorando quale esset laboriosa obser- vatione semel omnino facere conatus est, et in eo tamen parum decenter erravit.

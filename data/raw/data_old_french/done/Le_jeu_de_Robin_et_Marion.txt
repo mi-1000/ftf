@@ -6,17 +6,17 @@ BAUDON , jeune paysan , cousin de Robin .
 HUART , jeune paysan , ami de Robin .
 PERONNELLE , jeune bergère , amie de Marion .
 DEUX CORNEURS .
-LI JUS DE ROBIN ET MARION MARIONS Robins m'aime , Robins m'a ; Robins m'a demandee , si m'ara .
+LI JUS DE ROBIN ET MARION MARIONS Robins m'aime , Robins m'a; Robins m'a demandee , si m'ara .
 Robins m'acata cotele D'escarlate boine et bele , Souskanie et chainturele .
 A leur i va !
-Robins m'aime , Robins m'a ; Robins m'a demandee , si m'ara .
+Robins m'aime , Robins m'a; Robins m'a demandee , si m'ara .
 LI CHEVALIERS Je me repairoie du tournoiement , Si trouvai Marote seulete , au cors gent .
 MARIONS Hé !
 Robin , se tu m'aimes , Par amour , maine m'ent .
 LI CHEVALIERS Bergiere , Dieus vous doinst boin jour !
 MARIONS Dieus vous wart , sire LI CHEVALIERS Par amour , Douche puchele , or me contés Pour coi cheste canchon cantés Si volentiers et si souvent : Hé !
 Robin , se tu m'aimes , Par amour , maine m'eut .
-MARIONS Biaus sire , il i a bien pour coi ; Car j'ain Robinet , et il moi , Et bien m'a moustré qu'il m'a kiere : Donné m'a cheste panetiere , Cheste houlete et chest coutel .
+MARIONS Biaus sire , il i a bien pour coi; Car j'ain Robinet , et il moi , Et bien m'a moustré qu'il m'a kiere : Donné m'a cheste panetiere , Cheste houlete et chest coutel .
 LI CHEVALIERS Di moi , veïs tu nul oisel Voler par deseure ches cans ?
 MARIONS Sire , oie , je ne sai pas quans .
 Encore i a en ches buissons Et cardonnereus et pinchons , Qui mout cantent joliement .
@@ -28,7 +28,7 @@ Est che chou que vous demandés ?
 LI CHEVALIERS Or sui je mout bien assenés !
 Di moi : veïs tu nul hairon ?
 MARIONS Herens , sire ?
-Par me foi , non ; Je n'en vi nis un puis quaresme , Que j'en vi mengier chiés dame Emme , Me taien , cui sont ches brebis .
+Par me foi , non; Je n'en vi nis un puis quaresme , Que j'en vi mengier chiés dame Emme , Me taien , cui sont ches brebis .
 LI CHEVALIERS Par foi , or sui jou esbaubis , N'ainc mais je ne fui si gabés .
 MARIONS Sire , foi que vous me devés , Quele beste est che seur vo main ?
 LI CHEVALIERS Ch'est uns faucons .
@@ -39,7 +39,7 @@ Eswar !
 Ele a de cuir le teste !
 Et ou alés vous ?
 LI CHEVALIERS En riviere .
-MARIONS Robins n'est pas de tel maniere ; En lui a trop plus de deduit .
+MARIONS Robins n'est pas de tel maniere; En lui a trop plus de deduit .
 A no vile esmuet tout le bruit Quant il jue de se musete .
 LI CHEVALIERS Or dites , douche bergerete , Ameriés vous un chevalier ?
 MARIONS Biaus sire , traiés vous arrier .
@@ -86,14 +86,14 @@ Tien .
 MARIONS Robin , je te connuc trop bien Au canter , si con tu venoies .
 Et tu ne me reconnissoies ?
 ROBINS Si tis , au cant et as brebis .
-MARIONS Robin , tu ne sés , dous amis , Et si ne le tien mie a mal : Ichi fu uns hons a keval , Qui avoit cauchie une moufle , Et portoit aussi c'un escoufle Seur sen poing , et trop me pria D'amer ; mais poi i conquesta , Car je ne te ferai nul tort .
+MARIONS Robin , tu ne sés , dous amis , Et si ne le tien mie a mal : Ichi fu uns hons a keval , Qui avoit cauchie une moufle , Et portoit aussi c'un escoufle Seur sen poing , et trop me pria D'amer; mais poi i conquesta , Car je ne te ferai nul tort .
 ROBINS Marote , tu m 'aroies mort .
 Mais se j'i fusse a tans venus , Ne jou ne Gautiers Li Testus , Ne Baudons , mes cousins germains , Diavle i eüssent mis les mains .
 Ja n'en fust partis sans bataille .
 MARIONS Robin , dous amis , ne te caille , Mais or faisons feste de nous .
 ROBINS Serai je drois ou a genous ?
 MARIONS Mais vien cha seïr delés moi .
-Si mengerons ROBINS Et je l'otroi ; Je serrai chi lés ten costé , Mais je ne t'ai riens aporté ; Si ai fait chertes grant outraige , MARIONS Ne t'en caut , Robin , encore ai je Du froumage chi en men sain , Et une grant pieche de pain , Et des pumes que m'aportas .
+Si mengerons ROBINS Et je l'otroi; Je serrai chi lés ten costé , Mais je ne t'ai riens aporté; Si ai fait chertes grant outraige , MARIONS Ne t'en caut , Robin , encore ai je Du froumage chi en men sain , Et une grant pieche de pain , Et des pumes que m'aportas .
 ROBINS Dieus !
 con chis froumages est cras !
 Me suer , menjüe .
@@ -175,7 +175,7 @@ Et s'averés pain de fourment , Boin froumage et clere fontaine .
 BAUDONS Hé !
 biaus cousins , car nous i maine .
 ROBINS Mais vous doi irés chele part , Et je m'en irai pour Huart Et Peronnele .
-BAUDONS Va dont , va , Et nous en irons par decha , Vers le voie devers le Piere ; S'aporterai me fourke fiere .
+BAUDONS Va dont , va , Et nous en irons par decha , Vers le voie devers le Piere; S'aporterai me fourke fiere .
 GAUTIERS Et je , men gros baston d'espine , Qui est chiés Bourguet me cousine .
 ROBINS Hé !
 Peronnele !
@@ -183,9 +183,9 @@ Peronnele !
 PERONNELE Robin , es tu chou ?
 Quel nouvele ?
 ROBINS Tu ne sés ?
-Marote te mande ; Et s'averons feste trop grande .
+Marote te mande; Et s'averons feste trop grande .
 PERONNELE Et qui i sera ?
-ROBINS Jou et tu ; Et s'arons Gautier Le Testu , Baudon et Huart et Marote .
+ROBINS Jou et tu; Et s'arons Gautier Le Testu , Baudon et Huart et Marote .
 PERONNELE Vestirai je me bele cote ?
 ROBINS Nenil , Perrete , nenil nient , Car chis jupiaus trop bien t'avient .
 Or te haste , je vois devant .
@@ -193,7 +193,7 @@ PERONNELE Va , je te sivrai maintenant , Se j'avoie mes aigniaus tous .
 LI CHEVALIERS Dites , bergiere , n'estes vous Chele que je vi hui matin ?
 MARIONS Pour Dieu , sire , alés vo kemin , Si ferés trop grant courtoisie .
 LI CHEVALIERS Chertes , bele trés douche amie , Je ne le di mie pour mal , Mais je vois querant chi aval Un oisel a une sonnete .
-MARIONS Alés selonc chele haiete , Je croi que vous l'i trouverés ; Tout maintenant i est volés .
+MARIONS Alés selonc chele haiete , Je croi que vous l'i trouverés; Tout maintenant i est volés .
 LI CHEVALIERS Est , par amour ?
 MARIONS Oïl , sans faille .
 LI CHEVALIERS Chertes , de l'oisel poi me caille , S'une si bele amie avoie .
@@ -203,10 +203,10 @@ MARIONS Chertes , pour Robechon .
 LI CHEVALIERS Pour lui ?
 MARIONS Voire , s'il le savoit , Jamais nul jour ne m'ameroit , Ne je n'ain riens tant comme lui .
 LI CHEVALIERS Vous n'avés warde de nului , Se vous volés a moi entendre .
-MARIONS Sire , vous nous ferés sousprendre ; Alés vous ent , laissiés m'ester , Car je n'ai a vous que parler .
+MARIONS Sire , vous nous ferés sousprendre; Alés vous ent , laissiés m'ester , Car je n'ai a vous que parler .
 Laissiés m'entendre a mes brebis .
 LI CHEVALIERS Voirement , sui je bien caitis Quant je met le mien sens au tien !
-MARIONS Si en alés , si ferés bien ; Aussi oi je chi venir gent .
+MARIONS Si en alés , si ferés bien; Aussi oi je chi venir gent .
 J'oi Robin flajoler au flajol d'argent , Au flajol d'argent .
 Pour Dieu , sire , or vous en alés !
 LI CHEVALIERS Bergerete , a Dieu remanés : Autre forche ne vous ferai .
@@ -225,7 +225,7 @@ LI CHEVALIERS Fais tu noise ?
 Tien che tatin .
 MARIONS Sainte Marie !
 J'oi Robin !
-Je croi que il soit entrepris ; Anchois perdroie mes brebis Que je ne li alasse aidier !
+Je croi que il soit entrepris; Anchois perdroie mes brebis Que je ne li alasse aidier !
 Lasse !
 Je voi le chevalier !
 Je croi que pour moi l'ait batu .
@@ -255,15 +255,15 @@ Ch'est uns chevaliers hors du sens .
 Si a une si grant espee !
 Ore me donna tel colee Que je le sentirai grant tans .
 GAUTIERS Se j'i fusse venus a tans , Il i eüst eü merlee .
-ROBINS Or eswardons leur destinee , Par amour , si nous embuissons Tout troi derriere ches buissons ; Car je voeil Marion sekeure , Se vous le m'aidiés a reskeure .
+ROBINS Or eswardons leur destinee , Par amour , si nous embuissons Tout troi derriere ches buissons; Car je voeil Marion sekeure , Se vous le m'aidiés a reskeure .
 Li cuers m'est un poi revenus .
 MARIONS Biaus sire , traiés vous ensus De moi , si ferés grant savoir .
 LI CHEVALIERS Demisele , non ferai voir , Ains vous en menrai avoec moi , Et si arés je sai bien coi .
 Ne soiés envers moi si fiere , Prendés chest oisel de riviere , Que j'ai pris , si en mengeras .
-MARIONS J'ai plus kier men froumage cras , Et men pain et mes boines pumes Que vostre oisel a tout les plumes ; Ne de riens ne me poés plaire .
+MARIONS J'ai plus kier men froumage cras , Et men pain et mes boines pumes Que vostre oisel a tout les plumes; Ne de riens ne me poés plaire .
 LI CHEVALIERS Qu'est che ?
 Ne porrai je dont faire Cose qui te viegne a talent ?
-MARIONS Sire , sachiés chertainement Que nenil ; riens ne vous i vaut .
+MARIONS Sire , sachiés chertainement Que nenil; riens ne vous i vaut .
 LI CHEVALIERS Bergerete , et Dieus vous consaut !
 Chertes , voirement sui je beste Quant a cheste beste m'areste !
 A Dieu , bergiere .
@@ -292,7 +292,7 @@ Que tu ne sés par quel engien Je m'escapai .
 ROBINS Je le sai bien , Nous veïsmes tout ten couvin .
 Demande Baudon , men cousin , Et Gautier , quant t'en vi partir , S'il orent en moi que tenir .
 Trois fois leur escapai tous deus .
-GAUTIERS Robin , tu es trop courageus ; Mais , quant li cose est bien alee , De legier doit estre ouvliee , Ne nus n'i doit après entendre .
+GAUTIERS Robin , tu es trop courageus; Mais , quant li cose est bien alee , De legier doit estre ouvliee , Ne nus n'i doit après entendre .
 ROBINS Il nous couvient Huart atendre Et Peronnele , qui venront .
 O !
 vés les chi .
@@ -322,7 +322,7 @@ BAUDONS Ch'est bien fait .
 Gautier , offrés premierement .
 GAUTIERS Tenés , sains Coisnes , che present , Et , se vous en avés petit , Tenés .
 ROBINS Ho !
-Il le doit ; il rit .
+Il le doit; il rit .
 GAUTIERS Chertes , ch'est drois .
 HUARS Marote , or sus .
 MARIONS Qui le doit ?
@@ -366,7 +366,7 @@ Or ne vous aviegne ja mais !
 GAUTIERS Je le lairai pour avoir pais .
 BAUDONS Or faisons un ju .
 HUARS Quel veus tu ?
-BAUDONS Je voeil , o Gautier Le Testu , Jüer as Rois et as Roïnes ; Et je ferai demandes fines Se vous me volés faire roi .
+BAUDONS Je voeil , o Gautier Le Testu , Jüer as Rois et as Roïnes; Et je ferai demandes fines Se vous me volés faire roi .
 HUARS Nenil , sire , foi que vous doi , Ains ira au nombre des mains .
 GAUTIERS Chertes , tu dis bien , biaus compains , Et chius qui kiét en dis soit rois .
 HUARS Ch'est bien de nous tous li otrois .
@@ -402,14 +402,14 @@ GAUTIERS Volentiers , sire .
 Commandés Tel cose que je puisse faire , Et qui ne soit a moi contraire : Je le ferai tantost pour vous .
 LI ROIS Di moi , fus tu onques jalous ?
 Et puis s'apelerai Robin .
-GAUTIERS Oie , sire , pour un mastin , Que j'oï hurter , l'autre fie , A l'uis de le cambre m'amie ; Si en souspechonnai un homme .
+GAUTIERS Oie , sire , pour un mastin , Que j'oï hurter , l'autre fie , A l'uis de le cambre m'amie; Si en souspechonnai un homme .
 LI ROIS Or sus , Robin .
 ROBINS Rois , walekomme .
 Demande moi chou qu'il te plaist .
 LI ROIS Robin , quant une beste naist , A coi sés tu qu'ele est femele ?
 ROBINS Cheste demande est boine et bele !
 LI ROIS Dont i respon .
-ROBINS Non ferai voir ; Mais se vous le volés savoir , Sire rois , au cul li wardés .
+ROBINS Non ferai voir; Mais se vous le volés savoir , Sire rois , au cul li wardés .
 El de moi vous n'en porterés .
 Me cuidiés vous chi faire honte ?
 MARIONS Il a droit , voir .
@@ -422,7 +422,7 @@ Va , s'acole dont Marion Si douchement que il li plaise .
 MARIONS Eswar dou sot , s'il ne me baise .
 ROBINS Chertes , non fach .
 MARIONS Vous i mentés .
-Encore i pert il ; eswardés , Je cuit que mors m'a ou visage .
+Encore i pert il; eswardés , Je cuit que mors m'a ou visage .
 ROBINS Je cuidai tenir un froumage , Si te senti je tenre et mole .
 Vien avant , suer , et si m'acole , Par pais faisant .
 MARIONS Va , diavle , sos !
@@ -462,7 +462,7 @@ Je voeil qu'il soit de tous seü .
 GAUTIERS Marote , il t'est trop meskeü !
 Li leus emporte une brebis !
 MARIONS Robin , keur i tost , dous amis , Anchois que li leus le menjüe .
-ROBINS Gautier , prestés moi vo machue ; Si verrés ja bacheler preu .
+ROBINS Gautier , prestés moi vo machue; Si verrés ja bacheler preu .
 Hareu !
 le leu !
 le leu !
@@ -475,12 +475,12 @@ Comme ele revient dolereuse !
 ROBINS Mais eswar comme ele est croteuse .
 MARIONS Et comment tiens tu chele beste ?
 Ele a le cul devers le teste .
-ROBINS Ne puet caloir ; che fu de haste , Quant je le pris .
+ROBINS Ne puet caloir; che fu de haste , Quant je le pris .
 Marote , or taste Par ou li leus l'avoit aierse .
 GAUTIERS Mais eswar comme ele est chi perse .
 MARIONS Gautier , que vous estes vilains !
-ROBINS Marote , tenés l'en vos mains ; Mais wardés bien que ne vous morde .
-MARIONS Non ferai , car ele est trop orde ; Mais laissiés l'aler pasturer .
+ROBINS Marote , tenés l'en vos mains; Mais wardés bien que ne vous morde .
+MARIONS Non ferai , car ele est trop orde; Mais laissiés l'aler pasturer .
 BAUDONS Sés tu de coi je voeil parler , Robin ?
 Se tu aimes autant Marotain con tu fais sanlant , Saches je le te loueroie A prendre , se Gautiers l'otroie .
 GAUTIERS Il m'est bel .
@@ -501,14 +501,14 @@ BAUDONS A moi ou a Gautier .
 HUARS Mais a moi , trés douche Perrete .
 GAUTIERS Voire , sire , pour vo musete ?
 Tu n'as ou monde plus vaillant .
-Mais j'ai au mains ronchi traiant , Boin harnas , et herche , et carue , Et si sui sires de no rue ; S'ai houche et sercot tout d'un drap ; Et s'a me mere un boin hanap , Qui m'eskerra s'ele mouroit , Et une rente c'on li doit De grain seur un molin a vent , Et une vake qui nous rent Le jour assés lait et froumage : N'a il en moi boin mariage , Dites , Perrete ?
-PERONNELE Oïl , Gautier ; Mais je n'oseroie acointier Nului , pour men frere Guiot , 652 Car vous et il estes doi sot , S'en porroit tost venir bataille .
+Mais j'ai au mains ronchi traiant , Boin harnas , et herche , et carue , Et si sui sires de no rue; S'ai houche et sercot tout d'un drap; Et s'a me mere un boin hanap , Qui m'eskerra s'ele mouroit , Et une rente c'on li doit De grain seur un molin a vent , Et une vake qui nous rent Le jour assés lait et froumage : N'a il en moi boin mariage , Dites , Perrete ?
+PERONNELE Oïl , Gautier; Mais je n'oseroie acointier Nului , pour men frere Guiot , 652 Car vous et il estes doi sot , S'en porroit tost venir bataille .
 GAUTIERS Se tu ne me veus , ne m'en caille .
 Entendons a ches autres noches .
 HUARS Di moi , c'as tu chi en ches boches ?
 PERONNELE Il i a pain , sel et cresson .
 Et tu , as tu riens , Marion ?
-MARIONS Naie , voir ; demande Robin , Fors du froumage d'ui matin , Et du pain qui nous demoura , Et des pumes qu'il m'aporta .
+MARIONS Naie , voir; demande Robin , Fors du froumage d'ui matin , Et du pain qui nous demoura , Et des pumes qu'il m'aporta .
 Vés ent chi , se vous en volés .
 GAUTIERS Et qui veut deus gambons salés ?
 HUARS Ou sont il ?
@@ -530,15 +530,15 @@ MARIONS Oie , en non Dieu .
 ROBINS Et je te di Que jou ai un tel capon Qui a gros et cras crepon , Que nous mengerons , Marote , Bec a bec , et moi et vous .
 Chi me ratendés , Marote , Chi venrai parler a vous .
 MARIONS Robin , revien dont tost a nous .
-ROBINS Me douche amie , volentiers ; Et vous , mengiés endementiers Que j'irai , si ferés que sage .
+ROBINS Me douche amie , volentiers; Et vous , mengiés endementiers Que j'irai , si ferés que sage .
 MARIONS Robin , nous feriemmes outrage .
 Saches que je te voeil atendre .
 ROBINS Non feras , mais fai chi estendre Ten jupel en lieu de touaille , Et si metés sus vo vitaille , Car je revenrai maintenant .
 MARIONS Met ten jupel , Perrete , avant , Aussi est il plus blans du mien .
-PERONNELE Chertes , Marot , je le voeil bien , Puis que vo volentés i est ; Tenés , vés le chi trestout prest , Estendés l'ou vous le volés .
+PERONNELE Chertes , Marot , je le voeil bien , Puis que vo volentés i est; Tenés , vés le chi trestout prest , Estendés l'ou vous le volés .
 HUARS Or cha , biau seigneur , aportés , S'il vous plaist vo viande cha .
 PERONNELE Eswar , Marote , je voi la , Che me sanle , Robin venant .
-MARIONS Ch'est mon ; et si vient tout balant .
+MARIONS Ch'est mon; et si vient tout balant .
 Que te saule ?
 Est il boins caitis ?
 PERONNELE Chertes , Marot , il est faitis , Et de faire a ten gré se paine .
@@ -592,8 +592,8 @@ ROBINS Hé !
 Dieus !
 que tu me fais de paine !
 MARIONS Or fai , dous amis , je t'acole .
-ROBINS Et tu verras passer d'escole , Pour chou que tu m'as acolé ; Mais nous arons anchois balé Entre nous deus , qui bien balons .
-MARIONS Soit , puis qu'il te plaist ; or alons Et si tien le main au costé .
+ROBINS Et tu verras passer d'escole , Pour chou que tu m'as acolé; Mais nous arons anchois balé Entre nous deus , qui bien balons .
+MARIONS Soit , puis qu'il te plaist; or alons Et si tien le main au costé .
 Dieus !
 Robin , que ch'est bien balé !
 ROBINS Est che bien balé , Marotele ?

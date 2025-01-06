@@ -49,7 +49,7 @@ Li a un sien enfant porté,
 Que li die ce qu'il en sent,
 Se porroit viure longement.
 Et cil li dit tout sans envie :
-« Gart bien qu' il ne se voie mie !
+« Gart bien qu'il ne se voie mie !
 Cele l'entent, qui pas nel croit.
 Gabant s'en torne, si dist bien
 Que sa parole ne vaut rien.
@@ -68,7 +68,7 @@ Car tant i mist de la biauté
 Q'onques ne pot rien porpenser
 K'iloeuques ne vausist mostrer.
 Primes a fait les ex rians,
-Sinples et vairs, clers et luisans ;
+Sinples et vairs, clers et luisans;
 Mais estre tot çou qu'el i fist,
 Li dex d'amors du sien i mist :
 Il li asist un doç regart,
@@ -77,7 +77,7 @@ Puis fist le nés, et puis la face,
 Clere plus que cristaus ne glace.
 Les dens fist blances conme nois,
 Puis les aorne trois a trois.
-Quant ot par li cascun' asise,
+Quant ot par li cascun'asise,
 Les levres joint en itel guise
 C'un poi i laisa d'ouverture,
 Tout par raison et par droiture.
@@ -99,7 +99,7 @@ Et par la face qu'il ot tainte,
 Une color qui pas n'est fainte,
 Ki ne cange ne ne se muet :
 Tant ne fait bel ne tant ne pleut,
-Ne se desfait en nule fin ;
+Ne se desfait en nule fin;
 Tes est au soir com au matin,
 Mesleement blance et vermeille.
 Amors meïsme s'en merveille
@@ -118,7 +118,7 @@ Ne n'en poeut pas son cœur torner.
 D'amer n'a soing ne rien n'en set,
 Dames en canbres fuit et het.
 Par aventure ert repairiés
-De bois, tous mas et traveilliés ;
+De bois, tous mas et traveilliés;
 De corre estoit tous escaufés,
 S'en ert creüe sa biautés,
 Si ot plus fresce la color.
@@ -130,9 +130,9 @@ En tote Tebles n'ot si bele.
 Ele coisist le damoisel,
 Voit le si fier, si gent, si bel,
 Graisle par flans, espés par pis,
-Les bras bien fais, auques fornis ;
+Les bras bien fais, auques fornis;
 Lons et grailes avoit les dois
-Et les jambes et les piés drois ;
+Et les jambes et les piés drois;
 Voit le ceval qui se desroie
 Et fait fremir toute la voie.
 De tout çou qu'ele li voit faire
@@ -146,7 +146,7 @@ Si est en .I. pensé volage,
 Amors esgarde cele part,
 Voit la douter, si lance un dart.
 La pucele se sent ferue,
-Tot maintenant s'est esperdue ;
+Tot maintenant s'est esperdue;
 Ele caï tote pasmee,
 A painne s'en est relevee.
 Sa main touce par tot son cors,
@@ -258,12 +258,12 @@ Amors n'i garde droit ne tort.
 Ceste Dané, fille le roi,
 A il ja si traite vers soi,
 Ne set dont est, de quel parage,
-Ne ne tient pas son fol corage ;
+Ne ne tient pas son fol corage;
 Cuide bien soit quanqu'ele fait.
 E, Dix ! com a empris fol plait !
 Ele a la cambre desfremee,
 Par un guicet s'en est enblee
-Et vait si com cemins li dure ;
+Et vait si com cemins li dure;
 De qu'a .I. bos ne s'aseüre,
 Qui pres estoit de la cité,
 Car ele avoit bien esgardé,
@@ -371,8 +371,8 @@ Ne sone mot, ançois se taist,
 Car il crient, s'ele l'ot parler,
 Que n'i voille plus demorer,
 Mes mout esgarde viseument
-Le vis, le cors, que voit si gent ;
-Loe les ex, les mains, les dois ;
+Le vis, le cors, que voit si gent;
+Loe les ex, les mains, les dois;
 Mout est angouseus et destrois.
 Ne set qu'il voit, l'iaue li ment :
 Il se loe, si ne l'entent.
@@ -417,7 +417,7 @@ Si voit que prendre ne la pueut,
 Et mout est pres, si ne se muet,
 Ensi li fuit, si le deçoit,
 Et quide que fantosmes soit.
-Un poi est en son sen venus ;
+Un poi est en son sen venus;
 Lors counoist qu'il est deceüs,
 Et voit que c'est unbres qu'il ainme.
 Mout par se blasme et fol se clainme,
@@ -446,7 +446,7 @@ Car parler veut, mais il ne pot.
 La fontaine li mostre au doit
 Et l'onbre qui si le deçoit.
 Les bras li tent, les levres muet,
-Les ex ovre si com il puet ;
+Les ex ovre si com il puet;
 Sanblant li fait que se repent.
 Ele l'esgarde, bien l'entent,
 Vers lui se trait et mot ne dit.
@@ -463,4 +463,4 @@ Du cors se fait l'ame partir.
 Ç'a fait Amor qui l'a souprise.
 Andui sont mort en itel guise.
 Or s'i gardent tuit autre amant
-Qu' il ne muirent en tel sanblant !
+Qu'il ne muirent en tel sanblant !

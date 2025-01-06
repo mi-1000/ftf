@@ -149,14 +149,14 @@ planarum autem et rectis lineis comprehensarum aliae sunt trilaterae, aliae quad
 trilatera forma est quae tribus rectis lineis continetur.
 trilatera- rum formarum et ex rectis lineis comprehensarum species sunt quattuor.
 una qua rectus angulus continetur, et ef- ficit triangulum recto angulo, quod graeci orthogonion appellant.
-plurilatera forma est quae plus quam quattuor rectis li- neis sub qualicumque specie continetur .
+plurilatera forma est quae plus quam quattuor rectis li- neis sub qualicumque specie continetur.
 quinque, quam formam graeci pentagonon appellant.
 amplioribus quoque formis apud graecos nomina ab angulis dantur, ut hexagono heptagono et super hunc numerum compluribus.
 has nos plurilateras appellamus adiecto angulorum numero, ut sex angulorum et septem.
 et quantumcumque super hunc numerum auxeris, eandem appellationem utamur.
 alia species est formae per quam frequenter archi- finiorum agrorum quadratura concluditur ex rectis angulis [ex] pluribus quam quinque, accedentibus super hunc numerum in quantacumque multitudine cogitaueris.
 [qualemcumque rectorum angulorum formam rectis lineis comprehendere.
-ex data recta linea ducere posito signo .
+ex data recta linea ducere posito signo.
 relato in utramque partem circino, aequali punctorum diastemate circulos scribere opor- tet, per quorum conexionem recta linea transeat factura normales in data linea angulos.
 sed quo in rec- tarum linearum forma circularis linea non interueniat rec- tis, a circumferentiarum parte chiasmi cuiusdam ratione utamur.
 quod si ab eadem recta linea ducenda fuerit quae rectum angulum faciat, ex quolibet puncto qui per caput recta linea transeat rectam lineam eicere, per cuius signum quod est in circumferentem lineam a capite rectae lineae recta linea transeat factura in data linea rectum angulum.

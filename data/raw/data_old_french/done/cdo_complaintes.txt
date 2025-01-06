@@ -21,7 +21,7 @@ Car Dieu est plain de merci, a largesse.
 Va t'en vers lui sa grace demander,
 Car il t'a fait, deja pieça, promesse
 (Mais que faces ton advocat Humblesse)
-Que tresjoyeux sera de toy guerir ;
+Que tresjoyeux sera de toy guerir;
 Entierement metz en lui ta fiance,
 Pour toy et tous, voulu en crois mourir,
 Trescretien, franc royaume de France !
@@ -30,16 +30,16 @@ Que criasses Montjoye, par liesse,
 Et qu'en escu d'azur deusses porter
 Trois fleurs de lis d'or, et pour hardiesse
 Fermer en toy, t'envoya sa Haultesse,
-L'auriflamme, qui t'a fait seigneurir
-Tes ennemis ; ne metz en oubliance
-Telz dons haultains, dont lui pleut t'enrichir,
+L'auriflamme, qui t'a fait seigneurir tes ennemis; 
+ne metz en oubliance telz dons haultains,
+dont lui pleut t'enrichir,
 Trescrestian, franc royaume de France !
 En oultre plus, te voulu envoyer
 Par un coulomb, qui est plain de simplesse,
 La unction dont dois tes roys sacrer,
-Afin qu'en eulx dignité plus encresse ;
+Afin qu'en eulx dignité plus encresse;
 Et, plus qu'a nul, t'a voulu sa richesse
-De reliques et corps sains departir ;
+De reliques et corps sains departir;
 Tout le monde en a la congnoissance.
 Soyes certain qu'il ne te veult faillir,
 Trescrestian, franc royaume de France !
@@ -62,16 +62,16 @@ En son vivant, par travail et vaillance !
 Les croniques le moustrent, sans mentir,
 Trescrestien, franc royaume de France !
 Pource, France, vueilles toy adviser,
-Et tost reprens de bien vivre l'adresse ;
+Et tost reprens de bien vivre l'adresse;
 Tous tes meffais metz paine d'amender,
 Faisant chanter et dire mainte messe
 Pour les ames de ceulx qui ont l'aspresse
-De dure mort souffert, pour te servir ;
+De dure mort souffert, pour te servir;
 Leurs loyautez ayes en souvenance,
 Riens espargnié n'ont pour toy garantir,
 Trescrestien, franc royaume de France !
 Dieu a les bras ouvers pour t'acoler,
-Prest d'oublier ta vie pecheresse ;
+Prest d'oublier ta vie pecheresse;
 Requier pardon, bien te vendra aidier
 Nostre Dame, la trespuissant princesse,
 Qui est ton cry et que tiens pour maistresse.
@@ -82,7 +82,7 @@ Trescrestien, franc royaume de France !
 Et je, Charles, duc d'Orlians, rimer
 Voulu ces vers ou temps de ma jeunesse,
 Devant chascun les vueil bien advouer,
-Car prisonnier les fis, je le confesse ;
+Car prisonnier les fis, je le confesse;
 Priant a Dieu, qu'avant qu'aye vieillesse,
 Le temps de paix partout puist avenir,
 Comme de cueur j'en ay la desirance,
@@ -99,7 +99,7 @@ Car il en est temps, ou jamais.
 Moustrez qu'en avez souvenance,
 En lui donnant aucun secours,
 Faisant semblant qu'avez plaisance
-Plus a son bien qu'a ses doulours ;
+Plus a son bien qu'a ses doulours;
 Ou me dittes, pour Dieu, Amours,
 Se le lairez en cest estat :
 Car d'ainsi demourer tousjours,
@@ -107,7 +107,7 @@ Cuidez vous que ce soit esbat ?
 Nennil, car Dangier qui desire
 De le mectre du tout a mort,
 L'a mis, pour plus tost le destruire,
-En la prison de Desconfort ;
+En la prison de Desconfort;
 Ne jamais ne sera d'accort
 Qu'il en parte par son vouloir,
 Combien que trop, et a grant tort,
@@ -125,21 +125,21 @@ Au matin, pour se desjeuner,
 Qui tant le refroidist et froisse
 Qu'il ne peut santé recouvrer.
 D'eaue ne lui fault point donner,
-Il en a de larmes assés ;
+Il en a de larmes assés;
 Tant a de mal, a vray parler,
 Que cent en seroient lassés.
 Et n'a que le lit de Pensee
-Pour soy reposer et gesir ;
+Pour soy reposer et gesir;
 Mais Plaisance s'en est alee,
 Qui plus ne le povoit souffrir,
 A peine l'a peu retenir,
-S'Espoir ne fust jusques a cy ;
+S'Espoir ne fust jusques a cy;
 N'a il donc raison, sans mentir,
 S'il fait requeste de Mercy ?
 Il porte le noir de Tristesse,
 Pour Reconfort qu'il a perdu,
 N'oncques hors des fers de Destresse
-N'est party, pour mal qu'il ait eu ;
+N'est party, pour mal qu'il ait eu;
 Toutesfois vous avez bien sceu
 Qu'a vous s'estoit du tout donné,
 Quelque doleur qu'il ait receu,
@@ -157,7 +157,7 @@ Qu'il vous laissast ; mais, par ma foy,
 Ja consentir ne lui feroye,
 Car tant de son vueil j'aperçoy,
 Quelque doleur qu'il ait en soy,
-Qu'il est vostre, par devant tous ;
+Qu'il est vostre, par devant tous;
 Et, par mon serement, je le croy,
 Qu'autre maistre n'aura que vous.
 Or regardez, n'est ce merveille
@@ -165,7 +165,7 @@ Qu'il vous ayme si loyaument,
 Quant toute doleur nompareille
 A receu, sans allegement ?
 Et si le porte lyement,
-Pensant une fois mieulx sera ;
+Pensant une fois mieulx sera;
 A vous s'en attent seulement,
 Ne ja autrement ne fera.
 Si m'a chargié que vous requiere,
@@ -173,12 +173,12 @@ Comme pieça vous a requis,
 Que vueilliez oïr sa priere :
 C'est qu'il soit hors de prison mis,
 Et Dangier et les siens bannis,
-Qui jamais ne vouldront son bien ;
+Qui jamais ne vouldront son bien;
 Ou au meins qu'aye saufconduis
 Qu'ilz ne lui meffacent de rien.
 Afin qu'il puist oïr nouvelle
 De celle dont il est servant,
-Et souvent veoir sa beaulté belle ;
+Et souvent veoir sa beaulté belle;
 Car d'autre rien n'est desirant
 Que la servir, tout son vivant,
 Comme la plus belle qui soit,
@@ -203,7 +203,7 @@ Quant me faillu de vous partir.
 Car, quant ce vint au congié prandre,
 Je ne savoye, pour le mieulx,
 Auquel me valoit plus entendre
-Ou a mon cueur, ou a mes yeulx ;
+Ou a mon cueur, ou a mes yeulx;
 Car je trouvay, ainsi m'ayd Dieux,
 Mon cueur courroucié si tresfort
 Qu'oncques ne le vy, en nulz lieux,
@@ -211,16 +211,16 @@ Si eslongnié de Reconfort.
 Et d'autre part, mes yeulx estoient
 En un tel vouloir de pleurer
 Qu'a peine tenir s'en povoient,
-N'ilz n'osoient riens regarder ;
+N'ilz n'osoient riens regarder;
 Car, par un seul semblant moustrer
 En riens d'en estre desplaisans,
 C'eust esté pour faire parler
 Les jalous et les mesdisans.
 Et de la grant paour que j'avoie
 Que leur dueil si ne fust congneu,
-Auquel entendre ne savoye ;
+Auquel entendre ne savoye;
 Oncques si esbahy ne fu,
-Si dolent ne si esperdu ;
+Si dolent ne si esperdu;
 Car, par Dieu, j'eusse mieulx amé,
 Avant que l'en l'eust apperceu,
 N'avoir jamais jour esté né.
@@ -235,18 +235,18 @@ Je fusse langui en doleur.
 En ce point et encore pire,
 Alors de vous je me party,
 Sans avoir loisir de vous dire
-Les maulx dont j'estoye party ;
+Les maulx dont j'estoye party;
 Toutesfois, Belle, je vous dy
 Qu'il vous pleust de vouloir penser
 Que je vous avoie servy
 Et serviroye sans cesser,
-Tant comme dureroit ma vie ;
+Tant comme dureroit ma vie;
 Et, quant de mort seroye pris,
 De m'ame seriés servie,
 Priant pour vous en Paradis,
-S'il en estoit en son devis ;
+S'il en estoit en son devis;
 Et mes biens, mon cueur et mon corps,
-Je les vous ay du tout soubzmis ;
+Je les vous ay du tout soubzmis;
 Mais ç'a esté de leurs accors.
 Car il n'est nulle que je clame,
 Ne qui se puist nommer, de vray,
@@ -270,46 +270,46 @@ Plaine de doulceur a merveille,
 Dont tous voz fais sont si entiers
 Qu'ilz ont esté les messagiers
 De me tollir, et pres et loing,
-Mes vouloirs et mes desiriers ;
+Mes vouloirs et mes desiriers;
 Ainsi m'aid Dieu a mon besoing.
 Si vous suppli, tresbonne et belle,
-Qu'ayez souvenance de moy ;
+Qu'ayez souvenance de moy;
 Car, a tousjours, vous serez celle
-Que serviray comme je doy ;
+Que serviray comme je doy;
 Je le vous prometz, par ma foy,
-Du tout a vous me suis donné ;
+Du tout a vous me suis donné;
 Se Dieu plaist, je feray pourquoy
 J'en seray tresbien guerdonné !
 Fredet, j'ay receu vostre lectre,
 Dont vous mercie chierement,
 Ou dedens avez voulu mectre
-Vostre fait bien entierement ;
+Vostre fait bien entierement;
 Fier vous povez seurement
 En moy, tout, non pas a demi,
 Au besoing congnoist on l'ami.
 S'amour tient vostre cuer en serre,
-Ne vous esbahissez en rien ;
+Ne vous esbahissez en rien;
 Il n'est nulle si forte guerre
-Qu'au derrain ne s'appaise bien ;
+Qu'au derrain ne s'appaise bien;
 Amour le fait, comme je tien,
 Pour esprouver mieulx vostre vueil
 Grant joye vient aprés grant dueil.
 Se vous dictes : Las ! je ne puis
-Une telle doleur porter ;
+Une telle doleur porter;
 Je vous respons : « Beau sire, et puis
 Cuidez vous, par dueil et courrouz,
 Ainsi gangner vostre vouloir ?
 Nennyl, ce ne sont que coups rouz
 Qu'Amours met tout en nonchaloir.
 De riens ne vous peuent valoir,
-Et se les couchez en despence ;
+Et se les couchez en despence;
 Trop remaint de ce que fol pense.
 Voulez vous rompre vostre teste
 Contre le mur ? ce n'est pas sens.
-Il fault denser, qui est en feste ;
-Certes, autre raison n'y sens ;
+Il fault denser, qui est en feste;
+Certes, autre raison n'y sens;
 Et pour cela, je me consens
-Que souffrez qu'Amours vous demaine ;
+Que souffrez qu'Amours vous demaine;
 Grant bien ne vient jamais sans paine.
 Mais de voz doleurs raconter
 Faictes bien, ainsi qu'il me semble,
@@ -319,9 +319,9 @@ A l'ostellier qui met ensemble,
 Et tout dedens son papier couche :
 Pour parler est faicte la bouche.
 De pieça je fuz en ce point,
-Encores pis, loing d'allegence ;
+Encores pis, loing d'allegence;
 Toutesfoiz ne vouluz je point
-De moy mesmes faire vengence ;
+De moy mesmes faire vengence;
 Mais chauldement, par diligence,
 Pourchassay et plaiday mon fait :
 Peu gangne celuy qui se tait.
@@ -329,7 +329,7 @@ Et pour ce que la lectre dit
 Qu'Amours veult que vers moy tirez,
 De moy ne serez escondit,
 S'aucune chose desirez
-A vostre bien, quant l'escriprez ;
+A vostre bien, quant l'escriprez;
 Paine mettray, d'entente franche,
 Que l'ayez de croq ou de hanche.
 Combatez, d'estoc et de taille,
@@ -342,12 +342,12 @@ Que se me teniez par le doy.
 Or retournons a mon propos
 Et ne parlons plus de cecy.
 Vray est que je suis en repos
-D'Amours, mais non pas de Soussy ;
+D'Amours, mais non pas de Soussy;
 Et pour ce, je vous vueil aussy
 De me conseillier travaillier,
 L'amy doit pour l'autre veiller.
 Soussy maintient que c'est raison
-Qu'il ait sur tous vers moy puissance ;
+Qu'il ait sur tous vers moy puissance;
 Nonchaloir dit qu'en ma maison
 Vault mieulx qu'il ait la gouvernance,
 Car il ramenera Plaisance
@@ -358,26 +358,27 @@ Tant qu'on est ou monde vivant,
 Car Fortune par tout s'esmeut
 Et est a chascun estrivant,
 En tous lieux va mal escrivant,
-Et toutes choses met en doubte ;
+Et toutes choses met en doubte;
 Elle a beaux yeulx et ne voyt goute.
 Si ne sçay que je doye faire,
-Ne lequel d'eulx me laissera ;
+Ne lequel d'eulx me laissera;
 Car veu que tousjours j'ay affaire,
 Soussy jamais ne cessera,
 Mais mon plaisir rabessera
-En quelque place que je voyse ;
+En quelque place que je voyse;
 Bien est aise qui est sans noyse.
 Quant en Nonchaloir je m'esbas
 Et Desplaisir vueil debouter,
 Jamais ne sçay parler si bas
 Que Soussy ne viengne escouter.
 Las ! je le doy tant redoubter,
-Car a tort souvent me ravalle ;
+Car a tort souvent me ravalle;
 Mais sans mascher fault que l'avalle.
+
 Je ne sçay remede quelconques,
 Quant ay mis ces choses en poys,
 Pour tous deux contenter adoncques,
-Fors les faire servir par moys ;
+Fors les faire servir par moys;
 Mandez moy sur ce quelque foys,
 Fredet, bon conseil, par vostre ame,
 Foy que devez a vostre Dame.
@@ -386,7 +387,7 @@ Triste, pensif et doloreux,
 Tout mon fait, bien au long, comptay
 Au hault Prince des amoureux,
 Lequel m'a esté rigoreux
-Ou temps que mon cueur le servoit ;
+Ou temps que mon cueur le servoit;
 Et, ainsy qu'il me respondoit,
 Souvenir, qui fut au plus prés,
 Ses ditz et les miens escripvoit
@@ -396,13 +397,13 @@ Dont mon cueur et moy sommes plains,
 Car trop estes de dur afaire.
 S'un peu me feussiez debonnaire,
 Espoir, que j'ay du tout perdu,
-Si me seroit tantost rendu ;
+Si me seroit tantost rendu;
 Mais pas n'avez tel vostre vueil
 Ainçois, par vous m'est deffendu
 Plaisant Desir et Bel Acueil.
 Vous complaignez et sans raison,
 Car envers chascun Reconfort
-N'est pas tousjours en sa saison ;
+N'est pas tousjours en sa saison;
 Et si savez qu'en ma maison
 Une coustume se maintient,
 C'est assavoir que qui se tient
@@ -411,9 +412,9 @@ Maintesfoiz souffrir luy convient :
 L'usaige de mes gens est tel.
 Mes l'ordonnance riens ne vault,
 Parler en puis, car bien le sçay,
-Et ay dancié a ce court sault ;
+Et ay dancié a ce court sault;
 Par quoy je cognois le deffault
-De doulx plaisir que l'en y a ;
+De doulx plaisir que l'en y a;
 Car, quant mon cueur vous depria
 Secours, il luy fut escondit,
 Adoncques de dueil regnya
@@ -431,18 +432,18 @@ Sans prouffit ou guerdon avoir ?
 Nennil, ung cueur devroit mourir,
 Puis qu'il a fait leal devoir
 Entierement a son povoir,
-Et qu'il luy fault querir son pain ;
+Et qu'il luy fault querir son pain;
 A vous, qui estes souverain,
 En est le plus de deshonneur,
 Veu que par faulte meurt de fain
 Vostre bon leal serviteur.
 Mes le trop hasté s'eschauda,
-Il convient aller pas a pas ;
+Il convient aller pas a pas;
 Et puis aprés on cognoistra
-Qui mieulx son devoir fait aura ;
+Qui mieulx son devoir fait aura;
 Alors doibt estre guerdonné.
 Je suis assez abandonné,
-A grant largesse, de mes biens ;
+A grant largesse, de mes biens;
 Mais quant j'ay maintesfoiz donné
 A plusieurs, semble qu'ilz n'ont riens !
 Sur ce, je respondz a briefs motz :
@@ -455,16 +456,16 @@ Dont on dye qu'aye failly,
 Combien qu'en dueil m'aiez planté,
 Come faint seigneur et amy.
 Par vostre parler, ce me semble,
-Et grandement vous me foulez ;
+Et grandement vous me foulez;
 Mais l'estrif de nous deux ensemble,
 Comme en puet cognoistre, ressemble
-Au debat du verre et du pot ;
-Fain avez qu'on vous tiengne a sot ;
+Au debat du verre et du pot;
+Fain avez qu'on vous tiengne a sot;
 Devant Raison soit assigné,
 Se j'ay tort, paier vueil l'escot,
 Quant le debat sera finé.
 Soit tousjours gecté soubz le pié,
-Ne je ne viz autrement oncques ;
+Ne je ne viz autrement oncques;
 Rendre se fault, qui n'a traictié.
 J'ay cogneu, ou j'ay peu gaingnié,
 Vostre court, a mont et a val,
