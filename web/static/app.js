@@ -199,7 +199,6 @@ async function updateEtymology(text, dateThreshold = 1800) { // Default correspo
     const infoIcon = document.getElementById("anachronousInfoIcon");
     const infoAnchor = infoIcon.querySelector('a');
 
-    console.log(_CURRENT_SOURCE_LANGUAGE)
     if (!text || _CURRENT_SOURCE_LANGUAGE != "fr") {
         infoIcon.style.display = "none";
         infoAnchor.href = "#";

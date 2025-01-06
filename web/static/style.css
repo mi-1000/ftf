@@ -132,10 +132,11 @@ textarea:focus {
 }
 
 #anachronousInfoIcon a {
-  color: #4773c7 !important;
+  color: #0059ff !important;
+  font-size: 14pt;
   transition: color 0.2s cubic-bezier(0.215, 0.610, 0.355, 1);
 }
 
 #anachronousInfoIcon:hover a {
-  color: #4a618e !important;
+  color: #00318b !important;
 }
