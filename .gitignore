@@ -75,6 +75,9 @@ docs/_build/
 .pybuilder/
 target/
 
+# Config files
+pyrightconfig.json
+
 # Jupyter Notebook
 .ipynb_checkpoints
 

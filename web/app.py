@@ -1,3 +1,4 @@
+import spacy
 import os
 
 from dotenv import load_dotenv
@@ -5,16 +6,19 @@ from flask import Flask, render_template, request, jsonify
 from mysql.connector import Error, connect
 from unidecode import unidecode
 
+from ipa.ipa_ancient import phoneticize
+
 load_dotenv()
 
 app = Flask(__name__)
 
+nlp = spacy.load("fr_core_news_md") # Load the French model # TODO Uncomment when debugging is done
 
 @app.route("/", methods=["POST", "GET"])
 def index():
     if request.method == "POST":
         data = request.get_json()
-        word = data.get('word')
+        word = data.get("word")
         if word:
             date = get_date((unidecode(word)))
         else:
@@ -22,6 +26,35 @@ def index():
         return jsonify({"date": date})
     else:
         return render_template("index.html")
+
+
+@app.route("/ipa", methods=["POST"])
+def ipa():
+    data = request.get_json()
+    text = data.get("text")
+    lang = data.get("lang")
+    period = data.get("period")
+    try:
+        ipa = phoneticize(text, lang, period)
+        return jsonify({"ipa": ipa})
+    except Exception as e:
+        return jsonify({"error": str(e)})
+
+
+@app.route("/pos", methods=["POST"])
+def pos_tagging():
+    # Get text from request
+    data = request.get_json()
+    text = data.get("text", "")
+
+    if not text:
+        return jsonify({"error": "Missing key 'test' in request body."})
+
+    # Handle text with loaded model
+    doc = nlp(text)
+    result = [{"text": token.text, "pos": token.pos_} for token in doc]
+
+    return jsonify(result)
 
 
 def get_date(
