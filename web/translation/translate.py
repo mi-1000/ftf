@@ -1,5 +1,5 @@
 from typing import Literal
-from llm import LLM
+from .llm import LLM
 
 llm = LLM()
 
@@ -99,7 +99,7 @@ Translate the provided text into {target_lang}, being as close as possible to th
 #         "t8": examples[7],
 #     }
 
-def translate(source_lang: Literal['fr', 'fro', 'grc', 'la'], target_lang: Literal['fr', 'fro', 'grc', 'la'], text):
+def translate(source_lang: Literal['fr', 'fro', 'grc', 'la'], target_lang: Literal['fr', 'fro', 'grc', 'la'], text: str) -> str:
     allowed_languages = ['fr', 'fro', 'grc', 'la']
     if source_lang not in allowed_languages or target_lang not in allowed_languages:
         raise ValueError("Incorrect language code provided in parameters of translate(source_lang, target_lang, text). Authorized values are 'fr', 'fro', 'grc', 'la'.")
@@ -110,6 +110,3 @@ def translate(source_lang: Literal['fr', 'fro', 'grc', 'la'], target_lang: Liter
     context = BOILERPLATE_CONTEXT.format(target_lang=target_lang) #, **examples)
     res = llm.prompt(prompt, context)
     return res
-
-if __name__ == "__main__":
-    print(translate("grc", "fro", "Καὶ σὺ τέκνον!"))

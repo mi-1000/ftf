@@ -7,6 +7,7 @@ from mysql.connector import Error, connect
 from unidecode import unidecode
 
 from ipa.ipa_ancient import phoneticize
+from translation.translate import translate
 
 load_dotenv()
 
@@ -56,6 +57,17 @@ def pos_tagging():
 
     return jsonify(result)
 
+@app.route("/translation", methods=["POST"])
+def translate_text():
+    data = request.get_json()
+    text = data.get("text")
+    source_lang = data.get("source")
+    target_lang = data.get("target")
+    try:
+        translation = translate(source_lang, target_lang, text)
+        return jsonify({"translation": translation})
+    except Exception as e:
+        return jsonify({"error": str(e)})
 
 def get_date(
     word: str,

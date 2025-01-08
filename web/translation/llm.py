@@ -42,6 +42,7 @@ class LLM:
             "stream": False, # Response in a single JSON
             "options": {
                 "seed": 1, # Reproducible outputs for similar inputs
+                "temperature": 0.25, # Not too creative
             },
         }
         response = requests.post(self.url, json=data)
@@ -59,8 +60,3 @@ class LLM:
             return output
         
         else: raise ValueError(f"Error {response.status_code}: {response.text}")
-
-if __name__ == "__main__":
-    llm = LLM()
-    answer = llm.prompt("You speak French?")
-    print(answer)

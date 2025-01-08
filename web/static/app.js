@@ -25,7 +25,7 @@ function handleSourceTextInput(sourceTag = 'sourceText') {
         newTargetText = e.target.value;
         updateFieldsHeight();
         updateEtymology(newTargetText);
-        updateTargetText(newTargetText); // TODO: Change with model output
+        handleTranslation();
         if (newTargetText) handleIPAChange();
         else {
             document.getElementById("sourceText").value = "";
@@ -40,23 +40,48 @@ function handleSourceTextInput(sourceTag = 'sourceText') {
  * Updates the target text (duh)
  * 
  * @param {String} text The new text to be printed out
+ * @param {Boolean} html Set to true to modify innerHTML instead of innerText
  * @param {String} tag The HTML tag for the target text container
  */
-function updateTargetText(text, tag = 'targetText') {
+function updateTargetText(text, html = false, tag = 'targetText') {
     const targetText = document.getElementById(tag);
-    targetText.innerText = text;
+    if (html) targetText.innerHTML = text
+    else targetText.innerText = text;
 }
 
-function updateFieldsHeight(sourceTag = 'sourceText', targetTag = 'targetText') {
 
+function updateFieldsHeight(sourceTag = 'sourceText', targetTag = 'targetText') {
+    
     const sourceText = document.getElementById(sourceTag);
     const targetText = document.getElementById(targetTag);
-
+    
     sourceText.style.height = 'auto';
     targetText.style.height = 'auto';
     const newHeight = sourceText.scrollHeight;
     sourceText.style.height = `${newHeight}px`;
     targetText.style.height = `${newHeight}px`;
+}
+
+async function handleTranslation(sourceTag = 'sourceText', targetTag = 'targetText') {
+    const sourceTextArea = document.getElementById(sourceTag);
+    const targetTextArea = document.getElementById(targetTag);
+
+    const targetIPA = document.getElementById('targetIPA');
+
+    sourceText = sourceTextArea.value;
+    targetTextArea.innerHTML = `<span style="color: #ccc">Translating…</span>`
+    targetIPA.innerText = ""
+
+    data = {
+        "text": sourceText,
+        "source": _CURRENT_SOURCE_LANGUAGE,
+        "target": _CURRENT_TARGET_LANGUAGE,
+    }
+    rep = await sendRequest(data, "/translation");
+    translationOrError = rep?.translation ? rep?.translation : `<span style="color: red;">An error has occured: <b>${targetReq?.error}</b></span>`; // IPA if exists else error message
+
+    updateTargetText(translationOrError, true, targetTag);
+    handleIPAChange();
 }
 
 function handleLanguageChange(sourceTag = 'sourceLang', targetTag = 'targetLang', exchangeTag = 'exchangeLanguages') {
@@ -81,8 +106,8 @@ function handleLanguageChange(sourceTag = 'sourceLang', targetTag = 'targetLang'
             _CURRENT_SOURCE_LANGUAGE = sourceLangDropdown.value;
             _CURRENT_TARGET_LANGUAGE = targetLangDropdown.value;
 
-            sourceTextArea.innerText = targetTextArea.innerText;
-            targetTextArea.innerText = "Just switched languages 😎"; // TODO
+            sourceTextArea.value = targetTextArea.innerText;
+            handleTranslation();
         }
         else if (e.currentTarget !== sourceLangDropdown && e.currentTarget !== targetLangDropdown) {
             console.error("Error in language change handling.");
