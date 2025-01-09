@@ -18,7 +18,7 @@ nlp = spacy.load("fr_core_news_md") # Load the French model # TODO Uncomment whe
 @app.route("/", methods=["POST", "GET"])
 def index():
     if request.method == "POST":
-        data = request.get_json()
+        data = request.get_json(cache=True)
         word = data.get("word")
         if word:
             date = get_date((unidecode(word)))
@@ -31,7 +31,7 @@ def index():
 
 @app.route("/ipa", methods=["POST"])
 def ipa():
-    data = request.get_json()
+    data = request.get_json(cache=True)
     text = data.get("text")
     lang = data.get("lang")
     period = data.get("period")
@@ -45,7 +45,7 @@ def ipa():
 @app.route("/pos", methods=["POST"])
 def pos_tagging():
     # Get text from request
-    data = request.get_json()
+    data = request.get_json(cache=True)
     text = data.get("text", "")
 
     if not text:
@@ -58,13 +58,13 @@ def pos_tagging():
     return jsonify(result)
 
 @app.route("/translation", methods=["POST"])
-def translate_text():
-    data = request.get_json()
+async def translate_text():
+    data = request.get_json(cache=True)
     text = data.get("text")
     source_lang = data.get("source")
     target_lang = data.get("target")
     try:
-        translation = translate(source_lang, target_lang, text)
+        translation = await translate(source_lang, target_lang, text)
         return jsonify({"translation": translation})
     except Exception as e:
         return jsonify({"error": str(e)})
@@ -78,7 +78,7 @@ def get_date(
         "database": os.getenv("DB_NAME"),
     },
 ):
-    try:
+    try: # TODO Implement connection pool
         connection = connect(**db_config)
 
         if not connection.is_connected():
@@ -90,16 +90,15 @@ def get_date(
         query = "SELECT `date` FROM `etymology` WHERE `word` = %s"
         cursor.execute(query, (word,))
         result = cursor.fetchone()
-        if result[0]:
+        if result[0]: # Extract date from result set
             return result[0]
-        else:
-            return None
+        return None
 
     except Error as e:
-        print(f"Erreur SQL : {e}")
+        print(f"SQL Error: {e}")
         return None
     except Exception as e:
-        print(f"Erreur : {e}")
+        print(f"Error while retrieving date: {e}")
         return None
     finally:
         # Close resources

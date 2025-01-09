@@ -1,13 +1,12 @@
-import json
 import re
-import requests
+import aiohttp
 
 from functools import lru_cache
 
 class LLM:
     """
-    model (str) [OPTIONAL]: The model to be used by default. Can be changed afterwards or supercharged upon calling methods. Defaults to *llama3.2:1b*.
-    url (str) [OPTIONAL]: The URL of the LLM API. Defaults to *http://127.0.0.1:11434/api/generate*.
+    model (str) [OPTIONAL]: The model to be used by default. Can be changed afterwards or supercharged upon calling methods.
+    url (str) [OPTIONAL]: The URL of the LLM API.
     """
     def __init__(self, model: str = "llama3.2:1b", url: str = "http://127.0.0.1:11434/api/chat"):
         self.model = model
@@ -23,8 +22,8 @@ class LLM:
     
     returns (str): The model output
     """
-    @lru_cache(None)
-    def prompt(self, prompt: str, system_context: str = "", model: str | None = None) -> str:
+    @lru_cache(9999)
+    async def prompt(self, prompt: str, system_context: str = "", model: str | None = None) -> str:
         if not model:
             model = self.model # Default to the model set by the constructor
         data = {
@@ -45,18 +44,18 @@ class LLM:
                 "temperature": 0.25, # Not too creative
             },
         }
-        response = requests.post(self.url, json=data)
-        print(response.text)
-        if response.status_code == 200:
-            http_response = response.text
-            output_data = json.loads(http_response)
-            message: dict[str, str] = output_data.get("message")
-            if not message: return ""
-            output = message.get("content", "")
-            # Clean output
-            output = output.removeprefix("\u003c|start_header_id|\u003eassistant\u003c|end_header_id|\u003e").strip()
-            output = re.sub(r"\n.*", "", output)
-            output = output.strip("\"\'").strip()
-            return output
+        async with aiohttp.ClientSession() as session:
+            async with session.post(self.url, json=data) as response:
+                print(await response.text())
+                if response.status == 200:
+                    output_data = await response.json()
+                    message: dict[str, str] = output_data.get("message")
+                    if not message: return ""
+                    output = message.get("content", "")
+                    # Clean output
+                    output = output.removeprefix("\u003c|start_header_id|\u003eassistant\u003c|end_header_id|\u003e").strip()
+                    output = re.sub(r"\n.*", "", output)
+                    output = output.strip("\"\'").strip()
+                    return output
         
-        else: raise ValueError(f"Error {response.status_code}: {response.text}")
+                else: raise ValueError(f"Error {response.status}: {await response.text()}")

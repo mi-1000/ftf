@@ -1,11 +1,16 @@
-var _CURRENT_SOURCE_LANGUAGE = 'fr'
-var _CURRENT_TARGET_LANGUAGE = 'fro'
-var _CURRENT_SOURCE_PERIOD = 'eu'
-var _CURRENT_TARGET_PERIOD = 'ear'
+var _CURRENT_SOURCE_LANGUAGE = 'fr';
+var _CURRENT_TARGET_LANGUAGE = 'fro';
+var _CURRENT_SOURCE_PERIOD = 'eu';
+var _CURRENT_TARGET_PERIOD = 'ear';
 
-var _ATTESTATION_DATES = {}
+var _ATTESTATION_DATES = {};
+
+var _TIMEOUT = undefined; // Send requests when timeout expires
+
+var controller = new AbortController(); // Handle concurrent HTTP requests
 
 document.addEventListener('DOMContentLoaded', (e) => {
+    handleTranslation();
     handleSourceTextInput();
     handleLanguageChange();
     handleCopyIPA();
@@ -13,6 +18,11 @@ document.addEventListener('DOMContentLoaded', (e) => {
     handleIPAPeriodChange();
 });
 
+/**
+ * Handler called when user inputs text
+ * 
+ * @param {String} sourceTag The ID of the source text HTML tag
+ */
 function handleSourceTextInput(sourceTag = 'sourceText') {
     const sourceText = document.getElementById(sourceTag);
 
@@ -25,7 +35,8 @@ function handleSourceTextInput(sourceTag = 'sourceText') {
         newTargetText = e.target.value;
         updateFieldsHeight();
         updateEtymology(newTargetText);
-        handleTranslation();
+        clearTimeout(_TIMEOUT); // Reset the timer if it was ongoing
+        _TIMEOUT = setTimeout(handleTranslation, 500); // Wait until user finishes to write text for a while before sending a request
         if (newTargetText) handleIPAChange();
         else {
             document.getElementById("sourceText").value = "";
@@ -37,7 +48,7 @@ function handleSourceTextInput(sourceTag = 'sourceText') {
 }
 
 /**
- * Updates the target text (duh)
+ * Update the target text (duh)
  * 
  * @param {String} text The new text to be printed out
  * @param {Boolean} html Set to true to modify innerHTML instead of innerText
@@ -49,7 +60,12 @@ function updateTargetText(text, html = false, tag = 'targetText') {
     else targetText.innerText = text;
 }
 
-
+/**
+ * Update height of input and output fields to match the content height
+ * 
+ * @param {String} sourceTag The ID of the source text HTML tag
+ * @param {String} targetTag The ID of the target text HTML tag
+ */
 function updateFieldsHeight(sourceTag = 'sourceText', targetTag = 'targetText') {
     
     const sourceText = document.getElementById(sourceTag);
@@ -62,6 +78,12 @@ function updateFieldsHeight(sourceTag = 'sourceText', targetTag = 'targetText') 
     targetText.style.height = `${newHeight}px`;
 }
 
+/**
+ * Handler for translating text and updating the UI accordingly
+ * 
+ * @param {String} sourceTag The ID of the source text HTML tag
+ * @param {String} targetTag The ID of the target text HTML tag
+ */
 async function handleTranslation(sourceTag = 'sourceText', targetTag = 'targetText') {
     const sourceTextArea = document.getElementById(sourceTag);
     const targetTextArea = document.getElementById(targetTag);
@@ -78,12 +100,19 @@ async function handleTranslation(sourceTag = 'sourceText', targetTag = 'targetTe
         "target": _CURRENT_TARGET_LANGUAGE,
     }
     rep = await sendRequest(data, "/translation");
-    translationOrError = rep?.translation ? rep?.translation : `<span style="color: red;">An error has occured: <b>${targetReq?.error}</b></span>`; // IPA if exists else error message
+    translationOrError = rep?.translation ? rep?.translation : `<span style="color: red;">An error has occured: <b>${rep?.error}</b></span>`; // IPA if exists else error message
 
     updateTargetText(translationOrError, true, targetTag);
     handleIPAChange();
 }
 
+/**
+ * Handler for change of input and/or output language
+ * 
+ * @param {String} sourceTag The ID of the source text HTML tag
+ * @param {String} targetTag The ID of the source text HTML tag
+ * @param {String} exchangeTag The ID of the language exchanging arrow HTML tag
+ */
 function handleLanguageChange(sourceTag = 'sourceLang', targetTag = 'targetLang', exchangeTag = 'exchangeLanguages') {
     const sourceLangDropdown = document.getElementById(sourceTag);
     const targetLangDropdown = document.getElementById(targetTag);
@@ -127,6 +156,11 @@ function handleLanguageChange(sourceTag = 'sourceLang', targetTag = 'targetLang'
     }
 }
 
+/**
+ * Handler for copying generated API transcription to user clipboard
+ * 
+ * @param {String} className The class name for sections containing IPA transcription
+ */
 function handleCopyIPA(className=".api-section") {
     sections = document.querySelectorAll(className);
     sections.forEach(section => {
@@ -139,7 +173,7 @@ function handleCopyIPA(className=".api-section") {
 /**
  * Get default period for a given language
  * 
- * @param {String} lang 
+ * @param {String} lang
  * @returns {String | undefined}
  */
 function getDefaultPeriod(lang) {
@@ -157,6 +191,12 @@ function getDefaultPeriod(lang) {
     }
 }
 
+/**
+ * Handler for updating IPA transcription
+ * 
+ * @param {String} sourceTag The ID of the source IPA text HTML tag
+ * @param {String} targetTag The ID of the target IPA text HTML tag
+ */
 async function handleIPAChange(sourceTag = 'sourceIPA', targetTag = 'targetIPA') {
     const sourceSection = document.getElementById(sourceTag);
     const targetSection = document.getElementById(targetTag);
@@ -178,6 +218,12 @@ async function handleIPAChange(sourceTag = 'sourceIPA', targetTag = 'targetIPA')
     updateFieldsHeight(sourceTag, targetTag);
 }
 
+/**
+ * Handler for changing of language period in IPA transcription section
+ * 
+ * @param {String} sourceTag The ID of the source period dropdown HTML tag
+ * @param {String} targetTag The ID of the target period dropdown HTML tag
+ */
 function handleIPAPeriodChange(sourceTag = 'sourcePeriod', targetTag = 'targetPeriod') {
     const sourceDropdown = document.getElementById(sourceTag);
     const targetDropdown = document.getElementById(targetTag);
@@ -192,6 +238,12 @@ function handleIPAPeriodChange(sourceTag = 'sourcePeriod', targetTag = 'targetPe
     });
 }
 
+/**
+ * Handler for IPA transcription period choosing dropdown
+ * 
+ * @param {String} sourceDropdown The ID of the source period dropdown HTML tag
+ * @param {String} targetDropdown The ID of the target period dropdown HTML tag
+ */
 function handleIPADropdown(sourceDropdown = 'sourcePeriod', targetDropdown = 'targetPeriod') {
     const sourcePeriodDropdown = document.getElementById(sourceDropdown);
     const targetPeriodDropdown = document.getElementById(targetDropdown);
@@ -211,13 +263,24 @@ function handleIPADropdown(sourceDropdown = 'sourcePeriod', targetDropdown = 'ta
     });
 }
 
-
+/**
+ * Get the first attestation date of a given French word
+ * 
+ * @param {String} word
+ * @returns {Promise<Number | null>}
+ */
 async function getFirstAttestationDate(word) {
     rep = await sendRequest({ "word": word });
     date = rep["date"];
     return (date ? Number.parseInt(date) : null); // Return date if exists else null
 }
 
+/**
+ * Updates showing of anachrony info button if a word of the given text is more recent than the given threshold
+ * 
+ * @param {String} text The text to analyze
+ * @param {Number} dateThreshold The threshold to start looking for anachronies (defaults to `1800`)
+ */
 async function updateEtymology(text, dateThreshold = 1800) { // Default corresponds to industrial revolution and mitigates false positives
     _ATTESTATION_DATES = {};
 
@@ -258,13 +321,17 @@ async function updateEtymology(text, dateThreshold = 1800) { // Default correspo
 }
 
 /**
- * Sends a POST request
+ * Send a POST request
  * 
  * @param {Array} data The data to be sent
  * @param {String} url The URL to receive the request (defaults to `'/'`)
  * @return {Promise} The server response
  */
-async function sendRequest(data, url = '/') {
+async function sendRequest(data, url = '/', abort = false) {
+    if (abort) {
+        controller.abort(); // Cancel precedent request if still ongoing
+        controller = new AbortController(); // Reset controller
+    }
     let headers = new Headers();
     headers.append("Content-Type", "application/json; charset=UTF-8");
     // headers.append("Origin", window.location.href);
@@ -273,6 +340,7 @@ async function sendRequest(data, url = '/') {
         headers: headers,
         body: JSON.stringify(data),
     };
+    if (abort) config.signal = controller.signal;
     let reponse = await fetch(url, config);
     return await reponse.json();
 }
