@@ -34,7 +34,7 @@ for _from, to in explicit_sound_to_substitution.items():
     explicit_substitution_to_sound[to] = _from
     explicit_substitution_regex.append(to)
 
-explicit_substitution_regex = f"[{"".join(explicit_substitution_regex)}]"
+explicit_substitution_regex = f"[{''.join(explicit_substitution_regex)}]"
 
 # Pairs of consonants where a schwa between them cannot be deleted in VCəCV
 # within a word
@@ -437,7 +437,7 @@ def convert(text: str) -> str:
         if len(matches) != 1:
             return "".join([str(match) for match in matches])
         bp = matches[0]
-        return f"m{bp.upper() if bp in ['b', 'p'] else ""}⁀"
+        return f"m{bp.upper() if bp in ['b', 'p'] else ''}⁀"
     text = rsub(text, r"m([bp])⁀", repl_bp) # plomb
     # Do the following after dropping r so we don't affect -rt
     text = rsub(text, r"[dgpt]⁀", r"⁀")
@@ -652,13 +652,7 @@ def convert(text: str) -> str:
         if len(matches) != 3:
             return "".join([str(match) for match in matches])
         a, dot, b = matches
-        return (f"{a}{dot}{b}{'ə'
-                if rfind(a, r"[bdfɡkpstvzʃʒ]")
-                    and rfind(b, r"[mnlʁwj]")
-                else 'ə'
-                if rfind(a, r"[lmn]")
-                    and b == 'ʁ'
-                else '(ə)'}⁀")
+        return f"{a}{dot}{b}{'ə' if rfind(a, r'[bdfɡkpstvzʃʒ]') and rfind(b, r'[mnlʁwj]') else 'ə' if rfind(a, r'[lmn]') and b == 'ʁ' else '(ə)'}⁀"
     text = rsub(text, rf"({cons_c})(\.?)({cons_c})ə⁀", opt_final_schwa)
 
     #    i/u/ou -> glide before vowel
