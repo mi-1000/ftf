@@ -191,13 +191,11 @@ def evaluate_translation_pipeline(model: str, src_text: List[str] | None = None,
         output_benchmark(la_ref, fr_to_la, 'Llama-3.1-70B', 'French', 'Latin')
 
     elif model == "Llama-8B_finetuned":
-        fr_to_fro-llama_8B_finetuned.txt
-        with open(os.path.join('scripts', 'test_model_files', 'fr-fro', 'la_to_fr-marianmt01.txt'), 'r', encoding='utf-8') as f:
+        with open(os.path.join('scripts', 'test_model_files', 'fr-fro', 'fr_to_fro-llama_8B_finetuned.txt'), 'r', encoding='utf-8') as f:
             french_translation = f.readlines()
             
-        output_benchmark(french_translation, fr_to_la_ref, model, 'Latin', 'French')
+        output_benchmark(french_translation, fr_to_fro_ref, model, 'French', 'Old French')
         
-
     elif model == "GPT-4o":
         
         # Prompts
@@ -269,7 +267,8 @@ def evaluate_translation_pipeline(model: str, src_text: List[str] | None = None,
 # ]
 
 if __name__ == "__main__":
-    evaluate_translation_pipeline("MarianMT")
+    # evaluate_translation_pipeline("MarianMT")
     # evaluate_translation_pipeline("GPT-4o")
     # evaluate_translation_pipeline("Llama-8B")
     # evaluate_translation_pipeline("Google Translate")
+    evaluate_translation_pipeline("Llama-8B_finetuned")
