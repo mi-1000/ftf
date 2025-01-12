@@ -1,7 +1,7 @@
 import re
 import aiohttp
 
-from functools import lru_cache
+from async_lru import alru_cache
 
 class LLM:
     """
@@ -22,7 +22,7 @@ class LLM:
     
     returns (str): The model output
     """
-    @lru_cache(9999)
+    @alru_cache(9999)
     async def prompt(self, prompt: str, system_context: str = "", model: str | None = None) -> str:
         if not model:
             model = self.model # Default to the model set by the constructor
@@ -54,7 +54,7 @@ class LLM:
                     output = message.get("content", "")
                     # Clean output
                     output = output.removeprefix("\u003c|start_header_id|\u003eassistant\u003c|end_header_id|\u003e").strip()
-                    output = re.sub(r"\n.*", "", output)
+                    # output = re.sub(r"\n.*", "", output)
                     output = output.strip("\"\'").strip()
                     return output
         

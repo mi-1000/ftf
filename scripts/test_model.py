@@ -267,8 +267,8 @@ def evaluate_translation_pipeline(model: str, src_text: List[str] | None = None,
 # ]
 
 if __name__ == "__main__":
-    # evaluate_translation_pipeline("MarianMT")
+    evaluate_translation_pipeline("MarianMT")
     # evaluate_translation_pipeline("GPT-4o")
-    # evaluate_translation_pipeline("Llama-8B")
+    evaluate_translation_pipeline("Llama-8B")
     # evaluate_translation_pipeline("Google Translate")
     evaluate_translation_pipeline("Llama-8B_finetuned")

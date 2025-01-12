@@ -156,7 +156,7 @@ word_begin_c = rf"[{word_begin}]"
 
 def canonicalize_pron(text: str) -> str:
     text = rsub(text, "’", repl="'")
-    text = rsub(text, r"(\d+),(\d++)", r"\1 virgule \2")
+    text = rsub(text, r"(\d+),(\d+)", r"\1 virgule \2")
     text = rsub(text, r"[%]", " poursan ")
     text = rsub(text, r"[&]", " et ")
     text = rsub(text, r"[@]", " arobaz ")
@@ -825,7 +825,7 @@ def replace_on_pos(text: str, pos: str | list[str], pattern: str, repl, neg = Fa
     text_replaced = rsub(text_replaced, REPL_2, "‿")
     return text_replaced
 
-def phoneticize(text: str, standard: Literal['eu', 'ca'] = 'eu'):
+def phoneticize(text: str, standard: Literal['eu', 'ca'] = 'eu') -> str:
     if standard not in ['eu', 'ca']:
         raise ValueError("Wrong standard! Must be either [eu]ropean or [ca]nadian.")
     if standard == 'ca': # TODO - Throw an error for the moment

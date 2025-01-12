@@ -1,6 +1,7 @@
 from typing import Literal
 
 from .ipa_fr import phoneticize as phon_fr
+from .ipa_fro import phoneticize as phon_fro
 from .ipa_grc import phoneticize as phon_grc
 from .ipa_la import phoneticize as phon_la
 
@@ -38,7 +39,7 @@ def phoneticize(text: str, lang: Literal["fr", "la", "grc", "fro"], period: Lite
     elif lang == "fro":
         if period not in OLD_FRENCH_PERIODS:
             raise ValueError("Incorrect Old French period. Authorized values are 'ear', 'lat'.")
-        raise ValueError("Old French is not supported yet.") # TODO
+        return phon_fro(text, period)
     elif lang == "fr":
         if period not in FRENCH_PERIODS:
             raise ValueError("Incorrect French standard. Authorized values are 'eu', 'ca'.")
