@@ -15,7 +15,7 @@
 
 - In this guide, I will show commands for 3 languages, CMD, PowerShell and Bash:
   - CMD is used on Windows. It's less powerful than PowerShell, I personally don't like it, but it's totally okay for what we do. You should know you are using CMD if typing the command `ls` gives you an error.
-  - PowerShell is the newer terminal language used by Windows. It is the default language in the terminal integrated to VS Code. It supports autocompletion using `<kbd>`TAB`</kbd>`.
+  - PowerShell is the newer terminal language used by Windows. It is the default language in the terminal integrated to VS Code. It supports autocompletion using <kbd>TAB</kbd>.
   - Bash is used on MacOS and Linux. You can also run it natively on Windows through WSL, which I will cover later in this guide.
 
 ## Useful terminal commands
@@ -47,7 +47,7 @@
   - CMD/PowerShell/Bash: `rmdir <folder_name>` - Note: This removes the folder permanently, same as above with `del`/`rm`
 - Remove a folder and all files inside:
   - CMD: `rd/s/q <folder_name>` - Note: I've already said it, but this removes all the files permanently without any possible backup. Same applies for both other languages.
-  - PowerShell: `rm -Recurse -Force <folder_name>` - Note: That's long to type, so don't forget to use autocompletion with `<kbd>`TAB `</kbd>`.
+  - PowerShell: `rm -Recurse -Force <folder_name>` - Note: That's long to type, so don't forget to use autocompletion with <kbd>TAB</kbd>.
   - Bash: `rm -r <folder_name>` - Note: You can use the flag `-f` (`rm -rf`) to bypass warnings or errors, but use it at your own risk. Typing `rm -rf /` by accident can destroy all files in your computer forever.
 - Clear the console:
   - CMD/PowerShell: `cls`
@@ -64,8 +64,8 @@
   - Open the current folder in VS Code as a new project: `code .`
   - Open a file in VS Code and create it if it doesn't exists: `code <file_name>`
 - Stop a process:
-  - If a program you are running in your terminal is stuck, you can force stop it using `<kbd>`Ctrl `</kbd>`+`<kbd>`C `</kbd>`.
-  - As this shortcut is taken, you need to use `<kbd>`Ctrl `</kbd>`+`<kbd>`Shift `</kbd>`+`<kbd>`C `</kbd>` for copying. Likewise, you might have to use `<kbd>`Ctrl `</kbd>`+`<kbd>`Shift `</kbd>`+`<kbd>`V `</kbd>` for pasting.
+  - If a program you are running in your terminal is stuck, you can force stop it using <kbd>Ctrl</kbd>+<kbd>C</kbd>.
+  - As this shortcut is taken, you need to use <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>C</kbd> for copying. Likewise, you might have to use <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>V</kbd> for pasting.
 
 ## What's the difference between Git and GitHub?
 
@@ -156,7 +156,7 @@
 ## How to set up WSL
 
 - During the project, we will need to use a Bash terminal at some point. If you use Linux or MacOS, that's not a problem for you, but if you are a Windows user like me, and you still want to be able to run a Unix-like system on your computer, there is a great solution that doesn't even require risking corrupting your system 🙂
-- The simplest way is to install the Windows Subsystem for Linux (aka WSL). Your computer integrates a Linux kernel, which Windows can use to make calls directly to Linux, just as if you had a second operating system. It is very lightweit, so you will not need more than 1-2 GB of free disk space.
+- The simplest way is to install the Windows Subsystem for Linux (aka WSL). Your computer integrates a Linux kernel, which Windows can use to make calls directly to Linux, just as if you had a second operating system. It is very lightweight, so you will not need more than 1-2 GB of free disk space.
 - The installation process is very straightforward:
   - You can use either CMD or PowerShell for this, I would recommend PowerShell, but it doesn't really matter.
   - Install WSL with an Ubuntu distribution by default: `wsl --install` - Note: if `wsl` doesn't work, try to use `wsl.exe` instead.
@@ -164,7 +164,7 @@
   - List available distributions: `wsl -l -o` - Note: You can have several distributions installed, and then switch between them upon starting WSL, using `wsl -d <distribution_name`.
 - I recommend you to install the default Ubuntu distribution for now. This is the one I will use in my next examples.
 - Once WSL is installed, restart your computer.
-- You can now open your terminal and run `wsl` to start WSL. Even better, you can call the program directly, using `<kbd>`Win `</kbd>`+`<kbd>`R `</kbd>`, then typing `wsl`.
+- You can now open your terminal and run `wsl` to start WSL. Even better, you can call the program directly, using <kbd>Win</kbd>+<kbd>R</kbd>, then typing `wsl`.
 - For the first launch, you will have to set up a password for your super user (`sudo`). You will use it quite a lot, so don't take something overcomplicated; 6 letters is enough.
 - In case you forget your password, run `wsl -u root`. This will connect you to WSL directly as a super user. You can then type `passwd <username>` to reset your password.
 - You have your Linux home directory located at `~/` (shortcut for `/home/<username>`), but you can also access your Windows user directory from within WSL at `/mnt/c/Users/<username>`.
@@ -204,9 +204,9 @@ Host nancy.g5k
   ProxyJump <username>@access.grid5000.fr
 ```
 
-- If the formatting is broken, replace the spaces by one indentation (using `<kbd>`TAB `</kbd>`).
+- If the formatting is broken, replace the spaces by one indentation (using <kbd>TAB</kbd>).
 - To save and quit:
-  - Nano: Press `<kbd>`Ctrl `</kbd>`+`<kbd>`S `</kbd>`, then `<kbd>`Ctrl `</kbd>`+`<kbd>`X `</kbd>`.
+  - Nano: Press <kbd>Ctrl</kbd>+<kbd>S</kbd>, then <kbd>Ctrl</kbd>+<kbd>X</kbd>.
   - Vim: Type `:wq` in normal mode.
 - You should now be able to connect directly to the servers in Nancy using just `ssh nancy.g5k` 🥳
 - Even better, you can add an alias to shorten this command even more:
