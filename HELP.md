@@ -15,7 +15,7 @@
 
 - In this guide, I will show commands for 3 languages, CMD, PowerShell and Bash:
   - CMD is used on Windows. It's less powerful than PowerShell, I personally don't like it, but it's totally okay for what we do. You should know you are using CMD if typing the command `ls` gives you an error.
-  - PowerShell is the newer terminal language used by Windows. It is the default language in the terminal integrated to VS Code. It supports autocompletion using `<kbd>`TAB `</kbd>`.
+  - PowerShell is the newer terminal language used by Windows. It is the default language in the terminal integrated to VS Code. It supports autocompletion using `<kbd>`TAB`</kbd>`.
   - Bash is used on MacOS and Linux. You can also run it natively on Windows through WSL, which I will cover later in this guide.
 
 ## Useful terminal commands
