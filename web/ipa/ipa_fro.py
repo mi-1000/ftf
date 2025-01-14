@@ -4,29 +4,29 @@ import unicodedata
 from typing import Literal
 
 TILDE = "\u0303"
-csourde = r"[ptkfsçx]"
-double_consonne = r"(nn|mm)"
+voiceless_consonant = r"[ptkfsçx]"
+double_consonant = r"(nn|mm)"
 zsv = r"[zsv]"
-voyelle_api_pas_latine = r"[ɑəɛ]"
-voyelle_sans_crochets = "aeiouyæœéèêëàâùûüïîÿ"
-consonne_sans_crochets = "bcçdfghjklmnpqrstvwxz"
-voyelle = rf"[{voyelle_sans_crochets}]"
-consonne = rf"[{consonne_sans_crochets}]"
-lettre = rf"[{voyelle_sans_crochets}{consonne_sans_crochets}]"
+non_latin_ipa_vowel = r"[ɑəɛ]"
+vowel_no_brackets = "aeiouyæœéèêëàâùûüïîÿ"
+consonant_no_brackets = "bcçdfghjklmnpqrstvwxz"
+vowel = rf"[{vowel_no_brackets}]"
+consonant = rf"[{consonant_no_brackets}]"
+letter = rf"[{vowel_no_brackets}{consonant_no_brackets}]"
 
 data = {
-    # Cas particuliers
+    # Particular cases
     r"aim\b": {"ear": "ɛ̃m", "lat": "ɛ̃m"},
-    r"oian\b": {"ear": "weJãn", "lat": "weJã"}, # J majuscule pour l'instant pour ne pas mélanger l'API et les caractères latins
-    r"oien\b": {"ear": "weJãn", "lat": "weJã"},
+    r"oian\b": {"ear": "wEJãn", "lat": "wEJã"}, # Uppercase E/J for now, so as to not mix up between IPA and latin chars, will change back later
+    r"oien\b": {"ear": "wEJɛ̃n", "lat": "wEJɛ̃"},
     r"aign": {"ear": "aJɳ", "lat": "aɳ"},
     r"eign": {"ear": "ɛJɳ", "lat": "ɛɳ"},
     r"ign\b": {"ear": "ɳ", "lat": "ɳ"},
-    r"ing\b": {"ear": "ŋ", "lat": "ŋ"},
-    r"oie": {"ear": "oi", "lat": "oi"}, # Sera transformé plus tard
+    r"ing\b": {"ear": "iŋ", "lat": "iŋ"},
+    r"oie": {"ear": "oi", "lat": "oi"}, # Will be changed later
     
-    # Di- et triphtongues
-    r"eau": {"ear": "iao", "lat": "Eao"}, # Pareil pour e
+    # Di- and triphtongs
+    r"eau": {"ear": "iao", "lat": "Eao"}, # Same
     r"ieu": {"ear": "Jeu", "lat": "Jeu"},
     r"uou": {"ear": "uou", "lat": "u̯ou"},
     r"oi": {"ear": "ɔJ", "lat": "wɛ"},
@@ -38,7 +38,7 @@ data = {
     r"ou": {"ear": "u", "lat": "u"},
     r"oe": {"ear": "wɛ", "lat": "œ"},
     
-    # Groupes
+    # Groups
     r"sch": {"ear": "ʃ", "lat": "ʃ"},
     r"ch": {"ear": "tʃ", "lat": "ʃ"},
     r"ge": {"ear": "d͡ʒE", "lat": "d͡ʒE"},
@@ -49,17 +49,17 @@ data = {
     
     r"os": {
         "ear": "os",
-        "lat": "oː",  # O long
+        "lat": "oː",  # Long O
     },
     r"or": {
         "ear": "ɔr",
         "lat": "ɔr",
     },
-    rf"ol({consonne}|\b)": {
+    rf"ol({consonant}|\b)": {
         "ear": r"ɔl\1",
         "lat": r"u\1",
     },
-    rf"ol({voyelle})": {
+    rf"ol({vowel})": {
         "ear": r"ɔl\1",
         "lat": r"ɔl\1",
     },
@@ -71,29 +71,29 @@ data = {
     r"un": {"ear": "œ̃n", "lat": "œ̃"},
     r"oin": {"ear": "wɛ̃n", "lat": "wɛ̃"},
 
-    # Diphthongues
-    rf"({lettre})ai({lettre})": {
+    # Diphthongs
+    rf"({letter})ai({letter})": {
         "ear": r"\1aJ\2",
         "lat": r"\1ɛ\2",
     },
     r"ai": {"ear": "EJ", "lat": "E"},
     
-    # Consonnes finales
-    r"t\b": {  # -t final
-        "ear": "θ",  # jusqu'au XIè siècle
+    # Final consonants
+    r"t\b": {  # Final -t 
+        "ear": "θ",  # Until XIth century
         "lat": "t",
     },
-    r"z\b": {  # -z final
+    r"z\b": {  # Final -z 
     "ear": "t͡s",
     "lat": "s",
     },
-    rf"({voyelle}{TILDE}?)z\b": {  # Vérifie si une voyelle nasalisée précède le "z" final
-    "ear": r"\1t͡s",  # Conserve la nasalisation en phonétique
-    "lat": r"\1s",    # Conserve la nasalisation en latin
+    rf"({vowel}{TILDE}?)z\b": {  # Check if nasalized vowel precedes final -z
+    "ear": r"\1t͡s",
+    "lat": r"\1s",
     },
-    r"s\b": {  # -s final
-        "ear": "s",  # jusqu'au XIIIè siècle
-        "lat": "",  # Non prononcé
+    r"s\b": {  # Final -s
+        "ear": "s",  # Until XIIIth century
+        "lat": "",  # Not pronounced
     },
     r"x\b": {
         "ear": "ɥs",
@@ -103,7 +103,7 @@ data = {
     r"c([e|i|y])": {"ear": r"t͡s\1", "lat": r"t͡s\1"},
     r"\bh": {"ear": "", "lat": ""},
 
-    # Consonnes simples et groupes
+    # Simple consonants and groups
     r"c": {"ear": "k", "lat": "k"},
     r"ç": {"ear": "s", "lat": "s"},
     r"s": {"ear": "s", "lat": "s"},
@@ -113,15 +113,15 @@ data = {
     r"y": {"ear": "j", "lat": "j"},
     r"m": {"ear": "m", "lat": "m"},
     r"n": {"ear": "n", "lat": "n"},
-    r"r": {"ear": "r", "lat": "r"},  # R roulé
+    r"r": {"ear": "r", "lat": "r"},  # Rolled R
     r"f": {"ear": "f", "lat": "f"},
     r"v": {"ear": "v", "lat": "v"},
     r"p": {"ear": "p", "lat": "p"},
     r"b": {"ear": "b", "lat": "b"},
     
-    r"J": {"ear": "j", "lat": "j"}, # Maintenant qu'on a converti la lettre j on remet l'API
+    r"J": {"ear": "j", "lat": "j"}, # Now we converted letter j we revert IPA
 
-    # Voyelles simples et nasales
+    # Simple vowels and nasals
     r"i": {"ear": "i", "lat": "i"},
     r"y": {"ear": "i", "lat": "i"},
     r"ÿ": {"ear": "i", "lat": "i"},
@@ -139,33 +139,33 @@ data = {
     r"è": {"ear": "ɛ", "lat": "ɛ"},
     r"ê": {"ear": "ɛː", "lat": "ɛː"},
     r"a": {"ear": "a", "lat": "a"},
-    rf"o({zsv})": { # pareil qu'après sauf devant z, s, v
+    rf"o({zsv})": { # Same as under except before z, s, v
         "ear": r"oː\1", # "chose"
         "lat": r"oː\1",
     },
-    rf"o({double_consonne})": {  # ò ouvert suivi de 2 consonnes
+    rf"o({double_consonant})": {  # Open ò followed by 2 consonants
         "ear": r"ɔ\1",  # "bonne"
         "lat": r"ɔ\1",
     },
-    r"o": {"ear": "o", "lat": "u"},  # Atone libre / tonique entravé
+    r"o": {"ear": "o", "lat": "u"},
     
-    r"E": {"ear": "e", "lat": "e"}, # On rechange le e
+    r"E": {"ear": "e", "lat": "e"}, # Changing back e
     
     rf"y(m|n)": {"ear": r"i\1", "lat": r"i\1"},
     
-    rf"({voyelle}|{voyelle_api_pas_latine})(ː?)m({consonne})": {  # Nasalisation par "m"
+    rf"({vowel}|{non_latin_ipa_vowel})(ː?)m({consonant})": {  # Nasalization through "m"
         "ear": rf"\1{TILDE}\2m\3",
         "lat": rf"\1{TILDE}\2\3",
     },
-    rf"({voyelle}|{voyelle_api_pas_latine})(ː?)n({consonne})": {  # Nasalisation par "n"
+    rf"({vowel}|{non_latin_ipa_vowel})(ː?)n({consonant})": {  # Nasalization through "n"
         "ear": rf"\1{TILDE}\2n\3",
         "lat": rf"\1{TILDE}\2\3",
     },
-    rf"({voyelle}|{voyelle_api_pas_latine})(ː?)m({voyelle})": {  # Nasalisation par "m"
+    rf"({vowel}|{non_latin_ipa_vowel})(ː?)m({vowel})": {
         "ear": rf"\1{TILDE}\2m\3",
         "lat": rf"\1{TILDE}m\2\3",
     },
-    rf"({voyelle}|{voyelle_api_pas_latine})(ː?)n({voyelle})": {  # Nasalisation par "n"
+    rf"({vowel}|{non_latin_ipa_vowel})(ː?)n({vowel})": {
         "ear": rf"\1{TILDE}\2n\3",
         "lat": rf"\1{TILDE}n\2\3",
     },
@@ -174,9 +174,9 @@ data = {
 def clean(text: str) -> str:
     text = text.lower()
     text = unicodedata.normalize("NFKC", text)
-    text = re.sub(r"\s+", " ", text) # Remplacement des sauts de ligne, tabulations etc. par un espace simple
-    text = re.sub(rf"[^{voyelle_sans_crochets}{consonne_sans_crochets}\s]", "", text) # Suppression des caractères non autorisés
-    text = re.sub(r"\s+", " ", text) # Remplacement des multiples espaces nouvellement créés
+    text = re.sub(r"\s+", " ", text) # Replacing line feeds, tabs etc. by a simple space
+    text = re.sub(rf"[^{vowel_no_brackets}{consonant_no_brackets}\s]", "", text) # Remove unauthorized chars
+    text = re.sub(r"\s+", " ", text) # Replacing multiple spaces newly created by a single one again
     text = text.strip()
     return text
 
