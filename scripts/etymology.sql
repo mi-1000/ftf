@@ -2,7 +2,6 @@
 -- version 5.2.1
 -- https://www.phpmyadmin.net/
 --
--- Host: mysql-zahranz.alwaysdata.net
 -- Generation Time: Dec 11, 2024 at 03:13 AM
 -- Server version: 10.11.9-MariaDB
 -- PHP Version: 7.4.33
@@ -18,7 +17,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `zahranz_ftf`
+-- Database: `ftf`
 --
 
 -- --------------------------------------------------------
