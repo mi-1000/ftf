@@ -5,19 +5,9 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-client = OpenAI(
-    api_key = "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",
-)
-    # api_key = os.environ.get("OPENAI_API_KEY"),
+api_key = os.environ.get("OPENAI_API_KEY")
 
-# Configurez votre clé API OpenAI
-
-# Dossier contenant les fichiers source et celui où stocker les fichiers traduits
-# source_folder = "old_french.txt"
-# output_folder = "translated_files"
-
-# Crée le dossier de sortie s'il n'existe pas
-# os.makedirs(output_folder, exist_ok=True)
+client = OpenAI(api_key = api_key)
 
 # Fonction pour appeler l'API OpenAI pour la traduction
 def translate_text(text, model="gpt-4o"):
