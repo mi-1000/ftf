@@ -18,11 +18,11 @@ Une application Flask permet également d'afficher les résultats de la traducti
 > Si vous débutez, vous pouvez vous référer à [HELP.md](./HELP.md) pour lire un guide contenant les commandes classiques générales et celles utiles pour ce projet.
 
 - Cloner le dépôt : `git clone https://github.com/mi-1000/ftf`
-- Créer un environnement virtuel : `python -m .venv venv`
+- Créer un environnement virtuel : `python -m venv .venv`
 - L'activer :
-  - Bash/zsh : `source venv/bin/activate` (Linux, MacOS, WSL2)
-  - CMD: `.\venv\Scripts\activate` (Windows)
-  - PowerShell : `.\venv\Scripts\Activate.ps1` (Windows)
+  - Bash/zsh : `source .venv/bin/activate` (Linux, MacOS, WSL2)
+  - CMD: `call .\.venv\Scripts\activate` (Windows)
+  - PowerShell : `.\.venv\Scripts\Activate.ps1` (Windows)
     - En cas d'erreur, entrer d'abord `Set-ExecutionPolicy RemoteSigned -Scope CurrentUser`
 - Installer les dépendances : `pip install -r requirements.txt`
   - Certains modèles utilisés devront être installés séparément (par exemple *via* `SpaCy` ou `Ollama`, se référer aux erreurs le cas échéant)
@@ -62,18 +62,17 @@ A Flask application also displays translation and phonetic transcription results
 
 ### Getting Started
 
-> If you’re just starting out, you can consult [HELP.md](./HELP.md) for a guide on typical commands in general, as well as those useful for this project.
+> If you’re beginning, you can consult [HELP.md](./HELP.md) for a guide on typical commands in general, as well as those useful for this project.
 
 - Clone the repository: `git clone https://github.com/mi-1000/ftf`
-- Create a virtual environment:
-`python -m .venv venv`
+- Create a virtual environment: `python -m venv .venv`
 - Activate it:
-  - Bash/zsh: `source venv/bin/activate` (Linux, MacOS, WSL2)
-  - CMD: `.\venv\Scripts\activate` (Windows)
-  - PowerShell: `.\venv\Scripts\Activate.ps1` (Windows)
+  - Bash/zsh: `source .venv/bin/activate` (Linux, MacOS, WSL2)
+  - CMD: `call .\.venv\Scripts\activate` (Windows)
+  - PowerShell: `.\.venv\Scripts\Activate.ps1` (Windows)
     - If you get an error, run `Set-ExecutionPolicy RemoteSigned -Scope CurrentUser` first
 - Install dependencies: `pip install -r requirements.txt`
-  - Some models used will need to be installed separately (for example via `SpaCy` or `Ollama`, refer to errors if necessary)
+  - Some models used will have to be installed separately (for example via `SpaCy` or `Ollama`, refer to errors if necessary)
 - Launch the Flask application:
   - Navigate to the `web` folder: `cd web`
   - Start the server: `flask run`
